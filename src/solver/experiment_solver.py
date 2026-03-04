@@ -1,7 +1,7 @@
 import torch
 from torch.utils.data import DataLoader
 from src.solver.base_solver import BaseSolver
-from src.data.dataset import VideoDataset
+from src.dataload.dataset import VideoDataset
 from src.models.agent import VideoAgent
 
 
