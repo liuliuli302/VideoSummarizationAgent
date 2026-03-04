@@ -1,0 +1,9 @@
+# 基线实验配置 - 覆盖默认参数
+experiment_name: "baseline_experiment_001"
+
+training:
+  epochs: 20
+  lr: 0.0005
+
+agent:
+  history_length: 10

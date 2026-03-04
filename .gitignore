@@ -1,0 +1,138 @@
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE 编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Python 字节码/缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+nox/
+.hypothesis/
+
+# 虚拟环境 / 包安装目录
+venv/
+env/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+conda-envs/
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+# 使用 pipenv 或 poetry 的话（如果不用可以删掉）
+Pipfile.lock
+poetry.lock
+# 本地打包安装文件
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/
+*.ipynb
+
+# 深度学习/机器学习相关
+## 数据集 (通常太大或不允许公开，不应提交)
+data/
+*.data
+*.csv
+*.h5
+*.hdf5
+*.arrow
+*.tfrecord
+*.lmdb
+
+## 模型权重/检查点 (体积大且可重新生成)
+*.pth
+*.pt
+*.pkl
+*.ckpt
+*.bin
+*.onnx
+*.pb
+*.h5
+*.hdf5
+*.weights
+*.model
+*.mar
+checkpoints/
+lightning_logs/
+wandb/
+runs/
+mlruns/
+mlartifacts/
+
+## 日志和输出文件
+logs/
+log/
+*.log
+*.out
+*.err
+outputs/
+results/
+samples/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.pdf
+*.html
+
+## 框架特定临时文件
+### PyTorch / TorchScript
+torch_compile_cache/
+### TensorFlow
+lightning_logs/
+### ONNX
+*.onnx
+
+# 环境变量文件 (通常包含秘钥)
+.env
+*.env
+config.local.yaml
+
+# Docker 相关（如果使用）
+*.pid
+docker-compose.override.yml
+.dockerignore
+
+# 项目专属的临时文件
+temp/
+tmp/
+*.tmp
+*.bak
+
+# 大文件或者不想上传的本地测试脚本
+scratch/
+playground/
+test_local.py
+dev/
