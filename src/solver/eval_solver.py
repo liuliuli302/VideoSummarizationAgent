@@ -1,49 +1,77 @@
+"""Evaluation solver for the legacy `VideoAgent` baseline."""
 
+from __future__ import annotations
+
+import json
+import os
+from typing import Any, Dict
+
+import torch
+
+from src.dataload.dataset import VideoDataset
+from src.models.agent import VideoAgent
 from src.solver.base_solver import BaseSolver
-from src.data.loader.dataset import VideoDataset
-from src.agent import VideoAgent
-import numpy as np
+
 
 class EvalSolver(BaseSolver):
-    def __init__(self, config):
+    """Evaluate the baseline agent against frame-level labels when available."""
+
+    def __init__(self, config: Dict[str, Any] | None = None):
         super().__init__(config)
-        self.dataset = VideoDataset(data_root=config.get('data_root', "data/raw/"))
-        
-        agent_config = config.get('agent_config', {})
-        self.agent = VideoAgent(agent_config)
+        video_config = self.config.get("video", {})
+        self.dataset = VideoDataset(
+            data_root=self.config.get("data_root", "data/raw"),
+            metadata_file=self.config.get("metadata_file"),
+            num_frames=int(video_config.get("num_frames", 16)),
+        )
+        self.agent = VideoAgent(self.config)
+        self.agent.vision_encoder.to(self.device)
+        self.agent.core_policy.to(self.device)
+        self.output_dir = self.config.get("eval_output_dir", os.path.join("outputs", "evaluation"))
 
-    def run(self):
-        print("Running evaluation task...")
-        self.run_evaluation(num_samples=self.config.get('num_samples', 5))
+    def run(self) -> Dict[str, float]:
+        num_samples = int(self.config.get("num_samples", 5))
+        metrics = self.run_evaluation(num_samples=num_samples)
+        self._save_metrics(metrics)
+        print(json.dumps(metrics, ensure_ascii=False, indent=2))
+        return metrics
 
-    def run_evaluation(self, num_samples=10):
-        print("Starting Evaluation...")
-        correct = 0
-        total = 0
-        
-        # Ensure agent is on device
-        if hasattr(self, 'device'):
-            self.agent.vision_encoder.to(self.device)
-            self.agent.core_policy.to(self.device)
+    def run_evaluation(self, num_samples: int = 10) -> Dict[str, float]:
+        sample_count = min(num_samples, len(self.dataset))
+        if sample_count == 0:
+            return {"samples": 0, "frame_accuracy": 0.0, "positive_rate": 0.0}
 
-        # Simple accuracy check on random samples
-        for i in range(min(num_samples, len(self.dataset))):
-            sample = self.dataset[i]
-            # Handle potential device mismatch if dataset returns CPU tensor
-            video = sample['video']
-            if hasattr(self, 'device'):
-                 video = video.to(self.device)
+        total_frames = 0
+        correct_frames = 0
+        positive_predictions = 0
 
-            observation = {"video": video}
-            self.agent.perceive(observation)
-            action, _ = self.agent.act()
-            
-            print(f"Sample {i}: Agent chose action {action}")
-            total += 1
-            # Random 'correct' for demo
-            if np.random.rand() > 0.5:
-                correct += 1
-                
-        accuracy = correct / total if total > 0 else 0
-        print(f"Evaluation Complete. Accuracy: {accuracy:.2f}")
+        with torch.no_grad():
+            for sample_idx in range(sample_count):
+                sample = self.dataset[sample_idx]
+                video_tensor = sample["video"].to(self.device)
+                label_tensor = sample["label"].to(self.device)
+                self.agent.perceive({"video": video_tensor})
+                actions, _ = self.agent.act()
+                predicted = actions.squeeze(0).float()
+                target = (label_tensor > 0).float()
 
+                if predicted.numel() != target.numel():
+                    min_length = min(predicted.numel(), target.numel())
+                    predicted = predicted[:min_length]
+                    target = target[:min_length]
+
+                correct_frames += int((predicted == target).sum().item())
+                total_frames += int(target.numel())
+                positive_predictions += int(predicted.sum().item())
+
+        return {
+            "samples": sample_count,
+            "frame_accuracy": round(correct_frames / max(1, total_frames), 4),
+            "positive_rate": round(positive_predictions / max(1, total_frames), 4),
+        }
+
+    def _save_metrics(self, metrics: Dict[str, float]) -> None:
+        os.makedirs(self.output_dir, exist_ok=True)
+        output_path = os.path.join(self.output_dir, "baseline_eval.json")
+        with open(output_path, "w", encoding="utf-8") as file_obj:
+            json.dump(metrics, file_obj, ensure_ascii=False, indent=2)

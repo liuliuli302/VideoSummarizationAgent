@@ -4,11 +4,6 @@ import json
 import os
 from typing import Any, Dict, Iterable, Optional, Sequence
 
-import matplotlib
-
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
-
 from src.evaluation.metrics import (
     coverage_score,
     diversity_score,
@@ -58,12 +53,19 @@ class EvaluationBenchmark:
         with open(metrics_path, "w", encoding="utf-8") as file_obj:
             json.dump(metrics, file_obj, ensure_ascii=False, indent=2)
 
-        self.plot_score_curve(
-            predicted_scores=predicted_scores,
-            gt_scores=gt_scores,
-            output_path=plot_path,
-            title=f"Score Curve - {video_id}",
-        )
+        try:
+            self.plot_score_curve(
+                predicted_scores=predicted_scores,
+                gt_scores=gt_scores,
+                output_path=plot_path,
+                title=f"Score Curve - {video_id}",
+            )
+        except Exception as exc:  # pragma: no cover - defensive fallback for mixed environments
+            metrics["plot_warning"] = f"plot generation skipped: {exc}"
+            with open(metrics_path, "w", encoding="utf-8") as file_obj:
+                json.dump(metrics, file_obj, ensure_ascii=False, indent=2)
+            with open(plot_path, "wb") as file_obj:
+                file_obj.write(b"")
 
         return {"metrics_path": metrics_path, "plot_path": plot_path}
 
@@ -74,6 +76,11 @@ class EvaluationBenchmark:
         output_path: str,
         title: str = "Score Curve",
     ) -> None:
+        import matplotlib
+
+        matplotlib.use("Agg")
+        import matplotlib.pyplot as plt
+
         pred_values = normalize_pred_scores(predicted_scores)
         gt_values = [float(item) for item in gt_scores]
         frame_indices = list(range(len(pred_values)))
