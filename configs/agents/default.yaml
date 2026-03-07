@@ -1,0 +1,29 @@
+agent:
+  backend: "rule_based"
+  hidden_dim: 256
+  action_space: 2
+  num_layers: 2
+  history_length: 10
+  roles:
+    - planner
+    - mainline
+    - novelty
+    - event
+    - temporal
+    - domain
+    - critic
+  prompts: {}
+  llm_model_name: null
+  temperature: 0.0
+  max_tokens: 0
+
+memory:
+  topk: 5
+  max_items_per_slot: 50
+  similarity_prune_threshold: 0.9
+
+ablation:
+  disable_planner: false
+  disable_critic: false
+  disable_domain: false
+  disable_memory: false

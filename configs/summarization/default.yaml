@@ -1,0 +1,39 @@
+summarization:
+  segment_length_sec: 30
+  budget_ratio: 0.15
+  window:
+    length_sec: 8
+    overlap_sec: 2
+    sample_rate: 1
+  selection:
+    min_label: "low"
+    allow_partial_segment: true
+  aggregation:
+    score_weights:
+      mainline:
+        强: 3.0
+        中: 1.5
+        弱: 0.0
+      novelty:
+        高: 2.0
+        中: 1.0
+        低: 0.0
+      event:
+        高: 2.0
+        中: 1.0
+        低: 0.0
+      temporal:
+        高: 1.0
+        中: 0.5
+        低: 0.0
+      domain:
+        高: 1.0
+        中: 0.5
+        低: 0.0
+      critic:
+        高: 1.5
+        中: 0.5
+        低: -0.5
+    decision_thresholds:
+      suggest_keep: 4.5
+      optional: 2.0

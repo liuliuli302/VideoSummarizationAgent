@@ -18,19 +18,19 @@ class EvalSolver(BaseSolver):
 
     def __init__(self, config: Dict[str, Any] | None = None):
         super().__init__(config)
-        video_config = self.config.get("video", {})
+        video_config = self.config.video
         self.dataset = VideoDataset(
-            data_root=self.config.get("data_root", "data/raw"),
-            metadata_file=self.config.get("metadata_file"),
-            num_frames=int(video_config.get("num_frames", 16)),
+            data_root=self.config.dataset.data_root,
+            metadata_file=self.config.dataset.metadata_file,
+            num_frames=int(video_config.num_frames),
         )
         self.agent = VideoAgent(self.config)
         self.agent.vision_encoder.to(self.device)
         self.agent.core_policy.to(self.device)
-        self.output_dir = self.config.get("eval_output_dir", os.path.join("outputs", "evaluation"))
+        self.output_dir = self.config.evaluation.output_dir
 
     def run(self) -> Dict[str, float]:
-        num_samples = int(self.config.get("num_samples", 5))
+        num_samples = int(self.config.evaluation.num_samples)
         metrics = self.run_evaluation(num_samples=num_samples)
         self._save_metrics(metrics)
         print(json.dumps(metrics, ensure_ascii=False, indent=2))

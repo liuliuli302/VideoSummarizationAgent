@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from typing import Any, Dict, List, Optional
 
+from src.config import build_runtime_config
 from src.datasets.schemas import Segment, VideoMeta, Window
 from src.perception.captioner import RuleBasedCaptioner
 from src.perception.text_encoder import WindowTextEncoder
@@ -13,16 +14,20 @@ class GlobalUnderstandingPipeline:
 
     def __init__(
         self,
+        config: Optional[Dict[str, Any]] = None,
+        visual_encoder=None,
         captioner: Optional[RuleBasedCaptioner] = None,
         text_encoder: Optional[WindowTextEncoder] = None,
-        sample_rate: int = 2,
+        sample_rate: Optional[int] = None,
     ) -> None:
-        if sample_rate <= 0:
-            raise ValueError(f"sample_rate must be positive, got {sample_rate}.")
+        self.config = build_runtime_config(config)
+        resolved_sample_rate = int(sample_rate or self.config.video.global_sample_rate)
+        if resolved_sample_rate <= 0:
+            raise ValueError(f"sample_rate must be positive, got {resolved_sample_rate}.")
 
-        self.captioner = captioner or RuleBasedCaptioner()
+        self.captioner = captioner or RuleBasedCaptioner(visual_encoder=visual_encoder)
         self.text_encoder = text_encoder or WindowTextEncoder()
-        self.sample_rate = sample_rate
+        self.sample_rate = resolved_sample_rate
 
     def build_global_context(
         self,

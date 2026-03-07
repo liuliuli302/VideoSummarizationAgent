@@ -1,0 +1,18 @@
+dataset:
+  name: "custom_video_folder"
+  data_root: "data/raw"
+  video_path: "data/raw/demo.mp4"
+  metadata_file: null
+  metadata_path: "data/metadata"
+  split: "val"
+  category_field_optional: true
+  asr_segments_optional: true
+
+video:
+  num_frames: 32
+  resolution: 224
+  frame_sample_rate: 1
+  global_sample_rate: 2
+  expected_time_units:
+    - frame
+    - second

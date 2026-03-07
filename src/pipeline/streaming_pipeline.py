@@ -11,6 +11,7 @@ from src.agents import (
     PlannerAgent,
     TemporalAgent,
 )
+from src.config import build_runtime_config
 from src.datasets.schemas import MemoryState, PlannerOutput, VideoMeta, Window, WindowFeature, WindowScore
 from src.memory import MemoryBank
 from src.perception import RuleBasedCaptioner, WindowFeatureBuilder, WindowTextEncoder, WindowVisualEncoder
@@ -39,21 +40,25 @@ class StreamingVideoSummarizationPipeline:
         counterfactual_critic: Optional[CounterfactualCritic] = None,
         aggregation_agent: Optional[AggregationAgent] = None,
     ) -> None:
-        self.config = config or {}
-        self.ablation_config = self.config.get("ablation", {})
-        self.optimization_config = self.config.get("optimization", {})
-        memory_config = self.config.get("memory", {})
-        aggregation_config = self.optimization_config.get("aggregation", {})
+        self.config = build_runtime_config(config)
+        self.ablation_config = self.config.ablation
+        self.optimization_config = self.config.summarization
+        memory_config = self.config.memory
+        aggregation_config = self.config.summarization.aggregation
 
-        self.global_pipeline = global_pipeline or GlobalUnderstandingPipeline()
-        self.visual_encoder = visual_encoder or WindowVisualEncoder()
+        self.visual_encoder = visual_encoder or WindowVisualEncoder(resolution=int(self.config.video.resolution))
         self.captioner = captioner or RuleBasedCaptioner(visual_encoder=self.visual_encoder)
+        self.global_pipeline = global_pipeline or GlobalUnderstandingPipeline(
+            config=self.config,
+            visual_encoder=self.visual_encoder,
+            captioner=self.captioner,
+        )
         self.text_encoder = text_encoder or WindowTextEncoder()
         self.feature_builder = feature_builder or WindowFeatureBuilder()
         self.memory_bank = memory_bank or MemoryBank(
-            topk=int(memory_config.get("topk", 5)),
-            max_items_per_slot=int(memory_config.get("max_items_per_slot", 50)),
-            similarity_prune_threshold=float(memory_config.get("similarity_prune_threshold", 0.9)),
+            topk=int(memory_config.topk),
+            max_items_per_slot=int(memory_config.max_items_per_slot),
+            similarity_prune_threshold=float(memory_config.similarity_prune_threshold),
         )
         self.planner_agent = planner_agent or PlannerAgent()
         self.mainline_agent = mainline_agent or MainlineAgent()
@@ -63,8 +68,8 @@ class StreamingVideoSummarizationPipeline:
         self.domain_agent = domain_agent or DomainAgent()
         self.counterfactual_critic = counterfactual_critic or CounterfactualCritic()
         self.aggregation_agent = aggregation_agent or AggregationAgent(
-            score_weights=aggregation_config.get("score_weights"),
-            decision_thresholds=aggregation_config.get("decision_thresholds"),
+            score_weights=aggregation_config.score_weights,
+            decision_thresholds=aggregation_config.decision_thresholds,
         )
 
     def run(
@@ -74,7 +79,7 @@ class StreamingVideoSummarizationPipeline:
         windows: List[Window],
         video_path: Optional[str] = None,
     ) -> Dict[str, Any]:
-        if not self.ablation_config.get("disable_memory", False):
+        if not self.ablation_config.disable_memory:
             self.memory_bank.reset()
         resolved_video_path = video_path or video_meta.file_path
         global_context = self.global_pipeline.build_global_context(
@@ -179,18 +184,18 @@ class StreamingVideoSummarizationPipeline:
             "decision_logs": decision_logs,
             "final_memory": self._memory_snapshot().to_dict(),
             "runtime_profile": {
-                "ablation": dict(self.ablation_config),
-                "optimization": dict(self.optimization_config),
+                "ablation": self.ablation_config.to_dict(),
+                "optimization": self.optimization_config.to_dict(),
             },
         }
 
     def _memory_snapshot(self) -> MemoryState:
-        if self.ablation_config.get("disable_memory", False):
+        if self.ablation_config.disable_memory:
             return MemoryState()
         return self.memory_bank.snapshot()
 
     def _memory_read(self, current_summary: str) -> Dict[str, list[str]]:
-        if self.ablation_config.get("disable_memory", False):
+        if self.ablation_config.disable_memory:
             return {"selected_ctx": [], "story_ctx": [], "temporal_ctx": []}
         return self.memory_bank.read(current_summary)
 
@@ -200,7 +205,7 @@ class StreamingVideoSummarizationPipeline:
         final_decision: str,
         is_selected: bool,
     ) -> MemoryState:
-        if self.ablation_config.get("disable_memory", False):
+        if self.ablation_config.disable_memory:
             return MemoryState()
         return self.memory_bank.update(
             window_feature=window_feature,
@@ -214,7 +219,7 @@ class StreamingVideoSummarizationPipeline:
         summary_goal: str,
         memory_state: MemoryState,
     ) -> PlannerOutput:
-        if self.ablation_config.get("disable_planner", False):
+        if self.ablation_config.disable_planner:
             return PlannerOutput(
                 route_plan_text="Priority Experts: MainlineAgent -> NoveltyAgent -> EventAgent",
                 focus_points=["使用静态专家顺序作为消融对照"],
@@ -227,7 +232,7 @@ class StreamingVideoSummarizationPipeline:
         )
 
     def _build_domain_output(self, video_theme: str, domain_hint: str, window_summary: str) -> str:
-        if self.ablation_config.get("disable_domain", False):
+        if self.ablation_config.disable_domain:
             return (
                 "Domain Match: 低\n"
                 "Policy Suggestion: 领域专家已关闭，避免提供领域加成。\n"
@@ -240,7 +245,7 @@ class StreamingVideoSummarizationPipeline:
         )
 
     def _build_critic_output(self, memory_state: MemoryState, window_summary: str, summary_goal: str) -> str:
-        if self.ablation_config.get("disable_critic", False):
+        if self.ablation_config.disable_critic:
             return (
                 "Marginal Contribution: 中\n"
                 "Loss If Removed: Counterfactual Critic 已关闭，未提供额外边际贡献校准。\n"

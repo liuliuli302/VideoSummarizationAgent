@@ -36,7 +36,34 @@ data/
 	processed/
 ```
 
-## 3. 运行方式
+## 3. 配置系统
+
+项目已改为配置驱动模式。主配置入口是 [configs/default.yaml](configs/default.yaml)，
+并通过 `defaults` 字段递归合并以下子配置：
+
+```text
+configs/
+	default.yaml
+	datasets/default.yaml
+	models/default.yaml
+	agents/default.yaml
+	summarization/default.yaml
+	experiment/default.yaml
+	evaluation/default.yaml
+	experiment/baseline.yaml
+	model/video_encoder.yaml
+```
+
+代码中统一使用如下访问方式：
+
+- `config.dataset.data_root`
+- `config.model.embed_dim`
+- `config.agent.hidden_dim`
+- `config.summarization.window.length_sec`
+- `config.experiment.batch_size`
+- `config.evaluation.num_samples`
+
+## 4. 运行方式
 
 ### 3.1 生成视频摘要
 
@@ -54,7 +81,7 @@ python main.py --task summary --video_path data/raw/demo.mp4
 ### 3.2 运行基线实验
 
 ```bash
-python main.py --task experiment --config configs/default.yaml
+python main.py --task experiment --config configs/experiment/baseline.yaml
 ```
 
 ### 3.3 单视频基线推理
@@ -69,7 +96,13 @@ python main.py --task inference --video_path data/raw/demo.mp4
 python main.py --task eval --config configs/default.yaml --num_samples 10
 ```
 
-## 4. 输出目录
+也可以仅通过修改 YAML 切换实验设置：
+
+```bash
+python main.py --config configs/default.yaml --task summary
+```
+
+## 5. 输出目录
 
 ```text
 outputs/
@@ -78,7 +111,7 @@ outputs/
 	generated_videos/
 ```
 
-## 5. 核心流程
+## 6. 核心流程
 
 ```text
 main.py
@@ -90,7 +123,7 @@ main.py
   -> 结果保存
 ```
 
-## 6. 常见问题
+## 7. 常见问题
 
 ### 6.1 没有 GPU
 

@@ -1,6 +1,9 @@
-model_name: "video_mae_vit_base"
-patch_size: 16
-embed_dim: 768
-pretrained: true
-weights_path: "/path/to/weights.pth"
-hidden_size: 512
+defaults:
+	- ../default.yaml
+
+model:
+	name: "resnet18"
+	feature_extractor: "resnet18"
+	embed_dim: 512
+	pretrained: false
+	weights_path: null

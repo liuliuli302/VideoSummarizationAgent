@@ -1,96 +1,31 @@
-# Step 1: 统一数据契约与配置示例
+defaults:
+  - datasets/default.yaml
+  - models/default.yaml
+  - agents/default.yaml
+  - summarization/default.yaml
+  - experiment/default.yaml
+  - evaluation/default.yaml
+
 project:
   name: "VideoSummarizationAgent"
-  schema_version: "1.0"
+  schema_version: "2.0"
+  seed: 42
 
-# 与现有 solver 兼容的基础配置
-data_root: "data/raw"
-video_path: "data/raw/demo.mp4"
-num_samples: 5
-epochs: 10
-
-model_config:
-  model_name: "resnet18"
-  embed_dim: 512
-
-agent_config:
-  hidden_dim: 256
-  action_space: 2
-
-# 数据契约相关配置
-data:
-  metadata_path: "data/metadata"
-  category_field_optional: true
-  asr_segments_optional: true
-
-video:
-  num_frames: 32
-  resolution: 224
-  expected_time_units:
-    - frame
-    - second
-
-segment:
-  coarse_segment_sec: 30
-
-window:
-  win_len_sec: 8
-  overlap_sec: 2
-  sample_rate: 1
-
-summary:
-  budget_ratio: 0.15
-
-memory:
-  topk: 5
-  max_items_per_slot: 50
-  similarity_prune_threshold: 0.9
-
-optimization:
-  aggregation:
-    score_weights:
-      mainline:
-        强: 3.0
-        中: 1.5
-        弱: 0.0
-      novelty:
-        高: 2.0
-        中: 1.0
-        低: 0.0
-      event:
-        高: 2.0
-        中: 1.0
-        低: 0.0
-      temporal:
-        高: 1.0
-        中: 0.5
-        低: 0.0
-      domain:
-        高: 1.0
-        中: 0.5
-        低: 0.0
-      critic:
-        高: 1.5
-        中: 0.5
-        低: -0.5
-    decision_thresholds:
-      suggest_keep: 4.5
-      optional: 2.0
-  selection:
-    min_label: "low"
-    allow_partial_segment: true
-
-ablation:
-  disable_planner: false
-  disable_critic: false
-  disable_domain: false
-  disable_memory: false
-
-training:
-  batch_size: 2
-  epochs: 10
-  lr: 0.0001
-  log_interval: 10
+paths:
+  output_root: "outputs"
+  summary_output_dir: "outputs/inference_results"
+  evaluation_output_dir: "outputs/evaluation"
+  ablation_output_dir: "outputs/ablation"
+  checkpoint_dir: "checkpoints"
 
 logging:
-  wandb_project: "video-agent-project"
+  level: "INFO"
+  wandb:
+    enabled: false
+    project: "video-agent-project"
+
+llm:
+  backend: "rule_based"
+  model_name: null
+  temperature: 0.0
+  max_tokens: 0

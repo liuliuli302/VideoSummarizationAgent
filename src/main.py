@@ -6,30 +6,15 @@ import argparse
 import json
 import os
 import sys
-from typing import Any, Dict, Optional
-
-import yaml
+from typing import Any, Optional
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 if PROJECT_ROOT not in sys.path:
     sys.path.append(PROJECT_ROOT)
 
+from src.config import ConfigNode, load_config, set_nested_value
 from src.pipeline import VideoSummaryInferenceEngine
 from src.solver import EvalSolver, ExperimentSolver, InferenceSolver
-
-
-def load_config(config_path: str) -> Dict[str, Any]:
-    """Load a YAML config file.
-
-    Missing configs are treated as an empty override to keep CLI usage simple for
-    quick experiments.
-    """
-    if not os.path.exists(config_path):
-        print(f"Config file not found: {config_path}, using defaults.")
-        return {}
-
-    with open(config_path, "r", encoding="utf-8") as file_obj:
-        return yaml.safe_load(file_obj) or {}
 
 
 def load_optional_json(json_path: Optional[str]) -> Optional[Any]:
@@ -62,19 +47,19 @@ def build_parser() -> argparse.ArgumentParser:
     return parser
 
 
-def merge_cli_overrides(config: Dict[str, Any], args: argparse.Namespace) -> Dict[str, Any]:
+def merge_cli_overrides(config: ConfigNode, args: argparse.Namespace) -> ConfigNode:
     """Merge lightweight CLI overrides into the loaded YAML configuration."""
-    merged_config = dict(config)
-    merged_config["video_path"] = args.video_path
-    merged_config["epochs"] = args.epochs
-    merged_config["num_samples"] = args.num_samples
+    merged_config = config.copy()
+    set_nested_value(merged_config, "dataset.video_path", args.video_path)
+    set_nested_value(merged_config, "experiment.epochs", args.epochs)
+    set_nested_value(merged_config, "evaluation.num_samples", args.num_samples)
 
     if args.metadata_file:
-        merged_config["metadata_file"] = args.metadata_file
+        set_nested_value(merged_config, "dataset.metadata_file", args.metadata_file)
     return merged_config
 
 
-def run_summary_task(config: Dict[str, Any], args: argparse.Namespace) -> Dict[str, Any]:
+def run_summary_task(config: ConfigNode, args: argparse.Namespace) -> dict[str, Any]:
     """Run the end-to-end summary engine and return the result payload."""
     engine = VideoSummaryInferenceEngine(config)
     return engine.run(

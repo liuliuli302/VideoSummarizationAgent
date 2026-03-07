@@ -21,8 +21,8 @@ class VisionEncoder(nn.Module):
     def __init__(self, config: Dict[str, Any] | None = None):
         super().__init__()
         config = config or {}
-        self.embed_dim = int(config.get("embed_dim", 512))
-        self.model_name = str(config.get("model_name", "resnet18"))
+        self.embed_dim = int(config.get("embed_dim", config.get("embedding_dim", 512)))
+        self.model_name = str(config.get("name", config.get("model_name", "resnet18")))
         use_pretrained = bool(config.get("pretrained", False))
 
         if self.model_name != "resnet18":

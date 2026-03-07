@@ -17,8 +17,8 @@ class InferenceSolver(BaseSolver):
         self.agent = VideoAgent(self.config)
         self.agent.vision_encoder.to(self.device)
         self.agent.core_policy.to(self.device)
-        self.video_path = self.config.get("video_path", "data/raw/demo.mp4")
-        self.num_frames = int(self.config.get("video", {}).get("num_frames", 16))
+        self.video_path = self.config.dataset.video_path
+        self.num_frames = int(self.config.video.num_frames)
 
     def run(self) -> None:
         print(f"Running inference on {self.video_path}")

@@ -1,0 +1,29 @@
+evaluation:
+  num_samples: 5
+  output_dir: "outputs/evaluation"
+  metrics:
+    - precision
+    - recall
+    - fscore
+    - coverage
+    - diversity
+    - spearman
+    - kendall
+  ablation_variants:
+    full_system: {}
+    no_planner:
+      ablation:
+        disable_planner: true
+    no_critic:
+      ablation:
+        disable_critic: true
+    no_domain:
+      ablation:
+        disable_domain: true
+    no_memory:
+      ablation:
+        disable_memory: true
+    compact_memory:
+      memory:
+        max_items_per_slot: 8
+        similarity_prune_threshold: 0.7

@@ -3,16 +3,10 @@ import json
 import os
 import sys
 
-import yaml
-
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
+from src.config import load_config
 from src.evaluation import TrainingFreeAblationRunner
-
-
-def load_yaml(path: str):
-    with open(path, 'r', encoding='utf-8') as file_obj:
-        return yaml.safe_load(file_obj) or {}
 
 
 def load_json(path: str):
@@ -31,7 +25,7 @@ def main():
     parser.add_argument("--gt_scores_path", type=str, default=None, help="Optional GT scores json path")
     args = parser.parse_args()
 
-    config = load_yaml(args.config)
+    config = load_config(args.config)
     asr_segments = load_json(args.asr_path) if args.asr_path else None
     gt_scores = load_json(args.gt_scores_path) if args.gt_scores_path else None
 

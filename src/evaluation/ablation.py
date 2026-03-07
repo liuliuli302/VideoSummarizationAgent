@@ -8,6 +8,7 @@ from typing import Any, Dict, Iterable, Optional, Sequence
 
 from src.evaluation.benchmark import EvaluationBenchmark
 from src.pipeline import VideoSummaryInferenceEngine
+from src.config import build_runtime_config
 
 
 DEFAULT_ABLATION_VARIANTS: Dict[str, Dict[str, Any]] = {
@@ -28,7 +29,7 @@ class TrainingFreeAblationRunner:
         base_config: Optional[Dict[str, Any]] = None,
         benchmark: Optional[EvaluationBenchmark] = None,
     ) -> None:
-        self.base_config = base_config or {}
+        self.base_config = build_runtime_config(base_config).to_dict()
         self.benchmark = benchmark or EvaluationBenchmark()
 
     def run(
@@ -42,7 +43,8 @@ class TrainingFreeAblationRunner:
         variants: Optional[Dict[str, Dict[str, Any]]] = None,
     ) -> Dict[str, Any]:
         os.makedirs(output_dir, exist_ok=True)
-        resolved_variants = variants or DEFAULT_ABLATION_VARIANTS
+        config_variants = self.base_config.get("evaluation", {}).get("ablation_variants")
+        resolved_variants = variants or config_variants or DEFAULT_ABLATION_VARIANTS
 
         report: Dict[str, Any] = {
             "video_path": video_path,

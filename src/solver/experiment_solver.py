@@ -19,32 +19,33 @@ class ExperimentSolver(BaseSolver):
 
     def __init__(self, config: Dict[str, Any] | None = None):
         super().__init__(config)
-        video_config = self.config.get("video", {})
-        training_config = self.config.get("training", {})
+        video_config = self.config.video
+        experiment_config = self.config.experiment
 
         self.dataset = VideoDataset(
-            data_root=self.config.get("data_root", "data/raw"),
-            metadata_file=self.config.get("metadata_file"),
-            num_frames=int(video_config.get("num_frames", 16)),
+            data_root=self.config.dataset.data_root,
+            metadata_file=self.config.dataset.metadata_file,
+            num_frames=int(video_config.num_frames),
         )
         self.dataloader = DataLoader(
             self.dataset,
-            batch_size=int(training_config.get("batch_size", 2)),
+            batch_size=int(experiment_config.batch_size),
             shuffle=True,
+            num_workers=int(experiment_config.num_workers),
         )
         self.agent = VideoAgent(self.config)
         self.agent.vision_encoder.to(self.device)
         self.agent.core_policy.to(self.device)
 
-        self.mode = str(self.config.get("mode", "inference"))
+        self.mode = str(experiment_config.mode)
         self.criterion = nn.BCEWithLogitsLoss()
         self.optimizer = optim.Adam(
             self.agent.core_policy.parameters(),
-            lr=float(training_config.get("lr", 1e-4)),
+            lr=float(experiment_config.lr),
         )
 
     def run(self) -> None:
-        epochs = int(self.config.get("training", {}).get("epochs", self.config.get("epochs", 1)))
+        epochs = int(self.config.experiment.epochs)
         print(f"Starting {self.mode} loop for {epochs} epoch(s)")
 
         for epoch_idx in range(epochs):

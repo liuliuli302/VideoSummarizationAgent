@@ -4,6 +4,7 @@ import json
 import os
 from typing import Any, Dict, List, Optional
 
+from src.config import build_runtime_config
 from src.preprocessing import build_fixed_segments, build_sliding_windows, load_video_meta
 from src.pipeline.streaming_pipeline import StreamingVideoSummarizationPipeline
 from src.scoring import BudgetedSummarySelector, FrameScoreFusion
@@ -19,14 +20,14 @@ class VideoSummaryInferenceEngine:
         frame_fusion: Optional[FrameScoreFusion] = None,
         selector: Optional[BudgetedSummarySelector] = None,
     ) -> None:
-        self.config = config or {}
-        selection_config = self.config.get("optimization", {}).get("selection", {})
+        self.config = build_runtime_config(config)
+        selection_config = self.config.summarization.selection
         self.pipeline = pipeline or StreamingVideoSummarizationPipeline(config=self.config)
         self.frame_fusion = frame_fusion or FrameScoreFusion()
         self.selector = selector or BudgetedSummarySelector(
             frame_fusion=self.frame_fusion,
-            min_label=selection_config.get("min_label", "low"),
-            allow_partial_segment=bool(selection_config.get("allow_partial_segment", True)),
+            min_label=selection_config.min_label,
+            allow_partial_segment=bool(selection_config.allow_partial_segment),
         )
 
     def run(
@@ -46,9 +47,9 @@ class VideoSummaryInferenceEngine:
         segments = build_fixed_segments(video_meta, self._segment_length_sec())
         windows = build_sliding_windows(
             video_meta=video_meta,
-            win_len_sec=self._window_config().get("win_len_sec", 8),
-            overlap_sec=self._window_config().get("overlap_sec", 2),
-            sample_rate=self._window_config().get("sample_rate", 1),
+            win_len_sec=self.config.summarization.window.length_sec,
+            overlap_sec=self.config.summarization.window.overlap_sec,
+            sample_rate=self.config.summarization.window.sample_rate,
         )
 
         pipeline_result = self.pipeline.run(
@@ -104,16 +105,16 @@ class VideoSummaryInferenceEngine:
             json.dump(result, file_obj, ensure_ascii=False, indent=2)
 
     def _segment_length_sec(self) -> float:
-        return float(self.config.get("segment", {}).get("coarse_segment_sec", 30))
+        return float(self.config.summarization.segment_length_sec)
 
     def _window_config(self) -> Dict[str, Any]:
-        return self.config.get("window", {})
+        return self.config.summarization.window.to_dict()
 
     def _budget_value(self) -> int | float:
-        return self.config.get("summary", {}).get("budget_ratio", 0.15)
+        return self.config.summarization.budget_ratio
 
     def _default_output_path(self, video_id: str) -> str:
-        output_dir = os.path.join("outputs", "inference_results")
+        output_dir = self.config.paths.summary_output_dir
         return os.path.join(output_dir, f"{video_id}_summary.json")
 
     def _deserialize_window_scores(self, serialized_scores: List[Dict[str, Any]]):

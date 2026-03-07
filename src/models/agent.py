@@ -7,6 +7,7 @@ from typing import Any, Dict, Tuple
 import torch
 import torch.nn.functional as F
 
+from src.config import build_runtime_config
 from src.models.networks import AgentCore, VisionEncoder
 from src.utils.tools import VideoTools
 
@@ -15,13 +16,18 @@ class VideoAgent:
     """Simple perception-policy agent used by legacy baseline experiments."""
 
     def __init__(self, config: Dict[str, Any] | None = None):
-        self.config = config or {}
-        model_config = self.config.get("model_config", {})
-        agent_config = self.config.get("agent_config", {})
+        self.config = build_runtime_config(config)
+        model_config = self.config.model
+        agent_config = self.config.agent
 
         self.vision_encoder = VisionEncoder(model_config)
-        visual_dim = getattr(self.vision_encoder, "embed_dim", int(model_config.get("embed_dim", 512)))
-        self.core_policy = AgentCore(visual_dim=visual_dim, **agent_config)
+        visual_dim = getattr(self.vision_encoder, "embed_dim", int(model_config.embed_dim))
+        self.core_policy = AgentCore(
+            visual_dim=visual_dim,
+            hidden_dim=int(agent_config.hidden_dim),
+            action_space=int(agent_config.action_space),
+            num_layers=int(agent_config.num_layers),
+        )
         self.tools = VideoTools()
         self.current_state_feat: torch.Tensor | None = None
 
