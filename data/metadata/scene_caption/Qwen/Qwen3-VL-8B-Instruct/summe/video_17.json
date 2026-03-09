@@ -1,0 +1,36 @@
+{
+  "video": "Saving dolphines",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Saving dolphines.mp4",
+  "caption_model": "qwen",
+  "model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80-120 words).\"\n",
+  "num_frames": 10,
+  "scene_threshold": 24,
+  "fps": 29.97002997002997,
+  "total_frames": 6683,
+  "num_scenes": 1,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 6682,
+      "start_sec": 0.0,
+      "end_sec": 222.956067,
+      "duration_sec": 222.989433,
+      "sampled_frame_indices": [
+        0,
+        742,
+        1485,
+        2227,
+        2970,
+        3712,
+        4455,
+        5197,
+        5940,
+        6682
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video opens with serene beach scenes, showing calm ocean waters and a distant hill under a clear blue sky. Suddenly, a pod of dolphins appears, swimming near the shore. People quickly gather in the shallow water to assist them, with some individuals actively helping the dolphins by pushing or guiding them. The crowd, including both adults and children, watches and participates in the rescue effort. After a period of intervention, the dolphins are seen swimming away into deeper waters, and the beach returns to quiet calm, with only the gentle waves remaining."
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "video": "Fire Domino",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Fire Domino.mp4",
+  "caption_model": "qwen",
+  "model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80-120 words).\"\n",
+  "num_frames": 10,
+  "scene_threshold": 24,
+  "fps": 30.0,
+  "total_frames": 1612,
+  "num_scenes": 8,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 238,
+      "start_sec": 0.0,
+      "end_sec": 7.933333,
+      "duration_sec": 7.966667,
+      "sampled_frame_indices": [
+        0,
+        26,
+        53,
+        79,
+        106,
+        132,
+        159,
+        185,
+        212,
+        238
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video displays a static, intricate structure made of numerous toothpicks, arranged in a spiral or helical pattern. Red-headed toothpicks form diagonal lines that interweave with plain wooden toothpicks, creating a visually complex, three-dimensional shape resembling a twisted tower or DNA helix. The structure stands upright on a plain white surface against a neutral, light-colored background. Throughout the frames, there is no discernible movement or change in the structure, suggesting the video is a still shot or a paused sequence, emphasizing the craftsmanship and geometric design of the toothpick construction."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 239,
+      "end_frame": 326,
+      "start_sec": 7.966667,
+      "end_sec": 10.866667,
+      "duration_sec": 2.933333,
+      "sampled_frame_indices": [
+        239,
+        249,
+        258,
+        268,
+        278,
+        287,
+        297,
+        307,
+        316,
+        326
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video shows a tall, spiraling structure made of numerous matchsticks, standing upright on a plain white surface against a light-colored wall. A hand enters the frame, holding a lit match, and carefully ignites the topmost matchstick of the structure. The flame spreads slowly down the spiral as the hand moves the lit match along the structure\u2019s edge, igniting more matchsticks in sequence. The entire structure remains standing as it burns, creating a visually striking, controlled firework display."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 327,
+      "end_frame": 497,
+      "start_sec": 10.9,
+      "end_sec": 16.566667,
+      "duration_sec": 5.7,
+      "sampled_frame_indices": [
+        327,
+        346,
+        365,
+        384,
+        403,
+        421,
+        440,
+        459,
+        478,
+        497
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video shows a spiral structure made of numerous matches being ignited from the top. As the flame spreads downward, it consumes the matches, causing the structure to glow brightly and gradually collapse. The background is a plain, light-colored wall, and the floor is a smooth, light surface. The fire intensifies, illuminating the scene with a warm, orange-yellow light. The entire structure burns out completely, leaving behind charred remnants. There are no people or other objects visible in the frames."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 498,
+      "end_frame": 519,
+      "start_sec": 16.6,
+      "end_sec": 17.3,
+      "duration_sec": 0.733333,
+      "sampled_frame_indices": [
+        498,
+        500,
+        503,
+        505,
+        507,
+        510,
+        512,
+        514,
+        517,
+        519
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video shows a tall, spiral structure made of wooden slats on fire. Bright, dynamic flames rise and flicker through the gaps in the structure, illuminating its wooden frame. The fire appears to be consuming the material from the top down, with the flames dancing and shifting shape as they burn. The background is dark and indistinct, likely a stage or studio setting, with subtle purple lighting. The entire scene is captured with a slight motion blur, suggesting either camera movement or the natural motion of the flames. No people are visible."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 520,
+      "end_frame": 1024,
+      "start_sec": 17.333333,
+      "end_sec": 34.133333,
+      "duration_sec": 16.833333,
+      "sampled_frame_indices": [
+        520,
+        576,
+        632,
+        688,
+        744,
+        800,
+        856,
+        912,
+        968,
+        1024
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video shows a tall, spiral structure made of numerous matches burning intensely. Flames engulf the structure from the top and sides, casting a warm, orange glow on the surrounding environment. As the fire progresses, the matches darken and char, with the flames flickering and dancing around the spiral form. The structure remains upright throughout, though the fire consumes it from within. The background is a plain, dimly lit wall and floor, emphasizing the bright, dynamic movement of the flames as they consume the matches."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 1025,
+      "end_frame": 1177,
+      "start_sec": 34.166667,
+      "end_sec": 39.233333,
+      "duration_sec": 5.1,
+      "sampled_frame_indices": [
+        1025,
+        1042,
+        1059,
+        1076,
+        1093,
+        1109,
+        1126,
+        1143,
+        1160,
+        1177
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video shows a tall, cylindrical structure made of tightly packed matchsticks, standing upright on a flat surface. Flames erupt from the top and sides, consuming the matchsticks rapidly. The fire intensifies, spreading downward as the structure begins to collapse inward, with flames licking upwards and illuminating the scene. The background remains a plain, dimly lit wall, emphasizing the bright, dynamic fire. The matchstick structure continues to burn and disintegrate, with smoke rising as the fire consumes the entire object."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 1178,
+      "end_frame": 1194,
+      "start_sec": 39.266667,
+      "end_sec": 39.8,
+      "duration_sec": 0.566667,
+      "sampled_frame_indices": [
+        1178,
+        1180,
+        1182,
+        1183,
+        1185,
+        1187,
+        1189,
+        1190,
+        1192,
+        1194
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video shows a cylindrical object, possibly a vase or container with a striped pattern, engulfed in flames. Bright orange and yellow fire dances around its midsection and base, casting a warm glow against a dark, indistinct background. The flames flicker and surge upward, occasionally shifting shape as they consume the material. The object remains stationary throughout, suggesting it is being burned or is part of a controlled fire demonstration. The scene is dimly lit, emphasizing the fire\u2019s intensity and movement. No people or other objects are visible."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 1195,
+      "end_frame": 1611,
+      "start_sec": 39.833333,
+      "end_sec": 53.7,
+      "duration_sec": 13.9,
+      "sampled_frame_indices": [
+        1195,
+        1241,
+        1287,
+        1334,
+        1380,
+        1426,
+        1472,
+        1519,
+        1565,
+        1611
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video shows a fire burning intensely in a container or structure made of stacked, cylindrical objects, likely matchsticks or similar combustible material. Initially, flames begin to rise from the base, growing progressively taller and more vigorous across the frames. The fire illuminates the surrounding area with a warm, orange glow, casting shadows and highlighting the texture of the burning material. The flames dance and flicker, consuming the structure from the bottom up, eventually reducing it to charred remnants. The background remains dim and out of focus, emphasizing the fire's dynamic movement and bright light."
+    }
+  ]
+}

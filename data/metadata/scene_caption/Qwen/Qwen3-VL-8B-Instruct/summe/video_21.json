@@ -1,0 +1,36 @@
+{
+  "video": "Uncut_Evening_Flight",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Uncut_Evening_Flight.mp4",
+  "caption_model": "qwen",
+  "model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80-120 words).\"\n",
+  "num_frames": 10,
+  "scene_threshold": 24,
+  "fps": 29.97002997002997,
+  "total_frames": 7909,
+  "num_scenes": 1,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 7908,
+      "start_sec": 0.0,
+      "end_sec": 263.8636,
+      "duration_sec": 263.896967,
+      "sampled_frame_indices": [
+        0,
+        879,
+        1757,
+        2636,
+        3515,
+        4393,
+        5272,
+        6151,
+        7029,
+        7908
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video opens with two men standing on a grassy field beside a white glider marked D-8841. The glider then takes off, soaring over a scenic landscape of rolling hills, forests, and a river. The camera, mounted on the wing, provides a first-person perspective of the flight, capturing the sun's glow as the glider maneuvers gracefully. The aircraft glides over farmland and small settlements, showcasing the serene beauty of the countryside from above before continuing its smooth, tranquil flight."
+    }
+  ]
+}

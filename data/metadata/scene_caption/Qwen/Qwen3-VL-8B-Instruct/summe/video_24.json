@@ -1,0 +1,80 @@
+{
+  "video": "paluma_jump",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/paluma_jump.mp4",
+  "caption_model": "qwen",
+  "model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80-120 words).\"\n",
+  "num_frames": 10,
+  "scene_threshold": 24,
+  "fps": 29.97002997002997,
+  "total_frames": 2574,
+  "num_scenes": 3,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 466,
+      "start_sec": 0.0,
+      "end_sec": 15.548867,
+      "duration_sec": 15.582233,
+      "sampled_frame_indices": [
+        0,
+        52,
+        104,
+        155,
+        207,
+        259,
+        311,
+        362,
+        414,
+        466
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video captures a serene, natural setting featuring a stone arch bridge spanning over a rocky stream with a small waterfall. Several people are present: two shirtless men are in the water at the bottom, while three others stand on a large rock beneath the bridge\u2019s arch. One person is also visible on the bridge itself. The lush green foliage surrounding the scene suggests a tropical or forested environment. The individuals appear to be enjoying the natural landscape, with some standing and observing, while others seem to be preparing to swim or jump. The overall mood is calm and recreational."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 467,
+      "end_frame": 610,
+      "start_sec": 15.582233,
+      "end_sec": 20.353667,
+      "duration_sec": 4.8048,
+      "sampled_frame_indices": [
+        467,
+        483,
+        499,
+        515,
+        531,
+        546,
+        562,
+        578,
+        594,
+        610
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video captures a serene, natural setting featuring a stone arch bridge spanning over a rocky stream with a small waterfall. Several people are present: two shirtless men stand in the water in the foreground, while a group of three stands on a large rock beneath the bridge\u2019s arch, appearing to observe or prepare for an activity. Another individual is visible on the bridge itself. The lush, green forest surrounding the scene enhances the tranquil, outdoor atmosphere, suggesting a recreational or exploratory moment in a natural, possibly tropical, environment."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 611,
+      "end_frame": 2573,
+      "start_sec": 20.387033,
+      "end_sec": 85.852433,
+      "duration_sec": 65.498767,
+      "sampled_frame_indices": [
+        611,
+        829,
+        1047,
+        1265,
+        1483,
+        1701,
+        1919,
+        2137,
+        2355,
+        2573
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video captures a group of people enjoying a natural pool beneath a stone arch bridge, with a small waterfall cascading into the water. Several individuals stand on rocks near the bridge, preparing to jump or watch, while others are already swimming or wading in the pool below. One person dives from the rocks, creating a splash as they enter the water. The scene is set in a lush, green, forested area, suggesting a recreational outing in a serene, natural environment. The overall mood is playful and relaxed, centered around water activities and camaraderie."
+    }
+  ]
+}

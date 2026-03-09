@@ -1,0 +1,36 @@
+{
+  "video": "Jumps",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Jumps.mp4",
+  "caption_model": "qwen",
+  "model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80-120 words).\"\n",
+  "num_frames": 10,
+  "scene_threshold": 24,
+  "fps": 25.0,
+  "total_frames": 950,
+  "num_scenes": 1,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 949,
+      "start_sec": 0.0,
+      "end_sec": 37.96,
+      "duration_sec": 38.0,
+      "sampled_frame_indices": [
+        0,
+        105,
+        211,
+        316,
+        422,
+        527,
+        633,
+        738,
+        844,
+        949
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video depicts a group of people on a grassy hillside engaging in a water slide activity. One person, wearing a red helmet, sits atop a yellow slide, preparing to descend. Two others stand nearby holding buckets, likely for water. The scene transitions to show the slide\u2019s launch point and a wooden ramp structure. The person slides down, landing in a blue inflatable pool, where others rush to assist. The setting is outdoors, with trees and open fields, suggesting a recreational or experimental water slide setup in a natural environment."
+    }
+  ]
+}

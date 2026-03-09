@@ -1,0 +1,168 @@
+{
+  "video": "Cooking",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Cooking.mp4",
+  "caption_model": "qwen",
+  "model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80-120 words).\"\n",
+  "num_frames": 10,
+  "scene_threshold": 24,
+  "fps": 15.0,
+  "total_frames": 1287,
+  "num_scenes": 7,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 149,
+      "start_sec": 0.0,
+      "end_sec": 9.933333,
+      "duration_sec": 10.0,
+      "sampled_frame_indices": [
+        0,
+        17,
+        33,
+        50,
+        66,
+        83,
+        99,
+        116,
+        132,
+        149
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video shows a chef in a white uniform with red trim preparing food on a large, hot teppanyaki grill. Using two metal spatulas, the chef skillfully flips and moves ingredients, including sliced mushrooms, onions, and asparagus. The chef\u2019s movements are precise and practiced, indicating expertise. The grill surface is well-lit, with various plates and a drink visible nearby. The setting appears to be a restaurant kitchen, where the chef is actively cooking, likely for an audience or customers seated around the grill."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 150,
+      "end_frame": 404,
+      "start_sec": 10.0,
+      "end_sec": 26.933333,
+      "duration_sec": 17.0,
+      "sampled_frame_indices": [
+        150,
+        178,
+        206,
+        235,
+        263,
+        291,
+        319,
+        348,
+        376,
+        404
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video shows a chef in a white uniform with red accents preparing food on a large, hot teppanyaki grill. The chef skillfully uses a spatula to move and cook ingredients, including sliced onions, asparagus, and what appears to be minced meat or seafood. A glass of amber liquid and plates are visible nearby, suggesting a dining setting. The chef\u2019s movements are precise and practiced, indicating expertise. The scene captures the dynamic, interactive nature of teppanyaki cooking, with the chef\u2019s focus entirely on the grill as food sizzles and cooks."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 405,
+      "end_frame": 979,
+      "start_sec": 27.0,
+      "end_sec": 65.266667,
+      "duration_sec": 38.333333,
+      "sampled_frame_indices": [
+        405,
+        469,
+        533,
+        596,
+        660,
+        724,
+        788,
+        851,
+        915,
+        979
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video captures a chef in a restaurant kitchen, wearing a red hat and white chef\u2019s coat, preparing food on a large, flat teppanyaki grill. The chef skillfully manipulates ingredients including sliced onions, asparagus, and what appear to be pieces of meat or seafood. Using tongs and a spatula, the chef flips and arranges the food while occasionally reaching for condiments or tools. A glass of wine and plates are visible nearby, suggesting a dining setting. The scene emphasizes the chef\u2019s dynamic, hands-on cooking technique in a professional, high-energy environment."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 980,
+      "end_frame": 997,
+      "start_sec": 65.333333,
+      "end_sec": 66.466667,
+      "duration_sec": 1.2,
+      "sampled_frame_indices": [
+        980,
+        982,
+        984,
+        986,
+        988,
+        989,
+        991,
+        993,
+        995,
+        997
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video captures a teppanyaki chef actively cooking at a restaurant\u2019s grill station. The chef, dressed in a white uniform with a black belt, is seen handling a red squeeze bottle, likely adding sauce or seasoning to food. On the hot griddle, asparagus and sliced onions are visible, alongside other prepared ingredients. In the foreground, empty plates with chopsticks and glasses of wine suggest diners are seated nearby. The scene emphasizes the interactive, theatrical nature of teppanyaki dining, with the chef\u2019s movements centered around cooking and plating food for guests."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 998,
+      "end_frame": 1046,
+      "start_sec": 66.533333,
+      "end_sec": 69.733333,
+      "duration_sec": 3.266667,
+      "sampled_frame_indices": [
+        998,
+        1003,
+        1009,
+        1014,
+        1019,
+        1025,
+        1030,
+        1035,
+        1041,
+        1046
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video captures a chef working at a teppanyaki grill in a restaurant. Initially, the scene is well-lit, showing the chef holding a red bottle, likely for sauce or oil, while preparing food including asparagus and rice. The chef\u2019s movements are deliberate, focused on cooking. As the video progresses, the lighting dims significantly, rendering the scene nearly dark, though the chef\u2019s silhouette and hand movements remain visible as they continue cooking. The setting remains consistent, emphasizing the culinary performance and the transition from clear to dim lighting."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 1047,
+      "end_frame": 1160,
+      "start_sec": 69.8,
+      "end_sec": 77.333333,
+      "duration_sec": 7.6,
+      "sampled_frame_indices": [
+        1047,
+        1060,
+        1072,
+        1085,
+        1097,
+        1110,
+        1122,
+        1135,
+        1147,
+        1160
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video captures a chef performing a dramatic flaming cooking demonstration on a teppanyaki grill. The chef, dressed in a white uniform with red accents, ignites a large flame from a food item, creating a towering burst of fire that illuminates the restaurant setting. As the flames reach their peak, the chef skillfully maneuvers around the grill, which holds various ingredients including asparagus and round patties. The scene is set in a dimly lit dining area with tables and glasses visible, emphasizing the theatrical and engaging nature of the culinary performance."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 1161,
+      "end_frame": 1279,
+      "start_sec": 77.4,
+      "end_sec": 85.266667,
+      "duration_sec": 7.933333,
+      "sampled_frame_indices": [
+        1161,
+        1174,
+        1187,
+        1200,
+        1213,
+        1227,
+        1240,
+        1253,
+        1266,
+        1279
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video captures a chef skillfully preparing food on a hot teppanyaki grill in a restaurant setting. The chef, dressed in a white uniform with red accents, uses tongs and a spatula to flip and arrange ingredients, including asparagus and what appear to be rice balls or dumplings. Steam rises from the hot surface as the food cooks. In the foreground, plates and a glass of wine are visible, suggesting a dining environment. The chef\u2019s movements are precise and practiced, indicating a performance-style cooking experience. The scene is lively, with the chef actively engaging with the food and"
+    }
+  ]
+}

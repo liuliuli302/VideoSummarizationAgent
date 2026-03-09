@@ -1,0 +1,102 @@
+{
+  "video": "EE-bNr36nyA",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/EE-bNr36nyA.mp4",
+  "caption_model": "qwen",
+  "model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80-120 words).\"\n",
+  "num_frames": 10,
+  "scene_threshold": 24,
+  "fps": 29.97002997002997,
+  "total_frames": 2941,
+  "num_scenes": 4,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 1367,
+      "start_sec": 0.0,
+      "end_sec": 45.612233,
+      "duration_sec": 45.6456,
+      "sampled_frame_indices": [
+        0,
+        152,
+        304,
+        456,
+        608,
+        759,
+        911,
+        1063,
+        1215,
+        1367
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video, produced by the University of Wyoming Extension, features a man inside a wooden greenhouse demonstrating or discussing a large wasp nest attached to the wall. He gestures toward the nest and holds a long stick, likely for handling or inspecting it. The video opens with branding and a \u201cfrom the ground UP\u201d motif, symbolizing growth or foundational topics. Close-up shots show the intricate hexagonal structure of the nest and the wasps actively moving around it. The setting is practical and educational, focused on pest management or wildlife interaction within a controlled agricultural environment."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 1368,
+      "end_frame": 1461,
+      "start_sec": 45.6456,
+      "end_sec": 48.7487,
+      "duration_sec": 3.136467,
+      "sampled_frame_indices": [
+        1368,
+        1378,
+        1389,
+        1399,
+        1409,
+        1420,
+        1430,
+        1440,
+        1451,
+        1461
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video shows a close-up of a wasp nest nestled in a wooden attic or roof space. A person uses a flat, wide tool\u2014likely a putty knife or scraper\u2014to carefully dislodge and remove the nest. The tool is inserted under the nest, gradually lifting and extracting it from the crevice between wooden beams. The surrounding wood grain and structural elements are visible, emphasizing the confined space. The action is deliberate and cautious, suggesting an effort to safely remove the nest without disturbing the surrounding structure. The University of Wyoming Extension watermark indicates an educational or instructional context."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 1462,
+      "end_frame": 1542,
+      "start_sec": 48.782067,
+      "end_sec": 51.4514,
+      "duration_sec": 2.7027,
+      "sampled_frame_indices": [
+        1462,
+        1471,
+        1480,
+        1489,
+        1498,
+        1506,
+        1515,
+        1524,
+        1533,
+        1542
+      ],
+      "num_sampled_frames": 10,
+      "caption": "A man in a beige University of Wyoming Extension shirt stands before a wooden structure, likely a shed or small building under construction. He holds and gestures with a long-handled brush, appearing to demonstrate or explain a cleaning or maintenance process. His focused expression and movements suggest he is providing instructional content. The wooden walls and exposed beams form the backdrop, indicating an outdoor, hands-on setting. The video likely serves an educational purpose, possibly related to building upkeep or rural living practices."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 1543,
+      "end_frame": 2940,
+      "start_sec": 51.484767,
+      "end_sec": 98.098,
+      "duration_sec": 46.6466,
+      "sampled_frame_indices": [
+        1543,
+        1698,
+        1853,
+        2009,
+        2164,
+        2319,
+        2474,
+        2630,
+        2785,
+        2940
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video features a man from the University of Wyoming Extension standing inside a wooden greenhouse structure, holding a beekeeping tool and gesturing toward the walls. He appears to be explaining aspects of beekeeping or pest management. The video includes close-ups of a wasp nest\u2019s hexagonal cells and a shot of a store aisle stocked with pest control products. The content is educational, likely addressing pest control in agricultural or greenhouse settings, with credits to contributors and the University of Wyoming Extension."
+    }
+  ]
+}

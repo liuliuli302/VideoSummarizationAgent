@@ -1,0 +1,36 @@
+{
+  "video": "Statue of Liberty",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Statue of Liberty.mp4",
+  "caption_model": "qwen",
+  "model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80-120 words).\"\n",
+  "num_frames": 10,
+  "scene_threshold": 24,
+  "fps": 25.0,
+  "total_frames": 3863,
+  "num_scenes": 1,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 3862,
+      "start_sec": 0.0,
+      "end_sec": 154.48,
+      "duration_sec": 154.52,
+      "sampled_frame_indices": [
+        0,
+        429,
+        858,
+        1287,
+        1716,
+        2146,
+        2575,
+        3004,
+        3433,
+        3862
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video captures a guided tour along a waterfront promenade, with a tour guide gesturing toward the iconic Statue of Liberty. Tourists are seen observing the statue from various vantage points, including a grassy area and a railing overlooking the water. The Statue of Liberty is prominently featured in multiple shots, showcasing its full stature and detailed features against a clear blue sky. The background reveals a distant city skyline, emphasizing the urban setting. The scenes convey a sense of awe and tourism, highlighting the landmark\u2019s grandeur and its role as a major attraction."
+    }
+  ]
+}

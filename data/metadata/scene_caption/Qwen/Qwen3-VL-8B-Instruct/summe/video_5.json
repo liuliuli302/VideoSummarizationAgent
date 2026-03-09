@@ -1,0 +1,80 @@
+{
+  "video": "Bus_in_Rock_Tunnel",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Bus_in_Rock_Tunnel.mp4",
+  "caption_model": "qwen",
+  "model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80-120 words).\"\n",
+  "num_frames": 10,
+  "scene_threshold": 24,
+  "fps": 30.0,
+  "total_frames": 5133,
+  "num_scenes": 3,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 3513,
+      "start_sec": 0.0,
+      "end_sec": 117.1,
+      "duration_sec": 117.133333,
+      "sampled_frame_indices": [
+        0,
+        390,
+        781,
+        1171,
+        1561,
+        1952,
+        2342,
+        2732,
+        3123,
+        3513
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video captures a Stagecoach West bus, numbered 803, emerging from a narrow, rocky tunnel carved into a mountain. Initially, the tunnel\u2019s dark interior is visible, framed by rugged, sunlit rock formations. As the bus exits, its front becomes clearer, revealing the company name and route details. The vehicle maneuvers slowly through the tight passage, its roof and side lights visible against the rough stone walls. The scene emphasizes the bus\u2019s careful passage through a natural, rugged landscape, highlighting the contrast between the man-made vehicle and the imposing geological surroundings."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 3514,
+      "end_frame": 4099,
+      "start_sec": 117.133333,
+      "end_sec": 136.633333,
+      "duration_sec": 19.533333,
+      "sampled_frame_indices": [
+        3514,
+        3579,
+        3644,
+        3709,
+        3774,
+        3839,
+        3904,
+        3969,
+        4034,
+        4099
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video shows a white vehicle precariously perched on a narrow, rocky mountain road, partially suspended over a steep drop. A man in an orange shirt approaches the vehicle from the road, inspecting the situation. The camera perspective shifts, offering close-ups of the vehicle\u2019s roof and the rugged terrain. The vehicle appears stuck or stranded, with the man seemingly assessing the danger or attempting to assist. The scene conveys tension and precariousness, highlighting the vehicle\u2019s vulnerable position amidst the rugged, natural surroundings."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 4100,
+      "end_frame": 5130,
+      "start_sec": 136.666667,
+      "end_sec": 171.0,
+      "duration_sec": 34.366667,
+      "sampled_frame_indices": [
+        4100,
+        4214,
+        4329,
+        4443,
+        4558,
+        4672,
+        4787,
+        4901,
+        5016,
+        5130
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video captures a white Stagecoach West bus, numbered 803, navigating a narrow, rocky mountain pass. Initially, the bus is seen struggling to maneuver through a tight spot between towering rock formations. A man in an orange shirt walks alongside the bus as it slowly progresses. Other vehicles, including a red car and several parked cars, are visible ahead. Passengers in red attire stand near the road, watching the bus\u2019s careful passage. The bus eventually clears the constriction, revealing a wider section of the winding road ahead."
+    }
+  ]
+}

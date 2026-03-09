@@ -1,0 +1,36 @@
+{
+  "video": "St Maarten Landing",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/St Maarten Landing.mp4",
+  "caption_model": "qwen",
+  "model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80-120 words).\"\n",
+  "num_frames": 10,
+  "scene_threshold": 24,
+  "fps": 25.0,
+  "total_frames": 1751,
+  "num_scenes": 1,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 1750,
+      "start_sec": 0.0,
+      "end_sec": 70.0,
+      "duration_sec": 70.04,
+      "sampled_frame_indices": [
+        0,
+        194,
+        389,
+        583,
+        778,
+        972,
+        1167,
+        1361,
+        1556,
+        1750
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video captures a serene beach scene with clear turquoise waters and a bright blue sky, where two people observe and photograph a large airplane approaching for landing. The plane, identifiable by its turquoise livery, descends low over the ocean, drawing the attention of beachgoers. The camera then pans to show the aircraft landing on a runway behind a fence, with mountains in the background under a partly cloudy sky. The sequence highlights the striking contrast between the tranquil beach setting and the dynamic arrival of the airplane."
+    }
+  ]
+}

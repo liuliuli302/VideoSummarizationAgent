@@ -1,0 +1,36 @@
+{
+  "video": "Kids_playing_in_leaves",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Kids_playing_in_leaves.mp4",
+  "caption_model": "qwen",
+  "model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80-120 words).\"\n",
+  "num_frames": 10,
+  "scene_threshold": 24,
+  "fps": 29.97002997002997,
+  "total_frames": 3187,
+  "num_scenes": 1,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 3186,
+      "start_sec": 0.0,
+      "end_sec": 106.3062,
+      "duration_sec": 106.339567,
+      "sampled_frame_indices": [
+        0,
+        354,
+        708,
+        1062,
+        1416,
+        1770,
+        2124,
+        2478,
+        2832,
+        3186
+      ],
+      "num_sampled_frames": 10,
+      "caption": "Children play energetically in a yard covered with fallen autumn leaves. They gather, pile, and toss leaves, sometimes burying themselves in the piles. The scene shifts between a grassy field and a driveway near a house with parked vehicles, including a red pickup truck and a black sedan. An adult woman and a dog appear briefly, observing or moving through the area. The children\u2019s joyful, active play continues throughout, showcasing typical autumn backyard fun with natural elements and household surroundings."
+    }
+  ]
+}

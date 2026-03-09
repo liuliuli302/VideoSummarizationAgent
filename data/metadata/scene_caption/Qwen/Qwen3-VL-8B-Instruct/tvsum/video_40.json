@@ -1,0 +1,58 @@
+{
+  "video": "oDXZc0tZe04",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/oDXZc0tZe04.mp4",
+  "caption_model": "qwen",
+  "model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80-120 words).\"\n",
+  "num_frames": 10,
+  "scene_threshold": 24,
+  "fps": 29.97002997002997,
+  "total_frames": 11414,
+  "num_scenes": 2,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 792,
+      "start_sec": 0.0,
+      "end_sec": 26.4264,
+      "duration_sec": 26.459767,
+      "sampled_frame_indices": [
+        0,
+        88,
+        176,
+        264,
+        352,
+        440,
+        528,
+        616,
+        704,
+        792
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video introduces a vertical log hive, inoculated with propolis and beeswax, mounted 10 feet high in a tree with three entrance holes and an observation port. It then shows a large tree in a backyard setting, with text overlay indicating that a bee swarm moved in on April 4, 2013. The camera pans around the tree trunk, highlighting the hive\u2019s placement and the natural environment. No people are visible, and the focus remains on the hive\u2019s integration into the tree and the arrival of the swarm, suggesting a narrative of beekeeping or wildlife observation."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 793,
+      "end_frame": 11413,
+      "start_sec": 26.459767,
+      "end_sec": 380.813767,
+      "duration_sec": 354.387367,
+      "sampled_frame_indices": [
+        793,
+        1973,
+        3153,
+        4333,
+        5513,
+        6693,
+        7873,
+        9053,
+        10233,
+        11413
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video documents the discovery and inspection of a wild bee hive nestled inside a large tree trunk. It begins with exterior shots of the tree, revealing holes in its bark. A closer look inside one hole shows a dense cluster of bees. The tree is then cut open, revealing a thriving hive with visible honeycomb structures and numerous bees actively moving. A person\u2019s hand gently touches the hive, indicating careful observation. The footage captures the natural habitat and bustling activity of the bees within their tree cavity, concluding with a black screen."
+    }
+  ]
+}

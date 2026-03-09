@@ -1,0 +1,36 @@
+{
+  "video": "Air_Force_One",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Air_Force_One.mp4",
+  "caption_model": "qwen",
+  "model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80-120 words).\"\n",
+  "num_frames": 10,
+  "scene_threshold": 24,
+  "fps": 25.0,
+  "total_frames": 4494,
+  "num_scenes": 1,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 4493,
+      "start_sec": 0.0,
+      "end_sec": 179.72,
+      "duration_sec": 179.76,
+      "sampled_frame_indices": [
+        0,
+        499,
+        998,
+        1498,
+        1997,
+        2496,
+        2995,
+        3495,
+        3994,
+        4493
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video captures a large commercial airplane approaching and landing on a runway during a hazy, golden-hour sunset. The aircraft descends steadily, its landing lights illuminated, before touching down and rolling along the tarmac. The scene is framed by trees in the foreground and distant city buildings on the horizon. A brief bird flies across the sky as the plane completes its landing sequence, eventually moving away from the camera\u2019s view, leaving the runway empty once more."
+    }
+  ]
+}

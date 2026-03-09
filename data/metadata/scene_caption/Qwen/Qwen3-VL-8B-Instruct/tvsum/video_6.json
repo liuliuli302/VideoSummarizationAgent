@@ -1,0 +1,80 @@
+{
+  "video": "HT5vyqe0Xaw",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/HT5vyqe0Xaw.mp4",
+  "caption_model": "qwen",
+  "model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80-120 words).\"\n",
+  "num_frames": 10,
+  "scene_threshold": 24,
+  "fps": 29.97002997002997,
+  "total_frames": 9671,
+  "num_scenes": 3,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 3015,
+      "start_sec": 0.0,
+      "end_sec": 100.6005,
+      "duration_sec": 100.633867,
+      "sampled_frame_indices": [
+        0,
+        335,
+        670,
+        1005,
+        1340,
+        1675,
+        2010,
+        2345,
+        2680,
+        3015
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video begins at an outdoor patio with a wooden table and chairs, then transitions to a gravel road winding through a wooded area. A white trailer is seen parked askew, partially off the road, with a yellow rope tied to a tree nearby. The camera moves closer, revealing a blue and white truck also stuck on the side of the road, its cab tilted. The surrounding environment is dense with trees and foliage, suggesting a remote or rural location. The footage captures the aftermath of a vehicle mishap, focusing on the stranded vehicles and their precarious positions."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 3016,
+      "end_frame": 4319,
+      "start_sec": 100.633867,
+      "end_sec": 144.110633,
+      "duration_sec": 43.510133,
+      "sampled_frame_indices": [
+        3016,
+        3161,
+        3306,
+        3450,
+        3595,
+        3740,
+        3885,
+        4029,
+        4174,
+        4319
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video captures a blue and white truck navigating a narrow, tree-lined dirt road. Initially, the truck is seen at an angle, partially off the road and surrounded by dense foliage. It then maneuvers back onto the path, driving forward with the camera positioned close to the vehicle, possibly from a passenger or mounted perspective. Sunlight filters through the canopy, illuminating the scene. The truck proceeds steadily along the winding road, suggesting a journey through a forested area. The footage ends abruptly with a dark, shaky view, indicating a possible camera mishap or sudden stop."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 4320,
+      "end_frame": 9670,
+      "start_sec": 144.144,
+      "end_sec": 322.655667,
+      "duration_sec": 178.545033,
+      "sampled_frame_indices": [
+        4320,
+        4914,
+        5509,
+        6103,
+        6698,
+        7292,
+        7887,
+        8481,
+        9076,
+        9670
+      ],
+      "num_sampled_frames": 10,
+      "caption": "The video captures a truck navigating a narrow, tree-lined dirt road, occasionally becoming stuck. A man in a dark shirt is seen gesturing near the truck, while another person in an orange shirt operates a red excavator nearby, seemingly assisting with the situation. The truck, white and blue with a silver trailer, is maneuvered through the wooded area. Sunlight filters through the trees, illuminating the scene. The video ends as the truck successfully moves forward, its red taillights visible as it drives away down the path."
+    }
+  ]
+}
