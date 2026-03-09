@@ -4,8 +4,10 @@ from typing import Any, Dict, List, Optional
 
 from src.config import build_runtime_config
 from src.datasets.schemas import Segment, VideoMeta, Window
+from src.llm import DeepSeekVideoCaptioner, RuleBasedVideoCaptioner
 from src.perception.captioner import RuleBasedCaptioner
 from src.perception.text_encoder import WindowTextEncoder
+from src.perception.visual_encoder import WindowVisualEncoder
 from src.preprocessing.window_builder import uniform_sample_indices
 
 
@@ -18,6 +20,7 @@ class GlobalUnderstandingPipeline:
         visual_encoder=None,
         captioner: Optional[RuleBasedCaptioner] = None,
         text_encoder: Optional[WindowTextEncoder] = None,
+        llm_captioner: Optional[DeepSeekVideoCaptioner] = None,
         sample_rate: Optional[int] = None,
     ) -> None:
         self.config = build_runtime_config(config)
@@ -25,8 +28,13 @@ class GlobalUnderstandingPipeline:
         if resolved_sample_rate <= 0:
             raise ValueError(f"sample_rate must be positive, got {resolved_sample_rate}.")
 
-        self.captioner = captioner or RuleBasedCaptioner(visual_encoder=visual_encoder)
+        self.visual_encoder = visual_encoder or WindowVisualEncoder(resolution=int(self.config.video.resolution))
+        self.captioner = captioner or RuleBasedCaptioner(visual_encoder=self.visual_encoder)
         self.text_encoder = text_encoder or WindowTextEncoder()
+        if llm_captioner is not None:
+            self.llm_captioner = llm_captioner
+        else:
+            self.llm_captioner = RuleBasedVideoCaptioner()
         self.sample_rate = resolved_sample_rate
 
     def build_global_context(
@@ -82,14 +90,47 @@ class GlobalUnderstandingPipeline:
                 self.sample_rate,
             ),
         )
-        local_caption = self.captioner.generate_caption(window=segment_window, video_path=video_path)
         segment_asr = self._select_asr_for_segment(video_meta.asr_segments, segment)
+        keyframe_descriptions = self._build_keyframe_descriptions(segment_window=segment_window, video_path=video_path)
+        scene_caption = self.llm_captioner.caption_scene(
+            video_title=video_meta.title,
+            category=video_meta.category,
+            scene_index=int(segment.seg_id.split("_")[-1]) if "_" in segment.seg_id else 0,
+            start_frame=segment.start_frame,
+            end_frame=segment.end_frame,
+            keyframe_descriptions=keyframe_descriptions,
+        )
         semantic_summary = self.text_encoder.build_semantic_summary(
-            local_caption=local_caption,
+            local_caption=scene_caption,
             title=video_meta.title,
             asr_text=segment_asr,
         )
         return f"{segment.seg_id}: {semantic_summary}"
+
+    def _build_keyframe_descriptions(self, segment_window: Window, video_path: str) -> List[str]:
+        sampled_indices = segment_window.sampled_frame_indices
+        if not sampled_indices:
+            return []
+
+        keyframe_indices = []
+        candidate_positions = [0, len(sampled_indices) // 2, len(sampled_indices) - 1]
+        for position in candidate_positions:
+            frame_index = sampled_indices[position]
+            if frame_index not in keyframe_indices:
+                keyframe_indices.append(frame_index)
+
+        descriptions: List[str] = []
+        for frame_index in keyframe_indices:
+            keyframe_window = Window(
+                win_id=f"{segment_window.win_id}_kf_{frame_index}",
+                start_frame=frame_index,
+                end_frame=min(frame_index + 1, segment_window.end_frame),
+                sampled_frame_indices=[frame_index],
+            )
+            visual_description = self.visual_encoder.describe_window(window=keyframe_window, video_path=video_path)
+            local_caption = self.captioner.generate_caption(window=keyframe_window, video_path=video_path)
+            descriptions.append(f"Frame {frame_index}: {visual_description} {local_caption}")
+        return descriptions
 
     def _select_asr_for_segment(
         self,
@@ -119,10 +160,17 @@ class GlobalUnderstandingPipeline:
         return matched_segments or None
 
     def _aggregate_global_story(self, global_captions: List[str]) -> str:
-        ordered_segments = []
-        for index, caption in enumerate(global_captions, start=1):
-            ordered_segments.append(f"Segment {index}: {caption}")
-        return " ".join(ordered_segments)
+        cleaned_scene_captions = []
+        for caption in global_captions:
+            if ":" in caption:
+                cleaned_scene_captions.append(caption.split(":", maxsplit=1)[1].strip())
+            else:
+                cleaned_scene_captions.append(caption.strip())
+        return self.llm_captioner.aggregate_video_caption(
+            video_title=None,
+            category=None,
+            scene_captions=cleaned_scene_captions,
+        )
 
     def _infer_theme_distribution(self, video_meta: VideoMeta, global_story: str) -> Dict[str, float]:
         text_blob = " ".join(

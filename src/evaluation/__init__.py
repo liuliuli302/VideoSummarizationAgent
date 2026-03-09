@@ -10,8 +10,11 @@ from src.evaluation.metrics import (
     precision_recall_fscore,
     spearman_correlation,
 )
+from src.evaluation.official_protocol import build_summary_from_segments, evaluate_benchmark_video
 
 __all__ = [
+    "build_summary_from_segments",
+    "evaluate_benchmark_video",
     "TrainingFreeAblationRunner",
     "EvaluationBenchmark",
     "normalize_pred_scores",

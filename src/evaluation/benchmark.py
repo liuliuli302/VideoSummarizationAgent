@@ -4,6 +4,7 @@ import json
 import os
 from typing import Any, Dict, Iterable, Optional, Sequence
 
+from src.evaluation.official_protocol import evaluate_benchmark_video
 from src.evaluation.metrics import (
     coverage_score,
     diversity_score,
@@ -37,6 +38,37 @@ class EvaluationBenchmark:
         metrics["latency"] = latency_statistics(latencies_sec or [])
         return metrics
 
+    def evaluate_dataset_record(
+        self,
+        record: Any,
+        predicted_scores: Sequence[str | int | float],
+        scene_ranges: Sequence[dict | tuple[int, int]],
+        budget_ratio: float,
+    ) -> Dict[str, Any]:
+        report = evaluate_benchmark_video(
+            dataset_name=str(record.dataset_name),
+            predicted_scores=predicted_scores,
+            scene_ranges=scene_ranges,
+            n_frames=int(record.n_frames),
+            budget_ratio=float(budget_ratio),
+            user_summary=getattr(record, "user_summary", None),
+            user_scores=getattr(record, "user_scores", None),
+        )
+
+        gtscore = getattr(record, "gtscore", None)
+        picks = getattr(record, "picks", None)
+        if gtscore is not None and picks is not None:
+            sampled_pred = self._sample_scores_at_picks(predicted_scores, picks=picks, n_frames=int(record.n_frames))
+            sampled_gt = [float(item) for item in gtscore]
+            report["sampled_score_alignment"] = {
+                "spearman": spearman_correlation(sampled_pred, sampled_gt),
+                "kendall": kendall_correlation(sampled_pred, sampled_gt),
+                "coverage": coverage_score(sampled_pred, sampled_gt),
+            }
+            report["sampled_predicted_scores"] = sampled_pred
+            report["sampled_gt_scores"] = sampled_gt
+        return report
+
     def save_report(
         self,
         metrics: Dict[str, Any],
@@ -68,6 +100,26 @@ class EvaluationBenchmark:
                 file_obj.write(b"")
 
         return {"metrics_path": metrics_path, "plot_path": plot_path}
+
+    def _sample_scores_at_picks(
+        self,
+        predicted_scores: Sequence[str | int | float],
+        picks: Sequence[int],
+        n_frames: int,
+    ) -> list[float]:
+        numeric_scores = normalize_pred_scores(predicted_scores)
+        if not numeric_scores:
+            return []
+
+        bounded_scores = numeric_scores[:n_frames]
+        if len(bounded_scores) < n_frames:
+            bounded_scores.extend([bounded_scores[-1]] * (n_frames - len(bounded_scores)))
+
+        sampled = []
+        for raw_pick in picks:
+            pick = max(0, min(int(raw_pick), max(0, n_frames - 1)))
+            sampled.append(float(bounded_scores[pick]))
+        return sampled
 
     def plot_score_curve(
         self,

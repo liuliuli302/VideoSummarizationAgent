@@ -7,6 +7,7 @@ from src.datasets.schemas import (
     WindowFeature,
     WindowScore,
 )
+from src.datasets.benchmark import BenchmarkDatasetAdapter, BenchmarkVideoRecord
 
 __all__ = [
     "VideoMeta",
@@ -16,4 +17,6 @@ __all__ = [
     "MemoryState",
     "PlannerOutput",
     "WindowScore",
+    "BenchmarkDatasetAdapter",
+    "BenchmarkVideoRecord",
 ]

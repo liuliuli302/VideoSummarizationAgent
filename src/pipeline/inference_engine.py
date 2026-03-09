@@ -5,9 +5,12 @@ import os
 from typing import Any, Dict, List, Optional
 
 from src.config import build_runtime_config
+from src.datasets.schemas import Segment, Window
 from src.preprocessing import build_fixed_segments, build_sliding_windows, load_video_meta
+from src.preprocessing.window_builder import uniform_sample_indices
 from src.pipeline.streaming_pipeline import StreamingVideoSummarizationPipeline
 from src.scoring import BudgetedSummarySelector, FrameScoreFusion
+from video_processing.shot_detection import detect_scenes
 
 
 class VideoSummaryInferenceEngine:
@@ -44,13 +47,9 @@ class VideoSummaryInferenceEngine:
             category=category,
             asr_segments=asr_segments,
         )
-        segments = build_fixed_segments(video_meta, self._segment_length_sec())
-        windows = build_sliding_windows(
-            video_meta=video_meta,
-            win_len_sec=self.config.summarization.window.length_sec,
-            overlap_sec=self.config.summarization.window.overlap_sec,
-            sample_rate=self.config.summarization.window.sample_rate,
-        )
+        scene_ranges = detect_scenes(video_path)
+        segments = self._build_scene_segments(video_meta=video_meta, scene_ranges=scene_ranges)
+        windows = self._build_scene_windows(video_meta=video_meta, segments=segments)
 
         pipeline_result = self.pipeline.run(
             video_meta=video_meta,
@@ -79,6 +78,7 @@ class VideoSummaryInferenceEngine:
 
         result = {
             "video_meta": video_meta.to_dict(),
+            "scene_ranges": [{"start_frame": start, "end_frame": end} for start, end in scene_ranges],
             "segments": [segment.to_dict() for segment in segments],
             "windows": [window.to_dict() for window in windows],
             "global_context": pipeline_result["global_context"],
@@ -96,6 +96,43 @@ class VideoSummaryInferenceEngine:
         self.save_results(result, save_path)
         result["output_path"] = save_path
         return result
+
+    def _build_scene_segments(self, video_meta, scene_ranges: List[tuple[int, int]]) -> List[Segment]:
+        if not scene_ranges:
+            return build_fixed_segments(video_meta, self._segment_length_sec())
+
+        segments: List[Segment] = []
+        for index, (start_frame, end_frame) in enumerate(scene_ranges):
+            safe_start = max(0, int(start_frame))
+            safe_end = min(video_meta.total_frames, max(safe_start + 1, int(end_frame)))
+            segments.append(
+                Segment(
+                    seg_id=f"scene_{index}",
+                    start_frame=safe_start,
+                    end_frame=safe_end,
+                    start_sec=safe_start / video_meta.fps,
+                    end_sec=safe_end / video_meta.fps,
+                )
+            )
+        return segments
+
+    def _build_scene_windows(self, video_meta, segments: List[Segment]) -> List[Window]:
+        scene_sample_rate = int(self.config.summarization.window.sample_rate)
+        windows: List[Window] = []
+        for index, segment in enumerate(segments):
+            windows.append(
+                Window(
+                    win_id=f"scene_w_{index}",
+                    start_frame=segment.start_frame,
+                    end_frame=segment.end_frame,
+                    sampled_frame_indices=uniform_sample_indices(
+                        segment.start_frame,
+                        segment.end_frame,
+                        scene_sample_rate,
+                    ),
+                )
+            )
+        return windows
 
     def save_results(self, result: Dict[str, Any], output_path: str) -> None:
         output_dir = os.path.dirname(output_path)
