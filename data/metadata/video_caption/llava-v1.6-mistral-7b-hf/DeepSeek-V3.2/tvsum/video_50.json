@@ -1,0 +1,13 @@
+{
+  "video": "-esJrBWj2d8",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/-esJrBWj2d8.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_50.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 18,
+  "caption": "This video presents a series of casual, domestic scenes primarily centered around pets and children. It begins with a large orange tabby cat curiously interacting with a pen held by a person, followed by a brief segment where two children, likely siblings, playfully show off a small object and a tin of dog food in a home setting.\n\nThe focus then shifts back to the pets, with extensive footage of the same orange tabby cat—and occasionally another cat—eating from bowls and plates of meat, displaying keen interest in the food. The video captures the cats in various relaxed states around the house, including one napping comfortably on a beige couch. It concludes with a quick shot of a dog finishing its meal from a bowl and final scenes of the tabby cat walking and exploring the wooden floors of the home, exhibiting its natural curiosity."
+}

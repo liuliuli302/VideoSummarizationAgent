@@ -1,0 +1,13 @@
+{
+  "video": "37rzWOQsNIw",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/37rzWOQsNIw.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_19.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 24,
+  "caption": "The video begins on a city street, focusing on a man standing outside a Vietnamese sandwich shop called \"Saigon Sandwich.\" The scene then shifts inside the shop, where a framed award for \"Best Sandwich Shop\" in San Francisco is displayed, followed by views of the store’s interior and a vibrant street scene with a storefront window. Inside the shop, the counter is busy with sandwiches, salads, and snacks, and a customer is seen interacting with staff.\n\nLater, the video shows people enjoying sandwiches outdoors on the sidewalk, with one person holding a hot dog and another eating a sub filled with vegetables and meat. The urban setting includes pigeons and a seagull in a public square, and a person attempts to feed pigeons with a sandwich. The focus then shifts to a close-up of a sandwich being eaten, followed by scenes of a dog sniffing the ground and a person holding a cup with a spoon, possibly containing a dessert. The video concludes with a person unwrapping and eating a leaf-wrapped snack using a plastic fork while seated near a suitcase, and finally, people using their phones or eating on a bench on a city street."
+}

@@ -1,0 +1,13 @@
+{
+  "video": "J0nA4VgnoCo",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/J0nA4VgnoCo.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_3.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 48,
+  "caption": "The video documents a casual and varied series of moments centered around car travel and maintenance. It begins with cheerful scenes of a man and woman smiling and interacting inside a moving car during daytime. As the narrative unfolds, the focus shifts to a young man dealing with a vehicle issue in a parking lot, specifically changing a tire. Other scenes capture him and other individuals inspecting cars, unloading trunks, and interacting on residential streets. Throughout, there are intermittent shots of the car driving from a first-person perspective, both during the day and at night, as well as candid moments of the passengers inside, including one woman holding a package of Mini Eggs. The video concludes with scenes of people stepping out of the car and engaging in phone conversations while standing near the vehicle."
+}

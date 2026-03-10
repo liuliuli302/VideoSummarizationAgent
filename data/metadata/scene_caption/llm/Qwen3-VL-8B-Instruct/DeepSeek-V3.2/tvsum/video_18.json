@@ -5,7 +5,7 @@
   "image_caption_model": "Qwen3-VL-8B-Instruct",
   "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_18.json",
   "scene_caption_model": "DeepSeek-V3.2",
-  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\n\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\n\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\n* avoid speculation beyond the provided captions\n\nScene description:\n",
   "scene_threshold": 27.0,
   "max_tokens": 120,
   "fps": 24.0,
@@ -20,7 +20,7 @@
       "end_sec": 10.041667,
       "duration_sec": 10.083333,
       "num_frame_captions": 17,
-      "caption": "This scene features a bearded man wearing glasses and a skull-print t-shirt, sometimes with a baseball cap, who is standing in a dimly lit, cluttered kitchen. He is directly addressing the camera, likely speaking to an audience, as he gestures energetically with his hands and arms. His expressions and movements suggest he is explaining or reacting to something with enthusiasm. The scene maintains a consistent focus on him as the central subject, with no significant changes in location or other characters, creating the impression of a monologue or direct-to-camera presentation."
+      "caption": "This scene features a man in a kitchen, directly addressing the camera. He has glasses, a beard, and consistently wears a t-shirt with a skull print or graphic. The setting is a dimly lit and somewhat cluttered kitchen. Throughout the scene, the man is engaged in speaking or explaining something, as indicated by his open mouth and direct gaze. His communication becomes increasingly animated, progressing from simple gestures with one hand to more energetic gestures with both arms raised. His attire occasionally includes a baseball cap in addition to the skull-themed shirt."
     },
     {
       "scene_index": 1,
@@ -30,7 +30,7 @@
       "end_sec": 13.666667,
       "duration_sec": 3.625,
       "num_frame_captions": 5,
-      "caption": "In this scene, a man is positioned in front of a green screen, indicating a video production setup. He is casually dressed in a skull-print t-shirt, a backwards baseball cap, and sunglasses. Throughout the sequence, he appears to be in the process of preparing for or actively participating in a recording session. His posture and expression shift slightly, including moments where he looks off to the side and seems to be speaking mid-sentence. The consistent setting and his attire suggest he is a presenter or content creator engaged in filming a segment, with the green screen ready for post-production effects."
+      "caption": "The scene features a man sitting in front of a green screen, which is commonly used for video production. He is consistently wearing a cap, sunglasses, and a t-shirt with a skull graphic. Throughout the sequence, his posture and focus remain on the recording setup, with one instance showing him looking off to the side and another where he appears to be speaking. The overall activity suggests he is engaged in preparation or is actively recording content."
     },
     {
       "scene_index": 2,
@@ -40,7 +40,7 @@
       "end_sec": 14.333333,
       "duration_sec": 0.666667,
       "num_frame_captions": 1,
-      "caption": "The scene takes place in a modern kitchen, where a man is the central figure. He wears distinctive glasses and a graphic t-shirt featuring a skull pattern. His posture is relaxed as he stands in the room, his gaze directed slightly away from the viewer, suggesting a moment of quiet contemplation or waiting. The overall atmosphere is calm and still, with no overt action taking place, focusing instead on his presence and the casual, contemporary setting."
+      "caption": "This scene features a man in a kitchen, wearing glasses and a skull-print t-shirt. His posture suggests he is stationary within the space, and his gaze is directed slightly away from the direct viewpoint. The overall atmosphere appears calm and neutral, as the man's expression does not convey any particular emotion or active engagement. The focus remains on his presence and attire within the domestic setting, without any described movement or interaction."
     },
     {
       "scene_index": 3,
@@ -50,7 +50,7 @@
       "end_sec": 16.375,
       "duration_sec": 2.041667,
       "num_frame_captions": 4,
-      "caption": "This scene features a man seated in front of a green screen, likely for a video production. He is casually dressed, wearing sunglasses and a t-shirt with a skull graphic, and at times a backwards cap. Throughout the sequence, his demeanor is relaxed and cheerful, as he smiles warmly at the camera and occasionally glances to the side, as if reacting to something amusing off-screen. The consistent green background suggests the setting is a studio, with the visual focus entirely on his friendly and engaging performance for the viewer."
+      "caption": "This scene features a man seated in front of a green screen, which is used for visual effects. He is casually dressed, wearing sunglasses and a t-shirt with a skull graphic, and later adds a backwards cap. Throughout the sequence, his expression shifts from looking off to the side to smiling directly at the camera, suggesting a relaxed and amused interaction. The consistent green background indicates this is likely a controlled recording environment, such as for a vlog, interview, or content production where the background will be replaced in post-production."
     },
     {
       "scene_index": 4,
@@ -60,7 +60,7 @@
       "end_sec": 20.791667,
       "duration_sec": 4.416667,
       "num_frame_captions": 7,
-      "caption": "In this kitchen scene, a man wearing glasses and a distinctive grey t-shirt with a skull graphic is the central focus. He is positioned in the same location throughout, but his attention subtly shifts. His gaze alternates between looking directly at the camera and looking slightly off to the side, as if engaged in a conversation with someone just out of frame. His expressions range from neutral to thoughtful, suggesting a moment of casual interaction or contemplation rather than any significant action. The consistent setting and his stable posture indicate a single, continuous shot or sequence focused on his reactions and engagement."
+      "caption": "A man in a kitchen, wearing glasses and a grey t-shirt with a skull graphic, appears in a series of moments. Throughout the scene, he wears the same distinctive shirt, though one frame shows him with a backwards cap. His gaze alternates between looking directly at the camera and looking slightly off-camera to his right. The man maintains a neutral or thoughtful expression, and in one instance appears as if he is mid-conversation. The scene captures these minor shifts in his attention and posture within the static kitchen setting."
     },
     {
       "scene_index": 5,
@@ -70,7 +70,7 @@
       "end_sec": 22.916667,
       "duration_sec": 2.125,
       "num_frame_captions": 3,
-      "caption": "A man wearing a skull-print t-shirt and sunglasses is seated before a green screen, actively engaged in recording content. He gestures expressively while speaking, indicating he is likely filming a vlog or video segment. The scene captures him in the midst of this production, with the consistent green screen backdrop suggesting a professional or intentional setup for later editing. His attire and the prepared environment point to a planned shoot, possibly for an online video."
+      "caption": "This scene features a man recording content in front of a green screen, likely for a video or vlog. He is casually dressed, wearing a cap, sunglasses, and a t-shirt with a skull print. Throughout the scene, he is seated and actively engaged in the process, as indicated by his gestures and the act of preparing for the shoot. The consistent use of the green screen suggests the footage is intended for post-production editing, where custom backgrounds can be added. The overall activity centers on the man creating video content in a controlled, studio-like setting."
     },
     {
       "scene_index": 6,
@@ -80,7 +80,7 @@
       "end_sec": 25.916667,
       "duration_sec": 3.0,
       "num_frame_captions": 5,
-      "caption": "This scene features a man in a cluttered kitchen. He is consistently described as wearing glasses and a graphic t-shirt with a skull or star pattern, and often has a backwards cap. His appearance remains stable throughout the sequence. The focus is on his presence and shifting gaze: he is seen looking down at something out of frame, then looking slightly off-camera, and finally making direct eye contact with the viewer. The scene captures a series of static moments, emphasizing his observational or pensive state within the domestic environment."
+      "caption": "This scene takes place in a cluttered kitchen and features a man who is the consistent subject throughout. He is described as having glasses and wearing a graphic t-shirt with a skull pattern, sometimes paired with a backwards cap. His appearance remains stable, with only minor variations in his headwear noted. The man's attention shifts between looking directly at the camera, looking slightly off-camera, and looking down at something out of frame. His expressions are consistently neutral. The scene is static, focusing on this single individual in the kitchen environment without any described action or interaction."
     },
     {
       "scene_index": 7,
@@ -90,7 +90,7 @@
       "end_sec": 27.5,
       "duration_sec": 1.583333,
       "num_frame_captions": 3,
-      "caption": "This scene features a man preparing for a video recording session. He is seated in front of a green screen, which is commonly used for adding digital backgrounds in post-production. His attire\u2014a t-shirt with a skull graphic and a pair of sunglasses\u2014suggests a casual or perhaps edgy stylistic choice for the content being created. The consistent setting and his poised position indicate he is in the final stages of setup, awaiting cues to begin filming. The overall focus is on the preparatory phase of a media production in a controlled studio environment."
+      "caption": "The scene shows a man in sunglasses and a skull-print t-shirt seated before a green screen. The consistent setting and his attire indicate he is positioned for a video recording or production. The static nature of the shots suggests this is a setup phase, likely for a single continuous take where he is preparing to begin."
     },
     {
       "scene_index": 8,
@@ -100,7 +100,7 @@
       "end_sec": 33.708333,
       "duration_sec": 6.208333,
       "num_frame_captions": 9,
-      "caption": "In a kitchen, a man wearing glasses and a graphic t-shirt with a skull pattern is the central figure. He is animatedly speaking, gesturing with his hands raised and looking off-camera as if addressing someone. His expression and posture shift throughout the scene, from engaged conversation to a more relaxed state where he smiles directly at the camera. At one point, he also wears a backwards cap. The consistent setting and clothing indicate a single, continuous interaction where he is expressively communicating, likely for a vlog or casual video segment."
+      "caption": "This scene features a man in a kitchen, identifiable by his glasses and a t-shirt with a skull print. He is actively engaged in speaking and gesturing, often looking or directing his attention off-camera, presumably toward another person. His expressions and body language are animated, with his hands raised and his mouth open as he talks. At times, he is seen wearing a backwards cap. The scene concludes with him turning his focus toward the camera, offering a slight smile directly to the viewer."
     },
     {
       "scene_index": 9,
@@ -110,7 +110,7 @@
       "end_sec": 38.166667,
       "duration_sec": 4.458333,
       "num_frame_captions": 8,
-      "caption": "A man wearing a skull graphic t-shirt, sunglasses, and sometimes a backwards cap is positioned in front of a green screen, likely in a hotel or home room. He is engaged in recording a video or livestream, as suggested by his energetic gesturing and the professional setup. The scene shows him in various poses\u2014sitting, leaning against a wall\u2014within the same setting, which includes a countertop and tissue box. His consistent attire and the green screen indicate a prepared, continuous filming session."
+      "caption": "The scene features a man in a skull graphic t-shirt and sunglasses, who is positioned in front of a green screen in a room resembling a hotel or home setting with a countertop and tissue box. He is seated, leans against a wall, and makes energetic hand gestures, indicating he is actively recording a video or participating in a stream. The consistent green screen setup suggests a production environment for virtual content."
     },
     {
       "scene_index": 10,
@@ -120,7 +120,7 @@
       "end_sec": 51.083333,
       "duration_sec": 12.916667,
       "num_frame_captions": 20,
-      "caption": "This scene features a man in a kitchen, directly addressing the camera as if in a vlog or presentation. He has a beard, glasses, and consistently wears a t-shirt with a skull graphic, sometimes paired with a backwards baseball cap. His demeanor shifts from a neutral, direct gaze to more expressive moments, including smiling and appearing to speak. The setting is a slightly cluttered kitchen, which remains the stable background throughout. The sequence captures him in a sustained, engaged interaction with the viewer, with minor variations in his expression and posture."
+      "caption": "This scene features a man in a kitchen, consistently wearing glasses and a skull-patterned t-shirt. He is often described with a beard and sometimes wears a backwards baseball cap. Throughout the sequence, he stands facing the camera, maintaining direct eye contact with the viewer. His expression varies from neutral to smiling, and in a few instances, he appears to be speaking or reacting expressively, with his hands occasionally raised or clasped. The setting is a kitchen, noted in some frames as being cluttered, but the primary focus remains on the man's direct address to the camera."
     },
     {
       "scene_index": 11,
@@ -130,7 +130,7 @@
       "end_sec": 62.166667,
       "duration_sec": 11.083333,
       "num_frame_captions": 18,
-      "caption": "This scene shows a person preparing vegetables in a kitchen. The sequence begins with the countertop being cleaned with a green sponge, where a clear cutting board is present. The focus then shifts to a green bell pepper and an onion, which are placed together on a cutting board. The person interacts with these ingredients, first reaching toward them and then pointing at them. The scene concludes with the person giving a clear thumbs-up gesture next to the assembled vegetables, suggesting approval or readiness for the next step in the cooking process."
+      "caption": "The scene begins in a kitchen with a beige countertop being wiped down with a green sponge, and a clear cutting board present. Next, a single green bell pepper is placed on parchment paper on the counter. An arm reaches over the pepper, and then a hand holds an onion next to it. The pepper and onion are subsequently placed side-by-side on a white cutting board, with variations in the onion's color noted. Finally, hands interact with the vegetables, first pointing and reaching toward them, then giving a thumbs-up gesture beside the assembled ingredients on the counter."
     },
     {
       "scene_index": 12,
@@ -140,7 +140,7 @@
       "end_sec": 72.166667,
       "duration_sec": 10.0,
       "num_frame_captions": 16,
-      "caption": "This scene features a bearded man in a kitchen, wearing a backwards baseball cap, glasses, and a skull-print t-shirt. He directly addresses the camera, speaking and smiling at the viewer. The primary action involves him demonstrating kitchen knives, as he is seen holding up two knives and later a knife paired with a sharpening steel. His engagement shifts from speaking to the camera to focusing on the tools in his hands, suggesting a tutorial or review context. The setting remains consistently in the kitchen, with the man alternating between direct address and more contemplative moments looking at the equipment."
+      "caption": "A man in a kitchen, wearing glasses, a backwards cap, and a skull-print t-shirt, speaks directly to the camera. He smiles and gestures while holding up knives and a sharpening steel, demonstrating or focusing on them. His attention shifts between the camera, the items in his hands, and looking around the kitchen. The scene maintains a direct, instructional, or presentational tone as he engages with the viewer and the tools."
     },
     {
       "scene_index": 13,
@@ -150,7 +150,7 @@
       "end_sec": 78.083333,
       "duration_sec": 5.916667,
       "num_frame_captions": 9,
-      "caption": "In this scene, a man sits in front of a green screen, likely for a video production or special effects shot. He is consistently wearing a cap, a skull-print t-shirt, and 3D glasses or sunglasses. Throughout the sequence, he demonstrates various props, including a gray tactical glove, a black remote control, and other handheld objects. His actions involve holding up these items and sometimes pointing or extending his gloved hand toward the camera. The consistent setting and attire suggest a single, continuous recording session focused on showcasing different gear or interactive elements for the camera."
+      "caption": "The scene features a man wearing 3D glasses, a cap, and a skull-print t-shirt, seated in front of a green screen. He interacts with various props, including a gray tactical glove, a black object, a remote control, and a white and black glove. His actions involve holding up these items, pointing forward with a gloved hand, and extending his hand toward the camera. The consistent setting and attire suggest a single, continuous sequence focused on demonstrating or presenting objects."
     },
     {
       "scene_index": 14,
@@ -160,7 +160,7 @@
       "end_sec": 84.0,
       "duration_sec": 5.916667,
       "num_frame_captions": 10,
-      "caption": "In a kitchen, a man wearing glasses, a backward cap, and a skull-print t-shirt addresses the camera directly. He is engaged in a relaxed monologue, sometimes gesturing with his hands while speaking and at other times leaning back against a wall with a thoughtful expression. His demeanor shifts throughout the scene, ranging from an intent focus while holding a small green object to a more playful moment where he smiles broadly, even bringing a knife near his mouth in a lighthearted gesture. The overall scene captures his varied, informal interaction with the viewer in this domestic setting."
+      "caption": "In a kitchen setting, a man wearing glasses, a backward cap, and a skull-print t-shirt is the central figure. He is seen holding a small green object and later a knife near his mouth while looking directly at the camera. Throughout the scene, he alternates between speaking to the camera with hand gestures and adopting more relaxed poses, such as leaning against a wall or sitting back. His demeanor shifts from an intent focus to smiling broadly in several close-up shots, all within the consistent domestic environment."
     },
     {
       "scene_index": 15,
@@ -170,7 +170,7 @@
       "end_sec": 97.166667,
       "duration_sec": 13.166667,
       "num_frame_captions": 21,
-      "caption": "This scene depicts a person preparing vegetables in a kitchen. The primary activity involves using a large knife to chop and slice various ingredients, including garlic, potatoes, and onions, on a cutting board. The process also includes peeling an onion by hand, with the discarded skins visible nearby. Throughout the sequence, the cook's arm and hand, often wearing a black watch, are shown reaching for items and performing the tasks. A green bell pepper and a box are consistently present in the background on the counter, situating the action within a domestic kitchen environment."
+      "caption": "This scene depicts a person preparing vegetables in a kitchen. The individual is actively engaged in multiple food preparation tasks, primarily using a cutting board and a large kitchen knife. They are seen slicing various ingredients, including garlic and a potato. A significant portion of the activity involves peeling and slicing an onion, with onion skins accumulating on the counter. Throughout the process, a green bell pepper and a box remain visible in the background. The person wears a black watch, and their hands and arms are frequently shown performing these precise cutting and peeling actions."
     },
     {
       "scene_index": 16,
@@ -180,7 +180,7 @@
       "end_sec": 108.166667,
       "duration_sec": 11.0,
       "num_frame_captions": 18,
-      "caption": "In a casual indoor kitchen setting, a man with glasses and a backwards baseball cap, wearing a graphic skull-print t-shirt, interacts with various food items. He first holds up a peeled white onion, making a series of surprised, excited, and playful exaggerated faces for the camera. The scene progresses as he proceeds to eat a large piece of the raw onion. This leads to a physical reaction, as he later rubs his eye, likely affected by the onion's pungency, and covers his face in a moment of apparent distress. The sequence concludes with him laughing heartily and then examining another small object."
+      "caption": "The scene features a man wearing glasses and a backward cap with a skull-patterned shirt in a kitchen. He interacts playfully with produce, holding up a peeled onion and an apple while making a series of exaggerated, surprised, or humorous facial expressions for the camera. His actions include smelling the onion, eating it, and eventually reacting to its pungency by covering his face, rubbing his eye, and laughing. The sequence captures a lighthearted, performative moment centered on the onion."
     },
     {
       "scene_index": 17,
@@ -190,7 +190,7 @@
       "end_sec": 118.708333,
       "duration_sec": 10.541667,
       "num_frame_captions": 16,
-      "caption": "A man wearing a backwards cap, sunglasses, and a skull-print t-shirt sits in front of a green screen, likely in a home studio. Throughout the scene, he is primarily focused on his smartphone, often looking down at it while listening through earbuds. His actions vary between checking the device, adjusting his earpiece, and occasionally gesturing with his free hand as if speaking or explaining something, sometimes while holding a pen or a tissue box. The consistent green screen background suggests the footage is intended for later editing or a live stream, with the man engaged in a mix of personal phone use and directed presentation."
+      "caption": "A man sits in front of a green screen wearing a backwards cap, sunglasses, and sometimes a skull-print shirt. He consistently uses a phone and earbuds or an earpiece, occasionally adjusting them. Throughout the scene, he looks at his phone, holds it, or looks off-camera. He also gestures with his hand at times, creating the impression of speaking or presenting while seated. The setting appears consistent, likely a studio or home environment, with no change in the background."
     },
     {
       "scene_index": 18,
@@ -200,7 +200,7 @@
       "end_sec": 125.125,
       "duration_sec": 6.416667,
       "num_frame_captions": 11,
-      "caption": "This scene depicts a person preparing various ingredients in a kitchen. The individual is engaged in a series of chopping and slicing tasks, working with a diverse assortment of vegetables including a green bell pepper, a yellow squash, an onion, and a pale vegetable like a zucchini or daikon radish. Additionally, a block of cheese is being sliced. The activity centers around a cutting board on a countertop, with boxes of rice or couscous consistently visible in the background, suggesting the preparation of a meal that incorporates these staple grains. The focus is on the methodical preparation of multiple components."
+      "caption": "In this kitchen scene, a person prepares various ingredients on a countertop. The activity involves sequentially slicing and chopping different foods on a cutting board, including a yellow squash, an onion, a white vegetable like daikon radish, a green vegetable, a block of cheese, and a pale vegetable such as zucchini. Throughout the process, a green bell pepper and a box of either rice or couscous remain consistently visible in the background. The actions are focused on food preparation, with hands and arms shown handling a knife and the items being cut."
     },
     {
       "scene_index": 19,
@@ -210,7 +210,7 @@
       "end_sec": 134.833333,
       "duration_sec": 9.708333,
       "num_frame_captions": 15,
-      "caption": "In this kitchen scene, a person is engaged in various stages of food preparation, primarily focusing on chopping vegetables. They are seen peeling and slicing white vegetables, such as onions and potatoes, on a cutting board with a knife. The process also includes handling garlic and cutting a block of cheese. Throughout the activity, common kitchen items like a green bell pepper, a box of rice, and food containers are visible in the background. The consistent presence of the cutting board, knife, and ingredients indicates a continuous, focused cooking preparation sequence."
+      "caption": "In this kitchen scene, a person engages in various food preparation tasks using a cutting board, knife, and other common kitchen items. The central activity involves the peeling, slicing, and chopping of multiple white vegetables, which appear to be onions and potatoes. Garlic is also handled and peeled. Several frames note a green bell pepper, food boxes, and a block of cheese are visible on the countertop as additional ingredients. Throughout the process, a black watch is sometimes visible on the person\u2019s wrist, indicating sustained, hands-on work in assembling ingredients for a meal."
     },
     {
       "scene_index": 20,
@@ -220,7 +220,7 @@
       "end_sec": 147.791667,
       "duration_sec": 12.958333,
       "num_frame_captions": 21,
-      "caption": "This scene shows a person preparing vegetables in a kitchen. The primary activity involves chopping and slicing ingredients, specifically potatoes and white onions, on a cutting board using a large knife. The person peels an onion before slicing it and also chops peeled potatoes. Other items like a green bell pepper and a box of rice or cereal are visible in the background, suggesting the preparation of a larger meal. The actions are consistent and focused on food prep, with some frames highlighting the rapid, skilled motion of slicing."
+      "caption": "The scene shows a person preparing vegetables in a kitchen. They are primarily chopping and slicing potatoes and onions on a cutting board using a large knife. The actions include peeling an onion, chopping potatoes, and rapidly slicing onions. A green bell pepper and a box (of rice or cereal) are visible in the background throughout the process."
     },
     {
       "scene_index": 21,
@@ -230,7 +230,7 @@
       "end_sec": 179.5,
       "duration_sec": 31.708333,
       "num_frame_captions": 51,
-      "caption": "This scene depicts a person preparing green bell peppers in a kitchen. The process begins with the whole pepper being held and its stem removed. The individual then proceeds to slice and chop the pepper on a cutting board using a large knife, with the repetitive chopping action being a consistent focus throughout the sequence. Other kitchen items, such as a food box and tortillas, are visible in the background, suggesting the peppers are being prepared as part of a larger meal. The scene captures the focused, methodical activity of food preparation from initial handling to final chopping."
+      "caption": "A person prepares green bell peppers on a kitchen cutting board. The sequence begins with holding and inspecting a pepper, then removing its stem by hand. The pepper is sliced and chopped repeatedly with a large knife, and the action continues with consistent chopping on a white cutting board. The scene includes moments where the hand moves rapidly and items appear blurry due to motion. Nearby items include a knife, a food box, and tortillas. The overall activity is focused on cutting and preparing the peppers, likely as part of a larger cooking process."
     },
     {
       "scene_index": 22,
@@ -240,7 +240,7 @@
       "end_sec": 216.083333,
       "duration_sec": 36.583333,
       "num_frame_captions": 58,
-      "caption": "In a kitchen setting, a bearded man wearing glasses, a backwards cap, and a skull-print t-shirt speaks directly to the camera. He engages with the audience by holding up various food items, including a package of hot dogs and a bottle of ketchup or hot sauce, while gesturing and explaining with enthusiasm. Throughout the scene, he frequently smiles and maintains a lively, conversational tone, occasionally holding a red cup or making emphatic hand gestures. The sequence captures him presenting and discussing these items in an informal, tutorial or review-style format."
+      "caption": "In this scene, a man with a beard and glasses, wearing a backwards cap and a skull-print t-shirt, is speaking directly to the camera in a kitchen. He engages with the viewer by holding up various items, including a glass of red liquid, a clear bag of hot dogs, and bottles of ketchup and hot sauce. His expressions range from smiling to gesturing emphatically, often pointing at the items he presents. The scene consists of him addressing the camera, showing these objects, and making explanatory or surprised gestures, all within the consistent setting of a kitchen."
     },
     {
       "scene_index": 23,
@@ -250,7 +250,7 @@
       "end_sec": 244.708333,
       "duration_sec": 28.625,
       "num_frame_captions": 46,
-      "caption": "A person attempts to salvage a burnt dish in a frying pan on an electric stovetop. After inspecting the charred residue, they add ketchup or tomato sauce from a bottle to the pan. They then stir the mixture, transforming the burnt food into a thick, red sauce. The scene depicts a quick, improvised effort to rescue a cooking mistake by incorporating a common condiment."
+      "caption": "This scene shows a cooking mishap and an attempt to salvage the dish. A black frying pan sits on a white electric stovetop, containing a dark, burnt, and granular substance. A person then intervenes, holding a red bottle\u2014identified as ketchup or tomato sauce in later frames\u2014over the pan. They proceed to pour the red sauce into the pan containing the burnt residue. The sequence concludes with the person stirring the resulting mixture, transforming the burnt contents into a thick red sauce in the pan."
     },
     {
       "scene_index": 24,
@@ -260,7 +260,7 @@
       "end_sec": 270.541667,
       "duration_sec": 25.833333,
       "num_frame_captions": 41,
-      "caption": "This scene shows a man preparing a simple meal of hot dogs in a tomato-based sauce on an electric stovetop. He begins by stirring a thick red sauce in a saucepan, then adds hot dogs to a frying pan of sauce. He seasons the dish and incorporates sliced onions and green peppers, stirring the mixture as it simmers. Throughout the process, the man leans in closely to inspect the food, at one point tasting it directly from a spoon. Finally, he places a lid on the pan to finish cooking the hearty, one-pot dish."
+      "caption": "This scene shows a man preparing a dish of hot dogs in a tomato-based sauce on an electric stovetop. He begins by stirring a thick red sauce in a saucepan, then adds a dark liquid to it. He tastes the sauce from a spoon and inspects it closely. The man then places hot dogs into the sauce in a frying pan and seasons them. He adds sliced onions and green peppers to the pan, stirring the mixture as it simmers. Finally, he places a lid on the pan to finish cooking. The process is captured through various close-up shots of the food and the man's focused actions."
     },
     {
       "scene_index": 25,
@@ -270,7 +270,7 @@
       "end_sec": 291.083333,
       "duration_sec": 20.541667,
       "num_frame_captions": 33,
-      "caption": "This scene features a man in a kitchen, directly addressing the camera as if in a vlog or presentation. He wears glasses, a backwards cap, and a graphic t-shirt with a skull and star pattern. He is animated and expressive, frequently gesturing, pointing at the camera, and making surprised or emphatic faces while speaking. The setting is consistently a kitchen, with a refrigerator and microwave often visible in the background. His demeanor shifts between neutral explanation, excited smiling, and direct engagement with the viewer, suggesting he is enthusiastically explaining or reacting to a topic."
+      "caption": "A man wearing glasses, a backwards cap, and a skull-print t-shirt is in a kitchen. He looks directly at the camera, sometimes smiling or speaking, and makes various gestures like pointing or raising his arms with surprised expressions. He is consistently positioned near a refrigerator and microwave. The scene consists of him directly addressing the viewer, alternating between neutral, emphatic, and surprised expressions while gesturing in this fixed setting."
     },
     {
       "scene_index": 26,
@@ -280,7 +280,7 @@
       "end_sec": 307.083333,
       "duration_sec": 16.0,
       "num_frame_captions": 26,
-      "caption": "In this kitchen scene, a person prepares a tomato-based sauce on a white electric stovetop. The process involves actively managing a pot of simmering sauce, repeatedly lifting its glass lid to check the contents. At one point, the cook adds a dark liquid from a larger metal pot into the main saucepan, enriching the dish. Throughout the activity, which includes ingredients like onions and peppers, the person frequently gestures toward the cooking food, possibly explaining the steps or emphasizing a point. The scene captures a hands-on, instructional cooking moment focused on simmering and combining ingredients for the sauce."
+      "caption": "This scene shows a person cooking a tomato-based dish in a kitchen. They are primarily using a white electric stovetop, where a pot or pan of simmering tomato sauce is the main focus. The person interacts with the dish by repeatedly lifting the lid off the pot to check on it. At one point, they pour a dark liquid from a larger metal pot into the simmering sauce. Throughout the process, the person gestures with their hands, often pointing toward or explaining the cooking food, which includes visible ingredients like onions and peppers. The activity is a continuous, hands-on cooking demonstration."
     },
     {
       "scene_index": 27,
@@ -290,7 +290,7 @@
       "end_sec": 405.416667,
       "duration_sec": 98.333333,
       "num_frame_captions": 157,
-      "caption": "This scene features a man in a kitchen, wearing glasses, a backwards baseball cap, and a graphic t-shirt with a skull design. He directly addresses the camera, speaking and gesturing to the viewer in a casual, vlog-style format. His actions include preparing food, such as holding a potato and reaching for items near the microwave and refrigerator. The scene culminates with him enthusiastically preparing and eating a hot dog loaded with red sauce and toppings, which he presents to the camera. The video concludes with multiple shots of the stylized \"Invincible Productions\" logo."
+      "caption": "This scene features a man in a kitchen, wearing glasses, a backwards cap, and a skull-print t-shirt. He directly addresses the camera, speaking and gesturing to the viewer. The scene shows him preparing food, including handling a potato, using a microwave, and holding a piece of bread. He later presents and eats a hot dog generously topped with red sauce and other toppings. Throughout, he alternates between speaking to the camera and focusing on his tasks at the counter. The video concludes with multiple frames displaying the stylized \"Invincible Productions\" logo."
     }
   ]
 }

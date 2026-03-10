@@ -1,0 +1,1506 @@
+{
+  "video": "Bhxk-O1Y7Ho",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/Bhxk-O1Y7Ho.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_12.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\n\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\n\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\n* avoid speculation beyond the provided captions\n\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 13511,
+  "num_scenes": 149,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 67,
+      "start_sec": 0.0,
+      "end_sec": 2.235567,
+      "duration_sec": 2.268933,
+      "num_frame_captions": 5,
+      "caption": "This scene features a series of close-up shots focusing on a small, fluffy white animal, which is alternately described as a dog, cat, or rabbit. The sequence begins with a person gently stroking the animal's fur in an intimate moment. Attention then shifts to a visible wound or red mark on the animal's side, with a domestic background detail of an electrical cord. The animal is later shown with its face partially obscured by its own fur as it rests calmly, positioned near a window ledge or on a blanket by a windowsill."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 68,
+      "end_frame": 218,
+      "start_sec": 2.268933,
+      "end_sec": 7.273933,
+      "duration_sec": 5.038367,
+      "num_frame_captions": 10,
+      "caption": "The scene opens with the text \"Just A Girl ATL\" displayed in a white handwritten font on a black background. This title card then transitions into a vibrant nighttime cityscape of Atlanta. The view features illuminated skyscrapers and glowing light trails from traffic moving along winding roads. Throughout this visual sequence, the same \"Just A Girl ATL\" text remains overlaid on the footage, anchoring the scene's title against the dynamic backdrop of the city at night."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 219,
+      "end_frame": 393,
+      "start_sec": 7.3073,
+      "end_sec": 13.1131,
+      "duration_sec": 5.839167,
+      "num_frame_captions": 12,
+      "caption": "This scene takes place in a kitchen, where a young woman with long dark hair is the central subject. Initially, she looks directly at the camera with a surprised or startled expression. Her focus then shifts downward, as she looks at something in her hands or to her side, sometimes with a slight smile. The setting is cluttered and brightly lit, with details like a stove, a sink, and a \"Keep Calm and Eat Cupcake\" sign visible in the background. The sequence captures her alternating between engaging with the camera and being occupied with an unseen task."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 394,
+      "end_frame": 447,
+      "start_sec": 13.146467,
+      "end_sec": 14.9149,
+      "duration_sec": 1.8018,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a woman with dark hair in a home environment, as suggested by a visible bookshelf and doorway. She is shown in a series of moments where her attention is consistently averted, looking down and to the side. Her posture is relaxed, with her arm resting on a surface. The lighting is dim, and the video quality becomes notably blurry in one frame, where she appears with her eyes closed and her arm raised. The overall impression is of a quiet, introspective moment captured in a domestic setting."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 448,
+      "end_frame": 492,
+      "start_sec": 14.948267,
+      "end_sec": 16.4164,
+      "duration_sec": 1.5015,
+      "num_frame_captions": 3,
+      "caption": "A person in a room holds a white cloth or strap up in front of their face. The action takes place in a brightly lit living area with a television on and shelves in the background. The person raises the object, which is alternately described as a towel, cloth, or ribbon, positioning it over their head. The scene is consistent, showing this single, sustained gesture within the domestic setting."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 493,
+      "end_frame": 644,
+      "start_sec": 16.449767,
+      "end_sec": 21.488133,
+      "duration_sec": 5.071733,
+      "num_frame_captions": 10,
+      "caption": "The scene takes place in a bedroom, where a woman interacts with her hair and accessories. She holds a white strap or ribbon above her head, adjusts a headband, and later brushes her hair while looking down. At one point, she engages directly with the camera, speaking and gesturing, and later sticks her tongue out playfully. Throughout, the setting consistently includes a closet full of clothes and a bright window in the background."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 645,
+      "end_frame": 956,
+      "start_sec": 21.5215,
+      "end_sec": 31.898533,
+      "duration_sec": 10.4104,
+      "num_frame_captions": 21,
+      "caption": "This scene features a young Black woman with long dark hair in a casual, lived-in home environment. She is primarily captured in various indoor spaces, including a bedroom or closet area with hanging clothes and bags, and later a kitchen with appliances visible. Throughout the scene, her focus shifts between looking directly at the camera with expressions ranging from neutral to surprised or inquisitive, and looking down or to the side, often while speaking. The setting is consistently cluttered and domestic, with the camera alternating between close-up shots and wider views that show the surrounding rooms."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 957,
+      "end_frame": 980,
+      "start_sec": 31.9319,
+      "end_sec": 32.699333,
+      "duration_sec": 0.8008,
+      "num_frame_captions": 2,
+      "caption": "The scene takes place in a kitchen, where a woman with dark hair is the central figure. She is first seen smiling while looking down at something on the counter, suggesting a moment of focused engagement with an object or task. The action then shifts as she turns her attention to directly address the camera, speaking to the viewer. This transition creates a direct and personal connection, moving from a private moment of observation to an intentional communication with the audience within the same domestic setting."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 981,
+      "end_frame": 1085,
+      "start_sec": 32.7327,
+      "end_sec": 36.202833,
+      "duration_sec": 3.5035,
+      "num_frame_captions": 7,
+      "caption": "This scene takes place in a brightly lit kitchen, where a young Black woman with long dark hair is the central subject. She is initially captured looking directly at the camera with a clear expression of surprise or shock, her eyes wide. The background consistently features a refrigerator covered in magnets and a stove, the latter adorned with a pink \"Keep Calm and Eat Cupcake\" sign. Her focus then shifts as she looks down and to her right, breaking her direct engagement with the viewer while remaining in the same kitchen setting."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 1086,
+      "end_frame": 1121,
+      "start_sec": 36.2362,
+      "end_sec": 37.404033,
+      "duration_sec": 1.2012,
+      "num_frame_captions": 2,
+      "caption": "This scene features a woman speaking in a kitchen. The setting includes appliances such as a refrigerator and stove, with decorative elements like magnets and a sign visible on them. The woman has long dark hair and appears engaged in conversation, at times looking downward. The environment suggests a casual, domestic atmosphere."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 1122,
+      "end_frame": 1144,
+      "start_sec": 37.4374,
+      "end_sec": 38.171467,
+      "duration_sec": 0.767433,
+      "num_frame_captions": 2,
+      "caption": "In a kitchen, a young woman with long dark hair stands quietly, facing down and slightly to her right. The environment features common kitchen appliances, including a stove and a refrigerator. A decorative sign with the message \"Keep Calm and Eat Cupcake\" is visible on the wall, adding a playful touch to the setting. The scene captures a moment of stillness, as she appears contemplative or focused within this domestic space, with no significant action or movement described beyond her subdued posture and gaze."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 1145,
+      "end_frame": 1242,
+      "start_sec": 38.204833,
+      "end_sec": 41.4414,
+      "duration_sec": 3.269933,
+      "num_frame_captions": 6,
+      "caption": "A woman with long dark hair is in a cluttered kitchen, looking directly at the camera with a surprised expression. Her gaze then shifts off to the side, and she appears to be looking down at something in her hands. The setting consistently features a refrigerator covered in magnets and a stove with various items, along with a visible poster on the wall. The scene captures her shifting attention within the static kitchen environment."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 1243,
+      "end_frame": 1747,
+      "start_sec": 41.474767,
+      "end_sec": 58.291567,
+      "duration_sec": 16.850167,
+      "num_frame_captions": 34,
+      "caption": "A woman in a kitchen speaks directly to the camera, gesturing and smiling near a stove and refrigerator decorated with magnets and signs. The scene then shifts to a bathroom, where she looks down or leans over a sink in a cluttered space with wet hair. Finally, she is shown in a room with a bookshelf and desk, seen from behind while using a laptop. The sequence moves from a presentation in the kitchen to more private, introspective moments in other domestic areas."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 1748,
+      "end_frame": 1917,
+      "start_sec": 58.324933,
+      "end_sec": 63.9639,
+      "duration_sec": 5.672333,
+      "num_frame_captions": 11,
+      "caption": "This scene features a young Black woman with dark hair in a series of close-up and medium shots, primarily within a bright indoor kitchen. She is shown looking directly at the camera with varying expressions, from a slight smile to a serious demeanor, and more frequently looking down or to the side while speaking. The setting includes visible white cabinets, appliances, and some cleaning supplies. The sequence captures her in moments of direct address and internal reflection, with some frames appearing blurry or lower resolution."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 1918,
+      "end_frame": 1935,
+      "start_sec": 63.997267,
+      "end_sec": 64.5645,
+      "duration_sec": 0.6006,
+      "num_frame_captions": 2,
+      "caption": "This scene consists of a brief, unstable shot of a person indoors. The video quality is poor, characterized by blurriness and low resolution, which obscures fine details. The primary subject is an individual with dark hair, viewed in profile and then in a shaky close-up. The setting appears to be a cluttered interior space, with a bright but indistinct area behind the subject. Overall, the sequence conveys a sense of casual, handheld recording marked by significant motion and a lack of visual clarity."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 1936,
+      "end_frame": 2005,
+      "start_sec": 64.597867,
+      "end_sec": 66.900167,
+      "duration_sec": 2.335667,
+      "num_frame_captions": 4,
+      "caption": "This scene takes place in a kitchen, where a woman with long, dark hair is the central subject. She is shown both looking directly at the camera and looking down while speaking, indicating she is engaged in a monologue or direct address. The consistent background features white cabinets and a prominent white refrigerator. The refrigerator is notably covered with an assortment of magnets, photos, and papers, suggesting a lived-in, personal space. The setting remains static, focusing attention on the woman's actions and the detailed domestic environment around her."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 2006,
+      "end_frame": 2058,
+      "start_sec": 66.933533,
+      "end_sec": 68.6686,
+      "duration_sec": 1.768433,
+      "num_frame_captions": 4,
+      "caption": "The scene occurs in a kitchen, where a woman with long dark hair is initially looking down. She then turns and looks directly at the camera with a surprised expression, raising her hand to her head. The woman proceeds to speak while gesturing with her hand, indicating active communication. The setting includes a white refrigerator covered in magnets and a decorative pink sign on the wall. The sequence ends with a heavily blurred and overexposed frame, suggesting sudden camera movement or a loss of focus during the action."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 2059,
+      "end_frame": 2096,
+      "start_sec": 68.701967,
+      "end_sec": 69.936533,
+      "duration_sec": 1.267933,
+      "num_frame_captions": 2,
+      "caption": "In this bathroom scene, a collection of personal care items is neatly arranged on the counter beside the sink. The assortment includes multiple deodorant sticks and several bottles and containers. The focus then shifts to a specific action, where a person\u2019s hand is shown holding a white bottle prominently featuring a pink label. This action takes place amidst the other products resting on the surface, highlighting an interaction with one item from the organized group of toiletries."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 2097,
+      "end_frame": 2140,
+      "start_sec": 69.9699,
+      "end_sec": 71.404667,
+      "duration_sec": 1.468133,
+      "num_frame_captions": 3,
+      "caption": "The scene shows a bathroom counter with grooming products for pets. The focal point is Earthbath pet shampoo in a pink bottle, which appears prominently in multiple close-up shots. It is placed alongside other items including a spa product and a Hello Kitty cup. The sequence highlights the shampoo bottle and its surroundings, focusing on the arrangement of these personal care and pet-related items on the counter."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 2141,
+      "end_frame": 2192,
+      "start_sec": 71.438033,
+      "end_sec": 73.139733,
+      "duration_sec": 1.735067,
+      "num_frame_captions": 4,
+      "caption": "This scene presents a static, close-up arrangement of three personal care products on a white surface. The consistent focus is on a specific set of items: a pink bottle of EarthBath puppy shampoo, a blue bottle of Spa Tear Lavish or \"Tear Free\" shampoo, and a Hello Kitty-themed container. The composition remains largely unchanged, with the products displayed together from a similar viewpoint. The captions describe minor variations in labeling and identification, but the core visual is a simple, organized display of these colorful bottles for pets and personal care."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 2193,
+      "end_frame": 2274,
+      "start_sec": 73.1731,
+      "end_sec": 75.8758,
+      "duration_sec": 2.736067,
+      "num_frame_captions": 5,
+      "caption": "The scene presents a consistent close-up view of three pet grooming products arranged on a white surface or shelf. The primary items are a blue bottle labeled as a tear stain remover (with variations in the brand name \"Lavish\" or \"Spa by Tropiclean\") and a pink \"Puppy Shampoo\" bottle featuring cartoon animal illustrations, often on a globe. A third, less prominent white bottle is also present. The composition and products remain stable throughout the sequence, with only minor variations in the specific wording of the blue product's label."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 2275,
+      "end_frame": 2293,
+      "start_sec": 75.909167,
+      "end_sec": 76.509767,
+      "duration_sec": 0.633967,
+      "num_frame_captions": 1,
+      "caption": "This scene features a close-up view of a white bottle, which is the central object of focus. The bottle's label prominently displays the word \"WHITE\" in blue lettering, suggesting it may contain a cleaning product or similar liquid. The image is intentionally blurred, creating a soft, indistinct background that draws all attention to the container itself. The composition emphasizes the product's branding and color scheme, presenting it in a straightforward, isolated manner for the viewer's consideration."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 2294,
+      "end_frame": 2353,
+      "start_sec": 76.543133,
+      "end_sec": 78.511767,
+      "duration_sec": 2.002,
+      "num_frame_captions": 4,
+      "caption": "This scene presents a collection of hair care products, specifically from the brand \"The Christians.\" The main items featured are bottles of \"Thick N Thicker\" and \"After Bathe,\" shown in different contexts throughout the sequence. They appear first as individual items in a close-up view, then are displayed together in a clear plastic package, and finally are shown arranged side by side on a shelf. The sequence focuses on these two products, highlighting their packaging and presentation in various retail or display settings without introducing additional elements or actions."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 2354,
+      "end_frame": 2376,
+      "start_sec": 78.545133,
+      "end_sec": 79.2792,
+      "duration_sec": 0.767433,
+      "num_frame_captions": 2,
+      "caption": "This scene presents two personal care products from the Christian Brothers brand, displayed for viewing. The items, specifically \"Thick N Thicker\" and \"After Bath\" lotion, are shown together in clear packaging. The focus then shifts to a closer view where a hand holds the \"After Bath\" bottle beside another product called \"Quick N Locker.\" Both bottles are contained within a transparent plastic bag resting on a counter. The sequence simply shows these branded items in their packaging from a general to a more detailed perspective."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 2377,
+      "end_frame": 2401,
+      "start_sec": 79.312567,
+      "end_sec": 80.113367,
+      "duration_sec": 0.834167,
+      "num_frame_captions": 2,
+      "caption": "This scene features a series of close-up shots showcasing consumer products. The focus first rests on two bottles of body care items, specifically \"Thick n Thicker\" and \"After Bathe,\" presented in a domestic setting. The scene then shifts to display two cans of a Chick-fil-A product named \"After-Breath,\" which are held up for the viewer's inspection. The sequence presents these items in a deliberate, promotional manner, highlighting their branding and packaging details for clear visibility."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 2402,
+      "end_frame": 2424,
+      "start_sec": 80.146733,
+      "end_sec": 80.8808,
+      "duration_sec": 0.767433,
+      "num_frame_captions": 1,
+      "caption": "This scene presents a focused, static view of a domestic setting, likely a kitchen. The central subject is a clear plastic bag containing two bottles of Jack N' Kate's After Bath products, which are placed on a countertop. The composition is a close-up, drawing attention to the specific brand and type of items within the bag. There is no depicted action or movement; the scene is a still life that emphasizes these personal care products in their packaged state, suggesting they have been recently acquired or are being stored for use."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 2425,
+      "end_frame": 2514,
+      "start_sec": 80.914167,
+      "end_sec": 83.8838,
+      "duration_sec": 3.003,
+      "num_frame_captions": 6,
+      "caption": "This scene consists of a series of close-up shots focusing on hair care and toiletry products arranged on a bathroom shelf or counter. The primary items are two white bottles with blue and red text, including products named \"Thick N Thicker\" and \"After Bathe,\" which is also identified as a final rinse solution. Another bottle of \"After Shave Lotion\" is also visible among the assortment. The sequence culminates with a slightly blurry shot of a person's hand reaching toward the counter, indicating interaction with these items. The overall setting is a bathroom with various personal care products gathered together."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 2515,
+      "end_frame": 2595,
+      "start_sec": 83.917167,
+      "end_sec": 86.5865,
+      "duration_sec": 2.7027,
+      "num_frame_captions": 6,
+      "caption": "The scene shows a person interacting with cluttered spaces in a domestic setting. Their hand reaches toward bottles and containers on a bathroom counter. The action then shifts to a refrigerator and a countertop, where they reach for a white bottle near a coffee maker with a glowing blue light. The sequence focuses on close-up, sometimes blurry, shots of the hand manipulating objects among various items."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 2596,
+      "end_frame": 2656,
+      "start_sec": 86.619867,
+      "end_sec": 88.621867,
+      "duration_sec": 2.035367,
+      "num_frame_captions": 4,
+      "caption": "This scene appears to be set in a domestic interior, likely a kitchen or bathroom, where a person is interacting with various items on a countertop. The action centers on a hand reaching for objects, including a white bottle and a black appliance plugged into a wall outlet. The environment is cluttered, featuring items like a wicker basket, bottles, and a plastic bag. The sequence concludes with a close-up of a woman with long dark hair looking directly at the camera, confirming her presence in the space and connecting her to the preceding actions."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 2657,
+      "end_frame": 2793,
+      "start_sec": 88.655233,
+      "end_sec": 93.1931,
+      "duration_sec": 4.571233,
+      "num_frame_captions": 9,
+      "caption": "A young Black woman with long dark hair is in a kitchen, alternating between looking directly at the camera with varying expressions\u2014surprised, concerned, smiling, or inquisitive\u2014and looking down or to the side while touching her ear, speaking, or holding something, appearing thoughtful or engaged in a quiet moment."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 2794,
+      "end_frame": 2850,
+      "start_sec": 93.226467,
+      "end_sec": 95.095,
+      "duration_sec": 1.9019,
+      "num_frame_captions": 4,
+      "caption": "This scene follows a young Black woman with long dark hair across different household spaces. Initially in a bathroom, she looks directly at the camera with a surprised expression. The action then shifts as she appears focused, looking downward in both the bathroom and later a kitchen. In the bathroom setting, cleaning supplies are visible on a counter near a sink. The final frame shows her in a kitchen, looking down and to her right, with a white countertop and various household items such as a blue spray bottle and a Hello Kitty cup in the background."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 2851,
+      "end_frame": 2901,
+      "start_sec": 95.128367,
+      "end_sec": 96.7967,
+      "duration_sec": 1.7017,
+      "num_frame_captions": 3,
+      "caption": "In a busy kitchen with visible clutter, a young woman\u2014described with either long dark or brown hair\u2014is standing and looking directly at the camera. Her consistent and prominent expression throughout the scene is one of surprise, indicating this is the central emotional focus of the sequence. The action centers on her reacting to something, likely an unseen presence or occurrence that prompts her direct gaze. No other characters or movements are mentioned; the setting details reinforce the domestic context where this startled moment takes place."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 2902,
+      "end_frame": 3035,
+      "start_sec": 96.830067,
+      "end_sec": 101.267833,
+      "duration_sec": 4.471133,
+      "num_frame_captions": 9,
+      "caption": "This scene features a young Black woman with long dark hair in a kitchen. She is the central focus, repeatedly looking directly at the camera. Her expressions vary, primarily showing surprise, curiosity, or a neutral gaze, with one instance of a slight smile. The setting is consistently a domestic kitchen, with background elements like a sink, cabinets, refrigerator, and a coffee maker visible at different times. The scene captures her in a series of reactive moments, as if she is being filmed or photographed, with no other people or significant actions described beyond her shifting expressions and direct address of the viewer."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 3036,
+      "end_frame": 3092,
+      "start_sec": 101.3012,
+      "end_sec": 103.169733,
+      "duration_sec": 1.9019,
+      "num_frame_captions": 4,
+      "caption": "The scene takes place in a kitchen, where a woman with long brown hair stands facing the camera. Her expression appears concerned, confused, or slightly annoyed, and she maintains direct eye contact with the viewer throughout. The setting includes a stainless steel sink and various kitchen items visible in the background. The consistent focus is on her reacting with this unsettled or questioning look in the domestic environment, with no significant change in her position or the surroundings described across the frames."
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 3093,
+      "end_frame": 3200,
+      "start_sec": 103.2031,
+      "end_sec": 106.773333,
+      "duration_sec": 3.6036,
+      "num_frame_captions": 7,
+      "caption": "In a tiled kitchen or hallway, a small white dog repeatedly peeks out from behind a corner, near a white appliance that appears to be a dishwasher. The dog\u2019s blue leash or cord trails across the floor in several frames, and shoes are often visible nearby. While the vantage point and wording differ slightly across frames\u2014some describing a cautious peek, others a simple peek\u2014the scene consistently shows the dog partially hidden, observing from that corner. The sequence concludes with a blurry low-angle shot focusing only on the floor, the blue cord, and the dishwasher."
+    },
+    {
+      "scene_index": 35,
+      "start_frame": 3201,
+      "end_frame": 3314,
+      "start_sec": 106.8067,
+      "end_sec": 110.577133,
+      "duration_sec": 3.8038,
+      "num_frame_captions": 7,
+      "caption": "In a stainless steel sink, a pink sponge is rinsed under a stream of water from a faucet. The water flows directly onto the sponge as it lies in the sink. A hand interacts with the water, first washing under the faucet and then cupping the flowing water. Throughout the scene, the sponge remains present while the faucet runs steadily."
+    },
+    {
+      "scene_index": 36,
+      "start_frame": 3315,
+      "end_frame": 3339,
+      "start_sec": 110.6105,
+      "end_sec": 111.4113,
+      "duration_sec": 0.834167,
+      "num_frame_captions": 2,
+      "caption": "This scene takes place in a domestic setting, likely a bathroom or kitchen, where a small, fluffy white dog is being dried or groomed. The dog stands on a striped towel placed on a counter next to a sink. A hairdryer and a pink cloth are positioned nearby, indicating the process is either about to begin or has just finished. Various other bathroom items are present, suggesting a casual, everyday grooming routine. The consistent elements across the frames are the dog's calm posture and the prepared grooming tools, creating a scene of routine pet care."
+    },
+    {
+      "scene_index": 37,
+      "start_frame": 3340,
+      "end_frame": 3478,
+      "start_sec": 111.444667,
+      "end_sec": 116.049267,
+      "duration_sec": 4.637967,
+      "num_frame_captions": 9,
+      "caption": "A fluffy white dog is observed in kitchen and bathroom settings. In the kitchen, the dog drinks water from the sink and rests on a counter among household items. Later, the dog is seen on a bathroom counter, interacting with a blue bottle by sniffing or licking it. The dog is also petted, stands in a sink, and sits in a bathtub, indicating playful or curious behavior in domestic spaces."
+    },
+    {
+      "scene_index": 38,
+      "start_frame": 3479,
+      "end_frame": 3534,
+      "start_sec": 116.082633,
+      "end_sec": 117.9178,
+      "duration_sec": 1.868533,
+      "num_frame_captions": 4,
+      "caption": "This scene takes place in a cluttered, brightly lit indoor room, likely a living area, where a small, fluffy white dog is the central subject. The dog is initially seen in the foreground of the room, which contains items like a blue spray bottle and a television. The sequence shows the dog in motion, creating a momentarily blurry image as it moves. The focus then settles on a close interaction, where a person\u2019s hand gently pets the dog\u2019s head. Throughout this, the dog remains attentive, at one point looking directly toward the camera during the petting."
+    },
+    {
+      "scene_index": 39,
+      "start_frame": 3535,
+      "end_frame": 3675,
+      "start_sec": 117.951167,
+      "end_sec": 122.6225,
+      "duration_sec": 4.7047,
+      "num_frame_captions": 10,
+      "caption": "This scene shows a fluffy white dog energetically interacting with its owner in a brightly lit kitchen or living room. The dog is seen moving quickly across a cluttered countertop, causing motion blur, and later lying or sitting calmly on the same surface. A person\u2019s hand, wearing a purple wristband, is shown holding and petting the dog. Throughout the scene, common household items are consistently present, including a distinctive blue spray or water bottle and a colorful toy, which the dog sniffs at one point. The activity shifts between playful movement and moments of rest on the counter and floor."
+    },
+    {
+      "scene_index": 40,
+      "start_frame": 3676,
+      "end_frame": 3703,
+      "start_sec": 122.655867,
+      "end_sec": 123.556767,
+      "duration_sec": 0.934267,
+      "num_frame_captions": 1,
+      "caption": "The scene shows a domestic interior where a fluffy white dog is resting on its side atop a patterned rug. The surrounding room appears lived-in and contains various items, creating a cluttered but comfortable atmosphere. The focus remains on the dog in a state of repose within this casual, everyday setting."
+    },
+    {
+      "scene_index": 41,
+      "start_frame": 3704,
+      "end_frame": 3753,
+      "start_sec": 123.590133,
+      "end_sec": 125.2251,
+      "duration_sec": 1.668333,
+      "num_frame_captions": 4,
+      "caption": "The scene features energetic indoor activity by pets. A white dog runs briskly through a cluttered space. Separately, a fluffy white cat stretches on a bathroom counter near a toy. Another white cat is seen moving quickly across a kitchen counter. The setting includes various household surfaces and items, with a final view of a draped textile in a room."
+    },
+    {
+      "scene_index": 42,
+      "start_frame": 3754,
+      "end_frame": 3786,
+      "start_sec": 125.258467,
+      "end_sec": 126.3262,
+      "duration_sec": 1.1011,
+      "num_frame_captions": 2,
+      "caption": "The scene shows a fluffy white dog on a bathroom counter. It is engaged in curious exploration, standing among various toiletries and household items. The dog's attention is focused on a colorful toy, which it sniffs and investigates. The activity suggests a moment of playful or inquisitive interaction with the objects in its immediate environment."
+    },
+    {
+      "scene_index": 43,
+      "start_frame": 3787,
+      "end_frame": 3825,
+      "start_sec": 126.359567,
+      "end_sec": 127.6275,
+      "duration_sec": 1.3013,
+      "num_frame_captions": 3,
+      "caption": "This scene is a brief, shaky indoor video shot from a low, tilted angle. The focus is on a cluttered domestic space, initially showing a white ceiling with track lighting and a wall decorated with framed pictures. The camera then moves to capture a foreground surface holding a woven wicker basket. The primary action involves a large, white, fluffy object, likely a dog, moving amidst an assortment of household items and toys, creating a blurry and motion-filled view of the active pet in its home environment."
+    },
+    {
+      "scene_index": 44,
+      "start_frame": 3826,
+      "end_frame": 3845,
+      "start_sec": 127.660867,
+      "end_sec": 128.294833,
+      "duration_sec": 0.667333,
+      "num_frame_captions": 1,
+      "caption": "This scene presents a domestic interior captured with a sense of motion, suggesting a casual, handheld perspective. The primary focus is a large, white, fluffy object occupying the foreground, its texture and form dominating the view. Behind it, on a countertop, sits a wicker basket containing an assortment of items, adding detail and context to the setting. The overall impression is of a momentary, slightly blurred glimpse into a lived-in space, where ordinary objects are framed by movement, creating a snapshot of everyday stillness within a dynamic composition."
+    },
+    {
+      "scene_index": 45,
+      "start_frame": 3846,
+      "end_frame": 3878,
+      "start_sec": 128.3282,
+      "end_sec": 129.395933,
+      "duration_sec": 1.1011,
+      "num_frame_captions": 2,
+      "caption": "In this domestic scene, a white fluffy dog is perched on a kitchen counter, accompanied by a colorful toy. The environment is cluttered with household items, including a banana, a water bottle, a paper towel roll, and various other objects. The perspective is a first-person view that appears blurry and tilted, suggesting a casual or spontaneous recording. An individual with white hair is leaning over the same counter, creating a shared, intimate moment within the busy kitchen setting. The scene captures a simple, everyday interaction between a person and their pet amidst the familiar disarray of a lived-in home."
+    },
+    {
+      "scene_index": 46,
+      "start_frame": 3879,
+      "end_frame": 3907,
+      "start_sec": 129.4293,
+      "end_sec": 130.363567,
+      "duration_sec": 0.967633,
+      "num_frame_captions": 2,
+      "caption": "This scene presents a brief, indistinct view of a cluttered indoor kitchen counter. The primary focus is a white, furry animal, most likely a dog, which is positioned on the countertop. The setting includes various domestic items such as a wicker basket, a paper towel holder, and a blue bottle. A colorful toy is also visible among the objects. The overall imagery is blurry and of low resolution, conveying a casual, momentary glimpse of the animal in this everyday household environment without clear action or movement."
+    },
+    {
+      "scene_index": 47,
+      "start_frame": 3908,
+      "end_frame": 3940,
+      "start_sec": 130.396933,
+      "end_sec": 131.464667,
+      "duration_sec": 1.1011,
+      "num_frame_captions": 2,
+      "caption": "This scene presents a brief, first-person view of a cluttered indoor living space, likely a kitchen or dining area. The perspective is characterized by motion blur and low resolution, conveying a sense of casual, handheld movement. The visible details include a white appliance, a kitchen counter holding a blue spray bottle and paper towels, and a colorful toy. Framed pictures and decorations are seen on the walls, with a hallway visible in the background. The overall impression is of a quick, passing glance at a lived-in, domestic environment."
+    },
+    {
+      "scene_index": 48,
+      "start_frame": 3941,
+      "end_frame": 3966,
+      "start_sec": 131.498033,
+      "end_sec": 132.3322,
+      "duration_sec": 0.867533,
+      "num_frame_captions": 2,
+      "caption": "This scene shows a woman in two different indoor settings. In the first, she is in a brightly lit room with white walls, looking downward near a wicker basket. The scene then shifts to a cluttered bathroom, where the same woman, now with her hair styled in a bun, is viewed in profile. The bathroom counter holds various toiletries and a roll of paper towels. The sequence presents two distinct moments of the woman in separate, detailed domestic environments."
+    },
+    {
+      "scene_index": 49,
+      "start_frame": 3967,
+      "end_frame": 4103,
+      "start_sec": 132.365567,
+      "end_sec": 136.903433,
+      "duration_sec": 4.571233,
+      "num_frame_captions": 9,
+      "caption": "A Black woman in a kitchen, wearing a teal tank top and white apron, moves between tasks and interactions throughout the scene. She is initially focused on work at the sink but then shows varied reactions, including looking surprised at the camera and looking away thoughtfully. The cluttered kitchen contains numerous items and appliances. Later in the sequence, she speaks both while looking down and while addressing the camera directly. Her appearance is consistent, with short dark hair sometimes styled with a bun or a headband. The scene captures her engaged in activity and communication within the domestic space."
+    },
+    {
+      "scene_index": 50,
+      "start_frame": 4104,
+      "end_frame": 4233,
+      "start_sec": 136.9368,
+      "end_sec": 141.2411,
+      "duration_sec": 4.337667,
+      "num_frame_captions": 9,
+      "caption": "This scene takes place in a cluttered kitchen and focuses on a Black woman with short dark hair, often wearing a headband and a teal top. Her attention shifts throughout the sequence. Initially, she looks upward and to the side with a surprised expression, not directly at the camera. The scene then includes a moment where she speaks directly to the camera. Subsequently, she is repeatedly shown in profile, looking down and to the side, suggesting a pensive or distracted state. The setting remains consistent, and her expressions and gaze directions form the primary action."
+    },
+    {
+      "scene_index": 51,
+      "start_frame": 4234,
+      "end_frame": 4334,
+      "start_sec": 141.274467,
+      "end_sec": 144.611133,
+      "duration_sec": 3.370033,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a person interacting with a fluffy white dog in a cluttered indoor space, likely a bathroom. The individual reaches for various items, including a wicker basket, a towel, and a container of pet food, which sits on a countertop alongside toiletries and colorful bath toys. The dog is present throughout, standing on the counter or positioned in the foreground. The visual style is often blurry and shaky, suggesting handheld camera work that captures close-up actions and the general disarray of the environment."
+    },
+    {
+      "scene_index": 52,
+      "start_frame": 4335,
+      "end_frame": 4356,
+      "start_sec": 144.6445,
+      "end_sec": 145.3452,
+      "duration_sec": 0.734067,
+      "num_frame_captions": 2,
+      "caption": "The scene takes place in a kitchen. A woman with dark skin and short hair, wearing a blue tank top and a white apron, is present. She looks directly at the camera, engaging with the viewer. The setting includes a counter with various items behind her. The focus is on her direct address and the domestic environment."
+    },
+    {
+      "scene_index": 53,
+      "start_frame": 4357,
+      "end_frame": 4438,
+      "start_sec": 145.378567,
+      "end_sec": 148.081267,
+      "duration_sec": 2.736067,
+      "num_frame_captions": 5,
+      "caption": "The scene takes place in a cluttered kitchen, where a woman with dark skin and dark hair, wearing a headband, is the central subject. She is captured in a close-up shot, looking directly at the camera with an expressive face. The background features standard kitchen elements, including white cabinets, a refrigerator covered in magnets, a stove, and countertops holding various items. The overall visual quality is inconsistent, with some frames appearing blurry or low-resolution."
+    },
+    {
+      "scene_index": 54,
+      "start_frame": 4439,
+      "end_frame": 4717,
+      "start_sec": 148.114633,
+      "end_sec": 157.390567,
+      "duration_sec": 9.3093,
+      "num_frame_captions": 19,
+      "caption": "This scene depicts a fluffy white pet, alternately described as a dog or a cat, being cared for in a domestic setting. The animal is first seen being bathed in a bathroom sink, with various toiletries and pet supplies visible on the counter. It is then shown on counters in both bathroom and kitchen areas, interacting with items like pet food containers, a blue spray bottle, and toys. A recurring element is a Hello Kitty cup, which the pet encounters while standing in a sink, sometimes drinking from or playing with it. Throughout the scene, a person is intermittently present, washing, holding, or gently petting the animal."
+    },
+    {
+      "scene_index": 55,
+      "start_frame": 4718,
+      "end_frame": 4758,
+      "start_sec": 157.423933,
+      "end_sec": 158.7586,
+      "duration_sec": 1.368033,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts the grooming and handling of a fluffy white dog in a domestic indoor setting. The process begins with the dog being bathed in a sink, surrounded by various colorful grooming accessories. Following this, there is a close, intimate moment where a person holds the dog near the camera, resulting in a soft-focused portrait. The scene also includes a dynamic, blurry shot of the same dog moving quickly through the brightly lit space, suggesting a moment of energetic activity either before or after the calmer grooming interactions."
+    },
+    {
+      "scene_index": 56,
+      "start_frame": 4759,
+      "end_frame": 4968,
+      "start_sec": 158.791967,
+      "end_sec": 165.7656,
+      "duration_sec": 7.007,
+      "num_frame_captions": 14,
+      "caption": "The scene shows a person interacting with a fluffy white dog in a kitchen. The person bathes the dog in a sink, pets it while it stands there, and later shakes a fluffy object. The dog is active, moving across the floor and countertop, and is seen sniffing a blue object. A fluffy white cat is also present, playing with food and a blanket. The setting is a cluttered kitchen with a counter, shelves, and a striped blanket on the floor."
+    },
+    {
+      "scene_index": 57,
+      "start_frame": 4969,
+      "end_frame": 5040,
+      "start_sec": 165.798967,
+      "end_sec": 168.168,
+      "duration_sec": 2.4024,
+      "num_frame_captions": 5,
+      "caption": "This scene takes place on a cluttered kitchen counter. A fluffy white dog is resting on the countertop, which holds various household items including a blue spray bottle, a paper towel roll, and a clear container of brown dog food or beans. Other objects present are a partially eaten banana, a white appliance, and some colorful pet toys. The key action occurs when a hand reaches toward a small white object located on the furry surface where the dog is lying, suggesting an interaction within this domestic setting."
+    },
+    {
+      "scene_index": 58,
+      "start_frame": 5041,
+      "end_frame": 5083,
+      "start_sec": 168.201367,
+      "end_sec": 169.602767,
+      "duration_sec": 1.434767,
+      "num_frame_captions": 2,
+      "caption": "A fluffy white cat is standing on a kitchen counter near a sink and various food containers. In the same scene, a fluffy white dog is standing inside the sink, appearing to interact with the water, likely washing or playing. The two animals are present together in the kitchen environment, with the cat observed from behind and the dog engaged in an activity involving the sink."
+    },
+    {
+      "scene_index": 59,
+      "start_frame": 5084,
+      "end_frame": 5101,
+      "start_sec": 169.636133,
+      "end_sec": 170.203367,
+      "duration_sec": 0.6006,
+      "num_frame_captions": 2,
+      "caption": "In this bathroom scene, a fluffy white dog is being bathed in a sink, its body covered in soap suds. The dog then drinks water from a Hello Kitty cup, which is also in the sink. Various bathroom items are visible in the background throughout. The sequence shows the dog during and after its bath, transitioning from being washed to having a drink."
+    },
+    {
+      "scene_index": 60,
+      "start_frame": 5102,
+      "end_frame": 5127,
+      "start_sec": 170.236733,
+      "end_sec": 171.0709,
+      "duration_sec": 0.867533,
+      "num_frame_captions": 1,
+      "caption": "A fluffy white dog is perched on a kitchen counter beside a sink, gazing to the side."
+    },
+    {
+      "scene_index": 61,
+      "start_frame": 5128,
+      "end_frame": 5160,
+      "start_sec": 171.104267,
+      "end_sec": 172.172,
+      "duration_sec": 1.1011,
+      "num_frame_captions": 3,
+      "caption": "This scene shows a fluffy white dog engaging in various activities within two home settings. Initially, it is seated on a bathroom counter among toiletries. The dog then appears on a kitchen counter, attentively observing a container of its food. The scene concludes with the same dog energetically playing in a kitchen sink that has been filled with water. The sequence highlights the dog's presence and behavior in different domestic spaces, moving from a stationary pose to more active interaction with its surroundings."
+    },
+    {
+      "scene_index": 62,
+      "start_frame": 5161,
+      "end_frame": 5288,
+      "start_sec": 172.205367,
+      "end_sec": 176.442933,
+      "duration_sec": 4.270933,
+      "num_frame_captions": 8,
+      "caption": "In this scene, a fluffy white dog is seen in a kitchen, initially standing on its hind legs to reach a clear container of pet food on a cluttered counter. The dog's investigation and interaction with the container suggest it is trying to access the kibble inside. Subsequently, the dog settles onto the countertop itself, sitting calmly amidst an assortment of household items, pet supplies, and toys. Throughout the scene, the dog remains attentive and curious, its focus shifting from the food container to its surroundings, and it is eventually shown looking directly at the camera with an inquisitive expression."
+    },
+    {
+      "scene_index": 63,
+      "start_frame": 5289,
+      "end_frame": 5326,
+      "start_sec": 176.4763,
+      "end_sec": 177.710867,
+      "duration_sec": 1.267933,
+      "num_frame_captions": 3,
+      "caption": "The scene takes place in a dimly lit parking garage at night. A woman with dark hair and purple eye makeup is the central subject, speaking directly to the camera. The footage is characterized by a shaky, blurry close-up, suggesting handheld recording. The background features parked cars and the bright lights of the garage, creating a distinct nocturnal atmosphere. The focus remains on her direct address to the viewer within this urban setting."
+    },
+    {
+      "scene_index": 64,
+      "start_frame": 5327,
+      "end_frame": 5549,
+      "start_sec": 177.744233,
+      "end_sec": 185.151633,
+      "duration_sec": 7.440767,
+      "num_frame_captions": 14,
+      "caption": "This scene takes place in a dimly lit underground parking garage. A young Black woman with dark hair and distinctive purple eye makeup is the central subject. She is seen standing and walking among the parked cars, sometimes looking down or off-camera. At other moments, she looks directly at and speaks to the camera. The setting includes features like pillars, a vending machine, and a sleek black car next to which she is occasionally positioned. The sequence captures her in various static poses and in motion, concluding with a first-person, blurry perspective of someone walking through the garage."
+    },
+    {
+      "scene_index": 65,
+      "start_frame": 5550,
+      "end_frame": 5996,
+      "start_sec": 185.185,
+      "end_sec": 200.066533,
+      "duration_sec": 14.9149,
+      "num_frame_captions": 30,
+      "caption": "This scene takes place in a multi-level underground parking garage at night. A young woman with long dark hair and purple eyeshadow is the central figure, walking and occasionally pausing within the garage. The environment features distinctive purple support pillars, yellow floor markings, and parked cars, including a police vehicle. The footage varies in quality, from blurry, low-light handheld shots to clearer, brightly lit moments. The woman is seen from various angles\u2014sometimes in profile, from behind, or looking directly at the camera\u2014while walking, speaking, and displaying a range of expressions from thoughtful to surprised."
+    },
+    {
+      "scene_index": 66,
+      "start_frame": 5997,
+      "end_frame": 6070,
+      "start_sec": 200.0999,
+      "end_sec": 202.535667,
+      "duration_sec": 2.469133,
+      "num_frame_captions": 5,
+      "caption": "This scene appears to be filmed from a low, handheld perspective, creating a blurry and dynamic effect as it moves through a parking area. The focus shifts between various ground-level markers, including a black and yellow protest sign on concrete and multiple parking-related decals and signs on the pavement, such as ones reading \"FRONT PARKING\" and \"FRONT ROW PARKING.\" Orange traffic cones and a parking post are consistently visible nearby. The presence of indistinct figures, cars, and the overall hurried camera motion suggests this is an active, possibly crowded, outdoor lot."
+    },
+    {
+      "scene_index": 67,
+      "start_frame": 6071,
+      "end_frame": 6233,
+      "start_sec": 202.569033,
+      "end_sec": 207.974433,
+      "duration_sec": 5.438767,
+      "num_frame_captions": 11,
+      "caption": "The scene begins with a blonde woman in a chevron-patterned shirt standing inside an elevator, appearing startled or alarmed as she looks upward. The setting then shifts to a dim, blurry interior, possibly still within the elevator or another confined space like a vehicle. The perspective moves to show a bright, overexposed view through a glass door or window, revealing a red-walled area. A sign reading \"CONVERGE\" or \"CONCIER\" is visible. The sequence concludes with a view from inside a vehicle looking out at a red barrier and a building, suggesting movement into or past this location."
+    },
+    {
+      "scene_index": 68,
+      "start_frame": 6234,
+      "end_frame": 6298,
+      "start_sec": 208.0078,
+      "end_sec": 210.143267,
+      "duration_sec": 2.168833,
+      "num_frame_captions": 4,
+      "caption": "The scene appears to be a brief, dynamic moment indoors. A blonde-haired person in a red top moves quickly, creating a motion blur against a dark background. The perspective shifts to a close-up of a carpeted floor before focusing on a woman with dark hair. She is first seen looking toward the camera with a slight smile in the dim light, and then her attention turns to looking out a window at a bright, colorful scene outside."
+    },
+    {
+      "scene_index": 69,
+      "start_frame": 6299,
+      "end_frame": 6324,
+      "start_sec": 210.176633,
+      "end_sec": 211.0108,
+      "duration_sec": 0.867533,
+      "num_frame_captions": 2,
+      "caption": "This scene appears to be set in a modern indoor space with bright lighting and red decorative accents. A woman with dark hair and purple eyeshadow is present, smiling as she looks to her left within this environment. The view then shifts to a more distant or obscured perspective, showing a person in profile looking out a window. Through the window, the exterior scene features a composition of red and white elements. The sequence suggests a moment of observation, moving from a clear, close-up view of the woman inside to a glimpse of the outside world from her vantage point."
+    },
+    {
+      "scene_index": 70,
+      "start_frame": 6325,
+      "end_frame": 6356,
+      "start_sec": 211.044167,
+      "end_sec": 212.078533,
+      "duration_sec": 1.067733,
+      "num_frame_captions": 2,
+      "caption": "The scene begins indoors with a detailed view of a shopping mall directory, clearly showing store names such as Dillard's and a navigation legend on a glass panel. It then transitions to an outdoor setting, where the view becomes bright and blurry, capturing figures on a street. The focus shifts to a colorful poster or sign in the foreground, though it is partially obscured by the overexposure and motion. This sequence suggests a movement from an indoor informational display to a bustling exterior environment."
+    },
+    {
+      "scene_index": 71,
+      "start_frame": 6357,
+      "end_frame": 6475,
+      "start_sec": 212.1119,
+      "end_sec": 216.049167,
+      "duration_sec": 3.970633,
+      "num_frame_captions": 8,
+      "caption": "This scene depicts a bright, sun-drenched urban street or plaza bustling with pedestrian activity. The view is consistently blurry and overexposed, suggesting it is filmed with a shaky, handheld camera in intense sunlight, often causing lens flare. The focus transitions from a general outdoor setting with sidewalks, posts, and storefronts to a person sitting inside a vehicle observing the street. Subsequently, a woman with long blonde hair, wearing a colorful patterned top, becomes the central figure as she walks through the crowded plaza. The overall impression is of a lively, public space filled with people in motion against a backdrop of urban buildings."
+    },
+    {
+      "scene_index": 72,
+      "start_frame": 6476,
+      "end_frame": 6525,
+      "start_sec": 216.082533,
+      "end_sec": 217.7175,
+      "duration_sec": 1.668333,
+      "num_frame_captions": 4,
+      "caption": "This scene focuses on a young Black woman outdoors in a casual setting, likely a garden or park area featuring greenery, potted plants, and a brick-paved path. She has long dark hair and wears purple eyeshadow, which is visible across the frames. Her actions progress from a direct gaze at the camera in a somewhat blurry initial shot to looking down while standing near the plants, and culminates in a smile as she walks along the brick street. The scene captures her subtle shift in expression and movement within this natural environment."
+    },
+    {
+      "scene_index": 73,
+      "start_frame": 6526,
+      "end_frame": 6601,
+      "start_sec": 217.750867,
+      "end_sec": 220.253367,
+      "duration_sec": 2.535867,
+      "num_frame_captions": 5,
+      "caption": "A young Black woman is walking outdoors on a brick-paved sidewalk in an urban setting, near the entrance to a building with red and green walls. She has dark hair and striking purple eye makeup. Throughout the scene, her gaze shifts between looking directly at the camera and looking off-camera as she moves from walking to standing on the sidewalk. The consistent setting and her appearance indicate a continuous sequence focused on this individual in this specific location."
+    },
+    {
+      "scene_index": 74,
+      "start_frame": 6602,
+      "end_frame": 6864,
+      "start_sec": 220.286733,
+      "end_sec": 229.0288,
+      "duration_sec": 8.775433,
+      "num_frame_captions": 17,
+      "caption": "The scene follows a woman with striking purple eyeshadow walking along a city sidewalk near storefronts and outdoor seating. She moves down the street, passing red buildings and railings, sometimes looking toward the camera, down, or off to the side. Her appearance shifts slightly, with her eyeshadow noted as purple or blue in different frames. The setting remains consistent, featuring red buildings, brick sidewalks, and occasional passersby. The sequence ends with her standing outdoors, looking down near the red building."
+    },
+    {
+      "scene_index": 75,
+      "start_frame": 6865,
+      "end_frame": 6904,
+      "start_sec": 229.062167,
+      "end_sec": 230.363467,
+      "duration_sec": 1.334667,
+      "num_frame_captions": 3,
+      "caption": "This scene shows a woman with dark hair and purple eyeshadow on a sunny city sidewalk. She is initially standing, looking off-camera and then down to the side, surrounded by bollards and storefronts. The scene progresses as she begins walking along the brick-paved path, maintaining a pensive or distracted demeanor as she continues to look downward. The consistent elements are her appearance, the bright daylight, and the urban setting featuring bollards and commercial buildings, capturing a brief moment of her movement through the cityscape."
+    },
+    {
+      "scene_index": 76,
+      "start_frame": 6905,
+      "end_frame": 6921,
+      "start_sec": 230.396833,
+      "end_sec": 230.9307,
+      "duration_sec": 0.567233,
+      "num_frame_captions": 1,
+      "caption": "The scene features a single, indistinct shot of an individual outdoors. The visual quality is poor, with the image appearing blurry and low-resolution. The primary focus is on a person's face in the foreground, though the details are unclear due to the lack of sharpness. The background is an outdoor setting, but it is similarly vague and undefined, offering no specific environmental details. Overall, the content is limited to this single, poorly defined view of a person against a generalized outdoor backdrop."
+    },
+    {
+      "scene_index": 77,
+      "start_frame": 6922,
+      "end_frame": 6981,
+      "start_sec": 230.964067,
+      "end_sec": 232.9327,
+      "duration_sec": 2.002,
+      "num_frame_captions": 4,
+      "caption": "The scene takes place outside a building entrance, where an A-frame menu board stands on a brick-paved sidewalk. The board displays images of food items along with numbered sections. Nearby, there are potted plants. Later, a person appears in the vicinity, holding a long object such as a broom or mop. The setting remains consistent throughout, with the outdoor location and architectural details forming the backdrop for these elements."
+    },
+    {
+      "scene_index": 78,
+      "start_frame": 6982,
+      "end_frame": 7021,
+      "start_sec": 232.966067,
+      "end_sec": 234.267367,
+      "duration_sec": 1.334667,
+      "num_frame_captions": 3,
+      "caption": "This scene features a woman with dark hair and distinctive purple eyeshadow. It begins with a close, blurry shot of her face before the setting becomes clearer. She is shown seated, first in a dim, cluttered indoor space containing machinery and plants, and then later at an outdoor table. The final setting, with other blurred chairs and tables in the background, suggests a cafe or restaurant. Throughout the scene, her gaze is averted, looking down or off-camera, and the visual quality shifts from an indistinct, low-resolution opening to more defined but differently lit environments."
+    },
+    {
+      "scene_index": 79,
+      "start_frame": 7022,
+      "end_frame": 7044,
+      "start_sec": 234.300733,
+      "end_sec": 235.0348,
+      "duration_sec": 0.767433,
+      "num_frame_captions": 1,
+      "caption": "In this dimly lit indoor setting, a woman with long brown hair and a white top is captured in a moment of direct engagement with the camera. Her facial expression conveys a sense of concern, suggesting she is experiencing a personal or immediate emotional reaction. The scene focuses on this solitary figure, creating an intimate atmosphere that highlights her internal state. The close-up perspective and the subdued lighting contribute to a mood of quiet tension and introspection."
+    },
+    {
+      "scene_index": 80,
+      "start_frame": 7045,
+      "end_frame": 7095,
+      "start_sec": 235.068167,
+      "end_sec": 236.7365,
+      "duration_sec": 1.7017,
+      "num_frame_captions": 4,
+      "caption": "This scene shows a woman with dark hair and purple eyeshadow in a dimly lit setting, possibly indoors or a semi-outdoor area near a railing. She is seen multiple times in profile, consistently looking toward the left side of the frame, and the environment includes features like shelving. Her actions vary slightly; at one point she is standing near the railing while looking down, and in another moment she is touching her head with her hand. The sequence captures her in a contemplative or reflective state within this shadowy space."
+    },
+    {
+      "scene_index": 81,
+      "start_frame": 7096,
+      "end_frame": 7122,
+      "start_sec": 236.769867,
+      "end_sec": 237.6374,
+      "duration_sec": 0.9009,
+      "num_frame_captions": 1,
+      "caption": "The scene shows a woman seated outdoors near a glass-fronted building, with tables and chairs visible in the background. She has long dark hair and is wearing purple eyeshadow. She smiles warmly, looking directly at the camera. The setting suggests a casual, possibly caf\u00e9-style environment. The overall mood is pleasant and engaged, centered on her friendly interaction with the viewer."
+    },
+    {
+      "scene_index": 82,
+      "start_frame": 7123,
+      "end_frame": 7152,
+      "start_sec": 237.670767,
+      "end_sec": 238.6384,
+      "duration_sec": 1.001,
+      "num_frame_captions": 2,
+      "caption": "The scene features a woman with long dark hair and purple eyeshadow. It begins indoors, where she smiles warmly at the camera in a dimly lit setting. The scene then shifts to an outdoor location, where she is seen standing near a railing. Her expression changes as she looks down and to the side, no longer directly engaging with the camera."
+    },
+    {
+      "scene_index": 83,
+      "start_frame": 7153,
+      "end_frame": 7185,
+      "start_sec": 238.671767,
+      "end_sec": 239.7395,
+      "duration_sec": 1.1011,
+      "num_frame_captions": 3,
+      "caption": "The scene follows a woman with dark hair and purple eyeshadow, beginning indoors in a dim, cluttered space as she looks downward. She then transitions to walking outdoors on a sunny day, passing a restaurant patio while maintaining her downward gaze. Finally, the scene concludes outdoors amid greenery and tables, where her demeanor changes as she smiles while walking. The sequence shows her moving from a somber interior setting to a brighter outdoor environment, where her expression becomes more positive."
+    },
+    {
+      "scene_index": 84,
+      "start_frame": 7186,
+      "end_frame": 7223,
+      "start_sec": 239.772867,
+      "end_sec": 241.007433,
+      "duration_sec": 1.267933,
+      "num_frame_captions": 2,
+      "caption": "The scene features a woman with long dark hair and purple eyeshadow. She is walking outdoors on a sunny day, speaking directly to the camera as she moves. The setting includes a busy pedestrian street with a stone wall and greenery in the vicinity. Her engagement with the camera remains consistent throughout, suggesting a direct address or vlog-style recording as she navigates the public, urban environment."
+    },
+    {
+      "scene_index": 85,
+      "start_frame": 7224,
+      "end_frame": 7262,
+      "start_sec": 241.0408,
+      "end_sec": 242.308733,
+      "duration_sec": 1.3013,
+      "num_frame_captions": 3,
+      "caption": "The scene features a woman with dark hair and purple eyeshadow speaking directly to the camera. She is seated outdoors in a setting with green foliage and other people present in the background. The focus remains on her address to the viewer, with the environment providing a consistent backdrop of nature and blurred social activity throughout."
+    },
+    {
+      "scene_index": 86,
+      "start_frame": 7263,
+      "end_frame": 7308,
+      "start_sec": 242.3421,
+      "end_sec": 243.8436,
+      "duration_sec": 1.534867,
+      "num_frame_captions": 3,
+      "caption": "This scene features a woman with long dark hair, wearing a blue top, being interviewed outdoors. The setting is a sunny patio cafe, identifiable by tables with red umbrellas and other patrons seated in the background. Throughout the scene, her attention is directed toward the camera, indicating she is the primary subject of the recording. The environment is consistently an open-air social space with greenery and blurred background activity, suggesting a casual, public atmosphere. The core action is her participation in this filmed interview or conversation at the cafe."
+    },
+    {
+      "scene_index": 87,
+      "start_frame": 7309,
+      "end_frame": 7383,
+      "start_sec": 243.876967,
+      "end_sec": 246.3461,
+      "duration_sec": 2.5025,
+      "num_frame_captions": 5,
+      "caption": "A woman with long dark hair is seated outdoors at a cafe patio with red umbrellas and greenery. She smiles and interacts with the camera, sometimes waving or holding up a small object. She gestures animatedly while speaking, wearing purple and later blue eyeshadow. Her expressions shift from smiling at the camera to looking down thoughtfully, all within the lively setting surrounded by other patrons."
+    },
+    {
+      "scene_index": 88,
+      "start_frame": 7384,
+      "end_frame": 7755,
+      "start_sec": 246.379467,
+      "end_sec": 258.7585,
+      "duration_sec": 12.4124,
+      "num_frame_captions": 25,
+      "caption": "This scene follows a woman with long dark hair, often wearing purple or blue eyeshadow, as she moves through a lively outdoor urban setting. Initially standing and smiling in a sunny garden or park, she then walks along brick sidewalks past storefronts and potted plants. Her activity shifts from walking to a stationary interaction, as she is later shown holding a large sign featuring a white car advertisement and then speaking directly to the camera. The sequence concludes with her being interviewed on the bustling brick-paved pedestrian street, with other people and outdoor seating visible in the background."
+    },
+    {
+      "scene_index": 89,
+      "start_frame": 7756,
+      "end_frame": 7819,
+      "start_sec": 258.791867,
+      "end_sec": 260.893967,
+      "duration_sec": 2.135467,
+      "num_frame_captions": 4,
+      "caption": "The scene follows a woman with dark hair and distinctive purple eyeshadow as she moves through a busy outdoor plaza. She is walking on a brick-paved pedestrian street, where people are dining and strolling, and passes caf\u00e9 seating in a bustling environment. Initially, she looks at or toward the camera while walking. Later, she stops and shifts her focus downward, appearing to examine a small black object held in her hand as people continue to walk by in the background. The sequence captures her transition from moving through the crowd to a moment of stationary attention."
+    },
+    {
+      "scene_index": 90,
+      "start_frame": 7820,
+      "end_frame": 7867,
+      "start_sec": 260.927333,
+      "end_sec": 262.495567,
+      "duration_sec": 1.6016,
+      "num_frame_captions": 3,
+      "caption": "This scene takes place in a busy urban plaza or sidewalk cafe area. A young woman with long dark hair is present, first standing and then sitting on a bench, often looking downward. The setting is lively, featuring outdoor seating, cafe tables, and other pedestrians in the background. The sequence shows her transitioning from a standing position to being seated, eventually at a cafe table viewed from behind, amidst the general activity of the plaza. The focus remains on her quiet presence within the bustling public environment."
+    },
+    {
+      "scene_index": 91,
+      "start_frame": 7868,
+      "end_frame": 7886,
+      "start_sec": 262.528933,
+      "end_sec": 263.129533,
+      "duration_sec": 0.633967,
+      "num_frame_captions": 1,
+      "caption": "This scene takes place on an outdoor patio, where a woman is seated. She has distinctive purple eyeshadow and is smiling directly at the camera, engaging with the viewer. The setting includes tables and chairs visible in the background, establishing a casual, possibly social environment like a caf\u00e9 or restaurant terrace. The focus remains on her friendly and posed interaction, suggesting a moment of direct address or acknowledgment captured in a relaxed, al fresco setting."
+    },
+    {
+      "scene_index": 92,
+      "start_frame": 7887,
+      "end_frame": 7947,
+      "start_sec": 263.1629,
+      "end_sec": 265.1649,
+      "duration_sec": 2.035367,
+      "num_frame_captions": 4,
+      "caption": "This scene appears to be set in a grooming area, likely a home or salon, where a fluffy white dog is being prepared for grooming. The dog stands on a striped towel placed on a counter, with professional tools like scissors and clippers nearby. The setting then shifts to an outdoor patio, where a woman with purple eyeshadow is seated, smiling for the camera. The background is blurred but shows other people and furniture, indicating a separate social setting distinct from the indoor grooming activity."
+    },
+    {
+      "scene_index": 93,
+      "start_frame": 7948,
+      "end_frame": 8056,
+      "start_sec": 265.198267,
+      "end_sec": 268.801867,
+      "duration_sec": 3.636967,
+      "num_frame_captions": 8,
+      "caption": "The scene shows a fluffy white dog being groomed in a bathroom. The dog sits or stands patiently on a striped towel placed on a counter or in a sink, surrounded by grooming tools such as clippers, scissors, and a comb. A person is involved, gently holding or petting the dog and using a comb to groom its fur. The setting remains consistent, focusing on the calm, domestic activity of preparing the dog's coat."
+    },
+    {
+      "scene_index": 94,
+      "start_frame": 8057,
+      "end_frame": 8106,
+      "start_sec": 268.835233,
+      "end_sec": 270.4702,
+      "duration_sec": 1.668333,
+      "num_frame_captions": 3,
+      "caption": "In a single grooming session, a person carefully tends to a small, fluffy white dog. The animal rests on a colorful striped towel, which serves as the workspace. Using a comb and scissors\u2014both visible among the assortment of grooming tools laid out\u2014the individual performs the necessary care. The scene captures the focused activity of pet grooming, with the tools and towel defining the setting. The actions involve both combing and trimming, as indicated by the implements in use, all centered around the calm dog on the patterned fabric."
+    },
+    {
+      "scene_index": 95,
+      "start_frame": 8107,
+      "end_frame": 8132,
+      "start_sec": 270.503567,
+      "end_sec": 271.337733,
+      "duration_sec": 0.867533,
+      "num_frame_captions": 2,
+      "caption": "This scene features a fluffy white dog in a kitchen. It begins with a close-up of the dog's face, where its dark eyes and nose are visible as it looks intently at the camera. The action then shifts as the dog moves rapidly through the space. Its quick motion creates a blur as it interacts with various items located near the kitchen sink, indicating a moment of energetic activity or play within the domestic setting. The sequence captures both a moment of still attention and subsequent dynamic movement."
+    },
+    {
+      "scene_index": 96,
+      "start_frame": 8133,
+      "end_frame": 8225,
+      "start_sec": 271.3711,
+      "end_sec": 274.440833,
+      "duration_sec": 3.1031,
+      "num_frame_captions": 6,
+      "caption": "This scene shows a person demonstrating Wahl hair clippers in a kitchen setting. In multiple frames, a hand or person is holding the product\u2014either a purple or pink model\u2014in front of the sink. The clipper is consistently positioned against a background of household items, including a water bottle, paper towels, a woven basket, soap, a Hello Kitty cup, and cleaning supplies. The product's packaging or box is also visible on the counter in some shots, suggesting an emphasis on presenting the clipper itself within its domestic context."
+    },
+    {
+      "scene_index": 97,
+      "start_frame": 8226,
+      "end_frame": 8312,
+      "start_sec": 274.4742,
+      "end_sec": 277.343733,
+      "duration_sec": 2.9029,
+      "num_frame_captions": 6,
+      "caption": "The scene shows a fluffy white dog being bathed in a bathroom sink. The dog is active, moving quickly and causing motion blur as it is positioned in front of a cluttered shelf and a countertop with electrical outlets. During the process, a person's hand gently strokes the dog's fur while it lies down. Soap and water are visible around the dog in the sink, and loose white fur is seen in the foreground, completing the bathing activity."
+    },
+    {
+      "scene_index": 98,
+      "start_frame": 8313,
+      "end_frame": 8521,
+      "start_sec": 277.3771,
+      "end_sec": 284.317367,
+      "duration_sec": 6.973633,
+      "num_frame_captions": 14,
+      "caption": "This scene depicts a person bathing a small, fluffy white animal, likely a dog, in a bathroom setting. The animal is seen standing on a striped towel near a bathtub and later being washed in a white sink. Throughout the process, several close-up shots reveal red, irritated patches of skin on the animal's face and side. The scene focuses on the grooming activity and the animal's apparent skin condition, with the person's presence implied by the actions and setting rather than being clearly visible."
+    },
+    {
+      "scene_index": 99,
+      "start_frame": 8522,
+      "end_frame": 8549,
+      "start_sec": 284.350733,
+      "end_sec": 285.251633,
+      "duration_sec": 0.934267,
+      "num_frame_captions": 1,
+      "caption": "This scene presents an intimate, close-up view of a white dog. The camera focuses tightly on the animal's chest and neck, capturing the soft, fluffy texture of its fur. The shot is deliberately blurry, creating a soft, dreamlike aesthetic that emphasizes a sense of closeness and tactile detail rather than sharp visual clarity. The composition is simple and framed to highlight the dog's form and coat, resulting in a calm, abstracted portrait that invites the viewer to notice the subject's texture and gentle presence."
+    },
+    {
+      "scene_index": 100,
+      "start_frame": 8550,
+      "end_frame": 8578,
+      "start_sec": 285.285,
+      "end_sec": 286.219267,
+      "duration_sec": 0.967633,
+      "num_frame_captions": 2,
+      "caption": "This scene features a fluffy white dog standing on a striped towel, likely red and white, on the floor. The dog has its head lowered, appearing to sniff or eat something. The perspective then shifts to a close-up view, focusing on a dark-skinned hand interacting with the same fluffy white object, which is presumably the dog's fur. The background in this shot maintains the striped pattern, confirming the consistent setting. The sequence shows an intimate moment of contact between a person and their pet within a domestic environment."
+    },
+    {
+      "scene_index": 101,
+      "start_frame": 8579,
+      "end_frame": 8641,
+      "start_sec": 286.252633,
+      "end_sec": 288.321367,
+      "duration_sec": 2.1021,
+      "num_frame_captions": 5,
+      "caption": "The scene takes place in a bathroom, where a person interacts with a fluffy white animal, likely a cat or dog. The animal is seen in motion near a sink or bathtub, is held by the person, and is later shown sitting inside the bathtub. A towel is present nearby. In another moment, the person holds up a large, fluffy white object, such as a feather duster, against the backdrop of the tub and tiled wall. The visuals are often blurry and close-up, focusing on these subjects."
+    },
+    {
+      "scene_index": 102,
+      "start_frame": 8642,
+      "end_frame": 8681,
+      "start_sec": 288.354733,
+      "end_sec": 289.656033,
+      "duration_sec": 1.334667,
+      "num_frame_captions": 2,
+      "caption": "This scene presents an abrupt, intimate perspective shift within a domestic kitchen. The initial shot is highly distorted, capturing a bright ceiling light fixture from an extreme upward angle. The following frame immediately clarifies the setting, focusing on a woman in the kitchen looking directly at the camera. The environment is bright and lived-in, with white cabinets and a refrigerator adorned with magnets and notes. The juxtaposition creates a sudden transition from a disorienting, abstract view to a clear, personal interaction with a subject in a familiar, detailed space."
+    },
+    {
+      "scene_index": 103,
+      "start_frame": 8682,
+      "end_frame": 8772,
+      "start_sec": 289.6894,
+      "end_sec": 292.6924,
+      "duration_sec": 3.036367,
+      "num_frame_captions": 6,
+      "caption": "This scene takes place in a kitchen featuring white cabinets and a refrigerator densely covered with magnets, photos, papers, and other decorations. A person with dark hair is present throughout. While the initial captions refer to this individual as a \"person,\" later captions specify that it is a woman. The scene is static, showing the woman in the same kitchen environment without any described action or change in her activity. The consistent background details, including a blue bottle atop the cabinets, indicate a single, continuous shot focused on this domestic setting and its occupant."
+    },
+    {
+      "scene_index": 104,
+      "start_frame": 8773,
+      "end_frame": 8938,
+      "start_sec": 292.725767,
+      "end_sec": 298.231267,
+      "duration_sec": 5.538867,
+      "num_frame_captions": 11,
+      "caption": "This scene depicts a small, fluffy white dog, likely a Bichon Frise, being bathed and groomed in a bathroom. The energetic dog is first seen moving around a cluttered countertop, sometimes wearing a pink bow. It is then placed in a white sink and later a bathtub, where a person's hand holds it steady during washing. Following the bath, the dog is petted while sitting on various white surfaces, including the floor. The sequence captures the active, slightly blurry moments of the grooming process, from preparation and bathing to post-bath affection."
+    },
+    {
+      "scene_index": 105,
+      "start_frame": 8939,
+      "end_frame": 9010,
+      "start_sec": 298.264633,
+      "end_sec": 300.633667,
+      "duration_sec": 2.4024,
+      "num_frame_captions": 5,
+      "caption": "The scene shows a fluffy white dog in a bathroom. It begins with a close-up of the dog, which is energetic and moving, causing some blur. The dog then lies down on a white surface before standing up again, wearing a red bow. It is later seen sitting on a cluttered countertop, with grooming items visible nearby. Throughout the scene, a person's arm is present, suggesting grooming or interaction is taking place."
+    },
+    {
+      "scene_index": 106,
+      "start_frame": 9011,
+      "end_frame": 9026,
+      "start_sec": 300.667033,
+      "end_sec": 301.167533,
+      "duration_sec": 0.533867,
+      "num_frame_captions": 1,
+      "caption": "The scene features a small, fluffy white dog positioned on a brightly colored towel, which rests on a light-colored floor. The dog appears to be in a calm, attentive state, as it is looking downward with its head tilted slightly to one side. The setting is simple and clean, with the vibrant towel providing a distinct contrast to the otherwise pale surroundings. The overall impression is one of quiet focus, with the dog's posture and gaze suggesting a moment of curiosity or observation directed at something on the ground before it."
+    },
+    {
+      "scene_index": 107,
+      "start_frame": 9027,
+      "end_frame": 9090,
+      "start_sec": 301.2009,
+      "end_sec": 303.303,
+      "duration_sec": 2.135467,
+      "num_frame_captions": 5,
+      "caption": "The scene shows a fluffy white dog on a cluttered white surface, which appears to be a countertop or desk. Initially seated attentively and looking directly at the camera, the dog is later seen briefly in motion among grooming tools and household items such as a bottle of honey and a bottle of red liquid. Throughout the scene, it remains seated on this busy surface, sometimes appearing focused on something in front of it. The setting is consistently a room with various objects scattered around, indicating a domestic or grooming environment."
+    },
+    {
+      "scene_index": 108,
+      "start_frame": 9091,
+      "end_frame": 9116,
+      "start_sec": 303.336367,
+      "end_sec": 304.170533,
+      "duration_sec": 0.867533,
+      "num_frame_captions": 1,
+      "caption": "The scene depicts a domestic setting where a small, fluffy white dog is resting on a towel placed on a light-colored floor. The animal appears calm and settled, its posture suggesting a moment of quiet repose. Its face is somewhat hidden by its own fur as it looks downward, contributing to a sense of relaxed stillness. The simple, clean background of the white floor and the use of the towel imply a cared-for pet in a comfortable, indoor environment. The overall mood is one of peaceful tranquility."
+    },
+    {
+      "scene_index": 109,
+      "start_frame": 9117,
+      "end_frame": 9210,
+      "start_sec": 304.2039,
+      "end_sec": 307.307,
+      "duration_sec": 3.136467,
+      "num_frame_captions": 7,
+      "caption": "This scene takes place in a brightly lit, cluttered kitchen featuring white cabinets and a refrigerator densely covered with magnets, photos, and decorations. A woman with long dark hair is the central subject. She interacts directly with the camera, alternating between looking at it and looking down or to the side. Her actions include smiling, waving, and gesturing with her hand while speaking. The scene conveys a sense of informal, personal communication, with some motion blur indicating movement or a slightly unsteady camera. The consistent background, including a pink \"Keep Calm and Eat Cupcake\" sign, anchors the activity in this domestic space."
+    },
+    {
+      "scene_index": 110,
+      "start_frame": 9211,
+      "end_frame": 9233,
+      "start_sec": 307.340367,
+      "end_sec": 308.074433,
+      "duration_sec": 0.767433,
+      "num_frame_captions": 1,
+      "caption": "This scene conveys a frenetic and disorienting visual experience. The footage is dominated by a strong blur effect that obscures all details, creating an abstract and chaotic impression. Overexposed lights streak across the frame, contributing to a sense of overwhelming brightness and confusion. The lack of clear forms and the emphasis on motion blur strongly suggest a rapid, uncontrolled movement within an indoor setting. The overall effect is one of visual turbulence, where the camera or subject is moving so quickly that the scene becomes an indistinct swirl of light and motion."
+    },
+    {
+      "scene_index": 111,
+      "start_frame": 9234,
+      "end_frame": 9268,
+      "start_sec": 308.1078,
+      "end_sec": 309.242267,
+      "duration_sec": 1.167833,
+      "num_frame_captions": 2,
+      "caption": "This scene features a container from which a white, fluffy substance, resembling whipped cream or snow, is actively erupting. The material scatters across a nearby surface. The setting includes a bag and a box of dog food or pet treats, as well as a bottle labeled \"Health Magic\" liquid. The event results in the fluffy material being dispersed around these items, creating a messy and dynamic situation centered on the erupting container and the adjacent pet care products."
+    },
+    {
+      "scene_index": 112,
+      "start_frame": 9269,
+      "end_frame": 9539,
+      "start_sec": 309.275633,
+      "end_sec": 318.284633,
+      "duration_sec": 9.042367,
+      "num_frame_captions": 18,
+      "caption": "This scene features a young woman with long dark hair in a brightly lit kitchen. She is the central focus, frequently speaking directly to the camera, though she also looks down or off-camera at times. Her expressions range from direct address to a moment of apparent concern or surprise, and she occasionally gestures with her hand. The consistent setting includes white cabinets, a refrigerator densely covered with magnets, papers, and photos, and a stove with a visible pink \"Keep Calm and Eat Cupcakes\" sign. In a couple of instances, she is seen eating something."
+    },
+    {
+      "scene_index": 113,
+      "start_frame": 9540,
+      "end_frame": 9558,
+      "start_sec": 318.318,
+      "end_sec": 318.9186,
+      "duration_sec": 0.633967,
+      "num_frame_captions": 2,
+      "caption": "The scene depicts an intimate, private moment likely occurring indoors, centered around a person lying down\u2014possibly resting in bed. The quality of the video is poor, with significant blurring and low resolution throughout, suggesting the recording was captured with an unstable or hastily operated camera. The overall impression is one of a brief, candid glimpse into a personal space, characterized by rapid motion or camera shake that renders the background and details indistinct, leaving only a vague sense of shapes and ambient light."
+    },
+    {
+      "scene_index": 114,
+      "start_frame": 9559,
+      "end_frame": 9676,
+      "start_sec": 318.951967,
+      "end_sec": 322.855867,
+      "duration_sec": 3.937267,
+      "num_frame_captions": 8,
+      "caption": "This scene features a fluffy white animal, alternately described as a cat and a dog, interacting with a domestic bathroom environment. The animal is consistently seen on a colorful striped towel or blanket, with locations shifting between a sink, a bathroom counter, and finally a bathtub. Its actions include lying down, sitting, perching, and reaching or leaning as if interacting with an unseen object. The initial frame is an overexposed, blurry view of a cluttered indoor space, after which the focus settles on these specific, clearer interactions between the animal and the fixtures."
+    },
+    {
+      "scene_index": 115,
+      "start_frame": 9677,
+      "end_frame": 9716,
+      "start_sec": 322.889233,
+      "end_sec": 324.190533,
+      "duration_sec": 1.334667,
+      "num_frame_captions": 2,
+      "caption": "The scene shows a fluffy white dog resting on a colorful striped towel placed beside a white sink. The animal is sitting calmly in the first moment. Subsequently, a person\u2019s hand enters the scene and applies gentle pressure to the dog's fluffy coat. The action suggests a moment of affectionate interaction, such as petting or checking the dog's comfort, while the dog remains settled on the patterned towel. The setting appears to be a domestic bathroom, with the sink and towel providing context for the quiet, tender activity."
+    },
+    {
+      "scene_index": 116,
+      "start_frame": 9717,
+      "end_frame": 9737,
+      "start_sec": 324.2239,
+      "end_sec": 324.891233,
+      "duration_sec": 0.7007,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a moment of quiet interaction with a pet resting on a patterned textile. A person's hand is seen gently stroking the soft, white fur of a cat, which is lying on a striped towel. In a separate frame, a fluffy white dog is also present, positioned on a similarly colorful striped blanket. The scene conveys a calm, domestic atmosphere centered around the care and companionship of two different pets, both characterized by their light-colored coats and shown in repose on vividly striped fabrics."
+    },
+    {
+      "scene_index": 117,
+      "start_frame": 9738,
+      "end_frame": 9777,
+      "start_sec": 324.9246,
+      "end_sec": 326.2259,
+      "duration_sec": 1.334667,
+      "num_frame_captions": 2,
+      "caption": "This scene unfolds indoors with a potential focus on domestic or care-related activity. A small white dog exhibits energetic movement in a room, navigating near an electrical cord and a blanket on the floor. Concurrently, in an adjacent or nearby bathroom area, a person interacts with a stack of towels placed on a white countertop, which is situated close to a wall outlet. The sequence suggests a juxtaposition of casual pet activity and a more deliberate human action involving household items."
+    },
+    {
+      "scene_index": 118,
+      "start_frame": 9778,
+      "end_frame": 9818,
+      "start_sec": 326.259267,
+      "end_sec": 327.593933,
+      "duration_sec": 1.368033,
+      "num_frame_captions": 3,
+      "caption": "This scene features a domestic setting with two pets. A fluffy white dog is first seen in rapid motion, creating a blur across the frame. The action then shifts to the dog leaning over a kitchen sink, engaged with the water there. In a separate moment, a person interacts with a different pet, gently petting a fluffy white cat that is perched on a red and white striped towel. The sequence shows brief, active moments involving the animals in different areas of a home."
+    },
+    {
+      "scene_index": 119,
+      "start_frame": 9819,
+      "end_frame": 10090,
+      "start_sec": 327.6273,
+      "end_sec": 336.669667,
+      "duration_sec": 9.075733,
+      "num_frame_captions": 18,
+      "caption": "A fluffy white dog is active in a domestic setting, primarily in kitchens and bathrooms. It stands, moves, and plays on colorful striped towels, interacts with a blue toy, and drinks from a bowl. The dog is also seen in a sink and bathtub, suggesting bathing or grooming. A person's hand is shown reaching for, petting, and manipulating the dog, indicating care and interaction. The scene captures the dog's varied activities and its engagement with its environment and a human companion."
+    },
+    {
+      "scene_index": 120,
+      "start_frame": 10091,
+      "end_frame": 10109,
+      "start_sec": 336.703033,
+      "end_sec": 337.303633,
+      "duration_sec": 0.633967,
+      "num_frame_captions": 1,
+      "caption": "This scene takes place in a kitchen, captured with a sense of motion that creates a blurry, dynamic effect. The primary focus is a white, fluffy object positioned in the foreground, though its specific nature is not detailed. The background features typical kitchen elements, including shelves, various containers, and a coffee maker, establishing a familiar domestic setting. The overall impression is one of brief, active movement within the space, with the camera work emphasizing speed or a quick transition rather than a static, clear view of the environment."
+    },
+    {
+      "scene_index": 121,
+      "start_frame": 10110,
+      "end_frame": 10135,
+      "start_sec": 337.337,
+      "end_sec": 338.171167,
+      "duration_sec": 0.867533,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a kitchen setting where several elements come together. A sink appears to be overflowing with soapy water, while a coffee maker and various items occupy the counter space. On the same counter, a fluffy white dog is lying calmly next to the kitchen items. A person's hand gently strokes the dog, indicating a moment of interaction between the human and the pet within this domestic environment. The scene combines an ordinary, slightly disordered kitchen state with a tender, quiet moment of companionship."
+    },
+    {
+      "scene_index": 122,
+      "start_frame": 10136,
+      "end_frame": 10183,
+      "start_sec": 338.204533,
+      "end_sec": 339.772767,
+      "duration_sec": 1.6016,
+      "num_frame_captions": 3,
+      "caption": "In this kitchen scene, a fluffy white dog wearing a red bow is the central subject. It is positioned on the counter near the sink, standing on a towel that is described as either striped or colorful in different moments. The dog's attention is consistently directed toward the area of the counter and sink, first looking curiously at the camera and then appearing focused on or interacting with something near the faucet. The scene captures the dog's engaged and inquisitive behavior within this specific domestic setting."
+    },
+    {
+      "scene_index": 123,
+      "start_frame": 10184,
+      "end_frame": 10213,
+      "start_sec": 339.806133,
+      "end_sec": 340.773767,
+      "duration_sec": 1.001,
+      "num_frame_captions": 2,
+      "caption": "In a kitchen setting, a young woman with dark hair stands facing the camera, engaged in a direct, present interaction. The background features a white refrigerator that serves as a prominent focal point, densely covered with an assortment of magnets and various personal decorations, including pictures. The consistent elements across the frames indicate a stable, composed scene where the subject's attention and the detailed, lively backdrop remain the central focus. The scene captures a moment of straightforward address within a domestic space marked by personalized belongings."
+    },
+    {
+      "scene_index": 124,
+      "start_frame": 10214,
+      "end_frame": 10249,
+      "start_sec": 340.807133,
+      "end_sec": 341.974967,
+      "duration_sec": 1.2012,
+      "num_frame_captions": 3,
+      "caption": "This brief, indistinct scene captures glimpses of a person and objects within an indoor environment, likely a kitchen. The low-resolution, blurred footage primarily shows a person with dark hair. The camera also pans across colorful striped fabric, with a blue item resting on it. The final view focuses on a white, fluffy, crumpled object lying atop the same patterned towel. The overall sequence consists of brief, unclear shots of these elements, emphasizing visual texture and color rather than clear action or detail."
+    },
+    {
+      "scene_index": 125,
+      "start_frame": 10250,
+      "end_frame": 10290,
+      "start_sec": 342.008333,
+      "end_sec": 343.343,
+      "duration_sec": 1.368033,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a sleeping cat coming into focus. It begins with two indistinct views of a white, fluffy form resting on a vibrantly patterned fabric, with the initial frames being blurry and out of focus. The visual details gradually clarify, resolving into a clear image of a fluffy white cat. The cat is curled up in a sleeping position, resting peacefully on what is now identifiable as a colorful striped blanket. The progression moves from an ambiguous, soft impression to a definitive, tranquil shot of the animal at rest."
+    },
+    {
+      "scene_index": 126,
+      "start_frame": 10291,
+      "end_frame": 10328,
+      "start_sec": 343.376367,
+      "end_sec": 344.610933,
+      "duration_sec": 1.267933,
+      "num_frame_captions": 2,
+      "caption": "A pet grooming activity is underway in a bathroom. Following the grooming process, a pile of white pet fur has been collected and placed on a colorful striped towel, indicating that hair has been trimmed. The grooming tools, including blue-handled scissors and another grooming implement, are present alongside the fur, ready for use or having just been used. Subsequently, a hand holds a hair clipper above the sink, with the same patterned towel visible, continuing the grooming task within the cluttered setting. The scene captures the practical setup and immediate aftermath of tending to a pet's coat."
+    },
+    {
+      "scene_index": 127,
+      "start_frame": 10329,
+      "end_frame": 10369,
+      "start_sec": 344.6443,
+      "end_sec": 345.978967,
+      "duration_sec": 1.368033,
+      "num_frame_captions": 3,
+      "caption": "The scene shows a person using grooming tools in a bathroom. They are holding a hair dryer with a comb attachment, followed by a cylindrical device, and finally an electric toothbrush. The actions take place over a cluttered counter with a colorful towel visible."
+    },
+    {
+      "scene_index": 128,
+      "start_frame": 10370,
+      "end_frame": 10410,
+      "start_sec": 346.012333,
+      "end_sec": 347.347,
+      "duration_sec": 1.368033,
+      "num_frame_captions": 3,
+      "caption": "This scene appears to focus on grooming or maintenance activities within a bathroom or similar domestic setting. A person is preparing or cleaning various tools, such as hair clippers and heat sinks, alongside a comb or brush. The actions occur over a striped towel placed on a cluttered countertop, with a sink and other household items visible in the background. The primary actions involve holding and potentially using these implements, suggesting a process of preparation or care."
+    },
+    {
+      "scene_index": 129,
+      "start_frame": 10411,
+      "end_frame": 10445,
+      "start_sec": 347.380367,
+      "end_sec": 348.514833,
+      "duration_sec": 1.167833,
+      "num_frame_captions": 2,
+      "caption": "A person grooms a dog using an electric clipper. The grooming takes place on a striped towel, and the person\u2019s hand is seen holding the purple clipper. Tools for grooming are present in the background, along with a visible power outlet, indicating the clipper is in use. The scene focuses on the practical activity of trimming the dog\u2019s fur in a prepared, domestic setting."
+    },
+    {
+      "scene_index": 130,
+      "start_frame": 10446,
+      "end_frame": 10583,
+      "start_sec": 348.5482,
+      "end_sec": 353.119433,
+      "duration_sec": 4.6046,
+      "num_frame_captions": 9,
+      "caption": "The scene takes place in a kitchen or dining area. A young woman with long dark hair is present, looking directly at the camera and sometimes appearing to speak. Her focus shifts as she looks down and to her left, at one point holding a small white object in her hand. Her expressions range from neutral to surprised or concerned. The background includes elements like a sink, counter, refrigerator, white cabinets, and a motivational poster, suggesting a lived-in, somewhat cluttered indoor space."
+    },
+    {
+      "scene_index": 131,
+      "start_frame": 10584,
+      "end_frame": 10760,
+      "start_sec": 353.1528,
+      "end_sec": 359.025333,
+      "duration_sec": 5.9059,
+      "num_frame_captions": 12,
+      "caption": "This scene follows a small, light-colored puppy in a domestic setting. Initially, the puppy is seen walking on a brown carpet near a wall corner, with a tiled floor and scattered toys visible. The puppy then settles down to rest, lying on the carpet and eventually curling up to sleep. Upon waking or being roused, the dog is seen looking up at the camera, at times wearing a small blue or green bow. The scene concludes with the puppy in a more active state, sitting or lying on the carpet while appearing to chew a toy, roll over playfully, or simply observe its surroundings."
+    },
+    {
+      "scene_index": 132,
+      "start_frame": 10761,
+      "end_frame": 10989,
+      "start_sec": 359.0587,
+      "end_sec": 366.6663,
+      "duration_sec": 7.640967,
+      "num_frame_captions": 15,
+      "caption": "The scene shows a small, fluffy white dog wearing a blue collar on a carpeted floor near a wall. The dog is active, moving quickly, sniffing, and playing on the floor. It transitions to lying down, sometimes resting or nuzzling the carpet. A person's hand gently pets the dog while it is lying down. The dog's activity varies from sitting and looking up to lying still, with the final frame showing a blurry, low-resolution image of the animal."
+    },
+    {
+      "scene_index": 133,
+      "start_frame": 10990,
+      "end_frame": 11129,
+      "start_sec": 366.699667,
+      "end_sec": 371.337633,
+      "duration_sec": 4.671333,
+      "num_frame_captions": 9,
+      "caption": "This scene depicts a lively, indoor sequence centered on a fluffy white dog wearing a blue collar. The dog is shown in various states of motion within a carpeted living room, which is somewhat messy with scattered toys and shoes. It is captured both in close-up, looking at the camera, and in active movement, frequently running or walking across the floor. The motion is often emphasized by noticeable blur in the frames, conveying a sense of speed and energy as the dog moves through the domestic space."
+    },
+    {
+      "scene_index": 134,
+      "start_frame": 11130,
+      "end_frame": 11175,
+      "start_sec": 371.371,
+      "end_sec": 372.8725,
+      "duration_sec": 1.534867,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a small, fluffy white dog wearing a blue collar exploring a domestic interior. The dog is in motion, moving away from the camera and walking towards a corner of a room. It actively investigates its surroundings, sniffing near the junction where a pink wall meets a white cabinet or appliance, and also along the baseboard where carpet flooring transitions to tile. A human hand is briefly visible in proximity to the dog, suggesting the presence of a person nearby as the canine engages in this casual exploration."
+    },
+    {
+      "scene_index": 135,
+      "start_frame": 11176,
+      "end_frame": 11576,
+      "start_sec": 372.905867,
+      "end_sec": 386.252533,
+      "duration_sec": 13.380033,
+      "num_frame_captions": 26,
+      "caption": "The scene shows a fluffy white dog with a blue collar interacting in a home environment. It begins by sniffing and moving near a person\u2019s leg on a carpeted floor, then transitions into energetic motion\u2014running and barking across the room where scattered toys and shoes are visible. The dog later sits, lies down, and is petted by a person\u2019s hand. The sequence includes a moment where a thick white cloud, likely fur or vapor, billows on the floor with a hand reaching into it. Finally, the dog walks away from the camera, completing the scene."
+    },
+    {
+      "scene_index": 136,
+      "start_frame": 11577,
+      "end_frame": 11679,
+      "start_sec": 386.2859,
+      "end_sec": 389.6893,
+      "duration_sec": 3.436767,
+      "num_frame_captions": 7,
+      "caption": "This scene depicts a lively indoor setting where a white, fluffy dog is energetically playing. The dog, which wears a blue collar and sometimes a blue bow, moves rapidly across a carpeted floor scattered with toys and shoes. At times, the dog is shown being petted or held by a person, whose hand or arm is visible. The action includes close-ups of the dog with its tongue out, captured mid-motion. The scene's blurry, fast-paced shots convey a sense of dynamic movement and playful interaction within the domestic space."
+    },
+    {
+      "scene_index": 137,
+      "start_frame": 11680,
+      "end_frame": 11701,
+      "start_sec": 389.722667,
+      "end_sec": 390.423367,
+      "duration_sec": 0.734067,
+      "num_frame_captions": 2,
+      "caption": "This scene shows a fluffy white dog in a living room with a carpeted floor. Initially, the dog is lying down, surrounded by a variety of scattered items including toys and shoes. The scene then shifts to show the dog in a more active state, playing among the toys. The setting remains consistent, with the toys and the carpeted floor providing the primary context for the dog's activities, which transition from a resting to an engaged posture."
+    },
+    {
+      "scene_index": 138,
+      "start_frame": 11702,
+      "end_frame": 11777,
+      "start_sec": 390.456733,
+      "end_sec": 392.959233,
+      "duration_sec": 2.535867,
+      "num_frame_captions": 5,
+      "caption": "In a kitchen setting, a woman with dark hair appears multiple times from different angles. Initially, she is shown standing near the sink, seen either in profile or from behind, with various kitchen items on the counter. Subsequently, her demeanor shifts as she looks directly at the camera and begins gesturing with her hand. Finally, she is depicted looking down and speaking, with a refrigerator and doorway visible in the background. The scene captures her presence in the kitchen, moving from a more observational stance to active engagement through gesture and speech."
+    },
+    {
+      "scene_index": 139,
+      "start_frame": 11778,
+      "end_frame": 11816,
+      "start_sec": 392.9926,
+      "end_sec": 394.260533,
+      "duration_sec": 1.3013,
+      "num_frame_captions": 2,
+      "caption": "This scene takes place in a dimly lit, cluttered interior space. The view is consistently blurry and low-resolution, suggesting it may be captured from a distance or with a low-quality camera. A lit television screen is visible in the background, providing the primary source of illumination in the room. Various unidentifiable items are scattered on a surface in the foreground, contributing to the disordered atmosphere. The overall impression is of a casual, lived-in indoor environment where someone might be watching TV, though no specific people or actions are clearly discernible due to the poor image quality."
+    },
+    {
+      "scene_index": 140,
+      "start_frame": 11817,
+      "end_frame": 11956,
+      "start_sec": 394.2939,
+      "end_sec": 398.931867,
+      "duration_sec": 4.671333,
+      "num_frame_captions": 10,
+      "caption": "This scene takes place in a lived-in indoor setting, with the focus shifting among different rooms. A purple Wahl hair clipper is repeatedly shown alongside a Deer Park water bottle on a table or desk. The cluttered environment includes a messy kitchen counter with paper towels and a water cooler, a bathroom counter with personal items, and a desk with papers and a black bag. The electronic device is sometimes upright in a stand. Throughout, doorways lead to adjacent rooms, and the overall impression is of a casual, occupied home space."
+    },
+    {
+      "scene_index": 141,
+      "start_frame": 11957,
+      "end_frame": 12018,
+      "start_sec": 398.965233,
+      "end_sec": 401.0006,
+      "duration_sec": 2.068733,
+      "num_frame_captions": 4,
+      "caption": "The scene depicts a transparent plastic organizer with colorful compartments or test tube racks, consistently placed on a white surface alongside a black appliance. While the items within the organizer vary, the arrangement remains organized, holding various small objects. The overall setting is an indoor space, with some frames appearing blurred or cluttered, suggesting possible motion or a quick capture. The central focus is the clear storage bin and its contents, which appear methodically arranged despite the occasional low-resolution or hurried framing of the wider scene."
+    },
+    {
+      "scene_index": 142,
+      "start_frame": 12019,
+      "end_frame": 12314,
+      "start_sec": 401.033967,
+      "end_sec": 410.877133,
+      "duration_sec": 9.876533,
+      "num_frame_captions": 19,
+      "caption": "This scene features a young woman with long dark hair in a cluttered domestic setting, likely a bathroom or kitchen. She is shown in various poses, often looking down at her hands or an object, or directly addressing the camera while speaking. Her expressions range from serious to surprised or curious. The environment is consistently described as cluttered, with countertops full of toiletries, household items, and a visible sink. The sequence captures her engaged in a personal activity or monologue, frequently interacting with small items in her hands within this busy space."
+    },
+    {
+      "scene_index": 143,
+      "start_frame": 12315,
+      "end_frame": 12513,
+      "start_sec": 410.9105,
+      "end_sec": 417.5171,
+      "duration_sec": 6.639967,
+      "num_frame_captions": 14,
+      "caption": "This scene features a young woman with long dark hair, wearing purple eyeshadow, in two distinct but similarly cluttered indoor settings. Initially, she is in a brightly lit kitchen, looking down and to the side near a stove and various countertop items. The scene then transitions to a more softly and warmly lit room, where she is seated or standing near a dark bookshelf filled with books, framed photos, and decorative items. Throughout, her demeanor is consistent: she looks downward, often with a slight, gentle smile, in a contemplative or relaxed pose."
+    },
+    {
+      "scene_index": 144,
+      "start_frame": 12514,
+      "end_frame": 12701,
+      "start_sec": 417.550467,
+      "end_sec": 423.790033,
+      "duration_sec": 6.272933,
+      "num_frame_captions": 12,
+      "caption": "In this scene, a young Black woman with long dark hair and purple eyeshadow is speaking directly to the camera in a casual indoor room featuring bookshelves and decorative items. Her demeanor shifts from a thoughtful, downcast expression to direct engagement with the viewer. As the scene progresses, her expression becomes increasingly surprised or concerned, with her eyes widening and her mouth slightly open as she looks at the camera. The setting remains consistent throughout, suggesting a personal video recording from a home environment where her emotional reaction is the central focus."
+    },
+    {
+      "scene_index": 145,
+      "start_frame": 12702,
+      "end_frame": 12727,
+      "start_sec": 423.8234,
+      "end_sec": 424.657567,
+      "duration_sec": 0.867533,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a moment of intense brightness and motion. The visual information is overwhelmed by a powerful light source, resulting in frames that are almost entirely washed out and blurry. The clarity of the scene is lost, with only faint, undefined shapes visible at the peripheries. The overall effect is one of rapid movement or a sudden flash that has obscured all identifiable details, leaving only the impression of a stark, luminous event."
+    },
+    {
+      "scene_index": 146,
+      "start_frame": 12728,
+      "end_frame": 13146,
+      "start_sec": 424.690933,
+      "end_sec": 438.6382,
+      "duration_sec": 13.980633,
+      "num_frame_captions": 28,
+      "caption": "This scene takes place in a dimly lit, somewhat cluttered living room. The setting includes a dark couch with pillows and a small table holding a laptop. The primary focus is on a small, fluffy white dog, which is first seen sitting attentively on the beige carpet, looking directly at the camera. The dog is later shown lying down, resting, and wearing accessories like a blue bow or tag. The sequence captures the dog in various calm poses and includes a brief moment of it moving quickly, with some frames being blurry or close-up, emphasizing its expressive dark eyes and fluffy white fur."
+    },
+    {
+      "scene_index": 147,
+      "start_frame": 13147,
+      "end_frame": 13505,
+      "start_sec": 438.671567,
+      "end_sec": 450.616833,
+      "duration_sec": 11.978633,
+      "num_frame_captions": 24,
+      "caption": "This scene primarily features a small, fluffy white dog, often wearing a blue collar or a bow, in various relaxed indoor settings. The dog is frequently shown lying or sitting on a carpeted floor, though it is also seen on a couch and near furniture. Throughout the sequence, the dog is mostly calm and stationary, looking directly at the camera with a curious, gentle, or expressive gaze from different angles and distances. The scene includes a brief moment with a sleeping white cat among electronics, but the consistent focus is on the dog's quiet, observant presence in the dimly lit room."
+    },
+    {
+      "scene_index": 148,
+      "start_frame": 13506,
+      "end_frame": 13510,
+      "start_sec": 450.6502,
+      "end_sec": 450.783667,
+      "duration_sec": 0.166833,
+      "num_frame_captions": 0,
+      "caption": ""
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "image_caption_model": "Qwen3-VL-8B-Instruct",
   "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_40.json",
   "scene_caption_model": "DeepSeek-V3.2",
-  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\n\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\n\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\n* avoid speculation beyond the provided captions\n\nScene description:\n",
   "scene_threshold": 27.0,
   "max_tokens": 120,
   "fps": 29.97002997002997,
@@ -20,7 +20,7 @@
       "end_sec": 26.4264,
       "duration_sec": 26.459767,
       "num_frame_captions": 53,
-      "caption": "This scene introduces a vertical log hive, a specialized beehive constructed with propolis and beeswax. It is designed to be mounted ten feet high in a tree and features three entrance holes along with a rear observation port. The narrative then shifts to a specific event in a sunny backyard, where text overlays announce that a swarm of bees moved into a large tree on April 4, 2013. The scene concludes with detailed shots of the textured bark and hollows of tree trunks in a forest, visually emphasizing the natural habitat for such bee colonies."
+      "caption": "The scene begins with a series of abstract, aged backgrounds resembling parchment. Text then introduces a \"Vertical Log Hive,\" detailing its construction with propolis and beeswax, its placement 10 feet high in a tree, and its features including three entrance holes and a rear observation port. The setting shifts to a sun-dappled backyard with a large tree, fence, and house. Text overlays repeatedly state, \"A swarm moved in. April 2013,\" indicating a bee colony has taken residence. The scene concludes with multiple close-up shots focusing on the textured bark and holes of a large tree trunk in a forest."
     },
     {
       "scene_index": 1,
@@ -30,7 +30,7 @@
       "end_sec": 380.813767,
       "duration_sec": 354.387367,
       "num_frame_captions": 708,
-      "caption": "This scene documents the process of establishing and monitoring a natural beehive within a hollowed-out tree trunk in a forest. It begins with close-up shots of the textured tree bark and dappled sunlight, then shows the initial carving of a circular opening into the trunk, secured with ropes and labeled as the \"First opening\" on April 10, 2013. Subsequent frames track the hive's development over weeks and months, labeled as the \"Second,\" \"Third,\" and \"Forth\" openings, revealing the growing colony of bees inside the cavity. The scene culminates with detailed views of the bustling hive, teeming with bees actively working on honeycomb structures, and concludes with a vintage-style title card for \"Gaia Bees.\""
+      "caption": "This scene documents the process of creating and monitoring a natural beehive within a hollowed tree trunk over time. It begins with establishing the tree cavity, showing close-ups of the textured bark and the initial carving of a circular opening, secured with ropes and labeled with dates like \"First opening\" on April 10, 2013. The sequence follows the hive's development through subsequent openings, revealing the gradual colonization by a dense swarm of bees. The bees are shown actively building honeycomb and tending to their colony inside the tree. The scene concludes with title cards for \"Gaia Bees,\" noting the footage was filmed without smoke."
     }
   ]
 }

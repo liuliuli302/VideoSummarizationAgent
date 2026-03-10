@@ -1,0 +1,13 @@
+{
+  "video": "Paintball",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Paintball.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/summe/video_15.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 13,
+  "caption": "The video begins with an outdoor scene in a grassy field, where a large rock is being lifted and moved by a crane, with several people involved in the operation under an overcast sky. The focus then shifts to a series of fast-paced, dynamic shots in a natural environment, with motion blur suggesting rapid movement through greenery and an orange object—possibly a ball—in motion. This is followed by close-up shots of a person’s hand holding a small red object and a brief, intimate moment showing a person’s face with closed eyes in soft light.\n\nThe video continues with a shot of a hand holding a camera, then transitions to lively scenes of a person in a yellow top and another in a maroon and yellow jersey engaged in energetic, possibly acrobatic or sportive movements on grass. It concludes with a casual, low-angle shot of someone’s feet walking on lush green grass, capturing a simple moment of outdoor activity."
+}

@@ -1,0 +1,13 @@
+{
+  "video": "Fire Domino",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Fire Domino.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/summe/video_11.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 4,
+  "caption": "The video begins by showcasing a meticulously crafted, spiraling sculpture made from wooden toothpicks and matchsticks, some with red tips or beads, balanced on a white surface. A lit match is then introduced, poised to ignite the delicate tower. The structure is set ablaze, with the fire starting at the top and burning intensely downward, consuming the entire sculpture in bright, flickering flames until it collapses into a pile of glowing embers. The scene transitions to a close-up view of a single matchstick igniting, which then spreads to a cluster of matches, creating a vibrant, contained blaze that casts a warm, golden-orange glow against a dark background."
+}

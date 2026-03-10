@@ -5,7 +5,7 @@
   "image_caption_model": "Qwen3-VL-8B-Instruct",
   "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_25.json",
   "scene_caption_model": "DeepSeek-V3.2",
-  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\n\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\n\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\n* avoid speculation beyond the provided captions\n\nScene description:\n",
   "scene_threshold": 27.0,
   "max_tokens": 120,
   "fps": 24.0,
@@ -20,7 +20,7 @@
       "end_sec": 1.208333,
       "duration_sec": 1.25,
       "num_frame_captions": 2,
-      "caption": "The scene depicts a quiet urban street at night or under heavy overcast conditions. Storefronts are closed, and cars are parked along the curb. The atmosphere is still and empty, with no visible activity or pedestrians. The view extends down the sidewalk into the distance, emphasizing the subdued, possibly late-hour tranquility of the location. The overall impression is one of calm stillness in a commonplace residential or commercial area."
+      "caption": "The scene opens with a complete absence of visual information, a black screen. This transitions to a view of a still and quiet urban street. The setting features closed storefronts and parked cars along a sidewalk that recedes into the distance, all under the muted light of an overcast sky. The overall impression is one of stillness and emptiness in a city environment during an inactive time."
     },
     {
       "scene_index": 1,
@@ -30,7 +30,7 @@
       "end_sec": 2.708333,
       "duration_sec": 1.5,
       "num_frame_captions": 3,
-      "caption": "This scene follows a person walking alone at night through a quiet, urban neighborhood. The perspective is first-person, moving down a narrow sidewalk lined with closed shops, their metal shutters drawn down. Parked cars occupy the street, emphasizing the stillness. The focus then shifts to a figure with dark, curly hair, who is seen in profile, pausing to look toward one of the shuttered storefronts. The overall mood is contemplative and slightly desolate, capturing a moment of solitary movement through an inactive commercial district after hours."
+      "caption": "The scene follows a first-person perspective walking along a narrow city sidewalk. The view passes closed storefronts with metal shutters and parked cars on the street. A person with dark, curly hair is present, seen in profile as they stand near a building. Their attention is directed toward a closed metal roll-up door on one of the storefronts. The overall setting is a quiet, urban environment with commercial buildings that appear inactive."
     },
     {
       "scene_index": 2,
@@ -40,7 +40,7 @@
       "end_sec": 4.25,
       "duration_sec": 1.541667,
       "num_frame_captions": 2,
-      "caption": "A young man rides on a subway train, smiling directly at the viewer as he holds a camera. The scene captures a moment of casual interaction, with the train in motion and another passenger visible in the background. His expression suggests he is engaged in filming or preparing to take a picture, creating a sense of shared experience within the public transit setting."
+      "caption": "In this scene, a young man is riding on a subway train. He is holding a camera and smiling directly at the viewer, suggesting he is engaged in filming or photography. The setting is the interior of a moving train, where another passenger can be seen in the background. The primary action centers on the man\u2019s cheerful interaction with the camera, capturing a moment of travel documentation or personal recording during his commute. The overall atmosphere is one of casual, contemporary urban transit."
     },
     {
       "scene_index": 3,
@@ -50,7 +50,7 @@
       "end_sec": 4.875,
       "duration_sec": 0.625,
       "num_frame_captions": 1,
-      "caption": "A person is seated inside a moving train, capturing the passing view through a window. They hold a camera up to their face, intently focusing on the scenery outside. The scene conveys a moment of travel documentation, with the individual pausing to record or photograph the landscape rushing by. The setting suggests a journey, with the interior of the train providing a quiet, reflective space for this personal act of observation and memory-making."
+      "caption": "A person with dark, wavy hair sits inside a train carriage. Their primary action involves holding a camera up to their face, directing the lens outward from their seated position. The scene centers on this deliberate act of recording or capturing a photo from within the train's interior. The description conveys a moment of focused engagement with the camera, suggesting the intent to document the passing environment or a specific view from the window of the moving train."
     },
     {
       "scene_index": 4,
@@ -60,7 +60,7 @@
       "end_sec": 7.041667,
       "duration_sec": 2.166667,
       "num_frame_captions": 4,
-      "caption": "In this scene, a person with dark hair is seated inside a train carriage, likely a subway car. The individual is actively engaged in photography or videography, holding a camera up to their face to capture a shot. The setting is characterized by the interior of public transit, with blue seats and a window visible in the background, suggesting the train is in motion. The consistent action across the frames indicates a focused moment of documentation, as the person aims the camera, possibly to photograph the passing scenery or another subject within the compartment."
+      "caption": "In this scene, a person with dark hair is seated inside a train or subway car. They are consistently shown holding a camera up to their face, appearing to take a photo or record a video. The setting includes details like blue seats and a window visible in the background. The person's hair is described as both long and curly across the different frames. The core action remains the same throughout: the individual is focused on using their camera while riding on the train."
     },
     {
       "scene_index": 5,
@@ -70,7 +70,7 @@
       "end_sec": 9.541667,
       "duration_sec": 2.5,
       "num_frame_captions": 4,
-      "caption": "This scene is captured from the perspective of a moving vehicle traveling along a coastal road. The view is consistently hazy and blurred by motion, framed by a roadside fence that passes close to the camera. Beyond the fence lies a broad body of water, where several distant ships are visible. A single bird flies through the overcast sky overhead. The overall atmosphere is grey and muted, with the motion blur and overcast weather combining to create a fleeting, impressionistic glimpse of the seaside journey."
+      "caption": "The scene is a continuous, blurry view from a moving vehicle traveling along a coastal road. The perspective passes by a fence, looking out over a body of water where distant ships are visible. The sky is overcast and hazy, with a bird flying overhead at one point. The motion-filled shots consistently show this landscape of road, fence, water, and boats, creating a sense of steady travel beside the coast."
     },
     {
       "scene_index": 6,
@@ -80,7 +80,7 @@
       "end_sec": 12.666667,
       "duration_sec": 3.125,
       "num_frame_captions": 5,
-      "caption": "This scene depicts a journey along a winding highway through a consistently rugged and arid landscape. The vehicle travels through a mountainous valley or canyon characterized by dry, rocky terrain and sparse vegetation. A rocky riverbed flanks the road below, suggesting a seasonal watercourse. The journey is set under a persistently overcast sky, casting a muted light over the entire environment. The perspective is from inside the moving vehicle, with occasional motion blur emphasizing the continuous travel through this desolate, hilly region."
+      "caption": "The scene depicts a continuous view from a moving vehicle traveling along a winding highway. The road cuts through a dry, rugged, and mountainous landscape characterized by rocky terrain, sparse vegetation, and a visible rocky riverbed. The journey takes place under an overcast sky, with the perspective consistently showing the highway navigating the arid valley and canyons. The visual quality is occasionally described as blurry and streaked, indicating motion."
     },
     {
       "scene_index": 7,
@@ -90,7 +90,7 @@
       "end_sec": 16.458333,
       "duration_sec": 3.791667,
       "num_frame_captions": 6,
-      "caption": "A person is taking photographs at a busy train station. They focus their camera on a blue and white train as it passes by or is stopped at the platform. The scene captures the general activity of the station, with other commuters present and people walking along platforms and covered walkways. The overall setting is a bustling public transit hub with visible signage, overhead lines, and an overcast sky."
+      "caption": "The scene takes place at a busy train station. A person with dark hair uses a camera to photograph the surroundings, focusing on a blue and white train and the general activity on the platform. Other commuters are present in the background. The individual continues photographing as people, including children, move along a covered walkway near a building. The overall setting shows a typical, active station environment with trains, platforms, signage, and pedestrian traffic."
     },
     {
       "scene_index": 8,
@@ -100,7 +100,7 @@
       "end_sec": 17.916667,
       "duration_sec": 1.458333,
       "num_frame_captions": 2,
-      "caption": "This scene presents a static, wide-angle view of an outdoor environment, likely captured from a stationary position. The perspective looks out through a dense thicket of lush green foliage, which dominates the foreground. Beyond this natural screen, the view opens onto a landscape of urban structures, with distant, hazy mountain ranges visible on the horizon. The entire scene is bathed in the diffuse, shadowless light of a bright but heavily overcast sky, creating a muted and somewhat somber atmosphere. The consistent, blurry quality suggests the footage may be from a fixed security camera or similar low-resolution source observing this tranquil, green-bordered urban vista."
+      "caption": "This scene presents a static outdoor view observed through dense green foliage, forming a natural foreground barrier. The composition directs attention beyond the greenery toward urban structures and distant mountain ranges under a diffuse, overcast sky. The perspective is consistent and tranquil, with no apparent motion or change in the core elements. The overall atmosphere is muted and hazy, characterized by the low-resolution quality of the imagery, which emphasizes a sense of distance and softness in the landscape."
     },
     {
       "scene_index": 9,
@@ -110,7 +110,7 @@
       "end_sec": 20.0,
       "duration_sec": 2.083333,
       "num_frame_captions": 4,
-      "caption": "In this scene, a man wearing a purple shirt is positioned on a train platform, intently using a camera. He raises it to his eye, focusing on capturing a photo of the blue and white train beside him. The setting is an active station, with another individual visible walking in the background, adding a sense of movement to the environment. The man remains absorbed in his photography, a moment of concentration amidst the transit hub's casual flow. The consistent elements are his action with the camera and the prominent presence of the train, framing a brief, still point within the larger scene of travel."
+      "caption": "The scene takes place on a train platform where a man in a purple shirt is holding a camera up to his eye, likely taking a photograph. He is positioned beside a blue and white train. There is another person visible walking in the background of the platform, adding some activity to the setting. The man appears focused on his photography, and in one moment he is seen wearing earphones and looking off to the side, suggesting he may be listening to something or observing the surroundings while engaged with his camera."
     },
     {
       "scene_index": 10,
@@ -120,7 +120,7 @@
       "end_sec": 21.041667,
       "duration_sec": 1.041667,
       "num_frame_captions": 1,
-      "caption": "In a brief, dynamic outdoor scene, a person is seen interacting with a small, dark-furred animal, which appears to be a raccoon or a similar wild creature. The individual holds the animal gently, suggesting a moment of rescue, examination, or controlled encounter. The overall shot is characterized by significant motion blur, indicating either rapid movement by the subjects or an intentionally handheld, shaky camera technique. This creates an impression of spontaneity and immediacy, capturing a fleeting, intimate moment between a human and wildlife amidst a natural, though indistinct, outdoor setting."
+      "caption": "A person is holding a small, dark, furry animal outdoors. The creature, which may be a raccoon, is being cradled by the individual. The shot is blurry and conveys a sense of motion, suggesting the action is not entirely still or posed. The focus remains on this brief interaction between the person and the animal in an outdoor setting."
     },
     {
       "scene_index": 11,
@@ -130,7 +130,7 @@
       "end_sec": 22.083333,
       "duration_sec": 1.041667,
       "num_frame_captions": 2,
-      "caption": "In a rural outdoor setting, a person is engaged in photography or videography. They are focused on capturing the natural landscape, which features vegetation and distant hills under a slightly overcast sky. The individual holds a camera up to their eye to frame the shot, with earbuds in, suggesting they might be listening to audio or remaining undistracted by ambient noise. The scene conveys a moment of quiet concentration, as the photographer documents the serene, expansive view of the countryside."
+      "caption": "A person is outdoors in a rural, natural environment, using a camera to photograph or record the surrounding landscape. The scene, set under overcast skies, includes vegetation and distant hills. While focusing on this task, the individual is simultaneously wearing earbuds, suggesting they might be listening to audio while capturing the view. This indicates a quiet, contemplative moment of personal documentation or enjoyment, blending technology with a peaceful outdoor setting."
     },
     {
       "scene_index": 12,
@@ -140,7 +140,7 @@
       "end_sec": 22.875,
       "duration_sec": 0.791667,
       "num_frame_captions": 1,
-      "caption": "In this outdoor scene, a person is engaged in the process of filming or reviewing footage. They are equipped with earphones, likely for monitoring audio, and have a camera secured around their neck with a strap for easy access. Their attention is focused intently on the device's screen, suggesting they are either checking settings, framing a shot, or playing back recorded content. The setting appears to be a casual outdoor environment, indicating this could be part of a personal project, vlogging session, or documentary work where portable gear and on-the-go review are essential."
+      "caption": "In this outdoor scene, a person is engaged in the activity of photography or videography. They are equipped with a camera that has a neck strap for security and are wearing earphones, likely for audio monitoring or to listen to instructions. The individual's attention is focused on the camera's screen, presumably to review captured footage, adjust settings, or frame a shot. The setting is an unspecified outdoor environment where the person is actively operating the recording device as part of their task."
     },
     {
       "scene_index": 13,
@@ -150,7 +150,7 @@
       "end_sec": 27.0,
       "duration_sec": 4.125,
       "num_frame_captions": 7,
-      "caption": "In an outdoor setting near a wall with greenery, a group of young people gathers for what appears to be a social event or informal meeting. The central figure is a young man wearing an orange jacket or hoodie, who actively engages with the crowd. He is first seen holding a small camera, possibly documenting the occasion. His role then shifts to that of a speaker, as he addresses the group animatedly. Finally, he is shown speaking into a small handheld device, suggesting he might be giving instructions, making an announcement, or recording a message for the assembled audience."
+      "caption": "This scene features a group of young people gathered outdoors near a wall with greenery. Among them is a man in an orange jacket who is a central figure in the activity. He is seen holding a small camera and later a small handheld device, which he speaks into animatedly while addressing the surrounding crowd. The group appears engaged in a conversation or event, with the man seemingly documenting or communicating something to the others. The setting remains consistent throughout, with the outdoor wall and greenery forming the backdrop for this social gathering."
     },
     {
       "scene_index": 14,
@@ -160,7 +160,7 @@
       "end_sec": 30.0,
       "duration_sec": 3.0,
       "num_frame_captions": 5,
-      "caption": "A group of young men walk in a line along a concrete wall covered in graffiti. They are moving casually in an outdoor urban setting. Among them, one individual is wearing earphones, and another stands out in a bright orange shirt. The group's attire includes items like dark hoodies, some featuring brand logos. Their coordinated movement past the textured backdrop suggests a casual, everyday stroll through the neighborhood."
+      "caption": "A group of young men walks together in a line, moving casually through an outdoor urban setting. They pass by a concrete wall adorned with graffiti. Among the group, one individual wears earphones, while another stands out in a bright orange shirt. Another member is dressed in a dark hoodie bearing a Puma logo. The scene captures a brief moment of the group\u2019s coordinated movement, with no additional actions or interactions detailed beyond their steady, linear progression past the textured backdrop."
     },
     {
       "scene_index": 15,
@@ -170,7 +170,7 @@
       "end_sec": 31.791667,
       "duration_sec": 1.791667,
       "num_frame_captions": 2,
-      "caption": "This scene presents a close, intimate, and slightly abstract view of a person in a moment of stillness or fatigue. The focus is on their lower half, where worn shoes and dark trousers stand on a pale floor, suggesting a grounded, weary presence. Nearby, a dark, crumpled piece of clothing lies discarded on the same light surface, implying a recent action\u2014perhaps the person has just sat down or removed an outer layer. The blurry, fragmented cinematography creates a muted, contemplative mood, emphasizing texture and solitude over clear narrative action and inviting reflection on the subject's state."
+      "caption": "The scene consists of two close-up, blurry shots focused on details within a static setting. The first shot shows a person's feet in worn shoes and dark pants, standing on a light surface. The second shot reveals a crumpled piece of dark fabric resting on a similar light background. The sequence presents fragmented, intimate views of clothing and texture, suggesting a quiet, observational focus on worn items and their immediate surroundings."
     },
     {
       "scene_index": 16,
@@ -180,7 +180,7 @@
       "end_sec": 35.375,
       "duration_sec": 3.583333,
       "num_frame_captions": 6,
-      "caption": "This scene follows a group of young people, primarily men, moving together outdoors in a casual, possibly event-related setting. They are seen walking in a line and standing near a concrete wall or fence, suggesting a transition through a public space. Key individuals include a man in an orange shirt, another in a blue shirt with earphones, and a woman in a yellow top with a cap. The atmosphere appears informal and dynamic, with some candid, blurred shots indicating movement within a crowd. The group's coordinated travel and varied attire imply they are part of a larger gathering or on their way to an activity."
+      "caption": "This scene captures a group of young people outdoors, likely moving through a crowded event or public setting. They are initially seen standing together, with individuals wearing earbuds and a distinctive orange shirt frequently featured. The group then transitions into motion, walking in a line past a concrete wall or fence. The compositions include both clear and candid, blurry shots, suggesting dynamic movement. Among the group is a man in a blue shirt, a woman in a yellow top with a cap, and another person wearing a wig. The overall focus is on their collective activity and progression through the space."
     },
     {
       "scene_index": 17,
@@ -190,7 +190,7 @@
       "end_sec": 37.208333,
       "duration_sec": 1.833333,
       "num_frame_captions": 3,
-      "caption": "This scene takes place outdoors, featuring two individuals in a yard or similar setting. A man wearing a blue shirt is the primary subject, first seen standing in the background while another person observes from the foreground. The man in blue then walks away from the camera, moving across the scene with a concrete wall and foliage visible behind him. The overall action is quiet and observational, centered on the man's movement and position relative to the stationary onlooker, who is seen from behind with dark hair. The setting suggests a casual, everyday environment."
+      "caption": "The scene takes place outdoors, with a yard, a concrete wall, and foliage visible. A man wearing a blue shirt is the central figure. He is first seen standing in the yard, then walks away from the camera. Throughout the scene, another person is present, observing from the foreground, first watching the man stand and later seen from behind as the man moves into the background. The setting and actions remain consistent, focusing on these two individuals in an outdoor area."
     },
     {
       "scene_index": 18,
@@ -200,7 +200,7 @@
       "end_sec": 41.541667,
       "duration_sec": 4.333333,
       "num_frame_captions": 7,
-      "caption": "This scene appears to be a casual, friendly gathering of young people, both indoors and outdoors. The focus is primarily on two young men, one in a blue shirt and another in a purple or red shirt, who are wearing white earbuds and smiling, suggesting they are listening to music or engaged in a pleasant conversation. Their relaxed poses and smiles indicate a lighthearted, informal atmosphere. The scene then shifts to show the group outside near a fence, expanding the setting and confirming the social nature of the event, which blends individual moments of enjoyment with a broader, relaxed group dynamic."
+      "caption": "This scene features a small group of young people in a casual, indoor setting. The focus is primarily on two men, one in a blue shirt and another in a dark or purple shirt, both wearing white earbuds. They are shown in various relaxed poses, often leaning forward and smiling, suggesting a friendly conversation or shared enjoyment of music. The setting includes a light-colored floor, and the scene briefly expands to show the group gathered outdoors near a fence, indicating the activity may extend outside. The overall mood appears informal and congenial."
     },
     {
       "scene_index": 19,
@@ -210,7 +210,7 @@
       "end_sec": 42.416667,
       "duration_sec": 0.875,
       "num_frame_captions": 1,
-      "caption": "Three young men are moving along an urban sidewalk adjacent to a concrete barrier and a chain-link fence. Their activity suggests a casual, purposeful motion, either walking briskly or jogging, as they travel together through the cityscape. The setting implies a routine urban environment, possibly a street or pathway, with the infrastructure of the barrier and fence framing their journey. The scene captures a moment of coordinated movement, emphasizing their presence within the shared public space."
+      "caption": "The scene depicts three young men moving along an urban sidewalk. Their activity, described as walking or jogging, suggests purposeful motion within a city environment. The setting is defined by man-made structures, including a concrete barrier and a chain-link fence running parallel to their path. This creates a linear, confined passageway typical of urban infrastructure. The focus remains on the group's collective movement through this defined space, emphasizing the interplay between human activity and the built, functional landscape that frames it."
     },
     {
       "scene_index": 20,
@@ -220,7 +220,7 @@
       "end_sec": 44.875,
       "duration_sec": 2.458333,
       "num_frame_captions": 4,
-      "caption": "A person in a purple shirt is energetically running outdoors near railway tracks, passing by concrete barriers and a graffiti-covered wall. Meanwhile, another person in a blue shirt is pushing a cart along the same wall. The action occurs on a residential street where a white van drives by in the background. The scene captures a moment of parallel activity, with one individual in motion and another engaged in a task, set against an urban backdrop of tracks, graffiti, and passing traffic."
+      "caption": "This scene depicts energetic outdoor activity near railway tracks and graffiti-covered urban walls. A person in a purple shirt is seen running past the tracks, while another individual in a blue shirt is pushing a cart along a wall. The action continues on a nearby residential street, where a person in red shorts runs past more graffiti as a white van passes in the background. The sequence suggests a dynamic, moving scene involving multiple people engaged in physical motion within this gritty, industrial setting."
     },
     {
       "scene_index": 21,
@@ -230,7 +230,7 @@
       "end_sec": 47.041667,
       "duration_sec": 2.166667,
       "num_frame_captions": 4,
-      "caption": "A skateboarder in a black shirt and red pants is at a graffiti-covered urban spot near train tracks. He is first seen crouched on a concrete ledge, preparing for a trick. He then walks along the ledge before performing a skateboarding trick, grinding along a metal rail. After the trick, he leans against a concrete barrier, taking a moment to rest. The scene captures a sequence of preparation, action, and pause in this gritty, overcast setting."
+      "caption": "The scene shows a skateboarder in a black shirt and red pants in a graffiti-covered urban area near train tracks. He is first seen crouched on a concrete ledge, preparing for a trick. He then walks along the ledge before successfully performing a grinding trick on a metal rail. Finally, he is seen leaning against a concrete barrier, suggesting a moment of rest or conclusion. The action unfolds under an overcast sky, centered on his skateboarding sequence."
     },
     {
       "scene_index": 22,
@@ -240,7 +240,7 @@
       "end_sec": 49.375,
       "duration_sec": 2.333333,
       "num_frame_captions": 4,
-      "caption": "The scene follows a young man in a blue shirt navigating a public, concrete space, likely a stadium or similar structure. He descends a staircase, trailed by a companion in a grey sweatshirt. They join a group of young people gathered on the bleachers, where the mood appears casual. The setting then shifts to a more chaotic, crowded outdoor area with graffiti-covered walls, where the man in blue is later seen leaning against a wall, and another individual in an orange jumpsuit is present."
+      "caption": "The scene unfolds at a concrete outdoor location, likely a stadium or similar space with bleachers and staircases. A young man wearing a blue shirt is prominent, moving down stairs and leaning against a railing or wall, while he is observed or followed by another individual in a grey sweatshirt. A group of other young people is present on the bleachers. The setting appears crowded and somewhat chaotic. Later, a man in an orange jumpsuit is seen standing near a graffiti-covered wall, with another person in dark clothing nearby."
     },
     {
       "scene_index": 23,
@@ -250,7 +250,7 @@
       "end_sec": 51.875,
       "duration_sec": 2.5,
       "num_frame_captions": 4,
-      "caption": "In this outdoor scene, a young man in a purple shirt sits on the grass, engaged in a quiet, personal moment. He is wearing earbuds, suggesting he is listening to music or a podcast. His activity shifts from initially holding an unidentified piece of food to carefully peeling a banana. His expression transitions from a distant, focused look to a clear, relaxed smile as he handles the fruit. The scene captures a simple, peaceful interlude of someone enjoying a snack and some private time outdoors, with his attention fully on the task at hand."
+      "caption": "In this outdoor scene, a young man wearing a purple shirt and earbuds is seated on grass. Initially, he holds a piece of food while gazing away, then shifts his focus to a bundle of dried plant material. Subsequently, he acquires a banana, first looking down at it as he holds the peeled fruit and then smiling as he actively peels it. The sequence shows him transitioning between different handheld items\u2014food, dried leaves, and finally a banana\u2014while maintaining a relaxed, seated posture outdoors."
     },
     {
       "scene_index": 24,
@@ -260,7 +260,7 @@
       "end_sec": 56.375,
       "duration_sec": 4.5,
       "num_frame_captions": 7,
-      "caption": "In an outdoor urban setting, a young man in a purple shirt uses a DSLR camera to photograph a group of friends against a vibrant graffiti-covered wall. The scene alternates between his perspective as the photographer and moments where he becomes part of the group, smiling for the camera himself. The sunlit environment features several teenagers loitering, sitting, and standing near the wall, creating a casual, social atmosphere. The action centers on capturing informal portraits in this colorful, street-art backdrop, blending the roles of observer and participant within the shared activity."
+      "caption": "This scene takes place outdoors in an urban setting with a prominent graffiti-covered wall. A young man in a purple shirt and a Nikon camera strap is central to the action. Initially, he is actively using his DSLR camera, holding it up to his eye to take photos of a group of friends or teenagers standing near the wall. The group is present throughout, loitering, sitting, and standing in the sunlit area. Later, the photographer himself smiles directly at the camera, suggesting a shift where he either pauses his photography or becomes the subject of a picture himself."
     },
     {
       "scene_index": 25,
@@ -270,7 +270,7 @@
       "end_sec": 60.333333,
       "duration_sec": 3.958333,
       "num_frame_captions": 6,
-      "caption": "The scene opens with a brief moment of darkness before focusing on a young man with dark, curly hair. He is seated inside a moving vehicle, likely a train or bus, as indicated by the blurred motion visible through the window behind him. Wearing a gray shirt and white earbuds, he smiles warmly while looking to the side, seemingly absorbed in music or a pleasant thought. The consistent imagery conveys a quiet, contented moment of travel, with his relaxed expression and the passing scenery suggesting a peaceful journey."
+      "caption": "The scene opens with a brief moment of darkness before focusing on a young man with dark, curly hair. He is seated inside what appears to be a moving vehicle, likely public transport, as indicated by the blurred motion visible through the window behind him. The man is wearing a gray shirt and white earbuds, and he smiles contentedly while looking to his side, seemingly engaged with the audio from his device. The consistent imagery throughout the scene captures him in a relaxed, pleasant moment during his journey."
     },
     {
       "scene_index": 26,
@@ -280,7 +280,7 @@
       "end_sec": 61.333333,
       "duration_sec": 1.0,
       "num_frame_captions": 2,
-      "caption": "In this scene, a young man with dark, curly hair is seated inside a vehicle, likely a car or bus. He is wearing a gray shirt and has white earbuds in his ears, indicating he is listening to audio, such as music or a podcast. His expression is relaxed and content, featuring a slight smile as he gazes off to the side, absorbed in his own thoughts or the passing view outside the window. The overall mood is one of quiet enjoyment and momentary solitude during a journey."
+      "caption": "A young man with curly dark hair sits inside a vehicle, wearing a gray shirt and white earbuds. He is smiling gently while looking to his right, appearing engaged and content. The scene depicts him in a relaxed seated pose, likely listening to music or enjoying a private moment. His focus is directed away from the camera, suggesting he is immersed in the audio or in his surroundings. The overall impression is of a person calmly enjoying a solitary activity during a journey."
     },
     {
       "scene_index": 27,
@@ -290,7 +290,7 @@
       "end_sec": 62.916667,
       "duration_sec": 1.583333,
       "num_frame_captions": 2,
-      "caption": "A young man pauses on a busy city sidewalk, looking down at his phone while pedestrians move around him. The atmosphere is damp and reflective, suggesting recent rain. His camera strap indicates he might be a photographer, perhaps checking settings or reviewing a shot amidst the urban flow. The scene captures a quiet, introspective moment of disconnection within the public bustle, framed by the blur of passing people and the glossy surfaces of the wet environment."
+      "caption": "This scene captures a candid moment on a busy, wet city sidewalk during rainy weather. A young man, identifiable by a Nikon camera strap, is preoccupied with his phone, looking down while standing in the foreground. Pedestrians walk past him, suggesting a typical flow of urban activity. The setting includes a prominent glass building adjacent to the sidewalk. The handheld, slightly blurry footage emphasizes an informal, observational perspective on this everyday urban interaction between an individual momentarily disengaged and the continuous movement of people around him."
     },
     {
       "scene_index": 28,
@@ -300,7 +300,7 @@
       "end_sec": 63.958333,
       "duration_sec": 1.041667,
       "num_frame_captions": 2,
-      "caption": "In a bustling urban setting, a young man in a blue jacket is the central figure. He is walking along a busy city sidewalk, his attention primarily fixed on the smartphone in his hand. Simultaneously, he is also carrying a camera, suggesting he might be a tourist or a content creator navigating the city while staying connected or capturing moments. The scene conveys a sense of modern, distracted movement, as he blends into the flow of pedestrian traffic, engaged with his devices amidst the surrounding urban energy."
+      "caption": "The scene follows a young man wearing a blue jacket as he navigates a bustling urban sidewalk. He is preoccupied with his mobile phone, which he looks at while walking. In addition to his phone, he is also carrying a camera, suggesting he may be engaged in photography or videography. The background is filled with the typical activity of a busy city street. The primary action centers on the man's movement through this environment while his attention remains divided between his path and the devices in his hands."
     },
     {
       "scene_index": 29,
@@ -310,7 +310,7 @@
       "end_sec": 66.5,
       "duration_sec": 2.541667,
       "num_frame_captions": 4,
-      "caption": "A man in a blue jacket walks along a city sidewalk, talking on his phone. His path takes him near the entrance of a modern metro station, identifiable by a prominent \"METRO\" sign. The backdrop consists of contemporary buildings and glass structures, under an overcast sky. The scene captures a moment of urban transit, focusing on the individual's movement through this public space as he engages in a phone conversation."
+      "caption": "This scene shows a man in a blue jacket or hoodie walking outdoors on a city sidewalk on an overcast day. He is consistently engaged in a phone conversation throughout the sequence. The setting is near a modern transit station, indicated by visible metro signage and contemporary architectural elements like glass structures in the background. The environment is an urban cityscape with other buildings present. The primary action is his continuous movement and phone call as he passes by the station entrance."
     },
     {
       "scene_index": 30,
@@ -320,7 +320,7 @@
       "end_sec": 74.583333,
       "duration_sec": 8.083333,
       "num_frame_captions": 13,
-      "caption": "This scene depicts a consistently messy and lived-in bedroom. The room features a bed with a rumpled blue and patterned comforter, set against pale yellow walls. Personal belongings, including clothes, bags, and a backpack, are scattered across the wooden floor. The disarray is captured through a series of blurry, often motion-filled shots, suggesting the camera is handheld or moving quickly through the space. A wooden dresser and a nightstand with a remote control are also visible, completing the impression of an active, cluttered domestic environment."
+      "caption": "This scene presents a consistently messy bedroom, likely captured with a moving or handheld camera, as indicated by the recurring blur and motion in many frames. The room features pale yellow walls and a wooden floor cluttered with scattered clothes, bags, and a backpack. The focal point is a bed with a rumpled blue comforter, often showing a yellow and blue swirl pattern, accompanied by a patterned sheet and a green blanket. A wooden dresser and a nightstand, the latter holding items like a remote control, complete the setting. The overall impression is one of disarray and casual, perhaps hurried, activity within the space."
     },
     {
       "scene_index": 31,
@@ -330,7 +330,7 @@
       "end_sec": 79.291667,
       "duration_sec": 4.708333,
       "num_frame_captions": 7,
-      "caption": "The scene depicts a bustling urban plaza centered around a prominent monument, framed by a mix of historic and modern architecture. Under an overcast sky, groups of pedestrians and tourists move through the spacious, wet square. Individuals, including a man in a blue hoodie and others with backpacks, walk or gather, while cars pass by on the surrounding streets. The activity conveys a typical day in the vibrant public space, with people navigating the area under the cloudy weather."
+      "caption": "This scene depicts an open, urban plaza centered around a prominent monument, blending historic and modern architecture under an overcast, cloudy sky. The square is bustling with pedestrians, including individuals and groups of people, such as tourists and a man wearing a blue hoodie and a backpack. While some people gather, others walk across the wet, spacious area. Cars are occasionally seen driving on the streets surrounding the plaza, contributing to the active urban atmosphere. The scene captures a moment of everyday public life in this central city square."
     },
     {
       "scene_index": 32,
@@ -340,7 +340,7 @@
       "end_sec": 82.083333,
       "duration_sec": 2.791667,
       "num_frame_captions": 5,
-      "caption": "This scene depicts a bustling urban environment, likely a major city square or thoroughfare, under an overcast sky. The central focus is on a young man, wearing earphones and a backpack, who is walking purposefully through the crowded area. He navigates a mix of pedestrians and light vehicle traffic, passing notable architecture including a large, curved white building and a central monument. The overall atmosphere is one of everyday city life, with people milling about, some in groups, going about their daily routines in the open public space."
+      "caption": "The video depicts a crowded urban scene centered on a person walking through a busy city street. The individual, a young man or person wearing a backpack and earphones, moves amidst numerous pedestrians and vehicles. The setting appears to be a large city square or thoroughfare featuring modern architecture, including a prominent curved white building and a central monument. The atmosphere is bustling, with other people milling about and groups gathering nearby, all under an overcast sky. The consistent focus is on this solitary figure navigating the dynamic public space."
     },
     {
       "scene_index": 33,
@@ -350,7 +350,7 @@
       "end_sec": 82.916667,
       "duration_sec": 0.833333,
       "num_frame_captions": 1,
-      "caption": "This scene captures a brief moment of urban life as a solitary figure moves through a bustling city plaza. The individual, dressed in a blue jacket and carrying a backpack, navigates the open space, suggesting a journey or commute. The environment is a blend of the contemporary and the historical, with modern parked vans set against the backdrop of older architectural structures. The overall atmosphere is one of everyday transit and public activity, portraying a simple, unscripted interaction between a person and their dynamic, layered urban surroundings."
+      "caption": "This scene depicts a person in a blue jacket and a backpack navigating a bustling urban plaza. The environment is active, with parked vans and historic architecture forming the backdrop. The individual is shown walking through this public space, suggesting movement and transit within a city setting. The overall impression is of everyday urban life, where a pedestrian travels through a crowded area characterized by a mix of contemporary vehicles and older, stately buildings. The focus remains on the person's journey within this specific, lively locale."
     },
     {
       "scene_index": 34,
@@ -360,7 +360,7 @@
       "end_sec": 84.416667,
       "duration_sec": 1.5,
       "num_frame_captions": 3,
-      "caption": "This scene presents a striking architectural contrast within a spacious urban plaza. The focal point is a historic, ornate pink building with green storefronts, in front of which a distinctive green-and-white van is parked. This structure is juxtaposed against the backdrop of a sleek, modern glass skyscraper and a grand classical building with columns, creating a vivid dialogue between different eras of design. A few pedestrians and a vintage car in the foreground complete the view, emphasizing the scene's blend of historical charm and contemporary city life within a single, cohesive public square."
+      "caption": "This scene captures a distinct architectural contrast in a wide urban plaza, dominated by the juxtaposition of historic and modern buildings. The foreground features a prominent ornate pink structure, complemented by classic stone architecture with columns, while a sleek glass skyscraper towers behind. A green-and-white vintage van is parked in front of the pink building, and a few pedestrians are present. The setting is spacious and open, emphasizing the visual contrast between the different eras of design within the same city square."
     },
     {
       "scene_index": 35,
@@ -370,7 +370,7 @@
       "end_sec": 90.833333,
       "duration_sec": 6.416667,
       "num_frame_captions": 10,
-      "caption": "This scene presents a series of views of a historic European city center under an overcast sky. The focus shifts between the grand, ornate architecture of the main square, featuring a prominent building with a clock tower and intricate facades, and the surrounding urban streets lined with varied buildings. The atmosphere is quiet, with only a few pedestrians and parked cars visible. The perspective alternates from wide shots of the plaza to closer street-level examinations, capturing a mix of architectural styles from historic stone structures to a distinctive white Art Deco building."
+      "caption": "This scene presents a detailed exploration of a European city's urban architecture and public spaces under an overcast sky. The focus shifts between grand, ornate historic buildings featuring prominent clock towers and intricate facades, and the surrounding cityscape with a mix of architectural styles. The sequence includes views of quiet streets, open plazas, and a bustling square, where parked cars, green vehicles, and a few pedestrians are consistently present. The perspective varies from close-ups of specific colorful buildings to wider, tilted shots capturing the overall atmosphere of the historic urban environment."
     },
     {
       "scene_index": 36,
@@ -380,7 +380,7 @@
       "end_sec": 96.958333,
       "duration_sec": 6.125,
       "num_frame_captions": 10,
-      "caption": "The scene takes place in a group fitness class where participants are engaged in various exercises. A man in a maroon shirt is intensely focused on his workout, using a stationary bike and wearing earphones. The atmosphere is lively and social, with other individuals stretching, sitting on the floor, or interacting in the background. The mood shifts to moments of shared enjoyment as a man in a red shirt laughs and smiles, contributing to the overall energetic and communal feel of the session."
+      "caption": "The scene shows a group fitness class in a crowded room. Several people, including a man in a maroon shirt and another in a red shirt, are engaged in exercise, stretching, or using stationary bikes while wearing earphones. The atmosphere is lively and social, with participants smiling, laughing, and interacting with each other in the background as they focus on their individual workouts."
     },
     {
       "scene_index": 37,
@@ -390,7 +390,7 @@
       "end_sec": 100.916667,
       "duration_sec": 3.958333,
       "num_frame_captions": 6,
-      "caption": "This scene depicts a hilly, urban neighborhood observed through a chain-link fence. The primary activity involves a group of people, including children, walking along a dirt or paved path that winds through the residential area. The perspective consistently frames the community life from behind the fence, overlooking the dense cityscape below. In addition to the pedestrians, some individuals are seen playing soccer on a nearby dirt field. The overall setting is characterized by modest homes, trees, and an overcast sky, conveying a sense of everyday movement and casual recreation within this built environment."
+      "caption": "This scene is observed through a chain-link fence, framing views of a hilly, urban residential area. A group of people, including children, is seen walking along a dirt or paved path that winds through the neighborhood, with houses and trees in the background. Their activity shifts at one point to playing soccer on a dirt field within the same general location. The perspective consistently looks out from behind the fence toward the cityscape, under an overcast sky, capturing everyday movement and recreation in this densely built environment."
     },
     {
       "scene_index": 38,
@@ -400,7 +400,7 @@
       "end_sec": 104.291667,
       "duration_sec": 3.375,
       "num_frame_captions": 5,
-      "caption": "This scene depicts two young men engaged in a series of playful and collaborative interactions outdoors. They are filmed in close proximity, with one attentively applying white paint to the other's face against a textured wall. Their dynamic shifts between focused activity and casual conversation, as they laugh, gesture emphatically, and examine an object together. The scene includes a moment where one is fed by the other, and it concludes with an intimate shot as a camera is held close to one man's face, suggesting the documenting of this shared experience."
+      "caption": "In this outdoor scene, two young men are interacting closely in a series of activities. One man, in a black t-shirt, receives food from the other's hand while seated, then later leans forward intently while possibly examining something, and finally looks directly at a camera held up by his companion. Meanwhile, the other man is also applying white paint to the black-t-shirted man's face near a textured wall. Throughout their interactions, they engage in animated conversation, with one laughing and gesturing while the other listens intently."
     },
     {
       "scene_index": 39,
@@ -410,7 +410,7 @@
       "end_sec": 108.625,
       "duration_sec": 4.333333,
       "num_frame_captions": 7,
-      "caption": "In this casual outdoor scene, a young man in a black shirt is the central focus of a small, friendly filming session. He interacts playfully for the camera, making faces and giving a thumbs-up while being recorded by a companion with a camera. Another young man in a yellow shirt observes the activity with a smile. The group dynamics shift as the man in black sits on a sidewalk, speaking animatedly to someone off-camera while the others listen or smile nearby, creating a lighthearted moment of shared interaction and informal documentation among friends."
+      "caption": "This scene shows a group of young men interacting casually outdoors. One young man in a black shirt is the primary subject, being filmed and photographed by another person with a camera. He makes playful expressions, including giving a thumbs-up, while seated on a sidewalk. Another young man in a yellow shirt is present, often smiling and observing the activity. The central figure also speaks animatedly to the group at one point, with the others listening. The overall atmosphere is relaxed and social, centered around the filming and photographing of the man in black."
     },
     {
       "scene_index": 40,
@@ -420,7 +420,7 @@
       "end_sec": 113.958333,
       "duration_sec": 5.333333,
       "num_frame_captions": 9,
-      "caption": "This scene begins with a close-up view of a historic, light-green church with a tall spire, which stands out prominently within a dense and colorful neighborhood of weathered residential buildings. The perspective then pulls back, revealing a broader coastal cityscape. The view transitions from the historic district to encompass modern high-rise buildings along a vibrant turquoise bay, where boats are visible on the water. The overall sequence moves from a detailed architectural focus to a wide panoramic shot, capturing the blend of old and new urban structures under a bright, hazy sky."
+      "caption": "This scene begins with a close view of a historic, light-green church with a tall spire, which stands out prominently within a dense and colorful neighborhood of low-rise residential buildings under a bright sky. The perspective then pulls back, becoming a wider, slightly blurred view of the urban landscape. Finally, the view expands to a high-angle panorama of a coastal city, revealing modern high-rise buildings alongside the older districts, all situated beside a vibrant turquoise bay with boats on the water. The overall progression moves from a specific architectural landmark to a broad cityscape vista."
     },
     {
       "scene_index": 41,
@@ -430,7 +430,7 @@
       "end_sec": 118.666667,
       "duration_sec": 4.708333,
       "num_frame_captions": 7,
-      "caption": "This scene depicts a community gathering in a rugged, semi-rural outdoor area centered around a set of concrete stairs. The primary activity involves a group effort to move or position a large, graffiti-covered concrete slab on these stairs, suggesting a collaborative installation or project. Following this physical work, the focus shifts to a more social event. People, including children, congregate on and around the steps, some leaning on a low wall while others gather at a long table to share food. The overall atmosphere is one of collective effort transitioning into a casual, communal meal in an informal setting."
+      "caption": "This scene depicts a group of people gathered outdoors, primarily around a set of concrete stairs in a rugged or rundown area. Their activities center on a large, decorated or graffiti-covered concrete slab. At one point, a crowd engages with the slab, either moving it, pushing it on the stairs, or inspecting it closely. Later, the focus shifts to a social gathering, with people either leaning on a low wall, sitting and standing on the stairs, or interacting around a long table with food. The event includes adults and children in this informal, communal setting."
     },
     {
       "scene_index": 42,
@@ -440,7 +440,7 @@
       "end_sec": 120.125,
       "duration_sec": 1.458333,
       "num_frame_captions": 3,
-      "caption": "In this scene, a solitary figure is positioned at a window overlooking a vibrant town. The person, seen only in silhouette, leans out to observe the sun-drenched landscape below, which consists of a dense, hillside neighborhood filled with colorful buildings, red roofs, and winding streets nestled among lush greenery. The individual\u2019s contemplative gaze over the picturesque urban sprawl is followed by the action of raising a camera to the window, actively framing and capturing the bright, sprawling vista. The scene conveys a moment of quiet observation and documentation of the scenic town from an elevated vantage point."
+      "caption": "The scene shows a person looking out from an interior window at a vibrant, sunlit town built on a hillside. The view consists of densely packed, colorful buildings and winding streets nestled among the trees. The person, seen in silhouette from behind, first gazes at the scene and then raises a camera to the window to capture the expansive, detailed panorama of the red-roofed buildings and the overall layout of the neighborhood."
     },
     {
       "scene_index": 43,
@@ -450,7 +450,7 @@
       "end_sec": 121.583333,
       "duration_sec": 1.458333,
       "num_frame_captions": 2,
-      "caption": "This scene presents a panoramic, bird's-eye view of a vibrant and historic urban neighborhood. The densely packed houses, characterized by their colorful, weathered facades and distinctive red-tiled roofs, create a textured mosaic. Narrow, winding streets snake organically through the compact layout, suggesting a labyrinthine and lived-in community. Lush greenery from trees interspersed among the buildings adds a natural counterpoint to the man-made structures. The slightly blurry, high-angle perspective evokes a sense of observation from a window or elevated vantage point, capturing the neighborhood's charming, timeworn character and intricate topography in a single, encompassing glance."
+      "caption": "This scene presents a static, elevated view of a vibrant and compact urban environment. The perspective is consistently from a window, looking down upon a dense neighborhood characterized by terraced houses with red roofs. The buildings exhibit a weathered appearance and a variety of colors, creating a lively patchwork. Narrow, winding streets weave through the settlement, which is nestled among mature trees. The overall image is slightly blurry, suggesting it is captured from a distance or through a windowpane, and focuses on the intricate, colorful layout of the community rather than any specific activity or motion."
     },
     {
       "scene_index": 44,
@@ -460,7 +460,7 @@
       "end_sec": 122.458333,
       "duration_sec": 0.875,
       "num_frame_captions": 1,
-      "caption": "This scene presents a sweeping, sunlit panorama of a picturesque Mediterranean town, likely in a region like the Amalfi Coast or Cinque Terre. The vibrant, densely clustered buildings, painted in a cheerful spectrum of pastel and earthy tones, cascade dramatically down a steep, terraced hillside towards a sparkling blue sea. A sinuous, narrow road winds its way through the architectural tapestry, connecting the various levels of the settlement. The overall impression is one of serene, timeless beauty and harmonious coexistence between human habitation and the dramatic natural landscape, bathed in the clear, bright light of a coastal afternoon."
+      "caption": "This scene presents a sweeping, aerial perspective of a picturesque Mediterranean town. The settlement is built upon a steep, sunlit hillside, creating a dense and vibrant mosaic of multi-colored buildings. A single, serpentine road carves its way through the urban fabric, connecting the clustered structures. The overall impression is one of serene, timeless beauty, with the bright sunlight emphasizing the vivid palette of the architecture and the dramatic, terraced topography of the location. The static, wide-angle view captures the town's harmonious integration with its natural landscape."
     },
     {
       "scene_index": 45,
@@ -470,7 +470,7 @@
       "end_sec": 128.375,
       "duration_sec": 5.916667,
       "num_frame_captions": 10,
-      "caption": "This aerial scene depicts a vibrant, densely packed urban neighborhood. The view reveals weathered, colorful buildings with corrugated roofs and graffiti-covered walls. Narrow streets and a red elevated walkway weave through the area, bustling with pedestrians. The overall impression is of a lively, weathered, and tightly constructed community captured from a high angle."
+      "caption": "This scene presents a vibrant, densely packed urban neighborhood from an elevated or aerial perspective. The area is characterized by weathered, colorful buildings, many with corrugated roofs and graffiti-covered walls. Narrow streets weave through the compact layout. Below, pedestrians are visible walking along these streets and, in some instances, on a distinctive red-painted elevated walkway or bridge. The overall impression is of a bustling, lived-in community captured from a high-angle viewpoint that emphasizes the tight, colorful geometry of the urban environment."
     },
     {
       "scene_index": 46,
@@ -480,7 +480,7 @@
       "end_sec": 130.166667,
       "duration_sec": 1.791667,
       "num_frame_captions": 3,
-      "caption": "This scene shows a man in a maroon or pink shirt, wearing a backpack, inside a dimly lit interior space. He is positioned near a window, intently looking outward. The window is notable for its distinctive grid-patterned screen or covering, which casts a geometric shadow or texture across the view. The setting appears to be either a stationary room or the interior of a vehicle, characterized by low light. The man\u2019s focused gaze through the obstructed window suggests a moment of observation, contemplation, or waiting, creating a quiet, somewhat confined atmosphere."
+      "caption": "The scene features a person wearing a pink or maroon shirt, likely a man, inside a dimly lit interior space such as a vehicle or room. He carries a backpack and is positioned near a window that is covered with a distinctive grid-like screen or patterned mesh. Throughout the scene, his primary action is gazing outward through this window, his focus fixed on the view beyond the barrier. The setting remains consistently confined and shadowed, emphasizing a moment of quiet observation from within this enclosed environment."
     },
     {
       "scene_index": 47,
@@ -490,7 +490,7 @@
       "end_sec": 130.833333,
       "duration_sec": 0.666667,
       "num_frame_captions": 1,
-      "caption": "This scene takes place in a dimly lit, confined interior space, likely a small room or basement. A young man, dressed casually with a backpack and wearing earphones, is present. His attention is directed toward the camera, suggesting a moment of awareness or acknowledgment of being observed. The atmosphere is subdued and somewhat stark, accentuated by the utilitarian metal grid of a window visible in the background. The overall mood is introspective and slightly tense, focusing on this solitary figure in a sparse, shadowy environment."
+      "caption": "The scene takes place in a dimly lit interior room. A young man, wearing a backpack and earphones, is present. His attention is directed toward the camera, suggesting a moment of acknowledgment or observation. The setting is defined by the room's low light and a visible metal grid window, contributing to a confined, urban atmosphere. The focus remains on this static, contemplative interaction between the subject and the viewer's perspective."
     },
     {
       "scene_index": 48,
@@ -500,7 +500,7 @@
       "end_sec": 132.458333,
       "duration_sec": 1.625,
       "num_frame_captions": 2,
-      "caption": "A person is indoors, using a camera to capture something through a window. The window features a wire mesh or metal grid, suggesting a utilitarian or industrial setting. The individual's face is obscured as they focus on operating the device, intently photographing or filming the scene outside or the window itself. The action centers on this deliberate act of documentation within an enclosed space."
+      "caption": "In this indoor scene, a person is engaged in the act of filming or photographing. They hold a camera up to their face, which largely conceals their features from view. The activity takes place near a window fitted with a distinctive wire-mesh or metal grid. The setting is an interior room, and the primary focus is on the individual operating the recording device. The scene captures a moment of documentation, with the camera serving as both a tool and a barrier between the subject and their surroundings."
     },
     {
       "scene_index": 49,
@@ -510,7 +510,7 @@
       "end_sec": 133.458333,
       "duration_sec": 1.0,
       "num_frame_captions": 2,
-      "caption": "This scene is filmed from the perspective of a passenger in a moving vehicle, creating a dynamic view of a prominent architectural landmark. The focus is a large, multi-story building situated on a hillside, its scale emphasized by the surrounding lush greenery. The composition includes glimpses of water fountains in the foreground and a protective railing, framing the shot as the car passes by. The entire scene is bathed in bright daylight under a clear blue sky, conveying a sense of travel and observation during fine weather."
+      "caption": "This scene is captured from the perspective of a passenger in a moving vehicle, offering a dynamic view of a prominent architectural landmark. The focal point is a large, multi-story building situated on a hillside, surrounded by lush greenery and set against a clear blue sky. As the vehicle travels, the view shifts, initially framing the structure with a foreground railing before revealing decorative water fountains in front of the building. The overall impression is of a brief, passing observation of an impressive hillside complex from a car window."
     },
     {
       "scene_index": 50,
@@ -520,7 +520,7 @@
       "end_sec": 140.5,
       "duration_sec": 7.041667,
       "num_frame_captions": 11,
-      "caption": "This scene depicts a moving view of a large, historic stone building situated on a hillside. The architecture is ornate, featuring arched windows and a prominent central tower, and it is surrounded by greenery and palm trees under a clear blue sky. The perspective shifts, initially blurry and obscured by foreground vegetation, before stabilizing to offer a clearer look at the structure and a long staircase leading to its entrance. The consistent motion blur and references to a vehicle indicate the entire scene is observed from a moving car passing by this landmark."
+      "caption": "This scene consists of several shots filmed from a moving vehicle passing by a large, ornate, historic stone building situated on a hillside. The building features arched windows and a central tower, and it is approached via a long stone staircase. The view is consistently framed by palm trees, greenery, and a clear blue sky, with the foreground often blurred due to motion. The perspective shifts, showing the structure from various angles and distances, sometimes partially obscured by foliage or captured through a railing."
     },
     {
       "scene_index": 51,
@@ -530,7 +530,7 @@
       "end_sec": 142.833333,
       "duration_sec": 2.333333,
       "num_frame_captions": 4,
-      "caption": "In this indoor scene, a young man wearing a maroon shirt is seated thoughtfully near a window. His gaze shifts throughout the moment, first looking toward the right side of the frame, then directly at the camera, and finally down at a glass he holds. The bright outdoor view and a street glimpsed through the window contrast with the interior, which includes a table with a poster and a glass of orange liquid. His pensive expressions and varied focus suggest a moment of quiet contemplation or reflection in this casual setting."
+      "caption": "A young man in a maroon shirt is seated indoors near a window. He appears thoughtful, his gaze shifting from looking toward the camera to looking off to the side and then down. The setting includes a table with a glass of orange liquid and a poster on the wall. The window provides a bright outdoor view, offering a glimpse of a street outside. The scene captures a quiet, contemplative moment as he sits by the window."
     },
     {
       "scene_index": 52,
@@ -540,7 +540,7 @@
       "end_sec": 143.625,
       "duration_sec": 0.791667,
       "num_frame_captions": 1,
-      "caption": "In this scene, a person is engaged in a simple domestic task, likely in a kitchen. Their hand reaches for one or more cans resting on a countertop near a window. The action suggests an intention to retrieve or use the items, perhaps for cooking or storage. The view through the window is blurred, indicating the focus is on the interior activity. The overall atmosphere is calm and ordinary, centered on a brief, mundane interaction with everyday objects."
+      "caption": "In this domestic scene, a person is engaged in a simple kitchen activity. Their hand is seen reaching toward several cans resting on a countertop. The setting includes a window, through which an indistinct outdoor view is visible, suggesting the interior is well-lit. The action implies a moment of selection or retrieval, focusing on the mundane interaction between the individual and the everyday objects in their environment. The composition centers on this quiet, functional gesture within a familiar domestic space."
     },
     {
       "scene_index": 53,
@@ -550,7 +550,7 @@
       "end_sec": 146.833333,
       "duration_sec": 3.208333,
       "num_frame_captions": 5,
-      "caption": "This scene presents a still-life composition on a countertop, featuring a can of Coca-Cola, a bunch of bananas, and condiment bottles. The arrangement is viewed from slightly different angles, with a hand reaching for the soda can in one instance. Through a window in the background, a bright street scene is consistently visible, with cars passing by, suggesting an urban setting. The overall focus is on the domestic, everyday items juxtaposed against the motion of the outside world, creating a quiet, observational moment centered on the simple act of selecting a drink."
+      "caption": "This scene depicts a static interior setting centered around a kitchen countertop. On the counter are a can of Coca-Cola, a bunch of bananas, and bottles of condiments such as ketchup and mustard. While the scene is primarily focused on these items, the window behind them reveals a bright street outside with cars passing by. At one moment, a hand enters the frame to reach for the soda can, indicating a simple action of someone preparing to pick it up from the counter."
     },
     {
       "scene_index": 54,
@@ -560,7 +560,7 @@
       "end_sec": 158.375,
       "duration_sec": 11.541667,
       "num_frame_captions": 19,
-      "caption": "This scene begins indoors with a brief, static view of a kitchen counter before transitioning to a series of serene outdoor coastal views. The primary setting is a wooden pier or promenade overlooking a calm ocean under a clear blue sky. Several large ships are consistently visible sailing on the distant horizon. The scene includes occasional human presence, such as a person walking along the pier and a small group of people standing and observing the view. The overall sequence captures a peaceful, sunny day by the sea, framed repeatedly by the wooden railing of the pier."
+      "caption": "This scene begins with a brief glimpse of a kitchen interior, then quickly transitions to a coastal setting. The main sequence unfolds from a wooden pier or railing, overlooking a calm ocean on a clear, sunny day. The viewpoint is consistent, showing distant ships sailing on the horizon under a bright blue sky. A few individuals appear momentarily, with one person in a pink top walking on a promenade and later a person in a red hat on the pier, alongside a small group of people. The overall scene presents a serene and expansive ocean vista from this fixed coastal vantage point."
     },
     {
       "scene_index": 55,
@@ -570,7 +570,7 @@
       "end_sec": 159.25,
       "duration_sec": 0.875,
       "num_frame_captions": 1,
-      "caption": "This scene captures a tranquil moment at a rocky harbor overlook. A small group of individuals has gathered to enjoy the expansive view, which is dominated by a large, stationary ship moored in the calm water. The distant silhouette of a city skyline adds depth to the panorama under a bright, clear sky. The overall atmosphere is one of quiet observation and leisure, as the people, including one notable figure in vibrant red pants, stand peacefully on the weathered rocks, taking in the serene maritime and urban landscape."
+      "caption": "This scene depicts a group of people gathered on a rocky shore overlooking a harbor. They are positioned as observers, facing the vista. The central feature of the view is a sizable ship situated in the harbor waters, with a cityscape visible in the distance beyond it. The environment is outdoors under clear, sunny weather indicated by a blue sky. Among the individuals present, one is distinguished by wearing red pants and is seen walking along the left side of the group. The overall composition presents a static moment of observation and leisure against a backdrop of maritime and urban scenery."
     },
     {
       "scene_index": 56,
@@ -580,7 +580,7 @@
       "end_sec": 162.958333,
       "duration_sec": 3.708333,
       "num_frame_captions": 6,
-      "caption": "This scene depicts a lively group of people enjoying a sunny day on a coastal promenade. The setting features a seawall or rocky shoreline with the ocean and a distant city skyline in the background. Among the group, a person in a red shirt is a focal point, seen jumping, standing on rocks, walking along the seawall, and at one point performing for others. Other tourists and locals, some with backpacks or in brightly colored outfits, stroll casually by. The overall atmosphere is one of leisure and outdoor activity on a clear, pleasant day by the sea."
+      "caption": "This scene depicts a group of people enjoying a leisurely walk along a sunny seaside promenade. The coastal path offers views of the ocean and a distant city skyline. Among the group, a person in a distinctive red shirt is a recurring focal point, seen jumping, standing on rocks, walking on a seawall, and at one point performing while others pass by. Other individuals include a person with a blue backpack and others in brightly colored outfits. The overall atmosphere is one of a pleasant, clear day by the water."
     },
     {
       "scene_index": 57,
@@ -590,7 +590,7 @@
       "end_sec": 172.791667,
       "duration_sec": 9.833333,
       "num_frame_captions": 16,
-      "caption": "The scene depicts a decaying pier extending into the ocean, where powerful waves relentlessly crash against its dark, weathered concrete pillars. The turbulent water creates dramatic sprays of white foam against a bright, hazy sky. The structure appears massive and imposing, yet worn by the elements, with the contrast between the dark pilings and the overexposed sky heightening the sense of a violent, enduring struggle between the man-made structure and the natural force of the sea."
+      "caption": "This scene depicts powerful ocean waves repeatedly crashing against the sturdy, weathered pillars of a decaying pier or breakwater. The dark, concrete structure extends into the ocean under a bright, hazy sky. The forceful impacts generate turbulent white spray and towering plumes of foam, creating a dramatic contrast between the dark, imposing pilings and the overexposed, sunlit surroundings. The relentless action of the waves against the massive, silhouetted forms dominates the scene, emphasizing the raw energy of the water and the enduring, yet weathered, state of the man-made structure."
     },
     {
       "scene_index": 58,
@@ -600,7 +600,7 @@
       "end_sec": 173.541667,
       "duration_sec": 0.75,
       "num_frame_captions": 1,
-      "caption": "This scene captures a moment of community and leisure on an urban waterfront. A group of people has congregated on the beach, their attention drawn to a traditional wooden boat resting on the sand. The presence of the vessel suggests a shared activity, perhaps a local event, a boat launch, or simply a point of social gathering. The juxtaposition of the natural shoreline with the prominent skyline of a modern city in the distance creates a striking contrast, highlighting how public spaces like this beach serve as recreational oases within the bustling metropolitan environment. The clear weather adds to the relaxed and open atmosphere of the day."
+      "caption": "This scene depicts a group of people assembled on a beach, suggesting a communal or social gathering. The presence of a wooden boat on the sand indicates a possible maritime or coastal activity, though its specific use is not detailed. The backdrop of tall city buildings visible across the water contrasts the natural shoreline with an urban landscape. The overall setting, under a clear sky, conveys a day of pleasant weather, contributing to the scene's open and public atmosphere. The focus remains on the collective presence of individuals in this distinctive seaside location near a city."
     },
     {
       "scene_index": 59,
@@ -610,7 +610,7 @@
       "end_sec": 178.041667,
       "duration_sec": 4.5,
       "num_frame_captions": 7,
-      "caption": "This scene takes place on a crowded urban beach, where a large audience gathers on the sand in front of a backdrop of high-rise buildings under a clear blue sky. The focus of their attention is a shirtless, long-haired man who performs an energetic stunt or dance routine within a sandy pit. He is seen diving into the sand, moving dynamically, and walking barefoot before the captivated crowd. The event appears to be an informal public performance, centered around the man's physical actions, with the spectators watching from the shore and around a simple wooden structure."
+      "caption": "This scene takes place on a sandy, urban beach with high-rise buildings in the background under a clear blue sky. A large crowd has gathered on the shore, initially observing a wooden structure. The focus then shifts to a shirtless man with long hair and a beard, who is the central performer. He engages in a series of energetic actions for the spectators, including diving into the sand, dancing in a sandy pit, and walking barefoot along the beach. The onlookers watch his stunts and movements throughout the event."
     },
     {
       "scene_index": 60,
@@ -620,7 +620,7 @@
       "end_sec": 180.125,
       "duration_sec": 2.083333,
       "num_frame_captions": 4,
-      "caption": "This scene depicts a vibrant and crowded urban beach on a sunny day. People are gathered to relax, socialize, and play on the sand against a striking backdrop of modern high-rise buildings. A prominent, large wooden structure, painted a distinctive orange and resembling a boat, serves as a central landmark in the setting. The overall atmosphere is lively and leisurely, captured from a perspective that occasionally frames the view through the foreground, such as with an individual wearing a yellow shirt. The clear blue sky completes the idyllic, bustling summertime ambiance."
+      "caption": "This scene depicts a vibrant, sunny day at a bustling urban beach. A large crowd of people is gathered, relaxing, socializing, and playing on the sand. The setting is distinctly metropolitan, with modern high-rise buildings forming a clear backdrop against the blue sky. A prominent feature in the scene is a large, distinctive structure, described in one caption as an orange boat shape. The view is partially framed from behind a person wearing a yellow shirt, placing the observer within the lively atmosphere of the beachgoers."
     },
     {
       "scene_index": 61,
@@ -630,7 +630,7 @@
       "end_sec": 181.166667,
       "duration_sec": 1.041667,
       "num_frame_captions": 1,
-      "caption": "The scene captures a vibrant day at an urban beach, where groups of people are gathered along the shore to relax and socialize. The atmosphere is lively and leisurely, set against a backdrop of modern city skyscrapers under a bright, clear sky. The overall impression is one of a bustling public space where city dwellers enjoy a recreational escape by the water."
+      "caption": "This scene captures a bustling beachfront on a sunny day, set against an urban backdrop. People are gathered along the shore, engaging in leisure activities and social interaction amidst the vibrant atmosphere. The clear sky and proximity to the water suggest a typical day of public recreation. The presence of city buildings framing the scene indicates this is a coastal area integrated within a metropolitan environment, where residents and visitors enjoy the shoreline."
     },
     {
       "scene_index": 62,
@@ -640,7 +640,7 @@
       "end_sec": 183.625,
       "duration_sec": 2.458333,
       "num_frame_captions": 4,
-      "caption": "This vibrant scene unfolds on a bustling urban beach, where a large crowd gathers to enjoy a sunny day against a striking backdrop of modern skyscrapers. People are seen relaxing, sunbathing, and socializing on the sand under a clear blue sky. The atmosphere shifts from leisure to spectacle as an athletic individual performs an impressive acrobatic maneuver, such as a backflip, drawing attention from the onlookers. The action briefly transitions to a nearby grassy area, where another dynamic, shirtless figure is captured in energetic motion, further engaging the surrounding spectators. The overall sequence highlights a lively public space where leisure activities and spontaneous physical performances intersect."
+      "caption": "The scene takes place on a crowded, sunny beach with a view of tall city buildings. People are relaxing, sunbathing, and socializing. The action focuses on a person performing an acrobatic move, specifically a mid-air backflip, which draws the attention of the crowd. The setting remains consistent, featuring a clear blue sky and the urban backdrop throughout the various activities."
     },
     {
       "scene_index": 63,
@@ -650,7 +650,7 @@
       "end_sec": 184.333333,
       "duration_sec": 0.708333,
       "num_frame_captions": 1,
-      "caption": "This scene captures the vibrant, leisurely atmosphere of a popular urban beach on a sunny day. The focus is on the diverse crowd of people enjoying their time outdoors. Some are seen relaxing on towels or in lounge chairs, soaking up the sun, while others are more active, playing games like frisbee or volleyball in the sand. The overall mood is one of relaxation and recreation. The presence of modern high-rise buildings lining the shore establishes the unique setting where city life meets the coastline, creating a bustling yet laid-back public space."
+      "caption": "This scene depicts a lively and crowded beach on a sunny day. People are engaged in various leisure activities, including relaxing on the sand and playing games. The atmosphere is one of a typical, bustling public beach. In the background, the skyline of a city with tall buildings is visible, suggesting an urban coastal location. The overall impression is of a popular recreational spot where many individuals and groups are enjoying the pleasant weather and seaside environment."
     },
     {
       "scene_index": 64,
@@ -660,7 +660,7 @@
       "end_sec": 189.541667,
       "duration_sec": 5.208333,
       "num_frame_captions": 9,
-      "caption": "This scene follows a person with a backpack navigating a busy, multi-level shopping mall. The individual is seen walking through the bustling space before boarding an escalator to ascend to another floor. The environment is consistently bright and crowded, filled with other shoppers and architectural features like escalators, which are a focal point of the action. The footage has a casual, handheld quality, resulting in some blurry and tilted frames that convey a sense of movement and the lively atmosphere of the public indoor space. The person's journey through the mall is the central, continuous activity."
+      "caption": "This scene follows a person with a backpack navigating a busy, multi-level shopping mall. The individual is seen walking through the bustling space and then riding an escalator upward, moving through the brightly lit indoor environment. The setting is consistently a crowded public area with other shoppers and visible escalators in the background. The video footage becomes progressively more blurry and chaotic in later frames, capturing fast movement and low-resolution details, but the core activity of the person ascending via escalator in the mall remains clear throughout the sequence."
     },
     {
       "scene_index": 65,
@@ -670,7 +670,7 @@
       "end_sec": 190.25,
       "duration_sec": 0.708333,
       "num_frame_captions": 1,
-      "caption": "This scene captures a moment of spontaneous joy in a bustling shopping mall. A young woman with dark hair, caught in a close-up, breaks into a wide, open-mouthed laugh, her expression radiating pure delight. The bright, artificial lighting of the multi-level atrium illuminates the background, where the blurred forms of other shoppers and the facades of various stores suggest a lively public space. The focus remains tightly on her genuine reaction, implying she is sharing a joke or a happy surprise with someone just off-camera, creating an intimate snapshot of personal happiness within the anonymous crowd."
+      "caption": "This scene takes place in a bustling, well-lit shopping mall. The focus is on a dark-haired individual who is smiling broadly in a close-up shot, conveying a sense of joy or amusement. In the background, the multi-level architecture of the mall is visible, populated with other shoppers and the storefronts of various retail establishments. The overall atmosphere is lively and public, centered on this person's expressive reaction within the crowded commercial environment."
     },
     {
       "scene_index": 66,
@@ -680,7 +680,7 @@
       "end_sec": 191.458333,
       "duration_sec": 1.208333,
       "num_frame_captions": 2,
-      "caption": "This scene takes place in a bustling, multi-level indoor public space, such as a mall or atrium, filled with bright ambient light. The focus is on a man with dark, wavy hair who is directly engaging with the camera. He is captured in a moment of active expression, his mouth open as if he is speaking or reacting emphatically to something within the lively environment. The overall impression is one of spontaneous interaction, with the slightly blurred, close-up shots conveying a sense of immediacy and the dynamic energy of the surrounding crowd."
+      "caption": "The scene shows a man with dark, wavy hair captured within a bustling, brightly-lit public indoor space, likely a multi-level atrium or busy shopping area. His direct engagement with the camera suggests he is the central subject, possibly being filmed or photographed. The sequence captures a moment of interaction, with one frame showing him speaking or reacting with his mouth open, implying he is in a conversational or expressive state. The overall impression is of a spontaneous, candid moment in a crowded setting."
     },
     {
       "scene_index": 67,
@@ -690,7 +690,7 @@
       "end_sec": 194.625,
       "duration_sec": 3.166667,
       "num_frame_captions": 5,
-      "caption": "This scene takes place on a bustling beach, where a person in a distinctive blue patterned outfit becomes the center of attention. The individual is energetically engaged with the sand, digging and playing in it with noticeable vigor. Their activity then shifts to a display of physical agility, as they perform an acrobatic handstand and other dynamic, low-to-the-ground movements. A crowd of onlookers, who are otherwise relaxing, watches this spontaneous performance with interest. The overall atmosphere is one of casual beach leisure punctuated by this brief, playful exhibition of energy and skill."
+      "caption": "In a crowded beach setting, a person wearing a colorful, patterned blue outfit is the center of attention. They are energetically digging and playing in the sand while numerous onlookers watch and relax nearby. The individual\u2019s activity becomes more dynamic, escalating to performing a handstand or a similar acrobatic, low-to-the-ground pose. Throughout the scene, the person remains actively engaged in these movements as the surrounding crowd observes from the beach."
     },
     {
       "scene_index": 68,
@@ -700,7 +700,7 @@
       "end_sec": 196.0,
       "duration_sec": 1.375,
       "num_frame_captions": 2,
-      "caption": "This scene captures a vibrant day at the beach, where a crowd gathers to watch a performance. Amidst the general atmosphere of relaxation and socializing on the sand, a shirtless man becomes the center of attention by executing a dynamic acrobatic move. The onlookers, who had been sunbathing and enjoying the clear weather, pause to observe the impressive display, adding a moment of shared spectacle to the leisurely coastal environment."
+      "caption": "This scene takes place on a lively, sunny beach where numerous people are relaxing, sunbathing, and socializing on the sand. The setting includes buildings and palm trees under a clear blue sky. The main action centers on a shirtless man who performs a dynamic acrobatic move, drawing the attention of a crowd of onlookers who have gathered to watch his display. The atmosphere is one of casual recreation and entertainment, with the crowd's focus shifting to this impromptu athletic performance amidst the general beachside leisure."
     },
     {
       "scene_index": 69,
@@ -710,7 +710,7 @@
       "end_sec": 202.791667,
       "duration_sec": 6.791667,
       "num_frame_captions": 11,
-      "caption": "A group of young people gather on a sunny, urban beach. They socialize, lounge, and play in the sand against a backdrop of buildings and palm trees. The scene's focal point is a shirtless man who performs athletic feats, including push-ups and a dramatic mid-air backflip, drawing the attention of the watching crowd. The atmosphere is lively and relaxed, with others simply enjoying the day by standing, sitting, or walking along the water's edge."
+      "caption": "This scene depicts a vibrant and social gathering on a sunny urban beach. A group of young people, predominantly shirtless men in swimwear, are relaxing and interacting on the sand near a stone wall or rocky outcrop. Their activities include lounging, socializing, walking, and playing in the sand. The atmosphere becomes more dynamic as one man performs physical feats, first doing push-ups and later executing a mid-air backflip, drawing the attention of the surrounding crowd. Throughout, the clear blue sky and a backdrop of modern buildings and palm trees establish a lively, contemporary beach setting."
     },
     {
       "scene_index": 70,
@@ -720,7 +720,7 @@
       "end_sec": 204.083333,
       "duration_sec": 1.291667,
       "num_frame_captions": 2,
-      "caption": "This nighttime scene is dominated by a festive, twinkling light display that creates a magical atmosphere. The primary focus is on countless small lights, likely strung across trees or architectural decorations, which illuminate the darkness with their steady glow. Against this sparkling backdrop, the silhouettes of a building and some foliage are subtly visible. The scene is further animated by dynamic streaks of colored light, possibly from fireworks, sparklers, or moving light sources, which cut vivid trails through the dark sky. Together, these elements combine to present a vibrant and celebratory visual spectacle set after dark."
+      "caption": "This nighttime scene is characterized by a festive atmosphere created by an abundance of twinkling lights. The primary illumination comes from numerous string lights, which adorn the surroundings and create a sparkling effect against the darkness. A building and some greenery are partially visible in the background. Additionally, streaks of colored lights appear in the sky, adding dynamic, linear elements to the display. The overall impression is of a celebratory or decorative event taking place outdoors at night, centered around this vibrant and extensive light display."
     },
     {
       "scene_index": 71,
@@ -730,7 +730,7 @@
       "end_sec": 206.416667,
       "duration_sec": 2.333333,
       "num_frame_captions": 4,
-      "caption": "The scene depicts a vibrant fireworks display in the night sky. A central explosion bursts outward, radiating intense, colorful light in dynamic streaks and starburst patterns. The dominant visual effect is one of rapid, energetic motion, with blurred geometric shapes and brilliant hues of red, gold, and green illuminating the darkness. The overall impression is of a celebratory moment, captured as a single, dazzling eruption of light against the black backdrop."
+      "caption": "The scene depicts a vibrant fireworks display in a night sky. A central firework explodes, creating a dynamic burst of colorful light. Streaks and geometric shapes in red, gold, green, and other hues radiate outward from the explosion point. The effect against the dark backdrop is one of rapid motion and dazzling energy, resembling a starburst or abstract pattern of radiating light."
     },
     {
       "scene_index": 72,
@@ -740,7 +740,7 @@
       "end_sec": 209.5,
       "duration_sec": 3.083333,
       "num_frame_captions": 5,
-      "caption": "Two men are walking together at night along a wet city sidewalk, likely in a park or plaza area. The scene is illuminated by festive string lights and streetlights, creating a blurred, atmospheric background. One man, wearing earbuds, is actively recording or taking photos with his phone or camera, while his companion, dressed in a striped shirt and glasses, looks ahead as they stroll. Their activity suggests a casual, perhaps tourist-like, engagement with the decorated nighttime environment. The overall mood is relaxed and urban, captured during a quiet moment of shared exploration."
+      "caption": "Two people are walking outdoors at night along a city sidewalk or park area. The scene is illuminated by festive string lights, streetlights, and trees, with the ground appearing wet from recent rain. One person consistently holds a camera or phone, likely recording or taking photos of the surroundings, while the other person looks ahead or wears earphones. They are together throughout the scene, moving through the decorated nighttime environment without changing their core activities or positions relative to each other."
     },
     {
       "scene_index": 73,
@@ -750,7 +750,7 @@
       "end_sec": 212.25,
       "duration_sec": 2.75,
       "num_frame_captions": 4,
-      "caption": "This scene depicts a bustling city street where a transient or displaced population is gathered. A mix of individuals, some walking and others stationary, creates a sense of movement and pause. Several people, including a man in an orange top, are in transit with their belongings, while others rest on a concrete bench or ledge surrounded by bags. The overall atmosphere suggests a location frequented by homeless individuals or travelers, capturing a moment of urban life where daily movement intersects with the need for temporary rest in a public space."
+      "caption": "This scene depicts a busy city street where a transient or displaced population is present. A group of people, including a man in an orange shirt or hoodie, are walking along the sidewalk. Others are resting, seated on a concrete or stone ledge with their personal bags and belongings beside them. The overall atmosphere is one of urban transit and gathering, with pedestrians moving through the area while some individuals appear to be settled temporarily with their possessions."
     },
     {
       "scene_index": 74,
@@ -760,7 +760,7 @@
       "end_sec": 214.583333,
       "duration_sec": 2.333333,
       "num_frame_captions": 4,
-      "caption": "In this urban scene, a man wearing an orange jacket is the central figure. He is seen walking down a busy city street, interacting directly with the camera. His actions shift from pointing at the camera to smiling warmly towards it, suggesting a friendly or playful engagement with the person filming. The environment is lively, with other pedestrians and people seated on a bench in the background. Throughout the sequence, he remains in motion, and in one instance, he is also seen holding a phone, indicating a casual, everyday activity within the bustling public setting."
+      "caption": "The scene follows a man in an orange jacket walking down a busy urban street. He interacts with the camera, first pointing at it and later smiling toward it. At one point, he appears to point a small object at the camera. The setting includes other pedestrians, people sitting on a bench, and city buildings in the background. Throughout the sequence, the man remains the central figure as he moves through the public space."
     },
     {
       "scene_index": 75,
@@ -770,7 +770,7 @@
       "end_sec": 220.458333,
       "duration_sec": 5.875,
       "num_frame_captions": 9,
-      "caption": "This scene shows a group of people filming and performing stunts on a city sidewalk. A man in an orange shirt and blue backpack is initially active, throwing an object and interacting with another man near a pole. The focus then shifts to filming, as a man in an orange jacket or shirt smiles while holding a camera. Another man in a red shirt becomes the main performer, executing a high kick and balancing on a stone ledge while being recorded by the onlookers. The setting features wet pavement and buildings with metal security gates."
+      "caption": "The scene unfolds on a city sidewalk with wet pavement and building security gates. A man wearing an orange shirt and a blue backpack is active throughout: at times he throws an object, pushes or touches another man leaning against a pole, and gestures while holding a small item. Later, the orange-clad man (or possibly a companion in an orange jacket) is seen smiling while holding a camera, suggesting filming is taking place. The focus then shifts to a man in a red shirt performing athletic moves, including a high kick while balancing on a stone ledge or sidewalk, observed by others nearby. The overall activity appears to involve street performance, interaction, and documentation."
     },
     {
       "scene_index": 76,
@@ -780,7 +780,7 @@
       "end_sec": 221.333333,
       "duration_sec": 0.875,
       "num_frame_captions": 2,
-      "caption": "This scene depicts a group of young men in a narrow, tree-lined urban street. They are engaged in casual interaction, with one individual notably shirtless and another carrying a large red backpack. The setting suggests a residential or local neighborhood, characterized by closely built structures. The group's activity appears relaxed and social, as they walk and converse together in this confined, everyday environment. The presence of the distinctive backpack and the shirtless man provides focal points within the otherwise ordinary communal gathering."
+      "caption": "This scene shows a group of young men in a narrow, tree-lined urban street. They are interacting while walking or standing together. Key individuals include a man carrying a large red backpack and another wearing an orange shirt; in one moment, one of the men is shirtless. The setting is consistent, with buildings flanking the street. The activity centers on the group's movement and social interaction within this confined urban environment."
     },
     {
       "scene_index": 77,
@@ -790,7 +790,7 @@
       "end_sec": 222.875,
       "duration_sec": 1.541667,
       "num_frame_captions": 2,
-      "caption": "This scene unfolds on a dimly lit city street at night, illuminated by artificial lights. The primary focus is a person wearing a red shirt who is walking directly toward the camera. The background is a bustling but indistinct urban environment, where the motion of other pedestrians and passing vehicles is softened into a blur. The overall atmosphere is one of nocturnal urban activity, with the central figure's purposeful movement providing a clear focal point against the hazy, dynamic backdrop of the city after dark."
+      "caption": "This scene depicts a nighttime urban environment illuminated by artificial lights. The primary focus is a person wearing a red shirt who is moving toward the camera\u2019s viewpoint. The setting is a city street where other pedestrians and vehicles are present, though these background elements appear blurred and indistinct in the dim light. The overall atmosphere is of a typical, active cityscape after dark, with motion and ambient glow characterizing the visual field."
     },
     {
       "scene_index": 78,
@@ -800,7 +800,7 @@
       "end_sec": 225.916667,
       "duration_sec": 3.041667,
       "num_frame_captions": 5,
-      "caption": "This scene depicts a person walking alone at night through a dimly lit urban environment. The footage, captured in a blurry, low-light style, focuses on the individual's face and figure as they move down a quiet street. The background is composed of indistinct shapes, faint lights, and the occasional illuminated detail like a car's headlights, a fence, or distant trees. The overall atmosphere is dark and somewhat abstract, emphasizing the solitary movement through the nocturnal cityscape rather than specific actions or clear surroundings."
+      "caption": "This scene depicts a person walking along a dimly lit urban street at night. The footage is consistently blurry and captured in low-light conditions, focusing on the individual's face and figure in the foreground. The person moves past indistinct elements like a fence, trees, and dark shapes, with the environment characterized by faint or blurred lights from streetlights, distant urban sources, and the headlights of a passing car. The overall atmosphere is dark and somewhat indistinct, emphasizing the nighttime setting and the person's movement through the shadowy urban space."
     },
     {
       "scene_index": 79,
@@ -810,7 +810,7 @@
       "end_sec": 228.5,
       "duration_sec": 2.583333,
       "num_frame_captions": 4,
-      "caption": "This scene depicts a nighttime street viewed from a moving perspective, creating a consistently blurry and indistinct atmosphere. The primary focus is a person standing on the street, who becomes clearer in the foreground as the viewpoint stabilizes. A white car is parked nearby, serving as a secondary point of reference amidst the general motion. The overall impression is one of low-light urban activity, with distant streetlights, trees, and other vehicles rendered as soft, out-of-focus glows in the background. The sequence suggests a transition from pure motion to a slightly more settled observation of the individual and the stationary car."
+      "caption": "This scene depicts a nighttime street viewed from a moving perspective, resulting in a consistently blurry and indistinct visual quality. The primary setting is a dimly lit urban or residential road. A person is present, first appearing as an indistinct figure among others and later seen more clearly standing in the foreground. A white car is visible, initially suggested in motion and later seen parked nearby. The environment includes streetlights, distant lights, and trees, all rendered out-of-focus due to the low-light conditions and motion, creating an overall impression of a dark, active evening street."
     },
     {
       "scene_index": 80,
@@ -820,7 +820,7 @@
       "end_sec": 240.958333,
       "duration_sec": 12.458333,
       "num_frame_captions": 20,
-      "caption": "A shirtless man lies in bed, propped up on pillows under warm lighting. He holds a DSLR camera, adjusting its settings and examining it intently. Throughout the scene, he gestures with his free hand as if explaining or demonstrating something, and at times smiles while looking at the camera's screen or holding it up as if to take a selfie or record. His focused interaction with the device is the central activity."
+      "caption": "The scene shows a shirtless man lying in bed, propped up on pillows under warm lighting. He holds a camera, likely a DSLR, and is actively engaged with it\u2014adjusting its settings, examining it, and looking at its screen. His actions include gesturing as if explaining or filming, and at one point he smiles while holding it up as if to take a selfie. The consistent focus is on his interaction with the camera while reclining."
     },
     {
       "scene_index": 81,
@@ -830,7 +830,7 @@
       "end_sec": 249.041667,
       "duration_sec": 8.083333,
       "num_frame_captions": 13,
-      "caption": "This scene follows a young man with dark hair who is initially walking outdoors near a fence, smiling slightly while wearing white earbuds. He then transitions to using a DSLR camera, intently focusing through its viewfinder to take a photograph. The setting remains an outdoor area featuring a wire fence, gravel, and dry grass. Another person in a green shirt is briefly present nearby. The sequence captures his shift from a casual stroll to an engaged moment of photography, with the earbuds a consistent detail throughout his activities."
+      "caption": "This scene begins with a black frame before transitioning to a young man with dark hair walking outdoors near a fence. He is smiling and wearing white earbuds. The scene then shifts to show him intently using a DSLR camera, holding it up to his eye to take a photograph while still wearing the earbuds. He is later seen wearing a purple shirt. Finally, the perspective widens to show him in profile with another person, who wears a green shirt and carries a black bag, standing nearby near the fence."
     },
     {
       "scene_index": 82,
@@ -840,7 +840,7 @@
       "end_sec": 254.25,
       "duration_sec": 5.208333,
       "num_frame_captions": 8,
-      "caption": "This scene takes place in a graffiti-covered, abandoned skatepark located in a dry, hilly, and wooded outdoor area. A group of people, primarily young men, have gathered in this rugged setting, which is littered with scattered debris and concrete structures. The activity appears to be a casual gathering or meeting. One man, distinguished by his blue shirt, is a consistent focal point, sometimes standing observantly in the foreground and at other times walking past the structures. The overcast sky occasionally brightens, but the overall atmosphere is one of an informal congregation in a derelict urban-rural space."
+      "caption": "This scene takes place in a graffiti-covered, possibly abandoned skatepark located in a dry, hilly, and wooded outdoor area under an overcast sky. A group of people, primarily young men, are gathered in this rugged setting, which features concrete structures, scattered debris, and dirt paths. One man in a blue shirt is a consistent focal point, shown both standing and walking through the area while observing the others. The group appears engaged in a casual gathering or activity within this desolate, urban-rural environment."
     },
     {
       "scene_index": 83,
@@ -850,7 +850,7 @@
       "end_sec": 254.958333,
       "duration_sec": 0.708333,
       "num_frame_captions": 1,
-      "caption": "This scene presents a detailed view of a large-scale, fantastical mural. The artwork is the central focus, featuring a stylized portrait of a woman seamlessly integrated into a surreal natural landscape. Her visage is decorated with organic elements, while the background merges dramatic, colorful geological forms with a serene sky. The composition emphasizes a harmonious blend of human and natural imagery, creating a dreamlike and visually striking public art piece. The static shot allows the viewer to fully appreciate the mural's intricate details, vibrant palette, and cohesive artistic vision."
+      "caption": "This scene presents a static, detailed view of a large-scale mural. The artwork is the sole focus, featuring a stylized portrait of a woman. Her face is intricately decorated with floral elements and butterflies, suggesting a theme of nature and beauty. The composition is completed by a vivid, painted landscape background consisting of red, mountainous forms and a blue sky. The scene does not depict action or narrative progression but instead offers a sustained, contemplative look at this colorful and elaborate piece of street art."
     },
     {
       "scene_index": 84,
@@ -860,7 +860,7 @@
       "end_sec": 255.666667,
       "duration_sec": 0.708333,
       "num_frame_captions": 2,
-      "caption": "The scene shows a man dressed as the character Mario posing with a friend on a sunny beach. The setting features a coastline with high-rise city buildings visible in the background, suggesting an urban waterfront. The cheerful, costumed pose indicates a playful or celebratory moment, likely during a convention, a themed event, or a casual outing. The consistent sunny weather and backdrop create a vibrant, leisurely atmosphere for this friendly interaction."
+      "caption": "Two people, one dressed as the iconic video game character Mario, are posing together on a sunny beach. They are accompanied by a friend. The scene is set against a backdrop of modern city architecture, including high-rise buildings that are clearly visible. The overall setting suggests a vibrant coastal urban area where this lighthearted, costume-based interaction is taking place outdoors. The focus is on the playful pose of the man in costume and his companion, framed by the contrasting environment of a natural beach and a built-up cityscape."
     },
     {
       "scene_index": 85,
@@ -870,7 +870,7 @@
       "end_sec": 256.375,
       "duration_sec": 0.708333,
       "num_frame_captions": 1,
-      "caption": "This scene presents a close-up view of a fantastical, vividly colored bird, the undisputed focus of the composition. Its large, expressive eye and intricate, multi-hued plumage are rendered in a stylized, almost painterly fashion. The creature is set against an abstract, lush backdrop dominated by swirling greens and blues, which suggests a dense, magical forest or jungle environment. The overall effect is one of serene, captivating beauty, emphasizing the bird's majestic and otherworldly nature as it remains still, allowing the viewer to appreciate its detailed artistry."
+      "caption": "This scene presents a stylized, fantastical depiction of a vibrant bird. The creature is the central focus, characterized by its multi-colored plumage and intricate feather patterns. Its most prominent feature is a single, large green eye. The bird is positioned against an abstract, lush background dominated by shades of green and blue, which complement its vivid coloration. The overall aesthetic is artistic and imaginative, creating a visually rich and cohesive composition centered on this detailed, otherworldly avian subject."
     },
     {
       "scene_index": 86,
@@ -880,7 +880,7 @@
       "end_sec": 257.083333,
       "duration_sec": 0.708333,
       "num_frame_captions": 1,
-      "caption": "This scene presents a casual, urban dining moment, focusing on a generously topped hot dog. The dish is the clear centerpiece, loaded with unconventional toppings like guacamole and cashews, suggesting a gourmet or experimental street food experience. It rests on a table cluttered with typical condiments and a soda can, indicating a relaxed, informal meal. Through the window, the blurred movement of a city street situates the eatery within a bustling urban environment. The overall composition captures a brief, stationary interlude of enjoyment amidst the dynamic backdrop of city life, emphasizing texture and contemporary food culture."
+      "caption": "This scene presents a casual dining setting, likely in a fast-food restaurant or caf\u00e9. The central focus is a generously topped hot dog, featuring unconventional garnishes like guacamole and cashews, which sits on a table. Surrounding it are typical condiment bottles and a soda can, suggesting a meal in progress. Through a window in the background, the blurred movement of a city street is visible, indicating an urban location. The overall composition emphasizes a quick, modern meal against the backdrop of everyday city life, with the close-up shot highlighting the details of the food."
     },
     {
       "scene_index": 87,
@@ -890,7 +890,7 @@
       "end_sec": 257.791667,
       "duration_sec": 0.708333,
       "num_frame_captions": 1,
-      "caption": "In a scene set against the somber backdrop of a naval harbor, a German Shepherd stands watch. The overcast sky casts a muted light over the water, where several imposing grey warships are moored. The dog\u2019s focused gaze is fixed intently on the vessels, its alert posture suggesting a role of guard or companion. The quiet atmosphere, devoid of human activity, emphasizes a moment of solitary vigilance, blending the animal\u2019s innate watchfulness with the silent, powerful presence of the military fleet."
+      "caption": "The scene centers on a German Shepherd dog, positioned as if on watch, with its attention fixed on a harbor vista. The view is dominated by the imposing silhouettes of large naval vessels, suggesting a military or industrial port setting. The mood is subdued under a blanket of overcast clouds, casting a gray and muted light over the entire scene. The composition creates a sense of quiet vigilance, juxtaposing the alert animal in the foreground with the stationary, powerful ships in the background."
     },
     {
       "scene_index": 88,
@@ -900,7 +900,7 @@
       "end_sec": 258.5,
       "duration_sec": 0.708333,
       "num_frame_captions": 1,
-      "caption": "A group of young people, full of energy and cheer, are traveling together on a bus. The atmosphere is lively and convivial, with many of them smiling and flashing peace signs to the camera. Their packed arrangement and shared expressions of joy create a sense of communal excitement, suggesting a fun group outing or trip. The overall scene captures a moment of youthful camaraderie and high spirits during their journey."
+      "caption": "The scene captures a group of young people traveling together on a bus, sharing a moment of collective joy and camaraderie. The atmosphere is vibrant and energetic, filled with smiling faces and a sense of lighthearted fun. Many in the group enhance the cheerful mood by playfully making peace signs toward the camera, suggesting a spontaneous and celebratory occasion. The close quarters of the bus interior contribute to the feeling of a shared, intimate experience among friends or peers, highlighting a snapshot of youthful exuberance during a journey."
     },
     {
       "scene_index": 89,
@@ -910,7 +910,7 @@
       "end_sec": 264.125,
       "duration_sec": 5.625,
       "num_frame_captions": 9,
-      "caption": "This scene shows a large group of young people posing for a group photograph in an outdoor urban setting. They are gathered on and around a graffiti-covered stone wall, with trees and a blue building visible in the background. The scene is consistent across multiple frames, capturing the same posed moment. As the sequence progresses, the lighting becomes dimmer, shifting to a shadowy, poorly lit atmosphere. The final frame transitions to complete darkness, suggesting the scene has ended or the recording has stopped, leaving a blank, black screen."
+      "caption": "This scene depicts a large group of young people posing for a group photograph in an outdoor, urban environment. They are gathered on and around a prominent stone wall covered in graffiti, with trees and a blue building visible in the background. The setting appears to be a park or similar tree-lined area. The group maintains this posed position consistently across multiple frames. The scene concludes with the lighting becoming dim and shadowy as the gathering continues in the same location, before finally cutting to a frame of complete darkness."
     },
     {
       "scene_index": 90,
@@ -920,7 +920,7 @@
       "end_sec": 265.041667,
       "duration_sec": 0.916667,
       "num_frame_captions": 2,
-      "caption": "The scene depicts a dim, hazy interior space, likely a room at night or in low light. The atmosphere is subdued and slightly obscured, with a warm, yellowish glow emanating from a light source on the right side. This glow casts soft illumination onto a wall and ceiling, creating streaks and a blurry quality to the surroundings. The overall impression is one of quiet, muted ambiance, focusing on the interplay of light and shadow in an undefined, intimate setting."
+      "caption": "This scene presents a dim, hazy interior space. The overall atmosphere is one of low light and visual softness, with details obscured by a pervasive blur. A prominent warm light source, positioned to the right, casts a distinct yellowish glow onto adjacent surfaces, including a wall and the ceiling. This illumination creates streaks and a hazy aura, contributing to the scene's muted and somewhat abstract quality. The environment feels enclosed and quiet, defined by the interplay of shadow and the diffuse, warm radiance emanating from within the space."
     },
     {
       "scene_index": 91,
@@ -930,7 +930,7 @@
       "end_sec": 265.875,
       "duration_sec": 0.833333,
       "num_frame_captions": 1,
-      "caption": "This scene unfolds in a dark, nocturnal environment, likely a city street or highway at night. The visual focus is on the dynamic motion of traffic, conveyed through the streaking trails of blue and white vehicle headlights and taillights. These luminous streaks create a sense of speed and continuous flow against the deep blackness. A solitary, stationary warm light, perhaps from a streetlamp or a building window, provides a point of contrast and stability in the lower foreground. The overall effect is one of quiet, rhythmic movement through an urban landscape after dark."
+      "caption": "This scene presents a fleeting, abstract moment of motion and light within a dark environment. The visual impression is dominated by dynamic streaks of blue and white, suggesting rapid movement or a light source passing through the frame. The deep black background establishes a stark, possibly nocturnal setting that amplifies the luminosity of these trails. A contrasting point of steady, warm yellow light anchors the composition in the lower-left corner, providing a fixed element amidst the blur of activity. The overall effect is one of transient energy captured in a single, indistinct image."
     },
     {
       "scene_index": 92,
@@ -940,7 +940,7 @@
       "end_sec": 266.708333,
       "duration_sec": 0.833333,
       "num_frame_captions": 1,
-      "caption": "This scene captures a fast-paced, nocturnal drive through a city. The world outside the vehicle is a fluid blur of darkness, punctuated by the streaking trails of blue and amber artificial lights. The impression is one of velocity and immersion, as the camera\u2019s perspective suggests it is moving with the traffic. The urban landscape is not defined by static buildings but by the dynamic, abstract patterns created by the speed and the glow of streetlights, signs, and headlights, conveying a sense of late-night travel through a sleeping metropolis."
+      "caption": "The scene depicts a nighttime drive through a city. The dominant visual elements are streaks of blue light and a faint, blurry yellow glow, indicating rapid movement. The darkness and the blurred quality of the frame strongly suggest the viewpoint is from within a moving vehicle, capturing the abstracted, streaked lights of the urban environment as it passes by. The overall impression is of speed and transit, with the city lights transforming into luminous trails against the dark backdrop."
     },
     {
       "scene_index": 93,
@@ -950,7 +950,7 @@
       "end_sec": 267.583333,
       "duration_sec": 0.875,
       "num_frame_captions": 2,
-      "caption": "This scene unfolds in a dim, obscured environment, likely depicting motion in low-light conditions. The primary visual element is a warm, radiant light source that glows against the pervasive darkness, suggesting a lamp, flame, or vehicle headlight. The atmosphere is further defined by faint, streaking trails of blue light, which contrast with the warmer glow and imply rapid movement or a trailing light source. The overall impression is one of dynamic, nocturnal travel or activity, where details are softened into blurs and streaks of colour within the shadowy setting."
+      "caption": "The scene unfolds in a low-light, obscured environment. The primary visual elements are a warm, glowing light source and streaks of blue light, both set against a dark, brownish background. The imagery is consistently blurry, suggesting motion or poor visibility. The composition focuses on these contrasting illuminations\u2014the steady warmth and the dynamic blue streaks\u2014within the shadowy setting."
     },
     {
       "scene_index": 94,
@@ -960,7 +960,7 @@
       "end_sec": 268.25,
       "duration_sec": 0.666667,
       "num_frame_captions": 1,
-      "caption": "The scene takes place at night, illuminated by artificial lights. A vehicle, likely a car or motorcycle, is moving at speed, its headlight creating a warm yellow glow. Its motion is captured as a blur, with the light streaking through the darkness. The overall atmosphere is dynamic and slightly abstract, emphasizing a sense of rapid transit through an urban or roadside environment rather than clearly defined objects or characters."
+      "caption": "This scene unfolds at night, with the overall environment rendered in darkness and a degree of visual blur. The primary visual elements are dynamic streaks of blue light cutting through the gloom, suggesting rapid motion or energy. These are contrasted by a distinct, stationary source of warm yellow light that glows steadily within the composition. The interplay between the cool, streaking blues and the warm, focal yellow creates the scene's core atmospheric tension, establishing a moody and somewhat abstract nocturnal setting defined by this contrast in light quality and movement."
     },
     {
       "scene_index": 95,
@@ -970,7 +970,7 @@
       "end_sec": 269.083333,
       "duration_sec": 0.833333,
       "num_frame_captions": 1,
-      "caption": "This scene unfolds in a dark, abstract environment, dominated by a dynamic interplay of light and shadow. The primary visual elements are energetic streaks of cool blue light, which slash through the darkness to create a strong sense of rapid motion or velocity. This is contrasted by the focal point of a single, warm yellow glow that provides a stable anchor amidst the swirling movement. The overall composition evokes the sensation of speeding through a nocturnal landscape, perhaps from the perspective of a vehicle, where illuminated details blur into vivid trails against the encompassing gloom. The mood is one of focused transit through an indistinct, shadowy space."
+      "caption": "This scene presents a dark, abstract environment dominated by a dynamic interplay of light and shadow. The visual composition is built around contrasting elements: cool, streaking blue illumination suggests rapid motion or energy, while a solitary, warm yellow light provides a focal point of contrast. The overall impression is one of a stylized, possibly urban or technological nighttime setting, where form is secondary to the emotive quality of the lighting. The scene evokes a sense of movement and atmosphere rather than depicting concrete objects or a clear narrative action."
     },
     {
       "scene_index": 96,
@@ -980,7 +980,7 @@
       "end_sec": 269.875,
       "duration_sec": 0.791667,
       "num_frame_captions": 1,
-      "caption": "This scene unfolds at night, captured in a single, impressionistic moment. The image is dominated by motion and darkness, with the primary visual element being vibrant streaks of blue light cutting through the blackness. These luminous trails suggest the swift passage of a vehicle, its form lost to velocity and low light. The overall effect is one of transient energy and urban nocturnal travel, where speed blurs concrete details into abstract ribbons of colour against a shadowy backdrop. The mood is dynamic yet ambiguous, defined more by atmosphere than by specific action."
+      "caption": "This scene depicts nighttime motion through a brief glimpse of movement captured in the frame. The central element is a vehicle traveling at night, as evidenced by the streaks of blue light, which create a blurry and indistinct visual effect. The darkness of the environment and the blurred motion suggest a sense of speed and passing moment within the overall scene."
     },
     {
       "scene_index": 97,
@@ -990,7 +990,7 @@
       "end_sec": 270.75,
       "duration_sec": 0.875,
       "num_frame_captions": 2,
-      "caption": "The scene unfolds at night, with a vehicle moving rapidly through a dimly lit environment. The dominant visual element is a bright, warm yellow light source, likely from streetlamps or building interiors, which casts a hazy glow onto nearby dark surfaces. Against this golden-yellow backdrop, streaks of cool blue light blur past, suggesting the motion of other vehicles or illuminated signs. The overall impression is one of speed and transition, captured in a low-light, abstract blur where colors and lights merge into flowing streaks."
+      "caption": "This scene depicts a nighttime passage through a dimly lit environment. The dominant visual impression is movement, conveyed by streaks of blue light and a blurry, hazy composition. A bright, warm yellow light source is prominent, casting a glow on a dark surface and creating a golden-yellow backdrop. The overall atmosphere is one of low-light, motion-filled transit, characterized by the interplay of the warm central glow and the cooler blue streaks in the periphery."
     },
     {
       "scene_index": 98,
@@ -1000,7 +1000,7 @@
       "end_sec": 271.416667,
       "duration_sec": 0.666667,
       "num_frame_captions": 1,
-      "caption": "This scene depicts a rapid, nocturnal journey through an urban or industrial landscape. The viewer's perspective is one of urgent motion, conveyed by the pronounced blur and streaking lights that dominate the visual field. Cool blue tones suggest shadowy structures or signage whipping past, while the contrasting warm yellow glow implies the passage of streetlights or illuminated windows. The overall effect is immersive and kinetic, creating a sense of speed and traversal through a darkened environment where specific details are lost to the velocity of the movement."
+      "caption": "The scene depicts a nighttime journey, conveyed through a sense of rapid motion. The visual information is abstract and impressionistic, dominated by blurred streaks of blue light and the warm glow of yellow illumination. This combination suggests movement through an urban or vehicular environment after dark, where individual details are lost to speed. The overall effect is one of passing through a lit space, with the streaking lights creating a dynamic and somewhat indistinct atmosphere that emphasizes the feeling of travel rather than a static setting."
     },
     {
       "scene_index": 99,
@@ -1010,7 +1010,7 @@
       "end_sec": 272.25,
       "duration_sec": 0.833333,
       "num_frame_captions": 1,
-      "caption": "This scene presents a mysterious, abstract environment dominated by darkness and dramatic lighting. The composition is energized by dynamic, jagged streaks of electric blue light that slash through the void, creating a sense of tension or unseen energy. This cool illumination is contrasted by the presence of a single, warm-hued orb glowing softly in the lower left portion of the frame. The overall effect is one of a surreal, otherworldly landscape where elemental forces of light and shadow are in a silent, visual conflict, evoking a mood that is both ominous and captivating."
+      "caption": "The scene presents a dark, abstract environment. It is illuminated by dynamic streaks of blue light, which cut through the darkness and define the space. A warm, glowing orb is a prominent feature, positioned in the lower left corner of the frame. The composition is defined by the contrast between the cool, linear energy of the light streaks and the stationary, warm focal point of the orb, creating a visually striking and atmospheric setting."
     },
     {
       "scene_index": 100,
@@ -1020,7 +1020,7 @@
       "end_sec": 273.041667,
       "duration_sec": 0.791667,
       "num_frame_captions": 1,
-      "caption": "This scene unfolds in a state of rapid, disorienting motion. The visual information is abstract and impressionistic, dominated by a deep darkness punctuated by fleeting trails of light. The primary sensation is one of speed and blur, as if the viewpoint is hurtling through an unlit space. The faint blue and white streaks suggest the streaking of distant light sources or reflections, creating a dynamic but indistinct visual field. The overall effect is atmospheric, conveying a sense of urgency, travel, or perhaps a destabilized perspective within a low-light environment."
+      "caption": "The scene depicts a dark, abstract environment dominated by indistinct motion. The primary visual elements are faint, streaking lights in blue and white, which traverse the black background. This creates an impression of rapid movement or energy flowing through darkness, with the blurriness emphasizing speed and a lack of clear, defined forms. The overall effect is one of dynamic, ethereal light trails against a void."
     },
     {
       "scene_index": 101,
@@ -1030,7 +1030,7 @@
       "end_sec": 274.125,
       "duration_sec": 1.083333,
       "num_frame_captions": 2,
-      "caption": "This scene unfolds in near-total darkness, creating a sense of isolation or anticipation. The visual narrative is defined by the absence of light, punctuated only by fleeting, indistinct visual phenomena. A faint, blurry blue glow briefly manifests in one corner, while a subtle, warm gradient appears in another, suggesting distant, obscured light sources or reflections. These ephemeral traces of color and light quickly fade, leaving the viewer in complete blackness. The overall effect is one of a transitional or void-like space, emphasizing atmosphere over concrete action and immersing the viewer in a minimal, abstract visual environment."
+      "caption": "This scene depicts a transition into complete darkness, likely signaling the end of a sequence or a period of inactivity. It begins with a faint and blurry visual presence, where streaks of blue and a warm glow linger at the edges of the frame, suggesting the last remnants of light or activity are fading away. This quickly resolves into an image of pure, featureless blackness with no discernible details whatsoever. The overall effect is one of a visual fade-out, moving from a minimal, indistinct glimpse of something to an absolute void, implying the scene has concluded or entered a state of total obscurity."
     }
   ]
 }

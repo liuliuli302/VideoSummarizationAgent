@@ -1,0 +1,13 @@
+{
+  "video": "Excavators river crossing",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Excavators river crossing.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/summe/video_10.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 11,
+  "caption": "In a harsh winter environment, a large yellow Komatsu excavator becomes the central tool in a tense rescue and evacuation operation along a turbulent, icy river. Crowds of people, many wearing winter clothing and carrying luggage, gather on the snowy shoreline as the excavator’s bucket is used to perilously transport groups of individuals across the choppy, freezing water, with people seen clinging to or being lifted inside it.\n\nThe operation remains chaotic and precarious as the excavator, often partially submerged, continues working in the foaming currents while onlookers watch from the bank. The scene intermittently shows the powerful machinery in rapid motion across the snowy landscape, underscoring the urgency of the effort, which appears to be a combined recovery and evacuation mission in the challenging, flooded conditions."
+}

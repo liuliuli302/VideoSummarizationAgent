@@ -5,7 +5,7 @@
   "image_caption_model": "Qwen3-VL-8B-Instruct",
   "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_41.json",
   "scene_caption_model": "DeepSeek-V3.2",
-  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\n\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\n\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\n* avoid speculation beyond the provided captions\n\nScene description:\n",
   "scene_threshold": 27.0,
   "max_tokens": 120,
   "fps": 29.97002997002997,
@@ -20,7 +20,7 @@
       "end_sec": 55.989267,
       "duration_sec": 56.022633,
       "num_frame_captions": 112,
-      "caption": "This scene features a motocross rider in a yellow and black Brawndo-branded jersey and full protective gear, standing on a dirt track or field surrounded by trees under a clear blue sky. He is directly addressing the camera, appearing to give an interview or explanation. Throughout the scene, he speaks and uses hand gestures to emphasize his points, sometimes holding up a white glove or other small object. The setting is consistently a sunny, dusty outdoor motocross environment, with his motorcycle occasionally visible nearby. The overall action is a monologue or presentation delivered by the rider to the viewer."
+      "caption": "This scene features a motocross rider in protective gear, wearing a yellow and black jersey branded with \"Brawndo\" or similar logos. He is standing outdoors on a dirt track or field lined with trees under a clear blue sky. Throughout the scene, he is consistently addressing the camera directly, often gesturing with his gloved hands as if speaking or explaining something. In some moments, he is seen holding objects like a white glove, a helmet, or standing near his motorcycle. The overall setting is a sunny, dusty off-road area where the rider appears to be giving an interview or presentation to the viewer."
     },
     {
       "scene_index": 1,
@@ -30,7 +30,7 @@
       "end_sec": 81.8818,
       "duration_sec": 25.892533,
       "num_frame_captions": 52,
-      "caption": "This scene features a motocross rider performing stunts and then addressing the camera. The action begins with the rider, wearing a distinctive yellow and black \"Brawndo\"-branded suit, executing impressive jumps and maneuvers on a red dirt bike across a rugged, dusty track under a clear blue sky. Following the high-energy riding sequence, the scene shifts to a more relaxed, behind-the-scenes moment. The rider stands in the same dusty, tree-lined field, often holding a helmet or tool, and gestures expressively while speaking directly to the camera, as if explaining or discussing the event."
+      "caption": "The scene follows a motocross rider performing stunts and jumps on a dirt bike across a rugged, dusty track under a clear blue sky. After the action, the rider, wearing yellow and black gear branded \"Brawndo,\" stands in a dry, tree-lined field or on the track, often gesturing or speaking directly to the camera. He is shown holding equipment, wiping his brow, and saluting, interacting with the viewer amidst the dusty terrain."
     },
     {
       "scene_index": 2,
@@ -40,7 +40,7 @@
       "end_sec": 84.751333,
       "duration_sec": 2.869533,
       "num_frame_captions": 6,
-      "caption": "The scene captures a motocross rider performing dynamic stunts on a dirt track. It begins with the rider launching into the air, executing an aerial flip upside down against a clear sky. The action then transitions to the rider leaning sharply into a turn on the red dirt bike, kicking up a plume of dust from the barren, sandy landscape. The sequence showcases both high-flying acrobatics and controlled, ground-based maneuvering in a single continuous performance."
+      "caption": "This scene features a motocross rider performing on a dirt track in a dry, hilly landscape under a clear blue sky. The action begins with the rider launching their red motorcycle into the air to execute an aerial stunt, flipping upside down during the maneuver. Following the airborne trick, the rider lands and continues along the track, leaning sharply into a turn. The motion kicks up dust from the barren, sandy ground as the rider, clad in yellow gear and a blue helmet, maintains control of the bike through the dynamic sequence."
     },
     {
       "scene_index": 3,
@@ -50,7 +50,7 @@
       "end_sec": 152.9528,
       "duration_sec": 68.201467,
       "num_frame_captions": 136,
-      "caption": "This scene features a motocross rider in a yellow and black jersey, often branded with variations of \"Crawndo\" or \"Brawndo,\" speaking directly to the camera in a dusty, tree-lined outdoor field or dirt track. He is in full protective gear and frequently gestures with his gloved hands as if explaining or emphasizing a point. The setting remains consistent under a clear blue sky. The scene intercuts with action shots of the same or similar rider performing aerial stunts on the track, launching off dirt jumps and flipping the motorcycle mid-air. The sequence blends a direct-to-camera address with dynamic motocross action."
+      "caption": "A motocross rider in yellow and black gear stands on a dirt track or in a dusty field, repeatedly gesturing and speaking to the camera. He is often seen holding a helmet, gloves, or other gear, and sometimes shields his eyes or salutes. The setting is consistently a dry, tree-lined outdoor area under a clear blue sky. Later, the scene shifts to action shots of a rider navigating the rugged track, launching off jumps, and performing aerial stunts and flips against the same backdrop."
     },
     {
       "scene_index": 4,
@@ -60,7 +60,7 @@
       "end_sec": 153.4533,
       "duration_sec": 0.5005,
       "num_frame_captions": 1,
-      "caption": "The scene captures a dim, wooded environment where the low light and dense foliage create a hazy, indistinct atmosphere. Amidst the tangle of branches and shadows, a small, warm-toned object\u2014potentially an animal or piece of foliage\u2014is briefly discernible near the forest floor. The overall impression is one of obscured mystery and quiet stillness, with the blurry visuals suggesting movement or poor visibility rather than clear, defined action."
+      "caption": "The scene presents a dark and densely wooded area, captured in a blurry, low-resolution view. The overall setting is obscured and indistinct, characterized by a tangle of branches and shadowy forms. Amidst this murky environment, there is a small, orange-colored object or possible animal situated near the ground. The visual quality prevents clear identification, but the focal point remains this single spot of color within the otherwise vague and shadowy forest undergrowth. The impression is one of a cryptic, partially hidden detail in a poorly defined natural setting."
     },
     {
       "scene_index": 5,
@@ -70,7 +70,7 @@
       "end_sec": 155.9558,
       "duration_sec": 2.5025,
       "num_frame_captions": 5,
-      "caption": "A motocross rider in a yellow jersey speeds along a rugged, dusty trail in an arid landscape. Launching off a dirt mound, the rider soars through the air, executing an aerial trick against a backdrop of trees and a clear blue sky. The scene captures the dynamic action of dirt biking, from high-speed travel across the terrain to the dramatic moment of airborne flight."
+      "caption": "This scene features a motocross rider in a yellow and black suit navigating a rugged, arid landscape. The rider speeds along a dusty, reddish-brown dirt trail, kicking up dirt under a clear blue sky. The action intensifies as the rider launches off a dirt mound, soaring through the air in a high-flying aerial maneuver. The scene also includes a brief, contrasting glimpse of a futuristic hovering vehicle flying over a similar dry, tree-lined terrain. The overall sequence captures dynamic off-road motorcycling with jumps and fast-paced riding through a dry field."
     },
     {
       "scene_index": 6,
@@ -80,7 +80,7 @@
       "end_sec": 156.689867,
       "duration_sec": 0.734067,
       "num_frame_captions": 2,
-      "caption": "A motocross rider launches off a ramp, catching air in a dramatic aerial stunt. The bike is tilted at a sharp angle against the backdrop of a clear sky, emphasizing the height and daring nature of the jump. The rider maintains control mid-flight, soaring above the ground where distant trees are visible below. The scene captures the peak moment of the jump, showcasing the skill and athleticism involved in the maneuver."
+      "caption": "The scene captures a motocross rider executing a mid-air stunt. The motorcyclist is airborne, soaring against a clear sky with the bike tilted at a dramatic angle. The action occurs above a landscape where distant trees are visible below. The focus is on the rider's controlled aerial maneuver during a jump."
     },
     {
       "scene_index": 7,
@@ -90,7 +90,7 @@
       "end_sec": 159.025533,
       "duration_sec": 2.335667,
       "num_frame_captions": 4,
-      "caption": "This scene captures a motocross rider performing a high-flying stunt on a dirt bike. The rider soars through the air above a dusty track and a dry, tree-dotted field under a clear blue sky, executing an aerial trick that involves flipping the bike upside down. The dynamic action culminates in a crash, as the rider, wearing a yellow outfit and blue helmet, is subsequently shown lying on their side in the open field. The sequence illustrates both the thrilling athleticism of the sport and its inherent risk of a fall."
+      "caption": "This motocross scene begins with a rider performing high-flying stunts on a dirt bike over a sandy track. Against a backdrop of clear blue sky and scattered trees, the athlete executes aerial maneuvers, including a moment where the bike flips upside down. The action takes place in a dry, open field. The sequence concludes with the rider, identifiable by a yellow outfit and blue helmet, having fallen and lying on their side in the dusty terrain. The scene captures the dynamic thrill and inherent risk of the motocross sport."
     },
     {
       "scene_index": 8,
@@ -100,7 +100,7 @@
       "end_sec": 166.432933,
       "duration_sec": 7.4074,
       "num_frame_captions": 15,
-      "caption": "A motocross rider performs a series of jumps and maneuvers on a rugged dirt track. The scene captures the rider launching off a ramp, soaring through the air in a dramatic backflip against a clear sky, and speeding across the dry, dusty terrain. Throughout the sequence, the rider leans into turns and kicks up clouds of dirt while navigating the hilly, brush-covered landscape under bright sunlight."
+      "caption": "The scene follows a motocross rider performing jumps and navigating rugged terrain. The rider launches off a dirt ramp, soaring through the air in a backflip against a clear sky. They then speed across dusty, hilly tracks and barren landscapes, leaning into turns and kicking up clouds of dirt. The action takes place on sunny days in arid environments with mountains or brush in the background, showcasing dynamic off-road riding."
     },
     {
       "scene_index": 9,
@@ -110,7 +110,7 @@
       "end_sec": 173.540033,
       "duration_sec": 7.1071,
       "num_frame_captions": 14,
-      "caption": "A motocross rider in a yellow jersey and blue helmet speeds across a dusty, arid landscape and dirt track. The rider performs high-flying aerial stunts, including flips, and executes sharp turns, kicking up massive clouds of brown dust. The action takes place under a bright, sunlit sky, with sparse vegetation and trees lining the track. The scene captures the dynamic motion and skill of off-road racing, from high-speed travel and wheelies to dramatic mid-air acrobatics against a clear blue sky."
+      "caption": "This scene features a motocross rider performing various maneuvers on a dusty, arid dirt track. The rider, wearing a yellow jersey and a blue helmet, speeds across the rugged, sunlit landscape, consistently kicking up large clouds of brown dust. The action includes high-speed racing along the track, leaning into turns, and performing dramatic aerial stunts. During these stunts, the rider is captured mid-air, at times flipping the bike upside down against a clear blue sky. The setting is a dry, tree-lined off-road environment with sparse vegetation."
     },
     {
       "scene_index": 10,
@@ -120,7 +120,7 @@
       "end_sec": 174.040533,
       "duration_sec": 0.5005,
       "num_frame_captions": 1,
-      "caption": "This scene captures a motocross rider in a high-speed, off-road race across a vast, sun-baked desert landscape. Clad in full protective gear, the athlete expertly maneuvers a red dirt bike over the rugged, uneven terrain. The bike\u2019s powerful acceleration kicks up a continuous, dramatic plume of dust that trails behind, visually marking the rider\u2019s aggressive path. The action conveys a sense of intense focus, physical skill, and the raw challenge of navigating the harsh, arid environment at speed, highlighting the dynamic and demanding nature of the sport."
+      "caption": "A motocross rider, dressed in full protective gear, expertly rides a red dirt bike across an expansive and dry landscape. The terrain is rugged and dusty, with the bike's movement creating a prominent trail of airborne dirt behind it. The scene captures the dynamic action of high-speed navigation through challenging, uneven ground, emphasizing the rider's control and the intense interaction between the vehicle and the arid environment. The overall focus is on the motion, power, and dust-filled atmosphere of this off-road sporting moment."
     },
     {
       "scene_index": 11,
@@ -130,7 +130,7 @@
       "end_sec": 177.9778,
       "duration_sec": 3.937267,
       "num_frame_captions": 8,
-      "caption": "A motocross rider, wearing a yellow and black suit and a blue helmet, navigates a rugged dirt track on a red bike marked with the number 39. The scene captures the dynamic action as the rider leans sharply into turns, aggressively kicking up clouds of dust from the sun-baked, sandy terrain. The setting is a dry, hilly landscape under a clear, hazy sky. Throughout the sequence, the focus remains on the rider's skillful control and speed while maneuvering across the challenging, dusty course, emphasizing the intensity and motion of the race."
+      "caption": "A motocross rider, wearing a yellow and black suit and a blue helmet, navigates a rugged dirt track on a red dirt bike marked with the number 39. The scene captures the rider leaning into a turn, skillfully maneuvering across the dry, sandy, and hilly terrain. As the bike speeds along, it consistently kicks up clouds of dust from the sun-baked ground. The action takes place under a clear or hazy sky, emphasizing the dusty, open landscape of the track or field where the ride occurs."
     },
     {
       "scene_index": 12,
@@ -140,7 +140,7 @@
       "end_sec": 269.335733,
       "duration_sec": 91.357933,
       "num_frame_captions": 183,
-      "caption": "A motocross rider in branded gear stands in a desert landscape, speaking directly to the camera while gesturing and holding his helmet. He is also shown sitting on or standing next to his dirt bike in the same arid environment. The scene then shifts to a dry, grassy field with trees, where the rider is repeatedly depicted standing beside his red and black Honda dirt bike, often under a clear blue sky. The sequence emphasizes the rider addressing the viewer and posing with his motorcycle in two distinct outdoor settings."
+      "caption": "A motocross rider in yellow and black gear, prominently wearing a Brawndo-branded jersey, is featured in a desert landscape. He stands or sits beside his dirt bike, often holding his helmet, and frequently gestures or speaks directly to the camera. The scene includes multiple shots of him in this dry, sandy environment under a clear blue sky, showing him adjusting his gloves, giving thumbs-up gestures, and engaging with the viewer. Later, the setting shifts to a dry, grassy field with trees, where the rider, sometimes in Honda-branded gear, stands beside his red and black bike, continuing to pose and interact near the motorcycle."
     }
   ]
 }

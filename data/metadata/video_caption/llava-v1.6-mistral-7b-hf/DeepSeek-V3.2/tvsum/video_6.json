@@ -1,0 +1,13 @@
+{
+  "video": "HT5vyqe0Xaw",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/HT5vyqe0Xaw.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_6.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 3,
+  "caption": "The video shows a large white truck driving down a narrow, unpaved road through a lush, wooded rural area. It continues its journey along the tree-lined path before eventually coming to a stop. A person is then seen standing on the dirt road near the parked truck, appearing to interact with it, possibly for loading or unloading, in this secluded natural setting."
+}

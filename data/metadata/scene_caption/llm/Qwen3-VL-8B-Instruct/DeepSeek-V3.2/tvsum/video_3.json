@@ -1,0 +1,306 @@
+{
+  "video": "J0nA4VgnoCo",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/J0nA4VgnoCo.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_3.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\n\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\n\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\n* avoid speculation beyond the provided captions\n\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 23.976023976023978,
+  "total_frames": 14019,
+  "num_scenes": 29,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 108,
+      "start_sec": 0.0,
+      "end_sec": 4.5045,
+      "duration_sec": 4.546208,
+      "num_frame_captions": 8,
+      "caption": "In this scene, the focus is on a man and, at times, another companion inside a car. The man, consistently wearing sunglasses, is shown driving during daylight and night, with trees and power lines visible in daytime. The car\u2019s interior features two people\u2014a man and, in multiple instances, a woman or another man\u2014seated in the front. They are frequently smiling and looking at each other or upward, creating a cheerful and engaged atmosphere. The woman wears a striped shirt in one instance. Throughout, the man remains the central figure, actively driving or interacting with his passenger."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 109,
+      "end_frame": 509,
+      "start_sec": 4.546208,
+      "end_sec": 21.229542,
+      "duration_sec": 16.725042,
+      "num_frame_captions": 26,
+      "caption": "This scene shows a man and a woman on a car journey. The man, wearing sunglasses, is driving, while the woman, wearing a blue and white striped shirt, is in the passenger seat. Throughout the sequence, both individuals are consistently smiling and appear happy and relaxed. They are often looking toward the camera, suggesting they are aware of being filmed. The environment is a sunny day, and the overall mood is positive, conveying a sense of a pleasant shared trip as they travel together in the vehicle."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 510,
+      "end_frame": 577,
+      "start_sec": 21.27125,
+      "end_sec": 24.065708,
+      "duration_sec": 2.836167,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a car journey, primarily shown from the driver's perspective, transitioning from night to day. It begins inside a vehicle at night, with blurred city lights streaking past the windows. The view then shifts to expansive, hazy daytime landscapes under a bright, overcast sky. The journey continues on tree-lined roads, with the sun positioned directly ahead of the car. This creates a persistent and intense glare, often accompanied by lens flare, which partially obscures the view of the road ahead throughout these daytime segments."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 578,
+      "end_frame": 1665,
+      "start_sec": 24.107417,
+      "end_sec": 69.444375,
+      "duration_sec": 45.378667,
+      "num_frame_captions": 73,
+      "caption": "A man in a white shirt and blue jeans works on a gray car in a parking lot, primarily focused on the front bumper and wheel area with the hood open. He uses tools like a wrench and is occasionally seen smiling or playfully interacting with the camera, at one point holding a large knife and later a tool alongside a gun. Another person in a green shirt and white shorts observes nearby. The scene also includes various small objects, like toy vehicles and tools, scattered on the gravel and paved ground around them."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 1666,
+      "end_frame": 2397,
+      "start_sec": 69.486083,
+      "end_sec": 99.974875,
+      "duration_sec": 30.5305,
+      "num_frame_captions": 48,
+      "caption": "This scene follows a man in a green shirt and white shorts engaging in various activities on a paved road or parking lot. He is seen skateboarding, riding a scooter, walking, and dancing energetically. During his movements, he experiences several moments of losing balance, stumbling, and even appearing to fall or jump mid-air. Concurrently, another man in a white shirt and jeans is shown near a dark car, initially leaning against it and later appearing to change a tire. The scene also includes shots of a silver car in a gravel lot, which is shown tilted, sliding, and eventually with its hood open and a wheel missing."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 2398,
+      "end_frame": 2766,
+      "start_sec": 100.016583,
+      "end_sec": 115.36525,
+      "duration_sec": 15.390375,
+      "num_frame_captions": 25,
+      "caption": "A man in a white t-shirt is outdoors at dusk, smiling and taking selfies or recording a video with a camera. The setting features palm trees, a street, and a fading sky, transitioning from a serene twilight to scenes of a raging wildfire casting an ominous glow through the trees. Later, the focus shifts to a damaged car with a flat or missing tire parked on a paved surface. The scene concludes with close-ups of the man speaking and smiling directly at the camera."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 2767,
+      "end_frame": 3722,
+      "start_sec": 115.406958,
+      "end_sec": 155.238417,
+      "duration_sec": 39.873167,
+      "num_frame_captions": 64,
+      "caption": "This scene depicts a young man and woman driving together in a car. The man, wearing a white shirt, is frequently in the driver\u2019s seat, often smiling and looking toward the camera or the passenger. The woman, in a blue and white striped shirt, sits in the passenger seat. She is seen smiling and talking animatedly on her phone while he looks at her. Throughout the drive, the woman happily displays various colorful candy packages and sweets to the camera, including bags of Skittles, M&M's, Cadbury Mini Eggs, and a decorated cake. The overall tone is cheerful and informal."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 3723,
+      "end_frame": 4037,
+      "start_sec": 155.280125,
+      "end_sec": 168.376542,
+      "duration_sec": 13.138125,
+      "num_frame_captions": 21,
+      "caption": "This scene depicts a quiet suburban neighborhood at dusk, with light traffic moving along a multi-lane road. The primary action involves cars, including a red car and a dark SUV, driving through the residential streets lined with palm trees and houses. A person is seen walking on the sidewalk alongside the road. The sequence begins with a vehicle waiting at a red traffic light, which later turns green, allowing traffic to proceed. The overall atmosphere is calm and transitional, captured from various perspectives including dashcam and point-of-view shots from within the vehicles."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 4038,
+      "end_frame": 5570,
+      "start_sec": 168.41825,
+      "end_sec": 232.315417,
+      "duration_sec": 63.938875,
+      "num_frame_captions": 102,
+      "caption": "This scene shows a series of interactions around parked cars in various outdoor settings, primarily parking lots and residential streets. A woman in a blue and white striped shirt and a man in a white shirt are the main subjects. The man is frequently seen bent over, reaching into or working on the open trunks of several cars, including silver, tan, and dark-colored sedans. The woman is sometimes present, standing nearby or holding a bag of chips. Later, the man is seen smiling at the camera, using a tool on a bottle, and giving a thumbs-up, suggesting the activity concludes on a positive note."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 5571,
+      "end_frame": 5739,
+      "start_sec": 232.357125,
+      "end_sec": 239.364125,
+      "duration_sec": 7.048708,
+      "num_frame_captions": 11,
+      "caption": "The scene shows a man in a white t-shirt in a parking lot, primarily interacting with a car's open trunk. He is seen holding a large dark object, which he appears to be examining or working on near the ground and the vehicle. His demeanor shifts throughout the sequence; at times he is focused on the task, while in other moments he is smiling and gesturing in a relaxed manner, sometimes with another person nearby. The scene concludes with him walking away from the car, leaving the trunk open in the parking lot as dusk settles."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 5740,
+      "end_frame": 6093,
+      "start_sec": 239.405833,
+      "end_sec": 254.128875,
+      "duration_sec": 14.76475,
+      "num_frame_captions": 24,
+      "caption": "A man in a white shirt and blue jeans is changing a flat tire on a silver or gray car in a parking lot. He is assisted by another person, and they work with a spare tire, jack, and tools. The man is seen sitting, crouching, and bending over while working on the wheel. Later, he is shown lying on his side or back on the pavement near the car, with the spare tire still nearby. His posture shifts from active repair to a prone position, suggesting a change in his state during the tire-changing task."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 6094,
+      "end_frame": 6641,
+      "start_sec": 254.170583,
+      "end_sec": 276.985042,
+      "duration_sec": 22.856167,
+      "num_frame_captions": 36,
+      "caption": "The scene begins inside a vehicle, where a person is reaching for and holding a colorful bag of chips or snacks on the gray passenger seat. The car interior is cluttered with personal items like a blue jacket and bags. The focus then shifts to the person's hand holding a small, white object, with brief glimpses of scissors and a red mark on a fingertip. Finally, the scene moves outside, where a man in a white shirt and blue jeans is kneeling or lying on the ground beside a silver car, working on the wheel well or a tire with a spare tire and tools nearby."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 6642,
+      "end_frame": 7106,
+      "start_sec": 277.02675,
+      "end_sec": 296.379417,
+      "duration_sec": 19.394375,
+      "num_frame_captions": 31,
+      "caption": "The scene depicts a person closely examining various objects and surfaces, primarily focusing on instructional materials and labels. They point at diagrams, manuals, and stickers affixed to different items, including a menu, a vehicle tire, and the hood or body of a car. The objects of interest are often worn or weathered, and the perspective consists of blurry, low-angle, and close-up shots of textured gray surfaces, dark circular objects, and documents."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 7107,
+      "end_frame": 7385,
+      "start_sec": 296.421125,
+      "end_sec": 308.016042,
+      "duration_sec": 11.636625,
+      "num_frame_captions": 19,
+      "caption": "A young man in a white shirt and blue jeans is working on a silver car or van, primarily focused on the rear wheel area. He is seen in various positions\u2014kneeling, crouching, or sitting cross-legged on the pavement\u2014while inspecting or performing maintenance. His activities involve using tools such as a flashlight, a tire iron or lug wrench, and other handheld implements near the wheel well. At one point, he is also described as possibly eating or holding a small object like a phone, but the consistent central action throughout the scene is his attentive work on the vehicle's wheel."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 7386,
+      "end_frame": 7671,
+      "start_sec": 308.05775,
+      "end_sec": 319.944625,
+      "duration_sec": 11.928583,
+      "num_frame_captions": 19,
+      "caption": "This scene depicts a man in a white shirt and jeans performing roadside vehicle repairs. He is first seen changing a tire on a car, with a jack and a removed wheel visible on the paved surface. The activity then shifts to the front of the vehicle, where the hood is open and the man is actively inspecting or working on the engine. He is seen leaning against the car, gesturing, and moving quickly near the open trunk. The scene concludes with the car missing a tire, and a person in sandals walking past it, indicating the repairs are ongoing or have just been completed in this residential outdoor setting."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 7672,
+      "end_frame": 8063,
+      "start_sec": 319.986333,
+      "end_sec": 336.294292,
+      "duration_sec": 16.349667,
+      "num_frame_captions": 26,
+      "caption": "The scene depicts two people, a man and a woman, collaboratively changing a flat tire on a car. They are both bent or crouched over, working on the tire on the ground next to the vehicle, and a wrench is seen nearby at one point. Their actions include lifting or maneuvering the large, dark circular object\u2014the tire\u2014on a paved surface, and later rolling it across it. The focus then shifts to close-up details, where a person\u2019s hands are seen holding and examining the worn, dirty tire tread against rough asphalt or concrete backgrounds."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 8064,
+      "end_frame": 8838,
+      "start_sec": 336.336,
+      "end_sec": 368.61825,
+      "duration_sec": 32.323958,
+      "num_frame_captions": 52,
+      "caption": "In this scene, a man (or person) in a white shirt and blue jeans\u2014occasionally wearing flip-flops\u2014is bent over working on a tire of a gray or silver car parked on a paved or gravel surface. He appears to be changing a flat tire, using a jack and lug wrench, with the wheel jacked up. Later, another person joins him, specifically a woman in a white shirt and orange shorts who crouches down to assist with the tire repair. Together, they collaborate on changing the flat tire, and a spare tire is present on the ground or mounted on the vehicle, completing the task."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 8839,
+      "end_frame": 9093,
+      "start_sec": 368.659958,
+      "end_sec": 379.253875,
+      "duration_sec": 10.635625,
+      "num_frame_captions": 17,
+      "caption": "This scene shows a person, likely a man, changing a flat tire on a dark-colored car in an outdoor parking lot. He is consistently described wearing a white shirt, blue jeans, and sandals or flip-flops while bent over and working on the vehicle's wheel. The action is intercut with brief shots of a woman in a white shirt, who first appears looking neutral and then gives an enthusiastic thumbs-up. Several frames are blurry, suggesting moments of quick motion or a first-person perspective of someone moving around the scene, but the central activity remains the tire repair."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 9094,
+      "end_frame": 9135,
+      "start_sec": 379.295583,
+      "end_sec": 381.005625,
+      "duration_sec": 1.75175,
+      "num_frame_captions": 3,
+      "caption": "The scene appears to be a single, dynamic shot from a first-person or subjective perspective. It shows a person's face in close-up, captured with significant motion blur against a bright sky, indicating rapid movement or a shaky camera. The background features tilted palm trees, reinforcing the sense of being outdoors and in motion. The sequence concludes with the image dissolving into a dark, blurry frame dominated by an indistinct bright shape, suggesting a sudden shift or the end of the action."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 9136,
+      "end_frame": 9927,
+      "start_sec": 381.047333,
+      "end_sec": 414.038625,
+      "duration_sec": 33.033,
+      "num_frame_captions": 52,
+      "caption": "This scene shows a man in a white shirt and jeans, sometimes with sandals, performing maintenance on a dark-colored car in an outdoor setting. He is primarily focused on the vehicle's wheels, repeatedly bending over to inspect or work on the tires and wheel wells, sometimes using a lug wrench on a gravel or paved surface. His activities expand to include checking the open fuel door, the open hood, and the open trunk, suggesting a broader inspection or repair session. The scene includes moments where he leans against the car, smiles, or looks at the camera, but the consistent action is his hands-on work on various parts of the vehicle."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 9928,
+      "end_frame": 10270,
+      "start_sec": 414.080333,
+      "end_sec": 428.344583,
+      "duration_sec": 14.305958,
+      "num_frame_captions": 23,
+      "caption": "This scene depicts a woman arriving home at dusk in a residential area. She parks her car in the driveway and gets out, holding a phone to her ear and engaged in a conversation. She is seen multiple times standing by the open car door, smiling and holding items like a black bag or a cane. The scene also includes brief, blurry shots from a moving vehicle at night, suggesting travel, and one static shot showing a car with a missing front wheel, indicating a separate vehicular issue. The primary action is her arrival and phone call outside her house."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 10271,
+      "end_frame": 10776,
+      "start_sec": 428.386292,
+      "end_sec": 449.449,
+      "duration_sec": 21.104417,
+      "num_frame_captions": 34,
+      "caption": "This scene begins with a series of very dark, blurry, and low-resolution frames, making details difficult to discern. The action then moves outdoors at dusk, where a woman is seen getting out of a silver car in a residential or parking lot area with palm trees and grass. She is consistently shown standing by the open car door, talking on a phone, often while holding a bag and sometimes smiling. Concurrently, there are several shots focusing on the car itself, specifically its rear wheel area, which appears to have a missing or flat tire. The scene concludes with her continuing her phone conversation beside the vehicle."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 10777,
+      "end_frame": 11341,
+      "start_sec": 449.490708,
+      "end_sec": 473.014208,
+      "duration_sec": 23.565208,
+      "num_frame_captions": 38,
+      "caption": "A person in a white shirt is in a parking lot at night, working on a dark-colored car with a missing or flat tire. The individual crouches or kneels by the vehicle, inspecting the wheel well or undercarriage, and a spare tire is visible on the ground. Later, the person lies on the pavement beside the car, sometimes holding a bottle or a phone. The scene depicts a transition from active vehicle repair to a state where the individual is lying on the ground, motionless or appearing distressed."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 11342,
+      "end_frame": 11424,
+      "start_sec": 473.055917,
+      "end_sec": 476.476,
+      "duration_sec": 3.461792,
+      "num_frame_captions": 5,
+      "caption": "The scene depicts a nighttime or dusk journey through an outdoor residential area, filmed from a moving vehicle. The view is consistently blurry and low-resolution, characterized by motion blur that creates streaks of light and indistinct, passing shapes of buildings and trees. Common elements include palm trees, grassy yards, and houses, with a car often partially visible in the foreground. The lighting conditions shift between a dark night with light streaks and a dusk setting with a faint orange glow on the horizon, indicating a transition through the evening."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 11425,
+      "end_frame": 12051,
+      "start_sec": 476.517708,
+      "end_sec": 502.627125,
+      "duration_sec": 26.151125,
+      "num_frame_captions": 42,
+      "caption": "A man in a white t-shirt and jeans is in a dimly lit parking lot at night with his car's hood open. He alternates between inspecting the vehicle, gesturing in frustration, and kneeling in apparent distress. At times, he walks away or moves around the lot, sometimes holding a tool or object. His behavior shifts dramatically to energetic dancing with his arms raised. The scene captures his fluctuating emotional state\u2014from agitation to animated, celebratory movement\u2014around the disabled car."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 12052,
+      "end_frame": 12147,
+      "start_sec": 502.668833,
+      "end_sec": 506.631125,
+      "duration_sec": 4.004,
+      "num_frame_captions": 6,
+      "caption": "This scene appears to show a person in a festive, nighttime setting, possibly indoors or at an event. The individual is captured smiling warmly at the camera in dimly lit environments adorned with string lights and decorative lighting. While one shot suggests a candid, upside-down moment, most frames depict the person looking up directly at the camera with a cheerful expression. The overall setting is cozy and celebratory, characterized by low light, blurred backgrounds, and prominent, bright light sources creating a warm and festive atmosphere around the smiling subject."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 12148,
+      "end_frame": 12660,
+      "start_sec": 506.672833,
+      "end_sec": 528.0275,
+      "duration_sec": 21.396375,
+      "num_frame_captions": 35,
+      "caption": "The scene follows a man in a white t-shirt enjoying a casual meal and drinks at a dimly lit restaurant or bar, primarily at an outdoor wooden patio at night. He is seated at a table, often smiling or laughing toward the camera while eating with his hands and holding a drink with a straw. The warm, rustic setting features wooden beams, string lights, and other patrons in the background. Throughout the sequence, he is seen gesturing, talking, and engaging in conversation, creating a relaxed and convivial dining atmosphere. The scene opens with a brief, blurry shot of city lights, suggesting arrival at the location."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 12661,
+      "end_frame": 13355,
+      "start_sec": 528.069208,
+      "end_sec": 557.014792,
+      "duration_sec": 28.987292,
+      "num_frame_captions": 46,
+      "caption": "The scene depicts a man dining in a dimly lit restaurant at night. He is consistently wearing a white shirt or t-shirt, seated at a table with drinks, condiments, and sometimes a menu or tablet. Throughout the scene, he alternates between eating his meal, looking down at his phone, and occasionally glancing at the surroundings. Another person is present at the same table, often writing on a notepad or a napkin. The setting includes indoor or outdoor areas with warm ambiance, string lights, wooden beams, and other patrons visible in the background, suggesting a casual, festive dining environment."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 13356,
+      "end_frame": 14018,
+      "start_sec": 557.0565,
+      "end_sec": 584.667417,
+      "duration_sec": 27.652625,
+      "num_frame_captions": 44,
+      "caption": "The scene shows a man in a white shirt enjoying a meal at a dimly lit, rustic restaurant with friends. He smiles, laughs, and gestures animatedly while talking and eating. The warm ambiance includes string lights, wooden beams, and other patrons in the background. Drinks are on the table, and the social atmosphere is relaxed and celebratory."
+    }
+  ]
+}

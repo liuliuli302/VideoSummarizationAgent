@@ -1,0 +1,13 @@
+{
+  "video": "sTEELN-vY30",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/sTEELN-vY30.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_7.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 21,
+  "caption": "This video is a news report covering a dramatic train collision and the resulting aftermath in Atlanta. It begins with footage of a train derailment, followed by scenes depicting a red car involved in a severe accident with a train, showing the car severely damaged on the tracks while bystanders and emergency personnel are present. The report includes segments with reporters and interviewees, such as a man wearing a safety vest pointing at a traffic light or railroad crossing, a woman with a surprised expression, and a reporter conducting a live interview on a street at night. The broadcast also shows various urban scenes, traffic lights, and the damaged car resting on its side near the stationary train, highlighting the seriousness of the collision and the ongoing response to the incident."
+}

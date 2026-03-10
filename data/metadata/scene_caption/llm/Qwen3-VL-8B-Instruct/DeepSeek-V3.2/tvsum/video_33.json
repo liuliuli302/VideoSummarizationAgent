@@ -5,7 +5,7 @@
   "image_caption_model": "Qwen3-VL-8B-Instruct",
   "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_33.json",
   "scene_caption_model": "DeepSeek-V3.2",
-  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\n\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\n\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\n* avoid speculation beyond the provided captions\n\nScene description:\n",
   "scene_threshold": 27.0,
   "max_tokens": 120,
   "fps": 29.97002997002997,
@@ -20,7 +20,7 @@
       "end_sec": 424.7243,
       "duration_sec": 424.757667,
       "num_frame_captions": 849,
-      "caption": "The scene takes place in a high school gymnasium, where a bald man in a black hoodie or jacket acts as a host or coach, frequently holding a microphone and gesturing animatedly to address an audience. He is sometimes joined by another man, and together they appear to be conducting an event, such as a pep rally or halftime show. The main activity involves a large group of students in matching black shirts performing synchronized dance routines, often with props like jump ropes or hula hoops, on the basketball court marked with \"THE TIGER DEN.\" The audience watches from the bleachers, and the overall atmosphere is energetic and celebratory."
+      "caption": "The scene takes place on a basketball court in a gymnasium (\u201cThe Tiger Den\u201d), likely during a school event or halftime performance. A bald man in a black hoodie or jacket, often holding a microphone or other equipment like a rope or pole, is central to the activity. He appears to be a coach, instructor, or host, frequently gesturing, speaking, or performing for an audience seated in the foreground. The scene alternates between focusing on this man alone or interacting with another man, and wider shots of synchronized dance or cheerleading routines performed by groups in matching black outfits on the court, sometimes using jump ropes or other props."
     },
     {
       "scene_index": 1,
@@ -30,7 +30,7 @@
       "end_sec": 428.0276,
       "duration_sec": 3.3033,
       "num_frame_captions": 7,
-      "caption": "This scene captures a high-energy basketball game in a gymnasium, where a large and enthusiastic crowd of fans, predominantly dressed in red, fills the bleachers. The spectators are intently focused on the action, cheering and waving their arms as the event unfolds. On the court, players in dark uniforms are visible, and a cheerleading squad performs during the game. The court floor is marked with lettering that appears to read \"BLUFFTON\" or \"SLUFFTON,\" indicating the school or team name. The overall atmosphere is one of spirited competition and community support."
+      "caption": "This scene takes place in a packed high school gymnasium during a basketball game. A large and energetic crowd, predominantly dressed in red, fills the bleachers and stands, cheering and waving enthusiastically. On the wooden court below, players in dark uniforms are present, and a cheerleading squad performs at one point. The court flooring is marked with lettering that appears to read either \"BLUFFTON\" or \"SLUFFTON,\" indicating the school's name. The overall atmosphere is one of intense focus and spirited support from the spectators as they watch the events on the court unfold."
     },
     {
       "scene_index": 2,
@@ -40,7 +40,7 @@
       "end_sec": 428.761667,
       "duration_sec": 0.734067,
       "num_frame_captions": 1,
-      "caption": "This scene captures the energetic atmosphere of a competitive basketball game within a packed gymnasium. The focus is on the dynamic action on the court, where players from opposing teams execute fast breaks, set up offensive plays, and contest shots with intense defensive pressure. The roar of the crowd from the surrounding bleachers rises and falls with the momentum of the game, creating a palpable sense of excitement and community support. The overall sequence emphasizes the speed, skill, and physicality of the sport, set against the vibrant backdrop of a live, local sporting event."
+      "caption": "This scene captures the energetic atmosphere of a live basketball game within a gymnasium. The focus is on the active competition taking place on the court, where players are engaged in the sport. The surrounding bleachers are filled with spectators, indicating a well-attended event. The combined presence of the athletes and the audience creates a dynamic and crowded environment typical of organized school or community sports. The overall impression is one of communal excitement centered around the ongoing athletic contest."
     },
     {
       "scene_index": 3,
@@ -50,7 +50,7 @@
       "end_sec": 445.912133,
       "duration_sec": 17.150467,
       "num_frame_captions": 34,
-      "caption": "This scene takes place in a high school or university gymnasium known as \"The Tiger Den,\" featuring a basketball court with prominent \"TIGERS\" and \"Bluffton University\" markings. The main event is a halftime or special performance during a basketball game. Two cheerleaders, wearing maroon, gold, black, and white uniforms, take center court to perform a routine for a large crowd of spectators filling the stands. The atmosphere is that of a school spirit event, with some students in coordinated red shirts. The performance includes the use of a microphone and megaphone, suggesting a combination of cheering and spoken elements for the engaged audience."
+      "caption": "The scene depicts a basketball game and halftime show in a gymnasium known as \"The Tiger Den.\" Players compete on the court with \"TIGERS\" painted on the floor, surrounded by spectators. During halftime, cheerleaders in maroon, gold, red, and black uniforms perform routines at center court for the watching crowd. The event includes moments with a microphone and megaphone, emphasizing a school spirit atmosphere with banners hanging overhead."
     }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "video": "playing_ball",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/playing_ball.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/summe/video_25.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 4,
+  "caption": "The video begins with a German Shepherd lying calmly on a brick pathway, attentively observing a small bird—likely a pigeon—standing nearby. The two animals coexist peacefully in an urban outdoor setting, showing no signs of disturbance or aggression.\n\nLater, the focus shifts to the dog in motion, captured in close-up as it moves around a patio area. The scene concludes with the dog actively playing with a white ball on the brick patio, surrounded by household items such as a chair, a crate, and a doghouse, suggesting a relaxed domestic backyard environment."
+}

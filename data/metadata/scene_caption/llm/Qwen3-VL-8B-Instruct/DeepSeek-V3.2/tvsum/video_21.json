@@ -1,0 +1,1616 @@
+{
+  "video": "cjibtmSLxQ4",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/cjibtmSLxQ4.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_21.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\n\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\n\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\n* avoid speculation beyond the provided captions\n\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 19406,
+  "num_scenes": 160,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 89,
+      "start_sec": 0.0,
+      "end_sec": 2.969633,
+      "duration_sec": 3.003,
+      "num_frame_captions": 6,
+      "caption": "The scene features a stylized graphic promoting \"Allonnes Parkour 72.\" It consists of black-and-white silhouettes of buildings and parkour athletes leaping between them, set against a white background. The bold red text \"Allonnes Parkour 72\" is prominently overlaid, identifying a parkour group or event associated with the Allonnes area in France. The repeated imagery across frames consistently presents this graphic design, emphasizing the athletic action and the event's branding."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 90,
+      "end_frame": 255,
+      "start_sec": 3.003,
+      "end_sec": 8.5085,
+      "duration_sec": 5.538867,
+      "num_frame_captions": 12,
+      "caption": "The scene consists of a title card for a television report. It features a black screen with white text in French that reads \"Reportage de TF1 sur David Belle et le parkour,\" which translates to \"TF1 report on David Belle and parkour.\" This text appears and remains on screen, establishing the subject of the upcoming news segment. The scene serves as an introductory graphic, presenting no other visual details or action beyond this static informational text."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 256,
+      "end_frame": 480,
+      "start_sec": 8.541867,
+      "end_sec": 16.016,
+      "duration_sec": 7.5075,
+      "num_frame_captions": 15,
+      "caption": "The scene depicts a person navigating an urban environment in Lisses, a Parisian suburb, as shown in a TF1 news broadcast. The individual is seen climbing and moving through complex indoor structures, including walls, stairwells, and hallways. The action involves moments of climbing, jumping, falling, and stumbling within these confined spaces. The person is also shown running in an outdoor area near a parked car. The sequence captures a dynamic and physically strenuous traversal of the built environment."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 481,
+      "end_frame": 1265,
+      "start_sec": 16.049367,
+      "end_sec": 42.208833,
+      "duration_sec": 26.192833,
+      "num_frame_captions": 52,
+      "caption": "This scene is a French television segment about parkour, featuring David Belle, the discipline's founder. The footage, broadcast on TF1, shows Belle performing various parkour movements in urban and indoor environments. He is seen running, vaulting over walls, climbing staircases, and scaling structures. The segment includes clips of him navigating sidewalks, alleyways, and parking lots, sometimes on foot and at other times on a scooter or skateboard. The video has a characteristic low-resolution, grainy quality of a TV broadcast, with consistent on-screen graphics identifying Belle and the show \"Le Parkour.\""
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 1266,
+      "end_frame": 1435,
+      "start_sec": 42.2422,
+      "end_sec": 47.881167,
+      "duration_sec": 5.672333,
+      "num_frame_captions": 11,
+      "caption": "This scene, from a TF1 television broadcast, depicts two men interacting with a public telephone booth in a suburban park area. One man climbs onto or balances atop the booth's structure while the other stands or moves nearby. The action escalates as the individuals begin to run, with one person stumbling while holding a metal structure. The sequence culminates with one man perched on top of the white booth as the other runs toward him. The overall activity involves dynamic physical engagement with the street furniture, shifting from interaction to a chase or stunt-like scenario."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 1436,
+      "end_frame": 1491,
+      "start_sec": 47.914533,
+      "end_sec": 49.7497,
+      "duration_sec": 1.868533,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a chaotic outdoor or parking garage setting where multiple individuals are engaged in dynamic physical activity. A person in a white outfit performs an acrobatic flip on the paved ground. Another individual, dressed in dark clothing, is seen crouching on the same surface and later running away from the camera through the covered area. The environment includes parked cars, structural pillars, and a bright green object in the background, contributing to a sense of disarray and motion. The actions suggest a sequence involving athletic movement and rapid departure within this urban locale."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 1492,
+      "end_frame": 1584,
+      "start_sec": 49.783067,
+      "end_sec": 52.8528,
+      "duration_sec": 3.1031,
+      "num_frame_captions": 6,
+      "caption": "The scene appears to be surveillance or news footage of an outdoor area with a paved walkway, steps, and landscaping. A person in a dark jacket runs quickly down the steps and along the walkway. Another individual is present further up the steps. The video is consistently grainy and low-resolution, featuring visible TV station watermarks. The setting includes trees, shrubs, hedges, and a building in the background under an overcast sky."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 1585,
+      "end_frame": 1800,
+      "start_sec": 52.886167,
+      "end_sec": 60.06,
+      "duration_sec": 7.2072,
+      "num_frame_captions": 15,
+      "caption": "The scene follows a person in a black shirt moving through various indoor and outdoor spaces. The individual is seen walking away from the camera through an office area and down hallways before descending a staircase. The action continues outdoors, where the person is shown on a balcony and then climbing or falling down a concrete structure. The sequence concludes with the person running outside and walking down another set of stairs while holding a white object. The video has a consistent low-resolution, grainy quality with occasional network logos."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 1801,
+      "end_frame": 1946,
+      "start_sec": 60.093367,
+      "end_sec": 64.931533,
+      "duration_sec": 4.871533,
+      "num_frame_captions": 9,
+      "caption": "The scene shows a person in dark clothing with white pants on a metal staircase in a yellow-walled indoor or industrial space. The person is seen standing on a railing at the top of the stairs, then descending the staircase. At one point, the person is captured mid-air, appearing to jump or fall from the platform. The action is energetic, resembling dancing, and is presented as a grainy, low-resolution television broadcast with the \"TF1\" logo visible."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 1947,
+      "end_frame": 2057,
+      "start_sec": 64.9649,
+      "end_sec": 68.635233,
+      "duration_sec": 3.7037,
+      "num_frame_captions": 8,
+      "caption": "The scene depicts a person climbing and moving through an indoor space with yellow walls, likely a skatepark or warehouse featuring wooden and metal structures covered in graffiti. The action progresses from climbing to a moment where the individual is captured mid-air, seemingly falling or jumping from a staircase. The footage has the consistent appearance of a television broadcast, as indicated by logos for \"TFI\" or \"TF1\" and timestamps in the corner, with one frame specifically noted as a low-resolution, grainy broadcast."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 2058,
+      "end_frame": 2979,
+      "start_sec": 68.6686,
+      "end_sec": 99.3993,
+      "duration_sec": 30.764067,
+      "num_frame_captions": 61,
+      "caption": "A man in a black shirt with a red design walks outdoors in a grassy suburban area, eventually beginning to run along sidewalks and yards near houses. His movements become increasingly energetic, dancing and performing athletic maneuvers such as climbing onto the roofline of a building, walking and balancing on roofs, and later hanging and swinging from tree branches in a park. The scene is consistently presented as a low-resolution television broadcast, with channel logos like TFI or TF1 visible throughout. He concludes by walking down paths in the park, sometimes following another person."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 2980,
+      "end_frame": 3160,
+      "start_sec": 99.432667,
+      "end_sec": 105.438667,
+      "duration_sec": 6.039367,
+      "num_frame_captions": 12,
+      "caption": "This scene, captured from a TF1 television broadcast, depicts a person attempting to evade capture by scaling various obstacles. The individual, wearing dark clothing and white pants, is first seen running across a grassy area before climbing over a green metal fence adjacent to a beige building identified as the \"Institut de Recherche.\" The pursuit continues as the person subsequently climbs a beige wall. The scene culminates with the individual reaching a rooftop or elevated concrete structure, where they are shown peering over the edge against a pale sky, suggesting a tense, ongoing situation."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 3161,
+      "end_frame": 3796,
+      "start_sec": 105.472033,
+      "end_sec": 126.659867,
+      "duration_sec": 21.2212,
+      "num_frame_captions": 43,
+      "caption": "This scene appears to be a montage from a French television broadcast (TF1) featuring a young man in a black hoodie and light pants. He is shown in a white studio setting, performing a series of dynamic, athletic poses. These include crouching, leaning forward, pointing, and gesturing, often with an intense focus, as if preparing for or simulating action. The sequence then cuts to outdoor, urban rooftop footage under an overcast sky, where two individuals are seen climbing and moving across the buildings. One person is shown jumping between rooftops, while another is perched on a ledge, creating a contrast between the controlled studio performance and the exterior, high-altitude activity."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 3797,
+      "end_frame": 4082,
+      "start_sec": 126.693233,
+      "end_sec": 136.202733,
+      "duration_sec": 9.542867,
+      "num_frame_captions": 19,
+      "caption": "The scene appears to be a television interview or segment broadcast on the French channel TF1 (or TFI) between 2001 and 2003. A man, consistently described as wearing a black shirt or hoodie, is speaking directly to the camera. He is seated against a plain white background, with the channel logo and date stamp visible in the corner. During his speech, he gestures with his hands, sometimes smiling. The footage is from a low-resolution broadcast, suggesting it is archival material, and the man is the focal point throughout the interview."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 4083,
+      "end_frame": 4485,
+      "start_sec": 136.2361,
+      "end_sec": 149.6495,
+      "duration_sec": 13.446767,
+      "num_frame_captions": 27,
+      "caption": "A man in a black sweatshirt stands on a concrete overpass, gesturing as if addressing an audience. Another person is present, sometimes reaching toward him or watching from below. The scene, captured in a grainy television broadcast, shows individuals climbing on and around the concrete structure. Later, the man is seen running across a grassy field toward a path lined with trees. The setting shifts between the urban overpass and a park, with actions including standing, gesturing, climbing, and running."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 4486,
+      "end_frame": 4653,
+      "start_sec": 149.682867,
+      "end_sec": 155.2551,
+      "duration_sec": 5.6056,
+      "num_frame_captions": 11,
+      "caption": "This scene appears to be an outdoor event filmed for a French television broadcast (TF1). It takes place in a park-like setting featuring a paved path, a green metal fence, and a gate. Several individuals, mostly dressed in dark tops and white or light-colored pants, are engaged in various activities around this gate and fence. One person lies atop the fence, another stands on stilts behind it, and a third bends over on the path. The primary action involves people running or walking along the path, moving both toward and away from the green gate. The sequence concludes with a person walking or running through the gate and away from the camera."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 4654,
+      "end_frame": 4992,
+      "start_sec": 155.288467,
+      "end_sec": 166.5664,
+      "duration_sec": 11.3113,
+      "num_frame_captions": 22,
+      "caption": "This scene appears to be a segment from a French television broadcast (TF1/TFI), showing an outdoor area that is officially closed to the public due to construction or climbing wall work, as indicated by multiple weathered warning signs in French. The signs feature the graffiti or logo \"ANGE\" (or \"ANSE\"). The video footage, which is often blurry and low-resolution, captures various activities within this restricted zone. Individuals are seen walking, running, and performing acrobatic moves near or over fences. Notably, a black bear is shown climbing over a metal fence. The overall setting is a grassy, park-like area with paths, fences, and a visible body of water."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 4993,
+      "end_frame": 5065,
+      "start_sec": 166.599767,
+      "end_sec": 169.002167,
+      "duration_sec": 2.435767,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts two men in black shirts and white pants participating in what appears to be a shot put event in a sandy area, likely an athletic field. They are shown walking together across the terrain, with one man's shirt featuring a distinctive white graphic on the back. The action progresses as one of the athletes bends over in the sand, preparing to throw the shot put. The setting includes elements like a fence and a white wall, and the footage has the characteristic look of a low-resolution television broadcast of the sporting activity."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 5066,
+      "end_frame": 5126,
+      "start_sec": 169.035533,
+      "end_sec": 171.037533,
+      "duration_sec": 2.035367,
+      "num_frame_captions": 4,
+      "caption": "A man in a dark jacket is escorted by an officer outdoors near trees, while another person is held at gunpoint in a tense confrontation. Meanwhile, someone films the scene with a video camera, and a separate shot shows a hand holding a small white digital camera, possibly for demonstration or review."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 5127,
+      "end_frame": 5178,
+      "start_sec": 171.0709,
+      "end_sec": 172.7726,
+      "duration_sec": 1.735067,
+      "num_frame_captions": 4,
+      "caption": "This scene, captured from a low-resolution television broadcast with a TF1 or TFI logo, shows a man in dark clothing, including a black jacket and white pants, navigating a rugged outdoor environment. He is first seen walking across a sandy area towards a prominent rock formation with trees in the background. The action then shifts to him actively climbing the steep, rocky incline of the formation, which features large, rounded boulders. The sequence progresses from his approach to the physical ascent of the rock wall in this natural park setting."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 5179,
+      "end_frame": 5223,
+      "start_sec": 172.805967,
+      "end_sec": 174.2741,
+      "duration_sec": 1.5015,
+      "num_frame_captions": 3,
+      "caption": "This scene appears to be from a low-resolution, grainy television broadcast, as indicated by on-screen logos for \"TVE\" and \"TFI.\" The visual content is abstract and indistinct, dominated by blurry shapes and colors, including white scenes with dark forms and markings in blue and red. A key moment involves a human hand reaching out to touch a surface covered in frost. The overall impression is of an older, possibly archival video recording where the specific details are obscured by the poor quality of the footage."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 5224,
+      "end_frame": 5380,
+      "start_sec": 174.307467,
+      "end_sec": 179.512667,
+      "duration_sec": 5.238567,
+      "num_frame_captions": 10,
+      "caption": "The scene shows a person climbing a steep, sandy cliff face with terraced levels and carved rectangular holes or indentations. The footage appears to be from a grainy television broadcast, with TF1 or TFI logos and various dates visible, including 1993, 2001, 2003, and 2005. The climber's attire varies between shots, sometimes including a dark jacket, light pants, or a white outfit. In some frames, a ladder is present on the cliff, and the background may feature a large geometric structure. The consistent setting suggests this is a documented adventure or expedition segment."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 5381,
+      "end_frame": 5427,
+      "start_sec": 179.546033,
+      "end_sec": 181.0809,
+      "duration_sec": 1.568233,
+      "num_frame_captions": 3,
+      "caption": "The scene involves a person wearing dark clothing, likely performing tasks outdoors or in a workspace. The sequence shows the individual first placing a stone-like object against a textured wall. Next, they are seen using a tool on a snowy or icy ground while wearing a black glove. Finally, the person interacts with a large white object, which could be a textured surface or possibly an animal. The actions suggest a progression from manual handling to tool-assisted work, culminating in engagement with a sizable, pale element in the environment."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 5428,
+      "end_frame": 5499,
+      "start_sec": 181.114267,
+      "end_sec": 183.4833,
+      "duration_sec": 2.4024,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a televised indoor climbing competition, likely from a historical broadcast. A climber is shown ascending a steep, artificial rock wall, with multiple shots emphasizing the challenging, textured surface of the climbing structure. The footage has the distinct, grainy quality of a vintage television recording, as indicated by its low resolution and stylistic presentation. A network logo, either \"TF1\" or \"TFI,\" and an on-screen date stamp are consistently visible, confirming the broadcast nature of the event. The scene captures the climber's progress from different angles, all within the controlled environment of a climbing gym."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 5500,
+      "end_frame": 5546,
+      "start_sec": 183.516667,
+      "end_sec": 185.051533,
+      "duration_sec": 1.568233,
+      "num_frame_captions": 3,
+      "caption": "This scene appears to be a close-up shot from a French television broadcast, as indicated by the TF1 logo. The focus is on a person interacting with a transparent container. The person, wearing dark clothing, is seen holding the container, which is filled with small yellow and white objects or a yellowish liquid. In another moment, the person's hand is shown pointing toward a blurry, greenish outdoor background. The video quality is low-resolution and shaky, suggesting handheld or dynamic camera work."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 5547,
+      "end_frame": 5591,
+      "start_sec": 185.0849,
+      "end_sec": 186.553033,
+      "duration_sec": 1.5015,
+      "num_frame_captions": 3,
+      "caption": "The scene shows a person climbing a steep, sandy slope in bright sunlight. The footage is a low-resolution, grainy video from TFI, dated 06/04/01. In the same setting, a small black-and-white bird is perched on a sloped, textured surface. The video includes a close-up view of the sandy terrain."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 5592,
+      "end_frame": 5609,
+      "start_sec": 186.5864,
+      "end_sec": 187.153633,
+      "duration_sec": 0.6006,
+      "num_frame_captions": 1,
+      "caption": "The scene presents a first-person perspective from a moving vessel on the water. The view is consistently blurry and low-resolution, suggesting rapid motion or poor recording quality. The journey across the body of water is the central action, with the environment remaining otherwise featureless. A small \"TF1\" logo is persistently visible in the corner, indicating the footage's likely broadcast source. The entire sequence maintains this singular, unbroken point of view focused on the forward motion."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 5610,
+      "end_frame": 5724,
+      "start_sec": 187.187,
+      "end_sec": 190.9908,
+      "duration_sec": 3.837167,
+      "num_frame_captions": 8,
+      "caption": "The scene appears to be a first-person, shaky broadcast segment filmed outdoors, likely on a grassy hillside or embankment overlooking a body of water. A person's hand repeatedly reaches out towards prominent natural features, specifically large mossy rock formations. The video is low-resolution and blurry, with the TF1 broadcast logo and a July 4, 2007 timestamp visible. The perspective suggests someone holding a camera and walking, with a white path or possible structure occasionally seen in the foreground. The overall setting is a natural, grassy outdoor environment."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 5725,
+      "end_frame": 6044,
+      "start_sec": 191.024167,
+      "end_sec": 201.668133,
+      "duration_sec": 10.677333,
+      "num_frame_captions": 21,
+      "caption": "This scene, captured in a TF1 television broadcast dated April 2001, shows a man performing parkour or acrobatic stunts on urban structures. He is first seen leaning and crouching on a stone ledge before crawling along the top of a concrete wall. The main action involves him performing a handstand on the ledge, which is repeated from multiple angles against a bright, overcast sky. The scene concludes with him standing atop a large, curved, sand-colored abstract sculpture, viewed from a low angle. Throughout, he wears dark clothing with light-colored pants, and the broadcast logo and date stamp are consistently visible."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 6045,
+      "end_frame": 6211,
+      "start_sec": 201.7015,
+      "end_sec": 207.240367,
+      "duration_sec": 5.572233,
+      "num_frame_captions": 12,
+      "caption": "This scene consists of a series of grainy, low-resolution television broadcast frames from the channel TF1 (or TFI), all showing reruns of footage depicting a dense, multi-level urban area. The location is a coastal town or city built into a steep cliffside or hillside, with buildings clustered tightly together overlooking a body of water. The frames are overlaid with various rediffusion timestamps, indicating the footage was rebroadcast on different dates between 2001 and 2007. The overall presentation suggests archival or documentary material of this Mediterranean-style settlement, captured under generally overcast or hazy skies."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 6212,
+      "end_frame": 6462,
+      "start_sec": 207.273733,
+      "end_sec": 215.6154,
+      "duration_sec": 8.375033,
+      "num_frame_captions": 16,
+      "caption": "The scene consists of a series of shots from a French television broadcast. It opens with a man in a black shirt standing on a rooftop overlooking a cityscape. The perspective then shifts to aerial views, showing various residential areas and large institutional building complexes surrounded by greenery and fields. All frames are marked with broadcast logos, such as TF1 or TFI, and include visible date stamps ranging from 1993 to 2005."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 6463,
+      "end_frame": 6484,
+      "start_sec": 215.648767,
+      "end_sec": 216.349467,
+      "duration_sec": 0.734067,
+      "num_frame_captions": 2,
+      "caption": "This scene is an aerial view from a 1990s French television broadcast, depicting a sprawling urban landscape under an overcast sky. The grainy, low-resolution footage shows buildings and green spaces from a high vantage point. The perspective then shifts to a more distant and hazy shot of a flat, possibly rural area. Within this landscape, the indistinct form of what appears to be a military tank or armored vehicle is visible. The overall scene presents a broad, observational look at a terrain featuring both civilian infrastructure and a distant military presence."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 6485,
+      "end_frame": 6535,
+      "start_sec": 216.382833,
+      "end_sec": 218.051167,
+      "duration_sec": 1.7017,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a street in the Parisian suburb of Evry, filmed from a low-angle perspective. The focus is on the legs and feet of multiple people walking on a sidewalk, with a car and other street elements visible in the background. The location is explicitly confirmed by a television news graphic overlay that identifies the setting. The consistent low-angle viewpoint emphasizes the movement of pedestrians in this suburban environment."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 6536,
+      "end_frame": 6602,
+      "start_sec": 218.084533,
+      "end_sec": 220.286733,
+      "duration_sec": 2.235567,
+      "num_frame_captions": 5,
+      "caption": "The scene is a televised segment about Evry, a Parisian suburb, broadcast on the French news channel TF1. It features interviews and interactions with local residents, primarily young Black men. The segment shows smiling subjects, including one in a patterned jacket making a hand gesture and another wearing a white jacket, being interviewed on a Parisian street. The broadcast also includes footage of a group of people standing on a street in Evry, as well as a moment inside a store aisle where men are interacting and one in a red shirt looks toward the camera."
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 6603,
+      "end_frame": 6867,
+      "start_sec": 220.3201,
+      "end_sec": 229.1289,
+      "duration_sec": 8.842167,
+      "num_frame_captions": 17,
+      "caption": "This scene depicts a group of men interacting in various urban and transit settings. The interactions begin with conversations and gestures in outdoor gatherings and a public indoor space, where one man with a backpack is a recurring figure. The situation escalates to a physical altercation on a city street involving a man in a black jacket and backpack, observed by bystanders. Following this, the focus shifts to more isolated interactions, including two men near a red cooler and a trash can, and a man in a black jacket making phone calls and gestures on a balcony and in a parking lot."
+    },
+    {
+      "scene_index": 35,
+      "start_frame": 6868,
+      "end_frame": 6927,
+      "start_sec": 229.162267,
+      "end_sec": 231.1309,
+      "duration_sec": 2.002,
+      "num_frame_captions": 4,
+      "caption": "This scene appears to be a segment from a television news report or feature, as indicated by the consistent \"TF1\" network logo. It features a man in a black jacket and blue cap walking with another man in an urban environment. The setting then shifts to a crowded indoor location, where a bearded man with short hair is smiling while being filmed. Finally, the scene moves back outdoors, showing a man and a woman on a sidewalk; the woman is actively gesturing with her arms raised as she speaks or explains something."
+    },
+    {
+      "scene_index": 36,
+      "start_frame": 6928,
+      "end_frame": 7013,
+      "start_sec": 231.164267,
+      "end_sec": 234.000433,
+      "duration_sec": 2.869533,
+      "num_frame_captions": 6,
+      "caption": "This scene appears to be a news report covering a dramatic incident involving two individuals. The report begins with a low-resolution broadcast shot inside a bank. The focus then shifts to the exterior of a building, where the same two people are seen climbing on the upper ledges and an overhang, with a TV news logo consistently visible. Their activity moves to a parking garage, where one person climbs on a structure while the other watches below. The scene concludes with both individuals fleeing from a large black object within the garage."
+    },
+    {
+      "scene_index": 37,
+      "start_frame": 7014,
+      "end_frame": 7080,
+      "start_sec": 234.0338,
+      "end_sec": 236.236,
+      "duration_sec": 2.235567,
+      "num_frame_captions": 5,
+      "caption": "Three young Black men in 1990s streetwear, including bandanas and jackets, are gathered outdoors in front of an apartment building. They appear to be part of a TV broadcast or interview segment, as indicated by the grainy broadcast quality and the visible \"TF1\" or \"TFI\" logo in the corner of the frame. One of the men is prominently featured wearing a white headwrap. The scene presents them as a group, likely a hip-hop act, during this televised moment."
+    },
+    {
+      "scene_index": 38,
+      "start_frame": 7081,
+      "end_frame": 7155,
+      "start_sec": 236.269367,
+      "end_sec": 238.7385,
+      "duration_sec": 2.5025,
+      "num_frame_captions": 5,
+      "caption": "The scene appears to be set in a television studio or retail environment, as indicated by the repeated presence of a TF1 or TFI logo. A person in a dark jacket is shown interacting with a counter, leaning forward in a focused posture. In a separate moment, the same or another individual is seen with their head resting on a desk, suggesting a break or moment of fatigue. The overall setting is consistent, though the video quality varies from clear to blurry."
+    },
+    {
+      "scene_index": 39,
+      "start_frame": 7156,
+      "end_frame": 7218,
+      "start_sec": 238.771867,
+      "end_sec": 240.8406,
+      "duration_sec": 2.1021,
+      "num_frame_captions": 4,
+      "caption": "The scene shows two people standing outside a building with a \"TF1\" logo, watching something unfold. Their attention is focused on a small dog running across the courtyard. The perspective then shifts to a grainy, low-resolution shot from a 1990s TV news report, where the same two individuals are seen from behind. In this broadcast view, a person in a red shirt is seen running away from the building, which the onlookers are observing."
+    },
+    {
+      "scene_index": 40,
+      "start_frame": 7219,
+      "end_frame": 7301,
+      "start_sec": 240.873967,
+      "end_sec": 243.610033,
+      "duration_sec": 2.769433,
+      "num_frame_captions": 5,
+      "caption": "This scene appears to be a televised segment from the TF1 network, dated June 4, 1991. It features three young Black men, identified as likely members of the French hip-hop group IAM, gathered outdoors in a city setting. They are dressed in streetwear, with two wearing distinctive white head coverings. The group is shown standing together in front of a building, smiling and engaging with the camera for what seems to be a music or cultural broadcast. The footage has a vintage, low-resolution quality characteristic of the era."
+    },
+    {
+      "scene_index": 41,
+      "start_frame": 7302,
+      "end_frame": 7503,
+      "start_sec": 243.6434,
+      "end_sec": 250.3501,
+      "duration_sec": 6.740067,
+      "num_frame_captions": 14,
+      "caption": "This scene is a French TF1 news broadcast from April 8, 2001, featuring an interview with Guylain N'Guba Boyeke Yamakasi. He is shown outdoors in front of a building, wearing a black jacket over a white shirt and sporting a distinctive, braided hairstyle. Identified by a lower-third graphic, he speaks to an interviewer, likely discussing the Yamakasi group. The broadcast is a rerun, as indicated by the \"Rediffusion\" timestamp and watermark on the screen."
+    },
+    {
+      "scene_index": 42,
+      "start_frame": 7504,
+      "end_frame": 7579,
+      "start_sec": 250.383467,
+      "end_sec": 252.885967,
+      "duration_sec": 2.535867,
+      "num_frame_captions": 5,
+      "caption": "This scene appears to be a composite of video clips, likely from a news broadcast or documentary, focusing on an incident in an indoor public space. The primary subject is a man in a red shirt, first seen skateboarding on a ramp and later shown in grainy security footage crouching or falling near a railing in a dim hallway. Other individuals are present in the hallway, standing or walking nearby. The consistent low-resolution quality and the visible \"TF1\" television logo indicate this is edited footage being presented for broadcast, splicing together action shots with surveillance video of the same location."
+    },
+    {
+      "scene_index": 43,
+      "start_frame": 7580,
+      "end_frame": 7654,
+      "start_sec": 252.919333,
+      "end_sec": 255.388467,
+      "duration_sec": 2.5025,
+      "num_frame_captions": 5,
+      "caption": "The scene shows a man in an orange jacket or shirt, first walking and then riding a motorcycle down a city street. He is smiling throughout. The setting appears to be a public urban area with buildings and signs, and the footage is associated with the TF1 television network, as indicated by its logo. Later, the scene includes three men walking together outside a building, with two of them engaged in conversation. The TF1 signage remains visible in the background."
+    },
+    {
+      "scene_index": 44,
+      "start_frame": 7655,
+      "end_frame": 7722,
+      "start_sec": 255.421833,
+      "end_sec": 257.6574,
+      "duration_sec": 2.268933,
+      "num_frame_captions": 4,
+      "caption": "In this outdoor scene, a man wearing an orange jacket and glasses is presenting to the camera on a city street. He is actively engaged in speaking, as indicated by his gestures and the microphone he holds. The setting is near a building featuring a prominent \"TF1\" sign, with the TFI logo also visible on screen. Throughout the scene, the man maintains a friendly and expressive demeanor, smiling and occasionally touching his chin while he communicates. The background consists of urban architecture and various signs, confirming the location as a public street."
+    },
+    {
+      "scene_index": 45,
+      "start_frame": 7723,
+      "end_frame": 7754,
+      "start_sec": 257.690767,
+      "end_sec": 258.725133,
+      "duration_sec": 1.067733,
+      "num_frame_captions": 2,
+      "caption": "The scene depicts two individuals on the ledge of a high-rise building. They are then shown in mid-air, falling or jumping from the structure. The action takes place against a backdrop of a clear blue sky and the building itself. The footage carries the logos of \"TF1\" and \"Rediffusion,\" indicating it is broadcast or televised content."
+    },
+    {
+      "scene_index": 46,
+      "start_frame": 7755,
+      "end_frame": 7780,
+      "start_sec": 258.7585,
+      "end_sec": 259.592667,
+      "duration_sec": 0.867533,
+      "num_frame_captions": 2,
+      "caption": "The scene takes place outdoors, where a person is jumping or falling between stacks of white plastic chairs. The setting appears to be near a building, and the logos for \"TF1\" and \"Rediffusion\" are visible on screen, suggesting a broadcast or media context. The action is captured from a low angle, emphasizing the stacks of chairs and the person's movement within them."
+    },
+    {
+      "scene_index": 47,
+      "start_frame": 7781,
+      "end_frame": 7810,
+      "start_sec": 259.626033,
+      "end_sec": 260.593667,
+      "duration_sec": 1.001,
+      "num_frame_captions": 2,
+      "caption": "The scene features two young people standing together outdoors in front of a building. They appear to be singing or speaking. The setting and activity remain consistent, with the only notable change being the on-screen graphics. The \"TF1\" logo and \"Rediffusion\" text are visible in one instance, while a \"Rediffusion\" broadcast watermark appears in another, indicating a televised presentation of the performance."
+    },
+    {
+      "scene_index": 48,
+      "start_frame": 7811,
+      "end_frame": 7836,
+      "start_sec": 260.627033,
+      "end_sec": 261.4612,
+      "duration_sec": 0.867533,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a person falling from a concrete overpass or bridge. The individual is captured in mid-air, initially in a state of descent against a backdrop of clear blue sky. The action then transitions into an acrobatic maneuver, as the person performs a flip while continuing to fall. Below, the architectural details of a building and a railing are visible, providing context for the height and structure from which the fall originated. The sequence shows a dynamic and controlled aerial movement within a single, continuous descent."
+    },
+    {
+      "scene_index": 49,
+      "start_frame": 7837,
+      "end_frame": 7869,
+      "start_sec": 261.494567,
+      "end_sec": 262.5623,
+      "duration_sec": 1.1011,
+      "num_frame_captions": 2,
+      "caption": "In this outdoor scene, two young boys are standing together side by side, gazing upward in a shared moment of wonder or anticipation. Their focused expressions suggest they are observing something above them, likely in the sky or on a nearby structure. The setting appears to be an urban environment, with buildings visible behind them. The scene conveys a sense of expectation and curiosity, as both boys are intently looking at the same point. This unified posture indicates a communal experience of suspense or awe within an everyday urban backdrop."
+    },
+    {
+      "scene_index": 50,
+      "start_frame": 7870,
+      "end_frame": 7886,
+      "start_sec": 262.595667,
+      "end_sec": 263.129533,
+      "duration_sec": 0.567233,
+      "num_frame_captions": 1,
+      "caption": "This scene depicts a chaotic outdoor event captured in a low-resolution, grainy television broadcast. The footage, appearing to be from a news report, shows a group of people in a state of panic near a building. Individuals are seen running and falling, indicating a sudden disruption or emergency. The overall visual quality and presentation suggest this is a recorded segment being re-aired, focusing on the confusion and rapid movement of the crowd during the incident."
+    },
+    {
+      "scene_index": 51,
+      "start_frame": 7887,
+      "end_frame": 7906,
+      "start_sec": 263.1629,
+      "end_sec": 263.796867,
+      "duration_sec": 0.667333,
+      "num_frame_captions": 2,
+      "caption": "The scene features a person performing an acrobatic maneuver. In one moment, they are frozen mid-air against a plain backdrop, with a television network logo visible. The perspective then shifts to a low-angle shot, capturing the individual with arms outstretched against a bright sky, while the same broadcast watermark remains on screen. The sequence emphasizes the dynamic and athletic nature of the action through these two composed shots."
+    },
+    {
+      "scene_index": 52,
+      "start_frame": 7907,
+      "end_frame": 7923,
+      "start_sec": 263.830233,
+      "end_sec": 264.3641,
+      "duration_sec": 0.567233,
+      "num_frame_captions": 1,
+      "caption": "In an aerial view captured by a TV broadcast, a person climbs onto the roof of a white police car. The scene depicts a moment of civil unrest or protest, where an individual directly confronts law enforcement property. The action is the central focus, occurring in a public setting likely involving a gathered crowd, though the broadcast perspective emphasizes the climber and the vehicle. This act serves as a symbolic or physical challenge to authority within the unfolding event."
+    },
+    {
+      "scene_index": 53,
+      "start_frame": 7924,
+      "end_frame": 7939,
+      "start_sec": 264.397467,
+      "end_sec": 264.897967,
+      "duration_sec": 0.533867,
+      "num_frame_captions": 1,
+      "caption": "The scene is a brief, low-quality television broadcast captured from the TF1 Rediffusion channel. It features a person with long hair seated inside a vehicle. The individual's hands are raised and positioned near their head, a gesture that is the central focus of the shot. The overall imagery is blurry and indistinct due to the poor resolution of the source footage, which obscures finer details of the person's identity or the specific type of vehicle. The broadcast presents this single, static moment without additional context or clear narrative action."
+    },
+    {
+      "scene_index": 54,
+      "start_frame": 7940,
+      "end_frame": 7988,
+      "start_sec": 264.931333,
+      "end_sec": 266.532933,
+      "duration_sec": 1.634967,
+      "num_frame_captions": 3,
+      "caption": "The scene appears to be a low-resolution television broadcast from TF1, likely a news or documentary segment. It features a man in a blue tank top walking through a garden area in front of a modern building. The footage then cuts to a replay, indicated by a \"Rediffusion\" watermark, showing a person performing a mid-air jump or stunt over a rooftop or balcony with buildings and trees in the background. The overall setting is urban, with shots including fences and garden areas."
+    },
+    {
+      "scene_index": 55,
+      "start_frame": 7989,
+      "end_frame": 8017,
+      "start_sec": 266.5663,
+      "end_sec": 267.500567,
+      "duration_sec": 0.967633,
+      "num_frame_captions": 2,
+      "caption": "This scene features two individuals positioned in a large tree. One is a woman sitting calmly on a branch, while a man in a white shirt and red belt is actively climbing nearby. The setting appears to be part of a televised broadcast, as indicated by a TV logo and the on-screen text \u201cRediffusion\u201d visible in the corner of the frame. The overall scene depicts a moment of activity and stillness within the tree, captured for a television audience."
+    },
+    {
+      "scene_index": 56,
+      "start_frame": 8018,
+      "end_frame": 8052,
+      "start_sec": 267.533933,
+      "end_sec": 268.6684,
+      "duration_sec": 1.167833,
+      "num_frame_captions": 2,
+      "caption": "This scene appears to be set indoors, where two men are seated together. One of the men is engaged with a magazine, while the other is handling a bag. Through a window behind them, the exterior of a building is visible. The video has a low-resolution, blurry quality, and a \"TF1\" logo is present in the corner of the frame. The content suggests a moment of casual interaction, possibly involving the examination or exchange of items, within a domestic or office setting."
+    },
+    {
+      "scene_index": 57,
+      "start_frame": 8053,
+      "end_frame": 8090,
+      "start_sec": 268.701767,
+      "end_sec": 269.936333,
+      "duration_sec": 1.267933,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a person seated at a table engaged in various hands-on activities, captured from a television broadcast. The initial frame shows hands working on a table with a vibrant abstract painting visible behind them. Subsequently, the individual is drawing or sketching on paper, with a colorful cartoon mural in the background. Finally, the person signs a document or paper with a pen. Throughout these actions, a TV screen displaying a news broadcast remains a consistent background element, situating the personal tasks within a broader media context."
+    },
+    {
+      "scene_index": 58,
+      "start_frame": 8091,
+      "end_frame": 8132,
+      "start_sec": 269.9697,
+      "end_sec": 271.337733,
+      "duration_sec": 1.4014,
+      "num_frame_captions": 3,
+      "caption": "In a bustling outdoor setting near a building with a TF1 logo, a man in a dark jacket interacts with a woman wearing a light-colored top. He hands her a stack of papers or books, and they are then seen engaging with a large, colorful object on the street amidst a lively crowd. The scene captures a dynamic public exchange against a cityscape backdrop, with others present holding items like a green folder while conversing and interacting in the plaza."
+    },
+    {
+      "scene_index": 59,
+      "start_frame": 8133,
+      "end_frame": 8212,
+      "start_sec": 271.3711,
+      "end_sec": 274.007067,
+      "duration_sec": 2.669333,
+      "num_frame_captions": 5,
+      "caption": "This scene appears to be a martial arts or action sequence from a low-resolution television broadcast. It features two figures in a grand, checkered hallway. One individual performs a dynamic, mid-air kick, while the other stands below. The action continues with a person captured in mid-air, either falling or jumping dramatically within a spacious, multi-level indoor setting. The sequence includes an upside-down pose in a well-lit area with visible furniture and architectural details. The overall broadcast is grainy and carries the \"Rediffusion\" or \"TF1\" watermark."
+    },
+    {
+      "scene_index": 60,
+      "start_frame": 8213,
+      "end_frame": 8250,
+      "start_sec": 274.040433,
+      "end_sec": 275.275,
+      "duration_sec": 1.267933,
+      "num_frame_captions": 3,
+      "caption": "This scene appears to be a televised broadcast from multiple networks (TF1 and Rediffusion) depicting a dramatic indoor stunt in a large, ornate, multi-level building. The main event involves a person performing a hazardous aerial maneuver, first falling or jumping from a high balcony or staircase, then hanging upside down from a bar. The interior is characterized by a prominent curved metal structure and bright lighting. The footage is captured from a low-angle perspective and the overall presentation is grainy, consistent with a low-resolution television broadcast."
+    },
+    {
+      "scene_index": 61,
+      "start_frame": 8251,
+      "end_frame": 8309,
+      "start_sec": 275.308367,
+      "end_sec": 277.243633,
+      "duration_sec": 1.968633,
+      "num_frame_captions": 3,
+      "caption": "In an urban plaza, two men are playing soccer, with one in a red shirt kicking the ball as another in a black jacket observes. Nearby, a person in a red jacket executes a parkour leap over a metal railing. Simultaneously, another individual in a red shirt is climbing a similar railing on a sloped concrete structure. The scene depicts a dynamic public space where athletic activities\u2014a soccer game and parkour maneuvers\u2014are taking place concurrently."
+    },
+    {
+      "scene_index": 62,
+      "start_frame": 8310,
+      "end_frame": 8377,
+      "start_sec": 277.277,
+      "end_sec": 279.512567,
+      "duration_sec": 2.268933,
+      "num_frame_captions": 5,
+      "caption": "This scene appears to be from a televised broadcast, as indicated by the repeated TF1 or TFI logo. It features a person wearing red clothing and light-colored pants performing a dynamic physical action. The individual is shown mid-air, seemingly jumping or falling from or against a tiled or brick wall near a sign reading \"FAIR.\" The action then transitions to the person in a crouched position on a sidewalk or in a parking lot, now in front of a store with signs reading \"Fair & Square\" or \"Fair Culture.\" The sequence suggests a single, continuous stunt or jump event filmed for broadcast."
+    },
+    {
+      "scene_index": 63,
+      "start_frame": 8378,
+      "end_frame": 8643,
+      "start_sec": 279.545933,
+      "end_sec": 288.3881,
+      "duration_sec": 8.875533,
+      "num_frame_captions": 18,
+      "caption": "This scene shows a man in a red sweater being interviewed by a television news crew in an urban plaza or city street. The on-screen graphics consistently identify him as Chau Belle Dinh, a member of the Yamakasi group, and the French television network TF1 is prominently featured. The setting is outdoors, with storefronts and buildings in the background. The man is seen both standing for the interview and walking, with the crew capturing him in various shots. The overall content is a street interview or news report featuring this individual."
+    },
+    {
+      "scene_index": 64,
+      "start_frame": 8644,
+      "end_frame": 8751,
+      "start_sec": 288.421467,
+      "end_sec": 291.9917,
+      "duration_sec": 3.6036,
+      "num_frame_captions": 7,
+      "caption": "This scene depicts an outdoor television interview conducted by TF1/TFI journalists. The primary subject is a smiling man wearing a white cap and a dark jacket or vest, who appears to be the interviewee. He is consistently shown standing in front of a building, surrounded by companions. These companions include other men and occasionally women, such as a person in a red shirt and yellow hat. The group poses together, sharing smiles, suggesting a friendly and positive atmosphere for the broadcast segment. The logos indicate this is a professionally produced news or reportage segment filmed outdoors."
+    },
+    {
+      "scene_index": 65,
+      "start_frame": 8752,
+      "end_frame": 8796,
+      "start_sec": 292.025067,
+      "end_sec": 293.4932,
+      "duration_sec": 1.5015,
+      "num_frame_captions": 3,
+      "caption": "In this scene, a person wearing a red jacket is leaning over a railing in a hallway, then appears in a different setting bending over a counter or desk, and finally is seen sitting on the floor of a parking garage. The actions involve leaning, bending, and sitting in various indoor locations, moving from a corridor to a room and then outdoors to a garage. The scene shows the person engaged in different postures across three distinct environments."
+    },
+    {
+      "scene_index": 66,
+      "start_frame": 8797,
+      "end_frame": 9148,
+      "start_sec": 293.526567,
+      "end_sec": 305.238267,
+      "duration_sec": 11.745067,
+      "num_frame_captions": 23,
+      "caption": "This scene features a live news report on a city street. The reporter interviews a man wearing a blue bandana and patterned jacket, with another man nearby in a grey hoodie. The segment then shifts to a group of people walking together before focusing on an interview with a man in a black jacket outside a building, sometimes with others present, including a person in a red jacket. The TFI/TF1 news crew is visible throughout, documenting these interactions."
+    },
+    {
+      "scene_index": 67,
+      "start_frame": 9149,
+      "end_frame": 9370,
+      "start_sec": 305.271633,
+      "end_sec": 312.645667,
+      "duration_sec": 7.4074,
+      "num_frame_captions": 15,
+      "caption": "The scene follows a man in a blue shirt and jeans as he climbs a large beige wall in an indoor setting, likely a training facility. He is later seen hanging from a pull-up bar and then celebrating energetically. The setting shifts outdoors to a parking lot near a building, where a group of people, including a man in a red shirt, gather and watch. The man in blue is seen walking away from the group and, in a later moment, running toward them."
+    },
+    {
+      "scene_index": 68,
+      "start_frame": 9371,
+      "end_frame": 9399,
+      "start_sec": 312.679033,
+      "end_sec": 313.6133,
+      "duration_sec": 0.967633,
+      "num_frame_captions": 2,
+      "caption": "In this scene, a man wearing a dark suit and glasses is actively engaged in photography. He is seen holding a camera up to his eye, presumably to capture an image. The setting appears to be a broadcast environment, as indicated by a television station logo visible in the corner of the frame. The consistent action across the frames suggests a focused moment of documentation or reporting within a professional media context."
+    },
+    {
+      "scene_index": 69,
+      "start_frame": 9400,
+      "end_frame": 9485,
+      "start_sec": 313.646667,
+      "end_sec": 316.482833,
+      "duration_sec": 2.869533,
+      "num_frame_captions": 6,
+      "caption": "A group of people gathers on a balcony or overpass above a dark tunnel or stairwell entrance. One person appears to be taking a photograph. The scene escalates into chaos, with one person seemingly falling or jumping from the balcony as others look on. Panic ensues, and people begin rushing down the staircase, with some stumbling or falling in the process. The event is captured in a low-resolution broadcast, indicating it is a public disturbance of some significance."
+    },
+    {
+      "scene_index": 70,
+      "start_frame": 9486,
+      "end_frame": 9531,
+      "start_sec": 316.5162,
+      "end_sec": 318.0177,
+      "duration_sec": 1.534867,
+      "num_frame_captions": 3,
+      "caption": "This scene appears to show a person executing a dynamic movement near a railing on a city street. The individual, dressed in dark pants and blue sneakers, is first observed balancing on a black metal railing, with a parked blue car visible in the background. This poised stance transitions into rapid motion, as later frames become blurry and low-resolution, capturing the person mid-air. The sequence suggests a sudden leap or fall from the railing into the urban setting, with the motion causing the image clarity to degrade. The overall action conveys a brief, energetic moment within the cityscape."
+    },
+    {
+      "scene_index": 71,
+      "start_frame": 9532,
+      "end_frame": 9552,
+      "start_sec": 318.051067,
+      "end_sec": 318.7184,
+      "duration_sec": 0.7007,
+      "num_frame_captions": 1,
+      "caption": "The scene captures a man with glasses speaking passionately or shouting on a city street. His animated delivery suggests he is making a public statement or argument. A cameraperson is actively filming him, indicating the event is being documented, possibly for news or a project. The urban setting provides the backdrop for this moment of direct address to an unseen audience, focusing on the man's expressive communication and the act of recording it."
+    },
+    {
+      "scene_index": 72,
+      "start_frame": 9553,
+      "end_frame": 9600,
+      "start_sec": 318.751767,
+      "end_sec": 320.32,
+      "duration_sec": 1.6016,
+      "num_frame_captions": 4,
+      "caption": "This scene features a skateboarder in a yellow shirt performing a series of stunts in a busy European city, likely Paris, given the historic architecture and traffic. The action begins with the individual executing a trick on a black railing along the street. The sequence then progresses to more daring feats, as the person is shown jumping mid-air over the roadway and subsequently riding a unicycle on the roof of a moving blue car. Finally, the skateboarder balances on a pole atop the same vehicle, all set against the backdrop of classic buildings and flowing city traffic."
+    },
+    {
+      "scene_index": 73,
+      "start_frame": 9601,
+      "end_frame": 9721,
+      "start_sec": 320.353367,
+      "end_sec": 324.357367,
+      "duration_sec": 4.037367,
+      "num_frame_captions": 8,
+      "caption": "This scene appears to be a news report from French television channels TF1 and LCI, showing grainy and sometimes overexposed footage of an event outside a modern building. The focus is on a silver van, which is first seen driving past the building and then stationary with its door open. A person is being assisted out of the van by another individual, while a woman in a black jacket and a man in a yellow shirt are also present nearby. The overall footage has a low-resolution, broadcast quality, capturing the activity around the vehicle."
+    },
+    {
+      "scene_index": 74,
+      "start_frame": 9722,
+      "end_frame": 9773,
+      "start_sec": 324.390733,
+      "end_sec": 326.092433,
+      "duration_sec": 1.735067,
+      "num_frame_captions": 3,
+      "caption": "The scene shows a group of people moving through a warmly lit indoor hallway or lobby with wooden paneling. They are seen ascending a staircase, with one man in a blue shirt among them. As they proceed, the group, which includes men in suits, walks down the hallway. One man looks back over his shoulder, while a television broadcast logo is visible in the corner of the shot."
+    },
+    {
+      "scene_index": 75,
+      "start_frame": 9774,
+      "end_frame": 9853,
+      "start_sec": 326.1258,
+      "end_sec": 328.761767,
+      "duration_sec": 2.669333,
+      "num_frame_captions": 5,
+      "caption": "This scene takes place in a television studio environment, as indicated by the repeated presence of the \"TF1\" logo. The central figure is a woman with curly hair who is engaged in conversation. She first speaks with a single man in a black jacket, and the interaction then expands to include two men. The setting shifts from a studio-like area to a warmly lit indoor hallway, where the group continues their discussion. The consistent elements are the woman's active participation and the professional broadcast context of the TF1 network."
+    },
+    {
+      "scene_index": 76,
+      "start_frame": 9854,
+      "end_frame": 9882,
+      "start_sec": 328.795133,
+      "end_sec": 329.7294,
+      "duration_sec": 0.967633,
+      "num_frame_captions": 2,
+      "caption": "This scene is a rerun of a French television broadcast from April 8, 2001, as indicated by the on-screen timestamp. The program appears to be a news or talk show, airing on the TF1 network with the LCI logo also present. The primary visual content features a studio setting where three men, some wearing red and yellow shirts, are seated together at a desk. The overall video quality is consistently grainy and low-resolution, characteristic of an older television recording being re-aired."
+    },
+    {
+      "scene_index": 77,
+      "start_frame": 9883,
+      "end_frame": 9924,
+      "start_sec": 329.762767,
+      "end_sec": 331.1308,
+      "duration_sec": 1.4014,
+      "num_frame_captions": 3,
+      "caption": "This scene features a wall of multiple television screens, all simultaneously broadcasting identical footage. The content is a blue-tinted, low-resolution video showing a person in a red outfit, which has the appearance of security camera or surveillance material. On-screen graphics include the \"TF1\" logo and text reading \"Rediffusion du 08/04\" (or \"08/04/01\"), indicating this is a rerun of a broadcast from April 8, 2001. The consistent display across every monitor creates a striking, repetitive visual focused on this archived television transmission."
+    },
+    {
+      "scene_index": 78,
+      "start_frame": 9925,
+      "end_frame": 9975,
+      "start_sec": 331.164167,
+      "end_sec": 332.8325,
+      "duration_sec": 1.7017,
+      "num_frame_captions": 4,
+      "caption": "This scene takes place in a TV studio featuring three men seated at a wooden table or desk. The setting is consistent, indicated by the recurring studio environment and prominent broadcast logos, including \u201cTF1\u201d or \u201cTFI,\u201d in the corner of the frame. The visible timestamps, all variations of \u201cRediffusion\u201d with dates (08/04/01 and 10/08/04/01 or 14/08/04/01), confirm this is a recorded or rebroadcast program. The central figure, wearing a yellow shirt, is shown in a relaxed posture, smiling with his chin resting on his hand. The scene depicts a stable discussion or interview setup without significant changes in composition or participants."
+    },
+    {
+      "scene_index": 79,
+      "start_frame": 9976,
+      "end_frame": 10047,
+      "start_sec": 332.865867,
+      "end_sec": 335.2349,
+      "duration_sec": 2.4024,
+      "num_frame_captions": 4,
+      "caption": "This scene consists of a sequence of shots showing a television news broadcast. The broadcast is displayed on a screen and features a female anchor reporting from a studio. The studio set is visible in the background, including other people and a prominent \"TFI\" logo. The captions indicate a consistent focus on this news program, with one frame showing a \"Rediffusion\" timestamp in the corner, which suggests the broadcast source or a time display. The overall scene depicts a segment of a televised news report from a specific network."
+    },
+    {
+      "scene_index": 80,
+      "start_frame": 10048,
+      "end_frame": 10110,
+      "start_sec": 335.268267,
+      "end_sec": 337.337,
+      "duration_sec": 2.1021,
+      "num_frame_captions": 5,
+      "caption": "Three men are seated at a table on a television show set, as indicated by the visible TF1 logo and microphones on the desk. The scene is part of a broadcast, with a timestamp reading \"Rediffusion du 08/04/01\" consistently visible in the corner, confirming it is a rerun from April 8, 2001. The setting is a studio, and the men are engaged in what appears to be a discussion or interview format for the program."
+    },
+    {
+      "scene_index": 81,
+      "start_frame": 10111,
+      "end_frame": 10162,
+      "start_sec": 337.370367,
+      "end_sec": 339.072067,
+      "duration_sec": 1.735067,
+      "num_frame_captions": 3,
+      "caption": "This scene takes place in a television studio, where a group of people are gathered as participants or hosts of a talk show. They are seated around a distinctive curved desk within a brightly colored set. The environment features a blue floor, glowing green wall panels, and prominent broadcast branding, including the \"TF1\" logo and a \"Rediffusion\" timestamp on screen. The consistent setting and professional studio elements indicate this is a recorded or live broadcast segment, with the group engaged in the production."
+    },
+    {
+      "scene_index": 82,
+      "start_frame": 10163,
+      "end_frame": 10285,
+      "start_sec": 339.105433,
+      "end_sec": 343.176167,
+      "duration_sec": 4.1041,
+      "num_frame_captions": 8,
+      "caption": "This scene takes place in a television studio with a consistent blue background and visible network branding, including the TFI (or TF1) logo and a broadcast date. Two male hosts or presenters are featured throughout. They are shown both standing and seated, smiling and directly engaging with the camera. Their interaction evolves from posing together to having a lively, conversational exchange, with one man gesturing expressively while the other listens attentively. The overall tone is warm and professional, depicting them in their roles as on-air personalities within the studio environment."
+    },
+    {
+      "scene_index": 83,
+      "start_frame": 10286,
+      "end_frame": 10583,
+      "start_sec": 343.209533,
+      "end_sec": 353.119433,
+      "duration_sec": 9.943267,
+      "num_frame_captions": 20,
+      "caption": "The scene takes place in a television studio, indicated by the TF1/TFI logo and warm lighting. A man in a yellow shirt and a woman in a dark outfit interact, first conversing in a hallway and then near a doorway in a studio setting. Their interaction appears to be a conversation or confrontation. The scene begins with the man walking down wood-paneled hallways, sometimes with another person, before meeting the woman. Their exchange is the central focus, set against the consistent backdrop of the studio environment."
+    },
+    {
+      "scene_index": 84,
+      "start_frame": 10584,
+      "end_frame": 10684,
+      "start_sec": 353.1528,
+      "end_sec": 356.489467,
+      "duration_sec": 3.370033,
+      "num_frame_captions": 7,
+      "caption": "This scene is a segment from a French television news broadcast, as indicated by the TF1 logo and grainy, low-resolution quality of the footage. It shows a silver van driving down a wet, narrow city street, likely in Paris, with multi-story buildings lining the road. The perspective is from a street-level camera, and the video is somewhat shaky. The van is seen both in motion, with background blur, and later parked on the wet pavement. The overall setting is a typical European urban environment captured for a TV news report."
+    },
+    {
+      "scene_index": 85,
+      "start_frame": 10685,
+      "end_frame": 10771,
+      "start_sec": 356.522833,
+      "end_sec": 359.392367,
+      "duration_sec": 2.9029,
+      "num_frame_captions": 6,
+      "caption": "This scene features a series of candid moments inside a vehicle, captured by a French television news crew. The primary subjects are two men, who are seated together smiling, gesturing, and appearing to engage in cheerful conversation directed at the camera. In one frame, a woman joins them, also smiling for the broadcast. The footage is clearly from a TF1 news segment, as indicated by the station logo and on-screen timestamps noting a \"Rediffusion\" (rebroadcast) from early April 2001. The overall tone is informal and friendly, documenting a lighthearted interaction during what seems to be a televised interview or feature."
+    },
+    {
+      "scene_index": 86,
+      "start_frame": 10772,
+      "end_frame": 10847,
+      "start_sec": 359.425733,
+      "end_sec": 361.928233,
+      "duration_sec": 2.535867,
+      "num_frame_captions": 5,
+      "caption": "This scene features a young man with spiky hair being interviewed inside a vehicle, as indicated by the consistent presence of a \"TF1\" or \"TFI\" broadcast logo. He wears a black leather jacket over a yellow shirt. Throughout the sequence, he is shown speaking, smiling slightly, and looking thoughtfully off-camera or upward, suggesting he is engaged in responding to questions. The setting is clearly a moving car, and the grainy quality of one frame confirms this is a televised broadcast segment. The focus is on his reactions and demeanor during the in-vehicle interview."
+    },
+    {
+      "scene_index": 87,
+      "start_frame": 10848,
+      "end_frame": 10895,
+      "start_sec": 361.9616,
+      "end_sec": 363.529833,
+      "duration_sec": 1.6016,
+      "num_frame_captions": 3,
+      "caption": "The scene appears to be a television news segment or interview, broadcast on the channel TF1. A bearded man, wearing a dark blue jacket, is seated inside a car. He is speaking and gesturing with his hand as he communicates, likely to an interviewer or directly to the camera. The footage has the characteristic lower quality of a live or recorded broadcast, as indicated by the visible channel logo and timestamp on screen."
+    },
+    {
+      "scene_index": 88,
+      "start_frame": 10896,
+      "end_frame": 11276,
+      "start_sec": 363.5632,
+      "end_sec": 376.242533,
+      "duration_sec": 12.7127,
+      "num_frame_captions": 25,
+      "caption": "A man with spiky hair, wearing a black jacket over an orange shirt, is seated inside a vehicle and is speaking to the camera. The scene appears to be an interview or direct address as part of a television broadcast, consistently indicated by the presence of a network logo\u2014variously described as \"TF1\" or \"TFI\"\u2014in the upper left corner of the frame. Throughout the sequence, his demeanor shifts from speaking to smiling at the camera. The background is a blurred urban environment visible through the window, suggesting the vehicle is moving. The consistent setting, attire, and logo establish this as a televised segment filmed from inside a car."
+    },
+    {
+      "scene_index": 89,
+      "start_frame": 11277,
+      "end_frame": 11388,
+      "start_sec": 376.2759,
+      "end_sec": 379.9796,
+      "duration_sec": 3.737067,
+      "num_frame_captions": 8,
+      "caption": "The scene is a French news broadcast on TFI, showing a series of dynamic and chaotic visuals. The broadcast features stylized, action-packed footage with silhouetted figures in motion against dramatic skies, suggesting violent confrontations or explosions. The content appears to be a mix of news reporting and possibly dramatic recreations or movie clips, characterized by low-resolution, grainy, and blurry imagery. An advertisement for \"ACHETE AVEC\" is partially visible on screen alongside the network's logo."
+    },
+    {
+      "scene_index": 90,
+      "start_frame": 11389,
+      "end_frame": 11418,
+      "start_sec": 380.012967,
+      "end_sec": 380.9806,
+      "duration_sec": 1.001,
+      "num_frame_captions": 2,
+      "caption": "This scene is captured from a low-resolution, fisheye security camera, likely in an industrial setting. The primary subject is a person wearing a white hard hat, who is engaged in work on or near a large, gray industrial machine or vehicle. The environment features a concrete floor. In another part of the scene, a large, dark, rounded object is visible alongside a small, red box-like item resting on a white surface. The overall footage is grainy and blurry, with indistinct details characteristic of typical security camera monitoring."
+    },
+    {
+      "scene_index": 91,
+      "start_frame": 11419,
+      "end_frame": 11453,
+      "start_sec": 381.013967,
+      "end_sec": 382.148433,
+      "duration_sec": 1.167833,
+      "num_frame_captions": 2,
+      "caption": "In this scene, a man wearing dark clothing and light-colored pants is engaged in a dynamic descent down a steep, sandy incline. His movement transitions from sliding down the slope to becoming airborne, as he is captured in a mid-air pose. The action appears to take place on a curved surface or dune, with a bright, washed-out sky forming the backdrop. The sequence depicts a continuous, vigorous action of sliding and jumping, emphasizing motion and the challenging, sandy terrain."
+    },
+    {
+      "scene_index": 92,
+      "start_frame": 11454,
+      "end_frame": 11505,
+      "start_sec": 382.1818,
+      "end_sec": 383.8835,
+      "duration_sec": 1.735067,
+      "num_frame_captions": 4,
+      "caption": "This scene appears to be a low-resolution, possibly amateur or security camera recording of an outdoor climbing activity. The footage, bearing a \"TF1\" logo, is shaky and captured from a low angle, focusing on a climber in a white outfit ascending a steep, rocky cliff face. Another individual in a dark jacket is present nearby, likely assisting or observing the ascent. The environment is a bright, textured landscape featuring concrete structures and patches of grass, with the overall video quality being blurry and indistinct."
+    },
+    {
+      "scene_index": 93,
+      "start_frame": 11506,
+      "end_frame": 11542,
+      "start_sec": 383.916867,
+      "end_sec": 385.118067,
+      "duration_sec": 1.234567,
+      "num_frame_captions": 2,
+      "caption": "The scene involves a person in dark attire ascending a steep, textured rock wall or stone face, actively engaged in climbing. During the ascent, the individual is holding a rifle, indicating a military or tactical context. A second person is visible in the background, though not detailed, suggesting they may be part of a group or operation. The focus remains on the primary climber\u2019s effort and the challenging nature of the terrain as they navigate the wall."
+    },
+    {
+      "scene_index": 94,
+      "start_frame": 11543,
+      "end_frame": 11560,
+      "start_sec": 385.151433,
+      "end_sec": 385.718667,
+      "duration_sec": 0.6006,
+      "num_frame_captions": 1,
+      "caption": "This scene depicts a dramatic moment of motion and potential risk. A lone individual is seen suspended in mid-air, having launched or fallen from a prominent, geometric structure. The action unfolds against a stark, washed-out sky, which emphasizes the figure's silhouette and the sheer scale of the jump. The visual focus is entirely on the human form in a transient state between the structure and the ground below, conveying a sense of weightlessness and decisive action. The overexposed background strips away context, intensifying the immediacy and solitary nature of the event."
+    },
+    {
+      "scene_index": 95,
+      "start_frame": 11561,
+      "end_frame": 11630,
+      "start_sec": 385.752033,
+      "end_sec": 388.054333,
+      "duration_sec": 2.335667,
+      "num_frame_captions": 5,
+      "caption": "The scene shows a person performing parkour or freerunning moves in an outdoor sandy area. They are seen balancing on, standing atop, and jumping from a large square concrete block. The action includes a mid-air backflip over the block. The footage appears to be from a televised broadcast, as indicated by the persistent \"TF1\" logo in the corner. The focus is on the athlete's dynamic movements and balance using the block as an obstacle."
+    },
+    {
+      "scene_index": 96,
+      "start_frame": 11631,
+      "end_frame": 11720,
+      "start_sec": 388.0877,
+      "end_sec": 391.057333,
+      "duration_sec": 3.003,
+      "num_frame_captions": 6,
+      "caption": "This scene appears to be a compilation of sports-related moments, possibly from a television broadcast as indicated by the recurring TF1 logo. It features a person performing an aerial skateboarding or BMX trick against a bright background. Separately, a golfer executes a swing on a course with a water hazard. The scene then shifts to a sandy, waterfront area where a person in dark clothing is seen falling, tumbling, and later running or walking near a fenced body of water under an overcast sky. The action transitions from controlled athletic maneuvers to more chaotic motion on the beach."
+    },
+    {
+      "scene_index": 97,
+      "start_frame": 11721,
+      "end_frame": 11891,
+      "start_sec": 391.0907,
+      "end_sec": 396.763033,
+      "duration_sec": 5.7057,
+      "num_frame_captions": 11,
+      "caption": "The scene is a black-and-white music video excerpt for the song \"Mana O Te Toa,\" originally broadcast on TF1 and re-aired on April 8, 2001. It features a shirtless, muscular man with tattoos in a desolate outdoor landscape. He is shown performing strength exercises, including hanging and doing pull-ups on a bar set within a stone arched doorway. The footage includes close-ups and low-angle shots of the man's face and upper body, emphasizing his physicality against the stark setting."
+    },
+    {
+      "scene_index": 98,
+      "start_frame": 11892,
+      "end_frame": 11957,
+      "start_sec": 396.7964,
+      "end_sec": 398.965233,
+      "duration_sec": 2.2022,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a black-and-white rerun broadcast on TF1 featuring an excerpt from the \u201cMana O Te Teoa\u201d music video. The broadcast date is specified as April 8, 2001. The visible portion shows a forest setting, where a person walks away into the woods. The captions consistently identify the content as a specific song excerpt from this music video, presented as a historical rerun on the television channel. The scene combines the program's archival context with a brief, atmospheric visual of a solitary figure in a natural environment."
+    },
+    {
+      "scene_index": 99,
+      "start_frame": 11958,
+      "end_frame": 12025,
+      "start_sec": 398.9986,
+      "end_sec": 401.234167,
+      "duration_sec": 2.268933,
+      "num_frame_captions": 4,
+      "caption": "This scene is a black-and-white excerpt from the music video for \"Mana O Te Te Toa,\" rebroadcast by TF1 in 2001. It features a shirtless man in a wooded park at night. The central action shows him stretching and reaching upward, suggesting a moment of physical exertion or expressive movement within the natural, nocturnal setting. The consistent on-screen text identifies the clip as a specific rerun, confirming its origin as a televised music video segment."
+    },
+    {
+      "scene_index": 100,
+      "start_frame": 12026,
+      "end_frame": 12199,
+      "start_sec": 401.267533,
+      "end_sec": 407.039967,
+      "duration_sec": 5.8058,
+      "num_frame_captions": 12,
+      "caption": "This scene is a black-and-white excerpt from the music video for the song \"Mana O Te T\u014da,\" rebroadcast on TF1 on April 8, 2001. It features a series of brief, stylized sequences. The video cuts between a person walking and then running through a forest, a man on a motorcycle outside a building, and dramatic urban scenes including a person in a suit hanging from a balcony and another climbing out of a window. It concludes with more theatrical shots, including a person in silhouette against fabric and a man standing near a piano in front of curtains."
+    },
+    {
+      "scene_index": 101,
+      "start_frame": 12200,
+      "end_frame": 12287,
+      "start_sec": 407.073333,
+      "end_sec": 409.976233,
+      "duration_sec": 2.936267,
+      "num_frame_captions": 6,
+      "caption": "This scene is a black-and-white television broadcast on the French channel TF1, presented as a rerun from April 8, 2001. The content is an excerpt from a performance, identified in the captions as \"Mana O Te T\u014da\" or a similar title, which appears to be a song. The visuals consistently show a man, who has a beard, performing in a dimly lit setting. On-screen text confirms the rediffusion date and the program details. The scene is a straightforward archival clip of this musical performance from the early 2000s."
+    },
+    {
+      "scene_index": 102,
+      "start_frame": 12288,
+      "end_frame": 12857,
+      "start_sec": 410.0096,
+      "end_sec": 428.995233,
+      "duration_sec": 19.019,
+      "num_frame_captions": 38,
+      "caption": "This scene, captured from a TF1 television broadcast, follows a man in a black sweatshirt as he moves through a residential area. He is first seen walking outdoors along streets and into a parking lot, where children are present. The setting then shifts indoors to a series of hallways and garage spaces within an apartment building. Here, the man interacts with a small group, including a woman holding a baby and a young person in a blue jacket, near a stroller. The overall sequence depicts his journey from the neighborhood into the building's interior, culminating in a brief, quiet encounter in the hallway."
+    },
+    {
+      "scene_index": 103,
+      "start_frame": 12858,
+      "end_frame": 12989,
+      "start_sec": 429.0286,
+      "end_sec": 433.399633,
+      "duration_sec": 4.4044,
+      "num_frame_captions": 8,
+      "caption": "This scene takes place in a warmly lit living room, where a television tuned to the channel TF1 is playing. A person in dark clothing moves through the space, walking past the couch and coffee table, sometimes facing away from the camera toward the TV or a bright doorway. The broadcast on the television itself shows a separate, intimate group of people in another living room setting, with one person standing among others who are seated. The scene culminates with a man and woman embracing in the room while the television continues to play in the background."
+    },
+    {
+      "scene_index": 104,
+      "start_frame": 12990,
+      "end_frame": 13073,
+      "start_sec": 433.433,
+      "end_sec": 436.202433,
+      "duration_sec": 2.8028,
+      "num_frame_captions": 6,
+      "caption": "In a dimly lit room, a tense interaction unfolds among several individuals. A man in a white shirt leans over and holds down another man wearing a dark shirt, while a third man stands nearby watching. Nearby, a man in a black vest holds the head of a young boy, with a woman and another man present. The scene then shifts to show a group of young people gathered, with one person standing behind a seated figure. Finally, in a separate warmly lit living room, three people are gathered, and one seated person gestures with their hand."
+    },
+    {
+      "scene_index": 105,
+      "start_frame": 13074,
+      "end_frame": 13247,
+      "start_sec": 436.2358,
+      "end_sec": 442.008233,
+      "duration_sec": 5.8058,
+      "num_frame_captions": 12,
+      "caption": "This scene consists of a static view of a vintage television set. On the screen, a grainy black-and-white broadcast is shown, which contains a news program. A man is speaking during this broadcast, and earlier frames show brief clips of skateboarding and a person running. Throughout the scene, a vase of red flowers and a decorative ceramic jar are consistently positioned on a wooden stand beside the television. A timestamp, \u201cRediffusion du 08/04/01,\u201d appears in the corner of the screen in several frames."
+    },
+    {
+      "scene_index": 106,
+      "start_frame": 13248,
+      "end_frame": 13421,
+      "start_sec": 442.0416,
+      "end_sec": 447.814033,
+      "duration_sec": 5.8058,
+      "num_frame_captions": 11,
+      "caption": "This scene is a French television news segment from 2001, broadcast on TF1 (also referred to as TFI). It features an interview with Monique Belle, who is identified on-screen as the mother of David Belle. She is seated indoors in a warmly lit setting, speaking to an interviewer. Throughout the segment, a man is intermittently visible standing in the background near a doorway. The captions indicate the segment is part of a report or documentary, with labels like \"Rediffusion\" appearing on screen, confirming its nature as a pre-recorded news or interview program."
+    },
+    {
+      "scene_index": 107,
+      "start_frame": 13422,
+      "end_frame": 13493,
+      "start_sec": 447.8474,
+      "end_sec": 450.216433,
+      "duration_sec": 2.4024,
+      "num_frame_captions": 5,
+      "caption": "This scene features a man with a mustache, wearing a black sweater with a red rose or similar design, seated on a chair in a warmly lit room. He appears engaged in an activity involving his hands and is shown smiling or looking down. The consistent setting and his attire indicate this is a single, continuous sequence. The scene is from a broadcast by the French television channel TF1, as indicated by its logo and multiple \"Rediffusion\" (rebroadcast) timestamps from April 2001 visible in the corners of the frames."
+    },
+    {
+      "scene_index": 108,
+      "start_frame": 13494,
+      "end_frame": 13579,
+      "start_sec": 450.2498,
+      "end_sec": 453.085967,
+      "duration_sec": 2.869533,
+      "num_frame_captions": 6,
+      "caption": "This scene features a television interview segment with a dark-haired woman, likely broadcast by TF1 as indicated by the repeated station logo. The setting is indoors, varying between dimly lit and warmly lit rooms. The woman is shown in close-up and profile shots while speaking, indicating an active conversation. The visible \u201cRediffusion\u201d text suggests this is a live or recorded broadcast. Throughout the scene, she appears engaged, with one caption noting she smiles during the interview. The consistent elements are her presence, the TF1 branding, and the broadcast context, forming a cohesive interview sequence."
+    },
+    {
+      "scene_index": 109,
+      "start_frame": 13580,
+      "end_frame": 13657,
+      "start_sec": 453.119333,
+      "end_sec": 455.688567,
+      "duration_sec": 2.6026,
+      "num_frame_captions": 5,
+      "caption": "A group of people is gathered in a warmly lit living room, centered around a low wooden table. They are engaged in a casual, shared activity, though the specific nature of the activity is not detailed in the captions. Throughout the scene, a television is on and playing in the background. The consistent setting includes the wooden table, the ambient lighting, and a potted plant nearby, creating a relaxed, social atmosphere. The focus remains on the group's interaction around the table while the TV provides secondary background entertainment."
+    },
+    {
+      "scene_index": 110,
+      "start_frame": 13658,
+      "end_frame": 13724,
+      "start_sec": 455.721933,
+      "end_sec": 457.924133,
+      "duration_sec": 2.235567,
+      "num_frame_captions": 4,
+      "caption": "This scene shows a person examining various printed materials, likely as part of a television broadcast. The sequence begins with a hand holding up a single, dark vintage photograph over a collection of other photos and a remote control. The focus then shifts to a stack of these old, faded photographs being held together. Subsequently, the person flips through the pages of a magazine or booklet containing a blurry image. Finally, a pair of hands is seen holding and looking at a colorful, illustrated version of a similar publication. Throughout the scene, the \"TF1\" television station logo is consistently visible in the corner of the frame."
+    },
+    {
+      "scene_index": 111,
+      "start_frame": 13725,
+      "end_frame": 13791,
+      "start_sec": 457.9575,
+      "end_sec": 460.1597,
+      "duration_sec": 2.235567,
+      "num_frame_captions": 5,
+      "caption": "This scene portrays a person interacting with a collection of photographs and memorabilia spread across a cluttered table. Their hand is actively sorting, sifting through, and examining the scattered items, which include photographs, papers, postcards, and a TV remote. This focused, tactile engagement suggests an act of reminiscence, as they organize or revisit these personal materials. The repeated presence of the TV remote hints at a connection to media, perhaps television, while visible logos like \"TF1\" anchor the setting. Overall, the scene captures a quiet, nostalgic moment centered on personal archives and tactile memory."
+    },
+    {
+      "scene_index": 112,
+      "start_frame": 13792,
+      "end_frame": 13863,
+      "start_sec": 460.193067,
+      "end_sec": 462.5621,
+      "duration_sec": 2.4024,
+      "num_frame_captions": 5,
+      "caption": "The scene shows a hand holding an old photograph that appears in several frames. The photograph depicts a man in a light-colored uniform seated at a desk in an office. The image is described as slightly blurry, yellowed, or faded across the different captions, suggesting its aged and worn condition. The consistent subject and setting indicate a single photograph being viewed, with the variations in description highlighting its physical state rather than showing a change in action or content."
+    },
+    {
+      "scene_index": 113,
+      "start_frame": 13864,
+      "end_frame": 13936,
+      "start_sec": 462.595467,
+      "end_sec": 464.997867,
+      "duration_sec": 2.435767,
+      "num_frame_captions": 5,
+      "caption": "This scene shows the medal ceremony at an outdoor track and field event. Three athletes are standing on a podium, with the winner positioned in the center. The central athlete, who is the tallest, is wearing jersey number 5. The other two medalists flank the winner, with one on the left wearing number 11 and the other wearing number 10. The entire ceremony is being televised, as indicated by the presence of a broadcast logo for TF1 (also referred to as TFI in some captions). The consistent setting and athlete positioning confirm this is a single, cohesive awards moment."
+    },
+    {
+      "scene_index": 114,
+      "start_frame": 13937,
+      "end_frame": 14029,
+      "start_sec": 465.031233,
+      "end_sec": 468.100967,
+      "duration_sec": 3.1031,
+      "num_frame_captions": 6,
+      "caption": "In this archival television clip from TF1, likely produced in the 1964/1965 season, three male athletes in vintage running uniforms are featured outdoors against a wooded backdrop. The central figure, wearing bib number 5\u2014marked with \u201cS.R.\u201d\u2014is smiling, indicating a moment of camaraderie or celebration. Another athlete wears number 11. The sepia-toned footage suggests it documents a track and field event from a historical sporting occasion, as the men stand together in their athletic attire. The overall scene captures a brief, celebratory interaction among participants during a past race."
+    },
+    {
+      "scene_index": 115,
+      "start_frame": 14030,
+      "end_frame": 14115,
+      "start_sec": 468.134333,
+      "end_sec": 470.9705,
+      "duration_sec": 2.869533,
+      "num_frame_captions": 6,
+      "caption": "This scene consists of a series of archival, sepia-toned photographs depicting a group of children and adults posing together on a beach. The group includes a shirtless man who is a prominent figure in the foreground of several frames. The consistent visual elements are the vintage aesthetic and the presence of a television network logo, identified as \"TF1\" or \"TFI,\" in the corners of the images. The scene presents a static, posed group portrait from a past era, captured in a single beach setting."
+    },
+    {
+      "scene_index": 116,
+      "start_frame": 14116,
+      "end_frame": 14225,
+      "start_sec": 471.003867,
+      "end_sec": 474.640833,
+      "duration_sec": 3.670333,
+      "num_frame_captions": 7,
+      "caption": "This scene shows a man in a black top with a red graphic, seated in a dimly lit room. He is intently focused on handling documents and a piece of light-colored fabric. The sequence depicts him reading a paper, then carefully examining, folding, and adjusting both the paper and the fabric. The setting is consistently indicated by a TF1 television network logo and a French rebroadcast date in the corner, confirming this is a recorded segment. The overall action centers on his deliberate, close-up interaction with these objects under warm, low lighting."
+    },
+    {
+      "scene_index": 117,
+      "start_frame": 14226,
+      "end_frame": 14329,
+      "start_sec": 474.6742,
+      "end_sec": 478.110967,
+      "duration_sec": 3.470133,
+      "num_frame_captions": 7,
+      "caption": "Two men are sitting indoors, intently focused on examining a document or small object between them. They are seated on the floor in a warmly lit room and appear to be collaborating or discussing the item, with one often handling it while the other looks on. This activity is observed in a sequence of frames from a television broadcast, indicated by the visible TV logo and dated French text on the screen. Their attention remains consistently fixed on the object or papers throughout the scene."
+    },
+    {
+      "scene_index": 118,
+      "start_frame": 14330,
+      "end_frame": 14492,
+      "start_sec": 478.144333,
+      "end_sec": 483.549733,
+      "duration_sec": 5.438767,
+      "num_frame_captions": 11,
+      "caption": "The scene is a French television broadcast from TF1, likely a rerun dated April 8, 2001. It features a sequence where a person\u2019s hands are shown holding an old, faded, sepia-toned or black-and-white photograph. The photograph\u2019s image is blurry and indistinct, sometimes appearing to smolder at the edges, and depicts subjects like a person in a boat. The broadcast cuts to other footage, including a red car in a desert and a wooden structure, before concluding with a shot of a person on a swing set outdoors."
+    },
+    {
+      "scene_index": 119,
+      "start_frame": 14493,
+      "end_frame": 14574,
+      "start_sec": 483.5831,
+      "end_sec": 486.2858,
+      "duration_sec": 2.736067,
+      "num_frame_captions": 5,
+      "caption": "This scene, captured in a grainy TF1 television broadcast dated September 20, 2006, shows a person in an orange outfit climbing a tall pole or tree in a residential, grassy yard. A bicycle is consistently visible parked nearby. The individual's ascent is followed by a fall from the height of the pole, as indicated by the sequence of captions. The setting remains consistent throughout, featuring a tree-lined area and the presence of red objects in the vicinity during the fall. The event unfolds in a single location, transitioning from climbing to a descent."
+    },
+    {
+      "scene_index": 120,
+      "start_frame": 14575,
+      "end_frame": 14748,
+      "start_sec": 486.319167,
+      "end_sec": 492.0916,
+      "duration_sec": 5.8058,
+      "num_frame_captions": 12,
+      "caption": "The scene shows two men seated indoors in a warmly lit room, likely being interviewed or in conversation. Their interaction is captured in a series of frames from a French television broadcast on TF1, dated April 8, 2001. The mood shifts as one man is seen holding his head in his hands, while the other sits in profile, suggesting a moment of distress or deep contemplation. The consistent broadcast overlay and setting indicate this is a single, continuous segment from a news or talk program."
+    },
+    {
+      "scene_index": 121,
+      "start_frame": 14749,
+      "end_frame": 14801,
+      "start_sec": 492.124967,
+      "end_sec": 493.860033,
+      "duration_sec": 1.768433,
+      "num_frame_captions": 3,
+      "caption": "The scene features two men in a cluttered workspace. One man is standing while his companion is interacting with electronic devices, including a small television set on a stool and a laptop. Their activity appears to involve the device on the table, and the TF1 logo is consistently present on a screen in the corner of the room. The focus is on the men's engagement with the equipment in this busy environment, suggesting a technical task or review related to the broadcast content indicated by the logo."
+    },
+    {
+      "scene_index": 122,
+      "start_frame": 14802,
+      "end_frame": 14868,
+      "start_sec": 493.8934,
+      "end_sec": 496.0956,
+      "duration_sec": 2.235567,
+      "num_frame_captions": 5,
+      "caption": "This scene features a close-up of an old television camera, its lens prominently illuminated with a bright blue glow. The imagery is set against a dark, deep blue background. Overlaid on the video are broadcast graphics from the French television channel TF1, specifically indicating that this is a rerun (\"Rediffusion\") of a program originally aired on April 8, 2001. The consistent visual elements across all frames establish this as a static introductory or transition graphic for a rebroadcast segment, focusing on the iconic glowing camera as a central motif."
+    },
+    {
+      "scene_index": 123,
+      "start_frame": 14869,
+      "end_frame": 14992,
+      "start_sec": 496.128967,
+      "end_sec": 500.233067,
+      "duration_sec": 4.137467,
+      "num_frame_captions": 8,
+      "caption": "This scene is a television rerun broadcast from TF1 or TFI originally aired on April 8, 2001. It depicts an outdoor sporting event held at dusk or night, likely on a sandy court. The primary activity involves a group of people playing volleyball, with a specific mention of beach volleyball in one instance. While the main focus is volleyball, one caption briefly notes basketball being played, suggesting a possible shift in activity or a separate moment within the same broadcast. The overall setting is an outdoor courtyard or plaza, and the footage is characterized by low-resolution, grainy quality typical of older television broadcasts."
+    },
+    {
+      "scene_index": 124,
+      "start_frame": 14993,
+      "end_frame": 15115,
+      "start_sec": 500.266433,
+      "end_sec": 504.337167,
+      "duration_sec": 4.1041,
+      "num_frame_captions": 8,
+      "caption": "This scene is a French television interview segment from the 1990s, broadcast on TF1. A man with a mustache and short dark hair, wearing a dark shirt and a black and white jacket, is being interviewed. The program appears to be a news or documentary-style show, as indicated by the on-screen logos and a credit for \"Redi Hoxha.\" The footage is characterized by a grainy, low-resolution quality typical of television broadcasts from that era."
+    },
+    {
+      "scene_index": 125,
+      "start_frame": 15116,
+      "end_frame": 15185,
+      "start_sec": 504.370533,
+      "end_sec": 506.672833,
+      "duration_sec": 2.335667,
+      "num_frame_captions": 5,
+      "caption": "This scene is a nighttime sports event, likely a basketball game or athletic competition, broadcast as a rerun on the French television channel TF1. The footage, originally from April 8, 2001, is low-resolution and grainy. It shows an outdoor setting such as a courtyard or plaza, with spectators present. The action includes people playing basketball and an athlete in athletic attire running on a track, indicating a multi-sport or public gathering atmosphere. The consistent on-screen text identifies the material as a rediffusion of this dated event."
+    },
+    {
+      "scene_index": 126,
+      "start_frame": 15186,
+      "end_frame": 15273,
+      "start_sec": 506.7062,
+      "end_sec": 509.6091,
+      "duration_sec": 2.936267,
+      "num_frame_captions": 6,
+      "caption": "This scene is a compilation of sports and event highlights from a low-resolution, archival television broadcast on TF1, dated April 8, 2001. The footage features various outdoor athletic competitions, including a high jump event with a jumper mid-flight, a beach volleyball game on a sandy court, an outdoor volleyball match, and a soccer game on a dusty field. The grainy, vintage quality of the broadcast is consistent throughout, with timestamps and channel branding visible. The scenes collectively depict a series of televised sports replays from a single day, showcasing different activities in casual outdoor settings."
+    },
+    {
+      "scene_index": 127,
+      "start_frame": 15274,
+      "end_frame": 15425,
+      "start_sec": 509.642467,
+      "end_sec": 514.680833,
+      "duration_sec": 5.071733,
+      "num_frame_captions": 10,
+      "caption": "This scene consists of multiple close-up shots of the same man, taken from various French television news broadcasts on the TF1 channel. The man has dark hair and a mustache, sometimes with a goatee, and is shown with a serious expression. The clips span different years, as indicated by on-screen date stamps ranging from the 1990s to 2008, with one specifically noted as April 2001. He appears to be giving an interview or statement, at one point looking down and gesturing with his finger. The footage varies in quality, with some frames being grainy or low-resolution."
+    },
+    {
+      "scene_index": 128,
+      "start_frame": 15426,
+      "end_frame": 15522,
+      "start_sec": 514.7142,
+      "end_sec": 517.9174,
+      "duration_sec": 3.236567,
+      "num_frame_captions": 6,
+      "caption": "This scene is a grainy, low-resolution archival television broadcast from TF1, with a purple tint and a \"Rediffusion du 08/04/01\" watermark. It shows a group of people engaged in a casual sports game on a dusty outdoor court or courtyard. The specific sport is ambiguous, with descriptions alternating between soccer and volleyball, suggesting the footage may depict an informal match where the activity is not entirely clear."
+    },
+    {
+      "scene_index": 129,
+      "start_frame": 15523,
+      "end_frame": 15567,
+      "start_sec": 517.950767,
+      "end_sec": 519.4189,
+      "duration_sec": 1.5015,
+      "num_frame_captions": 3,
+      "caption": "The scene consists of clips from a grainy television broadcast on TF1, interspersed with raw footage. The broadcast frames are low-resolution, often showing a blank or obscured grey screen with the TF1 logo and faint text visible. These static broadcast screens are punctuated by a dynamic shot of a person in mid-air, captured against a cloudy sky, seemingly in a state of free fall or during an aerial stunt. The contrast creates a sequence where the inert, disrupted broadcast periodically cuts to this intense moment of action."
+    },
+    {
+      "scene_index": 130,
+      "start_frame": 15568,
+      "end_frame": 15629,
+      "start_sec": 519.452267,
+      "end_sec": 521.487633,
+      "duration_sec": 2.068733,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a skateboarder performing a high-flying trick or leap in a narrow urban alleyway. The action occurs between two tall, beige buildings under a bright sky, with the individual consistently captured in mid-air. The setting is clearly an outdoor urban environment, and the action involves a dynamic movement, likely a skateboarding trick, above the alley. A \"TF1\" or \"TFI\" logo and date appear in the corner of some frames, suggesting this footage may be from a televised broadcast or recorded segment. The core event is a person skillfully navigating the space between the structures through an aerial maneuver."
+    },
+    {
+      "scene_index": 131,
+      "start_frame": 15630,
+      "end_frame": 15688,
+      "start_sec": 521.521,
+      "end_sec": 523.456267,
+      "duration_sec": 1.968633,
+      "num_frame_captions": 4,
+      "caption": "This scene features a skateboarder performing tricks in various outdoor settings. The person, wearing a black top with a white design or an \"X\" on the back, is seen running across a dirt field and a grassy area near a building. The primary action shifts to skateboarding, where the individual rides on a concrete ledge in a park. The scene culminates with the skateboarder executing a high-flying trick above a concrete ramp located in a suburban backyard. The video has a grainy, vintage aesthetic with a broadcaster's logo briefly visible."
+    },
+    {
+      "scene_index": 132,
+      "start_frame": 15689,
+      "end_frame": 15725,
+      "start_sec": 523.489633,
+      "end_sec": 524.690833,
+      "duration_sec": 1.234567,
+      "num_frame_captions": 3,
+      "caption": "In this TF1 television broadcast scene, set in a sunlit modern alleyway or courtyard, a person engages in an athletic activity. They are first shown climbing onto the roof of a building amid greenery and contemporary architecture. The action then progresses as the person performs a dynamic jump or flip, captured mid-air in the same outdoor setting. The broadcast retains its characteristic grainy low-resolution quality and consistent on-screen elements, including a logo and date stamp."
+    },
+    {
+      "scene_index": 133,
+      "start_frame": 15726,
+      "end_frame": 15744,
+      "start_sec": 524.7242,
+      "end_sec": 525.3248,
+      "duration_sec": 0.633967,
+      "num_frame_captions": 1,
+      "caption": "This scene features a televised replay from a broadcast on April 8, 2001. The footage shows an athlete in motion, frozen in a moment of peak action. The individual is suspended in mid-air, performing a complex and dynamic acrobatic maneuver. The bright, overcast sky provides a neutral backdrop that highlights the figure's form and the energy of the movement. The overall presentation is that of a slow-motion or paused instant from a sports event, captured for analysis or dramatic effect during the program's coverage."
+    },
+    {
+      "scene_index": 134,
+      "start_frame": 15745,
+      "end_frame": 15766,
+      "start_sec": 525.358167,
+      "end_sec": 526.058867,
+      "duration_sec": 0.734067,
+      "num_frame_captions": 2,
+      "caption": "This scene shows a skateboarder performing a trick in an urban rooftop setting. The individual is captured mid-air during the maneuver, suggesting a moment of athletic skill and elevation above the building's surface. The consistent presence of a television channel logo, identified as either TFI or TF1, indicates that the footage is likely from a broadcast or professionally produced segment. The action centers on the dynamic jump, with the architectural environment providing the backdrop for the stunt."
+    },
+    {
+      "scene_index": 135,
+      "start_frame": 15767,
+      "end_frame": 15781,
+      "start_sec": 526.092233,
+      "end_sec": 526.559367,
+      "duration_sec": 0.5005,
+      "num_frame_captions": 1,
+      "caption": "This scene depicts a dynamic action in a suburban setting. An individual clad in dark clothing is captured in a moment of airborne motion, descending into a large, shallow, circular concrete basin situated within an open grassy area. The structure appears to be a dry fountain or similar architectural feature. The person's trajectory suggests a deliberate leap or an accidental fall into the structure. The overall scene conveys a sudden, impactful event within an otherwise ordinary and tranquil residential environment."
+    },
+    {
+      "scene_index": 136,
+      "start_frame": 15782,
+      "end_frame": 15827,
+      "start_sec": 526.592733,
+      "end_sec": 528.094233,
+      "duration_sec": 1.534867,
+      "num_frame_captions": 3,
+      "caption": "The scene shows a group of people gathered outdoors in a park setting. The central activity is a game being played, with one participant clearly jumping in the air during the action while others watch the event. In addition to the active participants, several people are sitting either on a bench or on the grass, while others are standing or walking nearby on a path. The entire scene is broadcast footage, as indicated by the superimposed television logo of TF1 and the timestamp \"Rediffusion du 08/04/01\" denoting a rebroadcast from April 8, 2001."
+    },
+    {
+      "scene_index": 137,
+      "start_frame": 15828,
+      "end_frame": 15881,
+      "start_sec": 528.1276,
+      "end_sec": 529.896033,
+      "duration_sec": 1.8018,
+      "num_frame_captions": 3,
+      "caption": "This scene captures a series of dynamic actions involving figures in motion against bright, snowy environments. Initially, a man is seen mid-air, jumping or falling, and is later depicted more clearly as a snowboarder performing a jump in the snow. The sequence, recorded with varying clarity, appears to document a sporting activity where an individual executes an aerial maneuver. The final frame provides a broader perspective, showing two figures standing on a ledge, suggesting the event may involve more than one person. The TFI logo indicates the footage originates from that source."
+    },
+    {
+      "scene_index": 138,
+      "start_frame": 15882,
+      "end_frame": 15915,
+      "start_sec": 529.9294,
+      "end_sec": 531.0305,
+      "duration_sec": 1.134467,
+      "num_frame_captions": 3,
+      "caption": "This scene from a French TF1 broadcast shows two men standing on a rooftop or elevated platform, overlooking a green, fenced garden or yard below. The setting is an outdoor area with grass and hedges under a bright sky. In the garden, a person dressed in white can be seen crouching near the fence. A stroller is also present on the rooftop with the two men. The overall footage is characterized by a low-resolution, grainy quality typical of a television broadcast capture."
+    },
+    {
+      "scene_index": 139,
+      "start_frame": 15916,
+      "end_frame": 15937,
+      "start_sec": 531.063867,
+      "end_sec": 531.764567,
+      "duration_sec": 0.734067,
+      "num_frame_captions": 1,
+      "caption": "The scene depicts a single, dramatic action of a person falling from a height. The individual is shown in mid-air, their body in a dynamic and uncontrolled pose, indicating a sudden or forceful descent. The backdrop is a cloudy sky, suggesting the event may be occurring outdoors or from a significant elevation. A TV broadcast logo and text overlay the image, confirming that this moment is being recorded and televised, likely as part of a news report or live coverage of an incident. The overall impression is of a captured, urgent moment being broadcast to viewers."
+    },
+    {
+      "scene_index": 140,
+      "start_frame": 15938,
+      "end_frame": 16003,
+      "start_sec": 531.797933,
+      "end_sec": 533.966767,
+      "duration_sec": 2.2022,
+      "num_frame_captions": 4,
+      "caption": "This scene appears to be a news segment broadcast on TF1, as indicated by the consistent network logo and date stamp. It features a young boy, wearing a striped jacket or shirt, who is shown in profile outdoors. He is intently watching a distant event unfold in a sunny, partly cloudy setting. The background of the scene includes other people and vehicles, suggesting some form of activity or incident is occurring. The footage captures the boy as an observer, with the camera focusing on his reaction to the events happening off-screen."
+    },
+    {
+      "scene_index": 141,
+      "start_frame": 16004,
+      "end_frame": 16093,
+      "start_sec": 534.000133,
+      "end_sec": 536.969767,
+      "duration_sec": 3.003,
+      "num_frame_captions": 6,
+      "caption": "The scene depicts a group of people outdoors on a sunny day, practicing parkour and playful leaps over hedges in a grassy area. The activity, likely part of a televised broadcast given the logo present, involves individuals jumping and tumbling over the green hedges. Some participants are observed mid-air during their jumps, while others watch from a distance or stand on the hedges themselves. The background includes statues, buildings, and trees, setting the event in a cultivated park or garden environment. The overall action conveys a sense of energetic, coordinated movement and athleticism."
+    },
+    {
+      "scene_index": 142,
+      "start_frame": 16094,
+      "end_frame": 16149,
+      "start_sec": 537.003133,
+      "end_sec": 538.8383,
+      "duration_sec": 1.868533,
+      "num_frame_captions": 4,
+      "caption": "In this scene, a young man is seen walking forward across paved outdoor spaces near buildings. He wears a black shirt or t-shirt, and his surroundings appear to be either a school courtyard or a residential driveway. Other people are present in the background, walking or standing nearby. Throughout the scene, the setting consistently includes architectural structures and a \u201cTF1\u201d logo is visible on at least one occasion in the corner of the frame. The man\u2019s movement is steady and directed toward the viewer in one instance, maintaining a consistent focus on his solitary progression through these urban or institutional environments."
+    },
+    {
+      "scene_index": 143,
+      "start_frame": 16150,
+      "end_frame": 16285,
+      "start_sec": 538.871667,
+      "end_sec": 543.376167,
+      "duration_sec": 4.537867,
+      "num_frame_captions": 9,
+      "caption": "This scene follows a young man in dark clothing as he walks along a path in a grassy, tree-lined park or residential area. The setting shifts from an overcast sky to sunlit conditions. He is initially alone but is later joined by another person in a black shirt with a white logo, and eventually becomes part of a larger group of young men walking together down the paved path. The consistent presence of a TV station logo in the corner indicates this is likely footage from a broadcast or documentary. The scene captures a progression from a solitary walk to a group moving through the park-like environment."
+    },
+    {
+      "scene_index": 144,
+      "start_frame": 16286,
+      "end_frame": 16485,
+      "start_sec": 543.409533,
+      "end_sec": 550.0495,
+      "duration_sec": 6.673333,
+      "num_frame_captions": 14,
+      "caption": "The scene shows a person in a red tracksuit performing a series of athletic moves, including leaping over a barrier and executing dynamic floor maneuvers on paved ground, while another person observes from a distance. The setting shifts from an initial broadcast-style shot to various outdoor locations, including areas under covered structures and overpasses. The person then walks and runs away from the camera down a street, concluding the sequence."
+    },
+    {
+      "scene_index": 145,
+      "start_frame": 16486,
+      "end_frame": 16623,
+      "start_sec": 550.082867,
+      "end_sec": 554.6541,
+      "duration_sec": 4.6046,
+      "num_frame_captions": 9,
+      "caption": "This scene shows a man in a black hoodie standing on a balcony or rooftop, leaning against the railing throughout. He is engaged in speaking or reacting, often gesturing with his hand while maintaining his hold on the railing. The setting features a bright sky and decorative globe lights visible behind him. The consistent presence of the TF1 or TFI television station logo and a date stamp indicates this is a recorded broadcast segment, likely from around 2001."
+    },
+    {
+      "scene_index": 146,
+      "start_frame": 16624,
+      "end_frame": 16705,
+      "start_sec": 554.687467,
+      "end_sec": 557.390167,
+      "duration_sec": 2.736067,
+      "num_frame_captions": 5,
+      "caption": "This scene shows a person in a red outfit performing a jump in an urban, indoor setting. The action begins with the individual preparing on a raised concrete platform or ledge before launching into a mid-air descent within a multi-level building. Following the jump, the person lands and is seen crouching on the paved ground. Another person, who remains a bystander throughout, is present under a covered structure nearby. The sequence concludes with the person in red walking across the paved area near a building entrance, suggesting the completion of the physical activity."
+    },
+    {
+      "scene_index": 147,
+      "start_frame": 16706,
+      "end_frame": 16768,
+      "start_sec": 557.423533,
+      "end_sec": 559.492267,
+      "duration_sec": 2.1021,
+      "num_frame_captions": 4,
+      "caption": "This scene features a woman with short dark hair, wearing a blue jacket or denim shirt and carrying a backpack. She is positioned behind a green railing in an environment that appears to be a school hallway, though one caption suggests a TV studio setting. Throughout the scene, she is seen standing with her arms crossed, leaning on the railing, and speaking. The consistent presence of a television network logo, identified as TF1 or TFI, in the upper corner indicates this is likely a recorded segment or broadcast from that channel."
+    },
+    {
+      "scene_index": 148,
+      "start_frame": 16769,
+      "end_frame": 16949,
+      "start_sec": 559.525633,
+      "end_sec": 565.531633,
+      "duration_sec": 6.039367,
+      "num_frame_captions": 12,
+      "caption": "The scene follows a person in a black shirt walking along a park path, initially behind another individual in a white jacket and backpack. As it progresses, the attire of the people ahead changes, featuring jackets with numbers or an \"X,\" and they are seen carrying bags or backpacks. The perspective shifts to show the person now in a black hoodie walking away, following others. The setting then cuts to a series of grainy, static shots of a bare tree in front of a light-colored building, indicating a separate segment from a French TV broadcast."
+    },
+    {
+      "scene_index": 149,
+      "start_frame": 16950,
+      "end_frame": 17330,
+      "start_sec": 565.565,
+      "end_sec": 578.244333,
+      "duration_sec": 12.7127,
+      "num_frame_captions": 26,
+      "caption": "The scene follows a young man with a mustache in a black shirt, first standing alone outdoors with a surprised expression. He is then joined by another man, and the two walk side-by-side through a grassy, park-like area. Eventually, they meet up with others, forming a larger group of young men in matching black shirts. The group walks together down a tree-lined path or street. The footage has the grainy, slightly blurry quality of a vintage television broadcast, complete with a visible TV channel logo."
+    },
+    {
+      "scene_index": 150,
+      "start_frame": 17331,
+      "end_frame": 17605,
+      "start_sec": 578.2777,
+      "end_sec": 587.420167,
+      "duration_sec": 9.175833,
+      "num_frame_captions": 18,
+      "caption": "The scene depicts a person navigating a dimly lit staircase and later a steep, angled wall, with moments of apparent danger. The individual is seen running, walking, and then falling down the stairwell, where another person reaches out to help. The setting shifts to a balcony or rooftop where a man leans precariously over a railing. The action culminates with the person climbing a sloped wall, sometimes with a white spherical object nearby, as captured in a low-resolution television broadcast."
+    },
+    {
+      "scene_index": 151,
+      "start_frame": 17606,
+      "end_frame": 17708,
+      "start_sec": 587.453533,
+      "end_sec": 590.856933,
+      "duration_sec": 3.436767,
+      "num_frame_captions": 7,
+      "caption": "This scene depicts a person performing a series of daring actions on and around a tall urban structure. Initially, the individual is shown standing and crouching on the edge of a large cylindrical rooftop, overlooking a cityscape. The person then jumps from this height, captured mid-air against the backdrop of the city. The sequence continues with the individual falling and tumbling onto a light surface, before sliding down a steep, gravel-covered slope in the urban environment. The progression shows a clear sequence from a poised position to a dynamic, controlled descent within the city."
+    },
+    {
+      "scene_index": 152,
+      "start_frame": 17709,
+      "end_frame": 17818,
+      "start_sec": 590.8903,
+      "end_sec": 594.527267,
+      "duration_sec": 3.670333,
+      "num_frame_captions": 7,
+      "caption": "The scene is a grainy, vintage television broadcast showing a group of people gathered on a rooftop in a cityscape, with the TFI or TF1 logo visible. The main action involves athletic movement on the rooftop. One person in red shorts or an outfit performs a dynamic action, first jumping off a ledge while others watch nearby. Earlier, another individual executes a kick. Ultimately, the key event is one of the men jumping off the rooftop, observed by the remaining group members who stand and watch the activity unfold."
+    },
+    {
+      "scene_index": 153,
+      "start_frame": 17819,
+      "end_frame": 18164,
+      "start_sec": 594.560633,
+      "end_sec": 606.072133,
+      "duration_sec": 11.544867,
+      "num_frame_captions": 23,
+      "caption": "This scene is an outdoor television interview conducted by TF1, likely a French news broadcast. A man with short dark hair, sometimes described with a mustache or goatee, is being interviewed. He consistently wears a black shirt or sweatshirt, occasionally with a red graphic. The setting is outdoors with graffiti-covered walls prominently visible in the background throughout the segment. The TF1 (or TFI) station logo is repeatedly shown in the upper left corner of the broadcast frames, confirming the source and context of the interview."
+    },
+    {
+      "scene_index": 154,
+      "start_frame": 18165,
+      "end_frame": 18230,
+      "start_sec": 606.1055,
+      "end_sec": 608.274333,
+      "duration_sec": 2.2022,
+      "num_frame_captions": 5,
+      "caption": "This scene, captured from a television broadcast on TF1, features two men performing stunts on a rooftop overlooking a cityscape. They are dressed in black shirts and engage in a series of daring actions. One man is seen skateboarding on the rooftop, while the other stands calmly on the ledge. The scene culminates with one man leaping mid-air over the rooftop, suggesting a coordinated display of urban acrobatics. The overall footage has a grainy quality, consistent with a live or recorded television broadcast of the event."
+    },
+    {
+      "scene_index": 155,
+      "start_frame": 18231,
+      "end_frame": 18317,
+      "start_sec": 608.3077,
+      "end_sec": 611.177233,
+      "duration_sec": 2.9029,
+      "num_frame_captions": 6,
+      "caption": "This scene consists of a series of grainy, low-resolution frames from a French television broadcast, as indicated by the recurring TF1 network logo. The footage appears to be from a news report or documentary, focusing on a modernist apartment building complex. The structure is characterized by its multi-story concrete design, a distinctive external staircase, and an angular, stepped facade. The perspective varies, showing the building from different angles, sometimes with a large white apartment block or a concrete overpass in the background. The overall visual quality is consistently vintage and broadcast-derived."
+    },
+    {
+      "scene_index": 156,
+      "start_frame": 18318,
+      "end_frame": 18399,
+      "start_sec": 611.2106,
+      "end_sec": 613.9133,
+      "duration_sec": 2.736067,
+      "num_frame_captions": 5,
+      "caption": "A man in dark clothing and light pants moves across a rooftop courtyard or balcony overlooking a modern multi-story building complex. The scene appears to be captured on television or broadcast footage, indicated by the consistent presence of a French \"TF1\" logo in the corner of the frame. The setting includes concrete surfaces and a grassy patch. The man is seen both walking and standing on this rooftop, which has views of surrounding architecture. The footage varies in quality, with some descriptions noting grainy, low-resolution imagery. The primary action is the man's presence and movement within this urban rooftop environment."
+    },
+    {
+      "scene_index": 157,
+      "start_frame": 18400,
+      "end_frame": 18477,
+      "start_sec": 613.946667,
+      "end_sec": 616.5159,
+      "duration_sec": 2.6026,
+      "num_frame_captions": 5,
+      "caption": "The scene shows a person in a red shirt leaning out of a window on a modern white building. The action is consistent across the frames, with the individual looking outward from the window. A TFI TV logo is visible in the corner of the footage throughout the scene. The setting and the person's position remain stable, indicating a single, continuous shot of this moment."
+    },
+    {
+      "scene_index": 158,
+      "start_frame": 18478,
+      "end_frame": 19081,
+      "start_sec": 616.549267,
+      "end_sec": 636.669367,
+      "duration_sec": 20.153467,
+      "num_frame_captions": 41,
+      "caption": "This scene appears to be a compilation of surveillance and broadcast footage, likely from a news report. It shows a man in dark clothing moving through various urban locations, including courtyards, rooftops, and building complexes. The footage, often grainy and marked with a \"TF1\" logo, captures him walking, running, and performing dynamic movements like leaps and martial arts poses on rooftops. Other clips show him navigating stairs, hallways, and a plaza. The scene also includes wider shots of the urban environment and unrelated plaza activity with pedestrians and vehicles, establishing the setting of the events being documented."
+    },
+    {
+      "scene_index": 159,
+      "start_frame": 19082,
+      "end_frame": 19405,
+      "start_sec": 636.702733,
+      "end_sec": 647.480167,
+      "duration_sec": 10.8108,
+      "num_frame_captions": 21,
+      "caption": "This scene, captured by low-resolution security cameras and broadcast on French television (TF1/TFI), depicts a tense nighttime street altercation involving a group of young men. The focal point is a man in a black shirt and light pants who is seen interacting, shaking hands, and later being physically restrained or escorted by two other men on a city sidewalk. The grainy footage shows pedestrians in the background, parked cars, and storefronts, with timestamps indicating the recordings are from the early 2000s. The overall sequence suggests a confrontation that escalates to a point requiring restraint."
+    }
+  ]
+}

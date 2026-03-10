@@ -1,0 +1,13 @@
+{
+  "video": "Playing_on_water_slide",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Playing_on_water_slide.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/summe/video_16.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 7,
+  "caption": "The video captures a sunny day of outdoor fun, beginning with children energetically playing on a large blue and yellow inflatable water slide and obstacle course in a grassy backyard. After a brief cutaway to a casual residential area with a parked trailer, the scene shifts to a minor neighborhood incident involving a fallen bicycle before returning to the playful atmosphere. The focus remains on the lively water slide activity in a park or yard, where kids and adults repeatedly climb up and slide down into the splash pool, laughing and cooling off. The video concludes by following one shirtless boy who plays energetically before pausing on the grass to show off a temporary cartoon tattoo on his chest."
+}

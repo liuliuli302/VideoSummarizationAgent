@@ -1,0 +1,13 @@
+{
+  "video": "EE-bNr36nyA",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/EE-bNr36nyA.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_38.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 4,
+  "caption": "The video follows a man engaged in a series of hands-on, outdoor activities, beginning with beekeeping as he inspects a hive in a garden or apiary. He then transitions to a construction or renovation project, retrieving a dark object from a wooden structure and examining a piece of wood with focus. The video concludes with an educational segment, where the man, holding a tool, stands before a wooden structure as on-screen text identifies the content as being provided by the University of Wyoming Extension, suggesting the footage serves as an instructional resource on agricultural or construction practices."
+}

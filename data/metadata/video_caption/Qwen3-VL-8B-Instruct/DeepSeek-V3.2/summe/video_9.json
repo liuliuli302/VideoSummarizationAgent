@@ -1,0 +1,13 @@
+{
+  "video": "Eiffel Tower",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Eiffel Tower.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/summe/video_9.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 21,
+  "caption": "This video offers a comprehensive tour of the Eiffel Tower in Paris, capturing its iconic presence from multiple perspectives. It opens with scenic views of the Seine River and a stone bridge, with the tower visible in the background, before moving closer to examine its structure. The footage extensively features low-angle, upward-looking shots from beneath the tower, showcasing its immense scale and intricate iron latticework against the sky.\n\nThe video then explores the surrounding area, including a Parisian park and the bustling plaza at the tower's base, where crowds of tourists gather. It includes brief, contrasting shots of yellow forsythia bushes in bloom and a glimpse of another large bridge structure. The journey continues with dynamic views from inside the tower's framework and concludes with serene, sunlit shots from beneath its arches, capturing the lively atmosphere and architectural grandeur of this world-famous landmark."
+}

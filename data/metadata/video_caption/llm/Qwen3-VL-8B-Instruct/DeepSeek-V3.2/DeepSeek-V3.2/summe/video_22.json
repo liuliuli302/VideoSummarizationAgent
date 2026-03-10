@@ -1,0 +1,13 @@
+{
+  "video": "Valparaiso_Downhill",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Valparaiso_Downhill.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/summe/video_22.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 35,
+  "caption": "This video presents an immersive, first-person perspective of a high-adrenaline, Red Bull-sponsored urban motorsports event. The action follows a rider navigating a challenging and varied course, beginning on a dirt motocross track before transitioning into the heart of a historic city. The rider speeds through narrow, sun-drenched streets, steep cobblestone alleyways, and graffiti-covered passages, all densely lined with cheering spectators behind barriers.\n\nThe course features dramatic obstacles including concrete staircases, custom-built ramps, and tight turns, requiring precise skill at high speed. The intense journey culminates in the rider speeding through a large Red Bull archway, passing event vehicles and staff, within the vibrant, chaotic atmosphere of a major organized competition. Throughout, the consistent branding and energetic crowds underscore the spectacle of this extreme urban race or stunt exhibition."
+}

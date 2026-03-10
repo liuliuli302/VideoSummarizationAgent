@@ -1,0 +1,13 @@
+{
+  "video": "Notre_Dame",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Notre_Dame.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/summe/video_14.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 23,
+  "caption": "This video offers a comprehensive visual tour of Notre-Dame Cathedral in Paris, capturing its grandeur in various lights and seasons. It begins with exterior views of the iconic Gothic facade, spires, and intricate stonework against overcast skies, before moving inside to reveal the vast, awe-inspiring interior with its vaulted ceilings, stained-glass windows, and quiet spaces for contemplation, including rows of lit prayer candles. The perspective then shifts to dramatic rooftop and aerial views, showcasing gargoyles overlooking panoramic vistas of Paris and the Seine River. The video progresses through time, depicting the cathedral bathed in the warm golden light of sunrise or sunset, and finally transitions into a serene, snow-covered winter scene where the majestic structure stands solemnly along the riverbank, dusted with snow under a gray, hazy sky. Throughout, the footage emphasizes the cathedral's enduring architectural beauty and its profound presence within the heart of the city."
+}

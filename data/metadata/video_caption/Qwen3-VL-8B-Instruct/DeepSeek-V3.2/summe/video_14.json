@@ -1,0 +1,13 @@
+{
+  "video": "Notre_Dame",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Notre_Dame.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/summe/video_14.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 23,
+  "caption": "The video presents a contemplative tour of Notre-Dame Cathedral in Paris, showcasing its iconic Gothic architecture from multiple perspectives under varying weather conditions. It begins with a detailed examination of the cathedral’s facade, panning across its twin towers, ornate stonework, gargoyles, and the central rose window. The focus then shifts inside, where the camera moves through the dimly lit nave, revealing towering pillars, vaulted ceilings, stained glass windows, and the solemn atmosphere enhanced by warm chandelier light and rows of flickering prayer candles. Visitors are seen quietly observing the space.\n\nExterior views continue, capturing the cathedral's grandeur from street-level perspectives, high vantage points on its roof among statues, and panoramic overlooks of the Paris cityscape featuring landmarks like the Eiffel Tower and the Seine River. The footage transitions through different times and seasons, from overcast days to golden hour and finally to a serene winter setting. The video concludes with sweeping shots of the cathedral during a heavy snowfall, its majestic silhouette framed by snowy trees and a misty, peaceful urban backdrop."
+}

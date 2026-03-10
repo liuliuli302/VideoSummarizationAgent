@@ -1,0 +1,966 @@
+{
+  "video": "fWutDQy1nnY",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/fWutDQy1nnY.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_29.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\n\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\n\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\n* avoid speculation beyond the provided captions\n\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.917,
+  "total_frames": 17527,
+  "num_scenes": 95,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 49,
+      "start_sec": 0.0,
+      "end_sec": 1.637865,
+      "duration_sec": 1.671291,
+      "num_frame_captions": 4,
+      "caption": "This scene centers on a politically themed poster for \"Foreskin Radio.\" It opens with a black frame, then the core content emerges: a stylized propaganda poster featuring a central revolutionary figure with a raised fist speaking into a microphone. The composition includes a row of diverse faces above the figure and the bold, painted text \"FORESKIN RADIO.\" The imagery is consistent across frames, with minor variations in description noting a backdrop of a rainbow and a strongly evocative, bold aesthetic. The scene is defined by this singular, impactful graphic design."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 50,
+      "end_frame": 68,
+      "start_sec": 1.671291,
+      "end_sec": 2.272955,
+      "duration_sec": 0.63509,
+      "num_frame_captions": 1,
+      "caption": "The scene features two stylized posters for \"FORESKIN RADIO\" presented side-by-side. The left poster depicts a man with a raised fist, while the right poster shows a smiling woman holding a microphone. Both are part of a larger, surreal, and colorful composition that includes various other figures. The overall presentation is bold and graphic, establishing a fictional promotional or artistic display within the video."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 69,
+      "end_frame": 99,
+      "start_sec": 2.306381,
+      "end_sec": 3.309155,
+      "duration_sec": 1.0362,
+      "num_frame_captions": 2,
+      "caption": "This surreal split-screen image juxtaposes two contrasting visual elements. On top, a smiling cartoonish woman holds a megaphone beside the prominent text \"FORESKIN RADIO,\" suggesting a playful or provocative announcement. Below, a separate scene depicts multiple nude women immersed in water, creating a tranquil or naturalistic tableau. The overall composition presents a deliberate and striking contrast between the animated, communicative upper panel and the serene, aquatic lower panel, unified by an unconventional aesthetic."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 100,
+      "end_frame": 154,
+      "start_sec": 3.342581,
+      "end_sec": 5.147575,
+      "duration_sec": 1.83842,
+      "num_frame_captions": 4,
+      "caption": "The scene presents a series of surreal and digitally altered posters that reimagine vintage propaganda imagery. The central, recurring motif is a humorous promotion for \"Foreskin Radio,\" depicted through a smiling figure with a megaphone or microphone alongside the phrase in a speech bubble. This is juxtaposed with chaotic or celebratory imagery of groups of people, including bikini-clad women in water. The sequence concludes with a separate, official-looking 3D graphic promoting the 2008 Beijing Olympics, featuring a panda silhouette."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 155,
+      "end_frame": 1397,
+      "start_sec": 5.181001,
+      "end_sec": 46.695859,
+      "duration_sec": 41.548284,
+      "num_frame_captions": 83,
+      "caption": "The scene features promotional graphics and greeting cards for the 2008 Chinese New Year Parade, centered on the Year of the Rat. It then shifts to a man with glasses and a red scarf who is the central figure in a bustling city street, likely during a festival. He is repeatedly shown smiling, speaking to the camera, taking selfies, and walking among crowds, storefronts, and colorful decorations, engaging directly with the viewer throughout the lively urban setting."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 1398,
+      "end_frame": 1557,
+      "start_sec": 46.729284,
+      "end_sec": 52.043988,
+      "duration_sec": 5.34813,
+      "num_frame_captions": 10,
+      "caption": "The scene depicts a festive Chinese New Year celebration in a bustling Chinatown street. A man with glasses and a red scarf is a central figure, smiling broadly and taking a selfie amidst the crowd. The environment is lively, with pedestrians, shops, and visible \"Chinese New Year\" signage and banners. People gather around food stalls, including one with a red tablecloth and a \"Chinese New Year Baozi\" sign, contributing to the vibrant market atmosphere. The overall mood is crowded and celebratory."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 1558,
+      "end_frame": 1651,
+      "start_sec": 52.077414,
+      "end_sec": 55.186015,
+      "duration_sec": 3.142026,
+      "num_frame_captions": 7,
+      "caption": "This scene depicts a man, often wearing a hat and sometimes a yellow vest or green shirt, engaging with a crowd in a busy, festive setting. He is consistently shown smiling or speaking animatedly, suggesting he is a central, enthusiastic figure at the event. The location appears to be an urban area, likely outdoors on a street with storefronts visible, and the gathering involves many people and colorful balloons. While some frames are too blurry to discern details, the overall atmosphere is one of celebration and public interaction."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 1652,
+      "end_frame": 1702,
+      "start_sec": 55.21944,
+      "end_sec": 56.890731,
+      "duration_sec": 1.704716,
+      "num_frame_captions": 3,
+      "caption": "In a crowded indoor setting, a man wearing a green shirt and a black cap appears to be the central speaker. He is animated and engaged, speaking with his hand raised to emphasize his point. The audience includes many other people who are focused on him, creating a lively atmosphere. The scene conveys a moment of public address or group discussion where the speaker is actively expressing something, likely of interest or excitement to those gathered around him."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 1703,
+      "end_frame": 1846,
+      "start_sec": 56.924157,
+      "end_sec": 61.704048,
+      "duration_sec": 4.813317,
+      "num_frame_captions": 10,
+      "caption": "This scene unfolds on a bustling urban street where a crowd gathers outside a storefront with a red sign, suggesting a public event. A man, initially standing in the crowd eating a hot dog, later moves into the middle of the street. Attention shifts to a person in dark clothing who emerges from the crowd and begins walking across the street. The onlookers, standing behind a barrier or on the sidewalk, watch intently as this person crosses, maintaining a lively but focused atmosphere throughout the sequence."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 1847,
+      "end_frame": 2287,
+      "start_sec": 61.737474,
+      "end_sec": 76.444831,
+      "duration_sec": 14.740783,
+      "num_frame_captions": 29,
+      "caption": "This scene depicts a lively street festival or cultural celebration in an urban setting, likely in a Chinese-speaking area, as indicated by storefront signs. The central event involves street performers, including one in a red outfit who appears to be fire-breathing, creating bursts of smoke, sparks, and pyrotechnics in the middle of the road. A large crowd of spectators gathers on the sidewalks and behind storefronts to watch the displays. Other participants, some wearing transparent rain ponchos, ornate costumes, and helmets, move through the crowded street in a parade-like fashion. Throughout the event, security or traffic officers in high-visibility vests are present, observing and managing the crowd."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 2288,
+      "end_frame": 2334,
+      "start_sec": 76.478257,
+      "end_sec": 78.015844,
+      "duration_sec": 1.571013,
+      "num_frame_captions": 3,
+      "caption": "The scene depicts a lively outdoor festival or parade. A street performer in a transparent costume and helmet dances near a man in a red cap and safety vest who is directing the crowd. Another performer in an ornate traditional costume stands on stilts amidst the gathering. Throughout the event, a traffic officer in a reflective vest is present, helping to manage the flow of people. The atmosphere is festive, with multiple performers engaging the audience during the cultural celebration."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 2335,
+      "end_frame": 2387,
+      "start_sec": 78.04927,
+      "end_sec": 79.787412,
+      "duration_sec": 1.771568,
+      "num_frame_captions": 4,
+      "caption": "In a lively street festival or parade, a crowd gathers to witness a colorful procession featuring performers in elaborate costumes. One individual is dressed in a traditional Chinese opera outfit with a painted face, a long beard, and an ornate headdress, while another appears in a vibrant costume featuring a Mickey Mouse head and flowing fabric. Among the spectators, a man in casual attire watches as the performers walk through the crowded street. The event unfolds amidst traditional architecture and festive decorations like colorful balloons."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 2388,
+      "end_frame": 2471,
+      "start_sec": 79.820838,
+      "end_sec": 82.59518,
+      "duration_sec": 2.807768,
+      "num_frame_captions": 5,
+      "caption": "A performer in traditional Chinese opera costume, with painted face and ornate headdress, participates in a street parade or festival in a Chinatown setting. The performer is seen dancing, being carried on a platform, and standing on a float amidst a crowd of onlookers. The festive scene includes Chinese signage, red lanterns, and balloons, suggesting a lively cultural celebration."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 2472,
+      "end_frame": 2689,
+      "start_sec": 82.628606,
+      "end_sec": 89.882007,
+      "duration_sec": 7.286827,
+      "num_frame_captions": 15,
+      "caption": "The scene depicts a performer in elaborate traditional Chinese opera costume and makeup, participating in a parade or festival. They are seen walking through a crowd and dancing energetically outdoors, sometimes carrying a yellow flag or a Mickey Mouse plush toy. The performer interacts with the environment, leaning over a table with the toy and balloons, and is later confronted by a security guard. The setting includes streets, buildings, and an audience."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 2690,
+      "end_frame": 3540,
+      "start_sec": 89.915433,
+      "end_sec": 118.327372,
+      "duration_sec": 28.445366,
+      "num_frame_captions": 57,
+      "caption": "The scene depicts a vibrant cultural parade or festival taking place on a busy city street. Performers in elaborate traditional Chinese opera costumes and makeup, some holding banners, participate from floats or platforms. The event also features street performers in ornate costumes dancing for crowds, a marching band in Scottish kilts playing bagpipes, and various other traditional processions. Spectators line the sidewalks and watch from shopfronts as the lively procession moves down the urban avenue."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 3541,
+      "end_frame": 3821,
+      "start_sec": 118.360798,
+      "end_sec": 127.720025,
+      "duration_sec": 9.392653,
+      "num_frame_captions": 18,
+      "caption": "The scene depicts a festive public gathering, likely during Chinese New Year, on a bustling urban street. A man in a blue traditional outfit or robe is the central figure, actively handing out red envelopes to people in the crowd. He interacts with others, including shaking hands and energetically dancing or gesturing. The atmosphere is celebratory, with many people present, some holding bags or reaching for envelopes. The setting is outdoors, with red-brick buildings in the background."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 3822,
+      "end_frame": 3882,
+      "start_sec": 127.753451,
+      "end_sec": 129.759,
+      "duration_sec": 2.038974,
+      "num_frame_captions": 4,
+      "caption": "This scene features a man in a blue shirt, who is the central figure throughout. He is shown outdoors in an urban setting with a red-brick building in the background. The perspective shifts to a low-angle view, emphasizing his stature as he stands among a crowd of other silhouetted individuals. The composition highlights him prominently against a bright, overexposed sky, suggesting a public gathering or event. The focus remains on his presence and positioning within the group from this consistent, dramatic camera angle."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 3883,
+      "end_frame": 3949,
+      "start_sec": 129.792426,
+      "end_sec": 131.998529,
+      "duration_sec": 2.239529,
+      "num_frame_captions": 5,
+      "caption": "This scene is composed of a series of low-angle shots, all featuring one or more people rendered as dark silhouettes against a bright, overexposed sky. The setting appears to be an urban or residential outdoor area, with architectural elements like buildings with balconies, possible bridge structures, and power lines visible in the background. The sequence focuses on the striking contrast between the foreground figures and the luminous atmosphere, with one individual shown holding an object. The consistent visual style creates a contemplative mood, emphasizing shape and environment over specific detail."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 3950,
+      "end_frame": 3981,
+      "start_sec": 132.031955,
+      "end_sec": 133.068155,
+      "duration_sec": 1.069626,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a parade or public march proceeding down a street. A prominent, large red balloon is a central visual element in the foreground. Behind it, a coordinated group of participants, all wearing distinctive red jackets, are marching together. They are collectively holding up a banner, indicating this is likely an organized event with a specific message or purpose. The consistent presence of the balloon and the uniformly dressed marchers creates a vivid and cohesive visual theme centered on the color red, suggesting a demonstration, celebration, or promotional activity."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 3982,
+      "end_frame": 4027,
+      "start_sec": 133.101581,
+      "end_sec": 134.605743,
+      "duration_sec": 1.537587,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a lively street parade with multiple participants and spectators. A person in a white jacket and black skirt, holding a large red balloon, walks past a crowd and a banner for the \"Ever Scout Group.\" Elsewhere in the parade, a woman in a white jacket also carries a large red balloon, observed by people in red uniforms and a man in a green jacket. Adding to the procession, an individual in a silver outfit and helmet rides a black horse past onlookers and a banner for the \"Soul Group.\" The event features a mix of marchers, equestrian participants, and engaged crowds."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 4028,
+      "end_frame": 4125,
+      "start_sec": 134.639168,
+      "end_sec": 137.881472,
+      "duration_sec": 3.27573,
+      "num_frame_captions": 7,
+      "caption": "This scene takes place at a street parade featuring various costumed participants and spectators. A central figure, dressed in a white top and dark bottoms, is repeatedly seen bending over to handle a large blue bag on the roadway. The action occurs near a large red balloon that partially obscures the view. Spectators line the sidelines, and banners for groups like \"Denver Soul Group\" and \"River Scout Group\" are visible in the background. In a later moment, the same individual walks down the street holding a yellow bucket, continuing their participation in the parade."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 4126,
+      "end_frame": 4212,
+      "start_sec": 137.914898,
+      "end_sec": 140.789518,
+      "duration_sec": 2.908046,
+      "num_frame_captions": 5,
+      "caption": "The scene depicts a lively and colorful street parade. Participants in red uniforms or costumes are prominent, some carrying banners and flags, while others dance energetically. The atmosphere is festive and crowded, with buildings lining the street. A person in a blue jacket and another individual holding a yellow bucket are visible among the attendees. Red balloons add to the vibrant setting. The motion and occasional blurriness in the imagery convey the dynamic and energetic movement of the performers and the crowd throughout the event."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 4213,
+      "end_frame": 4233,
+      "start_sec": 140.822943,
+      "end_sec": 141.49146,
+      "duration_sec": 0.701942,
+      "num_frame_captions": 2,
+      "caption": "The scene features a person in a patterned blue jacket moving dynamically in the foreground, drawing the primary focus. In the background, a group of people in red jackets stands together. The setting appears to be a crowded street, possibly during a festival or parade, with many individuals in colorful clothing. A large, blurry blue patterned object is also prominent in the foreground, contributing to the lively and visually busy atmosphere of the event."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 4234,
+      "end_frame": 4270,
+      "start_sec": 141.524886,
+      "end_sec": 142.728215,
+      "duration_sec": 1.236755,
+      "num_frame_captions": 2,
+      "caption": "The scene takes place on a busy urban street. A person in a patterned jacket moves quickly in the foreground, while a woman in a pink coat stands in the background holding a plate. Another woman, wearing a white jacket and purple scarf, is also present on the crowded thoroughfare. The environment is lively, filled with other people and buildings decorated with red banners and flags, suggesting a public event or celebration."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 4271,
+      "end_frame": 4300,
+      "start_sec": 142.761641,
+      "end_sec": 143.730989,
+      "duration_sec": 1.002774,
+      "num_frame_captions": 2,
+      "caption": "This scene takes place on a busy urban street, where a parade or street performance is occurring in the background. A woman wearing a pink vest is walking down the street, while a man in a blue jacket stands facing her. Nearby, another person in a patterned jacket interacts with a different woman who is holding a blue bag and wearing a purple scarf. The setting includes surrounding buildings and a visible red balloon, indicating a lively public atmosphere."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 4301,
+      "end_frame": 4333,
+      "start_sec": 143.764415,
+      "end_sec": 144.834041,
+      "duration_sec": 1.103052,
+      "num_frame_captions": 2,
+      "caption": "The scene shows a woman walking along a busy urban street. She is wearing a pink scarf and a white jacket, and she carries a large blue bag. The street is filled with people and lined with colorful storefronts. A prominent red balloon floats in the vicinity. The setting remains consistent, with the woman's action and the surrounding crowd and buildings forming the core of the activity."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 4334,
+      "end_frame": 4403,
+      "start_sec": 144.867467,
+      "end_sec": 147.173848,
+      "duration_sec": 2.339807,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a vibrant street festival or parade in a bustling city. A woman in a white jacket, first seen with a pink scarf and later a purple one, walks through the crowd while holding a large blue bag and looking at her phone. The event features energetic performers in colorful and metallic costumes, including one in silver and turquoise, who are dancing and playing drums. A crowd of onlookers watches the lively procession, which moves along a street lined with colorful buildings, creating a dynamic and celebratory urban atmosphere."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 4404,
+      "end_frame": 4598,
+      "start_sec": 147.207273,
+      "end_sec": 153.691881,
+      "duration_sec": 6.518033,
+      "num_frame_captions": 13,
+      "caption": "A traditional Chinese lion dance performance is the central event of a lively street parade. Performers in elaborate, colorful costumes move rhythmically down a city street, entertaining a crowd of spectators who watch from the sidewalks. The bustling urban setting features traditional storefronts and buildings, creating a festive atmosphere. The parade includes multiple lion dance acts and other costumed performers, captivating the onlookers throughout the scene."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 4599,
+      "end_frame": 4668,
+      "start_sec": 153.725307,
+      "end_sec": 156.031688,
+      "duration_sec": 2.339807,
+      "num_frame_captions": 5,
+      "caption": "A person in a red vest and helmet walks along a street during a lively festival. The scene features a traditional Chinese lion dance performance, with performers in elaborate lion costumes. Spectators line the sidewalk and buildings, watching the festivities. The street is crowded with other performers in colorful costumes, contributing to the vibrant, parade-like atmosphere. The person in the red vest continues past the various performances and the gathered crowd."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 4669,
+      "end_frame": 4692,
+      "start_sec": 156.065113,
+      "end_sec": 156.833907,
+      "duration_sec": 0.802219,
+      "num_frame_captions": 1,
+      "caption": "A vibrant lion dance performance takes place on a busy street, creating a lively spectacle. Performers in elaborate, colorful costumes animate the lion figures with energetic and synchronized movements. The action unfolds in front of a gathered crowd of onlookers, who are watching the traditional display. The setting features traditional architecture lining the street, providing a cultural backdrop to the event. The scene captures a moment of public celebration, where the dynamic performance is the central focus, engaging both the participants and the audience in the shared experience."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 4693,
+      "end_frame": 4750,
+      "start_sec": 156.867333,
+      "end_sec": 158.772604,
+      "duration_sec": 1.938697,
+      "num_frame_captions": 4,
+      "caption": "A traditional lion dance performance takes place on a city street, likely as part of a festival or parade. Performers in elaborate golden, white, and ornate costumes move with energetic, dynamic motions, creating a sense of vibrant action and blur. The scene includes both wider shots of the dance unfolding in front of buildings and closer views of the detailed, fluffy costume heads. Onlookers are present in the background, observing the cultural celebration."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 4751,
+      "end_frame": 5430,
+      "start_sec": 158.80603,
+      "end_sec": 181.502156,
+      "duration_sec": 22.729552,
+      "num_frame_captions": 46,
+      "caption": "A vibrant and energetic street parade unfolds with traditional Chinese lion and dragon dance performances. Performers in elaborate, colorful costumes energetically maneuver large, ornate lion and dragon puppets through a bustling crowd. Spectators line the sidewalks, watching amidst waving colorful flags and banners. A notable figure in a red vest or jacket repeatedly appears, walking through or past the lively procession. Later, the scene shifts to show a group of people, including children, marching and holding a green banner with text, accompanied by a woman in a black coat who appears to lead or address the crowd. The overall atmosphere is festive and crowded."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 5431,
+      "end_frame": 5470,
+      "start_sec": 181.535582,
+      "end_sec": 182.839188,
+      "duration_sec": 1.337032,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a lively public parade or community event. A group of participants, including a smiling woman and a young child, are walking together while carrying promotional materials. They are visibly holding flags and several banners, with one clearly identified sign reading \"Cathay Pacific Airlines.\" The overall atmosphere appears celebratory and promotional, suggesting the event may be a sponsored parade or a festive occasion involving corporate representation. The presence of multiple people with coordinated signage indicates an organized group activity centered around brand visibility and public engagement."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 5471,
+      "end_frame": 5547,
+      "start_sec": 182.872614,
+      "end_sec": 185.412976,
+      "duration_sec": 2.573787,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a lively outdoor parade or community festival. A diverse group of participants, including a prominently featured smiling woman and a young child, moves through a street. They are actively engaged in the celebration, waving an assortment of colorful flags and holding banners, one of which is described as green. The atmosphere is consistently festive and joyful, with red flags also visible among the decorations. The event has the clear character of a cultural or communal gathering, centered around collective participation and vibrant visual displays."
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 5548,
+      "end_frame": 5940,
+      "start_sec": 185.446402,
+      "end_sec": 198.54932,
+      "duration_sec": 13.136344,
+      "num_frame_captions": 27,
+      "caption": "A vibrant Chinese cultural parade moves through an urban street. Performers in traditional lion and dragon dance costumes, some holding large ornate puppets, dance and march. They are accompanied by children and adults in festive outfits, many carrying colorful flags and banners, including some with corporate or text logos like \"CHINESE\" and \"CITI HAY PACIFIC.\" A crowd of onlookers watches from the sidewalks as the lively procession, featuring red banners and cultural symbols, creates a festive celebration."
+    },
+    {
+      "scene_index": 35,
+      "start_frame": 5941,
+      "end_frame": 6050,
+      "start_sec": 198.582746,
+      "end_sec": 202.226159,
+      "duration_sec": 3.676839,
+      "num_frame_captions": 7,
+      "caption": "The scene depicts a vibrant lion dance parade on a city street. Performers in elaborate costumes, including a large white lion puppet, move energetically through the urban setting. They are accompanied by colorful flags and surrounded by onlookers, creating a festive and celebratory atmosphere. The event is a traditional cultural performance, with the lion dance as the central spectacle of the bustling parade."
+    },
+    {
+      "scene_index": 36,
+      "start_frame": 6051,
+      "end_frame": 6120,
+      "start_sec": 202.259585,
+      "end_sec": 204.565966,
+      "duration_sec": 2.339807,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a traditional Chinese lion dance performance during a vibrant street parade. A large, ornate white lion costume is dynamically maneuvered by performers through a bustling urban setting. Colorful flags and banners decorate the area, contributing to a festive atmosphere. A crowd of spectators gathers to watch the lively display as the lion puppet moves among them. The event captures a moment of cultural celebration in a public space."
+    },
+    {
+      "scene_index": 37,
+      "start_frame": 6121,
+      "end_frame": 6375,
+      "start_sec": 204.599392,
+      "end_sec": 213.089548,
+      "duration_sec": 8.523582,
+      "num_frame_captions": 17,
+      "caption": "The scene depicts a lively street festival featuring traditional Chinese lion and dragon dance performances. Multiple large, ornate, and fluffy white costumes\u2014including both lion and dragon variants\u2014are animatedly danced or paraded through a bustling street. The energetic performances are set against a backdrop of colorful flags, banners, and traditional buildings, with numerous spectators watching the celebration. The atmosphere is consistently festive, conveyed through the motion of the costumes and the surrounding crowd and decorations."
+    },
+    {
+      "scene_index": 38,
+      "start_frame": 6376,
+      "end_frame": 7253,
+      "start_sec": 213.122974,
+      "end_sec": 242.43741,
+      "duration_sec": 29.347862,
+      "num_frame_captions": 58,
+      "caption": "This scene depicts a lively street parade featuring traditional Chinese lion and dragon dance performances. Performers in elaborate costumes, including large white lion or dragon puppets and ornate silver outfits, move energetically through a crowded urban street lined with traditional buildings and shops. Other participants wave large green and red banners with Chinese characters. A substantial crowd of spectators gathers along the sidewalks and under red awnings to watch the vibrant cultural celebration. The event unfolds in a bustling setting with festive decorations, combining dynamic dance movements with the display of colorful flags and props."
+    },
+    {
+      "scene_index": 39,
+      "start_frame": 7254,
+      "end_frame": 7331,
+      "start_sec": 242.470836,
+      "end_sec": 245.044623,
+      "duration_sec": 2.607213,
+      "num_frame_captions": 5,
+      "caption": "A lively lion dance parade takes place on a busy city street as part of a cultural festival. Performers dressed in intricate costumes\u2014including one noted as white and gold\u2014move energetically amid a crowd of spectators lining the sidewalks. The scene captures the vibrant and festive atmosphere of the celebration, with the ornate lions dancing and captivating the onlookers. The parade proceeds along the street, featuring multiple performers in matching costumes, all contributing to the dynamic and colorful spectacle."
+    },
+    {
+      "scene_index": 40,
+      "start_frame": 7332,
+      "end_frame": 7466,
+      "start_sec": 245.078049,
+      "end_sec": 249.557108,
+      "duration_sec": 4.512485,
+      "num_frame_captions": 9,
+      "caption": "The scene depicts a traditional Chinese lion dance performance on a bustling city street during a festive parade. Performers in elaborate, vibrant costumes\u2014featuring fluffy white and gold manes and expressive faces\u2014move energetically. The action unfolds in front of a red storefront and buildings, captivating a crowd of onlookers. The atmosphere is lively, with festive decorations and banners adding to the celebratory mood. The dynamic movement of the lions creates a slightly blurry, energetic effect throughout the sequence."
+    },
+    {
+      "scene_index": 41,
+      "start_frame": 7467,
+      "end_frame": 7501,
+      "start_sec": 249.590534,
+      "end_sec": 250.727011,
+      "duration_sec": 1.169903,
+      "num_frame_captions": 3,
+      "caption": "The scene depicts a lively lion dance performance taking place on a busy urban street. Performers in traditional, elaborate costumes animate a large, ornate lion puppet, moving energetically through the crowd. The event draws spectators who watch the rhythmic performance, which unfolds near a traditional Chinese building with golden signage. The atmosphere is vibrant and bustling, with vehicles and onlookers present in the setting."
+    },
+    {
+      "scene_index": 42,
+      "start_frame": 7502,
+      "end_frame": 7534,
+      "start_sec": 250.760437,
+      "end_sec": 251.830063,
+      "duration_sec": 1.103052,
+      "num_frame_captions": 2,
+      "caption": "The scene features a traditional street festival with two distinct performances. In the foreground, a vibrant lion dance costume is carried by performers through a busy street lined with colorful shops. Simultaneously, a dynamic dragon dance unfolds, characterized by fast-moving, swirling white and gold fabric in front of a traditional building. The atmosphere is bustling and celebratory, with both processions contributing to the lively cultural event."
+    },
+    {
+      "scene_index": 43,
+      "start_frame": 7535,
+      "end_frame": 7570,
+      "start_sec": 251.863489,
+      "end_sec": 253.033392,
+      "duration_sec": 1.203329,
+      "num_frame_captions": 2,
+      "caption": "A traditional Chinese lion dance performance takes place on a city street. Dancers in ornate, fluffy costumes\u2014predominantly white and gold\u2014move with high energy in front of a building. The scene is vibrant and dynamic, capturing the cultural spectacle in a public urban setting."
+    },
+    {
+      "scene_index": 44,
+      "start_frame": 7571,
+      "end_frame": 7587,
+      "start_sec": 253.066818,
+      "end_sec": 253.601631,
+      "duration_sec": 0.568239,
+      "num_frame_captions": 1,
+      "caption": "This scene features a festive and culturally significant Chinese lion dance performance, taking place against the backdrop of a traditional architectural structure. The performers, adorned in vibrantly colored costumes, execute the ritual dance amidst a lively atmosphere marked by waving flags. The visual quality of the recording is somewhat degraded, presenting a blurry and low-resolution image of the event. The overall impression is one of dynamic movement and celebration within a specific cultural setting."
+    },
+    {
+      "scene_index": 45,
+      "start_frame": 7588,
+      "end_frame": 8736,
+      "start_sec": 253.635057,
+      "end_sec": 292.007888,
+      "duration_sec": 38.406257,
+      "num_frame_captions": 77,
+      "caption": "This scene depicts a lively cultural street parade, likely in a Chinatown or urban Asian district. The event features multiple traditional performances, including a lion dance in a white and gold costume and a vibrant dragon dance with red and gold puppets. Groups of female dancers in synchronized green and white costumes perform routines on the wet street, captivating spectators who line the sidewalks under umbrellas and colorful storefront awnings. The bustling atmosphere includes various other performers in colorful outfits, with Chinese signage and storefronts visible throughout the energetic procession."
+    },
+    {
+      "scene_index": 46,
+      "start_frame": 8737,
+      "end_frame": 9712,
+      "start_sec": 292.041314,
+      "end_sec": 324.63148,
+      "duration_sec": 32.623592,
+      "num_frame_captions": 65,
+      "caption": "This scene depicts a vibrant Chinese dragon dance performance taking place on a city street, likely in a Chinatown district. Performers dressed in matching red costumes energetically maneuver a large, ornate golden dragon puppet through a lively parade. They dance and move the serpentine dragon in front of an enthusiastic crowd of spectators who watch from the sidewalks. The setting includes buildings with red awnings, signage with Chinese characters, and what appears to be a traditional Chinese restaurant, contributing to a festive atmosphere. The entire event is a dynamic and colorful public celebration centered around the elaborate dragon dance."
+    },
+    {
+      "scene_index": 47,
+      "start_frame": 9713,
+      "end_frame": 9765,
+      "start_sec": 324.664906,
+      "end_sec": 326.403048,
+      "duration_sec": 1.771568,
+      "num_frame_captions": 4,
+      "caption": "This scene captures a dynamic dragon dance performance during a lively urban street parade. Performers dressed in vivid red costumes skillfully maneuver a large and ornate golden dragon puppet using long poles. They energetically dance and move through the celebration, with urban buildings providing the backdrop to the festivities. The overall atmosphere is one of vibrant cultural celebration and coordinated movement, centered on the traditional dragon dance spectacle."
+    },
+    {
+      "scene_index": 48,
+      "start_frame": 9766,
+      "end_frame": 9789,
+      "start_sec": 326.436474,
+      "end_sec": 327.205268,
+      "duration_sec": 0.802219,
+      "num_frame_captions": 1,
+      "caption": "This scene features a large, ornate dragon-like structure, which appears to be a central element of a parade or festival. The setting includes a building and machinery visible in the background, suggesting the event is taking place in an urban or industrial area. The overall impression is of a vibrant public celebration, with the detailed dragon effigy serving as a focal point for the festivities. The slightly blurry and low-resolution quality of the imagery conveys a sense of motion and candid documentation of the event."
+    },
+    {
+      "scene_index": 49,
+      "start_frame": 9790,
+      "end_frame": 9845,
+      "start_sec": 327.238694,
+      "end_sec": 329.077113,
+      "duration_sec": 1.871845,
+      "num_frame_captions": 4,
+      "caption": "A vibrant street festival features a traditional dragon dance performance. Performers dressed in red costumes energetically maneuver a large, ornate golden dragon puppet through a bustling crowd. The scene captures the dynamic movement of the serpentine dragon as part of a cultural parade, with the activity set in a festive public celebration."
+    },
+    {
+      "scene_index": 50,
+      "start_frame": 9846,
+      "end_frame": 9986,
+      "start_sec": 329.110539,
+      "end_sec": 333.790153,
+      "duration_sec": 4.713039,
+      "num_frame_captions": 9,
+      "caption": "A vibrant dragon dance unfolds during a festive street parade in a bustling setting, likely a Chinese neighborhood lined with traditional buildings. Performers dressed in red costumes skillfully manipulate a large, ornate golden dragon puppet, dancing and carrying it through the lively scene. They maneuver the dragon through the crowd and along the street as excited onlookers watch the energetic performance. The overall atmosphere is one of celebration and dynamic cultural display, centered on the coordinated movement of the puppeteers and the shimmering golden dragon."
+    },
+    {
+      "scene_index": 51,
+      "start_frame": 9987,
+      "end_frame": 10003,
+      "start_sec": 333.823579,
+      "end_sec": 334.358392,
+      "duration_sec": 0.568239,
+      "num_frame_captions": 1,
+      "caption": "This scene captures a lively and colorful street parade, likely set within a traditional Chinese community. The central focus is a group of performers clad in vibrant red costumes, who are dancing and maneuvering a large, intricately decorated golden dragon puppet. The dynamic movement of the dragon and the coordinated dance of the performers suggest a celebratory event or festival. The activity unfolds against a backdrop of distinctive storefronts with traditional architectural elements, further anchoring the scene in its cultural setting and contributing to the festive atmosphere."
+    },
+    {
+      "scene_index": 52,
+      "start_frame": 10004,
+      "end_frame": 10765,
+      "start_sec": 334.391817,
+      "end_sec": 359.82886,
+      "duration_sec": 25.470468,
+      "num_frame_captions": 51,
+      "caption": "This scene depicts a vibrant street parade in a bustling urban setting, likely part of a cultural or festive celebration. Performers in elaborate traditional costumes, predominantly in red, pink, and gold, dance energetically down the street. They use props like fans, umbrellas, and decorative headpieces as they move past shops and buildings, some with Chinese signage and red awnings. A crowd of onlookers watches from the sidewalks, and several individuals, including a man in dark clothing, walk through or observe the lively procession. The overall atmosphere is dynamic and celebratory."
+    },
+    {
+      "scene_index": 53,
+      "start_frame": 10766,
+      "end_frame": 10809,
+      "start_sec": 359.862286,
+      "end_sec": 361.299596,
+      "duration_sec": 1.470736,
+      "num_frame_captions": 3,
+      "caption": "A street performance is taking place, featuring dancers in elaborate pink and red costumes. During the performance, one or more individuals wearing bright yellow safety vests are present on the scene. These figures are seen both standing in the foreground and walking past the performers on the busy street, at times partially obscuring the view of the dance. The scene captures a moment where the formal spectacle of the performance intersects with the casual flow of everyday pedestrian activity."
+    },
+    {
+      "scene_index": 54,
+      "start_frame": 10810,
+      "end_frame": 11830,
+      "start_sec": 361.333021,
+      "end_sec": 395.427349,
+      "duration_sec": 34.127753,
+      "num_frame_captions": 68,
+      "caption": "A vibrant street parade features performers in colorful traditional costumes dancing with large feathered fans and flowing scarves in front of buildings with red awnings and Chinese signage. A man in a black coat walks past the energetic dancers. Later, a vintage black-and-white Vancouver Police car drives down the wet, bustling street, past crowds of pedestrians holding umbrellas and storefronts with Chinese characters."
+    },
+    {
+      "scene_index": 55,
+      "start_frame": 11831,
+      "end_frame": 12080,
+      "start_sec": 395.460775,
+      "end_sec": 403.783802,
+      "duration_sec": 8.356453,
+      "num_frame_captions": 17,
+      "caption": "The scene depicts a Vancouver Police Smart car driving through a rainy Chinatown street during a parade or public event. The black-and-white vehicle, sometimes decorated with blue and black balloons, proceeds past crowds of spectators holding umbrellas and gathered in front of Chinese restaurants and storefronts. The atmosphere is bustling, with colorful signage, floating balloons, and the presence of St. John Ambulance Volunteers, indicating an organized community celebration."
+    },
+    {
+      "scene_index": 56,
+      "start_frame": 12081,
+      "end_frame": 12127,
+      "start_sec": 403.817228,
+      "end_sec": 405.354815,
+      "duration_sec": 1.571013,
+      "num_frame_captions": 3,
+      "caption": "The scene depicts a crowded street parade in an urban setting, held in rainy weather. Participants are associated with the St. John Ambulance Volunteers, as indicated by a banner and signs. Many in the dense crowd carry umbrellas and red balloons. The event also appears to be a breast cancer awareness rally, with numerous attendees wearing pink and holding balloons. The overall activity is a march or procession down the city street."
+    },
+    {
+      "scene_index": 57,
+      "start_frame": 12128,
+      "end_frame": 12166,
+      "start_sec": 405.388241,
+      "end_sec": 406.658422,
+      "duration_sec": 1.303607,
+      "num_frame_captions": 3,
+      "caption": "The scene depicts a vibrant and lively public gathering taking place along a city street. A dense crowd of participants fills the thoroughfare, many of them holding bright red balloons, which create a unified visual motif throughout the event. Signs are also visible among the attendees. The presence of rainbow flags strongly indicates that this is a Pride parade or celebration. The atmosphere is bustling and energetic as the procession moves through the urban landscape under overcast skies, with buildings and street signs lining the route."
+    },
+    {
+      "scene_index": 58,
+      "start_frame": 12167,
+      "end_frame": 12271,
+      "start_sec": 406.691847,
+      "end_sec": 410.168132,
+      "duration_sec": 3.50971,
+      "num_frame_captions": 7,
+      "caption": "The scene depicts a lively street parade or cultural celebration. A crowd of people marches down a city street, many carrying signs and large red balloons. Participants include people in costumes, such as a person in an elaborate green and black lion costume, and a man in a white uniform holding a red banner. The atmosphere is festive and crowded, with children and adults watching and participating in the event."
+    },
+    {
+      "scene_index": 59,
+      "start_frame": 12272,
+      "end_frame": 12288,
+      "start_sec": 410.201558,
+      "end_sec": 410.736371,
+      "duration_sec": 0.568239,
+      "num_frame_captions": 1,
+      "caption": "The scene takes place on a busy winter street. People are bundled in cold-weather clothing, moving through a crowded urban environment. A police officer is present in the foreground, overseeing the activity. The setting is decorated with colorful banners and signs, suggesting a possible public event or commercial district. The overall atmosphere is one of everyday public life during the colder season, with a focus on the movement of the crowd and the officer's visible role."
+    },
+    {
+      "scene_index": 60,
+      "start_frame": 12289,
+      "end_frame": 12379,
+      "start_sec": 410.769796,
+      "end_sec": 413.778119,
+      "duration_sec": 3.041749,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a lively, crowded street parade or public demonstration taking place in an urban setting, likely during a cultural festival. The atmosphere is festive and bustling, with a dense crowd of people in a mix of traditional and modern attire. Many participants hold large red balloons and umbrellas, suggesting rainy weather. Colorful banners, signs, and a man in a pink hat are noted among the gathering. The overall mood is energetic, characterized by a vibrant display of colors and a sense of collective public activity in the city streets."
+    },
+    {
+      "scene_index": 61,
+      "start_frame": 12380,
+      "end_frame": 12418,
+      "start_sec": 413.811545,
+      "end_sec": 415.081726,
+      "duration_sec": 1.303607,
+      "num_frame_captions": 2,
+      "caption": "The scene depicts a vibrant public gathering on a rain-slicked city street. A dense, bustling crowd participates in what is clearly a parade or demonstration, characterized by a lively and celebratory atmosphere. The event is marked by numerous colorful elements, including balloons, flags, and handheld signs carried by the participants. The wet pavement reflects the activity, adding to the dynamic visual texture of the scene. The overall impression is one of a large-scale, energetic cultural or protest event filling the urban space."
+    },
+    {
+      "scene_index": 62,
+      "start_frame": 12419,
+      "end_frame": 12445,
+      "start_sec": 415.115152,
+      "end_sec": 415.984223,
+      "duration_sec": 0.902497,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a lively street parade taking place on Columbia Street under overcast skies. A large, diverse crowd has gathered, with many participants holding colorful flags, banners, and umbrellas. The procession includes marching bands, contributing to the vibrant and bustling atmosphere. The urban setting is framed by surrounding buildings, and a notable pink-hooded figure is visible within the throng. The overall event is a cultural celebration, characterized by its energetic movement and dense participation, as people fill the street for the communal march."
+    },
+    {
+      "scene_index": 63,
+      "start_frame": 12446,
+      "end_frame": 12504,
+      "start_sec": 416.017649,
+      "end_sec": 417.956346,
+      "duration_sec": 1.972123,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a lively urban parade taking place on a city street, likely Columbia Street based on signage. The event is bustling and crowded, with groups of people marching in colorful costumes and hats. Festive banners line the street, contributing to a vibrant public atmosphere consistent with a cultural festival or demonstration. A large red balloon is prominently visible in the foreground of the procession, and among the participants, a person wearing a pink hat is noted. Korean signage is present, situating the event in a specific locale. The overall impression is of a celebratory and energetic public gathering."
+    },
+    {
+      "scene_index": 64,
+      "start_frame": 12505,
+      "end_frame": 12580,
+      "start_sec": 417.989772,
+      "end_sec": 420.496708,
+      "duration_sec": 2.540362,
+      "num_frame_captions": 5,
+      "caption": "The scene depicts a bustling city street during a rainy parade or public event. A dense crowd of people, some bundled in winter coats and holding umbrellas, moves along the wet street. Colorful banners and a prominent yellow sign with Chinese characters are visible overhead. A large red balloon is a focal point in the foreground, and there is a noticeable police presence. The overall atmosphere is lively and crowded, with the perspective shifting from within the crowd to wider views of the rainy, overcast street."
+    },
+    {
+      "scene_index": 65,
+      "start_frame": 12581,
+      "end_frame": 12597,
+      "start_sec": 420.530133,
+      "end_sec": 421.064946,
+      "duration_sec": 0.568239,
+      "num_frame_captions": 1,
+      "caption": "This scene captures a rainy day on a street. People are walking, some of them holding umbrellas, indicating ongoing precipitation and a wet environment. The scene\u2019s visual clarity is limited due to blur and low resolution. Key elements include a partially visible \"ambulance\" banner, suggesting the presence of emergency medical services, and a red balloon prominently in the foreground. Together, these details depict an outdoor urban setting where daily activity coexists with potential emergency response. The composition conveys a moment where personal movement, like carrying an umbrella, is intertwined with public elements, such as an ambulance and a floating balloon."
+    },
+    {
+      "scene_index": 66,
+      "start_frame": 12598,
+      "end_frame": 12668,
+      "start_sec": 421.098372,
+      "end_sec": 423.438179,
+      "duration_sec": 2.373233,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a lively outdoor event, likely a parade or cultural festival, taking place on a bustling urban street. A large red balloon with a logo is a prominent feature, floating above a dense crowd of attendees. The atmosphere is vibrant, with colorful banners, signs, and festive decorations lining the scene. The gathering occurs in rainy weather, as many people are seen holding umbrellas while walking or standing together. The crowd includes individuals of various ages, and prominent Korean signage is visible, indicating the event's likely location or cultural context."
+    },
+    {
+      "scene_index": 67,
+      "start_frame": 12669,
+      "end_frame": 12699,
+      "start_sec": 423.471605,
+      "end_sec": 424.474379,
+      "duration_sec": 1.0362,
+      "num_frame_captions": 2,
+      "caption": "The scene depicts a vibrant street parade taking place in a city during rainy weather. A dense crowd of participants and spectators fills the scene, with many people holding umbrellas. Colorful elements such as signs, banners, and balloons contribute to the lively atmosphere. A prominent Korean flag is visible within the gathering. The overall impression is of a crowded, celebratory public event moving through an urban setting."
+    },
+    {
+      "scene_index": 68,
+      "start_frame": 12700,
+      "end_frame": 12839,
+      "start_sec": 424.507805,
+      "end_sec": 429.153993,
+      "duration_sec": 4.679614,
+      "num_frame_captions": 9,
+      "caption": "The scene depicts a vibrant street parade in an urban setting, likely during a cultural or pride celebration. A dense, bustling crowd of participants and spectators fills the street, many holding colorful umbrellas, flags, and signs, including rainbow flags and a \"Happy Pride\" banner. Ornate floats, one prominently featured, move through the area. The atmosphere is festive and energetic, with banners displaying Korean text adding a specific cultural element to the event. The weather appears variable, with moments of sunshine and overcast skies."
+    },
+    {
+      "scene_index": 69,
+      "start_frame": 12840,
+      "end_frame": 12858,
+      "start_sec": 429.187419,
+      "end_sec": 429.789083,
+      "duration_sec": 0.63509,
+      "num_frame_captions": 2,
+      "caption": "The scene depicts a lively street parade moving through an urban setting. The procession includes traditional floats and a crowd of participants carrying colorful flags and umbrellas, suggesting a festive or cultural celebration. The atmosphere is vibrant and crowded, with the event continuing despite rainy conditions. The parade advances along a street flanked by buildings, maintaining its energetic and ornate character throughout."
+    },
+    {
+      "scene_index": 70,
+      "start_frame": 12859,
+      "end_frame": 12895,
+      "start_sec": 429.822509,
+      "end_sec": 431.025838,
+      "duration_sec": 1.236755,
+      "num_frame_captions": 2,
+      "caption": "The scene depicts a lively and densely populated urban setting, where a large crowd has gathered in the street. The atmosphere is vibrant and energetic, indicated by the presence of numerous colorful umbrellas and flags held aloft by the participants. This collective display strongly suggests an organized public event, such as a festive parade, a celebration, or a mass demonstration. The focus is on the crowd itself and the visual spectacle they create with their props, conveying a sense of shared purpose or communal activity within the public space."
+    },
+    {
+      "scene_index": 71,
+      "start_frame": 12896,
+      "end_frame": 12911,
+      "start_sec": 431.059264,
+      "end_sec": 431.560651,
+      "duration_sec": 0.534813,
+      "num_frame_captions": 1,
+      "caption": "The scene depicts a lively cultural celebration taking place on a bustling street. The focus is on a vibrant parade filled with participants and spectators. The event is characterized by a festive atmosphere, enhanced by colorful flags, umbrellas, and traditional decorations that move through the crowd. The overall impression is one of communal joy and shared tradition during this public procession."
+    },
+    {
+      "scene_index": 72,
+      "start_frame": 12912,
+      "end_frame": 12934,
+      "start_sec": 431.594077,
+      "end_sec": 432.329445,
+      "duration_sec": 0.768794,
+      "num_frame_captions": 2,
+      "caption": "This scene captures a lively and densely packed street parade, a clear cultural celebration marked by a vibrant display of color and motion. Participants are actively engaged, waving an array of colorful flags and banners while others hold signs and umbrellas aloft. The overall atmosphere is one of communal festivity and energetic participation. The visual quality of the recording is grainy and low-resolution, which contributes to a sense of immediacy and raw documentation of the bustling event. The focus remains on the collective, celebratory action unfolding within the crowded urban setting."
+    },
+    {
+      "scene_index": 73,
+      "start_frame": 12935,
+      "end_frame": 12961,
+      "start_sec": 432.362871,
+      "end_sec": 433.231942,
+      "duration_sec": 0.902497,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a lively street protest or parade with a significant Korean cultural presence. A large crowd fills the street, many participants waving colorful flags and holding signs. The most prominent visual element is a large white banner bearing Korean characters, which is clearly visible in the foreground of the gathering. The specific text on the banner indicates the involvement of a \"\ud48d\ubb3c\ud328\" or \"Pyeongmulpa,\" a traditional Korean percussion band, suggesting this may be a demonstration or celebration centered on Korean cultural identity or related political expression. The overall atmosphere appears active and densely populated."
+    },
+    {
+      "scene_index": 74,
+      "start_frame": 12962,
+      "end_frame": 12986,
+      "start_sec": 433.265368,
+      "end_sec": 434.067587,
+      "duration_sec": 0.835645,
+      "num_frame_captions": 1,
+      "caption": "The scene depicts a protest march taking place on a city street. A large and diverse crowd of demonstrators is moving together, many of whom are waving flags and holding up signs to convey their message. The presence of a prominent Korean-language banner indicates the specific context or cause of the gathering. The overall atmosphere is one of organized public demonstration, with the group collectively advancing down the roadway."
+    },
+    {
+      "scene_index": 75,
+      "start_frame": 12987,
+      "end_frame": 13051,
+      "start_sec": 434.101013,
+      "end_sec": 436.240265,
+      "duration_sec": 2.172678,
+      "num_frame_captions": 5,
+      "caption": "The scene depicts a lively street parade with a large, diverse crowd of participants and spectators. People are waving colorful flags and holding signs, while some carry umbrellas under an overcast sky. The procession includes a traditional, ornate float and vibrant decorations. The overall atmosphere is festive and energetic, suggesting a cultural celebration or public demonstration."
+    },
+    {
+      "scene_index": 76,
+      "start_frame": 13052,
+      "end_frame": 13086,
+      "start_sec": 436.273691,
+      "end_sec": 437.410168,
+      "duration_sec": 1.169903,
+      "num_frame_captions": 2,
+      "caption": "The scene depicts a lively street parade filled with celebratory crowds. Participants wave numerous colorful flags and banners, contributing to a vibrant and festive atmosphere. A decorated float moves through the scene, adding to the visual spectacle. The overall mood is one of communal celebration, with the dense crowd and display of symbols suggesting a large public event, such as a festival or demonstration."
+    },
+    {
+      "scene_index": 77,
+      "start_frame": 13087,
+      "end_frame": 13148,
+      "start_sec": 437.443594,
+      "end_sec": 439.482568,
+      "duration_sec": 2.0724,
+      "num_frame_captions": 4,
+      "caption": "The scene depicts a vibrant cultural parade moving through a crowded urban street. The event is characterized by a dense throng of spectators and participants, with colorful flags, banners, and traditional decorations creating a festive atmosphere. Ornate floats are a central feature of the procession. The sky is overcast, and some in the crowd are holding umbrellas, indicating the possibility of rain. The overall setting is a lively street celebration, filled with people and a strong sense of communal festivity."
+    },
+    {
+      "scene_index": 78,
+      "start_frame": 13149,
+      "end_frame": 13168,
+      "start_sec": 439.515994,
+      "end_sec": 440.151085,
+      "duration_sec": 0.668516,
+      "num_frame_captions": 1,
+      "caption": "The scene depicts a vibrant public gathering on a busy street. A crowd of people is assembled, many of whom are holding up colorful flags and carrying signs. The presence of these visual elements strongly indicates that the event is either a demonstration or a celebratory parade. The overall atmosphere is one of collective public participation, with the focus on the assembled group and their displayed symbols within the urban setting."
+    },
+    {
+      "scene_index": 79,
+      "start_frame": 13169,
+      "end_frame": 13185,
+      "start_sec": 440.18451,
+      "end_sec": 440.719323,
+      "duration_sec": 0.568239,
+      "num_frame_captions": 2,
+      "caption": "The scene depicts a vibrant and energetic street protest or parade, with a large and diverse crowd moving along an urban thoroughfare. Participants are actively engaged, carrying a variety of colorful flags and banners while holding signs to convey their messages. Despite the activity, many in the crowd are using umbrellas, suggesting the event is taking place under a bright and sunny sky. The overall atmosphere appears lively and determined as the procession advances down the street."
+    },
+    {
+      "scene_index": 80,
+      "start_frame": 13186,
+      "end_frame": 14156,
+      "start_sec": 440.752749,
+      "end_sec": 473.175786,
+      "duration_sec": 32.456463,
+      "num_frame_captions": 64,
+      "caption": "The scene depicts a discarded syringe in various wet, muddy urban environments, often near walls or gutters. A person in jeans and white shoes is seen near and then stepping on the syringe. The setting then shifts to a series of bustling indoor locations, including markets, food stalls, bars, and stores, where people interact with large metal pots, bowls, and counters. The final segments show chaotic street scenes at dusk or night, captured from moving vehicles or through windows, featuring buildings with awnings, pedestrians, and reflective metallic objects in the foreground."
+    },
+    {
+      "scene_index": 81,
+      "start_frame": 14157,
+      "end_frame": 14468,
+      "start_sec": 473.209212,
+      "end_sec": 483.60464,
+      "duration_sec": 10.428853,
+      "num_frame_captions": 21,
+      "caption": "The scene takes place in a busy restaurant or food stall, where a person in a dark jacket and glasses, sometimes with a red scarf, works behind a counter. They interact with various items, including a book, a menu, a box, and a package, amidst large metal pots and containers. The setting includes a kitchen or preparation area and extends to a storefront with shelves stocked with goods, jars, and bottles. Other patrons are present, and the overall atmosphere is warm, cluttered, and active."
+    },
+    {
+      "scene_index": 82,
+      "start_frame": 14469,
+      "end_frame": 14488,
+      "start_sec": 483.638065,
+      "end_sec": 484.273156,
+      "duration_sec": 0.668516,
+      "num_frame_captions": 1,
+      "caption": "The scene depicts a festive gathering or performance event, as indicated by the presence of a crowd. Many attendees are wearing pink and red attire, contributing to a vibrant and celebratory atmosphere. The visual quality is characterized by blurriness and low resolution, suggesting movement or a candid, dynamic capture of the event. The focus remains on the collective group and their colorful appearance within this social setting."
+    },
+    {
+      "scene_index": 83,
+      "start_frame": 14489,
+      "end_frame": 14522,
+      "start_sec": 484.306582,
+      "end_sec": 485.409633,
+      "duration_sec": 1.136478,
+      "num_frame_captions": 3,
+      "caption": "A group of performers in traditional costumes, many in red and pink with elaborate headpieces, are gathered on and around a staircase. They are seated in rows, holding red fans, and appear to be preparing for or participating in a cultural performance. The setting suggests a festive event, likely involving dance or theater. The scene captures the performers assembled together in a staged arrangement before or during their act."
+    },
+    {
+      "scene_index": 84,
+      "start_frame": 14523,
+      "end_frame": 14582,
+      "start_sec": 485.443059,
+      "end_sec": 487.415182,
+      "duration_sec": 2.005549,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a performance or event in an indoor venue, centered around a group of performers in vibrant red and pink costumes. The action unfolds on and around a staircase, which serves as the primary stage. The performers, some wearing elaborate headpieces, are initially gathered on the staircase before the scene expands to show a larger crowd assembled on tiered bleachers, suggesting an audience or additional participants. The consistent theme is a coordinated gathering of costumed individuals within a structured performance space, indicating a planned theatrical or ceremonial presentation."
+    },
+    {
+      "scene_index": 85,
+      "start_frame": 14583,
+      "end_frame": 14608,
+      "start_sec": 487.448608,
+      "end_sec": 488.284253,
+      "duration_sec": 0.869071,
+      "num_frame_captions": 1,
+      "caption": "This scene depicts a vibrant cultural or theatrical performance. A group of performers, dressed in coordinated traditional costumes of red and orange, are positioned on and around a staircase, which serves as the central stage for their presentation. Their deliberate arrangement suggests a structured, group-based performance, likely involving dance, music, or a ceremonial display. The setting implies a formal event, with the staircase adding a dynamic, multi-level element to the visual composition of the act. The focus is on the collective presentation of the performers within this staged environment."
+    },
+    {
+      "scene_index": 86,
+      "start_frame": 14609,
+      "end_frame": 14642,
+      "start_sec": 488.317679,
+      "end_sec": 489.420731,
+      "duration_sec": 1.136478,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a dynamic gathering of performers clad in vibrant red and orange, with accents of gold, costumes that appear to be traditional in style. They are assembled on and around a staircase within a substantial indoor space, likely a venue such as a theater or hall. The consistent presence across the frames suggests a stationary or posed arrangement rather than active movement, potentially for a performance, ceremony, or group photograph. The focus is on the collective presence of the costumed group against the architectural backdrop of the staircase in a large interior setting."
+    },
+    {
+      "scene_index": 87,
+      "start_frame": 14643,
+      "end_frame": 15258,
+      "start_sec": 489.454156,
+      "end_sec": 510.011031,
+      "duration_sec": 20.5903,
+      "num_frame_captions": 41,
+      "caption": "This scene begins indoors with a festive gathering. People in colorful costumes and hats are clustered on a staircase, indicating a performance or celebration. The focus then shifts outdoors to rainy weather, where a specific man becomes the central subject. He has glasses and a beard, wears a red scarf and a dark jacket, and consistently holds an umbrella. He is actively engaging with the camera, frequently looking directly at it while speaking or smiling. Other people, including someone in a red jacket, are present in the background, confirming this is a shared outdoor event in the rain."
+    },
+    {
+      "scene_index": 88,
+      "start_frame": 15259,
+      "end_frame": 15354,
+      "start_sec": 510.044456,
+      "end_sec": 513.219908,
+      "duration_sec": 3.208878,
+      "num_frame_captions": 6,
+      "caption": "This scene shows a man outdoors in a rainy, wooded area, interacting with the camera. He is consistently wearing a grey jacket and a black cap while holding a large black umbrella. The man is smiling and, in several instances, he cheerfully flashes a peace sign toward the camera. He is not alone; other people holding umbrellas are present in the background, indicating this is a crowd gathered in the wet weather. The consistent elements are the rainy setting, the man's friendly gestures, and the presence of other individuals with umbrellas around him."
+    },
+    {
+      "scene_index": 89,
+      "start_frame": 15355,
+      "end_frame": 16005,
+      "start_sec": 513.253334,
+      "end_sec": 534.980112,
+      "duration_sec": 21.760203,
+      "num_frame_captions": 44,
+      "caption": "This scene features a man with glasses and a beard, often wearing a red scarf or turtleneck, who is outdoors in rainy weather. He is consistently holding a large black umbrella. Throughout the sequence, he engages directly with the camera, frequently smiling, speaking, or singing animatedly. His expressions vary, including looking directly at the viewer, glancing upward, or looking off to the side, often with his mouth open as if in mid-speech or reaction. The setting involves greenery, and the persistent umbrella and descriptions of rain indicate he is sheltered from the elements while being filmed."
+    },
+    {
+      "scene_index": 90,
+      "start_frame": 16006,
+      "end_frame": 16033,
+      "start_sec": 535.013537,
+      "end_sec": 535.916034,
+      "duration_sec": 0.935923,
+      "num_frame_captions": 1,
+      "caption": "The scene takes place outdoors, where a person wearing a black and gray jacket walks past a group of other individuals. Among the group is a figure dressed in a red hooded outfit who is holding a white umbrella. The overall setting appears somewhat blurry, suggesting movement or a casual, unfocused perspective. The primary action is the passage of the jacket-clad individual through this small gathering."
+    },
+    {
+      "scene_index": 91,
+      "start_frame": 16034,
+      "end_frame": 16583,
+      "start_sec": 535.94946,
+      "end_sec": 554.300231,
+      "duration_sec": 18.384196,
+      "num_frame_captions": 37,
+      "caption": "This scene begins in a traditional East Asian garden, featuring a tranquil pond with a wooden bridge, lush greenery, and a pagoda-style pavilion. Visitors, some holding umbrellas, stroll along paths and over the bridge under an overcast sky. A vibrant orange koi fish swims gracefully in the pond's murky water. The scene then transitions to a different environment, where the same fish is seen swimming beneath concrete or wooden structures in murky water. It concludes with a group of people, some carrying babies, navigating a rainy wooded trail under colorful umbrellas and rain gear."
+    },
+    {
+      "scene_index": 92,
+      "start_frame": 16584,
+      "end_frame": 17506,
+      "start_sec": 554.333656,
+      "end_sec": 585.152255,
+      "duration_sec": 30.852024,
+      "num_frame_captions": 62,
+      "caption": "The scene begins with a group of people in rain gear walking through a wooded, muddy area on a rainy day, some holding umbrellas. They navigate along paths and past stone walls. The setting then shifts to a tranquil garden featuring a traditional Chinese pavilion, a pond, and lush greenery, where people are gathered. Finally, the scene moves to a crowded, rainy urban street where a large crowd marches or parades, holding umbrellas and colorful banners or flags near large buildings and monuments."
+    },
+    {
+      "scene_index": 93,
+      "start_frame": 17507,
+      "end_frame": 17523,
+      "start_sec": 585.18568,
+      "end_sec": 585.720493,
+      "duration_sec": 0.568239,
+      "num_frame_captions": 1,
+      "caption": "The scene appears to be set outdoors at night or in very low light. The overall visual quality is poor, characterized by darkness, low resolution, and heavy pixelation. Within this obscured view, the general forms of people and trees can be discerned as indistinct shapes, suggesting human presence in a natural or park-like environment. The lack of clear detail prevents a more specific account of actions or events."
+    },
+    {
+      "scene_index": 94,
+      "start_frame": 17524,
+      "end_frame": 17526,
+      "start_sec": 585.753919,
+      "end_sec": 585.820771,
+      "duration_sec": 0.100277,
+      "num_frame_captions": 0,
+      "caption": ""
+    }
+  ]
+}

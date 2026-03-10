@@ -1,0 +1,13 @@
+{
+  "video": "Bus_in_Rock_Tunnel",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Bus_in_Rock_Tunnel.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/summe/video_5.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 3,
+  "caption": "The video begins with a Stagecoach West bus (number 803) slowly emerging from a dark, narrow tunnel carved into a rugged mountain, highlighting the contrast between the vehicle and the imposing natural landscape. The scene then shifts to show a white vehicle in a precarious position, stranded on a narrow mountain road overlooking a steep drop, as a man in an orange shirt inspects the situation.\n\nFinally, the same Stagecoach West bus is seen carefully navigating a tight, rocky mountain pass, with the man in orange walking alongside it. Other vehicles and observing passengers are visible as the bus maneuvers through the constriction before reaching a wider section of the winding road ahead."
+}

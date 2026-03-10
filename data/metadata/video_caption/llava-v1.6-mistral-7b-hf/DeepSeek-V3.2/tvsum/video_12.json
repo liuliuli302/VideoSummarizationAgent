@@ -1,0 +1,13 @@
+{
+  "video": "Bhxk-O1Y7Ho",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/Bhxk-O1Y7Ho.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_12.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 181,
+  "caption": "The video begins with a close-up of a person gently petting a white, fluffy animal, likely a dog or cat, in an indoor setting. It then transitions to a time-lapse montage of the Atlanta skyline at night, showcasing the city's illuminated skyscrapers and highways, overlaid with the text \"Just a Girl ATL.\"\n\nThe focus then shifts to a woman with long dark hair in her home. She is seen in various casual, candid moments throughout her kitchen and living spaces, smiling at the camera, interacting with household items, and engaging in everyday activities like looking in the refrigerator or standing by a counter. The domestic scenes show a relaxed, informal atmosphere with visible appliances, bottles, and personal items like a \"KEEP CALM EAT CUPCAKE\" sign.\n\nLater, the video highlights a collection of personal care and pet grooming products. It shows various bottles and cans in a bathroom setting, including shampoos, conditioners, and stain removers from brands like Earthbath and Tropiclean, with labels such as \"Puppy Shampoo\" and \"Tea Stain Remover.\" This is followed by close-up shots of hair care products like \"Thick N After Bath\" shampoo, displayed on a counter and held in someone's hand. The sequence concludes with shots inside a refrigerator containing items like protein powder and beverages, maintaining the theme of everyday household and personal care items."
+}

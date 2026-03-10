@@ -5,7 +5,7 @@
   "image_caption_model": "Qwen3-VL-8B-Instruct",
   "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_45.json",
   "scene_caption_model": "DeepSeek-V3.2",
-  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\n\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\n\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\n* avoid speculation beyond the provided captions\n\nScene description:\n",
   "scene_threshold": 27.0,
   "max_tokens": 120,
   "fps": 23.976023976023978,
@@ -20,7 +20,7 @@
       "end_sec": 0.709042,
       "duration_sec": 0.75075,
       "num_frame_captions": 2,
-      "caption": "This scene consists of a sustained period of complete darkness. The visual field is devoid of any light, detail, or discernible imagery, creating an impression of an empty void or a transition between sequences. This absence of visual information shifts the focus entirely to the auditory elements of the video, such as dialogue, sound effects, or music, or it may serve as a deliberate stylistic pause within the narrative. The prolonged black screen can build tension, signify an ellipsis in time, or represent a moment of pure audio storytelling before the visuals resume."
+      "caption": "The scene depicts an extended period of complete visual darkness. Throughout this sequence, the screen remains uniformly black without any emergence of objects, text, or distinct visual elements. This sustained absence of imagery suggests a prolonged interval where no discernible content is presented to the viewer. The scene is characterized solely by an unbroken black field, indicating a total lack of on-screen activity or detail for its duration. The continuity of this empty visual state forms the entirety of the depicted event."
     },
     {
       "scene_index": 1,
@@ -30,7 +30,7 @@
       "end_sec": 8.383375,
       "duration_sec": 7.674333,
       "num_frame_captions": 12,
-      "caption": "A woman named Amanda stands in front of a colorful cartoon mural featuring pink clouds, stars, and bicycles. She is shown in various poses, sometimes with her hands open or smiling, as the scene introduces her and the topic \"How to Wheelie,\" indicating she is about to demonstrate the bicycle trick."
+      "caption": "This scene features a woman named Amanda, identified by text overlay and her t-shirt, who is positioned in front of a vibrant, cartoon-style mural. The backdrop is consistently described as colorful and stylized, featuring elements like pink clouds, stars, and a cityscape, with bicycles or their handlebars visible on either side of her. The sequence shows her standing with her hands open, smiling, and at one point with her eyes closed. The scene culminates with the appearance of the text \"How to Wheelie\" over the image, clearly indicating that she is about to demonstrate this bicycle trick."
     },
     {
       "scene_index": 2,
@@ -40,7 +40,7 @@
       "end_sec": 11.553208,
       "duration_sec": 3.169833,
       "num_frame_captions": 5,
-      "caption": "A cyclist rides through an urban street, performing a wheelie on a white bicycle. The scene is vibrant and stylized, featuring graffiti-like graphics with the word \"Pure\" alongside bicycle silhouettes. As the cyclist moves past buildings and traffic lights, a red light glows under a clear sky. A dark pickup truck passes by in the opposite direction. The setting includes vintage signs for \"Public Park\" and \"LA PHIL,\" blending dynamic motion with a textured, graphic aesthetic."
+      "caption": "This scene depicts a cyclist performing dynamic maneuvers in an urban environment. The action centers on a rider on a white bicycle executing a wheelie or jump on a city street. The setting features buildings, traffic signals, and vintage signage, including markers for \"LA PHIL\" and \"Public Park.\" The sequence shows the cyclist in motion, both during the trick and while pedaling alongside a passing pickup truck. The scene is stylistically framed by a vibrant, graffiti-inspired graphic with the word \"Pure\" and bicycle silhouettes, establishing a theme of urban cycling culture."
     },
     {
       "scene_index": 3,
@@ -50,7 +50,7 @@
       "end_sec": 12.971292,
       "duration_sec": 1.418083,
       "num_frame_captions": 2,
-      "caption": "A cyclist in a black shirt and helmet rides a white bicycle along a paved road on a clear, sunny day. The route takes the cyclist across a bridge, with buildings and hills visible in the background. At one point, a speeding black truck follows closely behind the bicycle. The scene captures a moment of shared transit infrastructure, contrasting the cyclist's steady pace with the vehicle's faster motion."
+      "caption": "A cyclist wearing a black shirt and a helmet rides a white bicycle along a paved road on a clear, sunny day. The route takes the cyclist across a bridge, with buildings and hills visible in the background. In one part of the scene, the cyclist is closely followed by a speeding black truck on the same road. The overall setting is an open, outdoor environment under a bright sky."
     },
     {
       "scene_index": 4,
@@ -60,7 +60,7 @@
       "end_sec": 14.347667,
       "duration_sec": 1.376375,
       "num_frame_captions": 2,
-      "caption": "This scene focuses on the dynamic, close-up details of a cyclist in motion. The primary subject is a white bicycle, prominently branded with \"PURE FIT,\" as it is being actively ridden. The perspective emphasizes the physical connection between the rider and the machine, highlighted by a tight shot of a hand firmly gripping the handlebar. The sense of movement and speed is conveyed through a motion-blurred foreground, where the rider's tattooed arm and black clothing become a streaked impression. Overall, the scene immerses the viewer in the intense, kinetic experience of cycling from an intimate, first-person-like viewpoint."
+      "caption": "This scene features a close-up, dynamic view of a white bicycle in motion. The focus is on a rider\u2019s tattooed arm and hand gripping the handlebar, both clad in black clothing, against the blurred background suggesting speed. The bicycle frame bears the brand name \u201cPURE FIT,\u201d clearly visible in the detailed shot. The composition emphasizes the physical interaction between the rider and the bike, conveying a sense of active cycling through the intimate, partially blurred imagery centered on the rider\u2019s arm and the branded handlebar area."
     },
     {
       "scene_index": 5,
@@ -70,7 +70,7 @@
       "end_sec": 15.348667,
       "duration_sec": 1.001,
       "num_frame_captions": 2,
-      "caption": "In a workshop, a man and a woman are engaged in the process of building or repairing a bicycle. Surrounded by tools and components, they work together enthusiastically. Their collaboration culminates in a shared moment of triumph, which they celebrate with an excited high-five and broad smiles. The atmosphere is one of joyful accomplishment, as their successful effort on the bicycle project clearly brings them both great satisfaction. The scene captures the energy of a team achieving a common goal in a hands-on, creative environment."
+      "caption": "In a workshop, a man and a woman share a moment of joyful celebration focused on a bicycle. The scene depicts them smiling and gesturing excitedly beside the bike, which appears to be the subject of their work, surrounded by tools and partially assembled components. Their shared enthusiasm culminates in a high-five, a clear gesture of mutual triumph and accomplishment. The overall atmosphere is one of collaborative success and positive energy, centered around their activity in the bike workshop."
     },
     {
       "scene_index": 6,
@@ -80,7 +80,7 @@
       "end_sec": 17.017,
       "duration_sec": 1.668333,
       "num_frame_captions": 3,
-      "caption": "This scene depicts a person performing routine bicycle maintenance. The individual is shown lubricating the bicycle chain to ensure smooth operation and reduce wear. Simultaneously, they are adjusting and tightening the wheel hub, likely to secure the wheel and optimize its rotation. These two key tasks\u2014chain care and hub adjustment\u2014are fundamental for keeping the bicycle in good working order, highlighting a practical moment of mechanical upkeep."
+      "caption": "This scene depicts a person performing bicycle maintenance. The individual is shown lubricating the bicycle chain. Simultaneously, another person assists by using a tool, likely a wrench, to adjust or tighten the bicycle's wheel hub. The actions are captured in a split-frame format, with one panel focusing on the chain lubrication and the other on the work being done on the hub. The scene centers on these two coordinated maintenance tasks."
     },
     {
       "scene_index": 7,
@@ -90,7 +90,7 @@
       "end_sec": 18.018,
       "duration_sec": 1.001,
       "num_frame_captions": 1,
-      "caption": "This scene captures a cyclist in a moment of intense physical exertion, conveying a strong sense of movement and purpose. The rider is fully engaged, pedaling with powerful determination as they navigate their path. The visual effect of a blurred background heightens the impression of rapid forward motion, isolating the figure and emphasizing their speed and focus. The overall atmosphere is one of dynamic energy and athletic effort, suggesting a training session or a competitive race where momentum and stamina are paramount."
+      "caption": "This scene captures a cyclist in motion, conveying a sense of speed and physical exertion. The rider is pedaling with visible effort, suggesting a demanding pace or uphill climb. The primary visual effect is a blurred background, a technique used to emphasize the rapid movement of the bicycle and create a dynamic, kinetic feel. The overall focus is on the cyclist's action and the impression of swift travel, with the stylistic blur serving to isolate the subject and heighten the sensation of velocity within the frame."
     },
     {
       "scene_index": 8,
@@ -100,7 +100,7 @@
       "end_sec": 19.102417,
       "duration_sec": 1.084417,
       "num_frame_captions": 2,
-      "caption": "In a garage workshop, a man and a woman collaborate on repairing or assembling a bicycle. The man, holding the bike's handlebars, appears to be explaining or demonstrating a specific aspect of the task to his companion. The woman observes attentively, indicating a shared learning or working process. Their environment is well-equipped for the job, filled with various tools and bicycle parts. The scene captures a moment of practical, hands-on activity, emphasizing teamwork and focused instruction in a domestic or hobbyist setting."
+      "caption": "A man and a woman are collaborating on a bicycle repair in a workshop or garage setting. The scene shows them focused on the bicycle\u2019s handlebars, with the man holding them and gesturing towards the bike, likely indicating a specific issue or component. The woman is attentively observing the handlebars and his gestures, suggesting a joint troubleshooting or instructional effort. Their surroundings include various tools and bicycle supplies, which supports the context of a hands-on maintenance task. Together, they engage in a shared, practical activity centered around the bicycle in this workspace."
     },
     {
       "scene_index": 9,
@@ -110,7 +110,7 @@
       "end_sec": 20.687333,
       "duration_sec": 1.584917,
       "num_frame_captions": 3,
-      "caption": "The scene follows a cyclist from the perspective of a vehicle in traffic. The view alternates between a close-up of the cyclist's foot pedaling and the driver's dashcam perspective on a multi-lane road. The vehicle is surrounded by other cars, including a silver pickup truck and a red car ahead, as it travels along a route marked with yellow road lines. The overall sequence conveys a sense of motion and proximity to the cyclist within the flow of traffic."
+      "caption": "This scene is captured from a moving vehicle driving in heavy traffic on a multi-lane road. The perspective is primarily a low-resolution, shaky dashcam view showing other vehicles, including a silver pickup truck to the left, a silver sedan to the right, and a red car ahead, all traveling along a road marked with yellow double lines. A white wall is visible to the left. Concurrently, a separate, blurry close-up shot focuses on a cyclist's foot in a gray shoe pedaling a bicycle, with a bright green object near the pedal, indicating the cyclist is part of the same traffic environment."
     },
     {
       "scene_index": 10,
@@ -120,7 +120,7 @@
       "end_sec": 21.5215,
       "duration_sec": 0.834167,
       "num_frame_captions": 1,
-      "caption": "The scene depicts a busy stretch of multi-lane highway traffic. A car, presumably the primary vehicle, travels steadily along the road, surrounded by the flow of other cars and larger commercial trucks. The overall movement suggests a typical commute or long-distance journey, with vehicles maintaining their lanes and speeds. The presence of multiple trucks indicates this is likely a major freight route. The weather appears clear, allowing for unobstructed travel under a daytime sky. The atmosphere is one of routine, high-speed transit, with no immediate indications of congestion or unusual activity on this open roadway."
+      "caption": "The scene depicts a multi-lane highway where traffic is flowing steadily. A car is in motion, sharing the road with several other vehicles. Among the surrounding traffic, large trucks are present both ahead in the same direction of travel and in adjacent lanes. The overall setting suggests a typical, active freeway environment where multiple types of vehicles are traveling concurrently. The focus is on the collective movement and spatial arrangement of the cars and trucks within the highway lanes, conveying a sense of routine transit."
     },
     {
       "scene_index": 11,
@@ -130,7 +130,7 @@
       "end_sec": 25.692333,
       "duration_sec": 4.170833,
       "num_frame_captions": 7,
-      "caption": "This scene is a dynamic, stylized introduction for the cycling series \"PURE FIX.\" It opens with a fast-paced shot of a cyclist leaning into a turn in a park, with motion blur emphasizing speed. The sequence cuts to a stylized logo card featuring a winged emblem, bold text, and a cartoon smartphone with lightning bolts, reinforcing a theme of tech and rapid service. The perspective shifts to a first-person view from a skateboard on a concrete ramp, with palm trees visible, as the \"PURE FIX TV\" logo overlays the action, establishing an energetic, urban athletic tone."
+      "caption": "This scene opens with a stylized title card for \"PURE FIX,\" featuring a winged logo and a cartoon smartphone with lightning bolts, establishing a fast, tech-focused brand identity. The action then shifts to a first-person perspective from a skateboarding video, with the \"PURE FIX TV\" logo overlaid on a concrete skate ramp. The setting is an outdoor park with palm trees, where a cyclist is captured leaning into a turn with motion blur, conveying a sense of speed and dynamic movement. The overall sequence combines branded graphics with active, blurred shots of cycling and skating in a sunny, palm-lined environment."
     },
     {
       "scene_index": 12,
@@ -140,7 +140,7 @@
       "end_sec": 26.860167,
       "duration_sec": 1.167833,
       "num_frame_captions": 1,
-      "caption": "This scene opens with a dynamic introduction featuring the \"PURE FIX TV\" logo, characterized by a stylized wing and lightning bolt. The visual style, with its motion blur and sharp graphics, immediately establishes an energetic, high-adrenaline tone. It suggests the ensuing content will focus on action-packed or extreme sports, priming the viewer for fast-paced footage and thrilling stunts. The logo serves as a bold brand identifier, setting the stage for the channel's signature content."
+      "caption": "This scene opens with a dynamic, motion-blurred title card for \"PURE FIX TV,\" prominently featuring its stylized logo of a wing and lightning bolt. This establishes the energetic and extreme nature of the program. The visual style, characterized by blur and speed lines, immediately conveys a sense of high-octane action and fast-paced movement. The branding sets the tone for the content to follow, indicating a focus on thrilling, possibly adrenaline-fueled sports or stunts. The scene serves as an introductory bumper, preparing the viewer for an intense viewing experience centered around action sports culture."
     },
     {
       "scene_index": 13,
@@ -150,7 +150,7 @@
       "end_sec": 27.902875,
       "duration_sec": 1.042708,
       "num_frame_captions": 2,
-      "caption": "This scene presents a digitally corrupted or glitch-art aesthetic. It begins with a heavily distorted frame featuring abstract black and white wavy patterns over a blurry background, creating a sense of visual corruption or intentional digital manipulation. The scene then resolves into a simpler, more stable composition, centering on a single glowing white bar with soft edges against a pure black void. The overall effect is a transition from chaotic, fragmented imagery to a focused, minimalist graphic element."
+      "caption": "This scene presents a stark visual contrast between abstract digital distortion and a simple, clean graphic. It opens with a heavily corrupted and glitch-art aesthetic, featuring chaotic black and white wavy patterns that obscure any underlying imagery. This gives way to a moment of pure visual clarity, where the distortion resolves into a solid black void. Centered within this darkness is a single, luminous white bar with soft, blurred edges, creating a focal point of calm geometric simplicity against the preceding chaos."
     },
     {
       "scene_index": 14,
@@ -160,7 +160,7 @@
       "end_sec": 40.29025,
       "duration_sec": 12.387375,
       "num_frame_captions": 20,
-      "caption": "Two young men, George (the mechanic/rider) and Cole (the trick rider), are introduced in a dimly lit industrial garage or warehouse. George, wearing a black \"Pure Fix\" t-shirt and cap, gestures while speaking to Cole, who is in a camouflage shirt and holds a red skateboard or scooter. On-screen graphics identify their roles as they converse about their work, establishing their partnership in a custom vehicle or stunt building context. The scene sets up their dynamic in a gritty, workshop-like environment."
+      "caption": "This scene introduces two young men, George and Cole, in a dimly lit industrial garage or warehouse. George, identified as a \"Mechanic/Rider,\" wears a black \"Pure Fix\" t-shirt and cap and is seen gesturing as if speaking. Cole, identified as a \"Trick Rider,\" wears a camouflage shirt and holds a red skateboard or scooter. They stand and converse, with George appearing to address Cole. The scene includes brief moments where they walk side-by-side and a graphic overlay highlights Cole's role, establishing their identities and interaction in this workshop-like setting."
     },
     {
       "scene_index": 15,
@@ -170,7 +170,7 @@
       "end_sec": 43.710333,
       "duration_sec": 3.420083,
       "num_frame_captions": 5,
-      "caption": "The scene opens with a stylized \"PF\" logo against a dynamic striped background. The perspective then shifts to a low-angle view of cracked pavement at night, with a blurry wheel suggesting rapid motion. This is followed by close-up shots focusing on the mechanics of a moving bicycle, including its spinning wheels and pedals against dark, blurred backgrounds. The sequence emphasizes speed and motion, capturing the bicycle's journey from a ground-level perspective."
+      "caption": "The scene features a bicycle in motion, captured through close-up and low-angle shots that emphasize its wheels and pedals against dark, blurry backgrounds. The sequence includes views of the front wheel, the wheels and pedals together, and a wheel near a cracked pavement and curb, all suggesting nighttime movement. This dynamic action is framed by a stylized blue and yellow \"PF\" logo against a striped background, which appears as a graphical element within the scene."
     },
     {
       "scene_index": 16,
@@ -180,7 +180,7 @@
       "end_sec": 46.880167,
       "duration_sec": 3.169833,
       "num_frame_captions": 5,
-      "caption": "A cyclist rides a bicycle through a large, empty industrial warehouse. The setting features corrugated metal walls, a high ceiling, exposed beams, and a polished concrete floor under dim lighting. During the ride, the cyclist performs a wheelie, showcasing the maneuver within the expansive, cavernous space. The scene captures a moment of dynamic movement and skill against the stark, static backdrop of the unused industrial interior."
+      "caption": "This scene takes place inside a large, empty industrial warehouse characterized by corrugated metal walls, a high ceiling, and a polished concrete floor. The primary action involves a cyclist riding a bicycle through this spacious interior. At times, the cyclist performs a wheelie, lifting the front wheel of the bike off the ground while maintaining balance and forward motion. The setting is dimly lit, emphasizing the warehouse's exposed structural beams and creating a stark backdrop for the cycling activity."
     },
     {
       "scene_index": 17,
@@ -190,7 +190,7 @@
       "end_sec": 51.217833,
       "duration_sec": 4.337667,
       "num_frame_captions": 7,
-      "caption": "A young man in a black graphic t-shirt and a green-and-black baseball cap is speaking directly to the camera in a dim, industrial space resembling a warehouse. He gestures expressively with his hands while talking. The setting features concrete walls and prominent \"DO NOT ENTER\" signs in the background. The scene maintains a consistent, focused shot of the man delivering his monologue in this atmospheric location."
+      "caption": "A young man in a black t-shirt and a green baseball cap stands in a dimly lit industrial or warehouse setting. He faces the camera directly, gesturing with his hands as he speaks. Behind him, the concrete walls feature visible \u201cDO NOT ENTER\u201d signs, reinforcing the industrial atmosphere. The consistent setting and the man\u2019s active communication suggest he is delivering a monologue or presentation to the viewer within this controlled, enclosed environment."
     },
     {
       "scene_index": 18,
@@ -200,7 +200,7 @@
       "end_sec": 56.30625,
       "duration_sec": 5.088417,
       "num_frame_captions": 9,
-      "caption": "A BMX rider performs a wheelie inside a large industrial warehouse. The setting features a high ceiling with exposed metal beams and corrugated panels. The rider balances on the bicycle's rear wheel, lifting the front wheel high into the air. He maintains control while holding the handlebars, showcasing the maneuver in the spacious, dimly lit environment. The scene captures the dynamic stunt from multiple angles as the cyclist holds the wheelie position."
+      "caption": "In a large, dimly lit industrial warehouse with a high ceiling, exposed metal beams, and corrugated metal panels, a young BMX rider performs a wheelie. The cyclist balances skillfully on the bike's rear wheel, lifting the front wheel high into the air. He maintains control by holding the handlebars as he rides through the spacious interior of the building. The scene captures a single, continuous stunt within the stark, industrial environment, emphasizing the rider's focus and the bike's poised, vertical angle."
     },
     {
       "scene_index": 19,
@@ -210,7 +210,7 @@
       "end_sec": 58.475083,
       "duration_sec": 2.168833,
       "num_frame_captions": 3,
-      "caption": "In a dim, gritty urban environment, a young man wearing a camouflage shirt is intently focused on a dark, textured surface. He reaches out his hand, his movement deliberate and steady as he prepares to make contact. His posture is determined, suggesting a moment of significant action or decision within the industrial setting. The scene captures this single, concentrated act of reaching, emphasizing his resolve in the somber atmosphere."
+      "caption": "In a dim, gritty urban environment with industrial textures, a young man wearing a camouflage shirt is engaged in a focused action. He extends his arm forward, reaching out deliberately toward a dark, textured surface in the scene. The setting is an indoor, urban backdrop that contributes to the intense and determined atmosphere of the moment. His gesture is purposeful and concentrated, suggesting an interaction with the rough, dark element within this stark, shadowy space. The scene captures a single, sustained act of reaching within a confined, atmospheric location."
     },
     {
       "scene_index": 20,
@@ -220,7 +220,7 @@
       "end_sec": 60.643917,
       "duration_sec": 2.168833,
       "num_frame_captions": 3,
-      "caption": "In a dimly lit industrial alley at night, a young cyclist executes a daring stunt. He balances his bicycle upright on its rear wheel\u2014a wheelie\u2014while leaning against a corrugated metal wall. The maneuver is performed along a narrow ledge, showcasing both control and audacity in the confined urban setting. The scene captures a moment of focused athleticism against the gritty backdrop of the alleyway."
+      "caption": "In an industrial alley at night, a young cyclist performs a daring stunt. He rides his bicycle along a narrow ledge against a corrugated metal wall, executing a wheelie. The maneuver involves balancing the bike upright on its rear wheel while leaning against the wall for support. The scene captures the focused action of the trick in an urban setting."
     },
     {
       "scene_index": 21,
@@ -230,7 +230,7 @@
       "end_sec": 62.020292,
       "duration_sec": 1.376375,
       "num_frame_captions": 3,
-      "caption": "This scene features a young man in a black graphic t-shirt and a green-and-black baseball cap, who is the central subject. He is positioned in a dim, industrial environment, possibly a warehouse or garage, as suggested by the utilitarian setting and a visible \"Do Not Enter\" sign on the wall. The man directly addresses the camera, speaking and using hand gestures to emphasize his points. His t-shirt, which displays a cartoon character and the brand \"PURE FIX,\" adds a casual, modern element to the gritty backdrop. The overall tone is one of informal presentation or vlog-style communication."
+      "caption": "This scene features a young man in a dimly lit, industrial environment. He wears a black t-shirt, first with a graphic and later one displaying a cartoon character and the text \"PURE FIX,\" paired with a green-and-black baseball cap. He is shown both looking directly at the camera and actively gesturing while speaking. The setting includes visible industrial elements, with a \"Do Not Enter\" sign on a wall in the background. The sequence presents him engaging with the viewer through direct address and expressive communication."
     },
     {
       "scene_index": 22,
@@ -240,7 +240,7 @@
       "end_sec": 67.734333,
       "duration_sec": 5.714042,
       "num_frame_captions": 9,
-      "caption": "This scene features a cyclist riding a fixed-gear bicycle through a series of dimly lit, industrial environments. The rider, wearing a camouflage or patterned shirt, navigates an empty warehouse, concrete urban space, and similar indoor locations on a sleek, dark-colored bike. A consistent and distinctive feature is the bicycle's red handlebars or handlebar tape. The overall atmosphere is subdued and urban, with the cyclist demonstrating control and movement through the expansive, sparsely populated architectural spaces. The sequence emphasizes the aesthetic of urban cycling within stark, modern interiors."
+      "caption": "This scene shows a cyclist riding a fixed-gear bicycle through a series of dimly lit, empty industrial and urban spaces. The rider, who wears a camouflage shirt, navigates through what appears to be a warehouse or concrete indoor area. The bicycle is consistently described as having distinctive red handlebars. The setting maintains an atmospheric, vacant quality throughout, with the cyclist pedaling steadily in the enclosed, shadowy environment. The action is continuous and focused solely on this solitary figure and their bike moving through the austere architecture."
     },
     {
       "scene_index": 23,
@@ -250,7 +250,7 @@
       "end_sec": 71.154417,
       "duration_sec": 3.420083,
       "num_frame_captions": 5,
-      "caption": "This scene features a BMX rider performing stunts inside a large, empty industrial warehouse. The cyclist is seen executing a wheelie, balancing on the back wheel of the bicycle while riding across the concrete floor. In a more dynamic moment, the rider also launches into the air to perform a mid-air trick. A bright orange traffic cone, consistently visible in the foreground, serves as a stationary marker within the sparse setting. The action showcases the rider's skill and control in utilizing the open, indoor space for freestyle bicycle maneuvers."
+      "caption": "This scene features a BMX cyclist performing stunts inside a large, empty industrial warehouse. The rider is shown executing a wheelie on the concrete floor and also performing a mid-air trick. A bright orange traffic cone is consistently visible in the foreground throughout the sequence, serving as a static point of reference within the spacious, industrial setting. The action is contained within this single, stark location, emphasizing the rider's skills against the backdrop of the warehouse's expansive interior."
     },
     {
       "scene_index": 24,
@@ -260,7 +260,7 @@
       "end_sec": 74.82475,
       "duration_sec": 3.670333,
       "num_frame_captions": 6,
-      "caption": "In a spacious industrial warehouse with high corrugated metal ceilings and a concrete floor, a young BMX cyclist demonstrates skillful riding. He navigates the empty space, performing a controlled wheelie by lifting and balancing on the bicycle's rear wheel. His maneuver takes him past a single, bright orange traffic cone, which serves as a focal point and marker within the vast, otherwise featureless environment. The scene captures a moment of practiced urban athleticism, highlighting the rider's balance and control as he moves through the stark, indoor setting."
+      "caption": "A cyclist rides a bicycle inside a large, industrial warehouse with corrugated metal walls and a high ceiling. The rider performs a wheelie, skillfully lifting and balancing on the front wheel as they maneuver around an orange traffic cone on the concrete floor. The action takes place in the spacious, empty interior, with the bright cone serving as a focal point during the stunt."
     },
     {
       "scene_index": 25,
@@ -270,7 +270,7 @@
       "end_sec": 81.122708,
       "duration_sec": 6.297958,
       "num_frame_captions": 10,
-      "caption": "This scene takes place in a dimly lit, empty warehouse with corrugated metal and graffiti-covered walls. A lone individual, sometimes described as a cyclist or motorcyclist, rides various wheeled vehicles\u2014including a bicycle, unicycle, and motorcycle\u2014through the expansive space. Their actions vary from simply riding to performing a wheelie and maneuvering around a single, recurring orange traffic cone on the concrete floor. The scene concludes with a shift as a person runs past a large, stylized blue and yellow logo, suggesting a transition in activity within the same industrial setting."
+      "caption": "A lone cyclist rides a bicycle through a dimly lit, empty warehouse with corrugated metal walls. The scene includes moments of the cyclist performing a wheelie and maneuvering around a single orange traffic cone on the concrete floor. The setting is consistently a vast, sparse industrial space, sometimes noted with graffiti-covered walls. In one instance, a person runs past a large, stylized blue and yellow logo within the same warehouse-like environment. The action centers on solitary movement and stunts in this atmospheric location."
     },
     {
       "scene_index": 26,
@@ -280,7 +280,7 @@
       "end_sec": 103.103,
       "duration_sec": 21.980292,
       "num_frame_captions": 35,
-      "caption": "The scene opens with a stylized logo before cutting to a woman in a black t-shirt smiling and posing in front of a vibrant, cartoonish mural featuring pink clouds, stars, and bicycles. The shot is stable, focusing on her as various social media handles like \"@PureFixTV\" are overlaid on the video. The scene then transitions to a series of promotional graphics displaying the Pure Fix TV logo, website, and social media contact information, all presented against a textured, crumpled paper background."
+      "caption": "This scene opens with the stylized blue and yellow \"PF\" logo of Pure Fix TV. The main segment features a woman in a black t-shirt smiling and posing in front of a vibrant, cartoonish mural. The backdrop consistently includes pink clouds, stars, and the partial forms of bicycles on either side of her. Throughout her appearance, a yellow \"@PureFixTV\" social media handle is frequently overlaid on the footage. The scene concludes with a series of promotional graphics displaying the Pure Fix TV logo, website URL, and social media handles for Twitter and Facebook, all presented against a textured, crumpled paper background."
     },
     {
       "scene_index": 27,
@@ -290,7 +290,7 @@
       "end_sec": 104.229125,
       "duration_sec": 1.126125,
       "num_frame_captions": 2,
-      "caption": "This scene consists of a sustained period of complete darkness. The visual field is uniformly black, devoid of any light, shapes, or discernible details. This absence of imagery creates a void-like or transitional atmosphere, often used in film and video to signify a passage of time, a narrative ellipsis, or a moment of pure audio focus. It can evoke a sense of anticipation, isolation, or reset before the next sequence begins. The effect is a blank canvas that shifts the viewer's attention entirely to the accompanying soundtrack or the implied context of the surrounding scenes."
+      "caption": "This scene consists of two successive frames of complete darkness. The visual content is uniformly black throughout, with no identifiable objects, text, patterns, or any other visual details present in either frame. The scene depicts a sustained absence of light or imagery, creating a blank visual field. There is no change or development between the two frames, as both maintain the same featureless and empty quality. The overall impression is one of a void or a deliberate pause in visual information within the video sequence."
     }
   ]
 }

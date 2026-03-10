@@ -1,0 +1,13 @@
+{
+  "video": "xmEERLqJ2kU",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/xmEERLqJ2kU.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_33.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 4,
+  "caption": "The video begins on a basketball court with a lively dance performance by a group in black attire, with spectators watching from the sidelines, suggesting a casual community event. It then shifts to the same gymnasium, where a team wearing matching red jerseys gathers on the court, creating an atmosphere of anticipation and camaraderie. As the scene continues, a person walks across the court labeled \"THE TIGER DEN,\" indicating a school sports facility, with spectators filling the bleachers and standing areas, adding to the energetic focus of the event. Finally, the video ends with two individuals standing at the center of the court, surrounded by a crowd of spectators in uniform colors, emphasizing a moment of preparation or anticipation before a game or event."
+}

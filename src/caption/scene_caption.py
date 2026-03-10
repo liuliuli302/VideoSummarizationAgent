@@ -36,7 +36,28 @@ Requirements:
 - Do not speculate beyond the visual content.
 - Produce one coherent paragraph summarizing the video.
 
-Keep the description concise (80 words)."
+Keep the description concise (80 words).
+'''
+)
+
+
+DEFAULT_SCENE_SUMMARIZATION_PROMPT_TEMPLATE = (
+'''
+You are a video understanding assistant.
+Below are captions describing frames from the same scene in a video.
+
+Frame captions:
+{frame_captions}
+
+Write a concise scene-level description summarizing what happens in this scene.
+
+Requirements:
+* one concise paragraph (80-120 words)
+* focus on the main content
+* avoid repeating frame descriptions
+* avoid speculation beyond the provided captions
+
+Scene description:
 '''
 )
 
@@ -675,7 +696,7 @@ def process_dataset(args, dataset, config):
         raise ValueError(dataset)
 
     print("Dataset:", dataset)
-
+    
     with open(mapping_path) as f:
         mapping = json.load(f)
 
@@ -771,7 +792,7 @@ def main():
 
     parser.add_argument("--model_name", default=None)
     parser.add_argument("--device", default="auto")
-    parser.add_argument("--caption_model", choices=["llava", "qwen", "llm"], default="qwen")
+    parser.add_argument("--caption_model", choices=["llava", "qwen", "llm"], default="llm")
     parser.add_argument("--scene_threshold", type=float, default=None)
     parser.add_argument("--image_caption_root", default="/root/VideoSummarizationAgent/data/metadata/image_caption")
     parser.add_argument("--image_caption_provider", default="Qwen")

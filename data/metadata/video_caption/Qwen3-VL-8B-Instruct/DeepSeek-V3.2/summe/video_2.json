@@ -1,0 +1,13 @@
+{
+  "video": "Base jumping",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Base jumping.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/summe/video_2.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 29,
+  "caption": "The video follows an exhilarating wingsuit and paragliding adventure over a stunning turquoise fjord and mountainous landscape. It begins with a first-person perspective of a wingsuit flyer leaping from a cliff and gliding over the fjord, followed by serene aerial views of the water, forests, and a cascading waterfall. The footage then shifts to ground-level scenes showing a paraglider preparing for takeoff, running along a road to launch into the air. Multiple sequences capture parachutists and wingsuit flyers in mid-descent, smiling and gesturing as they soar above winding mountain roads and lush greenery, with several successful landings on the asphalt. Throughout, the video emphasizes the thrill of flight, the majestic natural scenery, and the seamless blend of human adventure and untouched wilderness."
+}

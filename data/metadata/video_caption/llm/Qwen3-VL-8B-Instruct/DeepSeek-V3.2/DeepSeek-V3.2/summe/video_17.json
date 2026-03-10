@@ -1,0 +1,13 @@
+{
+  "video": "Saving dolphines",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Saving dolphines.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/summe/video_17.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 1,
+  "caption": "The video opens on a serene, empty beach with gentle waves. This tranquility is broken by the arrival of a playful pod of dolphins swimming and leaping in the shallow water, drawing a delighted crowd to the shore. However, the mood shifts as it becomes apparent the dolphins are stranded and in distress.\n\nA rescue effort quickly forms, with a group of people—some wearing orange rescue vests—wading into the water. They work together to guide and push the dolphins back toward the safety of the open ocean. Following the successful rescue, the beach gradually returns to a state of calm as people resume enjoying the water."
+}

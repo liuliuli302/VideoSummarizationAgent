@@ -1,0 +1,13 @@
+{
+  "video": "qqR6AEXwxoQ",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/qqR6AEXwxoQ.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_41.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 15,
+  "caption": "The video follows a motocross rider in a desert environment, beginning with the rider in full protective gear standing beside a dirt bike, either preparing for or pausing during an off-road adventure. The action quickly intensifies as the rider performs a series of high-speed jumps and acrobatic stunts, launching off ramps and executing flips mid-air on the sandy terrain. These dynamic sequences showcase impressive skill and control, with the bike often captured airborne against a backdrop of clear skies and sparse vegetation.\n\nThe video continues to highlight the thrill of the sport through various jumps and maneuvers on the dirt track, emphasizing the rider's agility and the adrenaline-fueled nature of motocross. It concludes by returning to a more static moment, showing the rider again standing with the bike in the arid landscape, and ends with a brief nighttime shot of a rider beside a motorcycle, suggesting the end of the day's riding or a transition in the activity."
+}

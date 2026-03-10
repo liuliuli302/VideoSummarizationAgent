@@ -1,0 +1,13 @@
+{
+  "video": "Eiffel Tower",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Eiffel Tower.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/summe/video_9.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 21,
+  "caption": "This video provides a comprehensive tour of the iconic Eiffel Tower in Paris, France. It begins with exterior views showcasing the landmark's distinctive lattice design from various angles, including ground-level perspectives where tourists walk along the Seine River, emphasizing the tower's scale within the bustling urban environment. The footage then transitions to interior shots, highlighting the intricate wrought iron metalwork from the ground looking up and offering views of the city skyline through the tower's openings.\n\nLater scenes capture the tower at different times, illustrating changing weather and lighting conditions, from clear daylight to moments suggesting dusk. The video consistently portrays the Eiffel Tower as a central hub of activity, with numerous scenes showing large crowds of visitors gathered around its base, conveying its status as a popular tourist destination. While the focus remains primarily on the tower's architecture and the lively atmosphere surrounding it, brief interludes show close-ups of vibrant yellow flowers, adding a natural contrast to the metallic structure. The overall narrative presents a dynamic and multifaceted portrait of this world-famous monument."
+}

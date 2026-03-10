@@ -1,0 +1,13 @@
+{
+  "video": "Car_railcrossing",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Car_railcrossing.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/summe/video_6.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 4,
+  "caption": "The video begins with a tense incident at a railway crossing, where a black sedan becomes trapped as the barrier descends and a green passenger train passes. Pedestrians gather to help, causing a significant delay that draws emergency personnel. The scene then briefly shifts to a dimly lit retail store with a person navigating shadowy aisles under stark lighting.\n\nFollowing this, the focus returns to a chaotic public incident. A blue BMW has crashed into a concrete barrier, suffering severe front-end damage and attracting a crowd. The situation escalates as a man in a red striped shirt becomes aggressive, pushing the car and gesturing wildly while others watch. The chaos intensifies when a large muddy animal appears near the wrecked vehicle, and heavy machinery is involved, ultimately looming over and crushing the car as bystanders react to the bizarre and destructive spectacle."
+}

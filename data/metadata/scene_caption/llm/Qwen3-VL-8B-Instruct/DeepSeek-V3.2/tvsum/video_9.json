@@ -5,7 +5,7 @@
   "image_caption_model": "Qwen3-VL-8B-Instruct",
   "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_9.json",
   "scene_caption_model": "DeepSeek-V3.2",
-  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\n\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\n\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\n* avoid speculation beyond the provided captions\n\nScene description:\n",
   "scene_threshold": 27.0,
   "max_tokens": 120,
   "fps": 29.97002997002997,
@@ -20,7 +20,7 @@
       "end_sec": 0.5005,
       "duration_sec": 0.533867,
       "num_frame_captions": 2,
-      "caption": "This scene appears to be a single, continuous shot of a dark environment. The first caption describes a completely black frame, likely establishing the setting or a moment of transition. The second caption reveals the core action: a lone figure standing beside a faintly visible car in near-total darkness. This suggests the scene is building a mood of mystery, suspense, or isolation, with the figure and car emerging from the darkness as the key visual elements."
+      "caption": "This scene unfolds within an enveloping darkness. It begins with a visual void, a frame of complete blackness devoid of any detail. From this obscurity, a figure emerges, standing solitary beside a car whose form is only faintly perceptible in the low light. The progression from absolute emptiness to the introduction of a person and vehicle establishes a tense, enigmatic mood. The scene\u2019s core is the stark contrast between the initial total absence of visual information and the subsequent, shadowy revelation of its subjects, crafting an atmosphere of suspense and isolation."
     },
     {
       "scene_index": 1,
@@ -30,7 +30,7 @@
       "end_sec": 11.2112,
       "duration_sec": 10.7107,
       "num_frame_captions": 21,
-      "caption": "This scene takes place in a minimalist white studio featuring an orange circular floor marking and a matching logo on the wall. A sleek, futuristic white three-wheeled concept car is the centerpiece, displayed on a circular platform. A man in a black suit interacts with the vehicle; he is first seen standing beside it, then walking past it, and finally stepping out of it. The sequence showcases both the car's aerodynamic design from various angles and a brief demonstration of its use, all within the clean, branded environment of the studio."
+      "caption": "This scene takes place in a minimalist white studio featuring an orange circular floor marking and a matching logo on the wall. A sleek, futuristic white three-wheeled concept car is the central focus, displayed on a circular platform. A man in a black suit is present, first standing beside the vehicle, then walking past it, and finally stepping out of it. The sequence shows the car being showcased from various angles in the studio setting, with the man interacting with it to demonstrate its scale and perhaps its accessibility, before the scene concludes with the car alone under the studio lights."
     },
     {
       "scene_index": 2,
@@ -40,7 +40,7 @@
       "end_sec": 20.053367,
       "duration_sec": 8.842167,
       "num_frame_captions": 18,
-      "caption": "The scene features Danny Kim, Founder and CTO of Lit Motors, presenting his company's electric vehicle technology. He is shown speaking while standing or seated next to a white, futuristic-looking prototype, which is described as a self-balancing electric car or a three-wheeled vehicle. The setting is simple, with a plain background or light-colored wall. The focus is on Kim discussing the project, highlighting the innovative design of the vehicle."
+      "caption": "The scene features Danny Kim, Founder and CTO of Lit Motors, speaking while standing beside a white prototype vehicle. He is consistently shown next to a futuristic-looking, self-balancing electric car, which is described as a three-wheeled vehicle. The captions indicate he is discussing his company's electric two-wheeled car project. The setting is simple, with a plain background or light-colored wall, and he is dressed in dark clothing and glasses throughout the sequence."
     },
     {
       "scene_index": 3,
@@ -50,7 +50,7 @@
       "end_sec": 34.3343,
       "duration_sec": 14.280933,
       "num_frame_captions": 28,
-      "caption": "The scene showcases a sleek, futuristic white concept vehicle, transitioning from close-up details of its wheels to full-body views. It is displayed on a rotating platform in a minimalist studio or showroom, featuring gull-wing doors and a transparent canopy. A man in dark clothing interacts with the car, stepping out of it, standing beside it, and walking past it, highlighting its design and scale. The setting is a bright, industrial-style space with orange Audi branding, emphasizing the vehicle's innovative and minimalist aesthetic."
+      "caption": "This scene presents a sleek, futuristic white concept vehicle, likely an Audi, in a minimalist showroom. The sequence begins with detailed close-ups of a white scooter's wheels and fender, establishing its clean, modern design. The focus then shifts to the primary vehicle, a single-seater concept car with a rounded, aerodynamic body, gull-wing doors, and a transparent canopy. It is displayed on a rotating platform. A man in dark clothing interacts with the car, first seated inside, then stepping out, and finally standing beside or walking past it as it is showcased in the bright, white studio space."
     },
     {
       "scene_index": 4,
@@ -60,7 +60,7 @@
       "end_sec": 42.2422,
       "duration_sec": 7.9079,
       "num_frame_captions": 16,
-      "caption": "A man in glasses and a black jacket stands beside a white car against a plain background. He appears to be speaking, likely in an interview or presentation, as he gestures and looks around thoughtfully. His demeanor is engaged, alternating between looking directly as if addressing someone and glancing to the side in contemplation. The scene maintains a consistent, neutral setting focused on him and the car."
+      "caption": "This scene features a man with glasses and dark hair, wearing a black jacket, who is standing beside the passenger side of a white car in a plain, light-colored environment. He is actively speaking, as indicated by his open mouth and gestures with his hands, suggesting he is engaged in conversation or perhaps being interviewed. His gaze shifts between looking down, to his right, and slightly off-camera, with a thoughtful or neutral expression. The consistent setting and his position next to the car form the stable visual focus of the sequence."
     },
     {
       "scene_index": 5,
@@ -70,7 +70,7 @@
       "end_sec": 58.1581,
       "duration_sec": 15.9159,
       "num_frame_captions": 32,
-      "caption": "A man in a cluttered garage workshop inspects a sleek, futuristic white car with a bubble-like cockpit. He examines the vehicle's exterior and open engine bay, then focuses on the complex, exposed wiring and electronic components inside the dashboard and console. The scene includes close-up views of tangled internal assemblies and a person holding up various metal parts, such as a disc and a wheel hub, suggesting mechanical work or modification is underway in the workshop."
+      "caption": "This scene takes place in a cluttered garage workshop where a man in dark clothing examines a sleek, futuristic white car with a rounded, pod-like design. He gestures toward its open, bubble-like cockpit and points at the vehicle's features. The focus then shifts to the car's exposed internal components, with detailed views of the complex wiring and electronic assemblies within the engine bay and dashboard. Later, the man is seen holding up various large, circular metal parts, including a disc with a blue center, while standing among tools and workbenches in the same workshop environment."
     },
     {
       "scene_index": 6,
@@ -80,7 +80,7 @@
       "end_sec": 62.595867,
       "duration_sec": 4.437767,
       "num_frame_captions": 9,
-      "caption": "This scene depicts a tense, high-speed encounter between a gray car and a futuristic white vehicle on a palm-lined urban street. The gray car, shown with motion lines indicating speed, drives aggressively down the road. It appears to collide with or narrowly avoid a white scooter, before engaging with a more advanced, three-wheeled white vehicle with red accents. The two vehicles maneuver around each other and parked cars in a dynamic chase or confrontation, with the sleek white vehicle skillfully dodging the gray car at an intersection. The action unfolds under an overcast sky before the scene cuts to black."
+      "caption": "This scene depicts a dynamic sequence on a palm-lined street under an overcast sky. A gray car is shown driving at speed, its motion emphasized by red lines. It interacts with a white, futuristic three-wheeled vehicle, first appearing to collide with or narrowly avoid a white scooter, then maneuvering alongside it. The sleek, red-accented three-wheeler is subsequently shown skillfully navigating around both the moving gray car and parked vehicles. The action culminates as it passes through a street intersection, again narrowly avoiding the gray car, before the scene cuts to black."
     },
     {
       "scene_index": 7,
@@ -90,7 +90,7 @@
       "end_sec": 67.600867,
       "duration_sec": 5.005,
       "num_frame_captions": 10,
-      "caption": "This scene features a man with glasses and dark hair, dressed in a black sweater or jacket, interacting with a white car in a minimalist setting with a plain white or light-colored wall. He is primarily shown standing or sitting beside the vehicle, with his attention shifting throughout the sequence. His actions include looking down, glancing to the side, and speaking, sometimes with a slightly concerned expression. The consistent elements are the man, the car, and the stark background, creating a focused vignette centered on his contemplative or explanatory engagement with the automobile."
+      "caption": "A man in glasses and dark hair, wearing either a black sweater or jacket, is consistently present next to a white car, which is parked against a plain white background or wall. Throughout the scene, his actions vary: he is seen looking down, looking toward the right side of the frame, or speaking. In some instances, he adopts a seated position beside the car, and in others he stands with a slightly concerned expression while looking off-camera. The setting remains static, with the car and plain background featuring in every frame."
     },
     {
       "scene_index": 8,
@@ -100,7 +100,7 @@
       "end_sec": 72.7727,
       "duration_sec": 5.171833,
       "num_frame_captions": 10,
-      "caption": "This scene depicts a custom or experimental electronic setup inside a vehicle. The consistent focus is on two large, metallic disc-like components\u2014potentially hard drives, subwoofers, or cooling fans\u2014mounted within a metal frame. They are connected by a network of wires to colored circuit boards and a battery pack, suggesting a DIY modification project. The overall impression is of a hands-on, technical endeavor involving custom audio, computing, or cooling systems built from assorted electronic and mechanical parts."
+      "caption": "This scene depicts a custom or experimental setup inside a vehicle. The consistent focus is on two large, circular metallic discs mounted in a metal frame, connected by wires to colored circuit boards and a battery pack. The components, including wiring, circuit boards, and mechanical parts, suggest a DIY modification. The descriptions vary between characterizing the system as audio-related, cooling-related, or a more general mechanical device, but all center on this same core assembly of discs and electronics."
     },
     {
       "scene_index": 9,
@@ -110,7 +110,7 @@
       "end_sec": 83.5835,
       "duration_sec": 10.8108,
       "num_frame_captions": 22,
-      "caption": "This scene presents a detailed exploration of a futuristic electric vehicle's design and technology. It begins with close-up views of the car's sleek, minimalist exterior, featuring distinctive wheel accents. The focus then shifts to stylized cutaway and undercarriage illustrations, revealing advanced mechanical components like the exposed battery pack, motor, and suspension. A black car jack is shown servicing a wheel. The core of the scene explains the vehicle's regenerative braking system through multiple diagrams, demonstrating how kinetic energy from deceleration is captured and converted to recharge the battery, aiding in acceleration back to speeds of 15-25 MPH."
+      "caption": "This scene presents a detailed look at a futuristic electric vehicle, combining sleek exterior design with intricate internal mechanics. The sequence begins with close-ups of the car's aerodynamic white body and stylized wheel accents. It then shifts to a series of cutaway and illustrative views of the undercarriage, revealing exposed components like the battery pack, electric motor, and suspension. The latter part focuses specifically on the vehicle's regenerative braking system, with multiple frames explaining how kinetic energy is captured during deceleration and converted to recharge the battery, all while the car accelerates to speeds of 15-25 MPH."
     },
     {
       "scene_index": 10,
@@ -120,7 +120,7 @@
       "end_sec": 89.6896,
       "duration_sec": 6.1061,
       "num_frame_captions": 12,
-      "caption": "This scene takes place in a dimly lit workshop or garage, where a car is undergoing significant modification or repair. The focus is on the vehicle's stripped-down interior, revealing a skeletal cockpit with exposed red wiring and mechanical components around the footwell. A black MOMO racing steering wheel, bearing an Audi logo, is prominently installed, surrounded by tools and clutter. The overall atmosphere is one of an in-progress build, highlighting the raw, unfinished state of the car's core driving controls as work continues in the cluttered workspace."
+      "caption": "This scene presents a series of close-up views from inside a vehicle undergoing modification or repair in a dimly lit workshop. The focus shifts from the footwell, detailing the brake and accelerator pedals alongside exposed red wiring and mechanical parts, to the cockpit area. Here, a black MOMO steering wheel, bearing an Audi logo and a yellow sticker, is prominently featured. The surrounding environment is consistently described as cluttered and unfinished, with tools and wires visible, indicating the car's interior is partially assembled or stripped down. The sequence captures the detailed, in-progress state of the automotive work."
     },
     {
       "scene_index": 11,
@@ -130,7 +130,7 @@
       "end_sec": 106.539767,
       "duration_sec": 16.850167,
       "num_frame_captions": 33,
-      "caption": "This scene features a man with glasses and a dark jacket, who is the sole subject, interacting with a white car in a minimalist, brightly lit setting with a plain white or light-colored wall. He alternates between standing and sitting beside the vehicle, primarily on the front passenger side. His demeanor is thoughtful and serious, often looking down, off-camera, or to his right as if in contemplation or reaction. The man is frequently shown speaking, suggesting he is engaged in a monologue or an off-screen conversation, which gives the scene a reflective or explanatory tone. The consistent, stark backdrop keeps the focus entirely on his actions and expressions."
+      "caption": "This scene features a man with glasses and dark hair, wearing a black or dark jacket, interacting with a white car in a plain, brightly lit environment with a white or light-colored wall. He alternates between standing and sitting beside the passenger side of the car. His actions include looking down, looking off-camera to his right, and speaking, often with a thoughtful or serious expression. The consistent setting and his varied poses\u2014seated in conversation, standing while talking, or looking around\u2014suggest a single continuous sequence, likely an interview or a reflective monologue delivered next to the vehicle."
     },
     {
       "scene_index": 12,
@@ -140,7 +140,7 @@
       "end_sec": 111.0109,
       "duration_sec": 4.471133,
       "num_frame_captions": 9,
-      "caption": "This scene depicts a futuristic, single-seat vehicle navigating a contemporary city street. The compact, pod-like transporter, which appears in both three-wheeled and single-wheeled designs, is predominantly white or silver with a sleek, bubble-shaped canopy. It draws the attention of onlookers as it smoothly travels past storefronts, parked cars, and pedestrians on the sidewalk. The vehicle's motion is occasionally blurred, emphasizing its movement through the ordinary urban environment, which provides a striking contrast to its advanced and unique aesthetic. The overall focus is on this innovative personal transport in a real-world setting."
+      "caption": "The scene shows a futuristic, single-wheeled or three-wheeled vehicle driving down a city street. Its sleek, silver or white design, described as pod-like or egg-shaped, draws attention as it navigates past buildings, storefronts, parked cars, and pedestrians. The vehicle is a personal transporter operated by a single occupant. The urban environment forms the backdrop, with occasional mentions of a person walking nearby on the sidewalk."
     },
     {
       "scene_index": 13,
@@ -150,7 +150,7 @@
       "end_sec": 119.552767,
       "duration_sec": 8.541867,
       "num_frame_captions": 17,
-      "caption": "This scene takes place inside a cluttered workshop or garage, where a white, futuristic-looking vehicle is being worked on. The car's hood and body panels are open, revealing a complex and chaotic internal system of tangled wires, electronic components, and mechanical parts. The focus is on the intricate and messy state of the vehicle's electrical and dashboard systems, suggesting either a repair, modification, or diagnostic process. The dim, close-up shots emphasize the technical complexity and the hands-on, detailed nature of the work being performed in this industrial setting."
+      "caption": "The scene takes place inside a cluttered workshop or garage, where a white, futuristic-looking vehicle is being worked on. The car's hood and doors are open, revealing its complex internal wiring, mechanical components, and dashboard electronics. The focus shifts to detailed, dimly lit close-ups of the exposed systems, showing a chaotic tangle of wires, tubes, and electronic parts within the vehicle's body panels and compartments. The overall setting is a messy workspace filled with tools and equipment."
     },
     {
       "scene_index": 14,
@@ -160,7 +160,7 @@
       "end_sec": 130.296833,
       "duration_sec": 10.744067,
       "num_frame_captions": 22,
-      "caption": "The scene depicts a futuristic vehicle's dashboard display, which shows a real-time X-ray view of the vehicle's status. The transparent, three-wheeled electric vehicle is rendered in blue, with its internal components and glowing wheels visible. The display provides continuous system diagnostics, including battery level, power, and range. A persistent warning message, \"FEET ARE DOWN,\" is shown alongside these nominal status indicators, suggesting an alert related to the vehicle's operational stance or rider position."
+      "caption": "The scene shows a futuristic vehicle's dashboard display, which presents a blue X-ray-style diagram of the vehicle\u2014first a car, then a scooter, and finally a three-wheeled model\u2014along with system status information. A persistent \"FEET ARE DOWN\" warning is shown. The display then transitions to show 3D renderings of the transparent vehicle itself, highlighting its glowing wheels and illuminated internal components like the battery and motor against a plain background."
     },
     {
       "scene_index": 15,
@@ -170,7 +170,7 @@
       "end_sec": 145.4453,
       "duration_sec": 15.148467,
       "num_frame_captions": 30,
-      "caption": "This scene presents a sleek, futuristic white concept car, likely a three-wheeled vehicle with a streamlined, bubble-like canopy. The sequence begins with abstract, blurry visuals that transition into detailed interior views from the driver's perspective, showcasing a minimalist cockpit with a digital instrument cluster, a futuristic steering wheel, and a curved transparent canopy. The focus then shifts to exterior shots of the car, which is displayed on a rotating platform in a bright, minimalist showroom or studio setting. The scene emphasizes the vehicle's innovative, aerodynamic design and its high-tech, driver-centric interior through a series of dynamic and stylized shots."
+      "caption": "This scene features a futuristic concept vehicle, likely a three-wheeled car with a streamlined, bubble-like canopy, showcased indoors on a rotating platform in a minimalist studio or showroom environment. Numerous shots focus on its sleek, white exterior with dark tinted windows and a curved aerodynamic design. The interior is explored through fisheye and close-up views, revealing a minimalist cockpit with a futuristic steering wheel, digital displays, and a curved transparent canopy. A matching white helmet with a dark visor is also shown. The sequence emphasizes the vehicle\u2019s aesthetic and advanced design elements from both exterior and interior perspectives."
     },
     {
       "scene_index": 16,
@@ -180,7 +180,7 @@
       "end_sec": 161.161,
       "duration_sec": 15.7157,
       "num_frame_captions": 32,
-      "caption": "This scene features a man with glasses and dark hair, wearing either a black sweater or jacket, who is positioned beside a white car against a plain white wall. He alternates between standing and sitting by the car door, engaging in a monologue or direct address. His demeanor shifts throughout; he speaks intently at times, while at other moments he looks down or to the side with a contemplative or concerned expression. The static setting and his varied poses suggest a reflective or emotionally charged dialogue, possibly for an interview or dramatic sequence."
+      "caption": "The scene shows a man wearing glasses and dark hair in a black jacket or sweater, consistently positioned beside a white car against a plain white wall. He alternates between standing and sitting, with many captions indicating he is speaking. He also frequently looks down, to his right, or off-camera, with captions noting expressions such as contemplative or concerned. The setting remains static: a white car in a minimal background. Overall, the man is engaged in a monologue or thoughtful interaction, with varied postures and expressions, but no other characters or actions are described."
     },
     {
       "scene_index": 17,
@@ -190,7 +190,7 @@
       "end_sec": 169.8697,
       "duration_sec": 8.7087,
       "num_frame_captions": 17,
-      "caption": "This scene presents a detailed exploration of a futuristic electric vehicle's advanced powertrain system. It begins with an external view of the sleek, minimalist vehicle before transitioning into a series of transparent and cutaway illustrations. These diagrams progressively reveal the vehicle's sophisticated internal components, focusing on its undercarriage and chassis. The core emphasis is on its hybrid energy and propulsion system, which integrates a battery bank, a capacitor bank for rapid energy discharge, and a flywheel motor for energy storage. The system also features driver motor/generators, potentially within the wheel hubs, and gyroscopic components, showcasing a complex and innovative drivetrain design."
+      "caption": "This scene features a futuristic electric vehicle with a sleek, minimalist white exterior and distinctive teal accents. It transitions from an external view to a series of transparent and cutaway illustrations that progressively reveal the internal components of the vehicle's powertrain system. The focus shifts from general mechanics like suspension and wheels to the specific electrical and hybrid components, including a battery pack, motor, and drivetrain. The diagrams then detail an advanced hybrid system, integrating elements such as battery and capacitor banks, a flywheel motor/generator for energy storage, and gyroscopes, ultimately showcasing the vehicle's innovative and complex internal engineering layout."
     },
     {
       "scene_index": 18,
@@ -200,7 +200,7 @@
       "end_sec": 176.409567,
       "duration_sec": 6.539867,
       "num_frame_captions": 13,
-      "caption": "A sleek, white, three-wheeled personal electric vehicle navigates an urban environment. It is consistently shown as a compact, futuristic microcar with a single occupant. The vehicle moves through various settings, including a paved lot and city streets, where it is contrasted against larger background traffic. This traffic prominently features a large, colorful bus, alongside other cars and sedans. The scene captures the vehicle in motion, passing this bus and maneuvering through the surrounding cityscape."
+      "caption": "A sleek, white, three-wheeled electric vehicle, described as futuristic or bubble-like, drives through an urban setting. It consistently carries a single passenger and navigates through both city streets and paved parking lots. Throughout its journey, the compact vehicle is frequently contrasted with larger background traffic, most notably a colorful public bus, as it passes by buses, sedans, and other parked vehicles. The scene captures the small personal transporter maneuvering within a busy urban backdrop filled with various automobiles."
     },
     {
       "scene_index": 19,
@@ -210,7 +210,7 @@
       "end_sec": 184.0839,
       "duration_sec": 7.674333,
       "num_frame_captions": 15,
-      "caption": "This scene features a man with glasses and dark hair, dressed in a black jacket or sweater, who is presenting or speaking to the camera. The setting is a minimalist white studio with a plain wall, where a white car serves as a prominent prop. The man alternates between standing and sitting beside the car door, occasionally looking down or slightly off-camera. His consistent presence and the static background suggest this is a prepared segment, likely a product presentation or promotional video focused on the vehicle. The overall tone is professional and controlled, with the man delivering his message directly to the viewer."
+      "caption": "A man with glasses and dark hair, dressed in a black jacket or sweater, appears throughout the scene. He is consistently positioned alongside a white car, which is parked against a plain white wall or background. His actions alternate between standing and seated postures. In several instances, he is clearly speaking, often while standing beside or next to the side of the car. At other times, he is observed looking down, slightly off-camera, or to his right, both while standing and when seated beside the car door. The scene maintains a consistent setting and subject, capturing variations in his posture and communication."
     },
     {
       "scene_index": 20,
@@ -220,7 +220,7 @@
       "end_sec": 192.559033,
       "duration_sec": 8.475133,
       "num_frame_captions": 17,
-      "caption": "This scene takes place in a cluttered garage or workshop, where a person is examining and working on a sleek, futuristic white vehicle. The focus alternates between detailed close-ups of the motorcycle's components\u2014such as its rear wheel, black tire, silver disc brake, and suspension system\u2014and wider shots that reveal the vehicle's full, teardrop-shaped design with a large curved windshield. The man is seen standing beside and interacting with the vehicle, indicating an inspection or maintenance activity in an indoor setting with a concrete floor."
+      "caption": "This scene shows a futuristic white motorcycle, resembling a teardrop-shaped vehicle with a large curved windshield, inside a cluttered garage or workshop. A man stands beside or behind it, observing or possibly working on it. Multiple close-up shots capture details of the motorcycle's components, particularly focusing on its rear wheel, which features a black tire, a silver disc brake, and suspension components. Similar attention is given to the front wheel, fender, and fairing. The vehicle is consistently shown parked indoors on a concrete floor throughout the sequence."
     },
     {
       "scene_index": 21,
@@ -230,7 +230,7 @@
       "end_sec": 208.942067,
       "duration_sec": 16.383033,
       "num_frame_captions": 33,
-      "caption": "This scene features a man with glasses and dark hair, wearing dark clothing, who appears to be presenting or discussing a white car in a neutral, plain setting. He alternates between standing and sitting beside the vehicle, often looking thoughtfully or speaking to an off-camera audience. His expressions range from thoughtful and conversational to moments of surprise or concern. The consistent white background and the car suggest a controlled environment, likely for a promotional video, review, or demonstration where the man is the primary speaker engaging with viewers about the vehicle's features."
+      "caption": "This scene features a man with glasses and dark hair, wearing dark clothing, who is positioned beside a white car against a plain, light-colored background. He alternates between standing and sitting next to the vehicle, often looking off to the side or down with a thoughtful, surprised, or concerned expression. At several points, he is described as speaking, suggesting he is engaged in a monologue or presentation directed at an off-camera audience. The consistent setting and his varied poses and expressions indicate a single, continuous sequence focused on the man and the car."
     },
     {
       "scene_index": 22,
@@ -240,7 +240,7 @@
       "end_sec": 210.076533,
       "duration_sec": 1.134467,
       "num_frame_captions": 2,
-      "caption": "A woman drives a white, futuristic car with a prominent curved windshield on a sunny day. She is smiling and appears engaged and happy as she grips the steering wheel. The scene is shown from both an interior perspective, focusing on her expression, and an exterior view that captures the sleek, modern design of the vehicle in motion. The overall impression is one of pleasant, confident driving in advanced automotive technology."
+      "caption": "This scene shows a woman driving a white, futuristic car with a prominent curved windshield on a sunny day. She is seen from two perspectives: first from inside the vehicle, where she is smiling and gripping the steering wheel, and then from an external viewpoint looking into the car's interior. The combined descriptions establish her cheerful demeanor while operating the distinctive vehicle. The focus is on her engaged driving and the car's sleek, modern design as she travels in clear weather."
     },
     {
       "scene_index": 23,
@@ -250,7 +250,7 @@
       "end_sec": 211.544667,
       "duration_sec": 1.468133,
       "num_frame_captions": 3,
-      "caption": "A woman in a brown top is seen moving quickly past a white car with a distinctive curved design. She then comes to a stop, standing beside the car and smiling at the camera. The consistent backdrop features palm trees and a curved metal fence under a clear sky, indicating an outdoor urban setting. The sequence captures her transition from dynamic motion to a posed, stationary moment."
+      "caption": "The scene shows a woman outdoors near a white car with a distinctive curved design. She is initially captured in motion, running or moving quickly past the vehicle. Her movement then settles as she comes to stand beside the car, smiling at the camera. The consistent backdrop includes palm trees and a curved metal fence under a clear sky, indicating a single, continuous location. The sequence moves from action to a posed, stationary moment."
     },
     {
       "scene_index": 24,
@@ -260,7 +260,7 @@
       "end_sec": 213.046167,
       "duration_sec": 1.5015,
       "num_frame_captions": 3,
-      "caption": "In this scene, a woman wearing a grey dress approaches a parked white compact car, which has a futuristic design. The vehicle is positioned next to a maroon Toyota. Her key action is opening the driver's side door, presumably to enter the vehicle. The sequence captures the moment of access, suggesting the beginning of a journey or a routine stop. The setting appears to be an ordinary parking area, with the clean, modern aesthetic of the white car providing a visual contrast to the more conventional maroon sedan beside it."
+      "caption": "A woman in a grey dress opens the door of a white, futuristic-looking compact car. The car is parked next to a maroon Toyota. The action is consistent across the scene, showing her performing this single, deliberate task."
     },
     {
       "scene_index": 25,
@@ -270,7 +270,7 @@
       "end_sec": 221.554667,
       "duration_sec": 8.5085,
       "num_frame_captions": 17,
-      "caption": "This scene shows a futuristic single-wheeled vehicle with a bubble-like canopy, which is white or silver in color, parked on a city street. A man interacts with it, initially walking past before stopping to inspect and adjust the vehicle. He then gets into the cockpit. The scene concludes with the vehicle, now occupied by the driver, driving down the street. The unique, teardrop-shaped design of this three-wheeled personal transporter stands out prominently against the ordinary urban backdrop of buildings and parked cars."
+      "caption": "In this city street scene, a futuristic white or silver vehicle is the focal point. Initially described variably as having an egg-shaped or teardrop-shaped design with three wheels, the captions converge on it being a single-wheeled vehicle with a distinctive bubble-like canopy or cockpit. A man interacts with the parked vehicle\u2014first walking past it, then standing beside it to inspect or adjust it. His engagement progresses to appearing to get in or out of it, and finally, he gets into the vehicle. The scene concludes with the vehicle, now occupied by its driver, being parked and later driving down the street."
     },
     {
       "scene_index": 26,
@@ -280,7 +280,7 @@
       "end_sec": 233.866967,
       "duration_sec": 12.3123,
       "num_frame_captions": 25,
-      "caption": "This scene opens on a quiet, sunny urban street where a small white vehicle is initially seen driving past pedestrians, trees, and buildings. As the sequence progresses, the vehicle is described in increasing detail, transforming from a simple white car into a sleek, futuristic silver three-wheeled personal transport pod with a transparent canopy and a visible driver. The scene then abruptly shifts to a promotional tech news segment, where a person in a white lab coat and mask holds up a newspaper with \"EXTRA!\" against a digital backdrop labeled \"Intel Free Press\" and \"Tech News.\" The video concludes with a final black frame."
+      "caption": "This scene depicts a futuristic demonstration in an urban environment. A sleek, silver, three-wheeled personal transport vehicle with a transparent canopy is shown driving multiple times down a quiet city street, passing pedestrians and buildings. It begins as a small white car but evolves into a more detailed, bubble-like, single-passenger pod. The scene then abruptly transitions to a promotional tech news segment. A person in a white lab coat and face mask repeatedly holds up an \u201cEXTRA!\u201d newspaper against a digital backdrop bearing the logos \u201cIntel Free Press\u201d and \u201cTech News,\u201d suggesting an announcement. The final frame is entirely black."
     }
   ]
 }

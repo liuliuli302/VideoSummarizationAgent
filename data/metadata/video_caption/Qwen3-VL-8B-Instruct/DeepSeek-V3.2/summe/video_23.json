@@ -1,0 +1,13 @@
+{
+  "video": "car_over_camera",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/car_over_camera.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/summe/video_23.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 11,
+  "caption": "The video depicts a journey through a vast, desolate landscape, beginning with a low-angle, static view of a barren reddish-brown field under an overcast sky. The perspective then shifts to the interior of a moving vehicle, which appears to experience a sudden, chaotic descent into darkness and abstract imagery. Following this disorienting sequence, the focus returns to a clear, forward-moving view along a dirt road, captured from a camera mounted on or near a black Toyota SUV.\n\nThe vehicle travels steadily through the arid, rocky terrain, emphasizing the isolation and expanse of the environment. After the SUV recedes into the distance, the view tilts upward to a hazy sky before a stark transition reveals a man in a yellow shirt and sunglasses from a low angle. The final scene adopts a first-person perspective, following this individual as they walk along a rough, sandy path, concluding the journey on foot."
+}

@@ -1,0 +1,13 @@
+{
+  "video": "GsAD1KT1xo8",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/GsAD1KT1xo8.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_24.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 70,
+  "caption": "The video is a vibrant, slice-of-life montage capturing a day of leisure and travel with a group of friends. It begins with the group walking through an indoor corridor before transitioning to a sunny park, where they interact with a large, playful elephant sculpture and children play on a playground. The friends are later seen relaxing together on benches in the garden. The scene shifts to a lively outdoor musical performance by a small ensemble, which is followed by a series of more abstract, stylized shots.\n\nThe latter part of the video focuses on a journey, with candid shots of people eating and a young boy sleeping and looking out the window from inside a moving car. The group is then seen in various urban and park settings—socializing, riding bicycles, and a man joyfully running through a plaza with a fountain. The video highlights youthful energy with scenes of a skateboarder performing tricks in a public square and ends on a quieter note with a boy playing on a playground structure and people walking through city streets, encapsulating a day filled with simple moments of friendship, movement, and urban exploration."
+}

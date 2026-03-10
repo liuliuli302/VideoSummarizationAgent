@@ -1,0 +1,13 @@
+{
+  "video": "Car_railcrossing",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Car_railcrossing.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/summe/video_6.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 4,
+  "caption": "The video begins with a serious car accident at a railroad crossing, where a black car has collided with a barrier and is left stationary on the road as bystanders gather and a warning light flashes. The scene then shifts to a brief, unclear close-up of a person's legs before returning to the aftermath of the collision. There, a group of people, including one individual in a red shirt, is seen attempting to move the damaged car, with the person eventually climbing onto the hood and roof to exert force.\n\nSubsequently, the video shows a completely different rescue operation in an urban setting. A large animal, such as a cow, has fallen into a hole in the street. A team of people, aided by a car with its front end raised, works to lift the animal out, with its hind legs resting on the vehicle's hood as it struggles."
+}

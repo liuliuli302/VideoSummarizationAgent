@@ -1,0 +1,13 @@
+{
+  "video": "Yi4Ij2NM7U4",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/Yi4Ij2NM7U4.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_18.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 30,
+  "caption": "This video is a casual, candid collection of moments showing a man in various domestic settings, primarily his kitchen and a room with a green screen. He is frequently seen wearing a baseball cap, sunglasses, a beard, and a graphic t-shirt with a skull design. In the kitchen scenes, he is often standing among appliances like a refrigerator, oven, and microwave, with bottles, bowls, and cups on the countertops, suggesting ongoing food preparation or cleanup. In the alternating green screen scenes, he sits calmly, sometimes holding items like a smartphone or a large glove-like object, maintaining a relaxed and informal tone throughout.\n\nThe video then transitions into a sequence focused on hands preparing food. It shows close-up actions like slicing green peppers, cutting apples, peeling garlic, and chopping cheese. This leads into cooking steps where a bottle of ketchup is poured into a frying pan and a red sauce is stirred in a pot on a stove. The man reappears holding a topped hot dog in the kitchen, concluding the everyday activities. The video ends with a logo for \"INVINCIBLE PRODUCTIONS,\" suggesting it is a branded personal or casual production."
+}

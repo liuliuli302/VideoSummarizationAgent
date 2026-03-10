@@ -1,0 +1,13 @@
+{
+  "video": "Paintball",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Paintball.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/summe/video_15.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 11,
+  "caption": "The video begins with an outdoor paintball match on a large, grassy field under an overcast sky, where players in red gear take cover behind obstacles like concrete pipes and wooden bunkers. The action then shifts to a series of abstract, blurry, and often chaotic sequences filmed from a first-person perspective, suggesting rapid movement through dense foliage and natural environments, sometimes at night or in low light. These segments are interspersed with fleeting, distorted glimpses of possible wildlife, a bright sky with a streaking red object, and stark contrasts of light and shadow.\n\nLater scenes return to a more recognizable outdoor setting on a grassy field, where blurry figures suggest a group sporting activity, with one person in a maroon and yellow jersey standing out. The video concludes with a first-person view of someone walking through the grass while holding a long, serrated blade like a machete, implying an activity such as cutting or clearing vegetation. Overall, the video juxtaposes organized recreational combat with fragmented, impressionistic shots of nature and concludes with a manual task in an outdoor environment."
+}

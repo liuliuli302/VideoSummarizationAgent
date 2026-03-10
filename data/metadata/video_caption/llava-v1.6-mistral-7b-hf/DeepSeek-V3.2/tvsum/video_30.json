@@ -1,0 +1,13 @@
+{
+  "video": "4wU_LUjG5Ic",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/4wU_LUjG5Ic.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_30.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 33,
+  "caption": "This video, titled \"IDEAS IN MOTION: A Bike Friendly Cities Film,\" is a student-led project from Shoeburyness High School that explores the vibrant culture of cycling in urban environments. It opens by introducing the film's educational and promotional purpose before transitioning into a series of lively street scenes. The narrative is anchored by a young child joyfully riding a yellow tricycle through a bustling city square, drawing the attention of pedestrians and setting a tone of accessible, everyday cycling.\n\nThe film then expands its view to showcase diverse cyclists of all ages sharing various paths, from pedestrian bridges adorned with flags and scenic dirt roads to dedicated bike lanes on city streets. It captures moments of community and conversation, both between cyclists and among people in parks and on boardwalks, emphasizing the social aspect of a bike-friendly city. The scenes build toward a festive atmosphere, culminating in what appears to be a bicycle parade or community event with decorated bikes, costumes, and large, cheerful crowds. The video concludes by highlighting organized bicycle parking and reiterating its promotional message, celebrating cycling as a central, joyful part of modern urban life that connects people and ideas."
+}

@@ -1,0 +1,13 @@
+{
+  "video": "vdmoEJ5YbrQ",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/vdmoEJ5YbrQ.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_8.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 79,
+  "caption": "This video depicts a series of outdoor scenes in a snowy winter environment, primarily following a person (and occasionally two individuals) dressed in dark clothing with a red hooded jacket. The narrative begins with the person standing in a snowy field before engaging in a brief interaction with another person, possibly involving a rifle, in a snow-covered landscape. They then walk together through the snowy terrain, passing a large tree and navigating a path. At one point, the focus shifts to a vehicle driving on a snowy road, indicating a journey or transition.\n\nThe scene returns outdoors, showing the person walking alone through deep snow before briefly interacting with others near a parked vehicle—a green car and a blue van. There is a moment where a person in an orange jacket gestures toward something, and later, another person approaches the van holding a shovel, suggesting snow-clearing activities. The video also includes a short clip of a black dog walking in the snow.\n\nThe final portion shifts indoors, showing candid moments inside a vehicle. People are seated, some wearing face masks, and appear to be observing the surroundings or sharing lighthearted moments, conveying a sense of a journey through the winter landscape. The overall video captures a blend of solitary exploration, casual interactions, and travel in a cold, snowy setting."
+}

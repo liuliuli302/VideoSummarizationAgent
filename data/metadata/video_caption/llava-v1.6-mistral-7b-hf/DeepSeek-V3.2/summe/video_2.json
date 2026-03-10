@@ -1,0 +1,13 @@
+{
+  "video": "Base jumping",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Base jumping.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/summe/video_2.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 29,
+  "caption": "The video opens with sweeping aerial views of a dramatic mountainous landscape, featuring a deep turquoise lake nestled among rugged peaks. The scene then shifts to a person paragliding high above the terrain, gripping the control bar of a colorful canopy as they soar over winding roads and lush green valleys. The perspective alternates between breathtaking panoramic vistas of the lake and mountains and dynamic, close-up shots of the paraglider in flight, conveying a sense of exhilaration and freedom.\n\nThe adventure continues as the video showcases a powerful waterfall cascading down a cliffside, with a road and bridge nearby where visitors and vehicles are present. It then follows a hiker on a trail toward the waterfall before cutting to a thrilling bungee jump over the verdant landscape. The remainder of the video focuses extensively on the paraglider—dressed in a distinctive red and blue suit—launching, maneuvering, and landing along scenic mountain roads, sometimes accompanied by a kite or parachute. The journey concludes with the adventurer walking or cycling along the road, equipment in hand, against a backdrop of serene natural beauty."
+}

@@ -1,0 +1,13 @@
+{
+  "video": "JKpqYvAdIsw",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/JKpqYvAdIsw.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_32.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 53,
+  "caption": "The video is a promotional piece for the ICC World Twenty20 Bangladesh 2014, organized by Pabna University of Science & Technology and centered at the Pabna Bus Terminal. It begins by showing the event logo and then transitions to a lively street scene where a group gathers around a hat, creating a casual, curious atmosphere. The energy builds as people move through the busy streets, leading to a skateboarder performing tricks and balancing a ball while riding.\n\nThe focus then shifts to a vibrant flash mob and street dance celebration. A large, diverse crowd gathers in an open urban area as dancers in colorful traditional and casual attire perform energetic routines. The event features solo and group performances, with the crowd enthusiastically watching, recording, and joining in. The festive atmosphere continues with scenes of joyful participants, including a woman smiling in traditional Indian dress and a man happily driving a yellow truck.\n\nLater, the video shows a brief moment where a uniformed officer waves and smiles at the camera amid the bustling street activity, followed by a scene of cultural reverence with individuals in traditional attire performing a ritual. It then highlights a young boy standing defiantly, shirtless with a green headband, as an intrigued crowd watches. The overall video captures the spirit of a communal, joyful celebration blending cricket promotion, street performance, and cultural expression in a dynamic public setting."
+}

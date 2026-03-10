@@ -1,0 +1,13 @@
+{
+  "video": "PJrm840pAUI",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/PJrm840pAUI.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_25.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 107,
+  "caption": "The video follows a young man as he travels through an urban environment, documenting his journey and daily life. It begins with him on public transportation, where he is seen taking photos and videos from inside a bus or train, smiling and enjoying the experience. The scenes then shift to various outdoor locations, including a coastal area with birds in flight and a winding road through a rugged, rocky landscape, suggesting a sense of adventure and exploration.\n\nLater, the video captures moments at a train station and in residential streets, where the man continues to take photographs, often wearing headphones. He is shown interacting with friends in casual, outdoor settings—such as a park or skate spot—where they engage in activities like skateboarding, photography against graffiti walls, and simply relaxing on the grass. The footage also includes candid moments of the man smiling while seated on public transportation, listening to music. The video concludes with scenes of bustling city life, showing the man walking through busy streets, talking on the phone, and eventually returning to a personal space like a bedroom, before capturing the historic architecture and vibrant activity of a European-style city. Throughout, the video emphasizes themes of travel, friendship, urban exploration, and the simple joy of capturing everyday moments."
+}

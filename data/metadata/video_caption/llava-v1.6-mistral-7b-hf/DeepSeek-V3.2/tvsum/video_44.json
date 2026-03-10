@@ -1,0 +1,13 @@
+{
+  "video": "JgHubY5Vw3Y",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/JgHubY5Vw3Y.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_44.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 40,
+  "caption": "This video is a dynamic and eclectic mix of urban cycling, bike maintenance tutorials, and casual conversations, all centered around the world of bicycles. It opens with a friendly introduction by a man and a woman in a bike shop, standing before a vibrant wall of colorful wheels. The action quickly shifts to the streets, featuring cyclists performing wheelies, navigating city traffic, and riding through urban landscapes, often with stylized graphics for \"PURE FIX TV\" overlaid on the footage.\n\nThe video then transitions into instructional segments, showing hands-on demonstrations of bicycle assembly, gear adjustment, and maintenance tasks like attaching handlebars and using locks. These practical scenes are intercut with more artistic and abstract shots, including close-ups of components, stark graphics with messages like \"QUICK RELEASE,\" and minimalist visuals of isolated bikes. Throughout, the video returns to casual scenes of people interacting with bicycles in everyday settings—parking them, adjusting them on sidewalks, and engaging in relaxed discussions back in the shop with the distinctive wall of wheels as a backdrop. The overall tone blends informative guidance with a celebration of cycling culture and its aesthetic, from high-energy street riding to the detailed craft of bike care."
+}

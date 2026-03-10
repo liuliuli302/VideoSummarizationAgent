@@ -1,0 +1,13 @@
+{
+  "video": "E11zDS9XGzg",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/E11zDS9XGzg.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_46.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 128,
+  "caption": "The video documents a casual, candid gathering focused on dogs and pet care at an outdoor public event, likely a dog-friendly fair or festival. It begins with individuals interacting at a veterinary hospital sign, featuring \"Dog & Cat Multi Speciality Hospital\" and emergency contact information, where people point to and discuss the facility. The atmosphere shifts to an energetic dog show and training session in a grassy park, with participants walking, training, and playing with various breeds, including German Shepherds, and engaging in frisbee games.\n\nAs the event unfolds, the video captures lively, informal moments among attendees. Groups of people, many carrying bags or wearing hats, stroll through the field, interact with each other, and pose for candid shots. Prominent signs and tents, including one for \"Royal Canin,\" indicate a commercial or promotional aspect. The overall tone is relaxed and festive, showcasing a community gathering centered around pets and outdoor leisure, with attendees enjoying social interactions in a sunny, open setting."
+}

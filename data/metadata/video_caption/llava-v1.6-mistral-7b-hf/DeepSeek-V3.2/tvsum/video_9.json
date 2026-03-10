@@ -1,0 +1,13 @@
+{
+  "video": "xwqBXPGE9pQ",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/xwqBXPGE9pQ.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_9.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 32,
+  "caption": "The video showcases a futuristic concept vehicle, likely an electric three-wheeled prototype, through a series of scenes that blend demonstration, interview, and urban testing. It begins with a dark, moody introduction of a person and a car in a minimalist room, followed by a presentation of the unique white three-wheeled vehicle in a white studio setting. The founder or CTO, Danny Kim, is interviewed in front of the car, discussing its design and technology. The video then highlights close-ups of the vehicle's sleek design, advanced electric components like the motor and capacitor bank, and transparent body revealing internal mechanics.\n\nScenes transition to workshop settings where the vehicle is inspected and demonstrated, and then to urban environments where it is driven on city streets, interacting with traffic and pedestrians. The narrative includes moments with individuals interacting with the car—such as a woman driving and a man examining it—emphasizing both its innovative features and real-world usability. The video concludes with abstract visuals, reinforcing the prototype's cutting-edge, conceptual nature. Throughout, the focus remains on the vehicle's design, electric propulsion system, and its integration into everyday urban life."
+}

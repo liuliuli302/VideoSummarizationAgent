@@ -1,0 +1,13 @@
+{
+  "video": "98MoyGZKHXc",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/98MoyGZKHXc.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_2.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 52,
+  "caption": "The video begins with a simple animated title screen featuring the word \"WHICH?\" against a red background, suggesting a quiz or interactive format. It then transitions to a series of scenes showing a man driving a white car through suburban streets, with footage both from inside the vehicle and outside, capturing the car in motion on tree-lined roads. The focus shifts to a tutorial on using a tire repair kit, as a man in a black sweater inspects and works on the car's tire. He is shown checking the tire pressure, opening the trunk, and using tools like a compressor and a sealant bottle to address a flat tire. The video includes close-up demonstrations of operating the car's dashboard controls, multimedia system, and gear shift. It concludes with scenes documenting the tire's gradual deflation and the car parked with a flat tire, emphasizing a practical, instructional narrative on tire maintenance and repair."
+}

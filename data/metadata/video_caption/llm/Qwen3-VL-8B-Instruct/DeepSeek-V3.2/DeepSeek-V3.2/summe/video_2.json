@@ -1,0 +1,13 @@
+{
+  "video": "Base jumping",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Base jumping.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/summe/video_2.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 26,
+  "caption": "This video is a breathtaking compilation of aerial adventures set within a majestic mountainous landscape dominated by turquoise fjords, lush green forests, and steep, rugged peaks. It begins with sweeping drone shots and first-person perspectives showcasing the serene beauty of the wilderness, before transitioning into dynamic action sequences featuring wingsuit flyers, skydivers, and paragliders soaring and descending over the dramatic valleys and mirror-like lakes.\n\nThe narrative follows the full cycle of these extreme sports, from the exhilarating launch off cliffs and mountain roads, through thrilling freefall and graceful glides, to the final moments of parachute deployment and landing on winding scenic roads. The video concludes by capturing the post-adventure moments on the ground, where participants smile for the camera, handle their canopies, and share the picturesque routes with cyclists, all set against the stunning, tranquil backdrop of the remote natural setting."
+}

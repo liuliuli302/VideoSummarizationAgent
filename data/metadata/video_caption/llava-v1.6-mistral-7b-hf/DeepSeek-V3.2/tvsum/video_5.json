@@ -1,0 +1,13 @@
+{
+  "video": "XzYM3PfTM4w",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/XzYM3PfTM4w.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_5.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 12,
+  "caption": "This video is a promotional and instructional piece for GMC's Certified Service, specifically focusing on tire replacement and maintenance. It opens by highlighting the GMC certification for tire services, then introduces a representative in a white shirt who stands by a GMC truck in a workshop setting to guide the viewer.\n\nThe core of the video is a step-by-step demonstration of how to rotate tires, followed by an educational segment where the representative uses a penny to illustrate how to check tire tread depth. After this instructional content, the video shifts to show the truck in motion on a road. It concludes with scenes of the representative interacting with a customer, presenting the GMC truck in a professional showroom, and finally reinforcing the message with the GMC Certified Service badge for tire replacement."
+}

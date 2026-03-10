@@ -1,0 +1,13 @@
+{
+  "video": "b626MiF1ew4",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/b626MiF1ew4.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_22.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 55,
+  "caption": "This video presents a dynamic portrait of a group engaging in parkour and outdoor activities in urban settings. It begins with individuals performing push-ups on a brick pavement, setting a tone of physical fitness and informal training. The focus shifts to Steven Erdmanczyk, who appears in candid interview segments seated outdoors, providing a personal perspective amidst the action. Throughout the video, participants are seen executing various athletic maneuvers, including handstands on walls and circular stone structures, climbing brick walls, running along pathways, and performing daring jumps and rail tricks. These scenes showcase agility, strength, and balance against the backdrop of brick walls, public plazas, and park environments.\n\nThe activity transitions into a more communal and recreational atmosphere as the group engages in a frisbee game in a grassy park, highlighting a shift from individual stunts to collaborative play. The video concludes with scenes of people walking together in casual settings, underscoring the social and leisurely aspects of their gatherings. Overall, the video captures a blend of intense physical discipline, skill demonstration, and relaxed outdoor camaraderie, all within urban and park landscapes."
+}

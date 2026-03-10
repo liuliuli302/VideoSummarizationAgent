@@ -1,0 +1,13 @@
+{
+  "video": "Paintball",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Paintball.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/summe/video_15.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 13,
+  "caption": "The video begins with an intense paintball match on an outdoor field, where players in red and black gear move strategically behind obstacles on a cloudy day. The action then shifts into a series of abstract, rapidly moving sequences characterized by blurry, handheld footage that transitions through natural environments—swift motion through foliage, close-ups of the ground in low light, and chaotic flashes suggesting an explosion or disturbance.\n\nThe latter part of the video continues with shaky, candid shots in an outdoor setting, possibly a park or backyard. It shows people in colorful clothing standing or moving on grass, with glimpses of playground equipment or fences, captured from unstable, first-person perspectives. Throughout, the footage emphasizes motion, disorientation, and abstract visual texture over a clear narrative, creating an overall impression of spontaneous, energetic moments in various outdoor locations."
+}

@@ -1,0 +1,13 @@
+{
+  "video": "jcoYJXDG9sw",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/jcoYJXDG9sw.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_49.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 24,
+  "caption": "This video is a segment from the \"Today\" show, featuring an exclusive story about a dog named Obie, an obese dachshund who has been given a new lease on life. The segment begins with a news anchor introducing the story from the studio. It then shifts to the main feature, where hosts and guests, including a man in a suit and a woman holding Obie, discuss the dog's journey. The dog is shown being gently petted, weighed on a scale, and eating from a bowl, highlighting the care and attention it is receiving.\n\nThroughout the segment, various presenters and experts, such as Dr. Andrew Kaplan from City Veterinary Care, contribute to the discussion. The story emphasizes Obie's weight loss and improved well-being, with text overlays reinforcing the exclusive nature of the coverage. The video concludes with the hosts and guests reflecting on Obie's transformation, wrapping up the uplifting story of the dog's recovery and new beginning."
+}

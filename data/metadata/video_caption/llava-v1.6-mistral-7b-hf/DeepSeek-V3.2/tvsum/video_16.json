@@ -1,0 +1,13 @@
+{
+  "video": "WG0MBPpPC6I",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/WG0MBPpPC6I.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llava-v1.6-mistral-7b-hf/tvsum/video_16.json",
+  "source_caption_model": "llava",
+  "source_model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 84,
+  "caption": "The video is a casual, home-cooking tutorial or demonstration featuring a woman named Diane in her kitchen. It begins with Diane reacting with surprise or excitement before transitioning into the preparation of a sandwich. The core of the video follows her step-by-step process of making a meal, which involves extensive chopping of fresh ingredients like tomatoes, avocados, carrots, and cucumbers, as well as slicing cheese and preparing meat. She mixes batters and doughs, bakes, and cooks items on the stovetop using various pots and pans, often adding sauces and seasonings. Throughout the process, the well-equipped kitchen is shown with numerous utensils and appliances, and the tone is focused and domestic. The video concludes with scenes of final meal assembly and serving, maintaining a consistent theme of hands-on, homemade cooking."
+}

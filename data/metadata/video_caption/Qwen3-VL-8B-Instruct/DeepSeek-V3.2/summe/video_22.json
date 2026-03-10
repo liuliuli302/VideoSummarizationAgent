@@ -1,0 +1,13 @@
+{
+  "video": "Valparaiso_Downhill",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Valparaiso_Downhill.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/summe/video_22.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 48,
+  "caption": "This video presents a first-person, action-packed perspective from a rider participating in a Red Bull-sponsored motorsports event, likely an urban downhill or street stunt competition. It begins at a sunlit dirt track starting gate, where the rider, wearing a Red Bull-branded helmet, is poised beside a promotional car before a crowd of spectators. The sequence quickly accelerates as the rider navigates a challenging, narrow urban course, weaving through tight streets, steep inclines, and staircases lined with cheering crowds behind barriers. The rider alternates between a motorcycle and a mountain bike, maneuvering past obstacles, graffiti-covered walls, and sponsor banners like Nissan, showcasing high-speed control and precision.\n\nThe adrenaline-fueled ride continues through various terrains, including rugged dirt trails, concrete staircases, and paved alleyways, all densely packed with enthusiastic onlookers. The climax features the rider approaching and ascending a large vert ramp in an open area, surrounded by prominent sponsor logos, before descending back into the urban maze. The video concludes with the vehicle speeding through vibrant, winding village streets, capturing the dynamic energy, skilled maneuvers, and electric atmosphere of the organized street race or stunt exhibition from an immersive point of view."
+}
