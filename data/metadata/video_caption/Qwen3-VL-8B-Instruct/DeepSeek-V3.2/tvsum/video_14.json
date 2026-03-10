@@ -1,0 +1,13 @@
+{
+  "video": "3eYKfiOEJNs",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/3eYKfiOEJNs.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/tvsum/video_14.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 42,
+  "caption": "This video, titled “The Argentina Independent,” opens with a montage of urban life in Argentina, showing pedestrians crossing streets, window shopping, and strolling along city sidewalks. The focus then shifts to a series of scenes centered around pet care, primarily following dogs and their owners in a bustling city environment.\n\nThe narrative centers on a professional pet grooming salon, where groomers—including a man named Hugo—provide comprehensive services such as haircuts, baths, drying, and nail and ear care. Various dogs, including Labradors, poodles, Schnauzers, and small fluffy breeds, are shown being calmly and meticulously washed, trimmed, and dried by attentive staff. Owners share testimonials, explaining how their pets trust and feel at ease with the groomers, even in a busy urban setting. The video concludes by returning to street scenes and finally displaying the website address for “The Argentina Independent,” framing the entire piece as a documentary-style glimpse into everyday life and specialized pet care in the city."
+}

@@ -1,0 +1,13 @@
+{
+  "video": "byxOvuiIJV0",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/byxOvuiIJV0.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/tvsum/video_34.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 64,
+  "caption": "The video opens with introductory logos before transitioning to a series of vignettes capturing everyday life and celebration in Bangladesh. It begins with observational scenes of people gathered in public spaces, followed by tranquil moments at a seaside with boats and a child playing. The focus then shifts to children playing cricket on a sandy field, highlighting casual recreation.\n\nThe video's central theme emerges as a vibrant, large-scale public celebration, likely tied to a festival or national event like the ICC World Twenty20. It documents extensive street performances where groups of people, often dressed in colorful casual attire, engage in synchronized dancing in urban squares and streets. These lively, choreographed routines are performed in circles or lines, surrounded by large, enthusiastic crowds of spectators, including families and schoolchildren. The atmosphere is consistently festive and communal, with scenes of collective joy, animated crowds cheering, and even a brief moment of kite flying. The recurring visuals of decorated rickshaws, bustling markets, and uniformed police observing the festivities further root the event in a specific cultural and urban context, portraying a nation united in public celebration and performance."
+}

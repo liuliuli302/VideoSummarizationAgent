@@ -1,0 +1,13 @@
+{
+  "video": "Bhxk-O1Y7Ho",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/Bhxk-O1Y7Ho.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/tvsum/video_12.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 149,
+  "caption": "The video begins with a focus on a small fluffy white animal, likely a dog or cat, being petted in a domestic setting, before transitioning to a nighttime cityscape of Atlanta titled “Just A Girl ATL.” It then follows a young Black woman with long dark hair throughout various spaces in her home—primarily kitchens, bedrooms, and bathrooms—capturing her in moments of introspection, surprise, and direct address to the camera as she speaks, gestures, and engages with daily routines. The sequence frequently shows her looking thoughtfully at objects, adjusting her hair, or reacting to unseen stimuli, with recurring background details like a “Keep Calm and Eat Cupcake” sign and a refrigerator covered in magnets. The video also highlights a collection of personal care and pet grooming products, including Earthbath shampoo and Christian Brothers hair products, arranged on counters and shelves. Throughout, a fluffy white dog appears, interacting playfully in kitchens and bathrooms—drinking water, being dried, sniffing toys, and resting on counters and rugs—while occasional shots depict other pets, like cats, moving quickly through cluttered spaces. The overall video portrays a casual, intimate glimpse into the woman’s daily life, blending personal moments, pet care, and domestic interactions within a vibrant, lived-in environment."
+}

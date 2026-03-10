@@ -1,0 +1,13 @@
+{
+  "video": "RBCABdttQmI",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/RBCABdttQmI.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/tvsum/video_27.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 113,
+  "caption": "The video captures a festive outdoor event, likely a college campus celebration or alumni reunion, beginning with a serene scene featuring a stylized \"MHC\" logo. This transitions into a lively procession where groups of women, dressed predominantly in white outfits with green scarves, leis, and floral crowns, walk through a lush park setting. They carry and lay down long green leafy garlands along paths, creating a ceremonial atmosphere. Throughout the gathering, various students—such as Anika Aarons '13, Angela Avoryie ’13, Anne Gabrielle Boucher ’13, and Rachel Berlage '13—speak to the camera, sharing their experiences and adding a personal touch to the event.\n\nThe celebration includes nostalgic parade segments with participants dressed in blue and white, holding banners displaying years like \"1988\" and \"1983,\" suggesting class reunions or commemorations. The mood remains joyful and communal as attendees interact, embrace, take photos, and even dance in coordinated routines. Later scenes feature older alumni in vintage convertibles wearing \"LOYALTY CLASS\" sashes, bagpipers performing in front of brick buildings, and a brief interview with Seth Carey from Carey’s Flowers. The event culminates in synchronized rituals where women hold and sway green garlands together, emphasizing unity, tradition, and a shared connection to nature and campus life."
+}

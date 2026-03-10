@@ -1,0 +1,13 @@
+{
+  "video": "Yi4Ij2NM7U4",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/Yi4Ij2NM7U4.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/tvsum/video_18.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 30,
+  "caption": "The video is a casual, vlog-style cooking tutorial and demonstration set in a domestic kitchen. The host, a man with glasses, a beard, and a backward cap wearing a skull-print t-shirt, speaks directly to the camera, gesturing expressively as he introduces the video. He alternates between scenes filmed in his kitchen and others shot in front of a green screen, suggesting segments intended for background effects.\n\nThe main activity involves preparing a simple meal. The host demonstrates food preparation by peeling and chopping an onion and a green bell pepper. He then presents hot dogs and ketchup, combining them in a pan with the chopped vegetables and tomato sauce to cook on the stovetop. Throughout the process, he engages with the viewer through animated commentary and reactions, including a humorous segment where he takes a large bite of a raw onion and reacts with exaggerated disgust. The video concludes with him showing the finished dish, taking a bite of a hot dog, and a final screen displaying the \"Invincible Productions\" logo."
+}

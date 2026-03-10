@@ -1,0 +1,13 @@
+{
+  "video": "Se3oxnaPsz0",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/Se3oxnaPsz0.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/tvsum/video_39.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 27,
+  "caption": "The video is a news report from KOLD News 13, beginning with its energetic channel introduction. The broadcast quickly shifts to a late-breaking story, with anchor Heather Rowe presenting urgent live footage showing emergency responders, a fire, and significant property damage from what appears to be a local incident. The report then moves to the scene, where a reporter details the severe structural damage inside a compromised building.\n\nThe story expands to cover related issues on a farm, showing scenes of animals like pigs and cows in dim, rustic enclosures and a person performing quiet farm chores. The focus then transitions to a pest control narrative, featuring a man identified as \"The Killer Bee Guy\" from killerbeeguy.com. The report includes interviews with local farmer Jane Hewitt and animal caretaker Ian Peters, as well as footage of beekeepers at work and dramatic shots of a massive bee swarm in a rural area.\n\nThe segment explores various infestations and hazardous environments, showing ants and bees in decaying structures, workers in hazmat suits in a cluttered room, and insects teeming in a subterranean tunnel. It returns to the farm setting, showing a person in a hazmat suit walking among livestock, and includes scenes of animals in enclosures. The report concludes with a reporter delivering a narrative in a cluttered indoor space, interspersed with intimate shots of a pig, before ending with a \"DEVELOPING STORY\" graphic that underscores the ongoing nature of the coverage."
+}

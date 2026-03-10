@@ -1,0 +1,13 @@
+{
+  "video": "HT5vyqe0Xaw",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/HT5vyqe0Xaw.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/tvsum/video_6.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 1,
+  "caption": "This video documents a vehicle recovery operation in a dense, sun-dappled forest. It begins with stationary shots of a wooden patio and a silver station wagon on a gravel road before focusing on the main subject: a white trailer or camper van that appears overturned or stuck on a muddy, wooded track, with yellow caution tape and debris nearby.\n\nThe operation then proceeds with the assistance of a large red excavator or crane truck, operated by workers in orange safety vests. The footage, which mixes static shots with first-person perspectives of the forest paths, concludes with the recovery scene, showing a blue-and-white truck parked on a dirt road as people observe and the red machinery remains positioned nearby, having completed the assisted recovery."
+}

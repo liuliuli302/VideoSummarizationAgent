@@ -1,0 +1,13 @@
+{
+  "video": "WG0MBPpPC6I",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/WG0MBPpPC6I.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/tvsum/video_16.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 84,
+  "caption": "This video follows Chef Diane Dimeo as she prepares a dish, likely a chicken sandwich with a homemade breading, in her modern home kitchen. She begins by energetically presenting the finished sandwich and promoting her “Homemade Breading” recipe to the viewer. Throughout the tutorial, she introduces the key ingredients—such as canned goods, Queso Blanco cheese, tortillas, tomatoes, avocados, and jalapeños—while demonstrating the preparation steps, including slicing, chopping, and handling the fresh produce.\n\nThe cooking process continues as she mixes ingredients, including eggs and a breading or batter, and prepares a dough-like mixture by hand. She then moves to the stove to cook components, frying eggs, toasting bread, and simmering a bean-based mixture in a pan. Chef Diane remains animated and engaging, frequently speaking to the camera and gesturing to explain each step, creating a warm, instructional atmosphere focused on fresh, homemade cooking."
+}

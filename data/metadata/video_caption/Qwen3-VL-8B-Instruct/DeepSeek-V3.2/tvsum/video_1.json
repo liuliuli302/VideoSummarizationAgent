@@ -1,0 +1,13 @@
+{
+  "video": "AwmHb44_ouw",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/AwmHb44_ouw.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/tvsum/video_1.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 35,
+  "caption": "The video begins with static shots of a rugged, muddy tire and disassembled machinery in a workshop, suggesting a repair or maintenance project. A man with gray hair and a mustache then appears outdoors, speaking directly to the camera in front of a house and later near a fence, as if introducing or explaining the activity.\n\nThe focus shifts to hands-on work on a large off-road tire mounted on a metal rim with a star-shaped hub. Using tools like a screwdriver, pry bar, and hydraulic jack, the person performs tasks such as adjusting lug nuts, cleaning the tire, and manipulating the rim, all in an outdoor setting on dirt ground. The process includes inspecting the tire’s tread, hub, and sidewall, pointing out features, and removing debris.\n\nThroughout the video, close-up shots emphasize the tire’s condition, cleaning efforts with brushes and spray bottles, and detailed mechanical work on the wheel assembly. The video concludes with the man speaking again outdoors near a wooden fence, summarizing or reflecting on the maintenance activity shown."
+}

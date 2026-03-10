@@ -1,0 +1,13 @@
+{
+  "video": "i3wAGJaaktw",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/i3wAGJaaktw.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/tvsum/video_11.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 10,
+  "caption": "This video provides a look inside the professional services of Pet Joy, a pet grooming salon. It opens with a view of the salon's decorated exterior before moving inside to show a calm golden retriever being gently comforted on a grooming table. The video then demonstrates various aspects of the grooming process, including a staff member showcasing a pet crate, the detailed brushing and preparation of a dog, and the application of grooming products. It highlights routine care such as drying a dog with a towel, trimming nails with an electric clipper, and carefully shaping the fur around a dog's paws.\n\nThroughout the sequences, different dogs remain relaxed and cooperative in the hands of the attentive groomers. The video concludes by showcasing the salon's retail offerings, including premium pet food brands, before ending with another exterior shot of the \"Pet Joy\" storefront, emphasizing its professional and caring environment for pets."
+}

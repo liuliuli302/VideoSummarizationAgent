@@ -1,0 +1,13 @@
+{
+  "video": "XkqCExn6_Us",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/XkqCExn6_Us.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/tvsum/video_23.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 53,
+  "caption": "The video follows a young man in a domestic interior, holding up handwritten notes with cryptic messages like “JCBO LATE” before an alarm clock marks the early morning. He engages in solitary, introspective activities in his cluttered bedroom and apartment—exercising, stretching, organizing laundry, and preparing his clothes—creating a quiet, contemplative atmosphere. As he leaves his home, the narrative shifts to his journey through urban and transit spaces: he walks through residential areas, enters a subway station, swipes through a turnstile, and waits on platforms, often gazing upward thoughtfully. The pace quickens as he moves outdoors into park-like settings, where his actions become more dynamic, including stumbling, encountering animals, and eventually engaging in urban exploration and parkour—climbing railings, leaping from structures, and skateboarding through courtyards and alleys. This athletic expression builds until a sudden, dramatic event interrupts a street performance: a large object crashes from the sky, prompting scenes of urgency, fleeing, and navigating obstacles in rugged outdoor environments. The video blends moments of quiet solitude and routine with bursts of physicality and a culminating sense of disruption or escape."
+}

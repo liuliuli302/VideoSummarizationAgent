@@ -1,0 +1,13 @@
+{
+  "video": "JgHubY5Vw3Y",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/JgHubY5Vw3Y.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/tvsum/video_44.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 39,
+  "caption": "The video is a promotional piece for Pure Fix, blending presentation segments with dynamic urban cycling footage. It opens with two hosts in matching branded shirts presenting from a vibrant bicycle shop decorated with a wall of colorful wheels. This is intercut with scenes of cyclists navigating city streets, performing wheelies, crossing bridges, and narrowly avoiding traffic, all showcasing the brand's bicycles in action.\n\nThe presentation continues with the hosts discussing bicycle maintenance, safety, and customization, including demonstrations of adjusting handlebars, lubricating chains, and applying decals. A strong safety message is emphasized through graphics explicitly prohibiting the use of \"quick release\" mechanisms. The video also features scenes of people locking, unlocking, and performing roadside repairs on their bikes, highlighting security and care. It concludes with promotional graphics for Pure Fix TV, reinforcing the brand's identity within urban cycling culture."
+}

@@ -1,0 +1,13 @@
+{
+  "video": "98MoyGZKHXc",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/98MoyGZKHXc.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/tvsum/video_2.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 50,
+  "caption": "The video is an instructional guide from the consumer organization Which?, demonstrating how to use a tire repair kit. It begins with introductory graphics and logos before showing a man driving and speaking to the camera, explaining the process. The scene shifts to an autumnal setting where a white car is parked on a leaf-strewn street. The man inspects the vehicle, opens the trunk to access tools, and demonstrates checking tire pressure, using a portable compressor, and applying sealant to repair a puncture. Close-up shots emphasize the tire, wheel, and tools, while other segments show basic car functions like the 12V socket, power button, and airbag controls. Throughout, the video maintains a direct, tutorial-like tone, with the driver occasionally addressing the viewer during drives through park-like roads, and includes repeated prompts to subscribe to the channel."
+}

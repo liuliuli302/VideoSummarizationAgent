@@ -1,0 +1,13 @@
+{
+  "video": "jcoYJXDG9sw",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/jcoYJXDG9sw.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/tvsum/video_49.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 24,
+  "caption": "This video is a segment from NBC's \"Today\" show, featuring an exclusive story about an obese dachshund named Obie and his remarkable health transformation. The segment begins with a host introducing the topic on the studio set before shifting focus to Obie himself, who is shown lying calmly on a table surrounded by the show's hosts. They gently interact with him while discussing his journey, identified on-screen as \"Obie's New Lease on Life.\"\n\nThe story is further detailed through interviews with Obie's owner, Nora Vanatta, and a veterinarian, Dr. Andrew Kaplan, who provide context about his recovery. Archival footage illustrates Obie's past struggles, showing him having difficulty walking and moving due to his weight. The narrative culminates by highlighting his successful transformation, using split-screen images to contrast his former obese state with his current, healthier condition, framing it as a heartwarming tale of rescue and renewal."
+}

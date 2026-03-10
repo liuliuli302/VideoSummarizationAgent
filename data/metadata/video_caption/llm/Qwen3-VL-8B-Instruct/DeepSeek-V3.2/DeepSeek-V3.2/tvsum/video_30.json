@@ -1,0 +1,13 @@
+{
+  "video": "4wU_LUjG5Ic",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/4wU_LUjG5Ic.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/tvsum/video_30.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 31,
+  "caption": "This student-produced documentary, titled \"A Bike Friendly Cities film\" and presented by Shoeburyness High School in collaboration with the \"Ideas in Motion\" initiative, explores the vibrant culture and community around cycling in urban environments. The film opens with scenes of a child joyfully riding a bicycle through a historic European town square, symbolizing the simple, accessible pleasure of cycling. It then expands its view to showcase various community cycling events, including festive parades over bridges and through city streets, leisurely group rides in the countryside, and organized pelotons navigating dedicated urban bike lanes.\n\nThe documentary captures the social and infrastructural aspects of a bike-friendly city, featuring interviews and interactions between cyclists in parks, bustling outdoor markets where families travel by cargo bike, and large public festivals adorned with promotional banners. It highlights the everyday integration of bicycles, from rows of parked bikes on cobblestone streets to covered parking facilities, culminating in a celebratory atmosphere where people of all ages, often in patriotic or whimsical attire, come together to promote cycling. The film concludes by crediting the student filmmakers and thanking the supporting community organizations."
+}

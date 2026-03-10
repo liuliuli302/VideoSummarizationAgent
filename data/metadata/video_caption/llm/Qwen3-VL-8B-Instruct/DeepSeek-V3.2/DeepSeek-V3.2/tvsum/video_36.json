@@ -1,0 +1,13 @@
+{
+  "video": "WxtbjNsCQ8A",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/WxtbjNsCQ8A.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/tvsum/video_36.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 26,
+  "caption": "The video opens with the title \"Beekeeping 101\" before introducing elderly beekeeper Dave Stokesberry at his apiary in Puyallup, Washington. Dave is shown in his sunny backyard, where he tends to his garden and inspects a variety of homemade beehives constructed from wooden boxes and metal cans. The video then delves into detailed views of the hive interiors, showcasing frames of intricate hexagonal honeycomb densely populated with active bees tending to the cells filled with golden honey. Dave carefully handles these frames during inspections, highlighting the bustling, organized activity of the colony both inside the hive and at its weathered wooden entrance.\n\nThe narrative includes an interview with Dave in his garden, where he reflects on his work, followed by scenes demonstrating his honey production. He presents various labeled jars of honey in a rustic pantry setting adorned with awards, and pours honey for inspection. The video also shows him in a cluttered workshop, thoughtfully examining small objects, emphasizing his meticulous nature. The concluding sequences return to the apiary, where Dave, sometimes in protective gear, opens beehives labeled \"Stokesberry Hives\" among rose bushes and a white fence, removing frames teeming with bees. The video ends with text screens celebrating honey's enduring purity and acknowledging Dave's contributions and the cinematography."
+}

@@ -1,0 +1,13 @@
+{
+  "video": "eQu1rNs0an0",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/eQu1rNs0an0.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/tvsum/video_43.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 50,
+  "caption": "The video is a dynamic, stylized promotional piece centered around urban cycling, bike culture, and the Pure Fix brand. It opens with a woman in front of a graffiti wall introducing the theme, followed by a montage of cyclists performing stunts like wheelies and jumps in city streets, navigating traffic, and maintaining their bikes in a workshop. The action is intercut with shots of traffic signals, first-person riding perspectives, and scenic rides through palm-lined roads.\n\nThe video repeatedly features branded segments for \"PURE FIX TV,\" with glitchy animations, logo reveals, and recurring appearances by a woman speaking directly to the camera against a colorful, abstract backdrop. It also includes casual, promotional-style scenes of individuals—often a man in a black shirt with a green logo—showcasing a white fixed-gear bicycle in front of chain-link fences in locations like New York. The overall narrative blends high-energy cycling action, practical maintenance tutorials, and sleek brand graphics to celebrate a fast-paced, urban biking lifestyle."
+}

@@ -1,0 +1,13 @@
+{
+  "video": "kLxoNp-UchI",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/kLxoNp-UchI.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/tvsum/video_48.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 26,
+  "caption": "The video opens with an abstract, swirling spiral of vibrant colors, which transitions into a title card for \"OLIVER'S Show.\" It then follows a small Chihuahua dog in various domestic and outdoor settings. The dog is shown resting in a bed, watching as a food bowl is placed nearby, sitting attentively indoors, and exploring a sunlit grassy yard—sometimes peeking from behind objects or cautiously descending steps. Throughout these scenes, Spanish subtitles appear, offering reflective messages about taking a break, exploring, relaxing, and contemplating life. Interspersed are shots of a young man speaking expressively to the camera, often with encouraging or narrative captions. The video captures quiet, intimate moments, such as the dog being gently dressed in a purple sweater and resting peacefully on a bed with its owner. It concludes with the dog lying contentedly outdoors and a final title card reading \"DOG'S TALE / RELATO CANINO,\" framing the sequence as a serene, contemplative story about a dog's simple joys and companionship."
+}

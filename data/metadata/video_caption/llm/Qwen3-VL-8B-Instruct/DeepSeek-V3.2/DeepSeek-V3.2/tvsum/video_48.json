@@ -1,0 +1,13 @@
+{
+  "video": "kLxoNp-UchI",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/kLxoNp-UchI.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/tvsum/video_48.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 25,
+  "caption": "The video opens with an animated, psychedelic title sequence for \"Oliver's Show,\" followed by the introduction of a short film titled \"Dog's Tale / Relato Canino.\" The story centers on a small, expressive Chihuahua named or described as \"Molesto.\" It begins with the dog's daily life indoors, showing moments like waiting hopefully for food it may not like and sitting attentively as on-screen text suggests themes of affection and human persistence.\n\nThe narrative then shifts between the dog's perspective and a young man speaking passionately to the camera. As the video progresses, the dog is seen outdoors in sunny, grassy settings, playfully hiding, exploring, and resting. Spanish subtitles offer reflective and sometimes humorous commentary, advising the dog to ignore people, hide, take a break, clean up, or simply relax and think about life. The tone becomes philosophical, emphasizing comfort and contentment.\n\nThe final scenes return indoors, showing tender moments of care as the dog is dressed in a purple outfit, gently groomed, and cuddled on a bed with blankets and a stuffed animal. The subtitles reinforce themes of finding safety, affection, and joy with \"the giants\" (humans), culminating in the message that it's never too late to live a wonderful life. The video concludes with a static title card for \"Dog's Tale / Relato Canino\" on a black background."
+}

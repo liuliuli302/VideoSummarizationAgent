@@ -1,0 +1,13 @@
+{
+  "video": "91IHQYk1IQM",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/91IHQYk1IQM.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/tvsum/video_26.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 51,
+  "caption": "The video opens with a quiet, observational view of an urban landscape, framed by tall brick apartment buildings and panning to reveal the distant Empire State Building under a clear sky. It then shifts to a child quietly observing their surroundings on public transport, followed by a street musician performing on a subway entrance step near Canal Street.\n\nThe focus quickly transitions to a vibrant and crowded street parade, likely a Chinese New Year celebration in a Chinatown district. The scene builds from low-angle shots of confetti-covered feet and bustling crowds to wide views of spectators lining the streets behind barriers. The parade features traditional cultural performances, including dancers in red and gold costumes, elaborate dragon and lion dances, and performers with large fans and ornate headpieces. The festive atmosphere is filled with colorful confetti, blue and yellow balloons, and enthusiastic crowds recording the event on their phones. The procession moves past urban landmarks like Cathay Bank, with a joyful, communal spirit marking the cultural celebration from start to finish."
+}

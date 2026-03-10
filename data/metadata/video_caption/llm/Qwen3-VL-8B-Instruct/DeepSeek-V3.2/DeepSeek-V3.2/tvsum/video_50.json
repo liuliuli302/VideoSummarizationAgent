@@ -1,0 +1,13 @@
+{
+  "video": "-esJrBWj2d8",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/-esJrBWj2d8.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/tvsum/video_50.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 16,
+  "caption": "This video follows a domestic narrative centered around a tabby cat and a ginger cat, interwoven with brief human interactions. It begins with a relaxed tabby cat lounging beneath an ornate table, observing its surroundings and showing interest in a can of cat food. The scene then shifts to two children in a hallway, who playfully present various food items, including Cesar brand pet food, to the camera.\n\nThe focus returns to the cats as they are shown eating eagerly from plates and bowls, first in a living room and then on a wooden floor, with a person often nearby. In a notable sequence, a hand sprinkles a dark condiment, like soy sauce, over the cat's meat meal. After eating, the cats are seen walking through the house, exploring areas like a room with a piano and a doorway, displaying curious and alert behavior. The video includes a moment of near darkness before showing a content orange tabby being petted while lounging on an armchair and couch. It concludes with scenes of a pet feeding area and the cats moving purposefully through the home, ending with an orange tabby sitting alertly by a doorway."
+}

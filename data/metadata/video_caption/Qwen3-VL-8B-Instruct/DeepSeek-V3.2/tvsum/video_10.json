@@ -1,0 +1,13 @@
+{
+  "video": "akI8YFjEmUw",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/akI8YFjEmUw.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/tvsum/video_10.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 30,
+  "caption": "This video is a Business News segment covering the 2012 EV Korea Expo, a trade fair focused on electric vehicles and related technology. It opens with a dynamic animated logo before cutting to a news anchor introducing a report on the environmental benefits of electric cars.\n\nThe report then takes viewers to the exhibition floor, showcasing various electric vehicles like Kia EVs and an OLEV bus, with demonstrations of charging procedures and infrastructure. Interviews with industry professionals, including a representative from the Korea Environment Corporation, discuss the expansion of charging networks to support wider EV adoption. The segment also highlights supporting technologies on display, such as advanced measurement and monitoring systems for industrial applications. The video concludes by returning to the bustling expo hall, capturing attendee interactions, presentations, and hands-on demonstrations of the latest sustainable transportation innovations."
+}

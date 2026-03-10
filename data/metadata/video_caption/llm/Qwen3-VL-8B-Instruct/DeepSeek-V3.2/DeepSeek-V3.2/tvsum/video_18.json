@@ -1,0 +1,13 @@
+{
+  "video": "Yi4Ij2NM7U4",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/Yi4Ij2NM7U4.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/tvsum/video_18.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 28,
+  "caption": "The video follows a man with glasses and a beard, frequently wearing a skull-print t-shirt and sometimes a cap, as he creates content in alternating kitchen and green-screen studio settings. He begins by speaking animatedly to the camera in a kitchen, explaining or presenting ideas, then shifts to a more relaxed, smiling presence in front of the green screen for recording or vlogging segments. These casual, direct-address scenes intercut with detailed sequences of food preparation, where he demonstrates chopping vegetables like onions, potatoes, and bell peppers with a knife on a cutting board. Later, he humorously interacts with produce—such as smelling and reacting to an onion—and holds up kitchen tools like knives and a sharpening steel. The cooking process culminates in a tomato-based sauce dish with hot dogs; after a mishap involving burnt food, he salvages it by adding ketchup or tomato sauce, then simmers the mixture with added onions and peppers. Throughout, he directly engages the viewer, showing the finished hot dog meal and concluding with a logo for \"Invincible Productions.\""
+}

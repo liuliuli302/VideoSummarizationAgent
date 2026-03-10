@@ -1,0 +1,13 @@
+{
+  "video": "RBCABdttQmI",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/RBCABdttQmI.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/tvsum/video_27.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 101,
+  "caption": "The video opens with the stylized \"MHC\" logo before transitioning to a vibrant St. Patrick's Day celebration on a college campus. Groups of students, primarily young women in coordinated white dresses with green scarves and accessories, are shown walking through parks, smiling, posing for photos, and participating in festive activities like weaving leafy wreaths. Several students, including Anika Aarons, Angela Avoryie, and Rachel Berlage, are individually highlighted in joyful interviews and interactions.\n\nThe narrative then expands to show a series of historical campus parades and processions from different decades, including groups in blue wigs from 1988 and marchers with sunflowers and banners from 1983 and 1963. These archival scenes, featuring participants in thematic attire carrying year-specific banners, are intercut with modern celebratory gatherings where students dance and play with green branches in sun-dappled parks. The video also includes segments with business owner Seth Carey and a series of intimate, present-day interviews with alumnae like Sally Sears Donner '63, who reflect on the past from their festively decorated homes. These personal moments are juxtaposed with vintage black-and-white photographs of graduating classes and formal group portraits, such as one featuring Hilda DeCamp Donner from 1933, weaving together decades of tradition, celebration, and shared memory at the institution."
+}

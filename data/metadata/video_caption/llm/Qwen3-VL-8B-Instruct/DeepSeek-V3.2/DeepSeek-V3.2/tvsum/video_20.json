@@ -1,0 +1,13 @@
+{
+  "video": "LRw_obCPUt0",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/LRw_obCPUt0.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/tvsum/video_20.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 40,
+  "caption": "This video offers an inside look at Joseph Leonard, a cozy and rustic restaurant in New York, with a particular focus on its celebrated fried chicken sandwich. It begins with the careful assembly and presentation of the sandwich, highlighting its crispy chicken, creamy sauce, and fresh toppings on a soft bun. The scene then establishes the restaurant's warm, inviting atmosphere, both from its interior and the busy city street outside, before introducing owner Gabriel Stulman and chef James McDuffee as they speak about their work.\n\nThe core of the video details the food preparation process within the bustling commercial kitchen, showing cooks expertly frying chicken and fries. This is intercut with close-up shots of the finished, mouth-watering dishes—the signature sandwich, vibrant salads, and other plates like okonomiyaki—being assembled and presented. Throughout, the film captures the lively, convivial spirit of the cafe, featuring patrons engaged in conversation and dining, bartenders at work, and the overall vintage, book-filled decor. It concludes by showcasing the sandwich once more and ends with promotional graphics for the Great Googa Mooga food festival and a call to follow related social media accounts."
+}

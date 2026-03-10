@@ -1,0 +1,13 @@
+{
+  "video": "gzDbaEs1Rlg",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/gzDbaEs1Rlg.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/tvsum/video_4.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 48,
+  "caption": "This video is a Škoda-branded instructional guide focused on vehicle maintenance and roadside assistance. It begins with the Škoda logo, followed by a man interacting with a Škoda station wagon. A presenter then addresses the camera directly in an outdoor setting, offering a serious tutorial with a recurring disclaimer that the content is only a guide.\n\nThe core of the video demonstrates practical car care tasks, primarily centered on tire maintenance. It shows detailed, hands-on procedures such as checking and adjusting tire pressure using gauges and pumps, inspecting valve stems, and addressing a flat tire with tools like a tire iron. Other segments feature interior interactions with controls like the gear shift, inspections of wheels and tires, and activities in the trunk involving electronic devices and cleaning. A roadside assistance scenario is prominently advertised with a warning sign and a contact number.\n\nThroughout these demonstrations, a man in an orange safety vest is frequently shown performing these tasks by a dark green Škoda, often explaining his actions to the camera with varying expressions. The video also includes scenes of driving, refueling with a specific focus on diesel fuel warnings, and the presenter speaking earnestly to the viewer, reinforcing the advisory and instructional nature of the content."
+}

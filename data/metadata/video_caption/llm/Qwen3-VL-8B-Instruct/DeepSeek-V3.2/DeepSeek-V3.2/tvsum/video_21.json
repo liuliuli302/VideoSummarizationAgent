@@ -1,0 +1,13 @@
+{
+  "video": "cjibtmSLxQ4",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/cjibtmSLxQ4.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/tvsum/video_21.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 160,
+  "caption": "This video is a compilation of French television news segments and reports, primarily from the TF1 network, documenting the rise and culture of parkour in the late 1990s and early 2000s. It opens with a promotional graphic for \"Allonnes Parkour 72\" before transitioning into a TF1 report on David Belle, the founder of the discipline. The footage extensively features Belle and other traceurs (parkour practitioners) performing dynamic movements—running, vaulting, climbing, and jumping—in various urban and suburban environments around Paris, including Lisses and Evry. The scenes capture their athletic traversals of rooftops, stairwells, fences, and concrete structures, often with a grainy, low-resolution broadcast aesthetic.\n\nThe video broadens to show the social context and media portrayal of the movement. It includes interviews with practitioners like Guylain N'Guba Boyeke of the Yamakasi group, studio segments, and scenes of group activities in parks and on streets. The coverage also touches on related themes of urban exploration, with clips of climbing on construction sites and natural rock formations. Interwoven are general news segments from the same era featuring residents of Parisian suburbs, brief moments of tension or altercation, and cultural glimpses, such as appearances by the hip-hop group IAM. Throughout, the persistent TV network logos and timestamps frame the content as archived broadcast journalism, painting a portrait of parkour's early media representation and its roots in the French suburban landscape."
+}

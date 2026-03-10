@@ -1,0 +1,13 @@
+{
+  "video": "GsAD1KT1xo8",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/GsAD1KT1xo8.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/tvsum/video_24.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 58,
+  "caption": "The video is a vibrant and dynamic montage of youth culture and spontaneous urban life, following a loose narrative of movement, play, and connection. It begins with a group of children moving from darkness into light, symbolizing a transition into a series of sun-drenched outdoor scenes. The focus shifts to various groups of young people in parks and city plazas, where they socialize, perform skateboarding tricks, breakdance, and engage in playful athletic stunts. Moments of quiet reflection are interspersed, such as a boy gazing out a car window or individuals resting in tranquil settings.\n\nThe energy builds through sequences of parkour, acrobatics, and public performances in locations ranging from skate parks and historic archways to courtyards and riverbanks. The scenes capture a sense of raw, joyful physicality and camaraderie, often observed by small crowds. This playful atmosphere occasionally dips into moments of tension or concern, but the overall journey culminates in a celebration of youthful freedom, spontaneous creativity, and the shared experience of navigating urban and natural spaces together."
+}

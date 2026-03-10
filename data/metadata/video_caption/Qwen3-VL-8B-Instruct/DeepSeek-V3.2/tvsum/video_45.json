@@ -1,0 +1,13 @@
+{
+  "video": "iVt07TCkFM0",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/iVt07TCkFM0.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/tvsum/video_45.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 25,
+  "caption": "This video is a dynamic showcase and tutorial focused on urban cycling culture, particularly centered around the brand Pure Fix. It opens with an introduction by a woman named Amanda, who introduces the topic \"How to Wheelie\" against a graffiti backdrop. The video then presents a series of clips demonstrating bicycle wheelies and tricks in various city environments, from streets and bridges to skateparks.\n\nThe content shifts to more instructional and behind-the-scenes segments, featuring maintenance tutorials like lubricating a chain and adjusting handlebars in a workshop, where a team celebrates a successful project. The video also includes promotional and interview-style segments with riders like George and Cole in industrial warehouse settings, where they perform advanced stunts such as wheelies, balancing tricks, and maneuvering around traffic cones. It concludes with branding for \"Pure Fix TV,\" displaying social media handles and logos, before fading to black."
+}

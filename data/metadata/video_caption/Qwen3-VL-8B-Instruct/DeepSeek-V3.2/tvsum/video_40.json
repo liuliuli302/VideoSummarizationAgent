@@ -1,0 +1,13 @@
+{
+  "video": "oDXZc0tZe04",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/oDXZc0tZe04.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/tvsum/video_40.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 2,
+  "caption": "The video documents the discovery and establishment of a wild bee hive inside a tree. It begins with a vertical log hive mounted high in a tree, featuring entrance holes and an observation port, and notes a bee swarm moving into it in April 2013. Following this, the footage shifts to inspecting a natural hive within a large tree trunk, starting with exterior shots showing holes in the bark and a dense cluster of bees inside. The tree is then cut open to reveal a thriving hive with honeycomb structures and active bees, culminating with a person's hand gently touching the hive for observation."
+}

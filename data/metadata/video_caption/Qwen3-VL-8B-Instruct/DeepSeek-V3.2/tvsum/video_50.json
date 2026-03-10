@@ -1,0 +1,13 @@
+{
+  "video": "-esJrBWj2d8",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/-esJrBWj2d8.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/tvsum/video_50.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 18,
+  "caption": "The video begins in a cozy, dimly lit living room where a tabby cat lies curled beneath a metal table. Soon, two children in blue shirts appear in a hallway, proudly presenting a container of dog food, with the girl showing it to the camera while an adult’s hand briefly touches the label. The scene then transitions to focus on the cat, first sniffing a toy on the carpet and later being fed by a person who opens a pet food container on the wooden floor. The cat eats intently from a bowl or decorative plate in several close-up sequences, observed by a seated person nearby.\n\nAfter finishing its meal, the cat walks away from the feeding area and explores the home, sitting under a piano where a young girl watches it, then moving through a darkened room before lounging comfortably in a beige armchair. A person gently pets the cat there, capturing a quiet moment of affection. Later, the video shows a pet feeding area with scattered kibble and food remnants, followed by the cat walking calmly across the hardwood floor, pausing near a doorway to look around and yawn before continuing its exploration of the domestic space."
+}

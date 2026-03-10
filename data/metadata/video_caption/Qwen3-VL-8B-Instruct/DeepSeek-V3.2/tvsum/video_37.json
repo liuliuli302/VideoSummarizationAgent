@@ -1,0 +1,13 @@
+{
+  "video": "uGu_10sucQo",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/uGu_10sucQo.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/tvsum/video_37.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 37,
+  "caption": "This video, titled \"A Year of Beekeeping,\" opens with tranquil shots of a sunlit lavender field and swaying tree branches, establishing a serene natural setting. It then introduces an older beekeeper as he prepares for his work, dressing in outdoor clothing and protective gear in a rustic environment.\n\nThe core of the video documents the meticulous process of beekeeping. The beekeeper, now in a full white suit, veil, and gloves, is shown lighting and using a smoker to calm the bees before approaching a series of wooden hive boxes placed among the lavender. The footage captures detailed hive inspections, with the beekeeper carefully opening hives, removing frames teeming with bees, and examining the honeycomb. Throughout these activities, the symbiotic relationship between the bees and their environment is highlighted through close-up scenes of bees actively pollinating the lavender flowers. The video concludes with a call to action, displaying the hashtag \"#SavetheBees\" alongside credits, framing the entire documentary as an appreciation of beekeeping and an advocacy for bee conservation."
+}

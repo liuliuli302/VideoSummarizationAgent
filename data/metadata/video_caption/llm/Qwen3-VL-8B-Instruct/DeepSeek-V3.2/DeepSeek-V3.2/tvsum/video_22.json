@@ -1,0 +1,13 @@
+{
+  "video": "b626MiF1ew4",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/b626MiF1ew4.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/tvsum/video_22.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 53,
+  "caption": "This video follows members of the Charlotte Parkour group as they engage in various athletic activities, training sessions, and social interactions in outdoor urban and park settings. The narrative begins with individuals performing exercises like push-ups and sit-ups in a courtyard, showcasing their fitness routines, before introducing the group's branded merchandise. A member, Steven Erdmanczyk, gives a thoughtful interview, setting a reflective tone. The core of the video then focuses on dynamic parkour movements, including individuals climbing walls, performing handstands on architectural structures, executing skateboard tricks, and vaulting over railings and low walls in campus and urban plazas.\n\nThe action is interspersed with moments of casual camaraderie, as the group walks together, converses under green umbrellas, and participates in organized team sports like dodgeball, kickball, and tug-of-war in sunny parks and fields. Throughout, there is a blend of intense, focused athleticism—such as synchronized training drills, crawling races, and martial arts-inspired movements—and quieter, introspective moments where members are seen contemplating or observing their surroundings. The video concludes with the group enjoying relaxed, playful games in a wooded park, emphasizing the community, skill, and varied pace of their shared active lifestyle."
+}

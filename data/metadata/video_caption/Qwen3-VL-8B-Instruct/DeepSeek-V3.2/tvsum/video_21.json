@@ -1,0 +1,13 @@
+{
+  "video": "cjibtmSLxQ4",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/cjibtmSLxQ4.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/tvsum/video_21.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 164,
+  "caption": "This video is a compilation of segments from a French TF1 news report, primarily focusing on the discipline of parkour and its practitioners in the Parisian suburbs during the early 2000s. It opens with promotional graphics for \"Allonnes Parkour 72\" before introducing a reportage on David Belle, a founder of parkour. The footage showcases various athletes, including Belle himself, demonstrating fluid and athletic movements as they navigate urban environments—vaulting over walls, leaping between buildings, and performing flips and climbs in locations like Lisses and Evry. The scenes capture the essence of parkour as a form of expressive, obstacle-course movement through both residential and institutional architecture.\n\nThe report also includes related street culture and stunts, featuring skateboarding tricks, acrobatics on concrete structures, and brief candid street interviews with young men in the suburbs. Additional clips show rock climbing, a penguin on a sandy slope, and sweeping aerial views of the urban landscape, contributing to a documentary-style overview of the activity and its surrounding subculture. Throughout, the grainy, archival quality and persistent TF1 logo emphasize its origin as a television news segment from that era."
+}

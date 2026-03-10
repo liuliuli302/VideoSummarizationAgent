@@ -1,0 +1,13 @@
+{
+  "video": "E11zDS9XGzg",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/E11zDS9XGzg.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/tvsum/video_46.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 84,
+  "caption": "The video begins with promotional segments for veterinary hospitals, including the Sanjay Gandhi Veterinary Hospital and Max Vets, featuring representatives providing emergency contact numbers and services. This transitions to an outdoor German Shepherd dog show competition, where handlers guide dogs through agility and obedience trials on a grassy field, with promotional banners for Royal Canin visible throughout. The event also includes a bustling outdoor pet fair with vendor tents, booths displaying pet food, and attendees browsing products. Dogs are groomed and showcased on tables, with breeds like Bedlington Terriers and Pekingese being presented. A person representing \"Scooby's Scrub\" displays a collage of before-and-after photos to highlight pet grooming transformations, demonstrating the results of professional grooming services. Throughout, the video captures the lively atmosphere of canine-focused activities, from competitive events to promotional and grooming demonstrations in outdoor settings."
+}

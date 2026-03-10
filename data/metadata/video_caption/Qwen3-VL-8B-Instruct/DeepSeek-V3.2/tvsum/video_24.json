@@ -1,0 +1,13 @@
+{
+  "video": "GsAD1KT1xo8",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/GsAD1KT1xo8.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/tvsum/video_24.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 70,
+  "caption": "The video follows a diverse group of young people navigating various urban and park environments. It begins with children walking through a school hallway toward a doorway illuminated by natural light, then transitions to outdoor scenes in a sunny park where kids play around a large elephant-shaped playground structure. The footage shifts to gatherings of young adults socializing in wooded park areas and on benches, capturing casual conversations and contemplative moments.\n\nLater sequences depict street performances, including a small band playing outdoors at night and breakdancers executing acrobatic moves in city plazas. There are also glimpses of travel, such as individuals eating or sleeping in cars, observing passing scenery during rides. Throughout, the video emphasizes movement and activity—people skateboarding, performing parkour jumps, practicing coordinated dance routines in gyms, and engaging in playful games in parks. The overall narrative highlights everyday interactions, athletic expression, and spontaneous moments within public spaces, blending introspective quiet moments with bursts of energetic urban life."
+}

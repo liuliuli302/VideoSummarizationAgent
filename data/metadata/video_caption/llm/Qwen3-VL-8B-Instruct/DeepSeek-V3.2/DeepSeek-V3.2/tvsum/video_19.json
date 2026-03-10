@@ -1,0 +1,13 @@
+{
+  "video": "37rzWOQsNIw",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/37rzWOQsNIw.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/tvsum/video_19.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 20,
+  "caption": "The video captures a slice of urban life in San Francisco, beginning on the bustling sidewalk outside the Saigon Sandwich shop where pedestrians and traffic flow past the landmark storefront. Inside the shop, a cluttered and award-winning Vietnamese sandwich shop and grocery is shown, featuring a menu of banh mi and shelves stocked with goods. Brief, distorted glimpses of other small convenience stores and food stalls follow, blending interior commerce with reflections of the busy city outside.\n\nThe focus then shifts to outdoor moments of casual dining and city wildlife. A freshly made banh mi sandwich is highlighted, revealing its colorful fillings before the scene broadens to show pigeons foraging on the pavement near a grand building adorned with \"Shanghai\" banners. A man eats a sandwich on the sidewalk, watched by pigeons, before a seagull disrupts the flock in a plaza, causing them to scatter. Close-ups of the appetizing banh mi sandwich recur, and a person sits on the ground sharing the space with foraging pigeons.\n\nLater, a person interacts with a corgi during a walk, holding a coffee and other items, while the dog explores a grassy parking lot. Another person enjoys a layered dessert drink from a cup, followed by scenes of someone seated outdoors carefully unwrapping and eating leaf-wrapped traditional foods like steamed dumplings and fish, with a suitcase nearby suggesting a travel context. The video concludes with a young man filming himself on a sidewalk with his suitcase and eating a meal, before ending with credits that thank Saigon Sandwiches and display a website address."
+}

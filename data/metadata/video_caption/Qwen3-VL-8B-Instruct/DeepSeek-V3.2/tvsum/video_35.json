@@ -1,0 +1,13 @@
+{
+  "video": "_xMr-HKMfVA",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/_xMr-HKMfVA.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/tvsum/video_35.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 58,
+  "caption": "The video begins with a digital, high-tech introduction for the “CASACL Channel” platform, featuring an animated logo assembling from cubes. The visual theme then transitions into a documentary-style focus on daily life in a bustling urban transit hub, likely a subway or train station. Scenes depict commuters moving through escalators and corridors, waiting in lines, and boarding trains—capturing the quiet, purposeful atmosphere of a typical commute. This everyday rhythm is suddenly transformed when musicians, including violinists, flautists, clarinetists, and cellists, begin performing spontaneous, impromptu concerts inside the crowded trains and buses. Passengers watch with curiosity and enjoyment as the intimate, mobile performances create a shared, artistic atmosphere amidst the confined spaces of public transport. The video concludes by following the train’s journey out of the underground tunnels into an elevated outdoor route, blending the persistent motion of transit with the fleeting, communal joy of unexpected music."
+}

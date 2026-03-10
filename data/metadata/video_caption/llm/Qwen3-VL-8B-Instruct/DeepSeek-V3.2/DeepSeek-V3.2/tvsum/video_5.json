@@ -1,0 +1,13 @@
+{
+  "video": "XzYM3PfTM4w",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/XzYM3PfTM4w.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/tvsum/video_5.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 11,
+  "caption": "The video opens with promotional branding for GMC Certified Service, focusing on tire replacement. In a professional studio setting, a service technician, Dave Campbell, introduces the program and its importance. The video then transitions to an auto repair shop where mechanics demonstrate tire maintenance, including inspections, rotations, and the importance of checking tire tread depth every 7,500 miles. An instructional segment clearly explains the \"penny test\" for measuring tire wear.\n\nThe video continues by showing detailed vehicle maintenance procedures at a GMC service center, such as tightening bolts on a car lifted on a rack, while highlighting road hazards like cracked asphalt. Throughout, service representatives in branded shirts address the camera to endorse the Certified Service program, reinforce its benefits, and promote its website. The presentation concludes with promotional graphics emphasizing tire replacement and a final moment of darkness signaling the end."
+}

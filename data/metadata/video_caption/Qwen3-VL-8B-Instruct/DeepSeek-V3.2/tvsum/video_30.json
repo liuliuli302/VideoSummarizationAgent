@@ -1,0 +1,13 @@
+{
+  "video": "4wU_LUjG5Ic",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/4wU_LUjG5Ic.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/tvsum/video_30.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 33,
+  "caption": "This student-produced film, titled “iDEAS in MOTION: A Bike Friendly Cities Film,” opens with its promotional branding before transitioning to a vibrant exploration of cycling culture in urban environments. The video begins by showing a young child confidently riding a balance bike through a bustling European town square, weaving through pedestrians and café-goers, which establishes a theme of accessible, everyday cycling.\n\nThe narrative then expands to showcase various community cycling events, including a lively environmental parade on a bridge and organized group rides along country roads and city bike lanes. Throughout, the film intersperses scenes of casual interviews and conversations with participants in parks and streets, highlighting personal engagement with cycling advocacy. It culminates in a large, festive public gathering—a bike-friendly festival—where crowds mingle among decorated bicycles and colorful banners in a vibrant square. The film concludes by crediting the student creators and their supporting partners, framing the entire project as a celebration of active transport and community-focused urban design."
+}

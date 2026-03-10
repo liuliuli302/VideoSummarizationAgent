@@ -1,0 +1,13 @@
+{
+  "video": "akI8YFjEmUw",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/akI8YFjEmUw.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/tvsum/video_10.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 30,
+  "caption": "This video is a business news broadcast focused on the electric vehicle industry and related technology exhibitions. It opens with a dynamic, animated title sequence before transitioning to a segment highlighting the environmental benefits of electric cars. The report then shifts to coverage of an electric vehicle trade show, likely EV KOREA, where various demonstrations take place. Attendees and presenters are shown inspecting electric cars, showcasing charging systems, and discussing the expansion of EV infrastructure, with an interview featuring an official from the Korea Environment Corporation.\n\nThe broadcast also covers advanced industrial technology, displaying sensor systems and measurement tools from brands like Kimac HD at their exhibition booths. The event atmosphere is captured with scenes of attendees networking, examining exhibits, and watching presentations in conference halls. A significant portion focuses on public transit innovation, showcasing eco-friendly electric and OLEV buses in action at the exhibition. The video concludes by demonstrating the user experience of EV charging, following the process from initiating a charge on a touchscreen interface to monitoring the battery's status on a digital display, all within the context of the professional trade show environment."
+}

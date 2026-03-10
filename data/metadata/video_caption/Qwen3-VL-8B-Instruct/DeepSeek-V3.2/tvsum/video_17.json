@@ -1,0 +1,13 @@
+{
+  "video": "Hl-__g2gn_A",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/Hl-__g2gn_A.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/Qwen3-VL-8B-Instruct/tvsum/video_17.json",
+  "source_caption_model": "qwen",
+  "source_model_name": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_caption_model": null,
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 41,
+  "caption": "This video is a cooking tutorial and demonstration by Chef Diane Dimeo, focused on preparing a hearty corned beef sandwich. The host begins by introducing herself and the recipe in her well-equipped, personal kitchen, which is adorned with a refrigerator covered in magnets and photos. She then guides viewers through the entire process: assembling the sandwich with layers of seeded bread, corned beef, sauerkraut, cheese, and a creamy orange sauce, before cooking it in a frying pan on the stovetop. Throughout the video, she gestures expressively, explaining each step while engaging directly with the camera. The tutorial concludes with her slicing the finished sandwich, taking a satisfying bite, and enjoying it with a pickle, before ending with a promotional screen for her channel and other recipes."
+}

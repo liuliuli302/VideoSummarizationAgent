@@ -1,0 +1,13 @@
+{
+  "video": "z_6gVvQb2d0",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/z_6gVvQb2d0.mp4",
+  "scene_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/scene_caption/llm/Qwen3-VL-8B-Instruct/DeepSeek-V3.2/tvsum/video_28.json",
+  "source_caption_model": "llm",
+  "source_model_name": "DeepSeek-V3.2",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "video_caption_model": "DeepSeek-V3.2",
+  "video_prompt_template": "\nYou are a video understanding assistant.\n\nThe following are scene-level captions extracted from a video.\nEach caption describes one scene in chronological order.\n\nYour task is to summarize these scene captions into ONE concise video-level caption that describes the overall content of the video.\n\nRequirements:\n1. Preserve the main events and storyline of the video.\n2. Follow the temporal order of scenes.\n3. Remove redundant or repeated details.\n4. Produce a coherent and natural description.\n5. The final caption should be 1–2 paragraph.\n\nScene Captions:\n{scene_captions}\n\nVideo Caption:\n",
+  "max_tokens": 240,
+  "num_scenes": 91,
+  "caption": "The video documents a lively public parade and celebration, likely following a sports victory for the Los Angeles Kings hockey team, on a sunny, palm-tree-lined street in a coastal urban area. A large, enthusiastic crowd gathers along the sidewalks and grassy areas to watch a procession of vehicles, including police motorcycles, police SUVs with flashing lights, and decorated pickup trucks. The focal point is a black Toyota pickup truck carrying cheering individuals, some in Kings jerseys, and later a military-style armored vehicle adorned with a \"GO KINGS GO!\" banner, atop which a man proudly holds a large trophy.\n\nThe atmosphere is festive, with spectators waving, cheering, and using their phones to record the event. The celebration includes moments of coordinated dancing and cheering from the crowd. The scene also captures brief moments of disruption, including a minor motorcycle accident on the street and the arrival of various police and sheriff's department vehicles, which draw significant attention from onlookers. The overall narrative is one of a communal, public celebration that draws a large audience and involves a mix of parade vehicles, law enforcement presence, and crowd interaction."
+}
