@@ -1,0 +1,266 @@
+{
+  "video": "kLxoNp-UchI",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/kLxoNp-UchI.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_48.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 3896,
+  "num_scenes": 25,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 221,
+      "start_sec": 0.0,
+      "end_sec": 7.374033,
+      "duration_sec": 7.4074,
+      "num_frame_captions": 15,
+      "caption": "This scene opens with a series of black frames, followed by the emergence of abstract, psychedelic visuals. These develop into a swirling vortex of colorful concentric rings, which serves as the dynamic backdrop for the main title. The stylized logo for \"Oliver's Show\" appears in glowing green and gold lettering, prominently displayed against this vibrant, circular pattern. The title card is consistently accompanied by the website address \"www.oliverhenaineplace.tk\" at the bottom. The sequence concludes by fading back to several frames of complete blackness, bookending the animated introduction."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 222,
+      "end_frame": 448,
+      "start_sec": 7.4074,
+      "end_sec": 14.948267,
+      "duration_sec": 7.574233,
+      "num_frame_captions": 15,
+      "caption": "This scene opens with a close-up of a small, alert chihuahua sitting comfortably in a red and black plaid dog bed. The dog gazes directly at the camera with large, expressive eyes, conveying a curious and attentive demeanor in a warmly lit indoor setting. As the scene progresses, the bilingual title \"DOG'S TALE / RELATO CANINO\" appears overlaid on the image, establishing the name of the production. The chihuahua remains the central, still focus throughout, maintaining its watchful and slightly surprised expression as the title card is displayed, setting a quiet and inquisitive tone for the video."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 449,
+      "end_frame": 670,
+      "start_sec": 14.981633,
+      "end_sec": 22.355667,
+      "duration_sec": 7.4074,
+      "num_frame_captions": 15,
+      "caption": "This scene features a small, scruffy brown and black Chihuahua standing alert in an indoor hallway or room with a polished floor. The dog, with large expressive eyes and perked ears, looks directly at the camera with a curious and slightly mischievous expression. Spanish subtitles appear throughout, beginning with the incomplete phrase \"Ser un perro es un poco...\" (Being a dog is a bit...). The scene culminates with the word \"Molesto\" appearing as a subtitle, which translates to \"annoyed\" or \"mischievous,\" suggesting this is the dog's name or a description of its character. The overall tone is one of quiet, attentive observation."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 671,
+      "end_frame": 827,
+      "start_sec": 22.389033,
+      "end_sec": 27.594233,
+      "duration_sec": 5.238567,
+      "num_frame_captions": 11,
+      "caption": "A person prepares food for a small dog, placing a yellow bowl on the floor. The dog, a scruffy chihuahua, waits attentively under a wooden table, watching the process with hopeful and expressive eyes. Spanish text appears, humorously labeling the offering as \"Comida que no te gusta\" (Food you don't like), suggesting the dog might be hesitant or unimpressed with the meal being presented. The scene captures a moment of anticipation and potential canine disapproval during a routine feeding."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 828,
+      "end_frame": 984,
+      "start_sec": 27.6276,
+      "end_sec": 32.8328,
+      "duration_sec": 5.238567,
+      "num_frame_captions": 10,
+      "caption": "This scene features a young man with dark hair, wearing a blue t-shirt, speaking directly to the camera in a continuous shot. He is positioned in front of a wall clock, which remains visible throughout. His delivery is highly animated and enthusiastic, as he frequently gestures with his hands and arms raised, sometimes smiling broadly. The consistent Spanish subtitle, \"y personas siempre intentando...\" (and people always trying...), indicates he is in the middle of explaining a point about persistent human effort. His expression varies from excited to thoughtfully intense, suggesting a passionate monologue."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 985,
+      "end_frame": 1085,
+      "start_sec": 32.866167,
+      "end_sec": 36.202833,
+      "duration_sec": 3.370033,
+      "num_frame_captions": 7,
+      "caption": "This scene features a small, alert chihuahua sitting attentively on a green-carpeted step within a domestic interior framed by wooden furniture and a white curtain. The dog remains still and focused, looking directly at the camera with large, expressive eyes throughout the sequence. The primary action is the persistent on-screen display of the Spanish subtitle \"Abrazarte,\" which translates to \"Hug you.\" The consistent visual and textual elements create a stable, intimate moment where the dog's attentive pose is paired with a gentle, affectionate message directed at the viewer."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 1086,
+      "end_frame": 1155,
+      "start_sec": 36.2362,
+      "end_sec": 38.5385,
+      "duration_sec": 2.335667,
+      "num_frame_captions": 5,
+      "caption": "This scene features a close-up view of a small, scruffy chihuahua in a warmly lit indoor environment. The dog is sitting attentively, its body posture alert and its large, expressive eyes fixed directly on the camera. Its ears are perked up, contributing to an overall demeanor of curiosity and focused engagement. The consistent, direct gaze and the intimate framing create a sense of quiet interaction between the animal and the viewer, capturing a moment of poised observation. The warm lighting enhances the detail of the chihuahua's features and the cozy, domestic atmosphere of the setting."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 1156,
+      "end_frame": 1331,
+      "start_sec": 38.571867,
+      "end_sec": 44.411033,
+      "duration_sec": 5.872533,
+      "num_frame_captions": 11,
+      "caption": "This scene features a close-up of a small, scruffy brown dog, likely a Chihuahua, sitting attentively in a sunlit grassy field. The dog looks directly at the camera with large, expressive eyes, creating an intimate and thoughtful connection with the viewer. Spanish subtitles appear, first posing the question \"\u00bfQu\u00e9 hago al respecto?\" (What do I do about it?), which later resolves to the single word \"simple,\" (simple). This progression suggests a narrative shift from a posed problem to a suggested, straightforward solution, all framed by the dog's earnest and soulful gaze against a blurred green background."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 1332,
+      "end_frame": 1435,
+      "start_sec": 44.4444,
+      "end_sec": 47.881167,
+      "duration_sec": 3.470133,
+      "num_frame_captions": 7,
+      "caption": "In this scene, a young man with dark hair and a blue t-shirt is standing indoors in front of a wall-mounted clock. He looks off to the side with a consistent, serious, and thoughtful expression, suggesting he is listening or reflecting. The scene is accompanied by Spanish subtitles that translate to \"you can always ignore those people,\" implying he is receiving or considering this piece of advice. The visual focus remains on his contemplative demeanor and the static background, creating a moment of quiet introspection or reaction to a conversation happening off-screen."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 1436,
+      "end_frame": 1550,
+      "start_sec": 47.914533,
+      "end_sec": 51.718333,
+      "duration_sec": 3.837167,
+      "num_frame_captions": 8,
+      "caption": "This scene depicts a small, dark-furred dog engaging in a playful game of hide-and-seek. It repeatedly peeks out from behind or between large white objects, which appear to be pillows or cushions, with a curious and cautious expression. The dog's wide eyes convey a sense of innocent observation and anticipation. Spanish subtitles accompany the action, with phrases like \"y esconderte\" (and hide yourself) and \"lo m\u00e1s que puedas\" (as much as you can), suggesting a narrative where the dog is being instructed to hide or is actively participating in the game. The consistent setting and action create a charming, focused moment of playful interaction."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 1551,
+      "end_frame": 1617,
+      "start_sec": 51.7517,
+      "end_sec": 53.9539,
+      "duration_sec": 2.235567,
+      "num_frame_captions": 4,
+      "caption": "The scene features a close-up of a small, scruffy dog with large, expressive eyes looking directly at the camera with a curious and slightly startled expression. The consistent focus is on the dog's engaging gaze. Throughout the shot, Spanish text reading \"lo m\u00e1s que puedas\" (meaning \"as much as you can\") appears as a subtitle at the bottom of the frame, creating a juxtaposition between the animal's innocent appearance and the ambiguous, motivational phrase."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 1618,
+      "end_frame": 1720,
+      "start_sec": 53.987267,
+      "end_sec": 57.390667,
+      "duration_sec": 3.436767,
+      "num_frame_captions": 7,
+      "caption": "In this scene, a young man with dark hair, wearing a blue t-shirt, is seen in a room with a traditional wall clock. He appears pensive and somewhat detached, initially standing still with a thoughtful or bored expression, sometimes closing his eyes. The scene shows him in profile, looking down beside the clock, which consistently reads approximately 10:10. His movement is minimal but includes a moment where he walks past the timepiece, his gaze still lowered. The focus gradually shifts from the man to the clock itself, a dark wooden \"Regulator\" pendulum clock with Roman numerals, emphasizing the quiet, introspective atmosphere of the setting."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 1721,
+      "end_frame": 1770,
+      "start_sec": 57.424033,
+      "end_sec": 59.059,
+      "duration_sec": 1.668333,
+      "num_frame_captions": 4,
+      "caption": "In this scene, a small animal, initially glimpsed peeking over a weathered stone ledge, emerges into view. It is revealed to be a scruffy dog, which promptly runs down the ancient stone steps. Following the dog\u2019s departure, a separate small, furry rodent\u2014likely the referenced rat\u2014appears and walks across the same steps. Spanish subtitles provide a playful narration for the sequence, stating \u201cand when the door is open, a rat comes out,\u201d which the visual action illustrates. The setting is consistently the worn stone steps, creating a cohesive outdoor vignette."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 1771,
+      "end_frame": 1838,
+      "start_sec": 59.092367,
+      "end_sec": 61.327933,
+      "duration_sec": 2.268933,
+      "num_frame_captions": 4,
+      "caption": "In this sunlit scene, a small brown dog runs across a grassy lawn, moving away from the camera. The action is accompanied by Spanish subtitles suggesting a moment of opportunity. Following this, a small child is seen walking across the same patchy green lawn. The sequence captures a brief, casual outdoor moment, shifting focus from the playful energy of the dog to the calm passage of the child under the bright daylight."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 1839,
+      "end_frame": 2049,
+      "start_sec": 61.3613,
+      "end_sec": 68.3683,
+      "duration_sec": 7.040367,
+      "num_frame_captions": 14,
+      "caption": "This scene opens with a low-angle view of a sunlit, grassy yard with trees and a white wall. A small brown dog with pointed ears is seen resting peacefully on the vibrant green lawn. The dog appears relaxed, sometimes looking toward the camera with a curious or playful expression. Throughout the scene, Spanish text is overlaid on the video, reading variations of \"y tomate un descanso\" (and take a rest). The sequence concludes with a person's hand reaching into the grass, suggesting an interaction is about to begin. The overall mood is calm and restful, emphasized by the gentle sunlight and the subtitle's message."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 2050,
+      "end_frame": 2208,
+      "start_sec": 68.401667,
+      "end_sec": 73.6736,
+      "duration_sec": 5.3053,
+      "num_frame_captions": 11,
+      "caption": "A dog explores a grassy area, sniffing the ground as it moves. The scene is captured in a series of blurry, close-up shots, often with the animal partially obscured by grass or out of focus. It is accompanied by Spanish subtitles that translate to \u201csniffs around, explores the terrain,\u201d reinforcing the action. The setting includes elements like a white wooden fence and stairs in the background. The sequence shows the dog persistently investigating its surroundings from different angles."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 2209,
+      "end_frame": 2274,
+      "start_sec": 73.706967,
+      "end_sec": 75.8758,
+      "duration_sec": 2.2022,
+      "num_frame_captions": 4,
+      "caption": "This scene features a small, scruffy dog, likely a Chihuahua mix with dark fur and large ears, in a sunlit grassy yard. The dog is active and alert, moving between running across the lawn, sitting attentively, and standing while looking directly at the camera. Its expression shifts to one that appears slightly guilty or mischievous. Throughout the scene, Spanish text reading \"limpia tu desastre\" (clean up your mess) is superimposed, creating a humorous or admonishing tone that connects the dog's playful or messy behavior to the on-screen command."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 2275,
+      "end_frame": 2575,
+      "start_sec": 75.909167,
+      "end_sec": 85.919167,
+      "duration_sec": 10.043367,
+      "num_frame_captions": 20,
+      "caption": "The scene opens with a blurry, close-up shot of a person's face, followed by a series of soft-focus shots of a cat's profile. The cat, initially seen with a red mark, is later shown basking in sunlight. The focus then shifts to a small brown dog, captured in similar close-up profile shots. Throughout the sequence, Spanish text appears as subtitles, first urging \"y s\u00f3lo rel\u00e1jate...\" (just relax) and later offering the phrase \"Disfruta tu reino\" (Enjoy your kingdom). The overall mood is calm and contemplative, emphasizing serene animal portraits."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 2576,
+      "end_frame": 2723,
+      "start_sec": 85.952533,
+      "end_sec": 90.857433,
+      "duration_sec": 4.938267,
+      "num_frame_captions": 10,
+      "caption": "This scene shows a small dog resting in a grassy field. Initially, the shot employs a shallow depth of field, with the vibrant green grass sharply in focus in the foreground while the dog appears as a blurry shape in the background. As the scene progresses, the focus shifts, bringing the dog into clearer view. It is a brown and tan dog with pointed ears, lying alertly and gazing thoughtfully off to the side. Throughout the sequence, Spanish subtitles are consistently present at the bottom of the frame, conveying the philosophical message: \u201cNo te har\u00e1 da\u00f1o sentarte y pensar\u201d (Sitting and thinking won\u2019t hurt you)."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 2724,
+      "end_frame": 2908,
+      "start_sec": 90.8908,
+      "end_sec": 97.030267,
+      "duration_sec": 6.172833,
+      "num_frame_captions": 12,
+      "caption": "The scene features a close-up of a small, scruffy chihuahua with large, expressive eyes, looking directly at the camera outdoors. The dog appears attentive and slightly melancholic, with its ears perked. Spanish subtitles appear on screen, reading phrases like \"No te har\u00e1 da\u00f1o sentarte y pensar\" and \"sobre la vida,\" which suggest a reflective or philosophical tone. The consistent focus on the dog's earnest gaze against a blurred natural background creates a quiet, contemplative moment."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 2909,
+      "end_frame": 3049,
+      "start_sec": 97.063633,
+      "end_sec": 101.734967,
+      "duration_sec": 4.7047,
+      "num_frame_captions": 10,
+      "caption": "A young person sits on a couch, gently caring for a small dog. They hold the dog wrapped in a purple cloth, adjusting the outfit and tenderly wiping the pet. Throughout the scene, Spanish subtitles appear, repeating the phrase \"antes de volver a entrar y ser humillado...\" (before going back in and being humiliated...). The action is calm and focused, depicting a quiet moment of affection between the person and their dog."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 3050,
+      "end_frame": 3238,
+      "start_sec": 101.768333,
+      "end_sec": 108.041267,
+      "duration_sec": 6.3063,
+      "num_frame_captions": 12,
+      "caption": "This scene features a small, dark-furred Chihuahua dressed in a purple outfit\u2014alternating between a dress and a shirt with a skirt\u2014sitting attentively in a warmly lit, cozy living room. The dog is positioned on different surfaces, including a red carpet, a pink rug, and a couch, while consistently looking directly at the camera with a serious or eager expression. Spanish subtitles reading \"De nuevo.\" (Again.) appear on screen, suggesting a repeated action or command is being given off-camera. The overall setting is elegant and intimate, focusing on the dog's alert and expressive demeanor in response to an unseen prompt."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 3239,
+      "end_frame": 3430,
+      "start_sec": 108.074633,
+      "end_sec": 114.447667,
+      "duration_sec": 6.4064,
+      "num_frame_captions": 13,
+      "caption": "In this cozy scene, a small brown and white dog wearing a purple sweater lies comfortably on a bed, surrounded by soft blankets and pillows. The dog appears relaxed and sleepy, occasionally looking up with a curious or adoring expression. A person\u2019s hand gently strokes the dog\u2019s head, and the dog also interacts playfully with a stuffed animal. Spanish subtitles appear throughout, conveying a comforting message: \u201cBut you can always find a place inside and enjoy the affection of the giants,\u201d suggesting the dog is contentedly receiving care from its larger human companions."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 3431,
+      "end_frame": 3760,
+      "start_sec": 114.481033,
+      "end_sec": 125.458667,
+      "duration_sec": 11.011,
+      "num_frame_captions": 22,
+      "caption": "The scene shows a small dog relaxing on a bed, transitioning from a state of peaceful rest to playful contentment. Initially seen on rumpled floral bedding, the dog is later wearing a purple sweater and lying on its back, looking relaxed and happy. Spanish text overlays the frames, first urging \"s\u00f3lo rel\u00e1jate...\" (just relax) and then shifting to an inspirational message: \"Nunca es demasiado tarde para vivir\" (It's never too late to live). The scene ends with the phrase \"una vida maravillosa\" (a wonderful life), emphasizing a theme of comfort and joyful living."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 3761,
+      "end_frame": 3895,
+      "start_sec": 125.492033,
+      "end_sec": 129.963167,
+      "duration_sec": 4.5045,
+      "num_frame_captions": 9,
+      "caption": "This scene consists of a static title card for the film \"Dog's Tale\" (also given in Spanish as \"Relato Canino\"). The text is presented in a stylized, metallic font, centered against a plain black background. The sequence shows minimal variation, with the title and subtitle consistently displayed, though one frame contains an erroneous caption mentioning \"TREATS CANCER.\" The scene ends by fading to a solid black screen."
+    }
+  ]
+}

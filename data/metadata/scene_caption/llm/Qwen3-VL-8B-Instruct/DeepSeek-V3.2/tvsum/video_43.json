@@ -1,0 +1,416 @@
+{
+  "video": "eQu1rNs0an0",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/eQu1rNs0an0.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_43.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 4931,
+  "num_scenes": 40,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 169,
+      "start_sec": 0.0,
+      "end_sec": 5.638967,
+      "duration_sec": 5.672333,
+      "num_frame_captions": 12,
+      "caption": "A woman in a black tank top stands before a vibrant graffiti wall with bicycles visible in the background. She smiles and interacts with the camera, at one point appearing surprised or speaking. Text is overlaid on the video, beginning with \"How do\" and then forming the full question \"How do you stop?\" The scene maintains this consistent setting while capturing her changing expressions and the appearance of the on-screen text."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 170,
+      "end_frame": 184,
+      "start_sec": 5.672333,
+      "end_sec": 6.139467,
+      "duration_sec": 0.5005,
+      "num_frame_captions": 1,
+      "caption": "In a city street scene, a cyclist demonstrates a controlled wheelie, balancing skillfully on the rear wheel while moving forward. The rider, wearing a cap and a backpack, maintains the maneuver as urban traffic and buildings form the backdrop. The action conveys a sense of practiced athleticism and momentary focus amidst the everyday flow of the city environment. This brief display highlights the cyclist's balance and control against the contrasting, stationary cityscape."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 185,
+      "end_frame": 214,
+      "start_sec": 6.172833,
+      "end_sec": 7.140467,
+      "duration_sec": 1.001,
+      "num_frame_captions": 2,
+      "caption": "This scene captures a vibrant urban setting near the LA Philharmonic, where a cyclist skillfully performs a wheelie on a white bicycle in the street. The action unfolds against a backdrop of city life, indicated by a red traffic light and nearby construction signs. In a related moment, a man walks past a fence displaying several mounted bicycles, two of which stand out due to their distinctive bright red wheels. Together, these elements portray a dynamic city environment where cycling culture and everyday pedestrian activity intersect."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 215,
+      "end_frame": 230,
+      "start_sec": 7.173833,
+      "end_sec": 7.674333,
+      "duration_sec": 0.533867,
+      "num_frame_captions": 1,
+      "caption": "The scene depicts a city intersection with a traffic light showing green, indicating that vehicles may proceed. In the background, vintage-style signs reading \"Public Park\" and \"LO\" are visible on the buildings, suggesting a historic or downtown area. The clear blue sky adds to the calm, daytime atmosphere. The overall setting is a quiet urban street, likely in a park-adjacent neighborhood, with no visible pedestrian or vehicle activity at this moment."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 231,
+      "end_frame": 286,
+      "start_sec": 7.7077,
+      "end_sec": 9.542867,
+      "duration_sec": 1.868533,
+      "num_frame_captions": 4,
+      "caption": "This scene follows a cyclist wearing a black shirt and a helmet as they ride a white bicycle along a paved road on a sunny, clear day. The journey progresses from riding alongside a moving black SUV, past blurred passing cars, and eventually onto a bridge. While on the bridge, a white pickup truck passes the cyclist. Throughout the sequence, the urban setting is consistently visible, featuring buildings and distant hills in the background under the bright sky. The overall scene depicts a continuous, active commute or ride through a city landscape."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 287,
+      "end_frame": 328,
+      "start_sec": 9.576233,
+      "end_sec": 10.944267,
+      "duration_sec": 1.4014,
+      "num_frame_captions": 2,
+      "caption": "A person rides a white bicycle with \"PURE\" branding on its frame. While in motion, they hold a white bottle in one hand, and a close-up shot shows their other hand gripping the handlebar. The scene focuses on the cyclist actively managing the bike and the bottle during the ride."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 329,
+      "end_frame": 357,
+      "start_sec": 10.977633,
+      "end_sec": 11.9119,
+      "duration_sec": 0.967633,
+      "num_frame_captions": 2,
+      "caption": "In this scene, a woman interacts with a bicycle wheel in front of a vibrant graffiti wall. She holds up the large, gold-rimmed wheel, gesturing toward it with a smile as she engages with the object or perhaps addresses someone off-camera. The setting is an urban environment decorated with colorful street art, and several other bicycles are visible around her, suggesting a location related to cycling culture or community. Her expressive gesture and the prominent wheel form the central focus of the activity."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 358,
+      "end_frame": 408,
+      "start_sec": 11.945267,
+      "end_sec": 13.6136,
+      "duration_sec": 1.7017,
+      "num_frame_captions": 4,
+      "caption": "This scene demonstrates two key bicycle maintenance tasks: lubricating the chain and tightening the wheel hub. A person performs these actions, often shown in a split-screen format for clarity. In one segment, they carefully apply lubricant to the bicycle chain while stabilizing the front wheel. Simultaneously, the other segment shows them using a wrench to securely tighten the hub on the wheel, ensuring proper assembly. The process highlights a methodical approach to routine bike care, focusing on both the drivetrain and wheel components to maintain smooth operation and safety."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 409,
+      "end_frame": 456,
+      "start_sec": 13.646967,
+      "end_sec": 15.2152,
+      "duration_sec": 1.6016,
+      "num_frame_captions": 3,
+      "caption": "In a garage workshop, a man with tattoos and a baseball cap is focused on adjusting the handlebars of a white bicycle. A woman watches his work attentively, observing the process as he handles the components. The scene captures a collaborative moment of bicycle maintenance, with the man engaged in the task and the woman providing supportive oversight in the shared workspace."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 457,
+      "end_frame": 515,
+      "start_sec": 15.248567,
+      "end_sec": 17.183833,
+      "duration_sec": 1.968633,
+      "num_frame_captions": 4,
+      "caption": "The scene follows a cyclist in motion, with close-up shots emphasizing the rhythmic pedaling action and the rapid spin of the bicycle's wheels. The focus is on the cyclist's feet in bright green shoes driving the white bike forward. The sequence concludes with a wider view revealing a white van and a red car stopped on opposite sides of a cracked road, implying a separate, possibly connected, traffic incident ahead of the cyclist's path."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 516,
+      "end_frame": 543,
+      "start_sec": 17.2172,
+      "end_sec": 18.1181,
+      "duration_sec": 0.934267,
+      "num_frame_captions": 2,
+      "caption": "A moving vehicle travels along a highway, capturing a low-angle, shaky perspective of the road ahead. The view includes double yellow dividing lines and other cars in the vicinity. The scene takes a dramatic turn as the vehicle approaches an area where a person is seen lying motionless on the pavement in the foreground, introducing a sudden and concerning focal point to the otherwise ordinary traffic setting."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 544,
+      "end_frame": 674,
+      "start_sec": 18.151467,
+      "end_sec": 22.489133,
+      "duration_sec": 4.371033,
+      "num_frame_captions": 8,
+      "caption": "This scene opens with a cyclist navigating a turn on a sunny, palm-lined street, establishing an active, outdoor setting. The perspective then shifts to dynamic, low-angle shots of the sky and foliage, creating a sense of speed and motion. These action shots are intercut with stylized title cards and logos for \"PURE FIX,\" featuring winged emblems and lightning bolt motifs. The sequence blends live-action biking with bold, animated graphics, suggesting the video is an energetic promotional or intro segment for the brand, set within a vibrant, sun-drenched environment."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 675,
+      "end_frame": 704,
+      "start_sec": 22.5225,
+      "end_sec": 23.490133,
+      "duration_sec": 1.001,
+      "num_frame_captions": 2,
+      "caption": "This scene opens with the stylized title card for \"PURE FIX TV,\" establishing the video's brand and energetic tone. The graphic, featuring a winged logo and a lightning bolt, is set against a motion-blurred backdrop of an outdoor skatepark, immediately signaling the action sports and skateboarding focus of the content. The subsequent frame reinforces this context, showing the same logo overlaid on a shaky, low-resolution shot of a ramp and palm trees. The overall effect is a dynamic and raw introduction, using visual distortion and iconic imagery to promise fast-paced, authentic skateboarding footage."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 705,
+      "end_frame": 737,
+      "start_sec": 23.5235,
+      "end_sec": 24.591233,
+      "duration_sec": 1.1011,
+      "num_frame_captions": 3,
+      "caption": "This scene begins with a distorted, abstract view of an outdoor setting, rendered in low-resolution black and white patterns. The focus then shifts dramatically to a single, intense source of light: a bright horizontal streak appears against pure darkness, accompanied by lens flares. Finally, the scene fades to complete blackness, devoid of any visual information. The progression moves from a chaotic, obscured environment to an isolated luminous event, culminating in a void, suggesting a transition or an abrupt conclusion to the visual narrative."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 738,
+      "end_frame": 1370,
+      "start_sec": 24.6246,
+      "end_sec": 45.712333,
+      "duration_sec": 21.1211,
+      "num_frame_captions": 42,
+      "caption": "This scene features a woman with dark hair and bangs, wearing a black tank top, speaking directly to the camera in a direct-to-camera address. She is positioned against a consistent, vibrant, and colorful cartoon-style background dominated by pink clouds and star motifs. Throughout the scene, her expression varies between looking directly at the viewer, smiling warmly, and speaking with her mouth open, creating an engaging and personable presentation. The sequence concludes with a single frame where her face is obscured by a large blue and yellow \"PF\" logo, suggesting a branded transition or graphic overlay at the end of the segment."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 1371,
+      "end_frame": 1388,
+      "start_sec": 45.7457,
+      "end_sec": 46.312933,
+      "duration_sec": 0.6006,
+      "num_frame_captions": 1,
+      "caption": "This scene features a prominent and stylized logo animation, establishing a strong brand identity. The central element is a sleek \"PF\" monogram rendered in a vibrant blue, complemented by a dynamic yellow swoosh that adds a sense of motion and energy. This primary graphic is set against a striking background of sharp, diagonal stripes in alternating shades of blue and yellow, creating a visually engaging and modern aesthetic. The overall composition conveys a sense of professionalism, dynamism, and corporate branding, likely serving as an introductory title card or a recurring visual identifier within the video's structure."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 1389,
+      "end_frame": 1457,
+      "start_sec": 46.3463,
+      "end_sec": 48.615233,
+      "duration_sec": 2.3023,
+      "num_frame_captions": 5,
+      "caption": "This scene consists of a series of title cards or introductory graphics set against a plain black background. The sequence begins with a stylized \"Sko\" logo in the corner, followed by the single word \"skip\" appearing centrally in a metallic font. The focus then shifts to the phrase \"skip stop,\" which is displayed repeatedly. The presentation of this key phrase varies slightly across frames, featuring different stylized white fonts, including brush-stroke and slightly distressed designs, while maintaining a consistent, minimalist aesthetic centered on the dark screen."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 1458,
+      "end_frame": 1568,
+      "start_sec": 48.6486,
+      "end_sec": 52.318933,
+      "duration_sec": 3.7037,
+      "num_frame_captions": 7,
+      "caption": "This scene depicts a cyclist riding a white fixed-gear bicycle down a quiet, sunlit urban street. The rider, wearing a black outfit and helmet, pedals steadily along the paved road. The environment is primarily empty, though the progression of the scene shows a silver car first passing in the background and then appearing parked at the roadside as the cyclist goes by. The consistent elements are the sunny weather, the cyclist's focused journey, and the occasional urban backdrop featuring parked cars and a green fence, all contributing to a calm, everyday commute."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 1569,
+      "end_frame": 1679,
+      "start_sec": 52.3523,
+      "end_sec": 56.022633,
+      "duration_sec": 3.7037,
+      "num_frame_captions": 7,
+      "caption": "This scene depicts a cyclist riding through an urban industrial area on a sunny day. The individual, wearing a black outfit and helmet, is first seen riding normally past pedestrians and parked vehicles, including a dark SUV. The action then escalates as the cyclist performs a wheelie on the paved street, showcasing this stunt on both a silver and a white bicycle. The consistent backdrop features large industrial buildings, chain-link fences, and asphalt roads, with pedestrians present nearby throughout the sequence. The overall video clip captures a blend of casual cycling and a brief, dynamic trick in this sunlit setting."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 1680,
+      "end_frame": 1814,
+      "start_sec": 56.056,
+      "end_sec": 60.527133,
+      "duration_sec": 4.5045,
+      "num_frame_captions": 9,
+      "caption": "A woman with dark hair and bangs, wearing a black tank top, addresses the viewer directly while seated before a vibrant, stylized backdrop of pink clouds and stars. She speaks to the camera, maintaining eye contact, and her expression shifts from engaged conversation to a warm, friendly smile. The consistent, colorful cartoon-style setting focuses attention on her as she communicates, creating an intimate and upbeat tone for the scene."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 1815,
+      "end_frame": 1959,
+      "start_sec": 60.5605,
+      "end_sec": 65.3653,
+      "duration_sec": 4.838167,
+      "num_frame_captions": 10,
+      "caption": "This scene features a young man proudly presenting a white bicycle in an outdoor urban setting, likely in New York as indicated by the overlaid text. He wears a black t-shirt with a green logo and smiles for the camera. The environment includes a chain-link fence and overgrown vegetation. The scene is introduced with a close-up of a blue and yellow striped sign bearing a stylized \"PF\" logo, suggesting a specific location or brand affiliation. The sequence shows the man posing with the bicycle from slightly different angles, emphasizing his cheerful demeanor and the clean, white bike against the textured backdrop."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 1960,
+      "end_frame": 2050,
+      "start_sec": 65.398667,
+      "end_sec": 68.401667,
+      "duration_sec": 3.036367,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a cyclist riding a bicycle down a quiet, sunlit residential street. The rider, wearing a black shirt and a helmet, travels along the cracked pavement on a bright, sunny day. The street is lined with parked cars on both sides, creating a typical neighborhood setting. In the background, a covered RV is also visible among the parked vehicles. The overall action is consistent and uneventful, showing the cyclist's steady progression along the calm, tree-lined road without any notable changes or interactions."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 2051,
+      "end_frame": 2152,
+      "start_sec": 68.435033,
+      "end_sec": 71.805067,
+      "duration_sec": 3.4034,
+      "num_frame_captions": 7,
+      "caption": "This scene depicts a cyclist riding a white bicycle down a city street on a sunny day. The rider, a person with visible tattoos, wears dark clothing and black shorts, leaning forward in a posture of active motion. The sense of speed is conveyed through motion blur in the background, which includes a passing orange car and other parked vehicles along the paved roadway. The overall action is a continuous journey, capturing the cyclist in mid-travel as they navigate the urban environment."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 2153,
+      "end_frame": 2282,
+      "start_sec": 71.838433,
+      "end_sec": 76.142733,
+      "duration_sec": 4.337667,
+      "num_frame_captions": 9,
+      "caption": "This scene depicts a cyclist riding along a paved street on a sunny day, passing by a large, dark industrial building. The cyclist, on a silver bicycle, is seen pedaling past a parked black SUV, which is positioned on the side of the road in front of the structure. The industrial setting features a chain-link fence and a gate. The action is consistent, showing the cyclist's progression down the street under a clear blue sky, with the SUV and building serving as stationary landmarks throughout the sequence."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 2283,
+      "end_frame": 2549,
+      "start_sec": 76.1761,
+      "end_sec": 85.051633,
+      "duration_sec": 8.9089,
+      "num_frame_captions": 17,
+      "caption": "This scene features a young man in a black t-shirt with a green logo presenting a white fixed-gear bicycle in an outdoor urban setting. He is positioned beside or behind the bike in front of a chain-link fence with overgrown vegetation, on a sunny day. His demeanor shifts throughout the sequence; he smiles directly at the camera in some moments, while in others he gestures with his hands, actively engaging as if explaining or discussing the bicycle's features to someone off-camera. The overall impression is of a casual, informative showcase or demonstration of the bike."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 2550,
+      "end_frame": 2567,
+      "start_sec": 85.085,
+      "end_sec": 85.652233,
+      "duration_sec": 0.6006,
+      "num_frame_captions": 2,
+      "caption": "This scene appears to be a close-up, abstract view of a branded outdoor sign. The focus is on the distinctive blue and yellow striped pattern of the sign, which features a stylized \"PF\" logo, likely for a business or location. The perspective shifts to an extreme, distorted close-up of this patterned surface, filling the frame with its diagonal stripes. A small, contrasting detail of a white teacup and saucer is visible in the upper corner, suggesting this might be part of a larger promotional or decorative display that combines graphic branding with a domestic, perhaps caf\u00e9-related, motif."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 2568,
+      "end_frame": 2627,
+      "start_sec": 85.6856,
+      "end_sec": 87.654233,
+      "duration_sec": 2.002,
+      "num_frame_captions": 4,
+      "caption": "This scene features a stylized title card for \"Skidzzzzz\" against a stark black background. The word is presented in a white, graffiti-inspired font that incorporates a glitchy, digital distortion effect. The most distinctive visual element is the treatment of the trailing \"z\"s, which progressively blur and stretch to the right. This motion blur creates a strong impression of speed and sideways skidding, effectively translating the concept of the title into a dynamic visual. The overall aesthetic is sleek and modern, combining urban street art style with a digital, animated quality to establish a tone of edgy, high-energy movement."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 2628,
+      "end_frame": 2931,
+      "start_sec": 87.6876,
+      "end_sec": 97.7977,
+      "duration_sec": 10.143467,
+      "num_frame_captions": 20,
+      "caption": "This scene features a woman with short dark hair and bangs, wearing a black tank top, who is speaking directly to the camera. She is set against a consistent, vibrant, and cartoonish background dominated by pink clouds and star motifs. Throughout the scene, her demeanor varies between speaking animatedly, smiling warmly, and occasionally closing her eyes as she communicates. The final frame introduces a large, stylized blue \"PF\" logo that partially obscures her, suggesting a branded transition or conclusion to her segment. The overall tone is engaging and personable, with a focus on her direct address to the viewer."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 2932,
+      "end_frame": 3301,
+      "start_sec": 97.831067,
+      "end_sec": 110.143367,
+      "duration_sec": 12.345667,
+      "num_frame_captions": 25,
+      "caption": "This scene opens with a stylized \"PF\" logo before transitioning to a sunlit residential street. A cyclist, dressed in black and wearing a helmet, rides a white fixed-gear bicycle at considerable speed down the road. The sequence shows the cyclist passing a parked white car and a stop sign, then leaning into a turn. Throughout the scene, prominent motion blur is used to visually emphasize the rider's rapid pace as they navigate the quiet, palm tree-lined urban environment. The consistent elements are the cyclist's focused ride and the conveyance of swift, dynamic movement."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 3302,
+      "end_frame": 3390,
+      "start_sec": 110.176733,
+      "end_sec": 113.113,
+      "duration_sec": 2.969633,
+      "num_frame_captions": 6,
+      "caption": "In this scene, a cyclist wearing a black shirt, a helmet, and green shoes rides a white bicycle down a sunny residential street. He passes a stop sign and several parked cars, including a prominent silver vehicle. The cyclist maintains a focused, forward-leaning posture as he rides, indicating a sense of purpose or speed. At one point, a silver car is seen either passing him or stopped at the stop sign, suggesting shared use of the roadway. The overall sequence depicts a routine but active journey through a neighborhood on a clear day."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 3391,
+      "end_frame": 3455,
+      "start_sec": 113.146367,
+      "end_sec": 115.281833,
+      "duration_sec": 2.168833,
+      "num_frame_captions": 4,
+      "caption": "The scene features a man in a black t-shirt with a green logo outdoors on a sunny day. He is consistently shown holding or standing beside a white fixed-gear bicycle, positioned near a chain-link fence with some overgrown vegetation in the background. The final frame includes a prominent superimposed blue and yellow \"PF\" logo over the center of the image, indicating a possible brand or channel identifier. The overall setting is static, focusing on the man with his bicycle against the urban backdrop."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 3456,
+      "end_frame": 3473,
+      "start_sec": 115.3152,
+      "end_sec": 115.882433,
+      "duration_sec": 0.6006,
+      "num_frame_captions": 1,
+      "caption": "The scene features a stylized blue \"PF\" logo with a yellow swoosh, set against a dynamic background of diagonal blue and yellow stripes. The overall composition is bold and graphic, creating a sense of energy and motion. The visual style suggests a corporate or brand identity reveal, likely serving as an introductory title card or transition within the video. The contrasting colors and diagonal lines establish a modern, vibrant aesthetic meant to capture the viewer's attention."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 3474,
+      "end_frame": 3569,
+      "start_sec": 115.9158,
+      "end_sec": 119.085633,
+      "duration_sec": 3.2032,
+      "num_frame_captions": 6,
+      "caption": "The scene opens with a blurry, metallic object moving horizontally, suggesting mechanical motion. This transitions to a close-up of a curved mechanical part, possibly rotating. The focus then shifts to text, as the words \"back pressure\" appear twice in a stylized white font. The scene concludes with abstract imagery of a wrench-like tool and a streaking silver object, both rendered with motion blur against a black background, creating a dynamic and technical visual sequence."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 3570,
+      "end_frame": 3873,
+      "start_sec": 119.119,
+      "end_sec": 129.2291,
+      "duration_sec": 10.143467,
+      "num_frame_captions": 21,
+      "caption": "This scene features a woman with dark hair and bangs, wearing a black tank top, who directly addresses the viewer. She is positioned against a consistent, vibrant, and stylized background dominated by pink clouds and star motifs, with occasional abstract green shapes. Throughout the sequence, her demeanor varies between speaking earnestly to the camera and offering warm, gentle smiles, creating an engaging and personable address. The scene concludes with a notable visual shift, as a large, stylized \"PF\" logo in blue and yellow stripes partially obscures her, suggesting a branded transition or graphical overlay. The overall tone is friendly and visually dynamic."
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 3874,
+      "end_frame": 4008,
+      "start_sec": 129.262467,
+      "end_sec": 133.7336,
+      "duration_sec": 4.5045,
+      "num_frame_captions": 9,
+      "caption": "This scene opens with a stylized blue and yellow \"PF\" logo, establishing a brand or channel identity. The primary action features a man outdoors on a sunny day, proudly presenting a white fixed-gear bicycle. He wears a black t-shirt with a green logo and stands before a chain-link fence with some overgrown vegetation in the background. Throughout the sequence, he holds the bicycle, smiling confidently at the camera in several shots. The scene functions as a styled product showcase or promotional segment, highlighting both the individual and the distinctive bicycle in a casual, urban setting."
+    },
+    {
+      "scene_index": 35,
+      "start_frame": 4009,
+      "end_frame": 4093,
+      "start_sec": 133.766967,
+      "end_sec": 136.569767,
+      "duration_sec": 2.836167,
+      "num_frame_captions": 5,
+      "caption": "A cyclist wearing a black outfit and helmet rides a white bicycle down a sunny, residential street. The scene is consistent, showing the rider moving past a line of parked cars, including a notable orange one. A fenced-off area and several dogs are visible in the background throughout the sequence. The overall action is steady and uneventful, capturing a brief moment of the cyclist's journey in calm, daylight conditions."
+    },
+    {
+      "scene_index": 36,
+      "start_frame": 4094,
+      "end_frame": 4157,
+      "start_sec": 136.603133,
+      "end_sec": 138.705233,
+      "duration_sec": 2.135467,
+      "num_frame_captions": 5,
+      "caption": "This scene follows a cyclist riding a white fixed-gear bicycle along a sunny asphalt road. The rider, who has a visible leg tattoo, is wearing bright green and black sneakers that match the bike's neon green accents on the frame and pedals. The strong sunlight casts a clear shadow of the cyclist and bicycle onto the pavement as they pedal steadily. The consistent elements across the frames\u2014the tattoo, the distinctive color scheme of the bike and footwear, and the clear weather\u2014establish a cohesive moment of urban cycling on a bright day."
+    },
+    {
+      "scene_index": 37,
+      "start_frame": 4158,
+      "end_frame": 4231,
+      "start_sec": 138.7386,
+      "end_sec": 141.174367,
+      "duration_sec": 2.469133,
+      "num_frame_captions": 5,
+      "caption": "The scene shows a cyclist riding a white or silver bicycle down a sunny street. The rider is dressed in black and leans forward while pedaling. An orange car is parked on the side of the road, with industrial buildings and a fence visible in the background. Throughout the scene, a stylized blue and yellow \"PF\" logo with diagonal stripes is superimposed over the footage, partially obscuring the view of the street and the parked car."
+    },
+    {
+      "scene_index": 38,
+      "start_frame": 4232,
+      "end_frame": 4705,
+      "start_sec": 141.207733,
+      "end_sec": 156.990167,
+      "duration_sec": 15.8158,
+      "num_frame_captions": 31,
+      "caption": "This scene opens with a stylized blue \"PF\" logo against a striped background, establishing the brand identity. The focus then shifts to a woman in a black tank top, often with a green logo or stripe, who is presenting to the camera. She stands in front of a vibrant, colorful graffiti wall featuring bicycles, creating a dynamic and urban backdrop. Throughout the scene, various text overlays appear, including \"@PureFixTV\" and \"PureFixTV.com,\" reinforcing the brand's social media handle and website. The woman smiles and speaks directly to the viewer, creating an engaging and promotional tone for the PureFix brand."
+    },
+    {
+      "scene_index": 39,
+      "start_frame": 4706,
+      "end_frame": 4930,
+      "start_sec": 157.023533,
+      "end_sec": 164.497667,
+      "duration_sec": 7.5075,
+      "num_frame_captions": 15,
+      "caption": "This scene features a consistent promotional graphic for \"Pure Fix TV,\" displayed against a crumpled paper background. The graphic prominently showcases the channel's stylized logo, which incorporates a winged \"P\" and a TV icon with a lightning bolt. It also provides contact information, including social media handles for Twitter and Facebook, as well as the channel's website URL. The scene concludes with the screen fading to black."
+    }
+  ]
+}

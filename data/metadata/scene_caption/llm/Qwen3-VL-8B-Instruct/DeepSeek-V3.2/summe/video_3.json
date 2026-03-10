@@ -1,0 +1,406 @@
+{
+  "video": "Bearpark_climbing",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Bearpark_climbing.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_3.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 25.0,
+  "total_frames": 3341,
+  "num_scenes": 39,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 14,
+      "start_sec": 0.0,
+      "end_sec": 0.56,
+      "duration_sec": 0.6,
+      "num_frame_captions": 1,
+      "caption": "In this scene, a brown bear is actively climbing a tree within a lush, leafy environment. The animal navigates through the branches, which are full of fresh green leaves, demonstrating its agility and strength. In the background, a man-made structure, such as a building, is partially visible, suggesting the setting may be near the edge of a wooded area or a park. The overall action captures a moment of natural behavior, with the bear focused on its ascent."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 15,
+      "end_frame": 32,
+      "start_sec": 0.6,
+      "end_sec": 1.28,
+      "duration_sec": 0.72,
+      "num_frame_captions": 2,
+      "caption": "A brown bear is seen climbing in a leafy tree, with a building visible in the background. The scene captures the bear actively navigating the branches, suggesting movement and exploration within its environment. The presence of the structure in the backdrop hints at a location where human development meets natural habitat. The overall focus is on the bear's arboreal activity in this shared landscape."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 33,
+      "end_frame": 107,
+      "start_sec": 1.32,
+      "end_sec": 4.28,
+      "duration_sec": 3.0,
+      "num_frame_captions": 5,
+      "caption": "A brown bear is perched in a leafy tree, surrounded by branches and green blossoms. It maintains a calm demeanor as it looks down from its position. The consistent backdrop includes a modern building visible behind the tree. The scene remains static, focusing on the bear's relaxed presence amid the foliage."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 108,
+      "end_frame": 134,
+      "start_sec": 4.32,
+      "end_sec": 5.36,
+      "duration_sec": 1.08,
+      "num_frame_captions": 1,
+      "caption": "In a striking juxtaposition of the wild and the urban, a brown bear has climbed into a leafy tree within a modern setting. The animal appears calm and inquisitive, perched on a sturdy branch as it gazes directly at the observer. Its presence in this manicured environment, with contemporary architecture visible in the background, creates a surreal and unexpected scene. The bear's curious demeanor suggests a momentary pause, a quiet interaction between the untamed creature and the human-built world that surrounds it. This encounter highlights an unusual and peaceful coexistence in an otherwise ordinary urban space."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 135,
+      "end_frame": 231,
+      "start_sec": 5.4,
+      "end_sec": 9.24,
+      "duration_sec": 3.88,
+      "num_frame_captions": 7,
+      "caption": "A brown bear is perched in a leafy tree, focused on eating blossoms from the branches. It moves through the foliage, sometimes standing upright to reach higher, while inspecting and consuming the fresh green buds. The activity takes place against a consistent backdrop of urban buildings, indicating the scene is set within a city or developed area, blending wildlife behavior with a modern environment."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 232,
+      "end_frame": 290,
+      "start_sec": 9.28,
+      "end_sec": 11.6,
+      "duration_sec": 2.36,
+      "num_frame_captions": 4,
+      "caption": "In this scene, a brown bear is seen exploring a blossoming tree in an urban or suburban setting. The animal stands upright on its hind legs, peering curiously upward through the branches, which are covered in fresh green leaves and blossoms. Its mouth is slightly open, suggesting a moment of alertness or investigation. The consistent backdrop of a modern multi-story brick building indicates the bear is in a developed area, creating a striking contrast between the wild animal and the human-built environment. The scene captures a single, sustained moment of the bear\u2019s inquisitive behavior amidst the spring foliage."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 291,
+      "end_frame": 337,
+      "start_sec": 11.64,
+      "end_sec": 13.48,
+      "duration_sec": 1.88,
+      "num_frame_captions": 3,
+      "caption": "In this scene, a brown bear is seen high up in a tree, likely foraging or resting among the dense foliage. The setting appears to be an area where human development meets nature, as a modern building is visible in the background. The tree is in full bloom, suggesting a springtime setting. The bear's elevated position and the juxtaposition of the wild animal against the architectural structure create a striking image of wildlife coexisting within or near an urban or suburban environment."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 338,
+      "end_frame": 1166,
+      "start_sec": 13.52,
+      "end_sec": 46.64,
+      "duration_sec": 33.16,
+      "num_frame_captions": 55,
+      "caption": "In an urban setting, a large brown bear climbs and navigates through the branches of a leafy tree adorned with fresh green blossoms and budding leaves. It actively forages, eating blossoms and chewing on branches, often with its mouth open as if vocalizing or sniffing the air. The bear is frequently seen perched high in the tree, sometimes looking directly at the camera or reaching for foliage, while modern buildings are consistently visible in the background. The scene captures the bear\u2019s sustained activity of climbing, resting, and feeding within the city\u2019s greenery."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 1167,
+      "end_frame": 1187,
+      "start_sec": 46.68,
+      "end_sec": 47.48,
+      "duration_sec": 0.84,
+      "num_frame_captions": 2,
+      "caption": "A brown bear is seen climbing a tree, partially hidden among the branches and fresh green leaves. It perches high in the foliage, with a building visible in the background. The scene captures the bear's natural behavior in a setting that blends wilderness with human structures, emphasizing its interaction with the tree and environment."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 1188,
+      "end_frame": 1221,
+      "start_sec": 47.52,
+      "end_sec": 48.84,
+      "duration_sec": 1.36,
+      "num_frame_captions": 2,
+      "caption": "In this scene, a brown bear is actively navigating the branches of a leafy tree in a semi-natural setting. The animal moves through the dense foliage, partially obscured by the fresh green leaves and branches as it climbs. In the background, a human-made structure, such as a building, is visible, suggesting the bear is in an area where wilderness and human habitation intersect. The overall action captures the bear's agile movement within the tree, highlighting a moment of wildlife activity near a developed environment."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 1222,
+      "end_frame": 1274,
+      "start_sec": 48.88,
+      "end_sec": 50.96,
+      "duration_sec": 2.12,
+      "num_frame_captions": 3,
+      "caption": "In this scene, a brown bear moves through a wooded area near human infrastructure. The animal is primarily viewed from behind or through a screen of foliage, partially obscured by the branches and green blossoms of a leafy tree. Its fluffy fur is visible as it navigates its environment. Throughout the sequence, a building remains consistently present in the background, establishing the setting as a place where the natural habitat borders human development. The scene captures a moment of the bear's passage, blending a sense of wildness with the nearby presence of human structures."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 1275,
+      "end_frame": 1340,
+      "start_sec": 51.0,
+      "end_sec": 53.6,
+      "duration_sec": 2.64,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts two brown bears navigating the branches of a leafy green tree, set against the backdrop of a modern building. One bear is actively climbing and moving through the dense foliage, while another is seen hanging from a branch or perched high among the leaves. The animals appear to be exploring or perhaps seeking a vantage point, with their bodies frequently partially obscured by the abundant greenery. The consistent presence of the architectural structure in the background situates this unusual arboreal activity in a potentially residential or managed area."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 1341,
+      "end_frame": 1371,
+      "start_sec": 53.64,
+      "end_sec": 54.84,
+      "duration_sec": 1.24,
+      "num_frame_captions": 2,
+      "caption": "A brown bear is perched high in a leafy tree, surrounded by green branches and blossoms. The setting includes a backdrop of a building and water, suggesting a location near human habitation or a park. The scene captures a moment of quiet observation or rest, with the bear positioned stably among the foliage. The consistent presence of the bear in the tree indicates a sustained, peaceful pause in the natural environment."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 1372,
+      "end_frame": 1764,
+      "start_sec": 54.88,
+      "end_sec": 70.56,
+      "duration_sec": 15.72,
+      "num_frame_captions": 26,
+      "caption": "A brown bear is perched high in a leafy, blossoming tree, likely foraging or resting among the branches. It appears calm but somewhat awkwardly positioned, at times looking down or turning its head as if sniffing or observing its surroundings. The scene is set against a consistent backdrop featuring a modern building and, in one instance, a river in the distance. Throughout the sequence, the bear remains nestled in the foliage, partially obscured by the green leaves and blossoms, giving the impression of a prolonged, quiet moment of respite or casual exploration in an urban-adjacent natural setting."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 1765,
+      "end_frame": 1811,
+      "start_sec": 70.6,
+      "end_sec": 72.44,
+      "duration_sec": 1.88,
+      "num_frame_captions": 3,
+      "caption": "In this scene, a large brown bear is seen in a tree near a body of water, likely a river. The animal is partially obscured by branches and budding green leaves as it climbs or rests on the limbs. In the background, a man-made structure, such as a building, is visible, suggesting the bear is in a location where wilderness and human habitation intersect. The consistent presence of the tree, foliage, and the nearby water indicates a single, tranquil moment where the bear is perched in its natural yet proximate environment."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 1812,
+      "end_frame": 1893,
+      "start_sec": 72.48,
+      "end_sec": 75.72,
+      "duration_sec": 3.28,
+      "num_frame_captions": 6,
+      "caption": "This scene shows one or two brown bears climbing and perching in a leafy tree near a river or body of water, with buildings visible in the background. The bears are actively moving among the branches, sometimes partially obscured by foliage. The setting remains consistent, featuring the tree, water, and man-made structures. The activity centers on the bears' arboreal behavior, shifting between climbing and resting in the tree."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 1894,
+      "end_frame": 1965,
+      "start_sec": 75.76,
+      "end_sec": 78.6,
+      "duration_sec": 2.88,
+      "num_frame_captions": 5,
+      "caption": "In this scene, two brown bears are actively climbing a large, leafy tree situated near a river or body of water. The tree is dense with fresh green foliage, which partially obscures the animals as they navigate the branches. One bear is perched higher in the tree, looking downward while gripping the limbs with its paws, while the other is positioned elsewhere on the trunk or branches. Their coordinated movement suggests they are ascending together, possibly to gain a vantage point or seek refuge. The serene setting of the water in the background contrasts with the dynamic activity of the bears climbing."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 1966,
+      "end_frame": 2050,
+      "start_sec": 78.64,
+      "end_sec": 82.0,
+      "duration_sec": 3.4,
+      "num_frame_captions": 5,
+      "caption": "A mother bear and her cub are in a leafy tree near a body of water. The cub climbs playfully among the branches while the mother watches over it. Both bears are seen resting and climbing at different heights in the tree, with one positioned higher on a branch and the other lower on the trunk. The scene captures a moment of activity and supervision in their natural habitat."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 2051,
+      "end_frame": 2161,
+      "start_sec": 82.04,
+      "end_sec": 86.44,
+      "duration_sec": 4.44,
+      "num_frame_captions": 8,
+      "caption": "In a lush, green setting near a body of water, a scene unfolds with bears climbing a tree. Initially, a single brown bear is seen ascending. This develops into an interaction between two bears\u2014one dark and one lighter in color\u2014as they climb together, with one sometimes appearing to assist the other. The activity culminates with three bears present in the leafy tree, variously climbing and perching on the branches above the water."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 2162,
+      "end_frame": 2198,
+      "start_sec": 86.48,
+      "end_sec": 87.92,
+      "duration_sec": 1.48,
+      "num_frame_captions": 2,
+      "caption": "In a lush, green environment near a body of water, a group of brown bears engages in the unusual behavior of climbing a large, leafy tree. The powerful animals navigate the sturdy branches with surprising agility, some finding secure perches high among the foliage. This scene suggests a moment of play, exploration, or perhaps an attempt to survey their surroundings from an elevated vantage point. The tranquil setting, with water nearby, provides a picturesque backdrop for this display of the bears' adaptability and strength beyond their typical ground-dwelling habits."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 2199,
+      "end_frame": 2238,
+      "start_sec": 87.96,
+      "end_sec": 89.52,
+      "duration_sec": 1.6,
+      "num_frame_captions": 3,
+      "caption": "In this scene, three brown bears are actively climbing a leafy tree near a body of water. They maneuver among the branches, with some appearing perched in the foliage. The activity draws the attention of spectators, who are visible in the background observing the bears. The setting is a natural environment featuring green foliage surrounding the tree and the water. The scene captures a moment of wildlife behavior where the bears interact with their habitat while being watched by onlookers."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 2239,
+      "end_frame": 2291,
+      "start_sec": 89.56,
+      "end_sec": 91.64,
+      "duration_sec": 2.12,
+      "num_frame_captions": 3,
+      "caption": "This scene shows a group of brown bears interacting in a tree near a lake or river. Initially, four bears are seen climbing and resting among the branches. The number of bears in the tree then changes, decreasing from several to three. Throughout the activity, a small crowd of people has gathered nearby to watch the unusual spectacle of bears perched high in the foliage. The scene captures a dynamic wildlife encounter where the bears' arboreal behavior becomes a point of interest for human onlookers."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 2292,
+      "end_frame": 2325,
+      "start_sec": 91.68,
+      "end_sec": 93.0,
+      "duration_sec": 1.36,
+      "num_frame_captions": 3,
+      "caption": "In a leafy tree near a body of water, several brown bears are actively climbing and resting on the branches. Spectators watch from below as the bears move through the tree, with some positioned higher up and others lower down. The scene captures the bears' natural behavior in this arboreal setting, showcasing their agility and providing a view of wildlife activity that draws the attention of onlookers gathered nearby."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 2326,
+      "end_frame": 2384,
+      "start_sec": 93.04,
+      "end_sec": 95.36,
+      "duration_sec": 2.36,
+      "num_frame_captions": 3,
+      "caption": "In this scene, two brown bears climb and perch in the branches of a leafy tree near a body of water. Their activity draws the attention of a group of spectators who watch from below. The scene captures a moment of wildlife observation, where the bears' natural behavior becomes a point of interest for onlookers, set against a backdrop of foliage and water."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 2385,
+      "end_frame": 2412,
+      "start_sec": 95.4,
+      "end_sec": 96.48,
+      "duration_sec": 1.12,
+      "num_frame_captions": 2,
+      "caption": "In a natural setting near a body of water, a group of brown bears demonstrates impressive climbing ability. The animals ascend and perch within the branches of a leafy tree, with their number increasing from two to three as the scene progresses. Below, a group of spectators watches the bears' arboreal activity from a safe distance. The scene captures a moment of wildlife observation, highlighting the bears' comfort in the tree and the quiet fascination of the human onlookers gathered to witness the spectacle."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 2413,
+      "end_frame": 2434,
+      "start_sec": 96.52,
+      "end_sec": 97.36,
+      "duration_sec": 0.88,
+      "num_frame_captions": 2,
+      "caption": "In a natural setting near a body of water, two brown bears climb and rest in the branches of a leafy tree. A group of spectators observes the scene from a viewing platform below. The bears' activity in the tree is the central focus, creating a moment of wildlife observation where the animals interact with their environment while an audience watches from a designated area."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 2435,
+      "end_frame": 2460,
+      "start_sec": 97.4,
+      "end_sec": 98.4,
+      "duration_sec": 1.04,
+      "num_frame_captions": 2,
+      "caption": "In a natural setting near water, several brown bears climb and perch in a leafy tree. Onlookers observe the scene from a nearby walkway, watching the bears' activity. The animals engage in both climbing and resting behaviors among the branches. The overall scene depicts wildlife in a habitat that allows for human observation from a designated path."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 2461,
+      "end_frame": 2539,
+      "start_sec": 98.44,
+      "end_sec": 101.56,
+      "duration_sec": 3.16,
+      "num_frame_captions": 5,
+      "caption": "In this scene, multiple brown bears are actively climbing and resting in a leafy tree situated near a river or waterfront. The animals' playful or curious behavior draws the attention of a group of tourists, who observe them from a specially constructed viewing area. This platform features a glass-bottomed walkway or bridge, allowing the spectators a clear and elevated vantage point to safely watch the bears from above. The overall setting combines a natural wildlife encounter with a modern, engineered observation structure designed for visitor engagement and safety."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 2540,
+      "end_frame": 2578,
+      "start_sec": 101.6,
+      "end_sec": 103.12,
+      "duration_sec": 1.56,
+      "num_frame_captions": 2,
+      "caption": "In this scene, tourists on a glass-bottomed walkway observe two brown bears climbing a nearby tree trunk. The unique vantage point allows the visitors to look down directly at the animals from above, while also seeing the bears\u2019 reflections in the water below the structure. The setting combines a natural wildlife encounter with a constructed observation platform, creating a striking contrast between the wild animals and the captivated human audience. The scene captures a moment of shared curiosity, framed by the transparency of the bridge and the mirrored surface of the water."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 2579,
+      "end_frame": 2596,
+      "start_sec": 103.16,
+      "end_sec": 103.84,
+      "duration_sec": 0.72,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts wildlife activity near a river, observed by tourists from an elevated vantage point. Initially, two brown bears are seen climbing a tree trunk. The focus then shifts to a koala clinging to a different tree in the same area. Throughout, a group of people watches the animals from a raised walkway or bridge overlooking the riverbank, suggesting a setting such as a wildlife park or sanctuary where visitors can safely view the creatures in a naturalistic habitat."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 2597,
+      "end_frame": 3005,
+      "start_sec": 103.88,
+      "end_sec": 120.2,
+      "duration_sec": 16.36,
+      "num_frame_captions": 27,
+      "caption": "This scene shows two young brown bears in a zoo enclosure, first energetically climbing a tall tree trunk near a calm river or pond. Visitors watch the activity from an elevated walkway or bridge above the water. As the scene progresses, the bears' behavior shifts from climbing to playful interaction and wrestling near the base of the tree on a grassy, sunlit slope. Finally, the pair settles down, resting and huddling together peacefully at the foot of the tree in the wooded area, concluding the sequence with a moment of quiet companionship."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 3006,
+      "end_frame": 3055,
+      "start_sec": 120.24,
+      "end_sec": 122.2,
+      "duration_sec": 2.0,
+      "num_frame_captions": 3,
+      "caption": "In a sun-dappled forest clearing, a mother bear and her cub are resting together near a tree trunk, surrounded by scattered branches and foliage. The scene is peaceful, with the pair enjoying a quiet moment in the grassy, brush-filled area. Their activity shifts from resting to foraging, as they move together through the woodland, exploring their surroundings in the gentle light. The overall atmosphere is one of calm companionship in a natural, wooded setting."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 3056,
+      "end_frame": 3089,
+      "start_sec": 122.24,
+      "end_sec": 123.56,
+      "duration_sec": 1.36,
+      "num_frame_captions": 2,
+      "caption": "In a sunlit forest clearing, a mother brown bear and her cub forage together amidst the brush and grass. The scene captures a moment of quiet, shared activity as they search for food near the base of a tree. The wooded, grassy surroundings suggest a natural habitat where the pair moves with a sense of purpose and companionship. This intimate glimpse highlights the nurturing bond between the two bears as they engage in the essential, daily routine of foraging within their peaceful, dappled-light environment."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 3090,
+      "end_frame": 3106,
+      "start_sec": 123.6,
+      "end_sec": 124.24,
+      "duration_sec": 0.68,
+      "num_frame_captions": 2,
+      "caption": "A mother bear and her cub are foraging together in a sunlit, grassy woodland area. They walk side by side through the open space, moving among scattered branches and past a tree trunk. The scene captures a quiet moment of their daily activity, focused on searching for food within their natural habitat."
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 3107,
+      "end_frame": 3122,
+      "start_sec": 124.28,
+      "end_sec": 124.88,
+      "duration_sec": 0.64,
+      "num_frame_captions": 1,
+      "caption": "A mother brown bear and her cub traverse a grassy woodland area. They move together through the scattered branches and fallen logs, suggesting a journey through their natural habitat. The scene conveys a sense of guidance and protection, as the larger bear likely leads the way while the cub follows closely. Their coordinated movement through the dappled light and undergrowth highlights a moment of quiet companionship and shared purpose in the wilderness."
+    },
+    {
+      "scene_index": 35,
+      "start_frame": 3123,
+      "end_frame": 3180,
+      "start_sec": 124.92,
+      "end_sec": 127.2,
+      "duration_sec": 2.32,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a mother bear and her cub walking together through a natural, wooded environment. They move side-by-side across a grassy area, surrounded by scattered branches and fallen tree trunks. The consistent presence of the adult and young bear throughout the sequence emphasizes their close bond as they navigate the terrain. The setting is a peaceful, sun-dappled forest clearing, providing a glimpse into the bears' daily activity and the protective guidance of the mother as the cub stays near her side."
+    },
+    {
+      "scene_index": 36,
+      "start_frame": 3181,
+      "end_frame": 3225,
+      "start_sec": 127.24,
+      "end_sec": 129.0,
+      "duration_sec": 1.8,
+      "num_frame_captions": 3,
+      "caption": "In a sunlit, grassy woodland, a mother bear and her cub move together through the brush. The pair is seen walking side-by-side, traversing the natural terrain in a quiet, shared journey. The scene conveys a sense of maternal guidance and companionship as the larger bear leads the way through the open area dotted with trees and undergrowth. Their coordinated movement through this peaceful, natural setting highlights the protective bond and daily routine of wildlife in their habitat."
+    },
+    {
+      "scene_index": 37,
+      "start_frame": 3226,
+      "end_frame": 3241,
+      "start_sec": 129.04,
+      "end_sec": 129.64,
+      "duration_sec": 0.64,
+      "num_frame_captions": 1,
+      "caption": "A mother bear and her cub walk together across a sunlit field. They move side-by-side through the grass, navigating around scattered debris. The scene conveys a sense of quiet companionship and shared journey in the natural environment."
+    },
+    {
+      "scene_index": 38,
+      "start_frame": 3242,
+      "end_frame": 3340,
+      "start_sec": 129.68,
+      "end_sec": 133.6,
+      "duration_sec": 3.96,
+      "num_frame_captions": 6,
+      "caption": "Two brown bears forage together in a grassy, sunlit field scattered with twigs, rocks, and other debris. The scene shows them walking and searching for food across this terrain. One bear is noticeably larger than the other. Their activity is consistent throughout, focused on foraging as they move through the area under the bright daylight."
+    }
+  ]
+}

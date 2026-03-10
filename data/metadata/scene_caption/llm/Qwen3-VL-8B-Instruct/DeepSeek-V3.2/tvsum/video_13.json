@@ -1,0 +1,216 @@
+{
+  "video": "0tmA_C6XwfM",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/0tmA_C6XwfM.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_13.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 25.0,
+  "total_frames": 3532,
+  "num_scenes": 20,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 159,
+      "start_sec": 0.0,
+      "end_sec": 6.36,
+      "duration_sec": 6.4,
+      "num_frame_captions": 11,
+      "caption": "The scene opens with a blank white screen, which then briefly displays a simple horizontal line. It quickly transitions to introduce the \u201cGloria Pets\u201d logo. The logo features the brand name in a stylized brown font, with pet-themed icons like a dog silhouette integrated into the lettering. The website address www.gloriapets.com is consistently shown above the logo. The sequence establishes the brand identity in a clean, minimalist style against a plain white background."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 160,
+      "end_frame": 458,
+      "start_sec": 6.4,
+      "end_sec": 18.32,
+      "duration_sec": 11.96,
+      "num_frame_captions": 20,
+      "caption": "The scene features a woman in a light blue button-down shirt speaking directly to the camera against a plain white background. Throughout the scene, she gestures expressively with her hands as she talks, conveying a sense of presentation or explanation. The consistent \"gloria\" logo in the corner identifies the context, suggesting this is a branded video segment, interview, or promotional message. Her demeanor is engaged and communicative, holding the viewer's attention through her direct address and animated gestures."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 459,
+      "end_frame": 589,
+      "start_sec": 18.36,
+      "end_sec": 23.56,
+      "duration_sec": 5.24,
+      "num_frame_captions": 9,
+      "caption": "In a cozy living room with wooden floors and a bookshelf, a man sits on a light-colored couch. Throughout the scene, he affectionately interacts with a large, shaggy gray and white dog. The dog is active and engaged, sometimes standing on its hind legs to reach toward the man, sometimes lying or leaning beside him on the couch. The man consistently responds with gentle petting and playful attention, creating a warm, affectionate moment between them."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 590,
+      "end_frame": 686,
+      "start_sec": 23.6,
+      "end_sec": 27.44,
+      "duration_sec": 3.88,
+      "num_frame_captions": 6,
+      "caption": "A man sits on a couch with a large, shaggy grey and white dog. Throughout the scene, he gently and affectionately pets the dog, which remains relaxed and comfortable beside him. The dog, an Old English Sheepdog, is sometimes seen resting on the man's lap and at other times licking its paw while lying next to him. The consistent interaction shows a calm, tender moment of companionship between the man and his pet."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 687,
+      "end_frame": 796,
+      "start_sec": 27.48,
+      "end_sec": 31.84,
+      "duration_sec": 4.4,
+      "num_frame_captions": 8,
+      "caption": "In this scene, a person is caring for a fluffy gray pet\u2014alternately described as a cat and a dog\u2014on a couch. The primary activity involves gentle handling and grooming. The person carefully examines and trims the pet's claws, while also petting and playing with the animal in a calm, affectionate manner. Throughout the interaction, loose white and gray fur is visible, indicating a recent brushing or natural shedding. The overall atmosphere is one of quiet domesticity and attentive care, focusing on the bond between the owner and their companion during a routine grooming session."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 797,
+      "end_frame": 951,
+      "start_sec": 31.88,
+      "end_sec": 38.04,
+      "duration_sec": 6.2,
+      "num_frame_captions": 10,
+      "caption": "This scene captures a series of tender, quiet moments between a bearded man and his affectionate dog indoors. The sequence begins with the man sitting closely with the happy, fluffy white and gray dog, gently petting and hugging it as it pants with its tongue out. The focus then shifts to the dog lying comfortably on a striped couch, where the man, identifiable by his tattooed arm and dark shirt, continues to stroke and pet its fur with a calm, repetitive motion. The overall scene conveys a consistent mood of relaxed companionship and gentle care between the owner and his content pet."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 952,
+      "end_frame": 1025,
+      "start_sec": 38.08,
+      "end_sec": 41.0,
+      "duration_sec": 2.96,
+      "num_frame_captions": 5,
+      "caption": "A man sits on a wooden floor in a sunlit living room, gently petting a small white dog resting beside him. The affectionate interaction remains consistent throughout the scene, with the man occasionally described as wearing a dark or blue t-shirt. The background includes elements like a beige sectional sofa and a potted plant. The scene captures a quiet, tender moment of companionship between the man and his dog in a domestic setting."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 1026,
+      "end_frame": 1134,
+      "start_sec": 41.04,
+      "end_sec": 45.36,
+      "duration_sec": 4.36,
+      "num_frame_captions": 7,
+      "caption": "A person sits on a wooden floor, gently petting a small white dog. The dog, a fluffy West Highland Terrier, lies calmly and contentedly beside the person, panting happily with its tongue out. The scene conveys a quiet, affectionate moment of bonding between the person and their pet in a relaxed domestic setting."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 1135,
+      "end_frame": 1276,
+      "start_sec": 45.4,
+      "end_sec": 51.04,
+      "duration_sec": 5.68,
+      "num_frame_captions": 10,
+      "caption": "In this warm domestic scene, a man is playfully bonding with his white West Highland Terrier on a wooden floor. He is lying or kneeling down at the dog's level, engaging in gentle interaction. The man often holds the dog's extended paw, while the happy, panting terrier reciprocates the affection by licking his hand. The dog, wearing a red collar, appears relaxed and content, lying down with its tongue out. The overall mood is one of joyful companionship and tender connection between the owner and his pet."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 1277,
+      "end_frame": 1360,
+      "start_sec": 51.08,
+      "end_sec": 54.4,
+      "duration_sec": 3.36,
+      "num_frame_captions": 5,
+      "caption": "In this scene, a person carefully examines a fluffy dog, which appears to be a light-brown and white long-haired breed. The dog remains calm and cooperative, lying on a surface as its paw is gently held and inspected. The interaction suggests a routine check or a moment of care. At one point, a small puppy is also seen nestled against a larger golden dog, indicating the presence of multiple animals in a tranquil, domestic setting."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 1361,
+      "end_frame": 1468,
+      "start_sec": 54.44,
+      "end_sec": 58.72,
+      "duration_sec": 4.32,
+      "num_frame_captions": 7,
+      "caption": "This scene shows a person grooming a fluffy dog by carefully trimming its nails. The dog appears calm and cooperative, with its paw gently held and examined by the person. The animal has light-colored, likely white or light-brown, fur and dark paw pads, which are visible as the person focuses on the task. The repeated action across the frames indicates a steady, meticulous process to ensure the dog's claws are properly and safely cut. The overall atmosphere is one of attentive care and routine maintenance during a pet grooming session."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 1469,
+      "end_frame": 1844,
+      "start_sec": 58.76,
+      "end_sec": 73.76,
+      "duration_sec": 15.04,
+      "num_frame_captions": 25,
+      "caption": "A person is grooming a fluffy, light-colored dog by carefully trimming its nails with clippers. The dog remains calm and tolerant throughout the process, panting gently as its paw is held steady. The scene captures a quiet, focused moment of pet care, with the person attentively clipping each nail while the cooperative dog endures the grooming."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 1845,
+      "end_frame": 2228,
+      "start_sec": 73.8,
+      "end_sec": 89.12,
+      "duration_sec": 15.36,
+      "num_frame_captions": 26,
+      "caption": "A person is carefully trimming the nails of a small, fluffy white dog using nail clippers. The process involves gently holding the dog's paw steady while clipping each nail. The dog remains calm and cooperative throughout the grooming session, occasionally panting with its tongue out in a relaxed manner. The scene focuses on the careful, attentive action of nail trimming and the peaceful interaction between the person and the pet."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 2229,
+      "end_frame": 2343,
+      "start_sec": 89.16,
+      "end_sec": 93.72,
+      "duration_sec": 4.6,
+      "num_frame_captions": 8,
+      "caption": "In this warm domestic scene, a young man lies on a wooden floor, affectionately interacting with a small, energetic white dog, likely a West Highland Terrier wearing a red collar. The man is smiling and fully engaged, nuzzling, hugging, and gently kissing the happy pet. The dog, panting playfully, reciprocates the affection and at one point enthusiastically plays with a colorful toy. The overall mood is one of joyful companionship and tender play, capturing a simple, loving moment between a person and their dog in a relaxed home setting."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 2344,
+      "end_frame": 2530,
+      "start_sec": 93.76,
+      "end_sec": 101.2,
+      "duration_sec": 7.48,
+      "num_frame_captions": 12,
+      "caption": "This scene features a lively white West Highland Terrier playing with various toys in a modern room with a wooden floor and white chairs. The energetic dog is seen enthusiastically carrying, chewing, and interacting with red and orange stuffed toys. Its activity shifts from active play\u2014walking around with toys in its mouth\u2014to a calmer moment where it sits panting happily on the floor. Throughout the sequence, the dog wears either a red or an orange collar and displays a playful, contented expression, often looking toward the camera as it engages with its toys."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 2531,
+      "end_frame": 2681,
+      "start_sec": 101.24,
+      "end_sec": 107.24,
+      "duration_sec": 6.04,
+      "num_frame_captions": 10,
+      "caption": "This scene presents a static product display featuring two pet grooming tools, primarily nail clippers, placed side by side on a plain white background. The tools have distinct brown and beige ergonomic handles designed for comfort and ease of use. While the focus is consistently on the nail clippers, one frame also includes a pair of grooming scissors alongside them, suggesting a related set. The brand name \"Gloria\" appears as a small watermark in the corner of several frames. The sequence shows minor variations in the description of the tools' colors and composition, but the overall presentation remains a clear, straightforward showcase of the grooming products for potential customers."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 2682,
+      "end_frame": 3033,
+      "start_sec": 107.28,
+      "end_sec": 121.32,
+      "duration_sec": 14.08,
+      "num_frame_captions": 24,
+      "caption": "A woman with dark hair and a light blue shirt speaks directly to the camera, often smiling or gesturing expressively. She consistently holds a small object, frequently identified as a smartphone, and presents against a plain white background. The \"gloria\" logo is visible in the corner throughout the scene. Her demeanor is engaged and animated, shifting between warm smiles, emphatic expressions, and active communication as she addresses the viewer."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 3034,
+      "end_frame": 3176,
+      "start_sec": 121.36,
+      "end_sec": 127.04,
+      "duration_sec": 5.72,
+      "num_frame_captions": 9,
+      "caption": "In a grassy park, a person kneels or crouches to play with a small, energetic white dog, which appears to be a West Highland Terrier. The primary focus of their interaction is a red plush toy, resembling Elmo, which the person holds or dangles to engage the excited puppy. The dog responds with lively enthusiasm, leaping into the air, running past with a motion blur, and sniffing or playing with the toy on the ground. The scene captures a playful, joyful moment of bonding between the person and the happy, fluffy white dog, which is often seen with its tongue out, enjoying the game on the lawn."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 3177,
+      "end_frame": 3353,
+      "start_sec": 127.08,
+      "end_sec": 134.12,
+      "duration_sec": 7.08,
+      "num_frame_captions": 12,
+      "caption": "This scene features a woman in a light blue button-down shirt speaking directly to the camera in a professional setting. She stands against a plain white background, smiling warmly and using hand gestures to emphasize her points. Throughout the scene, consistent on-screen graphics are present, including a \"Gloria\" logo and contact information, such as an email address, displayed at the bottom of the frame. The overall tone is friendly and promotional, suggesting this is an introductory or explanatory segment, likely for a company or service named Gloria."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 3354,
+      "end_frame": 3531,
+      "start_sec": 134.16,
+      "end_sec": 141.24,
+      "duration_sec": 7.12,
+      "num_frame_captions": 12,
+      "caption": "The scene opens with a minimalist white frame, then transitions to a simple brown line graphic. It quickly establishes the \"Gloria Pets\" brand, presenting several stylized versions of its playful logo. The logo consistently features the brand name in a brown, pet-themed font, often with integrated animal icons and a paw print, accompanied by the website address. The sequence concludes by solidifying this branded imagery against a clean, white background."
+    }
+  ]
+}

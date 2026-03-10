@@ -1,0 +1,726 @@
+{
+  "video": "byxOvuiIJV0",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/byxOvuiIJV0.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_34.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 23.976023976023978,
+  "total_frames": 3705,
+  "num_scenes": 71,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 49,
+      "start_sec": 0.0,
+      "end_sec": 2.043708,
+      "duration_sec": 2.085417,
+      "num_frame_captions": 4,
+      "caption": "This scene opens with a sequence of entirely black frames, establishing a dark, empty visual field. The only significant visual content appears in a single frame, which breaks the darkness to display two distinct logos. These are for the ICC World Twenty20 Bangladesh 2014 cricket tournament and the University of Information Technology & Sciences (UITS) Chittagong, presented clearly against the black backdrop. The scene then returns to black, framing the logos as a brief, isolated informational graphic within an otherwise featureless sequence. The overall effect is of a simple title or sponsorship card inserted into a dark transition."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 50,
+      "end_frame": 142,
+      "start_sec": 2.085417,
+      "end_sec": 5.922583,
+      "duration_sec": 3.878875,
+      "num_frame_captions": 6,
+      "caption": "A crowd gathers intently around a central figure in an outdoor public setting, creating a sense of commotion and collective focus. The scene suggests a moment of confrontation or significant public attention, with onlookers crouching, pointing, and closely observing the central activity. The recurring presence of individuals in pink clothing in the foreground anchors the perspective, emphasizing a witness viewpoint to the unfolding event. The overall atmosphere is bustling and potentially chaotic, centered on a single point of interest."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 143,
+      "end_frame": 180,
+      "start_sec": 5.964292,
+      "end_sec": 7.5075,
+      "duration_sec": 1.584917,
+      "num_frame_captions": 3,
+      "caption": "This scene presents a serene, sunlit coastal setting, viewed from a low perspective that emphasizes the texture of the warm sand. The focus is on a person\u2019s bare feet, standing firmly on the golden, sun-drenched ground. In the distance, the silhouette of a treeline marks the horizon under a vast, bright sky. The wider view reveals additional elements of seaside life, including a distant figure and boats resting on the shore, contributing to a tranquil atmosphere of a quiet beach day. The composition evokes a feeling of stillness and connection with the natural environment."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 181,
+      "end_frame": 219,
+      "start_sec": 7.549208,
+      "end_sec": 9.134125,
+      "duration_sec": 1.626625,
+      "num_frame_captions": 2,
+      "caption": "This scene captures a solitary figure in a moment of profound, personal catharsis. Framed against a brilliant, overexposed sky, the individual is seen from a low-angle perspective, which emphasizes their silhouette and creates a sense of monumentality and introspection. Their head is tilted back in a gesture of pure, unguarded release, suggesting an experience of overwhelming joy, relief, or spiritual connection with the expansive environment. The composition, dominated by light and shadow, conveys a powerful, almost timeless emotional state, isolating this quiet yet intense instance of human feeling within the vastness of the sky."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 220,
+      "end_frame": 258,
+      "start_sec": 9.175833,
+      "end_sec": 10.76075,
+      "duration_sec": 1.626625,
+      "num_frame_captions": 3,
+      "caption": "A shirtless man stands silhouetted against a bright, overexposed sky, his muscular form dark and defined. He adopts a pose with arms crossed over his chest, conveying an aura of introspection or defiance. The lighting renders his face in shadow while creating a striking, dramatic contrast that highlights the contours of his torso. The overall scene is one of solitary, powerful stillness, framed by the expansive sky."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 259,
+      "end_frame": 284,
+      "start_sec": 10.802458,
+      "end_sec": 11.845167,
+      "duration_sec": 1.084417,
+      "num_frame_captions": 1,
+      "caption": "This scene presents a solitary figure, viewed from a dramatic low-angle perspective. The individual is silhouetted against a vast, intensely bright sky, which washes out details and creates a stark, high-contrast image. The composition emphasizes the person's form as a dark shape, evoking a sense of scale, isolation, or contemplation. The overexposed background suggests either the blinding light of midday or an ethereal, otherworldly atmosphere. The overall mood is one of quiet introspection or awe, framed by the imposing contrast between the grounded human figure and the overwhelming, luminous expanse above."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 285,
+      "end_frame": 315,
+      "start_sec": 11.886875,
+      "end_sec": 13.138125,
+      "duration_sec": 1.292958,
+      "num_frame_captions": 3,
+      "caption": "This scene opens with a solitary figure standing as a stark silhouette against a vast, bright sky, suggesting a moment of quiet isolation on a beach. The focus then shifts to a person, now seen in a black top and yellow pants, who is actively gesturing or throwing their arm against the overexposed sky. The scene culminates in a lively group of children playing cricket on the sunlit shore, with a stone wall and trees framing the background, revealing the earlier figure's location within this communal, playful setting."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 316,
+      "end_frame": 353,
+      "start_sec": 13.179833,
+      "end_sec": 14.723042,
+      "duration_sec": 1.584917,
+      "num_frame_captions": 2,
+      "caption": "In a casual cricket match on a sandy field under a bright sky, the action centers on two young players. One boy, shirtless with a blue headwrap and red shorts, is the active batsman. He is shown first in a focused crouch, ready to play a shot, and then bending over in preparation to strike the ball. His opponent, the bowler, stands poised at the wickets in the background, setting the scene for the delivery. The moment captures the tense and anticipatory pause before the ball is bowled in their informal game."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 354,
+      "end_frame": 435,
+      "start_sec": 14.76475,
+      "end_sec": 18.143125,
+      "duration_sec": 3.420083,
+      "num_frame_captions": 6,
+      "caption": "A large, energetic crowd gathers outdoors in a bustling street scene near a building. The group, which includes a man in a green shirt and a woman in a red sari, is predominantly made up of young men who are celebrating enthusiastically. They cheer, raise their fists and arms in excitement, and appear to be dancing or in motion, creating a lively atmosphere of collective celebration."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 436,
+      "end_frame": 633,
+      "start_sec": 18.184833,
+      "end_sec": 26.401375,
+      "duration_sec": 8.25825,
+      "num_frame_captions": 13,
+      "caption": "This scene depicts a vibrant, crowded street festival or public celebration in a South Asian setting. The action follows a procession moving through a busy urban environment, featuring decorated rickshaws and a large blue truck with Bengali text. A woman in a bright yellow outfit dances energetically in the street, accompanied by a person in a red scarf and other participants. The event draws a large crowd of onlookers and is monitored by a formation of uniformed police officers, who help manage the lively procession as it passes through the sunlit, bustling thoroughfare."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 634,
+      "end_frame": 659,
+      "start_sec": 26.443083,
+      "end_sec": 27.485792,
+      "duration_sec": 1.084417,
+      "num_frame_captions": 1,
+      "caption": "In a scene defined by stark contrasts in lighting, a central figure in a blue checkered shirt and a black head covering is the focal point of activity. They are hunched over, intently engaged in a task within a pool of bright light, suggesting a moment of concentrated work or examination. Around them, other individuals remain seated in the shadowy periphery, passively observing or waiting. The composition creates a visual tension between the solitary, active individual and the still, watchful group, emphasizing a narrative of focused effort amidst a quiet, ambient backdrop."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 660,
+      "end_frame": 697,
+      "start_sec": 27.5275,
+      "end_sec": 29.070708,
+      "duration_sec": 1.584917,
+      "num_frame_captions": 3,
+      "caption": "The scene begins with a group of people casually gathered and seated on the ground. The mood then shifts to one of energetic celebration as the group stands and dances together outdoors in a synchronized pose. The action culminates in a more personal interaction, with one individual reaching out toward another amidst the gathering, all taking place on a sunlit pavement."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 698,
+      "end_frame": 840,
+      "start_sec": 29.112417,
+      "end_sec": 35.035,
+      "duration_sec": 5.964292,
+      "num_frame_captions": 10,
+      "caption": "This scene unfolds in a vibrant, sun-drenched public square or marketplace, transitioning from initial chaos to communal celebration. It begins with a moment of commotion involving a speeding bicycle and a crowd of onlookers, which briefly results in a fallen bicycle. The energy then shifts as the bustling crowd, including adults and children in colorful clothing, begins to move and dance with increasing liveliness. The motion-blurred frames capture this collective, energetic movement, transforming the urban space into a lively scene of festive public celebration and communal activity."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 841,
+      "end_frame": 885,
+      "start_sec": 35.076708,
+      "end_sec": 36.911875,
+      "duration_sec": 1.876875,
+      "num_frame_captions": 3,
+      "caption": "This scene captures a vibrant outdoor dance performance, likely at a community or cultural event. A large, energetic group, predominantly composed of children and teenagers dressed in colorful attire, moves in a coordinated circle on a paved surface. Their lively dancing forms the central spectacle, drawing the attention of an audience that watches from the surrounding sidelines. The atmosphere is one of communal celebration and shared joy, with the circular formation and high-angle perspective emphasizing the scale and dynamism of the performance. The event showcases youthful energy and cultural expression in a public, festive setting."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 886,
+      "end_frame": 908,
+      "start_sec": 36.953583,
+      "end_sec": 37.871167,
+      "duration_sec": 0.959292,
+      "num_frame_captions": 1,
+      "caption": "A large group of people energetically dances in a circle on a paved outdoor area, creating a vibrant and lively spectacle. The coordinated movement of the crowd forms a dynamic centerpiece, full of color and motion. Surrounding the dancers, an audience of spectators watches the performance from the perimeter, observing the celebration. The scene captures a communal moment of shared joy and cultural expression, with the focus on the collective dance as the primary action."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 909,
+      "end_frame": 989,
+      "start_sec": 37.912875,
+      "end_sec": 41.249542,
+      "duration_sec": 3.378375,
+      "num_frame_captions": 5,
+      "caption": "A vibrant street performance captivates a large crowd in an urban plaza. Dancers in colorful attire move energetically, their lively routine drawing cheers from onlookers who gather on the sidewalks and fill the bustling street. The atmosphere is one of joyful entertainment under the bright daylight, with the energetic movement of both performers and passersby contributing to the dynamic scene. The focus remains on the dancers' coordinated display and the enthusiastic reaction of the surrounding audience."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 990,
+      "end_frame": 1006,
+      "start_sec": 41.29125,
+      "end_sec": 41.958583,
+      "duration_sec": 0.709042,
+      "num_frame_captions": 2,
+      "caption": "The scene depicts a vibrant street celebration where a group of people are dancing joyfully. Their performance draws the attention of an assembled crowd, creating a lively and communal atmosphere. The setting is an urban street lined with storefronts, which frames the energetic gathering. The overall mood is one of festivity and shared enjoyment, as the dancers' movements and the crowd's presence combine to form a dynamic public event."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 1007,
+      "end_frame": 1058,
+      "start_sec": 42.000292,
+      "end_sec": 44.127417,
+      "duration_sec": 2.168833,
+      "num_frame_captions": 3,
+      "caption": "This scene captures a vibrant public performance on a sunny day. In a bustling urban setting, a large crowd has gathered along a street or open paved area, watching attentively from the sidelines. The focus of their attention is a group of young, energetic dancers who are performing with lively movements in the center of the space. The atmosphere is cheerful and dynamic, with the spectators forming a ring around the performers. The overall impression is of a spontaneous or planned cultural display that has drawn the interest of numerous passersby, creating a lively focal point within the everyday street activity."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 1059,
+      "end_frame": 1076,
+      "start_sec": 44.169125,
+      "end_sec": 44.878167,
+      "duration_sec": 0.75075,
+      "num_frame_captions": 1,
+      "caption": "In a vibrant public square, a spirited dance performance unfolds as a group of energetic individuals moves rhythmically on the open pavement. Their dynamic choreography draws the attention of a sizable audience that has gathered around the perimeter, forming a dense ring of spectators. The atmosphere is one of communal enjoyment and entertainment, with the dancers' enthusiasm visibly captivating the onlookers. This creates a lively scene of shared public spectacle, where the boundary between performers and audience defines the space, all under the open sky."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 1077,
+      "end_frame": 1143,
+      "start_sec": 44.919875,
+      "end_sec": 47.672625,
+      "duration_sec": 2.794458,
+      "num_frame_captions": 5,
+      "caption": "A vibrant group of dancers in colorful attire performs an energetic, synchronized routine in a circular formation on a paved outdoor ground. They are surrounded by a large, enthusiastic crowd of onlookers who watch from the perimeter. The scene captures a lively public performance, with the dancers moving in unison to create a dynamic spectacle. The atmosphere is festive, highlighted by the participants' energetic movements and the engaged audience witnessing the event."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 1144,
+      "end_frame": 1223,
+      "start_sec": 47.714333,
+      "end_sec": 51.009292,
+      "duration_sec": 3.336667,
+      "num_frame_captions": 5,
+      "caption": "A lively street celebration takes place in front of a multi-story building under a clear blue sky. A diverse crowd of spectators watches from balconies and the sidewalk as a group of energetic dancers in colorful attire performs. The dancers move rhythmically to music, some raising their arms in unison, creating a vibrant and joyful atmosphere. The focus is on the collective energy of the performance and the enthusiastic reaction of the surrounding crowd."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 1224,
+      "end_frame": 1290,
+      "start_sec": 51.051,
+      "end_sec": 53.80375,
+      "duration_sec": 2.794458,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a vibrant and energetic outdoor gathering, likely in an urban park or street. A lively crowd of people is engaged in a mix of dancing and brisk walking, creating a bustling and somewhat chaotic atmosphere. The motion blur in the footage emphasizes their dynamic movement and the overall sense of activity. Individuals in variously colored shirts, including blue, yellow, and green, stand out within the group. The sunlit setting, with buildings and trees visible, completes the impression of a spontaneous public celebration or a lively community event."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 1291,
+      "end_frame": 1310,
+      "start_sec": 53.845458,
+      "end_sec": 54.637917,
+      "duration_sec": 0.834167,
+      "num_frame_captions": 1,
+      "caption": "In a sunlit public square, a group of people are dancing energetically. The lively activity takes place outdoors, framed by trees and a decorative building in the background. The scene captures a moment of communal joy and movement, with the participants fully engaged in their rhythmic performance. The overall atmosphere is vibrant and social, set against an open, urban backdrop."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 1311,
+      "end_frame": 1332,
+      "start_sec": 54.679625,
+      "end_sec": 55.5555,
+      "duration_sec": 0.917583,
+      "num_frame_captions": 1,
+      "caption": "In a vibrant outdoor setting, a lively group engages in a spirited line dance. Moving in energetic unison under the bright sun, they perform coordinated steps with their arms raised high in the air. Their faces are alight with joy and exuberance, fully immersed in the communal rhythm of the activity. The scene radiates a sense of collective celebration and carefree fun, as the dancers share in the simple pleasure of movement and music together in the open air."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 1333,
+      "end_frame": 1395,
+      "start_sec": 55.597208,
+      "end_sec": 58.183125,
+      "duration_sec": 2.627625,
+      "num_frame_captions": 5,
+      "caption": "This scene shows a group of schoolboys in light blue uniforms outdoors, likely on school grounds near a modern building. They are gathered together, smiling and waving enthusiastically at the camera. The group then begins to walk, with some continuing to wave as they move. During the gathering, one boy briefly holds up a small object, perhaps a phone or camera, to his face while the others look on. The overall mood is cheerful and energetic, capturing a moment of camaraderie and excitement among the students."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 1396,
+      "end_frame": 1480,
+      "start_sec": 58.224833,
+      "end_sec": 61.728333,
+      "duration_sec": 3.545208,
+      "num_frame_captions": 5,
+      "caption": "This scene captures a vibrant street parade or public celebration in a bustling urban setting. A large, enthusiastic crowd has gathered along the sunlit street to watch a lively dance performance. The focal point is a group of energetic dancers dressed in colorful attire, whose dynamic movements captivate the onlookers. Among the crowd, several individuals, including a man in a white jacket and another in a white shirt and glasses, are seen dancing energetically themselves, adding to the overall festive and participatory atmosphere of the event."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 1481,
+      "end_frame": 1521,
+      "start_sec": 61.770042,
+      "end_sec": 63.438375,
+      "duration_sec": 1.710042,
+      "num_frame_captions": 3,
+      "caption": "This vibrant urban scene captures a lively street festival where a group of performers executes a synchronized dance routine in the middle of a road or public square. Dressed in colorful attire, they move with energetic precision, drawing the focus of a substantial audience. Spectators line the sidewalks and fill the balconies of surrounding buildings, creating a multi-tiered ring of enthusiastic onlookers who cheer and watch the celebration. The event transforms the everyday cityscape into a dynamic stage, radiating a communal and festive atmosphere."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 1522,
+      "end_frame": 1615,
+      "start_sec": 63.480083,
+      "end_sec": 67.358958,
+      "duration_sec": 3.920583,
+      "num_frame_captions": 6,
+      "caption": "This scene captures a vibrant outdoor dance performance in a public square. A large group of dancers, dressed in colorful attire, executes a synchronized and energetic routine under bright sunlight. They perform in an open space framed by trees and an ornate building, suggesting a formal or cultural event. An enthusiastic crowd of spectators lines the sidelines, watching the lively display. The overall atmosphere is one of joy and communal celebration, as the dancers' movements and the audience's presence create a dynamic and festive public spectacle."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 1616,
+      "end_frame": 1685,
+      "start_sec": 67.400667,
+      "end_sec": 70.278542,
+      "duration_sec": 2.919583,
+      "num_frame_captions": 5,
+      "caption": "A vibrant urban street is filled with a diverse, bustling crowd. The scene\u2019s energy builds as the crowd transitions from general movement to collective, joyful dancing. People dance energetically down the sunlit street, their arms raised, surrounded by buildings and onlookers. The atmosphere is one of celebration and communal expression, transforming the busy thoroughfare into a dynamic, spontaneous performance space."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 1686,
+      "end_frame": 1773,
+      "start_sec": 70.32025,
+      "end_sec": 73.948875,
+      "duration_sec": 3.670333,
+      "num_frame_captions": 6,
+      "caption": "The scene unfolds on a busy urban street, where a crowd of people and rickshaws move through the chaotic energy of a bustling environment. Amidst this activity, a distinct group of men stands behind a metal grid fence, separate from the main flow. Their focus is intense and unified as they look outward in the same direction with expressions of anticipation and concern, with some raising their fists. This moment of collective tension contrasts with the surrounding everyday movement, suggesting a protest or significant event within the vibrant cityscape."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 1774,
+      "end_frame": 1823,
+      "start_sec": 73.990583,
+      "end_sec": 76.034292,
+      "duration_sec": 2.085417,
+      "num_frame_captions": 3,
+      "caption": "This scene presents a series of abstracted, close-up views of objects held against a bright, featureless sky. The sequence begins with a low-angle shot of a man raising a long pole, followed by the distinct shape of a blue umbrella being opened. The focus then shifts to a tight, detailed close-up of a red circular form against a contrasting blue background. The overall effect is one of vivid color, simple geometric shapes, and a sense of objects being offered up or displayed against an overwhelming, luminous expanse."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 1824,
+      "end_frame": 1851,
+      "start_sec": 76.076,
+      "end_sec": 77.202125,
+      "duration_sec": 1.167833,
+      "num_frame_captions": 2,
+      "caption": "This scene opens with an abstract, close-up view dominated by a warm, red-orange circular form set against a cool, textured background of blue and green. The composition is tight and visually ambiguous, focusing on color and texture rather than clear objects. The scene then undergoes a dramatic transition, dissolving into a vast, almost overwhelming field of bright white. Within this blank expanse, only a faint, cool-toned remnant of the earlier background colors remains, reduced to a small, ghostly shape in the lower corner. The overall effect is one of a vivid form being consumed or fading into a stark, luminous void."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 1852,
+      "end_frame": 1873,
+      "start_sec": 77.243833,
+      "end_sec": 78.119708,
+      "duration_sec": 0.917583,
+      "num_frame_captions": 1,
+      "caption": "A street performer captivates a gathered crowd with a lively dance in an urban setting. The dancer, wearing a black headscarf and jeans, performs energetically on a sunlit street, drawing the attention of onlookers who have assembled on both sides. The scene conveys a vibrant, communal atmosphere as the audience watches the engaging public performance, creating a focal point of shared enjoyment and public spectacle in the city."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 1874,
+      "end_frame": 1895,
+      "start_sec": 78.161417,
+      "end_sec": 79.037292,
+      "duration_sec": 0.917583,
+      "num_frame_captions": 2,
+      "caption": "In a bustling urban street under bright daylight, a lively public performance unfolds. A woman dances energetically in the center of the road, drawing the attention of a crowd that has gathered around her. Onlookers watch from the sidewalks, while a few people are seated on the ground. Amidst the spectators, a man in a grey jacket walks through the throng, adding to the dynamic, everyday movement of the scene. The overall atmosphere is one of spontaneous street entertainment, with the dancer as the focal point amidst the casual flow of city life."
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 1896,
+      "end_frame": 1914,
+      "start_sec": 79.079,
+      "end_sec": 79.82975,
+      "duration_sec": 0.792458,
+      "num_frame_captions": 1,
+      "caption": "A man in a grey jacket and sunglasses stands prominently in the middle of a sunlit street, drawing the attention of a crowd of onlookers. The atmosphere is casual yet focused, with people watching from the sidewalks and a car parked nearby. The scene suggests a public moment, perhaps a street performance, informal gathering, or minor disruption, centered on this individual's stationary presence as the focal point for the surrounding urban activity."
+    },
+    {
+      "scene_index": 35,
+      "start_frame": 1915,
+      "end_frame": 1976,
+      "start_sec": 79.871458,
+      "end_sec": 82.415667,
+      "duration_sec": 2.585917,
+      "num_frame_captions": 4,
+      "caption": "A breakdancer performs energetic moves in a busy urban street during a festival. He dances and executes acrobatic tricks, including a dynamic move on a skateboard, captivating a gathered crowd of onlookers. The lively scene briefly escalates into a physical altercation between two individuals nearby, adding a sudden burst of tension amidst the celebratory atmosphere before the focus returns to the performance."
+    },
+    {
+      "scene_index": 36,
+      "start_frame": 1977,
+      "end_frame": 2040,
+      "start_sec": 82.457375,
+      "end_sec": 85.085,
+      "duration_sec": 2.669333,
+      "num_frame_captions": 5,
+      "caption": "In a vibrant urban plaza bathed in sunlight, a dynamic street performance unfolds. A central dancer, dressed in a bright shirt and jeans, leads the energetic display with vigorous, captivating movements. They are joined by a group of fellow performers, creating a lively spectacle of coordinated motion. An enthusiastic crowd of onlookers has gathered, watching intently from the surrounding sidewalks and edges of the square, fully engaged by the spontaneous show. The scene captures the infectious energy of a public dance performance, blending athletic artistry with the casual atmosphere of a city space."
+    },
+    {
+      "scene_index": 37,
+      "start_frame": 2041,
+      "end_frame": 2062,
+      "start_sec": 85.126708,
+      "end_sec": 86.002583,
+      "duration_sec": 0.917583,
+      "num_frame_captions": 1,
+      "caption": "In a bustling urban street, a spirited individual becomes the focal point of a spontaneous public performance. Clad in jeans and distinctive red shoes, they dance with energetic and captivating movements in the center of the roadway. Their lively routine draws the attention of passersby, who quickly form a surrounding crowd of amused and curious onlookers. The scene captures a moment of unscripted urban life, where a personal expression of joy briefly transforms the everyday setting into an impromptu stage, creating a shared experience of entertainment and community observation amidst the city's flow."
+    },
+    {
+      "scene_index": 38,
+      "start_frame": 2063,
+      "end_frame": 2103,
+      "start_sec": 86.044292,
+      "end_sec": 87.712625,
+      "duration_sec": 1.710042,
+      "num_frame_captions": 3,
+      "caption": "A man in a tank top and jeans walks down a bustling, sunlit urban street. The area is crowded with people and lined with buildings under a bright blue sky. In a later moment, the scene becomes more dynamic as the same man is now riding a motorcycle through the crowded area, creating a blurry, motion-filled effect as he moves past the urban backdrop. The sequence shows his transition from walking to riding through the lively city environment."
+    },
+    {
+      "scene_index": 39,
+      "start_frame": 2104,
+      "end_frame": 2178,
+      "start_sec": 87.754333,
+      "end_sec": 90.84075,
+      "duration_sec": 3.128125,
+      "num_frame_captions": 5,
+      "caption": "The scene depicts a shirtless, muscular man energetically dancing or celebrating on a city street. He is captured in dynamic, mid-air motion, swinging a rope or chain with blurred movement. The action takes place against a backdrop of sunlit urban buildings, with other people visible in the bustling environment. His lively performance creates a sense of spontaneous, public celebration."
+    },
+    {
+      "scene_index": 40,
+      "start_frame": 2179,
+      "end_frame": 2207,
+      "start_sec": 90.882458,
+      "end_sec": 92.050292,
+      "duration_sec": 1.209542,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a person moving quickly across a sandy area, as seen from a low, dynamic angle that emphasizes their legs and boots in motion. The action then transitions to a more static moment on a paved surface, where two individuals are present. One, wearing dark pants and boots, stands near chalk markings on the ground, while a second person in distinctive red shoes is positioned nearby. The sequence suggests a shift from hurried travel or pursuit to a paused, possibly deliberate interaction or observation at a specific location."
+    },
+    {
+      "scene_index": 41,
+      "start_frame": 2208,
+      "end_frame": 2235,
+      "start_sec": 92.092,
+      "end_sec": 93.218125,
+      "duration_sec": 1.167833,
+      "num_frame_captions": 2,
+      "caption": "This scene features a person wearing a yellow shirt, who is adorned with colorful beaded bracelets. They are engaged in a series of expressive hand gestures, first directing attention toward a green curtain in the background. Subsequently, the person points downward, emphasizing a specific direction or object. The actions suggest they are communicating or explaining something, with the vibrant accessories adding a distinctive visual detail to their appearance. The setting remains consistent, anchored by the prominent green curtain."
+    },
+    {
+      "scene_index": 42,
+      "start_frame": 2236,
+      "end_frame": 2284,
+      "start_sec": 93.259833,
+      "end_sec": 95.261833,
+      "duration_sec": 2.043708,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a person in a striped shirt performing maintenance on a motorcycle in a busy, possibly industrial or roadside setting. The individual is focused on the engine, specifically handling a bright yellow hose connected to the machinery. The activity suggests a task like refueling, checking fluids, or using an air compressor. The surrounding environment is dynamic and somewhat chaotic, as indicated by a later blurry frame showing a red tractor and other moving figures in the street, placing the mechanical work within a broader context of active urban or worksite life."
+    },
+    {
+      "scene_index": 43,
+      "start_frame": 2285,
+      "end_frame": 2300,
+      "start_sec": 95.303542,
+      "end_sec": 95.929167,
+      "duration_sec": 0.667333,
+      "num_frame_captions": 1,
+      "caption": "A white ox pulls a wooden cart along a lively, sun-drenched street. The scene is bustling with activity as people go about their daily business, creating an atmosphere of purposeful movement and community life. The setting suggests a traditional or historical context, where animal-drawn transport is part of the everyday rhythm. The overall impression is one of organized, warm, and vibrant street life."
+    },
+    {
+      "scene_index": 44,
+      "start_frame": 2301,
+      "end_frame": 2338,
+      "start_sec": 95.970875,
+      "end_sec": 97.514083,
+      "duration_sec": 1.584917,
+      "num_frame_captions": 2,
+      "caption": "A lively street festival unfolds in an urban setting, filled with a vibrant crowd. Many participants wear distinctive white conical hats, adding a unifying visual element to the gathering. The energy centers on a woman dressed in a purple shawl and patterned dress, who dances with spirited enthusiasm amidst the onlookers. Bathed in sunlight, the scene captures a moment of communal celebration and cultural expression, with traditional attire and dynamic movement against the backdrop of city buildings. The atmosphere is one of joy and shared participation in the public event."
+    },
+    {
+      "scene_index": 45,
+      "start_frame": 2339,
+      "end_frame": 2371,
+      "start_sec": 97.555792,
+      "end_sec": 98.890458,
+      "duration_sec": 1.376375,
+      "num_frame_captions": 3,
+      "caption": "A lively street performance unfolds in an urban setting, featuring a group of dancers in colorful clothing. They move energetically and in unison to the music, captivating a gathered crowd. The choreography is led by a man dressed in a plaid shirt and jeans, who guides the ensemble through their routine. The vibrant dancing against the backdrop of city buildings creates a dynamic and engaging public spectacle, full of rhythm and coordinated motion."
+    },
+    {
+      "scene_index": 46,
+      "start_frame": 2372,
+      "end_frame": 2388,
+      "start_sec": 98.932167,
+      "end_sec": 99.5995,
+      "duration_sec": 0.709042,
+      "num_frame_captions": 1,
+      "caption": "This scene depicts a vibrant and energetic street parade or festival. A lively crowd has gathered, with individuals such as a man in a plaid shirt and another enthusiastically raising his arm. The central focus is the rapid, dynamic passage of a large, brightly colored yellow float or decorated vehicle moving through the foreground. Its speed and prominence suggest it is a key feature of the procession, generating excitement as it passes by the blurred, cheering spectators. The overall atmosphere is one of communal celebration and motion."
+    },
+    {
+      "scene_index": 47,
+      "start_frame": 2389,
+      "end_frame": 2406,
+      "start_sec": 99.641208,
+      "end_sec": 100.35025,
+      "duration_sec": 0.75075,
+      "num_frame_captions": 1,
+      "caption": "This scene captures a lively urban moment as a group of young men moves through a bustling commercial street. Their casual attire and relaxed, smiling demeanour suggest a sense of camaraderie and leisure, perhaps during an outing with friends. The environment is active and everyday, defined by the storefronts and signage that line the sidewalk, indicating a shopping district or popular city area. The overall mood is one of informal social energy, portraying a simple, relatable snapshot of city life where people are out and about, enjoying their surroundings and each other's company."
+    },
+    {
+      "scene_index": 48,
+      "start_frame": 2407,
+      "end_frame": 2451,
+      "start_sec": 100.391958,
+      "end_sec": 102.227125,
+      "duration_sec": 1.876875,
+      "num_frame_captions": 3,
+      "caption": "The scene captures a vibrant and energetic public gathering on a bustling city street. A dense crowd of people, caught in a moment of collective excitement, surges through the urban thoroughfare. Many participants are visibly engaged, raising their hands and phones aloft to record or photograph the event unfolding around them. The atmosphere is one of lively chaos, with the movement of the crowd creating a blurred sense of motion against the backdrop of buildings under a bright sky. The overall impression is of a spontaneous celebration or a major public event drawing significant public participation."
+    },
+    {
+      "scene_index": 49,
+      "start_frame": 2452,
+      "end_frame": 2478,
+      "start_sec": 102.268833,
+      "end_sec": 103.35325,
+      "duration_sec": 1.126125,
+      "num_frame_captions": 2,
+      "caption": "The scene features a stylized poster or mural celebrating Bangladeshi cricket. It prominently displays a group of players in their national team colors, captured in a moment of triumphant celebration. The artwork is vibrant and dynamic, set against a clear sky. The focal point is the word \"Bangladesh\" written in Bengali script, which anchors the image and clearly identifies the subject of the tribute. The overall composition conveys a sense of national pride and sporting victory."
+    },
+    {
+      "scene_index": 50,
+      "start_frame": 2479,
+      "end_frame": 2500,
+      "start_sec": 103.394958,
+      "end_sec": 104.270833,
+      "duration_sec": 0.917583,
+      "num_frame_captions": 1,
+      "caption": "This scene establishes the setting for a major international cricket event. The focus is on a promotional banner for the ICC World Twenty20 tournament, specifically the 2014 edition hosted by Bangladesh. The vibrant blue banner serves as a clear visual anchor, announcing the competition. Above it, an array of national flags flutter dynamically against a clear, bright sky, symbolizing the participating nations coming together. The overall atmosphere is one of celebration and international sporting spectacle, with the bright, open setting and waving flags creating a sense of anticipation and global unity for the upcoming tournament."
+    },
+    {
+      "scene_index": 51,
+      "start_frame": 2501,
+      "end_frame": 2589,
+      "start_sec": 104.312542,
+      "end_sec": 107.982875,
+      "duration_sec": 3.712042,
+      "num_frame_captions": 6,
+      "caption": "This scene captures a vibrant street dance performance in an urban setting. A group of energetic dancers, dressed in colorful attire, executes a lively routine on the street. Their dynamic movements captivate a large and enthusiastic audience, which has gathered to watch the spectacle. The crowd is spread across the sidewalks and even leans over the balconies of a distinctive pink building that forms the backdrop. The overall atmosphere is one of communal celebration and artistic expression on a bustling city street."
+    },
+    {
+      "scene_index": 52,
+      "start_frame": 2590,
+      "end_frame": 2618,
+      "start_sec": 108.024583,
+      "end_sec": 109.192417,
+      "duration_sec": 1.209542,
+      "num_frame_captions": 2,
+      "caption": "A group of women, many wearing headscarves, gather closely together in an outdoor public space. They are holding umbrellas, which suggests the event is taking place in rainy weather or that the umbrellas serve a symbolic or practical purpose for the gathering. The scene depicts a collective public assembly, with the cohesive group indicating a shared purpose such as a demonstration, vigil, or community meeting. The mood is one of solidarity and shared presence in a common cause."
+    },
+    {
+      "scene_index": 53,
+      "start_frame": 2619,
+      "end_frame": 2645,
+      "start_sec": 109.234125,
+      "end_sec": 110.318542,
+      "duration_sec": 1.126125,
+      "num_frame_captions": 2,
+      "caption": "In a bustling outdoor market, a central figure carries a large woven basket through the crowd. The surrounding group, caught up in a moment of collective excitement, lifts and carries a large sack on their shoulders. Many people raise their hands in celebration, creating an energetic street scene focused on communal effort and shared jubilation."
+    },
+    {
+      "scene_index": 54,
+      "start_frame": 2646,
+      "end_frame": 2776,
+      "start_sec": 110.36025,
+      "end_sec": 115.782333,
+      "duration_sec": 5.463792,
+      "num_frame_captions": 9,
+      "caption": "A lively street performance unfolds in a crowded urban square. A woman with long dark hair dances energetically at the center, leading the festivities as a crowd gathers to watch. The atmosphere is chaotic and vibrant, with people moving dynamically and colorful clothing blurring with motion. The scene is set near buildings featuring commercial signs like \"BANK\" and \"ATM,\" anchoring the performance in a everyday city environment. The overall mood is one of hurried, joyful celebration in a public space."
+    },
+    {
+      "scene_index": 55,
+      "start_frame": 2777,
+      "end_frame": 2827,
+      "start_sec": 115.824042,
+      "end_sec": 117.909458,
+      "duration_sec": 2.127125,
+      "num_frame_captions": 3,
+      "caption": "A large, enthusiastic crowd gathers outdoors in front of a tall, modern blue building under a bright sun. People are looking upward with expressions of awe and excitement, many raising their hands or phones to capture the moment. The overall atmosphere is one of collective celebration and wonder, suggesting a significant public event or spectacle. The bright sunlight creates lens flare, adding to the vibrant and dynamic feel of the scene as the group shares in this experience."
+    },
+    {
+      "scene_index": 56,
+      "start_frame": 2828,
+      "end_frame": 2912,
+      "start_sec": 117.951167,
+      "end_sec": 121.454667,
+      "duration_sec": 3.545208,
+      "num_frame_captions": 6,
+      "caption": "The scene depicts a vibrant urban celebration or public event, likely in an Indian street market. A large, energetic crowd gathers outdoors amidst tall buildings and colorful storefronts. People raise their hands joyfully, some dance energetically in the street, and the overall mood is lively and chaotic. The setting includes damaged buildings and bustling market activity, suggesting a spontaneous gathering or festival in a sunlit, urban environment."
+    },
+    {
+      "scene_index": 57,
+      "start_frame": 2913,
+      "end_frame": 2947,
+      "start_sec": 121.496375,
+      "end_sec": 122.914458,
+      "duration_sec": 1.459792,
+      "num_frame_captions": 2,
+      "caption": "This scene captures a vibrant street performance in a busy urban setting. A breakdancer is the central focus, energetically executing moves that include a handstand, drawing the attention of a gathered crowd. The atmosphere is lively and dynamic, with onlookers watching the display amidst the general hustle of the city street. The energy of the performance blends seamlessly with the everyday motion of pedestrians passing by shops and buildings, creating a moment of spontaneous urban culture."
+    },
+    {
+      "scene_index": 58,
+      "start_frame": 2948,
+      "end_frame": 2996,
+      "start_sec": 122.956167,
+      "end_sec": 124.958167,
+      "duration_sec": 2.043708,
+      "num_frame_captions": 3,
+      "caption": "In a bustling, sunlit street market, a performer in a grey tank top and jeans captivates a growing crowd with an energetic breakdance routine. The dynamic sequence features acrobatic moves, including a moment where the dancer appears to dive or fall forward, showcasing impressive athleticism and control. Onlookers and pedestrians pause to watch the spontaneous urban performance, which transforms the busy thoroughfare into an impromptu stage. The vibrant atmosphere of the market, with its background buildings and ambient activity, frames this display of street art and physical skill."
+    },
+    {
+      "scene_index": 59,
+      "start_frame": 2997,
+      "end_frame": 3014,
+      "start_sec": 124.999875,
+      "end_sec": 125.708917,
+      "duration_sec": 0.75075,
+      "num_frame_captions": 1,
+      "caption": "In a vibrant urban setting, a breakdancer captivates a spontaneous street audience with an energetic performance. The dancer executes fluid, acrobatic movements, including spins and freezes, on the pavement as pedestrians stop to watch. A palpable sense of excitement fills the air, with onlookers gathering on the sidewalks, some recording with their phones while others cheer and applaud. The impromptu spectacle transforms the busy thoroughfare into a temporary stage, highlighting a moment of shared community engagement and appreciation for street art amidst the flow of city life."
+    },
+    {
+      "scene_index": 60,
+      "start_frame": 3015,
+      "end_frame": 3053,
+      "start_sec": 125.750625,
+      "end_sec": 127.335542,
+      "duration_sec": 1.626625,
+      "num_frame_captions": 3,
+      "caption": "The scene unfolds on a busy urban street where a sudden commotion disrupts the normal flow. People are seen running and reacting with alarm, indicating an emergency or unexpected event. Amidst the chaos, a man in a grey shirt is crouched or bent over in the foreground, while another individual performs an athletic handstand in the middle of the roadway, drawing the attention of onlookers gathered on the sidewalks. The overall atmosphere is one of tense, confused activity blending distress with a peculiar public display."
+    },
+    {
+      "scene_index": 61,
+      "start_frame": 3054,
+      "end_frame": 3069,
+      "start_sec": 127.37725,
+      "end_sec": 128.002875,
+      "duration_sec": 0.667333,
+      "num_frame_captions": 1,
+      "caption": "In a vibrant public celebration, a large and enthusiastic crowd lines a sunlit urban street, their attention fixed on a central spectacle. A professional dance troupe, adorned in bright, coordinated costumes, executes a dynamic and precisely choreographed routine. Their energetic movements, set to lively music, create a pulsating center of color and rhythm that captivates the onlookers. The atmosphere is one of shared joy and communal entertainment, as the performance transforms the everyday thoroughfare into a temporary stage for cultural expression and collective appreciation."
+    },
+    {
+      "scene_index": 62,
+      "start_frame": 3070,
+      "end_frame": 3138,
+      "start_sec": 128.044583,
+      "end_sec": 130.88075,
+      "duration_sec": 2.877875,
+      "num_frame_captions": 5,
+      "caption": "This scene captures a vibrant street dance performance in a bustling urban square. A group of dancers, dressed in colorful attire, executes an energetic and synchronized routine at the center of a paved plaza. They move dynamically, at times forming a circle, under the bright daylight. A large and enthusiastic crowd has gathered along the surrounding sidewalks, watching the spectacle with evident enjoyment. The overall atmosphere is one of lively entertainment and communal celebration in a public, open-air setting."
+    },
+    {
+      "scene_index": 63,
+      "start_frame": 3139,
+      "end_frame": 3267,
+      "start_sec": 130.922458,
+      "end_sec": 136.261125,
+      "duration_sec": 5.380375,
+      "num_frame_captions": 8,
+      "caption": "The scene depicts a lively and energetic street celebration, likely a festival or parade. A dense crowd of people dances and moves energetically in an urban setting, with some individuals, like a person in a pink or teal outfit, standing out. The overall atmosphere is chaotic and frenzied, with rapid movement that causes the footage to appear blurred and shaky, suggesting the cameraperson is within the bustling crowd capturing the dynamic event."
+    },
+    {
+      "scene_index": 64,
+      "start_frame": 3268,
+      "end_frame": 3288,
+      "start_sec": 136.302833,
+      "end_sec": 137.137,
+      "duration_sec": 0.875875,
+      "num_frame_captions": 2,
+      "caption": "This scene captures a lively outdoor event, likely a festival or parade, where a crowd of people in colorful clothing moves energetically along a street. The atmosphere is chaotic and dynamic, filled with motion as participants and spectators mingle. The consistent blurring across frames emphasizes the fast-paced, bustling nature of the gathering, suggesting spontaneous movement and celebration. The overall impression is one of vibrant, communal activity in an open-air setting."
+    },
+    {
+      "scene_index": 65,
+      "start_frame": 3289,
+      "end_frame": 3401,
+      "start_sec": 137.178708,
+      "end_sec": 141.850042,
+      "duration_sec": 4.713042,
+      "num_frame_captions": 7,
+      "caption": "This scene depicts a vibrant and energetic street festival or celebration in an urban setting. A large, dense crowd of people fills a bustling public square or thoroughfare, their colorful clothing adding to the lively atmosphere. The participants are engaged in energetic dancing and revelry, their movements captured in a blur that conveys the dynamic motion and chaotic joy of the event. The surrounding buildings and shops form the backdrop to this communal gathering, emphasizing its public, festive nature. The overall impression is one of collective celebration and uninhibited movement within a crowded city space."
+    },
+    {
+      "scene_index": 66,
+      "start_frame": 3402,
+      "end_frame": 3420,
+      "start_sec": 141.89175,
+      "end_sec": 142.6425,
+      "duration_sec": 0.792458,
+      "num_frame_captions": 2,
+      "caption": "The scene depicts a vibrant and crowded urban street bustling with activity. People move energetically in multiple directions, creating a sense of lively chaos and constant motion. The bright daylight illuminates the dense throng, emphasizing the public and energetic nature of the setting. The overall impression is of a typical, busy city thoroughfare teeming with pedestrians going about their day."
+    },
+    {
+      "scene_index": 67,
+      "start_frame": 3421,
+      "end_frame": 3439,
+      "start_sec": 142.684208,
+      "end_sec": 143.434958,
+      "duration_sec": 0.792458,
+      "num_frame_captions": 1,
+      "caption": "The scene captures a lively urban street teeming with people during the day. The crowd is dense and constantly in motion, creating a vibrant and bustling atmosphere. Individuals move in multiple directions, suggesting a busy public space such as a market district, transit hub, or popular city square. The overall impression is one of energetic daily life and movement, with the sheer volume of people indicating a significant gathering or a routine peak time in a metropolitan area."
+    },
+    {
+      "scene_index": 68,
+      "start_frame": 3440,
+      "end_frame": 3525,
+      "start_sec": 143.476667,
+      "end_sec": 147.021875,
+      "duration_sec": 3.586917,
+      "num_frame_captions": 6,
+      "caption": "This scene captures the chaotic energy of a densely packed urban street. A large crowd of people moves in all directions under bright daylight, creating a bustling and dynamic atmosphere. The narrow street, framed by tall buildings, is filled with constant motion, which is emphasized by blurred, motion-captured visuals that convey a sense of rapid movement and vibrant, everyday chaos."
+    },
+    {
+      "scene_index": 69,
+      "start_frame": 3526,
+      "end_frame": 3609,
+      "start_sec": 147.063583,
+      "end_sec": 150.525375,
+      "duration_sec": 3.5035,
+      "num_frame_captions": 5,
+      "caption": "This scene shows a group of young men posing together for a team photograph. They are arranged in a bright, high-contrast setting, and many of them are making peace signs with their hands, conveying a casual and friendly atmosphere. The consistent element across the scene is the prominent text \"Management TEAM\" displayed at the bottom of the image, which identifies the group. The overall impression is of a coordinated team portrait, likely for promotional or commemorative purposes, capturing a moment of collective identity and camaraderie among the members."
+    },
+    {
+      "scene_index": 70,
+      "start_frame": 3610,
+      "end_frame": 3704,
+      "start_sec": 150.567083,
+      "end_sec": 154.487667,
+      "duration_sec": 3.962292,
+      "num_frame_captions": 6,
+      "caption": "The scene consists of a sustained, uninterrupted black screen. There is no visual content, action, or discernible change from one moment to the next. The absence of imagery and the consistent descriptions indicate a prolonged void or a deliberate technical choice, such as a fade to black, an error, or an intentional pause in the visual narrative. The scene is defined by its complete lack of visual information, creating a uniform and empty visual field throughout its duration."
+    }
+  ]
+}

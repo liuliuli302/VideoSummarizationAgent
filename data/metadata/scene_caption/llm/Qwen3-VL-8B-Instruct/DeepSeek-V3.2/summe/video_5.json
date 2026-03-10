@@ -1,0 +1,26 @@
+{
+  "video": "Bus_in_Rock_Tunnel",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Bus_in_Rock_Tunnel.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_5.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 30.0,
+  "total_frames": 5133,
+  "num_scenes": 1,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 5132,
+      "start_sec": 0.0,
+      "end_sec": 171.066667,
+      "duration_sec": 171.1,
+      "num_frame_captions": 343,
+      "caption": "A Stagecoach bus navigates a narrow, winding mountain road through a rocky canyon. It becomes increasingly stuck, wedged between steep cliffs in the tight passage. The situation grows precarious as the bus is eventually seen overturned or teetering on the edge of a cliff. Meanwhile, a red car and other vehicles navigate the same congested pass, with crowds of spectators gathering to watch. The scene concludes with the bus in a perilous, immobilized state within the rugged terrain."
+    }
+  ]
+}

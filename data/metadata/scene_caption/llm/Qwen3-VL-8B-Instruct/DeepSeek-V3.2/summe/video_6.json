@@ -1,0 +1,56 @@
+{
+  "video": "Car_railcrossing",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Car_railcrossing.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_6.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 5075,
+  "num_scenes": 4,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 2263,
+      "start_sec": 0.0,
+      "end_sec": 75.508767,
+      "duration_sec": 75.542133,
+      "num_frame_captions": 151,
+      "caption": "A green passenger train passes through a railway crossing where a black sedan is stopped. The vehicle becomes stuck or trapped as the crossing barrier descends, with its rear wheels or bumper caught on the tracks. A crowd of pedestrians and onlookers gathers around the sedan, some attempting to help, while red warning lights flash and the barrier remains down. The scene, captured from a dashcam perspective, shows a tense obstruction at the crossing, with other vehicles waiting and a height restriction sign visible nearby. The situation causes a significant delay and draws the attention of railway workers and emergency personnel."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 2264,
+      "end_frame": 2299,
+      "start_sec": 75.542133,
+      "end_sec": 76.709967,
+      "duration_sec": 1.2012,
+      "num_frame_captions": 3,
+      "caption": "This scene appears to be set in a dimly lit retail environment, likely a store during off-hours or a quiet moment. The initial darkness is punctuated by a stark, bright light source from one side, suggesting an entrance or an illuminated sign. The perspective then shifts to a low-angle view, focusing on a person's lower body as they stand or walk. The prominent \"SALE\" sign in the background confirms the commercial setting. Overall, the sequence conveys a solitary, somewhat atmospheric moment of someone navigating the shadowy aisles of a store, with the artificial lighting creating a strong visual contrast against the prevailing darkness."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 2300,
+      "end_frame": 3665,
+      "start_sec": 76.743333,
+      "end_sec": 122.288833,
+      "duration_sec": 45.578867,
+      "num_frame_captions": 91,
+      "caption": "A crowd gathers around a damaged blue BMW that has crashed into a concrete barrier. The vehicle has severe front-end damage, and a large tree branch or trunk is precariously suspended above or lodged in the car. The scene becomes tense and chaotic as a man in a red striped shirt becomes a central figure, aggressively gesturing, pushing the car, and at one point appearing to wield a tool or weapon. Other onlookers watch as the situation escalates, with some individuals actively interacting with the wreckage before the focus shifts to a blurry, close-up view of a purple jacket in the crowd."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 3666,
+      "end_frame": 5074,
+      "start_sec": 122.3222,
+      "end_sec": 169.302467,
+      "duration_sec": 47.013633,
+      "num_frame_captions": 94,
+      "caption": "A chaotic street scene unfolds as a blue BMW crashes into a concrete barrier, drawing a crowd of onlookers. The situation escalates when a large, muddy animal, resembling a bull or elephant, collides with or appears near the damaged vehicle. Heavy machinery, including an excavator with a muddy bucket, is then involved, at times looming over or crushing the car. Throughout the incident, bystanders watch and react as workers inspect the wreckage and attempt to manage the debris, including a large tree trunk, creating a bizarre and destructive spectacle."
+    }
+  ]
+}

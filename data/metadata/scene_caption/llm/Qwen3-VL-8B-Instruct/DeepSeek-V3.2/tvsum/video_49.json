@@ -1,0 +1,246 @@
+{
+  "video": "jcoYJXDG9sw",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/jcoYJXDG9sw.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_49.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 5971,
+  "num_scenes": 23,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 100,
+      "start_sec": 0.0,
+      "end_sec": 3.336667,
+      "duration_sec": 3.370033,
+      "num_frame_captions": 7,
+      "caption": "This scene features a Black male news anchor, dressed in a suit and glasses, delivering a segment on a television news set. He speaks with visible passion and animation, at times smiling, indicating an engaged and dynamic presentation. The setting is a brightly lit studio for the Today Show or NBC, identifiable by network logos and social media icons on screen. The background is a consistent blue gradient with decorative shelves holding pottery, creating a professional and modern aesthetic for the broadcast. The overall impression is of a confident anchor actively communicating with the audience."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 101,
+      "end_frame": 765,
+      "start_sec": 3.370033,
+      "end_sec": 25.5255,
+      "duration_sec": 22.188833,
+      "num_frame_captions": 45,
+      "caption": "This scene is a segment from NBC's TODAY show focusing on \"Obie,\" an obese brown dachshund. The segment begins with close-up shots of the sad-looking dog, then shows him being gently petted and held by hosts in the studio. Obie is later seen lying on a table, being examined and supported by the hosts, who discuss his condition. The scene culminates with multiple hosts gathered around the table, interacting with the dog as on-screen graphics reveal the segment's title: \"Obie the Obese Dachshund's New Lease on Life,\" highlighting his journey and recovery."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 766,
+      "end_frame": 1217,
+      "start_sec": 25.558867,
+      "end_sec": 40.607233,
+      "duration_sec": 15.081733,
+      "num_frame_captions": 30,
+      "caption": "This scene is a TODAY show exclusive news segment featuring Obie, a brown dachshund who was previously obese. The segment highlights his \"new lease on life\" after being rescued and undergoing a health intervention, likely weight loss or surgery. Throughout the clip, Obie is shown calmly resting or being held on a table on the news set. A person, off-camera or partially seen, gently pets him on the head or back as he looks around. The consistent on-screen graphics reinforce the story of his successful transformation and recovery."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 1218,
+      "end_frame": 1268,
+      "start_sec": 40.6406,
+      "end_sec": 42.308933,
+      "duration_sec": 1.7017,
+      "num_frame_captions": 3,
+      "caption": "This scene is a TODAY Show segment featuring Obie, an obese dachshund, who is the focus of an exclusive report. The dog is placed on a table in the brightly lit studio as a man in a suit, along with a woman and another man, discuss his story. The on-screen graphics highlight that Obie has received a \"new lease on life,\" specifically through weight loss surgery. The hosts gesture toward the dog while explaining his journey, framing it as a positive health transformation for the animal."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 1269,
+      "end_frame": 1554,
+      "start_sec": 42.3423,
+      "end_sec": 51.8518,
+      "duration_sec": 9.542867,
+      "num_frame_captions": 19,
+      "caption": "The scene features Nora Vanatta, owner of Obie the obese dachshund, in an exclusive interview on the Today show. She discusses Obie's journey and \"new lease on life\" in a segment dedicated to his story. The interview takes place on a studio set with a purple backdrop, where Vanatta is seated and speaking to the camera, sometimes alongside a male host in a blue shirt and red tie. The segment highlights the dog's recovery and his owner's involvement."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 1555,
+      "end_frame": 1921,
+      "start_sec": 51.885167,
+      "end_sec": 64.097367,
+      "duration_sec": 12.245567,
+      "num_frame_captions": 25,
+      "caption": "This scene is a TODAY show segment featuring Obie, a brown dachshund who has undergone a significant weight loss journey. The dog, described as severely overweight or obese, is shown resting calmly on a table, sometimes being gently examined or petted by people standing behind him. The exclusive news story highlights his rescue from obesity and his subsequent \"new lease on life,\" achieved through weight loss surgery and dedicated care. The segment presents Obie's transformation as an inspiring story of recovery and renewed health."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 1922,
+      "end_frame": 2005,
+      "start_sec": 64.130733,
+      "end_sec": 66.900167,
+      "duration_sec": 2.8028,
+      "num_frame_captions": 5,
+      "caption": "In a segment on the TODAY show, the hosts feature a notably overweight dachshund named Obie. The dog, lying on a table in the brightly lit studio, is the central subject of a story about his \"new lease on life,\" as indicated by the on-screen graphics. The three hosts\u2014two men and one woman\u2014stand around Obie, discussing his journey. At one point, the female host holds the large brown dog, emphasizing the personal care involved in his recovery. The scene captures a lighthearted yet impactful news story about the dog's health transformation."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 2006,
+      "end_frame": 2219,
+      "start_sec": 66.933533,
+      "end_sec": 74.040633,
+      "duration_sec": 7.140467,
+      "num_frame_captions": 14,
+      "caption": "The scene features a TODAY show segment about an obese dachshund named Obie, who has undergone weight loss surgery. Obie is shown lying on a table, being held by someone as he is presented to the audience. The segment highlights his remarkable transformation and new lease on life following the procedure, celebrating his journey to better health."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 2220,
+      "end_frame": 2459,
+      "start_sec": 74.074,
+      "end_sec": 82.048633,
+      "duration_sec": 8.008,
+      "num_frame_captions": 16,
+      "caption": "Dr. Andrew Kaplan, a veterinarian from City Veterinary Care, is interviewed on NBC's Today show. The segment is an exclusive feature about \"Obie,\" an obese dachshund who has received a new lease on life. Dr. Kaplan, wearing glasses and a blue shirt, discusses the story on the news set, which is identified by the show's graphics and logo. The interview focuses on the dog's journey and recovery."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 2460,
+      "end_frame": 2505,
+      "start_sec": 82.082,
+      "end_sec": 83.5835,
+      "duration_sec": 1.534867,
+      "num_frame_captions": 4,
+      "caption": "This scene from a TODAY Show segment features Obie, a notably overweight dachshund, who is the central subject of a discussion about his health transformation. The dog lies calmly on a table as three hosts gather around him, explaining his journey. The focus of their conversation is on Obie's \"new lease on life,\" achieved through a successful weight loss surgery. The segment highlights his story of recovery and improved well-being, presenting it as an inspirational narrative for the audience."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 2506,
+      "end_frame": 3052,
+      "start_sec": 83.616867,
+      "end_sec": 101.835067,
+      "duration_sec": 18.251567,
+      "num_frame_captions": 36,
+      "caption": "This scene from a TODAY show segment features Obie, a severely obese dachshund, on his weight loss journey. He is shown being examined and gently held on a table during a veterinary visit, then later resting on a tiled floor. The segment follows his progress as he slowly walks and navigates a doorway, struggling due to his size, and eventually sits on a doormat. Later scenes show him relaxing outdoors on grass, sniffing and exploring more actively, illustrating his improved mobility and \"new lease on life\" after surgery."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 3053,
+      "end_frame": 3924,
+      "start_sec": 101.868433,
+      "end_sec": 130.9308,
+      "duration_sec": 29.095733,
+      "num_frame_captions": 58,
+      "caption": "This scene is a news segment from the TODAY show about an obese brown dachshund named Obie. It features footage of Obie in various states: he is shown lying relaxed in a grassy yard, then eagerly eating kibble from various bowls, including slow-feeder designs, and drinking water. The video culminates in the studio segment where the show's hosts discuss Obie's story and his \"new lease on life\" following weight loss surgery, with the dog himself present on a table. The overall narrative documents his daily life and his featured journey toward better health."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 3925,
+      "end_frame": 4212,
+      "start_sec": 130.964167,
+      "end_sec": 140.5404,
+      "duration_sec": 9.6096,
+      "num_frame_captions": 19,
+      "caption": "A severely overweight dachshund named Obie is featured on a \"Today\" show segment about his dramatic weight loss journey and new lease on life. He lies on a table as handlers gently support him during the interview, which highlights his story after undergoing weight loss surgery. The segment focuses on his transformation and recovery, presenting his journey as an inspiring example of a second chance."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 4213,
+      "end_frame": 4448,
+      "start_sec": 140.573767,
+      "end_sec": 148.414933,
+      "duration_sec": 7.874533,
+      "num_frame_captions": 16,
+      "caption": "A segment on the TODAY show features an obese dachshund named Obie. He lies calmly on a table as the hosts and a veterinarian discuss his recent weight loss surgery and his \"new lease on life.\" The hosts interact with Obie and his owners, with on-screen graphics highlighting the story. The tone is promotional and heartwarming, focusing on the dog's health journey and recovery."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 4449,
+      "end_frame": 4571,
+      "start_sec": 148.4483,
+      "end_sec": 152.519033,
+      "duration_sec": 4.1041,
+      "num_frame_captions": 8,
+      "caption": "A Today show segment features a man in a suit and glasses being interviewed about \"Obie,\" an obese dachshund who has been given a new lease on life. The reporter speaks passionately on a TV news set, with the story promoted as a \"TODAY EXCLUSIVE.\" Lower third graphics consistently identify the segment and its subject, emphasizing the exclusive nature of this uplifting story about the dog's transformation."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 4572,
+      "end_frame": 4619,
+      "start_sec": 152.5524,
+      "end_sec": 154.120633,
+      "duration_sec": 1.6016,
+      "num_frame_captions": 3,
+      "caption": "On the set of the \"TODAY\" show, three hosts\u2014two men and a woman\u2014are gathered around a table with a large, overweight dachshund named Obie. The segment is presented as an exclusive, focusing on the dog's remarkable story of recovery. A prominent on-screen graphic announces the feature as \"Obie the obese dachshund's new lease on life,\" highlighting that he has undergone weight loss surgery. The scene captures a lighthearted yet informative news segment where the hosts engage with the pet, showcasing his journey to better health for the audience."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 4620,
+      "end_frame": 5081,
+      "start_sec": 154.154,
+      "end_sec": 169.536033,
+      "duration_sec": 15.4154,
+      "num_frame_captions": 31,
+      "caption": "This scene is a TODAY show segment about an obese dachshund named Obie who has undergone a dramatic transformation. The hosts interview a man, likely Obie's owner or a veterinarian, discussing the dog's weight loss journey and \"new lease on life.\" The segment uses split-screen graphics to visually contrast Obie's previous overweight state with his current, healthier physique, highlighting the success of his recovery. The tone is uplifting, focusing on the positive outcome for the rescued pet."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 5082,
+      "end_frame": 5190,
+      "start_sec": 169.5694,
+      "end_sec": 173.173,
+      "duration_sec": 3.636967,
+      "num_frame_captions": 8,
+      "caption": "In this scene from the Today show, a man wearing glasses is interviewed about a dog named Obie, an obese dachshund who has been given a new lease on life. The segment focuses on the dog's story, likely covering his weight loss journey, health improvements, and the positive outcome of his rescue or rehabilitation. The interview provides a platform to share this uplifting animal welfare story with the show's audience, highlighting the transformation and care that led to Obie's improved wellbeing."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 5191,
+      "end_frame": 5489,
+      "start_sec": 173.206367,
+      "end_sec": 183.149633,
+      "duration_sec": 9.976633,
+      "num_frame_captions": 19,
+      "caption": "The scene is a TODAY show segment featuring Obie, an overweight dachshund, who is being examined and gently held by people on a table in a studio. The segment highlights his weight loss journey and new lease on life, possibly after surgery. Obie remains calm throughout as the hosts interact with him, and on-screen graphics label the story as a \"TODAY Exclusive\" about his transformation."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 5490,
+      "end_frame": 5579,
+      "start_sec": 183.183,
+      "end_sec": 186.152633,
+      "duration_sec": 3.003,
+      "num_frame_captions": 6,
+      "caption": "A woman is interviewed on the Today show about \"Obie,\" an obese dachshund who has experienced a significant health transformation. The segment, presented as an exclusive feature, highlights the dog's \"new lease on life.\" The interviewer, who has a short brown bob hairstyle, discusses the story, focusing on the positive outcome and renewed vitality for the pet. The scene centers on sharing this uplifting animal welfare story with the television audience."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 5580,
+      "end_frame": 5635,
+      "start_sec": 186.186,
+      "end_sec": 188.021167,
+      "duration_sec": 1.868533,
+      "num_frame_captions": 4,
+      "caption": "A TODAY show segment features an overweight dachshund named Obie, who is lying calmly on a table. The hosts, including a man in a suit holding a tablet, a woman, and another man, discuss the dog's notable weight loss journey and his \"new lease on life,\" likely following a surgery. The segment presents Obie's story as an exclusive, heartwarming news feature about his health transformation."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 5636,
+      "end_frame": 5803,
+      "start_sec": 188.054533,
+      "end_sec": 193.626767,
+      "duration_sec": 5.6056,
+      "num_frame_captions": 11,
+      "caption": "In a TODAY show segment, a severely overweight dachshund named Obie is the central focus as he lies on a table. The scene highlights his remarkable weight loss journey and new lease on life, with some captions specifically mentioning a successful surgery as part of his transformation. The tone is one of hopeful recovery, and in at least one moment, a person is seen gently petting him. The segment is presented as an exclusive feature, celebrating Obie's progress and improved health for the audience."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 5804,
+      "end_frame": 5970,
+      "start_sec": 193.660133,
+      "end_sec": 199.199,
+      "duration_sec": 5.572233,
+      "num_frame_captions": 12,
+      "caption": "Three hosts on the TODAY show are gathered around a table in a brightly lit TV studio. A large, long-bodied brown dachshund lies calmly on the table as the hosts interact with it, gently petting the dog and laughing. They appear to be presenting a segment featuring the dog, with the TODAY show logo visible on screen. The scene captures a lighthearted and engaging moment during the broadcast."
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "video": "Hl-__g2gn_A",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/Hl-__g2gn_A.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_17.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 23.976023976023978,
+  "total_frames": 5846,
+  "num_scenes": 39,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 192,
+      "start_sec": 0.0,
+      "end_sec": 8.008,
+      "duration_sec": 8.049708,
+      "num_frame_captions": 13,
+      "caption": "This scene features a woman energetically presenting a cooking demonstration in her kitchen. She wears a black shirt and stands in a cluttered, lived-in space with a refrigerator covered in magnets and photos. Throughout the scene, she smiles and gestures animatedly with her hands and arms, clearly explaining a recipe or cooking technique to the camera. The counter is filled with various ingredients, a plate, and cooking appliances, indicating she is actively engaged in the preparation process. Her enthusiastic demeanor suggests she is sharing her knowledge or passion for cooking in an informal, direct-to-camera style."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 193,
+      "end_frame": 255,
+      "start_sec": 8.049708,
+      "end_sec": 10.635625,
+      "duration_sec": 2.627625,
+      "num_frame_captions": 5,
+      "caption": "This scene presents a close-up view of a freshly prepared Reuben sandwich, consistently shown sliced in half to showcase its appetizing interior. The toasted, golden-brown bread reveals generous layers of melted cheese, sauerkraut, and, in some instances, meat and shredded cabbage. It is plated simply on a white dish, accompanied by a crisp pickle spear. The focus remains on the sandwich's appealing texture and ingredients, emphasizing its status as a classic, savory meal ready to be enjoyed."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 256,
+      "end_frame": 848,
+      "start_sec": 10.677333,
+      "end_sec": 35.368667,
+      "duration_sec": 24.733042,
+      "num_frame_captions": 39,
+      "caption": "This scene features Diane, a cooking show host, enthusiastically demonstrating recipes in her cluttered kitchen. She actively promotes her signature dishes\u2014corned beef, sauerkraut, and pickles\u2014using picture-in-picture overlays, on-screen text, and thumbnail graphics. Throughout the segment, she gestures expressively, points to ingredients, and directly addresses the camera while preparing food. The action includes her handling various items like cheese, a hot dog, and mustard, which she incorporates into the meal. The scene concludes with her tasting the finished dish, maintaining an engaging and instructional tone focused on sharing her homemade recipes."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 849,
+      "end_frame": 891,
+      "start_sec": 35.410375,
+      "end_sec": 37.162125,
+      "duration_sec": 1.793458,
+      "num_frame_captions": 3,
+      "caption": "This scene introduces Chef Diane DiMeo and her culinary brand through a series of title cards. The presentation opens with her name displayed in an elegant black and red script, framed by metallic quotation marks against a patterned white background. The visual identity is then solidified with a logo that prominently features two stylized cleavers positioned above her name. This graphic emblem clearly establishes the professional, chef-focused nature of the brand. The consistent use of typography and imagery across the frames creates a cohesive and polished introduction, signaling the start of a program or segment centered on the chef's expertise."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 892,
+      "end_frame": 961,
+      "start_sec": 37.203833,
+      "end_sec": 40.081708,
+      "duration_sec": 2.919583,
+      "num_frame_captions": 5,
+      "caption": "In a cluttered kitchen, a woman in a black shirt is preparing food at a counter surrounded by various ingredients and appliances. While engaged in this cooking activity, she becomes animated, energetically dancing with her arms raised. She also gestures expressively with her hands, as if enthusiastically explaining a recipe or the steps of her culinary process. The scene captures a dynamic and lively moment where the act of cooking transitions into a performance, blending food preparation with personal expression and joyful movement amidst the organized chaos of the kitchen workspace."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 962,
+      "end_frame": 1028,
+      "start_sec": 40.123417,
+      "end_sec": 42.876167,
+      "duration_sec": 2.794458,
+      "num_frame_captions": 4,
+      "caption": "In a cluttered kitchen, a woman with long dark hair is engaged in food preparation. She is focused on handling a bag of bread, likely as part of assembling ingredients for a meal. The counter around her is filled with various cooking items and appliances, indicating an active cooking process. Her actions involve manipulating the bag and, in one instance, using plastic wrap, suggesting she might be covering or storing the bread. The scene captures a moment of domestic routine, centered on organizing and preparing food amidst the busy kitchen environment."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 1029,
+      "end_frame": 1288,
+      "start_sec": 42.917875,
+      "end_sec": 53.720333,
+      "duration_sec": 10.844167,
+      "num_frame_captions": 17,
+      "caption": "A woman is preparing food in her kitchen. She stands at a counter, holding bread and other ingredients amidst a cluttered workspace filled with various cooking items and appliances. The refrigerator behind her is covered with magnets and photos. She is actively engaged in the meal preparation, gesturing and smiling at times, surrounded by the tools and ingredients of her cooking process."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 1289,
+      "end_frame": 1498,
+      "start_sec": 53.762042,
+      "end_sec": 62.479083,
+      "duration_sec": 8.75875,
+      "num_frame_captions": 14,
+      "caption": "This scene depicts a person preparing a sandwich on a plate. The process begins with spreading a dark, textured substance, such as p\u00e2t\u00e9 or a similar spread, onto slices of whole grain or dark bread. Following this, the person adds a filling of sliced or shredded meat onto one of the prepared slices. The actions are methodical, involving the assembly of the sandwich components\u2014first the spread and then the meat\u2014on a plate that is often described as white with a black rim, resting on a dark surface. The scene captures the focused, hands-on activity of constructing a simple, hearty sandwich."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 1499,
+      "end_frame": 1682,
+      "start_sec": 62.520792,
+      "end_sec": 70.153417,
+      "duration_sec": 7.674333,
+      "num_frame_captions": 13,
+      "caption": "In this scene, a woman with long dark hair, wearing a black shirt, is actively preparing a meal in her cluttered kitchen. She is focused on assembling a dish, likely a sandwich or open-faced pizza, using ingredients like bread, cheese, meat, and vegetables on a counter crowded with various cooking items. Throughout the process, she occasionally gestures as if explaining or demonstrating the recipe. The setting is a lived-in kitchen, notable for a refrigerator densely covered in personal photos and magnets, adding to the informal and homely atmosphere of the cooking demonstration."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 1683,
+      "end_frame": 1750,
+      "start_sec": 70.195125,
+      "end_sec": 72.989583,
+      "duration_sec": 2.836167,
+      "num_frame_captions": 4,
+      "caption": "In this scene, a person assembles a sandwich on a plate. They begin by placing meat on a slice of bread. The process continues as they press down on the meat filling with one hand while steadying the bread with the other, likely to compact the ingredients. The final result is a partially assembled sandwich featuring a meat patty and melted cheese on whole grain bread, with kitchen tools visible in the background."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 1751,
+      "end_frame": 1846,
+      "start_sec": 73.031292,
+      "end_sec": 76.993583,
+      "duration_sec": 4.004,
+      "num_frame_captions": 7,
+      "caption": "In a cluttered kitchen, a woman with long dark hair prepares a meal. She stands at a counter surrounded by various ingredients, dishes, and kitchen items, with magnets visible on the refrigerator. Her activities include handling and placing ingredients onto a plate, mixing components in a bowl, and using a fork to serve the mixture. The scene culminates with her carefully assembling a sandwich with cheese and other fillings on a plate, indicating the final stage of her food preparation."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 1847,
+      "end_frame": 1952,
+      "start_sec": 77.035292,
+      "end_sec": 81.414667,
+      "duration_sec": 4.421083,
+      "num_frame_captions": 7,
+      "caption": "This scene shows a person preparing a Reuben-style sandwich. The process involves assembling the sandwich on a plate, starting with a base of rye bread or a toasted bun. Key ingredients include a meat patty, cheese, and a yellow condiment, likely mustard, which is spread over the meat. The primary topping is sauerkraut, which is carefully spooned or forked onto the sandwich. In some variations, shredded cabbage is used as an alternative or additional garnish. The assembly is methodical, focusing on layering the components to complete the hearty sandwich."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 1953,
+      "end_frame": 2006,
+      "start_sec": 81.456375,
+      "end_sec": 83.666917,
+      "duration_sec": 2.25225,
+      "num_frame_captions": 3,
+      "caption": "A woman with long dark hair prepares a meal in a cluttered kitchen. She focuses on assembling a sandwich or wrap, carefully arranging ingredients like shredded lettuce and meat on a plate. The scene captures her engaged in the process of food preparation, surrounded by various kitchen items and appliances in a lived-in space."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 2007,
+      "end_frame": 2064,
+      "start_sec": 83.708625,
+      "end_sec": 86.086,
+      "duration_sec": 2.419083,
+      "num_frame_captions": 4,
+      "caption": "This scene shows the final steps of preparing a sandwich. A person assembles the sandwich on a plate, layering shredded meat, cheese, and lettuce. They then press down on the completed sandwich, likely to compact the ingredients. Finally, a hand sprinkles seasoning over the top, which features sauerkraut and melted cheese on whole grain bread. The finished sandwich, accompanied by an extra slice of bread and a fork, is shown ready to be eaten, indicating the conclusion of the assembly process."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 2065,
+      "end_frame": 2639,
+      "start_sec": 86.127708,
+      "end_sec": 110.068292,
+      "duration_sec": 23.982292,
+      "num_frame_captions": 38,
+      "caption": "In a cluttered kitchen, a woman in a black shirt prepares a meal. She begins by handling various ingredients and utensils, then focuses on adding condiments. She pours ketchup or a similar red sauce from a bottle onto a plate of food and later into a small bowl. Next, she seasons the dish, using spice shakers and scooping a white, creamy substance\u2014possibly yogurt or sour cream\u2014from a jar. She smiles at the camera while holding a spoon. The scene concludes with her actively mixing ingredients in bowls, stirring sauces, and carefully spooning the final preparations onto a plate of noodles."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 2640,
+      "end_frame": 2769,
+      "start_sec": 110.11,
+      "end_sec": 115.490375,
+      "duration_sec": 5.422083,
+      "num_frame_captions": 9,
+      "caption": "In this kitchen scene, a person is actively preparing a sauce or mixture. The central action involves stirring a vibrant, orange-to-reddish mixture contained within a distinctive green bowl placed on the counter. Using a spoon, the individual mixes the ingredients thoroughly. The mixture's color is consistently described as bright and colorful, suggesting it may be a tomato-based sauce, a marinade, or a similar culinary preparation. The presence of other bowls and ingredients in the vicinity indicates this is part of a larger cooking process, with this step focusing on combining and blending these specific components."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 2770,
+      "end_frame": 3084,
+      "start_sec": 115.532083,
+      "end_sec": 128.6285,
+      "duration_sec": 13.138125,
+      "num_frame_captions": 21,
+      "caption": "A woman with long dark hair, wearing a black shirt, is preparing a meal in a cluttered kitchen. She is actively engaged in assembling a sandwich or wrap, mixing ingredients in bowls, pouring a yellow liquid onto a plate, and carefully arranging food. The scene shows her gesturing toward the dish and slicing bread as she works at a counter surrounded by various ingredients, appliances, and bowls. In the background, a refrigerator is visible, covered with numerous magnets and personal photos, adding to the lived-in, domestic atmosphere of the cooking process."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 3085,
+      "end_frame": 3198,
+      "start_sec": 128.670208,
+      "end_sec": 133.38325,
+      "duration_sec": 4.75475,
+      "num_frame_captions": 8,
+      "caption": "A person assembles a hearty sandwich on a white plate. They spread a creamy white substance, likely butter or mayonnaise, onto the top slice of bread using a blue knife. The sandwich is layered with shredded meat and melted cheese. After spreading the condiment, the person completes the assembly and then proceeds to cut into the finished sandwich."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 3199,
+      "end_frame": 3538,
+      "start_sec": 133.424958,
+      "end_sec": 147.564083,
+      "duration_sec": 14.180833,
+      "num_frame_captions": 22,
+      "caption": "A woman with long dark hair, wearing a black shirt, is in her kitchen preparing a sandwich or similar food on a plate. The scene is set at a cluttered counter filled with various ingredients, bowls, jars, and kitchen appliances, with a refrigerator in the background densely covered in magnets and photos. Throughout the process, she frequently smiles and gestures toward the camera, as if engaging with an audience and explaining her recipe. Her actions shift between assembling the food and directly presenting it, creating a friendly, tutorial-like atmosphere within the busy domestic space."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 3539,
+      "end_frame": 3639,
+      "start_sec": 147.605792,
+      "end_sec": 151.776625,
+      "duration_sec": 4.212542,
+      "num_frame_captions": 7,
+      "caption": "This scene shows a woman with long dark hair preparing a sandwich in her kitchen. She begins seated at the counter before moving to the refrigerator. She then stands by the counter and a stainless steel microwave, smiling warmly on multiple occasions as she works. The activity culminates with her assembling the sandwich on a plate next to the stove, where a digital clock shows the time as 3:00. The overall sequence captures a simple, pleasant moment of meal preparation in a domestic setting."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 3640,
+      "end_frame": 3788,
+      "start_sec": 151.818333,
+      "end_sec": 157.991167,
+      "duration_sec": 6.214542,
+      "num_frame_captions": 10,
+      "caption": "This scene shows two people collaboratively preparing a grilled sandwich on a stovetop. One person is primarily involved, carefully placing and assembling the sandwich in a black frying pan, while occasionally using a spatula. The other person assists during the assembly process. The cooking activity is monitored with the oven preheated to 350 degrees, and a digital clock in the background shows the time as 3:50, indicating the preparation is happening in the late afternoon. The focus is on the methodical cooking and assembly of the sandwich using the stovetop as the main appliance."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 3789,
+      "end_frame": 3833,
+      "start_sec": 158.032875,
+      "end_sec": 159.868042,
+      "duration_sec": 1.876875,
+      "num_frame_captions": 3,
+      "caption": "In this kitchen scene, a person is actively preparing a meal on the stovetop. The primary action involves cooking a meat patty in a frying pan, using a wooden spatula or similar utensil to stir and manage the food. Additional ingredients, such as a bowl of onions, are prepared nearby, suggesting the assembly of a more complex dish like a burger or a seasoned meat preparation. The consistent focus is on the hands-on cooking process over the heat, indicating a stage of active saut\u00e9ing or frying before the meal is finalized."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 3834,
+      "end_frame": 3921,
+      "start_sec": 159.90975,
+      "end_sec": 163.538375,
+      "duration_sec": 3.670333,
+      "num_frame_captions": 6,
+      "caption": "In this scene, a person prepares a meal on a stovetop, primarily using a frying pan or skillet. The cooking process involves frying a piece of meat, which sizzles in the pan. At one point, the cook uses tongs to handle the food while simultaneously holding a tortilla over the pan, suggesting the assembly of a dish like a taco or quesadilla. Later, they use a knife to test or portion the cooked meat directly in the pan. The actions indicate a sequence of frying, assembling components, and checking the doneness of the main ingredient."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 3922,
+      "end_frame": 3999,
+      "start_sec": 163.580083,
+      "end_sec": 166.791625,
+      "duration_sec": 3.25325,
+      "num_frame_captions": 5,
+      "caption": "In this scene, a cook prepares a meat dish on the stovetop. The process begins with seasoning a large bone-in roast in a skillet, while a digital clock shows 3:50 and the oven is preheated to 350 degrees. The cook then continues to arrange ingredients in the same pan, eventually assembling what appears to be a layered sandwich or a composite meat dish within the skillet. The consistent oven temperature and the use of the stovetop suggest a multi-step recipe involving both searing and subsequent baking."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 4000,
+      "end_frame": 4187,
+      "start_sec": 166.833333,
+      "end_sec": 174.632792,
+      "duration_sec": 7.841167,
+      "num_frame_captions": 13,
+      "caption": "This scene shows a person preparing and cooking a sandwich on a stovetop. The process begins with assembling the sandwich in a frying pan, which appears to contain meat and cheese. The cook then presses down on the sandwich with a spatula and their hand to ensure even cooking. The sandwich is flipped at one point, revealing a cheeseburger-like composition. Throughout the process, the person uses various utensils like a spatula, fork, and butter knife while the sandwich fries until the cheese is visibly melted. The final result is a grilled, breaded sandwich cooking in a black skillet."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 4188,
+      "end_frame": 4242,
+      "start_sec": 174.6745,
+      "end_sec": 176.92675,
+      "duration_sec": 2.293958,
+      "num_frame_captions": 3,
+      "caption": "In this kitchen scene, a woman with long dark hair is presenting a cooking demonstration directly to the camera. She actively gestures while explaining the process, surrounded by various ingredients and kitchen appliances. Her focus shifts to a prepared plate of food, which she highlights and discusses. The scene concludes with her smiling warmly at the viewer while holding the finished dish, with a personal touch added by a refrigerator in the background covered in family photos and magnets. The overall tone is friendly and instructional."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 4243,
+      "end_frame": 4311,
+      "start_sec": 176.968458,
+      "end_sec": 179.804625,
+      "duration_sec": 2.877875,
+      "num_frame_captions": 5,
+      "caption": "This scene shows the final assembly and presentation of a large, hearty sandwich. A person carefully places the top slice of toasted bread onto the loaded sandwich, which is piled high with shredded cabbage, melted cheese, and meat on a white plate. They then gently press down on the completed sandwich to compress the generous fillings. The final action involves the person pointing at the finished product, drawing attention to its appealing, juicy appearance with melted cheese and crisp cabbage spilling out. The entire process focuses on the meticulous construction and visual presentation of the substantial meal."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 4312,
+      "end_frame": 4470,
+      "start_sec": 179.846333,
+      "end_sec": 186.43625,
+      "duration_sec": 6.631625,
+      "num_frame_captions": 11,
+      "caption": "A woman in a black shirt prepares food in her cluttered kitchen. She gestures while explaining a recipe, then focuses on cutting ingredients at the counter. The scene culminates with her slicing a layered cake and a large sandwich on a plate, smiling as she works. The sequence shows her engaged in cooking and presentation within the familiar, busy environment of her home kitchen."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 4471,
+      "end_frame": 4587,
+      "start_sec": 186.477958,
+      "end_sec": 191.316125,
+      "duration_sec": 4.879875,
+      "num_frame_captions": 7,
+      "caption": "A person cuts into a hearty sandwich on a white plate with a black rim. The sandwich is filled with melted cheese, shredded meat, and sauerkraut or cabbage. Using a knife, the individual presses down to slice through the substantial, cheesy, and meat-filled meal. The action is repeated from multiple angles, consistently showing the focused effort required to cut the densely packed ingredients. The scene centers on the simple, deliberate act of preparing the sandwich for eating."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 4588,
+      "end_frame": 4908,
+      "start_sec": 191.357833,
+      "end_sec": 204.7045,
+      "duration_sec": 13.388375,
+      "num_frame_captions": 22,
+      "caption": "In this scene, a woman in a black shirt is in her kitchen, creating a video recipe demonstration. She actively engages with the camera, gesturing and explaining as she prepares a meal, which prominently features a sandwich and side dishes. The process is shown step-by-step, including her reaching for ingredients like a jar of pickles and carefully assembling the sandwich on a plate. The setting is a lived-in, modern kitchen with a cluttered counter and a refrigerator densely covered in personal magnets and photos, adding a homely atmosphere to the cooking tutorial."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 4909,
+      "end_frame": 4936,
+      "start_sec": 204.746208,
+      "end_sec": 205.872333,
+      "duration_sec": 1.167833,
+      "num_frame_captions": 2,
+      "caption": "This scene shows a woman in a kitchen, intently focused on a culinary task. With dark hair and wearing a black shirt, she is engaged in the process of preparing food. The environment is a functional kitchen space, with background details softened to keep the visual emphasis on her activity. Her concentration suggests she is following a recipe or performing a specific technique, indicating a moment of purposeful cooking rather than casual activity. The scene captures a quiet, dedicated moment of meal preparation in a domestic setting."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 4937,
+      "end_frame": 4990,
+      "start_sec": 205.914042,
+      "end_sec": 208.124583,
+      "duration_sec": 2.25225,
+      "num_frame_captions": 3,
+      "caption": "In this scene, a person prepares and eats a sandwich. They assemble it by spreading a creamy topping onto a roll already containing meat and shredded cheese. The sandwich is then held up, showing the melted cheese and other ingredients. Finally, the person is seen having taken several bites from the completed sandwich, with remnants of the meal and condiments visible nearby. The sequence shows the process from assembly to consumption."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 4991,
+      "end_frame": 5287,
+      "start_sec": 208.166292,
+      "end_sec": 220.511958,
+      "duration_sec": 12.387375,
+      "num_frame_captions": 20,
+      "caption": "In this scene, a woman with long dark hair, wearing a black shirt, is energetically eating and reacting to various foods in her kitchen. She enthusiastically takes large bites from a sandwich, burger, and pizza, and also eats noodles with focused enjoyment. Between bites, she becomes animated, speaking and gesturing expressively, sometimes with surprise or excitement. The scene then shifts to her playfully interacting with healthier items like a green apple, leafy greens, a chili pepper, cucumber, and avocado, making exaggerated faces and gestures as she tastes or presents them, creating a lively and humorous sequence centered on food enjoyment."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 5288,
+      "end_frame": 5353,
+      "start_sec": 220.553667,
+      "end_sec": 223.264708,
+      "duration_sec": 2.75275,
+      "num_frame_captions": 4,
+      "caption": "In this scene, a woman in a black shirt is energetically presenting in her cluttered kitchen. She directly addresses the camera, using animated gestures to explain or narrate her actions, which appear to involve food preparation. The setting is a lived-in space, filled with cooking ingredients and a refrigerator densely covered with personal photos and magnets. Her overall demeanor is lively and expressive, suggesting she is either demonstrating a recipe, sharing a personal story, or celebrating an accomplishment in her familiar, domestic environment."
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 5354,
+      "end_frame": 5528,
+      "start_sec": 223.306417,
+      "end_sec": 230.563667,
+      "duration_sec": 7.298958,
+      "num_frame_captions": 12,
+      "caption": "This scene features a close-up view of a toasted or grilled sandwich, consistently presented as cut in half to reveal its warm, melted cheese and filling. The specific filling alternates between being described as sauerkraut and shredded cabbage across different shots, suggesting a Reuben-style sandwich. It is served on a clean, white plate, consistently accompanied by a pickle garnish, which is variably called a spear or a slice. The focus remains on the appetizing, golden-brown exterior and the gooey, revealed interior of the sandwich, emphasizing its prepared and ready-to-eat appearance."
+    },
+    {
+      "scene_index": 35,
+      "start_frame": 5529,
+      "end_frame": 5592,
+      "start_sec": 230.605375,
+      "end_sec": 233.233,
+      "duration_sec": 2.669333,
+      "num_frame_captions": 4,
+      "caption": "This scene features a woman with long dark hair, wearing a black shirt, who is energetically explaining something in her kitchen. She is directly addressing the camera, gesturing with her hands as if demonstrating a recipe or sharing cooking instructions. The setting is a lived-in, cluttered kitchen filled with various cooking ingredients and appliances. A prominent detail is the refrigerator in the background, which is densely covered with decorative magnets. The overall atmosphere is informal and enthusiastic, suggesting she is creating a personal, instructional cooking video from her own home."
+    },
+    {
+      "scene_index": 36,
+      "start_frame": 5593,
+      "end_frame": 5685,
+      "start_sec": 233.274708,
+      "end_sec": 237.111875,
+      "duration_sec": 3.878875,
+      "num_frame_captions": 7,
+      "caption": "A woman is in her cluttered, lived-in kitchen, preparing food and speaking directly to the camera. She stands by a counter filled with ingredients and kitchen items, gesturing expressively with her hands as she explains or narrates her activity. At one point, she gives a thumbs-up. The scene has a conversational, tutorial-like tone, with the refrigerator in the background covered in photos and magnets. She later sits at the counter, smiling, maintaining an engaging and informal presentation throughout."
+    },
+    {
+      "scene_index": 37,
+      "start_frame": 5686,
+      "end_frame": 5840,
+      "start_sec": 237.153583,
+      "end_sec": 243.576667,
+      "duration_sec": 6.464792,
+      "num_frame_captions": 10,
+      "caption": "This scene shows the end screen of a YouTube video from Chef Diane Dimeo's channel. Its primary purpose is to promote the channel and encourage viewers to subscribe. The screen prominently features a \"Subscribe\" button as a call to action. Additionally, it highlights two of the chef's popular recipes by displaying video thumbnails for \"Corned Beef\" and \"Pickles,\" directing the audience to more of her content. The consistent visual elements across the frames create a static promotional graphic designed to retain viewer engagement and drive subscriptions at the conclusion of the video."
+    },
+    {
+      "scene_index": 38,
+      "start_frame": 5841,
+      "end_frame": 5845,
+      "start_sec": 243.618375,
+      "end_sec": 243.785208,
+      "duration_sec": 0.208542,
+      "num_frame_captions": 0,
+      "caption": ""
+    }
+  ]
+}

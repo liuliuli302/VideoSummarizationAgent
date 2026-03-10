@@ -1,0 +1,176 @@
+{
+  "video": "-esJrBWj2d8",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/-esJrBWj2d8.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_50.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 30.0,
+  "total_frames": 6912,
+  "num_scenes": 16,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 406,
+      "start_sec": 0.0,
+      "end_sec": 13.533333,
+      "duration_sec": 13.566667,
+      "num_frame_captions": 28,
+      "caption": "In a warmly lit room, a relaxed orange tabby cat lounges on a carpeted floor, often positioned beneath the ornate, dark metal leg of a table. The cat\u2019s demeanor shifts between calm observation and attentive interest, frequently gazing directly at the camera. The scene\u2019s key action occurs when a person\u2019s hand enters the frame holding a can of cat food, which captures the cat\u2019s intent and curious focus. Later, a pen is placed on the floor near the cat\u2019s paw, becoming another point of quiet fascination for the feline as it remains curled up in its spot."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 407,
+      "end_frame": 539,
+      "start_sec": 13.566667,
+      "end_sec": 17.966667,
+      "duration_sec": 4.433333,
+      "num_frame_captions": 8,
+      "caption": "Two children, a boy and a girl, are in a hallway with hardwood floors. The girl, wearing a blue shirt, is the central focus as she proudly holds up a small, decorated container for the camera. The item is identified as a container of \"Coco\" brand yogurt, featuring a cartoon character or dog on its label. The boy stands beside her, and both children appear to be smiling and engaged in showing the product to the viewer."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 540,
+      "end_frame": 591,
+      "start_sec": 18.0,
+      "end_sec": 19.7,
+      "duration_sec": 1.733333,
+      "num_frame_captions": 4,
+      "caption": "In this scene, a young girl, wearing a mischievous smile, is the central figure demonstrating various Cesar pet food products. She actively presents the items to the camera, first showing a container of dog food and then a can of cat food. Her playful engagement suggests she is participating in a promotional or playful activity. The presence of an adult's hand briefly entering the frame and another child partially visible beside her indicates she is not alone, but is the primary focus of the interaction. The sequence highlights her cheerful and slightly impish demeanor as she showcases the branded goods."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 592,
+      "end_frame": 968,
+      "start_sec": 19.733333,
+      "end_sec": 32.266667,
+      "duration_sec": 12.566667,
+      "num_frame_captions": 25,
+      "caption": "The scene begins with two children in matching blue shirts smiling and posing for the camera in a hallway, showing a mix of excitement and slight apprehension. The setting then shifts to a living room, where a tabby cat is first seen resting calmly and later becomes alert, crouching on the carpet. The cat's focus turns to a small dish on the floor, from which it sniffs and then eats intently, concluding the sequence."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 969,
+      "end_frame": 2365,
+      "start_sec": 32.3,
+      "end_sec": 78.833333,
+      "duration_sec": 46.566667,
+      "num_frame_captions": 93,
+      "caption": "A person kneels on a wooden floor, handling a small red and white container or object. A ginger cat becomes curious, sniffing and nudging the person\u2019s hand and the object. The person then interacts with the cat, gently touching its head. The scene shifts to the cat eating from a white bowl on the floor, and later from a decorative plate. Throughout, the cat is focused on eating, while a person\u2019s bare feet are occasionally visible nearby, indicating their presence."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 2366,
+      "end_frame": 2994,
+      "start_sec": 78.866667,
+      "end_sec": 99.8,
+      "duration_sec": 20.966667,
+      "num_frame_captions": 42,
+      "caption": "This scene shows a ginger or orange tabby cat intently eating meat from a white plate on a wooden floor. The cat is consistently focused on its meal, sometimes described as eagerly or enthusiastically consuming the food. Throughout the sequence, a person\u2014sometimes specified as a child\u2014is present, sitting barefoot on the floor nearby, observing or simply being in the background. The setting remains constant: a domestic interior with a wooden floor, where the cat's single-minded activity of eating is the central, unchanging action of the scene."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 2995,
+      "end_frame": 3131,
+      "start_sec": 99.833333,
+      "end_sec": 104.366667,
+      "duration_sec": 4.566667,
+      "num_frame_captions": 9,
+      "caption": "This scene features a tabby or ginger cat intently consuming a meal of wet, likely raw, meat from a floral-patterned plate resting on a wooden table. The cat is shown in various close-ups, focused on sniffing, licking, and eating the food with clear eagerness. A human presence is subtly indicated by a blurred hand resting on the table nearby, suggesting the pet is being fed or supervised during its meal. The consistent focus is on the cat's concentrated and enthusiastic dining experience in a domestic setting."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 3132,
+      "end_frame": 3452,
+      "start_sec": 104.4,
+      "end_sec": 115.066667,
+      "duration_sec": 10.7,
+      "num_frame_captions": 22,
+      "caption": "A tabby cat is shown in close-up, intently eating raw meat from a floral-patterned plate. The scene focuses on the cat's eager consumption, with shots capturing it sniffing, licking, and enthusiastically devouring the dark, textured food. The action is consistent throughout, emphasizing the cat's focused engagement with its meal against the distinctive backdrop of the patterned dish."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 3453,
+      "end_frame": 3668,
+      "start_sec": 115.1,
+      "end_sec": 122.266667,
+      "duration_sec": 7.2,
+      "num_frame_captions": 14,
+      "caption": "This scene depicts a domestic moment of a cat being fed. A tabby cat, likely ginger in color, eagerly eats a dark, chunky meal, possibly meat, from a floral-patterned plate. The focus shifts to a human hand preparing the food, pouring or sprinkling a dark liquid, such as soy sauce, over the meal on the plate. The entire sequence is captured in a series of close-up shots, some slightly blurry, emphasizing the cat's intent enjoyment and the simple act of seasoning its food in a warm, home setting."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 3669,
+      "end_frame": 3851,
+      "start_sec": 122.3,
+      "end_sec": 128.366667,
+      "duration_sec": 6.1,
+      "num_frame_captions": 12,
+      "caption": "In this domestic scene, an orange tabby cat is initially focused on a plate of food on a wooden floor, with a person or child sitting nearby. The cat's attention shifts, and it begins to move away from the food. It walks across the hardwood floor, its motion captured in a slight blur, with its back turned to the camera. The cat continues its departure, its fluffy tail\u2014notably with a white tip\u2014held high as it heads purposefully toward a white door in the distance, concluding the sequence by leaving the area."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 3852,
+      "end_frame": 5338,
+      "start_sec": 128.4,
+      "end_sec": 177.933333,
+      "duration_sec": 49.566667,
+      "num_frame_captions": 99,
+      "caption": "This scene follows a ginger tabby cat as it moves through a domestic interior. Initially, the cat sits calmly and attentively under a wooden piano, occasionally looking at the camera or a young girl peeking from a nearby table. It then relocates to sit beneath a dark wooden table, where it exhibits a range of behaviors including grooming itself, looking around curiously, and occasionally meowing. Finally, the cat gets up and walks with purpose across the carpeted room, transitioning onto a wooden floor as it moves away from the camera, its tail held high throughout its journey."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 5339,
+      "end_frame": 5364,
+      "start_sec": 177.966667,
+      "end_sec": 178.8,
+      "duration_sec": 0.866667,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a moment of near-total darkness, creating an atmosphere of suspense or transition. The only visual element is a faint, distant point of light, which serves as a subtle focal point in an otherwise void-like environment. This minimal composition suggests a setting such as a dark room, a space before a scene begins, or an abstract transition between sequences. The overwhelming blackness emphasizes isolation and anticipation, directing the viewer's attention to that single, elusive glimmer as a potential source of hope or mystery within the enveloping obscurity."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 5365,
+      "end_frame": 6005,
+      "start_sec": 178.833333,
+      "end_sec": 200.166667,
+      "duration_sec": 21.366667,
+      "num_frame_captions": 43,
+      "caption": "In this scene, a relaxed orange tabby cat spends time lounging in a comfortable beige armchair or recliner. The cat is often seen on its back, appearing sleepy, content, and occasionally looking directly at the camera with a calm or slightly amused expression. Later, the scene shifts as a person\u2019s hand enters to gently pet the cat, which is now resting on a couch, cushion, or even inside a cardboard box. The cat remains entirely at ease throughout, whether being stroked while awake or settling into a deep, sound sleep in its cozy spots."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 6006,
+      "end_frame": 6442,
+      "start_sec": 200.2,
+      "end_sec": 214.733333,
+      "duration_sec": 14.566667,
+      "num_frame_captions": 29,
+      "caption": "This scene depicts a pet feeding area on a wooden floor, featuring a pet food bowl, a water dispenser, and a cabinet. The central action involves a person interacting with a decorative floral plate that holds scattered chocolate pieces and kibble. The person's hand is seen reaching for, holding, and likely cleaning up the plate, which is repeatedly described as dirty or containing leftovers. The consistent presence of chocolate alongside pet food strongly suggests a concerning situation where a pet may have accessed or been near chocolate, which is toxic to many animals, creating a narrative of potential mishap or cleanup."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 6443,
+      "end_frame": 6481,
+      "start_sec": 214.766667,
+      "end_sec": 216.033333,
+      "duration_sec": 1.3,
+      "num_frame_captions": 3,
+      "caption": "A ginger cat walks away from the camera across a wooden floor. The scene is captured from a low-angle perspective, emphasizing the cat's movement as it heads toward the right side of the frame. Its back and tail are clearly visible during this steady departure. The overall view gives the impression of observing the cat from above as it traverses the clean, wooden surface, creating a simple, focused vignette of the animal in motion."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 6482,
+      "end_frame": 6911,
+      "start_sec": 216.066667,
+      "end_sec": 230.366667,
+      "duration_sec": 14.333333,
+      "num_frame_captions": 28,
+      "caption": "In this scene, an orange tabby cat moves cautiously through a room with hardwood floors and light brown walls. It initially walks away from the camera, its tail raised, as it approaches and investigates a white dresser or cabinet in the corner, sniffing and pawing at its base. The cat then changes direction, walking alertly with its tail held high toward a nearby doorway. Upon reaching this area, it settles into a seated position, appearing intensely curious and observant as it gazes at something off-camera. The scene concludes with the cat yawning widely while remaining seated near the white door frame."
+    }
+  ]
+}

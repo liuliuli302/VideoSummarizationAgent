@@ -1,0 +1,926 @@
+{
+  "video": "z_6gVvQb2d0",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/z_6gVvQb2d0.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_28.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 8281,
+  "num_scenes": 91,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 245,
+      "start_sec": 0.0,
+      "end_sec": 8.174833,
+      "duration_sec": 8.2082,
+      "num_frame_captions": 17,
+      "caption": "This scene captures a vibrant, sunny day in a coastal town, where a lively crowd fills a palm tree-lined street. Pedestrians and cyclists move along the road and sidewalks, creating a bustling atmosphere that suggests a public event, such as a parade or festival. People are gathered in groups, some walking and others standing near parked cars and buildings under the clear blue sky. The overall mood is energetic and communal, set against a backdrop of lush greenery and urban structures, indicating a warm, festive occasion in an inviting public space."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 246,
+      "end_frame": 438,
+      "start_sec": 8.2082,
+      "end_sec": 14.6146,
+      "duration_sec": 6.439767,
+      "num_frame_captions": 13,
+      "caption": "A sunny, palm-lined street hosts a lively public event, likely a parade or marathon. Crowds of spectators gather along the sidewalks under the trees, watching as participants\u2014including runners and walkers\u2014move down the road. The atmosphere is bustling and energetic, with people standing in groups, walking, and cars parked nearby. The consistent setting of a tree-lined urban area under bright sunlight suggests a coordinated community gathering, drawing both participants and onlookers to the vibrant scene."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 439,
+      "end_frame": 793,
+      "start_sec": 14.647967,
+      "end_sec": 26.459767,
+      "duration_sec": 11.845167,
+      "num_frame_captions": 23,
+      "caption": "This scene depicts a lively public event, likely a parade or marathon, taking place on a sunny, palm-lined street. A large crowd of participants walks and runs down the road, while spectators line the sidewalks to watch. The atmosphere is bustling, with some individuals on bicycles and motorcycles also moving through the area. The perspective shifts between a broad view of the gathering and a more immersive angle from within the crowd, emphasizing the scale and energy of the event under a clear blue sky."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 794,
+      "end_frame": 829,
+      "start_sec": 26.493133,
+      "end_sec": 27.660967,
+      "duration_sec": 1.2012,
+      "num_frame_captions": 3,
+      "caption": "A crowd has gathered on a grassy, tree-lined sidewalk beside a street on a sunny day. They are intently observing an event unfolding on the road, with many individuals holding up their phones and cameras to record or photograph the scene. The focus of their attention appears to involve parked cars and activity in the street, suggesting an incident or noteworthy occurrence that has drawn their collective interest. The atmosphere is one of public curiosity and reaction, as the group watches the proceedings."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 830,
+      "end_frame": 1333,
+      "start_sec": 27.694333,
+      "end_sec": 44.477767,
+      "duration_sec": 16.8168,
+      "num_frame_captions": 33,
+      "caption": "A crowd gathers along a tree-lined street on a sunny day to watch a parade or procession. The event features a variety of vehicles, including motorcycles, ATVs, and a police motorcycle unit with flashing lights, which rides past the spectators. Onlookers stand on the sidewalk and grassy median, with many watching, filming, or taking photographs of the scene. The atmosphere is lively and public, suggesting a community event or official escort. Throughout the scene, regular traffic and parked cars are also present along the bustling urban street."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 1334,
+      "end_frame": 1424,
+      "start_sec": 44.511133,
+      "end_sec": 47.514133,
+      "duration_sec": 3.036367,
+      "num_frame_captions": 6,
+      "caption": "A crowd has gathered on a sunny, tree-lined residential street, congregating on the sidewalk, grassy roadside, and a parking lot. They appear to be observing or waiting for an event, with some individuals filming or taking photographs. The atmosphere is casual, with people standing, sitting on the grass, and conversing near parked cars. The presence of a man speaking directly to a camera suggests media coverage or documentation of the occasion. Overall, the scene depicts a public, informal gathering in a pleasant suburban setting, centered around an unspecified point of interest."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 1425,
+      "end_frame": 1442,
+      "start_sec": 47.5475,
+      "end_sec": 48.114733,
+      "duration_sec": 0.6006,
+      "num_frame_captions": 2,
+      "caption": "This scene unfolds in a sunny residential neighborhood, where a group of people has gathered outdoors. Some individuals are energetically dancing or gesturing on the sidewalk, while others are engaged in a more relaxed conversation on a nearby grassy median beside the road. The overall atmosphere appears lively and social, suggesting a casual community event or an impromptu gathering. The setting, with its parked cars and trees, provides a typical suburban backdrop for this mix of animated and leisurely interactions under the bright daylight."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 1443,
+      "end_frame": 1495,
+      "start_sec": 48.1481,
+      "end_sec": 49.883167,
+      "duration_sec": 1.768433,
+      "num_frame_captions": 3,
+      "caption": "A group of people is gathered on a sunny, tree-lined street or grassy area in an urban setting. They are engaged in a casual social gathering, with some individuals standing and watching while others walk nearby. One man is notably using his phone, likely to record video or take photographs of the scene. The overall atmosphere is relaxed and communal, set under the shade of large trees on a bright day."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 1496,
+      "end_frame": 2296,
+      "start_sec": 49.916533,
+      "end_sec": 76.609867,
+      "duration_sec": 26.7267,
+      "num_frame_captions": 54,
+      "caption": "A sunny, palm-lined street hosts a lively parade or public event, with spectators gathered along the sidewalks. The scene features a procession led by police motorcycles and SUVs with flashing lights, followed by motorcyclists and cyclists. Pedestrians watch from the curb as the escort moves down the road, capturing a bustling urban atmosphere with parked cars and buildings in the background. The overall mood is one of a cheerful, organized outdoor gathering under clear skies."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 2297,
+      "end_frame": 2320,
+      "start_sec": 76.643233,
+      "end_sec": 77.410667,
+      "duration_sec": 0.8008,
+      "num_frame_captions": 1,
+      "caption": "The scene unfolds on a quiet, residential street lined with trees, where a small crowd has gathered. People are standing on the grassy verge and near parked cars, creating a casual, observant atmosphere. The focus of their attention is the road, where a white scooter carrying two riders passes through the area. The event has a relaxed, communal feel, suggesting a local gathering or a minor street event rather than a formal occasion. The overall impression is one of neighborhood activity, with residents pausing to watch the scooter's passage amid the calm, tree-shaded surroundings."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 2321,
+      "end_frame": 2727,
+      "start_sec": 77.444033,
+      "end_sec": 90.9909,
+      "duration_sec": 13.580233,
+      "num_frame_captions": 27,
+      "caption": "A police procession moves down a sunny, tree-lined street, led by officers on white motorcycles and followed by a marked police car with its emergency lights activated. A crowd of onlookers has gathered along the sidewalks and grassy areas to watch the scene. The event appears to be a planned escort or part of a public incident, drawing significant attention from bystanders who are observing from under the shade of the trees. The consistent presence of the flashing lights and the assembled crowd suggests an official or notable occurrence taking place on this residential street."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 2728,
+      "end_frame": 2749,
+      "start_sec": 91.024267,
+      "end_sec": 91.724967,
+      "duration_sec": 0.734067,
+      "num_frame_captions": 2,
+      "caption": "A sunny, tree-lined street serves as the backdrop for a public gathering. A crowd has assembled, with some individuals standing in a line or on the grassy median that divides the road. Others are seen walking or interacting near vehicles parked along the curb, while regular traffic continues to flow past the scene. The overall atmosphere appears calm and social, suggesting a community event or casual outdoor meeting rather than a formal procession. The presence of both stationary groups and moving participants creates a lively but orderly street scene under the bright daylight."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 2750,
+      "end_frame": 2767,
+      "start_sec": 91.758333,
+      "end_sec": 92.325567,
+      "duration_sec": 0.6006,
+      "num_frame_captions": 1,
+      "caption": "A public incident draws a crowd on a residential street. People have gathered, and the presence of a police car indicates official attention to the situation. The atmosphere suggests a developing event that has attracted local onlookers, though the specific nature of the incident is not detailed. The scene captures a moment of communal focus and response within an everyday neighborhood setting."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 2768,
+      "end_frame": 2833,
+      "start_sec": 92.358933,
+      "end_sec": 94.527767,
+      "duration_sec": 2.2022,
+      "num_frame_captions": 4,
+      "caption": "In this scene, a police car moves down a residential street lined with trees, its emergency lights activated. As it proceeds, a crowd of people gathers on the sidewalk to watch its passage. The onlookers, whose presence grows, observe the vehicle with evident interest. Eventually, the police car comes to a stop and is parked on the street. Throughout the sequence, the flashing lights remain a focal point, drawing the attention of the assembled crowd who stand nearby, collectively witnessing the unfolding event in their neighborhood."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 2834,
+      "end_frame": 2856,
+      "start_sec": 94.561133,
+      "end_sec": 95.2952,
+      "duration_sec": 0.767433,
+      "num_frame_captions": 2,
+      "caption": "In a residential neighborhood, a police car with its emergency lights activated is present on a tree-lined street, indicating an official response to an incident. The vehicle is first seen in motion, driving down the road, before it comes to a stop and is parked at the scene. A crowd of bystanders has gathered on the sidewalk, observing the situation with evident interest. Their presence suggests the occurrence is notable enough to draw local attention, though the specific nature of the event remains unclear from the scene. The overall atmosphere is one of public scrutiny focused on police activity."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 2857,
+      "end_frame": 2909,
+      "start_sec": 95.328567,
+      "end_sec": 97.063633,
+      "duration_sec": 1.768433,
+      "num_frame_captions": 3,
+      "caption": "A Hermosa Beach Police vehicle with activated emergency lights is parked on a sunny residential street, indicating an ongoing incident. Officers are present and interacting with a small group of civilians who have gathered nearby. The overall atmosphere suggests a non-emergency public event or a minor incident being managed by authorities, with some individuals appearing to be bystanders or potential witnesses observing the situation. The scene is calm and daylight, focused on the police presence and the community response."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 2910,
+      "end_frame": 3151,
+      "start_sec": 97.097,
+      "end_sec": 105.138367,
+      "duration_sec": 8.074733,
+      "num_frame_captions": 17,
+      "caption": "A police vehicle with flashing lights drives down a sunny, palm-tree-lined street, drawing the attention of a crowd. People gather on the sidewalks to watch as it passes, suggesting a public event or incident. The scene is lively, with other pedestrians and vehicles present, contributing to a bustling atmosphere in what appears to be a coastal town or city."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 3152,
+      "end_frame": 3206,
+      "start_sec": 105.171733,
+      "end_sec": 106.973533,
+      "duration_sec": 1.835167,
+      "num_frame_captions": 3,
+      "caption": "A police car moves slowly down a sunlit street lined with palm trees, suggesting a parade or public event. A crowd of onlookers has gathered on the sidewalk to watch its passage. The overall mood among the spectators appears to be one of celebration or heightened excitement, though the scene carries a slight undercurrent of potential chaos. The presence of the police vehicle indicates an official or monitored component to the gathering."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 3207,
+      "end_frame": 3478,
+      "start_sec": 107.0069,
+      "end_sec": 116.049267,
+      "duration_sec": 9.075733,
+      "num_frame_captions": 18,
+      "caption": "In this scene, a police car moves down a sunlit, palm-tree-lined street, attracting the attention of a crowd gathered on the sidewalk. The onlookers watch and some record the scene with their phones as the vehicle passes. The police car, sometimes with its emergency lights activated, eventually comes to a stop and is parked on the street. The crowd remains gathered around the stationary vehicle, continuing to observe and film, suggesting a public incident or event of interest has drawn their focus to the police presence."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 3479,
+      "end_frame": 3518,
+      "start_sec": 116.082633,
+      "end_sec": 117.383933,
+      "duration_sec": 1.334667,
+      "num_frame_captions": 3,
+      "caption": "A California Highway Patrol car drives down a tree-lined street with its emergency lights activated. A crowd of people has gathered on the sidewalk and spills into the roadway, observing the scene. The presence of multiple law enforcement vehicles suggests a developing situation, drawing public attention as onlookers watch from the street and nearby parked cars. The atmosphere is one of active public interest focused on the official police activity."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 3519,
+      "end_frame": 3962,
+      "start_sec": 117.4173,
+      "end_sec": 132.198733,
+      "duration_sec": 14.8148,
+      "num_frame_captions": 30,
+      "caption": "A lively parade moves down a sunny, palm-tree-lined street under a clear blue sky. A black SUV and a black Toyota pickup truck lead the procession, accompanied by motorcycles and other vehicles. Cheering spectators line the sidewalks, waving flags, taking photos, and filming the event. The atmosphere is festive, suggesting a public celebration or demonstration as the vehicles drive slowly past the gathered crowd."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 3963,
+      "end_frame": 4091,
+      "start_sec": 132.2321,
+      "end_sec": 136.503033,
+      "duration_sec": 4.3043,
+      "num_frame_captions": 8,
+      "caption": "The scene depicts a celebratory parade or event on a sunny day, centered around a procession of vehicles. A black Toyota Tundra and a dark blue pickup truck, the latter bearing \"TROPHY\" branding, drive down the street as the primary focus. Onlookers and spectators line the sidewalks, waving and cheering. The atmosphere is lively, with additional elements like a motorcyclist riding alongside an SUV and a playful moment where one vehicle sprays water at another. The overall impression is one of communal excitement and festivity."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 4092,
+      "end_frame": 4122,
+      "start_sec": 136.5364,
+      "end_sec": 137.5374,
+      "duration_sec": 1.034367,
+      "num_frame_captions": 2,
+      "caption": "A lively group gathers in a sunny suburban area, transitioning from a residential street to a tree-lined park. The participants, engaged in a spontaneous and celebratory activity, raise their arms in unison, suggesting a moment of collective joy or shared expression. The atmosphere is casual and energetic, with parked cars along the curb indicating the event's informal, community-oriented nature. The shift in setting from the street to the park underscores the group's movement and the organic, unfolding nature of their gathering under the bright daylight."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 4123,
+      "end_frame": 4148,
+      "start_sec": 137.570767,
+      "end_sec": 138.404933,
+      "duration_sec": 0.867533,
+      "num_frame_captions": 2,
+      "caption": "A group of people gathers on a city sidewalk, caught in a moment of collective surprise and reaction. Their focus shifts dramatically as a large tree branch suddenly falls nearby. In response, the crowd raises their arms in a unified, startled gesture that blends alarm with a spontaneous, almost celebratory energy. Amidst this, one individual stands out by engaging in a dynamic motion, such as skateboarding or dancing, adding a layer of incongruous activity to the scene while others watch or gesture around him."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 4149,
+      "end_frame": 4179,
+      "start_sec": 138.4383,
+      "end_sec": 139.4393,
+      "duration_sec": 1.034367,
+      "num_frame_captions": 2,
+      "caption": "In a sunlit, tree-lined residential street, a group of people has gathered on the sidewalk. They appear to be engaged in a coordinated, celebratory activity, such as a dance or a performance, with some individuals in motion and gesturing. The atmosphere is lively and communal, suggesting a spontaneous or planned gathering. Parked cars line the curb, framing the scene of this public, outdoor event. The bright daylight and the participants' synchronized movements contribute to a sense of shared enjoyment and public festivity in the neighborhood."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 4180,
+      "end_frame": 4214,
+      "start_sec": 139.472667,
+      "end_sec": 140.607133,
+      "duration_sec": 1.167833,
+      "num_frame_captions": 2,
+      "caption": "In a residential neighborhood, a man attempts to retrieve a branch from a large tree while standing on a sidewalk beside a white pickup truck. The scene draws a small crowd of onlookers, some of whom are using their phones to record the activity. The truck then begins to drive slowly down the tree-lined street, with several individuals riding in its bed and others watching from the sidewalk. The event appears to be an informal, community-focused gathering where the participants are both observing and documenting the unusual interaction with the tree."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 4215,
+      "end_frame": 4448,
+      "start_sec": 140.6405,
+      "end_sec": 148.414933,
+      "duration_sec": 7.8078,
+      "num_frame_captions": 16,
+      "caption": "This scene depicts a celebratory parade or public event on a sunny, tree-lined street. A white pickup truck, carrying passengers in its bed and cabin, slowly drives down the road. Among those in the truck are two police officers and other individuals wearing sports jerseys, all waving enthusiastically to the crowd. Onlookers line the sidewalks, cheering, taking photos, and filming the procession with their phones. The atmosphere is festive and communal, with people gathered near parked cars under large trees to witness and document the occasion."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 4449,
+      "end_frame": 4481,
+      "start_sec": 148.4483,
+      "end_sec": 149.516033,
+      "duration_sec": 1.1011,
+      "num_frame_captions": 2,
+      "caption": "A black pickup truck, identified as a Toyota, drives slowly down a residential street lined with trees. The event has drawn a crowd of spectators who line the sidewalks to watch. Many in the crowd are cheering and waving enthusiastically, while others are using their smartphones to record the vehicle's passage. The overall atmosphere is one of communal celebration and interest, as the truck becomes the focal point of attention on this neighborhood street."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 4482,
+      "end_frame": 4510,
+      "start_sec": 149.5494,
+      "end_sec": 150.483667,
+      "duration_sec": 0.967633,
+      "num_frame_captions": 2,
+      "caption": "A black Toyota truck drives slowly down a palm-lined street in what appears to be a celebratory parade. Crowds of onlookers line the sidewalks, creating a lively atmosphere. Many people in the crowd are enthusiastically waving, while others are actively documenting the event by taking photos and recording videos on their mobile phones. The scene captures a moment of communal gathering and shared excitement as the vehicle passes through the public space."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 4511,
+      "end_frame": 4548,
+      "start_sec": 150.517033,
+      "end_sec": 151.7516,
+      "duration_sec": 1.267933,
+      "num_frame_captions": 3,
+      "caption": "A black Toyota pickup truck drives slowly down a residential, tree-lined street. A crowd of people has gathered on the sidewalk, watching the vehicle pass. Many in the crowd are filming the truck with their phones, and some gesture or appear to interact with it. The scene has a notable, observant atmosphere, suggesting the truck's passage is an event of interest to the onlookers. One man in a grey shirt is specifically highlighted among the spectators, also documenting the scene."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 4549,
+      "end_frame": 4564,
+      "start_sec": 151.784967,
+      "end_sec": 152.285467,
+      "duration_sec": 0.533867,
+      "num_frame_captions": 1,
+      "caption": "A black Toyota pickup truck moves slowly down a residential street lined with trees, functioning as a parade float or centerpiece for a community event. A crowd of people has gathered along the roadside to watch the procession. Several individuals are riding in the bed of the truck, waving or engaging with the spectators, which adds to the festive, participatory atmosphere. The overall scene depicts a local celebration, likely a parade, where the vehicle is a focal point for communal gathering and shared enjoyment."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 4565,
+      "end_frame": 4678,
+      "start_sec": 152.318833,
+      "end_sec": 156.089267,
+      "duration_sec": 3.8038,
+      "num_frame_captions": 7,
+      "caption": "This scene captures a celebratory parade or public event on a sunny, tree-lined street. A dark pickup truck, carrying participants, slowly drives past a crowd of spectators who are standing and sitting on the sidewalk, with some filming the procession. The focus is on a man wearing a black and white hockey jersey with the name and number \"SCHULTZ 55\" on the back. He sits in the truck's bed, enthusiastically waving and interacting with the cheering people lining the street, creating a lively and communal atmosphere."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 4679,
+      "end_frame": 4694,
+      "start_sec": 156.122633,
+      "end_sec": 156.623133,
+      "duration_sec": 0.533867,
+      "num_frame_captions": 1,
+      "caption": "In a bustling urban setting, a man in a light-colored shirt sprints urgently across a street, becoming the sudden focal point of the scene. His hurried movement draws immediate attention from bystanders and a passing motorcyclist, who both instinctively begin filming the unfolding event with their devices. The scene captures a moment of spontaneous public spectacle, where ordinary street activity is interrupted by this individual's dash, prompting onlookers to digitally document the action. The atmosphere shifts from routine to one of shared, curious observation, centered entirely on the man's swift passage."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 4695,
+      "end_frame": 4714,
+      "start_sec": 156.6565,
+      "end_sec": 157.290467,
+      "duration_sec": 0.667333,
+      "num_frame_captions": 2,
+      "caption": "In a sunny residential street, a man in a light blue shirt is being filmed as he runs energetically past parked cars and trees. A group of onlookers, equipped with cameras, are positioned along the sidewalk, actively recording his movement. The scene suggests a coordinated outdoor activity, likely a film shoot or a casual sporting event, where the man is the central subject. The atmosphere is casual yet purposeful, with the crew and participants blending into the everyday setting of the neighborhood. The action centers on the man's run, which is the clear focus of the gathered filmmakers' attention."
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 4715,
+      "end_frame": 4743,
+      "start_sec": 157.323833,
+      "end_sec": 158.2581,
+      "duration_sec": 0.967633,
+      "num_frame_captions": 2,
+      "caption": "This scene takes place in a pleasant outdoor setting, likely a park or campus, featuring a mix of a grassy area and a parking lot lined with trees under sunny skies. A small group has gathered here, with some members actively engaged in filming or photographing, suggesting a planned event or casual production. Others stand by, observing or waiting their turn, while a few individuals are seen interacting or moving near a prominent tree. The overall atmosphere is relaxed and social, blending leisure with a shared focus on the filming activity amidst the natural surroundings."
+    },
+    {
+      "scene_index": 35,
+      "start_frame": 4744,
+      "end_frame": 4764,
+      "start_sec": 158.291467,
+      "end_sec": 158.9588,
+      "duration_sec": 0.7007,
+      "num_frame_captions": 1,
+      "caption": "In this scene, a man in a grey shirt is actively engaged in an action on the sidewalk, throwing an object. His companion, also in a grey shirt, observes the activity from nearby. The setting includes a residential street where a white pickup truck is parked. The interaction suggests a casual, shared moment between the two individuals, possibly involving a game or task, set against the backdrop of an ordinary neighborhood."
+    },
+    {
+      "scene_index": 36,
+      "start_frame": 4765,
+      "end_frame": 4848,
+      "start_sec": 158.992167,
+      "end_sec": 161.7616,
+      "duration_sec": 2.8028,
+      "num_frame_captions": 6,
+      "caption": "In a sunny, tree-lined street, a white pickup truck becomes the center of attention for a public gathering. Initially seen driving down the road, it eventually comes to a stop, with people even riding on its roof at one point. A crowd, including numerous photographers and onlookers, gathers around the vehicle, filming and taking pictures. The driver leans out of the window, engaging with the scene. The overall atmosphere is that of an impromptu event or spectacle, with the assembled group intently focused on documenting the truck and its occupants."
+    },
+    {
+      "scene_index": 37,
+      "start_frame": 4849,
+      "end_frame": 4895,
+      "start_sec": 161.794967,
+      "end_sec": 163.329833,
+      "duration_sec": 1.568233,
+      "num_frame_captions": 3,
+      "caption": "This scene captures a lively outdoor parade or community event on a sunny day. A man in a blue striped shirt rides on a decorated float, laughing heartily as he interacts with the surrounding crowd. Onlookers, including children, gather under the shade of leafy trees, many of them enthusiastically raising their arms and using their phones to record the passing spectacle. The overall atmosphere is one of joyful celebration and shared excitement as the parade moves through the gathering."
+    },
+    {
+      "scene_index": 38,
+      "start_frame": 4896,
+      "end_frame": 4928,
+      "start_sec": 163.3632,
+      "end_sec": 164.430933,
+      "duration_sec": 1.1011,
+      "num_frame_captions": 2,
+      "caption": "A sunlit park with large, leafy trees serves as the setting for a public gathering. A diverse crowd has assembled, their attention collectively focused on an event or speaker positioned off-camera. The group's engagement is evident as many individuals raise their arms, likely in a gesture of celebration, applause, or shared reaction to the unseen focal point. The presence of a building in the background suggests an urban or institutional context for this outdoor assembly. The overall atmosphere is one of communal participation and lively response on a clear, bright day."
+    },
+    {
+      "scene_index": 39,
+      "start_frame": 4929,
+      "end_frame": 5079,
+      "start_sec": 164.4643,
+      "end_sec": 169.4693,
+      "duration_sec": 5.038367,
+      "num_frame_captions": 10,
+      "caption": "A military-style armored vehicle, sometimes with police officers on board, drives down a sunny, tree-lined street as a crowd gathers to watch and record the event. The atmosphere appears to be a mix of celebration and tension; in one instance, a bride and groom wave from atop the vehicle, while in others, civilians raise their hands or phones, and police cars with flashing lights are present. The scene captures a public spectacle where the unusual sight of the armored vehicle draws both excited spectators and cautious onlookers, suggesting a complex event that is part parade and part police operation."
+    },
+    {
+      "scene_index": 40,
+      "start_frame": 5080,
+      "end_frame": 5095,
+      "start_sec": 169.502667,
+      "end_sec": 170.003167,
+      "duration_sec": 0.533867,
+      "num_frame_captions": 1,
+      "caption": "In a tense urban setting, a police armored vehicle is stationed on a street, indicating a significant law enforcement presence. A small group of onlookers has gathered near the vehicle, their attention fixed on the scene. Among them, a man in a gray shirt and several others are actively using their mobile phones, capturing video or photographs of the armored car and the surrounding activity. Their behavior suggests they are documenting the event, which implies the situation is noteworthy, possibly a protest, police operation, or public incident. The atmosphere is one of cautious observation and real-time documentation by bystanders."
+    },
+    {
+      "scene_index": 41,
+      "start_frame": 5096,
+      "end_frame": 5115,
+      "start_sec": 170.036533,
+      "end_sec": 170.6705,
+      "duration_sec": 0.667333,
+      "num_frame_captions": 2,
+      "caption": "In a sunny, tree-lined urban setting, a black armored police vehicle moves down the street. The scene has a notable celebratory or ceremonial atmosphere, as a person is perched atop the vehicle proudly holding a large trophy. This display draws the attention of onlookers, who are actively documenting the moment by taking photographs and filming from the sidewalk. The combination of the official police transport and the trophy presentation suggests a public event, possibly a parade or victory celebration, where law enforcement is participating in or escorting a communal achievement."
+    },
+    {
+      "scene_index": 42,
+      "start_frame": 5116,
+      "end_frame": 5235,
+      "start_sec": 170.703867,
+      "end_sec": 174.6745,
+      "duration_sec": 4.004,
+      "num_frame_captions": 8,
+      "caption": "This scene depicts a celebratory parade for a sports team, likely the \"Kings,\" following a championship victory. The festivities center on a large, dark armored vehicle that serves as a parade float, decorated with banners reading \"KINGS GO!\" and \"GO KINGS GO!\" A jubilant crowd surrounds the vehicle as it moves down a sunny, tree-lined street. Team members, including one in a striped jersey, ride atop the float, proudly holding aloft a large, gleaming trophy. The celebration, however, is abruptly interrupted by a chaotic motorcycle accident, with riders and vehicles overturned on the street as bystanders look on."
+    },
+    {
+      "scene_index": 43,
+      "start_frame": 5236,
+      "end_frame": 5280,
+      "start_sec": 174.707867,
+      "end_sec": 176.176,
+      "duration_sec": 1.5015,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a sunny day on a residential street where a group of young people are skateboarding. The casual activity takes a sudden turn when a motorcycle accident occurs, leaving the bike lying on its side on the road. The incident draws the attention of bystanders, who gather around the scene. The sequence suggests a shift from leisurely recreation to a moment of concern and assistance, as the people previously on the sidewalk now converge to respond to the unexpected event."
+    },
+    {
+      "scene_index": 44,
+      "start_frame": 5281,
+      "end_frame": 5367,
+      "start_sec": 176.209367,
+      "end_sec": 179.0789,
+      "duration_sec": 2.9029,
+      "num_frame_captions": 5,
+      "caption": "This scene appears to be a series of disjointed, low-quality shots that do not form a coherent narrative sequence. It begins with a wide, pixelated aerial view of a crowded beach, then abruptly cuts to extreme close-ups of various textured surfaces, including gravel, debris, and wet pavement. The sequence concludes with a low-angle shot of a car parked on a lined asphalt road. The overall effect is fragmented, suggesting either raw surveillance footage, technical glitches, or an artistic montage focusing on abstract textures and details rather than a continuous action."
+    },
+    {
+      "scene_index": 45,
+      "start_frame": 5368,
+      "end_frame": 5396,
+      "start_sec": 179.112267,
+      "end_sec": 180.046533,
+      "duration_sec": 0.967633,
+      "num_frame_captions": 2,
+      "caption": "This scene captures a moment of public activity on a city street. A crowd has gathered, with several individuals actively documenting the event using cameras or phones, suggesting a notable occurrence. The presence of parked cars frames the location as a typical urban setting. The perspective then shifts abruptly to a dynamic, unstable shot from a moving viewpoint, focusing on the blur of passing trees and the sky. This transition implies a departure from the initial focal point, perhaps as someone leaves the scene, resulting in a final impression of motion and a fleeting, observational quality to the recording."
+    },
+    {
+      "scene_index": 46,
+      "start_frame": 5397,
+      "end_frame": 5419,
+      "start_sec": 180.0799,
+      "end_sec": 180.813967,
+      "duration_sec": 0.767433,
+      "num_frame_captions": 2,
+      "caption": "On a sunny day, a small group of people has gathered outdoors in a shaded area under the canopy of large, leafy trees. The focal point of their attention is a dark-colored, likely black, vehicle. The scene centers on an interaction between two men who are positioned near this car, suggesting a discussion or activity related to the vehicle. The overall atmosphere is casual and social, with the dappled sunlight and natural setting providing a relaxed backdrop for the gathering."
+    },
+    {
+      "scene_index": 47,
+      "start_frame": 5420,
+      "end_frame": 5476,
+      "start_sec": 180.847333,
+      "end_sec": 182.715867,
+      "duration_sec": 1.9019,
+      "num_frame_captions": 4,
+      "caption": "A crowd has gathered on a sunny, tree-lined street, indicating a public demonstration or protest. The presence of police vehicles and a white van suggests official monitoring or involvement. Participants are engaged in various activities: some hold signs, others use cameras or phones to document the event, and a few remain seated in parked cars. The passage of a white truck and a motorcycle through the scene adds to the sense of a public thoroughfare being used for this assembly. Overall, the scene depicts a peaceful but monitored gathering in an urban residential setting."
+    },
+    {
+      "scene_index": 48,
+      "start_frame": 5477,
+      "end_frame": 5509,
+      "start_sec": 182.749233,
+      "end_sec": 183.816967,
+      "duration_sec": 1.1011,
+      "num_frame_captions": 2,
+      "caption": "A crowd gathers on a sunny, tree-lined street, drawn to an incident. Their attention is focused on a person who is on the ground near a silver SUV, with many bystanders using their phones to record the event. The scene includes the passage of a white truck moving through the area. The overall atmosphere is one of public curiosity and documentation, as people congregate to witness and capture the unfolding situation."
+    },
+    {
+      "scene_index": 49,
+      "start_frame": 5510,
+      "end_frame": 5551,
+      "start_sec": 183.850333,
+      "end_sec": 185.218367,
+      "duration_sec": 1.4014,
+      "num_frame_captions": 3,
+      "caption": "The scene captures a lively outdoor parade or celebration on a sunny, tree-lined street. A white pickup truck, decorated and carrying a group of enthusiastic participants, drives slowly down the road. People are waving and cheering from the truck's bed and roof, some wearing distinctive black jerseys. On the sidewalks, a crowd of spectators gathers to watch the procession, adding to the festive atmosphere. The event is set against a backdrop of bright sky, buildings, and large leafy trees, creating a vibrant community celebration."
+    },
+    {
+      "scene_index": 50,
+      "start_frame": 5552,
+      "end_frame": 5569,
+      "start_sec": 185.251733,
+      "end_sec": 185.818967,
+      "duration_sec": 0.6006,
+      "num_frame_captions": 1,
+      "caption": "The scene depicts a bright, sunny day in an outdoor setting, likely a parking lot or roadside area. A white pickup truck is the central focus, parked and stationary. The presence of other people and a vehicle in the background suggests a populated environment, possibly during a break in a journey or a casual gathering. The overall atmosphere is calm and relaxed, with no indication of significant motion or activity, conveying a moment of pause under clear skies."
+    },
+    {
+      "scene_index": 51,
+      "start_frame": 5570,
+      "end_frame": 5702,
+      "start_sec": 185.852333,
+      "end_sec": 190.256733,
+      "duration_sec": 4.437767,
+      "num_frame_captions": 9,
+      "caption": "A crowd has gathered on a sunny, tree-lined street, with many people using their phones to record or photograph an event. The focus is on a white car, where two men in matching jerseys stand on its roof, waving to those below. Nearby, a man on a white van holds a red object and gestures animatedly. The scene includes a mix of spectators, a police officer, and other parked vehicles, suggesting a spontaneous public gathering or celebration. The overall atmosphere is one of communal attention and informal spectacle."
+    },
+    {
+      "scene_index": 52,
+      "start_frame": 5703,
+      "end_frame": 5739,
+      "start_sec": 190.2901,
+      "end_sec": 191.4913,
+      "duration_sec": 1.234567,
+      "num_frame_captions": 2,
+      "caption": "A crowd has gathered on a residential street, drawn to an event or spectacle occurring off-camera. They stand on the sidewalk under the shade of leafy trees, with many individuals using their phones to record or photograph the unseen focal point. The atmosphere suggests a spontaneous public gathering, with people clustered near parked cars, including a white pickup truck. The scene captures a moment of shared attention and documentation, implying something noteworthy is happening just outside the frame."
+    },
+    {
+      "scene_index": 53,
+      "start_frame": 5740,
+      "end_frame": 5771,
+      "start_sec": 191.524667,
+      "end_sec": 192.559033,
+      "duration_sec": 1.067733,
+      "num_frame_captions": 2,
+      "caption": "In a residential neighborhood, a black pickup truck proceeds along a tree-lined street. The scene draws the attention of several pedestrians who have gathered on the sidewalk to observe. Among the onlookers is a man who is actively recording the vehicle's passage with his mobile phone, indicating an event of notable interest. The overall atmosphere suggests a moment of casual public scrutiny, with the truck's movement serving as the focal point for the assembled crowd. The setting remains calm, with no indication of disruption beyond this collective attention."
+    },
+    {
+      "scene_index": 54,
+      "start_frame": 5772,
+      "end_frame": 5805,
+      "start_sec": 192.5924,
+      "end_sec": 193.6935,
+      "duration_sec": 1.134467,
+      "num_frame_captions": 3,
+      "caption": "In this scene, a black Toyota pickup truck drives slowly down a residential street lined with trees on a sunny day. The vehicle attracts significant attention from onlookers, as several people on the sidewalk are actively filming or photographing it with their phones. One man in a grey shirt is seen focusing on the truck, while another man in a cap and light shirt raises his arm, seemingly to signal or interact with the driver. The driver leans out of the truck's window, suggesting a brief exchange or acknowledgment with the individuals recording the vehicle's passage."
+    },
+    {
+      "scene_index": 55,
+      "start_frame": 5806,
+      "end_frame": 5979,
+      "start_sec": 193.726867,
+      "end_sec": 199.4993,
+      "duration_sec": 5.8058,
+      "num_frame_captions": 11,
+      "caption": "This scene depicts a celebratory parade or community event centered around a dark pickup truck. The truck drives slowly along a tree-lined street, with a crowd of people gathered along the road and some riding in the truck bed, waving and interacting with onlookers. The atmosphere is sunny and lively, with participants filming and socializing. The sequence shows the vehicle both in motion during the procession and later parked, where people continue to mingle in the grassy lot and on the sidewalk, suggesting a festive outdoor gathering."
+    },
+    {
+      "scene_index": 56,
+      "start_frame": 5980,
+      "end_frame": 6148,
+      "start_sec": 199.532667,
+      "end_sec": 205.138267,
+      "duration_sec": 5.638967,
+      "num_frame_captions": 11,
+      "caption": "A white pickup truck drives through a sunny suburban street in a lively, parade-like atmosphere. A person in a lion mascot costume stands triumphantly on the truck's roof and bed, waving to onlookers. Pedestrians on the sidewalk watch, film, and photograph the scene. People ride inside the truck and in its bed, one holding a large stuffed animal. The overall mood is celebratory, with interactions between the participants and the crowd."
+    },
+    {
+      "scene_index": 57,
+      "start_frame": 6149,
+      "end_frame": 6232,
+      "start_sec": 205.171633,
+      "end_sec": 207.941067,
+      "duration_sec": 2.8028,
+      "num_frame_captions": 6,
+      "caption": "This scene takes place on a sunny residential street, where a small group of people has gathered for what appears to be a lacrosse demonstration or a related performance. Three men engage in a synchronized activity on the grassy area, clapping and gesturing while being filmed by onlookers holding cameras. The presence of a police officer observing nearby suggests this may be a permitted or monitored public event. The overall atmosphere is casual and focused, with participants performing near parked cars as others document the activity."
+    },
+    {
+      "scene_index": 58,
+      "start_frame": 6233,
+      "end_frame": 6322,
+      "start_sec": 207.974433,
+      "end_sec": 210.944067,
+      "duration_sec": 3.003,
+      "num_frame_captions": 6,
+      "caption": "This scene captures a celebratory victory parade, likely following a sporting event. A convertible and a pickup truck, both carrying jubilant athletes in black and white jerseys, slowly drive down a sunny, tree-lined street. The players, including one wearing number 23 and another number 32, stand in the vehicles, waving enthusiastically to the crowds and holding red cups. A large gathering of fans and media lines the route, cheering and recording the moment with cameras and phones. The atmosphere is one of pure joy and communal celebration as the athletes share their triumph with their supporters."
+    },
+    {
+      "scene_index": 59,
+      "start_frame": 6323,
+      "end_frame": 6358,
+      "start_sec": 210.977433,
+      "end_sec": 212.145267,
+      "duration_sec": 1.2012,
+      "num_frame_captions": 2,
+      "caption": "A group of people are gathered outdoors in a sunny, grassy area near parked cars and trees. The scene involves a social activity, with some individuals playing frisbee. The group includes a woman in a teal dress and men holding what appear to be rifles, suggesting a combination of recreational sports and another organized activity, possibly related to training or reenactment. The overall atmosphere is one of casual outdoor congregation under bright daylight."
+    },
+    {
+      "scene_index": 60,
+      "start_frame": 6359,
+      "end_frame": 6458,
+      "start_sec": 212.178633,
+      "end_sec": 215.481933,
+      "duration_sec": 3.336667,
+      "num_frame_captions": 7,
+      "caption": "This scene captures a lively, celebratory outdoor gathering centered around a white pickup truck. A group of people, including several men wearing sports jerseys for teams like the LA Kings and the Seahawks, are enthusiastically riding on the roof and in the bed of the moving vehicle. They wave, gesture animatedly, and hold red cups, engaging with onlookers in a sunny, tree-lined setting. The presence of a police officer among the crowd suggests a monitored public event, while the overall mood appears festive and boisterous as the truck slowly proceeds down the street."
+    },
+    {
+      "scene_index": 61,
+      "start_frame": 6459,
+      "end_frame": 6499,
+      "start_sec": 215.5153,
+      "end_sec": 216.849967,
+      "duration_sec": 1.368033,
+      "num_frame_captions": 3,
+      "caption": "A group of people is gathered outdoors, likely in a residential or park-like area with trees. Some individuals are actively filming or taking photographs, while others stand and watch. The focus of their attention appears to be a black pickup truck, which drives down the street past the onlookers. The overall scene suggests a casual, observed event, possibly a parade or a vehicle of interest passing through the neighborhood on a sunny day."
+    },
+    {
+      "scene_index": 62,
+      "start_frame": 6500,
+      "end_frame": 6516,
+      "start_sec": 216.883333,
+      "end_sec": 217.4172,
+      "duration_sec": 0.567233,
+      "num_frame_captions": 1,
+      "caption": "In a residential neighborhood, a black pickup truck moves steadily along a tree-lined street, creating a focal point of activity. On the adjacent sidewalk, a small group of onlookers has gathered, their attention fixed on the vehicle. Several individuals within the crowd are actively recording the scene with their phones, suggesting an event of notable interest. The overall atmosphere is one of quiet observation rather than alarm, as the truck proceeds without apparent incident. The scene captures a moment of communal witness, where ordinary street activity becomes a subject of shared documentation."
+    },
+    {
+      "scene_index": 63,
+      "start_frame": 6517,
+      "end_frame": 6550,
+      "start_sec": 217.450567,
+      "end_sec": 218.551667,
+      "duration_sec": 1.134467,
+      "num_frame_captions": 2,
+      "caption": "A black Toyota pickup truck moves slowly down a residential street lined with trees, drawing attention from a small crowd on the sidewalk. Several people have stopped to watch, with many holding up phones to film or photograph the vehicle as it passes. The atmosphere suggests a casual, public event or notable moment, as the onlookers calmly document the truck's journey on a sunny day."
+    },
+    {
+      "scene_index": 64,
+      "start_frame": 6551,
+      "end_frame": 6601,
+      "start_sec": 218.585033,
+      "end_sec": 220.253367,
+      "duration_sec": 1.7017,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a public gathering or event, possibly a parade or community celebration, involving both participants and law enforcement. A man in a numbered jacket stands on a truck, animatedly gesturing with cups to a crowd, while other individuals converse near parked vehicles. The presence of a police car with officers and a child suggests a monitored, family-friendly environment. The overall activity centers on street-level interaction, with people watching from the sidewalks and vehicles temporarily stationary, indicating a temporarily closed or slow-moving street for the occasion."
+    },
+    {
+      "scene_index": 65,
+      "start_frame": 6602,
+      "end_frame": 6637,
+      "start_sec": 220.286733,
+      "end_sec": 221.454567,
+      "duration_sec": 1.2012,
+      "num_frame_captions": 2,
+      "caption": "A crowd gathers outdoors under large trees on a sunny day. The atmosphere is celebratory, with many people raising their arms in excitement. A person wearing a blue helmet is visible in the foreground, suggesting a possible event or activity. The scene conveys a moment of shared enthusiasm and collective energy among the group."
+    },
+    {
+      "scene_index": 66,
+      "start_frame": 6638,
+      "end_frame": 6653,
+      "start_sec": 221.487933,
+      "end_sec": 221.988433,
+      "duration_sec": 0.533867,
+      "num_frame_captions": 1,
+      "caption": "A lively outdoor gathering takes place on a sunny day in a park-like setting. A diverse crowd has assembled on the grass under the shade of trees, with parked cars and buildings visible in the background. The atmosphere appears engaged, as several individuals in the group are seen raising their hands, suggesting a collective reaction\u2014perhaps to a speaker, a performance, or an event happening just outside the immediate view. The scene conveys a sense of casual public assembly and shared, spontaneous attention from the audience."
+    },
+    {
+      "scene_index": 67,
+      "start_frame": 6654,
+      "end_frame": 6845,
+      "start_sec": 222.0218,
+      "end_sec": 228.394833,
+      "duration_sec": 6.4064,
+      "num_frame_captions": 13,
+      "caption": "This scene captures a celebratory parade for the Los Angeles Kings hockey team. A white pickup truck, carrying players and fans in team jerseys, drives slowly down a sunny, tree-lined street. A crowd of enthusiastic onlookers gathers on the sidewalks and grassy areas, many raising their phones and arms to record the moment or cheer. The atmosphere is lively, with individuals waving from the truck bed and even from the roofs of vehicles. The event is documented by both the crowd and an official cameraman, highlighting a shared public celebration."
+    },
+    {
+      "scene_index": 68,
+      "start_frame": 6846,
+      "end_frame": 6865,
+      "start_sec": 228.4282,
+      "end_sec": 229.062167,
+      "duration_sec": 0.667333,
+      "num_frame_captions": 1,
+      "caption": "In a sun-dappled outdoor setting, a group of people has assembled amidst the trees, suggesting a community event or organized gathering. The presence of multiple individuals holding cameras indicates that photography is a central activity, likely a workshop, class, or a casual meet-up for enthusiasts. The overall atmosphere is one of relaxed engagement, with participants focused on their equipment and the surrounding environment. The scene captures a moment of shared interest and social interaction centered around the practice of photography in a pleasant natural space."
+    },
+    {
+      "scene_index": 69,
+      "start_frame": 6866,
+      "end_frame": 6912,
+      "start_sec": 229.095533,
+      "end_sec": 230.6304,
+      "duration_sec": 1.568233,
+      "num_frame_captions": 3,
+      "caption": "A group of people has gathered on a sunny, tree-lined residential street, creating a lively outdoor scene. The focus of their attention appears to be an animated man in a white shirt who is gesturing emphatically, drawing the interest of the surrounding crowd. Many onlookers are actively documenting the event, holding up their phones to record or photograph the unfolding activity. The atmosphere suggests a communal and possibly impromptu gathering, with some individuals nearby engaging in a separate, playful interaction involving a ball, adding to the casual, celebratory mood of the scene."
+    },
+    {
+      "scene_index": 70,
+      "start_frame": 6913,
+      "end_frame": 7033,
+      "start_sec": 230.663767,
+      "end_sec": 234.667767,
+      "duration_sec": 4.037367,
+      "num_frame_captions": 8,
+      "caption": "This scene depicts a lively, celebratory gathering on a sunny residential street. A group of people, primarily men, are socializing around several white vehicles, including a pickup truck and an SUV. The mood is energetic, with some individuals standing on the roofs of cars, gesturing, and interacting. Others are seen drinking from red cups, while a few appear to be filming or taking photos. The actions suggest a spontaneous street party or celebration, with applause and raised hands directed off-camera, possibly in reaction to an unseen event or arrival."
+    },
+    {
+      "scene_index": 71,
+      "start_frame": 7034,
+      "end_frame": 7080,
+      "start_sec": 234.701133,
+      "end_sec": 236.236,
+      "duration_sec": 1.568233,
+      "num_frame_captions": 4,
+      "caption": "A group of people has gathered on a sunny, tree-lined street corner, their attention collectively drawn to something occurring overhead. Several individuals are looking up and gesturing toward the sky, their reactions suggesting a shared observation of an unusual or noteworthy event. This has prompted others to document the moment, with at least one man clearly using his phone to record or photograph the scene. The atmosphere is one of casual public curiosity, with parked cars and the leafy canopy framing the spontaneous outdoor gathering focused on an unseen occurrence in the sky above them."
+    },
+    {
+      "scene_index": 72,
+      "start_frame": 7081,
+      "end_frame": 7107,
+      "start_sec": 236.269367,
+      "end_sec": 237.1369,
+      "duration_sec": 0.9009,
+      "num_frame_captions": 1,
+      "caption": "A lively crowd has assembled along a residential street, their attention collectively fixed on an unfolding event. The atmosphere is one of anticipation and casual spectatorship, with numerous individuals using their smartphones and cameras to record the scene. The presence of parked vehicles suggests this is a planned or expected occurrence, possibly a local parade, a celebrity sighting, or a community gathering. The tree-lined setting provides a relaxed, neighborhood backdrop to the activity, where the focus remains on the shared experience of witnessing and documenting whatever is capturing the group's interest."
+    },
+    {
+      "scene_index": 73,
+      "start_frame": 7108,
+      "end_frame": 7123,
+      "start_sec": 237.170267,
+      "end_sec": 237.670767,
+      "duration_sec": 0.533867,
+      "num_frame_captions": 1,
+      "caption": "This scene captures a casual, behind-the-scenes moment of a film or video production on a residential street. A small crew, including individuals who appear to be directing and operating cameras, is preparing for or reviewing a shot. Bystanders and passersby mingle at the periphery, observing the activity, which lends the scene an informal, impromptu atmosphere. The tree-lined setting provides a quiet backdrop, contrasting with the focused yet low-key hustle of the production team. The overall mood is one of collaborative work in a public space, blending creative process with everyday street life."
+    },
+    {
+      "scene_index": 74,
+      "start_frame": 7124,
+      "end_frame": 7454,
+      "start_sec": 237.704133,
+      "end_sec": 248.715133,
+      "duration_sec": 11.044367,
+      "num_frame_captions": 22,
+      "caption": "This scene captures a lively outdoor celebration or parade, likely following a motorsport event. A white Toyota pickup truck drives slowly down a sunny, tree-lined street, carrying a group of supporters in matching black and white jerseys. Some stand or sit on the truck's roof and in its bed, waving to onlookers and holding a red cup or a large flag featuring a crown emblem. A crowd has gathered in the adjacent parking lot, with many people using phones and cameras to film the procession. The atmosphere is festive and communal, set in a casual, sunlit environment with parked cars and palm trees."
+    },
+    {
+      "scene_index": 75,
+      "start_frame": 7455,
+      "end_frame": 7481,
+      "start_sec": 248.7485,
+      "end_sec": 249.616033,
+      "duration_sec": 0.9009,
+      "num_frame_captions": 2,
+      "caption": "A group of people are gathered outdoors on a sunny day, watching an event unfold. Some individuals are actively filming or photographing the scene with their phones. A dark SUV drives past the assembled crowd on the road. The overall atmosphere suggests a public occurrence, possibly a procession or notable arrival, that has drawn the attention of onlookers who are documenting it. A bicycle helmet is visible on the ground in the foreground, adding a minor detail of incidental clutter to the setting."
+    },
+    {
+      "scene_index": 76,
+      "start_frame": 7482,
+      "end_frame": 7503,
+      "start_sec": 249.6494,
+      "end_sec": 250.3501,
+      "duration_sec": 0.734067,
+      "num_frame_captions": 2,
+      "caption": "A crowd has gathered in a sunny, tree-lined urban area, indicating a public incident or event. The group stands on a grassy patch near several parked police cars, with leafy trees providing shade. Among the attendees is a man in a gray shirt who is holding a mobile phone. The overall atmosphere suggests an informal but attentive gathering, likely in response to an ongoing situation that has drawn official attention. The bright daylight and the presence of both civilians and police vehicles characterize the scene as a monitored public assembly."
+    },
+    {
+      "scene_index": 77,
+      "start_frame": 7504,
+      "end_frame": 7592,
+      "start_sec": 250.383467,
+      "end_sec": 253.319733,
+      "duration_sec": 2.969633,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a public event or parade on a sunny, tree-lined street, where a police car with flashing lights leads a procession of emergency vehicles, including a fire truck and an ambulance. The presence of cyclists within the procession suggests an organized community activity. A crowd of onlookers and bystanders, including a cyclist on the sidewalk, gathers to watch the spectacle. While the initial frames suggest a possible emergency response, the recurring theme of a coordinated procession with spectators indicates a planned, non-emergency public event."
+    },
+    {
+      "scene_index": 78,
+      "start_frame": 7593,
+      "end_frame": 7615,
+      "start_sec": 253.3531,
+      "end_sec": 254.087167,
+      "duration_sec": 0.767433,
+      "num_frame_captions": 1,
+      "caption": "A police car with flashing lights is parked on a street, indicating an official presence at the scene. Nearby, a red fire truck is also stationed, suggesting a coordinated emergency response. A crowd of people has gathered, observing the activity. The setting is a tree-lined residential street. Amidst this, a cyclist rides past the scene, providing a contrast of normal, everyday activity against the backdrop of the emergency situation. The overall scene depicts a community incident where authorities are managing an event while local life continues around it."
+    },
+    {
+      "scene_index": 79,
+      "start_frame": 7616,
+      "end_frame": 7690,
+      "start_sec": 254.120533,
+      "end_sec": 256.589667,
+      "duration_sec": 2.5025,
+      "num_frame_captions": 5,
+      "caption": "A cyclist in a yellow jersey and red helmet rides along a sunny, tree-lined street. The rider passes a red pickup truck and a crowd of spectators watching from the sidewalk. Further down the street, emergency vehicles, including a police car with flashing lights and a fire truck, are present where people have gathered. The scene suggests a community event, like a race or parade, occurring alongside a minor incident requiring emergency services, all under clear skies."
+    },
+    {
+      "scene_index": 80,
+      "start_frame": 7691,
+      "end_frame": 7750,
+      "start_sec": 256.623033,
+      "end_sec": 258.591667,
+      "duration_sec": 2.002,
+      "num_frame_captions": 4,
+      "caption": "This scene unfolds on a sunny, palm tree-lined street where a notable emergency response is underway. Red emergency vehicles, specifically a fire truck and an ambulance, are navigating through the crowded roadway. Their presence draws the attention of numerous pedestrians and cyclists, who have gathered to watch the scene. The atmosphere is one of public curiosity and mild disruption to the normal flow of traffic, as onlookers observe the vehicles' progress. A cyclist in a yellow jersey is notably seen riding past the emergency convoy, adding a dynamic element to the otherwise stationary or slowly moving crowd observing the event."
+    },
+    {
+      "scene_index": 81,
+      "start_frame": 7751,
+      "end_frame": 7817,
+      "start_sec": 258.625033,
+      "end_sec": 260.827233,
+      "duration_sec": 2.235567,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a sunny, palm-lined street where a red emergency vehicle, likely a fire truck or ambulance, is the central focus. It initially drives down the road, possibly as part of a parade or response, with spectators watching from the sidewalks. The action progresses as the vehicle eventually comes to a stop and is parked on the street. A crowd gathers around the stationary vehicle, shifting the atmosphere from one of movement and observation to a more static situation that suggests an emergency incident or response is underway."
+    },
+    {
+      "scene_index": 82,
+      "start_frame": 7818,
+      "end_frame": 7885,
+      "start_sec": 260.8606,
+      "end_sec": 263.096167,
+      "duration_sec": 2.268933,
+      "num_frame_captions": 4,
+      "caption": "A red fire truck is parked on a residential street, responding to an incident. A group of onlookers has gathered nearby, some conversing while others watch the emergency vehicle. The scene is calm and sunny, with trees lining the street and other parked cars present. The presence of both the stationary truck and a second one driving by, along with police officers, indicates an ongoing emergency response that has drawn the attention of local residents."
+    },
+    {
+      "scene_index": 83,
+      "start_frame": 7886,
+      "end_frame": 7904,
+      "start_sec": 263.129533,
+      "end_sec": 263.730133,
+      "duration_sec": 0.633967,
+      "num_frame_captions": 1,
+      "caption": "The scene shows a red emergency ambulance, marked with the code \"R22,\" stationed on a residential street. It is a clear, sunny day with other vehicles and pedestrians present in the vicinity. The overall atmosphere appears calm rather than urgent, suggesting the ambulance may be on standby, completing a routine call, or parked momentarily. There is no indication of active emergency response or patient transfer, implying a moment of quiet readiness in an otherwise ordinary urban setting."
+    },
+    {
+      "scene_index": 84,
+      "start_frame": 7905,
+      "end_frame": 7956,
+      "start_sec": 263.7635,
+      "end_sec": 265.4652,
+      "duration_sec": 1.735067,
+      "num_frame_captions": 4,
+      "caption": "This scene captures a lively public parade on a sunny day, moving down a palm-tree-lined avenue under a clear blue sky. The procession is led by a police officer on a bicycle, guiding a mix of emergency vehicles and participants through the crowded street. A prominent red fire truck and a police car navigate slowly past numerous spectators who line the route. The overall atmosphere is bustling and celebratory, with cyclists and pedestrians filling the space, indicating a community event or festival in progress."
+    },
+    {
+      "scene_index": 85,
+      "start_frame": 7957,
+      "end_frame": 8027,
+      "start_sec": 265.498567,
+      "end_sec": 267.834233,
+      "duration_sec": 2.369033,
+      "num_frame_captions": 5,
+      "caption": "The scene unfolds on a sunny, palm-lined avenue bustling with activity. A crowd of pedestrians and numerous cyclists, including a woman in a black tank top, navigate the lively street. A police car slowly drives through the throng, passing by a woman on a bicycle. Onlookers gather on the sidewalk and a grassy area nearby, where a man holds a phone and a woman wears a blue dress, observing the vibrant street life."
+    },
+    {
+      "scene_index": 86,
+      "start_frame": 8028,
+      "end_frame": 8044,
+      "start_sec": 267.8676,
+      "end_sec": 268.401467,
+      "duration_sec": 0.567233,
+      "num_frame_captions": 1,
+      "caption": "This scene captures a casual outdoor gathering on a sunny day. A small group of individuals, including men in grey and black shirts, are assembled on a grassy verge beside a quiet residential street lined with parked cars. They appear to be engaged in a low-key activity, possibly a neighborhood event or a relaxed social meet-up. The atmosphere is calm and informal, with the participants standing and conversing comfortably in the open space. The setting suggests a local community interaction, taking advantage of the pleasant weather in a familiar, everyday environment."
+    },
+    {
+      "scene_index": 87,
+      "start_frame": 8045,
+      "end_frame": 8071,
+      "start_sec": 268.434833,
+      "end_sec": 269.302367,
+      "duration_sec": 0.9009,
+      "num_frame_captions": 2,
+      "caption": "This scene takes place on a sunny street in Manhattan Beach, where a fire department ambulance is the central focus. A man in the foreground observes the activity, his attention directed toward the street where the bright red emergency vehicle is parked. The atmosphere is casual, with spectators gathered nearby and palm trees lining the road. A pickup truck displaying enthusiastic support for the local hockey team adds a layer of community spirit to the setting. Overall, the scene presents a calm, sunlit moment of public service and local life, without any indication of active emergency response."
+    },
+    {
+      "scene_index": 88,
+      "start_frame": 8072,
+      "end_frame": 8129,
+      "start_sec": 269.335733,
+      "end_sec": 271.237633,
+      "duration_sec": 1.935267,
+      "num_frame_captions": 3,
+      "caption": "A sunny street lined with palm trees serves as the backdrop for a community event. A red fire department ambulance and a red pickup truck adorned with a \"GO KINGS GO\" banner are present, suggesting a celebration or parade, likely for a sports team. A crowd of spectators, including a woman in a distinctive purple cap, gathers on the sidewalk to watch. The scene includes the movement of a red emergency vehicle, possibly a fire truck, driving past the assembled onlookers. The overall atmosphere is one of public gathering and local excitement."
+    },
+    {
+      "scene_index": 89,
+      "start_frame": 8130,
+      "end_frame": 8151,
+      "start_sec": 271.271,
+      "end_sec": 271.9717,
+      "duration_sec": 0.734067,
+      "num_frame_captions": 2,
+      "caption": "A parade is taking place on a palm-lined street, drawing a large crowd of spectators. The event features a decorated red fire truck with the message \"GO KINGS GO!\" prominently displayed on its side, suggesting a celebratory atmosphere, possibly for a sports team. Amidst the festivities, an ambulance and other emergency vehicles are parked nearby, indicating a planned safety presence for the gathering. The scene blends community celebration with organized public safety measures as people watch the procession."
+    },
+    {
+      "scene_index": 90,
+      "start_frame": 8152,
+      "end_frame": 8280,
+      "start_sec": 272.005067,
+      "end_sec": 276.276,
+      "duration_sec": 4.3043,
+      "num_frame_captions": 9,
+      "caption": "A parade celebrating the Kings, likely a sports team, moves down a sunny, palm-lined street. The procession includes decorated vehicles such as a red and yellow float, a themed ambulance, and a fire truck, all bearing \"GO KINGS GO!\" signage. A large, cheerful crowd of spectators, many on bicycles, gathers to watch the festive event. However, the scene takes a serious turn as emergency vehicles\u2014specifically an ambulance and a police car\u2014arrive with flashing lights, indicating a potential incident requiring a response. The crowd remains gathered, observing both the parade and the unfolding emergency situation."
+    }
+  ]
+}

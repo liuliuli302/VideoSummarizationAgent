@@ -1,0 +1,276 @@
+{
+  "video": "Base jumping",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Base jumping.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_2.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 4729,
+  "num_scenes": 26,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 2470,
+      "start_sec": 0.0,
+      "end_sec": 82.415667,
+      "duration_sec": 82.449033,
+      "num_frame_captions": 165,
+      "caption": "The video presents a breathtaking aerial journey over a stunning turquoise fjord nestled between steep, moss-covered and forested mountains. The perspective shifts between sweeping drone shots and immersive first-person views from a cliff edge, where a person in a red jacket overlooks the landscape. The scene also features dynamic action shots of wingsuit flyers and paragliders soaring above the dramatic valleys and lakes. Throughout, the focus remains on the majestic, serene beauty of the natural landscape, with its vibrant waters and rugged green peaks under bright skies."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 2471,
+      "end_frame": 2511,
+      "start_sec": 82.449033,
+      "end_sec": 83.7837,
+      "duration_sec": 1.368033,
+      "num_frame_captions": 3,
+      "caption": "This scene captures the exhilarating experience of aerial adventure over a stunning mountainous landscape. A skydiver descends gracefully beneath a colorful parachute, enjoying the vast expanse of a clear blue sky above rugged, green peaks. The perspective then shifts to a paraglider's first-person view, soaring silently over dense forests and mirror-like turquoise lakes that reflect the dramatic scenery. Together, these moments convey the thrill and serene beauty of human flight, contrasting the dynamic action of descent with the peaceful, panoramic glide high above the tranquil, picturesque wilderness below."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 2512,
+      "end_frame": 2604,
+      "start_sec": 83.817067,
+      "end_sec": 86.8868,
+      "duration_sec": 3.1031,
+      "num_frame_captions": 6,
+      "caption": "This scene presents a continuous aerial view of a majestic fjord landscape. The perspective remains stable, offering a sweeping panorama of the deep turquoise waters winding through a steep, mountainous valley. The mountains are consistently lush and green, with some peaks dusted with snow, under a bright sky with partial cloud cover. A small, clustered village is consistently visible along the distant shoreline, emphasizing the human presence within this vast, serene natural setting. The scene conveys a sense of tranquil, enduring beauty, showcasing the dramatic interplay between the vibrant fjord and the towering, forested peaks that surround it."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 2605,
+      "end_frame": 2632,
+      "start_sec": 86.920167,
+      "end_sec": 87.821067,
+      "duration_sec": 0.934267,
+      "num_frame_captions": 2,
+      "caption": "This scene captures the dramatic moment of a parachute deployment high in the sky. The perspective shifts from a low-angle view looking up through a transparent canopy with distinctive red and black lines to a wider shot of a fully inflated white parachute adorned with green Hebrew lettering. Against the vast backdrop of a bright blue sky dotted with clouds, the focus is on the parachute's functional details and unique markings as it descends. The sequence emphasizes the canopy's structure and the serene, open atmosphere of the skydive."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 2633,
+      "end_frame": 2649,
+      "start_sec": 87.854433,
+      "end_sec": 88.3883,
+      "duration_sec": 0.567233,
+      "num_frame_captions": 1,
+      "caption": "This scene presents a tranquil, expansive landscape dominated by a pristine mountain lake. The body of water, a striking shade of turquoise, rests calmly in a valley carved by ancient geological forces. It is completely encircled by steep, rugged peaks densely covered in evergreen forests, creating a sense of secluded natural grandeur. The atmosphere is peaceful and still, with the partly cloudy sky overhead casting soft, shifting light across the entire vista. There is no visible human activity, allowing the raw, majestic beauty of the wilderness to stand as the singular focus of the scene."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 2650,
+      "end_frame": 3450,
+      "start_sec": 88.421667,
+      "end_sec": 115.115,
+      "duration_sec": 26.7267,
+      "num_frame_captions": 54,
+      "caption": "The scene depicts a paraglider soaring over a stunning turquoise fjord or lake, surrounded by steep, forested mountains. The perspective shifts between first-person views from the paraglider and wider aerial shots, showcasing the serene, bright landscape. A winding road hugs the shoreline, and a small boat is occasionally visible on the water. The scene emphasizes graceful flight, the vibrant colors of the water and forests, and the majestic, rugged terrain from various vantage points."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 3451,
+      "end_frame": 3510,
+      "start_sec": 115.148367,
+      "end_sec": 117.117,
+      "duration_sec": 2.002,
+      "num_frame_captions": 4,
+      "caption": "This aerial scene follows a winding mountain road as it snakes along the steep, forested slopes of a fjord. The turquoise waters of the fjord contrast sharply with the lush greenery and dark rocky cliffs. A prominent waterfall is a constant feature, cascading down the cliff face near the roadway. The scene includes human elements, such as a small white building nestled in the landscape and vehicles traversing the road, which crosses a bridge at one point. Overall, it presents a majestic and serene view of a remote coastal mountain landscape, where nature and infrastructure coexist."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 3511,
+      "end_frame": 3543,
+      "start_sec": 117.150367,
+      "end_sec": 118.2181,
+      "duration_sec": 1.1011,
+      "num_frame_captions": 2,
+      "caption": "This aerial scene shows a winding mountain road alongside a turquoise lake. The lush, forested slopes feature a cascading waterfall on the cliff face. A white car travels along the road, while a person walks on the adjacent path, indicating human activity within the serene natural landscape. The overall setting is one of tranquil beauty, combining the engineered road with the pristine lake and verdant mountains."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 3544,
+      "end_frame": 3791,
+      "start_sec": 118.251467,
+      "end_sec": 126.493033,
+      "duration_sec": 8.274933,
+      "num_frame_captions": 16,
+      "caption": "This aerial scene follows a paraglider\u2019s journey over a dramatic mountainous landscape. The individual soars gracefully above winding roads, lush forests, and a cascading waterfall, with views extending to a striking turquoise fjord below. The perspective shifts between wide drone shots and first-person views from the paraglider, emphasizing the scenic valley, lake, and distant peaks. The activity culminates with the paraglider landing on a road beside the fjord, where another person in red gear and a parked vehicle are present, indicating the conclusion of the flight in this serene, natural setting."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 3792,
+      "end_frame": 3850,
+      "start_sec": 126.5264,
+      "end_sec": 128.461667,
+      "duration_sec": 1.968633,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a wingsuit flyer preparing for and executing a flight down a mountain road. The individual, wearing a red and blue wingsuit, is first seen running along the winding road to build momentum before launching into the air. The setting is a lush, green forested mountainside under a bright, clear sky dotted with clouds. The perspective shifts to emphasize the vastness of the environment, from the dense tree canopy to the expansive blue sky, capturing the exhilarating transition from ground-based sprint to aerial glide through this dramatic natural landscape."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 3851,
+      "end_frame": 3936,
+      "start_sec": 128.495033,
+      "end_sec": 131.3312,
+      "duration_sec": 2.869533,
+      "num_frame_captions": 6,
+      "caption": "The scene depicts a close-up, top-down view of items on the ground, likely outdoors. The focus is on several white bags or pieces of fabric, some bearing green logos or patterns. A red and black object, possibly a bag or item of clothing, is also visible among them. The footage is consistently blurry and low-resolution, with elements appearing indistinct and colors muted. The movement of the plastic bags suggests they are being affected by wind, indicating an outdoor setting."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 3937,
+      "end_frame": 3953,
+      "start_sec": 131.364567,
+      "end_sec": 131.898433,
+      "duration_sec": 0.567233,
+      "num_frame_captions": 1,
+      "caption": "In this scene, a costumed individual, likely a performer or participant in a festive event, moves along a paved roadway. The setting is open and public, with the prominent visual feature being large, white, parachute-like structures in the foreground, suggesting a staged environment or temporary installation. The action centers on the person's purposeful walk, implying a procession or a directed movement within this arranged space, which combines elements of spectacle and casual public activity."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 3954,
+      "end_frame": 4044,
+      "start_sec": 131.9318,
+      "end_sec": 134.9348,
+      "duration_sec": 3.036367,
+      "num_frame_captions": 6,
+      "caption": "This scene follows a skydiver performing an exhilarating wingsuit flight over a scenic mountain landscape. The sequence begins with the individual, clad in a red suit and helmet, preparing on a winding road before launching into the air. They transition into a wingsuit, gliding low and fast above the treelined road under a bright blue sky. The flight culminates with the deployment of a red and white parachute, allowing the smiling skydiver to float more gently. Throughout the descent, the adventurer, equipped with a helmet-mounted camera, captures the breathtaking aerial views of the lush green forests and winding route below."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 4045,
+      "end_frame": 4059,
+      "start_sec": 134.968167,
+      "end_sec": 135.4353,
+      "duration_sec": 0.5005,
+      "num_frame_captions": 1,
+      "caption": "The scene captures the exhilarating moment of a skydiver in freefall. With a GoPro mounted on their helmet, they descend through the open sky, smiling broadly at the thrill of the experience. Below, the landscape unfolds into a winding road cutting through a vast expanse of lush, green trees. The perspective emphasizes the sheer height and speed of the descent, contrasting the human figure against the serene, patterned terrain far beneath them."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 4060,
+      "end_frame": 4078,
+      "start_sec": 135.468667,
+      "end_sec": 136.069267,
+      "duration_sec": 0.633967,
+      "num_frame_captions": 1,
+      "caption": "A paraglider descends toward a winding mountain road, smiling as they enjoy the flight. The scene captures the serene yet exhilarating experience of gliding over a lush green forest. The rider wears a helmet and goggles, with a GoPro camera mounted on their head to record the journey. The overall atmosphere is one of peaceful adventure, highlighting the freedom of flight amidst a scenic natural landscape."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 4079,
+      "end_frame": 4111,
+      "start_sec": 136.102633,
+      "end_sec": 137.170367,
+      "duration_sec": 1.1011,
+      "num_frame_captions": 3,
+      "caption": "The scene captures a skydiver descending over a winding mountain road. Wearing a helmet with a camera and blue goggles, the smiling individual glides down under a red and white parachute. The environment features lush green trees and a clear blue sky. The action concludes with the skydiver having safely landed and is now seen smiling near a roadside barrier, still in the full skydiving suit, indicating the successful end of the jump."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 4112,
+      "end_frame": 4144,
+      "start_sec": 137.203733,
+      "end_sec": 138.271467,
+      "duration_sec": 1.1011,
+      "num_frame_captions": 2,
+      "caption": "A cyclist wearing a helmet and goggles rides along a winding mountain road. The path cuts through a lush, green forested hillside under a bright blue sky dotted with white clouds. The scene captures a moment of outdoor activity and travel, with the rider navigating the scenic, tree-lined route. The overall setting is one of natural beauty and motion, combining the human element of the journey with the serene, expansive backdrop of the forest and sky."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 4145,
+      "end_frame": 4169,
+      "start_sec": 138.304833,
+      "end_sec": 139.105633,
+      "duration_sec": 0.834167,
+      "num_frame_captions": 1,
+      "caption": "A skydiver, having just landed, walks along a winding mountain road while carrying their parachute. The individual is dressed in a full jumpsuit and helmet, suggesting the completion of an aerial descent into this rugged, high-altitude environment. The quiet, post-adventure trek contrasts with the preceding thrill of the jump, focusing on the practical task of packing up and exiting the remote landing area. The scene captures a moment of transition and solitude amidst the expansive mountain landscape."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 4170,
+      "end_frame": 4186,
+      "start_sec": 139.139,
+      "end_sec": 139.672867,
+      "duration_sec": 0.567233,
+      "num_frame_captions": 2,
+      "caption": "This scene captures a wingsuit flyer, dressed in a red and blue suit, preparing for flight on a quiet country road. The individual is in high spirits, smiling for the camera while standing beside a grassy embankment lined with lush greenery. In one moment, they are accompanied by a small black-and-white dog resting nearby. The preparation involves checking equipment, as shown when the flyer holds the control lines of their parachute. The overall atmosphere is one of focused anticipation and camaraderie before an adventurous launch from the scenic, rural location."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 4187,
+      "end_frame": 4261,
+      "start_sec": 139.706233,
+      "end_sec": 142.175367,
+      "duration_sec": 2.5025,
+      "num_frame_captions": 5,
+      "caption": "A skydiver, wearing a red and blue jumpsuit and helmet, lands successfully on a winding mountain road. After landing, they walk down the road with their parachute trailing behind them. The skydiver then stops, smiles for the camera, and stands holding the canopy. The scene takes place in a scenic mountain environment surrounded by lush green trees under a clear blue sky, capturing the moments immediately following the parachute landing."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 4262,
+      "end_frame": 4310,
+      "start_sec": 142.208733,
+      "end_sec": 143.810333,
+      "duration_sec": 1.634967,
+      "num_frame_captions": 3,
+      "caption": "The scene captures a skydiver in a red and black wingsuit descending over a picturesque landscape of winding roads, lush green hills, and trees under a partly cloudy sky. The person smiles and gives a thumbs-up, showing confidence and enjoyment during the descent. The sequence highlights the thrill of the jump against a backdrop of vibrant natural scenery, from the initial airborne moment to the final approach near the road."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 4311,
+      "end_frame": 4513,
+      "start_sec": 143.8437,
+      "end_sec": 150.583767,
+      "duration_sec": 6.773433,
+      "num_frame_captions": 13,
+      "caption": "This scene shows a skydiver in a red and blue jumpsuit on a paved road, handling a large white parachute with green markings. The sequence begins with the skydiver having just landed, with the parachute deployed and pointing toward the camera. The action then shifts to the post-landing phase, where the individual is seen standing over, handling, and gathering the crumpled canopy. The parachute is shown in various states\u2014from fully deployed to partially inflated and then lying crumpled on the asphalt\u2014as the skydiver methodically prepares it for packing or for a subsequent takeoff, indicating the routine process following a jump."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 4514,
+      "end_frame": 4537,
+      "start_sec": 150.617133,
+      "end_sec": 151.384567,
+      "duration_sec": 0.8008,
+      "num_frame_captions": 2,
+      "caption": "In this scene, a skydiver has successfully landed on a paved road. He is dressed in a patriotic red, white, and blue jumpsuit and is managing his equipment after the descent. The skydiver is shown holding the control lines of his fully deployed main parachute, which features a prominent Canadian flag design. Nearby, another parachute lies on the ground, suggesting a tandem jump or a secondary canopy. The scene captures the immediate post-landing moment, focusing on the skydiver securing his gear on the open roadway."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 4538,
+      "end_frame": 4608,
+      "start_sec": 151.417933,
+      "end_sec": 153.7536,
+      "duration_sec": 2.369033,
+      "num_frame_captions": 5,
+      "caption": "This scene captures a skydiver and a cyclist sharing a winding mountain road in a lush, green landscape. The skydiver, wearing a red jumpsuit, has landed and is either walking with their parachute spread out or standing with it partially open, smiling for the camera. Meanwhile, a cyclist in a helmet and red vest rides along the same scenic route, which features a small waterfall cascading down the hillside. The activities occur under a clear or partly cloudy blue sky, highlighting a moment of post-adventure recovery and ongoing travel in the picturesque mountains."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 4609,
+      "end_frame": 4653,
+      "start_sec": 153.786967,
+      "end_sec": 155.2551,
+      "duration_sec": 1.5015,
+      "num_frame_captions": 3,
+      "caption": "In this mountain scene, a skydiver or paraglider in a red jumpsuit and helmet is preparing for or concluding a flight on a winding rural road. The individual is first seen standing beside their partially unfurled red and white canopy, which lies on the pavement against a backdrop of tree-lined hills. They then walk along the road with the parachute trailing behind them, actively managing the control lines. The setting is a lush green hillside under a clear blue sky, indicating a calm day suitable for such an activity. The sequence shows the ground-handling phase of the flight operation."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 4654,
+      "end_frame": 4728,
+      "start_sec": 155.288467,
+      "end_sec": 157.7576,
+      "duration_sec": 2.5025,
+      "num_frame_captions": 5,
+      "caption": "This scene shows a skydiver preparing for and then resting after a flight. The individual, wearing a red and blue suit, first lays out their white parachute on a paved road to take off. Following the jump, the perspective shifts to distorted, upside-down views likely captured during the descent, showing the person against a cloudy sky. The sequence concludes back on the ground, where the skydiver sits smiling with their deployed parachute, accompanied by a small dog resting nearby on the grass."
+    }
+  ]
+}

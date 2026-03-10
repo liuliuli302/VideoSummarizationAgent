@@ -7,6 +7,8 @@ from pathlib import Path
 
 import cv2
 import torch
+from dotenv import load_dotenv
+from openai import OpenAI
 from PIL import Image
 from tqdm.auto import tqdm
 from scenedetect import open_video, SceneManager
@@ -17,6 +19,9 @@ from transformers import (
     LlavaNextForConditionalGeneration,
     LlavaNextProcessor,
 )
+
+
+load_dotenv()
 
 
 DEFAULT_SCENE_PROMPT = (
@@ -36,6 +41,23 @@ Keep the description concise (80-120 words)."
 )
 
 
+DEFAULT_SCENE_SUMMARIZATION_PROMPT_TEMPLATE = (
+'''
+You are a video understanding assistant.
+Below are captions describing frames from the same scene in a video.
+Frame captions:
+{frame_captions}
+
+Write a concise scene-level description summarizing what happens in this scene.
+Requirements:
+* one concise paragraph (80-120 words)
+* focus on the main content
+* avoid repeating frame descriptions
+Scene description:
+'''
+)
+
+
 class QwenSceneCaptionConfig:
     prompt = DEFAULT_SCENE_PROMPT
     num_frames = 10
@@ -48,6 +70,13 @@ class LlavaSceneCaptionConfig:
     num_frames = 10
     max_new_tokens = 120
     scene_threshold = 27.0
+
+
+class SceneCaptionSummarizerConfig:
+    prompt_template = DEFAULT_SCENE_SUMMARIZATION_PROMPT_TEMPLATE
+    max_tokens = 120
+    scene_threshold = 27.0
+    base_url = "https://www.dmxapi.cn/v1"
 
 
 def detect_scenes(video_path, threshold=27.0):
@@ -125,6 +154,30 @@ def sample_scene_frames(video_path, start_frame, end_frame, num_frames=8):
 
     cap.release()
     return images
+
+
+def _compact_model_dir_name(model_name):
+
+    model_name = str(model_name or "").strip()
+
+    if not model_name:
+        return "unknown"
+
+    return Path(model_name).name
+
+
+def _get_scene_caption_output_dir(args, dataset):
+
+    if args.caption_model == "llm":
+        return os.path.join(
+            args.output_root,
+            "llm",
+            _compact_model_dir_name(args.image_caption_model),
+            _compact_model_dir_name(args.model_name),
+            dataset
+        )
+
+    return os.path.join(args.output_root, args.model_name, dataset)
 
 
 class QwenSceneCaptioner:
@@ -481,6 +534,150 @@ class LlavaSceneCaptioner:
         }
 
 
+class SceneCaptionSummarizer:
+
+    def __init__(
+        self,
+        model_name="DeepSeek-V3.2",
+        base_url=None,
+        api_key=None,
+        config=SceneCaptionSummarizerConfig,
+    ):
+
+        api_key = api_key or os.getenv("OPENAI_API_KEY")
+        base_url = base_url or os.getenv("OPENAI_BASE_URL") or config.base_url
+
+        if not api_key:
+            raise RuntimeError("OPENAI_API_KEY not found.")
+
+        client_kwargs = {"api_key": api_key}
+
+        if base_url:
+            client_kwargs["base_url"] = base_url
+
+        self.client = OpenAI(**client_kwargs)
+        self.model_name = model_name
+        self.config = config
+        self.base_url = base_url
+
+        print("Loading Scene Caption Summarizer:", model_name)
+
+    @staticmethod
+    def load_frame_caption_json(json_path):
+
+        with open(json_path) as f:
+            data = json.load(f)
+
+        captions = data.get("captions", [])
+        captions = sorted(captions, key=lambda item: item.get("frame_index", 0))
+        return data, captions
+
+    @staticmethod
+    def collect_scene_frame_captions(captions, start_frame, end_frame):
+
+        scene_captions = []
+
+        for item in captions:
+            frame_index = int(item.get("frame_index", -1))
+
+            if start_frame <= frame_index <= end_frame:
+                scene_captions.append(item)
+
+        return scene_captions
+
+    def build_prompt(self, scene_frame_captions):
+
+        frame_captions = "\n".join(
+            str(item.get("caption", "")).strip()
+            for item in scene_frame_captions
+            if str(item.get("caption", "")).strip()
+        )
+
+        return self.config.prompt_template.format(frame_captions=frame_captions)
+
+    def summarize_scene(self, scene_frame_captions):
+
+        if not scene_frame_captions:
+            return ""
+
+        prompt = self.build_prompt(scene_frame_captions)
+
+        response = self.client.chat.completions.create(
+            model=self.model_name,
+            messages=[
+                {"role": "user", "content": prompt},
+            ],
+            # max_tokens=self.config.max_tokens,
+        )
+
+        content = response.choices[0].message.content
+        return content.strip() if content else ""
+
+    def summarize_video(self, video_path, frame_caption_json_path, scene_threshold=None):
+
+        if scene_threshold is None:
+            scene_threshold = self.config.scene_threshold
+
+        cap = cv2.VideoCapture(video_path)
+        fps = cap.get(cv2.CAP_PROP_FPS)
+        total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+        cap.release()
+
+        if total_frames <= 0:
+            return {
+                "video_path": video_path,
+                "frame_caption_json_path": frame_caption_json_path,
+                "fps": fps,
+                "total_frames": total_frames,
+                "scene_threshold": scene_threshold,
+                "num_scenes": 0,
+                "scenes": []
+            }
+
+        frame_caption_data, frame_captions = self.load_frame_caption_json(frame_caption_json_path)
+        scene_ranges = detect_scenes(video_path, threshold=scene_threshold)
+        results = []
+
+        progress = tqdm(
+            scene_ranges,
+            desc=f"Summarizing scenes ({Path(video_path).stem})",
+            unit="scene",
+            leave=False
+        )
+
+        for i, (start_frame, end_frame) in enumerate(progress):
+
+            scene_frame_captions = self.collect_scene_frame_captions(
+                frame_captions,
+                start_frame,
+                end_frame
+            )
+
+            scene_caption = self.summarize_scene(scene_frame_captions)
+
+            results.append({
+                "scene_index": i,
+                "start_frame": int(start_frame),
+                "end_frame": int(end_frame),
+                "start_sec": round(start_frame / fps, 6) if fps else None,
+                "end_sec": round(end_frame / fps, 6) if fps else None,
+                "duration_sec": round((end_frame - start_frame + 1) / fps, 6) if fps else None,
+                "num_frame_captions": len(scene_frame_captions),
+                "caption": scene_caption
+            })
+
+        return {
+            "video": frame_caption_data.get("video"),
+            "video_path": video_path,
+            "frame_caption_json_path": frame_caption_json_path,
+            "fps": fps,
+            "total_frames": total_frames,
+            "scene_threshold": scene_threshold,
+            "num_scenes": len(results),
+            "scenes": results
+        }
+
+
 def process_dataset(args, dataset, config):
 
     if dataset == "summe":
@@ -499,7 +696,8 @@ def process_dataset(args, dataset, config):
     with open(mapping_path) as f:
         mapping = json.load(f)
 
-    output_dir = os.path.join(args.output_root, args.model_name, dataset)
+    output_dir = _get_scene_caption_output_dir(args, dataset)
+
     os.makedirs(output_dir, exist_ok=True)
 
     model = args.model
@@ -517,27 +715,62 @@ def process_dataset(args, dataset, config):
         video_path = os.path.join(video_dir, video_name + ".mp4")
         video_progress.set_postfix(video=video_name)
 
-        result = model.caption_video_scenes(
-            video_path,
-            config.prompt,
-            config.num_frames,
-            config.max_new_tokens,
-            config.scene_threshold
-        )
+        if args.caption_model == "llm":
+            frame_caption_json_path = os.path.join(
+                args.image_caption_root,
+                args.image_caption_provider,
+                args.image_caption_model,
+                dataset,
+                key + ".json"
+            )
 
-        output = {
-            "video": video_name,
-            "video_path": video_path,
-            "caption_model": args.caption_model,
-            "model_name": args.model_name,
-            "prompt": config.prompt,
-            "num_frames": config.num_frames,
-            "scene_threshold": config.scene_threshold,
-            "fps": result["fps"],
-            "total_frames": result["total_frames"],
-            "num_scenes": result["num_scenes"],
-            "scenes": result["scenes"]
-        }
+            if not os.path.exists(frame_caption_json_path):
+                print("Skip missing frame caption json:", frame_caption_json_path)
+                continue
+
+            result = model.summarize_video(
+                video_path,
+                frame_caption_json_path,
+                config.scene_threshold
+            )
+
+            output = {
+                "video": video_name,
+                "video_path": video_path,
+                "image_caption_provider": args.image_caption_provider,
+                "image_caption_model": args.image_caption_model,
+                "image_caption_json_path": frame_caption_json_path,
+                "scene_caption_model": args.model_name,
+                "scene_prompt_template": config.prompt_template,
+                "scene_threshold": config.scene_threshold,
+                "max_tokens": config.max_tokens,
+                "fps": result["fps"],
+                "total_frames": result["total_frames"],
+                "num_scenes": result["num_scenes"],
+                "scenes": result["scenes"]
+            }
+        else:
+            result = model.caption_video_scenes(
+                video_path,
+                config.prompt,
+                config.num_frames,
+                config.max_new_tokens,
+                config.scene_threshold
+            )
+
+            output = {
+                "video": video_name,
+                "video_path": video_path,
+                "caption_model": args.caption_model,
+                "model_name": args.model_name,
+                "prompt": config.prompt,
+                "num_frames": config.num_frames,
+                "scene_threshold": config.scene_threshold,
+                "fps": result["fps"],
+                "total_frames": result["total_frames"],
+                "num_scenes": result["num_scenes"],
+                "scenes": result["scenes"]
+            }
 
         out_file = os.path.join(output_dir, key + ".json")
 
@@ -555,8 +788,12 @@ def main():
 
     parser.add_argument("--model_name", default=None)
     parser.add_argument("--device", default="auto")
-    parser.add_argument("--caption_model", choices=["llava", "qwen"], default="qwen")
-    parser.add_argument("--scene_threshold", type=float, default=24)
+    parser.add_argument("--caption_model", choices=["llava", "qwen", "llm"], default="qwen")
+    parser.add_argument("--scene_threshold", type=float, default=None)
+    parser.add_argument("--image_caption_root", default="/root/VideoSummarizationAgent/data/metadata/image_caption")
+    parser.add_argument("--image_caption_provider", default="Qwen")
+    parser.add_argument("--image_caption_model", default="Qwen3-VL-8B-Instruct")
+    parser.add_argument("--llm_base_url", default=None)
 
     args = parser.parse_args()
 
@@ -572,7 +809,7 @@ def main():
             config=QwenSceneCaptionConfig
         )
         args.config = QwenSceneCaptionConfig
-    else:
+    elif args.caption_model == "llava":
         args.model_name = "llava-hf/llava-v1.6-mistral-7b-hf"
         if args.scene_threshold is not None:
             LlavaSceneCaptionConfig.scene_threshold = args.scene_threshold
@@ -582,6 +819,16 @@ def main():
             config=LlavaSceneCaptionConfig
         )
         args.config = LlavaSceneCaptionConfig
+    else:
+        args.model_name = args.model_name or "DeepSeek-V3.2"
+        if args.scene_threshold is not None:
+            SceneCaptionSummarizerConfig.scene_threshold = args.scene_threshold
+        args.model = SceneCaptionSummarizer(
+            model_name=args.model_name,
+            base_url=args.llm_base_url,
+            config=SceneCaptionSummarizerConfig
+        )
+        args.config = SceneCaptionSummarizerConfig
 
     for dataset in args.datasets:
         process_dataset(args, dataset, args.config)

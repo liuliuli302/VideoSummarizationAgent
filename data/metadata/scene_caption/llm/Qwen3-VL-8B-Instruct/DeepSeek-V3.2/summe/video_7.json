@@ -1,0 +1,166 @@
+{
+  "video": "Cockpit_Landing",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Cockpit_Landing.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_7.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 9046,
+  "num_scenes": 15,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 2134,
+      "start_sec": 0.0,
+      "end_sec": 71.204467,
+      "duration_sec": 71.237833,
+      "num_frame_captions": 143,
+      "caption": "The scene shows an aerial view from inside an aircraft cockpit, looking down over a sprawling cityscape at dawn or dusk. A winding river cuts through dense urban development, residential neighborhoods, and green hills. The landscape is bathed in soft, hazy, golden light, with illuminated buildings and patchwork fields visible. The perspective shifts between wide panoramic shots and closer views framed by the cockpit window and dashboard, occasionally including a pilot's hand on the controls. The overall sequence captures a serene, sweeping flight over the city during twilight."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 2135,
+      "end_frame": 4104,
+      "start_sec": 71.237833,
+      "end_sec": 136.9368,
+      "duration_sec": 65.732333,
+      "num_frame_captions": 131,
+      "caption": "This scene presents a first-person perspective from the cockpit of a commercial airliner, likely on approach to Frankfurt, Germany. The sequence begins with detailed views of the illuminated instrument panels and the pilot\u2019s hands on the controls during flight. As the aircraft descends, the view shifts from the complex cockpit interior to the expansive vista outside the windshield. The final portion of the scene shows a sprawling aerial cityscape bathed in the hazy, golden light of dawn or dusk, featuring winding rivers, dense urban development, and a prominent cluster of modern skyscrapers characteristic of Frankfurt's skyline."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 4105,
+      "end_frame": 5953,
+      "start_sec": 136.970167,
+      "end_sec": 198.631767,
+      "duration_sec": 61.694967,
+      "num_frame_captions": 123,
+      "caption": "This scene depicts a flight from high-altitude cruise to final approach and landing, filmed from the cockpit. The sequence begins with aerial views of a sprawling cityscape and a distinctive circular stadium nestled in forested hills. As the aircraft descends, the focus shifts to a sprawling airport complex with runways and terminals, nestled among green forests and rolling hills under a hazy, twilight sky. The final portion of the scene shows the pilots' perspective from inside the cockpit, with detailed views of illuminated instrument panels, controls, and the pilots' hands operating the aircraft as it prepares to land."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 5954,
+      "end_frame": 7083,
+      "start_sec": 198.665133,
+      "end_sec": 236.3361,
+      "duration_sec": 37.704333,
+      "num_frame_captions": 76,
+      "caption": "The scene is an aerial view from an airplane cockpit during a descent at dawn or dusk. The aircraft approaches a sprawling airport complex, with its runways, terminals, and ground vehicles clearly visible below. The airport is nestled within a mixed landscape of dense green forests and adjacent urban development. The entire vista is bathed in the soft, hazy light of twilight, casting a golden glow over the scene. The cockpit's dark interior and windshield frame the perspective, emphasizing the view of the landing approach over this vast transportation hub."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 7084,
+      "end_frame": 7101,
+      "start_sec": 236.369467,
+      "end_sec": 236.9367,
+      "duration_sec": 0.6006,
+      "num_frame_captions": 1,
+      "caption": "The scene presents a pilot\u2019s perspective from the cockpit of an aircraft on approach. The view through the window frames a sprawling airport below, visible through a light haze. The silhouette of the pilot in the foreground emphasizes the human element guiding the aircraft. The overall atmosphere is one of calm, focused descent, with the ground details softened by the atmospheric conditions, conveying a moment of transition between sky and earth."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 7102,
+      "end_frame": 7151,
+      "start_sec": 236.970067,
+      "end_sec": 238.605033,
+      "duration_sec": 1.668333,
+      "num_frame_captions": 3,
+      "caption": "This scene presents a consistent aerial perspective from inside an aircraft cockpit or passenger window. The view is directed downward, focusing on the expansive layout of a major airport and the adjacent urban area. The primary subject is the airport's infrastructure, including multiple runways, terminal buildings, and numerous parked aircraft on the ground. The scene captures a moment of approach or flyover, emphasizing the scale and complexity of the aviation hub set against the broader cityscape below."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 7152,
+      "end_frame": 7186,
+      "start_sec": 238.6384,
+      "end_sec": 239.772867,
+      "duration_sec": 1.167833,
+      "num_frame_captions": 3,
+      "caption": "This scene presents an aerial perspective from inside an aircraft, looking down on a major airport. The view encompasses the entire complex, featuring multiple runways, large terminal buildings, and numerous commercial airplanes parked at gates. The surrounding urban infrastructure is visible, indicating the airport's location near a city. The atmosphere is hazy, suggesting possible weather conditions like smog or light fog. The overall impression is of a busy transportation hub, captured during a moment of relative ground-level stillness from the vantage point of an arriving or departing flight."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 7187,
+      "end_frame": 7217,
+      "start_sec": 239.806233,
+      "end_sec": 240.807233,
+      "duration_sec": 1.034367,
+      "num_frame_captions": 2,
+      "caption": "This scene presents a tranquil aerial perspective of a major international airport during the golden hour, either at dawn or dusk. The sprawling complex is alive with activity, featuring long terminal buildings lined with numerous parked aircraft at their gates. An extensive network of runways and taxiways intersects below, forming the vital arteries of the hub. The surrounding urban landscape frames the airport, which is bathed in the soft, warm light characteristic of either sunrise or sunset, casting a serene glow over the entire bustling operation."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 7218,
+      "end_frame": 7445,
+      "start_sec": 240.8406,
+      "end_sec": 248.414833,
+      "duration_sec": 7.6076,
+      "num_frame_captions": 15,
+      "caption": "This scene presents a consistent aerial view of a large, modern airport, likely filmed from an airplane window. The sprawling complex features multiple interconnected terminal buildings, numerous airplanes parked at gates, and an extensive network of runways and taxiways. The surrounding urban infrastructure is visible, indicating the airport's location near a city. The lighting shifts between two distinct conditions: a bright but hazy daytime sky and the warm, golden glow of either sunrise or sunset, which bathes the entire scene in a soft light. The perspective remains stable, offering a comprehensive overview of the airport's layout and scale."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 7446,
+      "end_frame": 7654,
+      "start_sec": 248.4482,
+      "end_sec": 255.388467,
+      "duration_sec": 6.973633,
+      "num_frame_captions": 14,
+      "caption": "This scene presents a serene aerial view of a large, modern airport, likely filmed from an aircraft during takeoff or landing. The perspective, sometimes framed by an airplane window, reveals the full scale of the complex, including multiple terminal buildings, intersecting runways, taxiways, and numerous parked aircraft. The entire landscape is consistently bathed in the soft, warm, golden light of either sunrise or sunset, casting long shadows and creating a calm, atmospheric mood. Surrounding urban infrastructure, such as roads, parking lots, and ancillary buildings, frames the aviation hub, emphasizing its integration into the broader cityscape."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 7655,
+      "end_frame": 7682,
+      "start_sec": 255.421833,
+      "end_sec": 256.322733,
+      "duration_sec": 0.934267,
+      "num_frame_captions": 2,
+      "caption": "The scene depicts an aerial perspective from within an aircraft cockpit, focusing on the view of an airport below. The vantage point shifts from a helicopter to an airplane, indicating a takeoff sequence. The ground view includes terminals, runways, and parked planes. A person with curly hair is visible inside the cockpit, observing the scene as the aircraft prepares for departure. The combined descriptions convey the moment just before flight from an intimate, first-person perspective high above the airport complex."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 7683,
+      "end_frame": 8887,
+      "start_sec": 256.3561,
+      "end_sec": 296.529567,
+      "duration_sec": 40.206833,
+      "num_frame_captions": 80,
+      "caption": "The scene depicts a first-person view from the cockpit of an airplane during its final approach and landing at a sprawling airport. The aircraft descends over highways, urban development, and greenery before aligning with a runway. After landing, the plane taxis and then accelerates down a wet runway for takeoff, with the pilot's shadow visible on the tarmac. The sequence captures the complete cycle from approach to landing and a subsequent takeoff roll, all under hazy skies."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 8888,
+      "end_frame": 8905,
+      "start_sec": 296.562933,
+      "end_sec": 297.130167,
+      "duration_sec": 0.6006,
+      "num_frame_captions": 1,
+      "caption": "The scene captures the tense moments before takeoff from the cockpit of an accelerating aircraft. The view through the windshield shows a rain-slicked runway rushing past, with blurred runway lights and markings streaking by on either side. The engine roar builds as the plane gathers speed, its nose lifting slightly. The pilot's instruments are visible, their dials and displays active. The overall mood is one of focused anticipation, culminating in the moment the wheels leave the ground and the aircraft climbs into the overcast sky."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 8906,
+      "end_frame": 8996,
+      "start_sec": 297.163533,
+      "end_sec": 300.166533,
+      "duration_sec": 3.036367,
+      "num_frame_captions": 6,
+      "caption": "The scene depicts the tense moments of an aircraft takeoff from a first-person cockpit perspective. The plane accelerates rapidly down a wet runway under an overcast sky, building speed for lift-off. The view through the windshield shows the runway's centerline rushing toward the horizon as the engines roar. The primary action is the ground roll before rotation, capturing the focused anticipation of becoming airborne. The wet tarmac adds an element of challenging weather to the standard procedure."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 8997,
+      "end_frame": 9045,
+      "start_sec": 300.1999,
+      "end_sec": 301.8015,
+      "duration_sec": 1.634967,
+      "num_frame_captions": 4,
+      "caption": "This scene captures the dynamic perspective from inside an airplane cockpit during its takeoff roll. The aircraft accelerates rapidly down a wet runway under a cloudy sky, with the tarmac blurring past. The view through the windshield shows the wings extending on either side and the plane's own shadow lengthening ahead on the ground. Inside the cockpit, the control panel is visible in the foreground, emphasizing the pilot's viewpoint. The sequence builds momentum as the plane speeds toward liftoff, conveying the transition from ground to flight from an immersive, first-person vantage point."
+    }
+  ]
+}

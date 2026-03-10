@@ -1,0 +1,86 @@
+{
+  "video": "Playing_on_water_slide",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Playing_on_water_slide.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_16.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 3065,
+  "num_scenes": 7,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 662,
+      "start_sec": 0.0,
+      "end_sec": 22.088733,
+      "duration_sec": 22.1221,
+      "num_frame_captions": 45,
+      "caption": "Children enjoy a backyard water park featuring a large blue and yellow inflatable obstacle course, slide, and pool. They run toward the structure, slide down into the splash pool, and play in the water. The scene shows repeated action of children sliding, splashing, and having fun on a sunny day in a grassy yard surrounded by trees and a fence. The activity is energetic and communal, with multiple kids participating in the water play."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 663,
+      "end_frame": 681,
+      "start_sec": 22.1221,
+      "end_sec": 22.7227,
+      "duration_sec": 0.633967,
+      "num_frame_captions": 1,
+      "caption": "This scene depicts a residential outdoor area, likely a driveway or yard, where a white trailer or RV is parked. The setting appears casual and somewhat cluttered, with various items scattered across the grassy ground. A red vehicle is partly visible to the side, suggesting ongoing activity or storage. The slightly blurry quality implies the scene is captured informally, conveying a sense of everyday, lived-in space rather than a staged or tidy environment."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 682,
+      "end_frame": 708,
+      "start_sec": 22.756067,
+      "end_sec": 23.6236,
+      "duration_sec": 0.9009,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a minor incident on a residential street. A bicycle has fallen over on a grassy lawn, with a white plastic chair also lying overturned nearby. A small group of people has gathered around the site, suggesting a response to the event. Orange traffic cones are present, indicating some level of caution or temporary demarcation of the area. The setting includes parked vehicles and a typical neighborhood street in the background. The overall impression is of a non-serious accident or mishap, likely involving the bicycle, which has drawn the attention of bystanders."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 709,
+      "end_frame": 772,
+      "start_sec": 23.656967,
+      "end_sec": 25.759067,
+      "duration_sec": 2.135467,
+      "num_frame_captions": 4,
+      "caption": "Children play on a large, colorful inflatable slide in a grassy backyard. The scene includes a house and outdoor furniture, with personal items like scattered shoes nearby. A white cat observes from a metal chair, and a stone fountain is also part of the garden setting. The overall atmosphere is one of casual, playful recreation in a domestic outdoor space."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 773,
+      "end_frame": 2360,
+      "start_sec": 25.792433,
+      "end_sec": 78.745333,
+      "duration_sec": 52.986267,
+      "num_frame_captions": 106,
+      "caption": "This scene depicts a lively outdoor event where children and some adults enjoy a large, colorful inflatable water slide. The slide, featuring bright red, yellow, and blue sections, is set up on a grassy field or in a park on a sunny day. People are actively climbing to the top and then sliding down multiple lanes into a splash pool at the bottom. The activity is continuous and energetic, with participants seen sliding, splashing in the water, and waiting for their turn. The overall atmosphere is one of joyful play and summer fun in a communal setting."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 2361,
+      "end_frame": 2533,
+      "start_sec": 78.7787,
+      "end_sec": 84.517767,
+      "duration_sec": 5.772433,
+      "num_frame_captions": 11,
+      "caption": "This scene shows children and adults enjoying a large inflatable water slide at a pool or water park. Multiple people take turns sliding down the colorful blue and yellow structure, splashing into the water at the bottom. Some are captured mid-descent, while others are seen preparing at the top, waiting for their turn. The overall atmosphere is one of playful summer fun, with participants laughing, playing, and cooling off in the water on a sunny day."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 2534,
+      "end_frame": 3064,
+      "start_sec": 84.551133,
+      "end_sec": 102.235467,
+      "duration_sec": 17.7177,
+      "num_frame_captions": 36,
+      "caption": "This scene takes place outdoors in a sunny, grassy yard with trees and a fence. The focus is a large blue and yellow inflatable structure, which is alternately described as a bounce house, pool, or water slide. A shirtless young boy in blue shorts or swim trunks is active throughout, first running and walking toward the inflatable, then interacting with it. Later, he stands or sits on the grass, displaying a temporary cartoon tattoo\u2014such as a skull, monkey, or ghost\u2014on his chest. The sequence shows him playing energetically before pausing, sometimes smiling or shielding his eyes from the sun."
+    }
+  ]
+}

@@ -1,0 +1,516 @@
+{
+  "video": "91IHQYk1IQM",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/91IHQYk1IQM.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_26.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 3312,
+  "num_scenes": 50,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 75,
+      "start_sec": 0.0,
+      "end_sec": 2.5025,
+      "duration_sec": 2.535867,
+      "num_frame_captions": 6,
+      "caption": "This scene opens in darkness before revealing a dense urban landscape framed by two tall, brown brick apartment buildings. The view looks out from between these structures, down a narrow street lined with bare trees in the foreground. In the distance, a hazy city skyline with skyscrapers is visible under a pale, overcast sky. The overall atmosphere is dark, atmospheric, and desaturated, emphasizing the imposing architecture and the stark, wintry feel of the cityscape. The sequence moves from an obscured, shadowy view to a clearer, wider perspective of this confined urban vista."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 76,
+      "end_frame": 97,
+      "start_sec": 2.535867,
+      "end_sec": 3.236567,
+      "duration_sec": 0.734067,
+      "num_frame_captions": 1,
+      "caption": "This scene establishes a classic New York City streetscape, using the architectural foreground to frame a famous landmark. The perspective is defined by two stately brownstone buildings, which create a natural corridor directing the viewer's gaze down the street. In the deep background, the iconic spire of the Empire State Building rises prominently under a bright, cloudless sky. The composition emphasizes depth and scale, contrasting the intimate, textured details of the residential street with the soaring, distant silhouette of the skyscraper, evoking a timeless urban atmosphere."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 98,
+      "end_frame": 149,
+      "start_sec": 3.269933,
+      "end_sec": 4.971633,
+      "duration_sec": 1.735067,
+      "num_frame_captions": 3,
+      "caption": "This scene presents a consistent view of an urban landscape, anchored by two prominent brown brick apartment buildings. These structures, with their many windows and air conditioners, frame a distant view of the Empire State Building. The composition remains stable throughout, with the iconic skyscraper visible in the gap between the residential buildings. The clear blue sky forms a bright backdrop, emphasizing the architectural details and the depth of the cityscape. The focus is on this enduring, layered perspective of New York City."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 150,
+      "end_frame": 215,
+      "start_sec": 5.005,
+      "end_sec": 7.173833,
+      "duration_sec": 2.2022,
+      "num_frame_captions": 5,
+      "caption": "This scene shows a young child, wearing a beige or tan puffer jacket, riding on a subway train. She is seated alone, her arms crossed in a posture that suggests either pensiveness or fatigue. Her expression is consistently serious and thoughtful, varying between looking directly at the camera, gazing forward, or glancing upward. The overall mood is one of quiet introspection or mild boredom during the commute, captured through a series of similar, still moments that emphasize her solemn demeanor amidst the public transit environment."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 216,
+      "end_frame": 313,
+      "start_sec": 7.2072,
+      "end_sec": 10.443767,
+      "duration_sec": 3.269933,
+      "num_frame_captions": 6,
+      "caption": "An elderly man in a beige beanie and dark coat sits on a bench, playing a traditional Chinese stringed instrument with a bow. The scene is set in a subway station, as indicated by a \"Canal Street\" sign on a white-tiled pillar. The man is focused on his performance, and at one point he leans forward near a black railing, holding an umbrella. The overall atmosphere captures a quiet, cultural moment within the bustling underground transit environment."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 314,
+      "end_frame": 371,
+      "start_sec": 10.477133,
+      "end_sec": 12.379033,
+      "duration_sec": 1.935267,
+      "num_frame_captions": 4,
+      "caption": "This scene focuses on a map interface, repeatedly emphasizing the viewer's current location. The key detail is a \"YOU ARE HERE\" marker positioned at the intersection of Canal Street and another, unnamed street. The surrounding area is annotated with several notable landmarks, including the Holiday Inn Downtown Hotel, the NY Chinese Baptist Church, and the Heavenly Grace Buddhist Temple. Through multiple close-up views, the scene consistently centers on this specific intersection and its immediate vicinity, using highlighted circles and arrows to clearly orient the viewer within this urban landscape."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 372,
+      "end_frame": 437,
+      "start_sec": 12.4124,
+      "end_sec": 14.581233,
+      "duration_sec": 2.2022,
+      "num_frame_captions": 5,
+      "caption": "This scene unfolds from a low-angle perspective, focusing on a group of people gathered in a public, urban setting. The view is dominated by their legs and feet, which are clad in a mix of jeans, boots, and sneakers, suggesting a casual crowd. They are standing close together on a sidewalk or similar hard surface, which later becomes littered with colorful confetti from some prior event. The atmosphere appears momentarily still yet slightly disordered, underscored by a fallen yellow cup on the ground and a beige rolling bag nearby, as one individual walks past the scattered items."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 438,
+      "end_frame": 465,
+      "start_sec": 14.6146,
+      "end_sec": 15.5155,
+      "duration_sec": 0.934267,
+      "num_frame_captions": 2,
+      "caption": "This scene presents a celebratory or festive moment from a distinctive, ground-level perspective. The focus is on the lower legs and feet of a group of people, all wearing casual jeans and boots, gathered together on a floor. The ground is liberally covered with a vibrant layer of colorful confetti, suggesting the aftermath of a lively event such as a party, parade, or concert. The low-angle, close-up viewpoint creates an intimate and immersive feel, emphasizing the shared experience and the textured details of the celebration's remnants underfoot."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 466,
+      "end_frame": 498,
+      "start_sec": 15.548867,
+      "end_sec": 16.6166,
+      "duration_sec": 1.1011,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a bustling public event, likely a parade or festival, unfolding in an urban setting. The atmosphere is one of dense, energetic crowds, with spectators lining the streets behind barriers. The perspective shifts from a ground-level view of feet on a littered pavement, suggesting the packed and active nature of the gathering, to a wider shot revealing the sheer scale of the assembled crowd. Together, these views convey a sense of organized chaos, public celebration, and shared communal experience in a crowded city environment."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 499,
+      "end_frame": 595,
+      "start_sec": 16.649967,
+      "end_sec": 19.853167,
+      "duration_sec": 3.236567,
+      "num_frame_captions": 6,
+      "caption": "A vibrant street parade unfolds in a bustling Chinatown district, drawing large crowds of spectators. People line both sides of a narrow urban street behind barricades and barriers, eagerly watching the event. The atmosphere is festive, with traditional Chinese signage visible on the buildings and some attendees in celebratory attire. The central focus is the roadway, where a few individuals stand or gather, suggesting the main procession is either approaching or has paused. The scene captures a lively community celebration, with the packed crowds and organized layout highlighting a popular cultural spectacle."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 596,
+      "end_frame": 705,
+      "start_sec": 19.886533,
+      "end_sec": 23.5235,
+      "duration_sec": 3.670333,
+      "num_frame_captions": 8,
+      "caption": "In this scene, a person, sometimes seen as a child or young man, interacts with a metal barrier\u2014either a fence, gate, or railing\u2014in an urban or architectural setting. The individual, wearing blue or grey clothing, is consistently shown gripping the bars with their hands, either peering through, leaning against, or looking out from behind the structure. The setting features stone buildings with arched windows and doorways, suggesting a historical or institutional location. The actions convey a sense of contemplation, observation, or perhaps restrained curiosity, as the person gazes outward from their confined vantage point."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 706,
+      "end_frame": 765,
+      "start_sec": 23.556867,
+      "end_sec": 25.5255,
+      "duration_sec": 2.002,
+      "num_frame_captions": 4,
+      "caption": "The scene follows a person walking through a busy urban environment, transitioning from a quiet, narrow alley into a crowded main street. The atmosphere shifts from a calm, sunlit moment to a bustling, overcast cityscape filled with pedestrians, many under umbrellas in the rain. The setting suggests a vibrant city like New York, with flags, signs, and people in winter clothing, capturing the dynamic movement and dense energy of city life from an intimate, low-angle perspective."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 766,
+      "end_frame": 811,
+      "start_sec": 25.558867,
+      "end_sec": 27.060367,
+      "duration_sec": 1.534867,
+      "num_frame_captions": 3,
+      "caption": "The scene takes place on a busy city street, where a young girl with dark hair, wearing a blue jacket, is the central focus. She is looking up and to the side while holding a red card or envelope. The urban environment is bustling with other people and activity, with tall buildings visible in the background. The moment captures her pause within the crowd, holding the distinctive red item."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 812,
+      "end_frame": 861,
+      "start_sec": 27.093733,
+      "end_sec": 28.7287,
+      "duration_sec": 1.668333,
+      "num_frame_captions": 3,
+      "caption": "A young girl in a blue jacket stands on a busy city street, holding a red card. The scene is consistent across the frames, showing her stationary on the sidewalk with brick buildings and street signs in the background. Another child is briefly visible nearby, but the focus remains on the girl and her card. The setting suggests an urban environment, but there is no significant action or change in her position or activity throughout the sequence."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 862,
+      "end_frame": 897,
+      "start_sec": 28.762067,
+      "end_sec": 29.9299,
+      "duration_sec": 1.2012,
+      "num_frame_captions": 2,
+      "caption": "This scene captures a vibrant and energetic street parade, where performers in elaborate red and gold costumes move through the thoroughfare. They engage in lively entertainment, drawing the focus of a large and enthusiastic crowd gathered behind safety barricades. The atmosphere is one of celebration and spectacle, filled with the sounds of cheering and the visual feast of colorful pageantry. The event showcases a communal gathering where the dynamic performance in the street creates a shared experience of joy and festivity for all the onlookers lining the route."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 898,
+      "end_frame": 953,
+      "start_sec": 29.963267,
+      "end_sec": 31.798433,
+      "duration_sec": 1.868533,
+      "num_frame_captions": 4,
+      "caption": "This vibrant street parade unfolds with a lively crowd of onlookers cheering on the energetic performers. Dancers in colorful costumes, prominently featuring red and gold attire, move through the street. One performer is notably holding a large red umbrella aloft. The backdrop of the scene includes the signage for Cathay Bank, situating the event in an urban setting. Many spectators are engaged in capturing the moment, using their phones to record or photograph the festive spectacle. The overall atmosphere is one of communal celebration and dynamic cultural display."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 954,
+      "end_frame": 1025,
+      "start_sec": 31.8318,
+      "end_sec": 34.200833,
+      "duration_sec": 2.4024,
+      "num_frame_captions": 5,
+      "caption": "The scene captures a vibrant street parade from the perspective of spectators. A dense, festive crowd, many dressed in red and gold costumes, gathers behind barriers to watch the procession. The foreground is playfully framed by large, floating blue balloons, through which the colorful celebration is viewed. Onlookers are actively engaged, with many holding up phones to record the event. The bustling atmosphere, set against the backdrop of a building labeled \"CATHAY BANK,\" conveys a lively public celebration filled with music, movement, and communal excitement."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 1026,
+      "end_frame": 1072,
+      "start_sec": 34.2342,
+      "end_sec": 35.769067,
+      "duration_sec": 1.568233,
+      "num_frame_captions": 3,
+      "caption": "This scene captures a vibrant Chinese New Year street parade, likely in a Chinatown district. Performers in traditional red and gold costumes, including lion dancers, energetically perform for a large and enthusiastic crowd of spectators. The celebration unfolds on a lively urban street, with the Cathay Bank building serving as a prominent backdrop throughout the event. The atmosphere is one of communal joy and cultural display, marking the festive occasion with dynamic dancing and public gathering."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 1073,
+      "end_frame": 1097,
+      "start_sec": 35.802433,
+      "end_sec": 36.603233,
+      "duration_sec": 0.834167,
+      "num_frame_captions": 2,
+      "caption": "A vibrant street parade is in full swing in front of a Cathay Bank, creating a lively and festive atmosphere. Performers dressed in bright red costumes dance energetically through the street, captivating a gathered crowd of enthusiastic spectators. The celebration is amplified by bursts of colorful confetti filling the air and a cheerful display of balloons. The scene captures a moment of communal joy and cultural celebration, with the bank's signage serving as a distinctive backdrop to the dynamic display of music, movement, and shared excitement."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 1098,
+      "end_frame": 1195,
+      "start_sec": 36.6366,
+      "end_sec": 39.873167,
+      "duration_sec": 3.269933,
+      "num_frame_captions": 6,
+      "caption": "A vibrant dragon dance performance enlivens a bustling urban street festival. Performers in red and gold costumes energetically maneuver a long, ornate dragon puppet through the dense crowd. Onlookers gather closely, many holding up phones to capture the lively spectacle set against a backdrop of festive red and gold decorations and city buildings. The scene is one of dynamic movement and communal celebration, with the dragon's sinuous motions and the performers' coordinated efforts creating the focal point of the energetic street festivities."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 1196,
+      "end_frame": 1272,
+      "start_sec": 39.906533,
+      "end_sec": 42.4424,
+      "duration_sec": 2.569233,
+      "num_frame_captions": 5,
+      "caption": "A lively street parade moves through a bustling urban setting with Chinese storefronts. A group of smiling students in uniforms and other participants in festive costumes and winter hats are the main performers. They carry a red banner with Chinese characters and wave colorful pom-poms. The scene is led by a cheerful woman in a bright orange coat and red hat. The overall mood is joyful and vibrant, with the crowd dancing and interacting warmly with onlookers."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 1273,
+      "end_frame": 1325,
+      "start_sec": 42.475767,
+      "end_sec": 44.210833,
+      "duration_sec": 1.768433,
+      "num_frame_captions": 4,
+      "caption": "This scene captures a lively Chinese New Year parade, likely set in the United States. Performers dressed in traditional red costumes and elaborate headpieces march down the street, energetically waving flags and dancing. They carry vibrant red banners adorned with Chinese characters. A crowd of spectators lines the sidelines, watching the celebratory procession. The overall atmosphere is one of communal joy and cultural celebration, marking the festive occasion."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 1326,
+      "end_frame": 1459,
+      "start_sec": 44.2442,
+      "end_sec": 48.681967,
+      "duration_sec": 4.471133,
+      "num_frame_captions": 9,
+      "caption": "This scene captures a vibrant street festival in Chinatown, where a dense, bustling crowd fills a narrow urban thoroughfare. The atmosphere is celebratory, with numerous blue balloons bobbing above the throng and festive decorations strung between the traditional brick buildings. The setting includes architectural elements like fire escapes, an elevated train track, and a bridge or overpass in the background. The event appears to be a lively parade, viewed from within the crowd under a clear or slightly overcast sky, emphasizing the packed, energetic participation of the community."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 1460,
+      "end_frame": 1577,
+      "start_sec": 48.715333,
+      "end_sec": 52.619233,
+      "duration_sec": 3.937267,
+      "num_frame_captions": 8,
+      "caption": "This scene captures a lively, crowded celebration, likely a festival or party, viewed from a series of blurry, close-up perspectives. The focus is primarily on the backs of attendees, particularly children or individuals with dark hair adorned with vibrant pink floral clips and pom-poms. They are dressed in black outfits accented with pink, positioned against a vibrant, out-of-focus backdrop dominated by colorful balloons, red fabric, and other festive decorations. The low-angle shots and blurred figures convey a sense of immersive movement and joyful chaos within the packed setting, emphasizing the colorful, energetic atmosphere over clear individual actions."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 1578,
+      "end_frame": 1598,
+      "start_sec": 52.6526,
+      "end_sec": 53.319933,
+      "duration_sec": 0.7007,
+      "num_frame_captions": 1,
+      "caption": "This scene features the beloved red Muppet Elmo, who is playfully holding a bright blue balloon. The soft-focus cinematography creates a warm, dreamlike atmosphere, emphasizing a moment of simple childhood joy. The blurred background keeps the attention solely on Elmo and his balloon, conveying a sense of innocent wonder and gentle celebration."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 1599,
+      "end_frame": 1629,
+      "start_sec": 53.3533,
+      "end_sec": 54.3543,
+      "duration_sec": 1.034367,
+      "num_frame_captions": 2,
+      "caption": "This scene presents a close-up, abstract view of a festive environment, likely a celebration or performance. The focus is intentionally soft, creating a vibrant blur of warm colors. Dominant red tones, possibly from costumes, fabric, or decorations, fill the frame, accented by hints of white and gold. A yellow balloon comes into slightly clearer view in the foreground, adding a pop of contrasting color against the indistinct, patterned background. The overall impression is one of lively, colorful motion and atmosphere, where specific details are less important than the sensory experience of color and form."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 1630,
+      "end_frame": 1661,
+      "start_sec": 54.387667,
+      "end_sec": 55.422033,
+      "duration_sec": 1.067733,
+      "num_frame_captions": 2,
+      "caption": "This scene captures a close-up, dynamic view of festive decorations during a celebration. The focus is on the vibrant textures and colors of red and gold ornaments, including a circular bauble and a shiny sphere, which are blurred by motion. The overall impression is one of lively energy and traditional festivity, conveyed through the deliberate use of motion blur that suggests movement, perhaps from dancing, camera panning, or the swaying of the decorations themselves."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 1662,
+      "end_frame": 1718,
+      "start_sec": 55.4554,
+      "end_sec": 57.323933,
+      "duration_sec": 1.9019,
+      "num_frame_captions": 4,
+      "caption": "This scene captures a lively street performance of a traditional Chinese lion dance. The focus is on the dynamic, close-up movements of the vibrant red and gold lion costume, its intricate patterns blurred by the energetic motion. The celebration unfolds on a city street, where a crowd gathers, some wearing red shirts, under the waving of a bright flag. Colorful storefronts and a yellow Chinese sign form the backdrop, immersing the viewer in the festive atmosphere of the cultural event."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 1719,
+      "end_frame": 1750,
+      "start_sec": 57.3573,
+      "end_sec": 58.391667,
+      "duration_sec": 1.067733,
+      "num_frame_captions": 2,
+      "caption": "A woman in traditional red and gold attire and headwear is participating in a lively street parade. She is smiling and moving through a dense crowd in front of a storefront labeled \"Forever Health Pharmacy.\" The atmosphere is festive, with balloons visible among the spectators. The scene captures a moment of cultural celebration and communal joy during a public procession."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 1751,
+      "end_frame": 1780,
+      "start_sec": 58.425033,
+      "end_sec": 59.392667,
+      "duration_sec": 1.001,
+      "num_frame_captions": 2,
+      "caption": "The scene captures a lively street parade on a bustling urban thoroughfare. Performers adorned in elaborate red and gold traditional costumes dance energetically, their vibrant attire creating a dynamic spectacle. The procession moves past local storefronts, including a \"Forever Health Pharmacy,\" situating the celebration within a familiar cityscape. The energy and motion of the event are further conveyed through a brief, abstract visual impression dominated by warm red tones, evoking the blurred speed and colorful fervor of the passing parade."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 1781,
+      "end_frame": 1850,
+      "start_sec": 59.426033,
+      "end_sec": 61.728333,
+      "duration_sec": 2.335667,
+      "num_frame_captions": 5,
+      "caption": "This scene captures a lively Chinese lion dance performance as part of a vibrant street parade. The colorful lion costume captivates a large crowd of spectators gathered on a busy city street. The event takes place in front of a Cathay Bank, with other storefronts and a Chase Bank also visible in the background. Adding to the festive atmosphere, large promotional balloons for JetLife and MetLife are seen floating above the gathering. The overall impression is one of communal celebration and cultural display in an urban setting."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 1851,
+      "end_frame": 1919,
+      "start_sec": 61.7617,
+      "end_sec": 64.030633,
+      "duration_sec": 2.3023,
+      "num_frame_captions": 4,
+      "caption": "The scene is a vibrant cultural celebration featuring a group of performers in colorful traditional costumes. They energetically dance and parade, their movements creating a dynamic blur. Their performance involves waving large red and yellow flags, brandishing bright pom-poms, and dancing with large fans of matching colors. The atmosphere is lively and energetic, filled with motion and the coordinated spectacle of the troupe's choreography amidst a bustling crowd."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 1920,
+      "end_frame": 1968,
+      "start_sec": 64.064,
+      "end_sec": 65.6656,
+      "duration_sec": 1.634967,
+      "num_frame_captions": 4,
+      "caption": "In a lively city street, a parade or public event is underway, drawing a large crowd of spectators who watch from behind barricades. The central figure is a person wearing a large, cartoonish mask, which is vividly colored in red or pink and features an exaggerated, smiling face. This masked participant marches purposefully through the street, becoming the focal point of the scene. The atmosphere is one of public spectacle and mild celebration, with onlookers gathered to observe the procession. The consistent elements are the distinctive mask, the marching figure, and the attentive crowd confined behind barriers."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 1969,
+      "end_frame": 2012,
+      "start_sec": 65.698967,
+      "end_sec": 67.133733,
+      "duration_sec": 1.468133,
+      "num_frame_captions": 3,
+      "caption": "In a lively street scene, a crowd of spectators watches from behind barricades as a celebratory event unfolds. A central figure, wearing a red jacket, enthusiastically throws handfuls of colorful confetti into the air, creating a festive atmosphere. The action intensifies as the person then bends over on the confetti-covered ground, possibly in a moment of playful exertion or celebration. The scene culminates with two individuals in red shirts sliding or falling onto the street, now densely carpeted with the colorful paper, suggesting a moment of shared, exuberant fun amidst the ongoing public spectacle."
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 2013,
+      "end_frame": 2034,
+      "start_sec": 67.1671,
+      "end_sec": 67.8678,
+      "duration_sec": 0.734067,
+      "num_frame_captions": 1,
+      "caption": "In a vibrant urban setting, a person clad in a red jacket and dark pants energetically sprints across a street. The scene is filled with celebration, as colorful confetti rains down and blankets the asphalt, creating a festive and dynamic atmosphere. The individual's movement suggests a moment of exuberant participation, perhaps in a parade, marathon, or cultural festival. The contrast between the bright red attire and the multicolored paper debris highlights the action and joy of the event, capturing a single, lively moment within a larger communal gathering."
+    },
+    {
+      "scene_index": 35,
+      "start_frame": 2035,
+      "end_frame": 2139,
+      "start_sec": 67.901167,
+      "end_sec": 71.3713,
+      "duration_sec": 3.5035,
+      "num_frame_captions": 7,
+      "caption": "The scene captures a vibrant street parade where a performer in a red costume is the central focus. They engage in dynamic acrobatics, including handstands and breakdance moves, on a confetti-covered street. Spectators watch from behind barriers as a clown in yellow and a Ronald McDonald impersonator join the lively atmosphere. The event is filled with energy, featuring dancing, falling confetti, and a crowd of onlookers enjoying the celebration."
+    },
+    {
+      "scene_index": 36,
+      "start_frame": 2140,
+      "end_frame": 2185,
+      "start_sec": 71.404667,
+      "end_sec": 72.906167,
+      "duration_sec": 1.534867,
+      "num_frame_captions": 3,
+      "caption": "This scene captures a lively street parade or public event, filmed from the perspective of a person holding a smartphone. The focus is on a procession of performers dressed in coordinated blue and white or blue and red uniforms, many of whom are seated or moving behind prominent red banners. The atmosphere is vibrant and crowded, with spectators visible in the blurred background alongside festive decorations. The handheld, slightly unstable recording conveys a sense of immediacy and participation in the bustling celebration."
+    },
+    {
+      "scene_index": 37,
+      "start_frame": 2186,
+      "end_frame": 2250,
+      "start_sec": 72.939533,
+      "end_sec": 75.075,
+      "duration_sec": 2.168833,
+      "num_frame_captions": 5,
+      "caption": "The scene captures a joyful woman wearing a red beanie, smiling and looking towards the camera and off to the side. She is positioned in the foreground, while the blurred background features a crowd of spectators. The atmosphere is festive, with decorations visible, and the movement of a lion dance performer through the crowd adds a dynamic cultural element to the celebration. The focus remains on her cheerful expression amidst the lively public event."
+    },
+    {
+      "scene_index": 38,
+      "start_frame": 2251,
+      "end_frame": 2266,
+      "start_sec": 75.108367,
+      "end_sec": 75.608867,
+      "duration_sec": 0.533867,
+      "num_frame_captions": 1,
+      "caption": "In a vibrant winter setting, three women, bundled warmly in coats, share a moment of exuberant celebration. Their joy is palpable as they enthusiastically activate handheld confetti canisters, releasing a brilliant, multicolored shower into the crisp air. The scene captures a spontaneous and festive atmosphere, filled with laughter and camaraderie. The swirling confetti adds a dynamic and playful visual element against the outdoor backdrop, emphasizing a shared achievement or a special occasion being marked with collective cheer and high spirits."
+    },
+    {
+      "scene_index": 39,
+      "start_frame": 2267,
+      "end_frame": 2405,
+      "start_sec": 75.642233,
+      "end_sec": 80.246833,
+      "duration_sec": 4.637967,
+      "num_frame_captions": 9,
+      "caption": "A lively outdoor celebration unfolds in a snowy urban setting, where a joyful crowd gathers. A central figure in a festive snowman hat sprays pink confetti from a can, creating a vibrant shower that rains down on the smiling onlookers. The scene is filled with a festive atmosphere, featuring other participants in whimsical hats like penguin and chicken designs. People are captured in motion, walking and mingling amidst the falling confetti and snow, conveying a sense of shared, exuberant public revelry."
+    },
+    {
+      "scene_index": 40,
+      "start_frame": 2406,
+      "end_frame": 2480,
+      "start_sec": 80.2802,
+      "end_sec": 82.749333,
+      "duration_sec": 2.5025,
+      "num_frame_captions": 5,
+      "caption": "In a lively street celebration, a young boy dressed in a dark coat and flat cap is the central figure amidst a bustling crowd. The ground is blanketed with colorful confetti. He is initially seen intently focused on a small object held in his hands. His energy builds as he begins to throw handfuls of confetti into the air with enthusiasm. The scene culminates with the boy raising his fist triumphantly, still clutching the small object, fully immersed in the festive atmosphere surrounding him."
+    },
+    {
+      "scene_index": 41,
+      "start_frame": 2481,
+      "end_frame": 2519,
+      "start_sec": 82.7827,
+      "end_sec": 84.050633,
+      "duration_sec": 1.3013,
+      "num_frame_captions": 2,
+      "caption": "This scene captures a vibrant, choreographed performance by a group of performers in matching red jackets during an outdoor parade or festival. Their routine involves a dynamic, synchronized display using large props. They begin by energetically waving blue and white patterned fans, creating a flowing visual effect. The performance then transitions as they exchange these fans for large, white, snowflake-shaped props, which they wave with equal vigor. The coordinated movements and festive atmosphere suggest a celebratory cultural or seasonal presentation, likely designed to entertain a watching crowd along a parade route."
+    },
+    {
+      "scene_index": 42,
+      "start_frame": 2520,
+      "end_frame": 2543,
+      "start_sec": 84.084,
+      "end_sec": 84.851433,
+      "duration_sec": 0.8008,
+      "num_frame_captions": 2,
+      "caption": "In a vibrant outdoor public event, a coordinated group of performers, all dressed in matching red jackets or outfits, executes a lively and synchronized dance. Their routine prominently features large, colorful props\u2014specifically blue and white fans or flags\u2014which they manipulate in unison to create dynamic visual patterns. The choreography is precise and energetic, set against the backdrop of an open-air venue filled with spectators. The overall scene captures a celebratory and culturally rich performance, where the movement of the props and the dancers' unified motions combine to form a striking spectacle of color and rhythm."
+    },
+    {
+      "scene_index": 43,
+      "start_frame": 2544,
+      "end_frame": 2598,
+      "start_sec": 84.8848,
+      "end_sec": 86.6866,
+      "duration_sec": 1.835167,
+      "num_frame_captions": 4,
+      "caption": "This scene takes place in a bustling outdoor winter market. A young girl in a black coat interacts with a food vendor, examining a small red package near a steaming food cart. Nearby, a person in a white coat and red gloves moves through the crowded area. The activity centers around commerce, as another individual in a black coat with pink trim handles money at a fruit stand featuring crates of oranges. The overall atmosphere is one of busy, informal trade in a cold-weather setting."
+    },
+    {
+      "scene_index": 44,
+      "start_frame": 2599,
+      "end_frame": 2696,
+      "start_sec": 86.719967,
+      "end_sec": 89.956533,
+      "duration_sec": 3.269933,
+      "num_frame_captions": 6,
+      "caption": "This scene captures a vibrant street festival featuring a lively lion dance performance. A costumed performer, adorned in an ornate outfit with a glittering gold fringe and colorful headdress, dances energetically for a gathered crowd. The atmosphere is festive, with colorful decorations and spectators watching from behind barriers. At one moment, a burst of pink smoke or powder briefly obscures the view, adding to the dynamic and celebratory spectacle. The overall impression is one of motion, color, and communal celebration, with some frames rendered in artistic blurs that convey the energy and movement of the event."
+    },
+    {
+      "scene_index": 45,
+      "start_frame": 2697,
+      "end_frame": 2726,
+      "start_sec": 89.9899,
+      "end_sec": 90.957533,
+      "duration_sec": 1.001,
+      "num_frame_captions": 2,
+      "caption": "This scene captures the vibrant energy of a crowded Chinatown street, likely in New York City. The narrow thoroughfare is lined with distinctive red brick buildings adorned with Chinese signage, creating a colorful and culturally rich backdrop. A steady flow of pedestrians moves through the bustling environment, contributing to the lively atmosphere. Among them is an individual wearing a white chef's hat, suggesting the area's strong culinary presence. The overall impression is one of constant, organized movement within a densely packed urban neighborhood defined by its unique architectural and commercial character."
+    },
+    {
+      "scene_index": 46,
+      "start_frame": 2727,
+      "end_frame": 2778,
+      "start_sec": 90.9909,
+      "end_sec": 92.6926,
+      "duration_sec": 1.735067,
+      "num_frame_captions": 4,
+      "caption": "This scene captures a lively urban street festival or public event, bustling with crowds and vibrant activity. The focus is on a man wearing a distinctive white chef's or sailor-style hat, who appears to be a participant or observer within the throng. He is seen looking off to the side, perhaps watching the festivities or interacting with the surrounding commotion. The colorful storefronts and dense gathering of people contribute to an atmosphere of celebration and communal energy, suggesting a spontaneous or organized street event full of movement and color."
+    },
+    {
+      "scene_index": 47,
+      "start_frame": 2779,
+      "end_frame": 2922,
+      "start_sec": 92.725967,
+      "end_sec": 97.4974,
+      "duration_sec": 4.8048,
+      "num_frame_captions": 9,
+      "caption": "This scene depicts a small red kite flying high in a bright blue sky, which is partly cloudy with wispy clouds. Below, the kite soars over a row of colorful, multi-story urban buildings. These structures are weathered brick townhouses or brownstones, characterized by their historic appearance and prominent external fire escapes. The consistent imagery across frames shows the kite steadily drifting above this vibrant cityscape, with the colorful buildings and clear sky forming a picturesque backdrop. The focus is on the tranquil contrast between the dynamic, soaring kite and the static, weathered architecture of the city neighborhood."
+    },
+    {
+      "scene_index": 48,
+      "start_frame": 2923,
+      "end_frame": 3030,
+      "start_sec": 97.530767,
+      "end_sec": 101.101,
+      "duration_sec": 3.6036,
+      "num_frame_captions": 8,
+      "caption": "This scene depicts a white New York City sanitation truck navigating a street covered in colorful confetti. Initially shown in motion, the truck drives through the debris, scattering it as it moves. The perspective shifts to a side view, revealing details like the front wheels and undercarriage, with one shot showing the wheels slightly off the pavement. A blurred green object passes in the foreground during its travel. The sequence concludes with the truck coming to a stop, now parked amidst the vibrant litter, suggesting it has either finished its route or is preparing for cleanup on the festive street."
+    },
+    {
+      "scene_index": 49,
+      "start_frame": 3031,
+      "end_frame": 3311,
+      "start_sec": 101.134367,
+      "end_sec": 110.477033,
+      "duration_sec": 9.376033,
+      "num_frame_captions": 18,
+      "caption": "This scene consists of a series of title cards or promotional graphics for \"Romio,\" all sharing a consistent design. The visuals feature a black background with white and gold text displaying the Romio logo and the tagline \"Follow Your Neighborhood.\" Each frame also includes a call to action with a Facebook URL or link specifically for Chinatown NYC. The sequence serves as an introductory or promotional bumper for the video, establishing the brand and its connection to the local community."
+    }
+  ]
+}

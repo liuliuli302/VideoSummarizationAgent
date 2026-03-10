@@ -1,0 +1,26 @@
+{
+  "video": "Air_Force_One",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Air_Force_One.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_1.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 25.0,
+  "total_frames": 4494,
+  "num_scenes": 1,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 4493,
+      "start_sec": 0.0,
+      "end_sec": 179.72,
+      "duration_sec": 179.76,
+      "num_frame_captions": 300,
+      "caption": "The scene opens with a wide, empty view of an airport runway at dusk, stretching toward a distant city skyline under a hazy, golden-orange sky, framed by lush green trees. An airplane then appears in the sky, descending for landing against this dramatic sunset backdrop. As the sequence progresses, the aircraft\u2014a large, white and blue Air Force One jet with \"UNITED STATES OF AMERICA\" markings\u2014completes its approach, touches down, and taxis along the runway toward the camera. The scene concludes with the jet taxiing and eventually coming to a stop on the runway, maintaining the serene, golden-hour atmosphere with the city and trees in the background."
+    }
+  ]
+}

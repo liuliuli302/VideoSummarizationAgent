@@ -1,0 +1,526 @@
+{
+  "video": "JKpqYvAdIsw",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/JKpqYvAdIsw.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_32.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 25.0,
+  "total_frames": 3802,
+  "num_scenes": 51,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 49,
+      "start_sec": 0.0,
+      "end_sec": 1.96,
+      "duration_sec": 2.0,
+      "num_frame_captions": 4,
+      "caption": "This scene presents promotional graphics for the ICC World Twenty20 Bangladesh 2014 cricket tournament. The visuals consistently feature the event's official logo and descriptive text, which announces a flash mob performance to be held at the Palma Bus Terminal. The performance is organized by the Palma University of Science & Technology. While the core promotional message remains the same, there is a minor inconsistency in the details, as the captions alternately describe the flash mob's duration as either one minute or ten seconds. The scene's purpose is to advertise this upcoming tournament-related event."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 50,
+      "end_frame": 267,
+      "start_sec": 2.0,
+      "end_sec": 10.68,
+      "duration_sec": 8.72,
+      "num_frame_captions": 14,
+      "caption": "This scene unfolds at a busy bus terminal in Pabna, Bangladesh, beginning with a black fedora hat lying abandoned on the pavement as pedestrians and vehicles pass by. The focus then shifts to a street performer, a confident man in a blue tank top and sunglasses, who walks through the bustling street holding a microphone, drawing the attention of onlookers. He eventually begins a dynamic performance, crouching low on the road to skillfully manipulate a white ball with his hands, captivating a crowd that has gathered on the sidewalk to watch his act."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 268,
+      "end_frame": 305,
+      "start_sec": 10.72,
+      "end_sec": 12.2,
+      "duration_sec": 1.52,
+      "num_frame_captions": 3,
+      "caption": "In this scene, a hand reaches upward into a stark, bright void toward a small, dark, and indistinct object. The environment is overwhelmingly white and featureless, creating a sense of isolation and focus on the central action. The object appears to float, disconnected from any context, while the hand\u2019s gesture suggests an attempt to grasp or interact with it. The composition emphasizes minimalism and contrast, stripping away detail to highlight the simple, almost abstract relationship between the reaching figure and the elusive target."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 306,
+      "end_frame": 690,
+      "start_sec": 12.24,
+      "end_sec": 27.6,
+      "duration_sec": 15.4,
+      "num_frame_captions": 26,
+      "caption": "This scene begins with a blank screen that gradually resolves into a promotional graphic for the 2014 ICC World Twenty20 cricket tournament in Bangladesh, featuring a tiger's face and event branding. The focus then shifts to a live outdoor event, where a young man in a blue tank top and hat energetically dances in the middle of a street. He performs a series of dynamic moves, including breakdancing and high kicks, as a crowd of onlookers gathers around him on the paved area to watch his spirited performance."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 691,
+      "end_frame": 732,
+      "start_sec": 27.64,
+      "end_sec": 29.28,
+      "duration_sec": 1.68,
+      "num_frame_captions": 2,
+      "caption": "In a lively public setting, a crowd has gathered on a street to watch a performance. The central focus is on two main performers: a man dressed in a distinctive blue outfit and a woman wearing a patterned dress. They engage in a dance or cultural display, which captivates the surrounding audience. The atmosphere suggests a celebratory or traditional event, with onlookers forming a circle around the performers to observe their movements. The scene conveys a sense of communal enjoyment and shared cultural experience, highlighting a moment of public entertainment."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 733,
+      "end_frame": 786,
+      "start_sec": 29.32,
+      "end_sec": 31.44,
+      "duration_sec": 2.16,
+      "num_frame_captions": 4,
+      "caption": "A group of young people performs an energetic, choreographed dance routine outdoors on a paved road or street. The performance involves central dancers, including a man and a woman, moving with enthusiasm as onlookers watch from the sidelines. During the scene, some individuals are also seen carrying large bundles or rolled-up mats on their shoulders, suggesting a blend of festive performance and communal activity or preparation happening simultaneously in the background."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 787,
+      "end_frame": 822,
+      "start_sec": 31.48,
+      "end_sec": 32.88,
+      "duration_sec": 1.44,
+      "num_frame_captions": 2,
+      "caption": "A large crowd has gathered in a street for a public event, creating a dense and lively atmosphere. Many attendees are actively engaged, holding up their phones to capture the moment, indicating a focal point of interest within the group. The scene suggests a spontaneous or organized gathering, with the central assembly drawing the primary attention while other individuals remain on the periphery. The overall impression is one of collective focus and shared experience, typical of a street performance, celebrity sighting, or similar public occurrence."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 823,
+      "end_frame": 856,
+      "start_sec": 32.92,
+      "end_sec": 34.24,
+      "duration_sec": 1.36,
+      "num_frame_captions": 3,
+      "caption": "This scene follows a couple as they move through a bustling outdoor public space. Initially, they are seen dancing together in the middle of a crowded street, drawing attention as other pedestrians navigate around them. The scene then shifts to show them walking side-by-side through the same busy area. Their attire is casual and summery, with the man in a graphic t-shirt and sunglasses and the woman in a patterned dress. The overall sequence captures a moment of spontaneous joy and connection within the lively flow of everyday street life."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 857,
+      "end_frame": 922,
+      "start_sec": 34.28,
+      "end_sec": 36.88,
+      "duration_sec": 2.64,
+      "num_frame_captions": 4,
+      "caption": "In a lively outdoor setting, a man and a woman take center stage, dancing with high energy on a paved street or road. They are the focal point of the scene, leading a larger group of young people who join in the spirited performance. A crowd of onlookers has gathered around them, forming an attentive audience that watches the dynamic display. The atmosphere is one of spontaneous celebration or street performance, with the dancers' movements captivating the spectators in this public, urban space."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 923,
+      "end_frame": 995,
+      "start_sec": 36.92,
+      "end_sec": 39.8,
+      "duration_sec": 2.92,
+      "num_frame_captions": 5,
+      "caption": "A lively street dance performance takes place, featuring a central couple\u2014a young man and woman\u2014dancing energetically in the middle of a paved road. They are surrounded by a group of other dancers and a large crowd of engaged spectators who watch and record the scene. The atmosphere is celebratory and rhythmic, with onlookers gathered around the performers in a vibrant, public display."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 996,
+      "end_frame": 1078,
+      "start_sec": 39.84,
+      "end_sec": 43.12,
+      "duration_sec": 3.32,
+      "num_frame_captions": 5,
+      "caption": "This scene captures a vibrant outdoor dance performance in a public street or square. A central couple dances with high energy at the heart of the action, leading a lively group of dancers who move with expressive, arm-raising poses. They perform on a paved surface, surrounded by a crowd of spectators who watch the display and cheer enthusiastically. The atmosphere is one of communal celebration and spontaneous entertainment, with the dancers' spirited movements creating a focal point for the gathered onlookers."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 1079,
+      "end_frame": 1107,
+      "start_sec": 43.16,
+      "end_sec": 44.28,
+      "duration_sec": 1.16,
+      "num_frame_captions": 2,
+      "caption": "A large, energetic crowd has gathered in a public space, creating a lively and somewhat chaotic atmosphere. The focus is on the collective energy, with some individuals dancing or moving actively in the center of the group. Their actions draw the intent attention of the surrounding onlookers, who form a ring around them. The scene captures a moment of spontaneous public assembly, characterized by a mix of participation and observation, where the crowd's dynamic shifts between organized celebration and potential unrest."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 1108,
+      "end_frame": 1133,
+      "start_sec": 44.32,
+      "end_sec": 45.32,
+      "duration_sec": 1.04,
+      "num_frame_captions": 2,
+      "caption": "This scene captures a vibrant street celebration where a large, energetic crowd is dancing together in a lively atmosphere. The focus is on a central couple\u2014a woman in a dark dress and a man in a blue shirt\u2014who are dancing joyfully amidst the group. People are jumping and raising their arms in collective excitement on the paved roadway. The overall mood is one of unrestrained festivity and shared happiness, as the community comes together in this spirited public dance."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 1134,
+      "end_frame": 1159,
+      "start_sec": 45.36,
+      "end_sec": 46.36,
+      "duration_sec": 1.04,
+      "num_frame_captions": 2,
+      "caption": "A vibrant street performance captivates a large, enthusiastic crowd gathered on a paved road. A group of dancers, dressed in colorful attire, moves with energetic and lively choreography at the center of the spectacle. Their dynamic movements and rhythmic flow are the focal point, drawing the attention of the surrounding onlookers who watch with keen interest. The scene is one of communal entertainment and cultural expression, filled with motion and color, as the performers and audience share in the spirited atmosphere of the public display."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 1160,
+      "end_frame": 1224,
+      "start_sec": 46.4,
+      "end_sec": 48.96,
+      "duration_sec": 2.6,
+      "num_frame_captions": 4,
+      "caption": "A group of women, some with traditional adornments like red forehead markings, are gathered closely together outdoors. Their expressions range from smiling to serious as they look upward with anticipation, suggesting they are witnessing or participating in a significant event. The presence of other attendees, including men in casual attire, indicates this is a public gathering. The overall mood is one of shared focus and emotional engagement, capturing a moment of collective experience within the scene."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 1225,
+      "end_frame": 1321,
+      "start_sec": 49.0,
+      "end_sec": 52.84,
+      "duration_sec": 3.88,
+      "num_frame_captions": 7,
+      "caption": "This scene captures a vibrant street performance in an open-air plaza. A group of dancers, adorned in colorful and traditional costumes, moves with high energy at the center of the gathering. They are surrounded by a large, diverse, and enthusiastic crowd of onlookers who are fully engaged with the spectacle. The atmosphere is lively and celebratory, with the performers clearly entertaining the public in an outdoor urban setting. The event exemplifies a dynamic cultural celebration, where the energetic dance and the crowd's attentive presence create a shared, festive experience."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 1322,
+      "end_frame": 1584,
+      "start_sec": 52.88,
+      "end_sec": 63.36,
+      "duration_sec": 10.52,
+      "num_frame_captions": 17,
+      "caption": "A vibrant street festival features a lively crowd dancing in colorful traditional attire. Led by a woman in a pink dress, the group performs synchronized, energetic movements with raised arms. They dance in a line on a paved road, captivating an audience of onlookers who cheer and clap along. The celebration includes both group performances and moments highlighting individual dancers, all set against a backdrop of a bus, billboards, and an overcast sky in a public square."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 1585,
+      "end_frame": 1628,
+      "start_sec": 63.4,
+      "end_sec": 65.12,
+      "duration_sec": 1.76,
+      "num_frame_captions": 3,
+      "caption": "A man in a yellow Eicher truck smiles as he leans out of the driver's side window. He appears cheerful and engaged, looking directly toward the camera as he interacts with the viewer from his vehicle. The scene captures a brief, friendly moment of connection from the driver's seat."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 1629,
+      "end_frame": 1946,
+      "start_sec": 65.16,
+      "end_sec": 77.84,
+      "duration_sec": 12.72,
+      "num_frame_captions": 21,
+      "caption": "This scene depicts a vibrant street celebration, centered on a young girl or woman in a pink outfit who dances energetically in the middle of the road. A large, enthusiastic crowd lines the street, cheering and clapping as they watch her performance. The atmosphere is lively and communal, with other participants joining in the dancing, some raising their arms in unison. The event appears to be an organized public gathering, possibly a festival or parade, set against an urban backdrop that includes buildings, signs, and a yellow bus. One unusual detail involves a person in an orange shirt positioned high in a leafless tree overlooking the festivities."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 1947,
+      "end_frame": 1983,
+      "start_sec": 77.88,
+      "end_sec": 79.32,
+      "duration_sec": 1.48,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a sudden outbreak of chaos on a busy urban street. A large white bus and a three-wheeled auto rickshaw become the focal points as a crowd rapidly gathers. The situation escalates into a physical altercation, with two men in white shirts seen scuffling violently near the rickshaw. This conflict triggers a wider panic, prompting a group of other young men, also in white shirts, to flee urgently. They are shown running across the roadway, weaving through traffic, which heightens the sense of disorder and urgency enveloping the entire location."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 1984,
+      "end_frame": 2087,
+      "start_sec": 79.36,
+      "end_sec": 83.48,
+      "duration_sec": 4.16,
+      "num_frame_captions": 7,
+      "caption": "This scene depicts a vibrant and joyful street celebration, centered around a lively group dance. A young woman in a pink outfit acts as the energetic leader, enthusiastically performing choreographed moves in the foreground. A large, cheerful crowd gathers around her, enthusiastically mimicking her dance steps, clapping, and cheering in support. The event takes place outdoors on a public street, creating a festive and communal atmosphere. The overall mood is one of collective happiness and spirited participation, as the group comes together in a spontaneous and rhythmic public display."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 2088,
+      "end_frame": 2129,
+      "start_sec": 83.52,
+      "end_sec": 85.16,
+      "duration_sec": 1.68,
+      "num_frame_captions": 2,
+      "caption": "In this scene, a man is positioned in the driver's seat of a distinctive yellow vehicle, leaning out of the open window. His focus is directed intently ahead, suggesting he is observing or navigating the road or a specific point of interest. His dark hair is visible as he looks out from the cab. The interior of the vehicle includes a pink blanket, adding a touch of domestic detail to the setting. The overall impression is of a momentary pause during a journey, with the driver engaged in assessing his surroundings from the stationary or slowly moving car."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 2130,
+      "end_frame": 2198,
+      "start_sec": 85.2,
+      "end_sec": 87.92,
+      "duration_sec": 2.76,
+      "num_frame_captions": 5,
+      "caption": "The scene captures a cheerful moment on a city street, centered around a yellow bus. A man in a green shirt leans out of the vehicle's window, smiling and interacting with the surroundings. The atmosphere is lively, with people gathered nearby and urban elements like buildings and billboards in the background. The overall impression is of a brief, friendly stop during a journey, conveying a sense of casual urban travel and a spontaneous connection between the passengers and the environment outside."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 2199,
+      "end_frame": 2272,
+      "start_sec": 87.96,
+      "end_sec": 90.88,
+      "duration_sec": 2.96,
+      "num_frame_captions": 5,
+      "caption": "A young girl, later a woman, dances energetically in the middle of a street. She wears vibrant, changing outfits of pink, yellow, orange, and red. A crowd of onlookers surrounds her, watching and cheering as she performs. The scene captures a dynamic and colorful street performance, with the dancer's spirited movements at the center of the community's attention."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 2273,
+      "end_frame": 2499,
+      "start_sec": 90.92,
+      "end_sec": 99.96,
+      "duration_sec": 9.08,
+      "num_frame_captions": 15,
+      "caption": "This scene captures a vibrant street festival where a lively crowd gathers for a public dance celebration. A series of energetic performers, often women in bright pink, red, or orange outfits, take turns leading the dancing in the foreground. The central activity is a dynamic, joyful dance performance that moves along a paved road, with the surrounding crowd enthusiastically cheering, watching, and joining in. The overall atmosphere is one of communal festivity and cultural expression under an overcast sky."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 2500,
+      "end_frame": 2531,
+      "start_sec": 100.0,
+      "end_sec": 101.24,
+      "duration_sec": 1.28,
+      "num_frame_captions": 2,
+      "caption": "In a bustling urban street, a uniformed police officer is actively directing traffic. He stands prominently among the flow of vehicles, which includes a passing yellow truck and a green auto-rickshaw. With clear hand gestures, he manages the movement, ensuring order amidst the busy surroundings. Pedestrians are present on the sidewalks, and a large billboard overlooks the scene. The officer\u2019s demeanor appears engaged and professional as he carries out his duty in the lively city environment."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 2532,
+      "end_frame": 2553,
+      "start_sec": 101.28,
+      "end_sec": 102.12,
+      "duration_sec": 0.88,
+      "num_frame_captions": 2,
+      "caption": "In a public street setting, two men dressed in traditional attire are engaged in a performance or demonstration. They are seated on the ground, with one individual prominently holding a long stick. Their actions involve raising their hands, suggesting a ritualistic or expressive act aimed at an audience. A small group of onlookers stands behind them, observing the scene. The overall atmosphere implies a street performance or a form of peaceful protest, capturing a moment of cultural expression or social commentary within an urban environment."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 2554,
+      "end_frame": 2575,
+      "start_sec": 102.16,
+      "end_sec": 103.0,
+      "duration_sec": 0.88,
+      "num_frame_captions": 1,
+      "caption": "In a bustling outdoor setting, a young boy becomes the center of attention. Shirtless and wearing a distinctive green headband, he strikes a confident pose with his hands on his hips, exuding a sense of playful bravado. A crowd of onlookers has gathered around him, their focus clearly fixed on the boy's display. The scene captures a moment of spontaneous performance or challenge, where the boy's assertive stance and the audience's engaged reaction create a lively, communal atmosphere in the public space."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 2576,
+      "end_frame": 2593,
+      "start_sec": 103.04,
+      "end_sec": 103.72,
+      "duration_sec": 0.72,
+      "num_frame_captions": 1,
+      "caption": "This scene captures a lively and tightly packed outdoor gathering, primarily composed of young men. The atmosphere is energetic and communal, suggesting a spontaneous event or a moment of shared interest. The collective focus of the crowd is directed toward a few central figures in the foreground, who appear to be the subjects of significant attention. Many attendees are using their phones, likely to record or photograph the unfolding activity, which contributes to a modern, digitally engaged dynamic within the group."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 2594,
+      "end_frame": 2611,
+      "start_sec": 103.76,
+      "end_sec": 104.44,
+      "duration_sec": 0.72,
+      "num_frame_captions": 2,
+      "caption": "A crowd of young men gathers intently around a central figure in a red shirt, creating a tight circle of attention in an outdoor setting. The atmosphere is charged with public interest, as numerous individuals hold up phones to record or observe the unfolding event. The focus remains on the central figure, suggesting a spontaneous or notable moment is occurring, with the surrounding crowd actively documenting and reacting to the scene."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 2612,
+      "end_frame": 2678,
+      "start_sec": 104.48,
+      "end_sec": 107.12,
+      "duration_sec": 2.68,
+      "num_frame_captions": 4,
+      "caption": "A street performer captivates a large crowd on a bustling Indian street. He executes dynamic acrobatic moves and juggles, drawing a circle of onlookers. The lively atmosphere includes other performers, with a young man holding a cricket bat and two individuals dancing, all contributing to the vibrant public spectacle. The audience is fully engaged, watching the central performer's skillful display against a backdrop of vehicles and buildings."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 2679,
+      "end_frame": 2694,
+      "start_sec": 107.16,
+      "end_sec": 107.76,
+      "duration_sec": 0.64,
+      "num_frame_captions": 1,
+      "caption": "This scene captures a bustling public gathering, likely a festival or community event, where a diverse crowd has assembled. People of all ages\u2014men, women, and children\u2014are packed closely together, creating a lively and energetic atmosphere. The dense assembly suggests a shared purpose, such as watching a performance, awaiting a speech, or participating in a celebration. The collective focus and proximity of the attendees indicate a moment of communal interest or anticipation, highlighting the social nature of the event where individuals come together in a unified public space."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 2695,
+      "end_frame": 2729,
+      "start_sec": 107.8,
+      "end_sec": 109.16,
+      "duration_sec": 1.4,
+      "num_frame_captions": 2,
+      "caption": "This scene captures the electrifying atmosphere of a major public event, likely a sports match or concert, from within a massive and enthusiastic crowd. The audience is densely packed together, completely absorbed in the unfolding spectacle. A palpable wave of collective energy surges through the gathering, with numerous individuals shouting, cheering, and raising their hands in exhilaration. Their expressive faces, filled with excitement and jubilation, reflect the intense engagement and shared experience of the live performance. The overall mood is one of unified celebration and high-energy participation."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 2730,
+      "end_frame": 2791,
+      "start_sec": 109.2,
+      "end_sec": 111.64,
+      "duration_sec": 2.48,
+      "num_frame_captions": 5,
+      "caption": "In a vibrant scene of national celebration, a large crowd joyfully raises a sizable Bangladeshi flag, its distinctive green field and red circle held aloft by many hands. The enthusiastic group, united in pride, lifts their arms in a collective gesture of exultation. This moment of shared triumph unfolds against the striking backdrop of a giant, pink-toned statue, whose prominent hand and a visible silver wristwatch form part of the monumental setting. The atmosphere is one of unbridled joy and patriotic fervor as the flag waves prominently amidst the celebrants."
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 2792,
+      "end_frame": 2827,
+      "start_sec": 111.68,
+      "end_sec": 113.08,
+      "duration_sec": 1.44,
+      "num_frame_captions": 2,
+      "caption": "A group of students celebrates exuberantly on a bus, waving a large Bangladeshi flag and raising their hands in joy. The bus is affiliated with an educational institution, though the specific name visible on its side appears to change between captions. The scene captures a moment of collective triumph and national pride, likely following a significant academic or sporting achievement. The jubilant atmosphere is conveyed through the students' energetic gestures and visible enthusiasm."
+    },
+    {
+      "scene_index": 35,
+      "start_frame": 2828,
+      "end_frame": 2907,
+      "start_sec": 113.12,
+      "end_sec": 116.28,
+      "duration_sec": 3.2,
+      "num_frame_captions": 5,
+      "caption": "In a bustling Indian street, a martial arts demonstration unfolds, drawing a large and attentive crowd. Two practitioners, clad in distinctive white uniforms, engage in a choreographed fight or sparring match in the middle of the thoroughfare. Their performance commands the focus of numerous onlookers who have gathered closely around them, momentarily halting the usual flow of pedestrians and vehicles. The scene captures a vibrant public spectacle where the disciplined art form creates a dynamic focal point amid the everyday chaos of urban traffic and activity."
+    },
+    {
+      "scene_index": 36,
+      "start_frame": 2908,
+      "end_frame": 2963,
+      "start_sec": 116.32,
+      "end_sec": 118.52,
+      "duration_sec": 2.24,
+      "num_frame_captions": 4,
+      "caption": "In this scene, a martial arts demonstration takes place before a gathered crowd. A group of three practitioners, all dressed in white uniforms, executes a coordinated performance showcasing their skills. Their routine features a dynamic mix of high kicks, acrobatic maneuvers, and precise stances. At one point, the focus narrows to two of the artists engaging in a fast-paced sparring sequence, adding an element of simulated combat to the display. The entire exhibition is performed with energy and synchronization, captivating the large audience of onlookers who are watching the spectacle."
+    },
+    {
+      "scene_index": 37,
+      "start_frame": 2964,
+      "end_frame": 3006,
+      "start_sec": 118.56,
+      "end_sec": 120.24,
+      "duration_sec": 1.72,
+      "num_frame_captions": 3,
+      "caption": "This scene shows a red and white bus belonging to Pabna Science and Technology University in a public street setting. Initially parked, the bus later moves along the road, with passengers visible inside looking out the windows. The main action involves a man in a brown jacket and jeans who dances energetically in front of the stationary bus, drawing the attention of the passengers. Meanwhile, pedestrians are present, with one person seen walking alongside the bus as it travels. The sequence captures a moment of spontaneous street life, blending routine transit with a brief, lively public performance."
+    },
+    {
+      "scene_index": 38,
+      "start_frame": 3007,
+      "end_frame": 3025,
+      "start_sec": 120.28,
+      "end_sec": 121.0,
+      "duration_sec": 0.76,
+      "num_frame_captions": 1,
+      "caption": "The video shows a red and white vehicle, likely a bus or auto-rickshaw, moving through an urban or roadside setting. The scene is characterized by motion blur and low visual clarity, suggesting the footage was captured quickly or from a moving perspective. Prominent Bengali script on the side of the vehicle indicates the location is likely in Bangladesh or the Indian state of West Bengal. The overall impression is of a brief, passing glimpse of everyday street transit, with the vehicle as the central, identifiable subject in an otherwise indistinct environment."
+    },
+    {
+      "scene_index": 39,
+      "start_frame": 3026,
+      "end_frame": 3139,
+      "start_sec": 121.04,
+      "end_sec": 125.56,
+      "duration_sec": 4.56,
+      "num_frame_captions": 8,
+      "caption": "This scene depicts a dynamic outdoor performance that transitions from a formal martial arts demonstration into a lively public dance. It begins with three martial artists in white uniforms executing synchronized kicks and stances for a watching crowd. The energy and participation then shift, as a man in a blue shirt and jeans begins leading an energetic dance. The crowd becomes increasingly involved, transforming the event into a festive street celebration where many people join in, moving energetically to the music. The overall atmosphere evolves from a staged display to an inclusive, spontaneous public party."
+    },
+    {
+      "scene_index": 40,
+      "start_frame": 3140,
+      "end_frame": 3167,
+      "start_sec": 125.6,
+      "end_sec": 126.68,
+      "duration_sec": 1.12,
+      "num_frame_captions": 2,
+      "caption": "A chaotic street scene unfolds following a traffic incident. A crowd has gathered around a damaged auto-rickshaw, its colorful exterior contrasting with the tense atmosphere. Onlookers surround the vehicle, their attention fixed on the aftermath, while a brightly decorated bus is visible in the background, contributing to the sense of a busy public thoroughfare brought to a sudden halt. The blurry movement suggests ongoing commotion as people assess the situation."
+    },
+    {
+      "scene_index": 41,
+      "start_frame": 3168,
+      "end_frame": 3183,
+      "start_sec": 126.72,
+      "end_sec": 127.32,
+      "duration_sec": 0.64,
+      "num_frame_captions": 1,
+      "caption": "The scene captures a moment of urban commotion as a crowd has gathered around a white auto-rickshaw, creating a focal point of activity on the busy street. The presence of a yellow vehicle in the background adds to the sense of a typical, bustling thoroughfare. While the specific cause of the gathering is not detailed, the collective attention of the people suggests a minor incident, a dispute, or simply a point of shared interest that has temporarily disrupted the flow of traffic and pedestrian movement, embodying the spontaneous dynamics of city life."
+    },
+    {
+      "scene_index": 42,
+      "start_frame": 3184,
+      "end_frame": 3485,
+      "start_sec": 127.36,
+      "end_sec": 139.4,
+      "duration_sec": 12.08,
+      "num_frame_captions": 20,
+      "caption": "This scene depicts a vibrant, energetic public gathering that evolves from a celebratory dance into a more chaotic street event. Initially, a lively crowd in colorful traditional and casual attire dances enthusiastically together in an outdoor street setting, creating a festive atmosphere. The mood then shifts as the focus turns to a central figure being carried or lifted by the cheering crowd, many of whom are waving flags. Finally, the attention is captured by motorcyclists performing daring stunts, including wheelies and sharp turns, for the assembled onlookers, blending celebration with spectacle."
+    },
+    {
+      "scene_index": 43,
+      "start_frame": 3486,
+      "end_frame": 3508,
+      "start_sec": 139.44,
+      "end_sec": 140.32,
+      "duration_sec": 0.92,
+      "num_frame_captions": 1,
+      "caption": "In this scene, a woman, casually dressed in a patterned shirt and sunglasses, is engaged in photography. She raises a camera to her eye, focusing intently on her subject, which remains outside the viewer's frame. Her posture and expression suggest a moment of concentration, likely capturing a specific point of interest in her surroundings. The action implies a brief, purposeful pause in her activity, centered on the act of observation and documentation through the lens. The scene conveys a quiet, focused moment of creating a personal record."
+    },
+    {
+      "scene_index": 44,
+      "start_frame": 3509,
+      "end_frame": 3525,
+      "start_sec": 140.36,
+      "end_sec": 141.0,
+      "duration_sec": 0.68,
+      "num_frame_captions": 2,
+      "caption": "A woman wearing sunglasses smiles as she holds a small camera, actively engaging in capturing the moment. She is positioned at a lively gathering, suggesting a social event or celebration. Her expression and action indicate she is taking a photograph, participating in the event rather than merely observing. The scene conveys a sense of joyful participation and documentation, with the woman central to the activity."
+    },
+    {
+      "scene_index": 45,
+      "start_frame": 3526,
+      "end_frame": 3649,
+      "start_sec": 141.04,
+      "end_sec": 145.96,
+      "duration_sec": 4.96,
+      "num_frame_captions": 8,
+      "caption": "This scene depicts a vibrant street performance where a group of dancers, some in colorful traditional or eclectic costumes including a notable woman in a red dress, energetically perform for a large and enthusiastic crowd. The event takes place in a public square or street, with the central dancers captivating an audience of onlookers who cheer, watch from the sidelines, and record the festivities. The atmosphere is lively and celebratory, centered on the dynamic movement and music of the performance that energizes the entire gathering."
+    },
+    {
+      "scene_index": 46,
+      "start_frame": 3650,
+      "end_frame": 3685,
+      "start_sec": 146.0,
+      "end_sec": 147.4,
+      "duration_sec": 1.44,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a public demonstration or parade, likely of a patriotic or celebratory nature, taking place in a crowded urban street. The central focus is a group of schoolchildren in uniforms who are carrying a large, distinctive green flag featuring a prominent red circle or emblem. They move through the gathering, drawing the attention of the surrounding crowd of adults and other children who watch and gather around them. The event conveys a sense of communal participation and organized display, suggesting a formal occasion within the community."
+    },
+    {
+      "scene_index": 47,
+      "start_frame": 3686,
+      "end_frame": 3744,
+      "start_sec": 147.44,
+      "end_sec": 149.76,
+      "duration_sec": 2.36,
+      "num_frame_captions": 4,
+      "caption": "A large, energetic crowd has gathered in a street for what appears to be a public demonstration or celebration. The atmosphere is jubilant, with the focus of the scene centered on a prominent green flag bearing a red circle, which is being held aloft and displayed by multiple participants. The collective action and the symbolic flag suggest a strong sense of shared identity, likely tied to a patriotic or political cause. The overall impression is of a unified and spirited public event unfolding in an urban setting."
+    },
+    {
+      "scene_index": 48,
+      "start_frame": 3745,
+      "end_frame": 3768,
+      "start_sec": 149.8,
+      "end_sec": 150.72,
+      "duration_sec": 0.96,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a large, tightly packed crowd gathered in a public space. The atmosphere is lively and energetic, suggesting a major event such as a festival, protest, or public demonstration. The participants, dressed in casual attire, are densely concentrated, creating a sense of collective movement and shared purpose. The presence of green objects, possibly flags or signs, among some individuals hints at a unifying theme or cause for the assembly. The overall impression is one of a chaotic yet purposeful mass of people occupying an urban setting."
+    },
+    {
+      "scene_index": 49,
+      "start_frame": 3769,
+      "end_frame": 3786,
+      "start_sec": 150.76,
+      "end_sec": 151.44,
+      "duration_sec": 0.72,
+      "num_frame_captions": 1,
+      "caption": "A large, lively crowd gathers closely together in a public space, suggesting a significant event or celebration. The atmosphere is energetic as people, dressed in casual attire, mingle and participate in the communal activity. The dense assembly indicates a popular occasion, drawing a diverse group of attendees who are fully engaged in the shared experience. The scene captures the essence of a collective public gathering, filled with movement and social interaction."
+    },
+    {
+      "scene_index": 50,
+      "start_frame": 3787,
+      "end_frame": 3801,
+      "start_sec": 151.48,
+      "end_sec": 152.04,
+      "duration_sec": 0.6,
+      "num_frame_captions": 1,
+      "caption": "The scene captures a large, energetic public gathering where a dense crowd is tightly packed together. The atmosphere is chaotic and frenzied, suggesting an event such as a concert, protest, or celebration that has drawn a significant number of people. The collective movement and close proximity of individuals create a sense of intense, shared excitement or urgency, dominating the visual with a blur of motion and human activity."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "video": "xxdtq8mxegs",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/xxdtq8mxegs.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_15.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 30.0,
+  "total_frames": 4324,
+  "num_scenes": 6,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 871,
+      "start_sec": 0.0,
+      "end_sec": 29.033333,
+      "duration_sec": 29.066667,
+      "num_frame_captions": 59,
+      "caption": "This scene opens with a blank screen before introducing the V\u00e9toquinol logo, which is displayed in several variations against a white background. It then transitions into a minimalist instructional title card, \u201cHow to... Clean Your Dog\u2019s Ears,\u201d which introduces the video\u2019s purpose. The focus shifts to promoting Vetoquinol\u2019s Vet Solutions Ear Cleansing Solution, featuring an endorsement from Dr. Wesley Williams of Hillside Veterinary Clinic. The scene concludes by showing a veterinarian in a white coat kneeling in a clinic, gently holding a golden retriever, visually setting the stage for the practical demonstration that follows."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 872,
+      "end_frame": 2050,
+      "start_sec": 29.066667,
+      "end_sec": 68.333333,
+      "duration_sec": 39.3,
+      "num_frame_captions": 78,
+      "caption": "This scene shows a veterinarian in a white coat gently caring for a golden retriever in a veterinary clinic. He kneels on the floor, affectionately holding and comforting the happy, panting dog. The action progresses as he prepares to administer a treatment, with a bottle of Vetoquinol pet medication visible nearby. At times, he is shown examining the dog's front leg or holding up the product. The scene also includes a title card reading \"Tips For Cleaning Your Dog's Ears\" and concludes with both the veterinarian and a technician kneeling beside the dog, with the Vetoquinol product bottle in the foreground."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 2051,
+      "end_frame": 2634,
+      "start_sec": 68.366667,
+      "end_sec": 87.8,
+      "duration_sec": 19.466667,
+      "num_frame_captions": 39,
+      "caption": "A veterinary professional in a blue uniform gently handles a calm golden retriever during an ear examination and cleaning. The scene shows the dog being comforted with pets and head holds while its ear is inspected, cleaned with a solution, and medicated. The professional also trims the fur around the ear using clippers. Throughout the process, the dog remains relaxed and cooperative, and the Vetoquinol logo is consistently visible, indicating this is likely a branded instructional or promotional video for pet care products."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 2635,
+      "end_frame": 3412,
+      "start_sec": 87.833333,
+      "end_sec": 113.733333,
+      "duration_sec": 25.933333,
+      "num_frame_captions": 52,
+      "caption": "This scene is a veterinary clinic demonstration focused on ear care for dogs. A veterinarian and a veterinary technician are shown gently examining and treating a calm golden retriever. The vet is seen holding various items, including a syringe and a bottle of Vetoquinol product, suggesting the administration of a treatment, likely for the dog's ears. The technician assists by comforting and steadying the animal. Following the practical demonstration, the video transitions to an informational segment, presenting a clear list of safety tips for pet owners on how to properly clean their dog's ears, emphasizing caution and veterinary consultation."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 3413,
+      "end_frame": 3551,
+      "start_sec": 113.766667,
+      "end_sec": 118.366667,
+      "duration_sec": 4.633333,
+      "num_frame_captions": 9,
+      "caption": "In this scene, a veterinarian, dressed in a white lab coat, directly addresses the camera while holding a product. He is presenting a bottle of Vetoquinol, a brand of pet medication or supplement. Throughout the sequence, his engagement is consistent; he speaks to the viewer, sometimes holding the bottle up more prominently to ensure it is clearly visible. The core action is a straightforward product presentation or informational segment, where the veterinarian acts as an authoritative figure explaining or endorsing the specific pet healthcare item."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 3552,
+      "end_frame": 4323,
+      "start_sec": 118.4,
+      "end_sec": 144.1,
+      "duration_sec": 25.733333,
+      "num_frame_captions": 52,
+      "caption": "This scene opens with a text credit acknowledging Dr. Wesley Williams of Hillside Veterinary Clinic in Dallas, TX, which appears in both a faint and a green format. The focus then shifts to a product advertisement for VET Solutions Ear Cleansing Solution by V\u00e9toquinol. The product, a white bottle designed for dogs and cats, is prominently displayed against a clean background with clear branding. The scene concludes by featuring the V\u00e9toquinol company logo, which includes its green name, a stylized sunburst emblem with a wolf's face, the tagline \"a Sign of Passion,\" and its website address. The sequence functions as a sponsored segment or advertisement within a larger video."
+    }
+  ]
+}

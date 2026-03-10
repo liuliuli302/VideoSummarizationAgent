@@ -1,0 +1,496 @@
+{
+  "video": "gzDbaEs1Rlg",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/gzDbaEs1Rlg.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_4.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 25.0,
+  "total_frames": 7210,
+  "num_scenes": 48,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 57,
+      "start_sec": 0.0,
+      "end_sec": 2.28,
+      "duration_sec": 2.32,
+      "num_frame_captions": 4,
+      "caption": "This scene opens with a brief moment of blackness before the \u0160koda logo appears. The logo is prominently featured, consisting of the brand name in bold black lettering positioned above a circular emblem. The emblem itself has a silver background and displays a distinct, stylized green arrow with a winged design. The logo remains stable and clearly visible throughout the scene, establishing the brand identity without additional visual elements or changes in the composition."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 58,
+      "end_frame": 109,
+      "start_sec": 2.32,
+      "end_sec": 4.36,
+      "duration_sec": 2.08,
+      "num_frame_captions": 4,
+      "caption": "In this rural roadside scene, a man in a white shirt and dark trousers approaches a parked dark green Skoda station wagon. He walks toward the vehicle, seemingly to inspect it, and arrives at the front passenger side. There, he interacts with the car, appearing to open the passenger door. After this interaction, he is then seen walking away from the station wagon, completing a brief sequence of approach, engagement, and departure with the vehicle on the quiet road."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 110,
+      "end_frame": 682,
+      "start_sec": 4.4,
+      "end_sec": 27.28,
+      "duration_sec": 22.92,
+      "num_frame_captions": 38,
+      "caption": "This scene features a man with dark curly hair, wearing either a white or light blue button-down shirt, speaking directly to the camera in an outdoor setting. He stands in front of a dark car, with a backdrop of green trees, grass, and a bright sky. His expression is serious, thoughtful, and at times concerned as he explains or discusses a topic, often using expressive hand gestures to emphasize his points. A recurring text overlay or subtitle warns viewers, \"Please be advised: This tutorial is only a guide,\" indicating the educational or demonstrative nature of the video content."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 683,
+      "end_frame": 832,
+      "start_sec": 27.32,
+      "end_sec": 33.28,
+      "duration_sec": 6.0,
+      "num_frame_captions": 10,
+      "caption": "A man is driving a car, initially focused on the road ahead. His attention is suddenly drawn to the camera, and he reacts with a clear sequence of surprise and shock. This startled expression gradually softens into a slight, knowing smile as he continues to look toward the camera. The scene suggests a moment of unexpected interaction, perhaps with a passenger filming him, where his initial alarm gives way to amusement or recognition. Sunlight streams into the car through an open window, adding to the casual, in-moment feel of the encounter."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 833,
+      "end_frame": 949,
+      "start_sec": 33.32,
+      "end_sec": 37.96,
+      "duration_sec": 4.68,
+      "num_frame_captions": 8,
+      "caption": "This scene depicts a person inside a modern car, interacting with various interior components. Their hand, clad in a light blue shirt sleeve, is seen gripping the edges of different panels, including the center console and the black interior door panel, suggesting movement or adjustment within the cabin. The focus then shifts to a close-up view of the vehicle's sleek gear shift lever, which features a black body with a silver or chrome knob, highlighting the car's contemporary design. The sequence conveys a sense of preparing to drive or adjusting settings within the dark, modern interior."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 950,
+      "end_frame": 996,
+      "start_sec": 38.0,
+      "end_sec": 39.84,
+      "duration_sec": 1.88,
+      "num_frame_captions": 3,
+      "caption": "In this scene, a man wearing a light blue shirt is driving a car through a lush, green wooded area. He is seated in the driver's seat and his attention is primarily directed toward the camera, which is positioned inside the vehicle. His expression shifts subtly throughout the sequence, moving from a relaxed and casual look to one of mild surprise or curiosity, before settling into a more neutral gaze. The consistent backdrop of passing trees and foliage indicates the car is in motion, creating a calm yet observant atmosphere as the driver interacts with the unseen passenger or filmmaker."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 997,
+      "end_frame": 1105,
+      "start_sec": 39.88,
+      "end_sec": 44.2,
+      "duration_sec": 4.36,
+      "num_frame_captions": 7,
+      "caption": "This scene depicts a person interacting with various black, cylindrical objects, creating a visual motif of gripping and control. The focus alternates between a sleek car's gear shift lever, with its distinct chrome accents, and a similarly styled walking cane with a metallic handle. The repeated close-ups of the hand\u2014sometimes with a shirt cuff visible\u2014emphasize the tactile experience of holding these items. The parallel imagery subtly blends the concepts of automotive operation and assisted mobility, suggesting a thematic connection between driving and walking through the shared action of gripping a supportive object."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 1106,
+      "end_frame": 1247,
+      "start_sec": 44.24,
+      "end_sec": 49.88,
+      "duration_sec": 5.68,
+      "num_frame_captions": 10,
+      "caption": "A man in a light blue shirt is driving a car through a green, wooded area. Throughout the scene, he looks toward the camera, alternating between neutral, thoughtful, slightly surprised, and speaking expressions. The consistent setting and his direct engagement suggest he is having a conversation or reacting to someone while on the road. Sunlight and foliage are visible through the windows, indicating a daytime drive in a natural environment."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 1248,
+      "end_frame": 1366,
+      "start_sec": 49.92,
+      "end_sec": 54.64,
+      "duration_sec": 4.76,
+      "num_frame_captions": 8,
+      "caption": "This scene depicts a detailed inspection of a car's wheel and tire. A person's hands are shown closely examining a silver multi-spoke alloy rim, which features a distinctive green center cap. The actions include adjusting the wheel, pressing on the tire tread, and hovering near the components, suggesting a careful check for issues or a presentation of its condition. The red body of the car is partially visible in the background. The sequence moves from a static view of the wheel to capturing it in motion, emphasizing both its design and functional state."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 1367,
+      "end_frame": 1571,
+      "start_sec": 54.68,
+      "end_sec": 62.84,
+      "duration_sec": 8.2,
+      "num_frame_captions": 13,
+      "caption": "A man in a bright orange safety vest is kneeling or crouching beside a black car on the side of a road, focusing his attention on the vehicle's front wheel and fender. He appears to be inspecting the area, likely for damage, while also gesturing and speaking as if explaining his findings to someone. His reflection, and occasionally that of another person in a similar vest, is visible in the car's glossy surface. The consistent actions across the frames suggest a scene where the man is actively assessing or describing a situation involving the car's condition to an observer."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 1572,
+      "end_frame": 1727,
+      "start_sec": 62.88,
+      "end_sec": 69.08,
+      "duration_sec": 6.24,
+      "num_frame_captions": 11,
+      "caption": "This scene depicts a roadside assistance advertisement for \u0160KODA. It begins with a black screen before cutting to a scenario of a vehicle breakdown, shown by a parked car with its trunk open. A red triangular warning sign is placed on the road near the vehicle to alert other drivers. The scene consistently overlays promotional text and the \u0160KODA Roadside Assistance phone number (0800 526 625) onto the imagery, emphasizing the service being advertised. The sequence concludes by returning to a black screen, framing the ad. The core message is the availability of professional help for stranded motorists."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 1728,
+      "end_frame": 1958,
+      "start_sec": 69.12,
+      "end_sec": 78.32,
+      "duration_sec": 9.24,
+      "num_frame_captions": 15,
+      "caption": "This scene shows a person in a white shirt performing a series of tasks related to a blue electronic device inside a vehicle. The individual first places a blue and white battery into a storage compartment in the trunk or cargo area. They then proceed to install, adjust, and connect the blue electronic component within the same compartment, reaching in multiple times to handle the device among foam padding and other parts. The person also cleans the interior of the trunk with a brush and cloth, and briefly works near the battery in the engine bay, suggesting a process of installation and preparation."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 1959,
+      "end_frame": 2090,
+      "start_sec": 78.36,
+      "end_sec": 83.6,
+      "duration_sec": 5.28,
+      "num_frame_captions": 9,
+      "caption": "This scene depicts a person interacting with small red and white objects, likely stickers or tags, near a car's interior. The action focuses on a hand carefully handling these items, with one frame showing the hand reaching for a \"max 50 mph\" sticker on the windshield. The consistent blurred green background suggests the setting is inside a vehicle, possibly during the process of applying or removing decals. The close-up shots emphasize the precise, deliberate nature of the task, centering on the manipulation of these small adhesive objects against the soft, out-of-focus environment."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 2091,
+      "end_frame": 2400,
+      "start_sec": 83.64,
+      "end_sec": 96.0,
+      "duration_sec": 12.4,
+      "num_frame_captions": 21,
+      "caption": "A man in an orange safety vest stands beside an open car door, conducting what appears to be a roadside breathalyzer test or vehicle inspection. He interacts with various items including a test kit, bottle, pen, notepad, and a small device, sometimes smiling at the camera. The scene includes promotional text overlays indicating that replacement solution bottles for the test can be purchased from a \u0160KODA retailer. The setting is a sunny outdoor area with grass and trees in the background."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 2401,
+      "end_frame": 2500,
+      "start_sec": 96.04,
+      "end_sec": 100.0,
+      "duration_sec": 4.0,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a person performing a hands-on inspection of a car tire. The focus is on the wheel, rim, and tire tread, with specific attention given to the valve stem. The individual uses a tool to check the tire pressure, then manually grips and presses against the tire's sidewall and tread to assess its condition and integrity. The actions suggest a thorough examination for maintenance or troubleshooting purposes."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 2501,
+      "end_frame": 2561,
+      "start_sec": 100.04,
+      "end_sec": 102.44,
+      "duration_sec": 2.44,
+      "num_frame_captions": 4,
+      "caption": "In this roadside scene, a man wearing an orange safety vest assists with a tire issue on a dark green car. He is first seen checking the air pressure in the front passenger-side tire with a gauge. Upon finding it low or flat, he proceeds to inflate the tire using a manual pump. The man then appears to explain something about the tire or the process, possibly to the car's owner. Finally, he uses a tire iron to work on the wheel, suggesting he may be securing the lug nuts after completing the inflation or preparing to change the tire entirely."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 2562,
+      "end_frame": 2621,
+      "start_sec": 102.48,
+      "end_sec": 104.84,
+      "duration_sec": 2.4,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a person performing tire maintenance on a vehicle. The primary action involves working on the tire's valve stem, which is the small component used for inflation. Using a specialized tool, the individual first inserts the valve stem into the tire's rim. Subsequently, they employ a small, handheld instrument\u2014described as white and gold in color\u2014to check, adjust, or secure the valve stem assembly. The sequence shows a focused, manual process essential for ensuring proper tire pressure and function, indicating a routine repair or installation task."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 2622,
+      "end_frame": 2669,
+      "start_sec": 104.88,
+      "end_sec": 106.76,
+      "duration_sec": 1.92,
+      "num_frame_captions": 3,
+      "caption": "In this roadside scene, a man wearing a high-visibility orange safety vest attends to a vehicle issue. He is crouched beside a dark green car, focusing on a flat or under-inflated tire. To resolve the problem, he is using a portable air pump, specifically a hand-operated or electric compressor, to reinflate the tire. The action takes place on the shoulder of a road, indicating a minor breakdown or routine maintenance stop. The scene captures a common, practical moment of addressing car trouble independently while ensuring visibility and safety with the vest."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 2670,
+      "end_frame": 2744,
+      "start_sec": 106.8,
+      "end_sec": 109.76,
+      "duration_sec": 3.0,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a person performing routine tire maintenance on a car. The central action involves checking and adjusting the air pressure. The individual uses a tire pressure gauge, a small handheld tool, to measure the pressure by attaching it to the tire's valve stem. Following the measurement, they are also shown using another tool, likely a valve core tool or inflator, to work directly on the valve stem itself. This sequence of actions suggests a complete process of assessing the tire's condition and then making necessary corrections to ensure it is properly inflated."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 2745,
+      "end_frame": 2853,
+      "start_sec": 109.8,
+      "end_sec": 114.12,
+      "duration_sec": 4.36,
+      "num_frame_captions": 8,
+      "caption": "In this roadside scene, a man wearing a bright orange safety vest attends to a dark green car with a flat tire. He is seen crouching or kneeling beside the vehicle, actively working on the wheel. His actions progress from initially using a tire iron, likely to loosen the lug nuts, to checking the tire pressure with a gauge. The primary task culminates in him operating a tire pump to reinflate the flat tire, resolving the issue on the side of the road. The sequence depicts a complete tire maintenance or repair process in a single, continuous event."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 2854,
+      "end_frame": 2952,
+      "start_sec": 114.16,
+      "end_sec": 118.08,
+      "duration_sec": 3.96,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a person performing tire maintenance on a car. The primary action involves checking and adjusting the tire pressure. A hand is shown using a specialized tool, likely a tire pressure gauge or inflator, directly on the valve stem. The process includes both inflating the tire, as indicated by a clear plastic tube attached to the stem, and subsequently verifying or fine-tuning the pressure. The individual's focused activity ensures the tire is properly serviced, with attention given to both the valve stem and the surrounding rim area during the task."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 2953,
+      "end_frame": 3065,
+      "start_sec": 118.12,
+      "end_sec": 122.6,
+      "duration_sec": 4.52,
+      "num_frame_captions": 8,
+      "caption": "In this scene, a person attends to a car's tire. They use a tire inflator to add air to the tire, checking and adjusting the pressure. During the process, they also apply a product from a black and white bottle or canister to the wheel rim, likely for cleaning or detailing purposes. The actions focus on basic tire maintenance, involving both inflation and the care of the wheel's appearance."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 3066,
+      "end_frame": 3113,
+      "start_sec": 122.64,
+      "end_sec": 124.52,
+      "duration_sec": 1.92,
+      "num_frame_captions": 3,
+      "caption": "In this scene, a man wearing a high-visibility orange safety vest is performing maintenance on a dark-colored car. He is crouched down beside the vehicle, intently focused on one of its wheels. His posture and proximity suggest he is either inspecting the tire or actively working on it, such as changing it or checking its condition. The consistent presence of the safety vest implies the task may be occurring in a roadside or work zone setting, where visibility is important. The core action remains centered on this single, focused automotive task by the roadside."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 3114,
+      "end_frame": 3232,
+      "start_sec": 124.56,
+      "end_sec": 129.28,
+      "duration_sec": 4.76,
+      "num_frame_captions": 8,
+      "caption": "This scene consists of a series of close-up shots focused on a single, specific detail of a vehicle: its tire valve stem. The camera repeatedly examines the small brass component as it protrudes from the side of a car tire. The shots vary slightly in their framing, sometimes emphasizing the stem against the dark rubber of the tire and other times highlighting its position on the shiny silver alloy wheel. The consistent dim lighting and tight focus create a detailed, almost technical inspection of this mundane automotive part, suggesting a scene centered on maintenance, monitoring, or simply an artistic study of mechanical form."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 3233,
+      "end_frame": 3261,
+      "start_sec": 129.32,
+      "end_sec": 130.44,
+      "duration_sec": 1.16,
+      "num_frame_captions": 2,
+      "caption": "In this roadside scene, a man wearing a high-visibility orange safety vest is attending to a vehicle. He is crouched beside a dark-colored car, likely a sedan, focusing his attention on one of its wheels. His posture and proximity suggest he is performing maintenance, such as changing a tire, or conducting a close inspection of the wheel or brake assembly. The setting appears to be an outdoor roadside, indicating a potential breakdown or routine stop. The scene captures a moment of practical, hands-on work, emphasizing the individual\u2019s role in addressing a vehicular issue in an everyday environment."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 3262,
+      "end_frame": 3326,
+      "start_sec": 130.48,
+      "end_sec": 133.04,
+      "duration_sec": 2.6,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a person checking the air pressure in a car tire. The process begins with a close-up view of the tire's valve stem, which protrudes from the silver alloy wheel. The individual then inserts a thin nozzle or tube from a tire pressure gauge directly into the valve stem. The final action involves using the gauge to obtain a reading, confirming the tire's inflation level. The sequence demonstrates a routine vehicle maintenance task, focusing on the precise connection between the tool and the tire's valve to ensure an accurate measurement."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 3327,
+      "end_frame": 3437,
+      "start_sec": 133.08,
+      "end_sec": 137.48,
+      "duration_sec": 4.44,
+      "num_frame_captions": 8,
+      "caption": "In this scene, a man wearing an orange safety vest is performing roadside tire maintenance on a car. He is consistently shown in a crouched position beside the vehicle, which is described as either black or dark green, indicating a possible change in lighting or perspective. His actions involve inspecting, adjusting, or working on the front tire, utilizing tools such as a tire pressure gauge and a bottle, likely containing lubricant or tire sealant. At one point, he smiles toward the camera, suggesting a friendly or instructional tone for the footage. The overall activity depicts a routine check or repair being conducted on the side of a road."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 3438,
+      "end_frame": 3501,
+      "start_sec": 137.52,
+      "end_sec": 140.04,
+      "duration_sec": 2.56,
+      "num_frame_captions": 4,
+      "caption": "In this scene, a person is performing routine tire maintenance on a car. The process begins with using a specialized tire valve stem tool, likely to check or adjust the air pressure within the tire. Following this, the individual removes the valve stem cap, which is shown being held in hand. The final action involves carefully re-securing the cap by screwing it back onto the valve stem, completing the task. The sequence demonstrates a brief but essential step in vehicle upkeep, focusing on the precise handling of the small tire valve components."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 3502,
+      "end_frame": 3601,
+      "start_sec": 140.08,
+      "end_sec": 144.04,
+      "duration_sec": 4.0,
+      "num_frame_captions": 7,
+      "caption": "In this scene, a man wearing an orange safety vest is engaged in a task beside a dark-colored car. He is consistently shown kneeling or crouching, holding a blue object, which he uses while inspecting one of the vehicle's wheels. His actions vary between focusing on his work and interacting with the camera, at times smiling or gesturing as if providing an explanation. The shiny surface of the car occasionally reflects his image. The overall activity suggests a demonstration, repair check, or maintenance procedure being carried out on the automobile."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 3602,
+      "end_frame": 3987,
+      "start_sec": 144.08,
+      "end_sec": 159.48,
+      "duration_sec": 15.44,
+      "num_frame_captions": 25,
+      "caption": "In this scene, a roadside service technician or mechanic, wearing a high-visibility orange vest, is performing maintenance on a car tire. The individual is seen handling a blue portable device, which is later identified as an air compressor. The sequence shows them preparing the tool, connecting its coiled hose, and then actively using it to inflate the vehicle's tire. The action takes place beside the car, with the technician seated or kneeling near the wheel to complete the task, indicating a routine tire pressure check or inflation procedure."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 3988,
+      "end_frame": 4073,
+      "start_sec": 159.52,
+      "end_sec": 162.92,
+      "duration_sec": 3.44,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts the process of checking and adjusting the air pressure in a car tire. A person uses a tire pressure gauge to measure the current pressure level. Following this assessment, they connect an air pump to the tire's valve stem to add more air, likely because the initial reading was low. The actions are shown in close-up, focusing on the hands manipulating the tools\u2014the gauge and the pump's hose\u2014against the backdrop of the tire's tread and wheel. The sequence captures a routine maintenance task, moving from inspection to the corrective action of inflation."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 4074,
+      "end_frame": 4098,
+      "start_sec": 162.96,
+      "end_sec": 163.92,
+      "duration_sec": 1.0,
+      "num_frame_captions": 2,
+      "caption": "A man wearing an orange safety vest attends to a dark green car. He is crouched beside the vehicle, specifically at the front passenger-side tire. His action involves using a tire pressure gauge to check the tire's pressure. The scene captures a routine moment of vehicle maintenance or inspection, with the individual focused on ensuring the tire is properly inflated."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 4099,
+      "end_frame": 4157,
+      "start_sec": 163.96,
+      "end_sec": 166.28,
+      "duration_sec": 2.36,
+      "num_frame_captions": 4,
+      "caption": "This scene shows a person demonstrating a black car cigarette lighter adapter, likely for charging devices. The hand holds the plug against a bright, solid orange background, which then shifts to include white elements, creating a high-contrast visual setting. The presentation highlights the adapter from slightly different angles, emphasizing its design and plug components. The consistent action and backdrop suggest a focused product showcase or tutorial segment within a larger video."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 4158,
+      "end_frame": 4249,
+      "start_sec": 166.32,
+      "end_sec": 169.96,
+      "duration_sec": 3.68,
+      "num_frame_captions": 6,
+      "caption": "In a dimly lit setting, a person is engaged in a focused repair or modification task on a dark, textured surface, likely a concrete wall or door. The scene centers on the manual work, showing hands using a tool\u2014possibly a wrench or similar implement\u2014to tighten a bolt or carefully manipulate a component. The action is methodical, with a key also being inserted into a lock, suggesting the activity involves both securing and adjusting the fixture. The overall atmosphere is tense and moody, emphasizing close-up details of the hands and tools under low light."
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 4250,
+      "end_frame": 4433,
+      "start_sec": 170.0,
+      "end_sec": 177.32,
+      "duration_sec": 7.36,
+      "num_frame_captions": 12,
+      "caption": "This scene shows a person operating a portable air compressor on an outdoor gravel or concrete surface. The process begins with the compressor at rest, and then a hand is seen pressing its power button. Following this, the user interacts with the device's controls, including pressing a black knob, and connects a black hose fitting to it. The scene also includes shots of related components, such as a pressure gauge, a black cable, and a cylindrical metal tool attached to a hose, indicating the setup and activation of the tool for its intended use."
+    },
+    {
+      "scene_index": 35,
+      "start_frame": 4434,
+      "end_frame": 4656,
+      "start_sec": 177.36,
+      "end_sec": 186.24,
+      "duration_sec": 8.92,
+      "num_frame_captions": 15,
+      "caption": "A man in an orange safety vest is roadside with a black car, likely experiencing a vehicle issue. He is consistently shown kneeling or crouching beside the vehicle, often near a wheel, suggesting he is inspecting or attempting a repair. His primary focus is addressing the camera directly, as if speaking to an audience or documenting the situation. His expression fluctuates throughout the scene, ranging from concerned and distressed to occasionally smiling, indicating a mix of frustration and attempted reassurance. The recurring detail of his reflection in the car's glossy surface emphasizes the outdoor setting and the immediacy of the situation."
+    },
+    {
+      "scene_index": 36,
+      "start_frame": 4657,
+      "end_frame": 4753,
+      "start_sec": 186.28,
+      "end_sec": 190.12,
+      "duration_sec": 3.88,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts the process of refueling a vehicle with diesel, emphasizing the importance of using the correct fuel type. The focus remains on the diesel pump nozzle as it is inserted into the car's fuel tank. Prominent labels on the nozzle, including \"DIESEL GAZOLE\" and \"BIO-DIESEL\" stickers, clearly identify the fuel. A compatibility chart and a specific warning against using biodiesel are also visible, highlighting critical safety and vehicle compatibility information during the refueling procedure."
+    },
+    {
+      "scene_index": 37,
+      "start_frame": 4754,
+      "end_frame": 5049,
+      "start_sec": 190.16,
+      "end_sec": 201.96,
+      "duration_sec": 11.84,
+      "num_frame_captions": 20,
+      "caption": "A man in an orange safety vest stands by the open trunk of a car, addressing the camera directly. His demeanor shifts between serious, concerned, and surprised as he speaks earnestly to the viewer. The outdoor setting remains consistent, with the open trunk serving as a focal point. The scene captures a tense, one-sided conversation where the man appears to be conveying urgent or distressing information, his expressions reflecting worry and intensity throughout the interaction."
+    },
+    {
+      "scene_index": 38,
+      "start_frame": 5050,
+      "end_frame": 5129,
+      "start_sec": 202.0,
+      "end_sec": 205.16,
+      "duration_sec": 3.2,
+      "num_frame_captions": 5,
+      "caption": "The scene depicts a person inflating a car tire. In a close-up view, a hand connects an air hose to the brass valve stem on a black tire, with the vehicle's silver alloy wheel visible in the background. The action involves checking or adjusting the tire pressure, a routine maintenance task. The focus remains on the precise interaction between the tool and the tire valve, capturing the essential steps of the inflation process without showing the broader environment or the individual's full identity."
+    },
+    {
+      "scene_index": 39,
+      "start_frame": 5130,
+      "end_frame": 5158,
+      "start_sec": 205.2,
+      "end_sec": 206.32,
+      "duration_sec": 1.16,
+      "num_frame_captions": 2,
+      "caption": "In this scene, a person wearing a red cap and a white shirt is engaged in cleaning and organizing the interior of a car's trunk. They are actively working within the cargo area, using a blue sponge to wipe down surfaces. The individual also reaches into the space to handle and presumably rearrange various items stored inside. The focus is on the methodical task of tidying the trunk, combining cleaning actions with the management of the contents. The scene depicts a straightforward, domestic chore centered on vehicle maintenance."
+    },
+    {
+      "scene_index": 40,
+      "start_frame": 5159,
+      "end_frame": 5246,
+      "start_sec": 206.36,
+      "end_sec": 209.84,
+      "duration_sec": 3.52,
+      "num_frame_captions": 6,
+      "caption": "The scene depicts a person performing maintenance on a vehicle tire, likely a car or motorcycle. The focus is on the hands-on work, specifically adjusting or inspecting the valve stem using a tool. The individual grips the tire's edge for stability while manipulating the valve, suggesting tasks like checking pressure, repairing a puncture, or preparing to change the tire. The close-up shots emphasize the manual, detailed nature of the work."
+    },
+    {
+      "scene_index": 41,
+      "start_frame": 5247,
+      "end_frame": 5536,
+      "start_sec": 209.88,
+      "end_sec": 221.44,
+      "duration_sec": 11.6,
+      "num_frame_captions": 20,
+      "caption": "A man with dark curly hair, wearing a light blue shirt, is driving a car through a green, leafy landscape. Throughout the scene, his expression shifts between serious, concerned, surprised, and thoughtful as he repeatedly glances toward the camera and looks back over his shoulder, often with his mouth open as if speaking or reacting to something. His demeanor suggests he is engaged in a conversation or reacting to events unfolding inside or outside the moving vehicle, creating a sense of ongoing dialogue or tension during the drive."
+    },
+    {
+      "scene_index": 42,
+      "start_frame": 5537,
+      "end_frame": 5609,
+      "start_sec": 221.48,
+      "end_sec": 224.36,
+      "duration_sec": 2.92,
+      "num_frame_captions": 4,
+      "caption": "This scene shows a person using a pressure gauge to check the air pressure in a tire. Initially, the gauge's needle rests at zero, indicating it is not yet connected or taking a reading. The tool has a white dial with red markings and is attached to a black hose with metal fittings, identifying it as a device for measuring tire or fluid pressure. The action concludes with the needle settling at approximately 40 PSI, confirming the tire has reached its proper inflation level. The entire process demonstrates a routine maintenance check."
+    },
+    {
+      "scene_index": 43,
+      "start_frame": 5610,
+      "end_frame": 5646,
+      "start_sec": 224.4,
+      "end_sec": 225.84,
+      "duration_sec": 1.48,
+      "num_frame_captions": 3,
+      "caption": "In this scene, a man with dark curly hair and a light blue shirt is driving a car. He is shown in a series of close-up shots from the driver's seat, with his attention shifting between looking directly at the camera and glancing to the side. His expression is serious and engaged, and he appears to be speaking or reacting to an unseen conversation or event. Throughout the sequence, the blurred green foliage visible through the window indicates the car is in motion, creating a sense of a continuous journey or commute."
+    },
+    {
+      "scene_index": 44,
+      "start_frame": 5647,
+      "end_frame": 5738,
+      "start_sec": 225.88,
+      "end_sec": 229.52,
+      "duration_sec": 3.68,
+      "num_frame_captions": 6,
+      "caption": "This scene presents a section of a vehicle owner's manual focused on the critical importance of maintaining correct tyre pressure. The key visual element is a diagram of an opened fuel filler flap, which is highlighted as the location where the official tyre inflation pressure table is found. The accompanying text repeatedly emphasizes that proper tyre pressure is essential for two main reasons: it significantly extends tyre life and is crucial for safe and effective vehicle handling. The information is conveyed through a combination of instructional text and illustrative diagrams, reinforcing this fundamental aspect of vehicle maintenance."
+    },
+    {
+      "scene_index": 45,
+      "start_frame": 5739,
+      "end_frame": 5852,
+      "start_sec": 229.56,
+      "end_sec": 234.08,
+      "duration_sec": 4.56,
+      "num_frame_captions": 8,
+      "caption": "This scene depicts a man with dark curly hair driving a car, visibly experiencing significant distress. He is shown grimacing in pain with his eyes closed, later appearing exhausted or asleep. At other moments, he looks directly at the camera with a tense, concerned, or surprised expression, suggesting he is reacting to something happening outside the vehicle. The recurring backdrop of blurred green foliage through the window indicates the car is in motion, likely on a rural or wooded road. The overall sequence conveys a tense and uneasy atmosphere centered on the driver's physical discomfort and growing anxiety."
+    },
+    {
+      "scene_index": 46,
+      "start_frame": 5853,
+      "end_frame": 6260,
+      "start_sec": 234.12,
+      "end_sec": 250.4,
+      "duration_sec": 16.32,
+      "num_frame_captions": 27,
+      "caption": "This scene presents a vehicle warning message that appears on a dashboard display. It begins with an abstract gradient background, then shows a clear instruction to drive at a maximum speed of 50 mph, with the speed limit highlighted in green. The message evolves into more detailed safety advice, instructing the driver to accelerate, brake, and corner gently. It emphasizes that this is a temporary measure and urgently advises the driver to immediately visit a \u0160KODA or tire retailer to address the issue, before the screen finally fades to black."
+    },
+    {
+      "scene_index": 47,
+      "start_frame": 6261,
+      "end_frame": 7209,
+      "start_sec": 250.44,
+      "end_sec": 288.36,
+      "duration_sec": 37.96,
+      "num_frame_captions": 63,
+      "caption": "The scene shows a man with dark curly hair driving a car, reacting expressively to an unseen situation. He cycles through a range of emotions, including concern, surprise, frustration, discomfort, and exhaustion, often appearing to speak or react. The backdrop of blurred green foliage indicates the car is in motion. The sequence then cuts to instructional graphics, including contact information for \u0160KODA Roadside Assistance, a message to contact a retailer for a spare wheel, and the display of the \u0160KODA logo."
+    }
+  ]
+}

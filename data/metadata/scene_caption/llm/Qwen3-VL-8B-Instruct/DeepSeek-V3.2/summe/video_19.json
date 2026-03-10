@@ -1,0 +1,26 @@
+{
+  "video": "St Maarten Landing",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/St Maarten Landing.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_19.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 25.0,
+  "total_frames": 1751,
+  "num_scenes": 1,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 1750,
+      "start_sec": 0.0,
+      "end_sec": 70.0,
+      "duration_sec": 70.04,
+      "num_frame_captions": 117,
+      "caption": "The video opens with a serene tropical beach scene where two people enjoy the shore. The perspective shifts to a lone figure gazing at the ocean as a small airplane appears in the sky. The airplane grows closer and larger, eventually revealed to be a KLM Boeing 747 flying extremely low over the same beach, startling the onlookers who watch and photograph it. The scene then cuts to the airplane's perspective, showing it landing at an airport viewed through a chain-link fence, concluding its journey from the coast to the runway."
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "video": "uGu_10sucQo",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/uGu_10sucQo.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_37.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 24.0,
+  "total_frames": 4009,
+  "num_scenes": 36,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 136,
+      "start_sec": 0.0,
+      "end_sec": 5.666667,
+      "duration_sec": 5.708333,
+      "num_frame_captions": 10,
+      "caption": "This scene consists of a title sequence introducing the video's subject. The visual presentation is minimal and consistent throughout, featuring a solid black background. Centered prominently on the screen is the white, unadorned text \"A Year of Beekeeping,\" which remains static and unchanging. There is no other imagery, movement, or additional information presented. The stark contrast and simplicity of the design serve to clearly announce the documentary's focus, establishing a straightforward and serious tone for the content that will follow."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 137,
+      "end_frame": 226,
+      "start_sec": 5.708333,
+      "end_sec": 9.416667,
+      "duration_sec": 3.75,
+      "num_frame_captions": 6,
+      "caption": "This scene presents a serene, sunlit field of lavender, captured with a consistent shallow depth-of-field technique. The focus shifts subtly between different clusters of delicate purple blooms and buds, which stand out sharply against a softly blurred backdrop of the wider field and surrounding greenery. The overall atmosphere is hazy and bright, with the flowers occasionally swaying in a gentle breeze. The visual style emphasizes the texture and color of the lavender, creating an impressionistic and tranquil study of the plants in their natural, sun-drenched environment."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 227,
+      "end_frame": 296,
+      "start_sec": 9.458333,
+      "end_sec": 12.333333,
+      "duration_sec": 2.916667,
+      "num_frame_captions": 4,
+      "caption": "This scene presents a tranquil, impressionistic view of foliage bathed in natural light. The camera focuses intimately on sun-dappled leaves and slender branches, employing a shallow depth of field that renders the background as a soft, luminous blur. This technique creates a dreamlike, textured quality, emphasizing the organic shapes and vibrant green hues of the plants. The overall effect is one of serene, abstract beauty, capturing the gentle movement and play of light within a dense canopy, evoking a sense of peaceful immersion in a sunlit natural environment."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 297,
+      "end_frame": 345,
+      "start_sec": 12.375,
+      "end_sec": 14.375,
+      "duration_sec": 2.041667,
+      "num_frame_captions": 4,
+      "caption": "This scene presents a series of close-up shots focusing on purple flowers in a natural field. The perspective shifts from a few lavender blooms in the foreground to an intimate view of a single flower and its bud. Throughout the sequence, the flowers remain the sharp focal point against a consistently blurred, sunlit background of dry grass. The imagery emphasizes delicate botanical details and the play of light, creating a serene and visually textured portrait of the flora within the landscape."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 346,
+      "end_frame": 438,
+      "start_sec": 14.416667,
+      "end_sec": 18.25,
+      "duration_sec": 3.875,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts an elderly man with gray hair, seen from behind in a sunlit outdoor setting. He is shirtless at first, revealing tattoos on his back and shoulder, before putting on a white collared shirt. The environment is a bright, natural area, possibly snowy or highly reflective, contributing to an overexposed, dappled effect. The man\u2019s movements are minimal, primarily involving sitting or leaning and later standing, with one instance of him raising his arm. The overall atmosphere is calm and still, focused on his presence in the blurred, luminous surroundings."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 439,
+      "end_frame": 523,
+      "start_sec": 18.291667,
+      "end_sec": 21.791667,
+      "duration_sec": 3.541667,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a hiker preparing for a trail by securing their footwear. The individual, wearing a white shirt and distinctive striped socks, is focused on tying the laces of a pair of muddy brown hiking boots. The action progresses from a standing position to a crouch or kneel on the rocky, uneven ground, suggesting a final adjustment or double-checking the fit before setting off. The close-up details of the boots, socks, and the dirt terrain strongly imply the start or continuation of an outdoor trek, emphasizing practicality and readiness for the journey ahead."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 524,
+      "end_frame": 632,
+      "start_sec": 21.833333,
+      "end_sec": 26.333333,
+      "duration_sec": 4.541667,
+      "num_frame_captions": 8,
+      "caption": "This scene depicts a man in a white t-shirt, possibly with a graphic design, engaged in an activity in a rustic outdoor setting. He is shown in several profile and close-up shots, often against a blurred natural background that includes chairs and debris, suggesting a cluttered yard or similar space. The action involves him handling and manipulating a white cloth or garment, with one detailed shot focusing on his hands interacting with a white, fluffy object. The overall impression is of a person intently focused on a manual task in an informal, sunlit outdoor environment."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 633,
+      "end_frame": 657,
+      "start_sec": 26.375,
+      "end_sec": 27.375,
+      "duration_sec": 1.041667,
+      "num_frame_captions": 1,
+      "caption": "This scene captures a person in a white shirt standing outdoors, partially visible as they interact with an object near their waist. The weathered barrel in the background suggests a rustic or industrial setting. The overall action is subtle and focused, implying a moment of work, inspection, or casual engagement with the environment. The composition emphasizes a quiet, contained activity within a weathered, open-air space."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 658,
+      "end_frame": 742,
+      "start_sec": 27.416667,
+      "end_sec": 30.916667,
+      "duration_sec": 3.541667,
+      "num_frame_captions": 6,
+      "caption": "This scene unfolds in a sun-drenched field, focusing on the delicate beauty of wild grasses bathed in warm, golden light. The perspective shifts to a person interacting with the environment, as a hand reaches down and then grips a bundle of the dry, wispy straw. The imagery moves between sharp, detailed close-ups of the feathery plants swaying gently and intentionally blurred, abstract shots that evoke a hazy, dreamlike atmosphere. The sequence captures a simple, tactile moment of harvesting or gathering natural materials from the grassy field."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 743,
+      "end_frame": 783,
+      "start_sec": 30.958333,
+      "end_sec": 32.625,
+      "duration_sec": 1.708333,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a person engaged in the careful process of transplanting young plants. Using their hands, they transfer small seedlings and a single plant from their original containers\u2014including a foil-wrapped one\u2014into a black pot prepared with dark soil. The actions are deliberate and gentle, focusing on handling the delicate root balls and spiky seedlings with care to ensure their survival in the new environment. The overall activity is a methodical example of basic horticulture, showcasing the initial steps of repotting and nurturing new plant growth."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 784,
+      "end_frame": 835,
+      "start_sec": 32.666667,
+      "end_sec": 34.791667,
+      "duration_sec": 2.166667,
+      "num_frame_captions": 3,
+      "caption": "A person in a white coat stands outdoors, facing a grill or stove. They are leaning over the cooking surface, which is actively smoking, indicating food is being prepared. The scene focuses on their engagement with the cooking process, with the smoky, blurred background emphasizing the heat and activity. The overall impression is of someone attentively managing an outdoor barbecue or similar cooking event."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 836,
+      "end_frame": 887,
+      "start_sec": 34.833333,
+      "end_sec": 36.958333,
+      "duration_sec": 2.166667,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a person outdoors, likely in a sandy or natural setting, building and managing a fire for cooking. The process begins with the careful ignition of a fire in a metal container using flint and steel. Once the initial flames are established, the individual tends to the small, smoky fire to ensure it burns properly. The focus then shifts to preparing a meal, as food is cooked over the open flame, with steam visibly rising from a metal pot. The overall activity centers on the practical and methodical steps of fire-starting and outdoor food preparation."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 888,
+      "end_frame": 930,
+      "start_sec": 37.0,
+      "end_sec": 38.75,
+      "duration_sec": 1.791667,
+      "num_frame_captions": 3,
+      "caption": "In this outdoor scene, a person dressed in white is engaged in cooking over an open fire. The individual tends to a steaming pot or a metal stove, actively stirring the contents as smoke and steam billow upward. The activity takes place against a natural, rocky backdrop, suggesting a rustic or wilderness setting. The focus is on the act of preparing food or a substance using a direct flame, with the rising vapors adding a dynamic element to the tranquil environment. The scene conveys a sense of simple, hands-on work in an open-air context."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 931,
+      "end_frame": 1003,
+      "start_sec": 38.791667,
+      "end_sec": 41.791667,
+      "duration_sec": 3.041667,
+      "num_frame_captions": 4,
+      "caption": "A beekeeper in a white protective suit tends to a beehive outdoors, using a smoker to calm the bees. Nearby, another person in similar attire crouches by a small fire pit, preparing food in a steaming pot. The scene depicts a rustic, hands-on activity in a natural setting, combining apiculture with basic outdoor cooking. The atmosphere is one of focused, practical work, with smoke drifting from both the smoker and the cooking fire."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 1004,
+      "end_frame": 1075,
+      "start_sec": 41.833333,
+      "end_sec": 44.791667,
+      "duration_sec": 3.0,
+      "num_frame_captions": 5,
+      "caption": "In a bright, sun-drenched outdoor setting, an older man in a white shirt leans down to interact intimately with a child. Bathed in hazy, overexposed sunlight, he bends forward, his face sometimes obscured by the glare as he speaks closely with the young person. The scene captures a quiet, tender moment of connection between the two figures, emphasized by the warm, enveloping light and their close physical proximity."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 1076,
+      "end_frame": 1171,
+      "start_sec": 44.833333,
+      "end_sec": 48.791667,
+      "duration_sec": 4.0,
+      "num_frame_captions": 7,
+      "caption": "In a sun-drenched meadow, a bee diligently works among a field of lavender. The scene focuses on the insect as it pollinates the vibrant, dark purple flower heads, which stand in sharp contrast to the softly blurred background of similar blooms and wildflowers. Golden sunlight bathes the setting, enhancing the rich colors and creating a serene, pastoral atmosphere. The consistent activity showcases the bee\u2019s purposeful movement from one blossom to another, highlighting a moment of natural harmony and the essential process of pollination within this lush, floral environment."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 1172,
+      "end_frame": 1289,
+      "start_sec": 48.833333,
+      "end_sec": 53.708333,
+      "duration_sec": 4.916667,
+      "num_frame_captions": 7,
+      "caption": "The scene depicts a rustic wooden beehive situated in a vibrant lavender field. Surrounded by blooming purple bushes and wild grasses, the hive stands under a bright, sunny sky. A dirt path leads through the sun-dappled landscape toward the structure, which is nestled among the flowers with trees visible in the background. The consistent setting presents a peaceful, pastoral view of beekeeping in a lush, sunlit environment."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 1290,
+      "end_frame": 1383,
+      "start_sec": 53.75,
+      "end_sec": 57.625,
+      "duration_sec": 3.916667,
+      "num_frame_captions": 7,
+      "caption": "A bee actively pollinates vibrant purple lavender flowers in a sun-drenched field dotted with yellow wildflowers. It moves diligently from bloom to bloom, foraging and hovering among the blossoms. The scene captures the bee's busy activity within the serene, sunlit setting of a lavender field, where the flowers sway gently in the breeze. The focus is on the harmonious interaction between the bee and its environment, emphasizing pollination amidst the colorful, blurred backdrop of the field."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 1384,
+      "end_frame": 1677,
+      "start_sec": 57.666667,
+      "end_sec": 69.875,
+      "duration_sec": 12.25,
+      "num_frame_captions": 19,
+      "caption": "This scene depicts an apiary in a picturesque countryside setting, likely during the lavender blooming season. The sequence begins with establishing shots of wooden beehives placed among vibrant purple lavender fields under a bright sky. The focus then shifts to a beekeeper, dressed in a white protective suit, who is actively tending to the hives. The beekeeper is shown walking among the hives, carrying equipment like a large bag, a wooden hive box, and a black bucket. The activity suggests routine apiary maintenance, such as inspecting hives, transporting equipment, or possibly harvesting honey. The presence of a second person in one caption indicates this may be a collaborative task. The consistent rustic setting, with hives on wooden platforms or pallets and fields of wildflowers, creates a cohesive narrative of beekeeping work in a natural, sunlit environment."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 1678,
+      "end_frame": 1819,
+      "start_sec": 69.916667,
+      "end_sec": 75.791667,
+      "duration_sec": 5.916667,
+      "num_frame_captions": 10,
+      "caption": "A person in protective gear, likely a beekeeper or industrial worker, is engaged in a task involving smoke, steam, or chemical activity. The scene is characterized by hazardous or experimental conditions, with the individual handling steaming containers amidst thick, obscuring plumes. The atmosphere is hazy and overexposed, with intense light and motion blur often obscuring details. The focus remains on the solitary figure performing their work within this challenging, visually obscured environment."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 1820,
+      "end_frame": 1922,
+      "start_sec": 75.833333,
+      "end_sec": 80.083333,
+      "duration_sec": 4.291667,
+      "num_frame_captions": 7,
+      "caption": "A beekeeper in a white protective suit and hat tends to a row of wooden beehives in a grassy, sunlit field. The scene shows the beekeeper carefully working in an outdoor apiary, crouching beside the hives to inspect and maintain them. The activity is consistent throughout, depicting the focused, routine task of hive management in a peaceful, natural setting."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 1923,
+      "end_frame": 2020,
+      "start_sec": 80.125,
+      "end_sec": 84.166667,
+      "duration_sec": 4.083333,
+      "num_frame_captions": 6,
+      "caption": "This scene presents a close-up view of a vibrant purple lavender flower in a sunlit field. The focus shifts to show a bee arriving and hovering near the bloom. The insect then diligently pollinates the flower, actively gathering nectar or pollen. Throughout the sequence, the lavender remains the central subject, set against a softly blurred backdrop of yellow wildflowers and green stems and foliage. The imagery captures a quiet, intimate moment of nature, emphasizing the interaction between the pollinator and the plant within the colorful, pastoral setting."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 2021,
+      "end_frame": 2082,
+      "start_sec": 84.208333,
+      "end_sec": 86.75,
+      "duration_sec": 2.583333,
+      "num_frame_captions": 4,
+      "caption": "This scene offers a close-up view of a bustling beehive interior, focusing on the wooden frames where the colony resides. Numerous bees are actively crawling across the wooden surfaces, moving in and out of the structure's openings. The warm glow of sunlight illuminates the activity, highlighting the insects' dark bodies against the honey-colored wood. The overall impression is one of organized industry, capturing the constant, purposeful movement within the hive as the bees tend to their daily tasks."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 2083,
+      "end_frame": 2135,
+      "start_sec": 86.791667,
+      "end_sec": 88.958333,
+      "duration_sec": 2.208333,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a sunny, dry outdoor setting where bees are actively buzzing around several wooden beehives. The location appears to be a grassy field, bathed in sunlight. The focus is on the constant, lively activity of the bees as they fly around their hives. While the overall setting is clear, some moments are captured with a slightly blurry or indistinct quality, emphasizing the motion and energy of the insects rather than static details. The consistent elements are the wooden structures, the bees in motion, and the bright, arid environment."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 2136,
+      "end_frame": 2197,
+      "start_sec": 89.0,
+      "end_sec": 91.541667,
+      "duration_sec": 2.583333,
+      "num_frame_captions": 4,
+      "caption": "In a sunny outdoor apiary, two beekeepers clad in white protective suits and veils work together to tend to a series of beehives. The scene captures the careful and methodical nature of their task as they inspect the wooden frames, ensuring the health and productivity of the bee colonies. The bright daylight illuminates the apiary, highlighting the beekeepers' focused interaction with the hives and the bees. Their actions demonstrate a routine but essential practice in apiculture, managing the hives in a calm and experienced manner within this peaceful, open-air environment."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 2198,
+      "end_frame": 2358,
+      "start_sec": 91.583333,
+      "end_sec": 98.25,
+      "duration_sec": 6.708333,
+      "num_frame_captions": 11,
+      "caption": "This scene depicts a beekeeper tending to a hive in a natural outdoor setting. Wearing a full white protective suit, hat, and mesh veil, the beekeeper uses a smoker to calm the bees before carefully handling the hive frames. The action is captured from various angles, including low and close-up shots, which emphasize the beekeeper's focused, methodical work amidst softly blurred foliage and flowers. The drifting smoke and the beekeeper's attentive posture convey a sense of calm, controlled interaction with the colony, highlighting the careful process of hive inspection and maintenance."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 2359,
+      "end_frame": 2494,
+      "start_sec": 98.291667,
+      "end_sec": 103.916667,
+      "duration_sec": 5.666667,
+      "num_frame_captions": 9,
+      "caption": "This scene depicts a beekeeper performing routine maintenance on a beehive. Wearing protective gloves, the beekeeper uses various tools, including tweezers and a hammer, to carefully handle and adjust the wooden frames inside the hive. The frames are densely populated with dark bees actively working on the yellow honeycomb. The overall activity shows a bustling hive, with bees crawling over the wooden structure and flying around the frames as the beekeeper inspects and tends to the colony."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 2495,
+      "end_frame": 2566,
+      "start_sec": 103.958333,
+      "end_sec": 106.916667,
+      "duration_sec": 3.0,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a beekeeper actively working with a hive. Wearing protective yellow gear and gloves, the beekeeper carefully handles a wooden honeycomb frame that is densely covered in a busy swarm of bees. The activity is set outdoors in bright, natural light, which illuminates the insects clustered over the hexagonal cells. The beekeeper uses a specialized tool to manage the frame, demonstrating a routine inspection or honey harvesting procedure. The overall atmosphere is one of focused, hands-on apiculture, with the blurred background emphasizing the close-up work involving the active colony."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 2567,
+      "end_frame": 2619,
+      "start_sec": 106.958333,
+      "end_sec": 109.125,
+      "duration_sec": 2.208333,
+      "num_frame_captions": 3,
+      "caption": "In a sunny outdoor apiary, two beekeepers clad in full white protective suits and veils are conducting a hive inspection. They work cooperatively around traditional wooden beehives, carefully managing the active colonies. One beekeeper extracts a wooden frame densely covered in honeybees for examination, while the other assists by handling necessary tools. Their coordinated efforts demonstrate a routine but meticulous process of apiary maintenance, performed safely amidst the bustling insects. The scene captures the practical, hands-on nature of beekeeping in a calm and focused environment."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 2620,
+      "end_frame": 2719,
+      "start_sec": 109.166667,
+      "end_sec": 113.291667,
+      "duration_sec": 4.166667,
+      "num_frame_captions": 7,
+      "caption": "A beekeeper in a white protective suit and veil works in a sunny outdoor apiary. They carefully handle and inspect wooden beehives and frames, moving between different hives in the natural setting. The scene shows the methodical process of beekeeping, as the individual tends to the hives, checking their condition and contents under the bright sun."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 2720,
+      "end_frame": 2808,
+      "start_sec": 113.333333,
+      "end_sec": 117.0,
+      "duration_sec": 3.708333,
+      "num_frame_captions": 6,
+      "caption": "In this scene, a beekeeper, clad in full protective gear, is actively working with a beehive. The central action involves the careful handling and inspection of a wooden frame that is densely covered in honeybees. The beekeeper uses a specialized tool to manipulate the frame, which is teeming with activity. A key environmental detail is the presence of smoke drifting around the hive, a standard beekeeping practice used to calm the colony. The overall focus is on the methodical and attentive process of hive management, showcasing the interaction between the keeper and the bees."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 2809,
+      "end_frame": 2980,
+      "start_sec": 117.041667,
+      "end_sec": 124.166667,
+      "duration_sec": 7.166667,
+      "num_frame_captions": 11,
+      "caption": "In this scene, a beekeeper, dressed in a white protective suit and hat, is actively inspecting and maintaining a beehive. The individual carefully handles wooden frames teeming with bees, which are housed inside the open hive. Using a distinctive yellow tool, the beekeeper works on the honeycomb frames, demonstrating a methodical approach to hive management. The activity takes place outdoors, with the bees visibly crawling over the equipment. The sequence captures the focused, hands-on process of beekeeping, highlighting the interaction between the keeper and the colony during a routine check."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 2981,
+      "end_frame": 2998,
+      "start_sec": 124.208333,
+      "end_sec": 124.916667,
+      "duration_sec": 0.75,
+      "num_frame_captions": 1,
+      "caption": "This scene presents a close-up view of a wooden container, possibly a beehive or storage box, with its contents partially visible. The focus is on the dark, granular specks inside, suggesting organic material like seeds, insects, or debris. The blurry, intimate cinematography creates a sense of mystery and texture, inviting the viewer to scrutinize the obscured details. The overall impression is one of contained life or natural accumulation, observed from a perspective that emphasizes raw, tactile qualities over clear narrative action."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 2999,
+      "end_frame": 3053,
+      "start_sec": 124.958333,
+      "end_sec": 127.208333,
+      "duration_sec": 2.291667,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a beekeeper performing routine hive maintenance. Using gloved hands, they carefully lift a wooden frame densely covered in bees from a hive box. The beekeeper then uses a brush to apply a substance, likely a bee repellent or hive treatment, to the frame's edge as insects swarm actively around the workspace. The activity is set against a background of stacked hive boxes and wooden crates, indicating an apiary environment. The focus is on the close interaction between the keeper and the colony during this hands-on inspection or treatment process."
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 3054,
+      "end_frame": 3287,
+      "start_sec": 127.25,
+      "end_sec": 136.958333,
+      "duration_sec": 9.75,
+      "num_frame_captions": 16,
+      "caption": "This scene depicts a person using yellow-handled pliers, likely for a craft or repair task, in a series of close-up shots. The action begins with a gloved hand actively manipulating a small metal object or rod against a rock and other surfaces. The focus then shifts to static, observational shots where the tool is placed beside a distinctive rough, dark rock. The setting varies slightly, including indoor white surfaces, wooden planks, and eventually an outdoor snowy environment, suggesting the activity may have moved or the scene is compiled from related moments. The consistent elements are the yellow-handled tool and the rock, emphasizing a hands-on, detail-oriented process."
+    },
+    {
+      "scene_index": 35,
+      "start_frame": 3288,
+      "end_frame": 4008,
+      "start_sec": 137.0,
+      "end_sec": 167.0,
+      "duration_sec": 30.041667,
+      "num_frame_captions": 48,
+      "caption": "This scene consists of a series of title cards on a black background, delivering a clear advocacy message. It opens with a simple, urgent call to action centered on the screen: the white hashtag \"#SavetheBees.\" This message is then expanded to include the social media handle \"@Apiculturetas,\" crediting the associated account. Following this, a music credit for \"Luz Futuro, Interludio\" appears in the corner. The scene is bookended by periods of pure black screen, framing the textual elements. The overall effect is a stark, direct promotion for bee conservation, likely serving as an outro or credit sequence for a video."
+    }
+  ]
+}

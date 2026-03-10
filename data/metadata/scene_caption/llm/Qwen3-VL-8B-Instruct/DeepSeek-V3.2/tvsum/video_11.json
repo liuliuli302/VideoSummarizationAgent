@@ -1,0 +1,116 @@
+{
+  "video": "i3wAGJaaktw",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/i3wAGJaaktw.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_11.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 4700,
+  "num_scenes": 10,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 329,
+      "start_sec": 0.0,
+      "end_sec": 10.977633,
+      "duration_sec": 11.011,
+      "num_frame_captions": 22,
+      "caption": "The scene begins outside \"Pet Joy,\" a charming pet store with an ivy-covered facade and large windows displaying pet supplies and a festive Snoopy statue dressed as Santa. The action then moves inside to the store's grooming salon, where two women are grooming a golden retriever on a table. One woman, with long curly hair, actively tends to the dog's fur while the other assists or observes nearby, creating a calm and professional pet care atmosphere."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 330,
+      "end_frame": 579,
+      "start_sec": 11.011,
+      "end_sec": 19.3193,
+      "duration_sec": 8.341667,
+      "num_frame_captions": 17,
+      "caption": "In this scene, a woman with long curly blonde hair is engaged in setting up or adjusting a pet crate. She is seen interacting with a metal animal cage featuring a wooden slatted floor, likely at a pet care facility. The woman, wearing a blue jacket and a grey hoodie or scarf, leans into the open crate to arrange and adjust the wooden slats, occasionally looking toward the camera. Her actions suggest she is preparing the kennel, possibly cleaning or securing the interior platform, with a focus on ensuring the slatted floor is properly positioned."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 580,
+      "end_frame": 2623,
+      "start_sec": 19.352667,
+      "end_sec": 87.520767,
+      "duration_sec": 68.201467,
+      "num_frame_captions": 136,
+      "caption": "This scene shows a woman with long curly hair working at a pet spa, first interacting with a small white animal in a metal kennel and then grooming a large golden retriever. She opens the kennel, gently reaches inside, and later attends to the golden retriever on a black grooming table. The grooming process involves her using tools, sometimes with another staff member assisting or observing. The setting is a professional pet spa, as indicated by equipment, supplies, and a visible website watermark for \"petjoyspa.com.\" The focus is on calm, attentive care provided to the animals."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 2624,
+      "end_frame": 2681,
+      "start_sec": 87.554133,
+      "end_sec": 89.456033,
+      "duration_sec": 1.935267,
+      "num_frame_captions": 4,
+      "caption": "This scene shows a professional groomer at work, carefully attending to a small, fluffy dog. The groomer, wearing a colorful vest or apron, stands at a black grooming table where the dog is positioned. Using professional tools like scissors and a comb, the groomer meticulously trims and styles the dog's shaggy coat. The focus is on the precise, hands-on activity of pet grooming, highlighting the care and attention given to shaping the dog's fur for a neat appearance. The consistent setting and action across the frames depict a single, continuous grooming session."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 2682,
+      "end_frame": 2739,
+      "start_sec": 89.4894,
+      "end_sec": 91.3913,
+      "duration_sec": 1.935267,
+      "num_frame_captions": 4,
+      "caption": "A small, fluffy dog is resting inside a metal cage or kennel. The scene is viewed from outside the enclosure, looking through the bars at the sleeping animal. The perspective is close, with some foreground elements appearing blurred, emphasizing the focus on the dog in its confined space. The overall atmosphere is calm and quiet, capturing a moment of the pet's peaceful repose within the secure confines of its crate."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 2740,
+      "end_frame": 2792,
+      "start_sec": 91.424667,
+      "end_sec": 93.159733,
+      "duration_sec": 1.768433,
+      "num_frame_captions": 4,
+      "caption": "In a pet grooming salon, a groomer wearing patterned blue scrubs or a uniform tends to a large brown dog. The dog, which is wet from a bath, stands on a grooming table. The groomer uses a white towel to dry the dog's fur, carefully wrapping and rubbing it to absorb the moisture. The scene captures a routine moment of post-bath care in a professional setting, focusing on the attentive interaction between the groomer and the animal."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 2793,
+      "end_frame": 2845,
+      "start_sec": 93.1931,
+      "end_sec": 94.928167,
+      "duration_sec": 1.768433,
+      "num_frame_captions": 3,
+      "caption": "In a pet salon, a groomer wearing a pink patterned shirt attends to a small, scruffy dog. Using electric clippers, the groomer carefully trims the dog's fur, paying particular attention to its paw. The scene captures a moment of focused grooming in a professional setting, highlighting the gentle and meticulous care provided to the animal."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 2846,
+      "end_frame": 2932,
+      "start_sec": 94.961533,
+      "end_sec": 97.831067,
+      "duration_sec": 2.9029,
+      "num_frame_captions": 6,
+      "caption": "In a pet spa, a golden retriever wearing a green harness and collar sits patiently while being groomed. A person gently tends to the dog's fur, providing care and attention throughout the process. The scene captures a calm and focused interaction, highlighting the dog's cooperative demeanor as it receives professional grooming in a dedicated setting."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 2933,
+      "end_frame": 2978,
+      "start_sec": 97.864433,
+      "end_sec": 99.365933,
+      "duration_sec": 1.534867,
+      "num_frame_captions": 3,
+      "caption": "In a pet salon, a fluffy gray dog is being groomed by a person wearing colorful, cartoon-patterned scrubs. The scene is playful and affectionate, as the dog actively engages with the grooming process. At one point, the dog playfully holds a white grooming tool in its mouth, demonstrating a gentle, mischievous interaction. The animal also affectionately licks the groomer's hand and paws at it, showing a comfortable and trusting relationship. The overall atmosphere is one of cheerful care, with the dog appearing relaxed and cooperative during its grooming session."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 2979,
+      "end_frame": 4699,
+      "start_sec": 99.3993,
+      "end_sec": 156.789967,
+      "duration_sec": 57.424033,
+      "num_frame_captions": 115,
+      "caption": "This scene features a woman with long curly blonde hair speaking directly to the camera from inside what appears to be a pet shelter or kennel facility, as indicated by the metal animal cages behind her. Her expression shifts between neutral, serious, concerned, and occasionally surprised as she addresses the viewer. The video then cuts to a series of shots inside a pet store, showcasing shelves stocked with various premium dog food brands like Wellness, Natural Balance, Orijen, and Stella & Chewy's. The scene concludes with exterior views of the \"Pet Joy\" pet grooming salon in Brentwood, CA, highlighting its festive, ivy-covered storefront decorated with a Santa-themed Snoopy display."
+    }
+  ]
+}

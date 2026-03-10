@@ -1,0 +1,116 @@
+{
+  "video": "car_over_camera",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/car_over_camera.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_23.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 4382,
+  "num_scenes": 10,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 1083,
+      "start_sec": 0.0,
+      "end_sec": 36.1361,
+      "duration_sec": 36.169467,
+      "num_frame_captions": 73,
+      "caption": "This scene presents a static, panoramic view of a desolate, rust-colored landscape. The terrain is consistently barren and flat, composed of red earth, dirt, or desert, stretching into the distance under a perpetually heavy and overcast gray sky. The only notable feature is a distant, sparse line of vegetation or trees marking the low horizon, providing a stark contrast to the otherwise empty foreground. The unchanging composition and muted, oppressive atmosphere suggest a moment of stillness and isolation, with no visible movement or activity across the vast expanse."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 1084,
+      "end_frame": 1103,
+      "start_sec": 36.169467,
+      "end_sec": 36.803433,
+      "duration_sec": 0.667333,
+      "num_frame_captions": 1,
+      "caption": "This scene unfolds in near-total darkness, creating an atmosphere of suspense or concealment. The only visual information comes from faint, indistinct yellow forms that glow weakly in the gloom. These ambiguous shapes, lacking clear definition, suggest a source of dim, obscured light\u2014perhaps distant lamps, reflections, or a figure moving through a shadowy space. The overall effect is one of limited visibility, where the environment remains mysterious and key details are intentionally withheld, immersing the viewer in a tense, uncertain moment before any clear action is revealed."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 1104,
+      "end_frame": 1651,
+      "start_sec": 36.8368,
+      "end_sec": 55.088367,
+      "duration_sec": 18.284933,
+      "num_frame_captions": 37,
+      "caption": "The video shows an extremely close-up, out-of-focus view of a textured organic surface, likely skin or fabric. The entire scene is a blur of warm brown and tan tones, with occasional indistinct darker smudges and shapes. No clear objects, figures, or actions are discernible. The persistent, abstract blur and soft texture suggest a macro shot where the camera is held very close to the subject, creating a consistent, ambiguous, and intimate visual field throughout the sequence."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 1652,
+      "end_frame": 1850,
+      "start_sec": 55.121733,
+      "end_sec": 61.728333,
+      "duration_sec": 6.639967,
+      "num_frame_captions": 13,
+      "caption": "This scene presents a series of close-up and low-angle views of a barren, dusty landscape. The focus is on the textured, reddish-brown soil, which appears dry and granular, scattered with small rocks and pebbles. The perspective shifts from intimate details of the ground to a wider view of a dirt road stretching into the distance, suggesting a vast, desert-like environment. The consistent reddish hue and specific references to Martian soil imply this is an extraterrestrial or highly arid terrestrial setting, characterized by emptiness and a uniform, dusty terrain."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 1851,
+      "end_frame": 1899,
+      "start_sec": 61.7617,
+      "end_sec": 63.3633,
+      "duration_sec": 1.634967,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a black Toyota SUV traveling through a dry, open landscape. The vehicle, identifiable by its license plate 919-764, is first shown parked on a reddish dirt road before it begins driving along the same path. The surrounding environment is an arid, reddish-brown expanse with sparse vegetation and a distant treeline, all under the pale, overcast sky typical of the area. The sequence captures a moment of transit, emphasizing the vehicle's movement against the vast, still backdrop of the wilderness."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 1900,
+      "end_frame": 2578,
+      "start_sec": 63.396667,
+      "end_sec": 86.019267,
+      "duration_sec": 22.655967,
+      "num_frame_captions": 45,
+      "caption": "The scene opens with an extreme close-up of the dry, reddish-brown soil, textured with small stones and a vertical seam. The view then pulls back dramatically to reveal a vast, barren desert landscape stretching to the horizon under a heavy, overcast gray sky. The perspective is consistently a low-angle shot, emphasizing the expansive, arid terrain of cracked earth and scattered rocks. In the distance, a sparse treeline marks the horizon, providing the only break in the monotonous, desolate expanse. The scene conveys a mood of stark emptiness and isolation under a gloomy, cloud-filled sky."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 2579,
+      "end_frame": 3351,
+      "start_sec": 86.052633,
+      "end_sec": 111.8117,
+      "duration_sec": 25.792433,
+      "num_frame_captions": 52,
+      "caption": "This scene follows a dark SUV traversing a vast, barren desert landscape under a consistently overcast sky. The sequence begins with the vehicle parked and then departing, kicking up dust as it drives away down a rugged, reddish-brown dirt road. The perspective shifts between low-angle shots from the ground, emphasizing the rocky terrain and the vehicle's undercarriage, and wider views that show the SUV as a solitary figure receding into the immense, empty plain. Eventually, the vehicle turns around and drives back toward the camera, concluding its journey across the desolate environment."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 3352,
+      "end_frame": 3449,
+      "start_sec": 111.845067,
+      "end_sec": 115.081633,
+      "duration_sec": 3.269933,
+      "num_frame_captions": 6,
+      "caption": "The scene presents a vast, barren landscape under an overcast sky. The reddish-brown field stretches to a distant tree line on the horizon, establishing a desolate and expansive setting. This view then dissolves into a series of abstract, atmospheric visuals dominated by soft gradients of muted purples, grays, and subtle pinkish hues. The transition from the literal landscape to these blurred, hazy fields creates a calm, somber, and dreamlike tone, focusing on color, light, and texture rather than concrete forms."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 3450,
+      "end_frame": 4211,
+      "start_sec": 115.115,
+      "end_sec": 140.507033,
+      "duration_sec": 25.4254,
+      "num_frame_captions": 51,
+      "caption": "This scene presents a minimalist, abstract visual sequence dominated by a smooth gradient background. The color palette subtly shifts across frames, primarily transitioning from dark gray on the left to lighter, muted tones of lavender, purple, or dusty rose on the right. The overall effect is calm and atmospheric, with a hazy, out-of-focus quality. While most frames are devoid of distinct objects, one brief instance introduces a small, blurry reddish-brown shape in the upper corner, which quickly dissolves back into the pervasive, textured gradients. The scene maintains a consistent, meditative tone through its soft, monochromatic variations."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 4212,
+      "end_frame": 4381,
+      "start_sec": 140.5404,
+      "end_sec": 146.179367,
+      "duration_sec": 5.672333,
+      "num_frame_captions": 12,
+      "caption": "The scene begins with a person in sunglasses and a yellow shirt, viewed from a low angle. The perspective then shifts to a close-up of a finger partially blocking the camera, followed by a wide shot of a murky body of water and a treeline under an overcast sky. The focus returns to the ground, showing detailed views of dry, rocky, reddish-brown terrain. The scene concludes with shots of a foot in a sandal and a shoe stepping on this dirt, and a final close-up that includes the lower portion of a vehicle."
+    }
+  ]
+}

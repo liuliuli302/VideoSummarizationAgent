@@ -1,0 +1,566 @@
+{
+  "video": "_xMr-HKMfVA",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/_xMr-HKMfVA.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_35.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 4463,
+  "num_scenes": 55,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 251,
+      "start_sec": 0.0,
+      "end_sec": 8.375033,
+      "duration_sec": 8.4084,
+      "num_frame_captions": 17,
+      "caption": "This scene presents a sleek, animated introduction for the \"CASACL Channel.\" It opens with minimalist gray cubes in a dark, reflective environment before transitioning to reveal the channel's 3D logo, which emerges on silver panels against a starry night sky with sparkling effects. The focus then shifts to promoting the channel's content, featuring a dark gray cube and later an open book, both displaying the text \"The Best of the Web.\" These elements float above glowing blue waves amidst a cosmic backdrop of stars, creating a modern and futuristic aesthetic throughout the sequence."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 252,
+      "end_frame": 432,
+      "start_sec": 8.4084,
+      "end_sec": 14.4144,
+      "duration_sec": 6.039367,
+      "num_frame_captions": 12,
+      "caption": "This scene is a dynamic 3D animated logo reveal for the brand \"CASA CL.\" The sequence begins with colorful, rotating cubes and floating letters forming the brand name against dark, atmospheric backgrounds enhanced with glowing particle effects and water-like ripples. The vibrant, rainbow-gradient logo evolves through several stylized iterations, including a fragmented design and a torn paper effect. The animation culminates in a clear title card, crediting the creator Claudio Silva Aravena, with the bold white text of \"CASA CL\" set against a swirling rainbow backdrop. The scene concludes with a silhouetted figure ascending a staircase toward a bright light."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 433,
+      "end_frame": 470,
+      "start_sec": 14.447767,
+      "end_sec": 15.682333,
+      "duration_sec": 1.267933,
+      "num_frame_captions": 3,
+      "caption": "This scene presents the bustling interior of a modern subway station, characterized by a constant flow of commuters. People are shown navigating the concourse, some waiting in groups while others walk purposefully toward their destinations. A prominent escalator carries a steady stream of passengers upward through the dimly lit, architecturally clean space, which is illuminated by overhead lighting. The overall atmosphere is one of organized transit activity, capturing the everyday rhythm of urban travel as individuals move through the station's interconnected pathways."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 471,
+      "end_frame": 508,
+      "start_sec": 15.7157,
+      "end_sec": 16.950267,
+      "duration_sec": 1.267933,
+      "num_frame_captions": 2,
+      "caption": "In a dimly lit, crowded indoor corridor, a woman with short gray hair stands stationary amidst a constant flow of people. The bustling scene shows individuals moving past her in both directions, creating a sense of continuous motion and activity. She remains a fixed point of observation, looking ahead as the crowd navigates the confined space around her. The atmosphere is busy and transient, emphasizing her solitary presence within the moving crowd. The scene captures a quiet moment of stillness contrasted against the surrounding urban commotion."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 509,
+      "end_frame": 618,
+      "start_sec": 16.983633,
+      "end_sec": 20.6206,
+      "duration_sec": 3.670333,
+      "num_frame_captions": 8,
+      "caption": "This scene takes place in a train station, where a series of digital platform signs display consistent real-time information. The signs announce the imminent arrival of an M1 line train bound for Vestamager, with its arrival time consistently shown as half a minute away. A prominent promotional message accompanies the service update, advertising this as a \"Classical special train\" and encouraging passengers to \"enjoy the music.\" The information is presented bilingually, in Danish and English, creating a cohesive and repeated notification for waiting passengers about this themed service."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 619,
+      "end_frame": 658,
+      "start_sec": 20.653967,
+      "end_sec": 21.955267,
+      "duration_sec": 1.334667,
+      "num_frame_captions": 2,
+      "caption": "In a dimly lit, modern interior, two men are engaged in a focused conversation. Both are dressed for cold weather, wearing dark winter coats and hats, with one man bald and in a jacket and the other wearing a beanie. Their discussion appears to be the central activity in the scene, suggesting a private or serious exchange. A third individual is present in the background, partially visible but not directly involved in the primary interaction, contributing to the sense of an intimate, hushed atmosphere within the contemporary space."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 659,
+      "end_frame": 685,
+      "start_sec": 21.988633,
+      "end_sec": 22.856167,
+      "duration_sec": 0.9009,
+      "num_frame_captions": 2,
+      "caption": "Two men in baseball caps are positioned together inside a contemporary indoor setting. Their attention is directed upward, suggesting they are observing or concentrating on something above them. The shared focus and similar attire imply a coordinated activity or common purpose. The clean, well-lit environment indicates a modern public or commercial space. The scene captures a moment of joint attention, with both individuals engaged in the same visual target, creating a sense of anticipation or observation."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 686,
+      "end_frame": 732,
+      "start_sec": 22.889533,
+      "end_sec": 24.4244,
+      "duration_sec": 1.568233,
+      "num_frame_captions": 3,
+      "caption": "In this scene, a woman with long hair is waiting on a subway platform. She is absorbed in her phone, paying little attention to her surroundings as a train passes by in the background. The sequence reveals a subtle detail: the reflection of a man wearing a hat becomes visible in the train's window behind her. This moment captures a quiet, everyday instance of urban transit, where the woman's focus on her device contrasts with the fleeting, unnoticed presence of another person reflected in the moving train."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 733,
+      "end_frame": 834,
+      "start_sec": 24.457767,
+      "end_sec": 27.8278,
+      "duration_sec": 3.4034,
+      "num_frame_captions": 7,
+      "caption": "This scene takes place in a modern indoor transit area, likely a station or waiting room, characterized by glass walls and ceiling lights. A diverse crowd of people, many wearing winter jackets and scarves, is gathered in the dimly lit space. They appear to be waiting, with some individuals standing in lines and others moving through the area. The overall atmosphere is one of quiet anticipation in a public, possibly travel-related setting, as people face various directions, with a few looking toward the observer."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 835,
+      "end_frame": 872,
+      "start_sec": 27.861167,
+      "end_sec": 29.095733,
+      "duration_sec": 1.267933,
+      "num_frame_captions": 3,
+      "caption": "In a dimly lit subway car, a man wearing a backpack moves away from the camera and down the aisle. He navigates through the crowded interior, passing other seated and standing passengers as he proceeds forward. The scene, viewed primarily from behind, shows his steady progress through the public transit vehicle. Another man is also seen walking ahead, suggesting a shared journey or simply the general movement of passengers within the confined space. The overall atmosphere is one of routine urban travel during a busy period."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 873,
+      "end_frame": 935,
+      "start_sec": 29.1291,
+      "end_sec": 31.197833,
+      "duration_sec": 2.1021,
+      "num_frame_captions": 4,
+      "caption": "This scene captures an intimate, informal musical performance in a dimly lit indoor public space, likely a bar or small venue. A small crowd has gathered to watch, with a blonde woman and a man with blonde hair visible among the attendees. The focus shifts to a musician playing a flute, with the blurry, close-up shots conveying the dynamic, candid energy of the moment. The overall atmosphere is one of casual concentration and movement, as the audience watches the performer in the low light."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 936,
+      "end_frame": 1002,
+      "start_sec": 31.2312,
+      "end_sec": 33.4334,
+      "duration_sec": 2.235567,
+      "num_frame_captions": 4,
+      "caption": "The scene takes place inside a crowded subway car in motion. The interior is dimly lit, contributing to a general sense of anonymity among the commuters. Passengers are packed closely together, with many standing and others seated. The perspective is from within the crowd, offering a close, sometimes blurry view of fellow travelers in various states of stillness or slight motion, conveying the familiar, confined atmosphere of an urban transit journey."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 1003,
+      "end_frame": 1123,
+      "start_sec": 33.466767,
+      "end_sec": 37.470767,
+      "duration_sec": 4.037367,
+      "num_frame_captions": 8,
+      "caption": "In a modern, glass-walled interior, an elderly woman with gray hair, dressed in a black jacket and an orange scarf, is captured in a series of moments. She stands near a window or glass wall, gazing intently at something outside the frame. Her focus is unwavering, directed either at the blurred view of a contemporary space featuring an escalator or at an unseen point of interest. The scene conveys a sense of quiet observation and thoughtful contemplation as she looks out from the bright, well-lit indoor setting."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 1124,
+      "end_frame": 1227,
+      "start_sec": 37.504133,
+      "end_sec": 40.9409,
+      "duration_sec": 3.470133,
+      "num_frame_captions": 7,
+      "caption": "The scene depicts a crowded commuter train car during peak travel. Passengers are packed closely together, both seated and standing, within the confined space. The perspective is consistently from behind a blonde-haired passenger, looking over their shoulder into the carriage. The view captures the dense, everyday commute, with overhead handrails and fluorescent lighting framing the scene of people enduring the close quarters of their journey."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 1228,
+      "end_frame": 1324,
+      "start_sec": 40.974267,
+      "end_sec": 44.177467,
+      "duration_sec": 3.236567,
+      "num_frame_captions": 7,
+      "caption": "This scene depicts an intimate musical performance or rehearsal by a small ensemble in a dimly lit indoor setting. The focus is on two young musicians: a woman playing the flute and another person, likely a violinist, performing alongside her. The atmosphere is close and concentrated, with the performers deeply engaged in their music. The blurry, close-up shots emphasize the informal and personal nature of the gathering, capturing the musicians in moments of focused collaboration rather than a formal concert."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 1325,
+      "end_frame": 1401,
+      "start_sec": 44.210833,
+      "end_sec": 46.7467,
+      "duration_sec": 2.569233,
+      "num_frame_captions": 5,
+      "caption": "In this indoor scene, an elderly man with white hair is seated in profile, wearing a dark jacket and scarf. He appears thoughtful, his gaze directed off to the side in a moment of quiet contemplation. The setting is softly lit, with blurred lights creating a warm, atmospheric background. He is holding a light-colored wooden object, which could be a musical instrument or a crafted tool, adding a sense of purpose or personal history to the reflective moment. The overall impression is one of serene introspection."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 1402,
+      "end_frame": 1433,
+      "start_sec": 46.780067,
+      "end_sec": 47.814433,
+      "duration_sec": 1.067733,
+      "num_frame_captions": 2,
+      "caption": "This scene takes place in a crowded public transit vehicle, likely a subway or bus, with a dim, atmospheric interior. The focus is on a young woman with dark hair, who is seated among other passengers. The perspective emphasizes the crowded, anonymous nature of the space, with blurred figures in the foreground. In the background, a small child wearing a red jacket provides a point of contrast and detail within the otherwise indistinct and hazy environment. The overall mood is one of quiet observation within the impersonal flow of urban travel."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 1434,
+      "end_frame": 1508,
+      "start_sec": 47.8478,
+      "end_sec": 50.316933,
+      "duration_sec": 2.5025,
+      "num_frame_captions": 5,
+      "caption": "A bald man with glasses performs on various woodwind instruments\u2014including a clarinet, flute, and oboe\u2014in a dimly lit, crowded indoor space. He is surrounded by other musicians and people, suggesting a live musical performance or rehearsal in an intimate setting. Nearby, a baby in a pink jacket sits in a stroller, indicating the presence of a child amidst the audience or participants. The scene captures a moment of focused musical activity within a social gathering."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 1509,
+      "end_frame": 1575,
+      "start_sec": 50.3503,
+      "end_sec": 52.5525,
+      "duration_sec": 2.235567,
+      "num_frame_captions": 5,
+      "caption": "This scene takes place inside a crowded subway car at night. A man wearing a cap with the word \"MULATO\" (or a similar spelling) is seated, wearing headphones and holding a drink. The atmosphere is lively, with many passengers standing and holding onto poles. A notable and unusual element is a woman among the passengers who is holding a bassoon, and in one instance appears to be playing it. The presence of the large instrument draws the attention of several onlookers, including a smiling woman, creating a moment of shared curiosity within the cramped commute."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 1576,
+      "end_frame": 1749,
+      "start_sec": 52.585867,
+      "end_sec": 58.3583,
+      "duration_sec": 5.8058,
+      "num_frame_captions": 11,
+      "caption": "This scene features a close-up view of a musician playing a flute. The focus alternates between the performer\u2019s skilled hands pressing the instrument\u2019s keys and their long hair, which is partially visible in the frame. The flute appears to be silver, with one brief shot suggesting it might be golden. The background is often blurred, implying a live performance setting, possibly within an ensemble. The detailed shots emphasize the delicate finger movements and technique involved in playing the woodwind instrument, creating an intimate portrait of the act of making music."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 1750,
+      "end_frame": 1809,
+      "start_sec": 58.391667,
+      "end_sec": 60.3603,
+      "duration_sec": 2.002,
+      "num_frame_captions": 4,
+      "caption": "In a dimly lit, crowded public transit vehicle, a man wearing a cap and a dark jacket is seated among other passengers. He is initially seen adjusting a white earbud in his ear. The scene's focus shifts as he becomes engaged in an intense, close conversation with another man seated beside him. This interaction escalates into a confrontation, where the second man appears to physically restrain or confront the man in the cap, creating a moment of tension within the confined space of the moving vehicle."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 1810,
+      "end_frame": 1846,
+      "start_sec": 60.393667,
+      "end_sec": 61.594867,
+      "duration_sec": 1.234567,
+      "num_frame_captions": 3,
+      "caption": "In a dimly lit, crowded subway car, a man with spiky blonde hair and a beige coat plays the violin with intense passion. His performance captures the attention of the surrounding passengers, who watch him with a mix of curiosity and engagement. The scene conveys a moment of unexpected artistry within the mundane setting of public transit, as the musician\u2019s disheveled appearance and fervent playing create a striking contrast to the ordinary commute."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 1847,
+      "end_frame": 1925,
+      "start_sec": 61.628233,
+      "end_sec": 64.230833,
+      "duration_sec": 2.635967,
+      "num_frame_captions": 5,
+      "caption": "In a lively public setting, a group of musicians performs an intimate concert. The ensemble includes an elderly woman in a purple jacket who passionately plays the violin, while another musician plays the cello. They are surrounded by fellow performers in a crowded, warmly lit environment that suggests a spontaneous gathering, possibly on public transport. The scene captures a moment of shared, intense musical focus and joy among the artists as they play for those around them."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 1926,
+      "end_frame": 1991,
+      "start_sec": 64.2642,
+      "end_sec": 66.433033,
+      "duration_sec": 2.2022,
+      "num_frame_captions": 4,
+      "caption": "In a crowded subway car, a young man plays the violin with passion, providing an impromptu musical performance for his fellow commuters. Seated among the passengers, he captures the attention of those around him, including an elderly woman with glasses and a younger woman wearing a pink sweater. The audience watches and listens intently, collectively enjoying the shared moment of music in the midst of their daily transit. The scene conveys a sense of spontaneous connection and appreciation, as the ordinary public space is briefly transformed by the musician's artistry."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 1992,
+      "end_frame": 2065,
+      "start_sec": 66.4664,
+      "end_sec": 68.902167,
+      "duration_sec": 2.469133,
+      "num_frame_captions": 5,
+      "caption": "In a dimly lit, crowded indoor space, a young child wearing a bright yellow vest (and in one instance a yellow and purple jacket) becomes the focal point of the scene. The child looks upward with an expression of wide-eyed wonder, surprise, and curiosity. Surrounding the child are several adults, one of whom is actively playing a violin. The atmosphere is intimate and likely musical, with the child's captivated reaction suggesting they are engrossed by the performance or the activity of the adults handling the instrument in the close quarters."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 2066,
+      "end_frame": 2119,
+      "start_sec": 68.935533,
+      "end_sec": 70.703967,
+      "duration_sec": 1.8018,
+      "num_frame_captions": 4,
+      "caption": "This scene captures a lively musical performance taking place inside a crowded subway car. A group of musicians, including a smiling blonde cellist, are packed tightly among the passengers, playing string instruments like violins and cellos. The atmosphere is bustling and somewhat chaotic, with people holding onto poles and overhead bars for balance as the train moves. The dimly lit, confined space is filled with the musicians, their sheet music stands, and fellow commuters, creating an impromptu concert in the midst of the daily rush of public transportation."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 2120,
+      "end_frame": 2162,
+      "start_sec": 70.737333,
+      "end_sec": 72.138733,
+      "duration_sec": 1.434767,
+      "num_frame_captions": 3,
+      "caption": "This scene follows a young woman with a blue headband and earphones as she transitions from a moment of surprise to focused performance. Initially seated in a crowded train, she appears startled, surrounded by fellow musicians. The setting then shifts to a formal orchestra, where she and the others are actively playing string instruments. Her expression changes from surprise to one of intense concentration as she engages with the music. The sequence suggests a journey from an informal, public space to a dedicated rehearsal or concert environment, highlighting her shift into a professional musical role."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 2163,
+      "end_frame": 2238,
+      "start_sec": 72.1721,
+      "end_sec": 74.6746,
+      "duration_sec": 2.535867,
+      "num_frame_captions": 5,
+      "caption": "This scene unfolds in a bustling, celebratory indoor setting, likely a party or social gathering. The warm, dim lighting and crowded atmosphere create an intimate and lively mood. A central focus is a person playing the violin, with a smiling woman in a green jacket watching them appreciatively. The perspective shifts between close-ups of the musician, the woman's joyful reaction, and other blurred figures in motion, conveying a sense of shared, chaotic energy. The sequence suggests a moment of communal enjoyment, possibly on public transport or in a similarly confined space, captured through a candid, slightly blurred visual style."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 2239,
+      "end_frame": 2327,
+      "start_sec": 74.707967,
+      "end_sec": 77.644233,
+      "duration_sec": 2.969633,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a train traveling through a dark, narrow underground tunnel. The environment is consistently dim, illuminated only by a series of overhead lights that cast a faint glow along the parallel tracks, which stretch and recede into the distant darkness. As the train moves forward, the view alternates between shots of the empty tunnel and the train's perspective from within it. A recurring feature is a green emergency or exit sign visible on the left wall, providing a point of reference in the otherwise monotonous, shadowy passage. The overall impression is one of steady, confined transit through a subterranean space."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 2328,
+      "end_frame": 2408,
+      "start_sec": 77.6776,
+      "end_sec": 80.346933,
+      "duration_sec": 2.7027,
+      "num_frame_captions": 5,
+      "caption": "This scene features an elderly woman with gray hair and a scarf, who is a violinist in a musical ensemble. She is captured in a series of close-up shots, consistently holding her violin with a warm, joyful smile. Her gaze alternates between looking directly at the camera and looking off-camera, perhaps interacting with fellow musicians or an audience. The softly lit, indoor setting includes other blurred figures in the background, confirming she is part of a group performance. The overall mood is one of focused happiness and artistic engagement during what appears to be a rehearsal or a concert."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 2409,
+      "end_frame": 2460,
+      "start_sec": 80.3803,
+      "end_sec": 82.082,
+      "duration_sec": 1.735067,
+      "num_frame_captions": 4,
+      "caption": "In this scene, two young women are playing wind instruments while riding on a subway or public transit train. One, a blonde, plays a brass instrument, while another with light brown hair plays a flute. They are seated together, with one performing near a bright window. Another passenger is present nearby, observing the impromptu musical performance. The setting is the interior of a moving train, creating a casual, public backdrop for their playing. The scene captures a moment of shared, informal music-making during a commute."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 2461,
+      "end_frame": 2504,
+      "start_sec": 82.115367,
+      "end_sec": 83.550133,
+      "duration_sec": 1.468133,
+      "num_frame_captions": 2,
+      "caption": "In a train car that doubles as an impromptu performance space, a small ensemble of musicians is deeply engaged in playing their violins. The group, which includes both men and women, is focused intently on their music, suggesting a formal rehearsal or a live, intimate concert for fellow passengers. The scene captures a moment of shared artistic concentration, where the musicians collaborate in a confined yet resonant setting. Their performance transforms the ordinary train carriage into a unique venue, blending travel with a spontaneous cultural experience."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 2505,
+      "end_frame": 2553,
+      "start_sec": 83.5835,
+      "end_sec": 85.1851,
+      "duration_sec": 1.634967,
+      "num_frame_captions": 4,
+      "caption": "A crowded subway car becomes the stage for an impromptu musical performance or celebration. Passengers, packed closely together, are captivated by the event, with many raising their hands or holding instruments. The atmosphere is lively and brightly lit, as numerous people use their phones to record or photograph the spontaneous happening. While some engage in conversation, the collective focus is on the performance, creating a scene of shared, unexpected entertainment during the commute."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 2554,
+      "end_frame": 2605,
+      "start_sec": 85.218467,
+      "end_sec": 86.920167,
+      "duration_sec": 1.735067,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a train journey along a curving, elevated railway track under a grey, overcast sky. The train moves through an urban or suburban landscape, flanked by railings and passing over a grassy area. In the distance, trees and buildings are visible, suggesting the route skirts the edges of developed areas. The consistent overcast lighting and the train's motion along the winding track create a subdued, steady atmosphere as it travels through this transitional space between natural vegetation and man-made structures."
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 2606,
+      "end_frame": 2692,
+      "start_sec": 86.953533,
+      "end_sec": 89.823067,
+      "duration_sec": 2.9029,
+      "num_frame_captions": 6,
+      "caption": "In a crowded bus or train car, a spontaneous musical performance unfolds among commuters. A woman, often noted wearing a grey beanie, plays a violin at the center of the lively scene. Many fellow passengers are musicians themselves, holding instruments like cellos and violins, suggesting a possible organized group. The atmosphere is festive and engaging, with numerous onlookers using their phones to record the impromptu concert. The event transforms the ordinary commute into a shared, celebratory moment of public music-making, capturing the attention and participation of everyone onboard."
+    },
+    {
+      "scene_index": 35,
+      "start_frame": 2693,
+      "end_frame": 2707,
+      "start_sec": 89.856433,
+      "end_sec": 90.323567,
+      "duration_sec": 0.5005,
+      "num_frame_captions": 1,
+      "caption": "This scene offers an intimate, dynamic view of a string musician in performance. The camera focuses tightly on the body of a violin or viola, capturing the fluid, energetic motion of the bow as it moves across the strings. The deliberate use of a shallow depth of field and motion blur emphasizes the speed and physicality of the playing, creating a sense of immediacy and artistic intensity. The visual style prioritizes the texture of the moment over crisp detail, immersing the viewer in the rhythm and passion of the live music."
+    },
+    {
+      "scene_index": 36,
+      "start_frame": 2708,
+      "end_frame": 2771,
+      "start_sec": 90.356933,
+      "end_sec": 92.459033,
+      "duration_sec": 2.135467,
+      "num_frame_captions": 4,
+      "caption": "This scene captures a passionate and unconventional violin performance by a man wearing sunglasses. He plays with intense focus, his expression and the worn wood of his instrument suggesting deep dedication to his craft. The sequence includes close-up details, such as his hands interacting with the instrument, and a moment where he or someone else handles a dark object, like a phone or remote, against a warm, blurred background. The overall atmosphere is intimate and artistically charged, blending traditional musicianship with a distinct, modern personal style."
+    },
+    {
+      "scene_index": 37,
+      "start_frame": 2772,
+      "end_frame": 2841,
+      "start_sec": 92.4924,
+      "end_sec": 94.7947,
+      "duration_sec": 2.335667,
+      "num_frame_captions": 5,
+      "caption": "This scene features a man with blonde hair and sunglasses who is the central focus, playing a violin with intensity. Throughout the sequence, his performance is observed from various angles, with another person often appearing in the blurred foreground, watching him closely. The setting includes other musicians, as a person with a tuba is visible in the background at one point. The atmosphere appears to be an informal musical gathering, captured in a candid, close-up style that emphasizes the violinist's engagement and the presence of an attentive onlooker sharing the frame."
+    },
+    {
+      "scene_index": 38,
+      "start_frame": 2842,
+      "end_frame": 2885,
+      "start_sec": 94.828067,
+      "end_sec": 96.262833,
+      "duration_sec": 1.468133,
+      "num_frame_captions": 3,
+      "caption": "This scene captures an intimate moment during a musical performance, focusing on a cellist. The musician is actively engaged in playing the cello, which is prominently featured in the foreground. In one instance, the cellist's hand is seen making a precise adjustment to the instrument's fine tuner, a detail highlighting the technical care involved in the performance. The setting is a larger ensemble, as evidenced by other violinists visible in the soft-focus background, all contributing to the orchestral piece. The overall atmosphere is one of concentrated artistry within a shared musical endeavor."
+    },
+    {
+      "scene_index": 39,
+      "start_frame": 2886,
+      "end_frame": 2973,
+      "start_sec": 96.2962,
+      "end_sec": 99.1991,
+      "duration_sec": 2.936267,
+      "num_frame_captions": 6,
+      "caption": "A lively, impromptu event unfolds inside a crowded subway car, where a group of young people, including musicians with violins, are the center of attention. The atmosphere is energetic and social, with many passengers tightly packed together. Captivated by the scene, numerous onlookers hold up their phones to record videos or take pictures of the performance or event happening in their midst. The dim lighting and chaotic, close quarters contribute to a sense of shared, spontaneous excitement as the train continues its journey."
+    },
+    {
+      "scene_index": 40,
+      "start_frame": 2974,
+      "end_frame": 3016,
+      "start_sec": 99.232467,
+      "end_sec": 100.633867,
+      "duration_sec": 1.434767,
+      "num_frame_captions": 3,
+      "caption": "In a crowded train car, a group of young musicians, predominantly violinists, spontaneously launch into a passionate performance. The scene is dynamic and intimate, filled with the energy of their impromptu concert as they play with focus and intensity. The slight motion blur in the shot suggests the vehicle is in motion, adding to the lively and slightly chaotic atmosphere. This unexpected musical interlude transforms the ordinary public transport setting into a vibrant, shared experience for both the performers and any surrounding passengers."
+    },
+    {
+      "scene_index": 41,
+      "start_frame": 3017,
+      "end_frame": 3076,
+      "start_sec": 100.667233,
+      "end_sec": 102.635867,
+      "duration_sec": 2.002,
+      "num_frame_captions": 4,
+      "caption": "This scene features a bearded man in a red jacket delivering an impassioned speech, likely to the camera or an unseen audience. The setting is an indoor public space, specifically the interior of a subway or train car. He speaks directly and emphatically, using broad, upward gestures with both hands to underscore his points. His passionate monologue draws the attention of at least one other passenger, who is seen observing him. The overall tone is one of fervent public address or performance within the mundane environment of public transit."
+    },
+    {
+      "scene_index": 42,
+      "start_frame": 3077,
+      "end_frame": 3115,
+      "start_sec": 102.669233,
+      "end_sec": 103.937167,
+      "duration_sec": 1.3013,
+      "num_frame_captions": 2,
+      "caption": "A man rides a crowded bus, smiling as he holds onto a pole for support. The vehicle is filled with musicians actively playing brass and string instruments, creating an impromptu concert during the journey. The lively atmosphere suggests a spontaneous or celebratory performance, with the man as a cheerful passenger amidst the music."
+    },
+    {
+      "scene_index": 43,
+      "start_frame": 3116,
+      "end_frame": 3173,
+      "start_sec": 103.970533,
+      "end_sec": 105.872433,
+      "duration_sec": 1.935267,
+      "num_frame_captions": 4,
+      "caption": "In this scene, a young woman with long brown hair is seated inside a train or subway car, playing the violin. She performs with a gentle, focused expression, often smiling directly at the camera as she engages with the viewer. Her fingers move gracefully along the strings of the instrument while she skillfully handles the bow, indicating a practiced and confident performance. The setting of public transit adds a layer of contrast between the intimate, artistic act and the transient, everyday environment, creating a moment of quiet artistry amidst the movement of the train."
+    },
+    {
+      "scene_index": 44,
+      "start_frame": 3174,
+      "end_frame": 3217,
+      "start_sec": 105.9058,
+      "end_sec": 107.340567,
+      "duration_sec": 1.468133,
+      "num_frame_captions": 3,
+      "caption": "This scene features an intense, close-up performance by a violinist. The musician is completely absorbed in playing, their focus and emotional investment evident in their expression and precise movements. The violin and bow are rendered in sharp, clear detail, emphasizing the skill and physicality of the performance. The surrounding environment, whether a crowd or other ensemble members, is softened into an indistinct background blur. This visual treatment isolates the soloist, creating a powerful and intimate portrait of artistic concentration and the solitary nature of a featured musical moment."
+    },
+    {
+      "scene_index": 45,
+      "start_frame": 3218,
+      "end_frame": 3248,
+      "start_sec": 107.373933,
+      "end_sec": 108.374933,
+      "duration_sec": 1.034367,
+      "num_frame_captions": 2,
+      "caption": "A young man with spiky hair and a plaid jacket is riding on a public transit vehicle. He has headphones draped around his neck. In a moment of cheerful engagement, he smiles and raises his hand, perhaps in greeting or reaction to someone or something within the brightly lit carriage. His expression and gesture convey a sense of friendly recognition or lighthearted participation in the scene around him."
+    },
+    {
+      "scene_index": 46,
+      "start_frame": 3249,
+      "end_frame": 3301,
+      "start_sec": 108.4083,
+      "end_sec": 110.143367,
+      "duration_sec": 1.768433,
+      "num_frame_captions": 4,
+      "caption": "A woman wearing a hijab smiles while riding a public transit vehicle. She is accompanied by another woman who is playing the violin. The scene takes place against a backdrop of Danish transit signage, which includes information about tickets, travel, and luggage. The overall atmosphere is one of casual, shared public travel, with music adding a layer of cultural or personal expression to the journey."
+    },
+    {
+      "scene_index": 47,
+      "start_frame": 3302,
+      "end_frame": 3403,
+      "start_sec": 110.176733,
+      "end_sec": 113.546767,
+      "duration_sec": 3.4034,
+      "num_frame_captions": 6,
+      "caption": "This scene captures a young female violinist performing with an ensemble. She is intensely focused on her playing, her face often shown in profile as she draws the bow across the strings with concentration. The cinematography emphasizes her central role through close-ups and by keeping the other musicians in the background softly blurred. The overall setting is a musical performance where her illuminated expression and immersion in the music are the primary focus, conveying a moment of artistic dedication within the collaborative context of the group."
+    },
+    {
+      "scene_index": 48,
+      "start_frame": 3404,
+      "end_frame": 3548,
+      "start_sec": 113.580133,
+      "end_sec": 118.384933,
+      "duration_sec": 4.838167,
+      "num_frame_captions": 10,
+      "caption": "The scene depicts a musician performing with various wind instruments. It begins with a person playing a flute, shown in multiple close-ups focusing on their mouth, fingers on the keys, and the instrument's silver body. The performance continues as they switch to playing a harmonica. Throughout, the shots are intimate and often blurry or overexposed, emphasizing the physical act of playing. The sequence concludes with the musician briefly holding a brass instrument to their lips."
+    },
+    {
+      "scene_index": 49,
+      "start_frame": 3549,
+      "end_frame": 3644,
+      "start_sec": 118.4183,
+      "end_sec": 121.588133,
+      "duration_sec": 3.2032,
+      "num_frame_captions": 6,
+      "caption": "Two musicians perform together in a softly lit indoor setting. A woman plays a flute, and a bald man with glasses plays an oboe. They are focused on their music, sometimes sitting side by side. The man smiles at one point during the performance. The scene captures their shared concentration and the act of making music as a duo."
+    },
+    {
+      "scene_index": 50,
+      "start_frame": 3645,
+      "end_frame": 3747,
+      "start_sec": 121.6215,
+      "end_sec": 125.0249,
+      "duration_sec": 3.436767,
+      "num_frame_captions": 7,
+      "caption": "In a bustling public space, a curious baby with pigtails, wearing a red jacket, sits attentively in her stroller. Her wide eyes gaze upward, captivated by the scene around her. Initially surrounded by adults and luggage in a crowded area, the environment shifts as musicians begin to play. Soon, she is encircled by performers playing violins and other string instruments, creating a moment of shared wonder. The scene captures the toddler's innocent fascination amidst the transition from general travel chaos to an impromptu musical performance."
+    },
+    {
+      "scene_index": 51,
+      "start_frame": 3748,
+      "end_frame": 3811,
+      "start_sec": 125.058267,
+      "end_sec": 127.160367,
+      "duration_sec": 2.135467,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a modern silver passenger train on an elevated railway line, primarily interacting with a station platform. The train is seen both in motion and at a complete stop, suggesting its arrival and departure sequence. While moving, it passes by the platform on the tracks. When stationary, it is parked at the platform, its large windows clearly reflecting the surrounding environment. A building is consistently visible in the background, providing context for the urban setting. The alternating states of motion capture a brief moment in the train's operational cycle at this elevated station."
+    },
+    {
+      "scene_index": 52,
+      "start_frame": 3812,
+      "end_frame": 3919,
+      "start_sec": 127.193733,
+      "end_sec": 130.763967,
+      "duration_sec": 3.6036,
+      "num_frame_captions": 7,
+      "caption": "This scene follows a group of people, including a blonde woman and a bespectacled man, as they move through a dim, institutional corridor. Their journey is frequently observed through reflective surfaces like mirrors and glass, which capture their expressions and interactions. The perspective is often from behind or obscured, creating a sense of observation and slight detachment. Moments of laughter and smiling are seen in these reflections, suggesting a casual, social atmosphere despite the stark setting. The overall sequence conveys a group navigating a shared space, with the reflective elements offering fragmented glimpses of their engagement with one another."
+    },
+    {
+      "scene_index": 53,
+      "start_frame": 3920,
+      "end_frame": 4202,
+      "start_sec": 130.797333,
+      "end_sec": 140.206733,
+      "duration_sec": 9.442767,
+      "num_frame_captions": 19,
+      "caption": "This scene opens with a series of abstract, blurry shots filmed from behind a window or reflective surface, capturing fleeting glimpses of an urban environment with people walking and a train station. The focus then shifts to the train platform, where a passing train is seen through the glass. The video transitions into a promotional segment for Radio Klassik, featuring minimalist white screens with the station's logo and its bilingual tagline, \"Nyd musikken i radioen / Enjoy the music - in the radio.\" The sequence concludes with the graphic becoming digitally distorted, glitching and pixelating before the final text subtly alters to \"in the rain.\""
+    },
+    {
+      "scene_index": 54,
+      "start_frame": 4203,
+      "end_frame": 4462,
+      "start_sec": 140.2401,
+      "end_sec": 148.882067,
+      "duration_sec": 8.675333,
+      "num_frame_captions": 17,
+      "caption": "This scene opens with a dynamic, abstract visual of swirling light particles and geometric shapes, establishing a high-energy, futuristic aesthetic. This transitions into the main title sequence, which repeatedly presents the branding for \"CASACL CHANNEL\" alongside the creator's name, Claudio Silva Aravena. The consistent design features sleek, glowing blue text\u2014often with a metallic or 3D effect\u2014set against a dark background. The visuals are enhanced by intersecting laser-like light beams, neon lines, and occasional lens flares, creating a cohesive and immersive high-tech title card that emphasizes the channel's modern, digital identity."
+    }
+  ]
+}

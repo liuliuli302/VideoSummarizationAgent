@@ -1,0 +1,26 @@
+{
+  "video": "paluma_jump",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/paluma_jump.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_24.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 2574,
+  "num_scenes": 1,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 2573,
+      "start_sec": 0.0,
+      "end_sec": 85.852433,
+      "duration_sec": 85.8858,
+      "num_frame_captions": 172,
+      "caption": "The scene shows a group of people enjoying a natural swimming hole beneath a stone arch bridge in a lush, forested area. They are swimming, wading, and relaxing in the clear pool, while others stand or sit on the surrounding rocks. A small waterfall cascades into the water, adding to the serene atmosphere. The individuals, including shirtless men, are seen smiling, swimming, and interacting in this idyllic outdoor setting."
+    }
+  ]
+}

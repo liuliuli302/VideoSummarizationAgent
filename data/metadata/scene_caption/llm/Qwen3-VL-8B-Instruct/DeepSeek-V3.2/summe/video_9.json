@@ -1,0 +1,226 @@
+{
+  "video": "Eiffel Tower",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Eiffel Tower.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_9.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 25.0,
+  "total_frames": 4971,
+  "num_scenes": 21,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 319,
+      "start_sec": 0.0,
+      "end_sec": 12.76,
+      "duration_sec": 12.8,
+      "num_frame_captions": 22,
+      "caption": "This scene captures a picturesque view of Paris along the Seine River, featuring the iconic Eiffel Tower standing majestically under a partly cloudy blue sky. In the foreground, a classic stone bridge with multiple arches spans the water. The scene is animated by human activity: people stroll along the bridge and riverbank, while two kayakers, one in red and one in green, paddle on the river below. The perspective shifts from wider shots integrating the bridge, tower, and water to closer, low-angle views that emphasize the tower's grand iron lattice against the sky, with the warm light suggesting late afternoon."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 320,
+      "end_frame": 590,
+      "start_sec": 12.8,
+      "end_sec": 23.6,
+      "duration_sec": 10.84,
+      "num_frame_captions": 18,
+      "caption": "This scene presents a sustained, dramatic low-angle perspective from directly beneath the Eiffel Tower. The camera remains fixed, looking upward through the monument's iconic iron latticework and grand arches. The intricate geometric patterns of the metal structure dominate the frame, creating a powerful silhouette against the expansive sky. The view is consistently clear and bright, primarily showcasing a vivid blue sky punctuated by soft, white clouds that drift into view. The composition emphasizes the tower's monumental scale and architectural detail, framing the serene sky through its sturdy, engineered form for a contemplative and awe-inspiring visual."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 591,
+      "end_frame": 891,
+      "start_sec": 23.64,
+      "end_sec": 35.64,
+      "duration_sec": 12.04,
+      "num_frame_captions": 20,
+      "caption": "The scene begins with a close examination of a weathered stone wall featuring ornate carvings and decorative tiles, partially obscured by a small green bush growing at its base. The perspective then shifts dramatically, pulling back and tilting upward to reveal that this detailed stonework is actually the base of the Eiffel Tower. The shot transitions into a series of low-angle views, focusing on the monument's intricate iron lattice structure as it rises powerfully against a clear blue sky. The sequence emphasizes the tower's monumental scale, industrial design, and majestic silhouette, creating a striking contrast between its solid stone foundation and the delicate, soaring metalwork above."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 892,
+      "end_frame": 1162,
+      "start_sec": 35.68,
+      "end_sec": 46.48,
+      "duration_sec": 10.84,
+      "num_frame_captions": 18,
+      "caption": "This scene presents a sustained, dramatic low-angle view looking up through the iconic Eiffel Tower. The perspective emphasizes the intricate iron lattice and arches of the structure, which are powerfully silhouetted against the sky. The primary visual focus is on the interplay between the geometric metal framework and the expansive, bright blue atmosphere above. Throughout the scene, the sky remains a constant backdrop, varying slightly from clear blue to being dotted with a few white clouds or light cloud cover, enhancing the grandeur and architectural detail of the landmark."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 1163,
+      "end_frame": 1379,
+      "start_sec": 46.52,
+      "end_sec": 55.16,
+      "duration_sec": 8.68,
+      "num_frame_captions": 14,
+      "caption": "The video presents a sweeping tour of Paris, beginning with an aerial view of its grand parks and fountains. The focus then shifts to the iconic Eiffel Tower, shown from various angles against different skies, emphasizing its intricate iron structure. The scene concludes with views of a massive, ornate bridge, where people gather on its walkways. The sequence moves from wide establishing shots of the city to closer examinations of its most famous architectural landmarks."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 1380,
+      "end_frame": 1417,
+      "start_sec": 55.2,
+      "end_sec": 56.68,
+      "duration_sec": 1.52,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a bustling public gathering on a historic bridge, likely a famous tourist attraction. Visitors are seen walking along the pedestrian walkway, admiring the impressive engineering. The focus is on the bridge's grand scale and intricate steel latticework, viewed from both a distance and from dramatic low angles that emphasize its towering structure against the sky. The atmosphere is one of leisure and sightseeing, with crowds of people enjoying the views from this elevated landmark."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 1418,
+      "end_frame": 1433,
+      "start_sec": 56.72,
+      "end_sec": 57.32,
+      "duration_sec": 0.64,
+      "num_frame_captions": 1,
+      "caption": "This scene presents a single, static view of an interior architectural detail. The perspective is fixed, focusing on a section of a brown, crisscrossing lattice structure, likely part of a room divider, screen, or decorative panel. The image quality is poor, being both blurry and low-resolution, which obscures finer details and creates a somewhat indistinct, textured appearance. To the left of the frame, a plain white wall is visible, providing a stark, blank backdrop that contrasts with the intricate pattern of the lattice. The overall composition suggests a quiet, observational shot of a mundane structural element within a building."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 1434,
+      "end_frame": 1676,
+      "start_sec": 57.36,
+      "end_sec": 67.04,
+      "duration_sec": 9.72,
+      "num_frame_captions": 16,
+      "caption": "The video opens with a series of low-angle shots of the Eiffel Tower, emphasizing its immense height and intricate iron lattice structure against a clear blue sky. As the scene progresses, the sky becomes paler with scattered clouds, and the focus gradually shifts downward from the tower's metalwork to its massive, ornate stone base. The final shots settle on a small green bush growing in a patch of dirt at the foot of this weathered, carved stone wall, completing the descent from the iconic pinnacle to a quiet, grounded detail."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 1677,
+      "end_frame": 2049,
+      "start_sec": 67.08,
+      "end_sec": 81.96,
+      "duration_sec": 14.92,
+      "num_frame_captions": 25,
+      "caption": "The scene begins with a close-up view of vibrant yellow forsythia flowers blooming in early spring, set against a stone wall and fence. The perspective then shifts to reveal the flowers are growing near a weathered, ornately carved stone architectural facade. This structure is gradually revealed to be at the base of the Eiffel Tower, as the view pulls back and upward. The shot transitions to a series of low-angle views, finally showcasing the full, majestic scale of the Tower's iron lattice against a clear blue sky."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 2050,
+      "end_frame": 2320,
+      "start_sec": 82.0,
+      "end_sec": 92.8,
+      "duration_sec": 10.84,
+      "num_frame_captions": 18,
+      "caption": "This scene presents a sustained, low-angle view from directly beneath the Eiffel Tower, looking upward through its iconic iron lattice. The perspective emphasizes the intricate, geometric patterns of the metal framework, which stands in dark silhouette against the backdrop of a bright sky. The sky itself is a consistent element, varying slightly between shots as a clear, pale blue or a blue dotted with scattered white clouds. The composition creates a striking contrast between the detailed, man-made structure and the vast, open expanse of the heavens framed within its arches."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 2321,
+      "end_frame": 2738,
+      "start_sec": 92.84,
+      "end_sec": 109.52,
+      "duration_sec": 16.72,
+      "num_frame_captions": 28,
+      "caption": "The video presents a dynamic, low-angle exploration of monumental architecture, primarily focusing on the Eiffel Tower. The perspective shifts from the dark underside of a bridge and a moving vehicle to a sustained, shaky upward gaze through the tower's iconic iron lattice. The view emphasizes the intricate metalwork against bright, open skies, occasionally interrupted by platforms, tarps, or passing structures. The scene conveys a sense of awe and motion, capturing the grandeur of the engineered form from a grounded, human vantage point."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 2739,
+      "end_frame": 3013,
+      "start_sec": 109.56,
+      "end_sec": 120.52,
+      "duration_sec": 11.0,
+      "num_frame_captions": 18,
+      "caption": "This scene depicts a bustling public gathering at the Eiffel Tower on a bright, partly cloudy day. A large crowd of people mills about, walks, and forms lines in the expansive, tree-lined square at the monument's base. The iconic iron lattice structure of the tower dominates the background, towering over the assembled visitors. The atmosphere is lively and public, with the historic landmark serving as the clear focal point amidst the urban park setting, under a sky dotted with clouds."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 3014,
+      "end_frame": 3109,
+      "start_sec": 120.56,
+      "end_sec": 124.36,
+      "duration_sec": 3.84,
+      "num_frame_captions": 7,
+      "caption": "This scene presents a wide, open-air public square or plaza bustling with activity under a bright, hazy sky. A large crowd of people moves through the paved space, with some pushing strollers, while the hazy backdrop features various buildings and trees. The setting appears to shift between a crowded central area and a more desolate, industrial periphery marked by scattered debris, temporary barriers, and large metal frameworks. Distant tents or stalls suggest a temporary event. The overall impression is of a vast, somewhat chaotic public gathering in an urban environment, captured in a series of blurry, wide-angle shots."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 3110,
+      "end_frame": 3464,
+      "start_sec": 124.4,
+      "end_sec": 138.56,
+      "duration_sec": 14.2,
+      "num_frame_captions": 23,
+      "caption": "The scene opens with a wide view of the Eiffel Tower as a dark silhouette against a pale blue sky. The perspective then shifts, moving closer to showcase the tower's intricate iron lattice structure dominating the Parisian skyline. Finally, the viewpoint descends to ground level, looking out from beneath the tower's arch over the bustling Champ de Mars. The sequence captures the iconic landmark from a distant, majestic profile down to an immersive street-level experience, framing the lively gardens, grand architecture, and flowing traffic of the city below."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 3465,
+      "end_frame": 3903,
+      "start_sec": 138.6,
+      "end_sec": 156.12,
+      "duration_sec": 17.56,
+      "num_frame_captions": 30,
+      "caption": "The scene shows a bustling crowd of tourists and visitors gathered beneath the iconic iron arches of the Eiffel Tower on a bright, partly cloudy day. People are milling about, walking along pathways, and sitting in the plaza, with vendor stalls and metal barricades nearby. The massive lattice structure frames views of the Champ de Mars park, bare trees, and Parisian buildings in the distance. The atmosphere is lively and public, captured from wide-angle perspectives looking out from under the tower's monumental framework."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 3904,
+      "end_frame": 4174,
+      "start_sec": 156.16,
+      "end_sec": 166.96,
+      "duration_sec": 10.84,
+      "num_frame_captions": 18,
+      "caption": "This scene presents a series of low-angle shots of the Eiffel Tower in Paris. The perspective begins by focusing on the iconic tower's full silhouette against a bright blue sky with scattered clouds. The view then shifts to emphasize the intricate iron lattice of the structure itself, looking up through its massive arches. Finally, the composition opens to reveal the surrounding context: a vibrant green lawn in the foreground, with crowds of people gathered and distant Parisian buildings visible through the framework of the tower. The sequence creates a majestic and immersive view from beneath the landmark."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 4175,
+      "end_frame": 4445,
+      "start_sec": 167.0,
+      "end_sec": 177.8,
+      "duration_sec": 10.84,
+      "num_frame_captions": 18,
+      "caption": "The scene presents a series of low-angle shots looking up at the Eiffel Tower. The focus is consistently on the intricate iron lattice of its structure, particularly the arches. The view frames a bright sky above, which varies from clear blue to partly cloudy, with descriptions often noting a single white cloud. The sequence emphasizes the tower's grand, complex architecture against the open sky, creating a dramatic and awe-inspiring perspective."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 4446,
+      "end_frame": 4474,
+      "start_sec": 177.84,
+      "end_sec": 178.96,
+      "duration_sec": 1.16,
+      "num_frame_captions": 2,
+      "caption": "This scene presents a close-up view of a vibrant forsythia bush in full bloom. The dense, bright yellow flowers dominate the foreground, creating a vivid and cheerful focal point. Behind this floral display, a paved walkway and a low wall are partially visible, their details softened and obscured by the profusion of blossoms. The overall composition emphasizes the lush, overflowing quality of the spring blossoms against the structured, man-made elements of the path and wall in the background, resulting in a tranquil and visually striking natural scene."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 4475,
+      "end_frame": 4656,
+      "start_sec": 179.0,
+      "end_sec": 186.24,
+      "duration_sec": 7.28,
+      "num_frame_captions": 12,
+      "caption": "This scene presents a series of low-angle shots from beneath the Eiffel Tower, consistently emphasizing its immense scale and intricate iron latticework. The perspective looks upward and outward through the tower's iconic arches, which frame views of the surrounding Parisian cityscape. The composition contrasts the dark, geometric metal framework against a bright sky, often partly cloudy, and includes a sunlit grassy park or lawn in the foreground. The recurring elements create a cohesive visual study of the landmark's imposing structure and its relationship to the urban parkland and distant buildings."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 4657,
+      "end_frame": 4819,
+      "start_sec": 186.28,
+      "end_sec": 192.76,
+      "duration_sec": 6.52,
+      "num_frame_captions": 11,
+      "caption": "This scene presents a series of views captured from beneath the Eiffel Tower in Paris. The perspective consistently looks outward through the structure's grand arch or upward at its intricate iron latticework. Crowds of pedestrians are seen strolling along the wide paths in the park below, moving toward the distant Parisian skyline. The lighting varies, with conditions described as bright and overcast, partly cloudy, or at sunset, sometimes creating silhouettes of people and trees against the sky. The overall impression is of a bustling, iconic location observed from its monumental base."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 4820,
+      "end_frame": 4970,
+      "start_sec": 192.8,
+      "end_sec": 198.8,
+      "duration_sec": 6.04,
+      "num_frame_captions": 10,
+      "caption": "This scene captures the Eiffel Tower in a striking, backlit composition. The sun, positioned directly behind the iconic structure, shines brightly through its intricate iron lattice and arches. This creates a powerful silhouette effect, where the tower's detailed framework appears as a dark, intricate shape against a luminous backdrop. The sky is bright and partly cloudy, with the intense sunlight often producing a radiant starburst or glow through the tower's open structure. The overall mood is dramatic and iconic, emphasizing the monument's elegant form against the vast Parisian sky."
+    }
+  ]
+}

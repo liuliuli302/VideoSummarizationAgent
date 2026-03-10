@@ -1,0 +1,126 @@
+{
+  "video": "Scuba",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Scuba.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_18.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 30.0,
+  "total_frames": 2221,
+  "num_scenes": 11,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 461,
+      "start_sec": 0.0,
+      "end_sec": 15.366667,
+      "duration_sec": 15.4,
+      "num_frame_captions": 31,
+      "caption": "This scene follows a scuba diver exploring a vast and vibrant coral reef. The diver glides smoothly above the textured seabed, which is blanketed in dense clusters of green, teal, and white coral formations. The underwater environment is bathed in the characteristic blue-green light of the ocean, with clear to hazy turquoise waters. The reef teems with marine life, including small, brightly colored yellow fish that swim among the intricate coral structures. The perspective alternates between wide shots of the expansive reef and closer views that emphasize the diver's presence within this lush, aquatic landscape."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 462,
+      "end_frame": 733,
+      "start_sec": 15.4,
+      "end_sec": 24.433333,
+      "duration_sec": 9.066667,
+      "num_frame_captions": 18,
+      "caption": "This scene presents a vibrant underwater view of a dense coral reef. The environment is dominated by lush, textured coral formations in various shades of green, white, and teal, stretching across the ocean floor under a hazy blue-green light. The primary activity involves a small, spotted fish navigating through this complex ecosystem. It is seen swimming among the corals and occasionally peeking out from within the reef's crevices, adding a dynamic element of marine life to the otherwise still and densely packed landscape."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 734,
+      "end_frame": 926,
+      "start_sec": 24.466667,
+      "end_sec": 30.866667,
+      "duration_sec": 6.433333,
+      "num_frame_captions": 13,
+      "caption": "This scene depicts a scuba diver exploring a vibrant coral reef underwater. The reef is expansive and densely populated with diverse coral formations, blanketed in a characteristic greenish-blue hue from the filtered sunlight. The environment is teeming with marine life across a sandy ocean floor. The diver, visible as a silhouette, swims above the textured seabed, surveying the sprawling, sunlit landscape. The overall atmosphere is one of serene discovery within a lush, underwater ecosystem."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 927,
+      "end_frame": 1097,
+      "start_sec": 30.9,
+      "end_sec": 36.566667,
+      "duration_sec": 5.7,
+      "num_frame_captions": 12,
+      "caption": "This scene depicts a vibrant coral reef ecosystem viewed from underwater. The perspective shifts between wide shots of the vast, textured reef bathed in greenish-blue or turquoise light and closer views highlighting its dense, teeming life, including bright coral formations. A scuba diver is present, sometimes appearing as a faint silhouette in the hazy distance above the reef, emphasizing the scale and depth of the environment. The overall impression is of a lively, expansive seabed bustling with marine activity."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 1098,
+      "end_frame": 1206,
+      "start_sec": 36.6,
+      "end_sec": 40.2,
+      "duration_sec": 3.633333,
+      "num_frame_captions": 7,
+      "caption": "This underwater scene depicts a vibrant coral reef ecosystem bathed in greenish-blue light. The focus is on a striking black-and-white spiky sea urchin nestled among the diverse coral formations and rocky crevices. A small, patterned fish is also present, peeking out from a hole in the reef. The scene captures a moment of stillness and detail within this rich marine habitat, highlighting the textures of the coral and the distinctive appearance of its inhabitants."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 1207,
+      "end_frame": 1296,
+      "start_sec": 40.233333,
+      "end_sec": 43.2,
+      "duration_sec": 3.0,
+      "num_frame_captions": 6,
+      "caption": "This scene presents a vibrant underwater exploration of a coral reef ecosystem. The perspective moves across the rocky ocean floor, which is densely covered in diverse and textured coral formations. The environment is bathed in a greenish-blue to turquoise light, likely from an artificial source, which illuminates the intricate crevices and marine growth. The reef is teeming with life, and the view culminates with a dark fish swimming near the bottom, emphasizing the active nature of this rich, complex habitat."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 1297,
+      "end_frame": 1603,
+      "start_sec": 43.233333,
+      "end_sec": 53.433333,
+      "duration_sec": 10.233333,
+      "num_frame_captions": 20,
+      "caption": "This scene depicts a vibrant underwater exploration of a vast coral reef. Scuba divers, sometimes appearing as faint silhouettes in the hazy distance, navigate the expansive seascape. The ocean floor is densely packed with textured and diverse coral formations, blanketed in vibrant hues of turquoise, green, and teal under the diffused blue-green light. The reef is teeming with marine life, including small fish darting among the structures. The overall atmosphere is serene yet active, capturing the divers' journey through this lush, colorful underwater ecosystem."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 1604,
+      "end_frame": 1643,
+      "start_sec": 53.466667,
+      "end_sec": 54.766667,
+      "duration_sec": 1.333333,
+      "num_frame_captions": 3,
+      "caption": "This scene presents a vibrant underwater coral reef ecosystem, alive with color and texture. The sprawling reef is densely packed with a diverse array of coral formations, their structures creating a complex and thriving habitat. The entire environment is bathed in the distinctive greenish-blue light of the ocean, a result of sunlight filtering down through the water column. This serene and immersive view captures the reef in its full, bustling splendor, highlighting the natural beauty and intricate detail of this marine landscape."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 1644,
+      "end_frame": 1723,
+      "start_sec": 54.8,
+      "end_sec": 57.433333,
+      "duration_sec": 2.666667,
+      "num_frame_captions": 5,
+      "caption": "This underwater scene depicts a vibrant coral reef bathed in a greenish-blue, eerie glow. The environment is dimly lit and mysterious, featuring intricate brain-like coral formations and textured rocks. A small, dark fish with a spotted pattern swims among the corals, while a camouflaged octopus is nestled within the same rocky formations. The overall atmosphere is murky and immersive, capturing the quiet, hidden life of the marine depths."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 1724,
+      "end_frame": 1755,
+      "start_sec": 57.466667,
+      "end_sec": 58.5,
+      "duration_sec": 1.066667,
+      "num_frame_captions": 3,
+      "caption": "This underwater scene reveals a vibrant coral reef ecosystem. A small, dark fish uses its spiky fins for camouflage among the glowing green coral and rocky formations. The environment is teeming with diverse marine life, set against a backdrop of deep shadows and sunlit water filtering down from the surface. The overall impression is one of dynamic, concealed life within a lush, sun-dappled seascape."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 1756,
+      "end_frame": 2220,
+      "start_sec": 58.533333,
+      "end_sec": 74.0,
+      "duration_sec": 15.5,
+      "num_frame_captions": 31,
+      "caption": "The scene follows a scuba diver exploring a vibrant, green-tinted coral reef teeming with diverse formations and small fish. The diver glides gracefully through clear, turquoise waters, sometimes accompanied by another diver. The perspective shifts between wide shots of the reef and closer views, including looking up at the diver's silhouette against the sunlit surface. The sequence captures the tranquil beauty of the underwater environment, focusing on the diver's movement and the expansive, textured seabed below."
+    }
+  ]
+}

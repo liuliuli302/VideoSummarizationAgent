@@ -1,0 +1,416 @@
+{
+  "video": "LRw_obCPUt0",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/LRw_obCPUt0.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_20.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 23.976023976023978,
+  "total_frames": 6241,
+  "num_scenes": 40,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 215,
+      "start_sec": 0.0,
+      "end_sec": 8.967292,
+      "duration_sec": 9.009,
+      "num_frame_captions": 15,
+      "caption": "This scene showcases the preparation and presentation of a fried chicken sandwich. A person assembles the sandwich on a wooden cutting board, layering shredded meat, vegetables, and sauce between buns. They then press down on it firmly before using a large knife to slice it cleanly in half. The focus shifts to a close-up reveal of the finished product, identified as \"Joseph Leonard's Fried Chicken Sandwich.\" The cross-section highlights the crispy chicken, creamy sauce, pickles, and onions nestled within a soft bun, emphasizing its juicy and generous fillings."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 216,
+      "end_frame": 257,
+      "start_sec": 9.009,
+      "end_sec": 10.719042,
+      "duration_sec": 1.75175,
+      "num_frame_captions": 3,
+      "caption": "This scene presents a view of the interior of Joseph Leonard, a cozy caf\u00e9 or restaurant, as seen from outside. The perspective is consistently framed through a window, on which the establishment's name is displayed in elegant gold cursive lettering. Inside, patrons are seated in a warm, inviting atmosphere, with the interior lighting creating a sense of intimacy. The glass reflects both the caf\u00e9's warmly lit interior and the bright outdoor environment, blending the inside and outside worlds into a single, layered image that captures the quiet, convivial ambiance of the space."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 258,
+      "end_frame": 306,
+      "start_sec": 10.76075,
+      "end_sec": 12.76275,
+      "duration_sec": 2.043708,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a brief, everyday moment on a busy city street. A woman exits a white building with distinctive awnings and potted plants near its entrance, suggesting a caf\u00e9 or shop. As she steps onto the sidewalk, a man walks past her, both figures engaged in their own routines. The urban atmosphere is emphasized by a yellow taxi, which speeds past the building in one moment and is seen partially parked or waiting in another. The overall impression is of a dynamic, public space where individual paths briefly intersect amidst the flow of city life."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 307,
+      "end_frame": 353,
+      "start_sec": 12.804458,
+      "end_sec": 14.723042,
+      "duration_sec": 1.960292,
+      "num_frame_captions": 3,
+      "caption": "This scene features a cheerful chalkboard sign with the encouraging message \u201cYou Rock,\u201d placed outdoors beside a flowering bush. The sign remains the consistent focal point, positioned on a sidewalk to be visible to passersby. While the setting is stable, there is a subtle shift in the description of the surrounding foliage, from a generic bush with yellow flowers to a more specific flowering holly bush. This brief sequence captures a static, uplifting visual designed to convey a positive, affirming sentiment in a simple urban or residential setting."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 354,
+      "end_frame": 1212,
+      "start_sec": 14.76475,
+      "end_sec": 50.5505,
+      "duration_sec": 35.827458,
+      "num_frame_captions": 57,
+      "caption": "Gabriel Stulman, owner of Joseph Leonard, sits at a table in a rustic cafe. He is thoughtfully touching his face or gesturing animatedly with his hands as he speaks directly to the camera, seemingly engaged in an interview or explanation. The setting is a cozy, dimly lit space with wooden furniture, vintage mirrors, and a window in the background. His demeanor shifts between contemplative moments and passionate, conversational delivery."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 1213,
+      "end_frame": 1297,
+      "start_sec": 50.592208,
+      "end_sec": 54.095708,
+      "duration_sec": 3.545208,
+      "num_frame_captions": 6,
+      "caption": "A man in a dark shirt is working in a cluttered, rustic kitchen or workshop. The space is dimly lit with a warm ambiance and features wooden shelves, a counter, and various cooking equipment. Throughout the scene, he is actively engaged in his task, primarily working at the counter and occasionally reaching up towards the shelves or a pot. The consistent setting and his focused activity suggest he is preparing food or working on a project in this industrial-style environment."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 1298,
+      "end_frame": 1396,
+      "start_sec": 54.137417,
+      "end_sec": 58.224833,
+      "duration_sec": 4.129125,
+      "num_frame_captions": 7,
+      "caption": "This scene shows a commercial kitchen where fries are being prepared in a deep fryer. A cook uses tongs to manage the food in two metal baskets submerged in bubbling hot oil. The action involves stirring and removing items from the fryer, indicating an active cooking process. The consistent presence of the tool and the sizzling oil suggests a focus on frying the food to the proper doneness. The scene captures a routine but precise task in a fast-paced food service environment."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 1397,
+      "end_frame": 1438,
+      "start_sec": 58.266542,
+      "end_sec": 59.976583,
+      "duration_sec": 1.75175,
+      "num_frame_captions": 2,
+      "caption": "In a commercial kitchen, a cook prepares fried food using a deep fryer. They employ a green-handled tool to carefully manage the cooking process. The scene culminates with the cook lifting a metal basket from the bubbling oil, revealing a batch of perfectly golden-brown, freshly fried items ready for serving. The actions demonstrate a routine but skilled step in food service, focusing on the retrieval of the finished product from the hot oil."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 1439,
+      "end_frame": 1564,
+      "start_sec": 60.018292,
+      "end_sec": 65.231833,
+      "duration_sec": 5.25525,
+      "num_frame_captions": 9,
+      "caption": "This scene depicts the final stage of deep-frying, where a cook uses tongs to retrieve freshly cooked food from a hot oil bath. The action is repeated across multiple frames, showing golden-brown, battered items being lifted from a submerged metal basket. As the food is removed, it drips with hot grease, indicating it has just finished cooking in the bubbling oil. The consistent focus is on the retrieval process, emphasizing the food's appealing color and texture achieved through frying. The scene concludes with a wider view of the fryer basket still holding items within the oil."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 1565,
+      "end_frame": 1624,
+      "start_sec": 65.273542,
+      "end_sec": 67.734333,
+      "duration_sec": 2.5025,
+      "num_frame_captions": 4,
+      "caption": "This scene presents a series of close-up shots of a freshly prepared chicken sandwich, emphasizing its appetizing details. The sandwich, consistently shown on a wooden cutting board, features variations in its composition across the frames. While the core ingredients of chicken, pickles, and a soft bun remain constant, specifics like the chicken preparation (crispy or grilled), the type of bun, and additional toppings such as radishes, red onions, or melted cheese differ slightly. The sequence highlights the sandwich's visual appeal and the careful assembly of its components, creating an enticing and mouth-watering focus on the meal."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 1625,
+      "end_frame": 1658,
+      "start_sec": 67.776042,
+      "end_sec": 69.152417,
+      "duration_sec": 1.418083,
+      "num_frame_captions": 2,
+      "caption": "This scene captures a person engaged in a dynamic, close-up action. The individual, wearing a dark shirt, is seen with their hands raised near their face in a blurred, energetic gesture. The motion continues as the person brings their hands toward their mouth, suggesting the act of eating. The background remains softly lit and indistinct throughout, emphasizing the focus on the person's rapid movements and the intimate, casual nature of the activity."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 1659,
+      "end_frame": 1714,
+      "start_sec": 69.194125,
+      "end_sec": 71.488083,
+      "duration_sec": 2.335667,
+      "num_frame_captions": 4,
+      "caption": "In a warmly lit indoor setting, a man in a dark blue shirt is intently focused on an activity in front of him. He is captured mid-action, enthusiastically taking a bite of food with his tongue out, suggesting he is enjoying a meal. The scene appears to be set in a kitchen or restaurant, where the man's attention is fully directed at his food, conveying a moment of simple, focused enjoyment during a meal."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 1715,
+      "end_frame": 1763,
+      "start_sec": 71.529792,
+      "end_sec": 73.531792,
+      "duration_sec": 2.043708,
+      "num_frame_captions": 3,
+      "caption": "This scene takes place in a bustling professional kitchen, where a chef is intently focused on food preparation. Dressed in a dark uniform, including a shirt and gloves, the chef works at a stainless steel counter. The environment is busy and well-equipped, indicating a high-volume commercial setting. The consistent focus across the frames suggests a period of concentrated culinary work, with the chef engaged in a specific task central to the kitchen's operations. The atmosphere is one of organized efficiency, characteristic of a professional culinary workspace."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 1764,
+      "end_frame": 1936,
+      "start_sec": 73.5735,
+      "end_sec": 80.747333,
+      "duration_sec": 7.215542,
+      "num_frame_captions": 12,
+      "caption": "In a bustling commercial kitchen, a chef in a dark shirt is focused on preparing food. He chops ingredients, mixes greens in a large metal bowl, and carefully pours the contents into a pot or dish. Another person is present nearby, observing or working. The scene is active and well-equipped, with various cooking utensils, containers, and ingredients visible throughout the cluttered workspace."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 1937,
+      "end_frame": 2313,
+      "start_sec": 80.789042,
+      "end_sec": 96.471375,
+      "duration_sec": 15.724042,
+      "num_frame_captions": 25,
+      "caption": "This scene introduces Chef James McDuffee, who is identified as the chef of Joseph Leonard restaurant. He is shown standing confidently in his bustling, well-equipped commercial kitchen, often with his hands on his hips as he looks directly at the camera. The warm, cluttered environment features shelves of plates and a prominent chalkboard wall decorated with a distinctive heart design that celebrates bacon. The recurring yellow graphic overlay consistently reinforces his name and title, establishing his identity and professional setting for the viewer."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 2314,
+      "end_frame": 3845,
+      "start_sec": 96.513083,
+      "end_sec": 160.368542,
+      "duration_sec": 63.897167,
+      "num_frame_captions": 102,
+      "caption": "This scene depicts the preparation and assembly of a gourmet fried chicken sandwich. It begins with a close-up of a golden-brown artisan bread roll, which is then sliced and toasted. A creamy butter or sauce is spread onto the toasted bun. Next, a crispy, golden-brown fried chicken piece is placed onto the buttered bun and generously drizzled with a glossy sauce, likely honey. The sandwich is then garnished with fresh toppings, including thin radish slices and pickles. The final shots showcase the completed, juicy sandwich with its toppings nestled between the soft, flour-dusted bun, highlighting its appetizing textures and layers."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 3846,
+      "end_frame": 4074,
+      "start_sec": 160.41025,
+      "end_sec": 169.91975,
+      "duration_sec": 9.551208,
+      "num_frame_captions": 15,
+      "caption": "This scene features a confident chef in a bustling restaurant kitchen, wearing a dark shirt and white apron. He stands with his hands on his hips, often in a pose of authority or explanation, as he oversees the active cooking environment. The setting is a rustic or modern commercial kitchen filled with equipment and ingredients. A recurring and prominent visual element is a chalkboard on the wall behind him, consistently decorated with a heart symbol. While the exact word inside the heart varies slightly across frames\u2014most commonly \"BACON,\" but also including words like \"PASTA\" and \"PANCAKES\"\u2014it establishes the kitchen's thematic branding or featured menu items."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 4075,
+      "end_frame": 4124,
+      "start_sec": 169.961458,
+      "end_sec": 172.005167,
+      "duration_sec": 2.085417,
+      "num_frame_captions": 3,
+      "caption": "Two people are seated at a table in a cozy, rustic restaurant or cafe. They are engaged in an animated conversation, visible through the frame of a round, ornate mirror. The setting is warmly lit, suggesting a relaxed and intimate atmosphere, possibly during the day given the mention of sunlit and window views. The scene captures a moment of personal interaction and dialogue within this inviting space."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 4125,
+      "end_frame": 4167,
+      "start_sec": 172.046875,
+      "end_sec": 173.798625,
+      "duration_sec": 1.793458,
+      "num_frame_captions": 3,
+      "caption": "In a cozy, rustic bar, a bartender and a customer share a quiet moment of interaction. The bartender pours a drink while engaging in conversation with the patron across the wooden counter. The warm, ambient lighting highlights the array of glass bottles and bar tools surrounding them, creating an intimate and relaxed atmosphere. The scene captures a simple, familiar exchange of service and casual dialogue within the inviting space."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 4168,
+      "end_frame": 4208,
+      "start_sec": 173.840333,
+      "end_sec": 175.508667,
+      "duration_sec": 1.710042,
+      "num_frame_captions": 3,
+      "caption": "In a warmly lit, rustic restaurant, a woman wearing a beige trench coat is seated at a table, engaged in a meal and conversation with a man in a grey shirt who is also eating. A third woman, dressed in a black tank top, stands nearby, likely part of their social interaction. The atmosphere is casual and convivial, with large metal bowls visible in the foreground adding to the establishment's character. The scene captures a moment of shared dining and discussion, with the soft focus on some foreground elements subtly directing attention to the central group."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 4209,
+      "end_frame": 4284,
+      "start_sec": 175.550375,
+      "end_sec": 178.6785,
+      "duration_sec": 3.169833,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a man with glasses sitting at a bar, intently reading a newspaper. The setting is defined by a vintage wooden crate, variously labeled \"Walker-Gordon\" or \"Walker & Gordon,\" which sits prominently on the counter alongside several glass bottles and a drink. The consistent elements across the frames establish a quiet, atmospheric moment, suggesting a period or classic bar ambiance. The man remains absorbed in his reading, with the vintage crate and assorted bottles serving as the primary decorative and thematic focal points of the scene."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 4285,
+      "end_frame": 4358,
+      "start_sec": 178.720208,
+      "end_sec": 181.764917,
+      "duration_sec": 3.086417,
+      "num_frame_captions": 5,
+      "caption": "The scene presents a cozy, book-filled room with a rustic brick wall. A prominent decorative element is a framed chalkboard bearing the word \"SIMPLE,\" which remains consistently visible. The focus shifts slightly between views of a cluttered bookshelf and the wall adornment, with one frame highlighting an open book showing a skull illustration among the shelves. The overall setting is stable and intimate, centered on the quiet, scholarly ambiance of the space and its central motto."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 4359,
+      "end_frame": 4648,
+      "start_sec": 181.806625,
+      "end_sec": 193.860333,
+      "duration_sec": 12.095417,
+      "num_frame_captions": 19,
+      "caption": "In a cozy, rustic caf\u00e9, a bearded man in a gray sweater sits at a wooden table near a bright window. He is engaged in an animated conversation, gesturing expressively with his hands as he speaks, often directly addressing the camera. On the table before him are a small cup of coffee and a glass carafe of water. The vintage setting features mirrors and bottles on the walls, with natural light streaming in. The scene captures him in a moment of thoughtful explanation, shifting between speaking energetically and pausing to look down at an object in his hand."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 4649,
+      "end_frame": 4712,
+      "start_sec": 193.902042,
+      "end_sec": 196.529667,
+      "duration_sec": 2.669333,
+      "num_frame_captions": 5,
+      "caption": "A man in a kitchen appears to be in a moment of personal reflection and enjoyment. He closes his eyes, tilting his head down as if savoring an aroma or a thought, showing a content and thoughtful expression. This quiet moment is followed by him looking directly at the camera, his demeanor shifting to a more alert and slightly surprised or animated state, breaking the fourth wall and engaging with the viewer."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 4713,
+      "end_frame": 4763,
+      "start_sec": 196.571375,
+      "end_sec": 198.656792,
+      "duration_sec": 2.127125,
+      "num_frame_captions": 3,
+      "caption": "This scene features a series of close-up shots focusing on a freshly prepared sandwich that has been cut in half to showcase its appetizing interior. The detailed view highlights the generous, mouth-watering fillings, which include various combinations of savory shredded or fried chicken, crisp pickles, and sliced onions. These ingredients are layered between different types of bread, ranging from soft, airy buns to crusty artisan loaves, often complemented by a creamy sauce. The sequence emphasizes the sandwich's juicy texture and appealing construction, creating an enticing visual celebration of its delicious and hearty composition."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 4764,
+      "end_frame": 4809,
+      "start_sec": 198.6985,
+      "end_sec": 200.575375,
+      "duration_sec": 1.918583,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts the final assembly of a fresh chicken salad in a white bowl. The process begins with a base of green lettuce, to which sliced grilled chicken and vibrant pink pickled vegetables, including red onions, are added. The salad is then garnished with crumbled white feta cheese and a final topping of sliced almonds. The close-up shots emphasize the colorful, layered ingredients, showcasing the salad's appealing texture and freshness as it is prepared for serving."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 4810,
+      "end_frame": 4858,
+      "start_sec": 200.617083,
+      "end_sec": 202.619083,
+      "duration_sec": 2.043708,
+      "num_frame_captions": 3,
+      "caption": "This scene shows the final preparation of a vibrant, composed salad. A food handler, wearing a glove, adds the finishing touches by sprinkling seasonings and toppings over the colorful dish. The salad itself is a hearty mix featuring fresh greens, shrimp, and slices of hard-boiled egg. It is further garnished with bright pickled red onions and shredded cheese, creating a visually appealing and textured meal. The close-up perspective emphasizes the freshness and careful assembly of the ingredients, highlighting this as the last step before serving."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 4859,
+      "end_frame": 4913,
+      "start_sec": 202.660792,
+      "end_sec": 204.913042,
+      "duration_sec": 2.293958,
+      "num_frame_captions": 4,
+      "caption": "In this scene, a server presents a freshly prepared okonomiyaki, a savory Japanese pancake, to a customer. The dish is served on a white plate, featuring a golden-brown, crispy noodle base that is circular in shape and generously garnished with chopped green onions. A small metal cup of vibrant red dipping sauce accompanies the main item. The action focuses on the server's hand placing the completed plate onto a dark countertop, finalizing the presentation of this appetizing and visually distinct meal."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 4914,
+      "end_frame": 4949,
+      "start_sec": 204.95475,
+      "end_sec": 206.414542,
+      "duration_sec": 1.5015,
+      "num_frame_captions": 2,
+      "caption": "This scene takes place in a restaurant, capturing a moment of service between the kitchen and the dining area. A server, identifiable by a white shirt, is actively presenting a prepared dish to a customer, holding the plate with purpose. The background suggests a bustling environment, with other staff or patrons visible in a slightly blurred kitchen or dining space, indicating ongoing activity. The focus remains on the server's role in delivering the meal, highlighting a key interaction in the restaurant's workflow as food is transferred from preparation to the table."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 4950,
+      "end_frame": 4998,
+      "start_sec": 206.45625,
+      "end_sec": 208.45825,
+      "duration_sec": 2.043708,
+      "num_frame_captions": 4,
+      "caption": "This scene takes place in a cozy, rustic dining room, centered around a round wooden table set for four with glasses, napkins, and cutlery. The room is dimly lit, creating a shadowy and intimate atmosphere. A person is seated at the table, though the view is sometimes obscured, as if seen through a smudged window or captured in a blurry, low-resolution image. Other indistinct human figures are present in the brightly lit space, but specific actions and details remain unclear due to the overexposed and blurred visual quality throughout."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 4999,
+      "end_frame": 5060,
+      "start_sec": 208.499958,
+      "end_sec": 211.044167,
+      "duration_sec": 2.585917,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a simple, rustic dining setting centered around a jar of pickles. The arrangement on the wooden table is casual and prepared for a meal, featuring drinking glasses, a small dish, and neatly folded cloth napkins. The focus remains on the glass jar, which has its lid partially open or secured with a metal clasp, sometimes with a spoon or utensil resting on top. The consistent elements create an inviting, ready-to-eat atmosphere, suggesting a moment of pause just before or after sharing a casual, homely meal."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 5061,
+      "end_frame": 5139,
+      "start_sec": 211.085875,
+      "end_sec": 214.339125,
+      "duration_sec": 3.294958,
+      "num_frame_captions": 5,
+      "caption": "This scene presents a gourmet meal plated for display, centered on a rustic toasted sandwich and a colorful side salad. The sandwich is served on a wooden cutting board from the brand Brooklyn Butcher Blocks, which is prominently featured. The accompanying salad, in a white bowl, contains fresh greens and crumbled cheese, likely feta. The entire arrangement is artfully composed on a dark countertop, emphasizing a contrast of textures and colors. The consistent branding and styling suggest this is a prepared shot, possibly for promotional or culinary content, highlighting an appetizing and thoughtfully presented dish."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 5140,
+      "end_frame": 5266,
+      "start_sec": 214.380833,
+      "end_sec": 219.636083,
+      "duration_sec": 5.296958,
+      "num_frame_captions": 9,
+      "caption": "This scene captures a lively evening in a rustic caf\u00e9, where patrons are gathered at tables and along a central bar, engaged in dining and conversation. The warm, ambient lighting highlights the vintage decor, exposed brick walls, and numerous framed photographs. A focal point is a man standing near the bar, shaking hands and talking with another individual, suggesting a friendly meeting or greeting. The overall atmosphere is cozy and bustling, filled with the hum of social interaction as people enjoy drinks and meals in the comfortably crowded space."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 5267,
+      "end_frame": 5405,
+      "start_sec": 219.677792,
+      "end_sec": 225.433542,
+      "duration_sec": 5.797458,
+      "num_frame_captions": 9,
+      "caption": "In a rustic, warmly lit cafe, a bearded man in a gray sweater sits at a table, engaged in an animated conversation. He gestures expressively with his hand, as if explaining or emphasizing a point. The scene suggests he is speaking directly to the camera or to someone just off-screen, creating a direct and personal address. On the table nearby, a green beer bottle and glasses are visible, adding to the casual, social atmosphere of the setting. The overall impression is of a person thoughtfully sharing his perspective in an intimate, conversational moment."
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 5406,
+      "end_frame": 5446,
+      "start_sec": 225.47525,
+      "end_sec": 227.143583,
+      "duration_sec": 1.710042,
+      "num_frame_captions": 3,
+      "caption": "This scene presents a stately interior, likely a formal hallway or gallery, characterized by rich architectural details. The primary focus is a wooden wall adorned with a series of framed black-and-white portraits, all depicting men, which suggests a display of historical or familial significance. Above this collection, an ornate vintage chandelier is suspended from an elegant coffered ceiling, contributing to the room's classic and dignified atmosphere. The consistent elements across the frames establish a static, composed setting where the lighting fixture and the curated portrait lineup are the enduring visual anchors, evoking a sense of tradition and permanence."
+    },
+    {
+      "scene_index": 35,
+      "start_frame": 5447,
+      "end_frame": 5518,
+      "start_sec": 227.185292,
+      "end_sec": 230.146583,
+      "duration_sec": 3.003,
+      "num_frame_captions": 4,
+      "caption": "In a cozy, sunlit restaurant, a group of people are gathered around a table, engaged in conversation. The scene is viewed through the frame of an ornate oval mirror, which reflects the warm, vintage-style interior. A woman stands speaking to a seated man and woman in a booth near a large window, creating an intimate and conversational atmosphere. The overall setting is relaxed and warmly lit, emphasizing the social interaction among the three individuals as they talk in the comfortable caf\u00e9 environment."
+    },
+    {
+      "scene_index": 36,
+      "start_frame": 5519,
+      "end_frame": 5592,
+      "start_sec": 230.188292,
+      "end_sec": 233.233,
+      "duration_sec": 3.086417,
+      "num_frame_captions": 5,
+      "caption": "In a rustic cafe, a bearded man in a grey sweater sits at a table, engaged in a conversation directed toward the camera. He gestures expressively with his hands while speaking and occasionally adopts a more thoughtful, upward gaze, as if pausing to reflect. Throughout the scene, his attention remains focused on this dialogue, maintaining direct eye contact with the viewer. The setting includes details like a bottle of sparkling water and drinking glasses on the table, reinforcing the casual cafe atmosphere. The overall impression is of a person thoughtfully delivering a monologue or interview in an intimate, relaxed environment."
+    },
+    {
+      "scene_index": 37,
+      "start_frame": 5593,
+      "end_frame": 5800,
+      "start_sec": 233.274708,
+      "end_sec": 241.908333,
+      "duration_sec": 8.675333,
+      "num_frame_captions": 14,
+      "caption": "This scene presents a close-up, appetizing view of a fried chicken sandwich being held and displayed. The sandwich features a golden-brown, soft bun that is sometimes dusted with flour or powder. Its key components include a crispy, juicy chicken patty generously coated in a glazed, dripping sauce. The sandwich is further garnished with pickles, radishes, and onions, which add texture and color. Throughout the sequence, the focus remains on the mouthwatering, saucy, and crispy qualities of the food, emphasizing its delicious appearance as it is showcased from slightly different angles against a simple wooden background."
+    },
+    {
+      "scene_index": 38,
+      "start_frame": 5801,
+      "end_frame": 5961,
+      "start_sec": 241.950042,
+      "end_sec": 248.623375,
+      "duration_sec": 6.715042,
+      "num_frame_captions": 11,
+      "caption": "This scene features a static, stylized logo for the Great Googa Mooga Brooklyn food festival. The logo is colorful and vibrant, prominently displaying the event's name. Its tagline, \"food. curated.,\" is consistently visible, sometimes presented on a small yellow tag. The scene consists of a series of shots or a single sustained shot where the logo remains the central focus, with no other visual elements or changes in action. The purpose is to clearly introduce and brand the festival, establishing its identity as a curated culinary event in Brooklyn."
+    },
+    {
+      "scene_index": 39,
+      "start_frame": 5962,
+      "end_frame": 6240,
+      "start_sec": 248.665083,
+      "end_sec": 260.26,
+      "duration_sec": 11.636625,
+      "num_frame_captions": 19,
+      "caption": "This scene consists of a static promotional graphic displayed on screen. The background is a solid purple color, overlaid with white text. The text's core message is an invitation for viewers to follow two specific Twitter accounts: @SkeeterNYC and @GoogaMooga. The wording of the invitation varies slightly between frames, sometimes using \"follow two Twitter accounts\" and other times \"follow...on Twitter,\" but the essential call to action and the two account handles remain consistent throughout. The scene is stable and unchanging, serving as a persistent social media prompt."
+    }
+  ]
+}

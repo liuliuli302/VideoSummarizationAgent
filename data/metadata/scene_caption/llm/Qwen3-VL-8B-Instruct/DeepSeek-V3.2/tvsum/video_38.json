@@ -1,0 +1,56 @@
+{
+  "video": "EE-bNr36nyA",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/EE-bNr36nyA.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_38.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 2941,
+  "num_scenes": 4,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 1367,
+      "start_sec": 0.0,
+      "end_sec": 45.612233,
+      "duration_sec": 45.6456,
+      "num_frame_captions": 92,
+      "caption": "This scene opens with the University of Wyoming Extension logo and its \"From the Ground Up\" branding. It then shows detailed close-ups of a wasp nest, highlighting its intricate hexagonal cells and larvae. The scene shifts to a man inside an unfinished wooden greenhouse, gesturing and speaking as he explains the construction. Interspersed are shots of wasps actively building and tending to their nest on a tree branch. The scene concludes with the man demonstrating various aspects of the greenhouse build, often holding tools or materials."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 1368,
+      "end_frame": 1461,
+      "start_sec": 45.6456,
+      "end_sec": 48.7487,
+      "duration_sec": 3.136467,
+      "num_frame_captions": 6,
+      "caption": "This scene from a University of Wyoming Extension video demonstrates the process of removing a wasp or bee nest from a wooden structure. It begins by showing the honeycomb nest situated in a corner, likely within a wall or attic cavity. The removal process is then depicted, using tools such as a rusty metal blade and a wooden scraper to carefully extract the nest from the wood. The scene concludes with a worker using a hammer on a wooden beam, suggesting final repairs or cleanup after the nest has been extracted."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 1462,
+      "end_frame": 1542,
+      "start_sec": 48.782067,
+      "end_sec": 51.4514,
+      "duration_sec": 2.7027,
+      "num_frame_captions": 5,
+      "caption": "This scene features a man in a University of Wyoming Extension shirt, who appears to be an instructor or expert, presenting on-site at a wooden structure under construction. He directly addresses the camera, likely explaining the building process or a specific technique. The scene then shows him working intently inside the partially built framework, carefully using a brush, possibly for applying a sealant or finish. His focused demeanor and the setting suggest a practical demonstration or educational segment about carpentry or sustainable building practices, highlighting hands-on construction work."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 1543,
+      "end_frame": 2940,
+      "start_sec": 51.484767,
+      "end_sec": 98.098,
+      "duration_sec": 46.6466,
+      "num_frame_captions": 94,
+      "caption": "This scene features a University of Wyoming Extension educator, likely Jeff Edwards, presenting from inside a wooden greenhouse or similar structure. He gestures toward the framework and walls, using a long tool to demonstrate construction features or gardening techniques. The presentation then shifts to related topics, showing close-up footage of a wasp nest and honeycombs to discuss insect structures, and cuts to a well-stocked shelf of pest control products. The educator is also seen holding and explaining a honeycomb frame. The scene concludes with the program's standard credit and title cards, acknowledging the production team and additional footage sources."
+    }
+  ]
+}

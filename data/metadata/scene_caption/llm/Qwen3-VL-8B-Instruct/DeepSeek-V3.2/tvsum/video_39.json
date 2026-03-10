@@ -1,0 +1,286 @@
+{
+  "video": "Se3oxnaPsz0",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/Se3oxnaPsz0.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_39.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 30.0,
+  "total_frames": 4166,
+  "num_scenes": 27,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 68,
+      "start_sec": 0.0,
+      "end_sec": 2.266667,
+      "duration_sec": 2.3,
+      "num_frame_captions": 5,
+      "caption": "This scene is a dynamic news channel introduction for KOLD News 13. It features a series of fast-paced, abstract graphics with glowing light beams and streaks in blue, orange, and gold. The visuals prominently display the channel's logo and the bold, three-dimensional text \"ONLY ON KOLD NEWS 13\" against dark, colored backdrops. The overall effect is energetic and modern, using converging light effects and a vibrant color palette to create a striking brand identity for the news broadcast."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 69,
+      "end_frame": 434,
+      "start_sec": 2.3,
+      "end_sec": 14.466667,
+      "duration_sec": 12.2,
+      "num_frame_captions": 24,
+      "caption": "In this live news segment, anchor Heather Rowe from KOLD.com presents a late-breaking report from the studio. She stands in a pink blouse beside a large screen that cycles through various graphics, including weather maps and a blue sky backdrop. The report then shifts to urgent, live footage, which appears dark and grainy, showing scenes of emergency responders in hazmat suits and a fire. The broadcast concludes with images of property damage, specifically focusing on a weathered wooden building and a damaged roof, indicating coverage of a local incident or severe weather event."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 435,
+      "end_frame": 1022,
+      "start_sec": 14.5,
+      "end_sec": 34.066667,
+      "duration_sec": 19.6,
+      "num_frame_captions": 40,
+      "caption": "This scene features a live news report by a female reporter, identified as Heather Rowe, who is delivering a breaking news update. She is shown both in a dimly lit, cluttered indoor space and briefly outdoors at night, wearing a blue polo shirt with a yellow logo. The report focuses on a location with significant structural damage, as evidenced by numerous close-up shots of compromised ceilings and walls with exposed wooden beams, insulation, and holes. The setting appears to be a damaged building interior, with the reporter speaking directly to the camera to convey the severity of the situation."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 1023,
+      "end_frame": 1175,
+      "start_sec": 34.1,
+      "end_sec": 39.166667,
+      "duration_sec": 5.1,
+      "num_frame_captions": 10,
+      "caption": "The scene depicts a white pig resting and moving within a dim, dusty, and confined enclosure. The animal is seen lying down in the hazy space and later appears to be viewed from behind as it moves through the shadowy environment. The setting is consistently indistinct, characterized by low light, smoke or dust, and cluttered, muted surroundings. The overall impression is one of a somber, confined space where the pig is the primary subject amidst the blurry and obscured details."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 1176,
+      "end_frame": 1298,
+      "start_sec": 39.2,
+      "end_sec": 43.266667,
+      "duration_sec": 4.1,
+      "num_frame_captions": 8,
+      "caption": "This scene depicts a person interacting with farm animals in a dimly lit, rustic setting. The initial frames are dark and blurry, but the action clarifies as a person is seen gently petting a large, light-colored pig in a muddy enclosure. The activity then shifts to what appears to be milking a white cow in a barn. Throughout the sequence, the focus remains on the close, quiet care of the livestock, with final shots showing a white pig standing near a metal feeding trough or bucket in the confined space. The overall atmosphere is one of hushed, daily farm chores."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 1299,
+      "end_frame": 1313,
+      "start_sec": 43.3,
+      "end_sec": 43.766667,
+      "duration_sec": 0.5,
+      "num_frame_captions": 1,
+      "caption": "This scene depicts a murky underwater environment, likely a shipwreck or other submerged structure. The focus is on small, dark organisms slowly crawling across the reddish-brown, textured surface of the wreck. The surrounding area is dim and obscured, with white, coral-like growths visible nearby, suggesting a long-submerged habitat. The overall atmosphere is one of quiet, gradual decay and colonization by marine life in the deep sea."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 1314,
+      "end_frame": 1385,
+      "start_sec": 43.8,
+      "end_sec": 46.166667,
+      "duration_sec": 2.4,
+      "num_frame_captions": 5,
+      "caption": "A man wearing glasses and a bandana is outdoors in a wooded area, filming with a large video camera. He holds the camera up to his eye, focusing intently on his subject. The camera is equipped with a substantial lens and a scope-like attachment, suggesting he is capturing distant or detailed footage. His actions indicate he is actively engaged in recording or observing something specific within the natural surroundings."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 1386,
+      "end_frame": 1440,
+      "start_sec": 46.2,
+      "end_sec": 48.0,
+      "duration_sec": 1.833333,
+      "num_frame_captions": 4,
+      "caption": "This scene takes place within the abandoned interior of a dilapidated building. The environment is dark and grainy, characterized by crumbling brick walls, exposed wooden beams, and shadowy corners filled with debris. The primary focus is a large pig, which stands in a dimly lit, makeshift enclosure constructed from rough stone and concrete. Surrounded by rubble, the animal occupies this stark, decaying space, creating a stark contrast between the living creature and its utterly ruined surroundings. The overall atmosphere is one of neglect and eerie stillness."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 1441,
+      "end_frame": 1502,
+      "start_sec": 48.033333,
+      "end_sec": 50.066667,
+      "duration_sec": 2.066667,
+      "num_frame_captions": 4,
+      "caption": "A white pig lies resting on its side in a dim, enclosed space such as a barn. The scene is hazy and indistinct, with low lighting and a blurry quality. The pig appears to be sleeping, its pink ears visible as it remains still. Meanwhile, a small, light-colored animal\u2014possibly a rat or mouse\u2014is seen scurrying quickly through the shadowy environment, adding a brief sense of movement to the otherwise quiet, subdued setting."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 1503,
+      "end_frame": 1534,
+      "start_sec": 50.1,
+      "end_sec": 51.133333,
+      "duration_sec": 1.066667,
+      "num_frame_captions": 2,
+      "caption": "This scene features a man standing before a white service truck, which serves as a prominent mobile advertisement. He is dressed casually, wearing a black bandana and a pair of glasses. The primary focus is on the truck's side, which is clearly marked with the website \"killerbeeguy.com\" and a contact phone number, indicating a pest control or bee removal service. The man's positioning suggests he is likely the proprietor or a representative associated with the business, presenting himself and his company's branding directly to the viewer in a straightforward, promotional manner."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 1535,
+      "end_frame": 1661,
+      "start_sec": 51.166667,
+      "end_sec": 55.366667,
+      "duration_sec": 4.233333,
+      "num_frame_captions": 8,
+      "caption": "This scene presents a close-up, intimate view inside a beehive, focusing on the dense, textured environment and its inhabitants. A warm, focused light illuminates a chaotic swarm of bees clustered tightly together within the dark wooden structure. The frames emphasize the rough, organic surfaces of the hive and the frenetic activity of the insects as they swarm around the light source. The overall atmosphere is dim, grainy, and immersive, capturing the intricate details and constant motion within the confined space of the hive."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 1662,
+      "end_frame": 1987,
+      "start_sec": 55.4,
+      "end_sec": 66.233333,
+      "duration_sec": 10.866667,
+      "num_frame_captions": 22,
+      "caption": "In this outdoor news segment, an elderly woman named Jane Hewitt, identified as a farmer, is being interviewed by KOLD News 13. She wears a purple cap, glasses, and a pink shirt, and stands near a rustic building with stacked wood and foliage in the background. Throughout the scene, she speaks to the camera, often smiling warmly. The broadcast includes on-screen graphics crediting freelance videographer Al Signori for the footage and featuring banners such as \"ONLY ON KOLD NEWS 13,\" confirming this is an exclusive report. The consistent setting and subject indicate a single, continuous interview."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 1988,
+      "end_frame": 2136,
+      "start_sec": 66.266667,
+      "end_sec": 71.2,
+      "duration_sec": 4.966667,
+      "num_frame_captions": 10,
+      "caption": "This scene features a news segment from KOLD News 13, which includes interviews with two individuals. The first is identified by an on-screen graphic as Jane Hewitt, a farmer. The primary focus, however, is on a man with a mustache wearing a dark graphic t-shirt, later identified as Ian Peters, an animal caretaker. He is being interviewed in a dimly lit, cluttered, and unfinished indoor room. Throughout the segment, he looks directly at the camera, speaking with varying expressions that range from serious and slightly concerned to occasionally showing a slight smile, as he responds to the interviewer's questions."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 2137,
+      "end_frame": 2281,
+      "start_sec": 71.233333,
+      "end_sec": 76.033333,
+      "duration_sec": 4.833333,
+      "num_frame_captions": 10,
+      "caption": "In an outdoor interview with KOLD News 13, Ian Peters, an animal caretaker wearing a pink shirt and a cap, is featured in a rustic setting near a building. She is seen smiling and gesturing with her hands while explaining something, with several shots focusing on her active, sometimes blurred, hand movements. The scene shifts to show her in a more cluttered, debris-filled area on dirt ground, where she holds up a muddy hand, giving a thumbs-up gesture. The overall sequence depicts her engaged presentation, transitioning from the initial interview to a hands-on demonstration in a messy outdoor workspace."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 2282,
+      "end_frame": 2371,
+      "start_sec": 76.066667,
+      "end_sec": 79.033333,
+      "duration_sec": 3.0,
+      "num_frame_captions": 6,
+      "caption": "The scene shows beekeepers tending to their hives in an outdoor apiary. Two or three individuals in full protective suits walk and stand in a grassy field under a bright, clear sky. They are engaged in the cooperative work of beekeeping, moving between locations and likely inspecting or maintaining the hives. The setting is a sunny, open rural area, and a consistent website watermark is present in the footage."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 2372,
+      "end_frame": 2584,
+      "start_sec": 79.066667,
+      "end_sec": 86.133333,
+      "duration_sec": 7.1,
+      "num_frame_captions": 14,
+      "caption": "A news reporter named Reed Booth, known as \"The Killer Bee Guy,\" is interviewed outdoors in a wooded, grassy area at dusk. He stands in a patterned shirt and hat, gesturing as he speaks to a KOLD News 13 crew. The scene is part of a televised report, as indicated by on-screen graphics identifying him and the station. The setting remains consistent throughout the interview, showing him explaining or delivering his report against a backdrop of bare trees."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 2585,
+      "end_frame": 2617,
+      "start_sec": 86.166667,
+      "end_sec": 87.233333,
+      "duration_sec": 1.1,
+      "num_frame_captions": 2,
+      "caption": "This aerial news segment, reported by Reed Booth, focuses on a beekeeper or specialist known as \"The Killer Bee Guy.\" The scene captures a massive swarm of bees blanketing the ground in a rural area. The footage, though somewhat blurry and taken from a distance, shows a landscape with scattered trees and a small cluster of buildings, establishing the setting of the incident. The report centers on the dramatic and potentially dangerous bee infestation, highlighting the scale of the swarm and the expert involved in addressing it."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 2618,
+      "end_frame": 2680,
+      "start_sec": 87.266667,
+      "end_sec": 89.333333,
+      "duration_sec": 2.1,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a close-up view of a wooden surface teeming with a large number of small, dark creatures, most likely ants. The video quality is consistently blurry and low-resolution, creating an indistinct and shadowy atmosphere. The ants are seen in a dense cluster, actively crawling and scattered across the textured wood grain. The overall impression is one of constant, small-scale movement within a confined, somewhat abstracted space, where the details of individual insects merge into a collective, shifting mass against the simple backdrop."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 2681,
+      "end_frame": 2745,
+      "start_sec": 89.366667,
+      "end_sec": 91.5,
+      "duration_sec": 2.166667,
+      "num_frame_captions": 5,
+      "caption": "This scene appears to be a mysterious, close-up exploration of a dimly lit environment, possibly a cave or a deep crevice. The initial focus is on a warm, fiery glow in the darkness, suggesting a distant light source or energy. The view then shifts to reveal the textured surface of a pale, segmented wall or geological formation. Ultimately, the scene reveals that this structure is not inert but is actually a large, segmented creature, perhaps reptilian or insectoid, which is seen moving slowly across the frame within the shadows."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 2746,
+      "end_frame": 2932,
+      "start_sec": 91.533333,
+      "end_sec": 97.733333,
+      "duration_sec": 6.233333,
+      "num_frame_captions": 12,
+      "caption": "This scene features a man in a patterned shirt and a hat speaking outdoors. He is positioned in front of a stone wall and later a wooden wall or structure, with trees and foliage visible in the background. Throughout the scene, he gestures expressively with his hands and arms while talking, indicating he is engaged in a conversation or monologue. His posture shifts from a relaxed stance to more active gesturing. The sequence concludes with him looking directly at the camera, suggesting a direct address to the viewer. The setting remains consistently in an outdoor, natural environment."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 2933,
+      "end_frame": 3023,
+      "start_sec": 97.766667,
+      "end_sec": 100.766667,
+      "duration_sec": 3.033333,
+      "num_frame_captions": 6,
+      "caption": "The scene depicts a hazardous environment where multiple workers in full protective hazmat suits are operating. They are inside a dimly lit, cluttered room with yellow tarps and exposed wiring, suggesting a contaminated or unsafe location. The figures move through the space, inspecting or navigating the area, with a bright window providing the primary light source. The focus is on their cautious, methodical activity within this confined and potentially dangerous setting."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 3024,
+      "end_frame": 3099,
+      "start_sec": 100.8,
+      "end_sec": 103.3,
+      "duration_sec": 2.533333,
+      "num_frame_captions": 5,
+      "caption": "This scene unfolds within a confined, subterranean space, characterized by dim lighting and gritty, textured surfaces. The environment is a narrow tunnel or corridor with peeling walls and scattered debris. A single, bright light source casts stark illumination, revealing a disturbing infestation of small, dark insects crawling across the walls and floor. The focus then shifts to a dense, swarming cluster of bees around a honeycomb structure, suggesting this neglected interior has been overtaken by different insect colonies. The overall atmosphere is one of decay and unsettling, teeming activity hidden in the shadows."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 3100,
+      "end_frame": 3308,
+      "start_sec": 103.333333,
+      "end_sec": 110.266667,
+      "duration_sec": 6.966667,
+      "num_frame_captions": 14,
+      "caption": "The scene depicts a close examination of a dilapidated wooden structure, focusing on its weathered roof, peeling paint, and signs of decay like loose shingles and rot. The perspective then pulls back to reveal the broader environment, showing a man standing outdoors near the building. He is wearing a hat and patterned shirt, and the setting includes bare trees and a wooden fence. The sequence moves from detailed shots of neglect to a wider view of a person within the neglected landscape."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 3309,
+      "end_frame": 3393,
+      "start_sec": 110.3,
+      "end_sec": 113.1,
+      "duration_sec": 2.833333,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a person in a yellow hazmat suit walking through a rural, grassy area. They are consistently moving away from the camera along dirt paths, suggesting a purposeful exit from the location. The environment is populated by farm animals, primarily large pigs, which are seen both standing still and running nearby. Another smaller white animal, likely a lamb, is also present, grazing in the background. The setting includes open fields with trees and a building visible in the distance, reinforcing the agricultural context. The protective suit implies a situation requiring biosecurity or containment, set against the otherwise pastoral farm scenery."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 3394,
+      "end_frame": 3470,
+      "start_sec": 113.133333,
+      "end_sec": 115.666667,
+      "duration_sec": 2.566667,
+      "num_frame_captions": 5,
+      "caption": "This scene takes place in an animal enclosure, likely at a zoo or sanctuary, viewed through a wire mesh fence. The primary focus shifts between two different animals sharing or occupying adjacent spaces. Initially, a large, dark-furred animal, probably a bear, is seen behind the fence, first standing and then later lying down to rest within the dirt and wood-structured area. Subsequently, the view changes to show a pig in a similar muddy enclosure, also resting calmly. The consistent setting with hanging ropes and wooden posts suggests a single, possibly interconnected, habitat where both animals are housed."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 3471,
+      "end_frame": 4096,
+      "start_sec": 115.7,
+      "end_sec": 136.533333,
+      "duration_sec": 20.866667,
+      "num_frame_captions": 42,
+      "caption": "The scene depicts a woman in a blue polo shirt speaking directly to the camera in a dimly lit, cluttered indoor space, as if giving a report or interview. Interspersed with her address are close-up shots of a light-colored pig, showing its face and snout in a muddy environment, and tender moments where a person's hand gently strokes the animal. The sequence suggests a documentary or investigative segment, contrasting the human presenter's narrative with intimate visuals of the animal subject."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 4097,
+      "end_frame": 4165,
+      "start_sec": 136.566667,
+      "end_sec": 138.833333,
+      "duration_sec": 2.3,
+      "num_frame_captions": 4,
+      "caption": "This scene opens with a dynamic news graphic, establishing a sense of urgency and breaking news. The central, repeated element is the bold, white text \"DEVELOPING STORY,\" rendered in a three-dimensional style. It is prominently displayed against a dark, blue-tinted background that is animated with glowing light effects, shimmering gold accents, and dynamic streaks of light. A glowing circular element at the bottom of the frame adds to the modern, high-energy visual design. The overall aesthetic is sleek and professional, designed to immediately capture viewer attention and signal an ongoing, unfolding news event."
+    }
+  ]
+}

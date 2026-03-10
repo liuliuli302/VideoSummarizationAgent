@@ -1,0 +1,166 @@
+{
+  "video": "sTEELN-vY30",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/sTEELN-vY30.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_7.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 30.0,
+  "total_frames": 4468,
+  "num_scenes": 15,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 1572,
+      "start_sec": 0.0,
+      "end_sec": 52.4,
+      "duration_sec": 52.433333,
+      "num_frame_captions": 105,
+      "caption": "This scene is a live news report covering a multi-vehicle accident and subsequent train collision in Douglasville, Georgia. The broadcast begins with a \"NEW DETAILS\" graphic, followed by aerial footage showing a highway accident involving a large truck and a red car. The situation escalates as the red car is struck by a train on nearby tracks. Maps pinpoint the location at the intersection of E Broad St and Mozley St. Reporter Steve Kiggins delivers live updates from the dark, empty road at the scene, and a witness is interviewed. The report combines aerial visuals, graphics, and on-the-ground reporting to detail the emergency response and the incident's location."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 1573,
+      "end_frame": 1984,
+      "start_sec": 52.433333,
+      "end_sec": 66.133333,
+      "duration_sec": 13.733333,
+      "num_frame_captions": 28,
+      "caption": "This scene features a CBS Atlanta news report about a railroad crossing in Atlanta. A local resident, Robert Woods, is interviewed near the intersection where a red pickup truck has crashed into a utility pole. Wearing a black hoodie and cap, he gestures toward the crossing, traffic lights, and passing vehicles while explaining the situation. Concurrently, railroad workers in high-visibility vests are shown inspecting a freight train car on the gravel tracks nearby. The report combines the resident's firsthand account with footage of the crash site and the ongoing inspection of the railway infrastructure at the location."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 1985,
+      "end_frame": 2390,
+      "start_sec": 66.166667,
+      "end_sec": 79.666667,
+      "duration_sec": 13.533333,
+      "num_frame_captions": 27,
+      "caption": "This scene depicts the aftermath of a serious collision between a red car and a train on railroad tracks in Douglasville, Georgia, as captured in aerial and ground-level news footage. The car is shown severely damaged and crushed against the train, which remains on the tracks adjacent to a busy highway. Emergency vehicles, including a police car, are present at the scene, with bystanders and a person standing on the train nearby. The footage, marked with CBS Atlanta and other news watermarks, shows traffic continuing to flow on the nearby road as responders manage the incident."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 2391,
+      "end_frame": 2841,
+      "start_sec": 79.7,
+      "end_sec": 94.7,
+      "duration_sec": 15.033333,
+      "num_frame_captions": 30,
+      "caption": "This scene from a CBS Atlanta news broadcast shows a reporter in a black hoodie and cap conducting a live segment at a wet, busy intersection with railroad tracks. The report opens with establishing shots of vehicles, including a tan minivan and a gray SUV, crossing the tracks. The footage then cuts to close-ups of the wet, cracked asphalt road before focusing on the reporter, who stands outdoors speaking to the camera. Traffic lights and overcast skies are visible in the background, with the on-screen graphic consistently displaying the local temperature of 48 degrees."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 2842,
+      "end_frame": 2896,
+      "start_sec": 94.733333,
+      "end_sec": 96.533333,
+      "duration_sec": 1.833333,
+      "num_frame_captions": 4,
+      "caption": "This scene from a CBS Atlanta news broadcast shows a group of three construction workers, identifiable by their yellow safety vests and hard hats, engaged in an inspection at a worksite. They are gathered around a utility pole, focusing their attention on equipment and the ground. Their actions suggest they are examining or troubleshooting an issue, possibly related to an electrical box or components at the base of the pole. The overall activity indicates a coordinated work assessment, typical of utility or infrastructure maintenance, set against the backdrop of a cool 48-degree day."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 2897,
+      "end_frame": 2995,
+      "start_sec": 96.566667,
+      "end_sec": 99.833333,
+      "duration_sec": 3.3,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a busy urban intersection in Atlanta, where vehicles navigate a railroad crossing under overcast skies. Traffic flows through the crossing, regulated by overhead traffic lights, as cars, including a distinctive red SUV and a white sedan, take turns proceeding. Other vehicles wait at the light, indicating routine city traffic. The consistent presence of a CBS Atlanta news watermark, along with a displayed temperature of 48 degrees, establishes this as a local news broadcast segment. The overall setting is a typical overcast day at a monitored city crossing."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 2996,
+      "end_frame": 3046,
+      "start_sec": 99.866667,
+      "end_sec": 101.533333,
+      "duration_sec": 1.7,
+      "num_frame_captions": 4,
+      "caption": "This scene captures a nighttime car accident on railroad tracks in Atlanta, as reported by CBS Atlanta News. The incident, filmed through a rain-streaked window, shows damaged vehicles and scattered debris at the scene. The flashing lights of emergency responders illuminate the area, indicating an active response. The news broadcast overlay provides contextual details like the location and current temperature, framing this as a live or recent traffic event. The overall atmosphere is one of urgency and disruption following a collision at a hazardous rail crossing."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 3047,
+      "end_frame": 3094,
+      "start_sec": 101.566667,
+      "end_sec": 103.133333,
+      "duration_sec": 1.6,
+      "num_frame_captions": 3,
+      "caption": "This scene presents a nighttime aerial view of a city, likely Atlanta, captured in a dark and atmospheric setting. The primary visual focus is the powerful illumination from bright stadium lights, which create a starburst effect against the urban landscape. The consistent presence of a CBS Atlanta news overlay, including a weather graphic, confirms the broadcast context and reports the local temperature as 48 degrees. The overall impression is of a major sporting or entertainment event underway, with the intense stadium lighting dominating the quiet, darkened cityscape below."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 3095,
+      "end_frame": 3534,
+      "start_sec": 103.166667,
+      "end_sec": 117.8,
+      "duration_sec": 14.666667,
+      "num_frame_captions": 29,
+      "caption": "This news segment from CBS Atlanta covers a railroad crossing incident under overcast skies. The report shows vehicles, including a white pickup truck and a yellow school bus, navigating the intersection and crossing the tracks. It then focuses on significant damage to the railroad infrastructure, with close-up shots of broken ties, cracked concrete, and scattered debris. A reporter in a black hoodie stands at the scene, gesturing toward the tracks while delivering his account as traffic passes by. The recurring weather graphic indicates a temperature of 48 degrees, situating the event in a winter context."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 3535,
+      "end_frame": 3638,
+      "start_sec": 117.833333,
+      "end_sec": 121.266667,
+      "duration_sec": 3.466667,
+      "num_frame_captions": 7,
+      "caption": "This aerial scene depicts the aftermath of a serious collision in Atlanta, where a red car has been severely damaged after crashing onto train tracks. A train, which was involved in the incident, is now stopped nearby. Several people are present at the scene, standing in the gravel and grass beside the rails, observing the wreckage. The sequence shows the progression from the immediate aftermath with the train approaching to the final state where the train is stationary, indicating emergency services or onlookers have gathered around the crash site. The overall focus is on the static, post-accident scenario and the response it has drawn."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 3639,
+      "end_frame": 3790,
+      "start_sec": 121.3,
+      "end_sec": 126.333333,
+      "duration_sec": 5.066667,
+      "num_frame_captions": 10,
+      "caption": "A CBS Atlanta news reporter in a black hoodie and cap stands outdoors near train tracks and a street intersection, speaking to the camera. The scene is part of a live news report, with a weather graphic consistently showing a temperature of 48 degrees. Traffic lights and passing vehicles, including a white truck, are visible in the background under an overcast sky. The setting remains fixed as the reporter delivers the segment from this location."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 3791,
+      "end_frame": 3884,
+      "start_sec": 126.366667,
+      "end_sec": 129.466667,
+      "duration_sec": 3.133333,
+      "num_frame_captions": 6,
+      "caption": "This scene, set in Atlanta on a cold 48-degree day, is captured from the perspective of a local news broadcast. Two women stand by the roadside near parked vehicles, their attention fixed on an event occurring off-camera. The scene then cuts to a close-up of illuminated red traffic lights, highlighting a temporary halt in movement. The bare trees and overcast sky establish a stark winter atmosphere. Together, these elements suggest the women are witnessing and reacting to a minor traffic incident or disruption being documented by the news crew on location."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 3885,
+      "end_frame": 4028,
+      "start_sec": 129.5,
+      "end_sec": 134.266667,
+      "duration_sec": 4.8,
+      "num_frame_captions": 10,
+      "caption": "A red car becomes stranded on railroad tracks in Atlanta during a cold, snowy day. Emergency personnel, including a tow truck and workers in safety vests, quickly respond to the scene as onlookers gather. The situation escalates when a train is seen approaching the immobilized vehicle. In a tense rescue operation, a flatbed truck is used to tow the car off the tracks, narrowly averting a potential collision. The incident, captured from aerial and ground-level views, was covered by local news outlets, highlighting the coordinated effort to clear the hazard from the wintry urban rail crossing."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 4029,
+      "end_frame": 4092,
+      "start_sec": 134.3,
+      "end_sec": 136.4,
+      "duration_sec": 2.133333,
+      "num_frame_captions": 4,
+      "caption": "This scene features a news interview taking place at a street intersection in Atlanta. A blonde-haired woman is the subject, speaking with a reporter outdoors. The setting includes typical urban elements like traffic lights and vehicles, including a white van and a car, visible in the background. On-screen graphics or a news channel logo confirm the location and the broadcast context. During the interview, the woman displays a notable reaction, her expression shifting to one of wide-eyed surprise. The overall scene captures a moment of live, on-the-street news reporting with a focus on the interviewee's responsive demeanor."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 4093,
+      "end_frame": 4467,
+      "start_sec": 136.433333,
+      "end_sec": 148.9,
+      "duration_sec": 12.5,
+      "num_frame_captions": 25,
+      "caption": "In this scene, CBS Atlanta reporter Steve Kiggins delivers a live, on-location news report at night. He is standing outdoors on a dark street or roadside, holding a microphone as he covers a developing story. The broadcast identifies the station with a \"CBS Atlanta\" logo and displays the current outdoor temperature of 48 degrees in the corner of the screen. The setting is consistently dark and appears to be a quiet urban or suburban area, with one caption noting a snowy roadside, suggesting wintry conditions. The scene captures a standard live news segment from the field, with the reporter providing an update directly from the scene of the story."
+    }
+  ]
+}

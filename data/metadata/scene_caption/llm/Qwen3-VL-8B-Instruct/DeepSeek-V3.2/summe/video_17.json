@@ -1,0 +1,26 @@
+{
+  "video": "Saving dolphines",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Saving dolphines.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_17.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 6683,
+  "num_scenes": 1,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 6682,
+      "start_sec": 0.0,
+      "end_sec": 222.956067,
+      "duration_sec": 222.989433,
+      "num_frame_captions": 446,
+      "caption": "This scene begins with a tranquil, empty beach featuring gentle waves and a distant hill. The serenity is soon interrupted by the arrival of a pod of dolphins swimming and leaping playfully in the shallow turquoise water. Their presence draws people to the shore, who initially watch in delight. The mood shifts as it becomes clear the dolphins are in distress, stranded near the shoreline. A group of people, some in identifiable orange rescue vests, wade into the water to assist, working together to guide and push the dolphins back toward the open ocean. The scene concludes with the beach returning to a state of calm activity as people enjoy the water."
+    }
+  ]
+}

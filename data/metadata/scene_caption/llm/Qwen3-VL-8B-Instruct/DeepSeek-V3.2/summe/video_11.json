@@ -1,0 +1,56 @@
+{
+  "video": "Fire Domino",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Fire Domino.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_11.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 30.0,
+  "total_frames": 1612,
+  "num_scenes": 4,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 238,
+      "start_sec": 0.0,
+      "end_sec": 7.933333,
+      "duration_sec": 7.966667,
+      "num_frame_captions": 16,
+      "caption": "This scene features a close-up view of a meticulously crafted, spiraling sculpture. The structure is constructed from wooden toothpicks, some with red tips or adorned with small red beads, arranged in a delicate double-helix or tower formation. It stands balanced and upright on a plain white surface, creating a striking visual contrast. The repeated descriptions emphasize the intricate, fragile, and precarious nature of the assembly, which remains stable throughout the scene. The focus is entirely on the static, artistic model, showcasing its detailed craftsmanship against the minimalist background."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 239,
+      "end_frame": 326,
+      "start_sec": 7.966667,
+      "end_sec": 10.866667,
+      "duration_sec": 2.933333,
+      "num_frame_captions": 6,
+      "caption": "A hand holds a lit match near a tall, spiraling tower of wooden matchsticks with red tips. The precarious structure is carefully balanced on a white surface. The match is poised to ignite the entire assembly, creating a moment of anticipation. The scene focuses on the imminent chain reaction, where a single flame will set the elaborate spiral ablaze, transforming the static sculpture into a dynamic, burning spectacle."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 327,
+      "end_frame": 1194,
+      "start_sec": 10.9,
+      "end_sec": 39.8,
+      "duration_sec": 28.933333,
+      "num_frame_captions": 58,
+      "caption": "A tall, spiraling tower made of wooden matchsticks is constructed and then set ablaze. The fire ignites at the top and burns intensely downward, engulfing the entire structure in bright, dynamic flames. As it burns, the tower glows and flickers, casting a warm light on its surroundings. The flames eventually consume the sculpture, reducing it to a pile of glowing embers and ash. The scene captures the full lifecycle of the temporary artwork, from its intricate form to its dramatic, fiery destruction."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 1195,
+      "end_frame": 1611,
+      "start_sec": 39.833333,
+      "end_sec": 53.7,
+      "duration_sec": 13.9,
+      "num_frame_captions": 28,
+      "caption": "This scene depicts a fire, likely started from a bundle of matches, burning with increasing intensity. It begins with a close-up of a single, striped matchstick igniting, then expands to show a small pile or cluster of matches being consumed by bright, flickering flames. The fire grows into a vibrant, dancing blaze that casts a warm, golden-orange glow, illuminating its surroundings against a dark or plain background. The scene conveys a sense of dynamic motion and transformation, from the initial spark to a contained but lively flame that dominates the visual space with its light and energy."
+    }
+  ]
+}

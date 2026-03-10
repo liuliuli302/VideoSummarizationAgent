@@ -1,0 +1,406 @@
+{
+  "video": "JgHubY5Vw3Y",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/JgHubY5Vw3Y.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_44.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 4304,
+  "num_scenes": 39,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 179,
+      "start_sec": 0.0,
+      "end_sec": 5.972633,
+      "duration_sec": 6.006,
+      "num_frame_captions": 12,
+      "caption": "Two presenters, a man and a woman wearing matching t-shirts with a distinctive black or stylized \"D\" logo, are filmed in a brightly lit bicycle shop. They stand together in front of a vibrant wall display of colorful bicycle wheels. The scene is consistent, showing the pair smiling and presenting from this fixed location surrounded by shop shelves and bike parts. The setting and their coordinated branded attire are the central, unchanging focus of the shot."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 180,
+      "end_frame": 223,
+      "start_sec": 6.006,
+      "end_sec": 7.440767,
+      "duration_sec": 1.468133,
+      "num_frame_captions": 3,
+      "caption": "The scene follows a cyclist navigating an urban environment. He begins by performing a wheelie on his bicycle while wearing a backpack and cap. The action then shifts to him riding down a city street, leaning forward with focus. Finally, the scene concludes with the cyclist, now dismounted and wearing a blue shirt and beanie, standing beside a fence with several bicycles. He is holding a cardboard box, suggesting a pause or completion of his ride."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 224,
+      "end_frame": 239,
+      "start_sec": 7.474133,
+      "end_sec": 7.974633,
+      "duration_sec": 0.533867,
+      "num_frame_captions": 1,
+      "caption": "This scene captures a quiet urban intersection under the glow of a red traffic light. The signal commands a temporary halt, creating a still moment in the otherwise bustling city. Vintage architecture and street signs frame the view, suggesting a historic or well-established neighborhood. The clear blue sky overhead contrasts with the artificial crimson of the light, emphasizing a pause in daily activity. There is a sense of suspended motion, as vehicles and pedestrians would typically be waiting, allowing for a brief, composed observation of the city's orderly rhythm and classic streetscape."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 240,
+      "end_frame": 295,
+      "start_sec": 8.008,
+      "end_sec": 9.843167,
+      "duration_sec": 1.868533,
+      "num_frame_captions": 4,
+      "caption": "In this scene, a cyclist wearing a black shirt and helmet rides a white bicycle through an urban environment on a sunny day. The journey begins on a city street, where the cyclist has a close encounter, narrowly avoiding a passing black truck. The path then leads onto a bridge, where the rider continues, casting a long shadow on the pavement. The backdrop features a mix of city buildings and distant hills, creating a scenic route. The overall sequence captures a moment of focused travel, transitioning from a potentially hazardous street interaction to a more open, expansive crossing."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 296,
+      "end_frame": 337,
+      "start_sec": 9.876533,
+      "end_sec": 11.244567,
+      "duration_sec": 1.4014,
+      "num_frame_captions": 3,
+      "caption": "This scene focuses on a person riding a white Pure Fix bicycle, captured in a series of close-up, dynamic shots. The primary emphasis is on the details of the bike and the rider's interaction with it, particularly the firm grip of a hand on the handlebar. The bicycle is clearly in motion, with the brand logo prominently visible on its frame. The background elements are secondary, briefly featuring a red barrier and otherwise remaining blurred, which concentrates the viewer's attention on the action and the sleek design of the moving bicycle."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 338,
+      "end_frame": 366,
+      "start_sec": 11.277933,
+      "end_sec": 12.2122,
+      "duration_sec": 0.967633,
+      "num_frame_captions": 2,
+      "caption": "This scene features a woman in a black dress presenting a large, golden bicycle wheel as a central prop. She stands confidently before a vibrant graffiti-covered wall, which serves as a dynamic backdrop. The setting includes several other bicycles in the background, suggesting a thematic or artistic environment, possibly related to urban cycling culture or street art. Her engaged expression and direct gesture toward the prominent wheel indicate she is actively explaining or showcasing it, creating a moment of focused presentation within the colorful, eclectic surroundings."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 367,
+      "end_frame": 417,
+      "start_sec": 12.245567,
+      "end_sec": 13.9139,
+      "duration_sec": 1.7017,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a person performing routine bicycle maintenance, focusing on two key tasks. The individual is lubricating the bicycle chain with a bottle of lubricant to ensure smooth operation and prevent rust. Simultaneously, they are also working on the front wheel hub, using a wrench to tighten components for safety and proper alignment. The actions suggest a comprehensive approach to bike care, addressing both the drivetrain and the wheel assembly in one coordinated effort to prepare the bicycle for use."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 418,
+      "end_frame": 465,
+      "start_sec": 13.947267,
+      "end_sec": 15.5155,
+      "duration_sec": 1.6016,
+      "num_frame_captions": 4,
+      "caption": "In a garage workshop, a man wearing a black cap demonstrates and adjusts a bicycle's handlebars. A woman in a grey tank top observes his work attentively. The scene captures a focused, instructional moment as he gestures toward the component, explaining the process while she watches and listens. The setting is a well-equipped workspace, emphasizing a practical, hands-on interaction between the two individuals centered around maintaining or repairing the bicycle."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 466,
+      "end_frame": 481,
+      "start_sec": 15.548867,
+      "end_sec": 16.049367,
+      "duration_sec": 0.533867,
+      "num_frame_captions": 1,
+      "caption": "A cyclist rides a white bicycle, wearing bright green shoes that catch the eye. The motion of the bike is conveyed through visual blur, particularly around the spinning wheels and the cyclist's moving legs, emphasizing speed and activity. The scene captures a dynamic moment of urban or recreational cycling, focused on the rider's lower half and the machine in motion."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 482,
+      "end_frame": 577,
+      "start_sec": 16.082733,
+      "end_sec": 19.252567,
+      "duration_sec": 3.2032,
+      "num_frame_captions": 6,
+      "caption": "The scene depicts a suburban street with various vehicles and a cyclist in motion. A white truck and a dark car drive along the paved road, while other cars are parked at the side. A person is briefly seen interacting with one of the parked vehicles. Meanwhile, a cyclist rides along a path, with the dynamic, blurry shots emphasizing the movement and activity of the urban environment under bright sunlight."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 578,
+      "end_frame": 595,
+      "start_sec": 19.285933,
+      "end_sec": 19.853167,
+      "duration_sec": 0.6006,
+      "num_frame_captions": 1,
+      "caption": "This scene presents a fleeting, dynamic view from a moving perspective. The camera rapidly passes by foliage, creating a blurred effect that emphasizes speed and motion. The focus shifts upward to reveal a clear sky punctuated by the silhouette of a palm tree, suggesting a transition from a confined, ground-level view to an open expanse. The overall impression is one of hurried travel, capturing a brief, atmospheric moment of passing through a landscape."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 596,
+      "end_frame": 673,
+      "start_sec": 19.886533,
+      "end_sec": 22.455767,
+      "duration_sec": 2.6026,
+      "num_frame_captions": 5,
+      "caption": "This scene presents a series of stylized title cards introducing the brand \"Pure Fix.\" The central visual motif is a winged logo, often accompanied by bold white text and a recurring cartoon smartphone icon featuring a bicycle and lightning bolts, symbolizing speed and connectivity. These graphics are consistently set against blurred outdoor backgrounds, which include elements like palm trees and a distant red structure, creating a hazy, atmospheric setting. One frame incorporates a small inset video of a car accident, hinting at a narrative context involving vehicle-related solutions. The overall effect is a polished, branded introduction that establishes the company's identity and thematic focus."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 674,
+      "end_frame": 718,
+      "start_sec": 22.489133,
+      "end_sec": 23.957267,
+      "duration_sec": 1.5015,
+      "num_frame_captions": 3,
+      "caption": "This scene serves as the stylized opening sequence for a skateboarding video series titled \"PURE FIX IV.\" It establishes the energetic, urban aesthetic of the production through a dynamic title card featuring a winged logo and a lightning bolt. The sequence then transitions into introductory shots of a skatepark, characterized by motion blur and a low-angle perspective that conveys a sense of speed and raw action. Throughout these establishing shots, the series' branding, \"PURE FIX TV,\" remains prominently overlaid, confirming this as the program's signature intro designed to immerse the viewer in its world of extreme sports."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 719,
+      "end_frame": 749,
+      "start_sec": 23.990633,
+      "end_sec": 24.991633,
+      "duration_sec": 1.034367,
+      "num_frame_captions": 2,
+      "caption": "The scene presents a distorted, glitch-art aesthetic. Abstract black and white patterns and a yellow lightning bolt create a chaotic, digital interference effect. Within this visual noise, a blurry, low-resolution figure of a person is faintly visible in a dark environment. The composition is anchored by a prominent, bright white horizontal line that cuts through the center of the frame against the solid black background, heightening the contrast and surreal, fragmented quality of the imagery."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 750,
+      "end_frame": 960,
+      "start_sec": 25.025,
+      "end_sec": 32.032,
+      "duration_sec": 7.040367,
+      "num_frame_captions": 15,
+      "caption": "This scene features two presenters, a man named Zach and a woman, conversing in a bicycle shop. They are both wearing matching branded t-shirts, which feature either a winged or a stylized 'D' logo. The consistent and prominent backdrop throughout the scene is a wall vividly decorated with numerous colorful bicycle wheels. The pair are shown smiling, gesturing, and talking to each other in this bright, lively setting. The on-screen text identifies the man, confirming his name, while the overall tone is friendly and engaging, centered around their discussion within the distinctive shop environment."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 961,
+      "end_frame": 976,
+      "start_sec": 32.065367,
+      "end_sec": 32.565867,
+      "duration_sec": 0.533867,
+      "num_frame_captions": 1,
+      "caption": "A man in a gray shirt is speaking directly to the camera, delivering what appears to be a monologue or presentation. He stands in front of a distinctive wall decorated with multiple, brightly colored bicycle wheels, which serve as a unique and eye-catching backdrop. His demeanor is engaged and communicative, suggesting he is explaining or discussing a topic of interest. The scene focuses on his address, with the artistic wall adding visual interest and context to his speech."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 977,
+      "end_frame": 1210,
+      "start_sec": 32.599233,
+      "end_sec": 40.373667,
+      "duration_sec": 7.8078,
+      "num_frame_captions": 15,
+      "caption": "A man in a gray shirt stands in front of a wall decorated with colorful bicycle wheels. He is speaking, sometimes looking directly ahead and sometimes looking down or to the side thoughtfully. Throughout the scene, he remains in this stationary position, with minor variations in his posture and expression as he talks. The vibrant backdrop of bicycle wheels provides a consistent, striking visual element behind him."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 1211,
+      "end_frame": 1231,
+      "start_sec": 40.407033,
+      "end_sec": 41.074367,
+      "duration_sec": 0.7007,
+      "num_frame_captions": 2,
+      "caption": "This scene presents a short, impactful graphic title card. It begins by establishing the phrase \"quick release\" in a stylized white font against a black background. The scene then immediately modifies this title, overlaying a universal prohibition symbol\u2014a red circle with a diagonal slash\u2014directly over the word \"release.\" This visual edit transforms the meaning, negating the initial phrase to suggest the concept of a quick release is being revoked, cancelled, or forbidden. The sequence creates a clear narrative shift from introduction to negation, all within a stark, high-contrast aesthetic."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 1232,
+      "end_frame": 1273,
+      "start_sec": 41.107733,
+      "end_sec": 42.475767,
+      "duration_sec": 1.4014,
+      "num_frame_captions": 2,
+      "caption": "This scene presents a clear and direct safety warning. The visual focus is a bold red prohibition symbol, universally recognized as a \"no\" or \"do not\" sign, prominently displayed against a stark black background. The symbol is superimposed over the specific text \"quick release,\" leaving no ambiguity about the subject of the prohibition. The message is intentionally static and repetitive across frames, emphasizing a critical rule or instruction. The overall effect is to command immediate attention and convey an absolute restriction, explicitly stating that the action of a quick release is forbidden, likely for operational or safety reasons in the depicted context."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 1274,
+      "end_frame": 1560,
+      "start_sec": 42.509133,
+      "end_sec": 52.052,
+      "duration_sec": 9.576233,
+      "num_frame_captions": 20,
+      "caption": "This scene begins with a man in a black shirt and shorts adjusting his bicycle on a sunny sidewalk, while another person stands nearby observing. After he finishes, the bicycle is left parked against a building adorned with colorful murals and graffiti. The man then walks away, leaving the bicycle unattended. Shortly after, a different man in a plaid shirt arrives, initially running toward the bicycle before stopping to push it and then bend over to inspect or adjust it himself on the same stretch of sidewalk."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 1561,
+      "end_frame": 1698,
+      "start_sec": 52.085367,
+      "end_sec": 56.6566,
+      "duration_sec": 4.6046,
+      "num_frame_captions": 9,
+      "caption": "This scene depicts a person performing maintenance on a bicycle, primarily focused on the front wheel. The work involves detailed adjustments to the spokes and the hub area, with the individual using their hands to tighten and repair components. The activity takes place on a sidewalk, where the lime green bicycle is parked near a distinctive red-painted curb. The setting includes wet pavement and a nearby bike rack, suggesting an urban environment. The sequence captures both close-up views of the mechanical work and wider shots showing the bicycle resting against the curb, emphasizing a hands-on repair session in a public space."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 1699,
+      "end_frame": 1757,
+      "start_sec": 56.689967,
+      "end_sec": 58.625233,
+      "duration_sec": 1.968633,
+      "num_frame_captions": 4,
+      "caption": "This scene unfolds on a sunny, urban sidewalk featuring colorful building murals. A man in a plaid shirt is seen walking while carrying a large hula hoop, and later interacts with a bicycle parked at the curb. The activity shifts as a person begins running along the same path beside the parked bicycle under a clear blue sky. Notably, the bicycle\u2014which has a front basket\u2014is at one point filled with a vibrant bouquet of flowers, adding a cheerful detail to the setting. The sequence captures casual, everyday moments of movement and brief stops in a bright, mural-adorned neighborhood."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 1758,
+      "end_frame": 1886,
+      "start_sec": 58.6586,
+      "end_sec": 62.929533,
+      "duration_sec": 4.3043,
+      "num_frame_captions": 8,
+      "caption": "A man in a black shirt and helmet interacts with a bicycle on a sunny sidewalk near a building with graffiti. He gestures as if explaining something, then shields his eyes to look down the street. Another person in a yellow shirt is later seen riding a bicycle past the same location, where a red car is parked. The scene concludes with a stylized \"PF\" logo appearing over blue and yellow stripes, suggesting a transition or brand element."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 1887,
+      "end_frame": 2032,
+      "start_sec": 62.9629,
+      "end_sec": 67.801067,
+      "duration_sec": 4.871533,
+      "num_frame_captions": 10,
+      "caption": "This scene opens with a minimalist title screen for a game called \"bike,\" featuring small white text and subtle colored accents. The focus then shifts to introduce a specific mode or variant titled \"bike camo.\" This title is displayed repeatedly in a stylized, textured white font against a stark black background, with slight variations in the text's appearance, such as distressed effects and capitalization. The sequence creates a strong, graphic visual identity for this mode through repetition and consistent minimalist design. The scene concludes with the appearance of a single, faintly glowing orb in the darkness, hinting at a transition to gameplay or a new visual element."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 2033,
+      "end_frame": 2201,
+      "start_sec": 67.834433,
+      "end_sec": 73.440033,
+      "duration_sec": 5.638967,
+      "num_frame_captions": 11,
+      "caption": "This scene features a sleek black fixed-gear bicycle with distinctive red rims or wheels, consistently shown parked against a black metal fence. The setting is a sunny day, and the bicycle remains stationary throughout, presented as an object of urban style and minimalist design. The visual focus is on the bicycle's poised and stylish appearance against the simple backdrop, with no movement or change in its position. The repeated descriptions emphasize its aesthetic qualities, creating a static, portrait-like shot of the bike in an everyday urban environment."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 2202,
+      "end_frame": 2362,
+      "start_sec": 73.4734,
+      "end_sec": 78.812067,
+      "duration_sec": 5.372033,
+      "num_frame_captions": 11,
+      "caption": "This scene features a bearded man with short hair, wearing a gray t-shirt, who is presenting or speaking in front of a distinctive backdrop. The setting is a wall decorated with numerous colorful bicycle wheels, creating a vibrant and thematic display. A black fixed-gear bicycle with red wheels is also visible in the scene, positioned near him. The man's actions alternate between addressing an unseen audience and looking off to the side, indicating a moment of explanation or casual conversation. The consistent environment suggests a single, continuous shot focused on him within this visually striking location."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 2363,
+      "end_frame": 2539,
+      "start_sec": 78.845433,
+      "end_sec": 84.717967,
+      "duration_sec": 5.9059,
+      "num_frame_captions": 12,
+      "caption": "The scene depicts a person performing detailed maintenance and customization on a bicycle. They are shown applying lubricant to the chain, adjusting components on the wheel and drivetrain, and carefully applying branded decals and stickers\u2014including ones reading \"Iron Los A,\" \"PUREFIT,\" \"Purefix,\" and \"LOS ANGELES\"\u2014to the bike's frame. The close-up shots emphasize the meticulous hands-on work, from tightening valves to smoothing stickers, all focused on personalizing and tuning the bicycle."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 2540,
+      "end_frame": 2656,
+      "start_sec": 84.751333,
+      "end_sec": 88.621867,
+      "duration_sec": 3.9039,
+      "num_frame_captions": 8,
+      "caption": "A man in a gray shirt stands before a wall decorated with colorful bicycle wheels. He speaks animatedly to the camera, gesturing as he presents the scene. During his address, a large blue letter 'F' briefly appears, partially covering his face. The scene concludes with a person holding up a blue and yellow striped sign featuring a stylized \"PF\" logo, positioned against the same backdrop of vibrant bicycle wheels."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 2657,
+      "end_frame": 2673,
+      "start_sec": 88.655233,
+      "end_sec": 89.1891,
+      "duration_sec": 0.567233,
+      "num_frame_captions": 1,
+      "caption": "This scene presents a brief, stylized digital sequence. It features a single, abstract figure rendered in a glitchy, fragmented aesthetic, dominated by a stark blue and yellow color palette. The character's form appears unstable, as if composed of corrupted data or digital interference. This visual effect is heightened by a dynamic, diagonally striped background that enhances the sense of a virtual or cyberpunk environment. The overall composition suggests a moment of system manifestation or error within a simulated space, focusing on a striking, technologically distorted entity rather than narrative action."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 2674,
+      "end_frame": 2747,
+      "start_sec": 89.222467,
+      "end_sec": 91.658233,
+      "duration_sec": 2.469133,
+      "num_frame_captions": 5,
+      "caption": "The scene opens with the word \u201cLOCKS\u201d rendered in a metallic, stylized font on a black screen. This transitions to a sequence where the word \u201clocks\u201d appears multiple times, each instance presented in a white, hand-drawn, and textured style against the same solid black background. The typography shifts from a clean, manufactured look to a more organic, sketch-like aesthetic, creating a visual theme centered on the concept of locks through evolving graphic design."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 2748,
+      "end_frame": 2802,
+      "start_sec": 91.6916,
+      "end_sec": 93.4934,
+      "duration_sec": 1.835167,
+      "num_frame_captions": 3,
+      "caption": "This scene features a bearded man with short hair, dressed in a gray t-shirt, who is actively speaking to an unseen audience. He is positioned in front of a distinctive and vibrant backdrop: a wall densely decorated with numerous colorful bicycle wheels, which creates a visually engaging setting. His demeanor and the context suggest he is explaining or presenting information, likely related to the displayed wheels or a broader topic. The consistent setting and his ongoing monologue indicate a single, continuous segment where he serves as the primary speaker in this visually distinctive environment."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 2803,
+      "end_frame": 2879,
+      "start_sec": 93.526767,
+      "end_sec": 96.062633,
+      "duration_sec": 2.569233,
+      "num_frame_captions": 5,
+      "caption": "In this scene, a person interacts with a bicycle secured to a metal fence. The sequence begins with them using a key to unlock a black U-lock, freeing the bicycle which has a distinctive red rim. They then proceed to re-secure the bike, this time using a different black Kryptonite lock. Following this, the individual's attention shifts to performing maintenance. They use a tool to work on the bicycle lock itself before focusing on the bike's components, specifically adjusting and tightening the handlebar area with both hands to ensure it is properly set."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 2880,
+      "end_frame": 2918,
+      "start_sec": 96.096,
+      "end_sec": 97.363933,
+      "duration_sec": 1.3013,
+      "num_frame_captions": 3,
+      "caption": "A person secures their bicycle to a metal fence using a lock. They are actively engaged in the process, gripping the handlebars for stability and then employing a tool, likely to adjust or fasten the lock mechanism near the wheel. The scene captures the routine action of parking and locking a bike in an urban setting, with the red-rimmed wheel and black fence as consistent visual elements throughout the activity."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 2919,
+      "end_frame": 2959,
+      "start_sec": 97.3973,
+      "end_sec": 98.731967,
+      "duration_sec": 1.368033,
+      "num_frame_captions": 3,
+      "caption": "The scene centers on a black bicycle parked beside a dark metal fence or railing. Its most distinctive feature is a bright red wheel rim, which is prominently highlighted. The perspective shifts between close-up views, first focusing on the vivid contrast of the red rim against the bicycle's black frame, then showing the bicycle's overall position, and finally detailing a hand gripping the nearby railing, establishing a human presence near the stationary bike."
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 2960,
+      "end_frame": 3216,
+      "start_sec": 98.765333,
+      "end_sec": 107.3072,
+      "duration_sec": 8.575233,
+      "num_frame_captions": 17,
+      "caption": "This scene depicts a person interacting with a bicycle that has a distinctive red-rimmed wheel. The primary actions involve securing the bike to a black metal fence or rack using various locks, including a chain lock and a U-lock. Later, the person transitions to unlocking the bicycle with a key. The scene also includes moments where the individual performs maintenance, focusing on adjusting or repairing components around the wheel, such as the brake or gear mechanism. Throughout, the red rim remains a consistent and prominent visual feature of the bicycle."
+    },
+    {
+      "scene_index": 35,
+      "start_frame": 3217,
+      "end_frame": 3362,
+      "start_sec": 107.340567,
+      "end_sec": 112.178733,
+      "duration_sec": 4.871533,
+      "num_frame_captions": 10,
+      "caption": "In this scene, a person is performing maintenance and securing a bicycle with a distinctive red-rimmed wheel. The work involves adjusting the wheel's spokes with a wrench and later using a tool with a red handle, likely for further tuning or repairs. Concurrently, the individual uses a thin steel cable to lock the bicycle to a sturdy black metal fence, pulling it taut to ensure it is firmly anchored. The actions combine mechanical work on the bicycle's rear wheel with the practical step of theft prevention, all set against the backdrop of the metal fence."
+    },
+    {
+      "scene_index": 36,
+      "start_frame": 3363,
+      "end_frame": 3724,
+      "start_sec": 112.2121,
+      "end_sec": 124.257467,
+      "duration_sec": 12.078733,
+      "num_frame_captions": 24,
+      "caption": "This scene features a man with a beard and short hair, wearing a gray t-shirt, who is the primary subject. He is standing in front of a distinctive and colorful backdrop of displayed bicycle wheels, which serves as a vibrant set piece. Throughout the scene, he is actively speaking, likely explaining or presenting information, as he frequently addresses the camera or looks off to the side as if engaged in conversation. His demeanor shifts between speaking directly and appearing thoughtful. The scene concludes by briefly introducing a woman in a split-frame, suggesting a transition to include another participant while maintaining the same thematic background."
+    },
+    {
+      "scene_index": 37,
+      "start_frame": 3725,
+      "end_frame": 4066,
+      "start_sec": 124.290833,
+      "end_sec": 135.668867,
+      "duration_sec": 11.4114,
+      "num_frame_captions": 23,
+      "caption": "In a vibrant bicycle shop adorned with a wall of colorful wheels, a man and a woman are engaged in a friendly conversation. The woman, wearing a magenta or red shirt, gestures animatedly while speaking with the man in a gray t-shirt. Their interaction appears positive and professional, culminating in a moment where they smile and shake hands. Both individuals are later seen wearing matching branded shirts featuring a yellow logo, suggesting they may be colleagues or representatives presenting in the shop. The consistent backdrop of rainbow bicycle wheels creates a bright and distinctive setting for their discussion."
+    },
+    {
+      "scene_index": 38,
+      "start_frame": 4067,
+      "end_frame": 4303,
+      "start_sec": 135.702233,
+      "end_sec": 143.576767,
+      "duration_sec": 7.9079,
+      "num_frame_captions": 15,
+      "caption": "This scene opens with a promotional graphic for Pure Fix TV, featuring its stylized logo and social media handles against a crumpled paper background. The branding remains consistent throughout, displaying the company's Twitter and Facebook information alongside its website URL. The sequence concludes with two frames that are completely black, containing no visual elements. The scene effectively presents the channel's identity before transitioning to a blank screen."
+    }
+  ]
+}

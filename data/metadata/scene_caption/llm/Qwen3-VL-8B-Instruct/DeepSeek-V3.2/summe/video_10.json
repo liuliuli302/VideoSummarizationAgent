@@ -1,0 +1,126 @@
+{
+  "video": "Excavators river crossing",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Excavators river crossing.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_10.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 25.0,
+  "total_frames": 9721,
+  "num_scenes": 11,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 522,
+      "start_sec": 0.0,
+      "end_sec": 20.88,
+      "duration_sec": 20.92,
+      "num_frame_captions": 35,
+      "caption": "A yellow excavator is partially submerged in icy water near a concrete pier or shoreline, suggesting a mishap or rescue operation. A large crowd of onlookers gathers on the shore, watching the scene under an overcast sky. Separately, groups of people, some wearing red or orange jackets and carrying luggage, are crowded together on small boats or at the water's edge, appearing to be migrants or refugees in transit across rough waters. The overall scene depicts a tense, cold environment involving both a stationary recovery effort and a dynamic, perilous journey."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 523,
+      "end_frame": 2899,
+      "start_sec": 20.92,
+      "end_sec": 115.96,
+      "duration_sec": 95.08,
+      "num_frame_captions": 159,
+      "caption": "This scene depicts a challenging rescue or evacuation operation in a harsh, wintry environment near a body of water. A crowd of people in winter clothing, many carrying bags, gather on a snowy riverbank or dock, preparing to board small boats. A prominent yellow Komatsu excavator is used as a central tool, with its bucket serving to transport groups of people across the turbulent, icy water. Individuals and groups are shown clinging to or riding inside the excavator's bucket as it maneuvers precariously through the choppy waves. The operation appears tense and perilous, with the machinery partially submerged and people struggling to stay secure during the crossing."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 2900,
+      "end_frame": 4738,
+      "start_sec": 116.0,
+      "end_sec": 189.52,
+      "duration_sec": 73.56,
+      "num_frame_captions": 122,
+      "caption": "A yellow excavator operates in a river, initially churning through water and maneuvering pipes near a pier. It is then used in a rescue operation, with its bucket lifting people from turbulent and icy waters. The scene shifts to a snowy environment where individuals are seen trapped, struggling, or being assisted inside the excavator's bucket. Finally, the excavator is used to transport groups of people near a shoreline and on a construction site, with crowds gathering and workers involved in evacuation efforts."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 4739,
+      "end_frame": 4774,
+      "start_sec": 189.56,
+      "end_sec": 190.96,
+      "duration_sec": 1.44,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a chaotic and dangerous situation involving a yellow construction vehicle, likely an excavator, in a harsh winter environment. Initially seen operating at a construction site near a blue structure, the vehicle is then captured in rapid motion, speeding across a snowy landscape and kicking up a plume of snow. The sequence culminates in a moment of crisis as the same yellow vehicle is shown partially submerged in turbulent, rushing water, suggesting it has been caught in a sudden flood or has crashed into a body of water during its frantic movement."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 4775,
+      "end_frame": 6794,
+      "start_sec": 191.0,
+      "end_sec": 271.76,
+      "duration_sec": 80.8,
+      "num_frame_captions": 134,
+      "caption": "A yellow excavator operates in a snowy, industrial setting near a body of water, with a crowd of people gathered around. The machine is used in a rescue operation, partially submerged in turbulent, icy water as people cling to or are lifted in its bucket. Workers in dark jackets and caps are seen operating and inspecting the machinery. The scene depicts a tense, collaborative effort, likely involving recovery or emergency work in harsh winter conditions."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 6795,
+      "end_frame": 6852,
+      "start_sec": 271.8,
+      "end_sec": 274.08,
+      "duration_sec": 2.32,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a yellow construction vehicle, likely an excavator, operating in a harsh, wintry environment. It is shown in motion on a snowy surface, with one frame revealing its undercarriage partially submerged in murky water, suggesting it is working in or near a body of water. The overall sense is one of powerful, rapid movement, emphasized by motion blur in the shots of the vehicle speeding past a snowy landscape. The turbulent, foamy water visible in another frame reinforces the challenging, wet, and dynamic conditions of the worksite."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 6853,
+      "end_frame": 8507,
+      "start_sec": 274.12,
+      "end_sec": 340.28,
+      "duration_sec": 66.2,
+      "num_frame_captions": 111,
+      "caption": "A chaotic rescue or recovery operation unfolds in a snowy, icy environment near a body of water. A large yellow Komatsu excavator is central to the action, with its bucket repeatedly seen hovering over or submerged in turbulent, foamy water. People are shown clinging to, trapped inside, or being lifted by the excavator's bucket. Crowds gather on the shore as the machinery operates, and individuals struggle with luggage near boats. The scene depicts a precarious, ongoing effort involving the excavator in challenging, cold conditions."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 8508,
+      "end_frame": 8528,
+      "start_sec": 340.32,
+      "end_sec": 341.12,
+      "duration_sec": 0.84,
+      "num_frame_captions": 1,
+      "caption": "In a stark, snow-covered industrial setting, a large yellow construction vehicle, such as an excavator, is seen in rapid motion. Its speed creates a blurred effect against the monochrome backdrop of white ground and grey, indistinct structures. The scene conveys a sense of urgent activity or transit within a harsh, wintry environment. The primary focus is on the dynamic movement of the heavy machinery, which cuts through the stillness of the frozen landscape, suggesting work continues despite the challenging weather conditions. The overall impression is one of powerful, purposeful motion amid the cold."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 8529,
+      "end_frame": 8559,
+      "start_sec": 341.16,
+      "end_sec": 342.36,
+      "duration_sec": 1.24,
+      "num_frame_captions": 2,
+      "caption": "This scene presents a turbulent, monochromatic seascape characterized by rapid motion and low visibility. The grainy, blurry footage captures choppy water with small waves and patches of white foam, suggesting a state of agitation. A sense of dynamic movement is emphasized by a small, indistinct white object streaking through the center of the frame, its speed and trajectory implying it is being propelled by the wind or current. The overall impression is one of a stormy or windswept body of water, where the elements are in constant, chaotic motion."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 8560,
+      "end_frame": 8579,
+      "start_sec": 342.4,
+      "end_sec": 343.16,
+      "duration_sec": 0.8,
+      "num_frame_captions": 1,
+      "caption": "This scene focuses on a large piece of heavy machinery at a construction or industrial site. The primary subject is a yellow Komatsu excavator, viewed from a close, dynamic perspective that emphasizes its powerful, functional form. The camera captures a momentary, blurred shot of the vehicle's lower section, highlighting the robust treads of its continuous tracks. This stylistic choice suggests the machine is either in motion or the camera itself is moving, conveying a sense of activity and raw mechanical power within the work environment. The overall impression is one of focused, gritty industrial operation."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 8580,
+      "end_frame": 9720,
+      "start_sec": 343.2,
+      "end_sec": 388.8,
+      "duration_sec": 45.64,
+      "num_frame_captions": 77,
+      "caption": "A crowd gathers on a muddy riverbank under an overcast sky, watching as construction vehicles work in the water. Yellow excavators operate in the shallows, some partially submerged, performing tasks like dredging or moving beams near a submerged structure. An orange dump truck is stuck in the mud nearby. The scene suggests a recovery or construction operation in a flooded area, with onlookers observing the machinery from the shore."
+    }
+  ]
+}

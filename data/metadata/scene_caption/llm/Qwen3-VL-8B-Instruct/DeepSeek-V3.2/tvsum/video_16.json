@@ -1,0 +1,796 @@
+{
+  "video": "WG0MBPpPC6I",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/WG0MBPpPC6I.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_16.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 23.976023976023978,
+  "total_frames": 9535,
+  "num_scenes": 78,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 105,
+      "start_sec": 0.0,
+      "end_sec": 4.379375,
+      "duration_sec": 4.421083,
+      "num_frame_captions": 8,
+      "caption": "This scene features a woman energetically presenting or cooking in a modern kitchen. She wears a patterned, off-the-shoulder top or dress in red and black, and she is consistently smiling and speaking directly to the camera. Her enthusiastic gestures and direct address suggest she is likely a host or chef demonstrating a recipe or engaging in a lively tutorial. The setting is clean and contemporary, providing a professional backdrop for her presentation. The initial black frame may indicate a brief transition or fade-in at the scene's start, leading into this dynamic and personable segment."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 106,
+      "end_frame": 235,
+      "start_sec": 4.421083,
+      "end_sec": 9.801458,
+      "duration_sec": 5.422083,
+      "num_frame_captions": 8,
+      "caption": "This scene features a close-up presentation of a large, appetizing chicken sandwich. The sandwich is consistently shown on a wooden plate, with its key components\u2014crispy fried chicken, lettuce, tomato, and cheese on a soft bun\u2014described in detail. The focus then shifts to a promotional element, as a small inset video or graphic appears, promoting \"Diane's Homemade Breading\" recipe. The scene effectively combines a showcase of the finished product with an advertisement for the specific breading used to create it, suggesting a cooking or promotional video context."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 236,
+      "end_frame": 494,
+      "start_sec": 9.843167,
+      "end_sec": 20.603917,
+      "duration_sec": 10.802458,
+      "num_frame_captions": 17,
+      "caption": "In this scene, a woman in a patterned off-the-shoulder top is in her modern kitchen, directly addressing the camera as if hosting a cooking segment. She begins by gesturing toward a picture-in-picture inset that showcases the preparation of homemade breading, encouraging viewers to check out the recipe. She then transitions to holding up a can of beans, explaining its use with expressive gestures. Finally, she smiles warmly while presenting a ripe avocado, continuing her engaging demonstration of ingredients for the audience."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 495,
+      "end_frame": 878,
+      "start_sec": 20.645625,
+      "end_sec": 36.619917,
+      "duration_sec": 16.016,
+      "num_frame_captions": 26,
+      "caption": "In this scene, a woman in a colorful, patterned top is in her modern kitchen, demonstrating or preparing a recipe. She begins by showing and comparing ingredients, including two open cans of sardines and a jar of pickles. She then presents various packaged items to the camera, such as \"Beurre Blanc\" butter, \"Que Blanco\" cheese, and \"Cr\u00e8me Blanche,\" while speaking to the viewer. The scene progresses with her handling other components like bread, a tray of raw fish, and a finished plate of food, all while smiling and engaging with the audience in a cooking tutorial format."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 879,
+      "end_frame": 921,
+      "start_sec": 36.661625,
+      "end_sec": 38.413375,
+      "duration_sec": 1.793458,
+      "num_frame_captions": 3,
+      "caption": "This scene introduces Chef Diane DiMeo's personal culinary brand through a consistent visual identity. The focus is on her logo, which prominently features her name in a distinctive black and red script. The design is anchored by the recurring motif of two stylized silver cleavers positioned above the text, creating a professional and thematic association with cooking. The clean, white background ensures the emblem is the central element, effectively establishing her chef's signature and branding in a clear, memorable manner for the audience."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 922,
+      "end_frame": 1008,
+      "start_sec": 38.455083,
+      "end_sec": 42.042,
+      "duration_sec": 3.628625,
+      "num_frame_captions": 6,
+      "caption": "In this scene, a woman demonstrates a cooking tutorial in her well-equipped kitchen. She begins by gesturing and explaining a recipe, with ingredients like avocados, tomatoes, eggs, and spices visible on the counter. The action then shifts to the preparation phase, where she is seen chopping ingredients on a cutting board and peeling an orange. Throughout the scene, her patterned off-the-shoulder top and the slightly cluttered, functional kitchen space establish a casual, instructional atmosphere focused on assembling a fresh meal."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 1009,
+      "end_frame": 1102,
+      "start_sec": 42.083708,
+      "end_sec": 45.962583,
+      "duration_sec": 3.920583,
+      "num_frame_captions": 6,
+      "caption": "This scene shows a person preparing ingredients in a kitchen, likely for a dish like guacamole or a salad. Wearing a red and white patterned apron or shirt, they work at a wooden cutting board. The activity progresses from slicing an avocado to chopping tomatoes, indicating a sequence of food prep tasks. The workspace is organized with various ingredients, including cheese and opened canned goods, suggesting a recipe is being assembled. The overall action is focused and methodical, centered on the core activity of chopping vegetables amidst a spread of other components."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 1103,
+      "end_frame": 1253,
+      "start_sec": 46.004292,
+      "end_sec": 52.260542,
+      "duration_sec": 6.297958,
+      "num_frame_captions": 10,
+      "caption": "In a busy, well-equipped kitchen, a woman wearing a patterned off-the-shoulder top prepares vegetables. She is actively engaged in chopping a variety of ingredients, including carrots, tomatoes, and a red bell pepper, on a wooden cutting board. Throughout the process, she occasionally smiles at the camera while continuing her task. The scene captures the focused yet pleasant activity of meal preparation in a domestic setting, with the kitchen appearing both functional and slightly cluttered with equipment."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 1254,
+      "end_frame": 1309,
+      "start_sec": 52.30225,
+      "end_sec": 54.596208,
+      "duration_sec": 2.335667,
+      "num_frame_captions": 4,
+      "caption": "This scene shows a person preparing ingredients for a sandwich or salad. Wearing a red and white patterned top, they are actively slicing a tomato on a wooden cutting board. Other fresh ingredients are assembled nearby, including an avocado, a package of cheese, and a loaf of bread. The consistent actions and setup across the frames indicate a continuous, focused food preparation activity in a domestic kitchen setting. The scene captures a brief moment of meal prep, emphasizing the assembly of core components before final construction."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 1310,
+      "end_frame": 1409,
+      "start_sec": 54.637917,
+      "end_sec": 58.767042,
+      "duration_sec": 4.170833,
+      "num_frame_captions": 6,
+      "caption": "In this scene, a woman is actively preparing food in a well-equipped kitchen. She is dressed in a colorful, off-the-shoulder top or dress with a floral or patterned design. Her primary task involves chopping various ingredients, including tomatoes and other vegetables, using a wooden cutting board as her work surface. The consistent setting and action across the frames indicate a continuous, focused cooking activity, with no significant change in location or the core action taking place."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 1410,
+      "end_frame": 1518,
+      "start_sec": 58.80875,
+      "end_sec": 63.31325,
+      "duration_sec": 4.546208,
+      "num_frame_captions": 8,
+      "caption": "In this scene, a person wearing a red patterned shirt prepares ingredients for a meal on a wooden cutting board. The primary actions involve slicing an avocado and then cutting a block of white cheese. Various other components are arranged nearby, including open cans of jalape\u00f1o peppers, tomatoes, and other canned goods, indicating the assembly of a dish like a salad or dip. The sequence shows a focused food preparation process, with the individual working methodically to chop and organize the fresh and canned items before combining them."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 1519,
+      "end_frame": 1620,
+      "start_sec": 63.354958,
+      "end_sec": 67.5675,
+      "duration_sec": 4.25425,
+      "num_frame_captions": 7,
+      "caption": "In this kitchen scene, a woman wearing a patterned off-the-shoulder top or dress is actively preparing a meal. She is focused on chopping various vegetables and ingredients, including tomatoes and avocado, on a wooden cutting board. The well-equipped but slightly cluttered counter is filled with spices and other food items. Throughout the process, she is engaged and expressive, smiling, gesturing with her hands as she works, and occasionally pausing to taste the food. The overall activity captures a moment of cheerful and hands-on cooking in a domestic setting."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 1621,
+      "end_frame": 1706,
+      "start_sec": 67.609208,
+      "end_sec": 71.154417,
+      "duration_sec": 3.586917,
+      "num_frame_captions": 5,
+      "caption": "This scene shows a person preparing ingredients in a kitchen. They are wearing a red patterned dress and a ring, and are focused on slicing a block of white cheese on a wooden cutting board. The mise en place includes sliced tomatoes and a whole avocado, with other ingredients also visible nearby. The consistent setup across the frames indicates a single, continuous action of food preparation, likely for a dish such as a salad or sandwich that incorporates these fresh components."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 1707,
+      "end_frame": 1862,
+      "start_sec": 71.196125,
+      "end_sec": 77.660917,
+      "duration_sec": 6.5065,
+      "num_frame_captions": 11,
+      "caption": "In a cluttered, well-equipped kitchen, a woman wearing a colorful, patterned off-the-shoulder top or dress is actively preparing food. She is engaged in the cooking process, primarily chopping and mixing ingredients on a wooden cutting board placed on the busy counter. Surrounded by various kitchen tools and scattered components of the recipe, she also gestures toward the items as if explaining the steps. The scene captures her focused culinary activity within the lived-in, functional space."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 1863,
+      "end_frame": 1952,
+      "start_sec": 77.702625,
+      "end_sec": 81.414667,
+      "duration_sec": 3.75375,
+      "num_frame_captions": 6,
+      "caption": "In a kitchen, a person wearing a red and white patterned shirt prepares an avocado on a wooden cutting board. Using a large knife, they first slice the avocado in half. They then proceed to carefully scoop out the flesh from one of the halves. Throughout the process, various other ingredients, such as tomatoes, cheese, and some canned goods, are visible nearby on the counter, indicating they are assembling a larger dish. The scene captures the focused, hands-on activity of food preparation in a domestic setting."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 1953,
+      "end_frame": 2066,
+      "start_sec": 81.456375,
+      "end_sec": 86.169417,
+      "duration_sec": 4.75475,
+      "num_frame_captions": 7,
+      "caption": "This scene shows a person preparing an avocado. They are wearing a red and white or red and black patterned shirt, suggesting a possible change in lighting or perspective across the sequence. The action is consistent: the individual uses a knife to slice the avocado on a wooden cutting board. The focus remains on the simple, deliberate task of food preparation, with no other elements or actions introduced. The scene captures a brief, quiet moment in a kitchen, emphasizing the manual process of cutting the fruit."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 2067,
+      "end_frame": 2229,
+      "start_sec": 86.211125,
+      "end_sec": 92.967875,
+      "duration_sec": 6.798458,
+      "num_frame_captions": 11,
+      "caption": "In a well-equipped but cluttered kitchen, a woman in a patterned off-the-shoulder top prepares a fresh dish. She begins by chopping ingredients, including a green fruit and avocado, on a wooden cutting board. As she works, the counter is busy with various ingredients like eggs, tomatoes, and spices. She pauses to wipe her hands with a cloth. The scene culminates with her assembling the final presentation, holding a plate that features a layered avocado and tomato dish, alongside a slice of watermelon."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 2230,
+      "end_frame": 2506,
+      "start_sec": 93.009583,
+      "end_sec": 104.521083,
+      "duration_sec": 11.553208,
+      "num_frame_captions": 19,
+      "caption": "In a cluttered, well-equipped home kitchen, a woman energetically prepares food. She wears a colorful, patterned off-the-shoulder top and works at a busy counter scattered with ingredients, utensils, and bowls. The scene captures her actively engaged in the cooking process: she handles dough, cracks eggs into both glass and metal mixing bowls, and combines ingredients. At times, she smiles and looks toward the camera while mixing or holding an egg over a bowl of breadcrumbs. The overall atmosphere is lively and informal, showing a person comfortably immersed in a cooking task within a lived-in kitchen space."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 2507,
+      "end_frame": 2584,
+      "start_sec": 104.562792,
+      "end_sec": 107.774333,
+      "duration_sec": 3.25325,
+      "num_frame_captions": 5,
+      "caption": "In this kitchen scene, a person wearing a patterned shirt is actively preparing a meal. The central action involves mixing various ingredients together in a large metal bowl placed on a wooden counter. The surrounding workspace is set up for cooking, with key items like a can of black beans and a block of cheese visible nearby, indicating they are likely components of the dish being assembled. The consistent activity across the frames shows a focused food preparation process, with the individual combining elements in the bowl as part of a recipe."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 2585,
+      "end_frame": 2823,
+      "start_sec": 107.816042,
+      "end_sec": 117.742625,
+      "duration_sec": 9.968292,
+      "num_frame_captions": 16,
+      "caption": "In a busy, well-equipped kitchen, a woman in a colorful, patterned off-the-shoulder top is engaged in a multi-step food preparation process. She begins by mixing ingredients in both metal and glass bowls, then transitions to working with dough, kneading it in a bowl and later stretching it on a wooden board. The scene shows her actively handling the mixture, with the cluttered counter filled with various ingredients, utensils, and cooking tools, indicating she is in the midst of preparing a meal or baked good."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 2824,
+      "end_frame": 3037,
+      "start_sec": 117.784333,
+      "end_sec": 126.668208,
+      "duration_sec": 8.925583,
+      "num_frame_captions": 14,
+      "caption": "In this kitchen scene, a person wearing a patterned shirt prepares a dish on a wooden countertop. The primary action involves mixing ingredients by hand in a clear glass bowl, creating a light-colored, herb-speckled batter or dip. The process includes coating pieces of food, such as bread, in this mixture. Various kitchen items are present, including a loaf of bread and a can of black beans, indicating the preparation of an appetizer. The scene culminates with the person lifting a coated piece of bread from the bowl, showcasing the finished component."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 3038,
+      "end_frame": 3285,
+      "start_sec": 126.709917,
+      "end_sec": 137.011875,
+      "duration_sec": 10.343667,
+      "num_frame_captions": 17,
+      "caption": "In a cluttered, well-equipped kitchen, a woman in a colorful, off-the-shoulder top is actively preparing food. She works at a wooden countertop surrounded by bowls, ingredients, and various kitchen tools. The scene shows her engaged in multiple stages of cooking: she mixes ingredients in both glass and metal bowls, handles dough or bread, and specifically coats chicken in a seasoned flour mixture. At another point, she dips bread into a bowl, likely sauce or batter, and later adds shredded cheese to a dip. Throughout the process, she is focused and occasionally smiles while working."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 3286,
+      "end_frame": 3361,
+      "start_sec": 137.053583,
+      "end_sec": 140.181708,
+      "duration_sec": 3.169833,
+      "num_frame_captions": 5,
+      "caption": "This scene shows a person preparing food in a kitchen. The individual, wearing a red and black patterned shirt, is actively mixing ingredients by hand inside a large, clear glass bowl. The bowl rests on a kitchen counter, indicating a typical domestic cooking environment. The action involves manually combining the contents, suggesting the preparation of a dish that requires hands-on blending, such as dough or a salad. The focus is on the tactile, engaged process of mixing, central to the cooking activity shown."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 3362,
+      "end_frame": 3538,
+      "start_sec": 140.223417,
+      "end_sec": 147.564083,
+      "duration_sec": 7.382375,
+      "num_frame_captions": 11,
+      "caption": "In a well-equipped but cluttered kitchen, a woman wearing a colorful, off-the-shoulder top or dress is engaged in a cooking demonstration. She is shown mixing dough or batter in a glass bowl on a wooden countertop, smiling joyfully as she works. The scene then shifts to her gesturing expressively with her hands, as if explaining the recipe or technique to an audience. Throughout, the kitchen is busy with various dishes and tools, indicating an active food preparation process."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 3539,
+      "end_frame": 3628,
+      "start_sec": 147.605792,
+      "end_sec": 151.317833,
+      "duration_sec": 3.75375,
+      "num_frame_captions": 6,
+      "caption": "This scene shows a woman preparing food in a modern kitchen. She is wearing a colorful, patterned off-the-shoulder top and is engaged in cooking activities centered around a stovetop with various pots and a kettle. The sequence captures her handling a yellow squash or similar food item, first holding it whole, then using a knife to slice a loaf of bread, and finally preparing to cut the yellow item over a pot. The actions suggest she is actively cooking a meal, combining different ingredients at her kitchen workstation."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 3629,
+      "end_frame": 3863,
+      "start_sec": 151.359542,
+      "end_sec": 161.119292,
+      "duration_sec": 9.801458,
+      "num_frame_captions": 16,
+      "caption": "A woman in a colorful, patterned off-the-shoulder top is actively cooking in a bright, modern kitchen. She is primarily focused on preparing food at the stove, where she stirs contents in a pot and handles a piece of dough or bread. Throughout the scene, she smiles warmly, often engaging with the camera. Her actions include using a knife, tending to multiple pots, and occasionally holding a white cloth or object. The well-equipped kitchen features various utensils, hanging tools, and other cookware like a kettle in the background, creating a lively and domestic atmosphere."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 3864,
+      "end_frame": 3949,
+      "start_sec": 161.161,
+      "end_sec": 164.706208,
+      "duration_sec": 3.586917,
+      "num_frame_captions": 6,
+      "caption": "In this kitchen scene, a woman with dark hair, wearing a colorful patterned off-the-shoulder top, is actively cooking on a gas stove. She focuses on stirring the contents of a black frying pan over a steady blue flame, managing the process with one hand. Simultaneously, another pot steams nearby on the stove. At one point, she uses a white cloth, possibly to handle a hot utensil or surface, and adjusts a stove knob with her other hand, demonstrating her engagement in the cooking task."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 3950,
+      "end_frame": 4024,
+      "start_sec": 164.747917,
+      "end_sec": 167.834333,
+      "duration_sec": 3.128125,
+      "num_frame_captions": 5,
+      "caption": "This scene shows a woman cooking a meal in her kitchen. She is wearing a floral top and is actively engaged in the process, using multiple pots and pans on the stovetop. The action includes stirring the contents of a pot, handling a white bowl of ingredients, and wearing an oven mitt, indicating she is managing hot cookware. The kitchen appears busy with various preparations underway, suggesting she is in the midst of preparing a multi-component dish. Her focused demeanor and the array of cooking equipment point to a dedicated cooking session."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 4025,
+      "end_frame": 4057,
+      "start_sec": 167.876042,
+      "end_sec": 169.210708,
+      "duration_sec": 1.376375,
+      "num_frame_captions": 2,
+      "caption": "This scene shows a person cooking a simple meal on a stovetop in a kitchen. Wearing a colorful, patterned top, the cook prepares two different items. First, they fry a pair of golden-brown pancakes in a skillet. Subsequently, they shift focus to making a toasted sandwich, pressing down on bread in a separate frying pan. The actions demonstrate a sequence of basic cooking techniques, from frying batter to grilling bread, all within the same kitchen setting. The scene captures the focused, hands-on process of preparing multiple components of a meal on a conventional stovetop."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 4058,
+      "end_frame": 4084,
+      "start_sec": 169.252417,
+      "end_sec": 170.336833,
+      "duration_sec": 1.126125,
+      "num_frame_captions": 2,
+      "caption": "In a kitchen, a person wearing a patterned top and a pink oven mitt is actively cooking on a stovetop. They are focused on preparing a meal, using a utensil to tend to food that is sizzling in a pan. The scene captures the hands-on process of home cooking, from seasoning the dish to stirring its contents in the pot. The activity suggests a routine moment of meal preparation, with attention given to properly cooking and flavoring the food before it is served."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 4085,
+      "end_frame": 4361,
+      "start_sec": 170.378542,
+      "end_sec": 181.890042,
+      "duration_sec": 11.553208,
+      "num_frame_captions": 18,
+      "caption": "This scene depicts a woman in a modern kitchen demonstrating a cooking process, likely for a recipe video. She begins by gesturing toward and explaining the use of a large pot on the stove. She then prepares ingredients, slicing food on a green plate before carefully transferring thin, yellowish items into the pot. The cooking continues as she stirs the contents of the pot, with a stainless steel kettle often visible beside it on the stovetop. The activity is monitored over time, as indicated by a digital clock showing 1:30, while the pot simmers and bubbles."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 4362,
+      "end_frame": 4552,
+      "start_sec": 181.93175,
+      "end_sec": 189.856333,
+      "duration_sec": 7.966292,
+      "num_frame_captions": 13,
+      "caption": "A woman in a patterned, off-the-shoulder top is cooking in a modern, well-equipped kitchen. She is primarily focused on preparing food using a large pot on the stove, with a kettle often visible nearby. Throughout the scene, she engages in various activities: she gestures and talks as if explaining the cooking process, pauses thoughtfully to look down at the pot, and actively stirs the ingredients while smiling. The setting features common kitchen tools like a wall-mounted knife block and shelves, with a digital clock indicating the time during her preparations."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 4553,
+      "end_frame": 4609,
+      "start_sec": 189.898042,
+      "end_sec": 192.233708,
+      "duration_sec": 2.377375,
+      "num_frame_captions": 4,
+      "caption": "In a busy kitchen, a person wearing a patterned dress prepares a meal on the stovetop. The central action involves them pouring dark beans, likely black beans, from a green cup into a frying pan. They proceed to cook the beans in that skillet. The scene is active, with multiple other pots and pans also occupying the stovetop, indicating several components of the meal are being prepared simultaneously. The overall focus is on the cooking process within a well-equipped, domestic kitchen environment."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 4610,
+      "end_frame": 4636,
+      "start_sec": 192.275417,
+      "end_sec": 193.359833,
+      "duration_sec": 1.126125,
+      "num_frame_captions": 2,
+      "caption": "In this kitchen scene, a cook is actively preparing a meal on a crowded stovetop. The central action involves stirring a dark, saucy mixture in a frying pan, suggesting the preparation of a rich sauce or stew. The busy environment, filled with other pots and pans, indicates multiple components are being cooked simultaneously. This creates an atmosphere of focused culinary activity, likely in a home or professional kitchen during a bustling cooking session. The scene captures a moment of hands-on food preparation where managing several tasks at once is key to the process."
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 4637,
+      "end_frame": 4665,
+      "start_sec": 193.401542,
+      "end_sec": 194.569375,
+      "duration_sec": 1.209542,
+      "num_frame_captions": 2,
+      "caption": "In a bustling kitchen, a woman wearing a patterned, off-the-shoulder top prepares food on the stove. She attentively stirs a dark, chunky mixture in a metal pan, indicating she is cooking a hearty dish. Nearby, a kettle sits ready, suggesting other kitchen tasks are underway simultaneously. The scene captures a moment of focused domestic activity, with the cook engaged in the rhythmic process of stirring to ensure the meal is prepared properly. The overall atmosphere is one of productive energy in a well-used cooking space."
+    },
+    {
+      "scene_index": 35,
+      "start_frame": 4666,
+      "end_frame": 4759,
+      "start_sec": 194.611083,
+      "end_sec": 198.489958,
+      "duration_sec": 3.920583,
+      "num_frame_captions": 6,
+      "caption": "This scene shows a woman cooking in a well-equipped kitchen. She has dark, wet hair and wears a patterned, off-the-shoulder floral top. Throughout the scene, she is engaged in food preparation, primarily focused on a pot on the stove. She interacts with the camera, offering warm, slight smiles as she works. The background features a wall neatly organized with mounted knives and various kitchen utensils, reinforcing the domestic setting. The overall mood is calm and focused, capturing a quiet, everyday moment of meal preparation."
+    },
+    {
+      "scene_index": 36,
+      "start_frame": 4760,
+      "end_frame": 4845,
+      "start_sec": 198.531667,
+      "end_sec": 202.076875,
+      "duration_sec": 3.586917,
+      "num_frame_captions": 6,
+      "caption": "In this scene, a person is cooking on a gas stove. They are actively stirring a dark, chunky sauce or stew in a stainless steel skillet or frying pan. The food has a thick, textured appearance and is simmering, with visible bubbling indicating it is hot and actively cooking. The consistent action across the frames is the stirring of this substantial mixture as it cooks over the flame."
+    },
+    {
+      "scene_index": 37,
+      "start_frame": 4846,
+      "end_frame": 4939,
+      "start_sec": 202.118583,
+      "end_sec": 205.997458,
+      "duration_sec": 3.920583,
+      "num_frame_captions": 6,
+      "caption": "In a home kitchen, a woman wearing a colorful, patterned top or dress is engaged in cooking. She leans over a large pot on the stove, attentively stirring its contents. The scene centers on her domestic activity, with a kettle and various other kitchen items visible nearby, suggesting a typical meal preparation setting. The consistent action across the frames is her focused stirring of the food, indicating a moment of routine culinary work within a familiar, lived-in environment."
+    },
+    {
+      "scene_index": 38,
+      "start_frame": 4940,
+      "end_frame": 5020,
+      "start_sec": 206.039167,
+      "end_sec": 209.375833,
+      "duration_sec": 3.378375,
+      "num_frame_captions": 5,
+      "caption": "In a well-equipped kitchen, a woman wearing a colorful off-the-shoulder floral top or dress prepares a meal. She is focused on cooking, actively stirring and seasoning a pot of simmering food on the stove. Throughout the scene, she engages with the camera, frequently looking toward it and smiling warmly. Her actions suggest she is demonstrating or sharing the cooking process in a friendly, approachable manner. The overall scene captures a moment of domestic cooking that feels both personal and performative, as she balances her task with a cheerful presentation."
+    },
+    {
+      "scene_index": 39,
+      "start_frame": 5021,
+      "end_frame": 5213,
+      "start_sec": 209.417542,
+      "end_sec": 217.425542,
+      "duration_sec": 8.049708,
+      "num_frame_captions": 13,
+      "caption": "A woman in a patterned off-the-shoulder top is cooking in a busy, well-stocked kitchen. She is primarily focused on stirring a large pot of food, which is on either a kitchen counter or a stove. Throughout the scene, she frequently looks directly at the camera, often with a playful, surprised, or inquisitive expression. The background features a cluttered kitchen environment with knives magnetically mounted on the wall. In some moments, she is also seen holding a bag of ingredients or another white object while continuing her task."
+    },
+    {
+      "scene_index": 40,
+      "start_frame": 5214,
+      "end_frame": 5330,
+      "start_sec": 217.46725,
+      "end_sec": 222.305417,
+      "duration_sec": 4.879875,
+      "num_frame_captions": 8,
+      "caption": "A woman in a patterned off-the-shoulder top is cooking in a kitchen. She stands by the stove, tending to a large pot and a skillet, stirring the contents with focused attention. Throughout the scene, she gestures toward the pot and smiles while cooking. Various kitchen utensils, including pots, a kettle, and knives hanging on the wall, are visible around her. The scene captures her engaged in the cooking process, with the sound of a kettle whistling in the background."
+    },
+    {
+      "scene_index": 41,
+      "start_frame": 5331,
+      "end_frame": 5384,
+      "start_sec": 222.347125,
+      "end_sec": 224.557667,
+      "duration_sec": 2.25225,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a person cooking a dark, textured dish in a busy kitchen. They are seen using a frying pan or skillet on a gas stovetop, attentively stirring the mixture. The cook wears different tops\u2014a floral dress and a patterned shirt\u2014across the frames, suggesting the activity spans a period of time. The kitchen environment is active, with multiple other pots and a kettle visible on the crowded stove, indicating several items are being prepared simultaneously. The focus remains on the consistent action of stirring the dark food as it cooks."
+    },
+    {
+      "scene_index": 42,
+      "start_frame": 5385,
+      "end_frame": 5505,
+      "start_sec": 224.599375,
+      "end_sec": 229.604375,
+      "duration_sec": 5.046708,
+      "num_frame_captions": 9,
+      "caption": "This scene shows a woman cooking energetically in a well-equipped home kitchen. She is wearing a colorful, patterned off-the-shoulder top or dress. The primary action involves her preparing food in a large stainless steel pot on the stove, where she is seen stirring the contents and carefully adding a piece of food. The kitchen setting features a tiled backsplash, shelves of spices, hanging knives, and various other cooking utensils and appliances, indicating active meal preparation. Her focused movements and the organized clutter suggest she is engaged in a deliberate cooking process."
+    },
+    {
+      "scene_index": 43,
+      "start_frame": 5506,
+      "end_frame": 5536,
+      "start_sec": 229.646083,
+      "end_sec": 230.897333,
+      "duration_sec": 1.292958,
+      "num_frame_captions": 2,
+      "caption": "This scene takes place in a kitchen, where a prepared meal is presented on a plate resting on the counter. The focus is on a piece of fried fish accompanied by a wrapped item, likely a sandwich or similar food. In the background, a stove with a pot on it and a glass jar are visible, indicating an active cooking environment. The arrangement suggests a casual meal has been plated and is ready to be served or eaten, combining elements of fried food and a sandwich in a simple, homely setting."
+    },
+    {
+      "scene_index": 44,
+      "start_frame": 5537,
+      "end_frame": 5650,
+      "start_sec": 230.939042,
+      "end_sec": 235.652083,
+      "duration_sec": 4.75475,
+      "num_frame_captions": 7,
+      "caption": "A woman in a colorful off-the-shoulder dress is actively cooking in a kitchen. She is engaged in preparing food, holding a piece of corn on the cob over a pot on the stove. Multiple pots and pans are simmering on the stove around her. Throughout the scene, she smiles at the camera while adding ingredients and tending to the dishes, presenting a cheerful and focused cooking activity."
+    },
+    {
+      "scene_index": 45,
+      "start_frame": 5651,
+      "end_frame": 5678,
+      "start_sec": 235.693792,
+      "end_sec": 236.819917,
+      "duration_sec": 1.167833,
+      "num_frame_captions": 2,
+      "caption": "A woman in a colorful off-shoulder dress is preparing a meal in her kitchen. She attentively stirs the contents of a pot on the stove, holding a yellow cloth. Nearby, another person in a patterned shirt handles a piece of cooked food at the kitchen counter, with plates and a glass visible. The scene captures a collaborative, domestic moment focused on cooking and food preparation in a shared kitchen space."
+    },
+    {
+      "scene_index": 46,
+      "start_frame": 5679,
+      "end_frame": 5709,
+      "start_sec": 236.861625,
+      "end_sec": 238.112875,
+      "duration_sec": 1.292958,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a kitchen counter where a meal is being prepared or served. The focus is on a plate holding food, which includes items like a sandwich, fried chicken, and a bun. Various kitchen appliances, such as a stove and cooking pots, are visible in the background, indicating an active cooking environment. The consistent setting suggests a single, static moment focused on the plated food ready for eating."
+    },
+    {
+      "scene_index": 47,
+      "start_frame": 5710,
+      "end_frame": 5882,
+      "start_sec": 238.154583,
+      "end_sec": 245.328417,
+      "duration_sec": 7.215542,
+      "num_frame_captions": 12,
+      "caption": "In a busy kitchen, a person wearing a patterned outfit or dress is actively preparing a meal. The central activity involves cooking on a stovetop, likely frying or saut\u00e9ing ingredients in a pan. Simultaneously, they are assembling a sandwich, which features a toasted bread roll or bun and a main component of breaded, seasoned, or fried chicken. The sandwich is garnished with accompaniments such as shredded cabbage, coleslaw, lettuce, or sliced onions. The prepared food is consistently presented on a plate, either wooden or yellow, which remains in the foreground throughout the scene as the cooking continues in the background."
+    },
+    {
+      "scene_index": 48,
+      "start_frame": 5883,
+      "end_frame": 6209,
+      "start_sec": 245.370125,
+      "end_sec": 258.967042,
+      "duration_sec": 13.638625,
+      "num_frame_captions": 21,
+      "caption": "In this scene, a woman in a patterned off-the-shoulder top is in her busy, cluttered kitchen, presenting and preparing various plant-based meals. She actively gestures toward and explains the dishes, which primarily feature tacos, sandwiches, or wraps filled with black beans and accompanied by sliced avocado and tomatoes. Throughout the sequence, she is seen assembling the food, holding up finished items like a sandwich or a slice of dessert to the camera, and speaking as if demonstrating a recipe. The overall activity is a lively cooking presentation or tutorial focused on simple, ingredient-forward vegetarian fare."
+    },
+    {
+      "scene_index": 49,
+      "start_frame": 6210,
+      "end_frame": 6243,
+      "start_sec": 259.00875,
+      "end_sec": 260.385125,
+      "duration_sec": 1.418083,
+      "num_frame_captions": 3,
+      "caption": "In this scene, a person is assembling a simple sandwich or wrap. They are working on a green woven plate, using a bread roll or tortilla as the base. The base has already been spread with a dark substance, likely a bean mixture or a condiment. The primary action involves carefully placing a slice of white cheese on top of this prepared base. The focus is on the methodical, hands-on process of building the food item, emphasizing the addition of the cheese as a key ingredient in its construction."
+    },
+    {
+      "scene_index": 50,
+      "start_frame": 6244,
+      "end_frame": 6369,
+      "start_sec": 260.426833,
+      "end_sec": 265.640375,
+      "duration_sec": 5.25525,
+      "num_frame_captions": 8,
+      "caption": "In a well-equipped but cluttered kitchen, a woman wearing a patterned off-the-shoulder top prepares a meal. She is focused on assembling sandwiches or open-faced sandwiches, using ingredients like avocado, tomatoes, and eggs. The scene shows her working at a counter filled with plates of prepared components, including what appears to be a pancake or flatbread. Her activity involves arranging these items, and at one point she looks toward the camera, indicating a moment of engagement or acknowledgment during the food preparation process."
+    },
+    {
+      "scene_index": 51,
+      "start_frame": 6370,
+      "end_frame": 6400,
+      "start_sec": 265.682083,
+      "end_sec": 266.933333,
+      "duration_sec": 1.292958,
+      "num_frame_captions": 2,
+      "caption": "In this scene, a person is in the process of assembling a sandwich on a wooden plate with a distinctive green rim. The core ingredients include a bread roll, a layer of dark spread, cheese, and fresh tomato slices. The individual carefully places the tomato slices on top of the cheese, methodically building the sandwich layer by layer. The activity is focused and deliberate, suggesting a routine meal preparation in a casual, likely domestic, setting. The entire process is contained on the single plate, indicating a self-contained task of constructing a single serving."
+    },
+    {
+      "scene_index": 52,
+      "start_frame": 6401,
+      "end_frame": 6428,
+      "start_sec": 266.975042,
+      "end_sec": 268.101167,
+      "duration_sec": 1.167833,
+      "num_frame_captions": 2,
+      "caption": "In this scene, a person wearing a red patterned shirt prepares a sandwich. They assemble the meal on a round wooden plate, layering fresh tomato and white cheese. The completed sandwich is then presented on a green-rimmed plate, which the individual holds up, showcasing the simple, fresh ingredients. The focus is on the hands-on process of creating the food, from assembly to the final presentation, highlighting the vibrant colors of the ingredients against the natural wood and decorative plate."
+    },
+    {
+      "scene_index": 53,
+      "start_frame": 6429,
+      "end_frame": 6451,
+      "start_sec": 268.142875,
+      "end_sec": 269.060458,
+      "duration_sec": 0.959292,
+      "num_frame_captions": 2,
+      "caption": "In this scene, a person wearing a red and black patterned shirt prepares a sandwich. They work carefully, assembling the ingredients on a green-rimmed wooden plate. The process involves placing slices of tomato and cheese onto the bread, focusing on the methodical construction of the meal. The activity is centered on food preparation, with the individual paying close attention to the arrangement of the fresh components. The overall atmosphere is one of quiet, focused activity in what appears to be a domestic kitchen setting."
+    },
+    {
+      "scene_index": 54,
+      "start_frame": 6452,
+      "end_frame": 6614,
+      "start_sec": 269.102167,
+      "end_sec": 275.858917,
+      "duration_sec": 6.798458,
+      "num_frame_captions": 10,
+      "caption": "In a cluttered, well-equipped kitchen, a woman wearing a patterned off-the-shoulder top prepares a meal. She is focused on assembling sandwiches or wraps, using ingredients such as avocado, tomato, and shredded lettuce that are laid out on colorful plates. The scene shows her actively working at the counter, slicing a carrot and arranging the components on bread. The kitchen has a busy, lived-in atmosphere, filled with various cooking items, as she methodically puts together the dishes. Her actions are consistent and centered on food preparation in this domestic setting."
+    },
+    {
+      "scene_index": 55,
+      "start_frame": 6615,
+      "end_frame": 6650,
+      "start_sec": 275.900625,
+      "end_sec": 277.360417,
+      "duration_sec": 1.5015,
+      "num_frame_captions": 3,
+      "caption": "In this scene, a person prepares a substantial sandwich. They assemble the meal on a green-rimmed plate, layering fried chicken cutlets with tomato slices and cheese on a bun. The process involves garnishing the stacked sandwich, which is later presented on a wooden plate. The individual, wearing a red and white patterned top, focuses on constructing the hearty dish, culminating in a fully assembled, multi-layered sandwich ready to be served."
+    },
+    {
+      "scene_index": 56,
+      "start_frame": 6651,
+      "end_frame": 6687,
+      "start_sec": 277.402125,
+      "end_sec": 278.903625,
+      "duration_sec": 1.543208,
+      "num_frame_captions": 2,
+      "caption": "This scene features a close-up view of a freshly prepared, appetizing sandwich served on a distinctive green-rimmed plate. The main subject is a golden-brown, crispy fried sandwich, generously filled with melted cheese and fresh tomato slices. The sandwich appears to be a breaded chicken variety, stacked high and presented as a hearty meal. The setting is casual, with a red patterned cloth visible in the background, suggesting a homely or rustic dining environment. The overall focus is on the visual appeal and delicious texture of the food, emphasizing its readiness to be enjoyed."
+    },
+    {
+      "scene_index": 57,
+      "start_frame": 6688,
+      "end_frame": 6841,
+      "start_sec": 278.945333,
+      "end_sec": 285.326708,
+      "duration_sec": 6.423083,
+      "num_frame_captions": 11,
+      "caption": "In a cluttered, well-equipped kitchen, a woman wearing a patterned off-the-shoulder top prepares a meal. She is actively assembling sandwiches or wraps, using ingredients such as avocado, lettuce, and bread. During the process, she carefully spoons a yellow sauce from a pumpkin-shaped container onto the plates. The scene also shows her handling a halved orange or pumpkin, likely as part of the food preparation or presentation. Her actions are focused and deliberate, set against the backdrop of a busy, lived-in kitchen filled with various ingredients and cooking tools."
+    },
+    {
+      "scene_index": 58,
+      "start_frame": 6842,
+      "end_frame": 6896,
+      "start_sec": 285.368417,
+      "end_sec": 287.620667,
+      "duration_sec": 2.293958,
+      "num_frame_captions": 3,
+      "caption": "In this scene, a person wearing a patterned shirt is preparing a sandwich. They are using a can of La Morena tomato sauce, spooning the red sauce directly onto a split hot dog bun. The activity is part of assembling the meal, with a plate of fried food visible nearby, suggesting the sandwich is being complemented with side dishes. The focus is on the simple, hands-on process of adding the key condiment to the bread roll during the food preparation."
+    },
+    {
+      "scene_index": 59,
+      "start_frame": 6897,
+      "end_frame": 7199,
+      "start_sec": 287.662375,
+      "end_sec": 300.258292,
+      "duration_sec": 12.637625,
+      "num_frame_captions": 20,
+      "caption": "A woman prepares a meal in her cluttered, well-equipped kitchen. She works with various ingredients, including avocado, tuna, and mayonnaise, assembling dishes on plates. Her actions include spreading sauces and toppings, pouring liquids, and layering components, often while smiling or gesturing. The scene captures her active, cheerful food preparation amidst a busy counter filled with jars, cans, utensils, and other kitchen items."
+    },
+    {
+      "scene_index": 60,
+      "start_frame": 7200,
+      "end_frame": 7258,
+      "start_sec": 300.3,
+      "end_sec": 302.719083,
+      "duration_sec": 2.460792,
+      "num_frame_captions": 4,
+      "caption": "This scene shows a person in a red and white patterned shirt preparing and presenting a substantial fried chicken sandwich. The process involves assembling the sandwich with ingredients like a fried egg, tomato slices, cheese, and sauce on a bun. The final, multi-layered creation is then held up for display, featuring the crispy chicken prominently. Throughout the scene, additional fried chicken tenders are visible on a nearby plate, emphasizing the meal's hearty and indulgent nature. The focus remains on the careful construction and appealing presentation of this gourmet-style sandwich."
+    },
+    {
+      "scene_index": 61,
+      "start_frame": 7259,
+      "end_frame": 7763,
+      "start_sec": 302.760792,
+      "end_sec": 323.781792,
+      "duration_sec": 21.062708,
+      "num_frame_captions": 34,
+      "caption": "In a lively, well-equipped kitchen, a woman in a colorful patterned top cheerfully prepares a meal. She assembles open-faced sandwiches or toast, spreading a creamy substance from a jar onto sliced avocado and arranging various ingredients on large green and yellow plates. Her actions include squeezing lime, tearing lettuce, and carefully spooning sauces as she builds layered dishes and burgers. Throughout the process, she smiles and gestures animatedly amidst the cluttered countertops, which are filled with kitchen tools, appliances, and ingredients, conveying a sense of joyful and engaged home cooking."
+    },
+    {
+      "scene_index": 62,
+      "start_frame": 7764,
+      "end_frame": 7810,
+      "start_sec": 323.8235,
+      "end_sec": 325.742083,
+      "duration_sec": 1.960292,
+      "num_frame_captions": 3,
+      "caption": "In this scene, a person prepares a sandwich by adding sliced green pickled jalape\u00f1os to it. The process begins with the individual using tongs to remove the peppers from a can of the brand \"La Morena.\" Subsequently, a can opener is employed to scoop out more of the jalape\u00f1os, ensuring an ample amount is gathered. Finally, the person assembles the sandwich on a wooden plate, carefully adding the sauced peppers to complete the dish. The focus remains on the deliberate steps of extracting and applying the condiment directly from the can to enhance the sandwich."
+    },
+    {
+      "scene_index": 63,
+      "start_frame": 7811,
+      "end_frame": 7899,
+      "start_sec": 325.783792,
+      "end_sec": 329.454125,
+      "duration_sec": 3.712042,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a person assembling a large, messy sandwich with fried meat, likely chicken or fish, on a wooden board. The process involves layering crispy, breaded patties with fresh ingredients like lettuce, tomato, and pickles. At one point, the cook seasons the assembled sandwich and uses a specific brand of sauce, La Morena, from an open can. The focus is on the hands-on preparation, showing the addition of each component to create a hearty, multi-layered meal. The consistent use of the wooden surface and the similar ingredients across shots confirm this is a single, continuous preparation sequence."
+    },
+    {
+      "scene_index": 64,
+      "start_frame": 7900,
+      "end_frame": 8119,
+      "start_sec": 329.495833,
+      "end_sec": 338.629958,
+      "duration_sec": 9.175833,
+      "num_frame_captions": 15,
+      "caption": "A woman in a patterned off-the-shoulder top is in a cluttered, well-equipped kitchen, preparing a large, layered burger or sandwich. She assembles the burger on a green plate, adding ingredients like avocado and a pickle slice. Throughout the process, she smiles and gestures toward the food, playfully holding a lime near her face as if to squeeze it for flavor. The scene focuses on her cheerful presentation and assembly of the colorful, messy dish."
+    },
+    {
+      "scene_index": 65,
+      "start_frame": 8120,
+      "end_frame": 8138,
+      "start_sec": 338.671667,
+      "end_sec": 339.422417,
+      "duration_sec": 0.792458,
+      "num_frame_captions": 1,
+      "caption": "In this scene, a person is preparing a meal, specifically assembling a sandwich or taco. They are using a ripe avocado, which has been halved, as a key ingredient. The individual, wearing a red and black patterned top, carefully scoops the creamy green flesh from the avocado skin with a utensil. The action suggests a focus on fresh, homemade food, likely as part of lunch or a snack preparation. The setting appears to be a casual kitchen or dining area, centered on the simple, deliberate act of adding the avocado to the chosen bread or tortilla base."
+    },
+    {
+      "scene_index": 66,
+      "start_frame": 8139,
+      "end_frame": 8170,
+      "start_sec": 339.464125,
+      "end_sec": 340.757083,
+      "duration_sec": 1.334667,
+      "num_frame_captions": 2,
+      "caption": "This scene focuses on the final preparation and presentation of a gourmet chicken sandwich. A cook meticulously slices a fresh avocado, which will be added as a topping. The completed sandwich is then showcased in a close-up, revealing its layers of crispy fried chicken, pickled jalape\u00f1os, lettuce, tomato, and onion. The action centers on assembling the ingredients and presenting the finished dish, which is served attractively on a wooden plate, highlighting its fresh and appetizing qualities."
+    },
+    {
+      "scene_index": 67,
+      "start_frame": 8171,
+      "end_frame": 8314,
+      "start_sec": 340.798792,
+      "end_sec": 346.763083,
+      "duration_sec": 6.006,
+      "num_frame_captions": 10,
+      "caption": "This scene shows a person assembling a large, layered chicken sandwich on a wooden plate. The core ingredients consistently include a breaded or fried chicken patty, fresh lettuce, and tomato. The preparer carefully adds various toppings such as pickles, avocado, and sauce, building the sandwich in a deliberate, hands-on manner. While most frames feature a crispy fried chicken patty, one caption mentions grilled chicken, and the setting remains a wooden surface throughout the process, emphasizing the assembly of a hearty, multi-layered meal."
+    },
+    {
+      "scene_index": 68,
+      "start_frame": 8315,
+      "end_frame": 8430,
+      "start_sec": 346.804792,
+      "end_sec": 351.60125,
+      "duration_sec": 4.838167,
+      "num_frame_captions": 8,
+      "caption": "In a cluttered, well-equipped kitchen, a woman wearing a patterned off-the-shoulder top is focused on preparing a large, layered sandwich or burger. She carefully assembles the meal on a green plate, adding ingredients like avocado and lettuce. At one point, she pauses, holding a small white object while looking at the camera with a surprised expression. The scene culminates with her presenting two finished plates of food, one clearly featuring a burger topped with lettuce, showcasing the final result of her kitchen efforts."
+    },
+    {
+      "scene_index": 69,
+      "start_frame": 8431,
+      "end_frame": 8535,
+      "start_sec": 351.642958,
+      "end_sec": 355.980625,
+      "duration_sec": 4.379375,
+      "num_frame_captions": 7,
+      "caption": "In this scene, a person wearing a patterned shirt and a ring assembles a large, multi-layered sandwich. The main ingredients include crispy fried chicken, fresh lettuce, sliced tomatoes, and cheese, with avocado or avocado crema also being added. The assembly process is shown from different angles as the individual carefully places the top bun onto the stacked ingredients. The finished sandwich is substantial and somewhat messy, presented on either a green-rimmed plate or a wooden serving board, highlighting its homemade and indulgent nature."
+    },
+    {
+      "scene_index": 70,
+      "start_frame": 8536,
+      "end_frame": 8616,
+      "start_sec": 356.022333,
+      "end_sec": 359.359,
+      "duration_sec": 3.378375,
+      "num_frame_captions": 5,
+      "caption": "A woman in a patterned off-the-shoulder top or dress is in a busy, well-equipped kitchen. She is actively preparing a large burger or sandwich, assembling it on a plate or cutting board. The scene shows her engaged in the food preparation process, and at one point she gestures toward the finished sandwich on the plate. The overall activity is assembling and presenting a substantial sandwich in a cluttered, domestic kitchen setting."
+    },
+    {
+      "scene_index": 71,
+      "start_frame": 8617,
+      "end_frame": 8794,
+      "start_sec": 359.400708,
+      "end_sec": 366.783083,
+      "duration_sec": 7.424083,
+      "num_frame_captions": 12,
+      "caption": "This scene presents a detailed and appetizing visual showcase of a fried chicken sandwich. The focus remains tightly on the sandwich itself, which is consistently described as having crispy, breaded chicken, fresh lettuce, tomato, and melted cheese, all nestled within a soft, golden-brown bun. The presentation alternates between a wooden plate and a yellow plate, but the core subject\u2014a delicious, stacked sandwich\u2014is the constant center of attention. The series of close-up shots emphasizes the texture and layers of the food, creating a mouth-watering and stylized portrait of the meal."
+    },
+    {
+      "scene_index": 72,
+      "start_frame": 8795,
+      "end_frame": 8846,
+      "start_sec": 366.824792,
+      "end_sec": 368.951917,
+      "duration_sec": 2.168833,
+      "num_frame_captions": 3,
+      "caption": "In a kitchen setting, a person wearing a patterned shirt or top is preparing to eat a large, generously filled sandwich. They hold the messy meal with both hands over a wooden surface, such as a plate or counter, indicating a moment just before consumption. The scene captures the casual, everyday act of enjoying food, with the sandwich's substantial and overflowing ingredients suggesting a hearty snack or meal. The focus is on the anticipation of the first bite, set within a simple, domestic environment."
+    },
+    {
+      "scene_index": 73,
+      "start_frame": 8847,
+      "end_frame": 8903,
+      "start_sec": 368.993625,
+      "end_sec": 371.329292,
+      "duration_sec": 2.377375,
+      "num_frame_captions": 4,
+      "caption": "This scene features a woman with dark hair, wearing a patterned top, who is enthusiastically eating a large, messy sandwich. She holds the generously filled meal with both hands and takes a large, eager bite, her expression conveying clear enjoyment. The sandwich appears substantial, with visible ingredients like lettuce and sauce contributing to its messy appeal. The sequence captures a single, focused moment of her indulging in the food with palpable delight, emphasizing the satisfying and somewhat unruly nature of the experience."
+    },
+    {
+      "scene_index": 74,
+      "start_frame": 8904,
+      "end_frame": 8924,
+      "start_sec": 371.371,
+      "end_sec": 372.205167,
+      "duration_sec": 0.875875,
+      "num_frame_captions": 1,
+      "caption": "A woman with dark hair and a patterned top is the focus of the scene. She leans forward with evident enthusiasm, fully engaged in the act of eating a large sandwich. Her energetic demeanor suggests she is thoroughly enjoying her meal. The scene captures a simple, relatable moment of everyday pleasure centered around food."
+    },
+    {
+      "scene_index": 75,
+      "start_frame": 8925,
+      "end_frame": 9100,
+      "start_sec": 372.246875,
+      "end_sec": 379.545833,
+      "duration_sec": 7.340667,
+      "num_frame_captions": 12,
+      "caption": "In this scene, a woman in a patterned, off-the-shoulder top or dress is energetically presenting or reacting to something in a modern, well-equipped kitchen. She is actively engaged, speaking directly to the camera while using expressive hand gestures to emphasize her points. The sequence captures a range of candid moments, from her enthusiastically eating a sandwich or other food with her hands\u2014resulting in a messy face\u2014to smiling and giving a confident thumbs-up. The overall tone is lively, informal, and conversational, as if she is sharing a personal experience or review in a relatable, domestic setting."
+    },
+    {
+      "scene_index": 76,
+      "start_frame": 9101,
+      "end_frame": 9277,
+      "start_sec": 379.587542,
+      "end_sec": 386.928208,
+      "duration_sec": 7.382375,
+      "num_frame_captions": 12,
+      "caption": "In a modern kitchen, a woman in a colorful, off-the-shoulder dress speaks directly to the camera, gesturing animatedly to engage the viewer. Throughout her presentation, a picture-in-picture inset is frequently used to promote \"Diane's Homemade Breading,\" showing close-up shots of hands mixing the product or a finished bowl. The woman occasionally holds up a small item and maintains a friendly, explanatory tone, effectively blending her live demonstration with the promotional graphic that encourages viewers to check out the featured breading mix."
+    },
+    {
+      "scene_index": 77,
+      "start_frame": 9278,
+      "end_frame": 9534,
+      "start_sec": 386.969917,
+      "end_sec": 397.64725,
+      "duration_sec": 10.719042,
+      "num_frame_captions": 17,
+      "caption": "This scene is the concluding end screen of a YouTube video by Chef Diane Dimeo. Its primary purpose is to promote her channel and encourage viewer engagement. The screen prominently features a \"Subscribe\" button as a direct call to action. It also displays two suggested video thumbnails, which preview her upcoming content: a recipe for homemade breading and another for raw vegan pasta. The consistent visual elements across the frames create a cohesive promotional segment designed to retain the audience and direct them to more of her culinary content."
+    }
+  ]
+}

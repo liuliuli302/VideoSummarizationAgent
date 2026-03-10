@@ -1,0 +1,316 @@
+{
+  "video": "EYqVtI9YWJA",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/EYqVtI9YWJA.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_42.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 5939,
+  "num_scenes": 30,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 32,
+      "start_sec": 0.0,
+      "end_sec": 1.067733,
+      "duration_sec": 1.1011,
+      "num_frame_captions": 3,
+      "caption": "This scene opens in complete darkness before transitioning to a minimalist title card, featuring a stark white field framed by black bars. The sequence then culminates in a dramatic, stylized visual: a brilliant golden-yellow starburst erupts from a central point, its sharp, angular rays radiating powerfully against a dark void. The progression moves from an absence of imagery to a clean, graphic design, finally resolving in a striking and symbolic burst of radiant light, creating a sense of dramatic revelation or introduction."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 33,
+      "end_frame": 230,
+      "start_sec": 1.1011,
+      "end_sec": 7.674333,
+      "duration_sec": 6.6066,
+      "num_frame_captions": 13,
+      "caption": "This scene presents a series of stylized title cards for a show called \"Two Wheel Oklahoma\" or \"Two Wheel OK.\" The graphics feature bold, three-dimensional golden-orange lettering set against dramatic sunset backdrops, often with a road stretching toward the horizon. A recurring visual motif is a silhouette of a motorcycle rider integrated into the letter 'O' of the main title. The scene then transitions to a more specific promotional card, which introduces a \"Road Trip to Dallas\" theme, indicated by a prominent green road sign placed in the foreground against the same vibrant sunset scenery."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 231,
+      "end_frame": 509,
+      "start_sec": 7.7077,
+      "end_sec": 16.983633,
+      "duration_sec": 9.3093,
+      "num_frame_captions": 18,
+      "caption": "This scene takes place at a motorcycle or action sports expo, where two men are being interviewed and interacting with attendees. The younger man is identified as Phillip Smage from the Smage Bros. Riding Show, wearing a motocross jersey, while the older interviewer wears a green shirt. They converse in front of promotional banners listing tour dates and logos like \"TWO WHEELS.\" Their friendly exchange includes humorous emphasis on one of them being from Wisconsin, leading to shared laughter and posed photos for the camera amidst the bustling convention atmosphere."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 510,
+      "end_frame": 572,
+      "start_sec": 17.017,
+      "end_sec": 19.085733,
+      "duration_sec": 2.1021,
+      "num_frame_captions": 5,
+      "caption": "This scene captures an indoor extreme sports competition, likely part of an awards ceremony or exhibition. A man in a blue shirt, possibly an emcee or presenter, stands before a branded backdrop and holds a trophy. The action features various athletes performing high-flying stunts, including BMX and motocross riders launching off ramps and executing tricks mid-air inside the large arena. Spectators watch from the sidelines as the riders soar through the air, demonstrating skill and athleticism. The sequence blends the presentation aspect with the dynamic, airborne performances that define the event."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 573,
+      "end_frame": 630,
+      "start_sec": 19.1191,
+      "end_sec": 21.021,
+      "duration_sec": 1.935267,
+      "num_frame_captions": 4,
+      "caption": "This scene captures an indoor motocross stunt show, where two riders perform synchronized aerial maneuvers on a large ramp structure. The action is dynamic and continuous, with one rider frequently launching into the air over the crest of the ramp while the other approaches or ascends, creating a fluid sequence of jumps. The setting is a controlled arena, emphasizing the precision and athleticism of the sport. The overall spectacle is one of coordinated risk and skill, as the riders execute their stunts in close succession for the audience."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 631,
+      "end_frame": 752,
+      "start_sec": 21.054367,
+      "end_sec": 25.091733,
+      "duration_sec": 4.070733,
+      "num_frame_captions": 8,
+      "caption": "This scene captures a motocross rider performing a series of stunts inside a large indoor arena filled with spectators. The rider, wearing a patriotic red, white, and blue suit, executes high-flying jumps off a ramp, soaring through the air on a dirt bike. Between these aerial maneuvers, the rider is also seen aggressively leaning into sharp turns on the arena floor, demonstrating control and speed. The entire performance takes place in front of an audience watching from behind safety barriers, with event staff occasionally visible, highlighting the organized and thrilling nature of the indoor motorsport event."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 753,
+      "end_frame": 932,
+      "start_sec": 25.1251,
+      "end_sec": 31.097733,
+      "duration_sec": 6.006,
+      "num_frame_captions": 12,
+      "caption": "A man in a green shirt interviews a motocross rider in a colorful jersey at a trade show or sporting event. The rider, wearing a helmet and cap, gestures enthusiastically as they converse. The setting appears to be a booth or expo area, likely part of a motorcycle or motocross convention. The interaction is a focused, professional exchange, capturing an interview or discussion about the sport within the event's lively atmosphere."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 933,
+      "end_frame": 1138,
+      "start_sec": 31.1311,
+      "end_sec": 37.971267,
+      "duration_sec": 6.873533,
+      "num_frame_captions": 13,
+      "caption": "This scene captures a high-energy indoor motocross or stunt show. A rider, wearing a patriotic racing suit and helmet, performs a series of daring maneuvers on a dirt track for a live audience watching from behind metal barriers. The action includes navigating large obstacles like stacked tires and a black barrel, executing high-speed wheelies, and launching into mid-air jumps. The dynamic, sometimes shaky footage emphasizes the speed and motion of the motorcycle, with close-ups of the front wheel and suspension. The overall atmosphere is one of thrilling, spectator-focused exhibition riding in an arena setting."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 1139,
+      "end_frame": 1266,
+      "start_sec": 38.004633,
+      "end_sec": 42.2422,
+      "duration_sec": 4.270933,
+      "num_frame_captions": 9,
+      "caption": "This scene depicts an interview at a motorsports event, likely a motocross convention or race. An older man, often described as bald and wearing a green shirt with a lanyard, is engaged in an animated conversation with a younger motocross rider. The rider wears a colorful red, white, and blue jersey, a cap, and sometimes a helmet or full racing suit. They stand before event signage, including schedule boards and banners, indicating a formal or media setting. The interviewer gestures while speaking, and the rider is seen smiling, suggesting a friendly and engaging exchange about the sport."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 1267,
+      "end_frame": 1443,
+      "start_sec": 42.275567,
+      "end_sec": 48.1481,
+      "duration_sec": 5.9059,
+      "num_frame_captions": 12,
+      "caption": "This scene captures an action-packed indoor motorcycle and BMX exhibition event, featuring a series of stunts and races. Performers execute high-flying tricks, including mid-air flips and wheelies, over ramps in a large arena. The event also includes motocross and mountain bike competitions, with riders racing side-by-side on a dirt track and navigating turns. Throughout the performances, spectators watch intently from behind safety barriers. The arena is decorated with prominent event banners, a large scoreboard, and a schedule board displaying tour information, emphasizing the professional and organized nature of the show."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 1444,
+      "end_frame": 1713,
+      "start_sec": 48.181467,
+      "end_sec": 57.1571,
+      "duration_sec": 9.009,
+      "num_frame_captions": 18,
+      "caption": "This scene shows a motocross rider being interviewed at an indoor sports expo or trade show, likely in Orlando, Florida. The young man, wearing a distinctive red, white, and blue jersey and a black cap branded with \"EVE\" or \"EVC,\" speaks enthusiastically and gestures with his hands while smiling. He stands in a booth area surrounded by event banners, signage for \"VS-Sports,\" and motocross equipment, indicating a promotional or fan engagement setting. The consistent setting and action across frames confirm this is a single, continuous interview segment at the convention."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 1714,
+      "end_frame": 1806,
+      "start_sec": 57.190467,
+      "end_sec": 60.2602,
+      "duration_sec": 3.1031,
+      "num_frame_captions": 6,
+      "caption": "Two men are seated under a tent, engaged in an activity at a table. They later stand up, continuing to interact and examine something together. Their playful and friendly dynamic is highlighted when one man, wearing a patriotic jacket, humorously grabs the other's head. The scene concludes with the man in the jacket gesturing forward while his companion looks on, all set against the backdrop of the canopy."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 1807,
+      "end_frame": 1931,
+      "start_sec": 60.293567,
+      "end_sec": 64.431033,
+      "duration_sec": 4.170833,
+      "num_frame_captions": 8,
+      "caption": "This scene captures a lively motocross exhibition or convention held in a crowded indoor venue. A series of group photos are taken, featuring young men and boys, some dressed in full racing gear, posing with their dirt bikes. In several shots, individuals stand triumphantly atop their motorcycles, while spectators watch from behind safety barriers. The atmosphere is one of youthful energy and camaraderie, as riders smile for the camera amidst the backdrop of other bikes and event attendees. The consistent setting and actions indicate a single, continuous promotional or celebratory moment at the heart of the event."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 1932,
+      "end_frame": 2305,
+      "start_sec": 64.4644,
+      "end_sec": 76.910167,
+      "duration_sec": 12.479133,
+      "num_frame_captions": 25,
+      "caption": "This scene shows a motocross rider being interviewed at a sports event or trade show. The rider, a young man wearing a colorful jersey and a cap, speaks enthusiastically with a man in a green shirt and glasses, who appears to be the interviewer. Their conversation takes place at a booth with promotional banners in the background, one of which indicates an event in Beach, Florida. The atmosphere is friendly and engaging, with both men smiling and the rider using hand gestures as he talks."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 2306,
+      "end_frame": 2330,
+      "start_sec": 76.943533,
+      "end_sec": 77.744333,
+      "duration_sec": 0.834167,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a busy indoor arena where a motocross rider, wearing a helmet and a black shirt, has just dismounted from his bike. He walks away from it, blending into the blurry, crowded background of spectators and activity. Meanwhile, in a separate area of the same venue\u2014likely a workshop or pit area\u2014a mechanic or technician is focused on servicing a blue and silver mountain bike. The overall atmosphere is one of organized chaos, combining the high-energy spectacle of the event with the precise, behind-the-scenes work required to maintain the equipment."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 2331,
+      "end_frame": 2409,
+      "start_sec": 77.7777,
+      "end_sec": 80.3803,
+      "duration_sec": 2.635967,
+      "num_frame_captions": 5,
+      "caption": "This scene takes place in a bustling indoor arena, where a motorcyclist prepares for and then performs a stunt on a dirt bike. The rider, wearing a black shirt and helmet, is the central focus, surrounded by a crowd of spectators watching from behind metal barriers. The action progresses from the rider's initial preparations to the dynamic moment of the stunt itself, showcasing skill and control within the confined, energetic space of the arena. The atmosphere is one of focused performance and audience anticipation, capturing a key moment in an indoor motorsports or stunt exhibition."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 2410,
+      "end_frame": 2603,
+      "start_sec": 80.413667,
+      "end_sec": 86.853433,
+      "duration_sec": 6.473133,
+      "num_frame_captions": 13,
+      "caption": "This scene captures an action sports exhibition held in a large indoor arena, likely a convention or special event. A series of athletes, including mountain bikers, BMX riders, skateboarders, and motorcyclists, perform stunts and ride through the venue. The performers, identifiable by their helmets and casual attire like black shirts, are the central focus as they execute their routines. A sizable crowd of spectators watches the action intently from behind metal barricades and barriers, creating an atmosphere of a structured public demonstration or competition. The sequence showcases a variety of wheeled sports in a controlled, spectator-friendly environment."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 2604,
+      "end_frame": 2913,
+      "start_sec": 86.8868,
+      "end_sec": 97.1971,
+      "duration_sec": 10.343667,
+      "num_frame_captions": 21,
+      "caption": "A man in a green shirt interviews a motocross rider in a colorful jersey and cap at a trade show or convention booth. The rider speaks animatedly and gestures enthusiastically during their conversation. The scene depicts an interview or lively discussion between the two individuals, with the interviewer listening attentively to the rider's explanations. The setting is an indoor event, likely a sports or cycling convention, where the rider is being featured or promoted."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 2914,
+      "end_frame": 3313,
+      "start_sec": 97.230467,
+      "end_sec": 110.543767,
+      "duration_sec": 13.346667,
+      "num_frame_captions": 26,
+      "caption": "This scene captures an indoor motocross exhibition or competition at a motorcycle show. Two riders in red, white, and blue gear race and perform stunts on dirt bikes on a dirt track, leaning into sharp turns and kicking up dust. One rider executes a wheelie, balancing on the rear wheel, while another is sometimes seen airborne during a jump. Spectators watch from behind metal barriers as the action unfolds in the large arena, which features promotional banners for \"International Motorcycle Shows\" in the background. The dynamic sequence highlights both competitive racing and daring stunt performances."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 3314,
+      "end_frame": 3452,
+      "start_sec": 110.577133,
+      "end_sec": 115.181733,
+      "duration_sec": 4.637967,
+      "num_frame_captions": 10,
+      "caption": "This scene captures an indoor motocross exhibition where two riders perform a series of synchronized stunts. They race closely before executing dynamic maneuvers, primarily focusing on coordinated wheelies where both bikes balance on their rear wheels. The action takes place in a large arena, with blurred booths and lights in the background indicating a convention or show setting. The riders, clad in colorful full gear, demonstrate skill and daring as they perform these stunts side-by-side, sometimes with one rider becoming airborne, all amidst the presence of spectators."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 3453,
+      "end_frame": 3964,
+      "start_sec": 115.2151,
+      "end_sec": 132.265467,
+      "duration_sec": 17.083733,
+      "num_frame_captions": 34,
+      "caption": "This scene captures an interview at a motorsports event, likely a motocross trade show or expo. An older, bald man wearing a green shirt, glasses, and a lanyard enthusiastically interviews a younger motocross rider. The rider, dressed in a distinctive red, white, and blue jersey and a black cap, smiles and gestures animatedly during their lively conversation. Their interaction takes place under a black tent or at an indoor booth, with signage like \"Wage Bros\" visible in the background. The overall tone is friendly and engaging, highlighting a moment of connection between a journalist and an athlete at the event."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 3965,
+      "end_frame": 4334,
+      "start_sec": 132.298833,
+      "end_sec": 144.611133,
+      "duration_sec": 12.345667,
+      "num_frame_captions": 24,
+      "caption": "This scene captures a motocross rider performing a series of stunts during an indoor show. The rider, wearing a patriotic blue, white, and red suit and helmet, navigates a dirt bike across a track featuring ramps and obstacles. The action includes balancing the bike on its rear wheel, leaning into sharp turns, and launching off ramps to execute high-flying aerial jumps. Throughout the performance, spectators watch from behind a safety barrier in the arena. The sequence highlights the dynamic and acrobatic nature of the sport, from poised preparations at the top of a ramp to mid-air maneuvers."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 4335,
+      "end_frame": 4360,
+      "start_sec": 144.6445,
+      "end_sec": 145.478667,
+      "duration_sec": 0.867533,
+      "num_frame_captions": 2,
+      "caption": "In an indoor arena, a motocross rider performs a daring stunt during a motor show. Clad in a vibrant blue, white, and red suit, the rider launches a dirt bike off a ramp, soaring high into the air. The dramatic moment is captured mid-flight, with the motorcycle suspended above a prominent event banner for the Progressive International Motorcycle Shows. This impressive display of skill and athleticism highlights the thrilling, high-energy atmosphere of the indoor exhibition, as the rider defies gravity to entertain the assembled crowd."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 4361,
+      "end_frame": 4447,
+      "start_sec": 145.512033,
+      "end_sec": 148.381567,
+      "duration_sec": 2.9029,
+      "num_frame_captions": 6,
+      "caption": "In an indoor arena, a motocross rider performs daring stunts on a dirt bike for a crowd of spectators. The rider launches off a blue ramp to execute a high jump, then transitions into a wheelie, lifting the front wheel high off the ground. The action takes place in a setting with a visible scoreboard and a tent, suggesting an organized event like a motorcycle show. The sequence captures the dynamic movement and skill of the rider, from a blurred-motion travel shot to a controlled, balanced wheelie indoors."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 4448,
+      "end_frame": 4748,
+      "start_sec": 148.414933,
+      "end_sec": 158.424933,
+      "duration_sec": 10.043367,
+      "num_frame_captions": 20,
+      "caption": "A man in a green shirt and glasses, likely a reporter or interviewer, converses with a motocross rider wearing a colorful red, white, and blue jersey and a black cap. The interaction takes place at an indoor trade show or convention, with banners for events like \"IMAGE BIKING SHOW\" visible in the background. The scene captures an interview, with the rider appearing enthusiastic as he speaks to the interviewer. The setting suggests a promotional or media event within the motocross industry."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 4749,
+      "end_frame": 5113,
+      "start_sec": 158.4583,
+      "end_sec": 170.603767,
+      "duration_sec": 12.178833,
+      "num_frame_captions": 24,
+      "caption": "The scene takes place at an indoor motorcycle show, likely the Progressive International Motorcycle Show. Motocross riders perform stunts, primarily wheelies, on dirt bikes within a large arena. Spectators watch from behind barriers as the riders demonstrate skill and control, with some stunts involving balancing on the front or rear wheel. The atmosphere is that of a professional exhibition, featuring event signage and banners in the background, highlighting a dynamic display of riding prowess."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 5114,
+      "end_frame": 5197,
+      "start_sec": 170.637133,
+      "end_sec": 173.406567,
+      "duration_sec": 2.8028,
+      "num_frame_captions": 6,
+      "caption": "This scene takes place at a large indoor motorcycle exhibition or trials event. A motorcyclist, wearing a helmet, a black shirt, and distinctive blue pants with a red \"TRIALS\" patch, performs stunts for an audience. The action occurs in a brightly lit arena, where the rider lifts the bike into the air and executes other maneuvers. Spectators watch from behind a railing, and a scoreboard is visible in the background, indicating this is a competitive or demonstration setting within the convention hall."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 5198,
+      "end_frame": 5260,
+      "start_sec": 173.439933,
+      "end_sec": 175.508667,
+      "duration_sec": 2.1021,
+      "num_frame_captions": 4,
+      "caption": "At a motorcycle event, a man in a green shirt interacts with a motocross racer in a red, white, and blue racing suit. The racer initially covers his mouth with his hand while talking. The two men then shake hands in front of a schedule board, suggesting a formal or congratulatory meeting. The scene captures a friendly exchange, likely at an expo or competition, centered around this brief conversation and handshake between the attendee and the athlete."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 5261,
+      "end_frame": 5445,
+      "start_sec": 175.542033,
+      "end_sec": 181.6815,
+      "duration_sec": 6.172833,
+      "num_frame_captions": 13,
+      "caption": "This scene depicts a dynamic indoor arena event featuring a variety of stunt performances for a live audience. The main attractions include motorcycle riders executing daring wheelies and other balancing tricks, sometimes using large tires as obstacles. The action is complemented by BMX bike stunts and a performer on stilts, all designed to entertain the enthusiastic crowd, which is safely separated by metal barricades. The setting has the atmosphere of a specialized exhibition, possibly within a convention center or shopping mall, where multiple acts perform sequentially to showcase extreme sports and entertainment."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 5446,
+      "end_frame": 5938,
+      "start_sec": 181.714867,
+      "end_sec": 198.131267,
+      "duration_sec": 16.449767,
+      "num_frame_captions": 32,
+      "caption": "The scene depicts an indoor motorcycle stunt show or exhibition event. A motorcyclist, often in a colorful racing suit, performs stunts like sharp turns on a track while spectators watch from behind barriers. The setting is a crowded convention or arena filled with promotional banners for entities like \"Two Wheel Sports,\" \"WORLDS OF MAGIC,\" and \"smagical.com.\" The action includes demonstrations with paintball guns and weights, and the scene concludes with promotional screens showing tour dates and copyright notices for \"Two Wheel Oklahoma.\""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "video": "Statue of Liberty",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Statue of Liberty.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_20.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 25.0,
+  "total_frames": 3863,
+  "num_scenes": 1,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 3862,
+      "start_sec": 0.0,
+      "end_sec": 154.48,
+      "duration_sec": 154.52,
+      "num_frame_captions": 258,
+      "caption": "The video begins with a tour guide leading a group of tourists along a waterfront promenade, gesturing toward a distant city skyline. The scene then shifts to a sunny park where people stroll and relax, followed by shots of a family posing in front of a large stone monument. The focus transitions to the Statue of Liberty, with numerous low-angle shots highlighting its iconic form, green patina, and raised torch against a clear blue sky. The video concludes back at the waterfront, showing tourists observing the skyline and a cruise ship."
+    }
+  ]
+}

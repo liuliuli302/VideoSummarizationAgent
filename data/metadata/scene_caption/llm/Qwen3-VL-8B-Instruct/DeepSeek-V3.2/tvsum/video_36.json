@@ -1,0 +1,276 @@
+{
+  "video": "WxtbjNsCQ8A",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/WxtbjNsCQ8A.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_36.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 7959,
+  "num_scenes": 26,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 327,
+      "start_sec": 0.0,
+      "end_sec": 10.9109,
+      "duration_sec": 10.944267,
+      "num_frame_captions": 22,
+      "caption": "The scene opens with a black screen before transitioning to a title card. The title \"Beekeeping 101\" is prominently displayed in white text, centered on a solid black background. This title card remains on screen for the majority of the scene, establishing the topic of the video. The scene then concludes by fading back to a completely black screen, signaling the end of this introductory segment."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 328,
+      "end_frame": 1816,
+      "start_sec": 10.944267,
+      "end_sec": 60.593867,
+      "duration_sec": 49.682967,
+      "num_frame_captions": 100,
+      "caption": "This scene features an interview with Dave Stokesberry, an elderly beekeeper, in his backyard in Puyallup, Washington. He is identified by on-screen text and is shown wearing a cap and glasses, standing near his white vehicle. The scene then follows him as he walks through his suburban yard and tends to his apiary, which includes numerous homemade beehives constructed from wooden boxes and tin cans. He is seen inspecting the hives, handling equipment, and working in the garden, demonstrating his beekeeping activities at Stokesberry Hives on a sunny day."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 1817,
+      "end_frame": 2428,
+      "start_sec": 60.627233,
+      "end_sec": 81.014267,
+      "duration_sec": 20.4204,
+      "num_frame_captions": 40,
+      "caption": "This scene follows an elderly man tending to his backyard garden and then inspecting his beehives. Initially, he is seen bending over and kneeling among plants, rose bushes, and garden structures like a wooden fence and arbor. The activity then shifts to beekeeping, where the man, now clearly identified as a beekeeper, opens a green beehive. He carefully lifts out honeycomb frames teeming with bees, inspecting the active colony, pointing out specific areas, and showcasing the intricate wax structures and golden honeycomb cells. The entire sequence depicts a hands-on, sunny day of gardening and hive management."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 2429,
+      "end_frame": 2476,
+      "start_sec": 81.047633,
+      "end_sec": 82.615867,
+      "duration_sec": 1.6016,
+      "num_frame_captions": 4,
+      "caption": "This scene offers an intimate view inside a thriving beehive, focusing on the central structure of the colony: a honeycomb frame. The frame is densely covered in bees, which are actively crawling over its surface and working within the intricate hexagonal wax cells. The overall impression is one of intense, organized industry as the insects tend to the hive's essential functions, likely including storing honey, raising brood, and maintaining the comb. The close perspective highlights the constant motion and collaborative effort that defines the bustling activity of a healthy bee colony."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 2477,
+      "end_frame": 2496,
+      "start_sec": 82.649233,
+      "end_sec": 83.2832,
+      "duration_sec": 0.667333,
+      "num_frame_captions": 1,
+      "caption": "This scene offers a close-up view of the interior of a beehive, focusing on a single honeycomb frame. The structure is a dense, living tapestry of hexagonal wax cells, some filled with golden honey or pale pollen, while others contain developing larvae. Worker bees are engaged in constant, purposeful activity: they crawl across the comb, tending to the brood, depositing nectar, and sealing cells with wax. The atmosphere is one of organized industry and warmth, with the gentle hum of the colony providing an audible backdrop to this display of natural architecture and communal labor."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 2497,
+      "end_frame": 2529,
+      "start_sec": 83.316567,
+      "end_sec": 84.3843,
+      "duration_sec": 1.1011,
+      "num_frame_captions": 2,
+      "caption": "This scene focuses on a wooden beehive frame teeming with activity. The frame is densely packed with honeycomb cells, many of which are filled with honey. A large cluster of bees is actively working throughout the structure, tending to the cells and moving across the comb. The overall impression is one of industrious hive life, with the bees maintaining and harvesting from their honey stores within the wooden framework of the apiary."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 2530,
+      "end_frame": 2573,
+      "start_sec": 84.417667,
+      "end_sec": 85.852433,
+      "duration_sec": 1.468133,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a close-up view of beekeeping activity, focusing on a wooden hive frame. The frame is densely populated with honeybees, which are actively tending to the hexagonal cells of a honeycomb. A notable feature is the presence of a metal mesh or screen attached to the frame, upon which some bees are also crawling. The overall impression is one of industrious work, as the insects move purposefully across the comb and the screen against a soft, out-of-focus natural background, likely within an apiary setting."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 2574,
+      "end_frame": 2857,
+      "start_sec": 85.8858,
+      "end_sec": 95.328567,
+      "duration_sec": 9.476133,
+      "num_frame_captions": 19,
+      "caption": "A beekeeper inspects a beehive, carefully lifting wooden frames filled with honeycomb. Each frame is covered with a metal mesh screen and teeming with bees actively moving across the hexagonal cells. The beekeeper handles the frames outdoors, pointing out the dense clusters of bees and the structure of the comb against a backdrop of grass and foliage. The scene focuses on the close interaction between the beekeeper and the hive during inspection or honey harvesting."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 2858,
+      "end_frame": 2917,
+      "start_sec": 95.361933,
+      "end_sec": 97.330567,
+      "duration_sec": 2.002,
+      "num_frame_captions": 4,
+      "caption": "This scene captures the vibrant, industrious activity within a managed beehive. A dense colony of honeybees swarms across the wooden frames of a hive, their golden-brown bodies forming a living, textured mass. The bees are in constant motion, tending to the honeycomb structures and navigating the confines of their apiary home. The setting is clearly one of human beekeeping, featuring both natural wooden surfaces and the orderly metal grids of a frame. The overall impression is of a thriving, focused community engaged in the essential work of the hive."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 2918,
+      "end_frame": 2953,
+      "start_sec": 97.363933,
+      "end_sec": 98.531767,
+      "duration_sec": 1.2012,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a thriving bee colony at the entrance of a weathered wooden beehive. The bees are highly active, forming a bustling cluster as they move around the structure's surface. Their constant motion shows them interacting with each other and their environment, diligently entering and exiting the hive. The activity suggests a period of high productivity, such as foraging or hive maintenance, centered on this natural wooden habitat. The focus is on the collective, energetic work of the colony at its home."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 2954,
+      "end_frame": 2999,
+      "start_sec": 98.565133,
+      "end_sec": 100.066633,
+      "duration_sec": 1.534867,
+      "num_frame_captions": 3,
+      "caption": "The scene captures the active entrance to a beehive. A swarm of bees is densely clustered on a wooden surface, with many more flying in a chaotic bustle around it. The overall impression is one of intense, crowded activity as the insects move around their hive. The footage is characterized by significant motion blur and low resolution, resulting in an abstract, indistinct view dominated by earthy tones and the frenetic movement of the colony."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 3000,
+      "end_frame": 3094,
+      "start_sec": 100.1,
+      "end_sec": 103.236467,
+      "duration_sec": 3.169833,
+      "num_frame_captions": 7,
+      "caption": "This scene depicts a bustling beehive entrance on a weathered wooden structure. A dense cluster of bees is actively crawling and interacting on the textured surface, creating a constant, busy motion. The focus is on their collective activity, with numerous insects moving around the hive's opening. Some bees are seen flying near the entrance while others crawl across the wood, frequently entering and exiting. The overall impression is one of organized industry and constant movement as the bee colony goes about its work at the heart of its hive."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 3095,
+      "end_frame": 3330,
+      "start_sec": 103.269833,
+      "end_sec": 111.111,
+      "duration_sec": 7.874533,
+      "num_frame_captions": 16,
+      "caption": "The scene features an elderly man wearing glasses and either a maroon or purple cap, speaking and looking thoughtful in a sunny backyard garden with a wooden fence and trellis. The focus then shifts to a collection of weathered, hand-painted wooden beehives arranged in an outdoor apiary. The beehives are labeled with names like \"Stokesberry\" and numbers such as \"1702\" and \"306,\" indicating this is likely the man's beekeeping operation. The sequence connects the man in his garden to the nearby hives under the bright sky."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 3331,
+      "end_frame": 3432,
+      "start_sec": 111.144367,
+      "end_sec": 114.5144,
+      "duration_sec": 3.4034,
+      "num_frame_captions": 6,
+      "caption": "A swarm of bees gathers and crawls along the weathered seam of a green wooden ledge at the base of a red door. The door is marked with a faded black stencil of the number \"1102.\" The insects congregate persistently on this threshold, with some flying near a partially visible license plate. The scene focuses on their activity concentrated at the junction between the red surface and the aged wooden structure."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 3433,
+      "end_frame": 3622,
+      "start_sec": 114.547767,
+      "end_sec": 120.854067,
+      "duration_sec": 6.339667,
+      "num_frame_captions": 13,
+      "caption": "This scene depicts a beekeeper, described as older or elderly, inspecting a beehive in a sunny backyard garden. The central action involves the beekeeper holding up a wooden honeycomb frame from the hive, which is densely covered with active bees. The frame reveals the golden honeycomb and honey within, showcasing the productive bounty of the hive. The setting is consistently outdoors, with a grassy yard and garden visible in the background. The scene captures a moment of harvest and inspection, highlighting the close interaction between the beekeeper and the bustling colony."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 3623,
+      "end_frame": 3654,
+      "start_sec": 120.887433,
+      "end_sec": 121.9218,
+      "duration_sec": 1.067733,
+      "num_frame_captions": 2,
+      "caption": "This scene offers an intimate view inside a beehive, focusing on the industrious activity of a honeybee colony. The core subject is a wooden frame densely packed with the iconic hexagonal wax cells of the honeycomb. The structure is teeming with bees, which crawl and cluster across its surface as they tend to their tasks of building comb, storing honey, and rearing brood. Set against a soft, blurred backdrop of outdoor greenery, the close-up perspective immerses the viewer in the detailed, bustling microcosm of the hive's interior workings."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 3655,
+      "end_frame": 3670,
+      "start_sec": 121.955167,
+      "end_sec": 122.455667,
+      "duration_sec": 0.533867,
+      "num_frame_captions": 1,
+      "caption": "This scene depicts a beekeeping operation in progress, focusing on the intense activity within a hive. A dense swarm of honeybees covers the wooden frame of a honeycomb, their bodies forming a living, shifting carpet. The insects are highly animated, crawling over the wax cells and each other in a constant, purposeful motion as they tend to the colony's work. The overall impression is one of organized industry, showcasing the bees' natural behavior during hive maintenance or honey production under the watchful management of a beekeeper."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 3671,
+      "end_frame": 3831,
+      "start_sec": 122.489033,
+      "end_sec": 127.8277,
+      "duration_sec": 5.372033,
+      "num_frame_captions": 11,
+      "caption": "This scene presents a close-up, detailed view of a thriving beehive interior. Countless bees are densely clustered and actively crawling across the wooden frames of a traditional hive. Their constant, bustling movement covers the entire surface of the honeycomb, whose distinctive hexagonal cells are clearly visible and filled with golden honey. The activity is focused and industrious, with some insects gathered in tight groups while others move individually across the comb and along the wooden edges. The overall impression is of a healthy, productive colony engaged in the vital work of the hive."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 3832,
+      "end_frame": 4181,
+      "start_sec": 127.861067,
+      "end_sec": 139.506033,
+      "duration_sec": 11.678333,
+      "num_frame_captions": 23,
+      "caption": "An older man in a cap and glasses tends to his sunny backyard garden. He is seen standing, leaning over, and looking down thoughtfully, focused on the plants or something in his hands. The scene is set in a lush garden with a wooden fence and trellis. Concurrently, a separate close-up shows a wooden beehive frame teeming with bees actively working on the honeycomb, indicating the man is likely a beekeeper inspecting his hive."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 4182,
+      "end_frame": 4310,
+      "start_sec": 139.5394,
+      "end_sec": 143.810333,
+      "duration_sec": 4.3043,
+      "num_frame_captions": 9,
+      "caption": "The scene depicts a close-up view of a bustling beehive entrance. Numerous bees are actively crawling, congregating, and moving across the weathered, textured wooden surface of the hive. The focus remains tightly on their constant activity, with some individuals in sharp detail while others are blurred, creating a sense of depth and motion. The natural, green background is consistently soft and out of focus, ensuring all attention is on the dense, lively colony at the entrance of their home."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 4311,
+      "end_frame": 5368,
+      "start_sec": 143.8437,
+      "end_sec": 179.112267,
+      "duration_sec": 35.301933,
+      "num_frame_captions": 70,
+      "caption": "The scene features an interview with Dave Stokesberry, an elderly beekeeper wearing glasses and a purple cap, in his sunny backyard garden. He speaks warmly to the camera about his beekeeping work. The video then shows close-up shots of bees swarming and crawling around the wooden planks of his beehives. Finally, it cuts to shots of a person, likely Dave, opening and handling components of his light green beehives, which are labeled as \"Stokesberry Hives\" from Puyallup, Washington."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 5369,
+      "end_frame": 6258,
+      "start_sec": 179.145633,
+      "end_sec": 208.8086,
+      "duration_sec": 29.696333,
+      "num_frame_captions": 60,
+      "caption": "An elderly man in a plaid shirt is in a sunny backyard or garden, holding and examining jars of honey. He interacts with the honey, pouring it from one container to another and demonstrating its properties, such as its viscosity and color. The scene involves close-up shots of hands manipulating lids and petri dishes to show comparisons between honey and other liquids. A white car or SUV is consistently visible in the background throughout the activity."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 6259,
+      "end_frame": 6631,
+      "start_sec": 208.841967,
+      "end_sec": 221.254367,
+      "duration_sec": 12.445767,
+      "num_frame_captions": 25,
+      "caption": "In a cluttered workshop, an elderly man wearing glasses and a purple cap is intently focused on a delicate task. His weathered hands carefully hold and examine a small, rectangular object with a gold-colored mesh surface, which appears to be a vintage electronic component like a radio tuner. He leans forward in concentration, his wrinkled face showing deep focus as he works on the item, possibly with a tool. The scene captures a moment of skilled craftsmanship, as he meticulously inspects or repairs the intricate piece amidst the organized chaos of his personal workspace."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 6632,
+      "end_frame": 6827,
+      "start_sec": 221.287733,
+      "end_sec": 227.794233,
+      "duration_sec": 6.539867,
+      "num_frame_captions": 13,
+      "caption": "This scene depicts a person showcasing various jars of honey and preserves, likely in a home kitchen or pantry setting. They are actively handling and presenting different jars, some with specific labels like \"Sam Washington's Honey,\" to the viewer. The background is filled with shelves and tables densely packed with numerous other jars of honey, syrup, and homemade preserves, creating a rustic, well-stocked atmosphere. Decorative elements such as colorful ribbons and awards are visible on the walls, suggesting a context of home production, perhaps for a fair or personal collection. The overall activity conveys a sense of pride and presentation of these homemade goods."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 6828,
+      "end_frame": 6953,
+      "start_sec": 227.8276,
+      "end_sec": 231.998433,
+      "duration_sec": 4.2042,
+      "num_frame_captions": 8,
+      "caption": "In a cluttered garage or workshop, an elderly man with glasses is the sole focus of the scene. He alternates between wearing a maroon cap and a purple cap, suggesting a passage of time or a change in moment. His demeanor is consistently thoughtful and introspective, often looking down or to the side as he speaks or reflects. The setting, filled with tools and stored items, implies this is his personal workspace. The scene captures a quiet, contemplative monologue or interview, centered on the man sharing his thoughts in a familiar, lived-in environment."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 6954,
+      "end_frame": 7958,
+      "start_sec": 232.0318,
+      "end_sec": 265.531933,
+      "duration_sec": 33.5335,
+      "num_frame_captions": 67,
+      "caption": "This scene depicts a beekeeper, wearing a plaid shirt and later a maroon or purple cap with protective gear, tending to his hives in a sunny backyard garden. He carefully opens a wooden beehive, lifts the lid, and inspects the internal frames, which are densely covered in bees and filled with honeycomb. The activity shows the process of hive maintenance, with close-up views of the bustling bees on the wooden frames set on the grass. The scene concludes with textual overlays on a black background, first highlighting honey's enduring purity over 9,000 years, then thanking \"Dave and his friends and neighbors,\" and finally crediting Jack D. Hubbard as the cinematographer."
+    }
+  ]
+}

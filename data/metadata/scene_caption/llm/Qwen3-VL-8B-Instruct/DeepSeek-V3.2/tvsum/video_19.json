@@ -1,0 +1,216 @@
+{
+  "video": "37rzWOQsNIw",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/37rzWOQsNIw.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_19.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 5742,
+  "num_scenes": 20,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 112,
+      "start_sec": 0.0,
+      "end_sec": 3.737067,
+      "duration_sec": 3.770433,
+      "num_frame_captions": 8,
+      "caption": "This scene depicts a city sidewalk in San Francisco outside the Saigon Sandwich shop. A man is seen walking past the shopfront, and later standing outside it, as daily urban life unfolds around him. Pedestrians walk along the sidewalk, and cars are both parked along the street and moving in the traffic lane. The consistent setting establishes a typical, bustling street environment where the shop serves as a fixed landmark amidst the flow of people and vehicles. The focus is on this ordinary moment of urban activity centered around a local business."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 113,
+      "end_frame": 371,
+      "start_sec": 3.770433,
+      "end_sec": 12.379033,
+      "duration_sec": 8.641967,
+      "num_frame_captions": 17,
+      "caption": "The scene shows the interior of a Vietnamese sandwich shop and grocery store. The space is cluttered and well-stocked, with shelves full of packaged snacks and goods. A green menu board lists sandwich items like banh mi, roast chicken, and tofu. Multiple framed awards, including \"Best of Citysearch\" and \"Best Bay Area Winner\" plaques from various years, are displayed on a shelf or counter alongside a 7UP sign and decorative pink orchids."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 372,
+      "end_frame": 421,
+      "start_sec": 12.4124,
+      "end_sec": 14.047367,
+      "duration_sec": 1.668333,
+      "num_frame_captions": 4,
+      "caption": "This scene appears to be a brief, distorted glimpse into a small convenience store, likely captured from outside. The view is consistently obscured by motion blur, low resolution, and a dirty or wet window, creating a hazy and disorienting atmosphere. Inside, the main features are shelves stocked with snacks and a prominent green refrigerated case for beverages. A worker can be seen behind the counter. The perspective shifts to include a chaotic, mirrored reflection of the outside street, blending the interior setting with the external world in a confusing, almost glitched manner."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 422,
+      "end_frame": 483,
+      "start_sec": 14.080733,
+      "end_sec": 16.1161,
+      "duration_sec": 2.068733,
+      "num_frame_captions": 4,
+      "caption": "This scene is set inside a small shop, viewed from a distorted perspective through its front window. The glass acts as a reflective surface, partially obscuring the interior\u2014which includes a vending machine and a refrigerator\u2014while simultaneously framing the busy street outside. Cars, notably a red one, and trees are visible in the reflected urban landscape. The window itself is decorated with festive lights and signage, creating a layered view that merges the quiet commerce within and the graffiti-marked activity of the city beyond."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 484,
+      "end_frame": 638,
+      "start_sec": 16.149467,
+      "end_sec": 21.287933,
+      "duration_sec": 5.171833,
+      "num_frame_captions": 10,
+      "caption": "This scene captures the lively atmosphere of a small Asian food stall or convenience store, likely specializing in Korean street food. The counter is densely packed with an array of colorful, pre-packaged meals, fresh items like spring rolls and greens, and various canned goods and snacks. Throughout the scene, vendors are actively at work behind the counter, preparing orders and attending to customers. The presence of customers interacting with staff completes the picture of a vibrant, bustling retail environment where ready-to-eat food and everyday items are readily available for purchase."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 639,
+      "end_frame": 1335,
+      "start_sec": 21.3213,
+      "end_sec": 44.5445,
+      "duration_sec": 23.256567,
+      "num_frame_captions": 47,
+      "caption": "This scene begins with a close-up of a person holding a freshly made Vietnamese banh mi sandwich, wrapped in white paper against a gray pavement background. The sandwich is open, vividly revealing its colorful fillings of pickled carrots, green herbs, and other vegetables nestled in a crusty roll or baguette. The focus then shifts to the wider urban environment, where a group of pigeons forages on the paved ground. The final part of the scene establishes the location, showing a grand neoclassical building adorned with prominent \"Shanghai\" banners, with cars and pedestrians moving along the city street in front of it."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 1336,
+      "end_frame": 1570,
+      "start_sec": 44.577867,
+      "end_sec": 52.385667,
+      "duration_sec": 7.841167,
+      "num_frame_captions": 15,
+      "caption": "This scene shows a man in a baseball cap eating a sandwich or burger outdoors on a city street. He begins standing on a paved sidewalk, holding his food wrapped in paper. Over time, he continues eating while either standing or sitting on the pavement. A pigeon is present nearby on the ground throughout much of the activity. The man occasionally gestures with his free hand while holding the partially eaten sandwich. The background includes typical urban elements like buildings, other pedestrians, and street traffic, establishing a casual, everyday setting for this simple act of having a meal outside."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 1571,
+      "end_frame": 1846,
+      "start_sec": 52.419033,
+      "end_sec": 61.594867,
+      "duration_sec": 9.2092,
+      "num_frame_captions": 19,
+      "caption": "This scene depicts a bustling urban plaza where a flock of pigeons is initially gathered, foraging on the pavement. The calm is disrupted as the birds suddenly scatter and take flight, creating a flurry of motion. This commotion is caused by the arrival of a large seagull, which swoops down and lands prominently among them. Throughout the activity, pedestrians continue walking by on the adjacent sidewalk, and cars pass on the street in the background, underscoring the everyday coexistence of wildlife and city life. The scene captures a brief moment of avian chaos within the routine urban flow."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 1847,
+      "end_frame": 2122,
+      "start_sec": 61.628233,
+      "end_sec": 70.804067,
+      "duration_sec": 9.2092,
+      "num_frame_captions": 18,
+      "caption": "The scene features a close-up view of a freshly prepared Vietnamese banh mi sandwich. It is presented open-faced on parchment paper, with its contents prominently displayed. The sandwich is filled with savory meat, vibrant green cilantro, and bright orange pickled carrots, all nestled within a crusty baguette. The focus is on the appetizing, colorful ingredients and the sandwich's presentation, emphasizing its fresh and herb-laden quality."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 2123,
+      "end_frame": 2473,
+      "start_sec": 70.837433,
+      "end_sec": 82.515767,
+      "duration_sec": 11.7117,
+      "num_frame_captions": 23,
+      "caption": "The scene begins with a flock of pigeons foraging and scattering across a gritty pavement. The focus then shifts to a close-up of a fresh Vietnamese banh mi sandwich, which is the likely object of the birds' interest. The sandwich is vividly detailed, featuring a crusty baguette overflowing with cilantro, pickled carrots, and meat, and it is presented resting on white paper or parchment. The sequence suggests a moment where food is introduced into an urban outdoor setting, attracting the attention of the nearby pigeons."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 2474,
+      "end_frame": 2651,
+      "start_sec": 82.549133,
+      "end_sec": 88.455033,
+      "duration_sec": 5.939267,
+      "num_frame_captions": 12,
+      "caption": "In this scene, a person sits on the ground in a black jacket and jeans, holding a partially eaten sandwich. A group of pigeons gathers on the nearby pavement, drawn to the person's presence and likely the food. The birds are seen walking and pecking at the gravel or paved surface as they congregate around the individual. The consistent activity centers on the person observing or interacting with the pigeons while casually holding their meal, creating a quiet, everyday moment of urban wildlife interaction."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 2652,
+      "end_frame": 3011,
+      "start_sec": 88.4884,
+      "end_sec": 100.467033,
+      "duration_sec": 12.012,
+      "num_frame_captions": 24,
+      "caption": "This scene depicts a gray pigeon with iridescent or speckled feathers standing on a gravelly or paved ground. The bird is primarily stationary but observant, repeatedly turning its head to look in different directions\u2014to the left, right, and even up toward the camera\u2014as it surveys its surroundings. Its distinctive red feet are often visible, planted firmly on the surface. The scene suggests a moment of quiet vigilance, with only one brief instance of the pigeon walking. Another pigeon is partially seen in the background, indicating this is a shared, open environment where the bird is calmly present and alert."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 3012,
+      "end_frame": 3201,
+      "start_sec": 100.5004,
+      "end_sec": 106.8067,
+      "duration_sec": 6.339667,
+      "num_frame_captions": 13,
+      "caption": "This scene shows a person interacting with a tan and white corgi on an outdoor paved or gravel surface. The dog, wearing a black harness, is consistently focused on sniffing the ground, at one point investigating a dark pile of what appears to be food or waste. Meanwhile, the person is standing or sitting nearby, holding various items including a jar, a bottle, and a white cup of coffee. The sequence suggests a casual, everyday moment, likely during a walk or a break, where the dog is exploring its surroundings while its owner waits, drinks coffee, or manages other small objects."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 3202,
+      "end_frame": 3241,
+      "start_sec": 106.840067,
+      "end_sec": 108.141367,
+      "duration_sec": 1.334667,
+      "num_frame_captions": 3,
+      "caption": "The scene follows a tan and white corgi wearing a harness as it explores an outdoor area. It is first seen sniffing intently near the base of a lamppost at the edge of a grassy parking lot. The dog then continues its walk, moving along the sidewalk beside the grass with parked cars visible in the background. The sequence is briefly punctuated by an extreme close-up of dark fabric with a diagonal white thread, suggesting a detail from the dog's harness or a related object."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 3242,
+      "end_frame": 4160,
+      "start_sec": 108.174733,
+      "end_sec": 138.805333,
+      "duration_sec": 30.663967,
+      "num_frame_captions": 61,
+      "caption": "The scene shows a person outdoors on a paved or asphalt surface, holding and consuming a layered dessert or drink from a clear plastic cup. The beverage appears to be a sweet, creamy item like bubble tea or a similar Asian dessert, containing beans, tapioca pearls, and a white foam topping, accompanied by a plastic spoon. The person is initially seen holding the cup, then stirring or eating its contents with the spoon. The activity shifts briefly to the person manipulating a small, unidentified object in their hand before returning to focus on enjoying the dessert."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 4161,
+      "end_frame": 4249,
+      "start_sec": 138.8387,
+      "end_sec": 141.774967,
+      "duration_sec": 2.969633,
+      "num_frame_captions": 6,
+      "caption": "In this scene, a person is seated outdoors, meticulously unwrapping and examining various items, likely gathered from the sea or a shoreline. The process involves carefully peeling back the green, leafy or seaweed-like wrappings from what appears to be traditional food items. Their attention then shifts to inspecting the contents, which include a small, wet fish and a larger, irregularly shaped shellfish or sea creature. The overall activity suggests a careful, hands-on exploration or preparation of marine-based foods, with the person handling each item thoughtfully to reveal and assess its condition."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 4250,
+      "end_frame": 5212,
+      "start_sec": 141.808333,
+      "end_sec": 173.907067,
+      "duration_sec": 32.1321,
+      "num_frame_captions": 64,
+      "caption": "In this scene, a person is seated outdoors, likely on a sidewalk or pavement, preparing and eating a traditional leaf-wrapped food. They carefully unwrap several items, including steamed rice dumplings and what appears to be steamed fish, from green leaves, seaweed, and sometimes plastic or foil. Using a white plastic spoon or fork, they then eat the white, gelatinous, or flaky contents. The setting is casual, with personal belongings like a suitcase nearby, suggesting a moment of simple street food consumption during a journey or break."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 5213,
+      "end_frame": 5242,
+      "start_sec": 173.940433,
+      "end_sec": 174.908067,
+      "duration_sec": 1.001,
+      "num_frame_captions": 2,
+      "caption": "This scene shows two individuals in an outdoor setting, with one person actively engaged in foreground activity while the other remains stationary in the background. The primary focus is on a person holding a white spoon, suggesting a moment of pause or preparation, possibly related to eating or a similar task. In the less distinct background, a second person sits on the ground beside a black rolling suitcase, indicating a context of travel or waiting. The composition creates a sense of layered activity, separating immediate action from a state of rest."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 5243,
+      "end_frame": 5451,
+      "start_sec": 174.941433,
+      "end_sec": 181.8817,
+      "duration_sec": 6.973633,
+      "num_frame_captions": 14,
+      "caption": "A young man sits on a city sidewalk or bench with a rolling suitcase, speaking to the camera in a selfie-style video. A woman with curly hair is consistently nearby, engrossed in her phone. The urban setting includes buildings, trees, and a fence. Later, the scene shifts to the man eating from a bowl with a spoon in a dimmer outdoor area, with the suitcase still present. The sequence shows him filming himself, then pausing for a meal in the same general location."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 5452,
+      "end_frame": 5741,
+      "start_sec": 181.915067,
+      "end_sec": 191.558033,
+      "duration_sec": 9.676333,
+      "num_frame_captions": 19,
+      "caption": "This scene consists of a series of black screens with white text, functioning as end credits for the video. The primary content is a thank you message to Saigon Sandwiches, a restaurant located at 560 Larkin St. in San Francisco, which appears for several frames. Following this, the text transitions to display the website address \"geoffmobile.com,\" which is also centered on the black background. The scene concludes with several more frames of a plain black screen, indicating the video has ended. Overall, it serves as a simple textual acknowledgment and promotional outro."
+    }
+  ]
+}

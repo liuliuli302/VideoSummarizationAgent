@@ -1,0 +1,246 @@
+{
+  "video": "Notre_Dame",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Notre_Dame.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_14.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 24.0,
+  "total_frames": 4608,
+  "num_scenes": 23,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 335,
+      "start_sec": 0.0,
+      "end_sec": 13.958333,
+      "duration_sec": 14.0,
+      "num_frame_captions": 23,
+      "caption": "This scene presents a series of low-angle and frontal views of Notre-Dame Cathedral in Paris, focusing on its iconic Gothic architecture. The perspective begins with the twin bell towers against an overcast sky, then gradually moves closer to reveal the full facade with its large rose window and intricate stone carvings. Finally, the focus narrows to the ornate details of the cathedral's three grand portals, adorned with statues and religious reliefs. Throughout the sequence, a few pedestrians are occasionally seen walking across the wet cobblestone plaza in the foreground, emphasizing the structure's enduring presence and scale."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 336,
+      "end_frame": 489,
+      "start_sec": 14.0,
+      "end_sec": 20.375,
+      "duration_sec": 6.416667,
+      "num_frame_captions": 10,
+      "caption": "The scene presents the solemn, majestic interior of a grand Gothic cathedral. Towering stone columns and vaulted ceilings define the vast space, which is dimly lit by ornate chandeliers. Colorful light streams through towering stained glass windows, illuminating the long nave that leads to a distant, adorned altar. The atmosphere is one of awe and reverence, with silhouetted figures of worshippers and visitors present in the pews and along the nave, enhancing the sense of scale and quiet contemplation."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 490,
+      "end_frame": 691,
+      "start_sec": 20.416667,
+      "end_sec": 28.791667,
+      "duration_sec": 8.416667,
+      "num_frame_captions": 14,
+      "caption": "This scene presents a quiet, devotional moment within a cathedral, likely Notre-Dame de Paris. The focus is on a row of lit prayer candles, which provide a warm, serene glow in the dim interior. The candles are held in simple white or glass containers, each printed with an image of the Virgin Mary and text identifying the cathedral. They stand against a dark, textured background of stone or aged wood, creating a peaceful and contemplative atmosphere. The consistent, gentle illumination from the flames suggests a space of reverence and quiet reflection."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 692,
+      "end_frame": 918,
+      "start_sec": 28.833333,
+      "end_sec": 38.25,
+      "duration_sec": 9.458333,
+      "num_frame_captions": 15,
+      "caption": "The scene takes place inside a grand, dimly lit Gothic cathedral at night. Visitors and tourists walk through the nave, gathering and wandering beneath towering stone pillars and soaring arches. The space is illuminated by warm artificial lights, ornate chandeliers, and spotlights that highlight the sacred architecture. A prominent, glowing stained-glass rose window casts colored light in the distance, contributing to the atmospheric and awe-inspiring setting."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 919,
+      "end_frame": 1164,
+      "start_sec": 38.291667,
+      "end_sec": 48.5,
+      "duration_sec": 10.25,
+      "num_frame_captions": 16,
+      "caption": "The scene begins with a series of low-angle shots focusing on the intricate Gothic architecture of a cathedral, highlighting its soaring spires, ornate stonework, and large stained-glass windows against an overcast sky. The perspective then pulls back to reveal the cathedral's full facade situated on a narrow Parisian street, flanked by classic Haussmann-style buildings. The setting includes parked vans, a wet sidewalk, and distant pedestrians, establishing an urban, everyday context for the majestic structure."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 1165,
+      "end_frame": 1402,
+      "start_sec": 48.541667,
+      "end_sec": 58.416667,
+      "duration_sec": 9.916667,
+      "num_frame_captions": 16,
+      "caption": "The scene presents a series of low-angle shots of Notre-Dame Cathedral in Paris. The focus is consistently on the building's majestic Gothic architecture, captured from below to emphasize its scale. Key features highlighted across the frames include the intricate stone facade, the iconic rose window, soaring spires, pointed arches, and flying buttresses, all set against an overcast or pale sky. The descriptions convey a sense of awe and grandeur, examining the cathedral's ornate details and imposing structure."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 1403,
+      "end_frame": 1840,
+      "start_sec": 58.458333,
+      "end_sec": 76.666667,
+      "duration_sec": 18.25,
+      "num_frame_captions": 29,
+      "caption": "The scene is a slow, upward pan through the interior of a grand Gothic cathedral. The camera begins in a shadowy, intimate space, focusing on the intricate stonework of a vaulted ceiling archway with a distant figure. It then pulls back to reveal the full, awe-inspiring scale of the nave, with its soaring stone arches and massive columns. The view culminates in a wide shot of the majestic, dimly lit space, now warmly illuminated by the glow of multiple ornate chandeliers hanging from the vaulted ceiling."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 1841,
+      "end_frame": 2119,
+      "start_sec": 76.708333,
+      "end_sec": 88.291667,
+      "duration_sec": 11.625,
+      "num_frame_captions": 19,
+      "caption": "This scene presents a quiet, atmospheric view inside a grand Gothic cathedral. The vast interior is defined by towering stone pillars, vaulted ceilings, and pointed arches, all shrouded in shadow. The primary source of illumination and color comes from the vibrant stained-glass windows, which cast a rich, predominantly blue-hued glow across the ancient stonework. A few visitors are present, appearing as silhouettes or standing in quiet contemplation as they move through the solemn, awe-inspiring space. The lighting shifts from the natural colored light of the windows to the artificial glow of interior lamps and spotlights in some shots."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 2120,
+      "end_frame": 2295,
+      "start_sec": 88.333333,
+      "end_sec": 95.625,
+      "duration_sec": 7.333333,
+      "num_frame_captions": 12,
+      "caption": "This scene presents a panoramic view of Paris from a high vantage point, likely the rooftop of Notre-Dame Cathedral. A weathered stone gargoyle statue is prominently featured in the foreground, silently overlooking the sprawling cityscape below. The city is shrouded in a misty, hazy atmosphere under an overcast sky, with its iconic historic rooftops, spires, and the winding Seine River visible. In the distance, the Eiffel Tower rises from the urban landscape. The static, contemplative shot emphasizes the gargoyle\u2019s timeless perspective on the historic and expansive French capital."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 2296,
+      "end_frame": 2555,
+      "start_sec": 95.666667,
+      "end_sec": 106.458333,
+      "duration_sec": 10.833333,
+      "num_frame_captions": 17,
+      "caption": "The scene presents a series of views from the roof and exterior of Notre-Dame Cathedral in Paris. The perspective shifts from sweeping panoramas of the Gothic architecture to low-angle shots that emphasize the towering spire, ornate statues, and gargoyles. The setting is consistently overcast, with a gray, cloudy sky casting a solemn and grand atmosphere over the intricate stonework. The sequence focuses on the cathedral's imposing verticality and detailed craftsmanship, moving from wider establishing views to more focused, upward-looking compositions that highlight the structure's majestic presence against the muted heavens."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 2556,
+      "end_frame": 2844,
+      "start_sec": 106.5,
+      "end_sec": 118.5,
+      "duration_sec": 12.041667,
+      "num_frame_captions": 19,
+      "caption": "This scene presents a detailed visual exploration of the exterior of Notre-Dame Cathedral in Paris. The focus begins on a moss-covered, abstract stone sculpture in a plaza, which is revealed to be a gargoyle statue as the perspective shifts. The view then moves closer, examining the intricate Gothic architecture, ornate stone carvings, and decorative balustrades of the cathedral's facade. The camera employs various angles, including close-ups and low-angle shots looking upward, to emphasize the structure's towering verticality, pointed arches, and dark windows set against a bright, overcast sky. The sequence highlights the historic building's elaborate craftsmanship and imposing presence."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 2845,
+      "end_frame": 2931,
+      "start_sec": 118.541667,
+      "end_sec": 122.125,
+      "duration_sec": 3.625,
+      "num_frame_captions": 6,
+      "caption": "A stone gargoyle statue perches on a cathedral rooftop, serving as a foreground element in multiple shots that capture a panoramic view of Paris. The scene presents a misty, overcast cityscape where historic rooftops and the Seine River stretch into the distance. The iconic Eiffel Tower is faintly visible through the haze. The consistent high-angle perspective from this vantage point emphasizes a moody, atmospheric observation of the sprawling city below, with the gargoyle acting as a silent, weathered sentinel overlooking the scene."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 2932,
+      "end_frame": 3264,
+      "start_sec": 122.166667,
+      "end_sec": 136.0,
+      "duration_sec": 13.875,
+      "num_frame_captions": 22,
+      "caption": "This scene presents a series of high-angle and aerial views of the ornate Gothic facade of Notre-Dame Cathedral in Paris. The perspective shifts dynamically, looking down upon intricate stonework, pointed arches, and sculptural details like gargoyles and pinnacles, with the sprawling Parisian cityscape and rooftops visible below. Shots vary from close-ups of arched windows and tracery to dizzying vertical perspectives looking straight down through the towering stone columns towards the distant streets. The overall effect captures the cathedral's majestic verticality and elaborate architecture from dramatic, elevated vantage points against the backdrop of the city under an overcast sky."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 3265,
+      "end_frame": 3363,
+      "start_sec": 136.041667,
+      "end_sec": 140.125,
+      "duration_sec": 4.125,
+      "num_frame_captions": 7,
+      "caption": "This scene presents a sustained, elevated view from the spire of Notre-Dame Cathedral in Paris. The perspective looks out over the city, consistently highlighting the winding path of the Seine River as it flows through the urban landscape. The vista encompasses historic buildings, numerous bridges, and the sprawling cityscape, all under a misty, overcast sky. The focus remains on the panoramic city view, with the cathedral's own intricate Gothic spire often visible in the foreground, emphasizing the iconic vantage point. The scene captures a serene, atmospheric overview of Paris from this famous landmark."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 3364,
+      "end_frame": 3397,
+      "start_sec": 140.166667,
+      "end_sec": 141.541667,
+      "duration_sec": 1.416667,
+      "num_frame_captions": 2,
+      "caption": "This scene presents a panoramic view of a historic European city from an elevated perspective. The atmosphere is hazy and muted, lending a timeless, atmospheric quality to the urban landscape. The dense, sprawling tapestry of buildings is dominated by the iconic form of Notre-Dame Cathedral, which stands as the central architectural and visual focal point. The overall impression is one of quiet grandeur, observing the enduring presence of the landmark within its surrounding city fabric."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 3398,
+      "end_frame": 3648,
+      "start_sec": 141.583333,
+      "end_sec": 152.0,
+      "duration_sec": 10.458333,
+      "num_frame_captions": 17,
+      "caption": "This scene presents a series of views of the Notre-Dame Cathedral in Paris, captured during the golden hour of either sunrise or sunset. The cathedral's majestic Gothic architecture, including its iconic spire, intricate stonework, and rose windows, is consistently bathed in a warm, golden light. The perspective shifts from wider shots that include the Seine River, boats, and riverside cafes in the foreground to closer, more detailed examinations of the facade. Throughout, the setting is often framed by the bare branches of winter trees, with the cathedral standing tall against a clear or pale sky."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 3649,
+      "end_frame": 3813,
+      "start_sec": 152.041667,
+      "end_sec": 158.875,
+      "duration_sec": 6.875,
+      "num_frame_captions": 11,
+      "caption": "The scene presents a series of views of Notre-Dame Cathedral in Paris, focusing on its intricate Gothic architecture. The perspective shifts from close-up details of the weathered roof, spires, and statues to wider, majestic shots of the full structure. The cathedral is consistently bathed in warm, golden sunlight, suggesting either sunrise or sunset, and is set against a bright or pale sky. The final frames pull back to include the surrounding context: bare winter trees, the Seine River, and pedestrians on the nearby bank."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 3814,
+      "end_frame": 3949,
+      "start_sec": 158.916667,
+      "end_sec": 164.541667,
+      "duration_sec": 5.666667,
+      "num_frame_captions": 9,
+      "caption": "This scene presents a series of views of the iconic Notre-Dame Cathedral in Paris, captured during the golden hour of either dawn or dusk. The perspective shifts from a wider street scene, where the cathedral is seen in the distance along a classic Parisian avenue lined with Haussmann-style buildings, to closer, more focused shots. These emphasize the cathedral's majestic Gothic architecture, its spire, and flying buttresses, which are partially framed or obscured by the bare branches of winter trees. The overall atmosphere is one of serene grandeur, bathed in warm, soft light that highlights the historic structure's intricate details and enduring presence."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 3950,
+      "end_frame": 4015,
+      "start_sec": 164.583333,
+      "end_sec": 167.291667,
+      "duration_sec": 2.75,
+      "num_frame_captions": 4,
+      "caption": "This aerial scene presents a sweeping overview of Paris, with the historic Notre-Dame Cathedral serving as the visual and geographic anchor. The cathedral's distinct Gothic architecture rises prominently from the dense, centuries-old urban fabric that surrounds it. The cityscape stretches toward the horizon in a vast sprawl of tightly packed buildings, all viewed from a high vantage point. A soft, hazy atmosphere blankets the panorama, lending a timeless and slightly dreamlike quality to the iconic vista, emphasizing the enduring scale and historical depth of the French capital."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 4016,
+      "end_frame": 4115,
+      "start_sec": 167.333333,
+      "end_sec": 171.458333,
+      "duration_sec": 4.166667,
+      "num_frame_captions": 7,
+      "caption": "This scene presents a series of panoramic views of Paris at dusk, consistently centered on the iconic Notre-Dame Cathedral. The perspective remains fixed on the cathedral as it rises majestically above the city's sea of rooftops. Over the course of the scene, the lighting and atmosphere subtly shift from a soft pink and gray twilight sky to a paler, more muted and hazy overcast. The focus is on the enduring Gothic architecture, with the cathedral's spire and twin towers standing as silhouetted landmarks against the evolving, atmospheric sky, creating a serene and timeless portrait of the city."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 4116,
+      "end_frame": 4238,
+      "start_sec": 171.5,
+      "end_sec": 176.583333,
+      "duration_sec": 5.125,
+      "num_frame_captions": 8,
+      "caption": "The scene depicts a snowy, wintry day in Paris, centered on the iconic Notre-Dame Cathedral. The cathedral, with its twin towers and rose window, stands solemnly in the distance, often partially obscured by falling snow, mist, or a heavy gray sky. Pedestrians and vehicles navigate the snow-covered streets lined with historic buildings and storefronts, braving the cold weather. The overall atmosphere is hazy, ethereal, and quiet, captured through a series of views from the surrounding streets looking toward the majestic, snow-dusted landmark."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 4239,
+      "end_frame": 4449,
+      "start_sec": 176.625,
+      "end_sec": 185.375,
+      "duration_sec": 8.791667,
+      "num_frame_captions": 14,
+      "caption": "This scene presents a series of wintry views of Notre-Dame Cathedral in Paris. The iconic Gothic structure, featuring its twin towers and rose window, stands solemnly beside the Seine River under a consistently gray and overcast sky. The cathedral and the bare trees lining the riverbanks are dusted with snow, with some frames noting falling snowflakes that partially obscure the architecture. The atmosphere is misty and quiet, captured from various angles that emphasize the building's majestic yet somber presence against the bleak winter weather."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 4450,
+      "end_frame": 4607,
+      "start_sec": 185.416667,
+      "end_sec": 191.958333,
+      "duration_sec": 6.583333,
+      "num_frame_captions": 11,
+      "caption": "The scene depicts Notre-Dame Cathedral in Paris during a heavy snowfall. The Gothic architecture, including its twin towers, rose window, and intricate stonework, is partially obscured by the falling snow and a pervasive winter haze. The cathedral stands majestic and snow-dusted along the Seine River, framed by bare, snow-laden trees. The atmosphere is solemn and wintry, with an overcast gray sky completing the quiet, picturesque view of the iconic landmark in the snow."
+    }
+  ]
+}

@@ -1,0 +1,1026 @@
+{
+  "video": "RBCABdttQmI",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/RBCABdttQmI.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_27.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 10917,
+  "num_scenes": 101,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 113,
+      "start_sec": 0.0,
+      "end_sec": 3.770433,
+      "duration_sec": 3.8038,
+      "num_frame_captions": 8,
+      "caption": "This scene opens with a completely black screen before the white, stylized \"MHC\" logo appears. Centered against the stark black background, the logo features elegant, serif-style lettering. Throughout the scene, the logo remains the consistent focal point, with subtle variations in its presentation. These include the occasional addition of an ornate, curved underline or other delicate flourishes beneath the letters. The overall effect is one of minimalist and sophisticated branding, where the simple contrast of white on black emphasizes the elegant design of the initials. The scene maintains a calm, focused visual on this central graphic element."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 114,
+      "end_frame": 189,
+      "start_sec": 3.8038,
+      "end_sec": 6.3063,
+      "duration_sec": 2.535867,
+      "num_frame_captions": 5,
+      "caption": "In a park setting, a group of women, all dressed in matching white outfits with distinctive green scarves, are seen walking together along a tree-lined path. Their procession takes them past a significant, conspicuous pile of freshly discarded green leaves, which lies scattered on the ground beside the walkway. The scene captures a moment of coordinated movement, as the women proceed in a group, creating a visual contrast between their bright, uniform attire and the natural, informal heap of foliage. The overall impression is of a purposeful, perhaps ceremonial, group activity unfolding in a serene outdoor environment."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 190,
+      "end_frame": 283,
+      "start_sec": 6.339667,
+      "end_sec": 9.442767,
+      "duration_sec": 3.136467,
+      "num_frame_captions": 6,
+      "caption": "This scene shows a progression of freshly cut greenery being arranged along a paved path beside a lawn and a brick building. Initially, leaves are scattered, then deliberately laid out in a winding line. The cuttings evolve from a simple garland to a more substantial trail, eventually becoming a neat, piled line of leaves, stems, and branches. The sequence captures the process of organizing garden waste into an orderly border alongside the path."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 284,
+      "end_frame": 389,
+      "start_sec": 9.476133,
+      "end_sec": 12.979633,
+      "duration_sec": 3.536867,
+      "num_frame_captions": 7,
+      "caption": "This scene features Anika Aarons, a Black woman and Environmental Studies major from the class of 2013, being interviewed at a lively outdoor campus event. She is the central subject, speaking directly to the camera with a friendly demeanor, often smiling. The setting is clearly a St. Patrick's Day celebration, as Anika and the large crowd of students around her are dressed in thematic white attire accented with green accessories like scarves and leis. The overall atmosphere is festive and communal, capturing a moment of student life and celebration on campus."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 390,
+      "end_frame": 478,
+      "start_sec": 13.013,
+      "end_sec": 15.949267,
+      "duration_sec": 2.969633,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a park where a large pile of freshly cut green leaves, stems, and branches has been discarded on a paved path. Over time, the debris appears to be arranged more deliberately, with some frames showing the addition of white ribbons or twine among the foliage. In the background, people are walking through the area, and a group dressed in white dresses passes by. The final frame shows the material organized into a long, linear formation along the path, suggesting a transition from casual discarding to intentional placement, possibly for an event or cleanup."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 479,
+      "end_frame": 661,
+      "start_sec": 15.982633,
+      "end_sec": 22.055367,
+      "duration_sec": 6.1061,
+      "num_frame_captions": 13,
+      "caption": "This scene features a St. Patrick's Day celebration on a university campus. Angela Avoryie '13, a History major, is the central figure, being interviewed while wearing a green shamrock scarf. She smiles, speaks enthusiastically, and gestures to the camera, surrounded by a group of friends and fellow students. They are all dressed festively in white outfits with green accessories, posing and celebrating together outdoors in front of a distinctive brick building. The atmosphere is lively and communal, capturing a moment of campus tradition and student camaraderie."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 662,
+      "end_frame": 827,
+      "start_sec": 22.088733,
+      "end_sec": 27.594233,
+      "duration_sec": 5.538867,
+      "num_frame_captions": 11,
+      "caption": "This scene depicts a festive St. Patrick\u2019s Day celebration in a sunny park. A large group of young women, all dressed in white with green accessories like scarves, headbands, and garlands, gather on a grassy lawn. They actively participate in the event by weaving green wreaths, picking up leaves, and holding leafy branches. The atmosphere is lively and communal, with some women dancing in unison while others watch or use their phones. The overall activity suggests a ceremonial or celebratory outdoor gathering centered around the holiday\u2019s traditional green foliage."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 828,
+      "end_frame": 860,
+      "start_sec": 27.6276,
+      "end_sec": 28.695333,
+      "duration_sec": 1.1011,
+      "num_frame_captions": 2,
+      "caption": "In a historic outdoor setting, a group of young women gathers for a cheerful group photograph. They are dressed in coordinated white outfits, with many accessorizing their look with distinctive green scarves featuring star patterns. The scene is set against the backdrop of aged stone and brick architecture, suggesting a university or institutional courtyard. Their collective smiles and posed arrangement indicate a moment of celebration or commemoration, capturing a sense of camaraderie and shared identity within the group. The overall atmosphere is one of lighthearted joy and unity."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 861,
+      "end_frame": 922,
+      "start_sec": 28.7287,
+      "end_sec": 30.764067,
+      "duration_sec": 2.068733,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a lively, retro-themed parade from 1988, featuring a crowd of participants in blue and white costumes, some with blue wigs and headbands. They march together holding signs and a prominent banner displaying the year \"1988,\" which anchors the event in a specific nostalgic era. The atmosphere is one of collective celebration, with the group's coordinated attire and playful props suggesting a unified theme, possibly related to cultural commentary or a festive reenactment of the period's style."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 923,
+      "end_frame": 956,
+      "start_sec": 30.797433,
+      "end_sec": 31.898533,
+      "duration_sec": 1.134467,
+      "num_frame_captions": 2,
+      "caption": "This scene captures a vibrant parade segment where a large group of celebrants, unified by a striking blue theme, marches in procession. Many participants wear long blue wigs and coordinated costumes, creating a cohesive and festive visual spectacle. They are enthusiastically holding aloft signs and a prominent banner that clearly displays the year \"1988,\" indicating this is likely a nostalgic celebration or reunion for that specific year. The overall atmosphere is one of joyful commemoration, as the group moves together, sharing their collective excitement with onlookers along the parade route."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 957,
+      "end_frame": 974,
+      "start_sec": 31.9319,
+      "end_sec": 32.499133,
+      "duration_sec": 0.6006,
+      "num_frame_captions": 1,
+      "caption": "This scene captures a vibrant and spirited parade, characterized by a unified and playful group of participants. Many individuals are adorned with distinctive blue wigs and sunglasses, creating a striking visual theme. The collective is marching together, carrying a prominent banner that displays the year \"1988,\" which suggests the event may be a reunion, a themed celebration, or a commemoration tied to that specific year. The overall atmosphere is one of energetic celebration and shared identity, as the coordinated costumes and purposeful march indicate a collective participation in a larger public event or festival."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 975,
+      "end_frame": 1108,
+      "start_sec": 32.5325,
+      "end_sec": 36.970267,
+      "duration_sec": 4.471133,
+      "num_frame_captions": 9,
+      "caption": "This scene depicts a peaceful daytime protest or demonstration, primarily involving a large group of women dressed in white. They are marching together in an outdoor procession, likely along a street or public square with stone buildings visible in the background. The participants are holding yellow signs and sunflowers, with a prominent yellow banner bearing the year \"1983\" serving as a central visual motif. The unified white attire, flowers, and orderly march suggest a solemn, commemorative, or symbolic gathering focused on a specific historical event or cause represented by that year."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 1109,
+      "end_frame": 1415,
+      "start_sec": 37.003633,
+      "end_sec": 47.213833,
+      "duration_sec": 10.243567,
+      "num_frame_captions": 21,
+      "caption": "This scene features two young women, one identified as Anne Gabrielle Boucher, a European Studies major from the class of 2013, enjoying a festive outdoor event on a university campus. They are dressed in white outfits and wear various green accessories, including scarves, leis, and necklaces, suggesting a St. Patrick's Day celebration. The pair are consistently shown smiling, laughing, chatting, and posing together in front of a distinctive brick building. Their joyful interaction and coordinated attire indicate a candid and celebratory moment, likely captured during a campus social gathering."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 1416,
+      "end_frame": 1489,
+      "start_sec": 47.2472,
+      "end_sec": 49.682967,
+      "duration_sec": 2.469133,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a social gathering of young women in a garden-like outdoor setting. The group, uniformly dressed in white dresses with green scarves or sashes, appears to be part of a coordinated event or ceremony. Their expressions vary from serious to smiling, suggesting a mix of formal observance and casual interaction. The overall mood is one of communal participation, as they stand together in a relaxed cluster, with one woman occasionally crossing her arms or looking off to the side while others engage with the surroundings."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 1490,
+      "end_frame": 1587,
+      "start_sec": 49.716333,
+      "end_sec": 52.9529,
+      "duration_sec": 3.269933,
+      "num_frame_captions": 6,
+      "caption": "Two women in white dresses share a warm embrace outdoors in a lush, green setting. Their joyful moment is being photographed by another person, who is seen holding a camera. The scene captures a sense of celebration and affection among a small group of women gathered in this natural environment. The focus remains on the central embrace and the act of documenting this happy occasion."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 1588,
+      "end_frame": 1641,
+      "start_sec": 52.986267,
+      "end_sec": 54.7547,
+      "duration_sec": 1.8018,
+      "num_frame_captions": 4,
+      "caption": "In this outdoor scene, a group of young women celebrates St. Patrick's Day together. They are all dressed in coordinated white outfits, accessorized with green scarves and headbands to mark the festive occasion. Gathered in front of a brick building, they smile and interact warmly while posing for photographs. The atmosphere is cheerful and communal, capturing a moment of shared celebration and camaraderie among the group as they commemorate the holiday."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 1642,
+      "end_frame": 1844,
+      "start_sec": 54.788067,
+      "end_sec": 61.528133,
+      "duration_sec": 6.773433,
+      "num_frame_captions": 13,
+      "caption": "This scene features an outdoor interview with Rachel Berlage, a member of the class of 2013 majoring in Politics. She is positioned in front of a brick building with large windows, speaking directly to the camera. Throughout the sequence, she engages with the interviewer, alternating between speaking and smiling warmly. The setting suggests a casual, on-campus environment for a profile or testimonial video. Her attire, a white top and delicate necklace, along with her long brown hair, contributes to a professional yet approachable appearance as she shares her thoughts."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 1845,
+      "end_frame": 1943,
+      "start_sec": 61.5615,
+      "end_sec": 64.831433,
+      "duration_sec": 3.3033,
+      "num_frame_captions": 7,
+      "caption": "This scene captures a cheerful group photo session in a sunny park. A person wearing a large, roaring lion mascot costume is the central figure, posing alongside several young women, some of whom are wearing white dresses. The group, which includes two to three women at a time, smiles happily for the camera on the grassy lawn. The overall atmosphere is festive and lighthearted, with other people and cars visible in the background, indicating a public event or casual gathering. The consistent sunny setting and repeated posing suggest multiple photos are being taken to commemorate the occasion."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 1944,
+      "end_frame": 2034,
+      "start_sec": 64.8648,
+      "end_sec": 67.8678,
+      "duration_sec": 3.036367,
+      "num_frame_captions": 6,
+      "caption": "A group of young women, dressed uniformly in white dresses with green scarves and accessories, gather in a park for a festive outdoor celebration. Their joyful interactions\u2014smiling, laughing, and conversing\u2014suggest a communal and ceremonial event. The consistent theme of green attire and the park setting strongly indicate this is a St. Patrick's Day gathering. The scene captures a moment of shared celebration and camaraderie among the participants in this seasonal tradition."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 2035,
+      "end_frame": 2117,
+      "start_sec": 67.901167,
+      "end_sec": 70.637233,
+      "duration_sec": 2.769433,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a commemorative parade or procession where a group of people, dressed uniformly in white, march down a street. They are carrying a prominent yellow banner marked with the year \"1963.\" The participants also hold a series of signs with variations on the phrase \"Shared Memories: The... That Holds Us Together,\" each sign highlighting a different unifying element such as \"Gifts,\" \"Past,\" \"Joy,\" or \"Film.\" This activity appears to be a public act of remembrance and community solidarity, specifically honoring and reflecting on the events of 1963. The overall mood is one of collective observance and shared historical reflection."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 2118,
+      "end_frame": 2188,
+      "start_sec": 70.6706,
+      "end_sec": 73.006267,
+      "duration_sec": 2.369033,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a vibrant outdoor parade or procession, primarily featuring a group of older women dressed in white. They are marching and dancing energetically through a street and park, collectively carrying large yellow banners or flags. A crowd of spectators lines the sidelines, watching the lively performance. The atmosphere is one of communal celebration, with the participants' coordinated movements and raised banners suggesting a ceremonial or cultural event. The consistent visual elements of white attire and yellow banners unify the activity across different locations within the scene."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 2189,
+      "end_frame": 2309,
+      "start_sec": 73.039633,
+      "end_sec": 77.043633,
+      "duration_sec": 4.037367,
+      "num_frame_captions": 8,
+      "caption": "This scene depicts a cheerful, organized group of predominantly older women participating in an outdoor parade or celebratory march. Dressed in coordinated light-colored outfits, many accessorize with yellow scarves, straw hats, and floral leis, creating a vibrant and unified appearance. They walk together along a tree-lined path, smiling and holding signs and poles, suggesting a peaceful demonstration or a community event. The sunny, park-like setting near a brick building contributes to the convivial and social atmosphere, as the women appear to be enjoying a collective activity filled with camaraderie and positive energy."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 2310,
+      "end_frame": 2524,
+      "start_sec": 77.077,
+      "end_sec": 84.217467,
+      "duration_sec": 7.173833,
+      "num_frame_captions": 15,
+      "caption": "This scene features an outdoor video interview with Kelsey Brown, a member of the class of 2013 who majored in Psychology. She is a young woman with blonde hair, which is pulled back, and she smiles warmly while speaking to the camera. The consistent setting is in front of a brick building, establishing a casual, collegiate atmosphere. The captions identify her and her academic background, indicating this is likely a promotional or profile video for her university. The scene\u2019s core content is her engaged and positive presentation in this interview format."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 2525,
+      "end_frame": 2675,
+      "start_sec": 84.250833,
+      "end_sec": 89.255833,
+      "duration_sec": 5.038367,
+      "num_frame_captions": 10,
+      "caption": "This scene features a group of elderly participants enjoying a sunny parade in a light blue convertible. Initially, an older man and woman are seen in the car, with the woman wearing a distinctive white hat. The group then expands to include three smiling seniors\u2014two women in bright yellow hats and a man in a blue shirt\u2014all riding together and clearly delighting in the experience. The focus later shifts to two of the women, who wave and laugh joyfully from the vehicle as it functions as a parade float, conveying a lively and cheerful community atmosphere."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 2676,
+      "end_frame": 2794,
+      "start_sec": 89.2892,
+      "end_sec": 93.226467,
+      "duration_sec": 3.970633,
+      "num_frame_captions": 8,
+      "caption": "A diverse crowd gathers outdoors in a sunny park setting, enthusiastically clapping and cheering at an event. The group includes an elderly woman in a wheelchair wearing a straw hat, who is a focal point among the attendees. The atmosphere is celebratory, with many people raising their hands in unison, suggesting they are watching a parade or public performance. The overall mood is one of collective enjoyment and participation, as the audience actively responds to the spectacle before them on a bright day."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 2795,
+      "end_frame": 2860,
+      "start_sec": 93.259833,
+      "end_sec": 95.428667,
+      "duration_sec": 2.2022,
+      "num_frame_captions": 4,
+      "caption": "A group of bagpipers, dressed in traditional Scottish attire, performs an outdoor musical piece. The ensemble, wearing kilts and various uniform elements such as military-style jackets, white shirts, and berets, is positioned in front of a distinctive red brick building. They play their instruments together on what appears to be a clear, sunny day. The scene captures a cohesive and ceremonial performance, likely part of a public event or parade, with the musicians focused on their playing against the backdrop of the architecture."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 2861,
+      "end_frame": 2967,
+      "start_sec": 95.462033,
+      "end_sec": 98.9989,
+      "duration_sec": 3.570233,
+      "num_frame_captions": 7,
+      "caption": "This scene depicts a group of people, predominantly women dressed in white, participating in a nature-themed gathering in a sunlit, leafy park. The event has a celebratory or ritualistic atmosphere, suggested by their playful interaction with large green branches and the wearing of leafy wreaths as crowns. They are seen arranging foliage, playfully holding branches over their heads, and conversing in small groups. The group also moves together through the wooded area, carrying their leafy branches, which collectively evokes a sense of a coordinated, joyful outdoor ceremony connected to nature."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 2968,
+      "end_frame": 3064,
+      "start_sec": 99.032267,
+      "end_sec": 102.235467,
+      "duration_sec": 3.236567,
+      "num_frame_captions": 7,
+      "caption": "A festive outdoor gathering takes place in a sun-dappled, wooded park. A group of people, many wearing white clothing and adorned with green leafy garlands, wreaths, and accessories, are celebrating together. The mood is warm and joyful, with smiling interactions among the attendees. The scene centers on a bride in a white dress, who is surrounded by her guests, some of whom are holding green leafy branches, suggesting a ceremonial or celebratory moment within the natural setting."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 3065,
+      "end_frame": 3117,
+      "start_sec": 102.268833,
+      "end_sec": 104.0039,
+      "duration_sec": 1.768433,
+      "num_frame_captions": 3,
+      "caption": "In a lush, park-like setting, a group of women in white dresses gathers outdoors under leafy trees. The central figure, a bride in a white wedding gown with an open back, holds a large, verdant bouquet. The group interacts with a substantial green leafy wreath and garlands, suggesting a moment of preparation or celebration. The natural, tree-filled environment provides a serene backdrop for this bridal party activity, which appears to be part of a wedding photoshoot or a ceremonial gathering focused on floral decorations."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 3118,
+      "end_frame": 3300,
+      "start_sec": 104.037267,
+      "end_sec": 110.11,
+      "duration_sec": 6.1061,
+      "num_frame_captions": 13,
+      "caption": "This scene features Seth Carey, the Manager and Operating Officer of Carey's Flowers, delivering a direct-to-camera address. He is consistently shown in a light green polo shirt, wearing glasses and a goatee, with a lavalier microphone attached. The setting is a floral shop, nursery, or warehouse, characterized by a backdrop of lush green plants, large floral arrangements, and various gardening supplies. The scene's primary focus is on his professional presentation, likely discussing business operations or the company's offerings, within this verdant and industry-appropriate environment."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 3301,
+      "end_frame": 3406,
+      "start_sec": 110.143367,
+      "end_sec": 113.646867,
+      "duration_sec": 3.536867,
+      "num_frame_captions": 7,
+      "caption": "This scene depicts a celebratory outdoor ceremony, likely a graduation or initiation event, centered around a group of women. They are gathered on a sunny day in a grassy courtyard near a brick building. The participants, all wearing white dresses, are distinguished by green and purple sashes or scarves. Their primary activity involves collaboratively handling, arranging, and carrying large, lush green wreaths and long garlands. The mood is joyful and ceremonial, as the women smile and walk together while managing the foliage, suggesting a ritualistic procession or the preparation of symbolic decorations for the occasion."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 3407,
+      "end_frame": 3445,
+      "start_sec": 113.680233,
+      "end_sec": 114.948167,
+      "duration_sec": 1.3013,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a formal outdoor ceremony, likely a graduation or commencement event. A group of young women, uniformly dressed in white gowns with green sashes, are collectively carrying a large, ceremonial green wreath. They are processing together across a lawn or courtyard, moving toward or pausing in front of a stately brick building that serves as the backdrop. Their coordinated attire and the prominent wreath suggest a ritualistic or celebratory procession, central to the occasion's traditions. The atmosphere is one of orderly celebration and shared purpose as the participants honor this significant milestone."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 3446,
+      "end_frame": 3566,
+      "start_sec": 114.981533,
+      "end_sec": 118.985533,
+      "duration_sec": 4.037367,
+      "num_frame_captions": 8,
+      "caption": "A man in a green polo shirt, wearing glasses and sporting a goatee, stands in front of a lush green hedge or leafy wall. He is equipped with a small microphone, which is visible clipped to his collar or held in hand. Throughout the scene, he appears to be speaking, likely addressing an audience or recording. The setting remains consistent, with the focus on him as a presenter or interviewee against the verdant background."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 3567,
+      "end_frame": 3658,
+      "start_sec": 119.0189,
+      "end_sec": 122.055267,
+      "duration_sec": 3.069733,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a joyful, nature-themed celebration in a lush outdoor park. A group of young women, all dressed in white, participate in a lively dance. They are adorned with floral crowns and leafy garlands, which they hold aloft and wave as they move. Their expressions are consistently happy and festive as they pose and twirl together in the sunny, green setting. The overall atmosphere is one of communal festivity, centered around dance and a connection to the natural environment."
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 3659,
+      "end_frame": 3805,
+      "start_sec": 122.088633,
+      "end_sec": 126.960167,
+      "duration_sec": 4.9049,
+      "num_frame_captions": 10,
+      "caption": "This scene depicts a ceremonial or festive outdoor gathering in a park, where a group of young women and girls participate in a coordinated activity. They are uniformly dressed in white dresses with distinctive green sashes. Their central action involves collectively handling, weaving, and holding up large, leafy green wreaths and long garlands made of branches. The mood is joyful and celebratory, with the participants smiling and waving amidst the lush, tree-filled setting. The event appears to be a planned performance or ritual, emphasizing community, nature, and shared celebration in the sunlit outdoors."
+    },
+    {
+      "scene_index": 35,
+      "start_frame": 3806,
+      "end_frame": 4011,
+      "start_sec": 126.993533,
+      "end_sec": 133.8337,
+      "duration_sec": 6.873533,
+      "num_frame_captions": 14,
+      "caption": "This scene features an interview with Sally Sears Donner '63, an elderly alumna identified by on-screen text. She is seated in a cozy, warmly decorated room, speaking to the camera from a floral-patterned chair or couch. The background is filled with holiday-themed decorations, including a bookshelf of figurines, red berry garlands, and poinsettia or holly plants, creating a festive atmosphere. The scene cuts between slightly varied shots of her in this consistent setting, focusing on her recollections or commentary. It is preceded by a brief cutaway of children joyfully waving green branches outdoors, which likely serves as an introductory or thematic visual related to her story."
+    },
+    {
+      "scene_index": 36,
+      "start_frame": 4012,
+      "end_frame": 4117,
+      "start_sec": 133.867067,
+      "end_sec": 137.370567,
+      "duration_sec": 3.536867,
+      "num_frame_captions": 7,
+      "caption": "The scene depicts a 1963 Laurel Day event, likely a graduation or celebratory parade in a park. A long procession of young women, all wearing white dresses and adorned with green leafy garlands or floral leis, marches along a paved path. They are organized in a formal line, suggesting a ceremonial or celebratory procession. The overall atmosphere is one of tradition and communal celebration, captured in a series of vintage photographic images from the period."
+    },
+    {
+      "scene_index": 37,
+      "start_frame": 4118,
+      "end_frame": 4202,
+      "start_sec": 137.403933,
+      "end_sec": 140.206733,
+      "duration_sec": 2.836167,
+      "num_frame_captions": 6,
+      "caption": "This scene features a vintage black-and-white photograph of a group of young women, all smiling and dressed in white. They are posing together outdoors behind a decorative leafy garland. The consistent element across the scene is a blue text banner at the bottom of the image, which identifies one of the individuals as Hilda DeCamp Donner from the class of 1933. The overall impression is of a formal group portrait, likely commemorating a collegiate or sorority event from the early 20th century."
+    },
+    {
+      "scene_index": 38,
+      "start_frame": 4203,
+      "end_frame": 4302,
+      "start_sec": 140.2401,
+      "end_sec": 143.5434,
+      "duration_sec": 3.336667,
+      "num_frame_captions": 6,
+      "caption": "An elderly woman with glasses sits on a floral-patterned couch in a cozy, decorated living room. She appears pensive at times, gazing downward, and at other moments is engaged in speaking or listening intently. The scene is set during the holidays, with festive decorations including a red berry plant, holiday figurines on a shelf, and various ornaments around her. The warm, intimate setting suggests a reflective or conversational moment, possibly with someone off-camera, amidst the comforting backdrop of her adorned home."
+    },
+    {
+      "scene_index": 39,
+      "start_frame": 4303,
+      "end_frame": 4423,
+      "start_sec": 143.576767,
+      "end_sec": 147.580767,
+      "duration_sec": 4.037367,
+      "num_frame_captions": 8,
+      "caption": "This scene is a historical group photograph from 1903, capturing a large graduating class in formal academic regalia. The students, including Sara Sears DeCamp, are posed together in front of a grand stone building featuring a prominent arched entrance. The image is a classic graduation portrait, rendered in black and white, documenting the occasion with a formal and commemorative tone. The composition centers on the assembled class before the architectural backdrop, creating a record of the graduates' collective achievement at the turn of the 20th century."
+    },
+    {
+      "scene_index": 40,
+      "start_frame": 4424,
+      "end_frame": 4567,
+      "start_sec": 147.614133,
+      "end_sec": 152.385567,
+      "duration_sec": 4.8048,
+      "num_frame_captions": 10,
+      "caption": "In a cozy living room decorated for the holidays, an elderly woman with glasses sits on a floral-patterned couch. She is speaking animatedly, using hand gestures to emphasize her points. The festive setting behind her features a shelf displaying various holiday figurines, with either a poinsettia plant or a potted holly plant visible nearby. Her attire varies slightly between a dark and a blue sweater. Throughout the scene, she remains the central focus, engaged in conversation within the warmly decorated, intimate space."
+    },
+    {
+      "scene_index": 41,
+      "start_frame": 4568,
+      "end_frame": 4631,
+      "start_sec": 152.418933,
+      "end_sec": 154.521033,
+      "duration_sec": 2.135467,
+      "num_frame_captions": 4,
+      "caption": "This scene takes place in a cozy, decorated living room, likely during the holiday season, as indicated by visible ornaments and greenery. An elderly woman with white hair and glasses is seated on a floral-patterned couch. She appears to be actively engaged in a conversation, though the other participant is not shown. The warm, detailed setting and her attentive posture suggest a relaxed, intimate social interaction, possibly with a family member or friend visiting her home. The consistent framing across the shots focuses on her presence and the comfortable, festive atmosphere of the room."
+    },
+    {
+      "scene_index": 42,
+      "start_frame": 4632,
+      "end_frame": 4780,
+      "start_sec": 154.5544,
+      "end_sec": 159.492667,
+      "duration_sec": 4.971633,
+      "num_frame_captions": 10,
+      "caption": "This scene depicts a commemorative daytime parade or peaceful protest march, primarily involving a large group of women, many dressed in white and holding yellow signs. The participants carry banners and placards with unifying messages, most prominently the phrase \u201cShared Memories: The Glue That Holds Us Together.\u201d The event appears to honor historical milestones, as indicated by signs referencing years like \u201c1963\u201d and \u201c1872,\u201d suggesting a connection to civil rights or other significant anniversaries. The atmosphere is orderly and reflective, with the crowd marching past urban brick buildings on a sunny day."
+    },
+    {
+      "scene_index": 43,
+      "start_frame": 4781,
+      "end_frame": 4863,
+      "start_sec": 159.526033,
+      "end_sec": 162.2621,
+      "duration_sec": 2.769433,
+      "num_frame_captions": 6,
+      "caption": "In a cozy living room decorated for the holidays, an elderly woman with glasses and gray hair sits on a floral-patterned couch. She is speaking, likely sharing a story or reflection, in a space filled with festive ornaments, including a Christmas tree and a shelf of collectible figurines. The warm, intimate setting, accentuated by a poinsettia plant and bookshelf, suggests a personal, perhaps nostalgic, moment during the holiday season. Her demeanor shifts between engaged conversation and thoughtful pauses as she addresses an unseen listener."
+    },
+    {
+      "scene_index": 44,
+      "start_frame": 4864,
+      "end_frame": 4974,
+      "start_sec": 162.295467,
+      "end_sec": 165.9658,
+      "duration_sec": 3.7037,
+      "num_frame_captions": 7,
+      "caption": "In a celebratory procession, a group of people, many wearing white robes or attire, ride in golf carts down a tree-lined street or campus path. They wave enthusiastically to onlookers, with some participants also waving green flags, suggesting a festive or ceremonial occasion such as a graduation parade. The scene has a parade-like atmosphere, with a crowd gathered to watch the procession pass through the park-like setting. One person is seen walking alongside a beige golf cart, further emphasizing the communal and leisurely pace of the event."
+    },
+    {
+      "scene_index": 45,
+      "start_frame": 4975,
+      "end_frame": 5134,
+      "start_sec": 165.999167,
+      "end_sec": 171.304467,
+      "duration_sec": 5.338667,
+      "num_frame_captions": 11,
+      "caption": "This scene depicts a nighttime protest or spirited demonstration outside a brick building. Participants hold up several handmade yellow signs with black handwritten text. The main messages are a cheer of \"Yeah 'Yoke!\" and a historical reference stating, \"In Our Time... MHC had a softball team.\" The tone appears to be a mix of playful support and advocacy, likely related to a school or community issue, possibly concerning a sports team. The consistent setting and signage indicate an organized gathering where these specific slogans are being prominently displayed to convey a unified message."
+    },
+    {
+      "scene_index": 46,
+      "start_frame": 5135,
+      "end_frame": 5191,
+      "start_sec": 171.337833,
+      "end_sec": 173.206367,
+      "duration_sec": 1.9019,
+      "num_frame_captions": 4,
+      "caption": "The scene depicts a protest march where a group of demonstrators, uniformly dressed in white, are walking together. Their central grievance is conveyed through a prominent yellow sign, which declares that \"34% of us have taken a Mountain Day from work.\" This statistic suggests a coordinated workplace action or labor protest, with \"Mountain Day\" symbolizing a form of absenteeism or strike. The repeated focus on this message indicates it is the core unifying theme of the demonstration, as the group collectively advocates for their cause in a public setting."
+    },
+    {
+      "scene_index": 47,
+      "start_frame": 5192,
+      "end_frame": 5236,
+      "start_sec": 173.239733,
+      "end_sec": 174.707867,
+      "duration_sec": 1.5015,
+      "num_frame_captions": 3,
+      "caption": "A group of demonstrators, predominantly dressed in white and many adorned with yellow scarves, marches down a tree-lined street in a daytime parade. They carry signs promoting various events, including \"M&C's, Elfing, Mountain Day, and Dinner in the Dorm,\" indicating this is likely a spirited campus or community event rather than a political protest. The atmosphere appears peaceful and coordinated as the participants proceed together. The consistent visual theme of white clothing and yellow accents unifies the group, creating a bright and orderly procession through the urban setting."
+    },
+    {
+      "scene_index": 48,
+      "start_frame": 5237,
+      "end_frame": 5268,
+      "start_sec": 174.741233,
+      "end_sec": 175.7756,
+      "duration_sec": 1.067733,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a daytime public demonstration, as a large crowd marches down a residential street lined with trees. Many participants are dressed in white robes, while others carry yellow signs, suggesting a unified cause or organization. The group proceeds in an orderly parade-like fashion, indicating a planned protest or rally. The overall atmosphere is one of collective, peaceful assembly, with the visual contrast of the white attire and bright signage creating a striking visual statement against the backdrop of the neighborhood."
+    },
+    {
+      "scene_index": 49,
+      "start_frame": 5269,
+      "end_frame": 5359,
+      "start_sec": 175.808967,
+      "end_sec": 178.811967,
+      "duration_sec": 3.036367,
+      "num_frame_captions": 6,
+      "caption": "In a cozy, festively decorated room, an elderly woman with glasses and a dark jacket sits on a floral-patterned couch. She is surrounded by holiday ornaments, including red poinsettias and berry plants, with shelves of figurines visible behind her. The scene captures her in a moment of conversation, as she speaks animatedly to someone off-camera. Her demeanor is engaged, and the warm, cluttered setting filled with personal knick-knacks suggests a comfortable, homely environment, likely during a holiday gathering or a personal visit."
+    },
+    {
+      "scene_index": 50,
+      "start_frame": 5360,
+      "end_frame": 5464,
+      "start_sec": 178.845333,
+      "end_sec": 182.315467,
+      "duration_sec": 3.5035,
+      "num_frame_captions": 7,
+      "caption": "This scene depicts a celebratory gathering, likely a church or community event, where a group of women share a moment of joy and solidarity. Many attendees wear green headbands or hold green and purple scarves, suggesting a unified theme or cause. The women are seated in an auditorium, warmly embracing and smiling as they listen to a speaker at a wooden podium. The focus then shifts to the stage, where a smaller group, including a woman named Ricky or Recky, gathers for recognition or support, continuing the atmosphere of affectionate camaraderie and shared celebration."
+    },
+    {
+      "scene_index": 51,
+      "start_frame": 5465,
+      "end_frame": 5531,
+      "start_sec": 182.348833,
+      "end_sec": 184.551033,
+      "duration_sec": 2.235567,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a bustling market or craft fair where a group of people are actively engaged in shopping for textiles. They gather around tables draped in vibrant purple and green fabrics, carefully examining the colorful, patterned materials on display. The activity involves browsing, selecting, and handling various items, which appear to be scarves or lengths of cloth. One individual is seen holding up a specific purple patterned piece for closer inspection. The overall atmosphere is one of communal interest and focused selection as customers explore the assortment of goods."
+    },
+    {
+      "scene_index": 52,
+      "start_frame": 5532,
+      "end_frame": 5584,
+      "start_sec": 184.5844,
+      "end_sec": 186.319467,
+      "duration_sec": 1.768433,
+      "num_frame_captions": 4,
+      "caption": "In this scene, an older woman with glasses and a striped cardigan is the central figure at a lively evening social event, likely on a boat or dock. She engages animatedly with others, first through conversation and then by playfully handling a long, green, snake-like object. The gathering appears to involve a performance element, as another woman later holds up a green scarf or ribbon on a stage before an audience. The scene concludes on a tender note, with the elderly woman warmly embracing a child, highlighting the event's blend of playful interaction and heartfelt connection."
+    },
+    {
+      "scene_index": 53,
+      "start_frame": 5585,
+      "end_frame": 5643,
+      "start_sec": 186.352833,
+      "end_sec": 188.2881,
+      "duration_sec": 1.968633,
+      "num_frame_captions": 4,
+      "caption": "The scene takes place in a theater or performance venue, where an older woman with blonde hair and glasses is seated among an audience. She smiles warmly while interacting with a younger person, possibly a child, who is standing near her. Other people are present in the background, some seated and some standing, and one person is seen taking a photograph. The overall atmosphere is of a social gathering during an event, with a red curtain suggesting a stage setting."
+    },
+    {
+      "scene_index": 54,
+      "start_frame": 5644,
+      "end_frame": 5821,
+      "start_sec": 188.321467,
+      "end_sec": 194.227367,
+      "duration_sec": 5.939267,
+      "num_frame_captions": 12,
+      "caption": "This scene captures a warm, lively social gathering, likely a community or celebratory event indoors. The focus is on a group of women, including a cheerful older woman with white hair and glasses who is a central figure. She wears a name tag that reads \"Ginny\" (or a similar name), indicating she may be a guest of honor or a key participant. The group is engaged in close conversation and camaraderie, with other attendees, including a woman in a straw hat, sharing in the friendly interaction. The overall atmosphere is one of connection and shared enjoyment."
+    },
+    {
+      "scene_index": 55,
+      "start_frame": 5822,
+      "end_frame": 5944,
+      "start_sec": 194.260733,
+      "end_sec": 198.331467,
+      "duration_sec": 4.1041,
+      "num_frame_captions": 8,
+      "caption": "An elderly woman sits on a floral couch in a cozy, festively decorated room. She appears to be engaged in a conversation or interview, speaking and gesturing expressively with her hands. The setting is filled with holiday ornaments, greenery, and figurines, creating a warm, seasonal atmosphere. Throughout the scene, she remains the central focus, occasionally looking to the side as she communicates."
+    },
+    {
+      "scene_index": 56,
+      "start_frame": 5945,
+      "end_frame": 5962,
+      "start_sec": 198.364833,
+      "end_sec": 198.932067,
+      "duration_sec": 0.6006,
+      "num_frame_captions": 1,
+      "caption": "This scene captures a warm, social gathering of women in an indoor setting. The focus is on their friendly interaction and shared camaraderie, as they engage in conversation and exchange smiles. The presence of an older woman in a striped top suggests a multigenerational or familial element to the group. The overall mood is one of relaxed conviviality and affectionate connection, indicating a casual visit or a celebratory moment among friends or family members. The setting appears to be a domestic living space, contributing to the intimate and comfortable atmosphere of the encounter."
+    },
+    {
+      "scene_index": 57,
+      "start_frame": 5963,
+      "end_frame": 6008,
+      "start_sec": 198.965433,
+      "end_sec": 200.466933,
+      "duration_sec": 1.534867,
+      "num_frame_captions": 3,
+      "caption": "In a ceremonial gathering, a woman wearing a bow in her hair receives a green leafy headpiece from another woman, an act observed by a smiling audience. The focus then shifts to a woman in glasses and a striped shirt, who carefully adjusts a green sash around the waist of the central woman. The scene concludes with the group seated together, their attention on the woman now adorned with the green accessories, in a moment of shared celebration."
+    },
+    {
+      "scene_index": 58,
+      "start_frame": 6009,
+      "end_frame": 6087,
+      "start_sec": 200.5003,
+      "end_sec": 203.1029,
+      "duration_sec": 2.635967,
+      "num_frame_captions": 5,
+      "caption": "This scene captures a warm, indoor social gathering where an elderly woman with glasses and a cardigan is a central, joyful figure. She is seen smiling and laughing as she interacts with a group, many of whom are wearing green scarves or headbands. The atmosphere is friendly and communal, with the woman warmly embracing others and engaging with the seated attendees. The event appears to be a community or social function, characterized by close personal connections and shared happiness in a crowded, warmly lit space."
+    },
+    {
+      "scene_index": 59,
+      "start_frame": 6088,
+      "end_frame": 6192,
+      "start_sec": 203.136267,
+      "end_sec": 206.6064,
+      "duration_sec": 3.5035,
+      "num_frame_captions": 7,
+      "caption": "In a cozy living room adorned with festive holiday decorations, an elderly woman with glasses and short white hair sits on a floral-patterned couch. She is engaged in conversation, actively gesturing with her hand as she speaks. The scene is warmly decorated for Christmas, featuring elements such as a poinsettia plant, a holiday wreath, and a shelf displaying various festive figurines. The overall setting creates an intimate and cheerful atmosphere, capturing a moment of storytelling or sharing during the holiday season."
+    },
+    {
+      "scene_index": 60,
+      "start_frame": 6193,
+      "end_frame": 6300,
+      "start_sec": 206.639767,
+      "end_sec": 210.21,
+      "duration_sec": 3.6036,
+      "num_frame_captions": 8,
+      "caption": "A group of women, uniformly dressed in bright yellow and white, participate in a commemorative parade or procession. They march along a sunny, tree-lined street or park, waving and smiling to onlookers who line the route. The central element of the event is their act of carrying framed portraits, which depict a man, suggesting they are honoring a significant historical or community figure. The overall atmosphere is one of respectful yet cheerful public remembrance, blending solemn tribute with a sense of communal celebration in the outdoor setting."
+    },
+    {
+      "scene_index": 61,
+      "start_frame": 6301,
+      "end_frame": 6336,
+      "start_sec": 210.243367,
+      "end_sec": 211.4112,
+      "duration_sec": 1.2012,
+      "num_frame_captions": 2,
+      "caption": "This scene captures a vibrant outdoor gathering, likely a festival or celebration, where a large crowd moves together in a unified procession. The participants are predominantly women, dressed in coordinated white outfits accented with blue accessories, creating a striking visual harmony. The atmosphere is clearly festive and communal, suggesting an organized event such as a parade, cultural march, or a demonstration for a specific cause. The collective movement and shared attire indicate a sense of solidarity and shared purpose among the attendees as they advance through the open-air setting."
+    },
+    {
+      "scene_index": 62,
+      "start_frame": 6337,
+      "end_frame": 6382,
+      "start_sec": 211.444567,
+      "end_sec": 212.946067,
+      "duration_sec": 1.534867,
+      "num_frame_captions": 3,
+      "caption": "A large, cheerful crowd gathers outdoors on a sunny day for what appears to be a parade or celebratory procession. Many participants are dressed in white clothing, creating a unified visual theme, which is accentuated by blue ribbons and other decorative elements. The group moves together along a route, suggesting an organized event filled with a sense of community and festivity. The bright weather enhances the vibrant and lively atmosphere of the scene, where people are collectively engaged in a shared public activity."
+    },
+    {
+      "scene_index": 63,
+      "start_frame": 6383,
+      "end_frame": 6445,
+      "start_sec": 212.979433,
+      "end_sec": 215.048167,
+      "duration_sec": 2.1021,
+      "num_frame_captions": 4,
+      "caption": "In a cozy, festively decorated room, an older woman with silver hair and glasses sits on a floral-patterned couch. The space is filled with holiday ornaments, including a shelf of dolls and greenery with red berries. She appears to be speaking at one point, and later is seen looking thoughtfully off to the side, suggesting a moment of quiet reflection or conversation. The scene captures a warm, intimate holiday atmosphere centered around this woman in her comfortable, personalized living space."
+    },
+    {
+      "scene_index": 64,
+      "start_frame": 6446,
+      "end_frame": 6529,
+      "start_sec": 215.081533,
+      "end_sec": 217.850967,
+      "duration_sec": 2.8028,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a celebratory outdoor parade on a sunny day. A group of young women, dressed in white, are the central participants as they proudly carry a large green banner. The banner prominently displays the year \"1993\" in white lettering, suggesting this is a commemorative event for that specific year. Spectators line the sidelines, watching the procession. The overall atmosphere is one of communal pride and public celebration, with the banner serving as the focal point of the march."
+    },
+    {
+      "scene_index": 65,
+      "start_frame": 6530,
+      "end_frame": 6662,
+      "start_sec": 217.884333,
+      "end_sec": 222.288733,
+      "duration_sec": 4.437767,
+      "num_frame_captions": 9,
+      "caption": "This scene features an interview with Thea Lange, a 2013 graduate and Anthropology major, conducted outdoors during a university event. She is consistently identified by on-screen text and appears in a blue top, though descriptions vary slightly regarding her hair color. The setting is a lively campus gathering, likely a graduation ceremony, as evidenced by a crowd of people wearing white dresses in the background. The interview captures her perspective at this significant event, with the final frame showing her standing beside another attendee in a white dress, both facing the camera."
+    },
+    {
+      "scene_index": 66,
+      "start_frame": 6663,
+      "end_frame": 6679,
+      "start_sec": 222.3221,
+      "end_sec": 222.855967,
+      "duration_sec": 0.567233,
+      "num_frame_captions": 1,
+      "caption": "This scene captures a lively parade segment featuring a group of young women in white dresses. They are collectively carrying a prominent green banner displaying the year \"2013,\" suggesting this is likely a celebratory or commemorative event for that year. The procession moves along a route flanked by spectators, adding to the communal atmosphere. Accompanying the marchers are bagpipers, whose presence indicates a formal or traditional element to the ceremony. The setting is an outdoor urban area, with historic stone architecture and trees visible in the background, framing the event within a established, possibly collegiate or civic, environment."
+    },
+    {
+      "scene_index": 67,
+      "start_frame": 6680,
+      "end_frame": 6713,
+      "start_sec": 222.889333,
+      "end_sec": 223.990433,
+      "duration_sec": 1.134467,
+      "num_frame_captions": 2,
+      "caption": "A group of young women in white dresses carries a green banner marked \"2013\" as they march in a parade procession. They proceed down a street lined with spectators and trees, flanked by other participants. The scene captures a celebratory public event, likely commemorating a specific year, with the marchers and onlookers contributing to a lively, communal atmosphere."
+    },
+    {
+      "scene_index": 68,
+      "start_frame": 6714,
+      "end_frame": 6775,
+      "start_sec": 224.0238,
+      "end_sec": 226.059167,
+      "duration_sec": 2.068733,
+      "num_frame_captions": 4,
+      "caption": "In a lively parade, a group of young women dressed in white with green accessories marches together. They are the focal point of the scene, collectively carrying a large green banner prominently displaying the year \"2013.\" Their procession is accompanied by the distinctive sound of a bagpipe band, adding to the ceremonial atmosphere. A crowd of spectators lines the sidelines, watching the event. The scene captures a moment of coordinated celebration, blending the performers' unified presentation with the supportive energy of the audience and the accompanying music."
+    },
+    {
+      "scene_index": 69,
+      "start_frame": 6776,
+      "end_frame": 6898,
+      "start_sec": 226.092533,
+      "end_sec": 230.163267,
+      "duration_sec": 4.1041,
+      "num_frame_captions": 8,
+      "caption": "This scene captures a vibrant outdoor celebration, likely a St. Patrick's Day parade or spring festival. A large, joyful procession of young women, all dressed in matching white outfits, marches together in the sunshine. Their festive attire is accentuated by green accessories, primarily wreaths and garlands worn on their heads. Many participants also carry large, leafy green wreaths or branches as they walk. The overall mood is one of communal happiness and lively festivity, with the women smiling, laughing, and sharing in the spirited atmosphere of the parade."
+    },
+    {
+      "scene_index": 70,
+      "start_frame": 6899,
+      "end_frame": 6984,
+      "start_sec": 230.196633,
+      "end_sec": 233.0328,
+      "duration_sec": 2.869533,
+      "num_frame_captions": 6,
+      "caption": "This scene captures a vibrant outdoor festival, likely a St. Patrick's Day celebration, centered around a joyful procession. A predominantly female crowd, many dressed in white and adorned with green scarves or leafy wreaths, participates enthusiastically. They collectively hold up large green garlands and leafy branches, smiling broadly as they move through a packed public space. The atmosphere is one of communal festivity and shared tradition, with the color green and natural foliage serving as unifying symbols of the event. The gathering has the energetic feel of a parade, filled with celebration and collective participation."
+    },
+    {
+      "scene_index": 71,
+      "start_frame": 6985,
+      "end_frame": 7067,
+      "start_sec": 233.066167,
+      "end_sec": 235.802233,
+      "duration_sec": 2.769433,
+      "num_frame_captions": 6,
+      "caption": "This scene captures a vibrant outdoor celebration, likely for St. Patrick\u2019s Day, centered on a group of women. They are gathered closely together, many wearing green attire and decorative leafy garlands or wreaths. The mood is predominantly festive and communal, with most participants smiling. A focal point emerges as one woman in the center becomes emotional, touching her face while holding a green wreath, adding a moment of poignant personal feeling to the collective joy. The overall atmosphere is one of shared tradition and celebration amidst the crowd."
+    },
+    {
+      "scene_index": 72,
+      "start_frame": 7068,
+      "end_frame": 7199,
+      "start_sec": 235.8356,
+      "end_sec": 240.206633,
+      "duration_sec": 4.4044,
+      "num_frame_captions": 8,
+      "caption": "This scene features Simrit Chhabra, a 2013 graduate who majored in Politics & Philosophy, being interviewed at an outdoor campus event. She speaks directly to the camera while standing among her peers, all of whom are celebrating graduation. The gathering has a distinct green and white color theme, with many attendees wearing white attire complemented by green accents like stoles. The setting is a lively, green-themed outdoor celebration, capturing the festive atmosphere of a graduation day where students are gathered together in their academic regalia."
+    },
+    {
+      "scene_index": 73,
+      "start_frame": 7200,
+      "end_frame": 7304,
+      "start_sec": 240.24,
+      "end_sec": 243.710133,
+      "duration_sec": 3.5035,
+      "num_frame_captions": 7,
+      "caption": "A festive outdoor gathering takes place in a sunlit, tree-filled park or garden. A diverse crowd, many wearing green wreaths or attire, has assembled around a central stone monument or pillar, suggesting a ceremonial or commemorative event. The atmosphere appears communal and celebratory, with the lush greenery and bright daylight enhancing the sense of a public occasion. The focus is on the collective assembly and the monument, indicating a shared purpose such as a memorial service, cultural festival, or civic observance."
+    },
+    {
+      "scene_index": 74,
+      "start_frame": 7305,
+      "end_frame": 7353,
+      "start_sec": 243.7435,
+      "end_sec": 245.3451,
+      "duration_sec": 1.634967,
+      "num_frame_captions": 4,
+      "caption": "This scene captures a vibrant outdoor gathering, likely a festival or celebration, set in a lush, green environment. A diverse crowd, including many young women adorned with floral crowns and green garlands, mingles under bright sunlight. The atmosphere is festive and social, with people smiling and interacting in the crowded, leafy setting. The focus shifts between wider shots of the group and more intimate, slightly blurred close-ups of individual participants, emphasizing personal moments of joy within the larger communal event. The overall impression is one of a cheerful, sun-drenched ceremony or summer festival."
+    },
+    {
+      "scene_index": 75,
+      "start_frame": 7354,
+      "end_frame": 7404,
+      "start_sec": 245.378467,
+      "end_sec": 247.0468,
+      "duration_sec": 1.7017,
+      "num_frame_captions": 3,
+      "caption": "A group of women, many adorned in white dresses and leafy garlands, assemble in a sunlit, wooded park or garden for what appears to be a ceremonial gathering. They are joined by a broader crowd of people congregating near a stone pillar, creating a festive outdoor atmosphere. The focus of the event seems to involve greenery, as one participant is seen holding a green wreath, suggesting a ritual or celebration connected to nature. The overall scene depicts a peaceful, communal event held in a natural, green setting."
+    },
+    {
+      "scene_index": 76,
+      "start_frame": 7405,
+      "end_frame": 7430,
+      "start_sec": 247.080167,
+      "end_sec": 247.914333,
+      "duration_sec": 0.867533,
+      "num_frame_captions": 2,
+      "caption": "This scene takes place in a sunlit, wooded area, where a crowd has gathered outdoors. The group consists primarily of women, identifiable by their long hair in shades of blonde and dark brown. They are standing closely together, facing away from the camera, suggesting a shared focus on an event or speaker not visible in the frame. The overall atmosphere is casual and bright, set within a vibrant, green natural environment. The slightly blurry and low-resolution quality of the footage implies it was captured candidly, perhaps from a distance or with a handheld device."
+    },
+    {
+      "scene_index": 77,
+      "start_frame": 7431,
+      "end_frame": 7639,
+      "start_sec": 247.9477,
+      "end_sec": 254.887967,
+      "duration_sec": 6.973633,
+      "num_frame_captions": 14,
+      "caption": "This scene features a brief interview or profile segment with Claire Pulver, a member of the class of 2013 who majored in Italian and History. She is shown in various shots, primarily outdoors on a campus during what appears to be a St. Patrick's Day celebration. Claire, a smiling young Black woman with braids, wears a green scarf along with other students in similar festive attire. The scene includes individual shots of her as well as moments where she is posing with a friend, a young white woman. Lower-third graphics consistently identify Claire and her academic details throughout the sequence."
+    },
+    {
+      "scene_index": 78,
+      "start_frame": 7640,
+      "end_frame": 7802,
+      "start_sec": 254.921333,
+      "end_sec": 260.326733,
+      "duration_sec": 5.438767,
+      "num_frame_captions": 11,
+      "caption": "This scene captures a lively outdoor celebration, likely a formal event such as a prom, graduation, or wedding. The focus is on a joyful young woman wearing a white dress and a distinctive green headband, who smiles and laughs brightly while interacting with the camera and her friends. She is surrounded by a group of similarly dressed peers, all appearing to be teens or young adults, in a festive atmosphere set against a brick building with arched windows. The gathering involves dancing and general merriment, conveying a sense of shared happiness and a special communal occasion."
+    },
+    {
+      "scene_index": 79,
+      "start_frame": 7803,
+      "end_frame": 7946,
+      "start_sec": 260.3601,
+      "end_sec": 265.131533,
+      "duration_sec": 4.8048,
+      "num_frame_captions": 9,
+      "caption": "This scene depicts a festive outdoor celebration, likely for St. Patrick's Day, centered around a large group of joyful young women. They are dressed uniformly in white dresses adorned with green accessories, including headbands, ties, and garlands. The group is seen smiling, laughing, and walking together in a procession, creating a lively and communal atmosphere. A key activity involves them collectively holding and presenting a large green wreath or leafy garland, which serves as a focal point for their gathering. The overall mood is one of shared happiness and ceremonial celebration in a park-like setting."
+    },
+    {
+      "scene_index": 80,
+      "start_frame": 7947,
+      "end_frame": 8045,
+      "start_sec": 265.1649,
+      "end_sec": 268.434833,
+      "duration_sec": 3.3033,
+      "num_frame_captions": 7,
+      "caption": "A Black woman with dreadlocks is being interviewed at a lively outdoor St. Patrick\u2019s Day celebration. She wears festive green accessories, including a shamrock scarf and necklaces, and speaks animatedly to the camera. The scene is filled with a crowd of people dressed in white and green, contributing to the vibrant holiday atmosphere. Her engagement with the interviewer and the surrounding festivities captures a moment of joyful participation in the communal event."
+    },
+    {
+      "scene_index": 81,
+      "start_frame": 8046,
+      "end_frame": 8178,
+      "start_sec": 268.4682,
+      "end_sec": 272.8726,
+      "duration_sec": 4.437767,
+      "num_frame_captions": 9,
+      "caption": "The scene depicts a celebratory outdoor parade or festival procession. A group of women, dressed in white with green sashes and laurel wreaths, march and dance joyfully down a tree-lined street. They carry leafy branches and wreaths, accompanied by applause from spectators who watch, film, and hold signs. The atmosphere is lively and communal under a bright sky, blending elements of a parade, protest, and cultural celebration through movement, music, and shared symbolism."
+    },
+    {
+      "scene_index": 82,
+      "start_frame": 8179,
+      "end_frame": 8262,
+      "start_sec": 272.905967,
+      "end_sec": 275.6754,
+      "duration_sec": 2.8028,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a celebratory ceremony, likely a graduation, held outdoors in front of a brick building. A group of young women, all wearing white dresses with green sashes, participate together. They are smiling and laughing, holding green leafy branches or garlands as part of the event. They stand in a line for a group photo or presentation, with attentive adults watching from the background. The consistent elements are their joyful expressions, coordinated attire, and the ceremonial greenery."
+    },
+    {
+      "scene_index": 83,
+      "start_frame": 8263,
+      "end_frame": 8347,
+      "start_sec": 275.708767,
+      "end_sec": 278.511567,
+      "duration_sec": 2.836167,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a vibrant outdoor celebration in a park, where a large group of young women form the core of the festivities. Dressed uniformly in white dresses and adorned with green wreaths or garlands, they participate in a joyful procession through the sunlit grounds. The mood is exuberant and communal, with many raising their arms in cheer as they gather and move together. Spectators watch from the sidelines, adding to the sense of a public, festive event. The overall atmosphere is one of collective celebration and bright, ceremonial joy."
+    },
+    {
+      "scene_index": 84,
+      "start_frame": 8348,
+      "end_frame": 8475,
+      "start_sec": 278.544933,
+      "end_sec": 282.7825,
+      "duration_sec": 4.270933,
+      "num_frame_captions": 9,
+      "caption": "This scene features an outdoor interview with two older women, one of whom is identified as Sally Nunneley from the class of 1963. They are standing in front of a building on a sunny day, addressing the camera. Throughout the scene, the woman on the right, who appears to be Sally, is the primary speaker, gesturing animatedly as she shares her story. The other woman listens attentively beside her. The setting and the conversational focus suggest a reflective or commemorative discussion, likely related to their shared experiences or alma mater."
+    },
+    {
+      "scene_index": 85,
+      "start_frame": 8476,
+      "end_frame": 8546,
+      "start_sec": 282.815867,
+      "end_sec": 285.151533,
+      "duration_sec": 2.369033,
+      "num_frame_captions": 4,
+      "caption": "A lively outdoor procession takes place on a sunny day under a bright blue sky. A cheerful crowd, predominantly dressed in white clothing, moves down a tree-lined street. Many participants are adorned with green leaf garlands, adding a festive, natural element to their attire. The atmosphere is one of joyful celebration, with people enthusiastically clapping, smiling, and waving as they participate in the parade. The overall scene captures a unified and spirited community event filled with positive energy and collective participation."
+    },
+    {
+      "scene_index": 86,
+      "start_frame": 8547,
+      "end_frame": 8642,
+      "start_sec": 285.1849,
+      "end_sec": 288.354733,
+      "duration_sec": 3.2032,
+      "num_frame_captions": 7,
+      "caption": "A lively parade or celebratory procession takes place on a sunny, tree-lined city street. A joyful group, primarily composed of older women, participates while dressed in coordinated white and yellow outfits, many adorned with green leafy wreaths and scarves. They carry signs, yellow bags, and leafy branches as they walk along, clapping, waving, and cheering enthusiastically. The overall atmosphere is one of communal celebration and festivity, with participants smiling and engaging with onlookers under the bright daylight."
+    },
+    {
+      "scene_index": 87,
+      "start_frame": 8643,
+      "end_frame": 8794,
+      "start_sec": 288.3881,
+      "end_sec": 293.426467,
+      "duration_sec": 5.071733,
+      "num_frame_captions": 10,
+      "caption": "This outdoor scene depicts a celebratory event, likely a ceremony or festival, centered around a group of young women in white dresses adorned with green wreaths or garlands. An elderly woman, distinguished by her white hair and attire, acts as a central figure. She first holds and carefully presents a large orange banner to the smiling group. The mood is joyful and communal, with the women laughing, cheering, and looking on with expressions of wonder. The elderly woman later claps enthusiastically and is also seen presenting a laurel wreath, suggesting a moment of honor or recognition within the gathering under the trees."
+    },
+    {
+      "scene_index": 88,
+      "start_frame": 8795,
+      "end_frame": 9003,
+      "start_sec": 293.459833,
+      "end_sec": 300.4001,
+      "duration_sec": 6.973633,
+      "num_frame_captions": 14,
+      "caption": "Two older women stand side by side outdoors, engaged in what appears to be a conversation or interview. Both wear glasses, light-colored shirts, and small blue pins or campaign buttons. One woman, often holding or speaking into a microphone, takes on the primary speaking role, while the other listens attentively. Their interaction suggests a formal or public exchange, possibly for media, set against the backdrop of a building with a staircase."
+    },
+    {
+      "scene_index": 89,
+      "start_frame": 9004,
+      "end_frame": 9169,
+      "start_sec": 300.433467,
+      "end_sec": 305.938967,
+      "duration_sec": 5.538867,
+      "num_frame_captions": 11,
+      "caption": "This scene depicts a festive outdoor procession, likely part of a graduation ceremony or cultural festival. A group of young women, predominantly dressed in white, march in a line down a sun-dappled, tree-lined street. Each participant is adorned with a green leafy wreath or garland, which they carry and sometimes wear as crowns. The atmosphere is joyful and ceremonial, with the participants smiling and occasionally waving to an implied crowd as they parade. The consistent elements of white attire, lush greenery, and the orderly, celebratory march define the scene's unified and traditional character."
+    },
+    {
+      "scene_index": 90,
+      "start_frame": 9170,
+      "end_frame": 9311,
+      "start_sec": 305.972333,
+      "end_sec": 310.677033,
+      "duration_sec": 4.738067,
+      "num_frame_captions": 9,
+      "caption": "This scene features an interview or direct address with Lori-Anne Ashwood '09 at a large, crowded outdoor event. She is a young Black woman with dreadlocks, often smiling and speaking to the camera, with her sunglasses or glasses perched on her head. Seated at the event among many other attendees at tables, she engages confidently with the viewer. The setting is bright and lively, and a blue banner clearly identifies her name and graduation year, confirming her as an alumna being highlighted at this gathering."
+    },
+    {
+      "scene_index": 91,
+      "start_frame": 9312,
+      "end_frame": 9332,
+      "start_sec": 310.7104,
+      "end_sec": 311.377733,
+      "duration_sec": 0.7007,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a ceremonial or celebratory gathering of women, all dressed in white, participating in an outdoor ritual. The group is arranged together, facing away from the viewer, which creates a sense of shared focus and collective purpose. Each participant holds a green, leafy wreath, suggesting a symbolic act, perhaps related to nature, commemoration, or a seasonal festival. The consistent attire and the props imply a formal, coordinated event. The overall atmosphere is one of quiet unity and tradition, as the women stand poised to proceed with their shared activity."
+    },
+    {
+      "scene_index": 92,
+      "start_frame": 9333,
+      "end_frame": 9363,
+      "start_sec": 311.4111,
+      "end_sec": 312.4121,
+      "duration_sec": 1.034367,
+      "num_frame_captions": 2,
+      "caption": "A group of young women walk together outdoors, holding green leafy branches aloft. The scene is bright and sunlit, suggesting a peaceful, communal activity. Their shared action and formation, seen from behind, imply a sense of unity and purpose as they move forward in the natural setting."
+    },
+    {
+      "scene_index": 93,
+      "start_frame": 9364,
+      "end_frame": 9451,
+      "start_sec": 312.445467,
+      "end_sec": 315.348367,
+      "duration_sec": 2.936267,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a celebratory outdoor procession, likely a traditional spring or May Day festival. A large group of young women, uniformly dressed in white, participate in the event. They are seen walking together while carrying and waving large green leafy branches and wreaths. The consistent imagery of the white dresses and vibrant foliage suggests a coordinated, ceremonial activity. The sunny setting and the collective action of the group, all viewed from behind, emphasize the communal and ritualistic nature of the gathering as they move through the landscape in a shared celebration."
+    },
+    {
+      "scene_index": 94,
+      "start_frame": 9452,
+      "end_frame": 9544,
+      "start_sec": 315.381733,
+      "end_sec": 318.451467,
+      "duration_sec": 3.1031,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a ceremonial outdoor gathering of young women, likely a celebratory or ritual event. They are uniformly dressed in white and are assembled before a red brick building on a sunny day. Many participants are holding or wearing green leafy garlands, wreaths, and branches, which they raise aloft in a collective gesture. The atmosphere is one of organized celebration, suggesting a procession or a unified performance. The consistent elements of white attire, verdant foliage, and the brick backdrop create a vivid tableau of a traditional or festive occasion."
+    },
+    {
+      "scene_index": 95,
+      "start_frame": 9545,
+      "end_frame": 9763,
+      "start_sec": 318.484833,
+      "end_sec": 325.758767,
+      "duration_sec": 7.3073,
+      "num_frame_captions": 14,
+      "caption": "This scene features an interview with two women, one of whom is identified as Abby Mather from the class of 1983, at a lively outdoor campus event. They are seated or standing on a grassy quad or park, smiling and speaking directly to the camera. The setting is a sunny day, and the background is bustling with a large crowd of students and alumni who are picnicking and socializing. The overall atmosphere is cheerful and communal, capturing a typical celebratory gathering like a reunion or campus picnic, with the interview serving as a focal point amidst the general festivities."
+    },
+    {
+      "scene_index": 96,
+      "start_frame": 9764,
+      "end_frame": 9940,
+      "start_sec": 325.792133,
+      "end_sec": 331.664667,
+      "duration_sec": 5.9059,
+      "num_frame_captions": 12,
+      "caption": "This scene depicts a vibrant, sunny outdoor parade or festive procession. A large group of participants, predominantly dressed in white, march down a tree-lined street. Many are adorned with green leafy wreaths or garlands, and some carry yellow banners, flags, or flowers. The atmosphere is celebratory and peaceful, with attendees smiling, clapping, and capturing the event with cameras. The consistent elements of white attire, green foliage, and bright daylight suggest a unified, likely ceremonial or cultural celebration taking place in a public, urban setting."
+    },
+    {
+      "scene_index": 97,
+      "start_frame": 9941,
+      "end_frame": 10020,
+      "start_sec": 331.698033,
+      "end_sec": 334.334,
+      "duration_sec": 2.669333,
+      "num_frame_captions": 6,
+      "caption": "This scene captures a pair of young women enjoying a festive St. Patrick's Day celebration. They are dressed in matching white outfits, accessorized with green scarves and other thematic items, posing together outdoors in front of a distinctive brick building. Their cheerful smiles and laughter convey a sense of shared joy and participation in the holiday spirit. The sequence concludes with them in a more crowded, dimly lit indoor setting, suggesting the celebration has continued into a lively social gathering."
+    },
+    {
+      "scene_index": 98,
+      "start_frame": 10021,
+      "end_frame": 10622,
+      "start_sec": 334.367367,
+      "end_sec": 354.420733,
+      "duration_sec": 20.086733,
+      "num_frame_captions": 40,
+      "caption": "A large, joyful crowd gathers outdoors under a canopy of leafy trees. Many participants, predominantly women, wear white dresses and adorn themselves with green wreaths, ribbons, and floral headpieces. They raise their arms energetically, dancing and celebrating beneath a long, suspended green garland that forms a leafy archway. The atmosphere is festive and ceremonial, with people waving orange flags and holding up phones to capture the moment, suggesting a ritualistic or seasonal celebration like May Day."
+    },
+    {
+      "scene_index": 99,
+      "start_frame": 10623,
+      "end_frame": 10749,
+      "start_sec": 354.4541,
+      "end_sec": 358.6583,
+      "duration_sec": 4.237567,
+      "num_frame_captions": 8,
+      "caption": "This scene begins with a close-up view of vibrant, rain-drenched green leaves, which frame and partially obscure the background. The camera's focus gradually clarifies to reveal a weathered stone monument, specifically a gravestone, situated within a garden or cemetery setting. The inscription on the marker becomes legible, identifying it as the resting place of Mary Lyon. Throughout the sequence, the lush foliage remains a persistent foreground element, creating a sense of discovery as the monument emerges from the blurred greenery into sharper view against a backdrop of other foliage and a dark fence."
+    },
+    {
+      "scene_index": 100,
+      "start_frame": 10750,
+      "end_frame": 10916,
+      "start_sec": 358.691667,
+      "end_sec": 364.230533,
+      "duration_sec": 5.572233,
+      "num_frame_captions": 11,
+      "caption": "This scene opens with a black screen before transitioning into a title card for a Mount Holyoke College production. The consistent visual is a split-screen graphic, with the left side in black crediting producer John Martins and the College's Office of Communications. The right side is a solid blue or teal background prominently featuring the large, white numeral \"175,\" which serves as a central logo. The scene functions as an introductory credit sequence, establishing the institutional producer and visually highlighting the significance of the number 175 for the forthcoming content."
+    }
+  ]
+}

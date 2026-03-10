@@ -1,0 +1,546 @@
+{
+  "video": "XkqCExn6_Us",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/XkqCExn6_Us.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_23.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 5631,
+  "num_scenes": 53,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 144,
+      "start_sec": 0.0,
+      "end_sec": 4.8048,
+      "duration_sec": 4.838167,
+      "num_frame_captions": 10,
+      "caption": "This scene features a shirtless young man with dark hair, who appears serious and pensive as he interacts with handwritten signs. He holds up several yellow notes with variations of the message \"JCBO LATE\" or \"JC BOY LATE\" written in blue marker, at times obscuring his face. The setting is a domestic interior with dark wooden cabinets and doors. His shifting expressions\u2014looking down, off to the side, or as if speaking\u2014suggest a moment of contemplation or rehearsal. The sequence creates an intimate, slightly tense atmosphere focused on the presentation and possible meaning of the cryptic handwritten text."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 145,
+      "end_frame": 238,
+      "start_sec": 4.838167,
+      "end_sec": 7.941267,
+      "duration_sec": 3.136467,
+      "num_frame_captions": 6,
+      "caption": "This scene is a slow, close-up progression of time on a digital alarm clock in a dark environment. The glowing red numerals advance from 8:15:21 to 8:15:24 AM, with the display becoming slightly clearer and the \"AM\" indicator appearing in the later frames. The consistent, dim setting and the steady, second-by-second count create a focused and slightly tense atmosphere, emphasizing the passage of time. The scene captures a mundane yet precise moment, likely building anticipation or marking a specific point in a narrative."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 239,
+      "end_frame": 314,
+      "start_sec": 7.974633,
+      "end_sec": 10.477133,
+      "duration_sec": 2.535867,
+      "num_frame_captions": 5,
+      "caption": "In a bedroom with a wooden dresser and a cluttered floor, a shirtless young man with dark hair is engaged in a series of solitary activities. He is first seen in a state of alertness, looking upward by a wooden door. He then moves to sit on a bed with a yellow patterned comforter, at times looking directly at the camera and reaching toward the wall. The scene culminates with him exercising on the bed, performing sit-ups while wearing striped socks and later lying down to stretch with his legs raised."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 315,
+      "end_frame": 347,
+      "start_sec": 10.5105,
+      "end_sec": 11.578233,
+      "duration_sec": 1.1011,
+      "num_frame_captions": 3,
+      "caption": "In this scene, a shirtless individual with dark hair is engaged in the task of organizing laundry on a tiled floor. The person is in a crouched or bent-over position, demonstrating focused activity. The actions involve reaching for a white plastic bag, likely containing items, and then actively folding or arranging a pile of clothes. The central activity centers on handling and managing garments, with a specific light-colored piece of clothing being manipulated. The overall impression is of a domestic chore being performed with attention on the floor-based sorting and folding of laundry."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 348,
+      "end_frame": 400,
+      "start_sec": 11.6116,
+      "end_sec": 13.346667,
+      "duration_sec": 1.768433,
+      "num_frame_captions": 3,
+      "caption": "In a cluttered bedroom, a person is preparing an outfit. They begin by bending over on the carpeted floor, likely to tie their shoes. The individual then holds up a pair of light-colored pants, presumably considering them for wear. Finally, they are shown standing near a wooden dresser and a bed with a colorful blanket, wearing dark shorts while the light pants are also present. The scene captures a brief, quiet moment of someone getting dressed and making clothing choices in their personal space."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 401,
+      "end_frame": 543,
+      "start_sec": 13.380033,
+      "end_sec": 18.1181,
+      "duration_sec": 4.771433,
+      "num_frame_captions": 10,
+      "caption": "In a cluttered, messy room filled with furniture and scattered belongings, a shirtless man engages in an intense and varied stretching routine. He performs dynamic movements, deep side splits, and contorted yoga poses on the floor, demonstrating significant flexibility. Throughout his workout, he intermittently interacts with his environment, playing a video game on a dual-monitor computer setup and energetically holding up a white object, such as a sheet or blanket. The scene captures a blend of focused physical exercise and casual, distracted activity within his disordered personal space."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 544,
+      "end_frame": 633,
+      "start_sec": 18.151467,
+      "end_sec": 21.1211,
+      "duration_sec": 3.003,
+      "num_frame_captions": 6,
+      "caption": "Based on the captions, this scene shows a person (referred to as a man or young man) performing a stretching or exercise routine in a cluttered room with a computer desk setup. The sequence progresses from static stretches on the floor to a more dynamic, mid-air kicking or lunging motion. The consistent setting\u2014a messy room with a desk, chair, and scattered belongings\u2014and the person's light-colored clothing suggest this is a continuous action in the same location. The action evolves from seated or floor stretches to an energetic, full-body movement."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 634,
+      "end_frame": 731,
+      "start_sec": 21.154467,
+      "end_sec": 24.391033,
+      "duration_sec": 3.269933,
+      "num_frame_captions": 6,
+      "caption": "This scene takes place in a room with wooden cabinets and a barred window. A young man in a light blue shirt is initially seen looking directly at the camera, his expression shifting from surprise to a more neutral or thoughtful gaze. The setting includes an open door to another room and a cap hanging by the window. The scene concludes with a sudden, dramatic shift as the man\u2019s face becomes obscured by a white cloth, his arms raised in a mid-motion gesture that suggests an abrupt, possibly startling, event occurring."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 732,
+      "end_frame": 755,
+      "start_sec": 24.4244,
+      "end_sec": 25.191833,
+      "duration_sec": 0.8008,
+      "num_frame_captions": 2,
+      "caption": "This scene presents a focused, observational look at a single, well-worn sneaker. The shot is a tight close-up, emphasizing the shoe's black and white color scheme and its state of use, highlighted by a noticeably loose lace. It rests on a clean, reflective tiled floor, which creates a simple, contrasting backdrop and suggests an indoor, possibly public, environment like a hallway or lobby. The composition and detail invite the viewer to contemplate the object's history and the person to whom it belongs, creating a moment of quiet, almost still-life introspection within the larger narrative."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 756,
+      "end_frame": 793,
+      "start_sec": 25.2252,
+      "end_sec": 26.459767,
+      "duration_sec": 1.267933,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a domestic interior, likely a home, where a person and a dog are both resting on the floor in separate areas. The dog is relaxed, lying on its back in a sunlit room near a doorway. Meanwhile, a person dressed in dark clothing is lying face down on a light-colored floor in what appears to be an adjacent space, with only their hand visible. The overall atmosphere is one of quiet repose, with natural light filtering into the room and domestic details like a window and a hanging cap suggesting a lived-in, peaceful environment."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 794,
+      "end_frame": 812,
+      "start_sec": 26.493133,
+      "end_sec": 27.093733,
+      "duration_sec": 0.633967,
+      "num_frame_captions": 2,
+      "caption": "This scene captures a moment of swift, energetic motion within a sunlit interior. The primary subject, a person wearing a blue shirt, is a dynamic blur, their form streaking across the frame as they move rapidly. The intense backlighting from a large window floods the room, creating a bright, high-contrast environment. This strong illumination contributes to an overexposed effect, particularly around the figure's silhouette and the back of their head. The overall impression is one of spontaneous, fleeting action, where speed and light overwhelm photographic clarity, freezing a transient instant of vigorous movement."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 813,
+      "end_frame": 865,
+      "start_sec": 27.1271,
+      "end_sec": 28.862167,
+      "duration_sec": 1.768433,
+      "num_frame_captions": 3,
+      "caption": "This scene takes place in a warmly lit interior, where a man stands before a bright window. He is dressed in a light blue shirt and dark pants, with a black backpack on his shoulders. His attention is fixed on the view outside, his posture shifting from facing the window with arms raised to a more contemplative stance with his back to the room. The strong backlight from the window creates a silhouette effect, emphasizing his focused observation of the world beyond the glass. The overall mood is one of quiet introspection and stillness."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 866,
+      "end_frame": 908,
+      "start_sec": 28.895533,
+      "end_sec": 30.296933,
+      "duration_sec": 1.434767,
+      "num_frame_captions": 3,
+      "caption": "This scene shows a person entering and then securing a residential balcony area. They first walk through an open doorway from indoors into a bright, sunlit outdoor space, passing potted plants. The individual, wearing a black shirt and light pants with a backpack, then moves across the balcony. The final action involves the person reaching through an open yellow metal gate from the outside to pull it closed, suggesting they are leaving the private balcony and ensuring it is shut behind them. The setting is a residential building with other structures and greenery visible in the background."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 909,
+      "end_frame": 952,
+      "start_sec": 30.3303,
+      "end_sec": 31.765067,
+      "duration_sec": 1.468133,
+      "num_frame_captions": 3,
+      "caption": "A young man leans over a balcony railing, reaching toward potted plants with a backdrop of green hills. The scene then shifts to a close-up of a person in urgent, blurry motion, their mouth open as if shouting. Finally, a man in a light shirt is seen in profile, looking intently ahead in a dim indoor space. The sequence suggests a sudden, reactive shift from a calm outdoor moment to a state of alarmed motion and focused attention indoors."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 953,
+      "end_frame": 1010,
+      "start_sec": 31.798433,
+      "end_sec": 33.700333,
+      "duration_sec": 1.935267,
+      "num_frame_captions": 4,
+      "caption": "A man in a white shirt with a black backpack approaches an elevator in a dimly lit, tiled hallway. He presses the call button on the panel next to the metallic doors. After a moment, the elevator arrives, its doors opening. The man then walks forward and enters the elevator car, completing his action of summoning and boarding the lift. The scene captures a simple, everyday transition in an urban or institutional setting."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 1011,
+      "end_frame": 1029,
+      "start_sec": 33.7337,
+      "end_sec": 34.3343,
+      "duration_sec": 0.633967,
+      "num_frame_captions": 1,
+      "caption": "The scene depicts a person moving quickly through a hallway, their motion creating a blur that suggests urgency or haste. The environment is an institutional corridor with beige walls and metallic handrails, contributing to a sterile, functional atmosphere. The figure's speed and the resulting visual distortion are the focal points, conveying a sense of transit or pursuit without revealing specific details about the individual or their destination. The overall impression is one of fleeting movement through an impersonal space."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 1030,
+      "end_frame": 1077,
+      "start_sec": 34.367667,
+      "end_sec": 35.9359,
+      "duration_sec": 1.6016,
+      "num_frame_captions": 3,
+      "caption": "This scene unfolds in a dimly lit interior, likely a hallway, where the primary focus is a person wearing a light blue shirt and a black backpack. The individual is captured in motion, walking through the space, with the presence of at least one other person visible in the background. The overall footage has a candid, slightly unstable quality, conveyed through blurry shots and low lighting that emphasize movement and an informal, possibly handheld, recording style. The sequence suggests a moment of casual transit or observation within a confined, poorly illuminated environment."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 1078,
+      "end_frame": 1143,
+      "start_sec": 35.969267,
+      "end_sec": 38.1381,
+      "duration_sec": 2.2022,
+      "num_frame_captions": 5,
+      "caption": "A young man wearing a light blue shirt and a black backpack is alone inside an elevator. He stands facing forward, with his figure clearly reflected in the mirrored walls that surround him. His attention is directed upward, perhaps looking at the floor indicator or the ceiling, and his expression is serious and contemplative. The scene captures a quiet, still moment of transit, emphasizing his solitude through the multiple reflections in the enclosed space. The consistent details across frames convey a single, continuous shot focused on his waiting posture and the mirrored interior of the elevator."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 1144,
+      "end_frame": 1216,
+      "start_sec": 38.171467,
+      "end_sec": 40.573867,
+      "duration_sec": 2.435767,
+      "num_frame_captions": 5,
+      "caption": "A young man in a light blue shirt and a backpack is inside an elevator with mirrored walls. He stands still with a serious expression, his reflection visible around him. The scene then shifts as he exits the elevator and walks forward with a focused expression down a corridor that also has mirrored walls. The sequence shows his transition from a stationary, contemplative moment in the elevator to purposeful movement."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 1217,
+      "end_frame": 1234,
+      "start_sec": 40.607233,
+      "end_sec": 41.174467,
+      "duration_sec": 0.6006,
+      "num_frame_captions": 1,
+      "caption": "A person in dark clothing moves cautiously through an industrial space, navigating between tall, beige panels that create a narrow, confined passage. The setting suggests a warehouse or factory, with the textured surfaces and tight gap emphasizing a sense of concealment or stealth. The individual's deliberate movement implies a purpose, perhaps to avoid detection or to traverse a restricted area within the utilitarian environment."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 1235,
+      "end_frame": 1278,
+      "start_sec": 41.207833,
+      "end_sec": 42.6426,
+      "duration_sec": 1.468133,
+      "num_frame_captions": 3,
+      "caption": "A person in a white outfit and backpack is seen in a sequence of actions that suggest a hurried departure. They are first captured rushing out of an elevator into a tiled hallway. The person then runs away from the entrance of a building, transitioning from an indoor space to a bright, sunlit outdoor area. The scene concludes with them walking away into this outdoor environment, which features trees, indicating a successful exit from the building into a natural setting."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 1279,
+      "end_frame": 1510,
+      "start_sec": 42.675967,
+      "end_sec": 50.383667,
+      "duration_sec": 7.741067,
+      "num_frame_captions": 15,
+      "caption": "A cream-colored SMRT bus with a red stripe travels down a road, passing a covered bus stop where several people are waiting. The scene is set against a backdrop of lush green foliage and a hillside, with a curved pedestrian staircase nearby. Various individuals, including a person in white, walk or perform actions near the stop while others wait under the shelter. A yellow taxi and other vehicles occasionally speed past the location."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 1511,
+      "end_frame": 1551,
+      "start_sec": 50.417033,
+      "end_sec": 51.7517,
+      "duration_sec": 1.368033,
+      "num_frame_captions": 3,
+      "caption": "In this scene, a young man with dark hair, wearing a light blue shirt and carrying a black backpack, is walking outdoors along a tree-lined path. His journey takes him from a residential street into a more open, park-like setting. As he moves, his demeanor is pensive and somewhat concerned; he is seen looking upward thoughtfully and then gazing off into the distance. The sequence captures a quiet moment of reflection or contemplation during his solitary walk through the urban green space."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 1552,
+      "end_frame": 1605,
+      "start_sec": 51.785067,
+      "end_sec": 53.5535,
+      "duration_sec": 1.8018,
+      "num_frame_captions": 4,
+      "caption": "This scene follows a person walking away from the camera down a tree-lined urban sidewalk, carrying a backpack. The perspective is primarily an over-the-shoulder shot, creating a sense of movement as the individual progresses. The background is a dynamic, slightly blurred cityscape featuring traffic on a nearby road and the distinct structure of an overpass or bridge. The overall atmosphere is hazy and in motion, conveyed through the soft focus on passing vehicles and foliage. The sequence captures a brief, everyday moment of urban transit, emphasizing the walker's journey against the backdrop of a busy, blurred city environment."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 1606,
+      "end_frame": 1652,
+      "start_sec": 53.586867,
+      "end_sec": 55.121733,
+      "duration_sec": 1.568233,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a person in a white shirt, wearing a backpack, using a transit station's automated entry system. The individual successfully swipes an access card through a turnstile reader, which responds with a glowing green light to authorize passage. They then proceed forward, moving through a row of these turnstiles as the system confirms their entry. The final perspective is a close, slightly blurred shot focusing on the mechanical structure of a dark turnstile against a station wall, emphasizing the routine, functional environment of the commute. The sequence captures a brief, everyday moment of accessing public transportation."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 1653,
+      "end_frame": 1810,
+      "start_sec": 55.1551,
+      "end_sec": 60.393667,
+      "duration_sec": 5.271933,
+      "num_frame_captions": 10,
+      "caption": "This scene takes place in a modern subway station. Initially, a dark train is stationary at the platform under the station's bright lighting. It then accelerates, speeding past the platform in a blur of motion. During this, a person, possibly a commuter with a backpack, is seen running across the tiled floor. The individual later stops, bending over as if to tie a shoe or adjust something on the ground. Finally, they stand alone on the platform, gazing upward through the station's glass barriers at the sky outside, as the train has departed."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 1811,
+      "end_frame": 1830,
+      "start_sec": 60.427033,
+      "end_sec": 61.061,
+      "duration_sec": 0.667333,
+      "num_frame_captions": 2,
+      "caption": "In a train station, a young man with a backpack pauses, his attention captured by something overhead. His expression shifts to one of surprise and concern as he gazes upward, illuminated by the bright station lights. The scene suggests a moment of sudden realization or an unexpected sight, perhaps related to the large clock visible in the background, which hints at the importance of time. The slightly dim, corridor-like setting adds to the atmosphere of a brief, tense interruption in his journey."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 1831,
+      "end_frame": 1858,
+      "start_sec": 61.094367,
+      "end_sec": 61.995267,
+      "duration_sec": 0.934267,
+      "num_frame_captions": 1,
+      "caption": "A man waits on a train platform, his attention fixed on the arrival area. The station environment is softly lit, suggesting either an early morning or evening setting. The prominent clock indicates the importance of time, heightening a sense of anticipation. His solitary stance and focused gaze convey a mood of patient expectation, perhaps for a departing or incoming train. The scene captures a quiet, transient moment of travel, emphasizing the universal experience of waiting in transit hubs."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 1859,
+      "end_frame": 1934,
+      "start_sec": 62.028633,
+      "end_sec": 64.531133,
+      "duration_sec": 2.535867,
+      "num_frame_captions": 5,
+      "caption": "This scene unfolds within a modern train station, likely late at night or in a dimly lit environment. The perspective is consistently a low-angle, slightly blurry shot, focusing on large round clocks suspended from the ceiling. The setting shifts between a brightly lit transit hub and a more industrial-style platform, with signs for \"Platform 8\" and \"Platform B\" visible on pillars. A person is briefly seen walking through the space in profile, but the primary focus remains on the station's architecture and the prominent timepieces, creating an atmospheric sense of transit, waiting, and quiet movement."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 1935,
+      "end_frame": 2008,
+      "start_sec": 64.5645,
+      "end_sec": 67.000267,
+      "duration_sec": 2.469133,
+      "num_frame_captions": 5,
+      "caption": "This scene follows a person walking through a campus-like park with a distinctive blue-roofed walkway. Initially seen on a grassy path and then on the covered walkway, the individual proceeds down a set of concrete steps. The perspective shifts from a ground-level view to an elevated angle, looking down past a blue railing. The sequence culminates with the person suddenly losing their balance, as they are shown crouching or falling onto the grassy area beneath the structure. The scene captures a brief, unexpected stumble during an otherwise ordinary stroll through the green, structured environment."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 2009,
+      "end_frame": 2081,
+      "start_sec": 67.033633,
+      "end_sec": 69.436033,
+      "duration_sec": 2.435767,
+      "num_frame_captions": 5,
+      "caption": "This scene follows a person in light clothing, possibly wearing a backpack, as they move along a blue-railed walkway or barrier in a grassy outdoor area. The perspective shifts between low-angle and blurry shots from behind the railing, emphasizing a sense of motion and a casual, candid feel. The action culminates with a small animal, resembling a goat or sheep, dynamically leaping over the same blue metal fence within the yard. The sequence connects the human activity with an unexpected animal behavior in the shared, loosely defined space."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 2082,
+      "end_frame": 2197,
+      "start_sec": 69.4694,
+      "end_sec": 73.306567,
+      "duration_sec": 3.870533,
+      "num_frame_captions": 8,
+      "caption": "This scene depicts a person navigating an urban environment, interacting with a distinctive blue metal railing and concrete architecture. The individual, wearing a backpack, is seen climbing over a low wall and later ascending a staircase framed by the same railing. The action escalates as the person climbs the railing on a building's side and is then captured mid-leap or fall from a balcony. The sequence concludes with a more static view of the person leaning from an upper-floor window, observed from below through the railing, suggesting a narrative of urban exploration or parkour."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 2198,
+      "end_frame": 2286,
+      "start_sec": 73.339933,
+      "end_sec": 76.2762,
+      "duration_sec": 2.969633,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a young skateboarder energetically navigating an indoor architectural space, likely a museum or institutional building with sunlit courtyards and hallways. He is seen running through a columned courtyard before transitioning to performing a series of skateboarding tricks. The action moves indoors to a brightly lit hallway, where he executes a jump over a long bench and another trick over a ledge. The sequence captures his dynamic motion and focus, blending athleticism with the clean, structured lines of the building's interior and exterior spaces."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 2287,
+      "end_frame": 2452,
+      "start_sec": 76.309567,
+      "end_sec": 81.815067,
+      "duration_sec": 5.538867,
+      "num_frame_captions": 11,
+      "caption": "This urban plaza, framed by modern architecture and palm trees, serves as a dynamic stage for athletic movement. Individuals in various outfits engage in a series of energetic feats, including running, parkour leaps, and skateboarding tricks off ledges and steps. The scene is dominated by mid-air acrobatics, with multiple performers captured executing flips and jumps against the backdrop of the concrete courtyard and surrounding buildings. The overall impression is one of spontaneous, skillful physical expression within a contemporary public space."
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 2453,
+      "end_frame": 2505,
+      "start_sec": 81.848433,
+      "end_sec": 83.5835,
+      "duration_sec": 1.768433,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a person breakdancing on a street in front of a large residential building. Their performance involves dynamic moves, including tumbles and spins. The action escalates dramatically when a large, dark object plummets from the hazy, yellow sky and crashes into the side of the building. This sudden disaster interrupts the dance, transforming the scene from one of urban artistry to one of chaos and impending destruction."
+    },
+    {
+      "scene_index": 35,
+      "start_frame": 2506,
+      "end_frame": 2577,
+      "start_sec": 83.616867,
+      "end_sec": 85.9859,
+      "duration_sec": 2.4024,
+      "num_frame_captions": 4,
+      "caption": "In an urban plaza with tiled ground and surrounding buildings, a person in light-colored clothing and a backpack is seen moving away from the camera. The individual\u2019s action progresses from walking to running, suggesting a sense of urgency or alarm. This is heightened by the presence of a large, billowing cloud of smoke visible in the background of the initial frame. The scene unfolds beneath a covered walkway, with parked cars and trees in the vicinity, creating a contrast between the ordinary setting and the disruptive event prompting the person's hurried departure."
+    },
+    {
+      "scene_index": 36,
+      "start_frame": 2578,
+      "end_frame": 2716,
+      "start_sec": 86.019267,
+      "end_sec": 90.623867,
+      "duration_sec": 4.637967,
+      "num_frame_captions": 10,
+      "caption": "This scene follows a skateboarder navigating a tight urban alleyway, performing a series of athletic tricks. The action begins with the skater rolling down the narrow passage between concrete and brick walls. They then execute an aerial trick, grabbing the wall mid-air. The sequence continues with the skater leaping over a low concrete barrier and performing another trick under a covered walkway. The environment is consistently confined, featuring cinder block walls, red-tiled roofs, and parked cars, framing the skater's dynamic movements from dramatic low-angle perspectives."
+    },
+    {
+      "scene_index": 37,
+      "start_frame": 2717,
+      "end_frame": 2839,
+      "start_sec": 90.657233,
+      "end_sec": 94.727967,
+      "duration_sec": 4.1041,
+      "num_frame_captions": 8,
+      "caption": "The scene depicts a person fleeing through an urban park and alleyway. They begin by walking and then running along a paved path. Their escape intensifies as they leap over obstacles and scale a tall concrete block wall. Finally, they are shown climbing a tall brick wall in an alley, suggesting a determined effort to evade pursuit. The sequence shows a progression from rapid movement on the ground to overcoming vertical barriers in the environment."
+    },
+    {
+      "scene_index": 38,
+      "start_frame": 2840,
+      "end_frame": 2919,
+      "start_sec": 94.761333,
+      "end_sec": 97.3973,
+      "duration_sec": 2.669333,
+      "num_frame_captions": 5,
+      "caption": "In a rugged outdoor setting, a young man is engaged in a sequence of physical activities on and around a stone structure. He begins by cautiously peering over a stone wall, as if scouting the area. He then performs push-ups on the rough stone surface, demonstrating focus and exertion. Following this, he is seen leaning forward against the wall and later crouching on a stone ledge, reaching down as if to test his balance or retrieve something. The scene concludes with him walking steadily along the narrow ledge, suggesting a continuous, deliberate traversal of the challenging terrain."
+    },
+    {
+      "scene_index": 39,
+      "start_frame": 2920,
+      "end_frame": 3151,
+      "start_sec": 97.430667,
+      "end_sec": 105.138367,
+      "duration_sec": 7.741067,
+      "num_frame_captions": 16,
+      "caption": "This scene depicts a person navigating a quiet urban courtyard with stone walls, benches, and a distinctive red-tiled pavilion. The individual engages in various activities, beginning with walking across the paved plaza and past a canal. Their actions become more dynamic as they are seen skateboarding through the area and then climbing onto a low brick wall. The sequence culminates in moments of heightened motion, including the person crouching on the wall, then falling or jumping from it, before finally running beneath the covered walkway. The setting remains consistent, framed by surrounding buildings under an overcast sky."
+    },
+    {
+      "scene_index": 40,
+      "start_frame": 3152,
+      "end_frame": 3313,
+      "start_sec": 105.171733,
+      "end_sec": 110.543767,
+      "duration_sec": 5.4054,
+      "num_frame_captions": 10,
+      "caption": "The scene depicts a skateboarder performing a series of tricks in an urban environment featuring stairs and metal railings. The action includes grinding along a railing, executing mid-air jumps over the stairs, and attempting a daring trick on a ramp. The sequence captures moments of dynamic movement, such as running down the stairs and a potential fall, all set against a backdrop of modern buildings and concrete walkways. The overall impression is one of energetic and risky skateboarding maneuvers."
+    },
+    {
+      "scene_index": 41,
+      "start_frame": 3314,
+      "end_frame": 3411,
+      "start_sec": 110.577133,
+      "end_sec": 113.8137,
+      "duration_sec": 3.269933,
+      "num_frame_captions": 7,
+      "caption": "This scene depicts a person in light-colored clothing, carrying a backpack, navigating a set of wide, modern outdoor concrete stairs with metal railings. The individual is seen both running up and down the staircase, at times holding the railing for support, suggesting a sense of urgency or exercise. The setting is an urban green space with grassy areas and directional signs, including one for \"Port A.\" In one instance, the person is accompanied by a small dog while ascending. The overall activity centers on brisk movement and traversal of this architectural feature within a public, landscaped environment."
+    },
+    {
+      "scene_index": 42,
+      "start_frame": 3412,
+      "end_frame": 3509,
+      "start_sec": 113.847067,
+      "end_sec": 117.083633,
+      "duration_sec": 3.269933,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts an elevated pedestrian overpass, constructed of concrete with a protective canopy and metal railings, arching gracefully over a dense, verdant forest. The structure is integrated into a lush park setting, surrounded by tall green trees and adorned with cascading purple flowering vines. People are seen walking along the walkway, emphasizing its function as a thoroughfare. The overall impression is of a modern, accessible path that harmoniously blends with the natural environment, allowing visitors to traverse the canopy level while enjoying the serene, green views below."
+    },
+    {
+      "scene_index": 43,
+      "start_frame": 3510,
+      "end_frame": 3700,
+      "start_sec": 117.117,
+      "end_sec": 123.456667,
+      "duration_sec": 6.373033,
+      "num_frame_captions": 13,
+      "caption": "This scene depicts a person navigating a set of outdoor stairs, with the action shifting between ascent and descent. The individual, wearing a backpack and sometimes a white shirt, is seen walking, running, and even skateboarding on the staircase, which features metal railings and a covered walkway. The sequence includes moments of instability, such as stumbling or falling, and concludes with the person in a prone position at the bottom of the stairs and later sitting at the top. A bicycle is present nearby, and the setting includes elements like a chain-link fence and a street with a car."
+    },
+    {
+      "scene_index": 44,
+      "start_frame": 3701,
+      "end_frame": 3943,
+      "start_sec": 123.490033,
+      "end_sec": 131.564767,
+      "duration_sec": 8.1081,
+      "num_frame_captions": 16,
+      "caption": "A person walks and then runs away down a tree-lined path, their back to the camera. The scene transitions from a blurred, dreamlike quality to a clearer, sun-dappled environment. The path is flanked by a chain-link fence, with parked cars visible on the adjacent road. The overall sequence shows the figure moving from a state of obscured motion into a defined setting of a suburban or park-like area under bright daylight."
+    },
+    {
+      "scene_index": 45,
+      "start_frame": 3944,
+      "end_frame": 4296,
+      "start_sec": 131.598133,
+      "end_sec": 143.3432,
+      "duration_sec": 11.778433,
+      "num_frame_captions": 24,
+      "caption": "This scene depicts a young man in a school uniform, consisting of a light blue shirt, dark tie, and suspenders, experiencing a moment of intense emotional distress and anxiety. He is shown in various close-ups, initially with his head bowed and hands gripping his head in frustration. His agitation escalates as he repeatedly adjusts his tie and collar, his expressions shifting from contemplative to startled and alarmed. The sequence culminates in him frantically running his hands through his hair while wearing glasses, visually conveying his mounting stress and inner turmoil within a plain, indoor setting."
+    },
+    {
+      "scene_index": 46,
+      "start_frame": 4297,
+      "end_frame": 4509,
+      "start_sec": 143.376567,
+      "end_sec": 150.4503,
+      "duration_sec": 7.1071,
+      "num_frame_captions": 14,
+      "caption": "This scene follows a young man in a white school uniform, likely a student, as he moves through different areas of a campus. It begins in a dimly lit, shadowy outdoor corridor with pillars and tropical foliage, where he is seen walking and looking at his hands or phone. The setting then transitions to a bright, sunlit brick plaza or walkway. Here, his pace quickens to a brisk walk or even a run as he crosses the open area, simultaneously adjusting his tie and backpack straps, suggesting he is in a hurry or preparing for his day."
+    },
+    {
+      "scene_index": 47,
+      "start_frame": 4510,
+      "end_frame": 4589,
+      "start_sec": 150.483667,
+      "end_sec": 153.119633,
+      "duration_sec": 2.669333,
+      "num_frame_captions": 5,
+      "caption": "This scene features a lone performer in white clothing positioned at the center of a vast, sunlit plaza. The setting is an architectural space defined by a covered colonnade of large pillars, which frames the open courtyard. The plaza floor is a striking, ornate pattern of orange tiles with geometric and botanical designs. Surrounded by greenery and under bright daylight, the figure stands motionless and isolated, suggesting a moment of poised anticipation in what appears to be a dance or theatrical performance. The composition emphasizes the individual's solitude against the grand, patterned expanse of the environment."
+    },
+    {
+      "scene_index": 48,
+      "start_frame": 4590,
+      "end_frame": 4988,
+      "start_sec": 153.153,
+      "end_sec": 166.432933,
+      "duration_sec": 13.3133,
+      "num_frame_captions": 27,
+      "caption": "This scene depicts a student in a school uniform grappling with academic pressure and time management. He begins by looking upward in awe, then quickly shifts to expressions of confusion and frustration, rubbing his head as if overwhelmed. His agitation grows as he speaks animatedly, and the visual motif of days of the week begins to appear around him, starting with \"MON\" and progressively building to a full week. The floating text visually represents his chaotic schedule, surrounding him as he gestures frantically. The scene culminates with a shift in tone as he smiles, with the prominent word \"SUN\" suggesting a moment of relief or resolution at the week's end."
+    },
+    {
+      "scene_index": 49,
+      "start_frame": 4989,
+      "end_frame": 5020,
+      "start_sec": 166.4663,
+      "end_sec": 167.500667,
+      "duration_sec": 1.067733,
+      "num_frame_captions": 2,
+      "caption": "This scene consists of a sustained period of complete darkness. The video presents a uniformly black screen, devoid of any visual information, objects, or discernible details across multiple frames. This absence of imagery creates a void-like or transitional moment, which may serve to punctuate the narrative, indicate a passage of time, or establish a particular mood. The consistent blackness suggests a deliberate cinematic choice, potentially building tension, signifying a lack of visual stimulus, or marking a break in the visual sequence before the next scene begins."
+    },
+    {
+      "scene_index": 50,
+      "start_frame": 5021,
+      "end_frame": 5534,
+      "start_sec": 167.534033,
+      "end_sec": 184.651133,
+      "duration_sec": 17.150467,
+      "num_frame_captions": 34,
+      "caption": "This scene presents the closing credits of a short film or video, overlaid on a consistent visual of a person walking away from the camera through various outdoor architectural spaces. The sequence begins by crediting the starring actor, Nyan Lin Cho, and then acknowledges the director and editor, Nachos, followed by the composer, John Paul Balthazar Kwan. It subsequently lists the camera operators before concluding with a \"Thanks for Watching\" message. Throughout, the background remains a softly blurred, sunlit environment featuring walkways, greenery, and modern building entrances, maintaining a cohesive and contemplative aesthetic as the credits roll."
+    },
+    {
+      "scene_index": 51,
+      "start_frame": 5535,
+      "end_frame": 5584,
+      "start_sec": 184.6845,
+      "end_sec": 186.319467,
+      "duration_sec": 1.668333,
+      "num_frame_captions": 4,
+      "caption": "This scene takes place in a modern, tiled hallway featuring a stainless steel elevator. The elevator door, which has narrow windows, is initially closed, set within the wall. It then opens, revealing the interior. A man emerges from within the elevator, peering out from the partially open door into the hallway. Throughout the sequence, a bright, sunlit outdoor area with visible greenery is consistently seen through an adjacent doorway or opening, providing a vivid contrast to the indoor setting. The action centers on the man's arrival and his momentary pause to look out from the elevator car."
+    },
+    {
+      "scene_index": 52,
+      "start_frame": 5585,
+      "end_frame": 5630,
+      "start_sec": 186.352833,
+      "end_sec": 187.854333,
+      "duration_sec": 1.534867,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a person exiting a building, transitioning from an interior hallway to the outdoors. The individual, carrying a backpack, is first seen near an elevator within a tiled corridor. They then proceed through a doorway, emerging into a bright, sunlit environment filled with trees. The sequence suggests a journey from a confined, artificial space into a natural, open area. The contrasting lighting\u2014from the dim elevator interior to the vibrant daylight\u2014highlights this passage and the shift in setting as the person leaves the building behind."
+    }
+  ]
+}

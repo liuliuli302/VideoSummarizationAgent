@@ -1,0 +1,546 @@
+{
+  "video": "b626MiF1ew4",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/b626MiF1ew4.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_22.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 24.0,
+  "total_frames": 5661,
+  "num_scenes": 53,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 171,
+      "start_sec": 0.0,
+      "end_sec": 7.125,
+      "duration_sec": 7.166667,
+      "num_frame_captions": 12,
+      "caption": "This scene takes place in an outdoor courtyard with a brick patio. Two men are engaged in a physical exercise routine, performing push-ups on the ground. A third man observes their activity, seated on a nearby brick ledge. The setting remains consistent throughout, with the primary action focused on the two individuals exercising while being watched by their companion. The scene captures a moment of casual outdoor fitness, emphasizing the repetitive motion of the push-ups and the static, observant presence of the third person in the background."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 172,
+      "end_frame": 436,
+      "start_sec": 7.166667,
+      "end_sec": 18.166667,
+      "duration_sec": 11.041667,
+      "num_frame_captions": 18,
+      "caption": "This scene shows three young men engaging in a coordinated outdoor exercise or parkour session against a brick wall. The primary activity involves one man repeatedly performing sit-ups on a low ledge or the ground in the foreground. Meanwhile, his companions interact with the wall itself: one climbs up its side, and another stands or balances atop the structure. The actions appear dynamic and athletic, suggesting a practice of strength, agility, and possibly stunts, with the climber and the person on top occasionally changing positions relative to the individual exercising below."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 437,
+      "end_frame": 489,
+      "start_sec": 18.208333,
+      "end_sec": 20.375,
+      "duration_sec": 2.208333,
+      "num_frame_captions": 3,
+      "caption": "This scene focuses on a promotional item for a local athletic group. The camera holds a tight, steady shot on a dark green t-shirt, clearly highlighting its central design. The primary visual element is a white logo that combines text and a simple graphic. The text prominently reads \"Charlotte Parkour,\" identifying the organization, while the graphic features a set of stylized footprints, symbolizing the movement and discipline of parkour. The scene serves to showcase this branded merchandise, emphasizing the group's name and its thematic connection to dynamic, urban movement through a clean and recognizable emblem."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 490,
+      "end_frame": 665,
+      "start_sec": 20.416667,
+      "end_sec": 27.708333,
+      "duration_sec": 7.333333,
+      "num_frame_captions": 12,
+      "caption": "This scene features Steven Erdmanczyk, identified by on-screen text as a member of Charlotte Parkour, speaking in an outdoor interview setting. He is a bearded man with short hair, wearing a green shirt. The backdrop consists of stone structures, including textured walls and pillars, with trees visible in the background. Throughout the scene, he alternates between looking directly at the camera while speaking and looking away thoughtfully or with a focused expression. The overall tone is contemplative and direct, as he engages with the interviewer or audience from this fixed, architectural location."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 666,
+      "end_frame": 731,
+      "start_sec": 27.75,
+      "end_sec": 30.458333,
+      "duration_sec": 2.75,
+      "num_frame_captions": 4,
+      "caption": "In this scene, a person demonstrates a handstand on the edge of a large, domed structure. The architectural landmark, covered in tiles, features a prominent tall white column nearby. The individual maintains the inverted pose on the flat top of the dome, with the surrounding environment consisting of trees and urban buildings visible under an overcast sky. Throughout the activity, a bird is seen flying in the vicinity, adding a dynamic element to the otherwise still, architectural setting. The scene captures a moment of balance and physical skill against the backdrop of this distinctive, historic-looking structure."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 732,
+      "end_frame": 820,
+      "start_sec": 30.5,
+      "end_sec": 34.166667,
+      "duration_sec": 3.708333,
+      "num_frame_captions": 6,
+      "caption": "In a park-like campus setting, a group of three young men walks together along a paved brick pathway. They are moving away from the camera, heading from a paved area toward a grassy field framed by trees and a brick wall. The scene has the casual atmosphere of students traversing campus, with some individuals carrying backpacks and bags. One man in a black shirt and sunglasses appears to be at the front, subtly leading the group as they proceed across the courtyard and plaza. Their movement suggests a shared purpose or destination within this green, collegiate environment."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 821,
+      "end_frame": 858,
+      "start_sec": 34.208333,
+      "end_sec": 35.75,
+      "duration_sec": 1.583333,
+      "num_frame_captions": 3,
+      "caption": "This scene features a bearded man with short, light brown hair wearing a green t-shirt. He is positioned against a soft-focus background of a textured wall and outdoor greenery. The sequence captures a shift in his focus and expression. Initially, he looks directly at the camera with his mouth slightly agape, creating a moment of direct address or reaction. Subsequently, his gaze turns away, adopting a more introspective and thoughtful demeanor as he looks off-camera. The scene thus conveys a quiet transition from outward engagement to inward contemplation within a single, consistent setting."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 859,
+      "end_frame": 998,
+      "start_sec": 35.791667,
+      "end_sec": 41.583333,
+      "duration_sec": 5.833333,
+      "num_frame_captions": 9,
+      "caption": "This scene follows a bearded man in a green Charlotte Hornets t-shirt engaged in an intense, athletic activity outdoors. He is initially seen peering over a fence before moving into a series of dynamic poses, including crouching low to the ground and reaching out with both arms. The camera captures him from various angles, including low perspectives that emphasize his upward gaze and the expansive sky. His expressions are focused and determined throughout, suggesting he is preparing for or reacting to a physical challenge, likely a sport, set against a bright, open environment."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 999,
+      "end_frame": 1123,
+      "start_sec": 41.625,
+      "end_sec": 46.791667,
+      "duration_sec": 5.208333,
+      "num_frame_captions": 8,
+      "caption": "This scene captures a skateboarder in a green shirt performing a series of tricks on a sunny university campus. The action centers on a set of brick steps and a low wall within a paved courtyard, with modern brick buildings and trees forming the backdrop. The skateboarder is seen riding down the steps, executing a mid-air jump, and leaping over the wall. The dynamic sequence conveys a sense of motion and skill, set against the casual backdrop of other students walking and biking through the active campus grounds."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 1124,
+      "end_frame": 1160,
+      "start_sec": 46.833333,
+      "end_sec": 48.333333,
+      "duration_sec": 1.541667,
+      "num_frame_captions": 3,
+      "caption": "This scene follows a young man with red hair and a beard, dressed in a green shirt, as he walks briskly outdoors. He moves in profile and then away from the camera, passing a distinctive red brick wall. His motion creates a sense of speed, with the background elements\u2014including a building and a green umbrella\u2014appearing blurred. The sequence captures a continuous moment of transit, emphasizing the subject's movement against the static urban backdrop. The consistent focus is on his purposeful walk and the contrasting textures of his figure and the brick wall."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 1161,
+      "end_frame": 1183,
+      "start_sec": 48.375,
+      "end_sec": 49.291667,
+      "duration_sec": 0.958333,
+      "num_frame_captions": 1,
+      "caption": "In this dynamic scene, a person in vibrant athletic wear is seen performing a dramatic, airborne maneuver. The individual, clad in a green shirt and orange-striped pants, is propelled against the textured surface of a brick wall, suggesting a moment of high-energy action. The backdrop of a building with prominent glass doors frames the event, implying an urban or public setting. The motion captured is one of controlled athleticism, likely a parkour-style jump or a staged stunt, where the figure appears to be defying gravity in a brief, suspended instant before making contact with the wall."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 1184,
+      "end_frame": 1262,
+      "start_sec": 49.333333,
+      "end_sec": 52.583333,
+      "duration_sec": 3.291667,
+      "num_frame_captions": 6,
+      "caption": "This scene follows a young man with red hair wearing a green shirt in an outdoor urban setting featuring a brick wall and modern architecture. He is first seen leaning over the wall, observing the surroundings. He then begins to move, walking and eventually running past the wall and a covered walkway. The setting includes elements like green umbrellas, trees, and buildings in the background. The sequence shows a progression from a stationary, observant pose to dynamic motion, suggesting the man is traversing this patio or walkway area."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 1263,
+      "end_frame": 1332,
+      "start_sec": 52.625,
+      "end_sec": 55.5,
+      "duration_sec": 2.916667,
+      "num_frame_captions": 4,
+      "caption": "In this scene, a red-haired man with a mustache, dressed in a green shirt, is seen walking outdoors at dusk. He moves past a brick wall and glass windows, with a brick pillar also visible in the environment. As he progresses, his demeanor shifts from walking with his head up to looking down contemplatively. The scene concludes with him coming to a stop, standing in front of the brick wall while still gazing downward, suggesting a moment of pause or reflection in the fading evening light."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 1333,
+      "end_frame": 1410,
+      "start_sec": 55.541667,
+      "end_sec": 58.75,
+      "duration_sec": 3.25,
+      "num_frame_captions": 6,
+      "caption": "In an urban setting with a brick wall backdrop, a young man with red hair and a green shirt is the central figure. Initially seen standing and looking to the side, he soon becomes physically active. The scene progresses as he walks past the wall before launching into a series of dynamic movements. He is shown kicking against the wall and then performing a mid-air jump or flip over a low section of the same structure. The sequence captures his transition from a static, observant state to an intense display of athleticism in the city environment."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 1411,
+      "end_frame": 1458,
+      "start_sec": 58.791667,
+      "end_sec": 60.75,
+      "duration_sec": 2.0,
+      "num_frame_captions": 3,
+      "caption": "This scene takes place in an outdoor courtyard, likely a caf\u00e9 or plaza, characterized by brick walls and green umbrellas. The primary focus is on a person in a green shirt who is crouching behind a low brick wall, suggesting a moment of concealment or observation. In the background, other people are present, with some seen walking near the wall. The overall atmosphere is casual and public, with the architecture and umbrellas indicating a social or commercial setting. The sequence implies a quiet, watchful moment within a generally active urban environment."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 1459,
+      "end_frame": 1485,
+      "start_sec": 60.791667,
+      "end_sec": 61.875,
+      "duration_sec": 1.125,
+      "num_frame_captions": 2,
+      "caption": "In this scene, two men are positioned near a brick wall on a campus walkway, exhibiting cautious or tactical behavior. One man, wearing a green shirt, is crouched low behind the wall, suggesting he is taking cover or hiding. The other man, in a black shirt, stands nearby, possibly acting as a lookout or companion. A third figure, a bearded man, is then seen peeking over the top of the same wall, which is situated in front of a set of outdoor stairs. The overall action implies a moment of surveillance, stealth, or playful concealment within an academic setting."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 1486,
+      "end_frame": 1564,
+      "start_sec": 61.916667,
+      "end_sec": 65.166667,
+      "duration_sec": 3.291667,
+      "num_frame_captions": 5,
+      "caption": "In this scene, a man in a green shirt and black shorts is navigating an urban environment featuring a brick building with large glass doors. His actions are dynamic and continuous: he walks past the building, then transitions into running. The central activity involves him climbing over a low brick wall in front of the structure, a motion captured with some blur as he jumps and balances mid-action. The sequence conveys a sense of purposeful, athletic movement through the space."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 1565,
+      "end_frame": 1634,
+      "start_sec": 65.208333,
+      "end_sec": 68.083333,
+      "duration_sec": 2.916667,
+      "num_frame_captions": 4,
+      "caption": "A person is engaged in masonry work, actively laying or repairing a brick wall. The scene includes close-up details of the weathered red bricks and mortar, with a focus on the manual labor involved. The setting is outdoors, as indicated by glimpses of greenery, trees, and steps in the blurred background. The presence of a hiking shoe resting on a brick ledge further emphasizes the on-site, hands-on nature of the construction or repair activity in an outdoor environment."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 1635,
+      "end_frame": 1715,
+      "start_sec": 68.125,
+      "end_sec": 71.458333,
+      "duration_sec": 3.375,
+      "num_frame_captions": 6,
+      "caption": "In this outdoor scene, a bearded man with short hair, dressed in a green t-shirt, is speaking animatedly. He gestures with his hands to emphasize his points while standing against a backdrop that alternates between a light-colored stone wall and trees. His expression shifts from engaged and conversational to more thoughtful and concerned as he occasionally looks off-camera or to the side. The setting includes glimpses of a water feature and textured concrete walls, creating a varied but consistently natural environment. The overall impression is of a person delivering a monologue or interview, conveying his message with both energy and introspection."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 1716,
+      "end_frame": 1836,
+      "start_sec": 71.5,
+      "end_sec": 76.5,
+      "duration_sec": 5.041667,
+      "num_frame_captions": 8,
+      "caption": "In this outdoor urban scene, a man wearing a green shirt and dark pants is seen climbing over a low red brick wall. The action involves him actively scaling the structure, using his hands and feet to maneuver over it. The setting features trees and a green gazebo or green umbrellas in the background, suggesting a park or public garden area. The consistent action across the frames captures a single, continuous motion of the person overcoming the obstacle, with the environment providing a calm, natural backdrop to the brief physical exertion."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 1837,
+      "end_frame": 1903,
+      "start_sec": 76.541667,
+      "end_sec": 79.291667,
+      "duration_sec": 2.791667,
+      "num_frame_captions": 4,
+      "caption": "This scene takes place at dusk in front of a red brick building with white trim, where a stone fountain and a glowing streetlamp are visible. A young man with red hair, wearing a green t-shirt, is the central figure. He is first seen leaning over the stone fountain, but his activity quickly shifts to physical exercise. The man proceeds to perform a series of push-ups using a low stone ledge in the foreground, demonstrating his workout routine in the tranquil outdoor setting as the evening light fades."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 1904,
+      "end_frame": 1949,
+      "start_sec": 79.333333,
+      "end_sec": 81.208333,
+      "duration_sec": 1.916667,
+      "num_frame_captions": 3,
+      "caption": "A person wearing white sneakers steps onto a low black metal railing on a brick patio, balancing momentarily. The motion blurs their legs as they move, either stepping onto or off the railing. In the background, another person walks away from the scene. The focus remains on the sneaker-clad feet and the act of navigating the railing, capturing a brief, dynamic moment of transition in an outdoor setting."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 1950,
+      "end_frame": 1969,
+      "start_sec": 81.25,
+      "end_sec": 82.041667,
+      "duration_sec": 0.833333,
+      "num_frame_captions": 2,
+      "caption": "In this urban scene, a person performs a dynamic athletic maneuver, jumping over a low black railing on a brick walkway. The motion is captured with a sense of speed, blurring their legs and sneakers as they clear the obstacle. Following the jump, the individual is seen balancing on the same railing, demonstrating control and poise. Throughout the activity, another man in a green shirt remains in the background, casually walking along the brick patio, unaffected by the acrobatics. The scene contrasts focused, energetic movement with the steady, mundane pace of everyday life in a shared public space."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 1970,
+      "end_frame": 2020,
+      "start_sec": 82.083333,
+      "end_sec": 84.166667,
+      "duration_sec": 2.125,
+      "num_frame_captions": 3,
+      "caption": "This scene takes place in a park or outdoor patio at dusk, as the sun sets. The focus is on two men wearing green shirts who are first seen standing and conversing near picnic tables shaded by green umbrellas. Their interaction then transitions into movement, as they walk together through the same area. The setting is active with other people also walking among the tables and umbrellas, creating a casual, social atmosphere during the evening hours. The overall activity captures a moment of relaxed conversation and movement in a public outdoor space."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 2021,
+      "end_frame": 2046,
+      "start_sec": 84.208333,
+      "end_sec": 85.25,
+      "duration_sec": 1.083333,
+      "num_frame_captions": 2,
+      "caption": "This scene features a bearded man with short hair, wearing a green t-shirt, in a contemplative moment. He is positioned against a background that includes a light-colored wall, trees, and a stone pillar. His expression is thoughtful and slightly concerned as he shifts his gaze, first looking slightly to his left and then to his right. The overall atmosphere is quiet and introspective, capturing a brief, pensive interval in an outdoor or semi-outdoor setting."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 2047,
+      "end_frame": 2097,
+      "start_sec": 85.291667,
+      "end_sec": 87.375,
+      "duration_sec": 2.125,
+      "num_frame_captions": 3,
+      "caption": "In an outdoor courtyard during dusk, three men gather around picnic tables shaded by green umbrellas. They are engaged in a casual conversation, with one man actively gesturing as he speaks to the others. The setting includes brick walls and a relaxed patio atmosphere. At one point, a man in a green shirt is seen walking past the brick wall and umbrellas, suggesting movement within the scene. The overall interaction appears informal and social, set against the backdrop of the fading evening light."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 2098,
+      "end_frame": 2151,
+      "start_sec": 87.416667,
+      "end_sec": 89.625,
+      "duration_sec": 2.25,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a man in a green shirt attempting to vault over a low red brick wall outdoors, likely during rainy weather as he initially shelters under a green umbrella. The action progresses from a moment of hesitation or preparation, peering over the wall, to the dynamic leap itself, where he is captured mid-air in the act of clearing it. The sequence concludes with a more static, blurred shot of him working near the wall, suggesting the aftermath or a related activity, while another shot artistically focuses on the textured wall with a blurred urban background, grounding the scene in its setting."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 2152,
+      "end_frame": 2183,
+      "start_sec": 89.666667,
+      "end_sec": 90.958333,
+      "duration_sec": 1.333333,
+      "num_frame_captions": 2,
+      "caption": "This scene features a man with a beard and light brown hair, dressed in a green t-shirt. He is positioned in an outdoor setting, with his attention directed thoughtfully away from the camera. The background is softly blurred, suggesting a shallow depth of field, and includes elements like trees, a textured wall, and a stone column. The overall mood is contemplative and still, focusing on the man's introspective expression as he appears lost in thought within this calm, natural environment."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 2184,
+      "end_frame": 2311,
+      "start_sec": 91.0,
+      "end_sec": 96.291667,
+      "duration_sec": 5.333333,
+      "num_frame_captions": 9,
+      "caption": "A group of young men gather on a sunny, grassy field in a park, surrounded by trees and with parked cars visible nearby. Their activity evolves from casually walking and socializing into an organized outdoor game. They engage in a lively match of dodgeball, with one player in a green shirt actively running toward the camera during the play. The game later transitions to kickball, with some participants acting as players and others as spectators watching from the sidelines. The overall scene captures a friendly, recreational atmosphere of a group enjoying sports and companionship on a pleasant day."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 2312,
+      "end_frame": 2374,
+      "start_sec": 96.333333,
+      "end_sec": 98.916667,
+      "duration_sec": 2.625,
+      "num_frame_captions": 4,
+      "caption": "A young man with red hair, wearing a green shirt, is crouched low in a grassy field, poised as if for action. He is the clear focus of the scene, while a group of other people watches him from a distance in a wooded area. The overall setting and the man's posture suggest a casual outdoor game, likely involving a frisbee, is taking place. The scene captures a moment of anticipation just before a throw or catch."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 2375,
+      "end_frame": 2514,
+      "start_sec": 98.958333,
+      "end_sec": 104.75,
+      "duration_sec": 5.833333,
+      "num_frame_captions": 9,
+      "caption": "The scene takes place in a sunny parking lot surrounded by trees. It features a group of young people, primarily two men with distinctive red hair and sunglasses. They are joined by another man and a woman at different moments. The group is seen standing together and then walking side-by-side through the lot, interacting in a casual, relaxed manner amidst the parked cars. The overall atmosphere is bright and informal."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 2515,
+      "end_frame": 2664,
+      "start_sec": 104.791667,
+      "end_sec": 111.0,
+      "duration_sec": 6.25,
+      "num_frame_captions": 10,
+      "caption": "This scene depicts a person, and later two people, moving across a grassy field near a stone wall and hedges. The action begins with a focus on the individual's footwear before showing them walking or running. Their attire varies between shots, including dark pants, khaki shorts, and pink shorts, suggesting either a single person changing clothes or multiple individuals. The activity escalates as a second person joins, and the scene culminates with both figures running energetically across the field, captured with motion blur against a backdrop of trees and greenery."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 2665,
+      "end_frame": 2799,
+      "start_sec": 111.041667,
+      "end_sec": 116.625,
+      "duration_sec": 5.625,
+      "num_frame_captions": 9,
+      "caption": "This scene shows a group of young people, primarily men, engaged in a coordinated outdoor exercise session in a grassy park. They are arranged in a line and perform synchronized arm movements, repeatedly extending their arms forward in unison. The activity has the energetic, team-oriented feel of a group fitness drill or a warm-up exercise. A red-haired man in a green shirt appears to be leading the activity. The setting is a green, open space with trees in the background, suggesting a public park or recreational area."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 2800,
+      "end_frame": 2868,
+      "start_sec": 116.666667,
+      "end_sec": 119.5,
+      "duration_sec": 2.875,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a person outdoors, likely in a natural setting with green foliage, performing a dynamic action. The focus is on their arm and clenched fist, which is thrust forward with significant force, creating a motion blur that obscures details. The action may involve swinging or striking with a wooden stick gripped in the hand. Another person is present in the blurred background, suggesting this could be part of a sparring session, martial arts practice, or a similar vigorous activity. The overall impression is one of controlled power and swift movement captured in a sunlit environment."
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 2869,
+      "end_frame": 2970,
+      "start_sec": 119.541667,
+      "end_sec": 123.75,
+      "duration_sec": 4.25,
+      "num_frame_captions": 7,
+      "caption": "This scene depicts a group of people engaged in a physical training session on a grassy field, bordered by trees. The activity begins with multiple participants performing push-ups, first as a larger group and then in smaller pairs. The session then transitions into a crawling exercise, with several individuals moving on their hands and knees across the terrain. Following this, the focus shifts to cardiovascular movement as two people are seen running or jogging across the open field. The setting is a consistent outdoor area featuring a stone structure to one side, suggesting an organized fitness drill in a park-like environment."
+    },
+    {
+      "scene_index": 35,
+      "start_frame": 2971,
+      "end_frame": 3013,
+      "start_sec": 123.791667,
+      "end_sec": 125.541667,
+      "duration_sec": 1.791667,
+      "num_frame_captions": 2,
+      "caption": "This scene captures a lively outdoor team competition on a grassy field. The primary activity appears to be a tug-of-war, with participants leaning back and straining against the rope in a collective display of exertion. Concurrently, the event seems to include a sack race or similar relay activity, where one competitor in a pink shirt is notably ahead of the pack. The overall atmosphere is one of energetic, friendly competition, with individuals fully engaged in the coordinated physical effort of their respective games."
+    },
+    {
+      "scene_index": 36,
+      "start_frame": 3014,
+      "end_frame": 3064,
+      "start_sec": 125.583333,
+      "end_sec": 127.666667,
+      "duration_sec": 2.125,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a group of young people participating in a lively, competitive outdoor activity on a grassy field. They are engaged in a physical race or game that involves crawling on their hands and knees, suggesting a playful or team-building challenge. The participants, including one individual in a gray shirt crouched low and another in a green shirt in the foreground, are actively leaning and reaching forward in a display of effort and concentration. The presence of cars in the background situates the event in an open, possibly recreational, area, emphasizing the informal and energetic nature of the group's exertion."
+    },
+    {
+      "scene_index": 37,
+      "start_frame": 3065,
+      "end_frame": 3083,
+      "start_sec": 127.708333,
+      "end_sec": 128.458333,
+      "duration_sec": 0.791667,
+      "num_frame_captions": 1,
+      "caption": "In the scene, a group is active on a grassy field, likely playing a game or exercising. One person suggests the activity is no big deal, but another retorts that personal comfort levels vary, implying not everyone shares the same perspective or ease with the physical engagement."
+    },
+    {
+      "scene_index": 38,
+      "start_frame": 3084,
+      "end_frame": 3139,
+      "start_sec": 128.5,
+      "end_sec": 130.791667,
+      "duration_sec": 2.333333,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a group of young men participating in a competitive team sport on a sunny, grassy field. The activity appears to be a vigorous tug-of-war, as the participants are shown straining and bent over, fully engaged in the contest. The focus is on their collective physical exertion, with individuals in a pink shirt and black pants highlighted in the foreground. The bright daylight and outdoor setting contribute to the energetic atmosphere of the game, emphasizing teamwork and strength as the central elements of the action."
+    },
+    {
+      "scene_index": 39,
+      "start_frame": 3140,
+      "end_frame": 3576,
+      "start_sec": 130.833333,
+      "end_sec": 149.0,
+      "duration_sec": 18.208333,
+      "num_frame_captions": 29,
+      "caption": "This scene features a man in a green t-shirt in a wooded, leafy outdoor setting. He begins by bending over, looking down at something in his hands with a focused expression, which eventually brings a smile to his face. He then walks through the sunlit area before stopping to address the camera. For the majority of the scene, he stands gesturing with his hands as if speaking, explaining, or presenting something directly to the viewer. The sequence concludes with him running briefly through the trees."
+    },
+    {
+      "scene_index": 40,
+      "start_frame": 3577,
+      "end_frame": 3594,
+      "start_sec": 149.041667,
+      "end_sec": 149.75,
+      "duration_sec": 0.75,
+      "num_frame_captions": 1,
+      "caption": "In a tranquil, sun-dappled park, a man in a green shirt stands contemplatively, his back turned to the viewer as he surveys the peaceful surroundings. The scene is one of quiet leisure, with other individuals seated on the grass, relaxing amidst the lush canopy of mature trees. The overall atmosphere is serene and verdant, suggesting a warm day where people are enjoying the natural respite of the urban green space. The composition emphasizes a moment of calm observation and communal, yet individual, repose within the park's inviting landscape."
+    },
+    {
+      "scene_index": 41,
+      "start_frame": 3595,
+      "end_frame": 3855,
+      "start_sec": 149.791667,
+      "end_sec": 160.625,
+      "duration_sec": 10.875,
+      "num_frame_captions": 18,
+      "caption": "This scene depicts a casual outdoor gathering in a grassy, wooded park where a group of people are engaged in a physical game, likely dodgeball or tag. Participants are frequently seen crouching, squatting, or running, with a man in a green shirt and a woman in a pink shirt being prominent figures. The activity is interspersed with moments of exercise and acrobatics, including one person performing a backflip while others watch intently. The overall atmosphere is one of informal recreation and social interaction in a natural setting."
+    },
+    {
+      "scene_index": 42,
+      "start_frame": 3856,
+      "end_frame": 4358,
+      "start_sec": 160.666667,
+      "end_sec": 181.583333,
+      "duration_sec": 20.958333,
+      "num_frame_captions": 33,
+      "caption": "Three teenage boys, two in green shirts and one in a red shirt, are engaged in a conversation outdoors in a gravel parking lot near parked cars. The discussion appears animated, with one of the boys in green frequently gesturing while speaking. The other boy in green often listens with his arms crossed, sometimes looking skeptical or down, while the boy in the red shirt observes, occasionally adjusting his hair or making gestures of his own. The scene captures a tense or serious exchange among the three, with shifting postures and attention throughout their interaction."
+    },
+    {
+      "scene_index": 43,
+      "start_frame": 4359,
+      "end_frame": 4434,
+      "start_sec": 181.625,
+      "end_sec": 184.75,
+      "duration_sec": 3.166667,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts an athletic individual practicing agility drills in a sunny, grassy outdoor area. The person, wearing a green shirt, is seen running at high speed across the field and then executing a dynamic jump or flip over a wooden obstacle. The setting features a wooden agility ramp and other training structures positioned near a stone wall and a backdrop of lush trees. The sequence captures the fluid motion of the training session, from the initial sprint to the mid-air maneuver, all under a bright sky."
+    },
+    {
+      "scene_index": 44,
+      "start_frame": 4435,
+      "end_frame": 4703,
+      "start_sec": 184.791667,
+      "end_sec": 195.958333,
+      "duration_sec": 11.208333,
+      "num_frame_captions": 18,
+      "caption": "This scene depicts a group of young men engaging in skateboarding and athletic stunts on a university campus. The action centers on a brick courtyard with stairs and ledges, where one shirtless man and a skateboarder take turns performing jumps and tricks. The skateboarder is shown mid-air executing a maneuver over a metal rail, while another individual balances precariously on a high ledge, preparing to jump as his friends watch from below. The sequence concludes with the group walking together across the plaza and down a set of concrete steps, having finished their activities."
+    },
+    {
+      "scene_index": 45,
+      "start_frame": 4704,
+      "end_frame": 4817,
+      "start_sec": 196.0,
+      "end_sec": 200.708333,
+      "duration_sec": 4.75,
+      "num_frame_captions": 8,
+      "caption": "This scene depicts a group of shirtless men engaged in parkour or freerunning in an outdoor urban setting, likely on a university campus. The primary action involves individuals leaping and jumping over a series of low concrete blocks and slabs. One man is shown mid-air during a jump, while another crouches in preparation. Others watch or walk nearby, suggesting a casual, practice-oriented atmosphere. The setting features brick buildings, trees, and stone walkways, with the activity occurring from daytime into dusk. The focus is on athletic movement and camaraderie within the group."
+    },
+    {
+      "scene_index": 46,
+      "start_frame": 4818,
+      "end_frame": 4843,
+      "start_sec": 200.75,
+      "end_sec": 201.791667,
+      "duration_sec": 1.083333,
+      "num_frame_captions": 1,
+      "caption": "This scene captures a moment of intense camaraderie and shared emotion among a group of young men. They are gathered outdoors in an urban green space, surrounded by trees and brick architecture. The focus is entirely on their tight, shirtless huddle, a powerful gesture that suggests celebration, solidarity, or mutual support following a significant effort. Their body language conveys a raw, unfiltered connection, likely marking the climax of a physical challenge or a deeply personal achievement. The natural setting contrasts with their charged human interaction, emphasizing a brief, poignant instance of unity and release."
+    },
+    {
+      "scene_index": 47,
+      "start_frame": 4844,
+      "end_frame": 4870,
+      "start_sec": 201.833333,
+      "end_sec": 202.916667,
+      "duration_sec": 1.125,
+      "num_frame_captions": 2,
+      "caption": "In a sunlit outdoor setting near buildings and trees, four shirtless young men share a moment of camaraderie. They are locked in a tight, heartfelt group embrace, their bodies leaning into one another in a display of unity and affection. The scene radiates a sense of celebration, friendship, or shared achievement, with the natural surroundings adding to the warmth and spontaneity of the moment. It captures a brief but powerful instance of male bonding and emotional connection in an informal, open-air environment."
+    },
+    {
+      "scene_index": 48,
+      "start_frame": 4871,
+      "end_frame": 5065,
+      "start_sec": 202.958333,
+      "end_sec": 211.041667,
+      "duration_sec": 8.125,
+      "num_frame_captions": 13,
+      "caption": "This scene features a group of young men in a courtyard with a distinctive red brick building. They are using stone platforms or pedestals as stages for a series of dynamic poses and physical stunts. The focus shifts between individuals, often shirtless, who strike poses, gesture to one another, and give directions. The activity escalates to include energetic leaps and coordinated physical challenges, suggesting a practice session or an impromptu display of athleticism and showmanship against the architectural backdrop."
+    },
+    {
+      "scene_index": 49,
+      "start_frame": 5066,
+      "end_frame": 5185,
+      "start_sec": 211.083333,
+      "end_sec": 216.041667,
+      "duration_sec": 5.0,
+      "num_frame_captions": 8,
+      "caption": "In a courtyard outside a red-brick building, a group of shirtless young men gather on stone pedestals for what appears to be a staged, social activity. The scene involves a series of physical challenges and animated interactions, with one man at the center gesturing energetically and another captured mid-leap in a dynamic jump. The mood shifts between casual confrontation and celebration, culminating in moments of embrace between participants. Overall, the gathering has the feel of an informal competition or a ritualistic bonding exercise among friends, observed by an engaged audience."
+    },
+    {
+      "scene_index": 50,
+      "start_frame": 5186,
+      "end_frame": 5380,
+      "start_sec": 216.083333,
+      "end_sec": 224.166667,
+      "duration_sec": 8.125,
+      "num_frame_captions": 13,
+      "caption": "In this scene, a group of young men celebrate together on a brick structure, likely a rooftop ledge or pillar in front of a red brick building. They are in high spirits, playfully posing, embracing in tight group hugs, and stretching their arms out triumphantly. Their joyful camaraderie is the consistent focus, with some individuals occasionally positioned on higher or adjacent ledges. The backdrop shifts slightly from day to dusk, and at one point, a large, dark object is seen flying past them, adding a dynamic, momentary element to their celebratory gathering."
+    },
+    {
+      "scene_index": 51,
+      "start_frame": 5381,
+      "end_frame": 5553,
+      "start_sec": 224.208333,
+      "end_sec": 231.375,
+      "duration_sec": 7.208333,
+      "num_frame_captions": 12,
+      "caption": "A group of young men, many of them shirtless, gather and pose together on a brick ledge or wall in front of a clock tower. The scene takes place at dusk or twilight. Their number fluctuates slightly between nine and ten individuals across the sequence, but the core activity remains consistent: they are confidently posing as a group for what appears to be a photoshoot or casual gathering against the architectural backdrop."
+    },
+    {
+      "scene_index": 52,
+      "start_frame": 5554,
+      "end_frame": 5660,
+      "start_sec": 231.416667,
+      "end_sec": 235.833333,
+      "duration_sec": 4.458333,
+      "num_frame_captions": 7,
+      "caption": "This scene consists of a static title card introducing the video. The entire visual is a simple, minimalist design featuring a black screen with white text. The prominent, centered acronym \"CVP\" is displayed at the top, with the full name \"Charlotte Video Project\" written in a smaller font directly beneath it. This serves as the official logo or opening identifier for the production. The scene holds on this single, unchanging graphic, establishing the project's branding and title for the viewer before any other content begins."
+    }
+  ]
+}

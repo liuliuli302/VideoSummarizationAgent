@@ -1,0 +1,56 @@
+{
+  "video": "Bike Polo",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Bike Polo.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_4.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 30.0,
+  "total_frames": 3064,
+  "num_scenes": 4,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 1481,
+      "start_sec": 0.0,
+      "end_sec": 49.366667,
+      "duration_sec": 49.4,
+      "num_frame_captions": 99,
+      "caption": "This scene depicts a nighttime cycling event at an outdoor velodrome, transitioning from empty, fenced sports courts to an active competition. Under powerful stadium floodlights, multiple cyclists race at high speed around the steeply banked concrete track, leaning sharply into the curves. The activity evolves into a bike polo match, where riders use mallets to strike a ball while maneuvering their bicycles on the same surface. The setting features prominent advertising banners for \"Die Mobiliar,\" and the perspective alternates between wide shots of the pack racing and immersive first-person views from the cyclists themselves."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 1482,
+      "end_frame": 1507,
+      "start_sec": 49.4,
+      "end_sec": 50.233333,
+      "duration_sec": 0.866667,
+      "num_frame_captions": 2,
+      "caption": "This scene captures the intense, high-speed experience of track cycling on an indoor velodrome. The perspective is from a first-person viewpoint, placing the viewer directly in the action as a cyclist navigates the steeply banked oval. The environment is illuminated by the stark, artificial glare of stadium lights, indicating it is night. Another competitor is visible ahead on the track, establishing a competitive race dynamic. A strong sense of velocity is conveyed through motion blur, emphasizing the raw speed and physical exertion required as the cyclists lean into the turns of the specialized wooden surface."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 1508,
+      "end_frame": 2588,
+      "start_sec": 50.266667,
+      "end_sec": 86.266667,
+      "duration_sec": 36.033333,
+      "num_frame_captions": 72,
+      "caption": "This nighttime scene captures a dynamic urban sports event, likely a community competition or festival, held at an illuminated outdoor velodrome and skatepark. Cyclists and skateboarders, along with some roller skaters, actively race and perform on the concrete tracks and ramps under bright stadium lights. The action includes intense bike races, casual skating, and even a game of bike polo, with players using sticks to hit a ball. Spectators watch from benches and tiered bleachers lining the perimeter, which is surrounded by trees and fencing adorned with sponsor banners. The overall atmosphere is one of energetic, communal sport under the night sky."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 2589,
+      "end_frame": 3063,
+      "start_sec": 86.3,
+      "end_sec": 102.1,
+      "duration_sec": 15.833333,
+      "num_frame_captions": 32,
+      "caption": "This nighttime scene captures various urban sports activities in an outdoor, fenced facility illuminated by artificial lights. The primary focus is on cyclists racing and training on a concrete velodrome track under bright stadium lighting. Interspersed are shots of skateboarders navigating concrete ledges and ramps in a nearby skatepark, as well as glimpses of an empty ice rink and soccer court. The consistent backdrop features dark trees, fencing, and German-language banners, creating a cohesive atmosphere of a communal sports complex being actively used after dark."
+    }
+  ]
+}

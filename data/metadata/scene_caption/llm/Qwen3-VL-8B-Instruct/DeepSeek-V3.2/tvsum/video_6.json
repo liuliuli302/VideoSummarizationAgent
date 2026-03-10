@@ -1,0 +1,26 @@
+{
+  "video": "HT5vyqe0Xaw",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/HT5vyqe0Xaw.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_6.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 9671,
+  "num_scenes": 1,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 9670,
+      "start_sec": 0.0,
+      "end_sec": 322.655667,
+      "duration_sec": 322.689033,
+      "num_frame_captions": 645,
+      "caption": "This video appears to document a journey from a residential patio area into a dense forest, culminating in a vehicle recovery operation. It begins with tranquil domestic scenes of a wooden dining set on a covered patio overlooking a grassy hillside. The perspective then shifts to driving sequences, first along gravel roads through wooded areas, then onto darker, narrower forest paths. The narrative intensifies as it reveals a white camper van or truck that has overturned or become stuck on a muddy, tree-lined road. The scene evolves into a coordinated recovery effort, showing a blue and white Isuzu truck (license plate DPH523) and later a large red excavator or crane being used to assist. Several people, including workers in orange safety vests, are present at the site, observing and managing the operation to free the stranded vehicle from the forest terrain."
+    }
+  ]
+}

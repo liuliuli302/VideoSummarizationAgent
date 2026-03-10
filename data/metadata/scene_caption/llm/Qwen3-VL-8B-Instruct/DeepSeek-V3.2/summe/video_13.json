@@ -1,0 +1,26 @@
+{
+  "video": "Kids_playing_in_leaves",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Kids_playing_in_leaves.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_13.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 3187,
+  "num_scenes": 1,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 3186,
+      "start_sec": 0.0,
+      "end_sec": 106.3062,
+      "duration_sec": 106.339567,
+      "num_frame_captions": 213,
+      "caption": "Children play joyfully in a suburban yard on an autumn day, surrounded by fallen leaves. They run, tumble, and bury themselves in large leaf piles, often near a parked maroon pickup truck. Adults watch from the porch or walk nearby as the kids play with toys like bicycles and a toy horse. The scene shifts between the leaf-covered yard and a wider grassy field where the children run and play together, capturing their energetic fun in the autumn foliage."
+    }
+  ]
+}

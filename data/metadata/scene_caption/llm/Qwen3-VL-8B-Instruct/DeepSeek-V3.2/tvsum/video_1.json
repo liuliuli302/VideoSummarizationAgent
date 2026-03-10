@@ -1,0 +1,316 @@
+{
+  "video": "AwmHb44_ouw",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/AwmHb44_ouw.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_1.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 10597,
+  "num_scenes": 30,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 32,
+      "start_sec": 0.0,
+      "end_sec": 1.067733,
+      "duration_sec": 1.1011,
+      "num_frame_captions": 3,
+      "caption": "The scene focuses on a piece of heavy machinery, likely a tractor or ATV, in a rugged, indoor setting. The consistent close-up shots detail its muddy, rugged tires, with one featuring a distinctive yellow rim. The environment is dimly lit and dirty, with the machinery parked on a soiled floor, emphasizing its recent use in rough, off-road conditions. The visual details convey a sense of utilitarian function and a workspace dedicated to robust equipment."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 33,
+      "end_frame": 63,
+      "start_sec": 1.1011,
+      "end_sec": 2.1021,
+      "duration_sec": 1.034367,
+      "num_frame_captions": 2,
+      "caption": "This scene takes place in a cluttered garage or workshop, where the focus is on the maintenance or repair of a piece of heavy-duty machinery. The subject is a rugged, yellow-wheeled vehicle, likely a lawn tractor or small utility vehicle, that is in a state of partial disassembly. The work involves close-up attention to its mechanical components, including a prominent tire and exposed wiring. The overall setting is filled with tools and spare parts, indicating an ongoing hands-on project to service or restore the aging equipment."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 64,
+      "end_frame": 101,
+      "start_sec": 2.135467,
+      "end_sec": 3.370033,
+      "duration_sec": 1.267933,
+      "num_frame_captions": 2,
+      "caption": "The scene shows a large, worn tire lying on the ground in an outdoor setting, either on dirt or a patchy lawn. It is accompanied by a white spray bottle and a tool, such as a screwdriver or a green maintenance implement. The objects are grouped together, suggesting a moment of paused work or cleaning, possibly related to vehicle or equipment maintenance. The overall impression is of a casual, utilitarian task taking place in a simple, unkempt environment."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 102,
+      "end_frame": 592,
+      "start_sec": 3.4034,
+      "end_sec": 19.753067,
+      "duration_sec": 16.383033,
+      "num_frame_captions": 33,
+      "caption": "This scene features an interview or conversation with a man, likely an older individual with a mustache and gray or dark hair, filmed outdoors. He is positioned near a house or building with distinctive white horizontal siding or slats, upon which strong shadows from sunlight or blinds create striped patterns. The setting shifts between dimly lit and sunlit moments. His demeanor varies from serious and contemplative, often looking off-camera, to smiling and engaging directly with the camera as he speaks or reacts. The sequence captures a range of his expressions in this consistent, shadow-dappled environment."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 593,
+      "end_frame": 685,
+      "start_sec": 19.786433,
+      "end_sec": 22.856167,
+      "duration_sec": 3.1031,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a static, abandoned outdoor setting where a large, worn tire is the central object. It lies discarded on a patchy ground of grass and dirt, suggesting neglect. The tire's dirty and weathered condition implies it has been left there for some time. A white spray bottle and an unidentified green tool are consistently positioned nearby, hinting at a past, perhaps aborted, maintenance or cleaning task. The environment is shaded, with dappled sunlight filtering through, reinforcing a quiet, undisturbed atmosphere of disuse."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 686,
+      "end_frame": 1229,
+      "start_sec": 22.889533,
+      "end_sec": 41.007633,
+      "duration_sec": 18.151467,
+      "num_frame_captions": 36,
+      "caption": "A middle-aged man with gray hair and a mustache is speaking directly to the camera in an outdoor setting. He stands consistently beside a brick wall and a wooden fence, which suggests a backyard or similar location. Throughout the scene, he maintains his position, sometimes looking directly at the viewer and sometimes glancing slightly to the side, while continuing his address. The primary action is his monologue, delivered in a steady, conversational manner to the audience."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 1230,
+      "end_frame": 1692,
+      "start_sec": 41.041,
+      "end_sec": 56.4564,
+      "duration_sec": 15.448767,
+      "num_frame_captions": 31,
+      "caption": "A maroon minivan is parked on a gravel and concrete driveway next to a wooden fence. The vehicle shows signs of wear and dust on its exterior and tires. Throughout the scene, bright sunlight consistently creates lens flares and glares that reflect off the minivan's side, windows, and body. A blue or green trash can or bucket is occasionally visible nearby. The setting remains static, with no movement of the vehicle or changes in its position, emphasizing a still, sunlit moment in a residential or rural driveway."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 1693,
+      "end_frame": 1727,
+      "start_sec": 56.489767,
+      "end_sec": 57.624233,
+      "duration_sec": 1.167833,
+      "num_frame_captions": 3,
+      "caption": "This scene presents a cluttered and well-used garage workshop, dominated by a large, grimy metal workbench. The central focus is a prominent toolbox or bench prominently labeled with a name, \"DAVE'S TIRE TOOL,\" though one caption suggests a possible variant. The space is densely packed with the evidence of ongoing projects and repairs, including an assortment of hand tools, spare bicycle parts, and various cardboard boxes. The overall impression is one of organized chaos, a functional and lived-in workspace dedicated to mechanical tinkering and maintenance, where every surface is occupied by equipment and components."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 1728,
+      "end_frame": 1758,
+      "start_sec": 57.6576,
+      "end_sec": 58.6586,
+      "duration_sec": 1.034367,
+      "num_frame_captions": 2,
+      "caption": "A cluttered workshop workbench serves as the focal point of this scene. The surface is densely covered with an assortment of tools, containers, and mechanical debris, all showing signs of age and heavy use. The pervasive rust and general disarray indicate this is an active, functional space for repair or tinkering projects, not merely storage. The consistent state of the bench across the view suggests a moment of paused work, capturing the organized chaos typical of a hands-on workshop environment."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 1759,
+      "end_frame": 2214,
+      "start_sec": 58.691967,
+      "end_sec": 73.8738,
+      "duration_sec": 15.2152,
+      "num_frame_captions": 30,
+      "caption": "The scene shows a blue van parked on a dusty, uneven dirt or gravel surface, often near a red vehicle. The focus is on close-up shots of its tires and wheels resting on the rough ground, with details like a worn tire and a small orange cone placed near a rear wheel. The van's Ontario license plate, \"APZY-380,\" is clearly visible in multiple shots from different angles around the rear of the vehicle."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 2215,
+      "end_frame": 2690,
+      "start_sec": 73.907167,
+      "end_sec": 89.756333,
+      "duration_sec": 15.882533,
+      "num_frame_captions": 32,
+      "caption": "This scene depicts a person performing maintenance or repair work in an outdoor setting, likely a driveway or workshop area. The central activity involves the use of a red and black hydraulic floor jack, which is repeatedly positioned and operated on concrete and gravel surfaces, suggesting work on a vehicle. The person\u2019s hands are shown interacting with the jack and other items, including a rusty metal object and a red spray can. Other tools, such as a power grinder and a lawn mower, are also present nearby, indicating a variety of mechanical tasks being undertaken in a sunlit environment."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 2691,
+      "end_frame": 3599,
+      "start_sec": 89.7897,
+      "end_sec": 120.086633,
+      "duration_sec": 30.3303,
+      "num_frame_captions": 60,
+      "caption": "This scene depicts a person performing maintenance or repair on a large, muddy off-road tire in an outdoor, wooded setting. The tire, which has a distinctive star-shaped center hub, is shown both lying on the dirt ground and mounted on a vehicle. The individual points at and works on the tire and its rim, using tools including a white spray bottle, a cloth, and a green-handled screwdriver. The actions suggest a process of inspection, cleaning, or possibly changing the tire, set under dappled sunlight that casts long shadows across the patchy grass and dirt ground."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 3600,
+      "end_frame": 4213,
+      "start_sec": 120.12,
+      "end_sec": 140.573767,
+      "duration_sec": 20.487133,
+      "num_frame_captions": 41,
+      "caption": "This scene depicts a person performing maintenance on a large, rugged off-road tire, likely for an ATV or tractor, in an outdoor setting on dirt and grass. The individual is shown inspecting, handling, and pointing at the tire, which is mounted on a distinctive silver wheel rim with a star-shaped center hub. The work involves cleaning the muddy tire, as indicated by the presence of a white spray bottle and a pink cloth. The actions suggest a process of preparing to mount, remove, or service the tire, with the person using their hands and feet to manipulate and stabilize the assembly on the ground."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 4214,
+      "end_frame": 4602,
+      "start_sec": 140.607133,
+      "end_sec": 153.5534,
+      "duration_sec": 12.979633,
+      "num_frame_captions": 26,
+      "caption": "This scene depicts a person performing maintenance on a vehicle's wheel in an outdoor setting. Using a series of green-handled tools, including a lug wrench, a socket wrench, and a screwdriver, they work on the lug nuts and wheel hub of a large, rugged tire. The tire is heavily worn and muddy, with embossed lettering like \"OP\" or \"TOP\" visible on its sidewall. The work occurs on dirt ground near foliage and a wooden deck, where a white spray bottle has been set aside. The sequence captures the active process of servicing the wheel, from using tools to close-up views of the tire's condition."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 4603,
+      "end_frame": 4646,
+      "start_sec": 153.586767,
+      "end_sec": 155.021533,
+      "duration_sec": 1.468133,
+      "num_frame_captions": 3,
+      "caption": "In an outdoor setting, a person is performing maintenance on a large, treaded tire mounted on a vehicle. The scene takes place in a muddy area, indicating recent wet conditions. The individual, wearing gloves and a white shirt, uses a specialized tool to work on the dirty metallic wheel rim. The focus is on the hands-on repair or cleaning process, with close-up details of the tool interacting with the muddy tire treads. This suggests a practical task, likely involving vehicle upkeep or preparation in a rugged, unpaved environment."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 4647,
+      "end_frame": 4772,
+      "start_sec": 155.0549,
+      "end_sec": 159.225733,
+      "duration_sec": 4.2042,
+      "num_frame_captions": 9,
+      "caption": "A person performs maintenance on a large, dirty tire mounted on a metal rim. Using specialized tools, they work on the inner rim, focusing on a component like a valve stem. The task involves manipulating the tools within the muddy, wet interior of the tire, indicating a repair or installation procedure. The scene captures the focused, hands-on effort required for this type of mechanical work in an unclean, off-road context."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 4773,
+      "end_frame": 4948,
+      "start_sec": 159.2591,
+      "end_sec": 165.098267,
+      "duration_sec": 5.872533,
+      "num_frame_captions": 11,
+      "caption": "In a dimly lit, gritty workshop, a person is intently working on a vehicle's wheel. The scene focuses on the hands-on process of tire maintenance, with the individual using a bright light to closely inspect the wheel's rim and tread. A distinctive yellow tool is employed to tighten or loosen lug nuts on the wheel hub. The action includes moments where the tool is held over a white bucket, suggesting a step in the repair or cleaning process. The overall atmosphere is one of focused, manual labor in a shadowy automotive setting."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 4949,
+      "end_frame": 5362,
+      "start_sec": 165.131633,
+      "end_sec": 178.912067,
+      "duration_sec": 13.8138,
+      "num_frame_captions": 28,
+      "caption": "This scene depicts the process of servicing and cleaning a muddy, off-road vehicle tire. Initially, a person uses a tool to work on the tire while it is still mounted on the dirty, rusted wheel rim, with the setting appearing to be outdoors on dirt. The focus then shifts to a thorough cleaning phase, where the same wheel is shown being washed. It is partially submerged in soapy water, with bubbles clinging to its surface, indicating it is inside a car wash or a similar cleaning apparatus. The sequence illustrates the transition from mechanical work to the subsequent cleaning of the grimy wheel assembly."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 5363,
+      "end_frame": 5826,
+      "start_sec": 178.945433,
+      "end_sec": 194.3942,
+      "duration_sec": 15.482133,
+      "num_frame_captions": 31,
+      "caption": "This scene depicts a detailed inspection and repair of a large, worn tire in an outdoor, debris-strewn environment. The focus is initially on the tire itself, which is muddy, has a distinctive star-shaped hub or hole, and rests on dirt and gravel. The action then shifts to a person performing hands-on maintenance. Using a tool, they work directly on the wheel hub and rim of the tire, which is mounted on a vehicle. The sequence shows close-up efforts to adjust, remove, or repair components, set against a background of rocky walls and sparse vegetation."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 5827,
+      "end_frame": 5916,
+      "start_sec": 194.427567,
+      "end_sec": 197.3972,
+      "duration_sec": 3.003,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a person performing hands-on tire maintenance, likely on an off-road vehicle. The focus is on a large, rugged Dunlop tire with deep, muddy treads, which is either being prepared for mounting or has just been removed. The individual's hands are shown gripping the rim and sidewall of the tire, which is resting on the ground and mounted on a rusty wheel. The actions and the tire's condition suggest a practical, outdoor setting where the person is actively engaged in the process of handling or inspecting the substantial off-road component."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 5917,
+      "end_frame": 5945,
+      "start_sec": 197.430567,
+      "end_sec": 198.364833,
+      "duration_sec": 0.967633,
+      "num_frame_captions": 2,
+      "caption": "This scene presents a highly abstract and obscured visual sequence. The footage is characterized by extreme blur and low resolution, rendering any concrete subjects or actions indiscernible. The imagery consists of chaotic, smoky textures and cloudy forms, punctuated by faint, streaking light. The overall effect is one of visual noise and ambiguity, suggesting a moment of confusion, transition, or digital corruption rather than a clear narrative event. The scene conveys a mood of obscurity and disarray through its purely textural and non-representational composition."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 5946,
+      "end_frame": 5962,
+      "start_sec": 198.3982,
+      "end_sec": 198.932067,
+      "duration_sec": 0.567233,
+      "num_frame_captions": 1,
+      "caption": "This scene captures a moment of hands-on mechanical work, focusing on the detailed inspection or repair of a vehicle's wheel assembly. The central action involves a person reaching into the rusty, aged hub, suggesting an effort to assess its condition, remove debris, or prepare it for maintenance. The worn state of the metal indicates a vehicle that has seen significant use, placing the activity within a context of diligent upkeep or restoration. The close-up perspective emphasizes the tactile, practical nature of the task, highlighting the interaction between the worker's hand and the weathered component."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 5963,
+      "end_frame": 6278,
+      "start_sec": 198.965433,
+      "end_sec": 209.475933,
+      "duration_sec": 10.543867,
+      "num_frame_captions": 21,
+      "caption": "The scene shows a person inspecting and working on a large, muddy off-road tire mounted on a rusty wheel rim. Their hand points at and touches various parts, including the tread, sidewall, and the rusty hub, suggesting a close examination or identification of the tire's condition. The actions indicate they are likely preparing to change, adjust, or repair the tire in an outdoor setting."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 6279,
+      "end_frame": 7395,
+      "start_sec": 209.5093,
+      "end_sec": 246.7465,
+      "duration_sec": 37.270567,
+      "num_frame_captions": 75,
+      "caption": "A person is repairing or inspecting a large, worn tire outdoors on a dirt patch. They use tools like a screwdriver and a spray can, working on the wheel hub which has a distinctive star-shaped bolt pattern. The deflated tire lies on its side, surrounded by scattered tools and debris. The scene shows close-up details of the tire's damage, inner rim, and the person's hands performing maintenance tasks in a natural, wooded setting."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 7396,
+      "end_frame": 7968,
+      "start_sec": 246.779867,
+      "end_sec": 265.8656,
+      "duration_sec": 19.1191,
+      "num_frame_captions": 38,
+      "caption": "This scene depicts a person performing maintenance or repair on a large, muddy tire with a distinctive star-shaped center hub, likely from a tractor or ATV. The tire is either mounted on a vehicle or lying on the grass, and the individual uses various tools to work on the rim and lug nuts. Throughout the process, they frequently point at the tire's center or tread, possibly to indicate a specific issue or feature. A white spray bottle and cleaning supplies are present nearby, suggesting the work may involve both mechanical repair and cleaning of the heavily soiled wheel."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 7969,
+      "end_frame": 8610,
+      "start_sec": 265.898967,
+      "end_sec": 287.287,
+      "duration_sec": 21.4214,
+      "num_frame_captions": 43,
+      "caption": "This scene depicts a person performing maintenance or repair on a large, muddy off-road tire, likely from a tractor or ATV, in an outdoor setting. The individual is shown using tools like a screwdriver on the wheel rim and hub, which has a distinctive star-shaped center and bolt pattern. The tire is heavily soiled and rests on dirt and grass, with other tools and a cloth visible nearby. The activity involves close, hands-on work on the wheel assembly, focusing on the central hub area, indicating a task such as changing, repairing, or inspecting the tire."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 8611,
+      "end_frame": 8972,
+      "start_sec": 287.320367,
+      "end_sec": 299.365733,
+      "duration_sec": 12.078733,
+      "num_frame_captions": 24,
+      "caption": "This scene depicts the close-up cleaning and inspection of a dirty, off-road vehicle wheel. The focal point is a rugged tire mounted on a metallic rim featuring a distinctive star-shaped center hub, all heavily caked with mud from rough terrain. A person\u2019s hand is shown actively scrubbing the rim with a brush and later wiping it with a white cloth, attempting to remove the grime. The sequence emphasizes the wheel's worn, muddy state from outdoor use, with multiple angles highlighting its star-shaped design and the persistent dirt embedded in both the tire and the silver or white rim."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 8973,
+      "end_frame": 9062,
+      "start_sec": 299.3991,
+      "end_sec": 302.368733,
+      "duration_sec": 3.003,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a person performing maintenance or repair work on a large, muddy off-road tire. The task involves focusing on the tire's rim, where the individual uses their hands and a small tool to press or install an object into the central hub area. The work is hands-on and detailed, as the person reaches inside the tire to inspect or manipulate components, with a metal bowl also present, possibly holding parts or cleaning supplies. The overall activity suggests a process of assembling, repairing, or preparing the wheel in a dirty, outdoor setting."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 9063,
+      "end_frame": 9331,
+      "start_sec": 302.4021,
+      "end_sec": 311.344367,
+      "duration_sec": 8.975633,
+      "num_frame_captions": 18,
+      "caption": "This scene depicts a single, stationary setup for vehicle maintenance or cleaning, centered on a large, dirty off-road or ATV tire resting on a concrete surface outdoors in bright sunlight. The tire is consistently described as rugged, muddy, and detached from a vehicle. It is accompanied by a white spray bottle, likely containing a cleaning or detailing solution, and a red toolbox. In several frames, the toolbox is open, revealing tools inside, and one caption specifically mentions a wrench. The arrangement strongly suggests an ongoing or imminent task, such as cleaning the tire or performing a repair, with all items gathered and ready for use."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 9332,
+      "end_frame": 10596,
+      "start_sec": 311.377733,
+      "end_sec": 353.5532,
+      "duration_sec": 42.208833,
+      "num_frame_captions": 84,
+      "caption": "This scene features a middle-aged man with gray hair and a mustache delivering a monologue or interview directly to the camera. The setting is consistently a residential backyard, where he stands in front of a wooden fence. The background includes elements of a house, a white shed, and occasionally a parked truck or vehicle. His demeanor is engaged as he speaks, sometimes looking directly at the lens and other times glancing slightly to the side. The stable environment and his continuous address to the viewer suggest a prepared, personal narrative or testimonial filmed in an outdoor domestic space."
+    }
+  ]
+}

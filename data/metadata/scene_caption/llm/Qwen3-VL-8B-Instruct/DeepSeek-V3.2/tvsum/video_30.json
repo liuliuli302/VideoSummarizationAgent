@@ -1,0 +1,326 @@
+{
+  "video": "4wU_LUjG5Ic",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/4wU_LUjG5Ic.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_30.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 23.976023976023978,
+  "total_frames": 4005,
+  "num_scenes": 31,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 122,
+      "start_sec": 0.0,
+      "end_sec": 5.088417,
+      "duration_sec": 5.130125,
+      "num_frame_captions": 9,
+      "caption": "This scene opens with a brief black screen before transitioning to the main title card. The card introduces a student-produced short film titled \u201cA Bike Friendly Cities film.\u201d It is presented by students from Shoeburyness High School in collaboration with the \u201cIdeas in Motion\u201d initiative, whose logo is prominently displayed. The card sets the tone for the documentary, crediting the production team and establishing the educational, community-focused nature of the project about promoting bicycle-friendly urban environments."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 123,
+      "end_frame": 207,
+      "start_sec": 5.130125,
+      "end_sec": 8.633625,
+      "duration_sec": 3.545208,
+      "num_frame_captions": 5,
+      "caption": "This scene shows a static outdoor setting where a green promotional banner advocating for \"BIKE FRIENDLY CITIES\" is displayed. The banner features a stylized orange bicycle graphic and is hung in front of the brick facade of a building. The surrounding environment includes budding trees, indicating it is likely early spring. The scene is stable, with the banner being the central, unchanging focal point. A slight motion is implied as the banner is seen fluttering gently in one instance, suggesting a breeze. Overall, the scene presents a peaceful, urban spring day with a clear pro-cycling message prominently on display."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 208,
+      "end_frame": 245,
+      "start_sec": 8.675333,
+      "end_sec": 10.218542,
+      "duration_sec": 1.584917,
+      "num_frame_captions": 3,
+      "caption": "In a bustling European city square, a young blonde child wearing a green hoodie rides a yellow balance bike across the cobblestones. The bike has a playful tiger-themed design. The scene is lively, with pedestrians strolling and cafe patrons seated in the background, all set against the backdrop of classic European architecture. The child is the central focus, navigating through the open space of the square amidst the general movement and ambiance of the urban setting."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 246,
+      "end_frame": 262,
+      "start_sec": 10.26025,
+      "end_sec": 10.927583,
+      "duration_sec": 0.709042,
+      "num_frame_captions": 1,
+      "caption": "In a lively European square, a young child wearing a green hoodie pedals a bright yellow tricycle. The scene is animated by the movement of numerous pedestrians strolling across the cobblestone pavement, creating a bustling atmosphere. The historic architecture surrounding the square, with its classic facades, provides a picturesque backdrop to the everyday activity. The child\u2019s focused ride through the crowd adds a focal point of youthful energy and simple joy to the vibrant urban setting."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 263,
+      "end_frame": 326,
+      "start_sec": 10.969292,
+      "end_sec": 13.596917,
+      "duration_sec": 2.669333,
+      "num_frame_captions": 4,
+      "caption": "A young child wearing a green hoodie rides a small yellow bicycle through a bustling, historic European town square. The scene is set on cobblestones, with pedestrians watching or going about their day around the edges of the square. The architecture suggests an old-world setting. The primary action is the child's ride, which draws the attention of some onlookers while the general life of the square continues around them."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 327,
+      "end_frame": 362,
+      "start_sec": 13.638625,
+      "end_sec": 15.098417,
+      "duration_sec": 1.5015,
+      "num_frame_captions": 3,
+      "caption": "A young child wearing a green jacket rides a small yellow bicycle through a bustling European town square. The scene is set on cobblestones, with historic buildings lining the area. The square is filled with pedestrians and features various elements like shops and market stalls, contributing to a lively, public atmosphere. The child is the central moving figure navigating this active urban space."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 363,
+      "end_frame": 378,
+      "start_sec": 15.140125,
+      "end_sec": 15.76575,
+      "duration_sec": 0.667333,
+      "num_frame_captions": 1,
+      "caption": "This scene captures a lively moment in a historic town square. A young child, wearing a bright green jacket, pedals a yellow bicycle across the cobblestone pavement. The square is bustling with activity as numerous pedestrians stroll past traditional storefronts, creating a vibrant and slightly chaotic urban atmosphere. The primary action centers on the child's journey, navigating through the crowd on the distinctive bicycle. The setting evokes a sense of everyday European life, with the old architecture and public space serving as a backdrop to this simple, dynamic vignette of movement and community."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 379,
+      "end_frame": 529,
+      "start_sec": 15.807458,
+      "end_sec": 22.063708,
+      "duration_sec": 6.297958,
+      "num_frame_captions": 10,
+      "caption": "A lively parade of cyclists and pedestrians crosses a modern suspension bridge over a canal on an overcast day. The procession includes a person in a red mascot costume riding a cart, others carrying balloons, and displays a Dutch protest message about climate change. Spectators watch from the sides as the festive group moves along the wide, multi-level path. The urban backdrop features a mix of modern and historic buildings, with a street vendor and tall structures visible in the scene."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 530,
+      "end_frame": 680,
+      "start_sec": 22.105417,
+      "end_sec": 28.361667,
+      "duration_sec": 6.297958,
+      "num_frame_captions": 10,
+      "caption": "A group of cyclists, including adults and children, rides together along a rural road on an overcast day. The group features several cargo bikes, one carrying a child in a wooden box and another flying a flag, as well as a bright yellow tandem bicycle shared by a couple. They travel on a mix of paved and gravel paths, all bordered by trees, hedges, and grassy verges. The scene conveys a leisurely, communal bike ride through the countryside, with participants wearing helmets and casual cycling attire."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 681,
+      "end_frame": 770,
+      "start_sec": 28.403375,
+      "end_sec": 32.115417,
+      "duration_sec": 3.75375,
+      "num_frame_captions": 6,
+      "caption": "A group of cyclists rides along a paved path beside a road. The scene includes multiple cyclists, with one prominently carrying a Union Jack flag on their bicycle. Another cyclist holds a large black umbrella, likely for shade under the bright, partly cloudy sky. Cars are visible on the adjacent road, and other pedestrians and cyclists are present in the background. The overall setting is outdoors on a clear day, with the activity centered on the cyclists moving together along the path."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 771,
+      "end_frame": 855,
+      "start_sec": 32.157125,
+      "end_sec": 35.660625,
+      "duration_sec": 3.545208,
+      "num_frame_captions": 6,
+      "caption": "This scene shows two men, one older and one younger, having a friendly conversation in a park. The older man, wearing a vest and cap, is actively gesturing as he speaks, while the younger man in a blue vest or jacket listens with a smile, often with his arms crossed. They are standing together, sometimes posing for a photo, in a relaxed outdoor setting with trees and a bench visible in the background. The overall mood is casual and congenial, capturing a moment of shared enjoyment during their park visit."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 856,
+      "end_frame": 1002,
+      "start_sec": 35.702333,
+      "end_sec": 41.79175,
+      "duration_sec": 6.131125,
+      "num_frame_captions": 9,
+      "caption": "This scene depicts a cycling event or group ride moving through an urban environment on an overcast day. A notable participant is a cyclist on a cargo bike, sometimes marked with a tall green flag or a high-visibility vest, who rides among the larger peloton. The procession travels along paved streets, promenades, and plazas, passing buildings and sidewalks where numerous pedestrians stop to watch the spectacle. The group includes cyclists in various attire, with some wearing coordinated red jerseys. The overall atmosphere is one of a public, organized ride attracting attention from onlookers in the city."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 1003,
+      "end_frame": 1157,
+      "start_sec": 41.833458,
+      "end_sec": 48.256542,
+      "duration_sec": 6.464792,
+      "num_frame_captions": 11,
+      "caption": "In a park, an older man in a vest and flat cap interacts with a younger man in a blue and black jacket. The older man is generally more expressive, sometimes smiling or speaking, while the younger man maintains a serious, reserved posture with his arms crossed. Their interaction involves moments of conversation and shared silence, with their gazes alternating between looking at each other and looking away. The scene captures a quiet, somewhat tense dynamic between the two figures, set against the casual backdrop of the park."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 1158,
+      "end_frame": 1247,
+      "start_sec": 48.29825,
+      "end_sec": 52.010292,
+      "duration_sec": 3.75375,
+      "num_frame_captions": 6,
+      "caption": "Cyclists ride along a clearly marked urban bike lane. The scene includes both individual and paired cyclists, with one wearing a distinctive yellow vest and another featuring a Union Jack motif. Their movement is consistent and purposeful, traveling on a dedicated path separated from vehicular traffic. The environment is a typical city street, with the lane demarcated by painted white bicycle symbols on the pavement, sidewalks, and street furniture in the background."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 1248,
+      "end_frame": 1346,
+      "start_sec": 52.052,
+      "end_sec": 56.139417,
+      "duration_sec": 4.129125,
+      "num_frame_captions": 6,
+      "caption": "A group of cyclists rides across a modern bridge on a bright, hazy day. The pack includes several distinct individuals, such as a man in a bright yellow vest who is sometimes seen leading, a young man in a green hoodie, and a woman in a black vest. At another point, a smiling woman in a black dress takes the lead. Colorful promotional banners line the bridge, adding to the vibrant atmosphere. The cyclists proceed along the paved path under an overcast or clear sky, maintaining a steady pace as part of their ride."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 1347,
+      "end_frame": 1495,
+      "start_sec": 56.181125,
+      "end_sec": 62.353958,
+      "duration_sec": 6.214542,
+      "num_frame_captions": 10,
+      "caption": "A group of cyclists rides down a city street lined with shops on an overcast day. The riders, including men, women, and children, wear helmets and high-visibility yellow vests or jerseys, with some also dressed in patriotic red, white, and blue attire. They cycle together in a line, passing various storefronts. The mood appears cheerful, highlighted by a smiling man in the group. The scene captures a community cycling event or parade moving through an urban area."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 1496,
+      "end_frame": 1658,
+      "start_sec": 62.395667,
+      "end_sec": 69.152417,
+      "duration_sec": 6.798458,
+      "num_frame_captions": 11,
+      "caption": "Two women are walking and talking together on a city sidewalk, passing various storefronts. They are consistently seen near a clothing store window that features a mannequin dressed in a blue shirt and yellow pants. At times, a man joins them, making the group three people walking together. Their activity remains centered around conversation and movement along the street, occasionally pausing near the shop window display. The scene captures a casual, social interaction in an urban setting."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 1659,
+      "end_frame": 1778,
+      "start_sec": 69.194125,
+      "end_sec": 74.157417,
+      "duration_sec": 5.005,
+      "num_frame_captions": 8,
+      "caption": "This scene begins with a close-up view of lush blue and purple lobelia flowers in a garden setting, focusing on their delicate blooms and green stems. The perspective then widens to reveal that these vibrant flowers are overflowing from a wicker basket attached to a bicycle. Finally, the full context is established as the bicycle is shown parked on a bustling urban street, with the flowers providing a vivid splash of color against the blurred background of pedestrians and city activity. The sequence moves from an intimate botanical detail to a charming street scene."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 1779,
+      "end_frame": 2136,
+      "start_sec": 74.199125,
+      "end_sec": 89.089,
+      "duration_sec": 14.931583,
+      "num_frame_captions": 24,
+      "caption": "This scene features two young women in a park, both wearing black hats\u2014one adorned with white flowers and the other a simple bowler style with a turquoise pendant. They stand side-by-side outdoors, smiling and engaging directly with the camera. Their interaction is lively and cheerful, as they frequently laugh, converse with each other, and share happy glances. The consistent park setting with trees and grass forms a relaxed backdrop. The overall mood is one of lighthearted friendship and casual enjoyment during what appears to be a pleasant outdoor photoshoot or social gathering."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 2137,
+      "end_frame": 2219,
+      "start_sec": 89.130708,
+      "end_sec": 92.550792,
+      "duration_sec": 3.461792,
+      "num_frame_captions": 5,
+      "caption": "This scene presents a long, covered indoor bicycle parking facility, characterized by its symmetrical rows of neatly parked bicycles that stretch into the distance. The environment is largely empty and quiet, emphasizing the orderly structure of the storage space. A person, wearing a coat, is seen walking down the central corridor, providing a sense of scale and movement within the static, repetitive architecture. The low-angle perspective in one view further accentuates the length and repetitive pattern of the bike racks, creating a visually striking and somewhat atmospheric depiction of this utilitarian urban infrastructure."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 2220,
+      "end_frame": 2380,
+      "start_sec": 92.5925,
+      "end_sec": 99.265833,
+      "duration_sec": 6.715042,
+      "num_frame_captions": 11,
+      "caption": "This scene depicts a joyful family outing in a bustling European-style outdoor market or plaza. A man pedals a white cargo bicycle through the crowded area, which is filled with people dining at tables and standing nearby. In the front basket of the bike, a young, smiling red-haired boy and a girl ride happily together, sometimes holding a toy. An adult woman and occasionally another child are also seen seated behind the rider. The overall atmosphere is lively and cheerful as the family navigates the cobblestone streets, with the children expressing excitement during their unique ride."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 2381,
+      "end_frame": 2917,
+      "start_sec": 99.307542,
+      "end_sec": 121.663208,
+      "duration_sec": 22.397375,
+      "num_frame_captions": 36,
+      "caption": "The scene alternates between two main settings. In one, an older man with glasses and gray hair speaks animatedly to the camera while standing in front of a clothing store or stall, marked by a white canopy, tent, or shutter and racks of colorful garments. In the other, a large group of cyclists in matching white jerseys and helmets rides through a bustling European city street. They navigate crosswalks, weave past pedestrians\u2014including people with strollers\u2014and pass historic buildings, creating a dynamic contrast between the static interview and the moving peloton."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 2918,
+      "end_frame": 2997,
+      "start_sec": 121.704917,
+      "end_sec": 124.999875,
+      "duration_sec": 3.336667,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a bustling European city street, likely a town square, characterized by its cobblestone pavement. The consistent focal point is a row of bicycles, many with colorful handlebars, which are parked along a metal railing or rack. Pedestrians are continuously walking by in the background, contributing to the lively urban atmosphere. Storefronts are visible, reinforcing the commercial and public nature of the setting. The overall impression is of a vibrant, everyday moment in a pedestrian-friendly urban center where bicycles are a common mode of transport."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 2998,
+      "end_frame": 3056,
+      "start_sec": 125.041583,
+      "end_sec": 127.460667,
+      "duration_sec": 2.460792,
+      "num_frame_captions": 4,
+      "caption": "This scene takes place in an urban plaza, featuring a man with curly hair. He is initially seen wearing a grey button-up shirt over a maroon tee, but later appears in just a grey polo shirt, suggesting a slight change in his attire. Throughout the scene, he stands outdoors with buildings and trees in the background, offering a slight smile to the camera. The activity culminates with him holding a bicycle in the plaza. Meanwhile, a woman in a red jacket is present nearby, engaged in a conversation on her phone, adding a secondary element of daily life to the setting."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 3057,
+      "end_frame": 3085,
+      "start_sec": 127.502375,
+      "end_sec": 128.670208,
+      "duration_sec": 1.209542,
+      "num_frame_captions": 2,
+      "caption": "The scene shows a person riding a stationary exercise bike outdoors. The focus is on the rhythmic pedaling motion, captured from a low angle that emphasizes the cyclist's feet and colorful sneakers. The setting appears to be on a paved surface, suggesting an urban or park environment. The activity conveys a sense of casual outdoor exercise, with the stationary nature of the bike creating a contrast against the open-air backdrop."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 3086,
+      "end_frame": 3161,
+      "start_sec": 128.711917,
+      "end_sec": 131.840042,
+      "duration_sec": 3.169833,
+      "num_frame_captions": 5,
+      "caption": "This scene captures a vibrant and energetic bicycle parade or rally moving through a crowded urban street. Viewed from a dynamic low angle, the focus is on the wheels and legs of numerous cyclists, both adults and children, pedaling closely together in a sunlit procession. The bustling atmosphere is amplified by spectators and pedestrians lining the scene. A person holding a cluster of green balloons adds a splash of color to the lively event, with the blurred motion in the foreground emphasizing the constant movement and communal energy of the gathering."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 3162,
+      "end_frame": 3217,
+      "start_sec": 131.88175,
+      "end_sec": 134.175708,
+      "duration_sec": 2.335667,
+      "num_frame_captions": 4,
+      "caption": "In a European town square, a bald man wearing a black t-shirt with a \"mobil\" or \"my mobile\" logo stands with a backpack strap over his shoulder. He is positioned near a historic stone tower, with other traditional and modern buildings visible in the background. The scene captures him in a moment of interaction, first looking down and to the side, then speaking animatedly to someone off-camera. His expression shifts to one of concern as he gazes off-frame, suggesting a focused and possibly serious conversation is taking place within this public, historic setting."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 3218,
+      "end_frame": 3315,
+      "start_sec": 134.217417,
+      "end_sec": 138.263125,
+      "duration_sec": 4.087417,
+      "num_frame_captions": 7,
+      "caption": "This scene depicts a festive, patriotic parade in a park or along a tree-lined street. A group of cyclists, many dressed in colorful, whimsical costumes and hats, ride decorated bicycles in a joyful procession. The atmosphere is celebratory, with participants waving Union Jack flags as they cycle. The procession includes a decorated rickshaw and features a notable participant in a blue superhero costume. The overall mood is one of communal enjoyment and lighthearted celebration as the group moves through the green, leafy surroundings."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 3316,
+      "end_frame": 3405,
+      "start_sec": 138.304833,
+      "end_sec": 142.016875,
+      "duration_sec": 3.75375,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a group of cyclists on a leisurely ride through a quiet residential neighborhood. They are traveling down a street lined with houses, parked cars, and the occasional decorative fence under a consistently overcast sky. The group includes several riders, with one cyclist in a yellow safety vest being particularly noticeable at the front. Another man in a blue shirt is also seen leading the pack at one point. The overall activity is a steady, communal bike ride, with no significant changes in setting or weather throughout the sequence."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 3406,
+      "end_frame": 3699,
+      "start_sec": 142.058583,
+      "end_sec": 154.279125,
+      "duration_sec": 12.26225,
+      "num_frame_captions": 19,
+      "caption": "The scene depicts a lively outdoor festival or public event in a European city square, centered around promoting cycling. A dense crowd mingles among bicycles, colorful stalls, and umbrellas. Prominent banners, including ones reading \"BIKE,\" \"BIKE CITIES,\" and \"Bike Friendly Cities,\" highlight the event's theme. The atmosphere is festive, with historic buildings, a church tower, and caf\u00e9-lined streets forming the backdrop under a bright, sunny sky."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 3700,
+      "end_frame": 4004,
+      "start_sec": 154.320833,
+      "end_sec": 167.000167,
+      "duration_sec": 12.721042,
+      "num_frame_captions": 20,
+      "caption": "This scene consists of a film's closing credits sequence. The main content is the repeated acknowledgment of the creators, Adam Blackwell and Sam Hadden, who are A-level students from Shoeburyness High School. The credits consistently thank several supporting organizations, including Ideas in Motion, Cycle Southend, Southend on Sea Borough Council, and Bike Friendly Cities, for their contributions to the project. The sequence is punctuated by brief moments of a blank, black screen between the credit frames."
+    }
+  ]
+}

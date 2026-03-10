@@ -1,0 +1,26 @@
+{
+  "video": "Uncut_Evening_Flight",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Uncut_Evening_Flight.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_21.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 7909,
+  "num_scenes": 1,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 7908,
+      "start_sec": 0.0,
+      "end_sec": 263.8636,
+      "duration_sec": 263.896967,
+      "num_frame_captions": 528,
+      "caption": "This video follows a white glider with registration D-8841, beginning with its preparation for flight on a grassy airfield. Two men are seen standing beside the remote-controlled aircraft under a clear sky. The perspective then shifts to a first-person view from the cockpit as the glider takes off, taxis, and soars low over lush green fields and forested hills. The flight continues, offering breathtaking aerial views of a patchwork countryside with winding rivers, lakes, forests, and scattered villages. The journey captures the serene beauty of gliding, from clear blue skies to the warm, golden light of sunset, with the aircraft's sleek design often emphasized against the vast sky."
+    }
+  ]
+}

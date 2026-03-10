@@ -1,0 +1,56 @@
+{
+  "video": "xmEERLqJ2kU",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/xmEERLqJ2kU.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_33.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 13365,
+  "num_scenes": 4,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 12729,
+      "start_sec": 0.0,
+      "end_sec": 424.7243,
+      "duration_sec": 424.757667,
+      "num_frame_captions": 849,
+      "caption": "The scene takes place in a high school gymnasium, where a bald man in a black hoodie or jacket acts as a host or coach, frequently holding a microphone and gesturing animatedly to address an audience. He is sometimes joined by another man, and together they appear to be conducting an event, such as a pep rally or halftime show. The main activity involves a large group of students in matching black shirts performing synchronized dance routines, often with props like jump ropes or hula hoops, on the basketball court marked with \"THE TIGER DEN.\" The audience watches from the bleachers, and the overall atmosphere is energetic and celebratory."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 12730,
+      "end_frame": 12828,
+      "start_sec": 424.757667,
+      "end_sec": 428.0276,
+      "duration_sec": 3.3033,
+      "num_frame_captions": 7,
+      "caption": "This scene captures a high-energy basketball game in a gymnasium, where a large and enthusiastic crowd of fans, predominantly dressed in red, fills the bleachers. The spectators are intently focused on the action, cheering and waving their arms as the event unfolds. On the court, players in dark uniforms are visible, and a cheerleading squad performs during the game. The court floor is marked with lettering that appears to read \"BLUFFTON\" or \"SLUFFTON,\" indicating the school or team name. The overall atmosphere is one of spirited competition and community support."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 12829,
+      "end_frame": 12850,
+      "start_sec": 428.060967,
+      "end_sec": 428.761667,
+      "duration_sec": 0.734067,
+      "num_frame_captions": 1,
+      "caption": "This scene captures the energetic atmosphere of a competitive basketball game within a packed gymnasium. The focus is on the dynamic action on the court, where players from opposing teams execute fast breaks, set up offensive plays, and contest shots with intense defensive pressure. The roar of the crowd from the surrounding bleachers rises and falls with the momentum of the game, creating a palpable sense of excitement and community support. The overall sequence emphasizes the speed, skill, and physicality of the sport, set against the vibrant backdrop of a live, local sporting event."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 12851,
+      "end_frame": 13364,
+      "start_sec": 428.795033,
+      "end_sec": 445.912133,
+      "duration_sec": 17.150467,
+      "num_frame_captions": 34,
+      "caption": "This scene takes place in a high school or university gymnasium known as \"The Tiger Den,\" featuring a basketball court with prominent \"TIGERS\" and \"Bluffton University\" markings. The main event is a halftime or special performance during a basketball game. Two cheerleaders, wearing maroon, gold, black, and white uniforms, take center court to perform a routine for a large crowd of spectators filling the stands. The atmosphere is that of a school spirit event, with some students in coordinated red shirts. The performance includes the use of a microphone and megaphone, suggesting a combination of cheering and spoken elements for the engaged audience."
+    }
+  ]
+}

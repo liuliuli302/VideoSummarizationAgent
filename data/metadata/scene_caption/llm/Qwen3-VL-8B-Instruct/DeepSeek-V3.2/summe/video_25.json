@@ -1,0 +1,26 @@
+{
+  "video": "playing_ball",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/playing_ball.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_25.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 30.0,
+  "total_frames": 3119,
+  "num_scenes": 1,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 3118,
+      "start_sec": 0.0,
+      "end_sec": 103.933333,
+      "duration_sec": 103.966667,
+      "num_frame_captions": 208,
+      "caption": "A person offers food to a curious crow on a paved walkway. The crow interacts with a German Shepherd lying calmly nearby, pecking at a white ball or treat on the ground between them. The dog remains relaxed and watchful as the bird approaches and investigates. The scene unfolds in a cluttered backyard patio with scattered items like buckets, chairs, and a trash can, capturing a moment of peaceful coexistence between the two animals."
+    }
+  ]
+}

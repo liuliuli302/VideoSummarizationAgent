@@ -1,0 +1,126 @@
+{
+  "video": "Paintball",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Paintball.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_15.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 23.976023976023978,
+  "total_frames": 6096,
+  "num_scenes": 11,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 2427,
+      "start_sec": 0.0,
+      "end_sec": 101.226125,
+      "duration_sec": 101.267833,
+      "num_frame_captions": 162,
+      "caption": "This scene depicts a paintball match taking place on a large, grassy outdoor field under an overcast, misty sky. The setting is an industrial area, with distant buildings and a blue crane visible in the background. Players, primarily wearing red gear, are actively engaged in the game, taking cover behind and darting between large, weathered obstacles. These obstacles include round concrete pipes, wooden bunkers, and other cylindrical targets scattered across the field. The action involves players moving strategically, running across the open grass, and using the various structures for protection during the simulated combat."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 2428,
+      "end_frame": 2462,
+      "start_sec": 101.267833,
+      "end_sec": 102.685917,
+      "duration_sec": 1.459792,
+      "num_frame_captions": 3,
+      "caption": "This scene captures a moment of intense, rapid motion through a natural environment, likely from a first-person perspective. The consistent visual distortion, characterized by sweeping streaks of green and beige, indicates significant camera movement, such as a person running or a vehicle speeding past. The dominant colors and abstract forms strongly suggest the blur of dense foliage, grass, or undergrowth whipping by the lens. The overall effect is one of dynamic, unfocused speed, conveying a visceral sense of traversal through a verdant landscape without revealing specific details of the surroundings."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 2463,
+      "end_frame": 5515,
+      "start_sec": 102.727625,
+      "end_sec": 230.021458,
+      "duration_sec": 127.335542,
+      "num_frame_captions": 203,
+      "caption": "The scene consists of a continuous, shaky, and extremely blurry close-up shot of dense foliage, likely grass and leaves, filmed at night or in very low light. The camera moves erratically through the vegetation, creating a series of abstract, out-of-focus images dominated by dark greens and browns. There is no discernible subject, action, or clear setting beyond the impression of being within or very close to plants. The persistent motion blur and poor focus suggest the footage was captured unintentionally, perhaps from a dropped or wildly moving camera in a natural outdoor environment."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 5516,
+      "end_frame": 5694,
+      "start_sec": 230.063167,
+      "end_sec": 237.48725,
+      "duration_sec": 7.465792,
+      "num_frame_captions": 12,
+      "caption": "This scene depicts a blurry, indistinct view of a natural outdoor setting, likely dense foliage or a forest. The visual information is consistently obscured, dominated by shifting green and orange hues that suggest sunlight filtering through leaves or the presence of a small animal. A reddish-brown or orange shape, possibly a bird or creature, moves within the frame but remains unidentifiable due to the extreme blur and low resolution. The overall impression is of a close, obscured perspective on wildlife activity within a vibrant but unfocused natural environment."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 5695,
+      "end_frame": 5732,
+      "start_sec": 237.528958,
+      "end_sec": 239.072167,
+      "duration_sec": 1.584917,
+      "num_frame_captions": 3,
+      "caption": "This scene presents a dynamic, abstract view of a fast-moving object, likely an airplane or bird, flying through a bright sky. The perspective is intentionally blurred and distorted, emphasizing motion and color over precise detail. The dominant cool blues and whites of the sky and clouds form the backdrop, against which a vivid red shape streaks across the frame. The imagery shifts from a soft blue form on the left to a central, smeared red streak, collectively creating an impressionistic sense of rapid, fluid movement through an expansive, luminous atmosphere."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 5733,
+      "end_frame": 5856,
+      "start_sec": 239.113875,
+      "end_sec": 244.244,
+      "duration_sec": 5.171833,
+      "num_frame_captions": 8,
+      "caption": "This scene consists of abstract, transitional frames that create a visual effect of fading in and out of darkness and light. It begins and ends in total blackness, with intermittent flashes of bright, overexposed white light. Within this sequence, blurry, indistinct shapes\u2014including a curved form and a purple-gray smudge\u2014momentarily emerge against the stark contrast of light and dark backgrounds. The overall impression is one of a non-representational, atmospheric transition, where form dissolves into pure luminosity and shadow before vanishing again."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 5857,
+      "end_frame": 5876,
+      "start_sec": 244.285708,
+      "end_sec": 245.078167,
+      "duration_sec": 0.834167,
+      "num_frame_captions": 1,
+      "caption": "The scene presents a stark visual contrast, dominated by a large, undefined dark form on the left. Its blurred, shadowy quality creates a sense of mystery or foreboding, sharply juxtaposed against a brilliant, washed-out background on the right. This composition establishes a tense, almost abstract dynamic, emphasizing shape and light over detail. The overall impression is one of dramatic opposition, where an obscure presence is highlighted against an overwhelming void of light."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 5877,
+      "end_frame": 5916,
+      "start_sec": 245.119875,
+      "end_sec": 246.7465,
+      "duration_sec": 1.668333,
+      "num_frame_captions": 3,
+      "caption": "This scene opens in near-total darkness, with only a faint light source visible. The view then shifts to a blurry, grayish object isolated against a stark white background, suggesting a close-up of an indistinct subject. Finally, the perspective pulls back to reveal a natural outdoor setting, capturing the silhouetted forms of tree branches against a bright, overexposed sky. The sequence moves from obscurity and abstraction to a recognizable, though hazy, natural environment."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 5917,
+      "end_frame": 6027,
+      "start_sec": 246.788208,
+      "end_sec": 251.376125,
+      "duration_sec": 4.629625,
+      "num_frame_captions": 7,
+      "caption": "This scene appears to be a chaotic, out-of-focus sequence filmed outdoors on a grassy lawn, possibly during a moment of rapid movement or camera malfunction. The perspective is unstable, shifting between low angles and even an upside-down view. The consistent elements are the green grass, trees in the background, and a bright sky. A dark, rusted or textured object is intermittently visible, along with other indistinct shapes that could be people or equipment, but no clear action or subject is discernible due to the severe blur and low resolution throughout."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 6028,
+      "end_frame": 6071,
+      "start_sec": 251.417833,
+      "end_sec": 253.211292,
+      "duration_sec": 1.835167,
+      "num_frame_captions": 3,
+      "caption": "This scene appears to be set on a grassy field, likely during a sporting event or practice. The primary focus is on a person wearing a distinctive maroon and yellow shirt or jersey, who is standing on the grass. The perspective is somewhat distant and elevated, resulting in a generally blurry and low-resolution view of the action. Other figures are present in the vicinity, suggesting a group activity, but they remain indistinct. The overall visual quality is poor, with issues of overexposure and blurriness obscuring finer details, though the central athlete and the green field provide the scene's anchor."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 6072,
+      "end_frame": 6095,
+      "start_sec": 253.253,
+      "end_sec": 254.212292,
+      "duration_sec": 1.001,
+      "num_frame_captions": 2,
+      "caption": "This scene presents a first-person perspective of a person walking through a grassy field. The view is slightly unstable and blurry, emphasizing the motion. As they walk, their own legs and shoes are visible in the lower part of the frame. The key action occurs when the person is seen holding a long, serrated metal blade, such as a machete or large knife, while standing in the same outdoor environment. The scene conveys a sense of purposeful movement and manual activity, likely involving cutting or clearing vegetation in the field."
+    }
+  ]
+}

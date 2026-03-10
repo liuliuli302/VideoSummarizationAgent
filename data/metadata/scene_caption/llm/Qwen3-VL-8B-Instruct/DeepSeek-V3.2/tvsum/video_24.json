@@ -1,0 +1,596 @@
+{
+  "video": "GsAD1KT1xo8",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/GsAD1KT1xo8.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_24.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 4356,
+  "num_scenes": 58,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 166,
+      "start_sec": 0.0,
+      "end_sec": 5.538867,
+      "duration_sec": 5.572233,
+      "num_frame_captions": 12,
+      "caption": "A group of people, primarily children, move through a hallway. The scene begins in darkness before their silhouettes appear, walking from a dim interior toward a bright doorway or window at the end of the passage. Their journey is shown from various perspectives\u2014sometimes as a collective silhouette, sometimes with individuals visible. The lighting shifts, suggesting they are moving from shadow into light, culminating in them reaching and gathering at a large wooden door, where they look out."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 167,
+      "end_frame": 269,
+      "start_sec": 5.572233,
+      "end_sec": 8.975633,
+      "duration_sec": 3.436767,
+      "num_frame_captions": 6,
+      "caption": "In a sunny park, a large elephant-shaped playground structure is the center of activity. A person in a white shirt and green pants stands nearby, observing the scene. Children play on and around the structure, with one child climbing to the top. Another person is seen riding on the elephant's back. The setting is relaxed and sun-dappled, with trees partially framing the view as people enjoy the outdoor space."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 270,
+      "end_frame": 329,
+      "start_sec": 9.009,
+      "end_sec": 10.977633,
+      "duration_sec": 2.002,
+      "num_frame_captions": 4,
+      "caption": "This scene depicts a group of young men gathered outdoors in a wooded, park-like setting. They are casually dressed, with several shirtless or wearing backpacks, suggesting a relaxed social outing. The focus is on one individual in a blue shirt and red shorts, who is initially prominent within the group. The scene's action involves this person gradually moving away, walking past the others and eventually departing from the gathering. The overall atmosphere is informal, with the group standing and talking on a paved path under the trees as the central figure exits the frame."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 330,
+      "end_frame": 375,
+      "start_sec": 11.011,
+      "end_sec": 12.5125,
+      "duration_sec": 1.534867,
+      "num_frame_captions": 4,
+      "caption": "A group of young adults, dressed in athletic wear, are gathered in a lush, wooded park. They are engaged in a team activity or conversation, standing together in a relaxed outdoor setting. The group includes both men and women, with some individuals having visible tattoos. Their posture and interaction suggest they are part of a coordinated social or recreational gathering in the green, natural environment."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 376,
+      "end_frame": 414,
+      "start_sec": 12.545867,
+      "end_sec": 13.8138,
+      "duration_sec": 1.3013,
+      "num_frame_captions": 2,
+      "caption": "In a park, two young men sit together on a bench, their expressions conveying a sense of confusion or concern as they look in the same direction off-camera. The scene suggests they are reacting to an unseen event or person, creating a moment of shared tension. Their focused gazes and the overall atmosphere imply a sudden, possibly troubling interruption to a previously calm setting. The composition centers on their silent, unified response, leaving the specific cause of their alarm to the viewer\u2019s imagination while emphasizing their immediate, wordless reaction."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 415,
+      "end_frame": 441,
+      "start_sec": 13.847167,
+      "end_sec": 14.7147,
+      "duration_sec": 0.9009,
+      "num_frame_captions": 2,
+      "caption": "Two young men are seated together on a bench in a peaceful garden. The scene captures a quiet, reflective moment between them. One man looks directly toward the camera, while the other is turned away, suggesting a private or introspective interaction. The presence of a blonde-haired person in the foreground adds depth to the composition, emphasizing the casual and contemplative atmosphere of the outdoor setting."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 442,
+      "end_frame": 585,
+      "start_sec": 14.748067,
+      "end_sec": 19.5195,
+      "duration_sec": 4.8048,
+      "num_frame_captions": 10,
+      "caption": "This scene captures a lively outdoor musical performance by a small band, likely on a city sidewalk or street corner at night. The ensemble features a cellist, guitarist, drummer, and sometimes a singer or bassist, playing for a gathered audience. A key focus is the genuine enjoyment of the spectators, particularly a smiling young boy who watches the musicians intently from the foreground. The atmosphere is intimate and engaging, blending the energy of a live street concert with close, personal moments of connection between the performers and the crowd."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 586,
+      "end_frame": 600,
+      "start_sec": 19.552867,
+      "end_sec": 20.02,
+      "duration_sec": 0.5005,
+      "num_frame_captions": 1,
+      "caption": "This scene presents a highly stylized, abstract visual sequence. The imagery is rendered in stark black and white, with the entire composition deliberately blurred to create a sense of motion and ambiguity. Dominated by sweeping, curved forms that flow across the frame, the effect is one of dynamic energy and graphic impressionism. Indistinct text appears at the bottom, suggesting a title or credit sequence, but its primary function is graphic rather than informational. The overall aesthetic evokes the opening of a classic film or a transitional montage, using form and movement to establish a mood rather than depict concrete action."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 601,
+      "end_frame": 675,
+      "start_sec": 20.053367,
+      "end_sec": 22.5225,
+      "duration_sec": 2.5025,
+      "num_frame_captions": 5,
+      "caption": "The scene features a stylized white logo on a black background. The central graphic is a sleek, curved serpent-like creature with an open, jagged mouth and sharp teeth. This snake-like icon is positioned directly above the word \"gavner\" (or \"gavvner\") rendered in a bold, modern, rounded font. The composition is minimalist and consistent, presenting a clean, corporate brand identity against the dark backdrop."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 676,
+      "end_frame": 786,
+      "start_sec": 22.555867,
+      "end_sec": 26.2262,
+      "duration_sec": 3.7037,
+      "num_frame_captions": 7,
+      "caption": "This scene begins with a blurry, low-resolution view of a historic stone building, gradually clarifying to reveal a stone archway inscribed with the words \"KUNSTLER-HAVS.\" The camera moves through the arch, capturing the bright sun shining through and illuminating a lush, green park beyond. The focus then shifts to a small group of people, including a man with a backpack, as they walk through the archway and proceed along a sun-dappled, tree-lined path. The sequence effectively transitions from an architectural detail to the people entering and enjoying the serene, verdant outdoor space."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 787,
+      "end_frame": 863,
+      "start_sec": 26.259567,
+      "end_sec": 28.795433,
+      "duration_sec": 2.569233,
+      "num_frame_captions": 5,
+      "caption": "A young boy sits in the back seat of a car, eating from a bowl. He is wearing a wristband. In some moments, he is seen holding a small object, possibly a utensil or a cigarette, to his mouth. The setting appears consistent, though one caption suggests an unusual location like an open trunk. The primary action throughout the scene is the boy consuming food from the bowl while inside or around the vehicle."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 864,
+      "end_frame": 880,
+      "start_sec": 28.8288,
+      "end_sec": 29.362667,
+      "duration_sec": 0.567233,
+      "num_frame_captions": 1,
+      "caption": "In this scene, two individuals are inside a vehicle, with one seated in the back. The passenger in the rear is partially obscured in silhouette, suggesting a dim interior or backlighting from a window. Meanwhile, the other person, wearing a gray shirt and positioned in the front, leans forward intently. Their posture and focus indicate they are engaged in a specific task, likely adjusting a piece of equipment, a seat, or controls on the dashboard. The atmosphere is quiet and purposeful, centered on this moment of minor activity within the confined space of the car."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 881,
+      "end_frame": 943,
+      "start_sec": 29.396033,
+      "end_sec": 31.464767,
+      "duration_sec": 2.1021,
+      "num_frame_captions": 4,
+      "caption": "In a car, a young person is asleep in the passenger seat, their head propped up on a hand as sunlight filters through the window. The scene is one of quiet rest during a journey. After a period of sleep, the individual\u2014a young boy\u2014awakens. His demeanor shifts from peaceful slumber to a more pensive state as he looks downward, his expression becoming somber and thoughtful. The transition suggests a moment of waking reflection or the onset of a subdued mood within the confined, sunlit space of the vehicle."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 944,
+      "end_frame": 968,
+      "start_sec": 31.498133,
+      "end_sec": 32.298933,
+      "duration_sec": 0.834167,
+      "num_frame_captions": 2,
+      "caption": "The scene depicts a young boy on a car journey, securely seated and gazing out the window. His perspective shifts between a clear, sunny view of a distant town and trees, and a more blurred, passing landscape of buildings and foliage under a partly cloudy sky. The changing focus suggests the car is in motion, transitioning from an open area to a more built environment. The boy's quiet observation captures a moment of childhood travel, filled with the simple contemplation of the moving world outside his window."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 969,
+      "end_frame": 1066,
+      "start_sec": 32.3323,
+      "end_sec": 35.568867,
+      "duration_sec": 3.269933,
+      "num_frame_captions": 7,
+      "caption": "The scene depicts a rainy night on a wet city street. Raindrops fall onto the slick pavement, creating ripples in puddles and shimmering patterns. The ground acts as a dark mirror, reflecting the warm, golden glow of artificial lights from nearby buildings and streetlamps. These reflections are distorted and blurred by the moving water, contributing to a sense of a bustling, glistening urban atmosphere. The consistent elements are the falling rain, the reflective wet surface, and the interplay of light and water."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 1067,
+      "end_frame": 1097,
+      "start_sec": 35.602233,
+      "end_sec": 36.603233,
+      "duration_sec": 1.034367,
+      "num_frame_captions": 2,
+      "caption": "A group of young people is socializing in a sunny, wooded park. They have gathered near a gazebo, which serves as a focal point in the natural setting. The overall atmosphere is casual and relaxed, suggesting a leisurely outdoor hangout among friends. The scene is briefly animated by the motion of one individual in a green tank top, whose movement introduces a dynamic, slightly blurred element to the otherwise still gathering. This combination of a tranquil group and a single figure in motion captures a moment of informal activity within the peaceful park environment."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 1098,
+      "end_frame": 1144,
+      "start_sec": 36.6366,
+      "end_sec": 38.171467,
+      "duration_sec": 1.568233,
+      "num_frame_captions": 3,
+      "caption": "A group of young people gather in a wooded park near a gazebo, socializing around their bicycles. The scene features individuals in casual attire, including a man in a blue shirt and another in yellow pants, with a woman in a white dress also present. They are standing and conversing in a relaxed, sun-dappled outdoor setting, creating a casual and friendly atmosphere of a group meet-up or rest stop during a bicycle outing."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 1145,
+      "end_frame": 1216,
+      "start_sec": 38.204833,
+      "end_sec": 40.573867,
+      "duration_sec": 2.4024,
+      "num_frame_captions": 5,
+      "caption": "This scene takes place in a sunny park, where a young blonde boy in a dark blue shirt appears concerned or surprised while standing near a tree. He is not alone; other people are present, some seated under a covered pavilion in the background. Several bicycles are parked nearby, suggesting a casual, communal outdoor setting. The perspective then shifts dramatically to a blurry, low-angle view, possibly from near a vehicle, before culminating in a dark shot where only a faint streak of light is visible, implying a sudden movement or a shift in focus away from the park activity."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 1217,
+      "end_frame": 1311,
+      "start_sec": 40.607233,
+      "end_sec": 43.7437,
+      "duration_sec": 3.169833,
+      "num_frame_captions": 6,
+      "caption": "This scene unfolds in a sunny urban plaza featuring a fountain, trees, and benches. The main action centers on a person, often in a white shirt or tank top, who is energetically running and leaping. Their movement culminates in a dynamic jump or trick over a low concrete ledge. Meanwhile, the public space remains active with other individuals walking, standing, or watching the activity in the background. The overall atmosphere is one of casual urban life punctuated by a moment of athletic, playful motion."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 1312,
+      "end_frame": 1382,
+      "start_sec": 43.777067,
+      "end_sec": 46.112733,
+      "duration_sec": 2.369033,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a car journey with multiple occupants traveling along a road. A person with short hair is driving, while a young man sits in the passenger seat, both looking out at the passing roadside landscape of trees and greenery. Another young man is seated in the back, also gazing out the window. The perspective shifts between the driver, passenger, and rear seat, collectively conveying a sense of motion and shared travel as the vehicle moves forward, with the outside scenery appearing blurred from the moving car."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 1383,
+      "end_frame": 1453,
+      "start_sec": 46.1461,
+      "end_sec": 48.481767,
+      "duration_sec": 2.369033,
+      "num_frame_captions": 4,
+      "caption": "Two men walk away from the camera along a city sidewalk. They are dressed in casual, work-appropriate clothing, such as loose gray pants. As they proceed, the urban environment around them includes parked bicycles, cars, and various buildings. Other pedestrians are present in the background. The scene maintains a consistent perspective, following the men as they move past different elements like a graffiti-covered wall, suggesting a continuous journey through a typical city neighborhood."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 1454,
+      "end_frame": 1479,
+      "start_sec": 48.515133,
+      "end_sec": 49.3493,
+      "duration_sec": 0.867533,
+      "num_frame_captions": 2,
+      "caption": "The scene depicts a person in a grey t-shirt walking away from the camera along a city sidewalk. The setting is an urban street with other pedestrians present, parked cars, and buildings featuring arched windows. The overall activity is one of casual, everyday movement through a public city space."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 1480,
+      "end_frame": 1550,
+      "start_sec": 49.382667,
+      "end_sec": 51.718333,
+      "duration_sec": 2.369033,
+      "num_frame_captions": 5,
+      "caption": "This scene captures a casual urban gathering of young people on a low concrete wall outside a modern glass-fronted building. The group, which includes a woman smoking and a man in distinctive red pants, sits and stands in a relaxed manner. The dynamic shifts as a man in a blue shirt becomes the focal point, first energetically jumping or dancing in front of the seated onlookers and later performing a handstand on the ledge. After his brief performance, he walks away toward the building's entrance, concluding this informal display of youthful energy and camaraderie in a public space."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 1551,
+      "end_frame": 1697,
+      "start_sec": 51.7517,
+      "end_sec": 56.623233,
+      "duration_sec": 4.9049,
+      "num_frame_captions": 10,
+      "caption": "This urban skate park and plaza is a lively hub of activity on a sunny day, with skaters and spectators gathered around concrete ramps and ledges. Skateboarders and a roller skater perform tricks, with some attempts ending in falls where individuals are seen lying on the ground after losing balance. The scene also features a breakdancer performing for the watching crowd. Throughout, people observe from the sidelines as city life continues around them, with a yellow bus and traffic visible in the background of the bustling public space."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 1698,
+      "end_frame": 1752,
+      "start_sec": 56.6566,
+      "end_sec": 58.4584,
+      "duration_sec": 1.835167,
+      "num_frame_captions": 3,
+      "caption": "A skateboarder performs a trick in an outdoor skate park, launching off a ledge into the air. The dynamic maneuver takes place near a graffiti-covered concrete structure with a blue railing, where the skater is later seen balancing on top of the same structure. The scene captures the athleticism and urban setting of the action, from the mid-air moment to the controlled landing and pause atop the concrete feature."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 1753,
+      "end_frame": 1835,
+      "start_sec": 58.491767,
+      "end_sec": 61.227833,
+      "duration_sec": 2.769433,
+      "num_frame_captions": 6,
+      "caption": "A person is resting on the ground, lying on their side. They are wearing a blue wristband and a green beaded bracelet. Next to them is a fluffy brown and white dog. The scene includes close-up, blurry shots focusing on the person's face, which is partially covered by a white blanket or fabric, and their closed eyes, suggesting they are sleeping or deeply relaxed. The intimate framing emphasizes a quiet, peaceful moment between the person and their pet."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 1836,
+      "end_frame": 1907,
+      "start_sec": 61.2612,
+      "end_sec": 63.630233,
+      "duration_sec": 2.4024,
+      "num_frame_captions": 5,
+      "caption": "This scene takes place on a sunny day in a park with a playground. A young boy is actively playing, first running toward a blue spiral structure on the sandy ground. He then pauses, leaning forward and looking toward the camera with the playground equipment nearby. Meanwhile, another person, dressed in a dark shirt and cap, is present. This individual is seen bending over and then walking along a path under the dappled sunlight filtering through the trees. The overall atmosphere is one of casual outdoor activity, with multiple people enjoying the peaceful, sunlit park setting."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 1908,
+      "end_frame": 2003,
+      "start_sec": 63.6636,
+      "end_sec": 66.833433,
+      "duration_sec": 3.2032,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a person engaged in a series of energetic, athletic movements in a sun-dappled outdoor park or garden. The individual, wearing blue clothing and jeans, is seen running down a leaf-strewn path, then transitioning into dynamic actions. These include crouching low in a poised, balanced stance and performing a vigorous mid-air jump or flip. The sequence suggests a continuous flow of motion, possibly part of a dance, exercise routine, or playful activity, set against a lush backdrop of greenery and dappled sunlight. The overall impression is one of joyful, spontaneous physical exertion in a natural setting."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 2004,
+      "end_frame": 2103,
+      "start_sec": 66.8668,
+      "end_sec": 70.1701,
+      "duration_sec": 3.336667,
+      "num_frame_captions": 7,
+      "caption": "In a gymnasium, a group of young men engage in a series of energetic and playful physical activities. They begin by wrestling and grappling with each other in a friendly, competitive manner, with climbing equipment visible in the background. This physical interaction transitions into a more celebratory mood, as they stand together with arms around each other. The scene culminates with the group dancing and moving in unison, displaying high spirits and camaraderie. Throughout, the atmosphere is one of lighthearted fun and shared exertion among the participants."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 2104,
+      "end_frame": 2233,
+      "start_sec": 70.203467,
+      "end_sec": 74.507767,
+      "duration_sec": 4.337667,
+      "num_frame_captions": 8,
+      "caption": "A man in a blue shirt is outdoors in a park, smiling at the camera. The scene begins with a series of heavily blurred, low-resolution frames dominated by green, suggesting rapid motion across a grassy field, possibly from a moving vehicle or shaky camera. As the motion stabilizes, the man comes into clear focus against a background of trees and grass. The sequence captures the transition from chaotic, indistinct movement to a stable, personal moment of interaction."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 2234,
+      "end_frame": 2296,
+      "start_sec": 74.541133,
+      "end_sec": 76.609867,
+      "duration_sec": 2.1021,
+      "num_frame_captions": 5,
+      "caption": "This scene captures a man in a blue shirt performing a series of dynamic athletic moves in an urban setting. He is first seen leaping and then executing a breakdancing move on a city sidewalk, drawing the attention of passing pedestrians. The action escalates as he is shown mid-air, performing an acrobatic flip on the street. The scene concludes with him skateboarding down the same city street, seamlessly transitioning between different forms of street performance and movement against the backdrop of everyday city life."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 2297,
+      "end_frame": 2390,
+      "start_sec": 76.643233,
+      "end_sec": 79.746333,
+      "duration_sec": 3.136467,
+      "num_frame_captions": 6,
+      "caption": "In a sunlit, terracotta-colored courtyard with surrounding terraces, a man in a white shirt performs a series of daring athletic feats for an audience of spectators. He balances on the edge of a stone staircase before leaping dramatically from a ledge onto a lower platform. The scene escalates as he executes a mid-air trick while descending a wide staircase, showcasing skateboarding skills. Throughout the performance, onlookers watch intently from both the levels below and the terraces above, creating a dynamic atmosphere of spectacle and risk within the ornate architectural setting."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 2391,
+      "end_frame": 2541,
+      "start_sec": 79.7797,
+      "end_sec": 84.7847,
+      "duration_sec": 5.038367,
+      "num_frame_captions": 10,
+      "caption": "In a lush, overgrown park with weathered stone steps and graffiti-covered pillars, a lone person initially surveys the scene from atop the staircase. The atmosphere shifts as a second person arrives, and their interaction escalates into a dynamic physical sequence. This includes a brief altercation that quickly transitions into acrobatic flips and stunts performed on and around the steps. At one point, one individual is captured mid-air, jumping or falling down the staircase. The intense action then gives way to a more playful conclusion, with the two men seen energetically dancing and running together down the steps in the sun-dappled greenery."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 2542,
+      "end_frame": 2599,
+      "start_sec": 84.818067,
+      "end_sec": 86.719967,
+      "duration_sec": 1.935267,
+      "num_frame_captions": 4,
+      "caption": "In this outdoor scene, a shirtless man is engaged in a dynamic sequence of movement within a natural, overgrown setting. He is initially seen in mid-action, possibly throwing or swinging, before he begins to run. His path takes him toward and then up a mossy stone staircase, with a group of other people present on a nearby concrete ledge or platform. One individual, notable for wearing red pants, is among them. The scene concludes with the shirtless man running away from this group, suggesting a pursuit or a rapid departure through the tree-lined area."
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 2600,
+      "end_frame": 2636,
+      "start_sec": 86.753333,
+      "end_sec": 87.954533,
+      "duration_sec": 1.234567,
+      "num_frame_captions": 2,
+      "caption": "In an overgrown urban environment, a shirtless man performs a dynamic leap over a concrete barrier, observed by two onlookers standing to the side. Following this athletic maneuver, he lands and proceeds to walk away down a paved path. The two bystanders remain on the sidewalk, watching as he departs. The scene captures a brief sequence of action and its aftermath, set against a backdrop of weathered concrete and wild vegetation, suggesting an informal or spontaneous display of physicality in a neglected city space."
+    },
+    {
+      "scene_index": 35,
+      "start_frame": 2637,
+      "end_frame": 2735,
+      "start_sec": 87.9879,
+      "end_sec": 91.257833,
+      "duration_sec": 3.3033,
+      "num_frame_captions": 7,
+      "caption": "This scene takes place in a sunny park on a partly cloudy day, featuring a row of parked bicycles as a consistent landmark. The action centers on a concrete barrier or ledge, where a man in a red shirt is first seen standing and later crouching. Another individual, dressed in a gray shirt and red shorts, is observed jogging along a nearby path. The dynamic activity peaks as a skateboarder performs a mid-air trick on the paved area, with one of the men on the ledge watching. The setting includes a grassy field and a tall monument in the background."
+    },
+    {
+      "scene_index": 36,
+      "start_frame": 2736,
+      "end_frame": 2823,
+      "start_sec": 91.2912,
+      "end_sec": 94.1941,
+      "duration_sec": 2.936267,
+      "num_frame_captions": 6,
+      "caption": "In a grassy park with trees and buildings in the background, a shirtless man engages in a series of athletic movements. He is initially seen running across the lawn before transitioning into dynamic acrobatics, including a high kick and a mid-air backflip. The sequence continues with him performing an acrobatic roll on the grass. The scene concludes with the man doing push-ups on the lawn, while another individual films him using a camera mounted on a stick, indicating the activities are being recorded."
+    },
+    {
+      "scene_index": 37,
+      "start_frame": 2824,
+      "end_frame": 2917,
+      "start_sec": 94.227467,
+      "end_sec": 97.330567,
+      "duration_sec": 3.136467,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a person in dark clothing engaging in a dynamic sequence of urban movement. The individual begins by skateboarding across a paved area near a concrete wall, then transitions into performing a mid-air jump or trick. Following this, the action shifts to a weathered stone wall, where the person is seen actively climbing or scaling its surface. The scene conveys a sense of athleticism and parkour-like fluidity, moving from riding on the ground to aerial maneuvers and finally to vertical ascension in an outdoor, urban environment."
+    },
+    {
+      "scene_index": 38,
+      "start_frame": 2918,
+      "end_frame": 2952,
+      "start_sec": 97.363933,
+      "end_sec": 98.4984,
+      "duration_sec": 1.167833,
+      "num_frame_captions": 2,
+      "caption": "In this lively outdoor scene, a group of young people is gathered on a set of wide steps. The action centers on a game involving a red ball, with one boy crouched in the foreground, poised to throw it. Meanwhile, another boy energetically runs down the concrete steps while pushing a shopping cart, an activity that draws the attention of two onlookers. The scene captures a moment of casual, playful interaction and movement among the friends."
+    },
+    {
+      "scene_index": 39,
+      "start_frame": 2953,
+      "end_frame": 3055,
+      "start_sec": 98.531767,
+      "end_sec": 101.935167,
+      "duration_sec": 3.436767,
+      "num_frame_captions": 7,
+      "caption": "In a park-like setting near a stone bridge, a person in a white shirt forcefully pushes a shopping cart toward a river. The cart rolls down a paved bank and becomes partially submerged in the water. Nearby, a small boat capsizes under the bridge, tipping its occupants and equipment into the river. This sequence of events leads to multiple people ending up in the water, with some seen swimming and splashing near the concrete and wooden walkways along the bank on a sunny day."
+    },
+    {
+      "scene_index": 40,
+      "start_frame": 3056,
+      "end_frame": 3199,
+      "start_sec": 101.968533,
+      "end_sec": 106.739967,
+      "duration_sec": 4.8048,
+      "num_frame_captions": 10,
+      "caption": "This scene depicts a group of young people engaged in various activities along a murky river or canal, often near a bridge. They are seen fishing, reaching into the water with nets or their hands, and interacting with objects in the water. The actions suggest attempts to retrieve items or perhaps release something, as one person is seen pouring from a bottle into the canal. A dog swims in the water at one point. The overall setting is a natural, somewhat untidy waterfront where the group is focused on the water's edge."
+    },
+    {
+      "scene_index": 41,
+      "start_frame": 3200,
+      "end_frame": 3305,
+      "start_sec": 106.773333,
+      "end_sec": 110.276833,
+      "duration_sec": 3.536867,
+      "num_frame_captions": 7,
+      "caption": "In an urban plaza, a group of young people in colorful streetwear gather around a concrete bench or ledge. The central activity involves a man in a blue shirt energetically crawling on his hands and knees across the surface. Others, including a person in bright red pants and another in a green jacket, watch, stand over him, or crouch nearby, creating a dynamic and playful interaction. The scene captures a moment of spontaneous, physical engagement among the group in this public space."
+    },
+    {
+      "scene_index": 42,
+      "start_frame": 3306,
+      "end_frame": 3336,
+      "start_sec": 110.3102,
+      "end_sec": 111.3112,
+      "duration_sec": 1.034367,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a tense incident on a city sidewalk. A man in a blue shirt is crouched over another individual who is lying motionless on the ground, suggesting a sudden medical emergency or accident. A third person, a woman in white pants, observes from nearby, her presence adding a layer of concern to the situation. The overall atmosphere is one of urgency and drama, as the central figure appears to be administering aid or assessing the condition of the fallen person amidst the public setting."
+    },
+    {
+      "scene_index": 43,
+      "start_frame": 3337,
+      "end_frame": 3445,
+      "start_sec": 111.344567,
+      "end_sec": 114.948167,
+      "duration_sec": 3.636967,
+      "num_frame_captions": 7,
+      "caption": "In an urban skatepark, a crowd gathers on a wide concrete staircase to watch a performer. A man in a blue shirt and light pants attempts an athletic feat, first running up the stairs and then launching into a jump down them. His motion is captured mid-air and during a subsequent tumble at the bottom. The spectators, including children, observe from the top and sides of the staircase, leaning against the pinkish-orange walls, focused on the dynamic action unfolding below them."
+    },
+    {
+      "scene_index": 44,
+      "start_frame": 3446,
+      "end_frame": 3535,
+      "start_sec": 114.981533,
+      "end_sec": 117.951167,
+      "duration_sec": 3.003,
+      "num_frame_captions": 6,
+      "caption": "In a bustling urban plaza, a person performs a series of athletic jumps and tricks over concrete barriers and benches. The dynamic scene, set against a backdrop of pedestrians and storefronts, captures the individual in mid-air motions, including running and possibly skateboarding. Onlookers watch as the action unfolds, contributing to the lively atmosphere of the public space. The overall sequence emphasizes movement and urban energy, with the performer navigating the architectural features of the plaza."
+    },
+    {
+      "scene_index": 45,
+      "start_frame": 3536,
+      "end_frame": 3557,
+      "start_sec": 117.984533,
+      "end_sec": 118.685233,
+      "duration_sec": 0.734067,
+      "num_frame_captions": 2,
+      "caption": "This scene captures a dynamic skateboarding session in a busy urban plaza. A young man in a white t-shirt observes from the foreground as the main action unfolds on a concrete ramp behind him. A shirtless skateboarder is the focal point, skillfully executing a trick. Other skateboarders are also active on the ramps, contributing to the energetic atmosphere. A crowd of onlookers has gathered to watch the spectacle, adding to the vibrant, public nature of the event. The overall impression is one of urban athleticism and casual spectatorship in a shared city space."
+    },
+    {
+      "scene_index": 46,
+      "start_frame": 3558,
+      "end_frame": 3725,
+      "start_sec": 118.7186,
+      "end_sec": 124.290833,
+      "duration_sec": 5.6056,
+      "num_frame_captions": 11,
+      "caption": "In an urban plaza with concrete steps and a historic domed building in the background, a group of young people gather to watch a performance. A man in a blue shirt is the main focus, executing a series of dynamic parkour jumps and breakdancing moves on the sidewalk and nearby ledges. The audience, seated and standing on the steps, watches attentively. The scene captures his athleticism through mid-air stunts, running, and intricate dance maneuvers, creating an energetic street performance against the backdrop of parked cars and city architecture."
+    },
+    {
+      "scene_index": 47,
+      "start_frame": 3726,
+      "end_frame": 3751,
+      "start_sec": 124.3242,
+      "end_sec": 125.158367,
+      "duration_sec": 0.867533,
+      "num_frame_captions": 2,
+      "caption": "This scene captures a lively urban street, likely in a modern city or town center. The focus is on the everyday activity along the sidewalk, where people are seated outside a cafe or restaurant with large windows, suggesting a social or leisurely atmosphere. Pedestrians are moving along the street, which features parked cars and a motorcycle, indicating typical city traffic. The overall impression is one of casual, blurred motion, conveying the constant flow and energy of a public space where people gather, socialize, and pass through. The visible parking signs further root the setting in a practical, everyday urban environment."
+    },
+    {
+      "scene_index": 48,
+      "start_frame": 3752,
+      "end_frame": 3805,
+      "start_sec": 125.191733,
+      "end_sec": 126.960167,
+      "duration_sec": 1.8018,
+      "num_frame_captions": 3,
+      "caption": "This scene captures a lively urban street with pedestrians moving along a sidewalk lined with shops, including an Apollo Optik eyewear store and a BXR Schuhe shoe store. The atmosphere is casual and bustling, featuring a mix of individuals such as families with children and groups of young men congregating nearby. The primary action involves a man in a black tank top suddenly sprinting across the roadway, introducing a moment of urgency that contrasts with the otherwise steady flow of foot traffic around him."
+    },
+    {
+      "scene_index": 49,
+      "start_frame": 3806,
+      "end_frame": 3850,
+      "start_sec": 126.993533,
+      "end_sec": 128.461667,
+      "duration_sec": 1.5015,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a dynamic urban stunt in a bustling city setting. A woman in a black dress is seen running across a street near an Apollo Coffee shop. The action culminates with a person, likely the same woman, performing a mid-air jump or acrobatic maneuver over large concrete blocks in a nearby plaza. The event draws the attention of pedestrians, who are visible as onlookers in the background amidst various storefronts. The overall impression is one of spontaneous, energetic movement briefly interrupting the everyday flow of city life."
+    },
+    {
+      "scene_index": 50,
+      "start_frame": 3851,
+      "end_frame": 3897,
+      "start_sec": 128.495033,
+      "end_sec": 130.0299,
+      "duration_sec": 1.568233,
+      "num_frame_captions": 3,
+      "caption": "In a busy urban plaza, a skateboarder executes a daring aerial trick above a concrete skatepark ramp. The dynamic scene is set against the backdrop of the bustling city, with onlookers gathered around the edges of the feature to watch the performance. The skater is captured mid-air during the maneuver, highlighting the skill and athleticism involved. The overall atmosphere is one of urban energy and focused spectatorship, centered on this single, impressive moment of action at the skatepark."
+    },
+    {
+      "scene_index": 51,
+      "start_frame": 3898,
+      "end_frame": 3963,
+      "start_sec": 130.063267,
+      "end_sec": 132.2321,
+      "duration_sec": 2.2022,
+      "num_frame_captions": 5,
+      "caption": "This scene captures a vibrant urban plaza where various individuals engage in dynamic activities. A skateboarder performs a trick on a concrete ledge, while nearby, a cyclist executes a stunt, their speed creating a sense of blurred motion. Another person rides a bike over a dirt mound in the same area. Meanwhile, on a paved path, two young men dance energetically, with one actively performing as the other watches. Throughout these actions, pedestrians are present, observing the displays or simply passing by, contributing to the lively, communal atmosphere of the public space."
+    },
+    {
+      "scene_index": 52,
+      "start_frame": 3964,
+      "end_frame": 4071,
+      "start_sec": 132.265467,
+      "end_sec": 135.8357,
+      "duration_sec": 3.6036,
+      "num_frame_captions": 7,
+      "caption": "In this scene, a man in a blue shirt performs a dynamic skateboarding trick, jumping over a black metal railing on a paved path. Another man in a green shirt observes from the side, sometimes leaning on or interacting with the railing. The action involves the skater gripping the railing for support, launching into the air, and landing, showcasing the trick's motion. The setting is an outdoor area with grass and a sidewalk, framing this brief athletic display."
+    },
+    {
+      "scene_index": 53,
+      "start_frame": 4072,
+      "end_frame": 4093,
+      "start_sec": 135.869067,
+      "end_sec": 136.569767,
+      "duration_sec": 0.734067,
+      "num_frame_captions": 1,
+      "caption": "This scene unfolds in a verdant outdoor setting, likely a park or garden. A person in a blue shirt is seen walking away from the viewer, creating a sense of departure or movement through the space. Meanwhile, another individual remains stationary, leaning casually against a nearby railing. The contrast between the departing figure and the relaxed, observing person establishes a quiet, everyday dynamic. The overall atmosphere is calm and unhurried, capturing a simple, momentary interaction within a natural environment."
+    },
+    {
+      "scene_index": 54,
+      "start_frame": 4094,
+      "end_frame": 4116,
+      "start_sec": 136.603133,
+      "end_sec": 137.3372,
+      "duration_sec": 0.767433,
+      "num_frame_captions": 2,
+      "caption": "In this outdoor scene, a person wearing a blue shirt is engaged in a dynamic physical maneuver. The action involves energetically jumping or climbing over a sturdy black metal railing, which is set against a backdrop of lush green foliage. The scene captures a moment of exertion and motion, as the individual grips the railing for support and leverage during the activity. The natural setting suggests a park or trail environment, where this brief, athletic feat takes place, highlighting a blend of human movement and the surrounding tranquil greenery."
+    },
+    {
+      "scene_index": 55,
+      "start_frame": 4117,
+      "end_frame": 4164,
+      "start_sec": 137.370567,
+      "end_sec": 138.9388,
+      "duration_sec": 1.6016,
+      "num_frame_captions": 3,
+      "caption": "This scene follows a person in a blue shirt engaged in outdoor maintenance. They are first seen performing a dynamic physical movement, then actively using a tool to trim overgrown bushes near a railing. The setting is consistently outdoors with lush green foliage. The perspective shifts to a view from a moving vehicle, revealing the roadside context with barriers and a white structure, suggesting the location is near a road or path being cleared."
+    },
+    {
+      "scene_index": 56,
+      "start_frame": 4165,
+      "end_frame": 4349,
+      "start_sec": 138.972167,
+      "end_sec": 145.111633,
+      "duration_sec": 6.172833,
+      "num_frame_captions": 12,
+      "caption": "The scene shows a person walking along a stone bridge on a sunny day. They are consistently moving away from the camera, following the bridge's railing which overlooks a calm river lined with trees on the far bank. The bridge is a shared space, with other pedestrians, cyclists, and occasional vehicles visible on the roadway in the distance. The overall setting is peaceful and open, characterized by the clear weather, the water below, and the steady, solitary progression of the main individual along the edge of the structure."
+    },
+    {
+      "scene_index": 57,
+      "start_frame": 4350,
+      "end_frame": 4355,
+      "start_sec": 145.145,
+      "end_sec": 145.311833,
+      "duration_sec": 0.2002,
+      "num_frame_captions": 1,
+      "caption": "In this sombre, low-light scene, a solitary figure is seen walking along the railing of a bridge. The setting is a gloomy expanse overlooking a dark, still river. Below, a road runs parallel to the waterway, while in the distance, the silhouettes of trees fade into the murky atmosphere. The overall mood is one of quiet isolation and contemplation, emphasised by the dim lighting and the expansive, shadowy landscape that stretches out around the lone individual. The scene captures a moment of stillness and solemnity within the urban environment."
+    }
+  ]
+}

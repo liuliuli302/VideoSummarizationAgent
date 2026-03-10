@@ -1,0 +1,366 @@
+{
+  "video": "Valparaiso_Downhill",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Valparaiso_Downhill.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_22.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 5178,
+  "num_scenes": 35,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 27,
+      "start_sec": 0.0,
+      "end_sec": 0.9009,
+      "duration_sec": 0.934267,
+      "num_frame_captions": 2,
+      "caption": "The scene captures the intense, immersive perspective of a motocross rider navigating a dirt track. The rider approaches a gate, with spectators visible along the sidelines, heightening the competitive atmosphere. The action continues from the viewpoint of a branded vehicle, suggesting a high-speed race or practice run. The consistent first-person perspective emphasizes the rider's focus and the dynamic, challenging terrain of the track, framed by barriers and an engaged audience."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 28,
+      "end_frame": 410,
+      "start_sec": 0.934267,
+      "end_sec": 13.680333,
+      "duration_sec": 12.779433,
+      "num_frame_captions": 26,
+      "caption": "This scene captures a first-person perspective from a Red Bull stunt event, likely a motocross or rally exhibition. The viewpoint alternates between a motorcycle rider and a branded vehicle navigating a dirt track or urban street. The action involves approaching ramps and jumps, with spectators watching from behind barriers or bleachers. Prominent branding includes Red Bull logos, a car balancing a giant Red Bull can, and Nissan banners. The setting is a sunny outdoor course featuring parked cars, metal fences, and the ocean in the background."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 411,
+      "end_frame": 629,
+      "start_sec": 13.7137,
+      "end_sec": 20.987633,
+      "duration_sec": 7.3073,
+      "num_frame_captions": 14,
+      "caption": "This scene captures a high-adrenaline, first-person perspective of a rider participating in a Red Bull-sponsored urban downhill event. The action alternates between navigating a steep, rugged dirt trail and speeding down narrow, sunlit city streets and alleyways lined with spectators, barriers, and buildings. The rider, wearing and using Red Bull-branded gear, demonstrates skill on varied terrain, from rocky off-road sections to tight asphalt corners. The consistent presence of branding, spectators, and the intense, immersive point of view conveys the excitement and controlled chaos of this organized extreme sports competition."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 630,
+      "end_frame": 1020,
+      "start_sec": 21.021,
+      "end_sec": 34.034,
+      "duration_sec": 13.046367,
+      "num_frame_captions": 27,
+      "caption": "This scene depicts a first-person perspective from a Red Bull-sponsored motorcycle or vehicle racing at high speed through a steep, narrow urban environment. The rider navigates winding alleyways and streets lined with spectators, barriers, and buildings, often under bright sunlight. The action is intense and fast-paced, featuring moments of navigating tight turns, approaching ramps, and passing by promotional banners and safety personnel. The consistent branding and energetic setting emphasize a sponsored extreme sports event in a coastal or urban locale."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 1021,
+      "end_frame": 1199,
+      "start_sec": 34.067367,
+      "end_sec": 40.006633,
+      "duration_sec": 5.972633,
+      "num_frame_captions": 11,
+      "caption": "This scene presents a first-person perspective from a Red Bull-branded motorcycle or vehicle racing at high speed through a challenging urban environment. The action takes place on a narrow, steep, and crowded street or ramp, densely lined with spectators watching from the sidelines, often behind barriers. The consistent viewpoint immerses the viewer in the intense, high-speed experience of navigating the tight course, with glimpses of the branded helmet visor and the textured walls of the urban canyon adding to the visceral atmosphere of the event."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 1200,
+      "end_frame": 1481,
+      "start_sec": 40.04,
+      "end_sec": 49.416033,
+      "duration_sec": 9.4094,
+      "num_frame_captions": 19,
+      "caption": "This scene captures the intense, high-speed action of a Red Bull-sponsored extreme sports event from a first-person perspective. The rider, on either a motocross bike or mountain bike, navigates a diverse and challenging course that includes narrow urban streets, crowded alleyways, steep concrete staircases, and rugged dirt tracks. Spectators line every route, creating a vibrant atmosphere as the athlete speeds past obstacles, jumps, and branded ramps. The consistent presence of Red Bull logos on the bike, helmet, and ramps underscores the commercial sponsorship driving this adrenaline-fueled competition."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 1482,
+      "end_frame": 1519,
+      "start_sec": 49.4494,
+      "end_sec": 50.683967,
+      "duration_sec": 1.267933,
+      "num_frame_captions": 3,
+      "caption": "This scene captures an intense first-person perspective of a motocross rider navigating an urban stunt course. The action begins as the rider, wearing a helmet branded with Red Bull, speeds toward a steep concrete staircase lined with spectators. The momentum carries the bike directly down the stairs, plunging into a narrow, crowded street below. The viewpoint conveys a thrilling sense of speed and precision as the rider maneuvers through the tight, packed corridor of cheering onlookers, completing a dramatic descent through the heart of the event."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 1520,
+      "end_frame": 1780,
+      "start_sec": 50.717333,
+      "end_sec": 59.392667,
+      "duration_sec": 8.7087,
+      "num_frame_captions": 17,
+      "caption": "The scene is a fast-paced, first-person perspective of extreme sports action, featuring a rider on a Red Bull-branded motorcycle or mountain bike navigating challenging urban and natural terrains. The viewpoint speeds through narrow alleyways, steep concrete staircases, and rugged dirt trails, all densely lined with spectators behind barriers. The consistent elements are the high-speed descent, the crowded, constricted courses, and the prominent Red Bull branding, creating an immersive and adrenaline-fueled spectacle of daring stunts and public exhibition."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 1781,
+      "end_frame": 1819,
+      "start_sec": 59.426033,
+      "end_sec": 60.693967,
+      "duration_sec": 1.3013,
+      "num_frame_captions": 3,
+      "caption": "This scene captures an intense, high-speed motorcycle ride through a narrow urban alleyway, filmed from a first-person perspective. The rider, on a Red Bull-branded bike, navigates the tight, winding path at considerable speed. Spectators line the edges of the alley, watching the action from close quarters as the motorcycle speeds past them. The immersive point-of-view shot emphasizes the velocity and precision of the maneuver, conveying a sense of adrenaline and focus as the rider threads through the confined urban space."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 1820,
+      "end_frame": 2219,
+      "start_sec": 60.727333,
+      "end_sec": 74.040633,
+      "duration_sec": 13.346667,
+      "num_frame_captions": 26,
+      "caption": "This scene captures an intense, first-person perspective of an extreme sports athlete, likely a Red Bull-sponsored motorcyclist or mountain biker, navigating a challenging urban course. The action begins with high-speed runs down narrow, sunlit streets and alleyways lined with cheering spectators and blue barriers. The rider then encounters a series of dramatic obstacles, including steep concrete staircases and custom-built dirt or wooden ramps, preparing for and executing airborne stunts. The gritty, cluttered urban environment, filled with stone walls, buildings, and advertising, provides a unique backdrop for this adrenaline-fueled sequence of racing and stunt performance."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 2220,
+      "end_frame": 2519,
+      "start_sec": 74.074,
+      "end_sec": 84.050633,
+      "duration_sec": 10.01,
+      "num_frame_captions": 20,
+      "caption": "This scene depicts a first-person perspective from a Red Bull-branded motorcycle or vehicle speeding through an urban street race or stunt course. The rider navigates narrow, barricaded streets lined with spectators, weaving through sharp turns and obstacles like traffic cones and parked cars. The action intensifies as the rider narrowly avoids pedestrians, a police officer, and a person on the curb, culminating in a crash where another rider is down on the track with someone running to assist. The overall sequence conveys high-speed, risky maneuvers in a controlled but crowded public environment."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 2520,
+      "end_frame": 2554,
+      "start_sec": 84.084,
+      "end_sec": 85.218467,
+      "duration_sec": 1.167833,
+      "num_frame_captions": 3,
+      "caption": "This scene captures a high-speed, first-person perspective from a vehicle, likely a Red Bull-branded race car or similar, during a competitive event. It speeds down a paved road or track lined with spectators and safety barriers under bright daylight. Uniformed personnel and a green truck are visible along the route, indicating an organized competition. The consistent viewpoint and the presence of the branding suggest this is a promotional or professional racing segment, emphasizing the intense, immersive experience of navigating the course at high velocity amid the crowd's energy."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 2555,
+      "end_frame": 2614,
+      "start_sec": 85.251833,
+      "end_sec": 87.220467,
+      "duration_sec": 2.002,
+      "num_frame_captions": 4,
+      "caption": "The scene depicts a high-speed, first-person perspective from a Red Bull-branded vehicle racing through an urban environment. It moves rapidly down a paved road and then a narrow concrete channel, suggesting a staged motorsport or stunt event. The route is lined with spectators and barriers under bright sunlight, creating an atmosphere of public spectacle and competition. The consistent branding and presence of onlookers emphasize this as an organized, adrenaline-fueled promotional or sporting activity."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 2615,
+      "end_frame": 2648,
+      "start_sec": 87.253833,
+      "end_sec": 88.354933,
+      "duration_sec": 1.134467,
+      "num_frame_captions": 2,
+      "caption": "This scene captures a high-speed motorcycle ride from a first-person perspective, placing the viewer in the rider's position. The motorcycle, prominently branded with Red Bull, races down a vibrant, sunlit street. The route is lined with temporary fencing and a crowd of spectators, indicating a public event or race. Commercial banners, including one for Nissan, and tents are visible along the roadside, contributing to an atmosphere of organized competition and fan engagement. The combined elements convey the intense, immersive experience of competing in a motorsport event before an enthusiastic audience."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 2649,
+      "end_frame": 2670,
+      "start_sec": 88.3883,
+      "end_sec": 89.089,
+      "duration_sec": 0.734067,
+      "num_frame_captions": 2,
+      "caption": "This scene captures the intense start of a motocross race from the rider\u2019s first-person perspective. The view is dominated by the front of a Red Bull-branded motorcycle as it accelerates toward the starting gate. The focus then shifts to approaching a launch ramp, building momentum for a jump. Throughout the sequence, the bustling atmosphere of a professional outdoor event is evident, with crowds of spectators lining the track and prominent sponsor banners for companies like Canon and Montenegrin Bank visible in the background. The combined shots convey the adrenaline and precise focus required at the beginning of a high-stakes competition."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 2671,
+      "end_frame": 2695,
+      "start_sec": 89.122367,
+      "end_sec": 89.923167,
+      "duration_sec": 0.834167,
+      "num_frame_captions": 1,
+      "caption": "This scene captures the intense, high-speed perspective of a mountain bike racer navigating a challenging urban downhill course. The rider descends rapidly along a narrow street, flanked by enthusiastic crowds and vibrant sponsor banners. The atmosphere is electric with competition and spectator energy, highlighting the physical demands of the sport as the biker maneuvers through the confined, bustling environment. The first-person viewpoint immerses the viewer in the adrenaline-fueled experience of precision riding at high velocity, surrounded by the vivid sights and sounds of the event."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 2696,
+      "end_frame": 2719,
+      "start_sec": 89.956533,
+      "end_sec": 90.723967,
+      "duration_sec": 0.8008,
+      "num_frame_captions": 2,
+      "caption": "This scene captures the exhilarating first-person perspective of a professional motorcycle stunt rider racing through a steep, narrow city street. The rider, sponsored by Red Bull and wearing a branded helmet, navigates the challenging urban course at high speed. Lining the route are dense crowds of spectators, cheering from between the buildings that flank the street. Prominent commercial signage, including a large Canon logo, is visible along the route, indicating this is a major organized event. The combined elements convey a high-energy atmosphere of a specialized urban motorsport competition."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 2720,
+      "end_frame": 2760,
+      "start_sec": 90.757333,
+      "end_sec": 92.092,
+      "duration_sec": 1.368033,
+      "num_frame_captions": 3,
+      "caption": "This first-person perspective captures the intense start of a street bike stunt event. The rider, on a Red Bull-branded motorcycle, speeds down a sunlit urban street lined with cheering spectators. The view focuses ahead on a ramp set up in the road, building anticipation for the impending jump. The scene conveys the high-energy atmosphere of the competition, combining the rider's focused approach with the vibrant crowd lining the cracked pavement."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 2761,
+      "end_frame": 2795,
+      "start_sec": 92.125367,
+      "end_sec": 93.259833,
+      "duration_sec": 1.167833,
+      "num_frame_captions": 2,
+      "caption": "This scene captures the exhilarating first-person perspective of a motorcycle rider competing in a high-speed urban event. The rider accelerates down a narrow, sun-drenched street, flanked by a dense crowd of enthusiastic spectators. The vibrant orange wall lining the course adds to the intense, enclosed atmosphere of the race. Prominent branding, including a Red Bull logo on the bike, identifies this as a professional motorsport competition. The combined elements of speed, the cheering audience, and the tight course create a vivid sense of immersion and adrenaline-fueled action."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 2796,
+      "end_frame": 2813,
+      "start_sec": 93.2932,
+      "end_sec": 93.860433,
+      "duration_sec": 0.6006,
+      "num_frame_captions": 1,
+      "caption": "A first-person mountain biker speeds down a narrow, sun-drenched street, navigating the course with focused intensity. The energy of the event is palpable, with crowds of spectators lining the route behind safety barriers, cheering enthusiastically. The combined perspective and ambient sound of the crowd create an immersive, high-adrenaline experience, conveying the thrill and competitive atmosphere of the race."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 2814,
+      "end_frame": 2838,
+      "start_sec": 93.8938,
+      "end_sec": 94.6946,
+      "duration_sec": 0.834167,
+      "num_frame_captions": 2,
+      "caption": "The scene captures the intense, immersive perspective of a motorcycle rider competing in an urban street race. From a first-person viewpoint, the bike accelerates rapidly down a narrow, barricaded course flanked by dense crowds of spectators. The atmosphere is one of high-speed excitement, with the distinctive branding of an energy drink sponsor visible on the rider's equipment. The tight confines of the brick-lined street heighten the sense of velocity and focus as the rider navigates the challenging environment."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 2839,
+      "end_frame": 2918,
+      "start_sec": 94.727967,
+      "end_sec": 97.363933,
+      "duration_sec": 2.669333,
+      "num_frame_captions": 5,
+      "caption": "This scene captures the intense, first-person perspective of a BMX rider competing in an urban night event, likely sponsored by Red Bull. The rider speeds down narrow, graffiti-covered alleyways and crowded city streets lined with enthusiastic spectators. The action includes navigating tight spaces and approaching a set of stairs, all under the glow of streetlights that cast dramatic, long shadows of the rider and bike against brick walls. The immersive viewpoint conveys the high-speed thrill and technical skill of the urban biking competition."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 2919,
+      "end_frame": 3329,
+      "start_sec": 97.3973,
+      "end_sec": 111.077633,
+      "duration_sec": 13.7137,
+      "num_frame_captions": 27,
+      "caption": "This scene is a fast-paced, first-person perspective from a Red Bull-branded vehicle, likely a motorcycle or rally car, speeding through a narrow, crowded street. The setting is an urban or historic environment, featuring cobblestone roads, stone walls, and colorful buildings. Cheering spectators line both sides of the route, often behind fences, creating a vibrant and energetic atmosphere. The consistent presence of Red Bull branding on the vehicle, helmet, or banners indicates this is part of a promotional motorsports or stunt event, capturing the thrill and high-speed action from the driver's point of view."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 3330,
+      "end_frame": 3349,
+      "start_sec": 111.111,
+      "end_sec": 111.744967,
+      "duration_sec": 0.667333,
+      "num_frame_captions": 2,
+      "caption": "This scene captures the exhilarating perspective of a Red Bull motorcycle racer navigating a tight urban course. The rider speeds down a narrow street or alleyway, surrounded by enthusiastic spectators who line the route, cheering them on. The bright sunlight suggests a clear day, adding to the vibrant, high-energy atmosphere of the event. The combined elements convey a sense of intense focus, speed, and the thrilling public spectacle of an urban motorsports competition."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 3350,
+      "end_frame": 3373,
+      "start_sec": 111.778333,
+      "end_sec": 112.545767,
+      "duration_sec": 0.8008,
+      "num_frame_captions": 1,
+      "caption": "The scene captures a high-speed, first-person perspective from a motorcycle racing through a crowded event. The rider navigates a narrow street densely packed with spectators lining both sides. The motorcycle weaves through the throng at a dangerous pace, creating a tense and immersive experience that emphasizes speed, close proximity to the crowd, and the challenging confines of the urban course. The overall impression is one of exhilarating risk and a dynamic, chaotic atmosphere."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 3374,
+      "end_frame": 3854,
+      "start_sec": 112.579133,
+      "end_sec": 128.595133,
+      "duration_sec": 16.049367,
+      "num_frame_captions": 32,
+      "caption": "This scene captures a high-adrenaline, first-person perspective of an athlete participating in a Red Bull-sponsored urban race or stunt event. The rider, on a motorcycle or mountain bike, speeds through a variety of narrow, winding environments, including sun-drenched paved roads, graffiti-covered alleyways, and steep urban streets. The course is lined with enthusiastic spectators cheering from behind barriers and sidewalks. Throughout the rapid descent, the prominent Red Bull branding on the vehicle is visible, and the rider's long shadow is often cast on the ground, emphasizing the speed and the bright, direct sunlight illuminating the chaotic urban route."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 3855,
+      "end_frame": 4079,
+      "start_sec": 128.6285,
+      "end_sec": 136.102633,
+      "duration_sec": 7.5075,
+      "num_frame_captions": 15,
+      "caption": "This scene captures the intense, first-person perspective of a Red Bull-branded motorcycle speeding through a narrow urban environment. The rider navigates a series of streets and alleys, some wet or cobblestoned, with graffiti-covered walls and commercial banners like Nissan visible. Cheering spectators line the route behind metal barriers, creating a corridor of energy. The high-speed sequence builds towards a large black ramp, suggesting this is part of a coordinated stunt event filled with adrenaline and urban chaos."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 4080,
+      "end_frame": 4170,
+      "start_sec": 136.136,
+      "end_sec": 139.139,
+      "duration_sec": 3.036367,
+      "num_frame_captions": 7,
+      "caption": "This scene captures an intense, high-speed urban downhill event from a first-person perspective, likely part of a Red Bull-sponsored motorsports competition. The rider, on a branded motorcycle, navigates a challenging course featuring steep, graffiti-covered streets, rocky slopes, and a large ramp designed for aerial stunts. The atmosphere is electric, with crowds of spectators lining the narrow cobblestone streets and cheering from behind barriers. The sequence emphasizes the adrenaline of the descent, the technical skill required for the terrain, and the spectacle of the event, all viewed intimately from the rider's point of view."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 4171,
+      "end_frame": 4241,
+      "start_sec": 139.172367,
+      "end_sec": 141.508033,
+      "duration_sec": 2.369033,
+      "num_frame_captions": 4,
+      "caption": "The scene captures a high-speed, first-person perspective from a Red Bull-branded vehicle\u2014either a motorcycle or car\u2014racing down a narrow street. The course is lined with enthusiastic spectators standing behind red ropes, many wearing red shirts and cheering. The consistent elements are the vehicle's speed, the confined urban setting, and the vibrant crowd, creating an immersive sense of being in a promotional or stunt-driving event within a lively city environment."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 4242,
+      "end_frame": 4797,
+      "start_sec": 141.5414,
+      "end_sec": 160.0599,
+      "duration_sec": 18.551867,
+      "num_frame_captions": 37,
+      "caption": "The scene follows a first-person perspective from a Red Bull-sponsored motorcycle or vehicle speeding through a challenging urban course. The rider navigates narrow, winding streets and gritty alleyways, often on cobblestone or paved surfaces lined with graffiti. Spectators watch from behind barriers, ropes, and fences as the vehicle maneuvers past obstacles and other riders. The action conveys high-speed, precision driving through a crowded, sun-drenched environment designed for an extreme sporting event."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 4798,
+      "end_frame": 4834,
+      "start_sec": 160.093267,
+      "end_sec": 161.294467,
+      "duration_sec": 1.234567,
+      "num_frame_captions": 3,
+      "caption": "This scene captures the high-adrenaline perspective of a Red Bull stunt driver or motorcyclist performing at an urban event. The viewpoint is a dynamic first-person shot as the vehicle speeds down a narrow street or ramp, emphasizing the sensation of rapid motion. The path is tightly lined with dense crowds of enthusiastic spectators, who are visible behind metal barriers, cheering and watching the action. The consistent branding and setting indicate a professionally organized stunt show, where the primary focus is on the thrilling, high-speed journey through the constructed urban course amidst a vibrant public atmosphere."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 4835,
+      "end_frame": 4876,
+      "start_sec": 161.327833,
+      "end_sec": 162.695867,
+      "duration_sec": 1.4014,
+      "num_frame_captions": 3,
+      "caption": "This scene captures an intense, high-speed mountain biking event from a first-person perspective. The rider speeds down a steep, curved concrete track, likely part of a competitive race or urban downhill course. The prominent Red Bull branding on the bike frame and sponsor banners for brands like Nissan lining the route indicate a professional sporting event. Spectators and barriers are visible along the paved street, suggesting a controlled race environment. The consistent, long shadow cast by the bike and rider emphasizes the speed and low angle of the sun, adding to the dynamic and immersive feel of the action."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 4877,
+      "end_frame": 4906,
+      "start_sec": 162.729233,
+      "end_sec": 163.696867,
+      "duration_sec": 1.001,
+      "num_frame_captions": 2,
+      "caption": "This scene captures the intense, immersive perspective of a high-speed motorcycle ride during a Red Bull-sponsored urban motorsport event. The rider accelerates down a paved street, navigating a course lined with cheering spectators and branded safety barriers that define the temporary track. The action culminates in a thrilling moment as the vehicle speeds directly through a large, iconic Red Bull inflatable archway, a signature landmark of the event. The combined elements of the crowded city environment, the branded architecture, and the first-person viewpoint convey the adrenaline and precise spectacle of a professional street race or stunt exhibition."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 4907,
+      "end_frame": 5048,
+      "start_sec": 163.730233,
+      "end_sec": 168.434933,
+      "duration_sec": 4.738067,
+      "num_frame_captions": 9,
+      "caption": "This scene captures the high-energy atmosphere of a Red Bull-sponsored motorsport event in a historic urban setting. From a first-person perspective, a rider on a branded motorcycle or mountain bike speeds through a crowded street course lined with enthusiastic spectators behind barriers. The route is populated with event vehicles, including a black Land Rover and an ambulance on standby. Staff, photographers, and a man in a racing suit are gathered along the route, emphasizing the organized yet thrilling nature of the daytime street race or stunt exhibition."
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 5049,
+      "end_frame": 5177,
+      "start_sec": 168.4683,
+      "end_sec": 172.739233,
+      "duration_sec": 4.3043,
+      "num_frame_captions": 9,
+      "caption": "The scene is a high-energy, first-person perspective from a Red Bull-branded motorcycle or vehicle participating in an urban street race or stunt event. The action unfolds on a sun-drenched city street lined with crowds of spectators, staff, and photographers. The vehicle navigates through the chaotic, crowded environment at speed, with other riders and a modified truck visible. The intensity is heightened by the presence of an ambulance and a fallen motorcycle, indicating a high-risk atmosphere. The consistent bright sunlight and lens flare contribute to the vibrant, hectic feel of the event."
+    }
+  ]
+}

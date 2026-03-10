@@ -1,0 +1,316 @@
+{
+  "video": "akI8YFjEmUw",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/akI8YFjEmUw.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_10.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 3995,
+  "num_scenes": 30,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 164,
+      "start_sec": 0.0,
+      "end_sec": 5.472133,
+      "duration_sec": 5.5055,
+      "num_frame_captions": 11,
+      "caption": "This scene features a dynamic, animated title sequence for a \"Business News\" broadcast. The central element is a stylized 3D graphic with bold yellow letters spelling \"NEWS,\" often accompanied by a black or silver \"Business\" banner. The design is modern and fast-paced, incorporating abstract geometric shapes, streaking lines, and gradient backgrounds in blue, white, and silver. A recurring globe logo and partial \"BUS\" signage reinforce the international business theme. The overall aesthetic is sleek, futuristic, and purpose-built for television, using motion blur and layered graphics to create a sense of energy and professionalism."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 165,
+      "end_frame": 793,
+      "start_sec": 5.5055,
+      "end_sec": 26.459767,
+      "duration_sec": 20.987633,
+      "num_frame_captions": 42,
+      "caption": "A news anchor presents a segment on the environmental benefits of electric vehicles. The report consistently features a prominent on-screen graphic with the headline \"Electric cars making earth more green.\" This is accompanied by supporting visuals, which vary between a background image and a split-screen format, showing a white electric car plugged into a charging station. The segment emphasizes how this technology contributes to a more sustainable planet, using imagery of the charging process and related data to illustrate its positive ecological impact."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 794,
+      "end_frame": 883,
+      "start_sec": 26.493133,
+      "end_sec": 29.462767,
+      "duration_sec": 3.003,
+      "num_frame_captions": 6,
+      "caption": "At an auto show or exhibition, a man in a suit and a woman in a yellow coat or jacket are closely examining the engine compartment of a light-colored Kia car. They stand together, focused on the open hood, which reveals the vehicle's internal mechanics. The scene captures their professional interest in the car's features, likely as part of a product presentation or demonstration. The setting is a public exhibition space, with the pair engaged in a detailed inspection of the automobile on display."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 884,
+      "end_frame": 962,
+      "start_sec": 29.496133,
+      "end_sec": 32.098733,
+      "duration_sec": 2.635967,
+      "num_frame_captions": 6,
+      "caption": "A male reporter in a suit and a female news anchor in a yellow jacket are conducting a live business news segment, likely from a studio or exhibition setting. They are engaged in a professional conversation, with the reporter gesturing as he speaks. The scene depicts a typical broadcast interview or discussion format for a business, financial, or trade show report, where the two hosts interact to present information to the audience."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 963,
+      "end_frame": 1038,
+      "start_sec": 32.1321,
+      "end_sec": 34.6346,
+      "duration_sec": 2.535867,
+      "num_frame_captions": 5,
+      "caption": "At an auto show, a person in a suit demonstrates charging a light green Kia EV. They plug an electric vehicle charging cable into the car's front port, highlighting the vehicle's features for onlookers. The action emphasizes the practicality and design of the electric car in a promotional setting."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 1039,
+      "end_frame": 1125,
+      "start_sec": 34.667967,
+      "end_sec": 37.5375,
+      "duration_sec": 2.9029,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts an electric vehicle charging session in Korea, shown through a series of close-up views of the charging station's display screen. The screen tracks the progress in real-time, showing the amount of energy delivered steadily increasing from 3.750 kWh to 5.000 kWh. Correspondingly, the estimated total cost rises from 270 to 360 won, calculated at a consistent rate of 72.0 won per kilowatt-hour. The elapsed charging time also progresses, extending to over 30 minutes, indicating an ongoing and active charging process. The scene focuses entirely on the numerical data and status updates provided by the machine's interface."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 1126,
+      "end_frame": 1217,
+      "start_sec": 37.570867,
+      "end_sec": 40.607233,
+      "duration_sec": 3.069733,
+      "num_frame_captions": 6,
+      "caption": "This scene shows a promotional demonstration of an electric vehicle charging system at an exhibition or indoor showroom. A man interacts with a light blue or light green Kia EV, opening its door and getting into the car while it is actively plugged into a charging station. The consistent presence of a news banner with the text \"Establishes electric vehicle charging system\" frames the activity as a media event, highlighting the launch or announcement of this new infrastructure. The setting is a clean, staged environment designed to showcase the vehicle and its charging capability to an audience."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 1218,
+      "end_frame": 1295,
+      "start_sec": 40.6406,
+      "end_sec": 43.209833,
+      "duration_sec": 2.6026,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts the establishment of an electric vehicle charging system, as presented in a news broadcast. The central visual focus is a red and white electric vehicle charging plug being inserted into a car's charging port. This action is shown in both standard and close-up shots, emphasizing the physical connection being made. On-screen text consistently reinforces the key message of the system's establishment. The scene effectively communicates the operational setup of EV infrastructure through a clear, repeated visual of the charging process."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 1296,
+      "end_frame": 1393,
+      "start_sec": 43.2432,
+      "end_sec": 46.479767,
+      "duration_sec": 3.269933,
+      "num_frame_captions": 6,
+      "caption": "At an auto show or trade exhibition, two men are engaged in demonstrating an electric vehicle charging system. The primary focus is on a light blue electric car, with one man\u2014often described as wearing a suit\u2014actively plugging a charging cable into the vehicle. The other man observes the process, which takes place near a distinctive blue charging station. The demonstration appears to be an educational or promotional activity, explaining the charging infrastructure to visitors. In one instance, the car's hood is open, suggesting a more detailed technical showcase of the vehicle alongside the charging procedure."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 1394,
+      "end_frame": 1928,
+      "start_sec": 46.513133,
+      "end_sec": 64.330933,
+      "duration_sec": 17.851167,
+      "num_frame_captions": 36,
+      "caption": "In a business news segment, Yoo Dong-kun from the Korea Environment Corporation is interviewed at an electric vehicle exhibition. He discusses the establishment and expansion of EV charging infrastructure, outlining plans to build additional charging systems. The segment also connects this initiative to broader environmental goals, such as reducing carbon emissions and improving air quality. The setting features a white car and charging station, highlighting the practical technology behind the policy discussion."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 1929,
+      "end_frame": 2009,
+      "start_sec": 64.3643,
+      "end_sec": 67.033633,
+      "duration_sec": 2.7027,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a trade show booth showcasing advanced sensor technology from the brands Kimac HD and IMC. The central focus is on the \"Cronosflex\" product line, featuring physical sensor units and handheld measurement devices arranged on a display table. A monitor prominently shows real-time data graphs and analytics, demonstrating the system's capabilities. Informational brochures for both Cronosflex and IMC are visible, complementing the hardware. The overall setup is designed to attract visitors by visually presenting the technology's application in monitoring and measurement, highlighting its real-time data processing and industrial utility."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 2010,
+      "end_frame": 2116,
+      "start_sec": 67.067,
+      "end_sec": 70.603867,
+      "duration_sec": 3.570233,
+      "num_frame_captions": 8,
+      "caption": "In a technical or industrial environment, a person conducts various measurements and tests using tools such as pliers, a clamp meter, tuning forks, and tongs. They interact with a large screen or computer monitor that displays real-time data, including pressure, voltage, graphs, and other complex metrics. The scene involves monitoring and analyzing this information, pointing at specific data points, and performing tasks like measuring electrical current or testing sound frequencies, all within a controlled, data-driven setting."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 2117,
+      "end_frame": 2189,
+      "start_sec": 70.637233,
+      "end_sec": 73.039633,
+      "duration_sec": 2.435767,
+      "num_frame_captions": 4,
+      "caption": "The scene shows a technical broadcast segment on a business news channel. A green line graph plots FFT strain data, likely representing a financial or scientific analysis. The consistent presence of the \"BUSINESSNEWS\" and \"Kimac\" network branding indicates this is a prepared, professional presentation. The data is displayed on a dark screen, emphasizing the graph for viewer clarity. The segment appears to be a recurring or sponsored feature within the news program, focusing on data-driven reporting."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 2190,
+      "end_frame": 2257,
+      "start_sec": 73.073,
+      "end_sec": 75.308567,
+      "duration_sec": 2.268933,
+      "num_frame_captions": 5,
+      "caption": "The scene shows a static display at what appears to be a tech exhibition or business news segment. Various electronic components, including a Samsung mouse, pressure transducers, sensors, and a small circuit board, are neatly arranged on a white table. Prominent branding for \"BUSINESS NEWS\" and \"KimacHD\" is visible in the background, indicating this is likely a featured product showcase or demonstration. The consistent setup across frames suggests a focused presentation of these devices for viewers."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 2258,
+      "end_frame": 2305,
+      "start_sec": 75.341933,
+      "end_sec": 76.910167,
+      "duration_sec": 1.6016,
+      "num_frame_captions": 3,
+      "caption": "This scene presents a detailed display of a sophisticated electronic system at a trade show or technology exhibition. The central focus is a multi-unit setup, where three distinct blue modules are interconnected by a dense network of wires, cables, and various connectors. The arrangement is prominently featured on a table, suggesting it is a key exhibit for demonstration to attendees. The overall impression is of a complex, integrated hardware solution, likely designed for networking, data processing, or industrial control, being showcased to highlight its technical capabilities and physical configuration to a professional audience."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 2306,
+      "end_frame": 2400,
+      "start_sec": 76.943533,
+      "end_sec": 80.08,
+      "duration_sec": 3.169833,
+      "num_frame_captions": 7,
+      "caption": "This scene takes place inside a bustling trade show or convention hall. The main focus is a light blue electric vehicle, which is prominently displayed and plugged into a charging station in the foreground. Throughout the scene, numerous attendees are actively walking among and exploring the various vendor booths and exhibits that fill the spacious hall. The environment is bright and energetic, illuminated by strong overhead lighting. The overall activity captures the dynamic atmosphere of a professional exhibition, with the electric car serving as a key attraction amidst the crowd and commercial displays."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 2401,
+      "end_frame": 2478,
+      "start_sec": 80.113367,
+      "end_sec": 82.6826,
+      "duration_sec": 2.6026,
+      "num_frame_captions": 5,
+      "caption": "In an indoor exhibition hall, a man demonstrates a bright yellow three-wheeled electric vehicle labeled \u201cRookie EV.\u201d He drives it through the public space, which is busy with onlookers and pedestrians walking in the background. The scene captures a product showcase, highlighting the compact vehicle\u2019s design and functionality in a real-world, crowded environment as part of an exhibition or promotional event."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 2479,
+      "end_frame": 2555,
+      "start_sec": 82.715967,
+      "end_sec": 85.251833,
+      "duration_sec": 2.569233,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a professional networking interaction at a bustling trade show or technology expo. A small group of men, dressed in business attire, are walking and conversing as they navigate the crowded exhibition hall. The focus is primarily on two individuals engaged in a discussion, with one man in a dark jacket often featured prominently. Their animated conversation suggests a business-oriented exchange, possibly about products or services displayed at the surrounding booths. The overall atmosphere is dynamic and professional, filled with other attendees milling about, capturing a typical moment of connection and dialogue in a conference environment."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 2556,
+      "end_frame": 2634,
+      "start_sec": 85.2852,
+      "end_sec": 87.8878,
+      "duration_sec": 2.635967,
+      "num_frame_captions": 5,
+      "caption": "At a 2011 EV Korea trade show, two men are engaged with a red electric car at a technology booth. One man, wearing a vest, gestures towards the vehicle's open hood while explaining its features to the other. They are both closely examining the car's internal components, indicating a demonstration or detailed discussion about the showcased electric vehicle technology. The scene captures a moment of professional presentation and inspection at the industry event."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 2635,
+      "end_frame": 3108,
+      "start_sec": 87.921167,
+      "end_sec": 103.7036,
+      "duration_sec": 15.8158,
+      "num_frame_captions": 32,
+      "caption": "The scene features Kim Tae-hoon, the Exhibition Team Director for EV KOREA 2012, being interviewed at the electric vehicle trade show. He speaks directly to the camera, explaining that the event is a business fair designed to facilitate professional exchanges within the EV industry. The setting is the exhibition floor, with booths, banners for the event, and electric vehicles visible in the background, establishing the context of the industry showcase."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 3109,
+      "end_frame": 3185,
+      "start_sec": 103.736967,
+      "end_sec": 106.272833,
+      "duration_sec": 2.569233,
+      "num_frame_captions": 5,
+      "caption": "This scene shows a modern white and blue OLEV bus, an eco-friendly electric vehicle, being showcased at an indoor exhibition. Visitors are seen walking around the vehicle, examining its features, and some are in the process of boarding it. Prominent Korean text on the bus's side and front display advertises its key attributes as a zero-emission, energy-efficient mode of transport. The display identifies it as part of an \"Energy park line,\" emphasizing its role in sustainable public transit. The overall atmosphere is that of a public display where people are engaging with and learning about this innovative bus technology."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 3186,
+      "end_frame": 3257,
+      "start_sec": 106.3062,
+      "end_sec": 108.675233,
+      "duration_sec": 2.4024,
+      "num_frame_captions": 5,
+      "caption": "This animated scene from a business news broadcast uses a stylized graphic to illustrate a transportation or traffic concept. It features two buses, one red and one green, stopped side-by-side at designated stops on a simplified road. The red bus is consistently labeled \"1007 R,\" while the green bus's label varies slightly between \"3412 G\" and \"3413 G\" across frames. The presence of stop signs emphasizes a point about vehicle operations or scheduling at bus stops. The graphic's purpose is to visually support a news segment discussing public transit, traffic flow, or related business logistics."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 3258,
+      "end_frame": 3365,
+      "start_sec": 108.7086,
+      "end_sec": 112.278833,
+      "duration_sec": 3.6036,
+      "num_frame_captions": 7,
+      "caption": "This scene captures a green electric bus being showcased at an indoor trade show or exhibition. The bus, which features prominent branding including a large \"C\" logo and the number 610, is actively driven along a simulated road within the hall. Attendees, many dressed in business attire, observe the demonstration from behind barriers. The exhibition space is decorated with banners and logos for associated companies, most notably \"KATECH,\" as well as \"Kimac HD\" and \"BUSINESS NEWS,\" indicating a professional industry event focused on presenting new automotive technology."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 3366,
+      "end_frame": 3452,
+      "start_sec": 112.3122,
+      "end_sec": 115.181733,
+      "duration_sec": 2.9029,
+      "num_frame_captions": 6,
+      "caption": "This scene takes place in a business conference or seminar. A large audience is gathered in a formal meeting room, attentively watching a presentation displayed on a prominent screen at the front of the venue. The presentation appears to be corporate in nature, as indicated by the consistent on-screen logos for \"BUSINESS NEWS\" and \"Kimac HD.\" The attendees remain seated at tables throughout, focused on the screen. The scene captures a typical moment from such an event, emphasizing the structured environment and the audience's engagement with the professional content being delivered."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 3453,
+      "end_frame": 3538,
+      "start_sec": 115.2151,
+      "end_sec": 118.051267,
+      "duration_sec": 2.869533,
+      "num_frame_captions": 5,
+      "caption": "A man in a suit and tie is delivering a speech at a podium during a business news broadcast. He speaks into a microphone, sometimes gesturing with his hands to emphasize his points. Throughout the scene, he remains the central figure, maintaining a professional demeanor as he addresses the audience. The setting and his role as a speaker are consistent, indicating a continuous segment of his presentation or commentary on the business news program."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 3539,
+      "end_frame": 3633,
+      "start_sec": 118.084633,
+      "end_sec": 121.2211,
+      "duration_sec": 3.169833,
+      "num_frame_captions": 7,
+      "caption": "This scene depicts a business seminar or meeting taking place in a conference room. A diverse group of professionals, dressed in business attire, are seated at tables and are actively engaged as an audience. They are listening attentively to a presentation, with many individuals taking notes and reviewing provided materials. The atmosphere is focused and professional, with some participants seen sipping coffee while they work. The consistent activity across the frames indicates a sustained period of learning or discussion, central to a typical corporate training or strategic meeting environment."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 3634,
+      "end_frame": 3723,
+      "start_sec": 121.254467,
+      "end_sec": 124.2241,
+      "duration_sec": 3.003,
+      "num_frame_captions": 6,
+      "caption": "At an indoor exhibition or auto show, a light blue Kia EV is displayed with its hood open, likely to showcase its electric powertrain. The vehicle is actively plugged into a charging station, emphasizing its electric capabilities. A few people are present in the scene, with some walking in the background and at least one individual, a man, standing nearby to observe the car. The setting is a typical trade show environment, where the vehicle is a static exhibit designed for public viewing and demonstration of its features."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 3724,
+      "end_frame": 3823,
+      "start_sec": 124.257467,
+      "end_sec": 127.560767,
+      "duration_sec": 3.336667,
+      "num_frame_captions": 6,
+      "caption": "In this scene, a user interacts with a Korean-language electric vehicle charging interface, first on a tablet and then on a charging station's touchscreen. They navigate the settings, selecting options like \"FULL charge.\" The system processes the request, as shown on a vehicle's television screen, which displays a \"Please Wait\" message with a green charging icon. The sequence depicts the complete action from initiating the charging command to the vehicle acknowledging and beginning the charging process."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 3824,
+      "end_frame": 3909,
+      "start_sec": 127.594133,
+      "end_sec": 130.4303,
+      "duration_sec": 2.869533,
+      "num_frame_captions": 6,
+      "caption": "This scene depicts a digital display monitoring a battery's charging process. The screen shows a steady increase in the battery's charge level, beginning at 9.167 kWh and progressing through 9.583 kWh. It eventually reaches a full charge of 10.000 kWh, indicated by a filled battery icon. The charge continues to rise slightly to 10.417 kWh, suggesting the system is maintaining or slightly exceeding its maximum capacity. Throughout the sequence, the display is consistently overlaid with Korean text and the logos for \"BUSINESSNEWS\" and \"KimacHD,\" framing this as a technical or business-related monitoring interface."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 3910,
+      "end_frame": 3994,
+      "start_sec": 130.463667,
+      "end_sec": 133.266467,
+      "duration_sec": 2.836167,
+      "num_frame_captions": 6,
+      "caption": "At a modern business or technology exhibition, a small group of professionals interacts with a self-service kiosk. A woman is actively using the touchscreen interface, while two men observe her demonstration. The setting is a brightly lit, contemporary exhibition hall typical of a trade show or expo. One of the men is briefly distracted, checking his phone. The scene captures a moment of product engagement and informal learning, as attendees gather around the interactive display to see its features in a professional exhibition environment."
+    }
+  ]
+}

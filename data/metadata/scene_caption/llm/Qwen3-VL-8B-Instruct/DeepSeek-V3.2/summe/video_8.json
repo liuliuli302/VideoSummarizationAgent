@@ -1,0 +1,76 @@
+{
+  "video": "Cooking",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Cooking.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/summe/video_8.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 15.0,
+  "total_frames": 1287,
+  "num_scenes": 6,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 149,
+      "start_sec": 0.0,
+      "end_sec": 9.933333,
+      "duration_sec": 10.0,
+      "num_frame_captions": 10,
+      "caption": "In this scene, a chef in a white uniform with red trim expertly prepares a meal on a large, hot teppanyaki grill in a restaurant kitchen. The primary action involves skillfully cooking and slicing a variety of fresh ingredients, including asparagus, onions, mushrooms, and other vegetables, along with some seafood. Throughout the process, the chef works with precision, managing the assortment of items on the sizzling grill surface. The sequence culminates with the chef serving the cooked food directly onto a plate, demonstrating the dynamic and interactive nature of teppanyaki-style cooking for diners."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 150,
+      "end_frame": 408,
+      "start_sec": 10.0,
+      "end_sec": 27.2,
+      "duration_sec": 17.266667,
+      "num_frame_captions": 18,
+      "caption": "In a restaurant kitchen, a chef in a white uniform with red trim skillfully prepares a meal on a large, hot teppanyaki grill. He cooks a variety of ingredients, including sliced onions, asparagus, mushrooms, shrimp, and what appear to be dumplings or dough pieces, using tongs to flip and arrange the sizzling food. The chef also chops and slices vegetables directly on the grill's hot surface. Diners watch from nearby tables as steam rises from the grill during the lively, interactive cooking performance. The scene captures the focused, theatrical preparation of a teppanyaki dish in a professional setting."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 409,
+      "end_frame": 997,
+      "start_sec": 27.266667,
+      "end_sec": 66.466667,
+      "duration_sec": 39.266667,
+      "num_frame_captions": 39,
+      "caption": "A chef in a white uniform with red trim skillfully prepares a teppanyaki meal on a large, hot grill in a restaurant kitchen. He cooks a variety of ingredients, including asparagus, onions, mushrooms, and shrimp, using tools like tongs and a spatula. The chef engages with diners who watch the performance as he arranges and flips the food. Plates, drinks, and a glass of wine are set on the counter nearby, ready for the finished dish."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 998,
+      "end_frame": 1045,
+      "start_sec": 66.533333,
+      "end_sec": 69.666667,
+      "duration_sec": 3.2,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a person preparing a meal in a dimly lit kitchen. The individual is actively engaged in cooking, using a stovetop and various ingredients and utensils that are visible on the counter. The ambient lighting is low, creating a subdued atmosphere, though it catches the reflective surfaces of kitchenware like a shiny pot. While the initial frame suggests a different, possibly musical activity, the consistent setting and subsequent actions confirm the primary focus is on the cooking process within the domestic space."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 1046,
+      "end_frame": 1160,
+      "start_sec": 69.733333,
+      "end_sec": 77.333333,
+      "duration_sec": 7.666667,
+      "num_frame_captions": 8,
+      "caption": "A chef performs a dramatic teppanyaki cooking show for diners at a restaurant table. Standing at the grill, he skillfully flamb\u00e9s a dish, causing a large, vibrant orange flame to erupt and shoot skyward. The impressive burst of fire is part of an engaging culinary performance, captivating the audience who watch the spectacle unfold in the dimly lit setting."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 1161,
+      "end_frame": 1279,
+      "start_sec": 77.4,
+      "end_sec": 85.266667,
+      "duration_sec": 7.933333,
+      "num_frame_captions": 8,
+      "caption": "In a professional restaurant kitchen, a chef in a white and red uniform skillfully prepares a meal on a large, hot teppanyaki grill. The scene focuses on the chef cooking various vegetables, including asparagus and sliced onions, which sizzle and release steam on the griddle's surface. Using tongs, the chef deftly flips and handles the ingredients. The activity occurs in a busy kitchen environment, where another person is seen observing nearby, and a glass of wine sits on the counter, adding to the ambiance of the culinary demonstration."
+    }
+  ]
+}

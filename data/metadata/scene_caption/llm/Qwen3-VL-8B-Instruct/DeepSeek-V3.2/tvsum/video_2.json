@@ -1,0 +1,516 @@
+{
+  "video": "98MoyGZKHXc",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/98MoyGZKHXc.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_2.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 25.0,
+  "total_frames": 4688,
+  "num_scenes": 50,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 29,
+      "start_sec": 0.0,
+      "end_sec": 1.16,
+      "duration_sec": 1.2,
+      "num_frame_captions": 2,
+      "caption": "This scene features a stylized title card or introductory graphic with a bold, minimalist aesthetic. The background is a solid gradient red, creating a striking and intense visual atmosphere. Over this vibrant backdrop, fragmented and glitching white text appears, partially spelling out a word\u2014visible letters include \"ch\"\u2014suggesting a title or key term being introduced. The overall effect is one of digital distortion or intentional stylization, evoking themes of technology, disruption, or a modern, edgy tone. The dark shadow at the top adds a slight sense of depth, focusing attention on the central, deconstructed typography."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 30,
+      "end_frame": 61,
+      "start_sec": 1.2,
+      "end_sec": 2.44,
+      "duration_sec": 1.28,
+      "num_frame_captions": 3,
+      "caption": "This scene features a simple, static presentation of a logo or brand name against a clean white background. The focus is on a bold, red rectangular logo with the centered white text \"Which?\" prominently displayed. This is followed by a very similar frame, which clarifies the logo's design by specifying a black question mark within the word. The scene then transitions to a new, smaller pink rectangle containing the word \"WICK\" in white, maintaining the same minimalist aesthetic. The sequence suggests a comparison or a deliberate visual play between the two similar-looking words, \"Which\" and \"WICK.\""
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 62,
+      "end_frame": 138,
+      "start_sec": 2.48,
+      "end_sec": 5.52,
+      "duration_sec": 3.08,
+      "num_frame_captions": 5,
+      "caption": "In this scene, a man is driving a car and speaking, likely addressing the camera or an unseen passenger. His attention alternates between the road ahead and the camera, and he uses hand gestures while talking, sometimes holding a dark object. The environment outside the vehicle is consistently green and blurred, indicating motion, with foliage and hedges visible through the side windows and windshield. Other vehicles can occasionally be seen passing by, confirming he is on a moving roadway. The overall focus is on the driver\u2019s monologue or presentation from behind the wheel during a journey."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 139,
+      "end_frame": 195,
+      "start_sec": 5.56,
+      "end_sec": 7.8,
+      "duration_sec": 2.28,
+      "num_frame_captions": 4,
+      "caption": "This scene is captured from a low-angle perspective, focusing on a wet, leaf-strewn asphalt road that leads toward a tree-lined street or park entrance under an overcast, partly cloudy sky. The primary action involves cars driving along this road, with one white car approaching the camera and a silver car speeding past. The gritty texture of the pavement is emphasized, and the overall composition conveys a sense of motion and a damp, autumnal atmosphere as the vehicles travel through this suburban or park-like setting."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 196,
+      "end_frame": 261,
+      "start_sec": 7.84,
+      "end_sec": 10.44,
+      "duration_sec": 2.64,
+      "num_frame_captions": 4,
+      "caption": "In this scene, a man is filmed driving a car, directly addressing the camera as he speaks. He is engaged in conversation, at times using hand gestures to emphasize his points. During the drive, he briefly holds a black thermos. The setting is a moving vehicle, with the outside environment visible through the windows as a blurred backdrop of traffic, greenery, foliage, and occasional pedestrians. The consistent elements are the man's focus on the camera and the act of driving, creating the impression of a casual, in-transit monologue or vlog-style recording."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 262,
+      "end_frame": 388,
+      "start_sec": 10.48,
+      "end_sec": 15.52,
+      "duration_sec": 5.08,
+      "num_frame_captions": 8,
+      "caption": "In this autumn scene, a white compact car travels along a tree-lined road in a park. It moves at a noticeable speed, with the lush green and vibrant orange foliage of the trees creating a blur in the background, indicating its motion. The journey takes place under a partly cloudy sky, with fences and grassy areas lining the street. Eventually, the car comes to a stop, parked on the side of the road amidst the serene, leafy surroundings, completing its drive through the peaceful autumn landscape."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 389,
+      "end_frame": 509,
+      "start_sec": 15.56,
+      "end_sec": 20.36,
+      "duration_sec": 4.84,
+      "num_frame_captions": 8,
+      "caption": "This scene opens with a blank white screen, which then transitions to the introduction of a video guide from the consumer organization Which?. The central focus is the presentation of the guide's title, \"How to use a tyre repair kit,\" which appears prominently beneath the organization's distinctive red logo and its website address, which.co.uk. The repeated display of this title screen establishes the video's purpose as an instructional resource from a trusted consumer advice source, clearly setting the topic for the practical tutorial that will follow."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 510,
+      "end_frame": 584,
+      "start_sec": 20.4,
+      "end_sec": 23.36,
+      "duration_sec": 3.0,
+      "num_frame_captions": 5,
+      "caption": "This scene presents a quiet, residential street in an urban setting, likely during autumn. The perspective is consistently a low-angle shot, emphasizing the leaf-strewn pavement in the foreground. A row of brick apartment buildings forms the blurred background, with one featuring a distinctive covered doorway. The central element is a white car parked on the wet street, its presence becoming more defined as the scene progresses from a general view to a closer focus on its front bumper. The overall atmosphere is calm and still, underscored by fallen leaves scattered across the damp ground."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 585,
+      "end_frame": 714,
+      "start_sec": 23.4,
+      "end_sec": 28.56,
+      "duration_sec": 5.2,
+      "num_frame_captions": 9,
+      "caption": "This scene presents a series of close-up and low-angle shots focusing on a stationary white car in an autumnal setting. The primary visual emphasis is on the vehicle's lower details, including its silver alloy wheels, slightly worn tires, and the dirt-streaked undercarriage. The car is parked on a paved surface, surrounded by a carpet of fallen yellow leaves, some of which are seen swirling near its base. The consistent, detailed framing creates a study of texture and seasonal atmosphere, subtly contrasting the manufactured object with the natural debris. The scene concludes with an on-screen graphic prompting viewers to subscribe."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 715,
+      "end_frame": 752,
+      "start_sec": 28.6,
+      "end_sec": 30.08,
+      "duration_sec": 1.52,
+      "num_frame_captions": 3,
+      "caption": "This scene takes place inside a car at night, focusing on the action of shifting gears. The interior is dimly lit, emphasizing the functional details of the center console and gear stick. A person's hand is shown reaching for and then operating the gear shifter, indicating a moment of driving control or a gear change. The consistent presence of a \"Subscribe to our channel\" graphic identifies the footage as coming from a dedicated automotive or driving-focused video channel. The tight framing and close-up shots create an intimate, instructional feel, highlighting a specific vehicular operation."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 753,
+      "end_frame": 815,
+      "start_sec": 30.12,
+      "end_sec": 32.6,
+      "duration_sec": 2.52,
+      "num_frame_captions": 4,
+      "caption": "This scene features a close-up demonstration of activating a car's power system. A finger is shown pressing the illuminated blue \"POWER\" button located on the vehicle's center console, highlighting this key control. The shot focuses on the car's interior, emphasizing the glowing button and adjacent features like the mirror controls. Throughout the demonstration, a persistent \"SUBSCRIBE TO OUR CHANNEL\" graphic is overlaid in the corner, indicating the content is likely from a promotional or instructional automotive video. The sequence effectively combines a practical showcase of the vehicle's interface with a direct call to action for the viewer."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 816,
+      "end_frame": 887,
+      "start_sec": 32.64,
+      "end_sec": 35.48,
+      "duration_sec": 2.88,
+      "num_frame_captions": 5,
+      "caption": "This scene provides a close-up instructional demonstration on a car's dashboard, focusing on the passenger airbag system. The key action shows a person's hand pressing a button to deactivate the airbag, a safety feature for specific situations like using a child seat. Throughout the sequence, the illuminated warning light on the control panel remains visibly lit, confirming the system's status. The video has a promotional overlay, as a \"Subscribe to our channel\" graphic is consistently displayed in the corner, indicating the content is part of an online automotive tutorial or review channel."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 888,
+      "end_frame": 1143,
+      "start_sec": 35.52,
+      "end_sec": 45.72,
+      "duration_sec": 10.24,
+      "num_frame_captions": 17,
+      "caption": "A man in a black sweater is seen with a white car on a residential street. He runs toward the vehicle, then stands beside it, gesturing as if explaining something with a concerned expression. The scene focuses on him crouching down to intently inspect and gesture toward the car's front wheel and fender, suggesting he is examining or pointing out an issue with that part of the vehicle on the leaf-strewn sidewalk."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 1144,
+      "end_frame": 1323,
+      "start_sec": 45.76,
+      "end_sec": 52.92,
+      "duration_sec": 7.2,
+      "num_frame_captions": 12,
+      "caption": "A person crouches beside a white car on a cobblestone street, inspecting or working on its front wheel. The pavement is scattered with fallen autumn leaves. The scene is captured in a series of close-up shots, focusing on the person's interaction with the silver alloy wheel and tire. The consistent setting and action suggest a single, continuous moment of examination or minor maintenance on the parked vehicle."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 1324,
+      "end_frame": 1409,
+      "start_sec": 52.96,
+      "end_sec": 56.36,
+      "duration_sec": 3.44,
+      "num_frame_captions": 5,
+      "caption": "In this scene, a person in a black sweater is seen adjusting a license plate on the rear of a white Toyota car. The individual is specifically handling a yellow UK license plate bearing the registration \"GX63 DWU,\" positioning it on the vehicle's trunk. Meanwhile, the trunk of the car is open, exposing an empty and dark cargo area inside. A few fallen leaves are scattered on the pavement around the vehicle, adding a casual, everyday context to the activity. The sequence shows a person actively working on the car's exterior while the open trunk suggests a moment of access or preparation."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 1410,
+      "end_frame": 1488,
+      "start_sec": 56.4,
+      "end_sec": 59.52,
+      "duration_sec": 3.16,
+      "num_frame_captions": 6,
+      "caption": "In this scene, a man in a black sweater is reviewing the cargo space of a white hatchback car parked on a residential street. He stands beside the open trunk, gesturing as if explaining its features to someone off-camera. He then leans into the trunk area, inspecting or arranging the contents inside with an engaged and somewhat surprised expression. His actions suggest he is actively demonstrating the vehicle's storage capacity, possibly for a review or a potential buyer, highlighting the practicality of the car's boot. The sequence focuses on his interaction with the open trunk as the central activity."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 1489,
+      "end_frame": 1547,
+      "start_sec": 59.56,
+      "end_sec": 61.88,
+      "duration_sec": 2.36,
+      "num_frame_captions": 4,
+      "caption": "In this scene, a person is investigating the trunk of a white car. They begin by reaching into the open, carpeted space, which appears empty at first. Their attention then shifts to the floor of the trunk, where they locate and lift a textured access panel. This action reveals a hidden storage compartment beneath the main trunk area. Inside this compartment, essential components like the car's battery and various tools are stored. The sequence shows a focused search, moving from a general inspection of the trunk to the specific discovery of a concealed utility space."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 1548,
+      "end_frame": 1603,
+      "start_sec": 61.92,
+      "end_sec": 64.12,
+      "duration_sec": 2.24,
+      "num_frame_captions": 3,
+      "caption": "In this scene, a man is working on his white car, which is parked on a residential street. He is focused on a task inside the open trunk, where he handles various items including a battery and tools. As he leans in to manage the equipment, his expression shifts to one of surprise or concern, suggesting an unexpected development or problem with the vehicle. The sequence captures a brief moment of routine car maintenance interrupted by a sudden reaction."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 1604,
+      "end_frame": 1723,
+      "start_sec": 64.16,
+      "end_sec": 68.92,
+      "duration_sec": 4.8,
+      "num_frame_captions": 8,
+      "caption": "In this scene, a person is preparing to repair a flat tire on a car parked on a street. They are equipped with the necessary tools, including a portable tire inflator or compressor and a can of tire sealant, which is clearly labeled. The individual holds and inspects these items, demonstrating the initial steps of the tire repair process. The setting is outdoors, and the actions suggest a practical, hands-on approach to addressing the vehicle's puncture, focusing on the tools required for the task rather than the detailed mechanics of the repair itself."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 1724,
+      "end_frame": 1775,
+      "start_sec": 68.96,
+      "end_sec": 71.0,
+      "duration_sec": 2.08,
+      "num_frame_captions": 4,
+      "caption": "This scene presents a series of close-up shots focusing on a stationary car in an autumnal setting. The vehicle is positioned at the edge of a road, with its tire resting on or against a stone curb. The surrounding ground is a textured mix of cobblestones and pavement, liberally strewn with fallen leaves and patches of grass. The consistent detail of the leaves and the tire's immobile placement strongly suggest the car is parked or temporarily stopped on a roadside during the fall season, conveying a quiet, still moment."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 1776,
+      "end_frame": 1833,
+      "start_sec": 71.04,
+      "end_sec": 73.32,
+      "duration_sec": 2.32,
+      "num_frame_captions": 4,
+      "caption": "In a quiet autumnal setting, a man is performing maintenance on a white car parked on a cobblestone street. He is crouched beside the vehicle, which has its trunk open, and appears to be focused on the rear wheel area. Using a small tool, he inspects or works on the wheel, with a bottle and numerous fallen leaves scattered on the ground around him. The scene captures a moment of routine car care, with the man occasionally looking towards the camera amidst the serene, leaf-strewn environment."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 1834,
+      "end_frame": 1957,
+      "start_sec": 73.36,
+      "end_sec": 78.28,
+      "duration_sec": 4.96,
+      "num_frame_captions": 8,
+      "caption": "This scene depicts a person performing tire maintenance on a car. The action begins with a close inspection of a silver alloy wheel, focusing on the valve stem and tire tread. The person's hand is then seen reaching into the wheel well, likely to access the tire. The core activity involves using a bottle of tire sealant to repair a puncture. The person is shown applying the sealant directly into the valve stem, indicating a process to fix a flat tire. The sequence captures the practical steps of a roadside or DIY tire repair, from initial inspection to the application of the sealing compound."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 1958,
+      "end_frame": 2055,
+      "start_sec": 78.32,
+      "end_sec": 82.2,
+      "duration_sec": 3.92,
+      "num_frame_captions": 7,
+      "caption": "In a quiet autumnal setting, a man is performing maintenance on a white car parked on a leaf-strewn cobblestone street or sidewalk. The vehicle\u2019s trunk is open as he crouches beside the rear wheel, actively using a tool to work on it. His actions shift between focused mechanical work and gesturing toward the wheel, suggesting he might be inspecting an issue, explaining a problem, or demonstrating something to an off-camera observer. The scene is characterized by a consistent, relaxed atmosphere of roadside repair, with fallen leaves scattered around the car and the man throughout the activity."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 2056,
+      "end_frame": 2227,
+      "start_sec": 82.24,
+      "end_sec": 89.08,
+      "duration_sec": 6.88,
+      "num_frame_captions": 11,
+      "caption": "The scene shows a person using an air compressor to inflate a tire on a Toyota vehicle. They connect a black hose with a brass fitting to an orange cap on a black canister labeled \"COMPRESSOR.\" The action is repeated and shown from slightly different angles, emphasizing the connection between the compressor hose and the tire's valve stem. The consistent elements are the black Toyota-branded bottle, the orange cap, and the compressor hose, indicating a straightforward task of adding air pressure."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 2228,
+      "end_frame": 2401,
+      "start_sec": 89.12,
+      "end_sec": 96.04,
+      "duration_sec": 6.96,
+      "num_frame_captions": 12,
+      "caption": "In this scene, a man in a dark sweater is shown performing routine vehicle maintenance on a white car. He is primarily focused on checking and adjusting the tire pressure, using a tire pressure gauge on the front passenger-side tire. The activity evolves as he switches tools, first employing a tire inflator and then an air compressor to add air to the tire. The scene concludes with a shift in focus, as the man gestures toward the wheel while holding a charging cable, indicating a demonstration of the car's electric charging system, before finally looking at the camera near a tire pressure monitoring device."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 2402,
+      "end_frame": 2552,
+      "start_sec": 96.08,
+      "end_sec": 102.08,
+      "duration_sec": 6.04,
+      "num_frame_captions": 10,
+      "caption": "A person approaches a parked white car on a cobblestone street. They open the driver's side door and interact with the interior, possibly manipulating the door panel or using a tool. The person then bends to enter the vehicle. In a separate action, they also plug a charging cable into the car's port, indicating it is an electric vehicle. The scene shows the initial steps of accessing and preparing the car for use."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 2553,
+      "end_frame": 2648,
+      "start_sec": 102.12,
+      "end_sec": 105.92,
+      "duration_sec": 3.84,
+      "num_frame_captions": 6,
+      "caption": "This scene demonstrates how to use a car's 12V power socket. A person retrieves a key and then interacts with the dashboard area, focusing on the labeled socket. The action culminates in plugging a device into this socket, with clear, repeated visual emphasis on the socket's location and purpose. The sequence provides a straightforward, instructional look at accessing and utilizing this common automotive feature."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 2649,
+      "end_frame": 2668,
+      "start_sec": 105.96,
+      "end_sec": 106.72,
+      "duration_sec": 0.8,
+      "num_frame_captions": 1,
+      "caption": "This scene focuses on the functional detail of a car's interior. The key element is the 12V power socket, which is shown in close-up with a cable already connected to it. This establishes that the vehicle is equipped for charging or powering electronic devices. The clean, labeled presentation against the dark background gives the shot a modern and instructional feel, emphasizing a point of utility within the cabin rather than broader dashboard features or driving action."
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 2669,
+      "end_frame": 2712,
+      "start_sec": 106.76,
+      "end_sec": 108.48,
+      "duration_sec": 1.76,
+      "num_frame_captions": 3,
+      "caption": "In this scene, the driver activates the vehicle's ignition system. The action centers on pressing a distinctive blue \"POWER\" button, which is prominently located on the car's center console or dashboard. The close-up view highlights the button's design, featuring a silver ring set against the black paneling alongside other controls. This single, deliberate gesture is the key event, initiating the car's startup sequence from a powered-off state."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 2713,
+      "end_frame": 2751,
+      "start_sec": 108.52,
+      "end_sec": 110.04,
+      "duration_sec": 1.56,
+      "num_frame_captions": 3,
+      "caption": "This scene depicts a person using a portable tire repair kit to address a flat tire. The focus is on the device itself, a compact black unit equipped with an ON/OFF switch, a pressure gauge, and an instructional card. The key action is the user activating the kit by pressing its button, initiating the inflation and sealant process. The close-up shots emphasize the operation of the tool, highlighting its functionality and the practical steps involved in the emergency repair procedure."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 2752,
+      "end_frame": 2846,
+      "start_sec": 110.08,
+      "end_sec": 113.84,
+      "duration_sec": 3.8,
+      "num_frame_captions": 6,
+      "caption": "The scene consists of a series of close-up shots focusing on a car's tire and wheel. The vehicle is stationary, resting on a textured surface that varies slightly between shots, including cobblestone, gravel, and paved areas. Patches of grass and scattered fallen leaves are visible around the tire in each frame, suggesting an outdoor, possibly autumnal setting. The consistent, detailed focus on this single subject creates a still, observational mood, emphasizing texture and quiet detail over any action or narrative progression."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 2847,
+      "end_frame": 2917,
+      "start_sec": 113.88,
+      "end_sec": 116.68,
+      "duration_sec": 2.84,
+      "num_frame_captions": 5,
+      "caption": "A portable electric air compressor is being used to inflate a car tire. The device is connected to the tire's valve stem while resting on a pavement scattered with autumn leaves. The scene captures the simple, routine task of checking or adjusting tire pressure, set against the casual backdrop of a leaf-strewn ground during fall. The focus remains on the functional interaction between the inflator and the vehicle's tire."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 2918,
+      "end_frame": 2977,
+      "start_sec": 116.72,
+      "end_sec": 119.08,
+      "duration_sec": 2.4,
+      "num_frame_captions": 4,
+      "caption": "This scene presents a series of close-up and low-angle shots focusing on a stationary car's wheel. The detailed views emphasize the tire's tread pattern and the design of the alloy rim. The wheel rests on an outdoor surface, which varies slightly between shots, appearing as cobblestone, pavement, or gravel. A consistent element is the scattering of fallen autumn leaves around the tire, establishing a seasonal setting. The sequence creates a still, observational mood, drawing attention to textures and the quiet ambiance of an autumn day, with no indication of movement or other activity within the frame."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 2978,
+      "end_frame": 3122,
+      "start_sec": 119.12,
+      "end_sec": 124.88,
+      "duration_sec": 5.8,
+      "num_frame_captions": 10,
+      "caption": "The scene depicts a white car parked on a sidewalk and street amid autumn. It is shown from various angles, including wide shots of the vehicle on a leaf-strewn sidewalk and close-up details of its wheels. The focus shifts to the car's position, first on the curb and then on a cobblestone street, with fallen yellow leaves scattered around it throughout. The sequence emphasizes the stationary car in a serene, autumnal setting."
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 3123,
+      "end_frame": 3243,
+      "start_sec": 124.92,
+      "end_sec": 129.72,
+      "duration_sec": 4.84,
+      "num_frame_captions": 8,
+      "caption": "This scene consists of a series of close-up and low-angle shots focused on a stationary car in an autumnal setting. The primary subject is the vehicle's wheel and tire, which is repeatedly shown resting on a leaf-strewn cobblestone or paved street. The consistent visual elements are the fallen autumn leaves scattered around the wheel and the textured stone ground. Occasional wider angles reveal glimpses of the car's undercarriage and a partially visible door in the background, confirming the vehicle is parked. The sequence creates a detailed, atmospheric study of the car at rest during the fall season."
+    },
+    {
+      "scene_index": 35,
+      "start_frame": 3244,
+      "end_frame": 3354,
+      "start_sec": 129.76,
+      "end_sec": 134.16,
+      "duration_sec": 4.44,
+      "num_frame_captions": 7,
+      "caption": "This scene presents a series of close-up, static shots of a single car tire in an outdoor setting. The tire is consistently shown resting on a weathered ground surface, which varies slightly between shots, described as cobblestone, cracked pavement, or a stone path. The environment is distinctly autumnal, featuring scattered fallen leaves and patches of encroaching grass around the tire. There is no visible motion or change in the tire's position across the frames, suggesting a stationary vehicle. The sequence focuses on visual texture and the quiet, decaying ambiance of the season, emphasizing details of the ground and natural debris rather than any narrative action."
+    },
+    {
+      "scene_index": 36,
+      "start_frame": 3355,
+      "end_frame": 3432,
+      "start_sec": 134.2,
+      "end_sec": 137.28,
+      "duration_sec": 3.12,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a quiet urban street in autumn, characterized by fallen leaves covering the ground. The focus is a white car, initially seen parked near modern buildings. It then begins to move, driving past the contemporary architecture, which includes a dark brick building with a curved facade and a sleek glass structure. Another vehicle is present in the distance. The overall sequence shows a transition from a stationary moment to gentle motion within a serene, leaf-strewn city environment."
+    },
+    {
+      "scene_index": 37,
+      "start_frame": 3433,
+      "end_frame": 3509,
+      "start_sec": 137.32,
+      "end_sec": 140.36,
+      "duration_sec": 3.08,
+      "num_frame_captions": 5,
+      "caption": "This scene features a man driving a car, delivering a direct address to the camera. Throughout the sequence, he is consistently shown speaking and looking toward the viewer, creating a sense of direct communication or vlog-style narration. The primary setting is the car's interior, with the consistent background element of lush green trees and foliage visible through the windshield and side windows, indicating a journey through a wooded or rural area. The core action remains stable: the man drives while maintaining his conversational engagement with the audience, blending the act of travel with personal commentary."
+    },
+    {
+      "scene_index": 38,
+      "start_frame": 3510,
+      "end_frame": 3575,
+      "start_sec": 140.4,
+      "end_sec": 143.0,
+      "duration_sec": 2.64,
+      "num_frame_captions": 5,
+      "caption": "This scene depicts a white car traveling along a quiet, tree-lined country road on a sunny day. The perspective is consistently from a low-angle position behind a dark, vertical foreground object, such as a pole or pillar, which partially obscures the view. The road is unpaved and covered with fallen leaves, enhancing the natural, rustic setting. The car is seen moving away from the camera, driving down the road flanked by trees. The sequence conveys a sense of observation or surveillance from a concealed vantage point, capturing the vehicle's steady progression through the serene, wooded environment."
+    },
+    {
+      "scene_index": 39,
+      "start_frame": 3576,
+      "end_frame": 3752,
+      "start_sec": 143.04,
+      "end_sec": 150.08,
+      "duration_sec": 7.08,
+      "num_frame_captions": 12,
+      "caption": "In this scene, a man is driving a car, speaking directly to the camera as he navigates a road lined with trees and foliage. His hands remain on the steering wheel, and he occasionally gestures while talking. The greenery outside the windows blurs past, indicating the car is in motion. Throughout the sequence, a persistent \u201cSubscribe to our channel\u201d graphic is overlaid in the lower-left corner of the video, identifying the content as coming from a dedicated channel and serving as a call to action for viewers. The overall tone is that of a casual, in-transit vlog or promotional segment."
+    },
+    {
+      "scene_index": 40,
+      "start_frame": 3753,
+      "end_frame": 3806,
+      "start_sec": 150.12,
+      "end_sec": 152.24,
+      "duration_sec": 2.16,
+      "num_frame_captions": 3,
+      "caption": "A white car drives along a leaf-strewn, tree-lined road in a park-like setting under a bright sky. A \"Subscribe to our channel\" graphic is overlaid in the bottom corner of the video."
+    },
+    {
+      "scene_index": 41,
+      "start_frame": 3807,
+      "end_frame": 3839,
+      "start_sec": 152.28,
+      "end_sec": 153.56,
+      "duration_sec": 1.32,
+      "num_frame_captions": 2,
+      "caption": "This scene features a white Toyota Yaris driving briskly along a road in an autumnal park setting. The vehicle travels past trees adorned with fall foliage, with scattered leaves visible on the pavement. Throughout the scene, a persistent promotional graphic urging viewers to \"Subscribe to our channel\" is overlaid in the lower-left corner of the video. The overall impression is of swift, continuous motion through a serene, seasonal landscape, subtly combined with a call to action for the audience."
+    },
+    {
+      "scene_index": 42,
+      "start_frame": 3840,
+      "end_frame": 3890,
+      "start_sec": 153.6,
+      "end_sec": 155.6,
+      "duration_sec": 2.04,
+      "num_frame_captions": 4,
+      "caption": "In this scene, a white car travels along a quiet, unpaved road through a wooded park area. The vehicle is shown driving away from the viewer, moving down the leaf-strewn path on a bright, sunny day. The setting is consistently natural and serene, characterized by trees lining the route and a park-like atmosphere. Throughout the sequence, a persistent \u201cSubscribe to our channel\u201d graphic is visible in the lower-left corner of the frame, indicating the video's likely origin as promotional or social media content. The overall action is a simple, continuous shot of the car's departure into the scenic, tree-lined environment."
+    },
+    {
+      "scene_index": 43,
+      "start_frame": 3891,
+      "end_frame": 4007,
+      "start_sec": 155.64,
+      "end_sec": 160.28,
+      "duration_sec": 4.68,
+      "num_frame_captions": 8,
+      "caption": "The scene shows a man driving a car through a forested area. He is speaking to the camera while focusing on the road, with his hands on the steering wheel. Throughout the drive, the view outside the windows consistently features greenery, trees, and occasionally other passing vehicles. The overall setting is a lush, green landscape that blurs past as the car moves forward."
+    },
+    {
+      "scene_index": 44,
+      "start_frame": 4008,
+      "end_frame": 4046,
+      "start_sec": 160.32,
+      "end_sec": 161.84,
+      "duration_sec": 1.56,
+      "num_frame_captions": 2,
+      "caption": "This scene depicts a white car traveling at high speed along a rural road in an autumnal setting. The vehicle is captured from a low, dynamic angle, emphasizing its velocity as it moves through a corridor of trees. The road is covered with fallen leaves, and a wooden fence lines the roadside, suggesting a countryside or residential lane. The overall atmosphere is bright and clear, conveyed by the visible sky. The action is swift and singular, focusing entirely on the car's rapid transit through this tranquil, leaf-strewn environment."
+    },
+    {
+      "scene_index": 45,
+      "start_frame": 4047,
+      "end_frame": 4122,
+      "start_sec": 161.88,
+      "end_sec": 164.88,
+      "duration_sec": 3.04,
+      "num_frame_captions": 5,
+      "caption": "The scene depicts a quiet, tree-lined street in a park-like setting on a sunny day. Dappled sunlight filters through the leaves onto the wet, leaf-strewn asphalt road, which is bordered by a curb, sidewalk, and parked cars. A white car is present, driving away down the road, emphasizing the tranquil, residential atmosphere. The consistent elements of trees, fallen leaves, parked vehicles, and a lamppost establish a serene and orderly neighborhood environment."
+    },
+    {
+      "scene_index": 46,
+      "start_frame": 4123,
+      "end_frame": 4214,
+      "start_sec": 164.92,
+      "end_sec": 168.56,
+      "duration_sec": 3.68,
+      "num_frame_captions": 6,
+      "caption": "A man is driving a car, focused on the road as a green, natural landscape blurs past the windows. He occasionally addresses the camera directly, speaking while maintaining control of the vehicle. The primary action is his drive through the countryside, combined with his engagement with the viewer. The scene conveys a sense of movement and a casual, direct communication, as if he is sharing thoughts or narrating the journey from behind the wheel."
+    },
+    {
+      "scene_index": 47,
+      "start_frame": 4215,
+      "end_frame": 4259,
+      "start_sec": 168.6,
+      "end_sec": 170.36,
+      "duration_sec": 1.8,
+      "num_frame_captions": 3,
+      "caption": "The scene depicts a white car traveling along a residential street on a clear, sunny day. The road is lined with trees, and the pavement is scattered with fallen leaves, suggesting an autumnal setting. The vehicle maintains a steady course down the quiet, suburban lane. The consistent visual elements across the frames indicate a continuous, uneventful drive through this peaceful neighborhood environment, with the primary action being the car's straightforward movement through the leaf-strewn landscape."
+    },
+    {
+      "scene_index": 48,
+      "start_frame": 4260,
+      "end_frame": 4287,
+      "start_sec": 170.4,
+      "end_sec": 171.48,
+      "duration_sec": 1.12,
+      "num_frame_captions": 2,
+      "caption": "The scene depicts a quiet, residential street or path lined with trees. A white Toyota Yaris is parked along the curb, and the area is characterized by dappled sunlight and shadows cast through the foliage onto the ground. The overall atmosphere is calm and still, suggesting a peaceful daytime setting without visible activity or motion."
+    },
+    {
+      "scene_index": 49,
+      "start_frame": 4288,
+      "end_frame": 4687,
+      "start_sec": 171.52,
+      "end_sec": 187.48,
+      "duration_sec": 16.0,
+      "num_frame_captions": 27,
+      "caption": "This scene is a promotional advertisement from Which? offering a one-month trial for \u00a31. The ad highlights three key services: finding the best buy tyres, providing tips on how to save money on tyres, and recommending breakdown companies. The presentation uses a menu format with icons and repeated messaging to emphasize the value and features of the trial subscription."
+    }
+  ]
+}

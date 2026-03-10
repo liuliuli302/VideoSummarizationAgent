@@ -1,0 +1,126 @@
+{
+  "video": "XzYM3PfTM4w",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/XzYM3PfTM4w.mp4",
+  "image_caption_provider": "Qwen",
+  "image_caption_model": "Qwen3-VL-8B-Instruct",
+  "image_caption_json_path": "/root/VideoSummarizationAgent/data/metadata/image_caption/Qwen/Qwen3-VL-8B-Instruct/tvsum/video_5.json",
+  "scene_caption_model": "DeepSeek-V3.2",
+  "scene_prompt_template": "\nYou are a video understanding assistant.\nBelow are captions describing frames from the same scene in a video.\nFrame captions:\n{frame_captions}\n\nWrite a concise scene-level description summarizing what happens in this scene.\nRequirements:\n* one concise paragraph (80-120 words)\n* focus on the main content\n* avoid repeating frame descriptions\nScene description:\n",
+  "scene_threshold": 27.0,
+  "max_tokens": 120,
+  "fps": 29.97002997002997,
+  "total_frames": 3327,
+  "num_scenes": 11,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 129,
+      "start_sec": 0.0,
+      "end_sec": 4.3043,
+      "duration_sec": 4.337667,
+      "num_frame_captions": 9,
+      "caption": "The scene opens with a brief moment of darkness before transitioning to a consistent view of a GMC Certified Service sign. The sign is the central focus, advertising tire replacement services. The visual remains stable, with the sign displayed prominently and without significant change throughout the duration of the scene."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 130,
+      "end_frame": 159,
+      "start_sec": 4.337667,
+      "end_sec": 5.3053,
+      "duration_sec": 1.001,
+      "num_frame_captions": 2,
+      "caption": "This scene presents a close-up view of a brand logo, focusing on its abstract and minimalist design. The central element is a stylized letter \"V,\" which is rendered in a clean, geometric form. The logo is displayed against a solid, vibrant red backdrop, creating a bold and striking visual contrast. The design itself features layered, overlapping stripes in shades of pink and white, adding a sense of depth and texture to the otherwise simple shape. The overall effect is modern and graphic, emphasizing the logo's sleek and recognizable identity through its use of color and form."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 160,
+      "end_frame": 613,
+      "start_sec": 5.338667,
+      "end_sec": 20.453767,
+      "duration_sec": 15.148467,
+      "num_frame_captions": 30,
+      "caption": "The scene features a GMC Certified Service technician, Dave Campbell, speaking to the camera in a professional studio setting. He stands in front of a dark blue GMC pickup truck against a blue curtain backdrop, presenting information about the service. The scene then transitions to an auto repair shop, where mechanics in uniform are shown performing maintenance tasks, such as working on a tire and installing a spare on a white SUV."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 614,
+      "end_frame": 1532,
+      "start_sec": 20.487133,
+      "end_sec": 51.117733,
+      "duration_sec": 30.663967,
+      "num_frame_captions": 62,
+      "caption": "This scene is a GMC Certified Service promotional video about tire maintenance. It begins by showing mechanics in an auto repair shop working on various vehicles, including installing tires and inspecting undercarriages. A service technician then addresses the camera, explaining the importance of tire care. The video uses clear visual comparisons to contrast tires with good tread versus bad, worn tread. It emphasizes the key recommendation to rotate tires every 7,500 miles, a point reinforced by close-up shots of hands using tread depth gauges to measure tire wear."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 1533,
+      "end_frame": 2048,
+      "start_sec": 51.1511,
+      "end_sec": 68.334933,
+      "duration_sec": 17.2172,
+      "num_frame_captions": 34,
+      "caption": "This scene demonstrates how to check tire tread depth using the \"penny test.\" A hand holds a copper-colored U.S. penny (years 2012 and 2022 are visible) against and above a dark, cracked tire tread. Red arrows appear, pointing to the coin and indicating a circular motion, guiding the viewer on where to place the coin. The demonstration is followed by a man in a white \"GMC Certified Service\" shirt, who stands in front of a dark blue GMC pickup truck against a blue backdrop, speaking to the camera. The scene is an instructional segment, likely from a GMC service video, explaining a simple vehicle maintenance check."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 2049,
+      "end_frame": 2537,
+      "start_sec": 68.3683,
+      "end_sec": 84.651233,
+      "duration_sec": 16.3163,
+      "num_frame_captions": 33,
+      "caption": "This scene depicts a vehicle maintenance procedure at a GMC service center. A mechanic works on a car elevated on a lift, using a wrench to tighten or loosen bolts, first on the wheel hub and then on the exhaust pipe near the rear wheel. The process is shown in close-up detail, highlighting the silver alloy wheel and undercarriage components. The scene then cuts to a GMC service representative in a branded shirt, who addresses the camera in front of a dark blue pickup truck. Finally, black-and-white shots of cracked asphalt and curbs are shown, likely illustrating the types of road hazards that necessitate such vehicle inspections and repairs."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 2538,
+      "end_frame": 2867,
+      "start_sec": 84.6846,
+      "end_sec": 95.662233,
+      "duration_sec": 11.011,
+      "num_frame_captions": 22,
+      "caption": "A man in a GMC Certified Service shirt speaks to the camera while standing in front of a dark blue GMC pickup truck against a blue curtain backdrop. The scene emphasizes the \"Certified Service\" branding, showing close-ups of the sign on a building exterior. It then shifts to a service environment, where a technician works on a vehicle and two people shake hands in front of a white car, illustrating the professional service and customer interaction."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 2868,
+      "end_frame": 3177,
+      "start_sec": 95.6956,
+      "end_sec": 106.0059,
+      "duration_sec": 10.343667,
+      "num_frame_captions": 20,
+      "caption": "This scene is a promotional segment for GMC's Certified Service program, featuring a spokesperson in a branded white shirt. He stands in front of a dark blue GMC Sierra pickup truck against a consistent blue curtain backdrop, directly addressing the camera to endorse the service. The on-screen graphics prominently display the GMC logo and the program's website, gmccertifiedservice.com, reinforcing the marketing message. The scene is preceded by a brief interaction at a dealership, where two women in uniform are shown a silver SUV, establishing a context of customer service before transitioning to the dedicated service promotion."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 3178,
+      "end_frame": 3209,
+      "start_sec": 106.039267,
+      "end_sec": 107.073633,
+      "duration_sec": 1.067733,
+      "num_frame_captions": 2,
+      "caption": "This scene presents a promotional or introductory segment for a GMC vehicle. It opens with a man, likely a presenter or brand representative, smiling confidently as he stands before a large red GMC emblem. The partial view of a car and a blue curtain suggest a staged setting, such as an auto show or reveal event. The scene then cuts to a simple, bold graphic: a solid red triangle pointing downward on a white background. This visual transition creates a clean, modern aesthetic, using the brand's signature color to emphasize a key feature or signal a shift in focus within the presentation."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 3210,
+      "end_frame": 3309,
+      "start_sec": 107.107,
+      "end_sec": 110.4103,
+      "duration_sec": 3.336667,
+      "num_frame_captions": 7,
+      "caption": "This scene features a GMC Certified Service advertisement focused on tire replacement. The consistent visual element is a title card or sign with the service branding, set against a blurred purple and blue background. The repeated messaging emphasizes that the service is certified and specializes in replacing tires, presented through a series of nearly identical title cards that reinforce the promotional offer."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 3310,
+      "end_frame": 3326,
+      "start_sec": 110.443667,
+      "end_sec": 110.977533,
+      "duration_sec": 0.567233,
+      "num_frame_captions": 1,
+      "caption": "This scene presents a moment of complete visual absence, plunging the viewer into a state of profound darkness. The uniform blackness suggests a transition, a deliberate pause, or the beginning or end of a sequence. It creates a sensory void that can heighten anticipation, mark a passage of time, or serve as a stark contrast to surrounding imagery. The lack of any visual information focuses attention on the accompanying audio or the viewer's own expectations, making this darkness an active narrative element rather than merely an empty frame."
+    }
+  ]
+}
