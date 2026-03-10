@@ -1,0 +1,94 @@
+{
+  "video": "playing_ball",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/playing_ball.mp4",
+  "caption_model": "llava",
+  "model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80 words).\"\n",
+  "num_frames": 8,
+  "scene_threshold": 24,
+  "fps": 30.0,
+  "total_frames": 3119,
+  "num_scenes": 4,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 373,
+      "start_sec": 0.0,
+      "end_sec": 12.433333,
+      "duration_sec": 12.466667,
+      "sampled_frame_indices": [
+        0,
+        53,
+        107,
+        160,
+        213,
+        266,
+        320,
+        373
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a moment between a large dog and a small bird on a paved surface. The dog, which appears to be a German Shepherd, is lying down, its body relaxed and its head turned towards the bird. The bird, possibly a pigeon, is standing on the ground, seemingly unbothered by the dog's presence. The scene is set outdoors, with a brick pathway and a few plants visible in the background. The interaction between the dog and the bird is the central focus of the video, showcasing a moment of calm coexistence between two different species."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 374,
+      "end_frame": 2133,
+      "start_sec": 12.466667,
+      "end_sec": 71.1,
+      "duration_sec": 58.666667,
+      "sampled_frame_indices": [
+        374,
+        625,
+        877,
+        1128,
+        1379,
+        1630,
+        1882,
+        2133
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a moment of interaction between a large dog and a smaller bird. The dog, which appears to be a German Shepherd, is lying on the ground, its head raised as if attentive to the bird's presence. The bird, possibly a pigeon, is standing on the ground near the dog, seemingly unbothered by the dog's proximity. The scene takes place on a brick pavement, with a green plant and a white trash can visible in the background. The dog's relaxed posture and the bird's calm demeanor suggest a peaceful coexistence between the two animals in this urban setting."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 2134,
+      "end_frame": 2150,
+      "start_sec": 71.133333,
+      "end_sec": 71.666667,
+      "duration_sec": 0.566667,
+      "sampled_frame_indices": [
+        2134,
+        2136,
+        2139,
+        2141,
+        2143,
+        2145,
+        2148,
+        2150
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a close-up view of a dog, likely a large breed, with a focus on its fur and facial features. The dog is captured in various frames, suggesting movement or different angles. The dog's fur is a mix of brown and black, and it seems to be outdoors, as indicated by the blurred background that includes what looks like a garden or a yard with plants. The dog's expression and posture vary across the frames, indicating a dynamic moment captured in the video."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 2151,
+      "end_frame": 3118,
+      "start_sec": 71.7,
+      "end_sec": 103.933333,
+      "duration_sec": 32.266667,
+      "sampled_frame_indices": [
+        2151,
+        2289,
+        2427,
+        2565,
+        2704,
+        2842,
+        2980,
+        3118
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a moment of a black dog interacting with a white ball on a brick patio. The dog is in the process of either chasing or playing with the ball, which is in motion. The patio is a casual outdoor space with a variety of objects, including a white chair, a blue crate, a green trash can, and a white dog house. The scene suggests a domestic setting, possibly a backyard or a patio area of a home. The dog appears to be the main subject of the video, with its actions and the ball being the central focus."
+    }
+  ]
+}

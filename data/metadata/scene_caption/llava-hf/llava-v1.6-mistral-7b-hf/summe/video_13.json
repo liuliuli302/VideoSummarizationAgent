@@ -1,0 +1,34 @@
+{
+  "video": "Kids_playing_in_leaves",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Kids_playing_in_leaves.mp4",
+  "caption_model": "llava",
+  "model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80 words).\"\n",
+  "num_frames": 8,
+  "scene_threshold": 24,
+  "fps": 29.97002997002997,
+  "total_frames": 3187,
+  "num_scenes": 1,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 3186,
+      "start_sec": 0.0,
+      "end_sec": 106.3062,
+      "duration_sec": 106.339567,
+      "sampled_frame_indices": [
+        0,
+        455,
+        910,
+        1365,
+        1821,
+        2276,
+        2731,
+        3186
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a lively scene in a residential area where children are playing in a yard filled with fallen leaves. The main focus is on three children: a young boy in a blue shirt, a girl in a pink dress, and another girl in a blue shirt. They are engaged in various activities, with the boy running towards the camera, the girl in pink bending over, and the girl in blue standing and looking at the camera.\n\nIn the background, there are parked cars, including a prominent red truck, and a house with a visible grill. The yard is bordered by a sidewalk, and there are a few objects scattered around, such as a chair and a bicycle. The overall atmosphere is one of casual, outdoor play, with the children enjoying their time in the yard."
+    }
+  ]
+}

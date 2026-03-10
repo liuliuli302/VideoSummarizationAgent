@@ -1,0 +1,514 @@
+{
+  "video": "Cockpit_Landing",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Cockpit_Landing.mp4",
+  "caption_model": "llava",
+  "model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80 words).\"\n",
+  "num_frames": 8,
+  "scene_threshold": 24,
+  "fps": 29.97002997002997,
+  "total_frames": 9046,
+  "num_scenes": 25,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 2134,
+      "start_sec": 0.0,
+      "end_sec": 71.204467,
+      "duration_sec": 71.237833,
+      "sampled_frame_indices": [
+        0,
+        305,
+        610,
+        915,
+        1219,
+        1524,
+        1829,
+        2134
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a person's hand, presumably a pilot, operating the controls of an airplane cockpit. The cockpit is filled with various instruments and gauges, typical of an aircraft's interior. The pilot's hand is seen adjusting a control, suggesting the operation of the plane. The view from the cockpit window reveals a vast landscape below, with a city skyline and a river meandering through it. The cityscape is dense with buildings, indicating a large urban area. The river adds a natural element to the urban environment. The sky is clear, suggesting good weather conditions. The overall content of the video seems to be a demonstration or a moment captured during a flight, showcasing the pilot's interaction with the aircraft's controls and the view from the cockpit."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 2135,
+      "end_frame": 2239,
+      "start_sec": 71.237833,
+      "end_sec": 74.707967,
+      "duration_sec": 3.5035,
+      "sampled_frame_indices": [
+        2135,
+        2150,
+        2165,
+        2180,
+        2194,
+        2209,
+        2224,
+        2239
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a moment inside the cockpit of an airplane. The main focus is on the pilot, who is seated in the left seat, operating the controls. The cockpit is filled with various instruments and displays, including multiple flight control panels, navigation screens, and communication equipment. The pilot's hands are visible on the controls, indicating active engagement with the aircraft's systems. The scene suggests a routine flight, with the pilot monitoring the instruments and preparing for the next phase of the journey. The cockpit is well-lit, and the ambiance is professional and focused, typical of an aviation environment."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 2240,
+      "end_frame": 2604,
+      "start_sec": 74.741333,
+      "end_sec": 86.8868,
+      "duration_sec": 12.178833,
+      "sampled_frame_indices": [
+        2240,
+        2292,
+        2344,
+        2396,
+        2448,
+        2500,
+        2552,
+        2604
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a moment inside the cockpit of an airplane. The main focus is on the pilot, who is seated in the left seat, operating the controls and instruments. The cockpit is filled with various gauges, switches, and screens, all of which are essential for flight navigation and control. The pilot's hands are visible on the controls, indicating active engagement with the aircraft's systems. The scene is set against the backdrop of the airplane's interior, with the pilot's legs partially visible, suggesting a standard seating arrangement for pilots. The overall content of the video provides a glimpse into the daily operations of an airplane's cockpit, emphasizing the pilot's role in managing the aircraft's systems and ensuring a safe flight."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 2605,
+      "end_frame": 3269,
+      "start_sec": 86.920167,
+      "end_sec": 109.075633,
+      "duration_sec": 22.188833,
+      "sampled_frame_indices": [
+        2605,
+        2700,
+        2795,
+        2890,
+        2984,
+        3079,
+        3174,
+        3269
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a flight from an airplane window, providing a view of the landscape below. The frames show a cityscape with a river meandering through it, surrounded by buildings of various sizes. The city appears to be densely populated, with a mix of residential and commercial structures. The sky is clear, suggesting good weather conditions. The perspective of the frames suggests that the airplane is in the process of taking off or ascending, as the cityscape is gradually receding into the distance. The overall content of the video is a journey through the air, offering a unique perspective of urban development and the vastness of the sky."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 3270,
+      "end_frame": 4104,
+      "start_sec": 109.109,
+      "end_sec": 136.9368,
+      "duration_sec": 27.861167,
+      "sampled_frame_indices": [
+        3270,
+        3389,
+        3508,
+        3627,
+        3747,
+        3866,
+        3985,
+        4104
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video frames show an aerial view of a cityscape, with a focus on a large, densely populated urban area. The city is characterized by a grid of streets, with buildings of various heights and architectural styles. There are notable skyscrapers, indicating a commercial or financial district. The city is surrounded by a river, which meanders through the urban environment, adding a natural element to the urban landscape. The frames capture the city from different angles, providing a comprehensive view of the urban layout and the river's role in the city's design. The overall content of the video is a dynamic exploration of an urban environment, highlighting the city's architectural diversity and the integration of natural elements into the urban planning."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 4105,
+      "end_frame": 5645,
+      "start_sec": 136.970167,
+      "end_sec": 188.354833,
+      "duration_sec": 51.418033,
+      "sampled_frame_indices": [
+        4105,
+        4325,
+        4545,
+        4765,
+        4985,
+        5205,
+        5425,
+        5645
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a flight from an aerial perspective, showcasing the interior of the cockpit and the view from the window. The cockpit is filled with various control panels and instruments, indicating a high level of technology and precision required for flight. The pilot's hands are visible on the controls, suggesting active navigation. The view from the window reveals a vast landscape below, with a large city visible in the distance, indicating the plane is flying over a populated area. The sky is clear, suggesting good weather conditions for the flight. The overall content of the video provides a glimpse into the experience of flying, highlighting the complexity of the cockpit and the expansive view from the window."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 5646,
+      "end_frame": 5862,
+      "start_sec": 188.3882,
+      "end_sec": 195.5954,
+      "duration_sec": 7.240567,
+      "sampled_frame_indices": [
+        5646,
+        5677,
+        5708,
+        5739,
+        5769,
+        5800,
+        5831,
+        5862
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a moment inside an airplane cockpit. The main focus is on two pilots, each engaged in their respective tasks. One pilot is operating the controls, while the other is monitoring the instruments. The cockpit is filled with various gauges and screens, providing a glimpse into the complex systems that control the aircraft. The pilots are dressed in standard aviation attire, indicating their professional roles. The scene conveys a sense of concentration and teamwork, as they navigate the skies."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 5863,
+      "end_frame": 5953,
+      "start_sec": 195.628767,
+      "end_sec": 198.631767,
+      "duration_sec": 3.036367,
+      "sampled_frame_indices": [
+        5863,
+        5876,
+        5889,
+        5902,
+        5914,
+        5927,
+        5940,
+        5953
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a flight from an aerial perspective, showcasing the interior of the cockpit and the view from the window. The cockpit is filled with various control panels and instruments, indicating a high level of technology and precision required for flight. The pilot is visible, seated at the controls, focused on the task at hand.\n\nThe exterior view from the cockpit window reveals a vast landscape below, with a cityscape that includes buildings, roads, and a river. The city appears to be a mix of urban and natural elements, with greenery interspersed among the structures. The sky is clear, suggesting good weather conditions for the flight.\n\nThe video provides a unique perspective on air travel, combining the intimate view of the cockpit with the expansive view of the world below. It offers a glimpse into the complex operations of an aircraft and the beauty of the earth from high above."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 5954,
+      "end_frame": 7083,
+      "start_sec": 198.665133,
+      "end_sec": 236.3361,
+      "duration_sec": 37.704333,
+      "sampled_frame_indices": [
+        5954,
+        6115,
+        6277,
+        6438,
+        6599,
+        6760,
+        6922,
+        7083
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a person's perspective from inside an airplane, looking out through the cockpit window. The view is of a sprawling cityscape below, with a mix of urban and industrial areas. The city is densely populated with buildings of various sizes, and there are roads and highways that crisscross the landscape. The person's reflection is visible on the glass, indicating they are seated in the cockpit. The sky is clear, suggesting good weather conditions. The overall content of the video conveys a sense of travel and the vastness of the urban environment from an aerial perspective."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 7084,
+      "end_frame": 7098,
+      "start_sec": 236.369467,
+      "end_sec": 236.8366,
+      "duration_sec": 0.5005,
+      "sampled_frame_indices": [
+        7084,
+        7086,
+        7088,
+        7090,
+        7092,
+        7094,
+        7096,
+        7098
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a person's perspective from inside an airplane, looking out at the cityscape below. The viewer is seated in the cockpit, as indicated by the presence of a control yoke and the pilot's headset. The city is densely populated with buildings of various sizes, and there are roads and vehicles visible, suggesting a bustling urban environment. The sky is clear, and the sun is shining, casting a warm glow on the city. The person appears to be focused on the view, possibly taking in the sights or preparing for takeoff. The overall content of the video conveys a sense of anticipation and the marvel of aviation, as the viewer is about to embark on a journey over the city."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 7099,
+      "end_frame": 7152,
+      "start_sec": 236.869967,
+      "end_sec": 238.6384,
+      "duration_sec": 1.8018,
+      "sampled_frame_indices": [
+        7099,
+        7107,
+        7114,
+        7122,
+        7129,
+        7137,
+        7144,
+        7152
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a dynamic aerial view of an airport runway, with several airplanes parked and taxiing. The runway is bustling with activity, and the planes vary in size and color. The airport is surrounded by a cityscape, with buildings of different heights and structures, indicating a mix of commercial and possibly residential areas. The sky is clear, suggesting good weather conditions. The perspective of the video is from a high vantage point, providing a comprehensive view of the airport and its surroundings. The focus is on the movement and organization of the airport, with the planes as the primary subjects."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 7153,
+      "end_frame": 7186,
+      "start_sec": 238.671767,
+      "end_sec": 239.772867,
+      "duration_sec": 1.134467,
+      "sampled_frame_indices": [
+        7153,
+        7158,
+        7162,
+        7167,
+        7172,
+        7177,
+        7181,
+        7186
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a dynamic aerial view of an airport, showcasing the bustling activity of air travel. The frames reveal multiple airplanes on the ground, some parked and others possibly taxiing or preparing for takeoff. The airport infrastructure is visible, with runways, taxiways, and terminal buildings. The surrounding area includes roads and other airport facilities, indicating a well-organized transportation hub. The perspective from above provides a comprehensive view of the airport's layout and the scale of the operations. The video does not contain any people or animals, focusing solely on the airport and its operations."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 7187,
+      "end_frame": 7232,
+      "start_sec": 239.806233,
+      "end_sec": 241.307733,
+      "duration_sec": 1.534867,
+      "sampled_frame_indices": [
+        7187,
+        7193,
+        7200,
+        7206,
+        7213,
+        7219,
+        7226,
+        7232
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video frames depict a bustling airport scene. The main focus is on the airport's runway, where several airplanes are visible, both on the ground and in the air. The runway is busy with aircraft, and there are also various ground vehicles, including trucks and cars, moving around the tarmac. The airport buildings, including hangars and control towers, are visible in the background, providing context for the location. The sky above is clear, suggesting good weather conditions for flying. The overall content of the video captures the dynamic nature of airport operations, with planes taking off and landing, ground support vehicles in motion, and the infrastructure that supports these activities."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 7233,
+      "end_frame": 7386,
+      "start_sec": 241.3411,
+      "end_sec": 246.4462,
+      "duration_sec": 5.138467,
+      "sampled_frame_indices": [
+        7233,
+        7255,
+        7277,
+        7299,
+        7320,
+        7342,
+        7364,
+        7386
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video frames show an aerial view of an airport, with a focus on the runway and taxiways. The airport is bustling with activity, with numerous airplanes parked or in motion. The runway is lined with various aircraft, some of which are in the process of taxiing or taking off. The taxiways are busy with vehicles, including cars and trucks, likely involved in airport operations. The airport buildings, including hangars and control towers, are visible, and the layout suggests a well-organized and busy airport facility. The frames capture the dynamic nature of airport operations, with the constant movement of aircraft and ground vehicles."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 7387,
+      "end_frame": 7445,
+      "start_sec": 246.479567,
+      "end_sec": 248.414833,
+      "duration_sec": 1.968633,
+      "sampled_frame_indices": [
+        7387,
+        7395,
+        7404,
+        7412,
+        7420,
+        7428,
+        7437,
+        7445
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video frames depict an aerial view of an airport, showcasing the layout and infrastructure of the facility. The airport is bustling with activity, with numerous airplanes parked on the tarmac, ready for takeoff or having just landed. The runways are clearly marked, and the airport buildings, including hangars and control towers, are visible. The surrounding area includes roads and parking lots, indicating the accessibility and connectivity of the airport. The frames provide a comprehensive overview of the airport's operations and the scale of its facilities."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 7446,
+      "end_frame": 7514,
+      "start_sec": 248.4482,
+      "end_sec": 250.717133,
+      "duration_sec": 2.3023,
+      "sampled_frame_indices": [
+        7446,
+        7456,
+        7465,
+        7475,
+        7485,
+        7495,
+        7504,
+        7514
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video frames depict an aerial view of a bustling airport. The main focus is on the airport's infrastructure, including the runway, taxiways, and parking areas. There are several airplanes visible, both parked and in motion, indicating a busy day of arrivals and departures. The airport is surrounded by a network of roads and highways, with multiple vehicles, including cars and trucks, moving about. The surrounding area features a mix of commercial and industrial buildings, suggesting a well-developed airport city. The frames capture the dynamic nature of airport operations, with the constant movement of aircraft and ground vehicles."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 7515,
+      "end_frame": 7614,
+      "start_sec": 250.7505,
+      "end_sec": 254.0538,
+      "duration_sec": 3.336667,
+      "sampled_frame_indices": [
+        7515,
+        7529,
+        7543,
+        7557,
+        7572,
+        7586,
+        7600,
+        7614
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video frames depict an aerial view of an airport and its surrounding area. The airport is bustling with activity, with numerous airplanes parked on the tarmac. The runway is visible, and there are several aircraft in various stages of takeoff and landing. The airport buildings, including hangars and control towers, are prominent, and the layout suggests a well-organized and busy transportation hub.\n\nIn the vicinity of the airport, there are several large buildings, possibly commercial or industrial, which are likely related to the airport's operations. The area is well-developed, with roads and parking lots visible, indicating a significant amount of traffic and activity.\n\nThe frames also show a mix of natural and urban landscapes, with trees and greenery interspersed among the buildings and airport facilities. The overall impression is of a thriving, modern airport in a region with a mix of industrial and natural environments."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 7615,
+      "end_frame": 7683,
+      "start_sec": 254.087167,
+      "end_sec": 256.3561,
+      "duration_sec": 2.3023,
+      "sampled_frame_indices": [
+        7615,
+        7625,
+        7634,
+        7644,
+        7654,
+        7664,
+        7673,
+        7683
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a bird's-eye view of an airport runway, with a focus on the air traffic control tower. The tower stands prominently in the center of the image, overseeing the bustling activity on the ground. The runway is lined with parked aircraft, and the surrounding area is filled with various airport buildings and structures. The scene is a typical representation of an active airport, with the control tower serving as the central hub for managing air traffic. The perspective from above provides a comprehensive view of the airport's operations and layout."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 7684,
+      "end_frame": 7750,
+      "start_sec": 256.389467,
+      "end_sec": 258.591667,
+      "duration_sec": 2.235567,
+      "sampled_frame_indices": [
+        7684,
+        7693,
+        7703,
+        7712,
+        7722,
+        7731,
+        7741,
+        7750
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a flight from an aerial perspective, showcasing the vast expanse of the airplane's cockpit. The pilot is visible, seated at the controls, with the instrument panel and various gauges and switches in view. The cockpit is well-lit, suggesting it's daytime. The view outside the cockpit window reveals a complex network of roads and highways, with multiple lanes and intersections. The landscape is dotted with buildings, indicating a populated area. The sky is clear, suggesting good weather conditions. The video provides a unique perspective on the flight, blending the interior of the cockpit with the exterior view of the ground below."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 7751,
+      "end_frame": 7782,
+      "start_sec": 258.625033,
+      "end_sec": 259.6594,
+      "duration_sec": 1.067733,
+      "sampled_frame_indices": [
+        7751,
+        7755,
+        7760,
+        7764,
+        7769,
+        7773,
+        7778,
+        7782
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a flight from an airplane window, providing a view of the landscape below. The main focus is on the airplane's cockpit, with the pilot visible in the foreground. The cockpit is equipped with various controls and instruments, typical of an aircraft's interior. The pilot appears to be engaged in flying the plane, as indicated by the position of their hands on the controls.\n\nThe landscape below is a mix of urban and natural elements. There are several buildings, including a large airport terminal, which suggests that the plane is approaching or departing from an airport. The airport is surrounded by a network of roads and highways, indicating a well-developed transportation infrastructure.\n\nThe surrounding area is lush and green, with a dense forest or wooded area adjacent to the airport. The presence of trees and greenery suggests a healthy, natural environment. The sky is clear, indicating good weather conditions for flying.\n\nOverall, the video provides a glimpse into the experience of flying an airplane, showcasing the cockpit and the view from the window, as well as the landscape below, including the airport and the"
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 7783,
+      "end_frame": 8887,
+      "start_sec": 259.692767,
+      "end_sec": 296.529567,
+      "duration_sec": 36.870167,
+      "sampled_frame_indices": [
+        7783,
+        7941,
+        8098,
+        8256,
+        8414,
+        8572,
+        8729,
+        8887
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a flight from the perspective of the cockpit. The frames show the airplane's instruments and controls, with the pilot visible in the foreground. The cockpit is well-lit, and the pilot appears focused on the task at hand. The view from the cockpit window reveals a clear sky and a runway below, indicating that the plane is either preparing for takeoff or has recently landed. The runway is long and well-maintained, with clear markings. The surrounding landscape is flat and open, suggesting a location with minimal urban development. The overall content of the video provides a glimpse into the routine yet crucial process of air travel, emphasizing the pilot's role and the environment in which they operate."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 8888,
+      "end_frame": 8905,
+      "start_sec": 296.562933,
+      "end_sec": 297.130167,
+      "duration_sec": 0.6006,
+      "sampled_frame_indices": [
+        8888,
+        8890,
+        8893,
+        8895,
+        8898,
+        8900,
+        8903,
+        8905
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a moment from the perspective of an airplane cockpit, showing the runway ahead. The runway is long and straight, leading towards the horizon. The cockpit is equipped with various control panels and instruments, typical of an aircraft's interior. The view is from the pilot's seat, providing a clear view of the runway and the sky above. The lighting suggests it might be daytime, and the runway appears to be clear and ready for takeoff. The video does not show any people or specific actions, but the focus is on the anticipation of flight, as indicated by the view of the runway."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 8906,
+      "end_frame": 8972,
+      "start_sec": 297.163533,
+      "end_sec": 299.365733,
+      "duration_sec": 2.235567,
+      "sampled_frame_indices": [
+        8906,
+        8915,
+        8925,
+        8934,
+        8944,
+        8953,
+        8963,
+        8972
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a moment from the perspective of an airplane cockpit, showing the runway and the beginning of takeoff. The runway is clear, and the airplane is in motion, with the nose lifting off the ground. The cockpit is well-lit, and the instruments and controls are visible, indicating that the pilot is at the helm. The scene conveys the anticipation and excitement of flight, as the airplane accelerates down the runway, preparing for ascent."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 8973,
+      "end_frame": 8996,
+      "start_sec": 299.3991,
+      "end_sec": 300.166533,
+      "duration_sec": 0.8008,
+      "sampled_frame_indices": [
+        8973,
+        8976,
+        8980,
+        8983,
+        8986,
+        8989,
+        8993,
+        8996
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a moment from the perspective of an airplane cockpit, showing the runway ahead. The cockpit is filled with various control panels and instruments, typical of an aircraft's interior. The runway is clear, and the airplane appears to be in the process of taxiing, preparing for takeoff. The scene is a common sight at airports, capturing the anticipation and precision involved in aviation."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 8997,
+      "end_frame": 9045,
+      "start_sec": 300.1999,
+      "end_sec": 301.8015,
+      "duration_sec": 1.634967,
+      "sampled_frame_indices": [
+        8997,
+        9004,
+        9011,
+        9018,
+        9024,
+        9031,
+        9038,
+        9045
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a moment from the perspective of an airplane cockpit. The main focus is on the runway, which is visible through the cockpit windows. The runway appears to be in the process of takeoff, with the airplane's nose lifting off the ground, indicating the beginning of flight. The cockpit itself is well-lit, suggesting it's daytime, and the controls and instruments are clearly visible, indicating a professional environment. The scene conveys a sense of anticipation and the start of a journey."
+    }
+  ]
+}

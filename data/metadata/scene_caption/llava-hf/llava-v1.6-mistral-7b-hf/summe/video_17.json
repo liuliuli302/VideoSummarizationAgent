@@ -1,0 +1,34 @@
+{
+  "video": "Saving dolphines",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Saving dolphines.mp4",
+  "caption_model": "llava",
+  "model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80 words).\"\n",
+  "num_frames": 8,
+  "scene_threshold": 24,
+  "fps": 29.97002997002997,
+  "total_frames": 6683,
+  "num_scenes": 1,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 6682,
+      "start_sec": 0.0,
+      "end_sec": 222.956067,
+      "duration_sec": 222.989433,
+      "sampled_frame_indices": [
+        0,
+        955,
+        1909,
+        2864,
+        3818,
+        4773,
+        5727,
+        6682
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a lively scene at a beach where a group of people are enjoying the water. The main focus is on a man in a red shirt who is walking towards the water, possibly preparing to join the others. There are several other individuals in the water, some of whom are on surfboards, indicating that they might be surfing or preparing to surf. The beach is populated with people, some of whom are standing on the sand, while others are in the water. The ocean is visible in the background, with waves breaking near the shore. The overall atmosphere of the video is one of leisure and outdoor recreation."
+    }
+  ]
+}

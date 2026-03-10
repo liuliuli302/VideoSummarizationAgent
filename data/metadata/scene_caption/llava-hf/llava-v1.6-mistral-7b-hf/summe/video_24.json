@@ -1,0 +1,74 @@
+{
+  "video": "paluma_jump",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/paluma_jump.mp4",
+  "caption_model": "llava",
+  "model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80 words).\"\n",
+  "num_frames": 8,
+  "scene_threshold": 24,
+  "fps": 29.97002997002997,
+  "total_frames": 2574,
+  "num_scenes": 3,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 466,
+      "start_sec": 0.0,
+      "end_sec": 15.548867,
+      "duration_sec": 15.582233,
+      "sampled_frame_indices": [
+        0,
+        67,
+        133,
+        200,
+        266,
+        333,
+        399,
+        466
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a group of people enjoying a day out in nature. The main focus is on a group of individuals standing on a rocky outcropping, overlooking a waterfall. They appear to be posing for a photo, with some of them looking directly at the camera. The scene is set in a lush, green environment, with the waterfall providing a picturesque backdrop. The people are casually dressed, suggesting a relaxed, leisurely atmosphere. The overall mood of the video is one of adventure and camaraderie, as the group seems to be having a good time exploring the natural beauty of the location."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 467,
+      "end_frame": 610,
+      "start_sec": 15.582233,
+      "end_sec": 20.353667,
+      "duration_sec": 4.8048,
+      "sampled_frame_indices": [
+        467,
+        487,
+        508,
+        528,
+        549,
+        569,
+        590,
+        610
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a group of people enjoying a day out in nature. The main focus is on a group of individuals standing on a rocky outcropping, overlooking a waterfall. They appear to be posing for a photo, with some of them looking directly at the camera. The scene is set in a lush, green environment, with the waterfall providing a picturesque backdrop. The people are casually dressed, suggesting a relaxed, leisurely atmosphere. The overall mood of the video is one of adventure and camaraderie, as the group seems to be having a good time exploring the natural beauty of the location."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 611,
+      "end_frame": 2573,
+      "start_sec": 20.387033,
+      "end_sec": 85.852433,
+      "duration_sec": 65.498767,
+      "sampled_frame_indices": [
+        611,
+        891,
+        1172,
+        1452,
+        1732,
+        2012,
+        2293,
+        2573
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a lively scene at a waterfall. In the foreground, a group of people are enjoying the water. Some are standing, while others are swimming or wading in the water. The waterfall is a prominent feature, with its cascading water creating a dynamic backdrop. The people are dressed in swimwear, indicating a warm, possibly summer day. The setting appears to be a natural, outdoor environment, likely a popular spot for recreational activities. The overall mood of the video is one of leisure and enjoyment of nature."
+    }
+  ]
+}

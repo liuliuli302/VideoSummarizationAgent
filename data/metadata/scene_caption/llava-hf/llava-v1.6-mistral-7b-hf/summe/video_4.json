@@ -1,0 +1,214 @@
+{
+  "video": "Bike Polo",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Bike Polo.mp4",
+  "caption_model": "llava",
+  "model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80 words).\"\n",
+  "num_frames": 8,
+  "scene_threshold": 24,
+  "fps": 30.0,
+  "total_frames": 3064,
+  "num_scenes": 10,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 694,
+      "start_sec": 0.0,
+      "end_sec": 23.133333,
+      "duration_sec": 23.166667,
+      "sampled_frame_indices": [
+        0,
+        99,
+        198,
+        297,
+        397,
+        496,
+        595,
+        694
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a dynamic scene at a nighttime skate park. The main focus is on a group of people riding bicycles on a concrete surface. The cyclists are scattered across the frame, some closer to the camera and others further away, suggesting movement and activity. The park is illuminated by artificial lights, casting a bright glow on the ground and highlighting the riders' actions. The background is dark, emphasizing the skate park and the cyclists. The image quality is somewhat grainy, indicating it might be a low-light or nighttime shot. The overall impression is of an energetic, outdoor nighttime activity involving cyclists in a skate park setting."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 695,
+      "end_frame": 834,
+      "start_sec": 23.166667,
+      "end_sec": 27.8,
+      "duration_sec": 4.666667,
+      "sampled_frame_indices": [
+        695,
+        715,
+        735,
+        755,
+        774,
+        794,
+        814,
+        834
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a dynamic scene of an indoor cycling event. Several cyclists are in motion, riding their bikes on a track with a smooth, concrete surface. The cyclists are wearing helmets and are equipped with lights, suggesting that the event is taking place in the evening or at night. The track is well-lit, with artificial lighting illuminating the area. The cyclists are spread out across the track, some closer to the camera and others further away, indicating that they are in the midst of a race or a group ride. The atmosphere appears competitive and energetic, with the cyclists focused on their performance. The image quality is somewhat grainy, which could be due to the low light conditions or the camera's settings."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 835,
+      "end_frame": 931,
+      "start_sec": 27.833333,
+      "end_sec": 31.033333,
+      "duration_sec": 3.233333,
+      "sampled_frame_indices": [
+        835,
+        849,
+        862,
+        876,
+        890,
+        904,
+        917,
+        931
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a dynamic scene at a nighttime indoor cycling event. Several cyclists are actively engaged in a race, with some riders in the foreground and others in the background. The cyclists are wearing helmets and are on their bikes, which are clearly visible. The indoor setting is indicated by the artificial lighting and the presence of a fence or barrier around the track. The atmosphere appears competitive and energetic, with the cyclists focused on their performance. The image quality is somewhat grainy, suggesting it might be a low-light or high-speed shot. The cyclists are dressed in athletic attire, and the environment is designed for competitive cycling, with a clear track and a visible starting line."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 932,
+      "end_frame": 1001,
+      "start_sec": 31.066667,
+      "end_sec": 33.366667,
+      "duration_sec": 2.333333,
+      "sampled_frame_indices": [
+        932,
+        942,
+        952,
+        962,
+        971,
+        981,
+        991,
+        1001
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a dynamic scene of indoor cycling. It features a person riding a bicycle, with a focus on the handlebars and the rider's hands gripping the handlebars. The bicycle is equipped with a purple handlebar grip, and the rider is wearing a black glove. The background is blurred, emphasizing the motion of the cyclist, but it appears to be an indoor setting with a basketball hoop visible in the top left corner. The rider's posture suggests a sense of speed and movement, and the overall impression is of an active, indoor cycling session."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 1002,
+      "end_frame": 1200,
+      "start_sec": 33.4,
+      "end_sec": 40.0,
+      "duration_sec": 6.633333,
+      "sampled_frame_indices": [
+        1002,
+        1030,
+        1059,
+        1087,
+        1115,
+        1143,
+        1172,
+        1200
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a dynamic scene at a skate park. The main focus is on a skateboarder in action, performing tricks on a ramp. The skateboarder is wearing a helmet for safety and is in the midst of a maneuver, with the skateboard tilted to one side, suggesting a turn or a trick in progress. The ramp's surface is visible, showing the smooth concrete typical of skate parks.\n\nIn the background, there are other individuals present, possibly waiting for their turn or observing the skateboarder's performance. The environment is illuminated by artificial lights, casting shadows and highlighting the motion of the skateboarder. The overall atmosphere is energetic and focused on the sport of skateboarding."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 1201,
+      "end_frame": 1507,
+      "start_sec": 40.033333,
+      "end_sec": 50.233333,
+      "duration_sec": 10.233333,
+      "sampled_frame_indices": [
+        1201,
+        1245,
+        1288,
+        1332,
+        1376,
+        1420,
+        1463,
+        1507
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a dynamic scene at a nighttime indoor cycling event. The main focus is on a group of cyclists riding on a track with a smooth, concrete surface. The cyclists are wearing helmets and are in various stages of motion, suggesting a competitive or practice session. The track is illuminated by artificial lighting, casting shadows and highlighting the riders' movements. The background is dark, emphasizing the cyclists and their activity. The image quality is somewhat grainy, indicating that the video may have been taken with a lower-resolution camera or in low light conditions. The overall atmosphere is energetic and competitive, with the cyclists appearing to be in the midst of a race or training session."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 1508,
+      "end_frame": 1724,
+      "start_sec": 50.266667,
+      "end_sec": 57.466667,
+      "duration_sec": 7.233333,
+      "sampled_frame_indices": [
+        1508,
+        1539,
+        1570,
+        1601,
+        1631,
+        1662,
+        1693,
+        1724
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a dynamic scene at a skate park. The main focus is on a skateboarder in action, riding a ramp and performing a trick. The skateboarder is wearing a helmet for safety, and the skateboard is clearly visible beneath them. The park is well-lit, with lights illuminating the area, suggesting it might be evening or nighttime.\n\nIn the background, there are other individuals present, possibly waiting their turn or observing the skateboarder's trick. The skate park itself is equipped with ramps and benches, typical features of such a facility. The overall atmosphere is energetic and youthful, indicative of a popular recreational spot for skateboarders and other action sports enthusiasts."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 1725,
+      "end_frame": 1813,
+      "start_sec": 57.5,
+      "end_sec": 60.433333,
+      "duration_sec": 2.966667,
+      "sampled_frame_indices": [
+        1725,
+        1738,
+        1750,
+        1763,
+        1775,
+        1788,
+        1800,
+        1813
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a dynamic scene at a nighttime roller hockey game. The main focus is on a player in the midst of a powerful swing with his hockey stick, aiming to score a goal. The player is wearing a helmet and is in motion, with the stick extended towards the puck. The rink is well-lit, highlighting the action and the player's concentration. In the background, there are other players, some on bicycles, suggesting that this is a multi-sport event or a practice session. The presence of a bench and a bicycle rack indicates that this is a designated sports area. The overall atmosphere is energetic and competitive, with the player's action being the central event in the video."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 1814,
+      "end_frame": 2583,
+      "start_sec": 60.466667,
+      "end_sec": 86.1,
+      "duration_sec": 25.666667,
+      "sampled_frame_indices": [
+        1814,
+        1924,
+        2034,
+        2144,
+        2253,
+        2363,
+        2473,
+        2583
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a dynamic scene of an indoor skate park at night. The main focus is on a group of individuals engaged in skateboarding and cycling activities. There are several people in the frames, some of whom are riding bicycles, while others are on skateboards. The skate park features a variety of ramps and obstacles, including a half-pipe and a wooden fence. The lighting is artificial, casting shadows and highlighting the movement of the participants. The atmosphere is energetic and youthful, with the skaters and cyclists showcasing their skills and enjoying the indoor facility."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 2584,
+      "end_frame": 3063,
+      "start_sec": 86.133333,
+      "end_sec": 102.1,
+      "duration_sec": 16.0,
+      "sampled_frame_indices": [
+        2584,
+        2652,
+        2721,
+        2789,
+        2858,
+        2926,
+        2995,
+        3063
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a dynamic scene of an indoor skate park at night. The main focus is on a skateboarder in action, performing tricks on a ramp. The skateboarder is dressed in dark clothing, and the skateboard is clearly visible beneath them. The ramp is constructed of concrete and is situated within a larger skate park area, which includes a half-pipe and a bench. The environment is illuminated by artificial lighting, casting shadows and highlighting the skateboarder's movements. The skate park appears to be empty, with no other skaters visible in the frames. The overall atmosphere is energetic and focused on the sport of skateboarding."
+    }
+  ]
+}

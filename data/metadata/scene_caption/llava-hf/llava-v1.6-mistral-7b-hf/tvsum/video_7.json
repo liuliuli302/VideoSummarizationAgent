@@ -1,0 +1,434 @@
+{
+  "video": "sTEELN-vY30",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/sTEELN-vY30.mp4",
+  "caption_model": "llava",
+  "model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80 words).\"\n",
+  "num_frames": 8,
+  "scene_threshold": 24,
+  "fps": 30.0,
+  "total_frames": 4468,
+  "num_scenes": 21,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 1521,
+      "start_sec": 0.0,
+      "end_sec": 50.7,
+      "duration_sec": 50.733333,
+      "sampled_frame_indices": [
+        0,
+        217,
+        435,
+        652,
+        869,
+        1086,
+        1304,
+        1521
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to be a news broadcast with a focus on a train accident. The main action captured in the frames is a train derailing on the tracks, with the train car coming off the rails and onto the road. There are people in the vicinity, possibly bystanders or emergency personnel, and a car is visible on the road, which seems to be adjacent to the train tracks. The scene is set at night, as indicated by the darkness and the illuminated train car. The news ticker at the bottom of the screen provides additional context, mentioning the location as Douglasville, Atlanta, and the temperature as 48 degrees. The overall content of the video is a news report on a train derailment, with a focus on the immediate aftermath and the response of emergency services."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 1522,
+      "end_frame": 1572,
+      "start_sec": 50.733333,
+      "end_sec": 52.4,
+      "duration_sec": 1.7,
+      "sampled_frame_indices": [
+        1522,
+        1529,
+        1536,
+        1543,
+        1551,
+        1558,
+        1565,
+        1572
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to be a news segment featuring a woman standing on a street corner. She is smiling and seems to be engaged in a conversation, as indicated by the presence of a microphone in front of her. The setting suggests an urban environment with traffic lights and a road in the background. The woman is wearing a brown jacket and has blonde hair. The overall tone of the video is positive, with the woman appearing to be enjoying her time outdoors."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 1573,
+      "end_frame": 1612,
+      "start_sec": 52.433333,
+      "end_sec": 53.733333,
+      "duration_sec": 1.333333,
+      "sampled_frame_indices": [
+        1573,
+        1579,
+        1584,
+        1590,
+        1595,
+        1601,
+        1606,
+        1612
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to be a news segment, possibly from a local news station, given the logo and the style of the image. The main focus is on a man standing on a street corner, pointing towards a traffic light. He is dressed in a black jacket and a cap, and he seems to be gesturing towards the traffic signal, which is currently red. In the background, there are other people and vehicles, including a red truck and a white van. The scene suggests a typical urban setting with traffic control infrastructure. The man's action of pointing at the traffic light might indicate that he is either directing attention to the signal or possibly explaining its function."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 1613,
+      "end_frame": 1707,
+      "start_sec": 53.766667,
+      "end_sec": 56.9,
+      "duration_sec": 3.166667,
+      "sampled_frame_indices": [
+        1613,
+        1626,
+        1640,
+        1653,
+        1667,
+        1680,
+        1694,
+        1707
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a scene at a train crossing where a train is approaching. A man in a yellow safety vest is standing on the tracks, seemingly in the process of crossing the tracks. He is holding a bar, likely to stop the train. Another man is standing nearby, also dressed in a safety vest, and appears to be observing the situation. There are several cars and a truck in the background, suggesting that this is a busy roadway. The train is large and appears to be in motion, with its front car visible in the frame. The setting is outdoors, and the weather seems overcast. The scene conveys a sense of urgency and safety precautions."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 1708,
+      "end_frame": 1984,
+      "start_sec": 56.933333,
+      "end_sec": 66.133333,
+      "duration_sec": 9.233333,
+      "sampled_frame_indices": [
+        1708,
+        1747,
+        1787,
+        1826,
+        1866,
+        1905,
+        1945,
+        1984
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to be a news segment featuring a man standing on a street corner, pointing towards a traffic light. The man is wearing a black cap and a dark jacket, and he seems to be gesturing towards the traffic signal, possibly indicating a malfunction or an issue with the traffic light. The scene includes multiple traffic lights, cars, and a truck, suggesting a busy urban environment. The news segment includes a banner with the text \"New details\" and the name \"Robert Woods,\" which might refer to the man in the image or the subject of the news report. The overall content of the video seems to be related to a traffic situation or an incident involving the traffic light."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 1985,
+      "end_frame": 2390,
+      "start_sec": 66.166667,
+      "end_sec": 79.666667,
+      "duration_sec": 13.533333,
+      "sampled_frame_indices": [
+        1985,
+        2043,
+        2101,
+        2159,
+        2216,
+        2274,
+        2332,
+        2390
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a dramatic scene on a railway track where a red car has collided with a train. The car is severely damaged, with its front end crumpled and the hood visibly deformed. The train, which occupies a large portion of the image, appears to be a freight train, and its engine is visible. The train is stationary, and the car is resting on the tracks, indicating a collision. There are people present in the scene, likely emergency personnel, who are standing near the car and the train. The setting suggests an accident has occurred, and the focus is on the aftermath of the collision. The image is a still from a television broadcast, as indicated by the logo of the station in the corner."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 2391,
+      "end_frame": 2592,
+      "start_sec": 79.7,
+      "end_sec": 86.4,
+      "duration_sec": 6.733333,
+      "sampled_frame_indices": [
+        2391,
+        2420,
+        2448,
+        2477,
+        2506,
+        2535,
+        2563,
+        2592
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a scene of a car accident on a road. The main focus is on a red car that has veered off the road and is now on the side, with its front end damaged. The car is positioned at an angle, indicating it has been involved in a collision. The road appears to be a highway or a major road, as suggested by the presence of multiple lanes and traffic lights. There are other vehicles in the background, including a truck and a car, which are not directly involved in the accident. The image quality is somewhat blurry, which may indicate the video was taken quickly or from a distance. The overall context suggests a traffic incident that has occurred, with the red car being the primary subject of the video."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 2593,
+      "end_frame": 2821,
+      "start_sec": 86.433333,
+      "end_sec": 94.033333,
+      "duration_sec": 7.633333,
+      "sampled_frame_indices": [
+        2593,
+        2626,
+        2658,
+        2691,
+        2723,
+        2756,
+        2788,
+        2821
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to be a news segment featuring a man standing on a street corner. He is wearing a black hoodie and a baseball cap, and he seems to be in the middle of an interview or a report. The man is positioned in front of a traffic light, and there are other traffic lights and a street sign visible in the background. The setting suggests an urban environment, possibly a city street. The presence of a news logo and the man's attire indicate that this is a news report, likely discussing a local issue or event."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 2822,
+      "end_frame": 2856,
+      "start_sec": 94.066667,
+      "end_sec": 95.2,
+      "duration_sec": 1.166667,
+      "sampled_frame_indices": [
+        2822,
+        2827,
+        2832,
+        2837,
+        2841,
+        2846,
+        2851,
+        2856
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to be a news broadcast, as indicated by the logo of CBS Atlanta in the corner. The main content of the video is a man standing in front of a building with a sign that reads \"ATLANTA.\" The man is wearing a dark jacket and seems to be addressing the camera, although the content of his speech is not visible in the provided frames. The background is overcast, and the overall quality of the image is somewhat grainy, suggesting it might be a still image from a video or a low-resolution video. The focus is on the man and the sign, with the background being less distinct."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 2857,
+      "end_frame": 2895,
+      "start_sec": 95.233333,
+      "end_sec": 96.5,
+      "duration_sec": 1.3,
+      "sampled_frame_indices": [
+        2857,
+        2862,
+        2868,
+        2873,
+        2879,
+        2884,
+        2890,
+        2895
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to capture a moment in an urban setting where three individuals are engaged in a discussion or inspection. Two of the individuals are wearing high-visibility yellow safety vests, which suggests they might be construction workers or involved in some form of public works. They are standing close to each other, with one person holding a piece of paper or a document, possibly reviewing plans or instructions. The third person is partially visible, wearing a hard hat, which indicates they may be involved in construction or a similar field. The scene is outdoors, and the focus is on the interaction between the individuals, with the background being less distinct. The presence of a news channel logo suggests that this footage may have been taken from a news broadcast or a report."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 2896,
+      "end_frame": 2996,
+      "start_sec": 96.533333,
+      "end_sec": 99.866667,
+      "duration_sec": 3.366667,
+      "sampled_frame_indices": [
+        2896,
+        2910,
+        2925,
+        2939,
+        2953,
+        2967,
+        2982,
+        2996
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a scene at a railroad crossing where a white car is stopped on the tracks, seemingly waiting for a train to pass. The train, visible in the background, is moving along the tracks, and the car is positioned in the foreground, indicating that the car is waiting for the train to clear the crossing. The setting appears to be an urban or suburban area, as suggested by the presence of traffic lights and other vehicles in the vicinity. The image quality is somewhat grainy, and the focus is on the interaction between the car and the train, with the surrounding environment less distinct. The scene conveys a sense of anticipation and the importance of adhering to traffic rules at railroad crossings."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 2997,
+      "end_frame": 3045,
+      "start_sec": 99.9,
+      "end_sec": 101.5,
+      "duration_sec": 1.633333,
+      "sampled_frame_indices": [
+        2997,
+        3004,
+        3011,
+        3018,
+        3024,
+        3031,
+        3038,
+        3045
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a chaotic scene at a railroad crossing. A car has collided with a train, resulting in a dramatic and dangerous situation. The car is severely damaged, with its front end crumpled and the vehicle's position indicating a direct impact with the train. The train, partially visible, appears to be in motion, as suggested by the blurred background and the position of the car. The setting is a nighttime urban environment, with the glow of streetlights and the train's headlights illuminating the scene. The image is taken from a distance, capturing the aftermath of the collision. The context suggests a moment of high tension and potential danger, with emergency services likely to be on the scene to address the situation."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 3046,
+      "end_frame": 3095,
+      "start_sec": 101.533333,
+      "end_sec": 103.166667,
+      "duration_sec": 1.666667,
+      "sampled_frame_indices": [
+        3046,
+        3053,
+        3060,
+        3067,
+        3074,
+        3081,
+        3088,
+        3095
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to capture a nighttime scene with a focus on a car driving on a road. The car is illuminated by its headlights, and the surrounding area is dimly lit, suggesting it might be late or in a poorly lit area. There are other vehicles visible in the background, and traffic lights are present, indicating that this is a regulated roadway. The image quality is somewhat grainy, which could be due to the lighting conditions or the camera's settings. The overall content of the video seems to be a snapshot of a typical nighttime drive, with the car's headlights providing the primary source of light in the scene."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 3096,
+      "end_frame": 3533,
+      "start_sec": 103.2,
+      "end_sec": 117.766667,
+      "duration_sec": 14.6,
+      "sampled_frame_indices": [
+        3096,
+        3158,
+        3221,
+        3283,
+        3346,
+        3408,
+        3471,
+        3533
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a scene on a road where a man is standing near a railroad crossing. He appears to be gesturing towards the camera, possibly indicating the crossing or the traffic. The man is dressed in a dark jacket and a cap, and he is positioned on the right side of the image. In the background, there are several vehicles, including cars and a truck, suggesting a busy road. The railroad crossing is visible, with a train track running across the road. The setting seems to be an urban or suburban area, and the weather appears to be overcast. The man's action and the presence of the railroad crossing suggest that he might be a traffic controller or a pedestrian warning about the approaching train."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 3534,
+      "end_frame": 3639,
+      "start_sec": 117.8,
+      "end_sec": 121.3,
+      "duration_sec": 3.533333,
+      "sampled_frame_indices": [
+        3534,
+        3549,
+        3564,
+        3579,
+        3594,
+        3609,
+        3624,
+        3639
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a dramatic scene of a red car that has veered off the road and is now on the tracks of a train. The car is in a precarious position, with its front end on the tracks and the back end on the road. The train, which is a prominent feature in the background, appears to be in motion, and the car is in the process of being struck by it. There are several people in the scene, some of whom are standing near the car, possibly observing the situation or attempting to help. The setting appears to be an outdoor area with a clear sky, and the road is adjacent to the train tracks. The overall content of the video suggests a moment of high tension and potential danger, as the car is in a dangerous position and the train is approaching."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 3640,
+      "end_frame": 3789,
+      "start_sec": 121.333333,
+      "end_sec": 126.3,
+      "duration_sec": 5.0,
+      "sampled_frame_indices": [
+        3640,
+        3661,
+        3683,
+        3704,
+        3725,
+        3746,
+        3768,
+        3789
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to be a news segment featuring a man standing on a street corner. He is wearing a black hoodie and a baseball cap, and he seems to be in the middle of an interview or a conversation with the camera. The man is positioned in front of a railroad crossing, with traffic lights and a truck visible in the background. The setting suggests an urban or suburban environment, possibly near a train track. The man's expression and body language indicate that he is engaged in a discussion or providing information. The presence of the railroad crossing and traffic lights suggests that the location is a busy intersection or a place where trains pass. The overall content of the video seems to be a news report or a public service announcement, given the man's attire and the context of the scene."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 3790,
+      "end_frame": 3837,
+      "start_sec": 126.333333,
+      "end_sec": 127.9,
+      "duration_sec": 1.6,
+      "sampled_frame_indices": [
+        3790,
+        3797,
+        3803,
+        3810,
+        3817,
+        3824,
+        3830,
+        3837
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to capture a moment on a street where two women are standing near the edge of the road. They seem to be engaged in a conversation or observing something. Behind them, there is a parked car and a truck with a load of lumber. The scene suggests a casual, everyday setting, possibly in a residential area. The women are dressed in casual attire, and one of them is holding a cell phone, which might indicate they are capturing a photo or recording a video. The presence of the truck and the lumber suggests some sort of work or delivery might be taking place. The overall content of the video seems to be a snapshot of a moment in a person's day, possibly capturing an event or a conversation in a public space."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 3838,
+      "end_frame": 3884,
+      "start_sec": 127.933333,
+      "end_sec": 129.466667,
+      "duration_sec": 1.566667,
+      "sampled_frame_indices": [
+        3838,
+        3845,
+        3851,
+        3858,
+        3864,
+        3871,
+        3877,
+        3884
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a moment of a traffic light transitioning from red to green. The traffic light is prominently featured in the foreground, with its red signal illuminated. The background is blurred, but it appears to be a wintery scene with leafless trees, suggesting a cold season. The focus is on the traffic light, highlighting its change from red to green, which is a common occurrence in urban settings to control the flow of traffic. The image does not provide any additional context or information about the location or the time of day."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 3885,
+      "end_frame": 4029,
+      "start_sec": 129.5,
+      "end_sec": 134.3,
+      "duration_sec": 4.833333,
+      "sampled_frame_indices": [
+        3885,
+        3906,
+        3926,
+        3947,
+        3967,
+        3988,
+        4008,
+        4029
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a dramatic scene on a railway track where a red car has been involved in a collision with a train. The car is severely damaged, with its front end crumpled and the hood visibly deformed. The train, partially visible, appears to be a freight train with multiple cars. The car is lying on its side, indicating a significant impact.\n\nThere are several people present in the scene. One individual is standing near the car, possibly assessing the situation or providing assistance. Another person is standing further away, possibly a bystander or a member of the emergency response team.\n\nThe setting appears to be an outdoor railway track, with the tracks stretching into the distance. The environment suggests a rural or semi-rural area, with no immediate signs of urban development.\n\nThe video is likely a news report or a surveillance camera footage, given the presence of the Atlanta 48\u00b0 logo, which is associated with the Atlanta-based television station CBS46. The logo suggests that the footage is being broadcast or has been recorded for broadcast. The overall content of the video is a serious accident involving a car and a train,"
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 4030,
+      "end_frame": 4092,
+      "start_sec": 134.333333,
+      "end_sec": 136.4,
+      "duration_sec": 2.1,
+      "sampled_frame_indices": [
+        4030,
+        4039,
+        4048,
+        4057,
+        4065,
+        4074,
+        4083,
+        4092
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to be a news segment featuring a woman standing on a street corner. She is looking directly at the camera with a surprised or shocked expression. The woman is wearing a brown jacket and has blonde hair. Behind her, there is a road with traffic lights and a vehicle. The scene suggests that the woman might be reacting to an unexpected event or news story, possibly related to the traffic or the surrounding area. The presence of the news logo and the timestamp indicates that this is a broadcast from a news network."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 4093,
+      "end_frame": 4467,
+      "start_sec": 136.433333,
+      "end_sec": 148.9,
+      "duration_sec": 12.5,
+      "sampled_frame_indices": [
+        4093,
+        4146,
+        4200,
+        4253,
+        4307,
+        4360,
+        4414,
+        4467
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to be a news segment featuring a man standing on a street at night. He is holding a microphone and seems to be conducting an interview or reporting live. The man is wearing a dark jacket and a tie, suggesting a formal or professional attire. The background shows a street with traffic lights and a road, indicating an urban setting. The presence of a traffic light and the darkness of the scene suggest it might be late evening or night. The man is the central figure in the video, and his actions imply that he is a reporter or news anchor. The overall content of the video seems to be a live news report or interview taking place on a city street at night."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "video": "xmEERLqJ2kU",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/xmEERLqJ2kU.mp4",
+  "caption_model": "llava",
+  "model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80 words).\"\n",
+  "num_frames": 8,
+  "scene_threshold": 24,
+  "fps": 29.97002997002997,
+  "total_frames": 13365,
+  "num_scenes": 4,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 12725,
+      "start_sec": 0.0,
+      "end_sec": 424.590833,
+      "duration_sec": 424.6242,
+      "sampled_frame_indices": [
+        0,
+        1818,
+        3636,
+        5454,
+        7271,
+        9089,
+        10907,
+        12725
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a lively scene on a basketball court where a group of people are engaged in a dance performance. The dancers are dressed in black attire, and their movements are energetic and coordinated. The court is marked with white lines, and there are spectators seated on benches along the sides, watching the performance. The atmosphere appears to be one of excitement and enjoyment, with the dancers fully immersed in their routine. The setting suggests a casual, community event, possibly a fundraiser or a local sports team's celebration."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 12726,
+      "end_frame": 12856,
+      "start_sec": 424.6242,
+      "end_sec": 428.961867,
+      "duration_sec": 4.371033,
+      "sampled_frame_indices": [
+        12726,
+        12745,
+        12763,
+        12782,
+        12800,
+        12819,
+        12837,
+        12856
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a lively scene inside a gymnasium where a group of people, likely a team, are gathered on a basketball court. The court is marked with white lines, and the floor is a polished wood. The team members are dressed in matching red jerseys, suggesting they are part of the same team. Some individuals are standing, while others are seated on the sidelines, possibly waiting for their turn to play or observing the game. The atmosphere appears to be one of anticipation and camaraderie. The gymnasium is equipped with bleachers on one side, indicating it's a venue designed for spectators. The focus of the video seems to be on the team and their activities, with the camera capturing the energy and team spirit in the gym."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 12857,
+      "end_frame": 12928,
+      "start_sec": 428.995233,
+      "end_sec": 431.364267,
+      "duration_sec": 2.4024,
+      "sampled_frame_indices": [
+        12857,
+        12867,
+        12877,
+        12887,
+        12898,
+        12908,
+        12918,
+        12928
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a dynamic moment inside a basketball court. The main focus is on a person, possibly a coach or a player, who is walking across the court, seemingly in the midst of a game or practice session. The court is marked with lines and has the words \"THE TIGER DEN\" prominently displayed, indicating it's a part of a school or college sports facility. The person is dressed in casual attire and appears to be in motion, perhaps walking towards the bench area.\n\nThe court is filled with spectators, suggesting that this is a public event or a game in progress. The audience is seated on bleachers that line the court, and there are several individuals standing, possibly waiting for the game to start or for their turn to play. The atmosphere seems energetic and focused, typical of a sports event. The lighting is bright, indicating that the video was taken during the day or under artificial lighting."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 12929,
+      "end_frame": 13364,
+      "start_sec": 431.397633,
+      "end_sec": 445.912133,
+      "duration_sec": 14.547867,
+      "sampled_frame_indices": [
+        12929,
+        12991,
+        13053,
+        13115,
+        13178,
+        13240,
+        13302,
+        13364
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a moment on a basketball court where two individuals are standing in the center, possibly preparing for a game or event. They are surrounded by a crowd of spectators who are seated on benches and standing around the court. The court itself is marked with lines and has a polished wooden surface. The spectators are dressed in a uniform color, suggesting they might be part of a team or organization. The atmosphere appears to be one of anticipation or preparation, with the focus on the two individuals in the center of the court."
+    }
+  ]
+}

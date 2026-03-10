@@ -1,0 +1,94 @@
+{
+  "video": "Car_railcrossing",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Car_railcrossing.mp4",
+  "caption_model": "llava",
+  "model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80 words).\"\n",
+  "num_frames": 8,
+  "scene_threshold": 24,
+  "fps": 29.97002997002997,
+  "total_frames": 5075,
+  "num_scenes": 4,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 2263,
+      "start_sec": 0.0,
+      "end_sec": 75.508767,
+      "duration_sec": 75.542133,
+      "sampled_frame_indices": [
+        0,
+        323,
+        647,
+        970,
+        1293,
+        1616,
+        1940,
+        2263
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a scene of a car accident at a railroad crossing. The main focus is on a black car that has collided with a barrier, causing it to be pushed back onto the road. The car is now stationary, and the barrier is partially on the road. There are several people standing around the scene, some of whom appear to be bystanders observing the situation, while others might be involved in the incident. The railroad crossing is marked by a red light, which is currently on, indicating that the train is approaching or has just passed. The setting appears to be a rural or semi-rural area, with a train track running parallel to the road. The atmosphere is one of concern and potential danger, as the situation suggests a serious accident."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 2264,
+      "end_frame": 2298,
+      "start_sec": 75.542133,
+      "end_sec": 76.6766,
+      "duration_sec": 1.167833,
+      "sampled_frame_indices": [
+        2264,
+        2269,
+        2274,
+        2279,
+        2283,
+        2288,
+        2293,
+        2298
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to capture a close-up view of a person's lower body, with a focus on the lower legs and feet. The person is wearing dark pants, and the image is taken from a low angle, which obscures the upper body and face. The person's feet are visible, suggesting movement or activity, but the specific nature of the activity is not clear from the provided frames. The image quality is low, with a grainy texture and dark tones, which makes it difficult to discern finer details. The context of the scene is not provided, so it's unclear whether this is a casual moment, a sports event, or something else entirely."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 2299,
+      "end_frame": 3668,
+      "start_sec": 76.709967,
+      "end_sec": 122.388933,
+      "duration_sec": 45.712333,
+      "sampled_frame_indices": [
+        2299,
+        2495,
+        2690,
+        2886,
+        3081,
+        3277,
+        3472,
+        3668
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a scene of a car accident. In the first frame, a person is seen holding a cell phone, possibly capturing the incident. The second frame shows a car that has been involved in a collision, with visible damage to the front. The third frame shows a group of people gathered around the car, some of whom appear to be assisting or observing the situation. The fourth frame shows a person in a red shirt, who seems to be in the process of either pushing or pulling the car, possibly to move it out of the way. The fifth frame shows the same person in the red shirt, now standing on the car's hood, seemingly trying to lift it. The final frame shows the same person in the red shirt, now standing on the car's roof, continuing to exert pressure on the vehicle. The context suggests an emergency situation, with bystanders attempting to move the damaged car to clear the area."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 3669,
+      "end_frame": 5074,
+      "start_sec": 122.4223,
+      "end_sec": 169.302467,
+      "duration_sec": 46.913533,
+      "sampled_frame_indices": [
+        3669,
+        3870,
+        4070,
+        4271,
+        4472,
+        4673,
+        4873,
+        5074
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a scene where a large animal, possibly a cow or a bull, is being lifted out of a hole in the street. A group of people, including a man in a blue shirt, are actively involved in the rescue effort. They are using a car to help lift the animal, with the vehicle's front end raised and the animal's hind legs resting on the car's hood. The animal appears to be struggling, with its head and front legs still in the hole. The scene is set in an urban environment, with the street visible and a few bystanders observing the situation. The focus is on the immediate action of the people trying to free the animal from the hole."
+    }
+  ]
+}

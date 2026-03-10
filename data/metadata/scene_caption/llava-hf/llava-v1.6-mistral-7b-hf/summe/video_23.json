@@ -1,0 +1,234 @@
+{
+  "video": "car_over_camera",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/car_over_camera.mp4",
+  "caption_model": "llava",
+  "model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80 words).\"\n",
+  "num_frames": 8,
+  "scene_threshold": 24,
+  "fps": 29.97002997002997,
+  "total_frames": 4382,
+  "num_scenes": 11,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 1083,
+      "start_sec": 0.0,
+      "end_sec": 36.1361,
+      "duration_sec": 36.169467,
+      "sampled_frame_indices": [
+        0,
+        155,
+        309,
+        464,
+        619,
+        774,
+        928,
+        1083
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a vast, open landscape with a dirt road or path stretching into the distance. The terrain is flat and arid, with a reddish-brown color suggesting it might be a desert or a dry, dusty plain. The sky is overcast, with clouds that are diffuse and do not indicate any specific weather event. There are no people or animals visible in the frames provided. The main action seems to be the camera's movement along the road, capturing the monotonous and expansive nature of the environment. The scene is devoid of any significant human activity or landmarks, emphasizing the isolation and emptiness of the area."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 1084,
+      "end_frame": 1104,
+      "start_sec": 36.169467,
+      "end_sec": 36.8368,
+      "duration_sec": 0.7007,
+      "sampled_frame_indices": [
+        1084,
+        1087,
+        1090,
+        1093,
+        1095,
+        1098,
+        1101,
+        1104
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to be a close-up shot of a person's face, with the focus on the eyes and nose area. The person's expression is neutral, and the lighting is dim, creating a moody atmosphere. The image is slightly blurred, which suggests a low-light environment or a camera with a shallow depth of field. The person's face is the central focus of the video, and there are no other objects or people visible in the frames provided. The overall content of the video seems to be a close-up portrait of a person, possibly capturing a moment of contemplation or introspection."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 1105,
+      "end_frame": 1651,
+      "start_sec": 36.870167,
+      "end_sec": 55.088367,
+      "duration_sec": 18.251567,
+      "sampled_frame_indices": [
+        1105,
+        1183,
+        1261,
+        1339,
+        1417,
+        1495,
+        1573,
+        1651
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to be a close-up shot of a person's face, with the focus on the eyes and nose area. The person's skin tone is light, and the image is slightly blurred, making it difficult to discern specific features. The background is indistinct and out of focus, which suggests that the camera is likely close to the subject's face. The overall content of the video seems to be a close-up shot of a person, possibly capturing a moment of emotion or expression."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 1652,
+      "end_frame": 1850,
+      "start_sec": 55.121733,
+      "end_sec": 61.728333,
+      "duration_sec": 6.639967,
+      "sampled_frame_indices": [
+        1652,
+        1680,
+        1709,
+        1737,
+        1765,
+        1793,
+        1822,
+        1850
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a close-up view of a sandy or dirt-covered surface, possibly a road or a field. The frames are blurry and lack clear details, making it difficult to discern specific actions or events. The main content of the video seems to be the texture and color of the ground, with no distinct objects, people, or scene context visible. The focus is on the ground itself, which is the primary subject of the video."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 1851,
+      "end_frame": 1868,
+      "start_sec": 61.7617,
+      "end_sec": 62.328933,
+      "duration_sec": 0.6006,
+      "sampled_frame_indices": [
+        1851,
+        1853,
+        1856,
+        1858,
+        1861,
+        1863,
+        1866,
+        1868
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a scene of a black Toyota SUV driving on a dirt road. The car is in motion, with the front of the vehicle visible in the foreground, and the rear end slightly blurred due to the vehicle's speed. The road appears to be in a rural or desert-like environment, with a flat, open landscape stretching out behind the car. The sky is overcast, suggesting a cloudy day. There are no visible people or other vehicles in the frames provided. The focus is on the car and its journey down the dirt road."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 1869,
+      "end_frame": 1899,
+      "start_sec": 62.3623,
+      "end_sec": 63.3633,
+      "duration_sec": 1.034367,
+      "sampled_frame_indices": [
+        1869,
+        1873,
+        1878,
+        1882,
+        1886,
+        1890,
+        1895,
+        1899
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a scene of a vehicle, possibly a car or a truck, driving on a dirt road. The road is mostly barren, with a few small rocks scattered along its length. The vehicle is moving towards the right side of the frame, and its position suggests it is in motion. The surrounding environment is flat and arid, with no visible vegetation or significant landmarks. The sky is overcast, and the lighting is soft, indicating either early morning or late afternoon. The focus is on the vehicle, and there are no people or other objects of note in the immediate vicinity. The overall content of the video seems to be a simple, unadorned depiction of a vehicle in a rural or desert-like setting."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 1900,
+      "end_frame": 2576,
+      "start_sec": 63.396667,
+      "end_sec": 85.952533,
+      "duration_sec": 22.589233,
+      "sampled_frame_indices": [
+        1900,
+        1997,
+        2093,
+        2190,
+        2286,
+        2383,
+        2479,
+        2576
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a landscape scene with a focus on the ground. The frames depict a flat, barren terrain with a reddish-brown color, suggesting it might be a desert or a dry, arid area. There are no visible people or animals in the frames, and the main action seems to be a slow pan across the landscape. The sky is overcast, with clouds that are diffused and do not indicate any specific weather event. The overall content of the video is a simple, unadorned view of a dry, open environment."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 2577,
+      "end_frame": 3351,
+      "start_sec": 85.9859,
+      "end_sec": 111.8117,
+      "duration_sec": 25.859167,
+      "sampled_frame_indices": [
+        2577,
+        2688,
+        2798,
+        2909,
+        3019,
+        3130,
+        3240,
+        3351
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a scene of a vehicle, possibly a car or a truck, driving on a dirt road. The road appears to be in a rural or desert-like environment, with a flat, barren landscape stretching out to the horizon. The sky is overcast, suggesting a cloudy day. The vehicle is moving away from the camera, giving a sense of motion and travel. The image quality is somewhat grainy, which may indicate a low-resolution camera or a fast-moving subject. The overall content of the video seems to be a journey or exploration in a remote, possibly arid, area."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 3352,
+      "end_frame": 3449,
+      "start_sec": 111.845067,
+      "end_sec": 115.081633,
+      "duration_sec": 3.269933,
+      "sampled_frame_indices": [
+        3352,
+        3366,
+        3380,
+        3394,
+        3407,
+        3421,
+        3435,
+        3449
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to be a close-up shot of a sandy or dusty surface, possibly a beach or a desert-like environment. The frames show a gradual change in the texture and color of the sand, suggesting movement or a change in lighting conditions. There are no distinct objects, people, or actions that can be confidently identified from these frames. The overall content of the video seems to be a simple, possibly artistic, exploration of the natural environment, focusing on the sand's appearance and the way it interacts with light and shadow."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 3450,
+      "end_frame": 4211,
+      "start_sec": 115.115,
+      "end_sec": 140.507033,
+      "duration_sec": 25.4254,
+      "sampled_frame_indices": [
+        3450,
+        3559,
+        3667,
+        3776,
+        3885,
+        3994,
+        4102,
+        4211
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to be a close-up shot of a person's face, with the focus on the lower half, particularly the mouth and chin area. The person is wearing sunglasses and seems to be in a room with a neutral, possibly grayish, background. The lighting is soft and diffused, suggesting an indoor setting. The person's expression is neutral, and there is no clear indication of movement or action. The image quality is low, with graininess and a lack of sharpness, which may indicate a low-resolution camera or a digital artifact. The overall content of the video is minimal, with no discernible actions or events taking place."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 4212,
+      "end_frame": 4381,
+      "start_sec": 140.5404,
+      "end_sec": 146.179367,
+      "duration_sec": 5.672333,
+      "sampled_frame_indices": [
+        4212,
+        4236,
+        4260,
+        4284,
+        4309,
+        4333,
+        4357,
+        4381
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to capture a moment of a person taking a photograph or recording a video. The main focus is on the person's hand, which is holding a camera or smartphone, and the ground, which is a mix of dirt and rocks. The person's hand is visible in the lower right corner of the frames, indicating that they are holding the device at an angle, possibly to capture a landscape or a close-up of the ground. The ground itself is textured with small rocks and pebbles, suggesting an outdoor setting, possibly a desert or a rocky terrain. The lighting in the frames is natural, with shadows cast on the ground, indicating that the photo or video was taken during the day."
+    }
+  ]
+}

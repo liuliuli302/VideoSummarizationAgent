@@ -1,0 +1,94 @@
+{
+  "video": "EE-bNr36nyA",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/EE-bNr36nyA.mp4",
+  "caption_model": "llava",
+  "model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80 words).\"\n",
+  "num_frames": 8,
+  "scene_threshold": 24,
+  "fps": 29.97002997002997,
+  "total_frames": 2941,
+  "num_scenes": 4,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 1367,
+      "start_sec": 0.0,
+      "end_sec": 45.612233,
+      "duration_sec": 45.6456,
+      "sampled_frame_indices": [
+        0,
+        195,
+        391,
+        586,
+        781,
+        976,
+        1172,
+        1367
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a man engaged in a beekeeping activity. In the frames provided, the man is seen holding a bee hive, which is covered with a protective screen. He is wearing a beige shirt and seems to be inspecting the hive, possibly checking for honey or the health of the bees. The background suggests an outdoor setting, possibly a garden or a beekeeping facility, with wooden structures that might be part of the beekeeping equipment. The focus is on the man and the hive, with the surrounding environment serving as context for the activity."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 1368,
+      "end_frame": 1461,
+      "start_sec": 45.6456,
+      "end_sec": 48.7487,
+      "duration_sec": 3.136467,
+      "sampled_frame_indices": [
+        1368,
+        1381,
+        1395,
+        1408,
+        1421,
+        1434,
+        1448,
+        1461
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a scene of a person interacting with a wooden structure, possibly a part of a building or a piece of furniture. The main action captured in these frames is the person pulling out a large, dark-colored object from the wooden space. The object seems to be a piece of metal or a board, as it has a smooth, metallic surface. The person's hands are visible, gripping the object as they remove it from the wooden area. The setting suggests a domestic or construction environment, with the wooden structure occupying a significant portion of the image. The focus is on the action of retrieving the object, and the context is not clear beyond the immediate interaction with the wooden space."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 1462,
+      "end_frame": 1542,
+      "start_sec": 48.782067,
+      "end_sec": 51.4514,
+      "duration_sec": 2.7027,
+      "sampled_frame_indices": [
+        1462,
+        1473,
+        1485,
+        1496,
+        1508,
+        1519,
+        1531,
+        1542
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a man engaged in a construction or renovation project. He is wearing a beige shirt and has a beard. The man is holding a piece of wood and seems to be examining it closely, possibly for quality or planning purposes. The background suggests an outdoor setting with wooden structures, which could be part of a building or a wooden structure being built. The man's focused expression and the tools he is holding indicate that he is involved in some form of manual labor or craftsmanship. The image quality is somewhat low, and the video seems to be a candid capture rather than a professionally shot production."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 1543,
+      "end_frame": 2940,
+      "start_sec": 51.484767,
+      "end_sec": 98.098,
+      "duration_sec": 46.6466,
+      "sampled_frame_indices": [
+        1543,
+        1743,
+        1942,
+        2142,
+        2341,
+        2541,
+        2740,
+        2940
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to be an instructional or informative piece, possibly related to agriculture or construction, given the presence of a wooden structure and the mention of an extension. The main focus is on a man standing in front of a wooden wall or structure, holding a tool that seems to be a brush or a similar type of implement. He is dressed in casual attire and is smiling, suggesting a positive or educational context. The background is somewhat blurred, but it seems to be an outdoor setting with a clear sky, which might indicate a sunny day. The text in the image mentions \"University of Wyoming Extension,\" \"Additional footage courtesy of Alan Stanton (flickr.com),\" and \"In your county or online www.uwyo.edu/ces,\" which implies that the video is likely part of an educational program or resource provided by the University of Wyoming Extension. The overall content of the video seems to be educational or demonstrative, possibly related to agricultural or construction practices."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "video": "Uncut_Evening_Flight",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Uncut_Evening_Flight.mp4",
+  "caption_model": "llava",
+  "model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80 words).\"\n",
+  "num_frames": 8,
+  "scene_threshold": 24,
+  "fps": 29.97002997002997,
+  "total_frames": 7909,
+  "num_scenes": 1,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 7908,
+      "start_sec": 0.0,
+      "end_sec": 263.8636,
+      "duration_sec": 263.896967,
+      "sampled_frame_indices": [
+        0,
+        1130,
+        2259,
+        3389,
+        4519,
+        5649,
+        6778,
+        7908
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a dynamic scene of a glider aircraft in flight. The main focus is on the glider, which is white with a blue and white tail, and the pilot, who is visible in the cockpit. The glider is captured in various stages of flight, with the most prominent frames showing it soaring above a verdant landscape. The pilot appears to be in control, navigating the aircraft through the sky. The surrounding scenery includes a mix of green fields and patches of woodland, providing a sense of the glider's altitude and the vastness of the sky. The video conveys a sense of adventure and the thrill of gliding, with the pilot's skill and the glider's design being highlighted against the backdrop of the natural landscape."
+    }
+  ]
+}

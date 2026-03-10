@@ -1,0 +1,74 @@
+{
+  "video": "Bus_in_Rock_Tunnel",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Bus_in_Rock_Tunnel.mp4",
+  "caption_model": "llava",
+  "model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80 words).\"\n",
+  "num_frames": 8,
+  "scene_threshold": 24,
+  "fps": 30.0,
+  "total_frames": 5133,
+  "num_scenes": 3,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 3513,
+      "start_sec": 0.0,
+      "end_sec": 117.1,
+      "duration_sec": 117.133333,
+      "sampled_frame_indices": [
+        0,
+        502,
+        1004,
+        1506,
+        2007,
+        2509,
+        3011,
+        3513
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a dramatic scene of a bus navigating through a narrow, rocky passage. The bus, which is prominently featured in the frames, is seen driving into the crevice, its large size contrasting with the confined space. The rocky walls of the passage are rough and uneven, suggesting a natural, possibly mountainous environment. The bus's headlights are on, illuminating the path ahead and casting shadows on the walls. The driver appears focused, guiding the vehicle through the challenging terrain. The perspective of the video is from the front of the bus, providing a sense of the vehicle's size and the tightness of the passage. The frames show the bus's progression, from the initial approach to the moment it is fully within the crevice. The overall content of the video is an action-packed depiction of a bus journeying through a narrow, rocky passage."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 3514,
+      "end_frame": 4099,
+      "start_sec": 117.133333,
+      "end_sec": 136.633333,
+      "duration_sec": 19.533333,
+      "sampled_frame_indices": [
+        3514,
+        3598,
+        3681,
+        3765,
+        3848,
+        3932,
+        4015,
+        4099
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to capture a scene of a person standing on a rocky surface, possibly a cliff or a mountainous area. The individual is wearing a red shirt and is positioned in the lower right corner of the image, with their back to the camera. The person seems to be looking downwards, possibly observing the terrain or the edge of the cliff. The surrounding environment is rugged and rocky, with a steep drop-off visible in the foreground. The lighting suggests it might be daytime, and the overall atmosphere of the video is one of exploration or outdoor adventure."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 4100,
+      "end_frame": 5130,
+      "start_sec": 136.666667,
+      "end_sec": 171.0,
+      "duration_sec": 34.366667,
+      "sampled_frame_indices": [
+        4100,
+        4247,
+        4394,
+        4541,
+        4689,
+        4836,
+        4983,
+        5130
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a dramatic scene of a tour bus navigating a narrow, rocky road that appears to be a natural canyon. The bus is large and white, with a black roof rack, and it's driving towards the camera, which is positioned on the left side of the frame. The road is flanked by steep, rocky walls that create a sense of enclosure. There are several people visible in the scene, some of whom are standing on the road, possibly waiting for the bus or observing the surroundings. The environment suggests a remote, possibly mountainous area, and the presence of the tour bus indicates that this location is a tourist attraction. The perspective of the camera, being from the side of the road, adds to the sense of adventure and exploration."
+    }
+  ]
+}

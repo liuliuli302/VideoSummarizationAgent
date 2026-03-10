@@ -1,0 +1,354 @@
+{
+  "video": "Scuba",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Scuba.mp4",
+  "caption_model": "llava",
+  "model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80 words).\"\n",
+  "num_frames": 8,
+  "scene_threshold": 24,
+  "fps": 30.0,
+  "total_frames": 2221,
+  "num_scenes": 17,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 446,
+      "start_sec": 0.0,
+      "end_sec": 14.866667,
+      "duration_sec": 14.9,
+      "sampled_frame_indices": [
+        0,
+        64,
+        127,
+        191,
+        255,
+        319,
+        382,
+        446
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures an underwater scene, likely from a scuba diving perspective. The main focus is on the vibrant coral formations that dominate the frame. The corals are in various shades of green, indicating a healthy and thriving ecosystem. The water appears to be clear, allowing for good visibility of the marine life. There are no people or other objects visible in the frames provided, and the scene is devoid of any text or additional context. The overall content of the video seems to be a showcase of underwater coral formations, possibly highlighting the beauty and diversity of marine life in a particular location."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 447,
+      "end_frame": 481,
+      "start_sec": 14.9,
+      "end_sec": 16.033333,
+      "duration_sec": 1.166667,
+      "sampled_frame_indices": [
+        447,
+        452,
+        457,
+        462,
+        466,
+        471,
+        476,
+        481
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a vibrant underwater scene, teeming with life. The primary focus is on a large, green coral reef that dominates the frame. The coral is dense and lush, with a variety of shapes and sizes, creating a complex and intricate structure that fills the majority of the image.\n\nScattered throughout the coral are numerous small fish, their bodies a mix of green and white hues that blend with the surrounding environment. They are dispersed across the reef, some closer to the camera, others further away, adding a sense of depth and scale to the scene.\n\nIn the background, the deep blue of the ocean water contrasts with the green of the coral, providing a stark backdrop that highlights the vibrancy of the reef. The overall impression is one of a thriving, healthy marine ecosystem, with the coral reef serving as a vital habitat for the small fish."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 482,
+      "end_frame": 542,
+      "start_sec": 16.066667,
+      "end_sec": 18.066667,
+      "duration_sec": 2.033333,
+      "sampled_frame_indices": [
+        482,
+        491,
+        499,
+        508,
+        516,
+        525,
+        533,
+        542
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a vibrant underwater scene, teeming with life. The main focus is on a coral reef, which is densely populated with various types of coral. The corals are in shades of green and white, with some areas appearing more vibrant than others. The reef is not just a structure but a habitat, as evidenced by the presence of numerous small fish darting among the coral. The water surrounding the reef is a deep blue, providing a stark contrast to the colorful corals. The overall impression is one of a thriving, healthy marine ecosystem."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 543,
+      "end_frame": 743,
+      "start_sec": 18.1,
+      "end_sec": 24.766667,
+      "duration_sec": 6.7,
+      "sampled_frame_indices": [
+        543,
+        572,
+        600,
+        629,
+        657,
+        686,
+        714,
+        743
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a vibrant underwater scene, teeming with life. The primary focus is on a variety of coral formations, their colors ranging from white to green, creating a lush and diverse marine environment. The corals are interspersed with small fish, their scales shimmering in the light filtering through the water. The water itself is a deep blue, providing a stark contrast to the corals and fish. The overall impression is one of a thriving, healthy ecosystem, with the corals appearing to be in good condition, suggesting a well-preserved underwater habitat."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 744,
+      "end_frame": 889,
+      "start_sec": 24.8,
+      "end_sec": 29.633333,
+      "duration_sec": 4.866667,
+      "sampled_frame_indices": [
+        744,
+        765,
+        785,
+        806,
+        827,
+        848,
+        868,
+        889
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures an underwater scene, likely from a scuba diving perspective. The main focus is on the vibrant marine life, particularly a coral reef teeming with various coral formations. The corals are in shades of green and brown, with some areas appearing more robust and dense than others. There are also several small, spiky creatures that resemble sea anemones or coral polyps, scattered throughout the scene. The water is a deep blue, suggesting a healthy, oxygen-rich environment. The overall impression is one of a thriving, diverse underwater ecosystem."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 890,
+      "end_frame": 940,
+      "start_sec": 29.666667,
+      "end_sec": 31.333333,
+      "duration_sec": 1.7,
+      "sampled_frame_indices": [
+        890,
+        897,
+        904,
+        911,
+        919,
+        926,
+        933,
+        940
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures an underwater scene, likely from a scuba diving perspective. The main focus is on the vibrant coral formations that dominate the frame. The corals are in various shades of green, indicating a healthy and thriving ecosystem. The water appears to be clear, allowing for a good view of the marine life. There are no visible people or animals in the frames, suggesting that the video is focused on the natural beauty of the underwater environment. The overall content of the video is a showcase of the rich biodiversity found beneath the ocean's surface."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 941,
+      "end_frame": 1074,
+      "start_sec": 31.366667,
+      "end_sec": 35.8,
+      "duration_sec": 4.466667,
+      "sampled_frame_indices": [
+        941,
+        960,
+        979,
+        998,
+        1017,
+        1036,
+        1055,
+        1074
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures an underwater scene, likely from a scuba diving perspective. The main focus is on the vibrant coral formations that dominate the frame. The corals are in various shades of green and white, indicating a healthy and thriving ecosystem. The water appears to be clear, allowing for good visibility of the marine life. There are no people or significant actions visible in the frames provided. The overall content of the video seems to be a showcase of underwater coral formations, possibly highlighting the beauty and diversity of marine life in a particular location."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 1075,
+      "end_frame": 1107,
+      "start_sec": 35.833333,
+      "end_sec": 36.9,
+      "duration_sec": 1.1,
+      "sampled_frame_indices": [
+        1075,
+        1080,
+        1084,
+        1089,
+        1093,
+        1098,
+        1102,
+        1107
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a vibrant underwater scene, teeming with life. The main focus is on a coral reef, which is densely populated with various coral formations. The corals are in shades of green and white, with some areas appearing more vibrant than others. The reef is not just a structure but a habitat, as evidenced by the presence of numerous small fish and other marine creatures. The water surrounding the reef is a deep green, suggesting a healthy and thriving ecosystem. The video provides a glimpse into the rich biodiversity of an underwater coral reef, showcasing the beauty and complexity of marine life."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 1108,
+      "end_frame": 1204,
+      "start_sec": 36.933333,
+      "end_sec": 40.133333,
+      "duration_sec": 3.233333,
+      "sampled_frame_indices": [
+        1108,
+        1122,
+        1135,
+        1149,
+        1163,
+        1177,
+        1190,
+        1204
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures an underwater scene, likely from a scuba diving perspective. The frames show a close-up view of a coral reef, with the camera positioned within the structure of the reef, providing a unique perspective. The coral is vibrant and appears to be in good health, with various textures and colors visible. The water surrounding the coral is a deep green, suggesting a healthy, oxygen-rich environment. The frames do not show any human activity or objects, focusing solely on the natural underwater ecosystem. The overall content of the video is a detailed exploration of a coral reef, highlighting the beauty and complexity of marine life."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 1205,
+      "end_frame": 1302,
+      "start_sec": 40.166667,
+      "end_sec": 43.4,
+      "duration_sec": 3.266667,
+      "sampled_frame_indices": [
+        1205,
+        1219,
+        1233,
+        1247,
+        1260,
+        1274,
+        1288,
+        1302
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures an underwater scene, likely from a scuba diving perspective. The frames show a vibrant coral reef teeming with marine life. The coral appears in various shades of green and white, with some areas showing a mix of colors. There are numerous small fish, possibly including clownfish, darting among the coral. The water is a deep blue, suggesting a significant depth. The frames also reveal the presence of a diver, identifiable by the fins and the air tank on their back. The diver is positioned in the center of the image, indicating they are exploring the reef. The overall content of the video is a snapshot of a diver's experience in a rich, underwater ecosystem."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 1303,
+      "end_frame": 1583,
+      "start_sec": 43.433333,
+      "end_sec": 52.766667,
+      "duration_sec": 9.366667,
+      "sampled_frame_indices": [
+        1303,
+        1343,
+        1383,
+        1423,
+        1463,
+        1503,
+        1543,
+        1583
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures an underwater scene, likely from a scuba diving perspective. The main focus is on the interaction between a scuba diver and the marine environment. The diver is seen swimming through a dense coral reef, surrounded by a variety of coral formations in shades of green and white. The coral appears healthy and vibrant, with numerous small polyps visible on the surface. The diver is equipped with scuba gear, including a tank and fins, and is seen swimming near the reef, possibly observing the marine life or exploring the underwater landscape. The water is a deep blue, providing a stark contrast to the colorful coral. The overall impression is one of a serene and beautiful underwater world, with the scuba diver as a human element experiencing this natural beauty."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 1584,
+      "end_frame": 1649,
+      "start_sec": 52.8,
+      "end_sec": 54.966667,
+      "duration_sec": 2.2,
+      "sampled_frame_indices": [
+        1584,
+        1593,
+        1603,
+        1612,
+        1621,
+        1630,
+        1640,
+        1649
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a vibrant underwater scene, likely from a scuba diving perspective. The frames showcase a rich coral reef teeming with life. The corals are in various shades of green and white, indicating a healthy ecosystem. The water is a deep blue, providing a stark contrast to the corals and enhancing their colors. The frames are filled with the intricate details of the coral formations, showcasing the complexity and beauty of marine life. The overall content of the video is a celebration of underwater biodiversity, capturing the allure of coral reefs and the creatures that inhabit them."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 1650,
+      "end_frame": 1721,
+      "start_sec": 55.0,
+      "end_sec": 57.366667,
+      "duration_sec": 2.4,
+      "sampled_frame_indices": [
+        1650,
+        1660,
+        1670,
+        1680,
+        1691,
+        1701,
+        1711,
+        1721
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to be an underwater exploration, showcasing a vibrant and diverse marine environment. The frames reveal a variety of coral formations, some of which are densely populated with small organisms, possibly algae or tiny marine creatures. The colors are predominantly green and blue, indicative of the rich biodiversity found in underwater ecosystems. The focus is on the intricate details of the coral and the life it supports, providing a glimpse into the complex and fascinating world beneath the ocean's surface."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 1722,
+      "end_frame": 1759,
+      "start_sec": 57.4,
+      "end_sec": 58.633333,
+      "duration_sec": 1.266667,
+      "sampled_frame_indices": [
+        1722,
+        1727,
+        1733,
+        1738,
+        1743,
+        1748,
+        1754,
+        1759
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a close-up view of a vibrant underwater scene. The main focus is on a dense cluster of coral, which is lush and green, suggesting a healthy and thriving marine ecosystem. The coral appears to be in the foreground, with its intricate structure and bright color dominating the frame. The background is a bit blurred, but it seems to be a darker, more open water area, possibly indicating a depth change or a different type of underwater environment. The overall impression is one of a rich, biodiverse underwater habitat, likely a coral reef, which is a common and important feature in many oceanic ecosystems."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 1760,
+      "end_frame": 2013,
+      "start_sec": 58.666667,
+      "end_sec": 67.1,
+      "duration_sec": 8.466667,
+      "sampled_frame_indices": [
+        1760,
+        1796,
+        1832,
+        1868,
+        1905,
+        1941,
+        1977,
+        2013
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a diver exploring an underwater coral reef. The diver, equipped with a scuba diving suit and a diving mask, is seen swimming through the water, surrounded by a vibrant array of coral formations. The coral appears in various shades of green and brown, indicating a healthy and diverse marine ecosystem. The diver's presence suggests an interest in marine life or possibly a professional role such as a marine biologist or underwater photographer. The video provides a glimpse into the beauty and complexity of underwater coral reefs, showcasing the rich biodiversity found beneath the ocean's surface."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 2014,
+      "end_frame": 2055,
+      "start_sec": 67.133333,
+      "end_sec": 68.5,
+      "duration_sec": 1.4,
+      "sampled_frame_indices": [
+        2014,
+        2020,
+        2026,
+        2032,
+        2037,
+        2043,
+        2049,
+        2055
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video frames depict an underwater scene, likely from a scuba diving or snorkeling adventure. The water is a vibrant green, indicative of a healthy coral reef ecosystem. Various coral formations are visible, with some appearing to be in the process of growing or have been recently disturbed, as suggested by the irregular shapes and exposed skeletons. The corals are the dominant feature in the frames, with their intricate structures and bright colors providing a rich and diverse visual experience.\n\nIn addition to the corals, there are several small fish present in the water. They are scattered throughout the scene, some closer to the camera and others further away, suggesting a sense of depth and distance. The fish are small, possibly juveniles, and their presence adds a dynamic element to the otherwise static underwater environment.\n\nThe frames do not show any human activity or presence, focusing solely on the natural underwater world. The overall impression is one of tranquility and natural beauty, with the coral reefs and fish providing a glimpse into the biodiversity of marine ecosystems."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 2056,
+      "end_frame": 2220,
+      "start_sec": 68.533333,
+      "end_sec": 74.0,
+      "duration_sec": 5.5,
+      "sampled_frame_indices": [
+        2056,
+        2079,
+        2103,
+        2126,
+        2150,
+        2173,
+        2197,
+        2220
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a person scuba diving in an underwater environment. The frames show the diver's head and upper body, with the diver wearing a diving mask and a diving suit. The diver appears to be swimming near the ocean floor, which is covered in coral and marine life. The water is a vibrant blue-green, indicative of a healthy, clear marine ecosystem. The diver's position and the surrounding coral suggest a sense of exploration and the beauty of underwater life."
+    }
+  ]
+}

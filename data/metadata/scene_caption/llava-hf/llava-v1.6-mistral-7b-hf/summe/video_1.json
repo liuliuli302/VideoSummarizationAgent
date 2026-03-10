@@ -1,0 +1,34 @@
+{
+  "video": "Air_Force_One",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Air_Force_One.mp4",
+  "caption_model": "llava",
+  "model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80 words).\"\n",
+  "num_frames": 8,
+  "scene_threshold": 24,
+  "fps": 25.0,
+  "total_frames": 4494,
+  "num_scenes": 1,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 4493,
+      "start_sec": 0.0,
+      "end_sec": 179.72,
+      "duration_sec": 179.76,
+      "sampled_frame_indices": [
+        0,
+        642,
+        1284,
+        1926,
+        2567,
+        3209,
+        3851,
+        4493
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a moment of an airplane taking off from a runway. The airplane, a large commercial jet, is the central focus of the frames. It is captured in various stages of its ascent, from the initial roll down the runway to the moment it lifts off and begins to climb into the sky. The runway is surrounded by a landscape of trees and grass, suggesting a rural or semi-rural airport setting. The sky is overcast, casting a soft, diffused light over the scene. The video does not contain any visible people or other significant objects, and the focus remains on the airplane and its departure. The overall content of the video is a straightforward depiction of an airplane taking off, with no additional context or narrative provided."
+    }
+  ]
+}

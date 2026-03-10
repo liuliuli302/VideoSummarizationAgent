@@ -36,39 +36,22 @@ Requirements:
 - Do not speculate beyond the visual content.
 - Produce one coherent paragraph summarizing the video.
 
-Keep the description concise (80-120 words)."
-'''
-)
-
-
-DEFAULT_SCENE_SUMMARIZATION_PROMPT_TEMPLATE = (
-'''
-You are a video understanding assistant.
-Below are captions describing frames from the same scene in a video.
-Frame captions:
-{frame_captions}
-
-Write a concise scene-level description summarizing what happens in this scene.
-Requirements:
-* one concise paragraph (80-120 words)
-* focus on the main content
-* avoid repeating frame descriptions
-Scene description:
+Keep the description concise (80 words)."
 '''
 )
 
 
 class QwenSceneCaptionConfig:
     prompt = DEFAULT_SCENE_PROMPT
-    num_frames = 10
+    num_frames = 8
     max_new_tokens = 120
     scene_threshold = 27.0
 
 
 class LlavaSceneCaptionConfig:
     prompt = DEFAULT_SCENE_PROMPT
-    num_frames = 10
-    max_new_tokens = 120
+    num_frames = 8
+    max_new_tokens = 240
     scene_threshold = 27.0
 
 

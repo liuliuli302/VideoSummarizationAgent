@@ -1,0 +1,54 @@
+{
+  "video": "oDXZc0tZe04",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/oDXZc0tZe04.mp4",
+  "caption_model": "llava",
+  "model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80 words).\"\n",
+  "num_frames": 8,
+  "scene_threshold": 24,
+  "fps": 29.97002997002997,
+  "total_frames": 11414,
+  "num_scenes": 2,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 792,
+      "start_sec": 0.0,
+      "end_sec": 26.4264,
+      "duration_sec": 26.459767,
+      "sampled_frame_indices": [
+        0,
+        113,
+        226,
+        339,
+        453,
+        566,
+        679,
+        792
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a scene of a tree with a nest in it. The nest is situated at a height that suggests it is a bird's nest. The tree is surrounded by a natural environment with other trees and foliage in the background. The nest is not in focus, but it is visible in the upper right corner of the image. The text \"A swarm moved in\" suggests that the nest has been recently occupied by a swarm of bees, which is a common occurrence when a bird's nest is vacated. The date \"April 4, 2013\" indicates when the video was taken or when the swarm moved in. The overall content of the video seems to be a snapshot of wildlife, specifically the interaction between a bird's nest and the arrival of a bee swarm."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 793,
+      "end_frame": 11413,
+      "start_sec": 26.459767,
+      "end_sec": 380.813767,
+      "duration_sec": 354.387367,
+      "sampled_frame_indices": [
+        793,
+        2310,
+        3827,
+        5344,
+        6862,
+        8379,
+        9896,
+        11413
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a person interacting with a tree. In the first frame, a hand is seen holding a small, round object, possibly a bird feeder, with a chain attached to it. The hand is positioned as if the person is either placing the feeder on the tree or retrieving it. The second frame shows a close-up of the feeder, which is cylindrical with a hole in the top, suggesting it's designed to hold birdseed. The third frame provides a wider view of the scene, showing the person's arm and the feeder in the process of being hung on the tree. The fourth frame captures the feeder hanging from the tree, with the person's hand still visible, indicating that the action of hanging the feeder is still in progress. The fifth frame shows the feeder hanging from the tree, now with the person's hand fully out of the frame, suggesting that the action of hanging the feeder has been completed. The final frame shows the feeder still hanging from the tree, with no human presence visible. The video seems to document the process of hanging a bird feeder on a tree."
+    }
+  ]
+}

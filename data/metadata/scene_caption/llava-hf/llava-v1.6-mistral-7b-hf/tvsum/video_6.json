@@ -1,0 +1,74 @@
+{
+  "video": "HT5vyqe0Xaw",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/HT5vyqe0Xaw.mp4",
+  "caption_model": "llava",
+  "model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80 words).\"\n",
+  "num_frames": 8,
+  "scene_threshold": 24,
+  "fps": 29.97002997002997,
+  "total_frames": 9671,
+  "num_scenes": 3,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 3015,
+      "start_sec": 0.0,
+      "end_sec": 100.6005,
+      "duration_sec": 100.633867,
+      "sampled_frame_indices": [
+        0,
+        431,
+        861,
+        1292,
+        1723,
+        2154,
+        2584,
+        3015
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a scene of a white truck driving down a narrow, dirt road. The truck is in motion, with its rear end visible as it moves forward. The road is flanked by trees and vegetation, suggesting a rural or semi-rural setting. The truck appears to be a large, possibly commercial vehicle, and it occupies a significant portion of the image. The road itself is unpaved and seems to be in a state of disrepair, with visible cracks and uneven surfaces. The surrounding environment is lush and green, indicating a warm climate or season. The truck's movement is the central action in the video, with no other people or significant objects visible in the frames provided."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 3016,
+      "end_frame": 4319,
+      "start_sec": 100.633867,
+      "end_sec": 144.110633,
+      "duration_sec": 43.510133,
+      "sampled_frame_indices": [
+        3016,
+        3202,
+        3388,
+        3574,
+        3761,
+        3947,
+        4133,
+        4319
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a scene of a large truck, possibly a dump truck, driving down a narrow, wooded road. The truck is in motion, with its front end visible as it navigates the path. The road is flanked by trees, creating a canopy overhead. The truck appears to be in a rural or semi-rural area, as indicated by the dense foliage and the absence of any urban structures. The focus is on the truck and its immediate surroundings, with no clear indication of any people or other vehicles in the frames provided. The overall content of the video seems to be a simple depiction of a truck in transit through a natural environment."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 4320,
+      "end_frame": 9670,
+      "start_sec": 144.144,
+      "end_sec": 322.655667,
+      "duration_sec": 178.545033,
+      "sampled_frame_indices": [
+        4320,
+        5084,
+        5849,
+        6613,
+        7377,
+        8141,
+        8906,
+        9670
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a scene of a person standing on a dirt road, with a large truck parked nearby. The truck is prominent in the frame, suggesting it might be the main subject of the video. The person appears to be interacting with the truck, possibly loading or unloading it. The setting is outdoors, with a dense forest or wooded area surrounding the road, indicating a rural or semi-rural environment. The lighting suggests it might be daytime, and the overall atmosphere is one of activity and work."
+    }
+  ]
+}

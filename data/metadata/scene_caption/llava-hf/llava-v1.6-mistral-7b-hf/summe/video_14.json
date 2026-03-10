@@ -1,0 +1,474 @@
+{
+  "video": "Notre_Dame",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Notre_Dame.mp4",
+  "caption_model": "llava",
+  "model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80 words).\"\n",
+  "num_frames": 8,
+  "scene_threshold": 24,
+  "fps": 24.0,
+  "total_frames": 4608,
+  "num_scenes": 23,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 335,
+      "start_sec": 0.0,
+      "end_sec": 13.958333,
+      "duration_sec": 14.0,
+      "sampled_frame_indices": [
+        0,
+        48,
+        96,
+        144,
+        191,
+        239,
+        287,
+        335
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a scene at a historic cathedral, featuring its grand architecture and the activity of visitors. The cathedral's facade is prominently displayed, showcasing its intricate carvings and statues. The frames reveal people walking around the base of the cathedral, some closer to the camera and others further away, suggesting a sense of scale and the cathedral's imposing presence. The architecture is detailed and ornate, indicative of a significant cultural or religious landmark. The video seems to be taken during the day, as the lighting is bright and natural. The focus is on the cathedral itself and the people who are exploring its surroundings, providing a glimpse into the experience of visiting this iconic structure."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 336,
+      "end_frame": 489,
+      "start_sec": 14.0,
+      "end_sec": 20.375,
+      "duration_sec": 6.416667,
+      "sampled_frame_indices": [
+        336,
+        358,
+        380,
+        402,
+        423,
+        445,
+        467,
+        489
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures the interior of a grand, Gothic cathedral. The main focus is on the central aisle, which is illuminated by a series of chandeliers hanging from the high ceiling. The cathedral's architecture is ornate, with pointed arches and ribbed vaults, and the walls are adorned with stained glass windows that cast a soft, colorful light throughout the space. The perspective of the video is from the back of the church, looking towards the altar, which is visible in the distance. The altar is adorned with a large crucifix, and the area around it is lit by a single, bright light, creating a stark contrast with the dimly lit surroundings. The cathedral is filled with people, some of whom are seated on the pews, while others are standing or walking around, suggesting a service or event is taking place. The overall atmosphere is one of solemnity and reverence, enhanced by the cathedral's architectural grandeur and the soft, ambient lighting."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 490,
+      "end_frame": 691,
+      "start_sec": 20.416667,
+      "end_sec": 28.791667,
+      "duration_sec": 8.416667,
+      "sampled_frame_indices": [
+        490,
+        519,
+        547,
+        576,
+        605,
+        634,
+        662,
+        691
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a serene scene of a row of lit candles. The candles are housed in cylindrical holders and are arranged in a line, each one casting a warm glow. The frames show the candles at various stages of burning, with some appearing brighter and others dimmer, suggesting the natural progression of the flame's life. The background is dark, which accentuates the light from the candles, creating a peaceful and contemplative atmosphere. The video does not contain any text or people, and the focus is solely on the candles and their illumination. The overall content of the video is a simple yet evocative display of the beauty of candlelight."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 692,
+      "end_frame": 918,
+      "start_sec": 28.833333,
+      "end_sec": 38.25,
+      "duration_sec": 9.458333,
+      "sampled_frame_indices": [
+        692,
+        724,
+        757,
+        789,
+        821,
+        853,
+        886,
+        918
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a scene inside a large, ornate cathedral. The interior is dimly lit, with the main source of light coming from the stained glass windows and the illuminated altar. The architecture is Gothic, characterized by pointed arches and ribbed vaults. The cathedral is filled with people, some of whom are standing and others are seated, all appearing to be engaged in religious activities or observing the space. The focus is on the central aisle, which leads towards the altar, and the people are dressed in a variety of styles, suggesting a diverse congregation. The atmosphere is solemn and reverent, with the cathedral's grandeur and the soft glow of the lights creating a sense of awe and spirituality."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 919,
+      "end_frame": 1164,
+      "start_sec": 38.291667,
+      "end_sec": 48.5,
+      "duration_sec": 10.25,
+      "sampled_frame_indices": [
+        919,
+        954,
+        989,
+        1024,
+        1059,
+        1094,
+        1129,
+        1164
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a scene from a narrow street in a city, likely in Europe, given the architectural style of the buildings. The street is lined with tall, ornate buildings, possibly churches or historical structures, with pointed arches and intricate details. The buildings are constructed of stone, suggesting an older, possibly medieval, cityscape.\n\nIn the foreground, there is a sidewalk where a few people are walking, adding a sense of life and activity to the scene. The street itself is busy with several vehicles, including cars and trucks, indicating a bustling urban environment. The vehicles are parked along the street, and there are traffic signs visible, including a stop sign.\n\nThe sky is overcast, casting a soft, diffused light over the scene, which enhances the architectural details of the buildings. The overall impression is of a vibrant, historic city street, where modern life coexists with the grandeur of the past."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 1165,
+      "end_frame": 1402,
+      "start_sec": 48.541667,
+      "end_sec": 58.416667,
+      "duration_sec": 9.916667,
+      "sampled_frame_indices": [
+        1165,
+        1199,
+        1233,
+        1267,
+        1300,
+        1334,
+        1368,
+        1402
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video frames show a close-up view of a large, ornate building with Gothic architectural features. The building is characterized by its tall, pointed arches and intricate stonework. The frames capture the building's facade, with a particular focus on the central section, which includes a prominent rose window. The image quality is somewhat grainy, suggesting the video may have been taken with a lower-resolution camera or in low light conditions. The building's design and the presence of the rose window are indicative of a cathedral or a similar religious structure. The video does not provide any additional context or actions, and the focus remains on the architectural details of the building."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 1403,
+      "end_frame": 1840,
+      "start_sec": 58.458333,
+      "end_sec": 76.666667,
+      "duration_sec": 18.25,
+      "sampled_frame_indices": [
+        1403,
+        1465,
+        1528,
+        1590,
+        1653,
+        1715,
+        1778,
+        1840
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures the interior of a grand, Gothic cathedral. The main focus is on the architectural beauty of the space, with its high arched ceilings, intricate stonework, and the play of light and shadow. The cathedral is illuminated by a soft, warm glow, likely from chandeliers or other interior lighting, which casts a serene ambiance over the scene. The perspective of the video is from the floor, looking up towards the ceiling, emphasizing the cathedral's height and the grandeur of its design. The frames show a few people present, but they are not the primary focus of the video. The overall content of the video is a visual exploration of the interior of a cathedral, highlighting its architectural features and the atmosphere created by the lighting."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 1841,
+      "end_frame": 2119,
+      "start_sec": 76.708333,
+      "end_sec": 88.291667,
+      "duration_sec": 11.625,
+      "sampled_frame_indices": [
+        1841,
+        1881,
+        1920,
+        1960,
+        2000,
+        2040,
+        2079,
+        2119
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a serene and solemn scene inside a cathedral. The main focus is on the interior architecture, with its tall, ornate columns and arches, and the large, stained glass windows that fill the space with a soft, diffused light. The windows are adorned with intricate patterns and depict scenes that are not clearly visible due to the angle and distance. The lighting is dim, creating a sense of tranquility and reverence, with the natural light filtering through the windows casting a gentle glow on the stone surfaces. There are a few people present in the cathedral, but they are not the primary focus of the video. They appear to be visitors, possibly tourists, who are standing and observing the space. The overall atmosphere of the video is one of quiet reflection and the appreciation of architectural beauty."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 2120,
+      "end_frame": 2295,
+      "start_sec": 88.333333,
+      "end_sec": 95.625,
+      "duration_sec": 7.333333,
+      "sampled_frame_indices": [
+        2120,
+        2145,
+        2170,
+        2195,
+        2220,
+        2245,
+        2270,
+        2295
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a cityscape from a high vantage point, possibly from a tower or a balcony. The main focus is on a large, ornate statue of a creature that appears to be a mythical or fantastical being, possibly a gargoyle or a mythical creature, perched on a ledge. The statue is detailed and imposing, with a prominent face and wings.\n\nThe city below is a mix of historical and modern architecture, with buildings of various styles and sizes. There are roads and bridges visible, suggesting a well-developed urban area. The sky is overcast, casting a soft light over the scene.\n\nIn the background, there are hints of other structures, including what might be a church steeple, indicating a blend of religious and secular architecture. The overall impression is of a city rich in history and architectural diversity, with the statue adding a touch of whimsy or mythology to the urban landscape."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 2296,
+      "end_frame": 2555,
+      "start_sec": 95.666667,
+      "end_sec": 106.458333,
+      "duration_sec": 10.833333,
+      "sampled_frame_indices": [
+        2296,
+        2333,
+        2370,
+        2407,
+        2444,
+        2481,
+        2518,
+        2555
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a scene of a large, ornate building with a prominent tower, possibly a church or cathedral, given its architectural style. The tower is tall and features intricate details, including what appears to be a cross at the top. The sky is overcast, suggesting a cloudy day. The perspective of the video is from a low angle, looking up at the tower, which emphasizes its height and grandeur. The focus is on the architectural beauty of the building, with no clear indication of human activity or movement. The frames show the tower in various positions, possibly indicating a panoramic view or a slow movement of the camera."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 2556,
+      "end_frame": 2844,
+      "start_sec": 106.5,
+      "end_sec": 118.5,
+      "duration_sec": 12.041667,
+      "sampled_frame_indices": [
+        2556,
+        2597,
+        2638,
+        2679,
+        2721,
+        2762,
+        2803,
+        2844
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video frames depict a scene of a large, ornate building with a prominent tower. The tower is adorned with intricate architectural details, including arches and statues, suggesting a historical or cultural significance. The building appears to be made of stone, and the tower is tall, with multiple levels visible. The frames show the tower from different angles, highlighting its grandeur and the craftsmanship of its design. There are no people or moving objects in the frames, and the focus is solely on the architectural structure. The overall content of the video seems to be a showcase of the building's architectural features, possibly for educational or promotional purposes."
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 2845,
+      "end_frame": 2931,
+      "start_sec": 118.541667,
+      "end_sec": 122.125,
+      "duration_sec": 3.625,
+      "sampled_frame_indices": [
+        2845,
+        2857,
+        2870,
+        2882,
+        2894,
+        2906,
+        2919,
+        2931
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a dynamic scene from a high vantage point, possibly a balcony or a tower, overlooking a cityscape. The main focus is on a statue of a dragon, which is positioned in the foreground, appearing to be in motion or interacting with the viewer. The statue is detailed and realistic, with a lifelike texture that suggests it might be a modern sculpture.\n\nThe background reveals a city with a mix of architectural styles, including historic buildings and modern structures. The city is densely packed with buildings, and there are visible landmarks such as a prominent tower and a church with a steeple. The sky is overcast, casting a soft light over the scene.\n\nThe video seems to be a blend of real-life photography with a touch of fantasy, as the statue of the dragon adds an element of whimsy or mythology to the urban setting. The motion of the statue, if it is indeed in motion, suggests a narrative or storyline that is not explicitly visible in the still frames. The overall impression is one of a city that is rich in history and culture, with a playful or fantast"
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 2932,
+      "end_frame": 3264,
+      "start_sec": 122.166667,
+      "end_sec": 136.0,
+      "duration_sec": 13.875,
+      "sampled_frame_indices": [
+        2932,
+        2979,
+        3027,
+        3074,
+        3122,
+        3169,
+        3217,
+        3264
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video frames show a close-up view of a large, ornate building with a distinctive architectural style, featuring multiple levels and intricate details. The building appears to be a prominent landmark, possibly a church or a historical monument, given its grandeur and the presence of a bell tower. The perspective is from a high angle, providing a bird's-eye view of the structure. The frames capture the building's facade, with its arches, columns, and decorative elements, which suggest a rich history and architectural significance. The image quality is somewhat grainy, indicating that the video may have been taken with a lower-resolution camera or under less-than-ideal lighting conditions."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 3265,
+      "end_frame": 3363,
+      "start_sec": 136.041667,
+      "end_sec": 140.125,
+      "duration_sec": 4.125,
+      "sampled_frame_indices": [
+        3265,
+        3279,
+        3293,
+        3307,
+        3321,
+        3335,
+        3349,
+        3363
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a breathtaking aerial view of the Notre-Dame Cathedral in Paris, France. The cathedral's iconic spires and towers dominate the scene, standing tall against the backdrop of the city. The perspective is from a high vantage point, providing a panoramic view of the cathedral and its surroundings. The cathedral's intricate architecture is clearly visible, with the flying buttresses and the pointed arches of the Gothic style evident. The surrounding cityscape is a mix of historic buildings and modern structures, with the Seine River meandering through the urban landscape. The video also includes a glimpse of the cathedral's interior, showcasing the grandeur of the interior space. The overall content of the video is a celebration of the Notre-Dame Cathedral, capturing its architectural beauty and its place within the city of Paris."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 3364,
+      "end_frame": 3397,
+      "start_sec": 140.166667,
+      "end_sec": 141.541667,
+      "duration_sec": 1.416667,
+      "sampled_frame_indices": [
+        3364,
+        3369,
+        3373,
+        3378,
+        3383,
+        3388,
+        3392,
+        3397
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video frames depict a cityscape with a prominent church steeple, which stands out against the hazy sky. The architecture of the church is ornate, with two towering spires that reach into the foggy atmosphere. The city is densely packed with buildings, and the fog obscures the finer details of the structures. The overall mood of the video is somewhat somber due to the fog and the muted colors. The church steeple, with its pointed roof and tall spires, is a focal point in the scene, suggesting that the video may be highlighting the historical or religious significance of the church within the urban environment."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 3398,
+      "end_frame": 3648,
+      "start_sec": 141.583333,
+      "end_sec": 152.0,
+      "duration_sec": 10.458333,
+      "sampled_frame_indices": [
+        3398,
+        3434,
+        3469,
+        3505,
+        3541,
+        3577,
+        3612,
+        3648
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a serene daytime scene of a historic cathedral. The cathedral, with its tall spires and ornate architecture, is the central focus of the frames. The sunlight casts a warm glow on the stone facade, highlighting the intricate details of the Gothic design. The sky is clear, suggesting a calm and peaceful atmosphere. There are no people visible in the frames, which emphasizes the grandeur and tranquility of the cathedral. The video seems to be a simple, unedited capture of the cathedral, possibly taken by a tourist or a local resident appreciating the beauty of the architecture."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 3649,
+      "end_frame": 3813,
+      "start_sec": 152.041667,
+      "end_sec": 158.875,
+      "duration_sec": 6.875,
+      "sampled_frame_indices": [
+        3649,
+        3672,
+        3696,
+        3719,
+        3743,
+        3766,
+        3790,
+        3813
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a serene scene of a large, ornate cathedral with a distinctive pointed roof, reminiscent of Gothic architecture. The cathedral is bathed in sunlight, highlighting its intricate details and the warm hues of its stone facade. In the foreground, two individuals are seen walking past the cathedral, their figures small in comparison to the grandeur of the building. The cathedral is situated near a body of water, with a bridge visible in the distance, adding to the picturesque setting. The overall mood of the video is peaceful and contemplative, with the cathedral serving as a majestic backdrop to the everyday life unfolding in the foreground."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 3814,
+      "end_frame": 3949,
+      "start_sec": 158.916667,
+      "end_sec": 164.541667,
+      "duration_sec": 5.666667,
+      "sampled_frame_indices": [
+        3814,
+        3833,
+        3853,
+        3872,
+        3891,
+        3910,
+        3930,
+        3949
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a daytime scene in a city, featuring a large, ornate Gothic cathedral with a prominent spire. The cathedral is situated on a street corner, with a clear view of its architectural details. In the foreground, there is a street with parked cars and a few pedestrians. The cathedral's facade is visible, showcasing its intricate design and the presence of a clock tower. The sky is overcast, suggesting a cloudy day. The overall content of the video seems to be a casual, possibly tourist-oriented exploration of the city's historic architecture."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 3950,
+      "end_frame": 4015,
+      "start_sec": 164.583333,
+      "end_sec": 167.291667,
+      "duration_sec": 2.75,
+      "sampled_frame_indices": [
+        3950,
+        3959,
+        3969,
+        3978,
+        3987,
+        3996,
+        4006,
+        4015
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video frames depict a cityscape with a prominent cathedral-like building in the center. The architecture suggests a European city, possibly Paris, given the distinctive Gothic style of the building. The surrounding area is densely packed with other buildings, indicating a bustling urban environment. The sky is overcast, and the lighting suggests it might be early morning or late afternoon. There are no people visible in the frames, and the focus is on the architectural details and the layout of the city. The overall content of the video seems to be a touristic or documentary perspective on the city's architecture and urban design."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 4016,
+      "end_frame": 4115,
+      "start_sec": 167.333333,
+      "end_sec": 171.458333,
+      "duration_sec": 4.166667,
+      "sampled_frame_indices": [
+        4016,
+        4030,
+        4044,
+        4058,
+        4073,
+        4087,
+        4101,
+        4115
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a breathtaking aerial view of a cityscape, dominated by a large, ornate cathedral with a prominent spire. The cathedral's architectural details are intricate, suggesting it might be a significant historical or religious site. The surrounding city is a mix of modern and traditional buildings, with the cathedral standing out as a central point of interest. The sky is overcast, casting a soft light over the scene. The video seems to be taken from a high vantage point, providing a panoramic view of the city and its architectural highlights. The focus is on the cathedral and the city's skyline, with no clear indication of any specific events or actions taking place."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 4116,
+      "end_frame": 4238,
+      "start_sec": 171.5,
+      "end_sec": 176.583333,
+      "duration_sec": 5.125,
+      "sampled_frame_indices": [
+        4116,
+        4133,
+        4151,
+        4168,
+        4186,
+        4203,
+        4221,
+        4238
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a snowy day in a city, with a focus on a large, ornate building that appears to be a cathedral. The cathedral is a prominent feature in the scene, with its tall spires and intricate architecture standing out against the overcast sky. The snow-covered streets and buildings suggest a cold, winter day. There are several people walking on the sidewalks, bundled up against the weather, and a few cars are visible on the road. The overall atmosphere is one of a quiet, snowy day in an urban setting, with the cathedral serving as a historical and architectural landmark amidst the modern cityscape."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 4239,
+      "end_frame": 4449,
+      "start_sec": 176.625,
+      "end_sec": 185.375,
+      "duration_sec": 8.791667,
+      "sampled_frame_indices": [
+        4239,
+        4269,
+        4299,
+        4329,
+        4359,
+        4389,
+        4419,
+        4449
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a scene of a large, ornate building, possibly a cathedral or a significant historical structure, set against a backdrop of a snowy day. The building is characterized by its tall, pointed towers and arched windows, which are dusted with snow, indicating recent snowfall. The architecture is intricate, with decorative elements and statues visible on the facade. The sky is overcast, and the ground is blanketed with snow, suggesting a cold winter day. There are no people visible in the frames, and the focus is solely on the building and the weather conditions. The video does not provide any additional context or actions beyond the static depiction of the building and the snowy environment."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 4450,
+      "end_frame": 4607,
+      "start_sec": 185.416667,
+      "end_sec": 191.958333,
+      "duration_sec": 6.583333,
+      "sampled_frame_indices": [
+        4450,
+        4472,
+        4495,
+        4517,
+        4540,
+        4562,
+        4585,
+        4607
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a scene of a large, ornate building, possibly a cathedral, with two prominent towers. The architecture is Gothic, characterized by pointed arches and intricate detailing. The building is partially obscured by a layer of snow, suggesting a cold, wintry day. The sky is overcast, and the ground is blanketed with snow, indicating recent snowfall. There are no people visible in the frames, and the focus is on the building and the weather conditions. The overall impression is one of a serene, snowy day in a city where the cathedral stands as a significant landmark."
+    }
+  ]
+}

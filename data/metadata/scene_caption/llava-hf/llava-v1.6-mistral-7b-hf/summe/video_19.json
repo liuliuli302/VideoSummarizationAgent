@@ -1,0 +1,34 @@
+{
+  "video": "St Maarten Landing",
+  "video_path": "/root/autodl-tmp/datasets/SumMe/videos/St Maarten Landing.mp4",
+  "caption_model": "llava",
+  "model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80 words).\"\n",
+  "num_frames": 8,
+  "scene_threshold": 24,
+  "fps": 25.0,
+  "total_frames": 1751,
+  "num_scenes": 1,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 1750,
+      "start_sec": 0.0,
+      "end_sec": 70.0,
+      "duration_sec": 70.04,
+      "sampled_frame_indices": [
+        0,
+        250,
+        500,
+        750,
+        1000,
+        1250,
+        1500,
+        1750
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a moment at a beach where a large airplane is flying low over the ocean. The airplane is prominent in the scene, with its wingspan stretching across the image. The beach is populated with several people, some of whom are taking photographs of the plane. The ocean is a vibrant blue, and the sky is clear, suggesting a sunny day. The people are standing behind a fence, which is likely there to provide safety from the low-flying aircraft. The overall atmosphere of the video is one of excitement and curiosity, as the beachgoers watch the plane's approach."
+    }
+  ]
+}

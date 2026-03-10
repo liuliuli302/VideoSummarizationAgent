@@ -1,0 +1,714 @@
+{
+  "video": "AwmHb44_ouw",
+  "video_path": "/root/autodl-tmp/datasets/TVSum/ydata-tvsum50-v1_1/video/AwmHb44_ouw.mp4",
+  "caption_model": "llava",
+  "model_name": "llava-hf/llava-v1.6-mistral-7b-hf",
+  "prompt": "\nYou are given several frames sampled from a short video.\n\nDescribe the overall content of the video based on these frames.\n\nRequirements:\n- Focus on the main actions and events.\n- Mention important objects, people, and scene context.\n- Do not speculate beyond the visual content.\n- Produce one coherent paragraph summarizing the video.\n\nKeep the description concise (80 words).\"\n",
+  "num_frames": 8,
+  "scene_threshold": 24,
+  "fps": 29.97002997002997,
+  "total_frames": 10597,
+  "num_scenes": 35,
+  "scenes": [
+    {
+      "scene_index": 0,
+      "start_frame": 0,
+      "end_frame": 32,
+      "start_sec": 0.0,
+      "end_sec": 1.067733,
+      "duration_sec": 1.1011,
+      "sampled_frame_indices": [
+        0,
+        5,
+        9,
+        14,
+        18,
+        23,
+        27,
+        32
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a close-up view of a vehicle's wheel and part of its suspension system. The wheel is prominently featured, with its yellow hubcap and the visible tread pattern of the tire. The tire is mounted on a metal hub, which is connected to the vehicle's suspension system. The suspension components, such as the shock absorber and possibly a part of the wheel well, are also visible. The image quality is low, with graininess and a lack of sharpness, suggesting that the video may have been taken with a low-resolution camera or under poor lighting conditions. The focus is on the wheel and its immediate surroundings, with no clear indication of the vehicle's make or model. The context of the video is not entirely clear, but it seems to be a close-up shot of a vehicle's wheel and suspension system, possibly for inspection or maintenance purposes."
+    },
+    {
+      "scene_index": 1,
+      "start_frame": 33,
+      "end_frame": 63,
+      "start_sec": 1.1011,
+      "end_sec": 2.1021,
+      "duration_sec": 1.034367,
+      "sampled_frame_indices": [
+        33,
+        37,
+        42,
+        46,
+        50,
+        54,
+        59,
+        63
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a scene of mechanical work or repair, likely involving a vehicle or machinery. The main focus is on a large, black tire with a yellow rim, which is prominently featured in several frames. The tire is positioned on a surface that seems to be a garage or workshop, as indicated by the presence of other mechanical parts and tools in the background. There are also various wires and cables visible, suggesting that some sort of electrical work or connection is being made or repaired. The overall impression is that of a hands-on, technical environment where maintenance or repair work is being carried out."
+    },
+    {
+      "scene_index": 2,
+      "start_frame": 64,
+      "end_frame": 101,
+      "start_sec": 2.135467,
+      "end_sec": 3.370033,
+      "duration_sec": 1.267933,
+      "sampled_frame_indices": [
+        64,
+        69,
+        75,
+        80,
+        85,
+        90,
+        96,
+        101
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show an outdoor scene with a large, used tire prominently in the foreground. The tire is resting on its side, with the tread visible and the inner rim exposed. In the background, there is a spray bottle, possibly containing a cleaning solution, and a small green object that could be a tool or a piece of equipment. The setting seems to be a dirt area with sparse vegetation, and the overall impression is that of a maintenance or repair activity involving the tire. The focus is on the tire and the immediate surroundings, with no clear indication of people or significant action taking place."
+    },
+    {
+      "scene_index": 3,
+      "start_frame": 102,
+      "end_frame": 592,
+      "start_sec": 3.4034,
+      "end_sec": 19.753067,
+      "duration_sec": 16.383033,
+      "sampled_frame_indices": [
+        102,
+        172,
+        242,
+        312,
+        382,
+        452,
+        522,
+        592
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to capture a moment of a person standing outdoors, possibly in a residential area. The individual is wearing a dark jacket and has a mustache. The person is looking directly at the camera, and their expression seems neutral. The background is somewhat blurred, but it suggests a residential setting with a house and a wooden structure, possibly a shed or a fence. The lighting indicates it might be daytime. The focus is on the person, and the image quality is somewhat grainy, which could suggest a low-resolution camera or a fast-moving subject."
+    },
+    {
+      "scene_index": 4,
+      "start_frame": 593,
+      "end_frame": 685,
+      "start_sec": 19.786433,
+      "end_sec": 22.856167,
+      "duration_sec": 3.1031,
+      "sampled_frame_indices": [
+        593,
+        606,
+        619,
+        632,
+        646,
+        659,
+        672,
+        685
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show an outdoor scene with a large, worn tire prominently in the foreground. The tire is lying on its side, with its tread facing upwards. In the background, there is a bottle of a cleaning or maintenance product, possibly a tire cleaner or inflator, and a small green object that could be a tool or a piece of equipment. The setting seems to be a dirt area with sparse vegetation, and the lighting suggests it might be daytime. The focus is on the tire, and the overall impression is that of a maintenance or repair activity related to the tire."
+    },
+    {
+      "scene_index": 5,
+      "start_frame": 686,
+      "end_frame": 1229,
+      "start_sec": 22.889533,
+      "end_sec": 41.007633,
+      "duration_sec": 18.151467,
+      "sampled_frame_indices": [
+        686,
+        764,
+        841,
+        919,
+        996,
+        1074,
+        1151,
+        1229
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to be a casual, candid shot of a man standing outdoors. He is wearing a mustache and has gray hair. The man is dressed in a gray shirt and is looking directly at the camera with a slight smile. The background features a wooden fence and a brick wall, suggesting a residential area. The lighting indicates it might be daytime. The man's expression and the informal setting suggest a relaxed, possibly personal moment captured in the video."
+    },
+    {
+      "scene_index": 6,
+      "start_frame": 1230,
+      "end_frame": 1692,
+      "start_sec": 41.041,
+      "end_sec": 56.4564,
+      "duration_sec": 15.448767,
+      "sampled_frame_indices": [
+        1230,
+        1296,
+        1362,
+        1428,
+        1494,
+        1560,
+        1626,
+        1692
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a scene of a maroon-colored minivan parked on a gravel driveway. The vehicle is positioned at an angle, with its front facing the camera and its side profile visible. The minivan appears to be a standard model with a visible antenna on the roof and a spare tire mounted on the back. The driveway is bordered by a wooden fence, and there is a blue trash can to the left of the vehicle. The lighting suggests it might be daytime, and the overall setting appears to be a residential area. There are no people visible in the frames provided. The focus is on the vehicle and its immediate surroundings."
+    },
+    {
+      "scene_index": 7,
+      "start_frame": 1693,
+      "end_frame": 1727,
+      "start_sec": 56.489767,
+      "end_sec": 57.624233,
+      "duration_sec": 1.167833,
+      "sampled_frame_indices": [
+        1693,
+        1698,
+        1703,
+        1708,
+        1712,
+        1717,
+        1722,
+        1727
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a cluttered, disorganized space, possibly a garage or storage area. The main focus is on a large, rusted metal object with the words \"DAVE'S TIRE TOOL\" written on it, suggesting it might be a piece of equipment or a storage container. The object is surrounded by various items, including boxes, tools, and bicycles, indicating a space used for storage and possibly maintenance or repair work. The overall impression is of a well-used, functional space, though it could benefit from tidying and organization."
+    },
+    {
+      "scene_index": 8,
+      "start_frame": 1728,
+      "end_frame": 1758,
+      "start_sec": 57.6576,
+      "end_sec": 58.6586,
+      "duration_sec": 1.034367,
+      "sampled_frame_indices": [
+        1728,
+        1732,
+        1737,
+        1741,
+        1745,
+        1749,
+        1754,
+        1758
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a cluttered workspace or storage area, possibly a garage or a workshop. The main focus is on a wooden shelf or table that is filled with various items. There are several cans, some of which are spray paint cans, suggesting that the area might be used for painting or crafting. There are also bottles, which could be paint or other liquids, and a few other objects that are not clearly identifiable. The scene is somewhat disorganized, with items scattered around, indicating that the space is actively used. The overall impression is of a functional, if somewhat chaotic, environment where work or creative projects are undertaken."
+    },
+    {
+      "scene_index": 9,
+      "start_frame": 1759,
+      "end_frame": 2214,
+      "start_sec": 58.691967,
+      "end_sec": 73.8738,
+      "duration_sec": 15.2152,
+      "sampled_frame_indices": [
+        1759,
+        1824,
+        1889,
+        1954,
+        2019,
+        2084,
+        2149,
+        2214
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a scene with a focus on a vehicle, specifically a car with a visible license plate. The car is parked on a paved surface, and the license plate reads \"APZY 380.\" The vehicle is positioned in such a way that the front end is visible, including the headlight, bumper, and part of the hood. The car's color is a shade of blue, and it has a standard design with a visible antenna on the roof. The background is nondescript, with a hint of a fence or barrier, suggesting an outdoor setting. The image quality is somewhat grainy, indicating that the video may have been taken with a lower-resolution camera or under low light conditions. The overall content of the video seems to be a casual, everyday moment captured in a series of still frames."
+    },
+    {
+      "scene_index": 10,
+      "start_frame": 2215,
+      "end_frame": 2690,
+      "start_sec": 73.907167,
+      "end_sec": 89.756333,
+      "duration_sec": 15.882533,
+      "sampled_frame_indices": [
+        2215,
+        2283,
+        2351,
+        2419,
+        2486,
+        2554,
+        2622,
+        2690
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a person interacting with a skateboard. In the first frame, a hand is seen holding the skateboard, which is lying on its side. The skateboard has a red wheel and a black deck. The second frame shows the skateboard being lifted, with the hand gripping the edge of the board. The third frame captures the skateboard being tilted, possibly in preparation for a trick or maneuver. The fourth frame shows the skateboard being placed back on the ground, with the hand releasing its grip. The fifth frame shows the skateboard being pushed along the ground, indicating that the person might be moving it or preparing to ride it. The sixth frame shows the skateboard being lifted again, with the hand holding the edge of the board. The seventh frame captures the skateboard being tilted once more, suggesting that the person is either adjusting it or preparing for another trick. The eighth frame shows the skateboard being placed back on the ground, with the hand releasing its grip. The ninth frame shows the skateboard being lifted again, with the hand holding the edge"
+    },
+    {
+      "scene_index": 11,
+      "start_frame": 2691,
+      "end_frame": 3599,
+      "start_sec": 89.7897,
+      "end_sec": 120.086633,
+      "duration_sec": 30.3303,
+      "sampled_frame_indices": [
+        2691,
+        2821,
+        2950,
+        3080,
+        3210,
+        3340,
+        3469,
+        3599
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a person interacting with a tire. In the first frame, a hand is seen holding a tire iron, poised to insert it into the tire. The tire is large and appears to be a spare tire, as indicated by the visible lug nuts. The person's hand is in focus, while the tire and the surrounding area are blurred, suggesting movement or a shallow depth of field. The tire iron is metallic and has a pointed end, which is typical for such tools used to change a tire. The scene suggests a moment of preparation or maintenance, possibly in an outdoor or semi-outdoor setting, given the natural light and the presence of the tire."
+    },
+    {
+      "scene_index": 12,
+      "start_frame": 3600,
+      "end_frame": 4213,
+      "start_sec": 120.12,
+      "end_sec": 140.573767,
+      "duration_sec": 20.487133,
+      "sampled_frame_indices": [
+        3600,
+        3688,
+        3775,
+        3863,
+        3950,
+        4038,
+        4125,
+        4213
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a person engaged in some sort of outdoor activity, possibly related to tire maintenance or repair. In the first frame, a hand is visible, holding a tire iron, which is being used to remove a tire from a wheel. The tire is large and appears to be a spare or a tire being changed. The second frame shows the tire iron being inserted into the center of the tire, indicating the process of loosening the lug nuts. The third frame provides a closer view of the tire iron and the tire, with the person's hand still holding the tool. The fourth frame shows the tire being lifted off the wheel, and the fifth frame captures the tire being fully removed from the wheel. The final frame shows the tire lying on the ground, with the person's hand still holding the tire iron, suggesting that the tire has been successfully removed and is now being handled separately from the wheel. The scene is set outdoors, with the ground visible beneath the tire and wheel."
+    },
+    {
+      "scene_index": 13,
+      "start_frame": 4214,
+      "end_frame": 4258,
+      "start_sec": 140.607133,
+      "end_sec": 142.075267,
+      "duration_sec": 1.5015,
+      "sampled_frame_indices": [
+        4214,
+        4220,
+        4227,
+        4233,
+        4239,
+        4245,
+        4252,
+        4258
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a close-up action shot of a person using a wrench to tighten a lug nut on a tire. The focus is on the hand holding the wrench, which is in the process of turning the nut. The tire is partially visible, showing the metal rim and the lug nuts. The person's arm is visible, and they are wearing a dark-colored jacket. The background is blurred, emphasizing the action in the foreground. The setting appears to be outdoors, possibly on a road or in a parking area, as suggested by the presence of a tire and the casual attire of the person. The video seems to be documenting a maintenance or repair task, likely related to vehicle upkeep."
+    },
+    {
+      "scene_index": 14,
+      "start_frame": 4259,
+      "end_frame": 4602,
+      "start_sec": 142.108633,
+      "end_sec": 153.5534,
+      "duration_sec": 11.478133,
+      "sampled_frame_indices": [
+        4259,
+        4308,
+        4357,
+        4406,
+        4455,
+        4504,
+        4553,
+        4602
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a close-up of a person's hand holding a spray bottle, which is being directed towards a tire. The tire is prominently featured in the foreground, with the spray bottle's nozzle pointing towards it. The tire has visible tread patterns and a visible brand logo. The person's hand is visible, gripping the bottle, and the spray bottle itself is partially visible, with its label facing the camera. The background is blurred, but it seems to be an outdoor setting with a hint of greenery, suggesting the tire might be on a vehicle parked in a natural or semi-natural environment. The focus of the video seems to be on the action of applying something to the tire, possibly for cleaning or maintenance purposes."
+    },
+    {
+      "scene_index": 15,
+      "start_frame": 4603,
+      "end_frame": 4646,
+      "start_sec": 153.586767,
+      "end_sec": 155.021533,
+      "duration_sec": 1.468133,
+      "sampled_frame_indices": [
+        4603,
+        4609,
+        4615,
+        4621,
+        4628,
+        4634,
+        4640,
+        4646
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a person engaged in some sort of outdoor activity, possibly related to a tire or wheel. The frames show a hand holding a white object that could be a tire or a wheel, with a focus on the center where a metal rod or axle is visible. The person is wearing a dark-colored shoe, and the ground is covered with dirt and debris. The context suggests that the person might be working on a vehicle or tire-related task, but the exact nature of the activity is not clear from the still frames provided."
+    },
+    {
+      "scene_index": 16,
+      "start_frame": 4647,
+      "end_frame": 4772,
+      "start_sec": 155.0549,
+      "end_sec": 159.225733,
+      "duration_sec": 4.2042,
+      "sampled_frame_indices": [
+        4647,
+        4665,
+        4683,
+        4701,
+        4718,
+        4736,
+        4754,
+        4772
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a person engaged in a mechanical or repair task. The main focus is on a hand holding a tool, which seems to be a wrench or a similar type of pliers, inserted into a cylindrical object that could be a tire or a similar round component. The tool is being used to manipulate or adjust something inside the cylinder. The person's hand is visible, gripping the tool, and the object being worked on is partially visible, with the tool extending into it. The background is not clearly visible, but it seems to be an outdoor setting with a hint of greenery, suggesting the activity might be taking place in a yard or a similar outdoor environment. The overall content of the video suggests a hands-on, practical activity, possibly related to vehicle maintenance or a similar mechanical task."
+    },
+    {
+      "scene_index": 17,
+      "start_frame": 4773,
+      "end_frame": 4949,
+      "start_sec": 159.2591,
+      "end_sec": 165.131633,
+      "duration_sec": 5.9059,
+      "sampled_frame_indices": [
+        4773,
+        4798,
+        4823,
+        4848,
+        4874,
+        4899,
+        4924,
+        4949
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a close-up of a person's hand holding a yellow object, possibly a banana or a similar fruit, with the focus on the hand and the object. The hand is positioned in such a way that it seems to be either peeling the object or holding it up to the light. The background is blurred, but it looks like the person is standing in a room with a metallic surface, possibly a kitchen or a room with a reflective floor. The overall content of the video is a simple, everyday action captured in a close-up shot, emphasizing the hand and the object being held."
+    },
+    {
+      "scene_index": 18,
+      "start_frame": 4950,
+      "end_frame": 5013,
+      "start_sec": 165.165,
+      "end_sec": 167.2671,
+      "duration_sec": 2.135467,
+      "sampled_frame_indices": [
+        4950,
+        4959,
+        4968,
+        4977,
+        4986,
+        4995,
+        5004,
+        5013
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a close-up of a person working on a vehicle, specifically focusing on a tire. The tire is partially visible, with the rim and part of the tread exposed. The person's hand is holding a tool, which seems to be a tire iron or a similar type of equipment used for tire maintenance. The tool is being used to manipulate the tire, possibly to loosen or tighten the lug nuts. The image is slightly blurred, suggesting movement or a close-up shot. The context of the scene is not entirely clear, but it seems to be an everyday situation involving vehicle maintenance or repair."
+    },
+    {
+      "scene_index": 19,
+      "start_frame": 5014,
+      "end_frame": 5206,
+      "start_sec": 167.300467,
+      "end_sec": 173.706867,
+      "duration_sec": 6.439767,
+      "sampled_frame_indices": [
+        5014,
+        5041,
+        5069,
+        5096,
+        5124,
+        5151,
+        5179,
+        5206
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a close-up view of a mechanical or industrial setting, possibly a part of a vehicle or machinery. The main focus is on a metal object with a shiny surface, which could be a wheel or a cylindrical component. The object is partially obscured by a black substance, which might be dirt, grease, or some form of debris. The image is somewhat blurry, making it difficult to discern finer details. The overall content of the video suggests a scene of maintenance or inspection, with a focus on the mechanical aspect of the equipment."
+    },
+    {
+      "scene_index": 20,
+      "start_frame": 5207,
+      "end_frame": 5362,
+      "start_sec": 173.740233,
+      "end_sec": 178.912067,
+      "duration_sec": 5.2052,
+      "sampled_frame_indices": [
+        5207,
+        5229,
+        5251,
+        5273,
+        5296,
+        5318,
+        5340,
+        5362
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a close-up of a person working on a vehicle, specifically focusing on the wheel and tire area. The individual is using a tool, possibly a wrench or a similar type of pliers, to manipulate a part of the wheel or tire. The scene is out of focus, which makes it difficult to discern specific details about the person or the vehicle. The main action captured in these frames is the interaction between the tool and the wheel, suggesting some form of maintenance or repair work is being performed."
+    },
+    {
+      "scene_index": 21,
+      "start_frame": 5363,
+      "end_frame": 5679,
+      "start_sec": 178.945433,
+      "end_sec": 189.4893,
+      "duration_sec": 10.577233,
+      "sampled_frame_indices": [
+        5363,
+        5408,
+        5453,
+        5498,
+        5544,
+        5589,
+        5634,
+        5679
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a person interacting with a tire. In the first frame, a hand is seen holding a tool, possibly a tire iron or a similar device, which is inserted into the center of the tire. The tire is large and appears to be a spare or a tire that has been removed from a vehicle. The person's hand is visible, gripping the tool, and the tire is in focus, with the background being out of focus. The tire is placed on a surface that looks like a dirt or gravel area, suggesting an outdoor setting. The person seems to be in the process of either changing the tire or performing some maintenance on it. The image quality is somewhat grainy, and the focus is not sharp, which may indicate that the video was taken with a low-resolution camera or under poor lighting conditions."
+    },
+    {
+      "scene_index": 22,
+      "start_frame": 5680,
+      "end_frame": 5826,
+      "start_sec": 189.522667,
+      "end_sec": 194.3942,
+      "duration_sec": 4.9049,
+      "sampled_frame_indices": [
+        5680,
+        5701,
+        5722,
+        5743,
+        5763,
+        5784,
+        5805,
+        5826
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a close-up action shot of a person's hand holding a tool, likely a screwdriver or a similar type of implement, and inserting it into a tire. The tire appears to be a spare or a wheel that is being serviced or repaired. The person's hand is visible, gripping the tool firmly, and the tire's inner rim is visible, showing the metal structure that holds the wheel in place. The focus is on the interaction between the tool and the tire, suggesting a repair or maintenance scenario. The image is slightly blurred, indicating movement or a close-up shot with a shallow depth of field."
+    },
+    {
+      "scene_index": 23,
+      "start_frame": 5827,
+      "end_frame": 5916,
+      "start_sec": 194.427567,
+      "end_sec": 197.3972,
+      "duration_sec": 3.003,
+      "sampled_frame_indices": [
+        5827,
+        5840,
+        5852,
+        5865,
+        5878,
+        5891,
+        5903,
+        5916
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a close-up action shot of a person's hand holding a tire. The tire is prominently displayed, with the hand gripping the rim, and the person appears to be in the process of either mounting or dismounting the tire. The tire has visible tread patterns and is mounted on a wheel hub. The background is blurred, emphasizing the action of the tire change. The focus is on the tire and the hand, with no additional context provided."
+    },
+    {
+      "scene_index": 24,
+      "start_frame": 5917,
+      "end_frame": 5962,
+      "start_sec": 197.430567,
+      "end_sec": 198.932067,
+      "duration_sec": 1.534867,
+      "sampled_frame_indices": [
+        5917,
+        5923,
+        5930,
+        5936,
+        5943,
+        5949,
+        5956,
+        5962
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a close-up of a person's hand interacting with a large, textured object that resembles a tire or a wheel. The hand is holding onto the edge of the object, which is blurred, suggesting motion or a close-up shot. The focus is on the hand and the object, with the background being out of focus, emphasizing the action. The image quality is low, with pixelation and blurriness, which indicates that the video may have been taken with a low-resolution camera or under poor lighting conditions. The context of the scene is not clear, but it seems to involve some form of manual operation or handling of the large object."
+    },
+    {
+      "scene_index": 25,
+      "start_frame": 5963,
+      "end_frame": 6278,
+      "start_sec": 198.965433,
+      "end_sec": 209.475933,
+      "duration_sec": 10.543867,
+      "sampled_frame_indices": [
+        5963,
+        6008,
+        6053,
+        6098,
+        6143,
+        6188,
+        6233,
+        6278
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a close-up action shot of a person's hand interacting with a tire. The hand is seen holding onto the rim of the tire, which is partially visible in the frame. The tire appears to be a large, possibly off-road or heavy-duty vehicle tire, with a visible tread pattern. The person's hand is positioned as if they are either removing or adjusting the tire, and the focus is on the hand and the tire, with the background being out of focus. The image does not provide enough context to determine the exact nature of the situation or the specific type of vehicle."
+    },
+    {
+      "scene_index": 26,
+      "start_frame": 6279,
+      "end_frame": 7395,
+      "start_sec": 209.5093,
+      "end_sec": 246.7465,
+      "duration_sec": 37.270567,
+      "sampled_frame_indices": [
+        6279,
+        6438,
+        6598,
+        6757,
+        6917,
+        7076,
+        7236,
+        7395
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a person engaged in some sort of outdoor activity, possibly related to tire maintenance or repair. The main focus is on a large, worn tire that is being worked on. The tire is placed on a surface that looks like a mix of dirt and grass, suggesting an informal or makeshift setting. The person's hand is visible, holding a tool that seems to be used for tire repair or adjustment. The tire has a visible hole in the center, which could indicate damage or a need for adjustment. The scene is outdoors, and the lighting suggests it might be daytime. The overall content of the video seems to be centered around tire repair or modification, with the person likely being the one performing the task."
+    },
+    {
+      "scene_index": 27,
+      "start_frame": 7396,
+      "end_frame": 7968,
+      "start_sec": 246.779867,
+      "end_sec": 265.8656,
+      "duration_sec": 19.1191,
+      "sampled_frame_indices": [
+        7396,
+        7478,
+        7559,
+        7641,
+        7723,
+        7805,
+        7886,
+        7968
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a person engaged in a task involving a tire. In the first frame, a hand is holding a tool, possibly a tire iron or a similar device, which is inserted into the center of the tire. The tire is partially visible, with its sidewall and tread pattern showing. The second frame shows the same hand and tool, now positioned further into the tire, suggesting the person is attempting to remove a nail or a similar object lodged in the center of the tire. The third frame continues the action, with the tool being pushed deeper into the tire. The fourth frame shows the tire being lifted off the ground, indicating that the person is likely trying to change the tire or remove the object. The fifth frame shows the tire being fully off the ground, and the tool is still inserted into the tire. The sixth frame shows the tire being held up, and the tool is still in the tire, suggesting that the person is still working on the tire. The seventh frame shows the tire being held up, and the tool is still in the tire, indicating that the person is still in the process of removing the object or changing the tire. The eighth frame shows"
+    },
+    {
+      "scene_index": 28,
+      "start_frame": 7969,
+      "end_frame": 8489,
+      "start_sec": 265.898967,
+      "end_sec": 283.249633,
+      "duration_sec": 17.384033,
+      "sampled_frame_indices": [
+        7969,
+        8043,
+        8118,
+        8192,
+        8266,
+        8340,
+        8415,
+        8489
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a close-up of a tire with a star-shaped object, possibly a tool or a piece of debris, lodged in its tread. The tire is partially visible, with the star-shaped object occupying a significant portion of the frame. The focus is on the tire and the object, with the background being out of focus, suggesting that the camera is held close to the tire. The image quality is somewhat blurry, making it difficult to discern finer details. The context of the scene is not clear, but the presence of the tire and the object suggests some form of maintenance or repair activity."
+    },
+    {
+      "scene_index": 29,
+      "start_frame": 8490,
+      "end_frame": 8610,
+      "start_sec": 283.283,
+      "end_sec": 287.287,
+      "duration_sec": 4.037367,
+      "sampled_frame_indices": [
+        8490,
+        8507,
+        8524,
+        8541,
+        8559,
+        8576,
+        8593,
+        8610
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a close-up view of a tire with a star-shaped object embedded in its tread. The star-shaped object is prominently featured in the center of the image, with its points facing outward. The tire itself is partially visible, with the tread pattern and the sidewall showing. The focus is on the tire and the embedded object, which seems to be a piece of metal or a similar material. The image quality is somewhat blurry, making it difficult to discern finer details. The context of the video is not clear, but it seems to be a still image taken from a video, possibly to highlight the unusual object in the tire."
+    },
+    {
+      "scene_index": 30,
+      "start_frame": 8611,
+      "end_frame": 8714,
+      "start_sec": 287.320367,
+      "end_sec": 290.757133,
+      "duration_sec": 3.470133,
+      "sampled_frame_indices": [
+        8611,
+        8626,
+        8640,
+        8655,
+        8670,
+        8685,
+        8699,
+        8714
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a close-up of a tire with a focus on the tread pattern. The tire is partially visible, with the rim and part of the tread in the frame. The tread pattern is prominent, with the grooves and sipes clearly visible. The tire seems to be in a state of disrepair or wear, as indicated by the visible tread depth. There is no clear indication of the tire being mounted or dismounted, nor is there any visible activity beyond the tire itself. The image quality is somewhat blurry, which makes it difficult to discern finer details. The context of the scene is not provided, so it's unclear whether this is a still image or a sequence of images from a video."
+    },
+    {
+      "scene_index": 31,
+      "start_frame": 8715,
+      "end_frame": 8972,
+      "start_sec": 290.7905,
+      "end_sec": 299.365733,
+      "duration_sec": 8.6086,
+      "sampled_frame_indices": [
+        8715,
+        8752,
+        8788,
+        8825,
+        8862,
+        8899,
+        8935,
+        8972
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a close-up view of a tire, with a focus on its tread pattern and the condition of the rubber. The tire is partially obscured by a metal hubcap, which is visible in the foreground of the image. The tread pattern is worn, indicating that the tire has been used for some time. The background is blurred, but it seems to be an outdoor setting with a hint of greenery, suggesting the tire might be on a vehicle parked in a natural or semi-natural environment. The overall content of the video is a detailed examination of the tire's condition, possibly for the purpose of assessing its wear or for maintenance purposes."
+    },
+    {
+      "scene_index": 32,
+      "start_frame": 8973,
+      "end_frame": 9062,
+      "start_sec": 299.3991,
+      "end_sec": 302.368733,
+      "duration_sec": 3.003,
+      "sampled_frame_indices": [
+        8973,
+        8986,
+        8998,
+        9011,
+        9024,
+        9037,
+        9049,
+        9062
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video captures a close-up action shot of a person's hand interacting with a tire. The hand is seen pressing down on the tire, which is partially visible in the frame. The tire appears to be a spare tire, as indicated by the text \"SPARE TIRE\" on its side. The person's hand is positioned on the tire's rim, suggesting an action of either checking the tire's pressure or preparing to change it. The focus is on the hand and the tire, with the background being out of focus, emphasizing the action. The image conveys a sense of readiness or maintenance, possibly in a vehicle or outdoor setting."
+    },
+    {
+      "scene_index": 33,
+      "start_frame": 9063,
+      "end_frame": 9331,
+      "start_sec": 302.4021,
+      "end_sec": 311.344367,
+      "duration_sec": 8.975633,
+      "sampled_frame_indices": [
+        9063,
+        9101,
+        9140,
+        9178,
+        9216,
+        9254,
+        9293,
+        9331
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to show a scene of maintenance or repair work involving a tire and a spray bottle. In the first frame, a large, black tire with a visible tread pattern is lying on its side on a concrete surface. The tire is partially inflated, with the inner part exposed, revealing the metal rim and the inner rubber of the tire. In the second frame, a spray bottle is positioned near the tire, suggesting that it might be used for cleaning or lubrication purposes. The third frame shows a small, white object, possibly a tool or a part of the tire, lying on the ground next to the tire. The fourth frame shows a small, black object, which could be a screwdriver or a similar tool, placed near the tire. The fifth frame shows a small, white object, possibly a tool or a part of the tire, lying on the ground next to the tire. The sixth frame shows a small, black object, which could be a screwdriver or a similar tool, placed near the tire. The seventh frame shows a small, white object, possibly a tool or a part of the tire, lying on the ground next to the tire. The e"
+    },
+    {
+      "scene_index": 34,
+      "start_frame": 9332,
+      "end_frame": 10596,
+      "start_sec": 311.377733,
+      "end_sec": 353.5532,
+      "duration_sec": 42.208833,
+      "sampled_frame_indices": [
+        9332,
+        9513,
+        9693,
+        9874,
+        10054,
+        10235,
+        10415,
+        10596
+      ],
+      "num_sampled_frames": 8,
+      "caption": "The video appears to be a casual, candid moment captured outdoors. The main subject is a man with a mustache, who is looking directly at the camera with a slight smile. He is wearing a light-colored shirt and has graying hair. The background shows a wooden fence, a house, and a car parked on a driveway. The setting seems to be a residential area, possibly a backyard or a side yard. The man's expression and the informal nature of the video suggest a relaxed, possibly candid moment, possibly during a conversation or an interview."
+    }
+  ]
+}
