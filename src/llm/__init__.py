@@ -1,5 +1,3 @@
-"""LLM helpers for real API-backed caption generation."""
+from src.llm.client import LLMClient, MockLLMClient, build_llm_client
 
-from src.llm.deepseek_client import DeepSeekVideoCaptioner, RuleBasedVideoCaptioner, call_llm
-
-__all__ = ["call_llm", "DeepSeekVideoCaptioner", "RuleBasedVideoCaptioner"]
+__all__ = ["LLMClient", "MockLLMClient", "build_llm_client"]

@@ -1,10 +1,16 @@
-from src.preprocessing.segmenter import build_fixed_segments
-from src.preprocessing.video_loader import load_video_meta
-from src.preprocessing.window_builder import build_sliding_windows, uniform_sample_indices
+from src.preprocessing.frame_mapper import FrameScoreMapper
+from src.preprocessing.segmenter import (
+    build_segments_by_count,
+    build_segments_by_frame_window,
+    sample_uniform_indices,
+)
+from src.preprocessing.video_reader import load_video_info, read_frames
 
 __all__ = [
-    "load_video_meta",
-    "build_fixed_segments",
-    "build_sliding_windows",
-    "uniform_sample_indices",
+    "FrameScoreMapper",
+    "build_segments_by_count",
+    "build_segments_by_frame_window",
+    "sample_uniform_indices",
+    "load_video_info",
+    "read_frames",
 ]

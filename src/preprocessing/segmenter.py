@@ -1,39 +1,82 @@
 from __future__ import annotations
 
-from typing import List
 
-from src.datasets.schemas import Segment, VideoMeta
-
-
-def build_fixed_segments(video_meta: VideoMeta, segment_length_sec: float) -> List[Segment]:
-    """Split a video into fixed-length coarse segments."""
-    if segment_length_sec <= 0:
-        raise ValueError(f"segment_length_sec must be positive, got {segment_length_sec}.")
-
-    if video_meta.total_frames == 0:
+def build_segments_by_count(
+    total_frames: int,
+    num_segments: int,
+    caption_frames_per_segment: int,
+) -> list[dict[str, int | list[int]]]:
+    if total_frames <= 0:
         return []
+    if num_segments <= 0:
+        raise ValueError("num_segments must be positive.")
 
-    segment_length_frames = max(1, int(round(segment_length_sec * video_meta.fps)))
-    segments: List[Segment] = []
-    seg_index = 0
+    segment_size = max(1, total_frames // num_segments)
+    segments = []
     start_frame = 0
 
-    while start_frame < video_meta.total_frames:
-        end_frame = min(start_frame + segment_length_frames, video_meta.total_frames)
-        start_sec = start_frame / video_meta.fps
-        end_sec = end_frame / video_meta.fps
-
+    for segment_id in range(num_segments):
+        if start_frame >= total_frames:
+            break
+        end_frame = total_frames if segment_id == num_segments - 1 else min(total_frames, start_frame + segment_size)
         segments.append(
-            Segment(
-                seg_id=f"seg_{seg_index}",
-                start_frame=start_frame,
-                end_frame=end_frame,
-                start_sec=start_sec,
-                end_sec=end_sec,
-            )
+            {
+                "segment_id": segment_id,
+                "start_frame": start_frame,
+                "end_frame": end_frame,
+                "caption_frame_indices": sample_uniform_indices(start_frame, end_frame, caption_frames_per_segment),
+            }
         )
-
         start_frame = end_frame
-        seg_index += 1
 
     return segments
+
+
+def build_segments_by_frame_window(
+    total_frames: int,
+    frames_per_segment: int,
+    caption_frames_per_segment: int,
+    overlap_frames: int = 0,
+) -> list[dict[str, int | list[int]]]:
+    if total_frames <= 0:
+        return []
+    if frames_per_segment <= 0:
+        raise ValueError("frames_per_segment must be positive.")
+    if overlap_frames < 0:
+        raise ValueError("overlap_frames must be non-negative.")
+    if overlap_frames >= frames_per_segment:
+        raise ValueError("overlap_frames must be smaller than frames_per_segment.")
+
+    segments = []
+    segment_id = 0
+    stride = frames_per_segment - overlap_frames
+    for start_frame in range(0, total_frames, stride):
+        end_frame = min(total_frames, start_frame + frames_per_segment)
+        segments.append(
+            {
+                "segment_id": segment_id,
+                "start_frame": start_frame,
+                "end_frame": end_frame,
+                "caption_frame_indices": sample_uniform_indices(start_frame, end_frame, caption_frames_per_segment),
+            }
+        )
+        if end_frame >= total_frames:
+            break
+        segment_id += 1
+
+    return segments
+
+
+def sample_uniform_indices(start_frame: int, end_frame: int, num_samples: int) -> list[int]:
+    if end_frame <= start_frame or num_samples <= 0:
+        return []
+
+    length = end_frame - start_frame
+    count = min(num_samples, length)
+    if count == 1:
+        return [start_frame]
+
+    return [
+        int(round(start_frame + index * (length - 1) / (count - 1)))
+        for index in range(count)
+    ]

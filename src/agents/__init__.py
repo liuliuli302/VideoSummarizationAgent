@@ -1,17 +1,15 @@
-from src.agents.domain_agent import DomainAgent
-from src.agents.counterfactual_critic import CounterfactualCritic
-from src.agents.event_agent import EventAgent
-from src.agents.mainline_agent import MainlineAgent
-from src.agents.novelty_agent import NoveltyAgent
+from src.agents.base_agent import BaseExpertAgent
+from src.agents.emotion_agent import EmotionAgent
+from src.agents.information_agent import InformationAgent
 from src.agents.planner_agent import PlannerAgent
-from src.agents.temporal_agent import TemporalAgent
+from src.agents.story_agent import StoryAgent
+from src.agents.visual_agent import VisualAgent
 
 __all__ = [
-    "CounterfactualCritic",
+    "BaseExpertAgent",
+    "EmotionAgent",
+    "InformationAgent",
     "PlannerAgent",
-    "MainlineAgent",
-    "NoveltyAgent",
-    "EventAgent",
-    "TemporalAgent",
-    "DomainAgent",
+    "StoryAgent",
+    "VisualAgent",
 ]
