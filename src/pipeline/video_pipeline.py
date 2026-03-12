@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import os
 
+from tqdm.auto import tqdm
+
 from src.agents import EmotionAgent, InformationAgent, PlannerAgent, StoryAgent, VisualAgent
 from src.caption import SegmentCaptioner
 from src.data import InferenceResult, PlannerPlan, Segment, SegmentScore
@@ -63,7 +65,15 @@ class VideoSummarizationPipeline:
             caption_frames_per_segment=caption_frames_per_segment,
         )
 
-        captions = [self.captioner.caption_segment(video_path=video_path, segment=segment) for segment in segments]
+        captions = [
+            self.captioner.caption_segment(video_path=video_path, segment=segment)
+            for segment in tqdm(
+                segments,
+                total=len(segments),
+                desc=f"Captioning {video_info.video_id}",
+                leave=False,
+            )
+        ]
         planner_plan = self.planner.plan_video([item.caption for item in captions])
         segment_scores = self._score_segments(segments=segments, captions=captions, planner_plan=planner_plan)
 
@@ -134,7 +144,13 @@ class VideoSummarizationPipeline:
         self.memory.reset()
         results: list[SegmentScore] = []
 
-        for segment, caption in zip(segments, captions):
+        segment_pairs = zip(segments, captions)
+        for segment, caption in tqdm(
+            segment_pairs,
+            total=len(segments),
+            desc="Scoring segments",
+            leave=False,
+        ):
             memory_context = self.memory.build_context()
             planner_score = self.planner.score_segment(
                 planner_plan=planner_plan,

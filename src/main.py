@@ -8,6 +8,8 @@ import sys
 from pathlib import Path
 from typing import Any
 
+from tqdm.auto import tqdm
+
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 if PROJECT_ROOT not in sys.path:
     sys.path.append(PROJECT_ROOT)
@@ -78,18 +80,25 @@ def evaluate_record(
     normalized_scores = reporter.normalize_scores(inference_result.frame_scores)
     smoothed_scores = reporter.smooth_scores(normalized_scores, window_size=args.eval_smooth_window)
 
-    variants = [
-        EvalVariantResult(
-            variant_name="normalized_raw",
-            frame_scores=normalized_scores,
-            eval_result=evaluator.evaluate(frame_scores=normalized_scores, record=record),
-        ),
-        EvalVariantResult(
-            variant_name="normalized_smoothed",
-            frame_scores=smoothed_scores,
-            eval_result=evaluator.evaluate(frame_scores=smoothed_scores, record=record),
-        ),
+    variant_inputs = [
+        ("normalized_raw", normalized_scores),
+        ("normalized_smoothed", smoothed_scores),
     ]
+    variants: list[EvalVariantResult] = []
+    for variant_name, frame_scores in tqdm(
+        variant_inputs,
+        total=len(variant_inputs),
+        desc=f"Evaluating {Path(record.video_id).stem}",
+        leave=False,
+    ):
+        variants.append(
+            EvalVariantResult(
+                variant_name=variant_name,
+                frame_scores=frame_scores,
+                eval_result=evaluator.evaluate(frame_scores=frame_scores, record=record),
+            )
+        )
+
     artifacts = reporter.save_video_report(
         record=record,
         variants=variants,
@@ -135,7 +144,8 @@ def run_dataset_split_evaluation(args: argparse.Namespace) -> None:
     )
 
     total = len(video_ids)
-    for index, video_id in enumerate(video_ids, start=1):
+    video_progress = tqdm(video_ids, total=total, desc=f"Evaluating {args.dataset_name}")
+    for index, video_id in enumerate(video_progress, start=1):
         record = dataset_loader.load_record(args.dataset_name, video_id)
         _, _, artifacts = evaluate_record(
             pipeline=pipeline,
@@ -144,6 +154,7 @@ def run_dataset_split_evaluation(args: argparse.Namespace) -> None:
             record=record,
             args=args,
         )
+        video_progress.set_postfix_str(Path(video_id).stem)
         print(f"[{index}/{total}] Evaluation saved to: {artifacts['video_dir']}")
 
     split_aggregator = SplitEvaluationAggregator(

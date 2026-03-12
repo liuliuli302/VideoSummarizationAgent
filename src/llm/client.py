@@ -73,7 +73,7 @@ class LLMClient:
     def generate_json(self, system_prompt: str, user_prompt: str) -> dict[str, Any]:
         raw_text = self.generate_text(system_prompt=system_prompt, user_prompt=user_prompt)
         try:
-            return json.loads(raw_text)
+            return self._parse_json_response(raw_text)
         except json.JSONDecodeError:
             retry_prompt = (
                 f"{user_prompt}\n\n"
@@ -81,9 +81,36 @@ class LLMClient:
             )
             retry_text = self.generate_text(system_prompt=system_prompt, user_prompt=retry_prompt)
             try:
-                return json.loads(retry_text)
+                return self._parse_json_response(retry_text)
             except json.JSONDecodeError as exc:
                 raise ValueError(f"LLM output is not valid JSON: {retry_text}") from exc
+
+    def _parse_json_response(self, text: str) -> dict[str, Any]:
+        candidates: list[str] = []
+        stripped = text.strip()
+        if stripped:
+            candidates.append(stripped)
+
+        fenced_blocks = re.findall(r"```(?:json)?\s*(.*?)\s*```", text, flags=re.IGNORECASE | re.DOTALL)
+        candidates.extend(block.strip() for block in fenced_blocks if block.strip())
+
+        object_match = re.search(r"\{.*\}", text, flags=re.DOTALL)
+        if object_match:
+            candidates.append(object_match.group(0).strip())
+
+        seen: set[str] = set()
+        for candidate in candidates:
+            if candidate in seen:
+                continue
+            seen.add(candidate)
+            try:
+                payload = json.loads(candidate)
+            except json.JSONDecodeError:
+                continue
+            if isinstance(payload, dict):
+                return payload
+
+        raise json.JSONDecodeError("No JSON object found", text, 0)
 
     def _to_data_url(self, image: Image.Image) -> str:
         buffer = BytesIO()
