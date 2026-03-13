@@ -1,0 +1,365 @@
+{
+  "video_id": "98MoyGZKHXc",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 600,
+      "planner_score": 0.95,
+      "planner_reason": "This segment is crucial as it establishes the video's purpose, introduces the presenter and the problem (flat tire), and sets up the instructional context with the 'Which?' title card. It transitions from the initial driving scene to the problem scenario, making it essential for narrative setup and viewer engagement in a tutorial format.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment primarily serves as an introduction and setup for the tutorial, establishing the scenario and introducing the instructional theme. It shows the car being driven, hints at a potential issue with the tire, and presents the title card, but does not yet depict the main event progression—the actual repair process using the tire repair kit. Its contribution to story progression is limited to initial context-setting."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment primarily serves as an introduction to the tutorial, establishing the scenario and presenting the title card. While it sets up the context for the repair process, it lacks visually striking or highlight-worthy actions such as the actual repair steps. The shots are straightforward (driving, wheel shot, parked car) and do not showcase dynamic or diverse visual content that would make it stand out as a highlight."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment primarily serves as an introduction to an instructional tutorial, with a calm and explanatory tone. While there is a slight sense of narrative setup (driving, then a parked car suggesting a potential issue), the emotional expression, tension, or sentiment is minimal. The focus is on informative presentation rather than evoking strong emotions."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces the video's purpose, establishes the presenter and setting, and provides the instructional topic ('How to use a tyre repair kit'), which is new information relative to the global summary. However, it does not yet detail the repair steps, so the information is foundational but not yet fully procedural."
+        }
+      },
+      "final_score": 1.325
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 400,
+      "end_frame": 1000,
+      "planner_score": 0.85,
+      "planner_reason": "This segment establishes the core problem (flat tire) and shows the initial preparatory steps (inspecting the tire, disabling the airbag for safety) before using the repair kit. It directly sets up the instructional scenario and demonstrates safety awareness, which is crucial for a tutorial. However, it precedes the actual repair demonstration, making it slightly less critical than the hands-on steps that follow.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment directly introduces the main problem (flat tire) and the protagonist's initial response, setting up the core scenario for the tutorial. It establishes the need for the repair kit and shows preparatory actions, contributing significantly to the story's progression by moving from discovery to the beginning of the solution phase."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment is visually straightforward and instructional, showing a man inspecting a flat tire and performing a safety step (disabling the airbag), but it lacks striking visuals, diversity, or highlight-worthy moments. It serves as a setup for the repair process without dynamic or engaging visual elements."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment establishes a practical scenario with a flat tire, which introduces mild concern or urgency, but the emotional expression is subdued and instructional in tone. The focus is on methodical preparation and safety steps, lacking strong tension, dramatic sentiment, or heightened emotional cues."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces the specific problem (flat tire) and shows initial preparatory actions (inspecting the wheel, disabling the airbag), which adds some new information about the repair scenario setup. However, it does not yet provide substantive instructional content about using the repair kit itself, which limits its informational value relative to the tutorial's purpose."
+        }
+      },
+      "final_score": 1.3250000000000002
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 800,
+      "end_frame": 1400,
+      "planner_score": 0.85,
+      "planner_reason": "The segment is crucial for a tutorial video as it shows the initial inspection and preparation steps before the repair. This establishes the problem (flat tire) and the preparatory actions (checking interior lights, examining tire, opening trunk), which are foundational for the instructional narrative. It directly supports the tutorial's step-by-step structure, making it highly important for the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment shows preliminary vehicle inspection and preparation, which is a necessary step but not the core repair action. It contributes minimally to the main event progression of actually using the tire repair kit, as it primarily establishes the starting condition rather than advancing the repair process."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment is visually straightforward and instructional, focusing on preparatory actions like inspecting the car interior and opening the trunk, but lacks striking visuals, dynamic shots, or highlight-worthy moments compared to more active repair steps in the video's theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a calm, methodical inspection process with no visible emotional expression, tension, or strong sentiment. The actions are purely instructional and procedural, focusing on vehicle checks without any dramatic elements or emotional cues."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment introduces new visual details (interior power button, airbag warning lights, trunk opening) that suggest preparatory actions, but it does not provide substantial new instructional content beyond reinforcing the setup phase. It adds minor contextual information about vehicle checks, which is relevant but not a significant advancement in the tutorial's step-by-step process."
+        }
+      },
+      "final_score": 1.225
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1200,
+      "end_frame": 1800,
+      "planner_score": 0.9,
+      "planner_reason": "This segment is highly important as it shows the core problem (flat tire) and introduces the primary solution tool (repair kit). In a tutorial video, establishing the problem and presenting the key equipment are essential steps that viewers need to see to understand the repair process. The segment directly supports the instructional purpose by showing both the issue and the tool that will be used to fix it.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "The segment directly advances the story by showing the man identifying the flat tire and retrieving the repair kit, which is a key step in the tutorial's main event progression from problem identification to solution initiation."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment depicts a key action in the tutorial—retrieving the repair kit—which is essential for the instructional narrative, but it lacks dynamic or visually diverse elements. The focus is on a straightforward, practical step without striking visuals or varied camera angles, making it moderately highlight-worthy due to its instructional importance but not exceptionally engaging."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a practical, instructional scenario with a calm and methodical approach to addressing a flat tire. The emotional expression is minimal, focused on problem-solving rather than heightened tension or sentiment, typical of a tutorial format."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces the specific repair tool (portable tire sealant and compressor kit) and the action of retrieving it, which is new instructional content not previously detailed, advancing the tutorial's practical steps."
+        }
+      },
+      "final_score": 1.525
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1600,
+      "end_frame": 2200,
+      "planner_score": 0.95,
+      "planner_reason": "This segment directly demonstrates the core repair procedure of the tutorial—using the sealant and compressor kit—which is the main instructional content viewers need to learn. It follows logically from setup and preparation, showing the actual application of the tools to fix the flat tire, making it highly important for the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment directly advances the main event by showing the man actively retrieving and preparing the repair tools, specifically connecting the compressor to the sealant bottle and applying it to the valve stem, which is a critical step in the tire repair process outlined in the tutorial."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.5,
+          "reason": "The segment is visually clear and directly relevant to the tutorial's core action, showing the retrieval and initial setup of the repair kit, which is a key instructional step. However, it lacks striking or diverse visuals, being a straightforward, close-up demonstration with minimal dynamic variation or highlight-worthy aesthetic appeal compared to more dramatic or varied segments in the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment is instructional and procedural, focusing on the methodical steps of using a tire repair kit. There is minimal emotional expression, tension, or sentiment; the tone is calm, informative, and neutral, typical of a tutorial. No heightened emotions, drama, or strong sentiment are present."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces the specific process of connecting the compressor to the sealant bottle and applying it to the valve stem, which is a new, actionable instruction not detailed in previous segments. While the retrieval of the kit was mentioned earlier, the application steps provide fresh procedural content."
+        }
+      },
+      "final_score": 1.5499999999999998
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 2000,
+      "end_frame": 2600,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment directly demonstrates a key step in the tutorial's process: inflating the tire after applying sealant. This is a crucial, actionable part of the repair procedure, making it highly relevant for a summary aimed at teaching viewers how to use a tire repair kit.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment directly advances the main repair procedure by showing the critical step of inflating the tire after sealant application. It demonstrates the practical use of the portable compressor—connecting to the valve and powering it via the car's 12V socket—which is essential to completing the repair and enabling the car to be driven again. While it follows the preparatory steps shown in prior segments, it represents active progression toward resolving the flat tire scenario central to the tutorial's narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment is visually clear and demonstrates a key step in the repair process, which is highlight-worthy as it shows the practical application of the tire inflation solution. However, it lacks striking visual diversity or dramatic elements, being a straightforward instructional shot focused on the action without dynamic angles or significant visual flair."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment depicts a practical, instructional action with a neutral, focused tone typical of a tutorial. While there is mild engagement from the demonstrative nature of the task, it lacks strong emotional expression, tension, or sentiment, as the content is procedural and calm without dramatic elements or heightened feelings."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.7,
+          "reason": "The segment provides new instructional content by demonstrating the specific steps of connecting the compressor to the tire valve and plugging it into the car's 12V socket, which is a practical detail not explicitly shown in previous segments. However, the overall context of using a tire repair kit has been established, so this adds incremental rather than foundational information."
+        }
+      },
+      "final_score": 1.5
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 2400,
+      "end_frame": 3000,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows the core action of the repair process—actively inflating the tire—which is essential to the tutorial's demonstration. It directly follows the setup and preparation steps, delivering the practical outcome viewers need to see. While important, it is slightly less critical than earlier segments that introduced the problem and the repair kit, as this step is more procedural and expected once the setup is complete.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment directly depicts the core action of inflating the tire using the portable compressor, which is a critical step in the repair process outlined in the tutorial. It advances the main event from preparation and sealant application to the actual inflation that completes the repair, moving the story toward its resolution. However, it is a continuation of the inflation step shown in the previous segment, so it reinforces rather than introduces new progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a practical, step-by-step action of using a tire inflator, which is clear and instructional but not visually striking or diverse. It is a routine repair step without dynamic visuals, special effects, or highlight-worthy drama, fitting the tutorial theme but lacking standout visual appeal."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a straightforward, instructional action of inflating a tire with minimal emotional expression or tension. The tone is calm and procedural, typical of a tutorial, with no heightened sentiment or dramatic elements."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment shows the man using the portable inflator to pump air into the tire, which is a continuation of the repair process already established in previous segments. While it confirms the action of inflating the tire, it introduces minimal new information or instruction beyond what was described in segment 5 (connecting to the 12V socket and activating the device). The semantic content is largely redundant with prior context, offering little additional instructional value or novel details about the repair procedure."
+        }
+      },
+      "final_score": 1.225
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 2800,
+      "end_frame": 3400,
+      "planner_score": 0.4,
+      "planner_reason": "This segment shows the successful completion of the tire repair process (inflation and driving away), which is important for demonstrating the effectiveness of the repair kit. However, since the core repair steps (sealant application, compressor connection) were covered in previous segments, this serves more as a resolution and demonstration of outcome rather than new instructional content. The driving away shot provides closure and proof of concept, but is less critical than the actual repair steps for an instructional tutorial.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment directly shows the successful completion of the tire inflation process, which is a critical step in the main event progression of fixing the flat tire. It transitions from the repair action to the car driving away, indicating resolution and forward movement in the tutorial's narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment shows the successful completion of the tire repair process with the car driving away, which provides a satisfying resolution to the tutorial's narrative. However, the visual content is relatively straightforward—a person inflating a tire and the car departing—without particularly striking or diverse shots compared to earlier segments that featured closer details of the repair kit or more dynamic angles. It serves as a clear highlight in terms of demonstrating the repair outcome, but lacks exceptional visual creativity or variety."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a practical, instructional action with minimal emotional expression or tension. The focus is on the mechanical process of inflating a tire and the subsequent resolution (car driving away), which conveys relief or satisfaction but at a low intensity typical of tutorial content. There is no heightened sentiment, conflict, or dramatic elements."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment shows the completion of the tire inflation process and the car driving away, which provides minimal new information compared to previous segments. Segments 5 and 6 already established the inflation process using the portable compressor, and the global summary already mentions the car driving away after repair. The only slight novelty is the visual confirmation of the successful repair outcome, but this is largely redundant with the established narrative flow."
+        }
+      },
+      "final_score": 0.9
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 3200,
+      "end_frame": 3800,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment shows the repaired car driving away and includes a promotional call-to-action ('Subscribe to our channel'), which is less critical to the tutorial's core instructional content. While it provides closure by demonstrating the successful outcome of the repair, the primary instructional steps (identifying the flat, retrieving the kit, applying sealant, inflating the tire) have already been covered. The driving footage and subscription prompt serve more as post-repair verification and promotional material rather than essential tutorial steps, reducing its importance for a concise summary focused on the repair procedure.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment shows the car driving after the repair, which completes the demonstration of a successful tire fix, but it primarily serves as a transition to promotional content rather than advancing the core instructional narrative. The appearance of the 'Subscribe to our channel' graphic shifts focus from the tutorial to audience engagement, reducing its contribution to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment is visually pleasant with autumnal scenery, but it lacks striking or highlight-worthy action compared to the repair process. It serves as a transition and promotional element, not a core instructional or dramatic moment."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "The segment shows a calm driving scene with minimal emotional expression or tension. The man speaks to the camera in an instructional manner consistent with the tutorial theme, but there is no heightened sentiment, drama, or emotional intensity. The primary focus is on demonstrating the successful repair outcome and transitioning to promotional content, resulting in low emotional strength."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides minimal new instructional or semantic content related to the tire repair tutorial. While it shows the car driving after the repair (completing the narrative arc), the primary new element is the promotional 'Subscribe to our channel' graphic, which is meta-content rather than substantive tutorial information. The driving scene itself is largely redundant with the conclusion shown in previous segments, and no new repair steps, safety information, or technical details are introduced."
+        }
+      },
+      "final_score": 0.5375000000000001
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 3600,
+      "end_frame": 4200,
+      "planner_score": 0.2,
+      "planner_reason": "The current segment shows the repaired car driving away, which serves as a concluding demonstration of the successful repair. However, it is less critical than the core instructional steps (sealant application, inflation) and contains promotional elements (speaking to camera, scenic drive). In a tutorial context, the key learning content has already been covered, making this segment of lower importance for the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment shows the car driving after the repair is complete, which provides closure to the main repair narrative. However, it does not introduce new steps in the repair process or advance the core instructional content. The driving scene serves as a demonstration of the successful outcome rather than progressing the story forward with new actions or information."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows a man driving and speaking to the camera on a tree-lined road with fallen leaves, which has some visual appeal due to the autumnal setting. However, as a tutorial video segment, it lacks the striking visual elements, diverse actions, or highlight-worthy moments seen in earlier segments (like close-ups of tire repair tools, hands-on repair actions, or dramatic before/after transformations). This is primarily a transitional/narrative segment with standard driving footage and talking head content, making it less visually striking or highlight-worthy compared to the instructional repair sequences."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment maintains a calm, instructional tone consistent with the tutorial theme, with the driver speaking to the camera in a measured, explanatory manner. While the scenic setting adds mild visual interest, there is no heightened emotional expression, tension, or strong sentiment—it primarily serves as a demonstration of the repair's success and transitions to promotional content."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides minimal new information or semantic content relative to the tutorial theme. It shows the man driving and speaking to the camera, which was already established in the previous segment (segment 7). The action of driving on a leaf-strewn road and speaking to the camera does not introduce new instructional steps, technical details, or substantive content about tire repair. While it may serve as a transition or conclusion, it adds little to the core tutorial objective demonstrated in earlier segments."
+        }
+      },
+      "final_score": 0.475
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 4000,
+      "end_frame": 4600,
+      "planner_score": 0.3,
+      "planner_reason": "The segment contains some important concluding elements (promotional screen for 'Which?' with service trial offer) that reinforce the tutorial's sponsor and call-to-action, which is relevant for a tutorial video's structure. However, the majority of the segment (driving shots, speaking to camera) is repetitive of previous segments and does not introduce new instructional content. The driving demonstration after repair completion is already established, making this segment lower in unique instructional value despite its concluding promotional role.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment contributes minimally to story progression. The main event of repairing the flat tire was completed in previous segments, and this segment primarily serves as transitional driving footage followed by promotional content. While it shows the successful outcome of the repair (the car driving), the core narrative progression has already concluded. The promotional ending further shifts focus away from story advancement toward marketing, reducing its contribution to the main event progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment has moderate visual appeal due to the scenic tree-lined road and park-like setting, but it lacks striking or highlight-worthy visual elements compared to the more dynamic repair demonstrations in earlier segments. The content is primarily conversational driving footage followed by a static promotional screen, offering little visual diversity or standout moments beyond the tutorial's core instructional value."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment primarily features driving footage and promotional content, with minimal emotional expression or tension. The tutorial context and promotional tone keep emotional intensity low, focusing on informational delivery rather than evoking strong feelings."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The segment provides minimal new information or semantic content relevant to the tutorial's core instructional purpose. While it includes a promotional screen for 'Which?' with a trial offer, this is advertising rather than substantive instructional content. The driving scenes and speaking to camera are repetitive from previous segments (6 and 7), and the tutorial's main repair steps have already been demonstrated. The segment primarily serves as transitional or promotional material rather than advancing the tutorial's educational content."
+        }
+      },
+      "final_score": 0.5
+    },
+    {
+      "segment_id": 11,
+      "start_frame": 4400,
+      "end_frame": 4688,
+      "planner_score": 0.1,
+      "planner_reason": "This segment is a static promotional advertisement offering trial services, which is peripheral to the core tutorial content. While it provides useful supplementary information about tyre services and breakdown coverage, it does not demonstrate or explain any step of the tire repair process. In a tutorial video, the instructional steps (inspecting the flat, retrieving the kit, applying sealant, inflating the tire) are most critical for the summary. Promotional content, though relevant to the broader context, is of low importance for a concise summary focused on the repair procedure.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "This segment is purely promotional content that does not advance the story or main event progression. The tutorial's core narrative—demonstrating how to use a portable tire repair kit—has already concluded in previous segments (the tire was fixed and the car drove away). This segment serves as an advertisement for unrelated services (tire purchasing advice and breakdown coverage), offering no new steps, outcomes, or developments to the instructional storyline."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is a static promotional advertisement with text-based content, lacking visual dynamism, diversity, or highlight-worthy action compared to previous segments showing practical tire repair steps or scenic driving shots. While relevant to the tutorial's theme, it is visually unremarkable and repetitive in presentation."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment is a static promotional advertisement with factual, informational content focused on services and offers. It lacks any dynamic emotional expression, tension, or sentiment, presenting a neutral and straightforward tone typical of promotional material."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The segment is a static promotional advertisement that repeats the trial offer and services previously mentioned in segment 7, adding no new instructional or semantic content related to the tire repair tutorial. It primarily serves as a call-to-action rather than advancing the tutorial's informational value."
+        }
+      },
+      "final_score": 0.225
+    }
+  ]
+}

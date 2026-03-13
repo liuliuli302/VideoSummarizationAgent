@@ -1,0 +1,537 @@
+{
+  "video_id": "Cooking",
+  "video_info": {
+    "video_id": "Cooking",
+    "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Cooking.mp4",
+    "fps": 15.0,
+    "total_frames": 1287
+  },
+  "planner_plan": {
+    "video_theme": "general",
+    "global_summary": "The video showcases a chef performing a dynamic and theatrical cooking demonstration at a teppanyaki grill. Throughout the segments, the chef skillfully prepares various ingredients such as mushrooms, onions, asparagus, and proteins, using techniques like chopping, sautéing, and flambe. The engaging performance is set in a lively restaurant atmosphere, with elements like wine and sake adding to the dining experience.",
+    "expert_weights": {
+      "story_agent": 0.25,
+      "visual_agent": 0.25,
+      "emotion_agent": 0.25,
+      "information_agent": 0.25
+    },
+    "reason": "The video primarily focuses on the culinary skills and techniques of the chef, as well as the performance aspect of teppanyaki cooking, which is both interactive and visually captivating. The setting and presentation contribute to the overall dining experience, making it a general theme video with elements of culinary expertise, performance art, and visual appeal."
+  },
+  "captions": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 160,
+      "caption_frame_indices": [
+        0,
+        53,
+        106,
+        159
+      ],
+      "caption": "A chef skillfully cooks a teppanyaki meal on a large, hot griddle, expertly tossing and flipping ingredients like mushrooms, onions, and asparagus with a spatula, while the sizzling food and the chef's dynamic movements create an engaging and appetizing scene."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 160,
+      "end_frame": 320,
+      "caption_frame_indices": [
+        160,
+        213,
+        266,
+        319
+      ],
+      "caption": "A chef in a white uniform expertly cooks at a teppanyaki grill, skillfully chopping and sautéing mushrooms while arranging sliced onions and asparagus on the hot surface, with a glass of wine and plates nearby."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 320,
+      "end_frame": 480,
+      "caption_frame_indices": [
+        320,
+        373,
+        426,
+        479
+      ],
+      "caption": "A chef skillfully cooks on a teppanyaki grill, using a spatula to flip and move ingredients like sliced onions and asparagus, while a glass of wine sits nearby, capturing the dynamic, interactive nature of the meal preparation."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 480,
+      "end_frame": 640,
+      "caption_frame_indices": [
+        480,
+        533,
+        586,
+        639
+      ],
+      "caption": "A chef skillfully cooks vegetables and onions on a hot teppanyaki grill, using a spatula to flip and move the ingredients as they sizzle on the surface."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 640,
+      "end_frame": 800,
+      "caption_frame_indices": [
+        640,
+        693,
+        746,
+        799
+      ],
+      "caption": "A chef at a teppanyaki restaurant skillfully cooks a meal on a large, hot griddle, using a spatula to flip and move ingredients including asparagus, sliced onions, and what appear to be chicken or fish pieces, while a glass of wine sits ready for the diners."
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 800,
+      "end_frame": 960,
+      "caption_frame_indices": [
+        800,
+        853,
+        906,
+        959
+      ],
+      "caption": "A chef in a white uniform is actively cooking at a teppanyaki grill, skillfully using a metal spatula to flip or move food. On the hot griddle, a pile of asparagus, several rings of onion, and a mound of what appears to be rice or a protein are being prepared. A glass of amber liquid, likely wine or sake, sits on the counter beside the grill, and a small orange drink is visible in the background, indicating a restaurant"
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 960,
+      "end_frame": 1120,
+      "caption_frame_indices": [
+        960,
+        1013,
+        1066,
+        1119
+      ],
+      "caption": "In a dimly lit, high-energy teppanyaki restaurant, a chef performs a dramatic culinary show for diners seated around a large, hot griddle. The segment opens with the chef preparing ingredients, including asparagus and a mound of rice, before dramatically igniting the rice with a torch, sending a tall, bright flame skyward. The chef skillfully controls the fire, turning it into a captivating centerpiece of the meal, showcasing the theatrical and interactive nature of the"
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 1120,
+      "end_frame": 1287,
+      "caption_frame_indices": [
+        1120,
+        1175,
+        1231,
+        1286
+      ],
+      "caption": "A chef performs a dramatic flambe on a teppanyaki grill, igniting a tall flame over food before skillfully using tongs to flip and arrange vegetables, showcasing a high-energy, theatrical cooking performance."
+    }
+  ],
+  "segment_scores": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 160,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment captures the essence of the video theme by showcasing the chef's skillful and dynamic cooking techniques, which are central to the teppanyaki demonstration. The segment highlights the engaging and appetizing nature of the performance, contributing significantly to the overall lively and theatrical atmosphere described in the global summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment significantly contributes to the story progression by showcasing the chef's skillful cooking techniques and dynamic performance, which are central to the video's theme. The detailed description of the cooking process and the engaging atmosphere align well with the overall narrative of a theatrical teppanyaki demonstration."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking due to the dynamic and theatrical cooking demonstration. The chef's skillful tossing and flipping of ingredients on a hot griddle, combined with the sizzling sounds and engaging movements, create an appetizing and captivating scene. The visual diversity is enhanced by the variety of ingredients being prepared, making it a highlight-worthy moment in the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment captures a lively and engaging cooking performance, with the chef's dynamic movements and the sizzling of food contributing to a strong sense of excitement and entertainment. The theatrical aspect of the cooking adds to the emotional expression, making the scene more vibrant and appealing."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment provides a vivid description of the chef's actions and the atmosphere, but it does not introduce new information or instructions beyond what is already implied in the global summary. The focus is on the chef's skill and the visual appeal, which has been previously covered."
+        }
+      },
+      "final_score": 1.5
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 160,
+      "end_frame": 320,
+      "planner_score": 0.7,
+      "planner_reason": "The current segment continues to showcase the chef's skill and the lively atmosphere of the teppanyaki grill, which is central to the video's theme. The inclusion of wine and plates adds to the dining experience, enhancing the overall appeal. However, the segment is somewhat repetitive in terms of the cooking actions already depicted in the previous segment, slightly reducing its uniqueness.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The current segment contributes to the story progression by continuing to showcase the chef's cooking skills and techniques at the teppanyaki grill. It highlights the preparation of specific ingredients, which is central to the cooking demonstration theme. However, it does not introduce new elements or significant developments beyond what was already established in the previous segment."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment is visually striking due to the chef's expert cooking techniques and the dynamic presentation of ingredients on the teppanyaki grill. The presence of a glass of wine and plates adds to the visual appeal, creating a lively and engaging atmosphere. However, the scene is somewhat similar to the previous segment, which slightly reduces its uniqueness."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.5,
+          "reason": "The segment showcases the chef's skillful cooking techniques at the teppanyaki grill, which adds a moderate level of engagement and interest. The presence of wine and plates nearby contributes to the dining atmosphere, but the emotional expression and tension remain relatively subdued, focusing more on the culinary expertise rather than heightened emotional or dramatic elements."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides minimal new information compared to the previous segment. It reiterates the chef's actions of chopping and sautéing mushrooms and arranging onions and asparagus, which were already described. The only slight addition is the mention of a glass of wine and plates nearby, which adds a minor detail to the setting but does not significantly enhance the semantic content."
+        }
+      },
+      "final_score": 1.2
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 320,
+      "end_frame": 480,
+      "planner_score": 0.6,
+      "planner_reason": "The current segment highlights the chef's skill and the interactive nature of the teppanyaki cooking, which is central to the video's theme. However, it is similar to previous segments, which also focus on the chef's cooking techniques and the lively atmosphere. While it contributes to the overall narrative, its repetitive nature slightly reduces its importance for the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The current segment reiterates the chef's skillful cooking and the interactive nature of the meal preparation, similar to previous segments. While it maintains the lively atmosphere, it does not introduce new elements or progress the story beyond what has already been established."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment is visually striking due to the dynamic and interactive nature of the chef's performance on the teppanyaki grill. The use of a spatula to flip and move ingredients adds a sense of motion and skill. However, the visual elements are somewhat repetitive with previous segments, focusing again on onions and asparagus, which slightly reduces the diversity and highlight-worthiness."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.5,
+          "reason": "The segment describes the chef's skillful cooking and the dynamic nature of the meal preparation, which suggests a moderate level of engagement and energy. However, there is no indication of heightened emotional expression or tension beyond the general lively atmosphere of the cooking demonstration."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment repeats similar actions and elements from previous segments, such as the chef using a spatula to flip ingredients like onions and asparagus, and the presence of a glass of wine. It provides minimal new information or semantic content beyond reinforcing the dynamic and interactive nature of the cooking demonstration already established."
+        }
+      },
+      "final_score": 1.025
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 480,
+      "end_frame": 640,
+      "planner_score": 0.4,
+      "planner_reason": "The current segment is similar to previous segments, focusing on the chef's skillful cooking techniques at the teppanyaki grill. While it contributes to the overall theme of dynamic cooking, it doesn't introduce new elements or significant variations from earlier segments. Therefore, its importance for the summary is moderate, as it reinforces the ongoing theme but doesn't add unique value.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The current segment continues to showcase the chef's skillful cooking techniques on the teppanyaki grill, similar to previous segments. While it reinforces the dynamic and interactive nature of the cooking demonstration, it does not introduce new elements or progress the main event significantly beyond what has already been established."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment features visually engaging elements such as the sizzling of vegetables and onions on a hot teppanyaki grill and the dynamic movements of the chef using a spatula. However, it lacks diversity and highlight-worthy moments compared to previous segments, as it focuses on similar cooking actions without introducing new or particularly striking visuals."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment describes a chef cooking vegetables and onions on a teppanyaki grill, which involves some dynamic movements and sizzling sounds. However, the emotional expression and tension are relatively mild, as the focus is on the technical skill and routine cooking process rather than heightened emotions or dramatic tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides minimal new information as it largely repeats details from previous segments, such as the chef cooking vegetables and onions on a teppanyaki grill using a spatula. The focus remains on the same cooking actions and ingredients, offering little additional semantic content or instruction."
+        }
+      },
+      "final_score": 0.75
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 640,
+      "end_frame": 800,
+      "planner_score": 0.6,
+      "planner_reason": "The current segment is similar to previous segments, showcasing the chef's skillful cooking at the teppanyaki grill. However, it introduces new elements such as chicken or fish pieces, which adds variety to the summary. The presence of wine enhances the dining atmosphere, but the repetitive nature of the cooking actions slightly reduces its uniqueness.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The current segment continues to showcase the chef's skillful cooking at the teppanyaki grill, similar to previous segments. However, it introduces new elements such as chicken or fish pieces, which slightly progresses the main event by adding variety to the ingredients being prepared. The presence of wine also reinforces the dining experience theme, contributing modestly to the overall story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment is visually striking due to the dynamic cooking process on the teppanyaki grill, which includes flipping and moving ingredients like asparagus, onions, and proteins. The presence of a glass of wine adds to the atmosphere, making it highlight-worthy. However, the visual elements are similar to previous segments, slightly reducing the diversity and impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment maintains a consistent level of engagement with the chef's skillful cooking and dynamic movements. However, the emotional expression and tension are relatively moderate, as the focus remains on the cooking process rather than heightened emotional or dramatic elements. The presence of wine adds a subtle layer of sophistication, but overall, the emotional intensity is not particularly strong."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides minimal new information as it largely repeats details from previous segments, such as the chef's skillful cooking on a teppanyaki grill and the use of a spatula to handle ingredients like asparagus and onions. The only slight addition is the mention of 'chicken or fish pieces,' which offers a small amount of new content regarding the proteins being cooked."
+        }
+      },
+      "final_score": 1.05
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 800,
+      "end_frame": 960,
+      "planner_score": 0.6,
+      "planner_reason": "The current segment continues to showcase the chef's skillful cooking at the teppanyaki grill, which is consistent with the overall theme of the video. However, it does not introduce any new elements or techniques that have not been covered in previous segments. The presence of a new drink adds a slight variation, but the segment largely repeats the actions and setting already depicted. Thus, it contributes moderately to the summary by reinforcing the lively restaurant atmosphere and the chef's expertise.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The current segment continues to depict the chef's cooking process at the teppanyaki grill, similar to previous segments. While it maintains the theme and atmosphere, it does not introduce new elements or significant developments in the story or main event progression. The addition of a small orange drink is a minor detail that does not substantially advance the narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment is visually striking due to the dynamic cooking action at the teppanyaki grill, with the chef skillfully using a spatula to manipulate the food. The presence of a glass of amber liquid and a small orange drink adds visual diversity, enhancing the lively restaurant atmosphere. However, the scene is similar to previous segments, which slightly reduces its uniqueness."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment maintains a consistent level of engagement and skillful cooking as seen in previous segments, but there is no significant increase in emotional expression or tension. The presence of drinks adds a slight enhancement to the dining atmosphere, but overall, the emotional intensity remains moderate."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment provides limited new information compared to previous segments. It repeats the theme of a chef cooking at a teppanyaki grill with similar ingredients like asparagus and onions. The mention of a mound of rice or protein and a small orange drink offers slight new details, but overall, the segment largely reiterates previously covered content."
+        }
+      },
+      "final_score": 1.025
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 960,
+      "end_frame": 1120,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment captures a dramatic and theatrical moment with the chef igniting the rice with a torch, creating a visually striking flame. This adds a unique and captivating element to the video, highlighting the interactive and entertaining aspects of the teppanyaki experience. It stands out from previous segments by showcasing a distinct and memorable moment that enhances the overall summary of the chef's performance.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly contributes to the story progression by introducing a dramatic and theatrical element to the cooking demonstration, with the chef igniting the rice and controlling the flames. This adds a new layer of excitement and spectacle to the ongoing narrative of the teppanyaki cooking experience, enhancing the interactive and engaging atmosphere for the diners."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment is visually striking due to the dramatic culinary show, particularly the use of a torch to ignite the rice, creating a tall, bright flame. This theatrical element, combined with the high-energy atmosphere of the teppanyaki restaurant, makes the segment highlight-worthy and diverse compared to previous segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.9,
+          "reason": "The segment features a dramatic culinary show with a high-energy atmosphere. The chef's use of a torch to ignite the rice and create a tall, bright flame adds a strong element of theatricality and excitement, enhancing the emotional expression and tension in the scene."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The current segment introduces new information by highlighting the dramatic ignition of rice with a torch, creating a tall flame. This adds a theatrical element not previously mentioned, emphasizing the interactive and engaging nature of the teppanyaki experience. The focus on the fire as a centerpiece provides fresh semantic content beyond the cooking techniques and ingredients discussed in earlier segments."
+        }
+      },
+      "final_score": 1.725
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 1120,
+      "end_frame": 1287,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment captures a dramatic flambe, which is a visually striking and memorable moment in the cooking demonstration. This adds to the theatrical and engaging nature of the video, making it an important highlight for the summary. The segment also continues to showcase the chef's skill and the lively atmosphere, which are central to the video's theme.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "The current segment significantly contributes to the story progression by showcasing a dramatic flambe, which is a key theatrical element in the teppanyaki cooking demonstration. This adds to the dynamic and engaging nature of the chef's performance, enhancing the overall narrative of the lively restaurant atmosphere and the interactive dining experience."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment is visually striking due to the dramatic flambe, which creates a tall, bright flame that captures attention. The chef's skillful use of tongs to flip and arrange vegetables adds to the dynamic and theatrical nature of the performance, making it a highlight-worthy moment in the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.9,
+          "reason": "The segment features a dramatic flambe, which is a visually striking and emotionally engaging element. The high-energy and theatrical nature of the chef's performance, combined with the use of fire, creates a strong emotional expression and tension, making it a standout moment in the video."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment provides some new information by highlighting the use of tongs to flip and arrange vegetables, which was not explicitly mentioned in previous segments. However, the dramatic flambe and theatrical cooking performance have been covered in previous segments, limiting the amount of new semantic content introduced."
+        }
+      },
+      "final_score": 1.6
+    }
+  ],
+  "frame_scores": [
+    1.5,
+    1.5,
+    1.5,
+    1.5,
+    1.5,
+    1.5,
+    1.5,
+    1.5,
+    1.5,
+    1.5,
+    1.5,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    1.05,
+    1.05,
+    1.05,
+    1.05,
+    1.05,
+    1.05,
+    1.05,
+    1.05,
+    1.05,
+    1.05,
+    1.05,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.725,
+    1.725,
+    1.725,
+    1.725,
+    1.725,
+    1.725,
+    1.725,
+    1.725,
+    1.725,
+    1.725,
+    1.725,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6
+  ],
+  "frame_score_picks": [
+    0,
+    15,
+    30,
+    45,
+    60,
+    75,
+    90,
+    105,
+    120,
+    135,
+    150,
+    165,
+    180,
+    195,
+    210,
+    225,
+    240,
+    255,
+    270,
+    285,
+    300,
+    315,
+    330,
+    345,
+    360,
+    375,
+    390,
+    405,
+    420,
+    435,
+    450,
+    465,
+    480,
+    495,
+    510,
+    525,
+    540,
+    555,
+    570,
+    585,
+    600,
+    615,
+    630,
+    645,
+    660,
+    675,
+    690,
+    705,
+    720,
+    735,
+    750,
+    765,
+    780,
+    795,
+    810,
+    825,
+    840,
+    855,
+    870,
+    885,
+    900,
+    915,
+    930,
+    945,
+    960,
+    975,
+    990,
+    1005,
+    1020,
+    1035,
+    1050,
+    1065,
+    1080,
+    1095,
+    1110,
+    1125,
+    1140,
+    1155,
+    1170,
+    1185,
+    1200,
+    1215,
+    1230,
+    1245,
+    1260,
+    1275
+  ],
+  "output_dir": "outputs/inference_results/Cooking"
+}

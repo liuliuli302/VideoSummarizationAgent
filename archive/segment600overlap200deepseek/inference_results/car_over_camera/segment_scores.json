@@ -1,0 +1,335 @@
+{
+  "video_id": "car_over_camera",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 600,
+      "planner_score": 0.85,
+      "planner_reason": "The segment aligns closely with the global summary's theme of a cinematic journey through a desolate landscape, featuring continuous forward movement across barren terrain under overcast skies. It captures the atmospheric, documentary-like quality described, making it highly relevant for summarizing the video's exploration of remote environments.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment contributes minimally to story progression as it primarily maintains the established atmosphere and setting without introducing new events, characters, or narrative developments. It reinforces the desolate landscape theme but lacks significant forward momentum in the main event or plot."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment captures a visually striking desolate landscape with a consistent, atmospheric forward movement that enhances the sense of exploration. However, the lack of dynamic elements beyond the terrain texture and the overcast sky limits its diversity and highlight-worthy impact compared to more varied or intense moments in the theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.35,
+          "reason": "The segment conveys a consistent but subdued emotional tone of quiet desolation and isolation. The slow forward movement across barren terrain under overcast skies creates a melancholic, atmospheric quality with a sense of solitude and emptiness. However, the emotional expression remains restrained and atmospheric rather than intense or dramatic, lacking strong peaks of tension, sentiment, or vivid emotional cues."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment provides minimal new information relative to the global summary. While it adds specific details about the camera's 'continuous, slow forward movement' and mentions a 'distant, sparse treeline on the horizon,' the core semantic content—a vast, barren, reddish-brown landscape under overcast skies with a sense of desolate travel—is already captured in the global summary. The segment reinforces rather than expands the established theme and setting."
+        }
+      },
+      "final_score": 1.25
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 400,
+      "end_frame": 1000,
+      "planner_score": 0.4,
+      "planner_reason": "The segment reinforces the landscape theme and matches the global summary's description of a barren, reddish-brown terrain under overcast skies, but it is static and lacks the movement, texture emphasis, or documentary-like perspective shifts that would make it more critical for a dynamic summary. It provides continuity but is less essential than segments showing motion or detailed exploration.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment contributes minimally to story progression. While it maintains the established atmosphere and visual theme of the desolate landscape, it presents a static, unchanging scene with no new narrative elements, character movement, or significant events. The SUV mentioned in the global summary is absent here, and the scene lacks the forward motion or perspective shifts that could advance the journey narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment is visually consistent with the theme and maintains atmospheric desolation, but lacks striking diversity, movement, or highlight-worthy elements compared to the global summary's cinematic journey and dynamic elements like the SUV. It is static and unchanging, reducing its visual impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment conveys a consistent, low-level emotional tone of desolation and emptiness through its static, wide shot of a barren field under a heavy overcast sky, but lacks dynamic emotional expression, tension, or strong sentiment, resulting in a subdued emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment provides minimal new information compared to the previous segment and global summary. Both describe a vast, barren, reddish-brown field under an overcast sky, with similar desolate and empty qualities. The only slight variation is the shift from a slow forward movement to a static, wide shot, but this does not introduce significant new semantic content, instructions, or thematic elements beyond reinforcing the established atmosphere."
+        }
+      },
+      "final_score": 0.6500000000000001
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 800,
+      "end_frame": 1400,
+      "planner_score": 0.3,
+      "planner_reason": "While the segment establishes the desolate landscape theme consistent with the global summary, the abrupt shift to blurry close-ups creates visual discontinuity and ambiguity. This segment lacks the cinematic movement, atmospheric exploration, or documentary-like quality emphasized in the summary. It primarily serves as atmospheric texture rather than narrative progression, making it less critical for a coherent summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment introduces a sudden shift from a wide static shot to blurry close-ups, which creates a momentary disruption and potential narrative ambiguity. However, this does not significantly advance the main story or event progression—the SUV's journey or exploration of the landscape—as it lacks clear connection to the established narrative elements (the SUV movement, travel through the plains). Instead, it serves more as an atmospheric or stylistic detour, adding texture but minimal plot development."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment introduces a visually striking shift from a wide static shot to blurry close-ups, which adds a disorienting and unsettling quality, enhancing atmospheric tension. However, the diversity is limited to two main visual styles, and the blurry close-ups, while notable, reduce clarity and highlight-worthiness compared to more defined or dynamic scenes. The segment's contribution to the overall theme is moderate, as it emphasizes texture and perspective but lacks sustained visual engagement or dramatic highlights."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment establishes a desolate landscape with an overcast sky, which carries a subdued, melancholic tone, but the abrupt cut to blurry, indistinct close-ups introduces a subtle sense of disorientation or unease. However, the emotional expression remains restrained and atmospheric rather than intense, aligning with the documentary-like, observational style of the video. The tension or sentiment is mild, derived more from the barren setting and ambiguous visual shift than from strong emotional cues."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces a new visual element (blurry close-ups of a textured surface) and a shift in perspective, which adds some new semantic content about detail and disorientation. However, it largely reiterates the established setting (vast, arid landscape) and does not introduce significant new information about the theme, narrative, or key subjects like the SUV mentioned in the global summary."
+        }
+      },
+      "final_score": 0.6000000000000001
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1200,
+      "end_frame": 1800,
+      "planner_score": 0.3,
+      "planner_reason": "While the segment demonstrates a notable technical shift from blurred to focused imagery, reinforcing the atmospheric and documentary-like quality mentioned in the global summary, it primarily revisits the established visual theme of textured, arid terrain. It does not introduce new key elements (like the SUV, significant movement, or new landscape features) that would be critical for a summary. Its value lies more in stylistic consistency than in informational importance for a concise overview.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment shows a technical camera adjustment (focus shift) rather than advancing the story or main event progression. While it reveals texture detail, it doesn't move the narrative forward, introduce new elements, or develop the established journey through the landscape. It's more of a visual technique than story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment features a visually striking transition from a heavily blurred, indistinct close-up to a sharply focused, detailed view of dry, reddish-brown terrain. This sudden shift in focus creates a dynamic and highlight-worthy moment, adding atmospheric tension and emphasizing texture. However, the content remains limited to a close-up of dirt/sand, lacking broader diversity in scenery or movement compared to earlier segments with vehicles or wider landscapes, which slightly reduces its overall visual impact within the theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.35,
+          "reason": "The segment exhibits a subtle emotional shift through the abrupt transition from blurred to sharply focused imagery, creating a moment of mild tension or surprise. However, the overall sentiment remains subdued and atmospheric, consistent with the desolate landscape theme, lacking intense emotional expression or high tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces a new visual detail by transitioning from a heavily blurred close-up to a sharply focused view of dry, reddish-brown dirt or sand, which adds a specific texture and clarity not previously emphasized. However, this is a minor addition to the overall semantic content, as the landscape theme, color palette, and desolate atmosphere remain consistent with prior segments and the global summary. The shift in focus provides a slight narrative or stylistic variation but does not substantially expand the informational or thematic scope."
+        }
+      },
+      "final_score": 0.6625
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1600,
+      "end_frame": 2200,
+      "planner_score": 0.85,
+      "planner_reason": "This segment serves as a crucial establishing shot that transitions from an ambiguous close-up to a clear, wide view of the landscape, effectively revealing the scale and desolate nature of the environment. It reinforces the video's theme of exploring remote, barren landscapes and provides context for the terrain's texture and vastness, which are central to the global summary. The panning movement adds cinematic value, enhancing the documentary-like quality mentioned in the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment contributes minimally to story progression as it primarily repeats the established visual theme of the barren landscape without introducing new narrative elements or advancing the main event of the SUV's journey. It transitions from a blurry close-up to a wider view, which slightly expands the setting but does not significantly move the story forward."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment features a visually engaging transition from a blurry close-up to a wide landscape reveal, which adds dynamic interest and highlights the texture and scale of the environment. However, the overall visual diversity is limited by the consistent reddish-brown palette and overcast lighting, and it lacks standout highlights like dramatic motion or unique elements compared to previous segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.25,
+          "reason": "The segment maintains the desolate and barren atmosphere consistent with the theme and previous segments, but lacks strong emotional expression, tension, or sentiment. The blurry close-up and pan to a vast landscape evoke a sense of exploration and isolation, but the emotional intensity is low, with no dramatic elements, human presence, or heightened sentiment beyond a quiet, documentary-like observation of the remote environment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The current segment provides substantial new information by introducing a dynamic camera movement (panning up and out) that reveals the broader landscape context, transitioning from a close-up to a wide shot. It adds specific details about the ground texture (rough, reddish-brown dirt with scattered pebbles and rocks) and clarifies the perspective (low, ground-level). While it continues the theme of a desolate landscape, the shift from static or blurry shots to an intentional panning motion and the explicit description of ground details offer meaningful new semantic content beyond previous segments."
+        }
+      },
+      "final_score": 1.3375
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 2000,
+      "end_frame": 2600,
+      "planner_score": 0.85,
+      "planner_reason": "This segment introduces the first significant dynamic element (the SUV) into the previously static landscape, creating narrative progression and human/technological presence. The vehicle's movement toward the camera and the unique undercarriage perspective provide dramatic visual interest and scale, making it crucial for the summary's documentary-like exploration theme.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment introduces a key element (the SUV) that becomes a focal point for movement and progression in the desolate landscape, shifting from static scenery to active travel, thus advancing the story of exploration."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment introduces dynamic motion with a vehicle driving directly toward the camera, adding a highlight-worthy element of action and perspective shift. The low-angle shot and close-up of the undercarriage provide visually striking and diverse framing compared to previous static or blurred segments, enhancing the cinematic quality and engagement."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment introduces a dynamic element with the vehicle approaching the camera, creating a sense of movement and potential tension in an otherwise static, desolate landscape. The low-angle perspective and close-up of the undercarriage add a slightly dramatic or documentary-like intensity, though the overall emotional expression remains subdued and atmospheric rather than strongly emotive."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces the vehicle's movement toward the camera and a close-up of its undercarriage, which adds some new visual action and perspective. However, the setting (arid landscape, overcast sky) and desolate theme are consistent with previous segments, and the overall semantic content about remote, barren environments is largely repetitive, limiting the novelty of information provided."
+        }
+      },
+      "final_score": 1.4874999999999998
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 2400,
+      "end_frame": 3000,
+      "planner_score": 0.85,
+      "planner_reason": "This segment features the key subject (the dark SUV) in motion, creating a narrative progression from previous segments where the vehicle was approaching or stationary. The departure shot provides closure to the vehicle's journey through the landscape, which is central to the video's theme of exploration and desolation. The dust trail adds visual interest and emphasizes movement in an otherwise static environment. While not the most dramatic or unique shot in the sequence, it serves an important transitional and narrative function by showing the vehicle leaving the frame, completing its journey through the arid plains.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment contributes significantly to story progression by showing the SUV's departure, which represents a clear narrative development from its previous approach and presence. The vehicle moving away toward the horizon creates a sense of journey continuation and spatial progression through the landscape, advancing the main event of travel across this desolate environment."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the dynamic motion of the SUV creating a dust trail, which adds a highlight-worthy element of movement and narrative progression in the desolate landscape. The low-angle, ground-level perspective enhances the sense of scale and isolation, making it diverse from previous static or blurry shots. However, the overcast lighting and consistent color palette slightly limit the visual impact compared to more vibrant or contrasting scenes."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment conveys a moderate emotional tone through the solitary journey of the SUV across a barren landscape, creating a sense of isolation and quiet determination. The overcast sky, desolate terrain, and dust trail contribute to a melancholic, atmospheric mood, but the emotional expression remains subtle rather than intense."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment introduces the SUV's movement away from the camera, which is a slight variation from previous segments where the vehicle approached or was viewed from underneath. However, the core elements—barren landscape, overcast sky, reddish-brown terrain, and the SUV's presence—are already well-established in the global summary and memory context. The new semantic content is minimal, primarily reinforcing existing themes of desolation and travel without adding significant narrative or informational novelty."
+        }
+      },
+      "final_score": 1.4125
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 2800,
+      "end_frame": 3400,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment captures the SUV's direct approach and stopping point, providing a clear narrative progression and a moment of interaction with the camera/viewer. This adds a sense of arrival or pause in the journey, contrasting with previous segments of continuous movement or static landscapes. It enhances the documentary-like quality by showing a specific event (the vehicle stopping) within the desolate environment, making it more memorable and structurally important for the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story progression by introducing a key narrative development: the SUV's approach and eventual stop directly toward the camera. Unlike previous segments that primarily established setting or showed the vehicle in motion, this moment creates a clear narrative beat—the vehicle's arrival and halt suggests a potential point of arrival, interaction, or decision in the journey. The abrupt obscuring of the view adds a sense of closure or transition, marking a distinct progression in the cinematic journey from continuous travel to a paused, focused moment."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is visually striking and highlight-worthy due to the dynamic interaction between the moving vehicle and the static camera. The SUV driving directly toward the camera creates a sense of impending encounter and tension, which is more engaging than previous segments showing the vehicle moving away or laterally. The eventual stopping of the vehicle just ahead of the camera provides a narrative punctuation point, and the abrupt obscuring of the view adds a cinematic, almost suspenseful quality. While the visual palette remains consistent with the established theme (reddish-brown terrain, overcast sky), the direct frontal approach and stopping action make this segment more visually compelling and memorable than many previous segments that focused more on static landscapes or distant movement."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment features a vehicle approaching the camera in a desolate landscape, creating mild tension through its direct movement and eventual stop, which adds a subtle narrative element. However, the emotional expression remains subdued overall, consistent with the documentary-like, atmospheric tone of the video. The overcast skies and barren setting contribute to a somber, isolated mood, but the segment lacks strong emotional peaks or dramatic sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment shows a dark SUV driving toward the camera and stopping, which introduces a new action (stopping) and a change in the vehicle's movement pattern compared to previous segments where it was either approaching or driving away. However, the core elements—the vehicle, landscape, and overall setting—remain consistent with the established theme and previous descriptions. The segment does not introduce new semantic content about the environment, characters, or narrative beyond the vehicle's temporary halt, which provides only minor incremental information."
+        }
+      },
+      "final_score": 1.4625
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 3200,
+      "end_frame": 3800,
+      "planner_score": 0.85,
+      "planner_reason": "This segment represents a climactic moment in the landscape narrative where the solitary vehicle's journey culminates in a dramatic visual event—the abrupt obscuring of the view by dust/smoke. It provides a strong visual punctuation to the desolate journey theme, adds atmospheric intensity, and serves as a potential transition point or narrative conclusion. While not essential for basic landscape appreciation, it significantly enhances the cinematic and documentary-like quality emphasized in the global summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment introduces a new, dynamic event—the vehicle's approach culminating in an abrupt obscuring by dust or smoke—which adds a moment of action and potential narrative disruption. However, within the broader theme of a cinematic landscape journey, this event does not fundamentally alter the established story of solitary travel through a desolate environment, limiting its overall progression impact."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment introduces a visually striking and dynamic element—a dense, swirling cloud of dust or smoke that abruptly obscures the view—which adds a highlight-worthy moment of drama and atmospheric intensity to the otherwise desolate landscape. While the setting and vehicle movement are consistent with previous segments, the sudden visual disruption enhances diversity and memorability within the cinematic journey."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment introduces a significant emotional escalation through the abrupt visual disruption of a dense, swirling cloud of dust/smoke that fills the frame, creating a sudden sense of tension, obscurity, and potential danger. This contrasts with the previous steady, desolate travel shots, injecting a moment of atmospheric drama and uncertainty into the otherwise quiet, barren landscape."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The current segment introduces the new element of a dense, swirling cloud of dust or smoke that obscures the view, which adds a dynamic atmospheric event not explicitly described in previous segments. However, the core action (a vehicle driving toward the camera across the barren landscape) and setting are highly consistent with prior segments (especially segments 5, 6, and 7), limiting the overall novelty of the semantic content."
+        }
+      },
+      "final_score": 1.5375
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 3600,
+      "end_frame": 4200,
+      "planner_score": 0.2,
+      "planner_reason": "The current segment shows a static, grainy shot of a muted surface with a small, blurry reddish object entering the frame. While it maintains the atmospheric and desolate tone of the overall video, it lacks the clear landscape elements, vehicle movement, or expansive terrain that are central to the global summary. The segment is visually ambiguous and doesn't significantly advance the narrative of exploring remote, barren environments or the SUV's journey. It may serve as a transitional or atmospheric moment but contributes minimally to the core themes of the cinematic landscape exploration.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment introduces a new, ambiguous object entering the frame, which could hint at a potential shift or event. However, the context is unclear, the object is blurry and small, and the scene is static and grainy with minimal change. Compared to previous segments that clearly show the SUV's journey across the landscape, this segment feels disconnected and does not significantly advance the main story of the vehicle's movement or the exploration of the environment. It contributes only slightly to progression by introducing a new element, but its impact is limited due to ambiguity and lack of clear narrative connection."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment is visually muted and lacks the striking diversity or highlight-worthy elements seen in previous segments. It features a static, grainy, grayish surface with minimal visual interest, and only a small, blurry reddish object enters briefly. Compared to the dynamic vehicle movement, expansive landscapes, and atmospheric shifts in earlier segments, this segment is less engaging and contributes little to the cinematic or documentary-like quality of the video theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment presents a static, grainy, muted visual with minimal dynamic content. The sudden appearance of a small, blurry reddish object introduces a slight element of surprise or curiosity, but it lacks clear emotional expression, tension, or sentiment. Compared to previous segments featuring desolate landscapes and vehicle movement, this segment is more ambiguous and subdued, resulting in a low emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces a new visual element (a grainy, grayish surface and a blurry reddish object) that differs from the established landscape and vehicle focus, suggesting a potential shift in setting or perspective. However, it provides minimal semantic clarity or narrative advancement, as the object is ambiguous and the scene lacks context, offering only a slight expansion of the atmospheric exploration without substantial new information."
+        }
+      },
+      "final_score": 0.45
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 4000,
+      "end_frame": 4383,
+      "planner_score": 0.85,
+      "planner_reason": "This segment introduces a human element (man in yellow t-shirt taking a selfie) and shows the SUV parked, which provides narrative context and a potential point of interaction between the human subject and the landscape/vehicle journey. While the initial blurry frames maintain the atmospheric, documentary-like quality described in the global summary, the appearance of a person adds a layer of human presence in the remote environment. The parked SUV also offers a moment of pause or destination in the journey. However, the segment doesn't capture the vehicle in motion or the expansive landscape vistas that are central to the cinematic journey theme, keeping it from the highest importance tier.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment introduces a new element (a man taking a selfie) and confirms the presence of the SUV, which is a recurring subject. However, it does not significantly advance the overarching narrative of the cinematic journey or the SUV's movement across the landscape. The focus shifts more to a static, character-driven moment rather than driving the main event progression forward, resulting in a modest contribution to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment introduces a human subject and a selfie action, which adds a novel, personal element compared to the previous desolate landscape and vehicle-focused shots, making it more highlight-worthy. However, the initial blurry frames and the overall muted, overcast aesthetic slightly reduce the visual striking impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.45,
+          "reason": "The segment introduces a human element with a man taking a selfie, which adds a personal, slightly playful or casual emotional note compared to the previous desolate and solitary scenes. However, the emotional expression remains subdued; the man's action is not highly expressive, and the overall tone continues to be atmospheric and observational rather than intense. The tension is low, with no conflict or dramatic buildup, and the sentiment is neutral to mildly curious, lacking strong positive or negative peaks. The blurry start and low-angle shot maintain some atmospheric unease but without escalating emotional strength."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.7,
+          "reason": "The segment introduces a new character (man in yellow t-shirt), a new action (taking a selfie), and a new contextual detail (SUV parked on a road), which adds significant new semantic content and narrative elements not present in previous segments focused solely on landscape and vehicle movement."
+        }
+      },
+      "final_score": 1.3875
+    }
+  ]
+}

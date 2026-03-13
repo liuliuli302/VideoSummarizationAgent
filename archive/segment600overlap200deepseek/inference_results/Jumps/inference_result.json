@@ -1,0 +1,249 @@
+{
+  "video_id": "Jumps",
+  "video_info": {
+    "video_id": "Jumps",
+    "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Jumps.mp4",
+    "fps": 25.0,
+    "total_frames": 950
+  },
+  "planner_plan": {
+    "video_theme": "sports",
+    "global_summary": "A group engages in an adventurous outdoor activity involving a homemade water slide on a grassy hillside, where one person wearing a red helmet slides down, launches into the air, and lands in an inflatable pool, followed by group celebration in a scenic mountain setting.",
+    "expert_weights": {
+      "story_agent": 0.25,
+      "visual_agent": 0.25,
+      "emotion_agent": 0.25,
+      "information_agent": 0.25
+    },
+    "reason": "The video depicts an extreme sports-like activity with dynamic action (sliding, launching, landing), human group interaction in an outdoor setting, and clear recreational objects (helmet, slide, pool). The 'sports' theme best captures this adventurous physical activity, though it has informal/recreational elements."
+  },
+  "captions": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 600,
+      "caption_frame_indices": [
+        0,
+        86,
+        171,
+        257,
+        342,
+        428,
+        513,
+        599
+      ],
+      "caption": "On a grassy hillside, a person wearing a red helmet prepares to slide down a long, yellow water slide, while two others stand by with buckets. After launching down the slide, the person flies through the air before landing in a blue inflatable pool at the bottom, where they are greeted by the waiting group."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 400,
+      "end_frame": 950,
+      "caption_frame_indices": [
+        400,
+        478,
+        557,
+        635,
+        714,
+        792,
+        871,
+        949
+      ],
+      "caption": "In a remote, grassy mountain setting, a group of people gathers around a blue inflatable pool placed on a wooden platform. One person, wearing a red helmet, emerges from the pool and is helped up by others. The group then stands together, appearing to celebrate or interact after the activity, with the scenic, tree-lined hillside serving as the backdrop for their unusual gathering."
+    }
+  ],
+  "segment_scores": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 600,
+      "planner_score": 0.95,
+      "planner_reason": "This segment depicts the core action described in the global summary—the person in the red helmet sliding down, launching into the air, and landing in the inflatable pool—making it highly important for capturing the climax of the sports activity.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment depicts the core action of the main event—the person sliding down, launching, and landing in the pool—which directly advances the story from preparation to execution and outcome."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment captures the key action moment of the homemade water slide activity - the launch and flight through the air before landing in the pool. This represents the most visually striking and highlight-worthy portion of the activity, showing dynamic motion, anticipation, and the payoff of the setup. The red helmet provides a focal point, and the aerial moment creates visual interest. However, it doesn't show the full celebration aftermath which might have increased the score further."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment features a dynamic and adventurous action with the person sliding and flying through the air, which generates moderate excitement and anticipation. The presence of a group and the celebratory landing adds positive sentiment, but the emotional intensity is somewhat tempered by the lack of extreme expressions or high-stakes tension typical in competitive sports."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The segment provides substantial new information and semantic content relative to the global summary. It adds specific details such as the yellow color of the water slide, the use of buckets by two individuals, the blue color of the inflatable pool, and the explicit mention of the person being greeted by the group upon landing. These details enrich the narrative with visual and contextual specifics not covered in the broader summary."
+        }
+      },
+      "final_score": 1.775
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 400,
+      "end_frame": 950,
+      "planner_score": 0.85,
+      "planner_reason": "This segment captures the conclusion and celebratory aftermath of the adventurous sports activity, which is crucial for narrative closure and emotional payoff in a summary. It shows the successful completion of the slide (person emerging safely), group interaction, and the scenic setting—key elements for conveying the experience's outcome and communal spirit. While the core action (launch/landing) was covered earlier, this segment provides necessary resolution and human reaction, making it highly important but slightly less critical than the peak action moment.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "This segment shows the aftermath and group interaction following the main action, providing closure to the event rather than advancing the core story progression. While it depicts the helmeted person emerging from the pool and the group celebration, these are consequences of the previous segment's main event (the slide and landing) rather than new story progression. The segment serves as resolution and emotional payoff rather than narrative advancement."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a post-activity celebration in a scenic mountain setting, which has some visual appeal due to the natural backdrop and group interaction, but it lacks the dynamic action, striking motion, or highlight-worthy moments of the preceding slide and launch. It serves as a resolution rather than a visually striking or diverse highlight."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment depicts a celebratory moment with group interaction and support, conveying positive emotions like camaraderie and accomplishment, though the intensity is moderate compared to high-tension action scenes."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment primarily depicts the aftermath of the slide event, showing the person emerging from the pool and the group celebrating. While it adds minor details like the wooden platform and group interaction, it largely reiterates the conclusion already described in the global summary and previous segment, offering minimal new substantive information or semantic content."
+        }
+      },
+      "final_score": 1.2875
+    }
+  ],
+  "frame_scores": [
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.775,
+    1.53125,
+    1.53125,
+    1.53125,
+    1.53125,
+    1.53125,
+    1.53125,
+    1.53125,
+    1.53125,
+    1.53125,
+    1.53125,
+    1.53125,
+    1.53125,
+    1.53125,
+    1.2875,
+    1.2875,
+    1.2875,
+    1.2875,
+    1.2875,
+    1.2875,
+    1.2875,
+    1.2875,
+    1.2875,
+    1.2875,
+    1.2875,
+    1.2875,
+    1.2875,
+    1.2875,
+    1.2875,
+    1.2875,
+    1.2875,
+    1.2875,
+    1.2875,
+    1.2875,
+    1.2875,
+    1.2875,
+    1.2875,
+    1.2875
+  ],
+  "frame_score_picks": [
+    0,
+    15,
+    30,
+    45,
+    60,
+    75,
+    90,
+    105,
+    120,
+    135,
+    150,
+    165,
+    180,
+    195,
+    210,
+    225,
+    240,
+    255,
+    270,
+    285,
+    300,
+    315,
+    330,
+    345,
+    360,
+    375,
+    390,
+    405,
+    420,
+    435,
+    450,
+    465,
+    480,
+    495,
+    510,
+    525,
+    540,
+    555,
+    570,
+    585,
+    600,
+    615,
+    630,
+    645,
+    660,
+    675,
+    690,
+    705,
+    720,
+    735,
+    750,
+    765,
+    780,
+    795,
+    810,
+    825,
+    840,
+    855,
+    870,
+    885,
+    900,
+    915,
+    930,
+    945
+  ],
+  "output_dir": "outputs/inference_results/Jumps"
+}

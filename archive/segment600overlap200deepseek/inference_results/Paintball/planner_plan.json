@@ -1,0 +1,12 @@
+{
+  "video_id": "Paintball",
+  "video_theme": "sports",
+  "global_summary": "The video captures a paintball match on an outdoor field under an overcast sky, featuring players in red gear moving strategically behind large weathered obstacles. The action shifts abruptly to low-angle, blurry shots suggesting stealthy movement through vegetation, followed by nighttime wildlife observation of small animals in the undergrowth. The footage concludes with chaotic, disorienting camera movements, possibly depicting a fall or dynamic action.",
+  "expert_weights": {
+    "story_agent": 0.25,
+    "visual_agent": 0.25,
+    "emotion_agent": 0.25,
+    "information_agent": 0.25
+  },
+  "reason": "The dominant theme is paintball gameplay (segments 0-6), which aligns with 'sports'. The summary integrates the paintball action, the abrupt transition to stealth/observation sequences (segments 6-12), and the chaotic ending (segments 13-14). Expert weights prioritize action_detection for tracking player movements and dynamic scenes, scene_understanding for interpreting the field layout and environmental shifts, object_recognition for identifying obstacles, gear, and wildlife, and motion_analysis for analyzing player runs, camera shakes, and blurry movements."
+}

@@ -1,0 +1,425 @@
+{
+  "video_id": "XkqCExn6_Us",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 600,
+      "planner_score": 0.85,
+      "planner_reason": "This segment establishes the protagonist's morning routine and initial state of being late, which directly sets up the core conflict of rushing to school. It introduces character traits (energetic, possibly disorganized) and provides baseline physicality that contrasts with later parkour sequences. As the opening scene in a story-themed video, it carries significant narrative weight for character introduction and plot initiation.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "This segment establishes the protagonist's morning routine and initial state, which is foundational for the story's progression. It introduces his character and sets up the urgency of his day (waking up late at 8:15), directly leading into the frantic commute described in the global summary. However, it primarily focuses on setup and character introduction rather than advancing the main event (the parkour sequence or arrival at school), so its contribution to story progression is moderate."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a visually dynamic and energetic scene with the young man dancing, which is somewhat striking and highlight-worthy for its personal and lively moment. However, it lacks significant diversity in setting or action compared to the broader parkour theme, and the visual impact is moderate as it's confined to a bedroom without varied or extreme elements."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment shows moderate emotional expression through the character's energetic dancing and morning routine, indicating a sense of urgency or liveliness. However, it lacks intense emotional peaks, high tension, or strong sentiment, as it primarily depicts a routine physical activity without dramatic or deeply emotional context."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.95,
+          "reason": "This segment introduces substantial new information and semantic content as it establishes the protagonist's morning routine, character traits, and energetic personality. It provides specific details about his waking time (8:15), his dressing process, stretching routine, and unexpected energetic dancing behavior. This segment sets up the character's personality and daily patterns that will likely contrast with the frantic commute described in the global summary, offering foundational narrative elements that weren't previously established."
+        }
+      },
+      "final_score": 1.4125
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 400,
+      "end_frame": 1000,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is important as it directly advances the narrative of the morning routine and frantic commute. It shows the protagonist completing his dressing, grabbing his backpack, and rushing out—key actions that transition from the bedroom to the commute phase. While not as visually dynamic as the parkour sequence later, it establishes urgency and continuity, contributing to story progression and character consistency.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment shows the character preparing to leave home, which is a necessary step in the progression toward school, but it primarily depicts routine actions (dressing, grabbing backpack) rather than advancing the main narrative or introducing significant plot development. It serves as transitional setup rather than meaningful story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment depicts a hurried morning routine with dynamic actions like quick dressing and rushing out, which adds a sense of urgency and relatability to the theme of a frantic commute. However, it lacks visually striking elements like parkour or high-energy sequences, making it moderately highlight-worthy but not as diverse or intense as later segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment shows moderate emotional intensity through the young man's hurried actions, conveying urgency and a sense of rushing, but lacks strong facial expressions or dramatic tension that would elevate the score further."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment introduces new actions (dressing fully, grabbing backpack, exiting the room, heading to elevator) that advance the narrative toward the commute, but it overlaps with the dressing routine from the previous segment and lacks entirely new semantic content beyond continuation."
+        }
+      },
+      "final_score": 1.375
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 800,
+      "end_frame": 1400,
+      "planner_score": 0.3,
+      "planner_reason": "This segment shows the protagonist's commute transition from building to bus stop, which is part of the established 'frantic commute' narrative. However, it lacks the high-energy movement or narrative progression seen in previous segments (morning routine) or upcoming segments (parkour sequence). The action is relatively mundane—walking, waiting—and doesn't introduce new character development, conflict, or symbolic elements crucial to the story theme. It serves as connective tissue rather than a highlight, making it of moderate but not critical importance for a summary focused on key story beats.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment advances the story by depicting the protagonist's commute from his building to a bus stop, which is a necessary step in his journey to school. However, it primarily shows transitional movement (walking, waiting) rather than a key plot development or significant event that substantially propels the main narrative forward."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a routine, low-energy sequence of walking through a building, using an elevator, and waiting at a bus stop, which lacks visually striking elements, dynamic movement, or highlight-worthy action compared to the energetic parkour described in the global summary. It serves a transitional narrative purpose but offers minimal visual diversity or excitement."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a routine, low-energy transit sequence with minimal emotional expression or tension. The actions are mundane—walking, waiting, observing a bus pass—lacking the dynamic energy or emotional cues seen in prior segments, resulting in subdued sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces the new setting of a bus stop and the action of waiting for a bus, which adds minor progression in the commute narrative. However, it largely continues the established routine of leaving for school without significant new plot developments or semantic depth, making it moderately informative but not highly novel."
+        }
+      },
+      "final_score": 0.7
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1200,
+      "end_frame": 1800,
+      "planner_score": 0.6,
+      "planner_reason": "This segment continues the established 'frantic commute' narrative from previous segments, showing progression from elevator to bus stop to subway station. It maintains the story's momentum and urgency, but doesn't introduce new narrative elements or major character development. The segment is important for maintaining continuity and showing incremental progress in the journey, but is somewhat repetitive with previous commuting segments.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment advances the story by depicting the protagonist's commute, moving him from his home environment toward his destination (school), which is a necessary step in the narrative progression. However, it primarily shows routine transit actions (elevator, running for bus, entering subway) without introducing new major plot developments or escalating the urgency beyond the established frantic pace, thus contributing moderately to event progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a routine commute involving an elevator, bus stop, and subway station, which is typical and lacks visually striking or highlight-worthy elements compared to the energetic parkour sequences described in the global summary. It serves as a transitional, mundane part of the narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a routine commute with actions like entering an elevator, running to a bus stop, and waiting for a train, which convey a sense of urgency and mild tension typical of a rushed morning. However, the emotional expression is subdued, lacking intense sentiment, dramatic tension, or strong emotional cues such as facial expressions or heightened stakes, resulting in a low to moderate emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment continues the established narrative of the protagonist's commute, showing progression from elevator to bus stop to subway station, but introduces minimal new semantic content beyond location changes, as the core action of rushing through transit remains consistent with prior segments."
+        }
+      },
+      "final_score": 1.0
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1600,
+      "end_frame": 2200,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is crucial as it represents the final stage of the commute sequence, showing the protagonist transitioning from transit environments to his destination area. The action of 'bursting into a sunlit courtyard' provides visual contrast and momentum, directly supporting the story's theme of frantic rushing. It serves as a bridge between the transportation phase and the upcoming school arrival, maintaining narrative continuity while advancing the plot toward its culmination.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment significantly advances the story by depicting the protagonist's urgent transition from the transit system to his final destination, moving him closer to the school arrival point. It builds momentum and directly contributes to the main event progression of the frantic commute, though it is not the ultimate arrival or climax."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment is visually dynamic with movement through varied transit environments (platform, walkway, stairs, courtyard), creating a sense of urgency and progression. However, it lacks highly striking or unique visual elements compared to earlier segments (e.g., the energetic dance or parkour sequences), and the action is more routine within the commute narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment depicts a sense of urgency and movement, but lacks strong emotional expression or sentiment. The focus is on physical action and the environment, with minimal emotional cues."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment continues the established narrative of the protagonist's commute, showing him waiting for a train, exiting a station, and rushing into a courtyard. While it adds specific environmental details (covered walkway, sunlit courtyard) and progresses the action, it does not introduce significant new information, instructions, or semantic content beyond the ongoing theme of a frantic journey to school. The core activity and purpose remain consistent with previous segments."
+        }
+      },
+      "final_score": 1.4625
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 2000,
+      "end_frame": 2600,
+      "planner_score": 0.95,
+      "planner_reason": "This segment represents the climax of the story's 'frantic commute' narrative, transitioning from ordinary travel to an energetic, stylized parkour sequence that visually emphasizes urgency, athleticism, and determination. It is a key action set-piece that heightens engagement, showcases the protagonist's character through physical expression, and bridges the earlier routine with the upcoming arrival at school. Its dynamic motion and urban environment traversal are central to the video's theme of a rushed, transformative journey.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story's main event progression by depicting the protagonist's high-energy parkour sequence, which directly continues his frantic commute and intensifies the urgency of reaching his destination. It transitions from routine transit to dynamic action, heightening narrative momentum and showcasing a key thematic element of agility and rush."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "This segment is exceptionally visually striking and highlight-worthy. It transitions from the previous mundane commuting scenes into an energetic parkour sequence featuring dynamic movements (jumps, vaults, climbs), fluid motion through varied urban environments (grassy area, courtyard, alleyway), and showcases impressive agility. The action is continuous and visually engaging, representing a clear climax in the narrative's pacing. Compared to previous segments focused on routine activities, this stands out as the most visually diverse and exciting moment in the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment features intense physical exertion and dynamic movement through parkour, conveying urgency and energetic determination. The actions—climbing walls, executing powerful jumps, and fluid vaulting—create a sense of tension and momentum, reflecting the protagonist's rush. While not explicitly emotional in facial expression or dialogue, the physicality and pace strongly imply heightened emotional states like determination, urgency, and exhilaration."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The segment introduces a new, high-energy parkour sequence that significantly advances the narrative by shifting from routine commuting to dynamic physical action, adding substantial new visual and semantic content not present in prior segments focused on waking up, dressing, or transit."
+        }
+      },
+      "final_score": 1.85
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 2400,
+      "end_frame": 3000,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is a continuation and intensification of the parkour sequence that forms the energetic climax of the story's 'frantic commute'. It directly showcases the protagonist's agility and determination, visually translating the narrative urgency. While it follows a similar parkour segment (Segment 5), it adds new movements (vaulting under structures, sprinting between barriers) and environments (courtyard, alleyway), maintaining high visual interest and narrative momentum as he approaches his destination. It is less critical than the initial transition into parkour or the final arrival at school, but remains a core, high-action component of the story's central sequence.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story's main event progression by depicting the protagonist's continued parkour journey, which is the central energetic sequence of the video. It builds upon the previous parkour segment, showing further movement through urban environments toward his destination, maintaining momentum and purpose. While it doesn't introduce a new narrative phase (like arriving at school), it sustains and elaborates on the key action that drives the story forward."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "This segment is exceptionally visually striking and highlight-worthy due to its dynamic parkour sequence featuring multiple athletic maneuvers (leaping over walls, vaulting under structures, sprinting) executed with fluidity and purpose. The urban courtyard and alleyway setting provides diverse environmental elements that enhance the visual appeal. As a continuation of the parkour sequence from the previous segment, it maintains high energy and showcases impressive physicality, making it a clear highlight within the video's narrative of a frantic commute."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment features high-energy parkour movements including leaping, vaulting, and sprinting, which convey urgency, determination, and physical exertion. The dynamic motion and purposeful navigation through urban obstacles create a strong sense of tension and excitement, though it lacks deeper emotional complexity beyond the physical rush."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment continues the parkour sequence from the previous segment, maintaining the theme of energetic movement through urban environments. While it adds slight variation in specific actions (e.g., vaulting under structures, sprinting between barriers), it does not introduce significant new information, instructions, or semantic content beyond what was already established in the global summary and prior segments, representing incremental progression rather than novelty."
+        }
+      },
+      "final_score": 1.6
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 2800,
+      "end_frame": 3400,
+      "planner_score": 0.85,
+      "planner_reason": "The segment continues the dynamic parkour sequence central to the story's energetic commute, showcasing agility and movement that aligns with the theme. It maintains narrative momentum and visual excitement, contributing significantly to the overall summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment continues the parkour sequence, maintaining the momentum of the protagonist's rush, but it does not introduce a new main event or significantly advance the story beyond the established action of the commute. It contributes to the progression by depicting ongoing movement toward the destination, yet lacks a pivotal narrative development."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking and highlight-worthy due to its dynamic parkour actions, including scaling a wall, running across a courtyard, and vaulting over a railing, which are energetic and skillfully executed. It maintains the high-energy theme from previous segments but shows some repetition in urban parkour settings, slightly reducing diversity."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment maintains a high level of energetic and dynamic movement through parkour, conveying urgency and physical exertion, which sustains strong emotional tension and excitement. However, it slightly lacks the peak intensity or varied emotional depth seen in earlier segments with more dramatic jumps or transitions, keeping it consistently engaging but not at the absolute highest emotional peak."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment continues the parkour sequence established in previous segments (5 and 6), maintaining the same action theme and setting. While it introduces specific new maneuvers (scaling a brick wall, vaulting over a railing, disappearing down stairs), these are variations within the already established activity of parkour during a commute. It does not introduce new narrative elements, locations, or significant shifts in the story's progression, resulting in moderate but not high novelty."
+        }
+      },
+      "final_score": 1.525
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 3200,
+      "end_frame": 3800,
+      "planner_score": 0.85,
+      "planner_reason": "The segment continues the high-energy parkour sequence that is central to the video's 'story' theme, showcasing the protagonist's agility and determination during his commute. It maintains narrative momentum and visual excitement, contributing to the overall dynamic portrayal of his journey.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment continues the parkour sequence, maintaining the momentum of the protagonist's rush to school, but it does not introduce a new major event or significantly advance the plot beyond the ongoing physical journey. It contributes to the progression by depicting continued movement toward the destination, yet lacks a pivotal story development or arrival point."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment features dynamic parkour movement through varied urban structures, maintaining energetic pacing and visual interest. However, it lacks the standout, high-impact stunts or dramatic environmental shifts seen in previous segments (e.g., powerful jumps, vaults, or unique obstacles), making it less highlight-worthy by comparison. The setting and action remain consistent with prior segments, reducing novelty and visual diversity."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts energetic running and navigation through an urban environment, which conveys a strong sense of urgency and dynamic movement. This aligns with the theme of a frantic commute and parkour sequence, contributing to high emotional intensity through physical exertion and momentum."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment continues the established parkour sequence in an urban environment, maintaining the theme of energetic movement and rushing. However, it introduces minimal new semantic content beyond variations in the specific structures navigated (ramp, stairs, elevated walkway, tree-lined path), which are similar to previously seen obstacles. It does not advance the narrative, introduce new instructions, or significantly expand the story's context beyond the ongoing commute and physical exertion."
+        }
+      },
+      "final_score": 1.475
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 3600,
+      "end_frame": 4200,
+      "planner_score": 0.85,
+      "planner_reason": "This segment serves as a crucial narrative bridge and resolution point. It transitions from the parkour sequence to the school setting, directly connecting the frantic commute to the destination. The visible distress while adjusting the tie provides emotional payoff to the rushing theme and suggests arrival at the important location (school). It also sets up the symbolic passage of time mentioned in the global summary, making it essential for narrative closure.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story by depicting the protagonist's arrival at school and his frantic preparation, marking a clear progression from the commute and parkour sequence to the destination context. It introduces a new setting (school building) and a key narrative moment (struggling with the tie), which heightens urgency and directly ties to the overarching theme of rushing to school, thus contributing strongly to main event progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows the protagonist running and struggling with his tie, which adds a moment of personal urgency and slight distress, but it lacks the dynamic parkour action or visually striking compositions seen in earlier segments. It serves as a transition to the school setting, focusing more on narrative progression than on visual spectacle or highlight-worthiness."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment features strong emotional expression through visible distress and urgency as the young man struggles with his tie, indicating heightened tension and a clear sense of rushing or anxiety, though it is slightly less intense than the peak physical exertion in earlier parkour segments."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.7,
+          "reason": "The segment introduces new semantic content by depicting the protagonist's arrival at a school setting and his internal distress while adjusting his uniform, which adds narrative tension and character emotion not present in the prior parkour-focused segments. However, the action of running down a path continues the established theme of rushing, so the novelty is moderate rather than high."
+        }
+      },
+      "final_score": 1.5625
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 4000,
+      "end_frame": 4600,
+      "planner_score": 0.85,
+      "planner_reason": "This segment represents a key narrative transition from the frantic parkour commute to the arrival at school and character preparation. It shows the protagonist completing his journey, adjusting his uniform (tie and glasses), and adopting a confident demeanor—signaling a shift from physical urgency to mental readiness. This moment likely precedes the symbolic 'passage of a week' mentioned in the global summary, making it crucial for the story's temporal progression and character development.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story's main event progression by showing the protagonist's arrival at his destination (school) and transition from frantic movement to composed readiness. After the extended parkour sequence depicting his rushed commute, this scene marks narrative closure: he adjusts his uniform (completing his preparation), puts on glasses (symbolizing focus), and walks confidently in the school courtyard (indicating arrival). His upward look suggests anticipation of what comes next, effectively transitioning from the journey to the school-day narrative. While not depicting a major plot twist, it serves as a key narrative pivot point that concludes the commute arc and sets up subsequent school events."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the contrast between the frantic parkour sequences and this composed, confident moment. The sunlit courtyard provides appealing lighting, and the student's deliberate actions (adjusting tie, putting on glasses, confident walk, upward gaze) create a highlight-worthy narrative beat that suggests a transition from frantic movement to purposeful readiness. While less dynamically diverse than previous parkour segments, it serves as a strong visual punctuation point in the story's progression."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment shows a composed and confident demeanor with the student adjusting his tie and glasses, walking calmly in a sunlit courtyard. While there is a hint of anticipation or preparation in his upward glance, the emotional intensity is significantly lower compared to the high-energy, frantic parkour and distressed moments in previous segments. The sentiment is neutral to mildly positive, lacking strong tension or vivid emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces the student's arrival at school and a moment of preparation or reaction, but it largely continues the established narrative of his rushed journey and school arrival, with minimal new semantic content beyond the specific actions of adjusting tie, putting on glasses, and pausing to look up, which are incremental developments rather than significant new information."
+        }
+      },
+      "final_score": 1.4625
+    },
+    {
+      "segment_id": 11,
+      "start_frame": 4400,
+      "end_frame": 5000,
+      "planner_score": 0.85,
+      "planner_reason": "This segment serves as a crucial narrative and symbolic conclusion to the story's temporal progression. While the physical journey has concluded with the protagonist arriving at school, this segment introduces a key thematic element—the passage of a week—visually represented through the days appearing around him. This directly connects to and fulfills the 'passage of a week' mentioned in the global summary. His animated gesturing suggests a narrative payoff or explanation, making this segment important for thematic closure and narrative resolution, rather than just another action beat. It transitions the summary from pure physical action to a conceptual representation of time, which is central to the story's structure.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "This segment significantly contributes to story progression by introducing a symbolic representation of the passage of time (a week) through the days of the week appearing around the character. This marks a clear transition from the frantic, real-time action of the commute and parkour sequences to a more reflective, time-abstracted moment, indicating a shift in narrative pacing and focus. The character's animated gesturing suggests he is explaining or recounting events, which could be setting up a new narrative phase or reflecting on the preceding action. While not a direct main event in itself, it serves as a pivotal narrative bridge, advancing the story from physical progression to temporal and possibly thematic progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment introduces a visually striking and creative element with the animated appearance of days of the week around the student, which is highlight-worthy due to its symbolic representation of time passage and unique visual effect. While the setting (campus courtyard) is consistent with previous segments, the addition of this graphical overlay provides diversity and a memorable visual moment within the narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment features a student gesturing animatedly, which conveys moderate emotional expression through body language, but lacks intense tension or strong sentiment. The visual overlay of days of the week adds a conceptual, symbolic element rather than heightening emotional impact, resulting in a subdued overall emotional strength compared to previous high-energy parkour segments."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "This segment introduces significant new semantic content by visually representing the passage of a full week through animated text elements (MON through SUN) appearing around the student. While previous segments established the parkour commute and arrival at school, this segment adds temporal progression and narrative structure by showing time passing symbolically. The student's animated gesturing suggests explanation or storytelling, adding new narrative dimension beyond physical movement. However, the setting (school courtyard) and character remain consistent with recent segments, limiting the novelty of environmental information."
+        }
+      },
+      "final_score": 1.5750000000000002
+    },
+    {
+      "segment_id": 12,
+      "start_frame": 4800,
+      "end_frame": 5400,
+      "planner_score": 0.95,
+      "planner_reason": "This segment serves as the narrative conclusion and formal ending of the video. It completes the symbolic passage of time (days of the week) initiated in the previous segment, providing closure to the story's timeline. The character's retreat down the walkway, combined with the rolling credits, clearly marks the end of the journey and the video itself. For a 'story' theme summary, this concluding moment that ties together the frantic commute, parkour sequence, and arrival at school is highly important for providing narrative resolution.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly contributes to story progression by serving as a narrative conclusion. It visually resolves the main event of the frantic commute and parkour sequence by showing the protagonist's arrival at school, his composed demeanor, and the symbolic passage of a week, culminating in his departure and the rolling credits, which clearly mark the end of the story arc."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment is visually straightforward with minimal dynamic action, focusing on a student speaking with text overlays and walking away as credits roll. While the text overlay for days of the week adds a creative narrative element, it lacks the striking visual diversity, energetic motion, or highlight-worthy intensity seen in previous parkour segments. The retreating figure with credits is functional but not visually compelling, resulting in a lower score for this dimension."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment conveys a moderate emotional tone through the student's animated gesturing and speaking, suggesting engagement or explanation, paired with the symbolic overlay of days of the week which adds a reflective or narrative sentiment about time passage. However, it lacks high-intensity emotions like tension or strong excitement seen in earlier parkour segments, resulting in a solid but not peak emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment primarily continues the established narrative of the student in a school setting, with the days of the week overlay already introduced in the previous segment. The new visual element is the credits rolling, which signals the video's conclusion but adds minimal new semantic content to the story or character development. It serves as an epilogue rather than introducing significant new information, instructions, or plot progression."
+        }
+      },
+      "final_score": 1.475
+    },
+    {
+      "segment_id": 13,
+      "start_frame": 5200,
+      "end_frame": 5631,
+      "planner_score": 0.2,
+      "planner_reason": "The current segment is a closing credit sequence that acknowledges contributors and concludes the video. While it provides formal closure and credits, it does not advance the narrative or showcase the parkour action central to the story. Given the video theme is 'story', this segment has low importance for the summary as it lacks narrative progression, character development, or thematic resolution beyond formal acknowledgments.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.0,
+          "reason": "The current segment is a credits sequence acknowledging contributors and concluding the video. It does not contribute to story progression or main event progression, as it serves purely as an administrative and closing element rather than advancing the narrative or events."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment primarily consists of a credit sequence with blurred background and text overlays, lacking the dynamic visual elements, diverse environments, or highlight-worthy action seen in previous parkour segments. While the composition with pillars and greenery has some aesthetic appeal, it serves a functional rather than striking purpose. The abrupt cut at the end provides minimal visual interest. Compared to the energetic parkour sequences and narrative moments in earlier segments, this is visually subdued and serves as a conclusion rather than a highlight."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The current segment is a credit sequence with minimal emotional content. It consists of static text overlays on a blurred background showing a person walking away, followed by acknowledgments and a 'Thanks for Watching' message. Compared to previous segments featuring energetic parkour, urgency, and narrative progression, this segment serves a purely functional purpose (credits) and lacks emotional expression, tension, or sentiment. The emotional intensity is negligible, resulting in a low score."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The segment primarily consists of closing credits and acknowledgments, which provide minimal new narrative or semantic content relevant to the story's progression. While it introduces specific names (director, composer, camera operators), this information is meta-contextual rather than advancing the plot, character development, or thematic elements established in previous segments. The 'Thanks for Watching' message and fade to black signal the video's conclusion, but these elements are procedural and add little to the core narrative or instructional content of the video."
+        }
+      },
+      "final_score": 0.325
+    }
+  ]
+}

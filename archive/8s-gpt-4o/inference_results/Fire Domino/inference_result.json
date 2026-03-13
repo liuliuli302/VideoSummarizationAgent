@@ -1,0 +1,581 @@
+{
+  "video_id": "Fire Domino",
+  "video_info": {
+    "video_id": "Fire Domino",
+    "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Fire Domino.mp4",
+    "fps": 30.0,
+    "total_frames": 1612
+  },
+  "planner_plan": {
+    "video_theme": "landscape",
+    "global_summary": "The video showcases a series of intricate structures made of matchsticks and toothpicks, transitioning from static displays to dynamic, intense fire scenes. The flames consume the structures, creating a visually captivating display of fire and light against various backgrounds.",
+    "expert_weights": {
+      "story_agent": 0.25,
+      "visual_agent": 0.25,
+      "emotion_agent": 0.25,
+      "information_agent": 0.25
+    },
+    "reason": "The video primarily focuses on the visual transformation of structures through fire, emphasizing the aesthetic and dynamic nature of flames. The lack of dialogue or narrative suggests a focus on visual and contextual elements, with minimal audio and text involvement."
+  },
+  "captions": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 201,
+      "caption_frame_indices": [
+        0,
+        67,
+        133,
+        200
+      ],
+      "caption": "A static, intricate sculpture made of wooden toothpicks with red heads is displayed against a plain white background, remaining completely still across all frames."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 201,
+      "end_frame": 402,
+      "caption_frame_indices": [
+        201,
+        268,
+        334,
+        401
+      ],
+      "caption": "A tall, spiral structure made of unlit matches is ignited from the top, causing flames to rapidly spread downward and engulf the entire tower in a bright, intense fire."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 402,
+      "end_frame": 603,
+      "caption_frame_indices": [
+        402,
+        469,
+        535,
+        602
+      ],
+      "caption": "A tall, spiraling tower of matchsticks ignites and burns intensely, with flames rapidly consuming the structure from top to bottom, casting a warm, flickering glow on the surrounding surface as the fire grows more vigorous and widespread."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 603,
+      "end_frame": 804,
+      "caption_frame_indices": [
+        603,
+        670,
+        736,
+        803
+      ],
+      "caption": "A spiral structure made of sticks or matchsticks is engulfed in bright, dancing flames, burning steadily as it stands upright against a warm, dimly lit background."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 804,
+      "end_frame": 1005,
+      "caption_frame_indices": [
+        804,
+        871,
+        937,
+        1004
+      ],
+      "caption": "A tall, spiraling tower of matches is engulfed in flames, burning intensely as the fire dances and flickers around its structure, illuminating the scene with a warm, orange glow."
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 1005,
+      "end_frame": 1206,
+      "caption_frame_indices": [
+        1005,
+        1072,
+        1138,
+        1205
+      ],
+      "caption": "A tall, spiraling structure made of matchsticks is engulfed in flames, burning intensely from the bottom up as the fire consumes the wooden sticks, sending up bright, flickering flames and smoke against a plain, dimly lit background."
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 1206,
+      "end_frame": 1407,
+      "caption_frame_indices": [
+        1206,
+        1273,
+        1339,
+        1406
+      ],
+      "caption": "A fire rapidly grows and spreads across a pile of matches on a floor, with flames rising and engulfing the matchsticks, illuminating the surrounding area with an orange glow."
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 1407,
+      "end_frame": 1612,
+      "caption_frame_indices": [
+        1407,
+        1475,
+        1543,
+        1611
+      ],
+      "caption": "A small, intense fire burns vigorously on a dark surface, its bright yellow and orange flames dancing and flickering as they consume a pile of what appear to be burnt matchsticks or similar combustible material. The scene is bathed in the warm, orange glow of the fire, with the background wall softly illuminated, highlighting the dynamic, ever-changing shape of the flames as they rise and sway."
+    }
+  ],
+  "segment_scores": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 201,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment features a static display of a toothpick sculpture, which aligns with the theme of showcasing intricate structures. However, it lacks the dynamic and visually captivating elements of fire and light that are central to the global summary of the video. Therefore, while it contributes to the overall theme, its importance is limited compared to segments featuring dynamic fire scenes.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The current segment features a static display of a toothpick sculpture, which does not contribute significantly to the progression of the main event involving dynamic fire scenes. It serves as an introductory or transitional element, setting up the visual theme but lacking in action or progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment features a static display of a toothpick sculpture against a plain white background, which lacks dynamic elements or visual diversity. While the intricacy of the sculpture may hold some visual interest, the absence of movement or contrasting elements makes it less striking or highlight-worthy compared to more dynamic scenes."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment features a static sculpture with no movement or dynamic elements, resulting in minimal emotional expression or tension. The plain white background further contributes to the lack of sentiment or intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment provides some new information by describing a specific sculpture made of wooden toothpicks with red heads against a plain white background. However, it lacks dynamic content or additional context, such as the purpose or significance of the sculpture, and does not introduce new actions or changes, limiting the amount of new semantic content."
+        }
+      },
+      "final_score": 0.55
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 201,
+      "end_frame": 402,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment is crucial for the landscape theme as it showcases the dynamic transition from a static structure to an intense fire scene, enhancing the visual appeal and capturing the essence of transformation and movement. This segment contributes significantly to the overall narrative of fire consuming intricate structures, which is central to the video's theme.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly contributes to the progression of the main event, transitioning from static displays to dynamic fire scenes. The ignition and subsequent engulfing of the structure in flames marks a pivotal moment in the video, enhancing the visual narrative and advancing the theme of transformation through fire."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The current segment is visually striking due to the dynamic and intense display of flames rapidly spreading down a tall, spiral structure made of matches. The contrast between the initial unlit state and the subsequent engulfing fire creates a captivating visual transition, making it a highlight-worthy moment in the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.8,
+          "reason": "The current segment features a dynamic and intense visual transformation as the spiral structure is engulfed in flames. The rapid spread of fire and the bright, intense visuals contribute to a strong emotional expression and tension, contrasting with the previous static display."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The current segment introduces new information by transitioning from static displays to dynamic scenes, specifically showing the ignition and rapid spread of fire on a spiral structure made of matches. This adds significant semantic content related to the theme of fire and destruction, contrasting with the previous segment's static display."
+        }
+      },
+      "final_score": 1.7000000000000002
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 402,
+      "end_frame": 603,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment captures the dynamic and visually captivating aspect of the video theme, which is landscape. The intense burning of the matchstick tower and the resulting glow contribute significantly to the visual appeal and thematic consistency of the video, highlighting the transformation of the structures through fire. This aligns well with the global summary's focus on dynamic fire scenes against various backgrounds.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly contributes to the progression of the main event, which is the transition from static structures to dynamic fire scenes. It continues the theme of ignition and intense burning, showcasing the transformation of the matchstick tower into a vivid display of flames, thus advancing the narrative of fire consuming the structures."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment is visually striking due to the dynamic and intense display of flames consuming the spiraling tower of matchsticks. The rapid spread of fire and the warm, flickering glow create a captivating visual experience, making it highlight-worthy within the context of the video theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.9,
+          "reason": "The segment features intense emotional expression through the dynamic and vigorous flames consuming the matchstick tower. The rapid spread of fire and the warm, flickering glow create a visually captivating and emotionally charged scene, conveying strong tension and sentiment associated with the destructive yet mesmerizing nature of fire."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides limited new information as it closely resembles the previous segment's description of a similar spiraling tower of matchsticks igniting and burning intensely. The only additional detail is the mention of the warm, flickering glow cast on the surrounding surface, which slightly enhances the visual description but does not significantly increase the semantic content."
+        }
+      },
+      "final_score": 1.5750000000000002
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 603,
+      "end_frame": 804,
+      "planner_score": 0.75,
+      "planner_reason": "The current segment contributes significantly to the visual theme of the video, showcasing the dynamic and captivating nature of fire against a warm, dimly lit background. This aligns well with the landscape theme, emphasizing the aesthetic and atmospheric qualities of the burning structures. The steady burning of the spiral structure adds continuity and depth to the progression of fire scenes, enhancing the overall visual impact of the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The current segment continues the theme of structures being consumed by fire, similar to previous segments. However, it does not introduce new elements or significant changes to the progression of the main event, which is the burning of these structures. The setting and visual effects remain consistent with earlier segments, contributing minimally to the overall story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment is visually striking due to the dynamic and intense flames consuming the spiral structure, creating a captivating display of fire and light. The contrast between the bright flames and the warm, dimly lit background enhances the visual appeal, making it a highlight-worthy moment in the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.8,
+          "reason": "The segment features a visually intense scene with bright, dancing flames consuming a structure, creating a strong emotional expression of energy and transformation. The steady burning and the contrast with the dimly lit background enhance the dramatic effect, contributing to a high level of emotional tension and sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides minimal new information as it describes a scenario similar to previous segments, specifically segment 1 and segment 2, where a spiral structure made of matchsticks is engulfed in flames. The only slight variation is the mention of a 'warm, dimly lit background,' which adds a minor new detail to the visual setting but does not significantly enhance the overall semantic content."
+        }
+      },
+      "final_score": 1.3
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 804,
+      "end_frame": 1005,
+      "planner_score": 0.75,
+      "planner_reason": "The current segment is important for the summary as it continues the theme of dynamic fire scenes, showcasing the visual impact of flames consuming intricate structures. It contributes to the overall aesthetic and thematic continuity of the video, emphasizing the captivating display of fire and light.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The current segment is similar to previous segments, depicting a spiraling tower of matches burning intensely. It does not introduce new elements or significant changes to the narrative, thus contributing minimally to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking due to the intense flames and dynamic movement of the fire around the spiraling tower of matches. The warm, orange glow adds to the captivating visual appeal, making it highlight-worthy within the theme of landscape. However, the visual diversity is limited as it closely resembles previous segments in terms of structure and fire dynamics."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.9,
+          "reason": "The current segment features intense flames consuming a spiraling tower of matches, creating a dynamic and visually captivating display. The fire's movement and the warm, orange glow contribute to a strong emotional expression and tension, as the flames dance and flicker around the structure."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment provides minimal new information or semantic content compared to previous segments. It describes a similar scene of a spiraling tower of matches burning intensely, which has been depicted in multiple prior segments. The description of the fire's behavior and the visual effects are consistent with earlier segments, offering little in terms of new details or instructions."
+        }
+      },
+      "final_score": 1.25
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 1005,
+      "end_frame": 1206,
+      "planner_score": 0.6,
+      "planner_reason": "The current segment showcases a visually captivating scene of flames consuming a matchstick structure, which aligns with the theme of dynamic fire displays in a landscape setting. However, it is similar to previous segments, particularly segment 4, which also features a spiraling tower engulfed in flames. The repetitive nature of the content slightly reduces its uniqueness and importance for the summary, but it still contributes to the overall visual appeal and theme of the video.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The current segment is similar to previous segments, depicting a spiraling structure of matchsticks engulfed in flames. While it contributes to the visual theme of fire consuming structures, it does not introduce new elements or significantly advance the story or main event progression beyond what has already been established in earlier segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment is visually striking due to the intense flames and smoke consuming the matchstick structure, creating a dynamic display of fire. However, the plain, dimly lit background and repetitive theme of burning matchstick towers reduce its diversity and highlight-worthiness compared to previous segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.9,
+          "reason": "The segment features intense visual elements with flames consuming a matchstick structure, creating a dynamic and vivid display of fire and smoke. The visual intensity and the movement of the flames contribute to a strong emotional expression and tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides minimal new information as it closely resembles previous segments, particularly segment 4, with similar descriptions of a spiraling matchstick structure engulfed in flames. The only slight variation is the direction of the fire, burning from the bottom up, but overall, it lacks significant new semantic content."
+        }
+      },
+      "final_score": 1.0999999999999999
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 1206,
+      "end_frame": 1407,
+      "planner_score": 0.75,
+      "planner_reason": "The current segment contributes to the dynamic and visually captivating display of fire and light, which is central to the landscape theme of the video. It showcases the progression and spread of flames, adding variety to the sequence of burning structures. The segment enhances the visual narrative by illustrating the intensity and spread of fire, which is a key element in the overall aesthetic of the video.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The current segment contributes significantly to the progression of the main event, which is the dynamic display of fire consuming matchstick structures. It continues the theme of fire spreading and illuminating the surroundings, adding to the visual narrative of destruction and transformation. This segment maintains the intensity and visual impact established in previous segments, further advancing the story of fire interacting with the matchstick structures."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking due to the dynamic and intense fire scene, with flames rapidly spreading across the matchsticks. The bright, flickering flames and the orange glow create a captivating visual display. However, the scene is similar to previous segments in terms of theme and visual elements, slightly reducing its diversity and uniqueness."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.9,
+          "reason": "The current segment features a rapidly growing fire that spreads across a pile of matches, creating an intense visual display. The flames rising and engulfing the matchsticks, along with the illumination of the surrounding area with an orange glow, contribute to a strong emotional expression and tension. The dynamic nature of the fire and its visual impact heighten the emotional intensity of the scene."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment provides minimal new information as it continues the theme of matchstick structures being engulfed by flames. The description of fire spreading across a pile of matches and illuminating the area is similar to previous segments, which also depicted matchstick structures burning and casting an orange glow. The new element is the setting on a floor, but overall, the segment does not significantly expand on the established theme or introduce novel concepts."
+        }
+      },
+      "final_score": 1.45
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 1407,
+      "end_frame": 1612,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment contributes significantly to the visual theme of the video by showcasing the dynamic and captivating nature of fire. The intense flames and their interaction with the surrounding environment enhance the overall aesthetic and thematic continuity of the landscape video. The segment's focus on the fire's movement and illumination aligns well with the global summary's emphasis on visually captivating displays of fire and light.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The current segment continues the theme of fire consuming matchstick structures, but it does not introduce new elements or significantly advance the narrative beyond what has been established in previous segments. It maintains the visual motif of flames and illumination, contributing to the overall aesthetic but not progressing the story or main event in a novel way."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment features a visually striking display of fire, with bright yellow and orange flames dancing and flickering against a dark surface. The dynamic nature of the flames and the warm glow they cast create a captivating visual experience. The contrast between the intense fire and the dark background enhances the visual impact, making it a highlight-worthy scene. However, the segment lacks diversity in terms of visual elements, as it primarily focuses on the fire itself without additional landscape features."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.9,
+          "reason": "The segment features a small but intense fire with bright yellow and orange flames that dance and flicker vigorously. The dynamic and visually captivating nature of the flames, along with the warm, orange glow illuminating the scene, creates a strong emotional expression and tension. The vivid imagery of the fire consuming the material adds to the intensity of the sentiment conveyed."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides minimal new information or semantic content compared to previous segments. It continues the theme of burning matchstick structures, with similar visual elements such as intense flames and warm, orange glow. The slight variation is the focus on a smaller fire and the description of burnt matchsticks, but overall, it reiterates the established pattern without introducing significant new details or instructions."
+        }
+      },
+      "final_score": 1.425
+    }
+  ],
+  "frame_scores": [
+    0.55,
+    0.55,
+    0.55,
+    0.55,
+    0.55,
+    0.55,
+    0.55,
+    0.55,
+    0.55,
+    0.55,
+    0.55,
+    0.55,
+    0.55,
+    0.55,
+    1.7000000000000002,
+    1.7000000000000002,
+    1.7000000000000002,
+    1.7000000000000002,
+    1.7000000000000002,
+    1.7000000000000002,
+    1.7000000000000002,
+    1.7000000000000002,
+    1.7000000000000002,
+    1.7000000000000002,
+    1.7000000000000002,
+    1.7000000000000002,
+    1.7000000000000002,
+    1.5750000000000002,
+    1.5750000000000002,
+    1.5750000000000002,
+    1.5750000000000002,
+    1.5750000000000002,
+    1.5750000000000002,
+    1.5750000000000002,
+    1.5750000000000002,
+    1.5750000000000002,
+    1.5750000000000002,
+    1.5750000000000002,
+    1.5750000000000002,
+    1.5750000000000002,
+    1.5750000000000002,
+    1.3,
+    1.3,
+    1.3,
+    1.3,
+    1.3,
+    1.3,
+    1.3,
+    1.3,
+    1.3,
+    1.3,
+    1.3,
+    1.3,
+    1.3,
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.0999999999999999,
+    1.0999999999999999,
+    1.0999999999999999,
+    1.0999999999999999,
+    1.0999999999999999,
+    1.0999999999999999,
+    1.0999999999999999,
+    1.0999999999999999,
+    1.0999999999999999,
+    1.0999999999999999,
+    1.0999999999999999,
+    1.0999999999999999,
+    1.0999999999999999,
+    1.0999999999999999,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.425,
+    1.425,
+    1.425,
+    1.425,
+    1.425,
+    1.425,
+    1.425,
+    1.425,
+    1.425,
+    1.425,
+    1.425,
+    1.425,
+    1.425,
+    1.425
+  ],
+  "frame_score_picks": [
+    0,
+    15,
+    30,
+    45,
+    60,
+    75,
+    90,
+    105,
+    120,
+    135,
+    150,
+    165,
+    180,
+    195,
+    210,
+    225,
+    240,
+    255,
+    270,
+    285,
+    300,
+    315,
+    330,
+    345,
+    360,
+    375,
+    390,
+    405,
+    420,
+    435,
+    450,
+    465,
+    480,
+    495,
+    510,
+    525,
+    540,
+    555,
+    570,
+    585,
+    600,
+    615,
+    630,
+    645,
+    660,
+    675,
+    690,
+    705,
+    720,
+    735,
+    750,
+    765,
+    780,
+    795,
+    810,
+    825,
+    840,
+    855,
+    870,
+    885,
+    900,
+    915,
+    930,
+    945,
+    960,
+    975,
+    990,
+    1005,
+    1020,
+    1035,
+    1050,
+    1065,
+    1080,
+    1095,
+    1110,
+    1125,
+    1140,
+    1155,
+    1170,
+    1185,
+    1200,
+    1215,
+    1230,
+    1245,
+    1260,
+    1275,
+    1290,
+    1305,
+    1320,
+    1335,
+    1350,
+    1365,
+    1380,
+    1395,
+    1410,
+    1425,
+    1440,
+    1455,
+    1470,
+    1485,
+    1500,
+    1515,
+    1530,
+    1545,
+    1560,
+    1575,
+    1590,
+    1605
+  ],
+  "output_dir": "outputs/inference_results/Fire Domino"
+}

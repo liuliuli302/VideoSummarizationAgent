@@ -1,0 +1,455 @@
+{
+  "video_id": "Paintball",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 600,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment directly depicts the core subject of the video (a paintball match) and establishes the primary setting, time of day, and key visual elements (players, obstacles, background). While it shows setup/positioning rather than intense action, it provides essential contextual information for understanding the subsequent dynamic sequences. Given the sports theme, establishing the competitive environment is important, though slightly less critical than the peak action moments that might follow.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "This segment establishes the setting and introduces the main activity (paintball match) with players in motion, which is foundational for story progression. However, it lacks significant narrative development or pivotal events, focusing more on scene description than advancing the plot."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment is visually clear and thematically consistent with the paintball match, featuring distinct elements like red gear and weathered obstacles that add some visual interest. However, it lacks dynamic action, diversity in shots, or highlight-worthy moments, as the players are only briefly visible and the scene is relatively static with minimal movement or striking visual contrast."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment conveys a moderate level of tension and anticipation through the depiction of players moving strategically behind cover in a paintball match, which inherently involves competitive and stealthy elements. However, the emotional intensity is limited by the static, observational nature of the description and the lack of explicit emotional cues or high-action moments."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces the setting and initial action of a paintball match, but it largely reiterates information already covered in the global summary (e.g., outdoor field, overcast sky, players in red gear, obstacles). It adds minor details like the crane and industrial buildings, but overall provides limited new semantic content beyond the established context."
+        }
+      },
+      "final_score": 1.4
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 400,
+      "end_frame": 1000,
+      "planner_score": 0.65,
+      "planner_reason": "The segment provides contextual visual information about the paintball field environment, which is relevant to the sports theme. However, the action is minimal (a single person walking briefly), and it lacks the dynamic, strategic gameplay or intense moments typical of a paintball match summary. It serves more as establishing scenery rather than capturing key gameplay highlights.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment shows a static scene with only a brief, distant figure moving across the field, which minimally advances the story or main event progression of the paintball match, as it lacks direct engagement or significant action."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment lacks visual strikingness or highlight-worthy action; it features a static, overcast scene with minimal movement (a person briefly walking) and no dynamic or diverse elements compared to the paintball theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment features a static, overcast outdoor scene with minimal action—only a person briefly walking across the field. There is no visible emotional expression, tension, or strong sentiment; the mood is neutral and subdued, lacking intensity or dramatic elements."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment provides minimal new information compared to the previous segment and global summary. It reiterates the setting (overcast paintball field with obstacles and industrial background) and adds only a minor detail—a person in dark clothing walking briefly—which does not significantly advance the narrative or introduce new semantic content beyond the established context."
+        }
+      },
+      "final_score": 0.875
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 800,
+      "end_frame": 1400,
+      "planner_score": 0.85,
+      "planner_reason": "This segment directly depicts active gameplay in the paintball match, showing a player in red gear (consistent with earlier segments) moving strategically across the field and using obstacles for cover. It provides clear action and movement that is central to the sports theme, unlike the static scenes or unrelated wildlife footage mentioned in the global summary. The segment advances the narrative of the match by showing tactical movement, making it highly relevant for a summary focused on the core sports action.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment significantly contributes to story progression by depicting active gameplay in the paintball match. Unlike previous segments showing static environments or fleeting movement, this segment captures a clear, purposeful action: a player in red gear running across the field and navigating behind a barrier. This represents a direct progression of the main event—the paintball game—by showing tactical movement and engagement, advancing the narrative from setup to active play."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment features dynamic action with a person running across the field, which is more visually engaging than the previous static or fleeting movements. The red shirt provides a clear focal point against the muted outdoor environment, and the movement behind the distinctive white barrier creates some visual interest. However, the overcast lighting and similar obstacle-filled setting limit visual diversity compared to the broader video context that includes nighttime wildlife and chaotic camera movements. This represents a moderate highlight within the paintball match portion but isn't as striking as the more varied segments described in the global summary."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment features a person running across the field, which introduces a moderate level of action and urgency typical in sports contexts, enhancing emotional engagement through physical exertion and competitive tension. However, the overcast setting and lack of close-up or expressive details limit the intensity of emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces a new action (running) and specifies the direction and interaction with a particular obstacle (white barrier), which adds some detail to the paintball match scenario. However, the setting, obstacles, and background elements are largely consistent with previous segments, and the core theme of paintball gameplay remains unchanged, limiting the novelty of the information."
+        }
+      },
+      "final_score": 1.4625
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1200,
+      "end_frame": 1800,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment shows a person in red moving behind an obstacle, which is a typical paintball action, but it is brief and similar to previous segments (0, 1, 2) that already established the setting and player movement. The global summary already covers 'players in red gear moving strategically behind obstacles,' so this segment adds little new information. The video theme is sports, and while it shows gameplay, it lacks unique or critical moments (e.g., intense action, scoring, or key strategy) that would be essential for a summary. The segment is repetitive and static, reducing its importance for a concise summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment shows a player moving behind cover, which is a minor tactical action in the paintball match, but it does not introduce new events, change the narrative direction, or resolve any ongoing conflict. It maintains continuity with previous segments but lacks significant progression in the overall story or main event."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows a brief, repetitive action of a player moving behind an obstacle, similar to previous segments. While it maintains the sports theme, it lacks visual diversity, striking composition, or highlight-worthy moments compared to the more dynamic or varied scenes described in the global summary."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment shows minimal emotional expression or tension. The action is brief and routine (a person moving behind an obstacle), lacking dramatic intensity, facial expressions, or heightened sentiment. The static background and calm movement contribute to a low emotional impact, typical of a tactical maneuver in paintball without visible conflict or excitement."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment introduces minimal new information, as it closely mirrors the actions and setting described in previous segments—specifically, a person in red moving behind an obstacle on the same paintball field. While it confirms ongoing activity, it does not advance the narrative, introduce new elements, or shift the semantic content beyond what has already been established in the memory context."
+        }
+      },
+      "final_score": 0.575
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1600,
+      "end_frame": 2200,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows clear, dynamic action of a player running across the paintball field, which is central to the sports theme. It provides continuity with previous segments showing similar movement patterns, reinforcing the match's tactical nature. However, it doesn't introduce new strategic elements or dramatic moments that would make it essential for a summary, and the visual setting remains consistent with earlier footage.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment shows a player moving across the field, which is a basic action in the paintball match, but it is repetitive with previous segments (e.g., segment 2) and does not introduce new strategic developments, conflicts, or significant narrative shifts. It maintains the established setting and activity without advancing the main event or story progression meaningfully."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a person running across a paintball field, which is moderately dynamic and relevant to the sports theme. However, it is visually similar to previous segments (e.g., same setting, overcast sky, red-shirted player, repetitive obstacles), lacking striking diversity or highlight-worthy novelty. The action is straightforward without dramatic or unique visual elements, making it less impactful compared to potential highlights like intense combat or wildlife scenes mentioned in the global summary."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment depicts a person running across a paintball field, which introduces a moderate level of dynamic action and potential urgency associated with sports gameplay. However, the emotional expression, tension, or sentiment is limited by the static, overcast setting, lack of visible facial expressions or interactions, and absence of dramatic elements like conflict, suspense, or clear emotional cues. The action is straightforward and lacks intensity compared to high-stakes or emotionally charged sports moments."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides minimal new information compared to previous segments. It continues to depict the same paintball field setting with similar visual elements (overcast sky, industrial background, round white barriers, net fence). The action described (person in red shirt running between barriers) is nearly identical to the movement patterns shown in segments 2 and 3. While there are slight variations in directional movement (left-to-right vs. right-to-left) and minor background details mentioned (green tarp), the core semantic content—paintball gameplay on this specific field—remains unchanged from what has been well-established in the memory context."
+        }
+      },
+      "final_score": 1.175
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 2000,
+      "end_frame": 2600,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment primarily establishes the setting with a wide shot of the paintball field, which is redundant given the detailed setting descriptions already provided in previous segments (0-4). While it includes a brief action element (person in red shirt running), this action is similar to what has been shown before and lacks the intensity or strategic significance needed for a sports highlight. The abrupt cut to blurry frames suggests a transition to new content, but the segment itself offers minimal new narrative or action value for a sports summary focused on key gameplay moments.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment primarily establishes the setting with a wide shot of the paintball field and background details, which is largely redundant given previous segments. The brief appearance of a person running adds minimal new action, and the abrupt cut to blurry frames introduces a potential shift but lacks clear progression of the main event or story, resulting in low contribution to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment begins with a visually familiar and repetitive paintball field scene, which lacks striking diversity compared to previous segments. However, the abrupt cut to extremely blurry, out-ofocus frames introduces a sudden and disorienting visual shift, which is highlight-worthy for its dynamic and chaotic nature. This contrast elevates the segment slightly, but the overall visual impact is limited by the initial static and repetitive setting."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "The segment primarily establishes a static setting with minimal dynamic action. The brief appearance of a person running in the distance contributes slight movement but lacks intense emotional expression, tension, or strong sentiment. The abrupt cut to blurry frames introduces some disorientation, but overall emotional intensity remains low, as the focus is on scene description rather than conveying heightened feelings or dramatic tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment primarily repeats the established setting (paintball field, obstacles, industrial background) and the recurring action of a person in red shirt running, which has been consistently described in previous segments. The only new element is the mention of a 'large AG banner', which adds minor detail but does not significantly expand the semantic content. The segment ends with a mention of blurry frames, but this is not elaborated, limiting its informational contribution."
+        }
+      },
+      "final_score": 0.5625
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 2400,
+      "end_frame": 3000,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important for the sports-themed summary as it marks a critical transition from establishing shots to immersive action. While previous segments showed players moving behind cover, this segment introduces the first-person, low-angle perspective that conveys the intensity and stealth tactics of paintball. The shift from wide field views to shaky, blurred ground-level footage captures the physicality and tension of the sport, which is essential for a sports summary. However, it doesn't show direct player confrontation or scoring moments, keeping it slightly below maximum importance.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment introduces a significant shift in perspective and action, moving from a wide establishing shot to a low-angle, blurry view that suggests stealthy movement, which advances the narrative by implying a tactical change or heightened tension in the paintball match. However, it does not depict a clear main event progression like a direct confrontation or resolution, keeping the score moderate."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment contains a visually striking shift from a wide, static field view to a shaky, blurry close-up of grass, which introduces a new perspective and suggests dynamic movement. However, the initial wide shot is repetitive of previous segments in the paintball setting, and the blurry close-up lacks clear, highlight-worthy action or distinct visual diversity beyond the abrupt change in camera style."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment contains a shift from a static, wide shot to a shaky, blurred close-up that introduces a sense of tension and stealth, suggesting heightened alertness or urgency. However, the emotional expression remains indirect and atmospheric rather than overt, with no explicit human reactions or intense sentiment conveyed, resulting in a moderate emotional strength."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces a new visual perspective (shaky, close-up, blurred view of grass/earth) that suggests stealthy movement, which adds a slight semantic shift from previous static or wide shots of the paintball field. However, it largely reiterates the established setting and theme without introducing significant new information, instructions, or substantial narrative content beyond a change in camera technique."
+        }
+      },
+      "final_score": 1.3
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 2800,
+      "end_frame": 3400,
+      "planner_score": 0.15,
+      "planner_reason": "The current segment shows a small animal in foliage, which is a significant thematic departure from the paintball sports action described in the global summary and previous segments. While it aligns with the 'nighttime wildlife observation' mentioned in the summary, it lacks direct relevance to the core sports narrative, contributes minimally to understanding the match or player actions, and appears as a brief atmospheric interlude rather than a key moment in the sports event.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment depicts a static, low-light observation of a small animal in foliage, which is a significant departure from the paintball match theme and does not advance the main event of the sports activity. It introduces an unrelated wildlife element, contributing minimally to story progression beyond a potential thematic shift or interlude."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is visually distinct from the paintball action due to its low-light, static nature and focus on wildlife, but it lacks striking or highlight-worthy elements for a sports theme. The blurry, obscured view and minimal motion reduce its visual impact and diversity appeal within the video's context."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment features a static, low-light observation of a small animal in foliage, which conveys a quiet, observational mood with minimal emotional expression or tension compared to the previous action-oriented paintball scenes. The sentiment is neutral and calm, lacking the intensity, movement, or conflict seen earlier."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The current segment introduces entirely new semantic content by shifting from a human-centered paintball match to a wildlife observation scene. It provides significant new information about the environment's biodiversity, changes the setting to a natural, low-light habitat, and adds a thematic layer of nature documentation distinct from the previous action-oriented segments."
+        }
+      },
+      "final_score": 0.5
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 3200,
+      "end_frame": 3800,
+      "planner_score": 0.15,
+      "planner_reason": "The current segment shows a static, blurry close-up of a small animal in foliage at night, which is a significant thematic departure from the paintball sports action that dominates the video. While it contributes to the 'stealthy movement through vegetation' and 'nighttime wildlife observation' mentioned in the global summary, it lacks direct action, player movement, or strategic gameplay relevant to the sports theme. Its observational nature and low visual clarity reduce its importance for a summary focused on capturing the key moments of the paintball match.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The current segment is a static, blurry close-up of a small animal in foliage, which is a significant departure from the paintball match theme and does not advance the main event or story progression related to the sports activity. It introduces an unrelated wildlife observation element, contributing minimally to the overall narrative flow."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is a static, blurry close-up of a small, indistinct shape in low light, lacking dynamic action, clear visual detail, or highlight-worthy excitement compared to the paintball action in previous segments. It offers minimal visual strikingness or diversity within the sports theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "The segment depicts a static, blurry observation of a small creature in low light, lacking dynamic action, human presence, or overt emotional cues. Compared to the previous paintball action segments, this wildlife scene conveys minimal emotional expression, tension, or sentiment, resulting in a low score."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.85,
+          "reason": "The segment introduces a new semantic context (wildlife observation in a natural, shadowy habitat) distinct from the previous paintball action, providing significant new information about the video's thematic shift. However, it maintains some continuity in the use of a blurry, close-up perspective, slightly reducing the novelty."
+        }
+      },
+      "final_score": 0.475
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 3600,
+      "end_frame": 4200,
+      "planner_score": 0.1,
+      "planner_reason": "The current segment shows a small, motionless animal in low-light conditions, which is thematically disconnected from the sports (paintball) focus of the video. While it continues the nighttime wildlife observation introduced earlier, it lacks action, narrative progression, or relevance to the paintball match. It contributes minimally to the overall summary and could be omitted without losing the core sports content.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment depicts a static, low-light observation of a small animal in foliage, which is unrelated to the paintball match or main action progression. It contributes minimally to story progression, serving as a tangential or atmospheric detail rather than advancing the core narrative of the paintball game or subsequent dynamic events."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows a small, dark animal partially hidden in grass and leaf litter, captured in a blurry, low-light, static shot. While it has some natural intrigue, it lacks visual strikingness, diversity, or highlight-worthy action compared to the paintball match theme. The image is poorly lit and out of focus, reducing its impact and memorability as a highlight."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a static, blurry, low-light observation of a small, motionless animal in a forest setting. While there is a subtle sense of quiet, patient observation or potential hidden tension in wildlife watching, the emotional expression, tension, and sentiment are minimal. The scene lacks dynamic action, human emotion, or overt dramatic elements, resulting in a low emotional intensity score."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment provides minimal new information as it closely mirrors the content of previous segments 6 and 7, which also described static, blurry, low-light observations of small animals in foliage. While it confirms the presence of a specific animal type (mouse or shrew), the semantic overlap with prior segments reduces its novelty within the video's progression from paintball action to wildlife observation."
+        }
+      },
+      "final_score": 0.32500000000000007
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 4000,
+      "end_frame": 4600,
+      "planner_score": 0.15,
+      "planner_reason": "The current segment continues the low-light wildlife observation theme but lacks clear action, movement, or a discernible subject, making it less critical for a sports-themed summary focused on paintball action. While it contributes to the video's atmospheric diversity, its static, blurry nature and absence of identifiable activity reduce its importance relative to the dynamic paintball segments that define the core narrative.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment shows a static, blurry, close-up of a dark ground scene with no movement or discernible subject, contributing minimally to the paintball match story progression. It continues the low-light wildlife observation theme but lacks any narrative advancement or connection to the main sports action."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.1,
+          "reason": "The segment is visually static, blurry, and lacks any discernible subject, movement, or highlight-worthy action, making it minimally striking or diverse compared to the dynamic paintball scenes and wildlife observations in previous segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment exhibits minimal emotional expression, tension, or sentiment. It is described as a static, blurry, close-up shot with no discernible movement or action, and an absence of any clear subject. This creates a neutral, atmospheric, and observational tone without conveying strong emotions, tension, or sentiment. The lack of activity and clarity results in a low emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment provides minimal new information compared to previous segments 5-7, which already established the nighttime wildlife observation theme with blurry, static shots of small animals in vegetation. This segment essentially repeats the same visual pattern—blurry, static, low-light ground shot through grass—but without even a discernible animal subject, making it less informative than the preceding wildlife segments. While it maintains atmospheric continuity, it adds little substantive new content to the narrative."
+        }
+      },
+      "final_score": 0.25
+    },
+    {
+      "segment_id": 11,
+      "start_frame": 4400,
+      "end_frame": 5000,
+      "planner_score": 0.2,
+      "planner_reason": "The current segment continues the wildlife observation theme that appears disconnected from the main paintball sports narrative established in earlier segments. While it maintains visual consistency with previous nighttime wildlife shots (segments 4-7), it contributes minimally to the sports theme's core action, strategy, or competitive elements. The segment's low-light, blurry nature and static composition make it less engaging for a sports summary, though it might serve as atmospheric transition material if the video intentionally blends sports with nature observation.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "This segment continues the wildlife observation theme with minimal progression from the previous segments, lacking any significant advancement in the paintball match narrative or introduction of new main events."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment continues the pattern of blurry, low-light wildlife observation seen in previous segments (4-7), offering minimal visual diversity or striking content. While it maintains the theme of natural observation, the persistent blurriness, low lighting, and static composition reduce its highlight-worthiness. The slight camera movement mentioned is insufficient to create visual interest compared to the more dynamic paintball action earlier in the video. This segment feels repetitive rather than visually striking or diverse within the overall video context."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.35,
+          "reason": "The segment depicts a quiet, low-light wildlife observation with a hidden, motionless animal. While there is a subtle sense of curiosity or anticipation from the slight camera movements and the elusive subject, the overall emotional expression is minimal, lacking strong tension, sentiment, or dynamic action compared to the paintball segments earlier in the video."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "This segment provides minimal new information compared to the memory context. Segments 4, 5, 6, and 7 already established the nighttime wildlife observation theme with similar descriptions of blurry, low-light shots of small animals in foliage. The current segment repeats nearly identical semantic content: 'blurry, low-light shot,' 'dense green foliage,' 'small animal (rodent/amphibian),' 'hidden in undergrowth,' and 'wildlife observation.' The only slight variation is 'slight movements causing the image to shift,' but this does not substantially alter the informational content or advance the narrative. The segment essentially reiterates what was already conveyed in previous segments without introducing new subjects, settings, or developments."
+        }
+      },
+      "final_score": 0.4375
+    },
+    {
+      "segment_id": 12,
+      "start_frame": 4800,
+      "end_frame": 5400,
+      "planner_score": 0.15,
+      "planner_reason": "The current segment continues the low-light wildlife observation theme that appears disconnected from the main paintball sports narrative. While it maintains visual consistency with previous nighttime segments (3-7), it offers minimal new information—repeating similar blurry, low-light shots of hidden movement without clear subject identification. For a sports-themed summary focused on paintball action, this segment contributes little to the core narrative, lacks dynamic sports elements, and represents a thematic departure that dilutes the summary's focus on gameplay, strategy, and competition.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "This segment shows minimal contribution to story progression. While it continues the wildlife observation theme from previous segments, it offers no new narrative development or advancement of the paintball match storyline. The fleeting movement mentioned is too indistinct to represent a significant event, and the segment essentially repeats the same observational pattern without moving the overall story forward."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment is visually indistinct and lacks striking or highlight-worthy elements due to its blurry, low-light nature and fleeting, out-of-focus subject, offering minimal diversity or engagement compared to the sports theme and previous segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment features a blurry, low-light shot with fleeting movement, which introduces a subtle sense of curiosity or tension compared to previous static wildlife observations. However, the emotional expression remains low due to the lack of clear subject, human involvement, or intense action, resulting in a mild atmospheric tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment continues the same pattern of blurry, low-light wildlife observation established in previous segments 3-7, showing another indistinct movement in foliage. While it introduces the element of 'fleeting movement' (slightly new information compared to completely static shots), the overall semantic content remains highly similar to recent segments - same setting, same visual style, same theme of hidden wildlife observation. It provides minimal new information beyond confirming ongoing observation in this environment."
+        }
+      },
+      "final_score": 0.4
+    },
+    {
+      "segment_id": 13,
+      "start_frame": 5200,
+      "end_frame": 5800,
+      "planner_score": 0.15,
+      "planner_reason": "The current segment continues the pattern of blurry, low-quality footage that has dominated recent segments, but contains some potentially important visual elements. The appearance of a person's head and shoulders with a red object near the head could connect back to the paintball players in red gear from earlier segments, potentially providing narrative continuity. However, the segment remains visually confusing with abrupt shifts between blurry vegetation, a bright white screen, and unclear human elements. Given the sports theme and the paintball context established in earlier segments, this segment's potential connection to human players gives it slightly more relevance than the purely wildlife-focused segments, but its poor visual quality and lack of clear action limit its importance for a coherent sports summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment shows some progression by returning to human elements (person's head/shoulders, red object) after the wildlife observation sequences, but it remains highly blurry, disorienting, and lacks clear narrative development or connection to the paintball match's main events. The abrupt shifts and poor visual quality hinder meaningful story advancement."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "This segment shows moderate visual striking quality due to its abrupt transitions and varied content, but suffers from technical limitations. The sudden shift from vegetation to bright white screen creates a jarring visual contrast, followed by the reddish-orange shape against green which provides some color contrast. The final shot with a person against a bright sky offers clearer subject matter than previous segments. However, the persistent blurriness, low resolution, and lack of clear action or composition reduce the overall impact. Compared to previous segments focused on static wildlife observation, this segment has more dynamic transitions and varied scenes, making it somewhat more highlight-worthy within the context of this video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment contains some visual cues that could imply emotional or tense moments, such as abrupt shifts to a bright white screen and blurry, disorienting shots, which may suggest surprise or confusion. However, the emotional expression, tension, or sentiment is not strongly conveyed due to the lack of clear human expressions, narrative context, or audio cues. The blurry and abstract nature of the footage limits the emotional impact, making it more atmospheric than emotionally charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces some new visual elements like a bright white screen, a reddish-orange shape, and a person's head with a red object against a cloudy sky, which differ from the previous focus on static wildlife observation. However, these elements are blurry, disjointed, and lack clear context or semantic depth, providing limited new information about the sports theme or narrative progression. The abrupt shifts and low clarity reduce the segment's informational value."
+        }
+      },
+      "final_score": 0.5625
+    },
+    {
+      "segment_id": 14,
+      "start_frame": 5600,
+      "end_frame": 6096,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment depicts a person mid-air, suspended by a bungee or similar dynamic action, which is a key moment of high-energy sports activity. This contrasts sharply with the previous segments of static wildlife observation and aligns with the sports theme of paintball and dynamic movement. It provides a climax or significant action event, making it highly relevant for a sports-focused summary despite some disorienting camera work.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment significantly advances the story by introducing a clear human action element after prolonged wildlife observation. The disorienting camera movements resolve into a recognizable human figure in mid-air action, suggesting a return to the paintball match's dynamic events. This creates narrative progression by potentially connecting the earlier paintball setup with a climactic moment, though the exact connection to previous segments remains somewhat ambiguous."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment transitions from disorienting blurry movement to a clear, dynamic highlight—a person suspended mid-air by a bungee or similar action. This shift from chaotic, low-visibility shots to a visually striking, highlight-worthy moment of human action in a sports context significantly increases visual impact and diversity compared to previous static wildlife segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment contains some emotional elements through disorienting camera movements and a surprising reveal of a person mid-air, suggesting potential tension or action. However, the emotional expression is largely indirect and obscured by blurriness, lack of clear context, and minimal explicit sentiment, resulting in a low but non-zero score."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment provides some new information by introducing a person in mid-air, which is a distinct subject compared to previous wildlife and static shots. However, the information is limited due to the disorienting, blurry, and incomplete presentation, making the semantic content unclear and fragmented."
+        }
+      },
+      "final_score": 1.3875
+    }
+  ]
+}

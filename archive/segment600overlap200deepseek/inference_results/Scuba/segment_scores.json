@@ -1,0 +1,185 @@
+{
+  "video_id": "Scuba",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 600,
+      "planner_score": 0.95,
+      "planner_reason": "The current segment is highly aligned with the global summary's theme of an underwater coral reef exploration. It captures key elements: a scuba diver gliding gracefully, vibrant coral formations, diverse marine life (colorful fish), and the serene, sunlit underwater landscape. The segment reinforces the core narrative and visual richness essential for a landscape-themed summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment primarily establishes the setting and atmosphere of the underwater coral reef, focusing on visual description and serene exploration. It introduces a diver and marine life but does not depict a specific event, conflict, or significant narrative development that advances a story or main event beyond the initial exploration premise."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the vibrant turquoise coral reef, sunlit water, and colorful marine life. The graceful movement of the diver and the panning camera create a dynamic and highlight-worthy scene that captures the essence of an underwater exploration. The diversity of coral formations and fish adds to the visual appeal, though it is part of a continuous serene journey rather than a sudden dramatic highlight."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment conveys a consistent sense of tranquility and serenity through descriptors like 'gracefully,' 'serene scene,' 'slow, exploratory journey,' and 'tranquil beauty.' While visually vibrant with 'turquoise coral reef' and 'colorful fish,' the emotional tone remains calm and peaceful rather than intense or highly charged. There is no indication of tension, conflict, or strong sentiment—only quiet appreciation of natural beauty."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment introduces the scuba diver and describes the coral reef environment, but this information is already comprehensively covered in the global summary. The global summary mentions 'scuba divers gliding through the water,' 'vibrant coral reef ecosystem,' 'green and white coral formations,' 'diverse marine life including fish,' and 'tranquil beauty.' The current segment reiterates these elements without adding significant new details, species, or unique observations beyond what was already summarized."
+        }
+      },
+      "final_score": 1.3875
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 400,
+      "end_frame": 1000,
+      "planner_score": 0.85,
+      "planner_reason": "The segment is highly relevant to the landscape theme and global summary, showcasing the coral reef ecosystem with detailed visual descriptions of coral formations and marine life. It introduces a notable ecological detail—the bleached or pale appearance of corals, suggesting recovery or early succession—which adds narrative depth and environmental context to the underwater exploration. While the segment shares similarities with the previous one in terms of setting and movement, this ecological observation enhances its importance for a comprehensive summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment contributes moderately to story progression by advancing the exploration narrative through a steady camera movement across the reef, revealing new details like coral recovery state and specific fish species. However, it lacks a distinct new event or dramatic shift, primarily reinforcing the established theme of serene underwater observation rather than introducing a pivotal plot point."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.75,
+          "reason": "The segment is visually striking due to its vast, densely populated coral reef landscape with subtle movement from diverse marine life, including distinct fish species, enhancing highlight-worthiness. However, the pale, bleached appearance of the corals reduces vibrancy and diversity compared to more colorful reef scenes, slightly lowering the score."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment conveys a serene and observational tone with subtle movement from marine life, but the emotional expression is restrained. The mention of bleached or pale corals introduces a mild sense of concern or melancholy, yet the overall sentiment remains calm and focused on visual exploration rather than strong emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The current segment provides moderate new information by introducing specific fish types (black fish, spotted fish) and describing the reef's condition as potentially in recovery or early succession with bleached/pale corals. However, much of the content overlaps with the previous segment's description of coral formations, fish activity, and camera movement through the underwater landscape. The new semantic elements are limited to these specific observations about marine life and reef health."
+        }
+      },
+      "final_score": 1.3875
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 800,
+      "end_frame": 1400,
+      "planner_score": 0.75,
+      "planner_reason": "The segment maintains the core visual theme of the underwater coral reef landscape with consistent green and white coral formations, and includes key elements like the scuba diver and marine life (sea urchin, fish). However, it is somewhat repetitive with previous segments in terms of visual content and camera movement, reducing its unique contribution to the global summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily continues the established visual exploration of the coral reef landscape without introducing new narrative elements, significant events, or progression in the underwater journey. While it maintains continuity by showing the diver and marine life (sea urchin, fish), these are repetitions or minor extensions of previously seen content rather than advancing the story or main events. The camera's movement and focus remain similar to prior segments, contributing minimally to story progression beyond sustaining the serene, observational tone."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment maintains the visually striking and vibrant underwater landscape with detailed coral textures and marine life, but it is somewhat repetitive compared to previous segments, lacking significant new visual diversity or standout highlights beyond the established theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment maintains a serene and tranquil tone consistent with the underwater exploration theme, lacking strong emotional peaks, tension, or intense sentiment. It focuses on observational beauty and calm movement, resulting in a moderate emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment provides minimal new information compared to the previous segments and global summary. It reiterates the same visual elements: a camera gliding over a coral reef with green/white formations, a distant scuba diver, and marine life (sea urchin and small fish). These details are already well-covered in the previous segments and global summary, which mention coral formations, divers, fish, sea urchins, and the overall exploration. The only slight addition is the explicit mention of a sea urchin, but similar marine biodiversity was already described. The segment largely repeats established semantic content about the underwater landscape without introducing significant new information or perspectives."
+        }
+      },
+      "final_score": 1.1375
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1200,
+      "end_frame": 1800,
+      "planner_score": 0.35,
+      "planner_reason": "The current segment continues the established underwater coral reef exploration theme with similar visual elements (coral formations, marine life, scuba divers) and camera movements (panning, gliding) as previous segments. While it introduces slightly more specific marine life (sea anemone, starfish) and emphasizes two divers rather than one, it largely repeats the core content and aesthetic already well-covered in the global summary and memory context. For a landscape-themed summary focused on showcasing the ecosystem's beauty and diversity, this segment adds incremental rather than essential value, making it moderately important but not highly distinctive.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment introduces new marine life details (sea anemone, starfish) and maintains the presence of divers, but it does not significantly advance the overall narrative or main event progression beyond continuing the established pattern of exploration and observation. The progression remains at a steady observational pace without introducing new plot elements, conflicts, resolutions, or meaningful changes to the established underwater journey."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking due to close-ups of a sea anemone and a starfish, which add diversity and highlight-worthy details to the coral reef exploration. The presence of two scuba divers navigating the textured reef enhances dynamic interest. However, it maintains continuity with previous segments in theme and color palette, slightly limiting novelty."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment maintains a consistent serene and tranquil emotional tone typical of underwater exploration footage. While the close-up of a sea anemone and starfish adds some visual interest and potential for subtle wonder, the overall emotional expression remains calm and observational rather than strongly emotive. The presence of two scuba divers navigating the reef adds a slight sense of human connection and exploration, but the emotional intensity remains moderate, fitting the peaceful underwater theme without dramatic tension or heightened sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment introduces a sea anemone and a starfish, which are new specific marine life elements not mentioned in the previous segments. However, the overall context of underwater coral reef exploration, scuba divers, and the general marine environment remains consistent with prior segments, limiting the novelty of the semantic content."
+        }
+      },
+      "final_score": 0.8875
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1600,
+      "end_frame": 2200,
+      "planner_score": 0.65,
+      "planner_reason": "The segment continues the established visual narrative of the underwater coral reef exploration, maintaining the serene, observational tone and showcasing key elements like the diver's graceful movement, textured coral formations, and marine life. However, it introduces minimal new visual information compared to previous segments—primarily a brief glimpse of a camouflaged creature, which adds slight novelty but does not significantly advance the thematic or informational scope of the global summary. The segment is consistent and cohesive but largely repetitive in content and perspective, reducing its unique contribution to a summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment continues the established pattern of showcasing the underwater landscape and marine life without introducing new narrative elements, significant events, or progression in the exploration. It maintains the serene, observational tone but does not advance the story or main events beyond what has been shown in previous segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment maintains the visually striking underwater landscape with vibrant coral formations and graceful diver movements, but introduces limited new elements beyond previous segments. The 'camouflaged creature' adds some highlight-worthy mystery, though it's described as brief and shadowy. The scene continues the established aesthetic of textured seabed, green-tinted corals, and marine life, but doesn't significantly elevate visual diversity or striking impact compared to earlier segments in the sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.45,
+          "reason": "The segment maintains a consistent serene and tranquil tone typical of underwater exploration, with graceful movements and vibrant visuals. However, it lacks strong emotional peaks, high tension, or intense sentiment, focusing instead on observational calm. The mention of a 'shadowy glimpse' and 'touch of mystery' introduces a slight emotional nuance but does not significantly elevate the overall emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment largely reiterates previously established elements: a scuba diver gliding through a green-tinted coral reef, panning across textured seabed with coral formations and small fish. While it introduces a 'camouflaged creature' as new semantic content, this is minor and not detailed, offering limited incremental information compared to the extensive prior descriptions of marine life and reef exploration."
+        }
+      },
+      "final_score": 1.0875
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 2000,
+      "end_frame": 2221,
+      "planner_score": 0.65,
+      "planner_reason": "The segment reinforces the core theme of underwater exploration and diver perspective, but introduces a notable variation with the close-up of the diver's face mask looking upward, which adds a human element and a connection to the surface world. However, given the global summary emphasizes the coral reef ecosystem and marine life, and previous segments have already extensively covered diver movements and reef landscapes, this segment is moderately important but not uniquely critical for summarizing the overall serene journey through the vibrant reef.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment continues the established pattern of underwater exploration without introducing new story elements, plot developments, or significant narrative progression. While it adds a new camera angle (close-up of diver's face mask looking upward), this represents a minor observational detail rather than advancing the main event or story. The segment maintains the same core activity (diver exploring coral reef) and thematic elements (graceful movement, marine life, serene beauty) seen consistently throughout previous segments, contributing primarily to atmosphere and visual continuity rather than story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment maintains the visually appealing underwater landscape with vibrant corals and marine life, but introduces a notable highlight with the close-up of the diver's face mask looking toward the sunlit surface. This adds a human perspective and visual contrast (light/dark, surface/underwater) that enhances the segment's striking quality. However, it doesn't significantly surpass the established visual richness of previous segments in terms of diversity or uniqueness within the overall exploration theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.45,
+          "reason": "The segment maintains the serene, tranquil tone established throughout the video, with graceful movements and vibrant visuals. However, the inclusion of the close-up of the diver's face mask looking upward toward the sunlit surface introduces a subtle, contemplative sentiment—a moment of personal connection or awe within the exploration. This adds a mild emotional layer beyond pure observation, but it remains understated and integrated into the overall calm aesthetic, not rising to high tension or intense expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment largely reiterates established elements: a scuba diver gliding over a coral reef, small fish darting, and the camera following the diver. The only new detail is the close-up of the diver's face mask looking upward toward the surface, which adds a slight personal perspective but does not introduce significant new information, instruction, or semantic content beyond what has been consistently described in previous segments."
+        }
+      },
+      "final_score": 1.0125
+    }
+  ]
+}

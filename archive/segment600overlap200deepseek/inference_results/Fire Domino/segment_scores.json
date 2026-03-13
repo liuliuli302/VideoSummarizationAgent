@@ -1,0 +1,125 @@
+{
+  "video_id": "Fire Domino",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 600,
+      "planner_score": 0.95,
+      "planner_reason": "The current segment depicts the core event of the video—the ignition and rapid consumption of the matchstick tower—which is the central, visually striking moment described in the global summary. Since the video theme is 'general' and no memory context is provided, this segment is highly important as it captures the main action and climax of the sequence.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.95,
+          "reason": "This segment directly depicts the primary event of the video—the ignition and rapid consumption of the matchstick tower by fire. It captures the core progression from ignition to full engulfment, which is central to the story's climax and visual narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment depicts a visually striking and highlight-worthy event: the ignition and rapid downward spread of flames on a tall spiral matchstick structure. The bright, fiery blaze and dynamic consumption of the entire structure create intense visual interest and spectacle, making it a key moment in the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.9,
+          "reason": "The segment depicts a dramatic and intense event with strong emotional elements, including the rapid ignition and consumption of a matchstick structure, creating a sense of tension and fiery spectacle. The vivid description of flames spreading and the structure collapsing evokes excitement and awe, contributing to a high emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The current segment provides substantial new information by detailing the ignition and consumption of the matchstick spiral tower, which is the core event described in the global summary. It introduces key elements like the spiral structure, top ignition, rapid flame spread, and fiery blaze, offering specific visual and action-oriented content not previously mentioned in the memory context (which is empty). However, it omits minor details from the global summary such as the collapse into charred remains and the subsequent smaller fire, slightly reducing its completeness."
+        }
+      },
+      "final_score": 1.8624999999999998
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 400,
+      "end_frame": 1000,
+      "planner_score": 0.95,
+      "planner_reason": "The current segment is the core action of the video—the ignition and intense burning of the spiral matchstick tower. It captures the main visual spectacle (flames spreading top to bottom) and is central to the global summary. While similar to the previous segment, it provides the key progression of the fire consuming the structure, making it highly important for the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment depicts the main event progression of the matchstick tower burning intensely from top to bottom, which is central to the video's narrative of destruction and transformation, though it is a continuation rather than a new development."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "The segment is highly visually striking due to the intense, dynamic flames consuming the spiral matchstick tower, creating a dramatic and highlight-worthy spectacle with rapid fire spread and structural collapse."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.95,
+          "reason": "The segment depicts intense, rapid combustion of a matchstick tower with flames consuming the structure from top to bottom, creating a strong visual and emotional impact of destruction and fiery intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment caption describes the same core event as the previous segment and the global summary: a spiral matchstick tower igniting and burning from top to bottom. It adds no new information about the outcome (collapse, smoldering remains, or the subsequent smaller fire) and essentially repeats the semantic content already established."
+        }
+      },
+      "final_score": 1.7
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 800,
+      "end_frame": 1400,
+      "planner_score": 0.95,
+      "planner_reason": "The current segment captures the climax and conclusion of the matchstick tower burning process, showing the collapse into smoldering remains. This is a key moment for the summary as it provides the final outcome and visual impact, essential for a general theme video where dramatic transformations are central.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment depicts the climactic collapse of the matchstick tower, which is the main event's resolution. It shows the structure transitioning from burning upright to a smoldering pile, marking a definitive endpoint in the progression of the central event—the tower's destruction by fire."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "The segment is highly visually striking due to the intense, dynamic flames consuming the spiral matchstick tower, culminating in its dramatic collapse into a glowing, smoldering pile. It represents a clear highlight with strong visual diversity in fire behavior and structural transformation."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts intense visual and thematic elements of destruction and transformation through fire, with vivid descriptions of flames engulfing and collapsing a structure, evoking a strong sense of tension and dramatic spectacle, though it lacks explicit human or narrative emotional cues."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment largely reiterates the visual and narrative content already described in the global summary and previous segments, focusing on the ignition, spread of flames, and collapse of the matchstick tower. It introduces minimal new information, with only minor additional details like 'glowing' and 'smoldering pile' that slightly enhance the description but do not substantially alter the semantic content."
+        }
+      },
+      "final_score": 1.675
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1200,
+      "end_frame": 1612,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment shows a smaller, contained fire burning matchsticks on a reflective surface, which is visually distinct from the dramatic collapse of the main spiral tower. While it provides a contrasting, more controlled visual element and adds atmospheric lighting effects, it represents a secondary event rather than the primary climax of the video. In the context of the global summary, this segment is less critical than the tower's ignition, spread, and collapse sequences.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment shows a smaller, contained fire burning matchsticks on a reflective surface, which is a continuation of the fire theme but represents a distinct, secondary event rather than advancing the primary narrative of the spiral tower's destruction. While it maintains thematic consistency, it does not significantly progress the main story arc established in previous segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment features a contained fire with vigorous, dancing flames that cast an orange glow, creating a visually striking and highlight-worthy scene. However, it is less diverse compared to the previous segments showing the tower's collapse, and the intensity is slightly lower, resulting in a strong but not maximal score."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment features a contained but vigorous fire with dancing flames and a bright orange glow that illuminates the surroundings, conveying a sense of intensity and dynamic energy. While less dramatic than the previous large-scale tower collapse, the focused, growing flames and reflective surface enhance the visual and emotional impact, maintaining a strong sense of tension and vivid sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The current segment introduces a new visual element—a smaller, contained fire on a reflective surface—which differs from the previous focus on the large spiral tower. However, the core semantic content of a matchstick fire is repetitive, and the overall theme of destruction by fire remains unchanged, limiting the amount of truly new information provided."
+        }
+      },
+      "final_score": 0.8374999999999999
+    }
+  ]
+}

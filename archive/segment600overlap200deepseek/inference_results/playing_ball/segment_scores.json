@@ -1,0 +1,245 @@
+{
+  "video_id": "playing_ball",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 600,
+      "planner_score": 0.85,
+      "planner_reason": "The segment introduces a new agent (the human) and shows the human actively mediating the interaction between the dog and crow via the white object, which is central to the global summary. This adds a layer of intentionality and narrative progression beyond the passive observation described in the global summary. However, the segment maintains the same quiet, observational tone and setting, and the dog's role remains reactive rather than active, preventing a perfect score.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment introduces a new, active agent (the human) who directly intervenes by offering the object, shifting the dynamic from passive observation to deliberate interaction. This propels the story by initiating a more structured sequence of events and clarifying the object's role, thereby advancing the main event progression significantly."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment features a visually engaging interaction between a human, a crow, and a German Shepherd dog, centered on a small white object. The crow's cautious approach and pecking, combined with the dog's intent observation from a lying position, create a highlight-worthy moment of interspecies curiosity. However, the setting remains a quiet, static patio, limiting visual diversity and striking impact compared to more dynamic or varied scenes."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment exhibits moderate emotional expression through cautious curiosity and focused attention, with the crow's careful approach and the dog's intent watching creating a quiet tension, but lacks intense or dramatic emotional peaks."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The segment introduces significant new information by revealing a human actively participating in the scene, offering the white object directly to the crow, which clarifies the object's origin and purpose. This adds a new agent (the person) and a clear intentional action that drives the interaction, substantially advancing the narrative and semantic content beyond the previously described passive observations."
+        }
+      },
+      "final_score": 1.625
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 400,
+      "end_frame": 1000,
+      "planner_score": 0.85,
+      "planner_reason": "This segment directly continues the core narrative established in the global summary—the repeated interactions between the German Shepherd and the crow centered around the white ball. It shows a key development: the dog now possesses the ball (chewing it), while the crow remains nearby in a 'tense standoff.' This represents a shift in the dynamic and is essential for illustrating the cautious, observational nature of their interactions. While the theme is 'general,' the segment is highly relevant to the main storyline of animal behavior in a domestic setting.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment advances the story by shifting the dynamic from a shared observation to a direct, tense standoff over the ball, with the dog now actively chewing it and the crow assertively watching, moving the narrative toward potential conflict or resolution."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment features a visually engaging standoff between the dog and crow, with clear focus on their contrasting behaviors (relaxed chewing vs. assertive watching/pecking). However, the action is relatively low-energy and repetitive, set in a static domestic backdrop, limiting its overall striking or highlight-worthy impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment presents a moderate emotional tension through the contrasting behaviors of the relaxed dog and the assertive crow, creating a standoff dynamic. The dog's calm chewing contrasts with the crow's bold, watchful presence and occasional pecking, generating a subtle but palpable tension. However, the overall scene remains relatively quiet and observational, lacking intense emotional peaks or dramatic escalation."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces the dog actively chewing the ball, which is a new action, and reinforces the crow's assertive presence, but largely continues the established dynamic and setting without significant new information or semantic development beyond the initial premise."
+        }
+      },
+      "final_score": 1.4249999999999998
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 800,
+      "end_frame": 1400,
+      "planner_score": 0.7,
+      "planner_reason": "This segment provides a clear resolution to the repeated standoff dynamic between the dog and crow, showing the crow's retreat and the dog retaining possession of the ball. While it doesn't introduce new narrative elements, it offers a satisfying conclusion to the central tension established in previous segments, making it moderately important for understanding the complete interaction sequence in this observational backyard scene.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment advances the story by depicting a clear outcome of the repeated standoff dynamic: the crow's retreat after a tense interaction. This resolves a minor narrative thread (the crow's assertive approach) and leaves the dog in possession of the ball, shifting the status quo. However, it does not introduce a new major event or significantly alter the overall quiet, observational premise of the video."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment captures a visually striking and highlight-worthy moment of tension and interaction between the dog and crow. The crow's approach, pecking at the ball near the dog's paw, and its subsequent retreat under a chair create a dynamic and engaging scene. The contrast between the calm, lying dog and the active, cautious crow adds visual interest and narrative tension, making it a memorable highlight within the observational backyard setting."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment features a moderate level of emotional tension, primarily through the crow's cautious approach and sudden retreat, creating a brief standoff. However, the dog remains largely calm and passive, and the overall scene is quiet and observational, lacking intense or sustained emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces the crow's retreat under a chair, which is a new specific action not previously described, but the overall interaction (tense standoff, dog lying calmly, crow pecking at the ball) largely reiterates established dynamics from prior segments, offering limited new semantic content."
+        }
+      },
+      "final_score": 1.3125
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1200,
+      "end_frame": 1800,
+      "planner_score": 0.7,
+      "planner_reason": "The segment continues the established narrative of animal interaction with the white ball and includes a key development—the crow approaching a human hand—which adds a new social dimension to the story. However, it lacks the direct dog-crow standoff that forms the core tension of the global summary, making it moderately important for continuity and character behavior but not a peak moment.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment introduces a new interaction with the human (the person's outstretched hand), which shifts focus from the animal standoff to a potential human-animal interaction, advancing the story slightly. However, it does not resolve or significantly alter the core dynamic between the dog and crow established in previous segments, making its contribution to main event progression moderate."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment is visually engaging due to the crow's dynamic movement (walking, pecking, flapping wings) and interaction with a human hand, which adds a new element to the series of animal interactions. However, it lacks high drama or exceptional diversity compared to previous segments, as it continues the established theme of cautious animal behavior in a domestic setting."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment shows moderate emotional expression through the crow's cautious pecking and approach to the human hand, indicating curiosity and potential trust. However, the overall tension is lower compared to previous segments involving direct animal standoffs, resulting in a subdued emotional intensity within the calm domestic setting."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment introduces minimal new information compared to the memory context. It repeats the crow pecking at a small white object on a paved patio, which has been consistently described in previous segments. The only new element is the crow approaching a person's outstretched hand, which adds a slight variation in interaction but does not significantly expand the semantic content or introduce new instructions or information beyond the established theme of cautious animal interactions in a backyard setting."
+        }
+      },
+      "final_score": 1.1375
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1600,
+      "end_frame": 2200,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it represents a key interaction in the video's narrative: the crow's direct engagement with the ball triggers the dog's active approach and investigation, shifting the dynamic from passive observation to active interaction. It reinforces the central theme of interspecies curiosity and tension around the shared object, while introducing new spatial elements (potted plants, buckets) that expand the setting. The segment maintains continuity with previous interactions while advancing the story by showing the dog's proactive response to the crow's actions.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment contributes moderately to story progression by depicting a new interaction sequence where the crow interacts with the ball, the dog approaches to investigate, and the crow retreats. This advances the ongoing dynamic between the two animals and the ball, but it does not introduce a major new event or resolve the central tension, maintaining the established observational pattern."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment shows moderate visual interest through the dynamic interaction between the crow and German Shepherd around the white ball, creating a clear focal point. However, it follows a repetitive pattern seen in previous segments (animal interactions with the ball), reducing its novelty and highlight-worthy impact. The retreat of the crow to the background adds some spatial diversity but doesn't significantly elevate the visual strikingness beyond established patterns in this observational backyard scene."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment exhibits moderate emotional expression and tension, primarily through the cautious interaction between the crow and the dog. The crow's retreat to the background suggests a sense of caution or wariness, while the dog's investigative approach adds a layer of curiosity and mild suspense. However, the overall sentiment remains observational and calm, lacking intense emotional peaks or dramatic conflict."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces the dog actively approaching the ball and the crow retreating to a new location (potted plants and buckets), which adds slight new spatial and behavioral details. However, the core interaction (crow with ball, dog observing/approaching) and objects (ball, patio) are consistent with previous segments, limiting overall novelty."
+        }
+      },
+      "final_score": 1.4125
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 2000,
+      "end_frame": 2600,
+      "planner_score": 0.75,
+      "planner_reason": "The current segment reinforces the core narrative of the video—the repeated, cautious interactions between the German Shepherd and the crow over the white ball. It continues the established pattern of approach, investigation, and standoff, which is central to the 'quiet, observational' theme. While it doesn't introduce new plot progression or a decisive conclusion, it is a key, representative moment that solidifies the video's main subject and dynamic. Therefore, it is important for the summary but not critical as a unique turning point.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "This segment continues the established pattern of animal interactions around the white ball but doesn't advance the overall narrative or introduce new story elements. It shows another iteration of the dog approaching the ball and the crow cautiously investigating, which maintains the established dynamic but doesn't create meaningful progression toward resolution, new conflict, or character development beyond what previous segments have already established."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment maintains the visually engaging animal interaction theme with the German Shepherd and crow's cautious standoff around the white ball, which has consistent highlight appeal. However, it shows moderate diversity as it follows similar patterns from previous segments (dog approaches ball, crow investigates, quiet standoff) without introducing new visual elements or dramatic actions. The setting and animal behaviors remain largely consistent with earlier segments, making it visually coherent but not particularly striking or novel within the sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment maintains a low-key emotional tone consistent with the overall video theme. While there is a 'curious standoff' described, the interaction remains cautious and quiet rather than intense or emotionally charged. The dog's brief interaction and the crow's cautious approach suggest mild curiosity and tension, but without strong emotional expressions, dramatic escalation, or heightened sentiment compared to previous segments. The emotional intensity remains subdued and observational."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces minimal new information as it reiterates the established pattern of the dog and crow interacting with the ball, without adding novel actions, outcomes, or semantic developments beyond the previously observed cautious standoff."
+        }
+      },
+      "final_score": 1.175
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 2400,
+      "end_frame": 3000,
+      "planner_score": 0.3,
+      "planner_reason": "The segment shows the crow's continued interaction with the ball, but it's a repetitive action already seen in previous segments. The crow walking away and disappearing behind objects provides minor narrative closure to its involvement, but doesn't introduce new dynamics, characters, or significant developments to the established pattern of animal interactions around the ball.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment shows the crow interacting with the ball and then moving away, which slightly advances the recurring theme of cautious animal interactions around the object. However, it does not introduce new events, resolve tension, or significantly alter the established dynamic between the dog and crow, making its contribution to overall story progression minimal."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a cautious crow approaching and pecking at the white ball before walking away, which maintains the established visual theme of animal interaction with the object. However, it lacks striking visual elements, dynamic action, or significant diversity compared to previous segments. The crow's retreat behind a bin is visually mundane and doesn't introduce new compelling visual elements or highlight-worthy moments beyond the established pattern of cautious approaches and retreats."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment features a cautious approach and brief pecking by the crow, but lacks intense emotional expression, high tension, or strong sentiment. The interaction is subdued and observational, with the crow walking away calmly, resulting in minimal emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces a new spatial element (the green bin and pet carrier) and shows the crow's departure from the scene, which is a new development in the sequence of interactions. However, the core action (crow approaching and pecking at the ball) is highly repetitive with previous segments, and the overall semantic content of 'crow investigating ball' has been established multiple times already. The novelty is limited to the crow's exit path and new background objects."
+        }
+      },
+      "final_score": 0.6499999999999999
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 2800,
+      "end_frame": 3119,
+      "planner_score": 0.2,
+      "planner_reason": "The current segment shows the crow walking away and disappearing behind a bin, which concludes its interaction with the ball and the dog. While it provides a minor narrative closure for the crow's presence, it lacks the direct animal interaction, tension, or novelty seen in previous segments. The scene is static and less central to the core theme of repeated cautious standoffs between the dog and crow over the ball. Therefore, it has low importance for the final summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment shows minimal progression of the core story about the interactions between the German Shepherd and crow around the white ball. The crow's departure behind the bin removes one of the two main characters from the scene, but this represents a conclusion or pause rather than advancement of the central dynamic. The segment lacks new developments, confrontations, or changes in the established pattern of cautious approaches and retreats that define the video's narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment is visually straightforward with minimal action—a crow walking across a paved backyard toward a bin and disappearing behind it. While it maintains the theme of animal interaction, it lacks striking visuals, diversity in action, or highlight-worthy moments compared to previous segments featuring tense standoffs or direct interactions between the dog and crow. The scene is calm and observational but not particularly engaging or dynamic."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "This segment shows minimal emotional expression, tension, or sentiment. The black crow simply walks across the patio and disappears behind a bin, with no interaction with the dog, the ball, or any other element that previously created tension. The scene is purely observational and uneventful, lacking the cautious approaches, standoffs, or retreats that characterized earlier segments. The emotional intensity is very low, as it's a quiet, neutral moment of an animal moving through the background without any notable reaction or engagement."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The segment introduces minimal new information or semantic content relative to the established theme and memory context. It primarily shows the crow moving away from the central interaction area, which is a continuation of retreat behaviors seen in previous segments (e.g., segment 2, 6). No new objects, actions, or significant developments are presented, and the scene remains consistent with the quiet, observational backyard setting described in the global summary."
+        }
+      },
+      "final_score": 0.3875
+    }
+  ]
+}

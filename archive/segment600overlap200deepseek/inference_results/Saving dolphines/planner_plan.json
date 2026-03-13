@@ -1,0 +1,12 @@
+{
+  "video_id": "Saving dolphines",
+  "video_theme": "general",
+  "global_summary": "The video begins with serene views of a tranquil beach and ocean, featuring gentle waves and distant landscapes. Dolphins are initially seen swimming playfully near shore, captivating beachgoers. The scene shifts dramatically when dolphins become stranded on the beach, triggering a large-scale, urgent community rescue effort. Volunteers and beachgoers work together in the shallow water to push and guide the dolphins back to deeper sea. The video concludes with people enjoying the beach again, wading and relaxing in the water, returning to a peaceful, recreational atmosphere.",
+  "expert_weights": {
+    "story_agent": 0.25,
+    "visual_agent": 0.25,
+    "emotion_agent": 0.25,
+    "information_agent": 0.25
+  },
+  "reason": "The video combines multiple themes: wildlife (dolphins swimming and stranding), human action and social cooperation (rescue effort), and scenic landscapes (beach, ocean, hills). No single theme dominates entirely, so 'general' is appropriate. The nature_wildlife_expert receives the highest weight (0.45) because dolphins are central to the narrative. The human_action_social_expert is weighted 0.35 due to the significant rescue scenes. The landscape_scenery_expert is weighted 0.20 as scenic backgrounds are consistently present but less focal than the main events."
+}

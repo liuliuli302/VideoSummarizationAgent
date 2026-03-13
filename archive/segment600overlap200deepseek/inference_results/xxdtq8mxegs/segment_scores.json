@@ -1,0 +1,335 @@
+{
+  "video_id": "xxdtq8mxegs",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 600,
+      "planner_score": 0.3,
+      "planner_reason": "This segment serves as an introductory sequence that establishes the brand, product, and instructional purpose, but contains minimal direct tutorial content. While it sets context and introduces the expert, the core demonstration and safety techniques—which are more critical for a tutorial summary—occur later. The segment is important for branding and framing but less essential for the step-by-step instructional summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment primarily serves as an introduction, establishing the brand, instructional purpose, and introducing the expert, but it does not yet advance the main event of demonstrating the ear cleaning process itself."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment primarily consists of introductory elements like logos, title cards, and product displays, which are standard for tutorial setups but lack dynamic or visually engaging content. While the branding and title are clear and professional, they are not particularly striking, diverse, or highlight-worthy compared to action-oriented or demonstration segments that would follow."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment primarily serves as an introductory setup with brand and presenter identification, lacking dynamic emotional expression, tension, or strong sentiment. The calm, instructional tone and static visuals result in minimal emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment primarily introduces the brand, title, and presenter, establishing the video's instructional purpose and context. While it provides foundational information about the topic and participants, it offers minimal new instructional or semantic content related to the actual ear-cleaning process, which is the core of the tutorial. Most of the actionable information is deferred to later segments."
+        }
+      },
+      "final_score": 0.55
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 400,
+      "end_frame": 1000,
+      "planner_score": 0.85,
+      "planner_reason": "This segment marks the transition from introductory branding to the core tutorial demonstration. It introduces the expert (Dr. Wesley Williams), the subject (the golden retriever), and the clinical setting, which are all essential for establishing credibility and context. While the global summary already outlines the step-by-step techniques, this segment is the actual start of the hands-on demonstration, making it highly important for the instructional purpose of the tutorial. However, it is still a preparatory scene before the detailed cleaning steps, so its importance is slightly lower than the subsequent action segments.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story by transitioning from introductory setup to the core demonstration. It introduces the key characters (veterinarian and dog) and the primary action (preparing to clean ears), directly initiating the main instructional event."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking and highlight-worthy as it features the core instructional action with a veterinarian and a calm golden retriever in a clinical setting, which is central to the tutorial theme. The diversity is moderate, focusing on a single, clear demonstration scene."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment features a calm, instructional setting with a veterinarian preparing to demonstrate a routine procedure. While there is a mild sense of care and professionalism, there is no strong emotional expression, tension, or sentiment present; the mood is neutral and educational."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces the key demonstration setup with the veterinarian and dog, providing new instructional content and visual context for the ear cleaning process, though it builds on the previously established purpose and product introduction."
+        }
+      },
+      "final_score": 1.5375
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 800,
+      "end_frame": 1400,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it establishes the key elements for the tutorial: it shows the veterinarian building trust with the dog (demonstrating safe, calm handling), introduces the specific product (Vétoquinol Ear Cleansing Solution) in a practical context, and sets the instructional tone with direct engagement with the camera. While it is more preparatory than the core cleaning demonstration, it is essential for viewer confidence and product identification.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "This segment primarily establishes a calm, reassuring atmosphere and introduces the product visually, but it does not advance the core instructional steps of the ear-cleaning procedure. While it maintains continuity and sets a positive tone, the actual progression of the main event—the cleaning demonstration—has not yet begun."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually engaging as it shows a veterinarian interacting affectionately with a calm golden retriever, creating a warm and trustworthy atmosphere. The action of picking up and displaying the product adds a highlight-worthy element by directly showcasing the key item in the tutorial. However, it lacks high diversity or extreme striking visuals since it maintains a consistent, gentle tone typical of instructional content."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment conveys moderate emotional warmth through the veterinarian's gentle handling and affectionate petting of the calm golden retriever, creating a reassuring and caring atmosphere. However, the emotional expression remains instructional and professional rather than intensely emotional, with the primary focus on demonstration rather than strong sentiment or tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment primarily reinforces the setting and characters already established, showing the veterinarian interacting with the dog and handling the product. It adds minimal new instructional or semantic content beyond emphasizing the calm, reassuring demeanor, which is supportive but not substantially informative compared to the prior segments that introduced the topic, product, and demonstration setup."
+        }
+      },
+      "final_score": 1.3625
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1200,
+      "end_frame": 1800,
+      "planner_score": 0.85,
+      "planner_reason": "This segment directly demonstrates the core instructional action of the tutorial—the ear cleaning technique—which is essential for the summary. It shows the veterinarian performing the procedure with the product, fulfilling the tutorial's purpose. While it is highly important, it is not the only critical segment (others include safety tips and product details), so it receives a high but not maximum score.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment directly contributes to story progression by demonstrating the core instructional action of the tutorial—the ear cleaning technique—which is the main event. It advances from preparation to execution, showing the veterinarian actively using the product, and concludes with a title card that reinforces the instructional purpose, marking a clear step forward in the narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment is visually clear and instructional, showing a veterinarian demonstrating ear cleaning with a calm dog, which is relevant and highlight-worthy for a tutorial. However, it lacks significant visual diversity or striking elements compared to earlier segments, as it continues the same clinical setting and calm interaction without new dynamic visuals or dramatic changes."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment maintains a calm, instructional tone typical of a tutorial, with the veterinarian demonstrating a procedure in a controlled, clinical setting. Emotional expression is minimal, focused on reassurance and clarity rather than high tension or sentiment. The presence of the calm dog and professional demeanor supports a low-intensity emotional atmosphere."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment primarily repeats visual and contextual elements from previous segments (veterinarian, golden retriever, clinical setting, product bottle) without introducing new instructional steps or semantic content. The title card at the end hints at upcoming tips but does not yet provide them, offering minimal incremental information."
+        }
+      },
+      "final_score": 1.4
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1600,
+      "end_frame": 2200,
+      "planner_score": 0.95,
+      "planner_reason": "This segment is the core demonstration of the tutorial's main procedure—the actual ear cleaning technique. It shows the key action (inserting solution into the ear canal) with both the veterinarian and technician involved, reinforcing proper handling and safety. Given the video theme is a tutorial, this step-by-step demonstration is essential for viewer learning and directly supports the global summary's focus on safe, effective ear cleaning.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment directly demonstrates the core action of the tutorial—applying the cleaning solution to the dog's ear—which is a key step in the instructional sequence. It advances the main event from preparation to execution, showing the practical technique that viewers need to learn."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment is visually engaging due to the active demonstration of ear cleaning, featuring two professionals interacting with the dog, which adds diversity to the tutorial. However, it is not exceptionally striking or highlight-worthy compared to potential dramatic or high-impact moments, as it maintains a calm, instructional tone consistent with the video's theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment maintains the calm, instructional tone consistent with the tutorial theme. While there is gentle physical interaction (holding the dog's head, inserting solution), the emotional expression remains neutral and professional. The golden retriever appears calm throughout, and the demonstration focuses on technique rather than creating emotional tension or sentiment. The clinical setting and educational purpose keep emotional intensity low, though there is mild positive sentiment from the caring, gentle handling of the animal."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "This segment provides significant new instructional content by showing the actual application of the ear cleaning solution, a key step not previously demonstrated. While the setting, participants, and product remain consistent with earlier segments, the specific action of inserting solution into the ear canal adds concrete procedural information essential for the tutorial's purpose."
+        }
+      },
+      "final_score": 1.625
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 2000,
+      "end_frame": 2600,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows the actual application of the ear cleaning solution, which is the core demonstration step in the tutorial. It directly illustrates the technique being taught, involves professional handling for safety, and maintains the instructional focus. While not the final step or conclusion, it's a key practical component of the tutorial.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment directly advances the main instructional event by showing the active administration of the ear cleaning solution, a key step in the demonstrated procedure. It builds on previous setup and preparation segments, moving the tutorial from explanation to execution, thereby significantly contributing to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment is visually striking due to the clear demonstration of a hands-on veterinary procedure with two professionals actively engaged, which adds a sense of authenticity and instructional value. The golden retriever's calm demeanor and the clinical setting enhance the professional tone, making it highlight-worthy as a key step in the tutorial. However, it lacks extreme diversity or dramatic visual elements, as it continues the established theme and setting from previous segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a calm, controlled veterinary procedure with professionals gently restraining the dog and administering treatment. While there is a mild sense of care and professionalism, the emotional expression, tension, or sentiment is minimal, as the scene is instructional and lacks strong emotional cues like distress, excitement, or dramatic tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.7,
+          "reason": "The current segment provides new procedural information by showing the actual administration of the ear cleaning solution into the dog's ear canal, which is a key step in the tutorial. However, this action was partially anticipated from the previous segment's description of inserting the solution, so it adds detail but not a completely novel instruction."
+        }
+      },
+      "final_score": 1.475
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 2400,
+      "end_frame": 3000,
+      "planner_score": 0.85,
+      "planner_reason": "This segment demonstrates the core instructional technique of ear inspection and preparation before treatment, which is essential for the tutorial's educational purpose. It shows professional handling and close-up details that viewers need to learn proper ear care. However, it's slightly less critical than segments showing the actual administration of solution or key safety tips, as this is more of a preparatory step within the overall procedure.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment continues the core demonstration of ear cleaning by showing the preparatory inspection and soothing steps, which are essential for illustrating the procedure's gentle and careful nature. However, it does not introduce new major steps or conclude the demonstration, so its progression contribution is high but not peak."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment shows a close-up of ear inspection and a wider shot of the procedure, which adds some visual detail and instructional clarity, but it is largely similar to previous segments in terms of setting, actions, and subject matter, lacking significant diversity or standout highlights beyond routine demonstration."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment maintains a calm, instructional tone consistent with the tutorial theme, focusing on gentle, routine ear care without heightened emotional expressions, tension, or strong sentiment. The dog remains calm, and the professionals' actions are controlled and reassuring, resulting in low emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment continues the demonstration of ear care but adds minimal new instructional content beyond the close-up inspection and preparation steps, which are incremental to previously shown procedures like solution administration and restraint."
+        }
+      },
+      "final_score": 1.375
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 2800,
+      "end_frame": 3400,
+      "planner_score": 0.85,
+      "planner_reason": "This segment contains both practical demonstration of the ear cleaning technique and crucial safety tips for at-home application, making it highly valuable for the tutorial's educational purpose. While the core technique was shown in previous segments, the safety tips represent new, essential information that viewers need to apply the technique correctly and safely at home. The combination of demonstration and safety guidance elevates its importance for the final summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The current segment shows the continuation of the ear cleaning demonstration, which maintains the instructional flow but doesn't introduce new procedural steps beyond what was already shown in previous segments. However, it adds moderate value by transitioning to safety tips for at-home care, which represents a progression from demonstration to practical application guidance. This shift from pure demonstration to safety considerations moves the tutorial forward by addressing viewer implementation concerns, though it doesn't advance the core demonstration itself significantly."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a continuation of the ear cleaning demonstration in a clinical setting, which maintains visual consistency with previous segments but lacks striking or diverse visual elements. The inclusion of a slide with safety tips adds some instructional value but is not particularly highlight-worthy or visually engaging compared to the hands-on demonstration portions. The scene remains similar in setting, subjects, and activity to previous segments, offering little visual novelty or standout moments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment is instructional and procedural, focusing on demonstrating ear cleaning and presenting safety tips. The emotional expression is minimal, with a calm, professional tone and no heightened tension or sentiment. The golden retriever remains calm, and the delivery is informative rather than emotionally charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment introduces new instructional content in the form of four key safety tips for at-home ear cleaning, which adds practical guidance beyond the clinical demonstration. However, the core demonstration of ear cleaning in a clinic setting has been shown repeatedly in previous segments (segments 4, 5, and 6), making this portion redundant. The safety tips represent the only truly novel information in this segment."
+        }
+      },
+      "final_score": 1.15
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 3200,
+      "end_frame": 3800,
+      "planner_score": 0.9,
+      "planner_reason": "This segment is highly important as it directly demonstrates the core instructional content - the proper application technique of the ear cleansing solution. It provides the step-by-step guidance that viewers need to safely perform the procedure at home, which is the primary educational value of this tutorial video. The hands-on demonstration with the product reinforces the practical application of the earlier safety tips.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment directly contributes to story progression by demonstrating the core instructional action—applying the ear cleansing solution—which is a key step in the tutorial's main event. However, it reiterates similar actions shown in previous segments, slightly reducing its novelty in advancing the narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment is visually striking due to its clear instructional focus and professional demonstration, but it lacks significant diversity or highlight-worthy novelty compared to previous segments, as it continues the established tutorial format with similar content."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment maintains a calm, instructional tone typical of a tutorial, with no heightened emotional expression, tension, or sentiment. It focuses on demonstrating a procedure in a controlled manner, similar to previous segments, resulting in low emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The current segment continues the demonstration of ear cleaning techniques with the VET Solutions product, which aligns with the established instructional purpose. However, it largely reiterates the core activity shown in previous segments (veterinarian demonstrating ear cleaning with the solution) without introducing substantially new information, steps, or safety details beyond what has already been presented in the global summary and memory context. The segment maintains the tutorial's thematic consistency but offers minimal incremental semantic content relative to the accumulated demonstration."
+        }
+      },
+      "final_score": 1.4500000000000002
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 3600,
+      "end_frame": 4200,
+      "planner_score": 0.3,
+      "planner_reason": "This segment serves as a branded acknowledgment and conclusion, which is moderately important for a tutorial video as it provides proper attribution and reinforces the product being demonstrated. However, it contains minimal instructional value compared to the core demonstration segments, and the information is largely promotional rather than educational. In the context of a summary, such segments are typically condensed or omitted unless brand acknowledgment is a key requirement.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment primarily serves as a branded acknowledgment and conclusion, rather than advancing the instructional narrative or demonstrating the ear cleaning procedure. While it ties back to the product and professional involved, it does not introduce new steps, techniques, or safety information that progress the tutorial's core story."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is a static, branded acknowledgment sequence with minimal visual activity or diversity. It lacks the dynamic, highlight-worthy elements of the previous segments, such as live demonstrations or close-up actions, making it less visually striking."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment is a static, branded acknowledgment sequence featuring a thank-you message and product branding. It lacks dynamic emotional expression, tension, or sentiment, as it serves purely informational and promotional purposes without any emotional cues or narrative intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "This segment primarily provides brand acknowledgment, thank-you messages, and product branding, which are repetitive and offer minimal new instructional or semantic content beyond what has been established in previous segments about the product and veterinarian. It lacks new steps, techniques, or safety information, contributing little to the tutorial's core educational purpose."
+        }
+      },
+      "final_score": 0.44999999999999996
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 4000,
+      "end_frame": 4324,
+      "planner_score": 0.15,
+      "planner_reason": "This segment is a static brand logo display with no instructional content, motion, or demonstration. While brand acknowledgment is relevant in a sponsored tutorial, it provides no educational value for ear cleaning techniques, safety tips, or practical demonstration. The segment is purely promotional and could be significantly shortened or omitted in a summary focused on the tutorial's educational core.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "This segment is a static brand logo with no narrative action, character interaction, or instructional content. It serves purely as a closing brand acknowledgment, contributing minimally to story or main event progression beyond reinforcing the sponsor's identity, which is peripheral to the tutorial's core demonstration."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.1,
+          "reason": "The segment is a static logo screen with no motion, action, or visual diversity, making it minimally striking or highlight-worthy compared to dynamic instructional content in previous segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment is a static logo screen with no emotional expression, tension, or sentiment conveyed through visuals, audio, or narrative. It serves purely as brand identification, lacking any dynamic elements that evoke emotion."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The segment provides minimal new information as it is a static brand logo with no instructional content, action, or new semantic details beyond reinforcing the brand identity already established in previous segments."
+        }
+      },
+      "final_score": 0.25
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "video_id": "Jumps",
+  "video_info": {
+    "video_id": "Jumps",
+    "video_path": "/root/autodl-tmp/datasets/SumMe/videos/Jumps.mp4",
+    "fps": 25.0,
+    "total_frames": 950
+  },
+  "planner_plan": {
+    "video_theme": "sports",
+    "global_summary": "The video captures a playful outdoor activity involving a group of people on a grassy hillside. They set up a long yellow slide and engage in various adventurous activities, including sliding, snowboarding, and parachuting, all culminating in interactions around a blue inflatable pool. The atmosphere is collaborative and lighthearted, suggesting a fun and sporty gathering.",
+    "expert_weights": {
+      "story_agent": 0.25,
+      "visual_agent": 0.25,
+      "emotion_agent": 0.25,
+      "information_agent": 0.25
+    },
+    "reason": "The video involves dynamic activities such as sliding, snowboarding, and parachuting, which are characteristic of sports themes. Action recognition is crucial to capture these movements, while scene understanding helps contextualize the outdoor setting. Object detection is important for identifying equipment like the slide and pool, and emotion detection aids in understanding the playful interactions."
+  },
+  "captions": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 118,
+      "caption_frame_indices": [
+        0,
+        39,
+        78,
+        117
+      ],
+      "caption": "Three people stand at the top of a long yellow slide laid out on a grassy hill; one person in a red helmet sits on a wooden platform at the start, while the other two, each holding a bucket, stand on either side, appearing to prepare for or oversee a water slide activity."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 118,
+      "end_frame": 236,
+      "caption_frame_indices": [
+        118,
+        157,
+        196,
+        235
+      ],
+      "caption": "Three people prepare a long yellow tarp slide on a grassy hillside, then a person slides down the slope while others watch from the top."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 236,
+      "end_frame": 354,
+      "caption_frame_indices": [
+        236,
+        275,
+        314,
+        353
+      ],
+      "caption": "A person launches from a wooden ramp on a grassy hillside, soaring through the air on a snowboard before landing on a blue mat below."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 354,
+      "end_frame": 472,
+      "caption_frame_indices": [
+        354,
+        393,
+        432,
+        471
+      ],
+      "caption": "A person wearing a red helmet is seen descending a grassy hill on a parachute, landing safely in a blue inflatable pool placed at the bottom of the slope."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 472,
+      "end_frame": 590,
+      "caption_frame_indices": [
+        472,
+        511,
+        550,
+        589
+      ],
+      "caption": "A person in a red helmet emerges from a blue inflatable pool set up on a grassy hillside, then stands up and is greeted by two others who rush toward them, suggesting a successful or surprising arrival after a challenging descent."
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 590,
+      "end_frame": 708,
+      "caption_frame_indices": [
+        590,
+        629,
+        668,
+        707
+      ],
+      "caption": "In a grassy, hilly field, a person in a red helmet stands on the edge of a blue inflatable pool, while three others surround them, appearing to assist or guide them as they prepare to enter the water."
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 708,
+      "end_frame": 826,
+      "caption_frame_indices": [
+        708,
+        747,
+        786,
+        825
+      ],
+      "caption": "In a grassy, hilly outdoor setting, a group of four people are gathered around a large, blue inflatable swimming pool placed on a wooden platform. The main event is an interaction centered on the pool: one person in a red jacket stands inside it, while the others, including a man in a blue jacket and a woman in a black jacket, stand around him, appearing to be in conversation or preparing for an activity. Their body language suggests they are engaged in a collaborative"
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 826,
+      "end_frame": 950,
+      "caption_frame_indices": [
+        826,
+        867,
+        908,
+        949
+      ],
+      "caption": "In a grassy, hilly field, a group of four people are gathered around a large, blue inflatable pool resting on a wooden platform. The main event is a playful, collaborative activity: three individuals are huddled together, seemingly supporting or lifting a fourth person who is being playfully maneuvered or held aloft. One person in a red shirt stands nearby, observing the interaction. The scene suggests a lighthearted, outdoor gathering, possibly a game or a"
+    }
+  ],
+  "segment_scores": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 118,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment captures a key moment of preparation and anticipation at the start of the slide, which is central to the playful and sporty theme of the video. The presence of multiple participants and the setup for a water slide activity contribute to the collaborative and adventurous atmosphere described in the global summary. This segment is important for showcasing the setup and dynamics of the activity, making it a valuable addition to the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "This segment contributes to the story progression by setting up the context for a water slide activity, which is a key part of the playful and adventurous theme of the video. The presence of the slide and the people preparing for the activity suggests an imminent event that aligns with the overall theme of fun and sporty outdoor activities."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment is visually striking due to the vibrant colors of the yellow slide and red helmet, which stand out against the grassy hill. The scene suggests an engaging and dynamic activity, with the anticipation of a water slide adding to its highlight-worthy nature. However, the diversity of action is limited to the preparation phase, lacking the more varied and adventurous activities described in the global summary."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment depicts a lighthearted and playful scene with people preparing for a fun activity. While there is some anticipation and excitement inherent in the setup for a water slide, the emotional expression is relatively mild, focusing more on preparation and camaraderie rather than intense emotions or tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.7,
+          "reason": "The segment provides new information by describing the setup and preparation for a specific activity on the slide, including the presence of a wooden platform and the involvement of people with buckets, which suggests a water-related component. This adds detail to the overall understanding of the playful activities taking place in the video."
+        }
+      },
+      "final_score": 1.475
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 118,
+      "end_frame": 236,
+      "planner_score": 0.75,
+      "planner_reason": "The current segment captures the setup and execution of a key activity in the video theme of sports, showcasing the slide preparation and the action of sliding down. This segment contributes to the overall narrative of the playful and adventurous outdoor activities, highlighting the collaborative and fun atmosphere of the gathering.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "This segment contributes to the story progression by showing the preparation and initial use of the slide, which is central to the playful outdoor activity theme. It advances the narrative by transitioning from setup to action, illustrating the beginning of the activities described in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment features a visually striking setup with a long yellow tarp slide on a grassy hillside, which is an unusual and eye-catching element. The action of a person sliding down the slope adds dynamic movement, enhancing the visual appeal. However, the diversity of activities is limited in this segment, focusing primarily on the slide preparation and a single slide action, which slightly reduces its highlight-worthy potential compared to segments with more varied sports activities."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment captures a lighthearted and playful activity with some anticipation as a person slides down the slope while others watch. The emotional expression is mild, focusing on the fun and collaborative nature of the activity rather than intense emotions or tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment provides limited new information as it largely reiterates the setup of the slide and the activity of sliding down, which was already introduced in the previous segment. The only new detail is the action of a person actually sliding down, but this does not significantly expand on the overall theme or introduce new activities or interactions."
+        }
+      },
+      "final_score": 1.25
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 236,
+      "end_frame": 354,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment captures a key moment of action and excitement, showcasing the adventurous and sporty nature of the activity. The snowboard launch and landing on a blue mat highlight the playful and daring aspects of the event, making it a visually engaging and memorable part of the video. This aligns well with the sports theme and contributes significantly to the overall narrative of a fun and sporty gathering.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The current segment contributes significantly to the progression of the main event, showcasing a key activity within the playful outdoor gathering. The action of launching from a ramp and landing on a mat adds excitement and variety to the sports theme, advancing the narrative of adventurous activities around the slide and pool setup."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment is visually striking due to the dynamic action of a person launching off a ramp and soaring through the air on a snowboard. The contrast between the grassy hillside, the snowboard, and the blue mat adds visual diversity. The action is highlight-worthy as it captures a moment of skill and excitement, fitting well within the sporty and adventurous theme of the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment captures a dynamic and adventurous moment as a person launches from a ramp and soars through the air on a snowboard. The action and the anticipation of the landing contribute to a moderate level of emotional expression and tension, reflecting excitement and thrill typical of sports activities."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.7,
+          "reason": "The current segment introduces new information by depicting a different activity, snowboarding, which adds variety to the previously described water slide activities. It also provides specific details about the setup, such as the use of a wooden ramp and a blue mat for landing, enhancing the understanding of the range of activities taking place in the video."
+        }
+      },
+      "final_score": 1.625
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 354,
+      "end_frame": 472,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment captures a unique and exciting moment of the activity, showcasing the parachuting aspect of the event. This adds variety to the summary by highlighting different adventurous activities taking place. The safe landing in the blue inflatable pool ties back to the central theme of fun and sporty interactions, making it a significant segment for the overall summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "The current segment significantly contributes to the progression of the main event, showcasing the culmination of the adventurous activities with a parachute landing in the blue inflatable pool. This segment highlights the playful and sporty nature of the gathering, advancing the narrative of the outdoor activity and demonstrating the variety of activities involved."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment is visually striking due to the unique and adventurous activity of parachuting down a grassy hill, which is not a common sight. The use of a parachute adds an element of excitement and unpredictability, making it a highlight-worthy moment. The contrast of the red helmet and blue inflatable pool also adds visual appeal."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment captures a visually engaging and adventurous moment as a person parachutes down a hill, which adds a sense of excitement and thrill. However, the emotional expression remains relatively moderate, as the focus is more on the action itself rather than strong emotional reactions or tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The current segment introduces new information by depicting a parachuting activity, which adds a fresh element to the previously described activities of sliding and snowboarding. The safe landing in a blue inflatable pool also adds a new detail to the setting, enhancing the overall understanding of the playful and adventurous nature of the event."
+        }
+      },
+      "final_score": 1.65
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 472,
+      "end_frame": 590,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment captures the culmination of the adventurous activities, highlighting the successful and joyful conclusion of a challenging descent. This moment reinforces the collaborative and lighthearted atmosphere of the event, making it a key moment in the sports-themed video. The interaction and celebration after the descent add emotional value and context to the overall narrative of the video.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The current segment contributes significantly to the story progression by depicting the aftermath of the parachute descent, highlighting the successful completion of the activity. The interaction between the person in the red helmet and the others reinforces the collaborative and celebratory atmosphere of the event, marking a key moment in the sequence of activities."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment captures a visually striking moment as it features a person emerging from a blue inflatable pool, which contrasts with the grassy hillside. The presence of a red helmet adds a pop of color, and the interaction with two others rushing toward the person suggests a highlight-worthy moment of success or surprise. However, the visual diversity is limited compared to previous segments involving more dynamic activities like snowboarding and parachuting."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.8,
+          "reason": "The segment captures a moment of successful completion and surprise, as the person emerges from the pool and is greeted by others rushing toward them. This interaction suggests a strong emotional expression of excitement and relief, contributing to a heightened sense of achievement and camaraderie."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment provides minimal new information as it primarily describes the aftermath of an activity already depicted in previous segments. The emergence from the pool and the greeting by others add a slight narrative progression, but do not introduce significant new activities or instructions beyond what has been previously shown."
+        }
+      },
+      "final_score": 1.475
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 590,
+      "end_frame": 708,
+      "planner_score": 0.75,
+      "planner_reason": "The current segment captures a moment of interaction and preparation, which is consistent with the collaborative and lighthearted atmosphere of the video. It highlights the teamwork and assistance involved in the activity, which is a key aspect of the sports theme. This segment adds to the narrative of the playful and adventurous activities taking place, making it important for the final video summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The current segment contributes moderately to the story progression by showing the continuation of interactions around the blue inflatable pool, which is a recurring element in the video. It builds on the previous segment where the person in the red helmet emerged from the pool, suggesting ongoing activities or preparations related to the pool. However, it does not introduce a new activity or significant event, thus contributing less to the main event progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment captures a moment of interaction and preparation around a blue inflatable pool, which is visually interesting due to the presence of multiple people and the anticipation of an activity. However, it lacks the dynamic action or unique visual elements seen in previous segments, such as snowboarding or parachuting, which were more striking and diverse."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The current segment depicts a calm and supportive interaction as a person is assisted by others at the edge of a pool. The emotional expression is mild, focusing on teamwork and guidance rather than high tension or strong sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment provides limited new information as it largely reiterates the presence of the person in a red helmet and their interaction with the blue inflatable pool, which has been previously established. The only new detail is the presence of three others assisting or guiding, which adds a minor layer of interaction but does not significantly advance the narrative or introduce substantial new content."
+        }
+      },
+      "final_score": 1.2
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 708,
+      "end_frame": 826,
+      "planner_score": 0.75,
+      "planner_reason": "The current segment captures a key moment of interaction and collaboration around the blue inflatable pool, which is a central element in the video. This segment highlights the social and collaborative aspect of the sports-themed gathering, reinforcing the playful and communal atmosphere. The presence of multiple participants and their engagement in conversation or preparation for an activity adds depth to the narrative, making it an important part of the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment contributes to the story progression by showing a collaborative interaction around the blue inflatable pool, which has been a focal point in previous segments. The presence of the person in the red jacket inside the pool and others around suggests preparation for another activity or a continuation of the playful events, maintaining the theme of the gathering."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment captures a visually engaging scene with a group of people interacting around a large blue inflatable pool, which is a central element in the video. The presence of colorful jackets and the collaborative atmosphere add to the visual interest. However, the scene lacks the dynamic action or striking visuals seen in previous segments, such as snowboarding or parachuting, which limits its highlight-worthy appeal."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment depicts a calm and collaborative interaction among the group around the inflatable pool. While there is a sense of teamwork and preparation for an activity, the emotional expression is moderate, with no heightened tension or strong sentiment evident. The atmosphere remains lighthearted and playful, consistent with the overall theme of the video."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment provides minimal new information as it largely reiterates the setting and interactions around the blue inflatable pool, which have been previously described. The only new detail is the specific mention of the jackets worn by the individuals, which adds a minor visual element but does not significantly enhance the semantic content or introduce new activities or instructions."
+        }
+      },
+      "final_score": 1.25
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 826,
+      "end_frame": 950,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment captures a playful and collaborative activity around the blue inflatable pool, which is a central element in the video. This segment highlights the fun and sporty atmosphere of the gathering, aligning well with the sports theme. The interaction and teamwork displayed are key aspects of the overall narrative, making this segment important for the final video summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The current segment contributes to the story progression by showcasing a playful and collaborative activity involving the group around the inflatable pool. This interaction builds on the previous segments, which have established the pool as a central element of the gathering. While it does not introduce a new main event, it reinforces the theme of teamwork and fun, adding depth to the overall narrative of the outdoor activity."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment is visually striking due to the playful and collaborative nature of the activity, with people interacting around a large, blue inflatable pool. The scene is dynamic and engaging, showcasing a unique and fun outdoor gathering. However, it lacks the high-energy action or dramatic visuals seen in previous segments like snowboarding or parachuting, which slightly reduces its highlight-worthy appeal."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment depicts a playful and collaborative activity with a group of people engaged in a lighthearted interaction. The emotional expression is moderate, as the scene suggests enjoyment and camaraderie, but lacks intense emotional highs or dramatic tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment provides minimal new information as it largely reiterates the setting and activities already described in previous segments. The main new detail is the playful maneuvering or lifting of a person, which adds a slight variation to the ongoing theme of collaborative and playful interactions around the inflatable pool."
+        }
+      },
+      "final_score": 1.4249999999999998
+    }
+  ],
+  "frame_scores": [
+    1.475,
+    1.475,
+    1.475,
+    1.475,
+    1.475,
+    1.475,
+    1.475,
+    1.475,
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.625,
+    1.625,
+    1.625,
+    1.625,
+    1.625,
+    1.625,
+    1.625,
+    1.625,
+    1.65,
+    1.65,
+    1.65,
+    1.65,
+    1.65,
+    1.65,
+    1.65,
+    1.65,
+    1.475,
+    1.475,
+    1.475,
+    1.475,
+    1.475,
+    1.475,
+    1.475,
+    1.475,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.2,
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.25,
+    1.4249999999999998,
+    1.4249999999999998,
+    1.4249999999999998,
+    1.4249999999999998,
+    1.4249999999999998,
+    1.4249999999999998,
+    1.4249999999999998,
+    1.4249999999999998
+  ],
+  "frame_score_picks": [
+    0,
+    15,
+    30,
+    45,
+    60,
+    75,
+    90,
+    105,
+    120,
+    135,
+    150,
+    165,
+    180,
+    195,
+    210,
+    225,
+    240,
+    255,
+    270,
+    285,
+    300,
+    315,
+    330,
+    345,
+    360,
+    375,
+    390,
+    405,
+    420,
+    435,
+    450,
+    465,
+    480,
+    495,
+    510,
+    525,
+    540,
+    555,
+    570,
+    585,
+    600,
+    615,
+    630,
+    645,
+    660,
+    675,
+    690,
+    705,
+    720,
+    735,
+    750,
+    765,
+    780,
+    795,
+    810,
+    825,
+    840,
+    855,
+    870,
+    885,
+    900,
+    915,
+    930,
+    945
+  ],
+  "output_dir": "outputs/inference_results/Jumps"
+}

@@ -1,0 +1,245 @@
+{
+  "video_id": "Bearpark_climbing",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 600,
+      "planner_score": 0.85,
+      "planner_reason": "This segment establishes the core theme of the video—a bear foraging in an urban environment—and introduces the main subject and setting. It provides key visual and narrative elements (bear's behavior, urban backdrop) that are central to the summary, making it highly important for context and engagement.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment strongly contributes to story progression by establishing the main character (brown bear), its primary activity (foraging in a tree), and the key setting (urban environment). It introduces the central conflict of wildlife in human-developed areas and shows the bear's active engagement with its environment through detailed foraging behavior. The segment provides essential narrative foundation for understanding subsequent bear behaviors and interactions."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking due to the unusual juxtaposition of a large brown bear foraging high in a tree within an urban environment, with buildings visible in the background. The bear's active foraging behavior—tearing and eating blossoms while gripping branches—creates a compelling and somewhat surreal scene that highlights wildlife adaptation to human spaces. This contrast between nature and urban development makes it highlight-worthy, though the action is relatively contained to foraging rather than more dynamic interactions."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment shows a bear foraging calmly in a tree, which involves some natural curiosity and focus, but lacks strong emotional cues like excitement, tension, fear, or pronounced sentiment. The bear's actions are routine and neutral, and the urban setting does not introduce notable emotional contrast or intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.95,
+          "reason": "The segment introduces the core subject and setting of the video: a brown bear foraging in a tree in an urban environment. It provides specific, novel details about the bear's actions (tearing and eating blossoms, using paws to grip branches), the type of flora (green, catkin-like blossoms), and the key contextual juxtaposition (wildlife in a developed area with a multi-story building). This establishes the primary narrative and visual theme not previously summarized in the global summary, which only mentions foraging in a tree generically. Therefore, it delivers substantial new semantic content."
+        }
+      },
+      "final_score": 1.5875
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 400,
+      "end_frame": 1000,
+      "planner_score": 0.3,
+      "planner_reason": "This segment is highly redundant with the previous segment (Segment 0). Both depict the same core action: a brown bear foraging in a tree with blossoms in an urban setting. The current caption adds minor details (sniffing, fresh blossoms) but does not introduce new narrative elements, locations, behaviors, or subjects compared to what was already established. For a general summary aiming for conciseness, this repetition offers little new information and would be a candidate for exclusion or heavy compression.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "This segment continues the established scene of a bear foraging in an urban tree, but does not introduce new narrative progression or main events. It reinforces the existing situation without advancing the story toward new developments (like multiple bears appearing, interactions, or spectator scenes mentioned in the global summary). The action remains repetitive within the same context."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking due to the unusual juxtaposition of a large brown bear foraging high in a tree against an urban backdrop, which creates a compelling contrast between nature and human development. The bear's active foraging behavior, including gripping branches and interacting with blossoms, adds dynamic interest. However, it is somewhat similar to the previous segment in setting and activity, reducing novelty and diversity, though the focus on close-up actions like mouth movements enhances engagement."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a bear engaged in routine foraging behavior without overt emotional cues. While the unusual urban setting creates mild tension or curiosity, the bear's actions appear calm and focused on eating. There is no visible distress, aggression, playfulness, or strong sentiment expressed by the bear or implied by the scene. The emotional tone is neutral, with only subtle underlying tension from the human-wildlife juxtaposition."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment largely repeats the foraging behavior, setting, and urban juxtaposition described in the previous segment, offering minimal new semantic content beyond slight variations in descriptive phrasing."
+        }
+      },
+      "final_score": 0.7250000000000001
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 800,
+      "end_frame": 1400,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment is highly similar to previous segments, showing repetitive behavior of the bear foraging in the same tree. While it continues the narrative of urban wildlife, it adds minimal new information beyond confirming the bear's continued presence and feeding activity. This redundancy reduces its importance for a concise summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The current segment repeats the same core action (bear foraging in urban tree) already established in previous segments 0 and 1. While it reinforces the initial premise of wildlife in an urban setting, it does not introduce new story progression elements such as new characters, locations, interactions, or advancing events toward the later scenes described in the global summary (multiple bears, playful interactions, spectators, water setting). It maintains but does not significantly advance the narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment is visually striking due to the unusual juxtaposition of a wild bear foraging in an urban setting, which creates a compelling and highlight-worthy contrast. The bear's active feeding behavior and the clear visibility of the urban background add to the scene's uniqueness. However, the action is relatively repetitive (eating blossoms) and lacks significant diversity or dynamic movement compared to other potential wildlife highlights, limiting its score."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment depicts a bear foraging calmly in a tree, with no overt emotional cues such as aggression, fear, or joy. The primary sentiment is mild curiosity or focus from the bear, and the unusual urban setting adds a subtle tension or novelty, but the overall emotional expression is low-key and neutral."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment provides minimal new information compared to the previous segments and global summary. It repeats the same core elements: a brown bear foraging in a tree in an urban environment, eating blossoms, using paws to manipulate branches, and the urban backdrop. No new semantic content, behaviors, or contextual details are introduced beyond what was already established in the memory context and global summary."
+        }
+      },
+      "final_score": 0.675
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1200,
+      "end_frame": 1800,
+      "planner_score": 0.65,
+      "planner_reason": "The current segment continues the established theme of a bear foraging in an urban tree environment, maintaining narrative consistency. However, it shows similar behavior to previous segments (climbing, foraging) without introducing significant new elements like social interactions, dramatic action, or environmental changes. The presence of a river adds slight visual variety but doesn't substantially advance the story beyond what's already established in the global summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment continues the bear's foraging activity in an urban-natural setting, showing movement and exploration, but it does not introduce new plot points, conflicts, or significant changes to the established narrative of bears in an unusual environment. It maintains progression by depicting the bear's ongoing behavior without advancing the story beyond the initial premise."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment maintains visual interest with the bear climbing and maneuvering through branches, and the inclusion of a river adds some scenic diversity compared to previous urban-only backgrounds. However, the action is similar to prior segments (foraging/exploring in a tree), reducing its highlight-worthy uniqueness. The setting remains semi-urban, limiting striking contrast."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment shows a bear climbing and exploring in a tree, which conveys a sense of calm, deliberate activity rather than strong emotional expression, tension, or sentiment. While there is mild curiosity or focus in the bear's movements, it lacks intense emotions like excitement, fear, or playfulness seen in other segments with multiple bears or interactions. The urban-nature juxtaposition adds slight interest but does not heighten emotional intensity significantly."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment introduces the presence of a river in the background, which adds a new environmental element not mentioned in previous segments. However, the core action (bear climbing/foraging in a tree in an urban setting) and semantic content are highly repetitive with previous descriptions, offering minimal new information beyond the river detail."
+        }
+      },
+      "final_score": 1.1375
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1600,
+      "end_frame": 2200,
+      "planner_score": 0.85,
+      "planner_reason": "This segment introduces a second bear, suggesting a family group and social interaction, which adds narrative depth beyond the solitary foraging shown previously. The presence of multiple bears in a semi-urban environment enhances the theme of unusual wildlife behavior and provides continuity while expanding the scope of the story. It maintains visual consistency with tree climbing and foraging but introduces new social dynamics that are important for a comprehensive summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment introduces a second bear, suggesting a family group, which adds a new social dimension to the story and shifts from solitary foraging to potential group interaction. This progression is moderate as it expands the narrative beyond the initial individual bear's activity, but the core action of climbing and foraging remains similar to previous segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment shows increased visual interest and diversity compared to previous segments by introducing a second bear, suggesting family dynamics and social interaction. The presence of multiple animals in the same frame creates a more compelling visual composition, while the semi-urban environment with the river backdrop adds scenic contrast. The climbing and maneuvering behavior maintains dynamic movement, and the suggestion of natural foraging or play behavior adds narrative depth. However, the setting and bear activity remain somewhat similar to previous segments, preventing a perfect score."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment introduces a second bear, suggesting family interaction which adds a layer of social or playful emotion, but the overall tone remains calm and naturalistic without strong tension, fear, or intense sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The current segment introduces the presence of a second bear, which adds new information about a potential family group and social interaction. However, the core actions of climbing, foraging, and the semi-urban setting are largely repetitive from previous segments, limiting the overall novelty."
+        }
+      },
+      "final_score": 1.4874999999999998
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 2000,
+      "end_frame": 2600,
+      "planner_score": 0.85,
+      "planner_reason": "This segment introduces new elements that enhance the narrative: multiple young bears (suggesting family dynamics), spectator interaction (human-wildlife interface), and a clearer semi-natural setting near water. While similar to previous foraging/climbing scenes, the presence of spectators and young bears adds social and observational dimensions that are important for a comprehensive summary of bear behavior in human-proximate environments.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment introduces new elements such as multiple young bears and spectators, which adds to the narrative by showing social interaction and human observation, but it does not significantly advance the core story or main event beyond the established theme of bears in a semi-urban environment."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment features multiple young bears climbing and interacting near water, which is visually striking due to the dynamic activity and the presence of spectators, adding a human element that enhances highlight-worthiness. While the bears' behavior is engaging, the setting and action are somewhat similar to previous segments, limiting diversity but remaining a notable highlight within the context."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.5,
+          "reason": "The segment shows playful interaction among young bears, which introduces a mild positive sentiment, and the presence of spectators adds a layer of human interest. However, the emotional expression is not intense, with no strong tension, fear, or dramatic sentiment; it remains observational and calm overall."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment introduces new elements such as multiple young bears, a body of water, and spectators on a viewing platform, which adds to the social and environmental context. However, the core activity of bears climbing trees in a semi-urban setting has been established in previous segments, limiting the novelty of the primary action."
+        }
+      },
+      "final_score": 1.475
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 2400,
+      "end_frame": 3000,
+      "planner_score": 0.85,
+      "planner_reason": "This segment provides a satisfying conclusion to the bear activity sequence by showing the bears descending from the tree and engaging in playful interaction at ground level. It maintains the narrative thread of bears in semi-urban environments while introducing the human observation element more prominently. The playful interaction between the young bears adds behavioral interest, and the transition from climbing/foraging to ground-level activity creates a natural progression. While similar to previous segments in setting, it offers resolution and social behavior that enhances the overall story.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "This segment contributes moderately to story progression by showing the bears transitioning from foraging/climbing to playful interaction on the ground, introducing a new dynamic (play) and concluding the tree-climbing sequence. However, it largely continues the established theme of bears in a semi-urban setting without introducing major new plot points or significant narrative advancement beyond the playful descent."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.75,
+          "reason": "The segment features visually engaging elements such as two young bears climbing down a tree, playful interaction, and human spectators on a bridge, adding a dynamic and highlight-worthy social context. However, it follows a pattern of bear-in-tree scenes from previous segments, reducing novelty and visual diversity compared to earlier urban juxtapositions."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment depicts playful interaction between young bears, which conveys a lighthearted and curious emotional tone. However, the presence of spectators introduces a mild tension or observational sentiment, rather than intense emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces new information about the bears' behavior (climbing down, playful interaction at the base of the tree) and adds a social dimension with human spectators on a bridge, which was not detailed in previous segments. However, it continues the established theme of bears in a semi-urban setting near water, so it is not entirely novel."
+        }
+      },
+      "final_score": 1.5625
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 2800,
+      "end_frame": 3341,
+      "planner_score": 0.35,
+      "planner_reason": "This segment shows the conclusion of the playful interaction between the young bears as they walk away together, providing closure to the bear activity sequence. While it continues the theme of bear behavior in semi-urban environments, it represents a transition from active climbing/playing to departure, making it moderately important but less critical than segments showing unique behaviors like urban foraging or dramatic interactions. The walking away serves as a natural endpoint to this bear sequence within the broader video.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment shows the bears moving away from the tree after their playful interaction, which represents a minor progression in the scene as it concludes the immediate activity at that location. However, it does not introduce new main events, characters, or significant narrative developments beyond the bears' departure, contributing only modestly to the overall story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment features two young bears playfully interacting and walking together in a natural setting, which is visually engaging and highlights social behavior. However, compared to previous segments with bears climbing trees in urban environments or foraging in unusual settings, this scene is less striking and diverse. The playful interaction adds some highlight-worthy content, but the overall visual impact is moderate given the context of the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment depicts playful interaction between two young bears, which conveys a lighthearted and positive sentiment, but the emotional intensity is moderate as the play is gentle and there is no high tension or dramatic expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces new playful interaction between two young bears and their movement away from the tree, adding to the narrative of bear behavior and social dynamics. However, it largely continues the established theme of bears in a semi-natural setting with human spectators, without introducing significant new information, instructions, or semantic content beyond the progression of the observed activity."
+        }
+      },
+      "final_score": 0.825
+    }
+  ]
+}

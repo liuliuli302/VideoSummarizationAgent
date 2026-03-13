@@ -1,0 +1,125 @@
+{
+  "video_id": "St Maarten Landing",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 600,
+      "planner_score": 0.45,
+      "planner_reason": "The segment establishes the serene beach setting and shows people capturing the view, which aligns with the video's theme of blending coastal beauty with aviation. However, the airplane is small and distant, lacking the dramatic low-altitude approach of larger aircraft described in the global summary. It contributes to atmosphere but is less critical than segments featuring prominent planes like the KLM 747.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a tranquil beach scene with people relaxing and capturing the view, but it lacks any direct focus on the main aviation events (low-altitude approaches and landings of large airplanes) that drive the story progression. The distant small airplane adds minimal relevance to the core theme of impressive aircraft action, contributing only slightly to the overall narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment features a visually appealing beach scene with clear skies, turquoise waters, and human activity, contributing to a serene and idyllic coastal aesthetic. However, the aviation element is limited to a small, distant airplane, which lacks the dramatic impact or highlight-worthy quality of the low-altitude approaches described in the global summary. While the scene is pleasant and well-composed, it is less striking or diverse compared to the more dynamic aircraft moments in the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a serene beach scene with tranquil waters and minimal activity, evoking a calm, peaceful sentiment. The presence of a small airplane on the distant horizon adds gentle motion but does not introduce strong emotional expression, tension, or heightened sentiment; overall, the emotional intensity is low."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment provides minimal new information relative to the established video theme and global summary. While it adds specific details like two people (one sitting, one standing with a phone) and a small airplane on the horizon, these elements are already consistent with the described beach setting, turquoise waters, and aviation theme. The scene reinforces the serene coastal atmosphere but does not introduce significant new semantic content, instructions, or unexpected developments beyond what is summarized."
+        }
+      },
+      "final_score": 0.825
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 400,
+      "end_frame": 1000,
+      "planner_score": 0.85,
+      "planner_reason": "This segment directly showcases the core theme of the video—the dramatic low-altitude approach of a large passenger airplane over a tropical beach—which is central to the global summary. It captures the key interaction between the scenic landscape and aviation action, as well as the beachgoers' reactions, making it highly relevant for inclusion in a summary focused on this unique blend of natural beauty and human-engineered spectacle.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story's main event progression by depicting the central dramatic action of the video: a large passenger airplane descending for landing over the beach. It directly shows beachgoers reacting to and documenting this event, which is the core narrative focus of the video theme blending scenic beauty with aviation action. The segment moves from the previously established serene setting to the active, engaging moment that defines the video's purpose."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking and highlight-worthy due to the dramatic low-altitude approach of a large passenger airplane over a tropical beach, creating a dynamic contrast between serene coastal scenery and aviation action. It captures diverse elements like beachgoers actively pointing and recording, enhancing engagement, though it lacks extreme novelty compared to typical aviation footage."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.8,
+          "reason": "The segment features a large passenger airplane descending low over the ocean, which introduces a dramatic and awe-inspiring element. The active reactions of beachgoers pointing and recording amplify the sense of excitement and engagement, significantly elevating the emotional intensity compared to the previous serene scene."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The segment introduces significant new information by featuring a large passenger airplane descending for landing, which contrasts with the small airplane in the previous segment. It adds the dynamic element of beachgoers actively reacting to and documenting the aircraft, enhancing the narrative with human engagement and a closer, more dramatic aviation event."
+        }
+      },
+      "final_score": 1.7125
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 800,
+      "end_frame": 1400,
+      "planner_score": 0.95,
+      "planner_reason": "This segment is highly important as it features the distinctive KLM Boeing 747—a key subject highlighted in the global summary—performing a low-altitude approach over the tropical beach. It directly showcases the core theme of blending dramatic aviation action with scenic coastal beauty, includes onlookers reacting and recording (reinforcing the human element), and culminates in the landing with a picturesque backdrop, making it a central, representative moment for the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story by introducing a specific, iconic aircraft (KLM Boeing 747) and depicting its full approach and landing sequence. It builds upon the previous segment's introduction of aviation activity by escalating to a larger, more recognizable plane and showing the culmination of the landing process. The detailed description of the scenic approach, onlookers' reactions, and final landing against a backdrop of hills and clouds provides a clear progression from sighting to touchdown, marking a key narrative development in the aviation-focused beach experience."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "The segment features a visually striking KLM Boeing 747—a distinctive and iconic aircraft—making a low approach over a scenic tropical beach with turquoise waters. The combination of the dramatic aviation action, the picturesque coastal backdrop, and the engaged reactions of onlookers capturing the moment creates a highly highlight-worthy scene that is both diverse in elements and visually captivating."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment features a prominent KLM Boeing 747 making a low approach, which introduces a strong sense of awe and excitement, heightened by onlookers actively capturing the moment. The combination of a dramatic aircraft, scenic tropical backdrop, and engaged human reaction creates a vivid emotional expression of wonder and spectacle, though it lacks intense personal or narrative tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces new, specific information by identifying the aircraft as a KLM Boeing 747, which adds brand and model details not previously mentioned. It also provides additional semantic content by describing the landing with a backdrop of hills and clouds, enhancing the scenic context. However, it overlaps with the previous segment's theme of a large airplane drawing attention, slightly reducing novelty."
+        }
+      },
+      "final_score": 1.825
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1200,
+      "end_frame": 1751,
+      "planner_score": 0.95,
+      "planner_reason": "This segment is highly important for the landscape video summary as it features the climax of the aviation action—the dramatic low-altitude approach and landing of the distinctive KLM Boeing 747, which is central to the video's theme of blending scenic coastal beauty with aviation drama. The visual details (turquoise beach, onlookers, smoke from tires) enhance the narrative, and it directly aligns with the global summary's focus on impressive airplane landings over a tropical coastline.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment represents a key progression in the main aviation narrative by showing the culmination of the aircraft's approach—the actual landing and rollout. While similar to segment 2 in depicting a KLM 747 approach, it advances the story by adding the critical phases of touchdown, tire smoke, and the aircraft coming to a complete stop, providing a more complete resolution to the landing sequence. The chain-link fence perspective also offers a new, ground-level viewpoint that contrasts with previous beachside shots, reinforcing the progression from approach to arrival."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "This segment is highly visually striking and highlight-worthy, featuring the dramatic low-altitude approach of a distinctive KLM Boeing 747 over a beautiful turquoise beach. The combination of the iconic aircraft, the scenic coastal backdrop, the visible reaction of onlookers, and the technical details of landing (including smoke from tires) creates a compelling and memorable aviation moment that perfectly blends natural beauty with impressive human engineering."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.9,
+          "reason": "The segment features a dramatic low-altitude approach by a KLM Boeing 747, which inherently creates high tension and excitement. The visual of smoke rising from the tires upon landing adds to the intensity, and the onlookers' attention underscores the emotional engagement. While the setting remains scenic, the aviation action dominates, evoking strong awe and thrill."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The current segment introduces the specific detail of smoke rising from the tires upon landing and the perspective of viewing through a chain-link fence, which adds a slight nuance to the landing sequence. However, the core event of a KLM Boeing 747 landing has already been described in previous segments, making the new information incremental rather than substantial."
+        }
+      },
+      "final_score": 1.7374999999999998
+    }
+  ]
+}

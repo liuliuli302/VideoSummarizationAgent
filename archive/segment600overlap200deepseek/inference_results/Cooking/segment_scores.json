@@ -1,0 +1,95 @@
+{
+  "video_id": "Cooking",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 600,
+      "planner_score": 0.85,
+      "planner_reason": "This segment directly demonstrates the core tutorial content: the chef's cooking technique on the teppanyaki griddle, using specific tools (tongs, spatula) and handling key ingredients (onions, asparagus, shrimp/scallops). It showcases the practical cooking skills that viewers would want to learn, aligning perfectly with the tutorial theme. While it doesn't include the dramatic flame techniques mentioned in the global summary, it represents the fundamental cooking process that is essential for instructional purposes.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment directly depicts the core cooking process of teppanyaki, which is central to the tutorial theme, showing ingredient handling and cooking techniques. However, it focuses on routine preparation (flipping, moving ingredients) without introducing new steps, dramatic techniques, or clear narrative advancement beyond basic execution, limiting its contribution to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment features dynamic cooking actions like flipping ingredients and includes visually appealing elements such as sliced onions, asparagus, and seafood, which add some diversity and highlight the chef's skill. However, it lacks more dramatic or visually striking moments (e.g., flames, high-energy techniques) that are typical of teppanyaki entertainment, making it moderately highlight-worthy but not exceptional."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment depicts a chef performing routine teppanyaki cooking with standard techniques like flipping ingredients, which aligns with the tutorial theme. However, it lacks dramatic emotional cues, high tension, or strong sentiment; the presence of a glass of wine adds a slight relaxed or professional ambiance, but overall emotional expression is mild and focused on skill demonstration rather than evoking strong feelings."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment introduces basic teppanyaki cooking actions and ingredients, but it largely reiterates the general theme of the video without adding significant new details, techniques, or instructional depth beyond what is implied by the global summary."
+        }
+      },
+      "final_score": 1.3125
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 400,
+      "end_frame": 1000,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment is highly important as it reinforces the core tutorial elements of the video—demonstrating the chef's technique and interaction with ingredients (onions, asparagus) in a teppanyaki setting. It aligns well with the global summary by showcasing both culinary skill and the entertainment aspect for diners. However, it overlaps somewhat with the previous segment in content, slightly reducing its unique contribution.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment continues the core activity of teppanyaki cooking, maintaining the narrative of meal preparation, but it does not introduce a new stage or significant event beyond the previous segment's description of flipping and handling ingredients, resulting in moderate progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment features visually engaging elements like the chef's uniform, dynamic flipping of ingredients, and a teppanyaki grill setting, which are highlight-worthy for a tutorial theme. However, it lacks highly striking or diverse visual moments (e.g., dramatic flames or varied techniques) compared to the global summary's emphasis on entertainment, making it moderately but not exceptionally striking."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment depicts competent cooking technique but lacks strong emotional expression, dramatic tension, or heightened sentiment. The chef's actions are skillful but routine within the tutorial context, with no visible emotional cues from the chef or diners, no dramatic events like flame techniques mentioned in the global summary, and a neutral, instructional tone overall."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The current segment provides some new information about the chef's appearance (red hat, white uniform) and confirms the teppanyaki grill setting, but largely reiterates the cooking actions and ingredients (flipping onions and asparagus) already described in the previous segment. The mention of diners seated at the counter adds minor contextual detail, but overall the semantic overlap with the prior segment is high, limiting the amount of truly new information conveyed."
+        }
+      },
+      "final_score": 1.35
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 800,
+      "end_frame": 1287,
+      "planner_score": 0.95,
+      "planner_reason": "The current segment showcases the dramatic, entertaining climax of the teppanyaki performance with a blowtorch flame spectacle, which is a key highlight for both the tutorial's demonstration of advanced technique and the overall entertainment value central to the video theme. It directly follows and amplifies the preparation steps shown in previous segments, providing a memorable payoff that is essential for a comprehensive summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "The current segment significantly advances the story progression by introducing a dramatic climax to the teppanyaki performance. While previous segments established routine cooking techniques (flipping ingredients, basic preparation), this segment showcases the signature entertainment element of teppanyaki—the dramatic flame spectacle. This represents a clear narrative escalation from 'cooking as preparation' to 'cooking as theatrical performance,' directly serving the video's dual themes of culinary expertise and audience entertainment. The explicit mention of audience reaction further reinforces this progression toward the performance's intended impact."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "The segment features a dramatic, highlight-worthy visual spectacle with a tall flame ignited by a blowtorch, creating a burst of smoke. This is a visually striking and diverse action compared to the previous segments, directly enhancing entertainment value."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.95,
+          "reason": "The segment features highly dramatic and intense emotional expression through the chef's use of a blowtorch to create a tall flame and burst of smoke, directly engaging the audience with a spectacle. This elevates the segment beyond routine cooking to a performance with clear tension, excitement, and entertainment value, making the emotional impact very strong."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces the use of a blowtorch to create a dramatic flame and smoke spectacle, which is a new and visually distinct technique not previously described in the memory context, adding significant entertainment value and a novel cooking method to the tutorial theme."
+        }
+      },
+      "final_score": 1.8499999999999999
+    }
+  ]
+}

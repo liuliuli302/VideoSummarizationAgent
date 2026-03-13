@@ -1,0 +1,545 @@
+{
+  "video_id": "gzDbaEs1Rlg",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 600,
+      "planner_score": 0.85,
+      "planner_reason": "The segment introduces the presenter and establishes the tutorial's context, which is important for viewer engagement and setting expectations. It directly relates to the video's theme by framing the content as a guide, aligning with the global summary's focus on safety advice and step-by-step instructions. However, it is slightly less critical than segments demonstrating specific procedures like tire changes or jump-starts.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment introduces the tutorial's purpose and sets the context, but it primarily serves as a disclaimer or introductory remark rather than advancing the main events or story progression related to handling car issues. It contributes minimally to the step-by-step instructions or core narrative of the tutorial."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment is visually straightforward with a presenter speaking outdoors, but lacks striking or diverse visuals; it serves as an introductory guide rather than a highlight-worthy moment."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment features a calm, instructional delivery with neutral gestures and a straightforward advisory subtitle. There is no heightened emotional expression, tension, or strong sentiment; it maintains a practical, informative tone typical of tutorial content."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces the tutorial's purpose and disclaimer, providing minimal new instructional content related to car issues. It sets context but lacks specific steps, safety advice, or equipment details mentioned in the global summary."
+        }
+      },
+      "final_score": 1.15
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 400,
+      "end_frame": 1000,
+      "planner_score": 0.3,
+      "planner_reason": "The segment primarily serves as a disclaimer and transition, with some focus on car interior features. While it maintains continuity and provides necessary legal/instructional framing, it lacks direct demonstration of handling car issues, step-by-step instructions, or safety advice central to the tutorial's core content. The gear shift close-up, though potentially relevant for context, does not directly address tire pressure, flat tires, breakdowns, or portable equipment use. Therefore, it has moderate importance for completeness but low importance for the actionable summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily serves as a transitional disclaimer and showcases interior features of the car, rather than advancing the tutorial's main events of handling car issues or demonstrating safety procedures."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment is moderately visually striking due to the close-up shots of the gear shift lever, which provide clear, detailed visuals of car components. However, the overall content is instructional rather than highlight-worthy, with the man speaking to the camera and standard interior shots. It lacks dynamic action, dramatic visuals, or significant diversity compared to typical tutorial footage."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment is instructional and factual, focusing on a disclaimer and a close-up of the gear shift lever. There is minimal emotional expression, tension, or sentiment, as it serves purely as a tutorial setup and feature showcase."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces a disclaimer and shifts focus to the car's interior, specifically the gear shift lever, which provides some new visual and contextual information about the vehicle's features. However, it does not add substantial new instructional content or safety advice relevant to the tutorial's theme of handling car issues, making its informational value moderate but limited."
+        }
+      },
+      "final_score": 0.575
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 800,
+      "end_frame": 1400,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment shows a man demonstrating car features and pointing out alloy rim details, which is more aligned with a car review or feature showcase rather than the tutorial's focus on handling common car issues like tire pressure problems, flat tires, and breakdowns. While it involves a car and safety gear (high-visibility vest), it lacks direct instructional value for roadside emergencies, making it less critical for the summary compared to segments that provide step-by-step troubleshooting or safety advice.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily focuses on showcasing car features (gear shift, alloy rim) rather than progressing the tutorial's main events of handling car issues with portable equipment. It introduces a new presenter and setting but does not advance the step-by-step instructions for tire pressure, flat tires, or breakdowns, making its contribution to story progression minimal."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment is visually straightforward and instructional, showing a man speaking in a car and then pointing at a wheel, but lacks striking or diverse visuals, dynamic camera work, or highlight-worthy moments compared to typical tutorial content."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment maintains a calm, instructional tone typical of tutorials, with no heightened emotional expression, tension, or strong sentiment. The presenter's demeanor is neutral and informative while demonstrating features, and the shift to pointing out wheel details lacks dramatic or emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.7,
+          "reason": "The segment introduces new visual and contextual information by showing the man in a different shirt color and a high-visibility vest, moving from inside the car to focusing on the alloy rim of the front wheel. This provides specific details about car features, which adds to the tutorial's content by highlighting vehicle components, though it may not directly advance the core instructional themes of tire pressure or breakdowns mentioned in the global summary."
+        }
+      },
+      "final_score": 0.675
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1200,
+      "end_frame": 1800,
+      "planner_score": 0.85,
+      "planner_reason": "The segment introduces a practical emergency scenario (collision damage) that aligns with the tutorial's theme of handling car issues. It demonstrates a real-world application of safety protocols (donning high-visibility vest) and transitions to promoting ŠKODA Roadside Assistance, which is a key element of the global summary. However, it is less instructional than core step-by-step repair segments, slightly reducing its importance relative to direct tutorial content.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story by introducing a concrete problem (collision damage) that transitions from general tutorial guidance to a specific emergency scenario requiring roadside assistance. It moves the narrative from preventive maintenance/demonstration to actual incident response, directly setting up the need for the promoted ŠKODA Roadside Assistance service. The segment concludes the problem-solution arc initiated in earlier segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking due to the depiction of a collision scenario, which introduces a dramatic and highlight-worthy event compared to the previous instructional segments. The action of the man exiting the car, wearing a high-visibility vest, and inspecting the damage adds visual diversity and urgency. The concluding promotional overlay with contact information provides a clear, visually distinct call to action. However, the segment is still part of a tutorial context and lacks extreme visual effects or cinematic flair, keeping the score moderate."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a minor car accident scenario, which introduces a low level of tension and concern, but the overall tone remains instructional and promotional rather than emotionally intense. The emotional expression is subdued, focused on demonstrating a practical response to damage, and ends with a calm promotional message."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The current segment introduces a new scenario (collision damage) not previously covered in the tutorial, provides specific safety actions (donning high-visibility vest, inspecting damage), and delivers practical information about when to seek professional assistance through ŠKODA Roadside Assistance. While the promotion of roadside assistance was mentioned in the global summary, this segment operationalizes it within a concrete accident context, adding substantial new instructional content about post-collision procedures."
+        }
+      },
+      "final_score": 1.5499999999999998
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1600,
+      "end_frame": 2200,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment directly addresses a key scenario in the tutorial's theme: handling a breakdown with portable emergency equipment. It shows actionable steps (retrieving warning triangle and vest) that align with safety advice, and reinforces the promoted ŠKODA Roadside Assistance by displaying the contact number. This segment is highly relevant to the tutorial's practical instructions and safety messaging, making it important for the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment directly contributes to story progression by depicting a specific main event: a breakdown scenario and the immediate safety response. It advances the tutorial's narrative from general advice to a concrete, actionable step (setting up warning equipment) within the breakdown handling process, aligning with the video's theme of addressing car issues. However, it partially reiterates the promotion of assistance services seen earlier, slightly reducing its unique progression impact."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment is visually clear and directly relevant to the tutorial theme, showing practical emergency actions like retrieving a warning triangle and reflective vest, which are highlight-worthy for safety instruction. However, it lacks striking visual diversity or dynamic elements compared to previous segments (e.g., close-ups, driving scenes, or damage inspection), being more straightforward and static in presentation, which reduces its overall visual impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a practical, procedural response to a breakdown scenario, focusing on safety preparations like retrieving a warning triangle and vest. While the situation involves a breakdown, the emotional expression is calm and instructional rather than conveying strong tension, fear, or distress. The sentiment is neutral and informative, aimed at demonstrating proper protocol, with minimal emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment introduces new procedural information about retrieving emergency equipment (warning triangle, reflective vest) for roadside safety, which is relevant to the tutorial theme. However, it partially reiterates the promotion of ŠKODA Roadside Assistance from previous segments, reducing the novelty of the content."
+        }
+      },
+      "final_score": 1.4249999999999998
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 2000,
+      "end_frame": 2600,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment directly addresses a core topic from the global summary (tire pressure problems) with practical, step-by-step instructions using portable equipment. It demonstrates a specific solution (TPMS solution bottle) that aligns with the tutorial's educational purpose and safety focus. While it doesn't cover all mentioned issues like flat tires or jump-starts, it provides actionable guidance relevant to common car maintenance, making it highly valuable for the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment demonstrates a specific technical procedure (using TPMS solution bottle) which contributes to the tutorial's educational purpose, but it represents a secondary or supplementary action rather than advancing the core narrative of handling a breakdown or emergency. While it adds practical knowledge, it does not significantly move the main story forward from the previous state of roadside assistance preparation."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment shows a specific, practical demonstration of using a TPMS solution bottle for tire pressure maintenance, which is a clear instructional action relevant to the tutorial theme. The visual includes close-up shots of the equipment (warning sticker, bottle, valve stem) and the man in high-visibility vest performing the task, making it moderately engaging and highlight-worthy as a step-by-step guide. However, it lacks high visual diversity or striking elements compared to more dynamic segments (e.g., accident scenes or trunk equipment retrieval), and the setting (roadside kneeling) is similar to previous segments, reducing novelty."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment is instructional and calm, focusing on a practical demonstration of tire pressure maintenance. There is no heightened emotional expression, tension, or strong sentiment; the tone is neutral and informative, typical of a tutorial."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces specific, actionable information about using a TPMS solution bottle for tire pressure maintenance, including a safety warning sticker and a step-by-step demonstration. This adds new instructional content not covered in previous segments, which focused on general safety, equipment retrieval, or damage inspection, thereby advancing the tutorial's practical guidance."
+        }
+      },
+      "final_score": 1.35
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 2400,
+      "end_frame": 3000,
+      "planner_score": 0.95,
+      "planner_reason": "This segment directly addresses a core tutorial objective: handling a flat tire with portable equipment. It demonstrates practical, step-by-step instructions for a common car issue, aligning perfectly with the global summary's focus on tire pressure problems and breakdown solutions. The visual demonstration of using a portable air pump provides actionable guidance that viewers can apply in real-world scenarios, making it highly valuable for the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment demonstrates a practical solution to a common car issue (flat tire) using portable equipment, which aligns with the tutorial's educational purpose. It contributes to story progression by showing a step-by-step resolution to a problem introduced earlier (tire pressure issues), moving from problem identification to hands-on repair. However, it represents a mid-level progression rather than a major narrative turning point, as it focuses on a specific technical procedure within the broader tutorial framework."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking and highlight-worthy as it depicts a critical, hands-on car maintenance procedure—inflating a flat tire with a portable air pump. The action is clear, focused, and directly relevant to the tutorial's theme of handling common car issues. The visual composition (close-up of the pump attachment, the kneeling position, the roadside setting) emphasizes practical instruction and urgency, making it a key moment in the tutorial. However, it is somewhat similar to the previous segment's tire pressure theme, slightly reducing its novelty within the immediate context."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a practical, instructional action with calm, methodical execution. The man's demeanor is focused and procedural, lacking overt emotional expression, heightened tension, or strong sentiment. The context is a tutorial, so the primary intent is informative demonstration rather than emotional engagement."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The current segment introduces a new, practical procedure for handling a flat tire using a portable air pump, which is distinct from the previous segment's focus on the TPMS solution bottle. It provides step-by-step visual instruction on a different emergency repair technique, adding substantial new instructional content to the tutorial's scope of roadside troubleshooting methods."
+        }
+      },
+      "final_score": 1.6
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 2800,
+      "end_frame": 3400,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment directly demonstrates a key step in handling a common car issue (tire inflation) using portable equipment, aligning closely with the tutorial's practical focus. It builds on previous segments about tire pressure and roadside emergencies, reinforcing the core instructional content. However, it slightly overlaps with segment 6 (using a portable air pump), reducing uniqueness but still providing clear, actionable guidance for the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "This segment contributes moderately to story progression by demonstrating a practical solution to a common car issue (tire inflation) using portable equipment, which aligns with the tutorial's educational purpose. However, it represents a continuation of similar roadside assistance demonstrations rather than introducing a new major event or advancing the narrative significantly beyond previous segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a practical demonstration of tire inflation, which is relevant to the tutorial theme, but it is visually repetitive with the previous segment (segment 6) and lacks striking or highlight-worthy elements. The action is routine, the setting is similar, and there is no significant visual diversity or dramatic appeal to make it stand out as a highlight."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment is instructional and practical, focusing on a calm, step-by-step demonstration of tire inflation. The presenter's demeanor is neutral and informative, with no heightened emotional expression, tension, or sentiment. The setting is routine and lacks dramatic elements, resulting in minimal emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment demonstrates tire inflation with a portable air compressor, which is a continuation of the tire pressure maintenance theme from the previous segments (5 and 6). While it provides a specific visual demonstration of the compressor use, the core instructional content—inflating a tire with portable equipment—has already been introduced and shown in prior segments, resulting in limited new information or semantic novelty within the tutorial's established scope."
+        }
+      },
+      "final_score": 1.25
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 3200,
+      "end_frame": 3800,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly relevant to the tutorial's core theme of handling common car issues with portable equipment. It directly demonstrates the practical application of using a portable air compressor to address tire pressure problems, which is a key topic in the global summary. While similar to previous segments (6 and 7), it adds value by showing the initial setup—retrieving the compressor from its case—which reinforces the preparation step. However, some redundancy with earlier demonstrations slightly reduces its uniqueness, though it remains important for reinforcing the tutorial's step-by-step instructions.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment shows another tire inflation demonstration, which is repetitive with previous segments (5, 6, and 7) that already covered similar tire pressure maintenance procedures. While it continues the tutorial's practical instruction theme, it does not introduce new concepts, advance the narrative, or significantly contribute to story progression beyond reinforcing previously covered material."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a routine maintenance task (tire inflation) that is visually similar to previous segments (5-7) where the same action was demonstrated. While the action is clear and instructional, it lacks visual diversity or striking elements compared to earlier segments that showed damage inspection, emergency equipment retrieval, or different tools. The composition is straightforward with a man kneeling by a car, repeating a similar visual pattern seen before, making it less highlight-worthy from a visual perspective."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a routine, instructional action with a neutral, focused demeanor typical of a tutorial. There is no visible emotional expression, heightened tension, or strong sentiment; the tone is calm and procedural."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment shows a man preparing to inflate a tire with a portable air compressor retrieved from a case. This action is highly similar to the previous two segments (6 and 7), which already demonstrated the same process of using a portable air pump/compressor to inflate a tire. While it adds a minor detail about retrieving the compressor from a case, the core informational content—demonstrating tire inflation with portable equipment—is redundant given the recent context. Therefore, it provides very little new information or semantic content."
+        }
+      },
+      "final_score": 1.125
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 3600,
+      "end_frame": 4200,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it demonstrates a core step in handling a common car issue (tire inflation) using portable equipment, aligning directly with the tutorial's practical instructions. However, it shows some repetition with previous segments (segments 5-7) that also cover tire inflation, slightly reducing its unique instructional value.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment shows a practical demonstration of using a portable air compressor to inflate a tire, which is a specific step in addressing a common car issue. However, it is a continuation of the tire inflation theme from previous segments rather than introducing new story progression or advancing the main narrative significantly. It reinforces the tutorial's instructional content but does not substantially move the story forward or introduce a new main event."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment is a straightforward demonstration of using a portable air compressor, which is relevant to the tutorial theme but lacks visual diversity or striking elements compared to previous segments. It continues the repetitive action of tire inflation without introducing new visual interest or highlight-worthy moments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a routine, instructional action of using a portable air compressor to inflate a tire. The emotional expression is neutral and focused on demonstration, with no visible tension, urgency, or strong sentiment. It maintains the tutorial's calm, procedural tone without heightened emotional cues."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment shows a man retrieving and connecting a portable air compressor, which is a continuation of the tire inflation procedure already demonstrated in previous segments (5, 6, and 7). It adds minimal new information, as the core action and equipment are repetitive within the tutorial context."
+        }
+      },
+      "final_score": 1.225
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 4000,
+      "end_frame": 4600,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment is highly relevant to the tutorial's core theme of handling car issues with portable equipment, specifically demonstrating tire inflation—a key skill for addressing flat tires and pressure problems. It reinforces step-by-step instructions and safety practices, aligning with the global summary's focus on practical solutions. However, its similarity to previous segments (4-7) slightly reduces uniqueness, though the inclusion of pressure gauge checking and verbal explanation adds instructional value.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment repeats a previously demonstrated action (using a portable air compressor to inflate a tire) with minimal variation in procedure or context. While it maintains continuity with the tutorial's theme of tire maintenance, it does not introduce new information, advance the narrative to a different problem type, or significantly build upon prior segments. It contributes to reinforcement but offers negligible progression in the main event sequence."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment is visually consistent with the tutorial theme and previous segments, showing a clear, instructional action with the air compressor. However, it lacks striking diversity or highlight-worthy novelty, as it closely resembles the content and visual composition of segments 4, 5, 6, and 7, which also feature a man in a vest inflating a tire with similar equipment. The repetition reduces its visual impact and distinctiveness as a highlight within the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment maintains the tutorial's instructional tone with minimal emotional expression. The man's actions are practical and methodical, focused on demonstrating tire inflation steps. While his speaking to the camera adds some engagement, it remains informational rather than emotionally charged. The setting (roadside) and safety vest imply caution but not strong tension or sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment shows a man using a portable air compressor to inflate a tire, which is highly similar to the actions described in previous segments 4, 5, 6, and 7. While it includes checking the pressure gauge and speaking to the camera, the core task of inflating a tire with a portable compressor has already been demonstrated multiple times in the tutorial, offering minimal new information or semantic content beyond slight variations in presentation."
+        }
+      },
+      "final_score": 1.1
+    },
+    {
+      "segment_id": 11,
+      "start_frame": 4400,
+      "end_frame": 5000,
+      "planner_score": 0.85,
+      "planner_reason": "This segment introduces a new but highly relevant car issue (jump-starting a dead battery) within the tutorial theme, expanding the scope beyond tire-related problems. It maintains the practical, step-by-step instructional format and safety focus (high-visibility vest, roadside setting) consistent with previous segments. While it repeats some visual elements (vest, kneeling, roadside), the new content adds value by covering another common emergency scenario, making it important for a comprehensive summary. The direct address to camera enhances instructional clarity, though the segment's similarity to earlier demonstrations slightly reduces its uniqueness.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment introduces a new main event—jump-starting a car with a portable battery—which advances the tutorial's progression from tire-related issues to electrical/starting problems, adding a distinct step in handling common car emergencies."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking and highlight-worthy due to the clear depiction of a common and urgent car issue (jump-starting a dead battery), which adds diversity to the tutorial by introducing a new problem beyond tire inflation. The man's distressed expression and direct engagement with the camera enhance viewer attention, and the portable battery equipment is prominently shown, making it practical and engaging. However, the setting and action (kneeling by a car) are somewhat repetitive compared to previous segments, slightly reducing uniqueness."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment shows moderate emotional expression through the man's distressed demeanor while attempting to jump-start the car, which conveys urgency and frustration. However, the overall tone remains instructional and controlled, typical of a tutorial, limiting the intensity of emotional display."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces a new car issue (jump-starting a vehicle) and a new piece of equipment (portable battery/jumper cables), which adds distinct semantic content not covered in previous segments focused on tire inflation and pressure monitoring. However, it continues the overarching theme of roadside troubleshooting, so it's not entirely novel within the tutorial context."
+        }
+      },
+      "final_score": 1.6
+    },
+    {
+      "segment_id": 12,
+      "start_frame": 4800,
+      "end_frame": 5400,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment reinforces core tutorial elements by demonstrating tire inflation with a portable device, which is central to the video's theme of handling common car issues. It includes both practical demonstration (using the inflator, checking pressure) and explanatory narration (speaking to camera), which enhances instructional value. However, since tire inflation has been shown multiple times in previous segments (segments 1-6), this repetition reduces uniqueness, though it maintains importance for reinforcing key skills and safety practices.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment shows another tire inflation demonstration, which is repetitive given the previous multiple segments on the same topic (segments 1-6). While it includes a slight progression by showing the man returning to the driver's seat and potentially offering concluding advice, it does not advance the story to a new main event or significantly develop the narrative beyond what has already been covered. The segment reinforces existing information rather than moving the tutorial forward."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment is moderately visually striking as it features direct-to-camera engagement and a clear demonstration of using a tire inflator, which adds instructional value. However, it lacks significant diversity or highlight-worthy elements compared to previous segments, as it repeats similar actions (tire inflation) and settings (roadside, safety vest) without introducing new visual or procedural variety, reducing its distinctiveness."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment maintains a calm, instructional tone typical of a tutorial, with no heightened emotional expression, tension, or sentiment. The actions are procedural and explanatory, focusing on demonstrating tire inflation and offering advice, which results in a low emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces the action of retrieving and using a tire inflator, which is a new specific tool demonstration, but it largely reiterates the previously covered theme of tire inflation using portable equipment. The direct-to-camera explanation may add minor instructional nuance, yet the core semantic content overlaps significantly with prior segments, offering limited novel information."
+        }
+      },
+      "final_score": 1.25
+    },
+    {
+      "segment_id": 13,
+      "start_frame": 5200,
+      "end_frame": 5800,
+      "planner_score": 0.3,
+      "planner_reason": "The segment reinforces a key safety and maintenance concept (tire pressure importance) that aligns with the tutorial's educational goals, but it is largely redundant with earlier practical demonstrations of tire inflation and pressure checking. While it adds theoretical context and emphasizes long-term vehicle care, the core action (checking pressure) has been visually covered multiple times in previous segments, reducing its unique contribution to the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment provides educational context about tire pressure importance rather than advancing the main story progression. While it reinforces the tutorial's theme, it doesn't introduce new equipment, demonstrate new procedures, or move the narrative forward to different car issues. The segment essentially reiterates foundational knowledge without progressing to new practical steps or scenarios beyond what was already covered in previous tire inflation demonstrations."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment is visually straightforward and lacks dynamic action or striking visuals compared to previous segments. It features a static interior shot of a man speaking in a car with close-ups of a tire and pressure gauge, which are informative but not highlight-worthy or diverse. While it reinforces the tutorial's educational content, it does not stand out as visually engaging or varied from the repetitive theme of tire maintenance demonstrations seen earlier."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment maintains the tutorial's instructional tone with minimal emotional expression. The man's explanation about tire pressure importance is factual and calm, focusing on practical information (vehicle handling, longevity) rather than evoking strong feelings. The close-up of the tire and gauge reinforces the technical focus. Compared to previous segments showing active problem-solving (flat tires, jump-starts), this segment is more informational and less tense or emotionally charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment provides new instructional content by explaining the importance of checking tire pressure, referencing a manual, and showing practical tools like a pressure gauge. It adds semantic depth to the tutorial theme, emphasizing safety and maintenance advice that wasn't explicitly covered in previous segments focused solely on the inflation process."
+        }
+      },
+      "final_score": 0.725
+    },
+    {
+      "segment_id": 14,
+      "start_frame": 5600,
+      "end_frame": 6200,
+      "planner_score": 0.85,
+      "planner_reason": "This segment provides critical safety advice that directly follows the practical demonstrations of tire inflation in previous segments. While the earlier segments showed the 'how-to' of addressing tire pressure issues, this segment delivers essential 'what-to-do-after' guidance that is crucial for viewer safety. It transitions from demonstration to actionable safety protocol, explaining the temporary nature of the fix and the need for professional follow-up. The mention of specific speed limits (50mph) and driving precautions adds concrete, memorable safety information. However, since it's primarily advisory rather than demonstrating a new procedure, it's slightly less critical than the core instructional segments showing the actual inflation process.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story by transitioning from demonstrating a specific repair action (inflating a tire) to providing critical safety instructions and next steps for the driver after addressing the issue. It introduces a new phase in the tutorial—post-repair guidance—and emphasizes the temporary nature of the fix, thereby driving the narrative toward professional follow-up and reinforcing the video's educational and safety-focused progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment lacks visual striking elements, diversity, or highlight-worthy content as it primarily consists of textual safety advice without dynamic or engaging visuals. Compared to previous segments featuring hands-on demonstrations with equipment like air compressors and jump-start kits, this segment is static and informational, reducing its visual appeal and memorability within the tutorial context."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment conveys a sense of urgency and caution regarding a tire pressure issue, but the emotional expression is relatively mild. The tension arises from the need for immediate action and safety precautions, yet it is presented in an instructional, advisory tone typical of a tutorial. There is no heightened drama, distress, or strong sentiment; instead, the focus is on procedural guidance and temporary measures."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "This segment introduces new and important safety information that was not present in previous segments. While previous segments focused on the mechanical process of inflating tires and jump-starting cars, this segment provides specific driving instructions for when a tire pressure issue is detected but not yet resolved. It adds critical safety guidance about speed limits (50mph), gentle acceleration/braking/cornering, and emphasizes the temporary nature of this solution requiring professional attention. This represents substantial new semantic content in the tutorial context."
+        }
+      },
+      "final_score": 1.4
+    },
+    {
+      "segment_id": 15,
+      "start_frame": 6000,
+      "end_frame": 6600,
+      "planner_score": 0.35,
+      "planner_reason": "The current segment shows a distressed driver, which aligns with the tutorial's theme of addressing car issues and safety advice. However, it lacks direct instructional value compared to previous segments that demonstrated specific procedures (e.g., inflating tires, jump-starting). While it may emphasize the emotional or safety aspect of dealing with car problems, it is less critical for a step-by-step summary focused on actionable guidance. The segment serves more as a transitional or contextual moment rather than a core instructional component.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a distressed driver, which may hint at a problem or emotional state, but it lacks explicit progression of the tutorial's main events—such as demonstrating a repair step, safety advice, or solution application. It serves more as a situational setup rather than advancing the instructional narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows a distressed driver speaking anxiously while driving, which adds some emotional weight and highlights a potential safety concern. However, within the tutorial context, it is less visually striking or diverse compared to hands-on repair demonstrations. The scene is relatively static (driver in car) and lacks the dynamic, instructive visuals of equipment use or step-by-step procedures seen in prior segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment depicts a man driving with visible distress and an anxious expression, which conveys a clear emotional state of concern or tension. This is stronger than the neutral, instructional tone of most previous segments, but it is not extreme or highly dramatic, as it likely relates to a car issue being discussed rather than an intense crisis."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment shows a distressed driver, which introduces a new emotional context (anxiety) and a shift to an in-car perspective, but it provides minimal new instructional or semantic content regarding car issue handling compared to previous detailed demonstrations of tire inflation and jump-starting. It reinforces the theme of dealing with car problems but adds little concrete information."
+        }
+      },
+      "final_score": 0.7
+    },
+    {
+      "segment_id": 16,
+      "start_frame": 6400,
+      "end_frame": 7000,
+      "planner_score": 0.85,
+      "planner_reason": "This segment serves as a critical conclusion and call-to-action for the tutorial, directly addressing viewer uncertainty and providing essential support information. It transitions from practical demonstrations to actionable next steps by advising viewers to contact ŠKODA Roadside Assistance if unsure about using the emergency kit, and offering a purchase option for the spare wheel and kit. This reinforces safety, ensures accessibility for all skill levels, and aligns with the video's promotional and instructional goals. While slightly less visually instructive than hands-on segments, its informational value for viewer support and resource access is high.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily provides customer support information and purchasing options rather than advancing the tutorial's instructional narrative. While it transitions from the practical demonstration to concluding advice, it does not introduce new steps, techniques, or safety measures related to handling car issues, thus contributing minimally to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is not visually striking or highlight-worthy as it primarily features a static shot of a man speaking in a car, followed by text screens, lacking dynamic action, diverse visuals, or engaging content compared to previous segments with hands-on demonstrations like tire inflation or jump-starting. It serves an informational purpose but is visually repetitive and less engaging."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment primarily consists of informational text screens and a calm, instructional delivery from the speaker in the car. While there is a slight sense of urgency conveyed through the advice to contact assistance if unsure, the overall emotional expression is minimal, focused on providing support information rather than evoking strong feelings. The tone remains practical and reassuring, typical of tutorial content, with no heightened tension or sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment provides moderate new information by transitioning from practical demonstrations to customer support resources. While the visual of a man speaking in a car continues the tutorial format seen previously, the text screens introduce specific actionable information: contact details for ŠKODA Roadside Assistance (RAC) and purchasing options for spare wheels/kits. This adds new semantic content about support channels and product acquisition, which wasn't covered in prior segments focused on equipment usage and safety procedures. However, the core instructional content about handling car issues remains similar to previous segments."
+        }
+      },
+      "final_score": 1.15
+    },
+    {
+      "segment_id": 17,
+      "start_frame": 6800,
+      "end_frame": 7210,
+      "planner_score": 0.3,
+      "planner_reason": "While this segment provides important contact information and support options for ŠKODA customers, it serves more as promotional/administrative content rather than core instructional material. The tutorial's primary value lies in demonstrating practical skills (tire inflation, jump-starting) and safety procedures. This segment repeats information already mentioned in segment 7 about contacting RAC assistance, making it somewhat redundant. However, it does offer concrete contact details (website, phone numbers) that could be useful for viewers needing immediate help, which justifies a low-to-moderate importance score for completeness.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment primarily provides contact and support information rather than advancing the tutorial's step-by-step instructions or demonstrating a new car issue resolution. While it ties into the overall theme by promoting ŠKODA assistance, it does not introduce new procedural content or safety advice, making its contribution to story progression minimal."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is primarily informational text and contact details with minimal visual dynamism, lacking the striking or highlight-worthy qualities seen in earlier segments with hands-on demonstrations, close-ups, or safety actions. It serves a practical purpose but is visually static and repetitive in content compared to the tutorial's core instructional footage."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment is purely informational, providing contact details and support options without any emotional expression, tension, or sentiment. It lacks the distress, urgency, or personal engagement seen in earlier segments, resulting in minimal emotional strength."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment provides some new information by explicitly stating contact details (Skoda UK website, roadside assistance phone number, customer services number) and clarifying the purchase process for spare wheels/kits. However, the core message about contacting RAC for assistance when unsure was already introduced in segment 7. The segment primarily reinforces existing support information rather than introducing substantial new instructional or semantic content, resulting in moderate informational value."
+        }
+      },
+      "final_score": 0.575
+    }
+  ]
+}

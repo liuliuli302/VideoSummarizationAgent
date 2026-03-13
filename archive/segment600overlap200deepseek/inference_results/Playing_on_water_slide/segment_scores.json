@@ -1,0 +1,245 @@
+{
+  "video_id": "Playing_on_water_slide",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 600,
+      "planner_score": 0.95,
+      "planner_reason": "The current segment directly introduces the main activity and setting of the video—children playing on a large inflatable water slide in a sunny backyard. It establishes the key visual elements (blue and yellow slide, splash pool, multiple children) and the core action (climbing, sliding, splashing), which aligns perfectly with the global summary. As the first described segment, it provides essential context and sets the scene for the entire video, making it highly important for a coherent summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment introduces a new character (the shirtless boy) joining the ongoing activity, which advances the story by showing participation and interaction within the main event of children playing on the water slide, contributing directly to the progression of the scene."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment shows the main activity of children playing on a colorful water slide, which is visually engaging and captures the essence of the video theme. However, it lacks particularly striking or diverse visual elements beyond the expected scene, with no unique angles, dramatic moments, or standout highlights that would elevate it to a higher score."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment depicts joyful, active play with children engaging in water activities, which conveys positive emotions like happiness and excitement. However, the emotional intensity is moderate as it lacks extreme expressions, dramatic tension, or heightened sentiment beyond typical playful interaction."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment largely reiterates the global summary, describing children playing on the water slide and splashing in the pool. It adds minor details like the boy being shirtless and wearing blue shorts, but overall provides little new information or semantic content beyond what is already summarized."
+        }
+      },
+      "final_score": 1.525
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 400,
+      "end_frame": 1000,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment is highly important as it directly captures the core activity described in the global summary—children sliding down the inflatable water slide into the pool. While it is somewhat repetitive with the previous segment (which already established the setting and activity), it reinforces the main action and energy of the scene, includes additional detail (children waiting their turn), and is central to the 'general' theme of playful outdoor activity. It is not redundant enough to lower importance significantly, but not novel enough to score near maximum.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment reiterates the core activity of sliding and playing, but does not introduce new narrative elements, characters, or significant developments beyond the established scene."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment depicts children actively engaged in play on a visually striking, colorful inflatable water slide. The scene includes dynamic action (sliding, climbing, waiting) and captures the energetic, highlight-worthy nature of outdoor water play. The vibrant colors and varied activities contribute to strong visual appeal, though it's not an extreme or unique event."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment depicts children actively playing on a water slide, which conveys joy and excitement through their actions and the vibrant setting. However, the emotional intensity is moderate as it lacks extreme expressions of emotion, high tension, or strong sentiment beyond general playful enjoyment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides minimal new information compared to the global summary and previous segment. It reiterates the same actions (playing, sliding, climbing) and setting (large colorful inflatable slide into a pool) without introducing new characters, objects, or distinct activities. The mention of 'others waiting their turn' is a slight nuance but does not significantly expand the semantic content."
+        }
+      },
+      "final_score": 1.3624999999999998
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 800,
+      "end_frame": 1400,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment shows the same core activity (children playing on a water slide) as described in the global summary and previous segments, but it does not introduce new significant actions, perspectives, or narrative progression. It reinforces the established scene but adds minimal unique information for a summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment continues the established activity of children playing on the water slide, but it does not introduce a new main event, significant change in action, or narrative development beyond what was described in the previous segments and global summary. It reinforces the ongoing play but does not advance the story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the vibrant, multi-lane inflatable water slide and continuous action of children sliding and splashing, which is highlight-worthy as it captures the energetic and joyful essence of the activity. However, it is somewhat similar to previous segments in theme and setting, slightly reducing its uniqueness."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts high-energy, joyful play with continuous action (climbing, sliding, splashing) and vibrant visuals, conveying strong positive emotions like excitement and fun, though it lacks intense dramatic tension or negative sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment largely reiterates the established scene of children playing on an inflatable water slide, with no new actions, details, or narrative progression introduced beyond the global summary and previous segments."
+        }
+      },
+      "final_score": 0.875
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1200,
+      "end_frame": 1800,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment shows similar content to previous segments (children climbing, sliding, splashing on the water slide) without introducing new activities, perspectives, or key moments. While it maintains the joyful atmosphere and general theme of children playing, it provides redundant visual information for a summary. In a general video summary, this segment would likely be omitted or heavily trimmed to avoid repetition, focusing instead on segments that show different angles, new participants, or distinct interactions.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The current segment describes the same core activity (climbing, sliding, splashing) as previous segments and the global summary, without introducing new events, characters, or significant changes in the narrative. It maintains the established scene but does not advance the story or main events beyond repetition of the ongoing play."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking due to the vibrant colors of the inflatable slide and the dynamic action of children climbing, sliding, and splashing, which creates energetic and highlight-worthy moments. However, it lacks significant diversity compared to previous segments, as it repeats similar activities and settings, slightly reducing its uniqueness."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts children engaging in active, joyful play on a water slide, with clear expressions of happiness and excitement through splashing and sliding. The consistent sunny setting and group activity enhance the positive sentiment, though the emotional intensity is slightly moderated by the orderly waiting and lack of extreme reactions."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment caption describes the same core activity (children climbing, sliding, splashing) and setting (grassy yard with a colorful inflatable slide) as the global summary and previous segments. It introduces no new information, instruction, or distinct semantic content beyond reiterating the established scene."
+        }
+      },
+      "final_score": 0.8375000000000001
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1600,
+      "end_frame": 2200,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment continues the established pattern of children playing on the water slide, which is already well-represented in the global summary and previous segments. While it maintains the joyful summer recreation theme, it does not introduce new activities, perspectives, or significant narrative developments that would elevate its importance for a concise final summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment continues the established pattern of children playing on the water slide without introducing new narrative progression, character development, or significant plot advancement. It maintains the same joyful summer activity theme but does not move the story forward beyond what has already been established in previous segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking due to the vibrant, multi-lane inflatable water slide and energetic action of children climbing and sliding, creating a lively summer scene. However, it lacks significant diversity compared to previous segments, which also depict similar activities, reducing its uniqueness as a highlight."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.8,
+          "reason": "The segment depicts energetic and joyful play with children actively climbing and sliding, which conveys strong positive emotions typical of summer recreation. However, it lacks extreme emotional peaks or heightened tension, keeping it within a consistently lively but not intense emotional range."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment describes children climbing and sliding down a colorful, multi-lane inflatable water slide in a lively summer scene, which is highly consistent with the global summary and previous segments. It introduces no new actions, settings, or semantic details beyond what has already been established, offering minimal new information."
+        }
+      },
+      "final_score": 0.775
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 2000,
+      "end_frame": 2600,
+      "planner_score": 0.2,
+      "planner_reason": "The current segment shows children climbing and sliding down the inflatable water slide, which is consistent with the global summary and previous segments. However, this action has been repeatedly depicted in prior segments (0, 1, 2, 3, and 4), making it highly redundant. The segment does not introduce new activities, perspectives, or significant variations beyond what has already been covered. Therefore, while it maintains the theme of joyful play, its importance for the final summary is low due to substantial overlap with existing content.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment continues the established activity of children playing on the water slide, but introduces no new narrative events, character development, or progression of the main event beyond what has been consistently shown in previous segments. The camera movement (following the descent) adds minor visual variety but does not advance the story. The scene remains repetitive within the overall sequence of play."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment is visually engaging with dynamic camera movement following the slide descent, enhancing the sense of action and joy. However, it largely repeats the established visual elements (colorful slide, sunny setting, children playing) seen in previous segments, limiting its diversity and highlight-worthy uniqueness compared to the overall video context."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.8,
+          "reason": "The segment depicts children engaging in active, joyful play on a water slide, with the camera following their descent to emphasize excitement and fun. While the emotional expression is consistently positive and energetic, it aligns with the established joyful theme without introducing new peaks of tension or sentiment beyond the ongoing lively recreation."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment reiterates the core activity of children climbing and sliding down the inflatable water slide into the splash pool, which has been consistently described in all previous segments. It introduces no new actions, settings, or details beyond the established scene, offering minimal incremental information."
+        }
+      },
+      "final_score": 0.7
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 2400,
+      "end_frame": 3000,
+      "planner_score": 0.6,
+      "planner_reason": "The current segment continues the established theme of children enjoying the water slide, which is consistent with the global summary. However, it introduces a minor novel detail—the temporary sloth tattoo on one boy's chest—which adds a touch of personalization and character but does not significantly alter the core narrative or activity. Given the repetitive nature of the previous segments, this segment maintains moderate importance by reinforcing the joyful, playful atmosphere while offering a slight visual variation.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment introduces a minor new detail (a temporary sloth tattoo on a boy's chest) but does not advance the overall story or main event progression beyond the established repetitive activity of children playing on the slide. It maintains the ongoing scene without introducing significant narrative development or altering the core event sequence."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment maintains the visually striking and lively activity of children on a colorful water slide, which is consistent with previous segments. However, it introduces a unique detail—a temporary sloth tattoo on a boy's chest—which adds a minor highlight-worthy element not seen before. While this adds some diversity, the overall scene remains similar in composition and energy to prior segments, limiting its standout visual impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment maintains the joyful, energetic atmosphere consistent with previous segments through active play on the water slide. The specific detail of a boy emerging and smiling with a temporary sloth tattoo adds a personal, charming element that enhances positive emotional expression. However, while the scene is clearly happy and playful, it doesn't reach peak emotional intensity compared to more dramatic or highly expressive content, keeping it in the upper-moderate range."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment continues the established theme of children playing on an inflatable water slide, which is consistent with previous segments and the global summary. However, it introduces a minor new detail: a boy emerging and smiling with a temporary sloth tattoo on his chest. This adds a small, specific visual element not mentioned before, but it does not significantly alter the overall semantic content or provide substantial new information about the activity or setting."
+        }
+      },
+      "final_score": 1.075
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 2800,
+      "end_frame": 3065,
+      "planner_score": 0.4,
+      "planner_reason": "The segment introduces a specific character detail (the sloth tattoo) and a close-up, personal moment with a smiling boy approaching the camera, which adds a touch of individual personality and playful interaction. However, it does not advance the core narrative or action of children playing on the slide, which is the main focus of the global summary. Given the 'general' theme and the repetitive nature of previous segments showing similar slide activity, this moment offers mild variety but is not essential to summarizing the overall scene.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment focuses on a single boy's playful interaction with the camera after exiting the slide, which is a minor character moment rather than advancing the main event of collective play on the water slide. It adds a personal, playful detail but does not significantly contribute to the overarching story progression of children enjoying the slide activity."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment stands out as visually striking and highlight-worthy due to its intimate, character-focused framing. Unlike previous segments showing repetitive sliding action, this shot features a close-up of a specific child with distinctive visual elements: wet hair, a cartoon sloth tattoo on his chest, and playful interaction with the camera as he covers his face while smiling. The direct approach toward the camera creates engagement, and the tattoo adds unique visual interest. While the setting remains consistent with previous segments, the personal focus and emotional expression make this moment more memorable and diverse within the overall sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment shows a clear positive emotional expression through the boy's smiling and playful gesture of covering his face, which conveys joy and lightheartedness. However, the emotional intensity is moderate rather than strong, as it lacks the high-energy excitement, loud laughter, or dramatic interactions seen in more emotionally charged segments of water play. The personal moment with the boy approaching the camera creates a connection, but it's more intimate than intensely emotional."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment introduces a minor new detail—the boy's playful gesture of covering his face with his hand—and confirms the sloth tattoo mentioned in the previous segment. However, it largely reiterates existing information about the setting and activity, adding minimal new semantic content to the overall narrative."
+        }
+      },
+      "final_score": 0.875
+    }
+  ]
+}

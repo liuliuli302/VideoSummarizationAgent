@@ -1,0 +1,305 @@
+{
+  "video_id": "Se3oxnaPsz0",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 600,
+      "planner_score": 0.95,
+      "planner_reason": "This segment establishes the core breaking news event (meteor impacts and structural damage) that initiates the entire interconnected story chain. It introduces the primary anchor and provides the first visual evidence of the incident, setting the narrative foundation for all subsequent reports. As the opening segment, it contains essential context about the initial event that later connects to the pig discovery, bee swarm, and pest control operations.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly contributes to story progression by introducing the main event—meteor impacts causing structural damage—and establishing the news broadcast's narrative framework. It transitions from a dramatic graphic to on-the-ground reporting, setting up the core incident that drives subsequent developments in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment contains visually striking elements including dramatic graphics of falling meteors, footage of a meteor impact, debris, and a damaged wooden structure. The transition from studio anchor to field reporter inside the damaged building adds visual diversity and creates a sense of immersion. However, while visually engaging, it follows standard news broadcast conventions and doesn't reach the highest level of visual innovation or cinematic quality that would warrant a higher score."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment features dramatic visuals of meteor impacts and structural damage, along with a news anchor presenting the story, which conveys a sense of urgency and tension. However, the emotional expression is primarily tied to the reporting style rather than deeply personal or intense sentiment, leading to a moderate score."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces new information by detailing the meteor impact event, including visual elements (falling meteors graphic, debris, damaged structure) and the presence of an anchor and field reporter, which sets up the breaking news context not previously summarized in the global summary. However, it does not yet cover the later elements like the pig, bee swarm, or pest control, so it provides substantial but not complete new content relative to the full story."
+        }
+      },
+      "final_score": 1.7249999999999999
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 400,
+      "end_frame": 1000,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment is highly important as it provides the first live, on-scene reporting from the damaged location, directly following the initial breaking news graphic. It establishes the severity of the structural damage through visual evidence (large hole, debris, exposed beams) and conveys urgency through the reporter's expressions and gestures. This segment transitions the story from abstract 'meteor impact' graphics to concrete, human-scale reporting, setting the stage for the subsequent bizarre discoveries (white pig, bee swarm) that follow in the global summary. While not the most unusual element of the overall story, it is crucial for grounding the narrative in a tangible event and maintaining viewer engagement through live reporting.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment directly advances the story by providing a live, on-site report from the damaged structure, confirming the meteor impact's consequences and adding urgency through the reporter's alarmed demeanor. It transitions the narrative from introductory graphics to tangible, immediate damage assessment, pushing the main event progression forward."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the dramatic setting inside a severely damaged structure with a large hole in the ceiling exposing wooden beams and debris. The reporter's alarmed expressions and urgent gestures enhance the sense of crisis, making it highlight-worthy as it captures the immediate aftermath of a disaster. The live reporting graphic adds to the urgency and newsworthiness of the scene."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment features strong emotional expression through the reporter's alarmed and urgent demeanor, gestures, and live reporting from a damaged site with visible structural destruction, conveying a sense of crisis and immediacy, though it lacks extreme personal distress or intense dramatic tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment provides minimal new information beyond reinforcing the setting and urgency already established in the global summary and previous segment. It confirms the reporter's location and the structural damage but does not introduce new events, characters, or developments like the pig, bee swarm, or farmer interview mentioned in the broader narrative."
+        }
+      },
+      "final_score": 1.5
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 800,
+      "end_frame": 1400,
+      "planner_score": 0.75,
+      "planner_reason": "The segment introduces a new, visually striking element (the large white pig) within the decaying building, which adds an unexpected and memorable twist to the ongoing news coverage of unusual events. It contributes to the 'interconnected events' narrative by expanding the scene beyond structural damage, potentially linking to later agricultural or pest control themes. However, its direct relevance to the core 'meteor impact' story is moderate, as it shifts focus to a localized, bizarre discovery.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment introduces a new element (the large white pig) that adds an unexpected twist to the story, but it primarily serves as scene-setting rather than advancing the core narrative progression. While it connects to the theme of unusual discoveries following the meteor impacts, the segment doesn't significantly move the main story forward—it establishes a location and introduces a peculiar detail that will likely become relevant later, but the progression itself is minimal in this segment."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the stark contrast between the decaying, poorly lit interior with structural damage and the unexpected presence of a large white pig moving through the scene. The panning shot effectively reveals the scale of decay while introducing the surprising element of the pig, creating a highlight-worthy moment that combines disaster imagery with an unusual, almost surreal living element. The interaction between a person and the pig adds a brief but memorable human-animal dynamic to the otherwise desolate setting."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment conveys moderate emotional tension through the juxtaposition of a decaying, damaged environment with the unexpected presence of a large white pig, creating a sense of unease and curiosity. However, the reporter's delivery and overall sentiment are not overtly intense, lacking the high drama or urgency seen in prior segments about meteor impacts, which limits the emotional strength."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces a new, unexpected element (the large white pig) and shifts the focus from meteor impacts to a bizarre discovery within the damaged building, adding significant new semantic content and advancing the narrative."
+        }
+      },
+      "final_score": 1.4125
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1200,
+      "end_frame": 1800,
+      "planner_score": 0.85,
+      "planner_reason": "This segment introduces the central bizarre element (the large white pig) that becomes a key narrative thread connecting multiple events in the global summary. It provides visual evidence of the unusual discovery mentioned in the summary, establishes the pig's location in a decaying building, and includes interviews that add context. While not the opening or concluding segment, it serves as a crucial pivot point from meteor damage reports to the interconnected agricultural/pest control narrative that follows.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "This segment introduces a new, bizarre element (the pig) that adds a twist to the ongoing news coverage, but it primarily serves as a discovery or detail within the broader story rather than driving the main event progression significantly forward. It connects to the theme of unusual events but does not advance the core narrative of meteor impacts or bee swarms in a substantial way."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the stark contrast between the large, white pig and the dark, decaying environment, creating a surreal and highlight-worthy scene. The inclusion of interviews adds narrative depth, though the confined setting limits visual diversity."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment conveys a moderate level of emotional expression and sentiment through its depiction of a bizarre and unsettling discovery in a decaying, confined space. The presence of the large white pig in such an environment evokes curiosity and mild unease, while interviews with individuals likely add personal reactions or commentary, enhancing the segment's emotional depth. However, the emotional intensity is not as high as segments with more dramatic events or urgent reporting, resulting in a score that reflects a noticeable but not overwhelming emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces the specific discovery of a large white pig in a decaying structure, which is a new visual element and narrative detail not explicitly described in previous segments. However, the global summary already mentions this discovery, and the segment's content largely aligns with the established context of unusual events and structural damage, offering limited additional semantic depth or progression beyond confirming and visually depicting the pig's presence and the setting."
+        }
+      },
+      "final_score": 1.45
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1600,
+      "end_frame": 2200,
+      "planner_score": 0.4,
+      "planner_reason": "This segment introduces a new character (farmer Jane Hewitt) and shifts focus to an agricultural issue, which appears to be a tangent from the core narrative of meteor impacts, structural damage, and the bizarre pig discovery. While it may connect to the broader story (potentially explaining the pig's origin or linking to agricultural themes), it lacks the urgency and direct connection to the main developing story. The segment serves as contextual expansion rather than critical plot progression, making it moderately important for completeness but not essential to the core summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment introduces a new character (farmer Jane Hewitt) and shifts focus to an agricultural issue, which may connect to the broader narrative (e.g., potential link to the pig or environmental events). However, it does not directly advance the core story progression of meteor impacts, structural damage, or the bee swarm incident. It adds context but minimal plot momentum, serving more as a thematic expansion than a key event development."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment is visually straightforward, focusing on a farmer speaking outdoors and a close-up of grain/seed material. While it provides relevant agricultural context, it lacks the striking visuals, diversity, or highlight-worthy elements seen in previous segments (e.g., meteor impacts, structural damage, a large pig in a decaying building). The imagery is functional but not particularly engaging or unusual compared to the broader video theme of bizarre events."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment features a farmer speaking calmly outdoors about an agricultural topic, with indoor commentary and a close-up of grain. While it conveys a sense of importance or concern related to farming, the emotional expression is subdued and informational, lacking the urgency, tension, or strong sentiment seen in earlier segments (e.g., meteor impacts, structural damage, or bizarre discoveries). The tone is relatively neutral and explanatory."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment introduces a new character (farmer Jane Hewitt) and a distinct agricultural context involving grain or seed, which is a shift from the prior focus on meteor damage, structural decay, and the pig discovery. However, it does not yet integrate this agricultural element with the ongoing narrative of unusual events (meteors, pig, bees), so while it provides new semantic content, its connection to the broader story remains unclear, limiting its informational novelty."
+        }
+      },
+      "final_score": 0.8
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 2000,
+      "end_frame": 2600,
+      "planner_score": 0.85,
+      "planner_reason": "This segment introduces a new major incident (bee swarm) that becomes a central component of the overall story, connecting the agricultural theme from Jane Hewitt's earlier appearance to a new expert (Reed Booth) and expanding the scope of unusual events. It provides critical visual evidence (aerial shot of large bee swarm) and professional expertise that elevates the narrative from isolated oddities to interconnected community issues requiring specialized intervention. The segment advances the story meaningfully by adding another layer of complexity to the 'unusual events' theme while maintaining narrative cohesion through recurring characters and thematic links.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "The segment significantly advances the story by introducing a new major event—the bee swarm incident—and connecting it to the broader narrative. It features key interviews with the farmer (Jane Hewitt) and a professional beekeeper (Reed Booth), providing expert insight and personal testimony that deepen the plot. The aerial shot of the bee swarm visually confirms the scale of the event, adding urgency and progression. While it shifts focus from the earlier pig discovery, it ties into the agricultural theme and sets up subsequent pest control operations, making it a pivotal development in the unfolding news story."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.75,
+          "reason": "The segment contains visually striking elements such as the aerial shot of a large bee swarm, which is highlight-worthy due to its scale and unusual nature. The beekeeper in full protective gear adds a dramatic and diverse visual component. However, the indoor interview portions are less visually dynamic, slightly reducing the overall impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment features interviews and footage of a bee swarm incident, which inherently carries moderate tension and concern, especially with the involvement of a professional beekeeper in protective gear. However, the emotional expression is somewhat restrained, typical of a factual news report, with no extreme displays of fear or urgency, keeping the emotional intensity at a moderate level."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.85,
+          "reason": "The segment introduces a new incident (bee swarm) and a new expert (professional beekeeper Reed Booth), adding significant new information about pest control and agricultural issues beyond the previously established meteor damage and pig discovery. It expands the narrative scope with actionable content (beekeeper intervention) and visual evidence (aerial swarm shot), though it partially reuses the farmer Jane Hewitt from earlier context."
+        }
+      },
+      "final_score": 1.625
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 2400,
+      "end_frame": 3000,
+      "planner_score": 0.75,
+      "planner_reason": "This segment provides expert commentary and visual demonstration from Reed Booth, a key figure in the bee swarm incident, which is a significant part of the interconnected narrative. It adds depth and action to the story, showing the resolution of a major event, making it important for a coherent summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment significantly advances the main event progression by focusing on the professional beekeeper, Reed Booth, actively addressing the bee swarm incident. It moves beyond initial reports and interviews to show concrete action—bee removal—which is a key development in the ongoing story. However, it does not introduce a new major event or resolve the broader narrative, keeping the score below the highest tier."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.75,
+          "reason": "The segment features visually compelling elements such as close-up shots of a large bee swarm and hive, a person in full protective gear entering a structure, and an expert in a natural setting. These visuals are striking and highlight-worthy, capturing the intensity and professional handling of a bee swarm incident, which adds dynamic and engaging content to the news report."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment features a professional beekeeper providing commentary, which carries a moderate level of urgency and concern typical for handling bee swarms. The visuals of a large bee swarm and hive add a sense of tension and potential danger, but the overall tone is controlled and informative rather than highly emotional or dramatic."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment introduces Reed Booth as an expert beekeeper and shows him actively handling a bee swarm, which adds new procedural and expert commentary information. However, the bee swarm topic was already introduced in previous segments, so while it provides new details like the hive and removal demonstration, it is not entirely novel within the broader narrative."
+        }
+      },
+      "final_score": 1.4500000000000002
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 2800,
+      "end_frame": 3400,
+      "planner_score": 0.85,
+      "planner_reason": "This segment serves as a critical resolution point in the narrative, directly connecting the two main unusual events (pig discovery and bee swarm) through a coordinated pest control operation. It provides visual confirmation of the intervention, shows the pig's relocation to a proper enclosure, and demonstrates the professional handling of both pests. While not introducing new major plot elements, it delivers closure to the developing story and ties together previously separate threads, making it highly important for a coherent summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "This segment contributes significantly to story progression by depicting the pest control operation that addresses two key elements from earlier segments: the bee swarm and the pig. It shows the hazmat-suited worker actively dealing with the infestation, then interacting with the pig, suggesting a coordinated response to the interconnected events. The final shot of the pig in an enclosure implies a resolution or containment, advancing the narrative toward a conclusion. However, it does not introduce new major events, so the score reflects high progression within the established storyline."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment contains visually distinct elements like a person in a hazmat suit, close-ups of infestation, and a pig in an enclosure, which are striking and highlight-worthy within the context of a pest control operation. However, it lacks the dramatic impact or novelty of earlier segments featuring meteor damage or a large pig in a decaying building, making it moderately but not exceptionally visually compelling."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment conveys a moderate level of tension and professional urgency through the hazmat-suited worker and infested interior, but lacks strong emotional expression or dramatic sentiment. The tone is more procedural and observational, focusing on pest control operations rather than heightened emotional content."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment provides some new visual details about the pest control operation (hazmat-suited worker, infested interior, damaged roofline, pig in enclosure) but largely continues the established narrative of bee/pest removal and the pig's situation without introducing significant new information, characters, or developments beyond what was already implied or described in previous segments."
+        }
+      },
+      "final_score": 1.3875
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 3200,
+      "end_frame": 3800,
+      "planner_score": 0.85,
+      "planner_reason": "This segment serves as a crucial resolution to multiple narrative threads established throughout the broadcast. It directly addresses the fate of the mysterious white pig first discovered in the decaying building, showing its capture and containment—a key element of the 'unusual and interconnected events' described in the global summary. The segment also visually ties together the pest control operations (bees and pig) and likely includes commentary from involved parties, providing closure to the developing story. While not the final graphic or anchor wrap-up, it represents a significant narrative payoff that directly impacts the summary's completeness and viewer understanding.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment significantly advances the story by showing the resolution of the pig-related subplot introduced earlier. It transitions from discovery and investigation to active intervention, depicting pest control personnel chasing and containing the pig, which represents concrete progression toward resolving the unusual situation. The segment also provides closure by showing the pig secured in an enclosure and includes authoritative commentary that likely explains the outcome. While it doesn't introduce entirely new story elements, it meaningfully progresses an established narrative thread toward conclusion."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment contains moderately striking visual elements, particularly the dynamic chase scene of a person in yellow overalls pursuing a large white pig across a dirt yard, which provides action and movement. The close-up shots of the pig's face add character and detail. However, the segment begins with a blurry shot and includes standard talking-head interviews, which reduce overall visual impact. While the pig chase is highlight-worthy within the context of this unusual news story, it lacks the dramatic scale or novelty of earlier segments like the meteor impact or massive bee swarm. The visual diversity is moderate, shifting between outdoor action, enclosure shots, and interviews."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment features dynamic action with a chase scene, close-ups of the pig's face, and direct commentary, creating moderate emotional engagement through humor, urgency, and personal expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.85,
+          "reason": "The segment introduces new visual and procedural information: it shows the active capture/chase of the pig (a new action not previously depicted), provides a clearer outdoor context for the pig's containment, and introduces a new speaker (woman in blue polo) offering likely commentary. While the pig and some settings are familiar from previous segments, the specific chase sequence, the pig's enclosure details, and the new human commentator add substantial new narrative and visual content to the ongoing story."
+        }
+      },
+      "final_score": 1.6125
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 3600,
+      "end_frame": 4166,
+      "planner_score": 0.65,
+      "planner_reason": "The segment serves as a concluding update and thematic anchor, tying the pig discovery back to the agricultural context and confirming the story's ongoing nature. While it provides closure and reinforces the 'unusual events' theme, it is less critical than segments introducing key discoveries (pig, bees) or expert interviews. Its importance lies in narrative structure rather than new information.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily recaps the pig discovery and provides a concluding update with a 'DEVELOPING STORY' graphic, but it does not introduce new main events, resolve existing plotlines, or significantly advance the overarching narrative beyond signaling ongoing coverage."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment is visually straightforward and lacks striking or diverse imagery compared to previous segments. It opens with a close-up of a pig, which is not particularly highlight-worthy given the pig has been featured prominently in earlier segments. The reporter speaking in a barn/shed setting is standard for news reporting and does not introduce new visual interest. The 'DEVELOPING STORY' graphic is a routine production element. While it serves a narrative purpose by indicating ongoing coverage, it does not add visual diversity or striking content. The segment is functional but unremarkable visually, especially following more dynamic segments like bee swarm removal and structural damage."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.35,
+          "reason": "The segment contains a close-up of a pig and a reporter speaking in a barn-like setting, which conveys a mild sense of curiosity or ongoing investigation, but lacks strong emotional cues such as urgency, alarm, or intense sentiment. The reporter's delivery appears informational rather than emotionally charged, and the 'DEVELOPING STORY' graphic suggests continuity rather than heightened tension. Compared to earlier segments with more dramatic visuals (structural damage, bee swarms), this segment is relatively calm and procedural."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment provides minimal new information compared to previous segments. While it introduces a female reporter speaking in a barn/shed setting, the core elements (pig, agricultural setting, 'DEVELOPING STORY' status) have already been established in previous segments (especially segments 1, 2, 7, and the global summary). The reporter's commentary likely provides minor contextual updates rather than substantial new semantic content, making this segment largely confirmatory rather than informative."
+        }
+      },
+      "final_score": 0.9625
+    }
+  ]
+}
