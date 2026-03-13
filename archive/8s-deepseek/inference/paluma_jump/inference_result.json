@@ -1,0 +1,709 @@
+{
+  "video_id": "paluma_jump",
+  "video_info": {
+    "video_id": "paluma_jump",
+    "video_path": "/root/autodl-tmp/datasets/SumMe/videos/paluma_jump.mp4",
+    "fps": 29.97002997002997,
+    "total_frames": 2574
+  },
+  "planner_plan": {
+    "video_theme": "landscape",
+    "global_summary": "A group of people spend a leisurely day at a scenic natural swimming spot beneath a weathered stone arch bridge in a lush forest. They swim, stand on rocks, and take turns jumping or diving from a rocky ledge into the pool below a small waterfall, capturing a sense of adventure and tranquility in a secluded outdoor setting.",
+    "expert_weights": {
+      "story_agent": 0.25,
+      "visual_agent": 0.25,
+      "emotion_agent": 0.25,
+      "information_agent": 0.25
+    },
+    "reason": "The captions consistently emphasize the natural setting—stone arch bridge, lush forest, rocky waterfall, and secluded pool—making 'landscape' the most fitting theme. The summary synthesizes repeated elements: group leisure, swimming, jumping/diving, and the picturesque environment. Expert weights prioritize nature_scene_detector due to strong focus on landscape features, human_activity_analyzer for swimming/jumping actions, mood_atmosphere_evaluator for the tranquil/adventurous tone, and composition_analyzer for visual framing like bridge and rock formations."
+  },
+  "captions": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 321,
+      "caption_frame_indices": [
+        0,
+        107,
+        213,
+        320
+      ],
+      "caption": "A group of people are gathered at a scenic, natural swimming spot beneath a stone arch bridge. Two individuals are in the water at the bottom, while three others stand on a large rock formation near a small waterfall, appearing to prepare for a jump or simply enjoying the view. One person stands alone on the bridge above, observing the scene. The lush, green forest surrounding the rocky creek creates a tranquil, adventurous atmosphere."
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 321,
+      "end_frame": 642,
+      "caption_frame_indices": [
+        321,
+        428,
+        534,
+        641
+      ],
+      "caption": "Under the arch of a weathered stone bridge in a lush, green forest, a group of people are gathered for a swim. Two men stand shirtless in the pool below, while three others—two women and a man—stand on a large rock formation beside a small waterfall, appearing to prepare for a jump or simply enjoying the view. The scene captures a moment of leisure and adventure in a natural, secluded setting."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 642,
+      "end_frame": 963,
+      "caption_frame_indices": [
+        642,
+        749,
+        855,
+        962
+      ],
+      "caption": "Under the arch of a weathered stone bridge in a lush, green forest, a group of people are gathered for a recreational swim. Two shirtless men stand in the calm pool of water at the base of a small, cascading waterfall. Above them, on a large rock formation, two others are poised at the edge, preparing to jump or dive into the water, while a third person stands on the bridge itself, observing the scene. The main event is the anticipation and"
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 963,
+      "end_frame": 1284,
+      "caption_frame_indices": [
+        963,
+        1070,
+        1176,
+        1283
+      ],
+      "caption": "Under the arch of a weathered stone bridge, a group of people are gathered at the edge of a rocky waterfall, preparing for a jump into the pool below. Two men stand shirtless in the water, watching as a woman on the rocks takes a running leap and dives into the stream, creating a splash. The scene is set in a lush, green forest, with the bridge and cascading water providing a picturesque backdrop for this adventurous moment."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1284,
+      "end_frame": 1605,
+      "caption_frame_indices": [
+        1284,
+        1391,
+        1497,
+        1604
+      ],
+      "caption": "Under the arch of a stone bridge in a lush, forested ravine, a group of people are enjoying a day of swimming and cliff jumping. In the foreground, two men stand waist-deep in the pool below a small waterfall. Above them, on a large rock formation, a woman is captured mid-air as she jumps into the water, while another person stands nearby, watching. A third person is visible on the bridge itself, observing the scene. The main event is"
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 1605,
+      "end_frame": 1926,
+      "caption_frame_indices": [
+        1605,
+        1712,
+        1818,
+        1925
+      ],
+      "caption": "A group of people enjoy a natural pool beneath a stone arch bridge, with two individuals standing on a rocky ledge above the waterfall, poised to jump in."
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 1926,
+      "end_frame": 2247,
+      "caption_frame_indices": [
+        1926,
+        2033,
+        2139,
+        2246
+      ],
+      "caption": "Under the arch of a stone bridge, people enjoy a natural pool fed by a small waterfall, with some swimming and others standing on the rocks above."
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 2247,
+      "end_frame": 2574,
+      "caption_frame_indices": [
+        2247,
+        2356,
+        2464,
+        2573
+      ],
+      "caption": "Two men are enjoying a swim in a natural pool at the base of a small waterfall, surrounded by rocky cliffs. Initially, both are swimming, but the man in the foreground gradually moves closer to the shore, eventually climbing out of the water onto a rock, smiling broadly as he does so."
+    }
+  ],
+  "segment_scores": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 321,
+      "planner_score": 0.95,
+      "planner_reason": "The current segment directly establishes the core setting, characters, and atmosphere described in the global summary. It introduces the stone arch bridge, the natural swimming spot, the group of people, the waterfall, and the lush forest—all key visual and thematic elements. As the opening or establishing shot for a landscape-themed video, it is highly important for setting the scene and mood.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly contributes to story progression by establishing the main setting, introducing key characters (the group at the swimming spot), and depicting preparatory actions (individuals on rocks appearing ready to jump), which directly sets up the core activity of jumping/diving described in the global summary. It also introduces the observer on the bridge, adding a narrative layer."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a visually striking scene with a stone arch bridge, a waterfall, lush forest, and people engaging in adventurous activities like preparing to jump. It captures a highlight-worthy moment of leisure and adventure in a scenic natural setting, aligning well with the video theme of landscape."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment conveys a moderate level of emotional expression through its tranquil and adventurous atmosphere. The presence of people preparing to jump or dive suggests anticipation and mild excitement, while the lush forest and secluded setting evoke a sense of peace and connection with nature. However, the emotional intensity is restrained rather than strong, as there are no overt displays of high-energy emotions like fear, joy, or tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment's caption largely reiterates the global summary, describing the same setting, activities, and atmosphere without introducing new information, instructions, or semantic content beyond what was already summarized."
+        }
+      },
+      "final_score": 1.6
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 321,
+      "end_frame": 642,
+      "planner_score": 0.95,
+      "planner_reason": "The current segment is highly important as it establishes the core setting and activity of the video. It introduces the key visual elements—the weathered stone arch bridge, lush forest, natural swimming pool, small waterfall, and the group engaged in leisure activities—which are central to the landscape theme. This segment essentially presents the main subject and atmosphere that the global summary describes, making it foundational for the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The current segment largely reiterates the scene and activities established in the previous segment, adding minimal new narrative progression. It confirms the setting and the group's presence but does not introduce new actions, events, or developments that advance the story or main event sequence beyond the initial setup."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment features a visually appealing and compositionally strong scene with the weathered stone bridge arch framing the action, lush green forest, and dynamic elements like people preparing to jump. However, it is very similar to the previous segment in content and composition, lacking significant new visual diversity or a standout highlight moment (like an actual jump) to elevate the score further."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.45,
+          "reason": "The segment depicts a leisurely outdoor scene with people swimming and preparing to jump, which conveys mild positive emotions of relaxation and adventure. However, the emotional expression is subdued rather than intense—there are no overt displays of strong excitement, fear, tension, or deep sentiment. The atmosphere is tranquil and calm, consistent with a peaceful natural setting, but lacks heightened emotional peaks."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment caption describes the same scene, characters, and actions as the previous segment and the global summary, with minimal variation in wording. It reiterates the location (under a weathered stone bridge in a lush forest), the group's activity (swimming, preparing to jump), and the atmosphere (leisure, adventure, secluded). No new information, instruction, or distinct semantic content is introduced."
+        }
+      },
+      "final_score": 1.3125
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 642,
+      "end_frame": 963,
+      "planner_score": 0.35,
+      "planner_reason": "The current segment shows similar content to previous segments—people swimming and preparing to jump under the bridge—without introducing significant new actions or key moments. While it maintains the tranquil atmosphere, it lacks progression in the narrative or distinct visual novelty that would warrant higher importance for a landscape-themed summary focused on showcasing diverse scenic highlights.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment advances the main event by focusing on the anticipation of jumping or diving, which is a key progression from the previous segments' setup, though it does not yet depict the actual jump, limiting its full contribution."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking due to the dynamic action of people poised to jump or dive from a rock formation under a weathered stone arch bridge, combined with the lush forest and cascading waterfall setting. It captures a highlight-worthy moment of anticipation and adventure, though it shares similar scenic elements with previous segments, slightly limiting diversity."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.5,
+          "reason": "The segment conveys moderate emotional expression through the anticipation of jumping/diving and the tranquil setting, but lacks intense emotional peaks or strong tension, resulting in a balanced yet subdued sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment largely reiterates previously described elements—the stone arch bridge, lush forest, group swimming, individuals in the water and on rocks, and the small waterfall—without introducing new information, instructions, or significant semantic content. The mention of 'anticipation' adds a slight nuance but does not substantially advance the narrative or provide novel details beyond the established setting and activities."
+        }
+      },
+      "final_score": 0.9
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 963,
+      "end_frame": 1284,
+      "planner_score": 0.85,
+      "planner_reason": "The segment captures a key action moment (a woman diving) that embodies the adventurous aspect of the landscape theme, while maintaining the tranquil setting. It directly continues the narrative of people engaging with the natural environment, adding dynamic movement to the previously established scene. However, it is somewhat similar to previous segments in setting and activity, slightly reducing its uniqueness.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment contributes to story progression by depicting an active jump/dive event, moving from anticipation to action, but it largely reiterates the setting and group activity without introducing new plot developments or significant changes to the main event sequence."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment features a dynamic action (a woman taking a running leap and diving into the water) that is visually striking and highlight-worthy, adding excitement and movement to the tranquil landscape theme. The composition includes diverse elements like the weathered stone bridge, cascading waterfall, lush forest, and human activity, creating a picturesque and adventurous scene. However, it maintains continuity with previous segments in setting and tone, slightly limiting novelty."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment depicts a moment of action (a woman diving into the water) which introduces a moderate level of excitement and adventure, breaking the tranquil baseline. However, the emotional expression is not intensely dramatic; it's a controlled, recreational leap within a serene natural setting. The tension is mild, centered on the anticipation of the jump, and the overall sentiment remains positive and leisurely rather than highly charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides minimal new information compared to previous segments. While it adds the specific action of 'a woman on the rocks takes a running leap and dives into the stream, creating a splash,' the core elements—location (under weathered stone bridge), setting (lush green forest, rocky waterfall), participants (group of people, shirtless men in water), and activity (preparing to jump/dive)—have all been described in previous segments. The segment essentially reiterates the established scene with only minor action progression."
+        }
+      },
+      "final_score": 1.45
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1284,
+      "end_frame": 1605,
+      "planner_score": 0.95,
+      "planner_reason": "This segment captures the peak action moment of the cliff jumping activity, showing a woman mid-air during her jump. It directly represents the main adventurous activity described in the global summary (swimming and cliff jumping) and provides visual payoff to the anticipation built in previous segments. The composition includes all key elements: the bridge, waterfall, pool, and multiple participants, making it highly representative of the overall scene.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.95,
+          "reason": "The current segment significantly advances the main event by capturing a woman in mid-air during her jump, which is a key action in the cliff jumping activity. This moment represents a progression from preparation and anticipation in previous segments to the actual execution of the jump, adding dynamism and fulfilling the adventurous aspect of the story."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment features a visually striking moment with a woman captured mid-air during a cliff jump, which is a highlight-worthy action that adds dynamism and excitement. The scene maintains diversity with multiple subjects in different positions (swimming, standing, jumping, observing) and a picturesque setting including a stone arch bridge, waterfall, and lush forest. However, it is somewhat similar to previous segments in setting and activities, slightly reducing its novelty."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment depicts a moment of action with a woman jumping into the water, which introduces a moderate level of excitement and adventure. However, the overall emotional expression remains largely calm and leisurely, consistent with the tranquil natural setting, without intense tension or heightened sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment largely reiterates previously established elements: the stone bridge, lush forest, group swimming, waterfall, and cliff jumping. It introduces the specific action of a woman mid-jump, which adds a slight dynamic detail, but overall, it provides minimal new semantic content beyond confirming ongoing activities already described in prior segments."
+        }
+      },
+      "final_score": 1.6
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 1605,
+      "end_frame": 1926,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment shows a similar scene to previous segments—people preparing to jump from a rocky ledge under a stone bridge—which is already well-covered in the global summary and memory context. While it maintains the theme of adventure and tranquility in a landscape setting, it adds minimal new information or unique visual progression, making it less critical for inclusion in a concise summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment introduces a new action (two individuals poised to jump) which advances the main event of cliff jumping, but it is still in the preparatory stage without the actual jump occurring, limiting its progression impact compared to segments showing the jump itself."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment features a visually appealing natural setting with a stone arch bridge, waterfall, and lush forest, which are striking elements. However, the action is limited to individuals poised to jump rather than capturing the dynamic moment of jumping or splashing, which reduces the highlight-worthy impact compared to previous segments showing mid-air jumps. The diversity of visuals is moderate, maintaining the established scenic theme without introducing new dramatic elements."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.45,
+          "reason": "The segment depicts a moment of anticipation with individuals poised to jump, which introduces mild tension and a sense of adventure. However, the emotional expression is subdued, lacking overt displays of excitement, fear, or strong sentiment, and the overall atmosphere remains tranquil and leisurely, consistent with the video's theme."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment caption describes a group at a natural pool under a stone arch bridge, with two individuals on a rocky ledge poised to jump. This closely mirrors the established scene from previous segments, which already detail people gathered at the swimming spot, standing on rocks near a waterfall, and preparing to jump or dive. No new information, instructions, or semantic content is introduced beyond what has been consistently described in the memory context and global summary, resulting in minimal novelty."
+        }
+      },
+      "final_score": 0.7875
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 1926,
+      "end_frame": 2247,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment repeats the core setting and activities already well-established in previous segments and the global summary—stone bridge, natural pool, waterfall, swimming, and people on rocks. While it maintains continuity, it lacks new or distinctive action (like jumping/diving) that would elevate importance for a landscape-themed summary focused on capturing key scenic and activity highlights. Thus, it is of moderate importance for maintaining atmosphere but low for adding unique value.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment primarily reiterates the established setting and ongoing activities without introducing new narrative progression, such as a new jump, interaction, or change in the scene. It maintains the tranquil and adventurous atmosphere but does not advance the main event beyond what has been described in previous segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment maintains the visually appealing setting with the stone arch bridge, waterfall, and lush forest, which are inherently striking elements. However, compared to previous segments that captured dynamic actions like mid-air jumps and diving splashes, this segment describes more static activities (swimming, standing on rocks) without highlighting any specific dramatic or highlight-worthy moments. The diversity of activities is moderate, but the lack of a focal dynamic event reduces its visual impact relative to earlier segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment depicts a leisurely scene with people swimming and standing by a waterfall, conveying a sense of tranquility and mild enjoyment. However, it lacks intense emotional expressions, high tension (like mid-action jumps), or strong sentiment compared to previous segments featuring active diving or anticipation, resulting in a moderate emotional strength."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment caption repeats previously established information about the setting (stone bridge, natural pool, waterfall) and activities (swimming, standing on rocks) without introducing new details, actions, or semantic content. It essentially summarizes the scene already described in prior segments, offering minimal incremental information."
+        }
+      },
+      "final_score": 0.725
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 2247,
+      "end_frame": 2574,
+      "planner_score": 0.65,
+      "planner_reason": "This segment shows a continuation of the leisure activity in the natural setting, focusing on two men swimming and one exiting the water with a joyful expression. While it reinforces the tranquil and adventurous atmosphere described in the global summary, it lacks the dynamic action (jumping/diving) or group interaction seen in previous segments. The smiling exit adds a positive emotional moment, but overall it's more of a transitional or secondary scene rather than a highlight of the day's main activities.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment shows a minor progression in the leisure activity as one man exits the water, but it does not advance the main events of jumping/diving or group interaction significantly, maintaining a similar tranquil state without introducing new narrative developments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows two men swimming and one climbing out, which is visually pleasant but lacks the striking action, diversity, or highlight-worthy moments (like jumps, dives, or group interactions) seen in previous segments. It is more tranquil and static, reducing its visual impact within the adventure theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment shows a man smiling broadly as he climbs out of the water, indicating a positive emotional expression of enjoyment and satisfaction. However, the overall emotional intensity is moderate, as the scene is more relaxed and lacks high tension or dramatic sentiment compared to previous segments with cliff jumping or anticipation."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces minimal new information relative to the established context. While it adds the specific action of a man climbing out of the water onto a rock and smiling, the core elements—the natural pool, waterfall, stone bridge, and group swimming—have been thoroughly described in previous segments. The scene remains consistent with the theme of leisure in a scenic landscape, offering only incremental narrative progression rather than substantial new semantic content."
+        }
+      },
+      "final_score": 1.025
+    }
+  ],
+  "frame_scores": [
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.3125,
+    1.3125,
+    1.3125,
+    1.3125,
+    1.3125,
+    1.3125,
+    1.3125,
+    1.3125,
+    1.3125,
+    1.3125,
+    1.3125,
+    1.3125,
+    1.3125,
+    1.3125,
+    1.3125,
+    1.3125,
+    1.3125,
+    1.3125,
+    1.3125,
+    1.3125,
+    1.3125,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.45,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    1.6,
+    0.7875,
+    0.7875,
+    0.7875,
+    0.7875,
+    0.7875,
+    0.7875,
+    0.7875,
+    0.7875,
+    0.7875,
+    0.7875,
+    0.7875,
+    0.7875,
+    0.7875,
+    0.7875,
+    0.7875,
+    0.7875,
+    0.7875,
+    0.7875,
+    0.7875,
+    0.7875,
+    0.7875,
+    0.7875,
+    0.725,
+    0.725,
+    0.725,
+    0.725,
+    0.725,
+    0.725,
+    0.725,
+    0.725,
+    0.725,
+    0.725,
+    0.725,
+    0.725,
+    0.725,
+    0.725,
+    0.725,
+    0.725,
+    0.725,
+    0.725,
+    0.725,
+    0.725,
+    0.725,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025,
+    1.025
+  ],
+  "frame_score_picks": [
+    0,
+    15,
+    30,
+    45,
+    60,
+    75,
+    90,
+    105,
+    120,
+    135,
+    150,
+    165,
+    180,
+    195,
+    210,
+    225,
+    240,
+    255,
+    270,
+    285,
+    300,
+    315,
+    330,
+    345,
+    360,
+    375,
+    390,
+    405,
+    420,
+    435,
+    450,
+    465,
+    480,
+    495,
+    510,
+    525,
+    540,
+    555,
+    570,
+    585,
+    600,
+    615,
+    630,
+    645,
+    660,
+    675,
+    690,
+    705,
+    720,
+    735,
+    750,
+    765,
+    780,
+    795,
+    810,
+    825,
+    840,
+    855,
+    870,
+    885,
+    900,
+    915,
+    930,
+    945,
+    960,
+    975,
+    990,
+    1005,
+    1020,
+    1035,
+    1050,
+    1065,
+    1080,
+    1095,
+    1110,
+    1125,
+    1140,
+    1155,
+    1170,
+    1185,
+    1200,
+    1215,
+    1230,
+    1245,
+    1260,
+    1275,
+    1290,
+    1305,
+    1320,
+    1335,
+    1350,
+    1365,
+    1380,
+    1395,
+    1410,
+    1425,
+    1440,
+    1455,
+    1470,
+    1485,
+    1500,
+    1515,
+    1530,
+    1545,
+    1560,
+    1575,
+    1590,
+    1605,
+    1620,
+    1635,
+    1650,
+    1665,
+    1680,
+    1695,
+    1710,
+    1725,
+    1740,
+    1755,
+    1770,
+    1785,
+    1800,
+    1815,
+    1830,
+    1845,
+    1860,
+    1875,
+    1890,
+    1905,
+    1920,
+    1935,
+    1950,
+    1965,
+    1980,
+    1995,
+    2010,
+    2025,
+    2040,
+    2055,
+    2070,
+    2085,
+    2100,
+    2115,
+    2130,
+    2145,
+    2160,
+    2175,
+    2190,
+    2205,
+    2220,
+    2235,
+    2250,
+    2265,
+    2280,
+    2295,
+    2310,
+    2325,
+    2340,
+    2355,
+    2370,
+    2385,
+    2400,
+    2415,
+    2430,
+    2445,
+    2460,
+    2475,
+    2490,
+    2505,
+    2520,
+    2535,
+    2550,
+    2565
+  ],
+  "output_dir": "outputs/inference_results/paluma_jump"
+}

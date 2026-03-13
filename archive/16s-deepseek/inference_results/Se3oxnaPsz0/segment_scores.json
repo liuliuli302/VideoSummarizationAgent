@@ -1,0 +1,485 @@
+{
+  "video_id": "Se3oxnaPsz0",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 260,
+      "planner_score": 0.2,
+      "planner_reason": "The current segment features a news anchor reporting on a space mission, which is unrelated to the global summary's focus on structural damage, bee swarms, and agricultural concerns. Given the video theme is 'general', some topic diversity is acceptable, but this segment introduces a completely disconnected subject without apparent narrative or thematic link to the established storylines, making it of low importance for a coherent summary of the described incidents.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.0,
+          "reason": "The segment features a news anchor introducing a breaking report, but the content shifts to space-related footage (spacecraft, astronauts), which is unrelated to the global summary's themes of structural collapse, bee swarms, and agricultural concerns. It does not advance the established story progression or main events described in the summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment features a standard news studio setup with an anchor delivering a report, which is visually conventional and not inherently striking. The background screen shows relevant but typical space mission footage (spacecraft and astronauts), adding some thematic diversity but lacking dynamic or highlight-worthy elements like action, unique visuals, or emotional impact. It serves its informational purpose without standing out as visually compelling."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment shows a news anchor delivering a breaking report with professional demeanor, but lacks strong emotional expression, tension, or sentiment. The background visuals (spacecraft, astronauts) suggest a significant event but the anchor's delivery appears standard for news reporting without heightened emotional cues. The emotional intensity is moderate-low, typical of factual news presentation rather than emotionally charged content."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 1.0,
+          "reason": "The segment introduces entirely new information not previously mentioned in the global summary or memory context, shifting from a terrestrial news theme to a space-related event with visuals of a spacecraft and astronauts, indicating a significant new topic or development."
+        }
+      },
+      "final_score": 0.65
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 260,
+      "end_frame": 520,
+      "planner_score": 0.85,
+      "planner_reason": "The segment directly introduces the core breaking news incident (structural damage/hazardous situation) and transitions to the first on-the-ground field report, establishing the primary narrative thread and visual evidence for the summary. While the global summary mentions multiple interconnected incidents, this segment provides the initial concrete visual and descriptive entry point for the main disaster event, making it highly important for context and continuity.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story by transitioning from the studio anchor's introduction to on-the-ground reporting at the incident site, introducing key visual elements (hazmat suits, damaged roof) and a field reporter, which directly sets up the main events of the structural damage and hazardous situation central to the news report."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking due to the transition from hazmat suits to a damaged roof, indicating a hazardous incident, and the cut to a field reporter inside a damaged structure adds on-the-ground urgency. The graphics and live reporting enhance highlight-worthiness, though it lacks extreme diversity compared to the previous space-themed segment."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment conveys moderate emotional intensity through the urgency of a breaking news report, the visual cues of a hazardous incident (hazmat suits, damaged roof), and the shift to a field reporter on location, which adds immediacy and tension. However, the emotional expression remains largely professional and informational, lacking strong personal sentiment or dramatic escalation."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.85,
+          "reason": "The segment introduces new, specific information about a breaking local incident involving a damaged structure and hazmat-suited individuals, shifting from the previous space-related context to a ground-level disaster report, thereby providing substantial new semantic content and advancing the narrative."
+        }
+      },
+      "final_score": 1.6375000000000002
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 520,
+      "end_frame": 780,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment provides crucial visual evidence of the structural damage mentioned in the global summary, directly showing the 'hole in the ceiling' and the exposed interior. This is a key piece of the 'structural collapse or damage' narrative. While it lacks the bee swarm or agricultural elements, it grounds the breaking news report in a tangible, on-location visual that supports the field reporter's account from previous segments. For a general news summary, such concrete evidence of the incident's physical impact is highly valuable for viewer understanding and credibility.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story by providing a key visual and location detail—the hole in the ceiling in a dimly lit room—that directly relates to the earlier reports of structural damage and hazardous incidents. It moves the narrative from general breaking news to a specific, on-the-ground discovery, enhancing the progression of the main event involving the building's condition."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the dramatic reveal of structural damage with a large hole in the ceiling, exposed beams, and insulation, creating a sense of discovery and hazard. The dim lighting and cluttered environment enhance the atmosphere of an unfolding incident, making it highlight-worthy within the breaking news context."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment conveys moderate emotional intensity through the visual tension of a damaged structure and the implied concern of the speaker, but lacks overt emotional expressions like distress or urgency, keeping the score from being higher."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces new visual and contextual information by showing a specific location with structural damage (a hole in the ceiling) and a cluttered environment, which adds to the narrative of a building incident. However, it lacks explicit new details about the cause, connection to the pigpen or bee swarm, or direct instructions, slightly limiting its informational novelty compared to the broader theme."
+        }
+      },
+      "final_score": 1.65
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 780,
+      "end_frame": 1040,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important for the global summary as it visually confirms the core incident: structural damage revealing a pigpen with livestock. It provides concrete evidence linking the earlier reports of damage to the agricultural/livestock concerns mentioned in the summary. The shot of the pig directly supports the 'pigpen' element and adds a tangible, newsworthy visual to the story. While it doesn't introduce the bee swarm or expert interviews, it solidifies one of the report's main interconnected incidents.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "This segment significantly advances the story by revealing a key discovery - a pigpen behind the damaged wall. While it continues the structural damage investigation from previous segments, it introduces the specific livestock element (the pig) that connects to the agricultural/livestock concerns mentioned in the global summary. The visual confirmation of livestock presence moves the narrative from general structural damage to a more specific incident involving animals, though it doesn't yet connect to the bee swarm aspect of the broader story."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the unexpected reveal of a pig within a damaged structure, creating a highlight-worthy moment. The contrast between the reporter's professional setting and the chaotic, cluttered pigpen adds diversity and visual interest, making it a memorable and impactful part of the news report."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment contains moderate emotional elements through the visual surprise of a pig in an unexpected location, but lacks strong vocal or facial emotional expression from the reporter, high tension, or intense sentiment, keeping the emotional impact subdued."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The segment introduces significant new information by revealing the presence of a live pig in the confined space behind the damaged wall, directly linking the structural damage to a livestock environment (pigpen/barn). This adds concrete, specific semantic content about the incident's nature, moving beyond general damage descriptions to an agricultural or animal-related context, which is highly relevant to the video's theme of interconnected incidents."
+        }
+      },
+      "final_score": 1.5625
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1040,
+      "end_frame": 1300,
+      "planner_score": 0.85,
+      "planner_reason": "This segment provides crucial visual evidence for the core story of structural damage revealing a pigpen, directly supporting the global summary's mention of 'agricultural or livestock concerns.' The close-up of the pig's face adds emotional impact and detail, while the debris-covered floor reinforces the collapse/disaster theme. However, it lacks new narrative progression or expert commentary, slightly limiting its standalone summary value compared to segments with reporter narration or expert interviews.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily provides a detailed visual of the pig in the confined space, reinforcing the discovery from the previous segment but not advancing the story or introducing new events. It adds atmospheric detail but minimal progression to the main narrative of structural damage, bee swarm, or expert interventions."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment is visually striking due to the close-up view of the pig's face, which provides a detailed and engaging visual moment. However, it lacks significant diversity or highlight-worthy action beyond this static, confined setting, and the debris-covered floor adds little to the visual appeal. It contributes contextually to the news report but is not a major highlight compared to broader events like bee swarms or structural collapses."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment features a close-up of a pig in a confined, dimly lit space, which conveys a sense of confinement and mild unease, but lacks intense emotional expression, high tension, or strong sentiment compared to the broader news context of structural damage and bee swarms. The visual detail and proximity to the camera add some emotional weight, but it is more observational than emotionally charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The current segment provides some new visual detail by showing the pig's face close-up and the debris-covered floor, which adds to the scene's atmosphere and confirms the presence of livestock. However, it does not introduce new factual information, instructions, or significant semantic content beyond what was already established in previous segments regarding the pigpen discovery."
+        }
+      },
+      "final_score": 1.2999999999999998
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 1300,
+      "end_frame": 1560,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it introduces a new, critical element (bee swarm) that connects the structural damage and livestock concerns into a more complex, multi-faceted incident. The visual of bees clustered near a pig creates immediate health/safety stakes, adds urgency, and justifies the later mention of expert intervention ('The Killer Bee Guy'). It serves as a key turning point in the narrative, shifting from structural damage to active biological hazard.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "This segment introduces a new element (bee swarm) that adds complexity to the incident but does not directly advance the core story of structural damage revealing a pigpen. It expands the scope to include agricultural hazards, yet the progression of the main event—understanding the cause or consequences of the structural issue—remains largely unchanged."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the close-up, shaky view of a dense bee swarm in a dark, confined space, creating a dynamic and highlight-worthy scene. The presence of a pig nearby adds diversity and reinforces the agricultural theme, though the dim lighting and confined setting slightly limit visual clarity."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment features a dense, active bee swarm in close proximity to livestock, creating a palpable sense of tension and potential danger. The shaky camera work and dim lighting enhance the visceral, unsettling atmosphere, conveying urgency and emotional intensity related to the hazardous situation."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "This segment introduces a new, significant element—a massive bee swarm in close proximity to livestock—which adds a distinct layer of information about agricultural hazards and potential public safety concerns, expanding the narrative beyond the structural damage and pigpen previously established. While it continues the theme of on-site reporting in a confined agricultural setting, the focus on bees and their active behavior provides fresh semantic content related to pest management and emergency response."
+        }
+      },
+      "final_score": 1.5750000000000002
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 1560,
+      "end_frame": 1820,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it provides expert context and human interest to the bee swarm incident. The close-up hive footage visually establishes the scale and nature of the bee problem, while the interview with Al Signori adds a local, eyewitness perspective that personalizes the story. Given the video theme is 'general' news reporting, this combination of visual evidence and human testimony strengthens the narrative by connecting the specific incident (bee swarm in a structure) to broader community impact and expert response, making it valuable for a comprehensive summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment introduces a new character (Al Signori) who provides expert commentary on the bee swarm, which is a key subplot in the overall story. This advances the narrative by adding context and moving from the immediate visual discovery of the bees to expert analysis, contributing to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment contains visually striking elements, such as the close-up of a dense bee swarm inside a hive and bees crawling on wood, which are highlight-worthy due to their unusual and dynamic nature. However, the diversity is limited as it transitions to a static interview shot outdoors, reducing the overall visual impact. The segment is relevant to the news theme but lacks the high drama or exceptional imagery seen in earlier segments involving structural damage or livestock."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment contains moderate emotional expression through the visual intensity of the bee swarm and the personal testimony of an interviewee, but lacks high tension or strong sentiment as it shifts to a calm, explanatory interview setting."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.7,
+          "reason": "The segment introduces a new character, Al Signori, and shifts to an outdoor interview format, providing firsthand commentary on the bee swarm incident. This adds contextual depth and a personal perspective, though it builds upon the established theme of the bee swarm from previous segments without introducing a completely new incident or major plot development."
+        }
+      },
+      "final_score": 1.5125000000000002
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 1820,
+      "end_frame": 2080,
+      "planner_score": 0.75,
+      "planner_reason": "This segment provides important firsthand perspective from a farmer (Jane Hewitt) directly affected by the incidents, adding human interest and agricultural context to the breaking news report. While it doesn't show the core dramatic visuals of structural damage or bee swarms, it connects the incidents to real-world impacts on local agriculture/livestock operations. The exclusive tag from KOLD News 13 suggests this is original reporting content. However, the segment's importance is slightly reduced because it follows more visually compelling segments showing the actual damage and bee swarm, and the general theme means human interest elements are valuable but not critical.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment introduces a new interviewee, Jane Hewitt, a farmer, and her son, providing potential personal or agricultural context. However, it does not directly advance the core narrative of the structural damage, pigpen discovery, or the active bee swarm crisis. It feels more like supplementary background or human-interest commentary rather than driving the main event progression forward."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment is a standard news interview with a farmer and her son, lacking the visually striking or highlight-worthy elements seen in previous segments (e.g., structural damage, bee swarms, or close-ups of animals). It is visually routine and contributes little to visual diversity or excitement within the broader news report context."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment features an interview with a farmer and her son, which provides personal context and likely conveys concern or urgency about the agricultural incidents. However, the emotional expression is moderate, delivered in a typical news interview format without heightened tension, dramatic visuals, or intense sentiment compared to earlier segments showing structural damage, bee swarms, or close-up animal distress."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces new information by featuring an exclusive interview with Jane Hewitt, a farmer, and her son, providing firsthand agricultural or livestock-related perspectives that were not present in previous segments focused on structural damage, bee swarms, or general reporting. This adds specific human and expert context to the broader theme, though it builds upon established elements like livestock concerns."
+        }
+      },
+      "final_score": 1.175
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 2080,
+      "end_frame": 2340,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it introduces the key expert ('The Killer Bee Guy') referenced in the global summary and shows active intervention for the bee swarm incident. It provides visual confirmation of the expert response to the agricultural/livestock concerns, connects the structural damage to the bee problem, and offers practical resolution content that would be essential for a comprehensive news summary. While not the initial breaking news anchor segment, it represents the core action and expert involvement that gives the story depth beyond just the initial incident report.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment directly advances the main event progression by showing the active intervention of beekeepers ('The Killer Bee Guy') to address the bee swarm issue introduced earlier. It moves from prior setup and interviews to depicting the practical response, contributing significantly to the story's resolution arc."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.75,
+          "reason": "The segment is visually striking due to the clear depiction of beekeepers in protective suits actively working in a field, which is a highlight-worthy and dynamic scene. The outdoor setting provides diversity from previous indoor or confined spaces, and the professional beekeeping operation adds a unique visual element. However, the indoor introduction and static gestures slightly reduce the overall visual impact compared to more action-packed scenes."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment shows beekeepers in protective suits walking through a field, which indicates professional activity but lacks strong emotional expression, tension, or sentiment. The scene is calm and procedural, without visible urgency, conflict, or heightened emotional cues. Compared to previous segments with structural damage, livestock in distress, or active bee swarms, this segment is relatively neutral and informational."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces new visual and contextual elements, such as the beekeeping operation, protective suits, and the specific website watermark, which adds to the narrative of expert bee management. However, it largely continues the established theme of bee-related incidents and expert intervention without introducing fundamentally new information or shifting the semantic focus beyond what was previously implied or shown in earlier segments."
+        }
+      },
+      "final_score": 1.4125
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 2340,
+      "end_frame": 2600,
+      "planner_score": 0.85,
+      "planner_reason": "This segment introduces a key expert, 'The Killer Bee Guy,' directly addressing the bee swarm incident central to the global summary. It provides authoritative commentary and on-site action, enhancing the narrative's credibility and urgency. While not the absolute climax, it is crucial for explaining the hazard resolution and tying agricultural concerns together.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "This segment introduces a key expert, 'The Killer Bee Guy,' who provides specialized insight into the bee swarm incident, advancing the narrative by adding expert analysis and connecting the bee issue to the broader story. However, it does not depict a new main event or significant plot development, focusing instead on expert commentary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking and highlight-worthy due to the clear, engaging shots of beekeepers in protective suits in a rural field, which provide strong visual contrast and action. The expert interview with 'The Killer Bee Guy' in a natural setting adds authority and visual diversity, enhancing the segment's appeal as a key moment in the news report."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment features an expert interview with 'The Killer Bee Guy,' which introduces a knowledgeable and potentially charismatic figure, adding a layer of professional engagement and mild intrigue. However, the emotional expression is moderate; the beekeepers' actions are calm and procedural, and the expert's delivery is likely informative rather than highly charged. The tension from the bee swarm context persists but is not heightened in this specific segment, resulting in a moderate emotional intensity score."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment introduces a new expert, Reed Booth, identified as 'The Killer Bee Guy,' providing specific expertise and identity to the bee swarm incident previously mentioned. However, it does not present entirely new information about the core incidents (structural damage, pigpen, bee swarm) already established in prior segments, focusing instead on expert commentary and context."
+        }
+      },
+      "final_score": 1.5499999999999998
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 2600,
+      "end_frame": 2860,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it provides the visual climax of the bee swarm story—a key component of the global summary. It features the expert 'The Killer Bee Guy' in action, connects the aerial scale of the incident with on-ground reporting, and visually reinforces the 'massive bee swarm' narrative. While it doesn't introduce new plot points, it delivers impactful footage essential for a compelling summary of the breaking news report.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment significantly advances the story by visually confirming the scale of the bee swarm issue with an aerial view, reinforcing the urgency and connecting the field reporter's expert commentary directly to the main event of the bee infestation, thereby moving the narrative from setup to active resolution."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the aerial shot of a massive bee swarm covering a field, which is a dramatic and highlight-worthy natural phenomenon. It adds diversity by shifting to an outdoor, expansive setting with expert commentary, enhancing the news report's visual appeal and urgency."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment features a visually striking and intense scene of a massive bee swarm covering a field, which inherently creates a sense of tension and urgency. The aerial perspective amplifies the scale and potential danger, while the on-ground expert commentary from 'The Killer Bee Guy' adds authoritative emotional weight, emphasizing the seriousness and unusual nature of the incident. This combines strong visual impact with expert-driven sentiment, though it lacks personal human drama or extreme peril to reach the highest emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.7,
+          "reason": "The segment introduces a new visual perspective (aerial footage) and a new location (field) for the bee swarm, which adds scale and context. However, the core information about the bee swarm and the expert, Reed Booth, has been previously established in segments 5, 6, 8, and 9, so the semantic novelty is moderate."
+        }
+      },
+      "final_score": 1.65
+    },
+    {
+      "segment_id": 11,
+      "start_frame": 2860,
+      "end_frame": 3120,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it provides visual documentation of the expert intervention process for the bee swarm problem, which is one of the three main interconnected incidents in the breaking news report. It shows the beekeeper explaining procedures and workers actively addressing the infestation inside a structure, directly illustrating the resolution efforts for a key element of the story. The segment connects the earlier bee swarm discovery with the professional response, showing both the interior infestation and exterior nesting location, which adds concrete visual evidence to the narrative. While not introducing new major story elements, it provides crucial action-oriented content that demonstrates the progression from problem identification to solution implementation.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment contributes significantly to story progression by advancing the main narrative thread about the bee swarm incident. It moves from general expert commentary to specific action, showing the actual intervention process with beekeepers working inside the structure where the bees are nesting. The progression from outdoor explanation to interior action demonstrates concrete steps being taken to resolve the central problem introduced earlier. However, it doesn't introduce entirely new plot elements or major twists, keeping it focused on developing an existing storyline rather than initiating a new one."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment is visually striking and highlight-worthy due to the dramatic close-up of a dense bee swarm inside a wooden cavity, which is both unusual and attention-grabbing. The contrast between the outdoor expert explanation and the dimly lit interior with workers in protective suits adds diversity and a sense of action. However, the overall visual quality is somewhat limited by the dim lighting in key shots, and the exterior building shot is less compelling, reducing the score slightly."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment demonstrates moderate to strong emotional engagement through its combination of expert demonstration, tense beekeeping operations, and visual storytelling. The beekeeper's gesturing while explaining procedures conveys professional urgency and engagement. The dimly lit interior scene with workers in full protective suits on a ladder creates visual tension and a sense of hazardous activity. The close-up of the dense bee swarm inside the wooden cavity provides an intimate, slightly unsettling view of the infestation. The final exterior shot showing the nesting gap under the eaves completes the narrative with a sense of discovery and resolution. While not featuring overt emotional outbursts, the segment effectively builds professional tension and conveys the seriousness of the bee removal operation through its visual composition and expert presentation."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment provides moderate new information by showing the beekeeper explaining a procedure and the specific location of the bee swarm inside a wooden cavity and building exterior, which adds operational and spatial details not explicitly covered in previous segments. However, it builds upon established themes like bee swarm management and expert intervention without introducing entirely new events or significant semantic shifts."
+        }
+      },
+      "final_score": 1.5625
+    },
+    {
+      "segment_id": 12,
+      "start_frame": 3120,
+      "end_frame": 3380,
+      "planner_score": 0.85,
+      "planner_reason": "The segment provides a critical visual link between the two main incidents (bee swarm and pigpen) and shows active intervention by a specialist. It reinforces the 'interconnected incidents' theme of the global summary by depicting a biohazard-suited individual near livestock, suggesting a health/safety procedure related to the earlier structural damage and bee infestation. While it lacks direct expert commentary or dramatic swarm footage, it serves as an important connective scene showing the response phase, which is essential for a complete narrative summary of the breaking news report.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment shows procedural aftermath scenes (man inspecting building, person in biohazard suit walking away) rather than depicting a new event, decision, or significant development in the main storylines (structural collapse, bee swarm intervention, livestock concerns). It serves more as transitional or atmospheric footage, contributing minimally to actual story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment contains moderately interesting visual elements but lacks the striking impact or highlight-worthy quality of previous segments. The weathered wooden building and person in a yellow biohazard suit provide some visual diversity, but the composition is relatively static compared to the dramatic bee swarms, structural damage, and close-up animal interactions shown earlier. The scene suggests procedural activity rather than capturing a visually compelling moment of action or revelation."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.35,
+          "reason": "The segment depicts a man in a hat and a person in a biohazard suit in a rural setting, which conveys a sense of procedural action and potential hazard, but lacks strong emotional cues, facial expressions, or dynamic tension. The emotional intensity is low, as the scene appears observational and informational rather than charged with sentiment, fear, or urgency."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces a new visual element (a person in a yellow biohazard suit near a pig) that suggests a health or safety procedure, which adds a slight layer of new semantic content related to agricultural safety or contamination concerns. However, it largely reiterates established themes (rural setting, livestock, expert presence) without providing substantial new information, instructions, or significant narrative advancement compared to previous segments detailing structural damage, bee swarms, and expert interventions."
+        }
+      },
+      "final_score": 1.1875
+    },
+    {
+      "segment_id": 13,
+      "start_frame": 3380,
+      "end_frame": 3640,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it provides critical visual evidence of the emergency response and animal welfare aspects of the breaking news story. The hazmat-suited individual running through mud with pigs directly connects to the earlier structural damage revealing a pigpen and the bee swarm proximity to livestock, showing active containment or rescue efforts. The close-up shots of the animal's condition add emotional weight and document the impact on livestock, which is a core agricultural concern of the report. While slightly less central than the expert interviews (like 'The Killer Bee Guy') or the initial structural damage revelation, it visually advances the narrative from discovery to response, making it valuable for a comprehensive summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment shows a person in a hazmat suit running among pigs and close-ups of a pig's face, which contributes minimally to advancing the main storylines (structural damage revealing a pigpen, massive bee swarm requiring expert intervention). While it maintains thematic continuity with the agricultural/livestock setting and the hazmat suit suggests ongoing containment efforts, it lacks clear narrative progression, new information, or direct connection to the core events. It feels more like atmospheric footage rather than a plot-advancing development."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.75,
+          "reason": "The segment contains visually striking elements such as a person in a yellow hazmat suit running through a muddy area with pigs, which conveys urgency and highlights a containment or emergency scenario. The close-up, blurry shots of a white animal's face add a dynamic and intimate perspective, enhancing the segment's highlight-worthy nature. However, the visual diversity is somewhat limited as it focuses primarily on livestock and hazmat activity, without the dramatic scale or expert interviews seen in previous segments like the bee swarm or structural collapse."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment conveys moderate to strong emotional intensity through its visual and situational cues. The person in a yellow hazmat suit running through a muddy area with pigs suggests urgency, emergency response, or containment efforts, creating tension and concern. The subsequent shots of a pig lying down behind a fence and close-up, blurry shots of a white animal's face evoke a sense of vulnerability, distress, or close observation of the animals' condition. While there is no explicit dialogue or overt emotional expressions from humans, the imagery implies a heightened emotional context related to animal welfare, crisis management, or hazardous conditions. The hazmat suit adds a layer of danger or contamination concern, amplifying the segment's emotional weight."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment provides minimal new information relative to the established context. It shows a person in a hazmat suit running among pigs and close-ups of a pig's face, which reinforces the existing themes of livestock involvement and potential emergency/containment procedures. However, it does not introduce new semantic content, instructions, or significant narrative developments beyond visual details of scenes already implied by previous segments (pig conditions, hazmat presence). The information is largely redundant with prior segments about pigs, structural damage, and agricultural concerns."
+        }
+      },
+      "final_score": 1.35
+    },
+    {
+      "segment_id": 14,
+      "start_frame": 3640,
+      "end_frame": 3900,
+      "planner_score": 0.65,
+      "planner_reason": "This segment features a woman in a blue polo shirt speaking directly to the camera in a rustic indoor setting, likely providing firsthand testimony or expert commentary related to the ongoing incidents. While it adds a human perspective and potentially valuable context from someone on-site, it appears to be a continuation of interview-style content rather than introducing critical new information or dramatic visual evidence. Given the video theme is 'general' news reporting, such interviews are standard but not as impactful as the core visual elements (structural damage, bee swarm, livestock scenes) or key expert interviews like 'The Killer Bee Guy.' The segment's importance is moderate—it supports the narrative but is not essential to understanding the main events.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment features a woman speaking directly to the camera in a rustic indoor setting, likely providing commentary or eyewitness testimony. While it maintains thematic continuity with the agricultural/livestock concerns of the broader story, it does not introduce new plot developments, escalate existing conflicts, or significantly advance the narrative. It appears to be supplementary interview footage rather than a key story-driving event."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.45,
+          "reason": "The segment is moderately visually striking due to the rustic setting and the brief, blurry shot of an animal, which adds some visual interest. However, it lacks significant diversity or highlight-worthy elements compared to previous segments featuring dramatic events like structural collapses, massive bee swarms, or expert interventions. The primary content is a static interview in a dimly lit environment, which reduces its visual impact and memorability."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment features a woman speaking directly to the camera in a dimly lit, rustic setting, which conveys a sense of informal reporting or personal testimony, but lacks overt emotional expression, high tension, or strong sentiment. The brief, blurry shot of an animal adds minor visual interest but does not significantly heighten emotional impact. Compared to previous segments with dramatic visuals like structural damage, bee swarms, or hazmat suits, this segment is more subdued and informational, resulting in a moderate emotional strength score."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment introduces a new speaker in a rustic setting, but provides minimal new substantive information. It continues the theme of agricultural/livestock concerns from prior segments, but does not advance the narrative regarding the structural collapse, bee swarm, or expert interventions previously established. The visual of a possible horse is a minor new detail, but the segment largely reiterates the report's setting without adding significant new content, instruction, or semantic depth."
+        }
+      },
+      "final_score": 0.9875
+    },
+    {
+      "segment_id": 15,
+      "start_frame": 3900,
+      "end_frame": 4166,
+      "planner_score": 0.65,
+      "planner_reason": "The segment provides a live reporter update from an indoor location, reinforcing the ongoing nature of the 'developing story' and adding a human, on-the-ground perspective. However, it lacks new substantive information compared to previous segments that already established the structural damage, pigpen discovery, bee swarm, and expert interviews. The reporter's presence and the 'DEVELOPING STORY' graphic maintain narrative continuity and urgency, but the segment itself is more transitional than content-rich within the already detailed global summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment features a reporter delivering a live update from an indoor location, which maintains the narrative flow and signals ongoing coverage. However, it does not introduce new events, characters, or significant plot developments compared to previous segments that revealed pigs, bee swarms, or expert interventions. Its primary contribution is reinforcing the 'developing story' status rather than advancing the core incidents."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.35,
+          "reason": "The segment features a reporter delivering a live report in a visually mundane indoor setting with a cluttered background of wooden planks and tools. While it maintains continuity with the news narrative, it lacks striking visuals, dynamic action, or highlight-worthy elements compared to previous segments showing bee swarms, structural damage, or livestock interactions. The 'DEVELOPING STORY' graphic adds some news urgency but does not enhance visual appeal."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment shows a reporter delivering a live report in a relatively calm, matter-of-fact manner from an indoor workshop/storage setting. While the context involves multiple dramatic incidents (structural damage, bee swarms, livestock concerns), this specific segment lacks strong emotional expression, visible tension, or heightened sentiment. The reporter appears professional and composed without evident distress, urgency, or emotional inflection. The setting is neutral, and the segment concludes with a standard 'DEVELOPING STORY' graphic rather than an emotionally charged moment. Emotional intensity is low, deriving primarily from the implied seriousness of the ongoing news story rather than overt expression within the segment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment provides minimal new information as it primarily shows a reporter delivering a live report from a location already established in previous segments (indoor, rustic setting). The visual context (workshop/storage area) and the 'DEVELOPING STORY' graphic add little substantive semantic content beyond reinforcing the ongoing nature of the news coverage, without introducing new details about the structural damage, bee swarm, or agricultural concerns."
+        }
+      },
+      "final_score": 1.0625
+    }
+  ]
+}

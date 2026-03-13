@@ -1,0 +1,12 @@
+{
+  "video_id": "paluma_jump",
+  "video_theme": "landscape",
+  "global_summary": "A group of people spend a leisurely day at a scenic natural swimming spot beneath a weathered stone arch bridge in a lush forest. They swim, stand on rocks, and take turns jumping or diving from a rocky ledge into the pool below a small waterfall, capturing a sense of adventure and tranquility in a secluded outdoor setting.",
+  "expert_weights": {
+    "story_agent": 0.25,
+    "visual_agent": 0.25,
+    "emotion_agent": 0.25,
+    "information_agent": 0.25
+  },
+  "reason": "The captions consistently emphasize the natural setting—stone arch bridge, lush forest, rocky waterfall, and secluded pool—making 'landscape' the most fitting theme. The summary synthesizes repeated elements: group leisure, swimming, jumping/diving, and the picturesque environment. Expert weights prioritize nature_scene_detector due to strong focus on landscape features, human_activity_analyzer for swimming/jumping actions, mood_atmosphere_evaluator for the tranquil/adventurous tone, and composition_analyzer for visual framing like bridge and rock formations."
+}

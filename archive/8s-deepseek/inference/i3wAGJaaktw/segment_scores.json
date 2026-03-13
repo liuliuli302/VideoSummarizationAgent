@@ -1,0 +1,245 @@
+{
+  "video_id": "i3wAGJaaktw",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 587,
+      "planner_score": 0.85,
+      "planner_reason": "This segment establishes the setting, introduces the main subject (the golden retriever), and shows the beginning of the grooming process. As the opening segment of a tutorial video, it is crucial for setting context and engaging the viewer. It directly supports the tutorial's purpose by visually introducing the environment and initial steps, making it highly important for the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment introduces the setting (Pet Joy salon) and the main subject (grooming a golden retriever), establishing the context and initiating the grooming process, which is central to the video's tutorial/promotional theme. However, it is primarily a setup phase, showing preparation rather than detailed grooming steps, so its contribution to story progression is moderate."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows routine grooming activities (brushing a golden retriever, preparing a carrier) without particularly striking visuals, dramatic moments, or highlight-worthy action. While professionally shot, it lacks the visual diversity, emotional impact, or exceptional content that would make it stand out as a key highlight in the tutorial context."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment primarily establishes the setting and introduces the grooming process with a calm, routine atmosphere. There is minimal emotional expression, tension, or sentiment; it is neutral and informational, focusing on factual depiction rather than evoking strong feelings."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The segment introduces the video's setting (Pet Joy salon), key subjects (staff and a golden retriever), and the grooming process initiation, providing foundational new information about the location, activity, and initial steps in the tutorial."
+        }
+      },
+      "final_score": 1.4
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 587,
+      "end_frame": 1174,
+      "planner_score": 0.4,
+      "planner_reason": "This segment shows a standard preparation step in the grooming process—moving the dog to the table—which is routine and already implied by the global summary. While it reinforces the calm, professional atmosphere of the salon, it does not introduce new information about grooming techniques, products, or unique aspects of the service. Given the tutorial theme, viewers would benefit more from segments focused on actual grooming steps, tools, or tips rather than transitional actions.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "This segment contributes moderately to story progression by showing a specific step in the grooming process—transferring the dog to the grooming table—which advances the tutorial's demonstration of the grooming workflow. However, it is somewhat repetitive with the previous segment's focus on preparation and crate handling, limiting its novel narrative impact."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment depicts a routine preparatory step in pet grooming—placing a dog on a table—which is calm and procedural. While the setting is professional and well-equipped, the action itself is not visually striking, diverse, or highlight-worthy compared to more dynamic grooming techniques or dramatic transformations shown in grooming tutorials. It serves a functional role in the process but lacks standout visual appeal or novelty."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a routine, gentle action of guiding a calm dog onto a grooming table in a professional setting. The emotional expression is minimal, characterized by a neutral, instructional tone typical of a tutorial, with no visible tension, strong sentiment, or heightened emotional cues from the woman or the dog."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces a new action (guiding the dog onto the grooming table) and a new character (the woman with curly hair), but it largely reiterates the grooming setup and calm atmosphere already established in the global summary and previous segment, offering minimal incremental information."
+        }
+      },
+      "final_score": 0.775
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1174,
+      "end_frame": 1761,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it demonstrates the core grooming process and professional handling techniques in a tutorial context. It shows collaborative work between groomers, proper restraint methods for safety, and the dog's calm demeanor - all key educational elements for viewers learning about professional pet grooming. The segment directly supports the tutorial theme by illustrating preparatory steps before actual grooming begins.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment primarily depicts the preparatory stage of grooming, focusing on securing the dog and ensuring stability, which is a routine setup step rather than advancing the core grooming process or main narrative of the tutorial. While it shows collaboration and the dog's calm demeanor, it does not introduce new techniques, progress to key grooming actions like brushing or trimming, or shift the story toward promotional or concluding elements, making its contribution to story progression minimal."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a calm, routine grooming preparation with two groomers handling a golden retriever, which is consistent with the tutorial theme and previous context. While the scene is well-lit and professionally executed, it lacks visually striking elements, dynamic action, or significant diversity compared to other potential highlights in grooming (e.g., trimming, bathing, or varied dog breeds). The cooperative dog and coordinated work are orderly but not particularly highlight-worthy or diverse, making it moderately engaging but not standout."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a calm, cooperative grooming preparation with gentle handling and a patient dog, resulting in low emotional intensity, minimal tension, and neutral sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces the specific action of two groomers collaboratively preparing the dog with a restraint, which is a new procedural detail not explicitly mentioned in previous segments. However, it largely reiterates the setting, the dog's calm demeanor, and the presence of groomers, which were already established in the memory context, limiting its overall informational novelty."
+        }
+      },
+      "final_score": 1.15
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1761,
+      "end_frame": 2348,
+      "planner_score": 0.8,
+      "planner_reason": "This segment directly showcases the core grooming activity (brushing) in a professional setting, which is central to the tutorial theme. It demonstrates proper technique with two groomers working together on a calm dog, providing valuable educational content about the grooming process. While it continues the established sequence rather than introducing new concepts, it's essential for showing the actual hands-on work that viewers would want to learn about.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment shows the continuation of the grooming process (brushing), which is a routine step in the tutorial theme, but it does not introduce new main events, significant progression, or key narrative developments beyond the ongoing activity established in previous segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment is visually clear and professionally shot, showing a routine grooming activity with a calm dog and coordinated groomers. However, it lacks striking or diverse visual elements, dynamic action, or highlight-worthy moments, as it depicts a standard, repetitive step in the grooming process without significant variation from previous segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a routine grooming session with a calm, cooperative dog and focused groomers, resulting in low emotional intensity. The atmosphere is professional and procedural rather than emotionally charged, with no visible tension, strong sentiment, or heightened emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment introduces the specific action of brushing the dog's back, which is a new grooming step not explicitly detailed in prior segments. However, the overall context of grooming preparation and the calm, cooperative nature of the dog has been established previously, limiting the novelty of the semantic content."
+        }
+      },
+      "final_score": 1.075
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 2348,
+      "end_frame": 2935,
+      "planner_score": 0.7,
+      "planner_reason": "The segment reinforces the tutorial's core demonstration by showing grooming techniques on two different dog breeds (golden retriever and poodle), which adds variety and depth to the educational content. However, it doesn't introduce new fundamental concepts or critical steps beyond what was shown in previous segments, making it moderately important for illustrating consistent professional care rather than essential for understanding the grooming process.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment introduces a new grooming action (trimming a poodle's paw) and shows a different dog, which adds variety and reinforces the salon's professional services. However, it does not significantly advance the core narrative or main event progression beyond the ongoing grooming routine established in previous segments. The progression remains incremental within the tutorial's demonstration of grooming steps."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "This segment shows moderate visual interest through the introduction of a second dog breed (fluffy grey poodle) and a different grooming action (paw trimming with clippers), providing some diversity from the previous golden retriever brushing scenes. The cut between two different grooming scenarios adds some visual variety, and the focused grooming actions are professionally executed. However, the setting remains consistent with previous segments, the color palette is similar, and the activities are still routine grooming procedures rather than particularly striking or highlight-worthy moments. The segment serves its purpose in showing professional care but doesn't contain exceptionally dramatic, beautiful, or unusual visuals that would make it stand out as a highlight."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment maintains a calm, professional atmosphere typical of a tutorial video, with gentle handling and focused grooming actions. While there is a sense of care and attention, the emotional expression, tension, or sentiment is mild, lacking strong peaks of excitement, drama, or intense sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "This segment introduces a new dog breed (grey poodle) and a specific grooming action (trimming paws with clippers), which provides some incremental new information. However, the core setting (professional pet grooming salon), overall activity (grooming process), and general professional care theme have already been well established in previous segments. The golden retriever handling continues the established narrative without adding significant new semantic content. The segment expands the scope slightly by showing another dog type and a different grooming task, but doesn't introduce fundamentally new information about the tutorial's purpose, techniques, or facility beyond what was already conveyed."
+        }
+      },
+      "final_score": 1.1125
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 2935,
+      "end_frame": 3522,
+      "planner_score": 0.65,
+      "planner_reason": "The segment includes a core grooming action (trimming a different breed) which reinforces the tutorial's practical demonstration, but also contains promotional elements (direct address and product display) that are less critical for a step-by-step instructional summary. While it adds variety and context, the direct tutorial value is moderate compared to earlier hands-on grooming steps.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment contributes significantly to story progression by introducing two key narrative elements: (1) It continues the grooming demonstration with a different dog breed (Schnauzer), expanding the tutorial's scope beyond just golden retrievers, showing the salon's versatility. (2) More importantly, it introduces direct address to camera - a woman speaking to viewers - which marks a clear transition from pure demonstration to explicit communication/promotion, directly advancing the video's informative/promotional purpose. The shot of pet food shelves further establishes the facility's commercial offerings, completing the 'behind-the-scenes' tour aspect mentioned in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "This segment is visually striking and highlight-worthy due to several factors: 1) The colorful patterned smock of the groomer creates visual interest, 2) The transition from grooming action to direct-to-camera address provides engaging variety, 3) The shot of well-stocked pet food shelves adds promotional value and visual diversity, 4) The direct address to camera is particularly highlight-worthy as it breaks the observational format and creates viewer engagement. While the grooming action itself is somewhat routine for this tutorial context, the combination of these elements makes this segment more visually compelling than previous segments that focused primarily on standard grooming procedures."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment maintains a calm, instructional tone typical of a tutorial. The grooming activity is methodical and professional, lacking strong emotional cues, while the direct address to the camera adds mild engagement but remains informative rather than emotionally charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces a new dog breed (Schnauzer) and a direct address to the camera, which adds some informational and promotional content. However, much of the setting and grooming activity is consistent with previous segments, limiting the novelty of the core grooming demonstration."
+        }
+      },
+      "final_score": 1.225
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 3522,
+      "end_frame": 4109,
+      "planner_score": 0.35,
+      "planner_reason": "While the segment reinforces the promotional aspect of the video by showcasing product offerings (premium pet food brands), it represents a shift from the core tutorial content—the step-by-step grooming process—to a more commercial or facility showcase. In a 'tutorial' theme, direct instructional actions (grooming techniques, handling) are most critical for the summary. This segment provides contextual information about the business but is less essential for demonstrating the grooming tutorial itself. Its importance is moderate as it supports the video's broader informative/promotional purpose but is not central to the main instructional narrative.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment primarily showcases product offerings and a direct address, which serves a promotional or informative function but does not advance the core narrative of the grooming process or main event progression. It shifts focus from active grooming to ancillary services, contributing minimally to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment is visually straightforward, showing static product shelves and a direct-to-camera address, which lacks dynamic or highlight-worthy visual elements compared to active grooming scenes. It serves an informative purpose but is not particularly striking or diverse in composition or action."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment primarily features static shots of pet food products and a direct-to-camera presentation, which lacks strong emotional expression, tension, or sentiment. The tone is informative and promotional, with minimal emotional intensity beyond a neutral, professional demeanor."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.7,
+          "reason": "This segment introduces new information about the specific product offerings (Orijen and Stella & Chewy's dog food brands) and reinforces the promotional aspect of the video through direct address to camera. While the setting (pet facility with products) was hinted at in previous segments, the specific brand details and explicit product showcase provide additional semantic content about the business's retail offerings beyond just grooming services."
+        }
+      },
+      "final_score": 0.7
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 4109,
+      "end_frame": 4700,
+      "planner_score": 0.85,
+      "planner_reason": "This segment contains two key elements for a tutorial/promotional video: 1) A direct address to camera that likely provides instructional or explanatory content about the grooming process or services, which is central to the tutorial theme, and 2) A concluding exterior shot with branding (store name, address, phone) that serves as a clear promotional call-to-action and establishes the business identity. While the grooming demonstration segments show the 'how,' this segment provides the 'who' and 'where' context that completes the informational purpose. The direct address is particularly valuable for tutorial content as it often delivers key takeaways or explanations.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "This segment contributes moderately to story progression by concluding the promotional narrative with direct address and establishing the salon's identity, but it does not advance the main event of the grooming process itself, which is the core of the tutorial theme."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment contains two distinct shots with moderate visual interest. The direct-to-camera address provides human engagement and promotional intent, while the exterior shot of 'Pet Joy' offers branding elements and environmental context. However, compared to previous segments showing active grooming procedures with multiple dogs and groomers, this segment is less dynamic and visually diverse. The exterior shot with ivy-covered walls, product displays, and decorative elements adds some aesthetic appeal, but overall the segment serves more informational/promotional purposes than being visually striking or highlight-worthy in the context of a grooming tutorial."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment features a direct address to the camera and an exterior shot of the salon, which introduces a mild promotional or informative sentiment. However, the emotional expression is low, with no visible tension, strong sentiment, or heightened emotional cues; the tone remains calm and factual, typical of a tutorial or promotional video."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces new semantic content by providing the salon's exterior view, branding details (name 'Pet Joy'), and contact information (address and phone number), which are promotional elements not previously shown. However, the woman speaking to the camera repeats a similar action from earlier segments, reducing the novelty of that part."
+        }
+      },
+      "final_score": 1.3624999999999998
+    }
+  ]
+}

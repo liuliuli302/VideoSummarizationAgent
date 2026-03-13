@@ -1,0 +1,12 @@
+{
+  "video_id": "Hl-__g2gn_A",
+  "video_theme": "tutorial",
+  "global_summary": "A cooking tutorial featuring Chef Diane Dimeo preparing a Reuben sandwich from start to finish, including ingredient assembly, cooking on a stovetop, and final presentation.",
+  "expert_weights": {
+    "story_agent": 0.25,
+    "visual_agent": 0.25,
+    "emotion_agent": 0.25,
+    "information_agent": 0.25
+  },
+  "reason": "The video is a structured cooking tutorial with clear instructional segments showing ingredient preparation, assembly, cooking, and final presentation. The topic_detector receives highest weight due to the clear food preparation theme and recipe focus. visual_summarizer and narrative_tracker are equally important for tracking the cooking process and visual steps. highlight_extractor is relevant for key moments like the final sandwich reveal but less critical than tracking the full tutorial process."
+}

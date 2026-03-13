@@ -1,0 +1,245 @@
+{
+  "video_id": "qqR6AEXwxoQ",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 1009,
+      "planner_score": 0.85,
+      "planner_reason": "The segment establishes the rider's presence and provides direct commentary, which is crucial for narrative context in sports summaries. While action shots are more visually dynamic, this setup segment adds personality and explanation that enhances viewer engagement and understanding of the sport's risks.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment shows the rider providing commentary and explanation while stationary on the track. While it establishes context and introduces the rider, it does not depict actual story progression or main event progression. The segment is primarily expository rather than advancing the narrative of the motocross action, jumps, stunts, or crash mentioned in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment is a static, talking-head shot with minimal action or visual dynamism. While it provides context, it lacks the striking visuals, diversity, or highlight-worthy action seen in jumps, stunts, or crashes from the global summary."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment features a rider speaking directly to the camera, which conveys some personal engagement and potential enthusiasm, but lacks intense action, dramatic events, or strong emotional cues like facial expressions or high-tension scenarios. The emotional expression is moderate and informational rather than highly charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces the rider and setting, providing basic visual and contextual information, but largely reiterates elements already covered in the global summary without adding significant new details, stunts, or insights."
+        }
+      },
+      "final_score": 1.15
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1009,
+      "end_frame": 2018,
+      "planner_score": 0.85,
+      "planner_reason": "This segment effectively bridges the rider's commentary with action, showing both explanation and execution of a jump. It captures the essence of the sport by combining technical discussion with visual demonstration, reinforcing the high-risk nature highlighted in the global summary. The transition from ground explanation to airborne action and back provides a cohesive narrative flow that is valuable for summarizing the sport's dual aspects of preparation and performance.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment contributes moderately to story progression by introducing action elements (the jump) that contrast with the explanatory commentary, advancing from pure setup to showing actual sport performance. However, it remains largely expository rather than depicting a key narrative event or major plot development."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment includes a visually striking action shot of the rider airborne against a clear blue sky, which adds highlight-worthy diversity compared to the static ground commentary. However, the majority of the segment remains focused on the rider speaking on the ground, limiting the overall visual impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment contains a mix of calm explanation and brief action, but the emotional intensity is moderate. The rider's direct address to camera maintains a controlled, explanatory tone, while the brief jump shot introduces some excitement but lacks sustained tension or strong emotional expression. The overall sentiment remains informational rather than highly charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The current segment introduces new visual content (the high-angle jump shot) not present in the previous segment, which was purely ground-level commentary. However, the core semantic content - the rider speaking to camera in protective gear on a dirt track - remains largely redundant with the previous segment. The jump action adds moderate new information about the sport's athletic aspect, but the segment still heavily overlaps with both the previous segment and the global summary's description of 'action shots interspersed with commentary'."
+        }
+      },
+      "final_score": 1.4249999999999998
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 2018,
+      "end_frame": 3027,
+      "planner_score": 0.4,
+      "planner_reason": "The current segment is a continuation of the rider's commentary/explanation, which provides context and insight into the sport, but it is visually similar to previous segments (0 and 1). Since the global summary emphasizes both commentary and action shots, including a dramatic crash, this segment's importance is moderate—it supports the narrative but lacks the high-impact, high-risk action that would make it crucial for the summary. In a sports-themed summary, dynamic action typically receives higher priority.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily features the rider giving commentary or an interview, similar to previous segments, without introducing new action, events, or narrative development. It does not advance the story or main events, such as the jumps, stunts, or crash highlighted in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment is visually consistent with previous ones, showing the rider speaking on the track, but lacks the dynamic action, diversity, or highlight-worthy moments like jumps or crashes seen earlier, making it less striking."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment primarily features a rider giving commentary in a calm, explanatory manner without visible emotional intensity, tension, or strong sentiment, similar to previous segments. The setting is neutral and lacks dramatic action or emotional cues, resulting in low emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment largely repeats the setting and action from previous segments, showing the rider in protective gear speaking on a dusty track with trees and a clear sky. It introduces no new information, instructions, or semantic content beyond what has already been established in the global summary and memory context."
+        }
+      },
+      "final_score": 0.6500000000000001
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 3027,
+      "end_frame": 4036,
+      "planner_score": 0.4,
+      "planner_reason": "The current segment shows the rider providing commentary/explanation, which is consistent with the global summary's description of interspersed commentary. However, this is a repetitive scene similar to previous segments 0, 1, and 2, all showing the same setup of the rider speaking on the track. Given the sports theme and the global summary's emphasis on action shots, jumps, stunts, and a dramatic crash, this static commentary segment has lower importance compared to action sequences. It provides context but doesn't capture the high-risk, dynamic nature highlighted in the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment shows the rider continuing his commentary/explanation in the same setting as previous segments. While it maintains narrative continuity, it does not introduce new story progression, key events, or significant plot development beyond what was already established in earlier segments. The action and dramatic elements (jumps, stunts, crash) mentioned in the global summary are not present here, making this segment primarily expository rather than advancing the main event progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is visually repetitive and lacks striking or highlight-worthy elements, as it primarily shows a static interview setup similar to previous segments, with no action, diversity, or dramatic content."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The current segment shows the rider in a static, explanatory position with calm gesturing and speaking to the camera. While there is some baseline engagement from direct address and gestures, it lacks the high-intensity action, dramatic events, or strong emotional expressions that would elevate emotional impact. Compared to previous segments that included action shots and a dramatic crash, this segment is purely commentary without visible tension, excitement, or heightened sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment provides minimal new information compared to previous segments. It repeats the same visual elements (motocross rider in full gear on dusty track, gesturing while speaking to camera) and semantic content (likely giving explanation/commentary) that were already established in segments 0, 1, and 2. No new actions, locations, or narrative developments are introduced."
+        }
+      },
+      "final_score": 0.6
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 4036,
+      "end_frame": 5045,
+      "planner_score": 0.9,
+      "planner_reason": "The current segment includes a dramatic crash, which is a key highlight of the high-risk nature of motocross sports. This adds significant action and emotional impact to the summary, making it crucial for conveying the sport's intensity.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story by transitioning from explanatory commentary to a key action event—the rider's dramatic crash. It directly showcases the 'high-risk nature of the sport' mentioned in the global summary, moving the narrative from setup to a pivotal, illustrative incident that embodies the sport's danger and intensity."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment includes a visually striking and highlight-worthy action sequence featuring a dramatic, high-flying jump followed by a violent tumble, which contrasts sharply with the previous static interview segments and emphasizes the high-risk nature of the sport, making it highly diverse and impactful."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The current segment contains a dramatic crash sequence with violent tumbling through the air, which introduces significant tension and emotional impact. While the rider's speech portion maintains moderate engagement, the crash scene elevates the emotional intensity substantially, showcasing the high-risk nature of the sport through visceral action. The contrast between the calm explanation and the sudden, violent crash creates strong emotional resonance."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The current segment introduces significant new information by depicting a dramatic crash sequence, which adds concrete risk demonstration beyond the previous segments' focus on commentary and standard jumps. While the setting and speaker remain consistent with earlier segments, the violent tumble provides new visual evidence of danger that substantiates the theme's high-risk nature mentioned in the global summary."
+        }
+      },
+      "final_score": 1.7625000000000002
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 5045,
+      "end_frame": 6054,
+      "planner_score": 0.65,
+      "planner_reason": "The segment introduces a new desert setting variation from previous tree-lined tracks, maintaining the core sports theme with action (mid-air wheelie/stunt) and explanatory commentary. While it reinforces the high-risk narrative and rider's perspective seen earlier, it doesn't introduce new critical information like the crash in segment 4, making it moderately important for visual diversity but not essential to the core summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment contributes moderately to story progression by alternating between action and commentary, but it follows a similar pattern to previous segments without introducing significant new narrative development. The desert setting provides slight variation, and the combination of stunt footage with post-event commentary maintains the established structure of illustrating the sport's risks through personal experience. However, it doesn't substantially advance the main event beyond what was already established in segment 4's crash sequence."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment contains visually striking elements including a dramatic mid-air wheelie/stunt in a desert setting, which adds diversity from previous segments that were primarily on a dusty track. The action shot is highlight-worthy as it showcases athletic skill and risk. However, it still includes similar talking-head commentary footage seen in previous segments, which slightly reduces its overall visual impact compared to a pure action sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment includes a dramatic stunt (wheelie) which conveys excitement and intensity, but the primary focus shifts to the rider's calm commentary, reducing the overall emotional intensity compared to action-only segments."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The current segment introduces a new desert setting, which provides some novel visual context compared to the previously described tree-lined tracks. However, the core semantic content remains highly similar to previous segments: a motocross rider performs a stunt (wheelie/jump) and then provides commentary while standing beside his bike. The actions (stunt followed by explanation) and narrative structure closely mirror segment 4, offering minimal new information or instruction beyond the environmental change."
+        }
+      },
+      "final_score": 1.25
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 6054,
+      "end_frame": 7063,
+      "planner_score": 0.2,
+      "planner_reason": "The current segment shows the rider speaking to the camera in a similar setting and manner as previous segments (0, 1, 2, 3, 5), which are already well-represented in the global summary. While it provides continuity and context, it does not introduce new action, stunts, or key moments like the dramatic crash or high-flying jumps highlighted in segments 4 and 5, which are more critical for capturing the high-risk, exciting nature of the sport. Therefore, its importance for the final summary is low.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment primarily shows the rider giving commentary in a static setting, similar to previous segments. While it maintains narrative continuity by depicting post-event reflection, it does not introduce new main events, action sequences, or significant plot developments. The progression is minimal as it repeats the established pattern of interview/commentary without advancing the story toward new events or resolutions."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The current segment shows a motocross rider standing and speaking to the camera in a static interview/commentary setup, which is visually similar to previous segments (0, 2, 3, 5). While the desert terrain with dirt mounds and sparse trees provides some visual variety, the segment lacks striking action, dynamic movement, or highlight-worthy moments compared to segments 1, 4, and 5 that featured jumps, stunts, or crashes. This is primarily an explanatory/commentary shot with low visual excitement relative to the sport's high-risk nature."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a calm, explanatory interview setting with the rider standing and gesturing while speaking. There is no visible action, tension, or heightened emotional expression, resulting in low emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment shows the motocross rider in protective gear speaking to the camera while gesturing, positioned next to his parked dirt bike in a dry, sandy terrain. This provides minimal new information compared to previous segments, as similar speaking/commentary scenes have been shown multiple times (segments 0, 1, 2, 3, 4, 5). The only slight novelty is the explicit mention of the parked bike beside him, which was already implied in segment 4. The setting variation (dry, sandy terrain vs. dusty track) is minor. No new actions, events, or semantic content beyond repetitive commentary setup is introduced."
+        }
+      },
+      "final_score": 0.4
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 7063,
+      "end_frame": 8073,
+      "planner_score": 0.35,
+      "planner_reason": "The current segment continues the pattern of the rider providing commentary/explanation while standing with his bike, which has been consistently shown in previous segments (0, 1, 2, 3, 5, 6). While it reinforces the interview/commentary aspect of the video, it lacks the high-action elements (jumps, stunts, crashes) that are highlighted in the global summary as key to showcasing the sport's high-risk nature. Segments 1, 4, and 5 already include similar explanatory scenes paired with action shots, making this segment somewhat redundant for a summary focused on dramatic sports highlights. Its value is primarily in maintaining narrative continuity rather than adding unique visual or thematic content.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The current segment shows the rider standing beside his bike and gesturing while speaking to the camera, which is similar to previous segments where he provides commentary or explanation. This segment does not introduce new story progression or main events; it continues the pattern of exposition rather than advancing the narrative or depicting key action sequences like jumps, stunts, or crashes that drive the story forward."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment is visually similar to previous segments featuring the rider standing and speaking, lacking dynamic action or striking visual elements. It does not introduce new highlights or diverse scenery compared to earlier segments that included jumps or crashes, making it less visually striking or highlight-worthy."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The current segment shows the rider in a static, explanatory pose beside his bike, with no action, movement, or visible emotional expression. Compared to previous segments that included dramatic jumps, stunts, or a crash, this segment lacks tension, intensity, or strong sentiment. It is primarily informational/commentary in nature, resulting in low emotional strength."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides minimal new information compared to previous segments. While it adds the specific detail of the bike being a 'red and black Honda dirt bike' and the setting as a 'dry, tree-dotted field,' the core semantic content remains identical to previous segments: a motocross rider in protective gear stands beside his bike, gesturing while speaking to the camera. This continues the established pattern of interview/commentary shots without introducing new actions, events, or instructional content beyond what has already been described in segments 0, 1, 2, 3, 5, and 6. The dramatic crash and stunt sequences from segments 4 and 5 are not present here, making this segment largely repetitive in terms of informational value."
+        }
+      },
+      "final_score": 0.6
+    }
+  ]
+}

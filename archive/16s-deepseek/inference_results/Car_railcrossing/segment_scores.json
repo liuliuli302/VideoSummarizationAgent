@@ -1,0 +1,485 @@
+{
+  "video_id": "Car_railcrossing",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 317,
+      "planner_score": 0.85,
+      "planner_reason": "This segment establishes the initial setting and tension for the story's dramatic sequence. It shows the railway crossing with active warning lights and barriers, a passing train, and a dark-colored car stopped nearby—all key elements that set up the impending crisis. While it lacks the direct collision or destruction seen later, it provides crucial context for the escalating events described in the global summary, making it important for narrative coherence.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment establishes the setting and initial conditions of the railway crossing with a train passing, which is foundational to the story's location and premise. However, it primarily depicts a normal, uneventful moment without the main conflict (the sedan stuck on the tracks) actively unfolding or escalating. It contributes to story progression by setting the scene, but does not advance the main event significantly."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment captures a visually coherent scene with clear elements of a railway crossing during a train passage, including the green train, red warning lights, barrier gate, and bystanders. While it establishes setting and tension effectively, it lacks the dramatic impact, diversity of action, or highlight-worthy moments seen in other segments of the video (like vehicle collisions or heavy object impacts). The visual composition is straightforward and serves more as setup than climax."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a routine railway crossing scene with a train passing and vehicles/people waiting. While the red warning lights and barrier create a baseline sense of caution, there is no visible emotional expression (e.g., panic, distress), heightened tension (e.g., imminent danger, conflict), or strong sentiment (e.g., anger, joy). The scene is observational and calm, with people appearing to wait normally. Compared to the dramatic events described in the global summary (cars stuck on tracks, collisions, crushing), this segment serves as a mundane establishing moment with minimal emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces the setting—a railway crossing with a passing train, warning lights, a barrier, and waiting vehicles and pedestrians—which establishes the initial scene for the story. However, it provides minimal new information or semantic content beyond this basic setup, as it lacks specific events, conflicts, or developments that advance the narrative described in the global summary."
+        }
+      },
+      "final_score": 1.225
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 317,
+      "end_frame": 634,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important for a story-themed summary as it represents a critical turning point in the narrative. While the previous segment established the initial tension with the train passing and vehicles stopped, this segment shows the black sedan beginning to move forward as the gates lift, marking the transition from the initial setup to the impending conflict. The movement of the black sedan directly connects to the global summary's description of the car becoming stuck on the tracks, making this a key moment that initiates the main dramatic sequence. The presence of pedestrians and the lifting gates create a sense of normalcy that will soon be disrupted, enhancing narrative tension.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment shows the immediate aftermath of the train passing, with the crossing gates lifting and the black sedan beginning to move, which resolves the initial stalled situation but does not introduce new conflict or escalate the main event progression. It serves as a transitional moment rather than advancing the core dramatic narrative of collisions or escalating chaos described in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a routine post-train crossing scenario with pedestrians moving and a sedan proceeding after gates lift. While it shows the resolution of a potential hazard, it lacks the intense visual drama, diversity, or highlight-worthy action seen in other parts of the video (like collisions or vehicle destruction). It is visually straightforward and serves as a transitional moment rather than a striking highlight."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment depicts a moment of transition from tension to relief, with the train passing and barriers lifting, indicating a release of built-up tension. However, the emotional expression is moderate, as the scene focuses on procedural movement rather than intense emotional displays or high drama."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment largely reiterates the setting and events described in the previous segment, including the green train passing, flashing warning lights, pedestrians, and the black sedan. The only new information is the sedan beginning to move and the gates lifting after the train passes, which adds minimal new semantic content relative to the established scene."
+        }
+      },
+      "final_score": 1.175
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 634,
+      "end_frame": 951,
+      "planner_score": 0.95,
+      "planner_reason": "This segment is critical to the story's central conflict. It directly shows the black sedan stuck on the tracks with the barrier down and warning lights active—the exact dangerous situation described in the global summary. The presence of men attempting to push the car escalates the tension and introduces human intervention, marking a key turning point from observation to active crisis. It bridges the earlier train passage and the subsequent collisions, making it essential for narrative coherence and dramatic buildup.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment directly advances the main story by depicting a critical escalation: the black sedan is now stalled on the tracks with the barrier down, creating an immediate danger. The presence of men attempting to push the car introduces active intervention, raising stakes and moving the plot toward potential collision or rescue, which is central to the narrative's progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking and highlight-worthy due to the high-stakes scenario of a sedan stuck on active railway tracks with flashing warning lights, creating immediate tension. The diversity is moderate, focusing on a single escalating event with bystander intervention, but it lacks the extreme destruction seen in later segments (e.g., vehicle crushing)."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a high-stakes, dangerous situation with clear emotional tension: a black sedan is stalled directly on railway tracks with active warning lights flashing, multiple men urgently attempting to push the vehicle while traffic is backed up. This creates a strong sense of urgency, danger, and potential crisis, though it lacks the explicit chaos or destruction seen in later segments of the global summary."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces significant new information and escalates the narrative tension. While previous segments established the railway crossing setting with a passing train and normal traffic flow, this segment reveals a critical development: the black sedan is now stalled directly on the tracks with its front end on the lowered barrier, creating an immediate danger. The presence of multiple men actively attempting to push the vehicle adds new action and urgency. The flashing warning lights and fully lowered barrier confirm an active hazardous situation, advancing the story beyond mere observation to an unfolding emergency. This represents substantial new semantic content that progresses the narrative meaningfully."
+        }
+      },
+      "final_score": 1.7875
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 951,
+      "end_frame": 1268,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it depicts the critical moment of the sedan becoming physically stuck on the railway crossing, directly triggering the central conflict of the story. It shows active human intervention (men manually lowering the barrier) and establishes the dangerous obstruction that will lead to the subsequent dramatic events. While not the climax (the actual collision or later BMW destruction), it represents the pivotal escalation point where a routine crossing situation transforms into a hazardous crisis.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "The segment directly advances the main event by depicting the sedan now stuck on the crossing with its rear wheels on a raised section, escalating the danger and disruption. The manual lowering of the barrier by men shows active human intervention to manage the crisis, marking a clear progression from the earlier stalled state to a more critical and action-oriented phase of the incident."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a critical moment where a black sedan is stuck on a railway crossing, creating a high-risk scenario. The visual elements—flashing red lights, a lowered barrier, men manually intervening, and pedestrians navigating the disruption—combine to create a striking and highlight-worthy scene. It captures tension, danger, and human response, aligning well with the dramatic theme of the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment depicts a high-stakes situation with a vehicle stuck on active railway tracks, manual intervention to lower barriers, and visible disruption, creating clear tension and urgency. However, the emotional intensity is somewhat moderated by the absence of immediate danger cues like an approaching train or overt panic, relying more on implied risk and human response."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment introduces new details about the sedan's position (rear wheels on a raised road section) and the barrier being manually lowered by men, adding specificity to the disruption. However, it largely continues the established scenario of a stuck car at a crossing without advancing the narrative or introducing new semantic content beyond incremental situational clarification."
+        }
+      },
+      "final_score": 1.625
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1268,
+      "end_frame": 1585,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is a key moment in the unfolding story, depicting the immediate aftermath of the sedan being stuck on the tracks. It captures the tension and danger of the situation with the barrier lowered and warning lights active, while bystanders gather, highlighting human reaction and escalating stakes. This scene is central to the narrative's dramatic progression.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment directly continues the main event of the sedan being stuck on the railway crossing, reinforcing the central conflict and danger, but does not introduce a new escalation or resolution, maintaining rather than advancing the plot significantly."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking due to the high-stakes scenario of a car stuck on railway tracks with a lowered barrier, creating tension and highlighting a critical moment. The composition includes dynamic elements like the blinking red warning light and a gathering crowd, which adds to the dramatic impact. However, it is somewhat repetitive compared to previous segments, slightly reducing its uniqueness and diversity."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment depicts a tense and dangerous situation with a car stuck on a railway crossing under a lowered barrier, flashing warning lights, and a gathering of onlookers, conveying urgency and concern, though the emotional intensity is moderate as the action is static and observational."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment largely reiterates the situation of a black sedan stuck on a railway crossing with a lowered barrier, onlookers, and flashing warning lights, which has been described in previous segments (especially segments 2 and 3). It adds minimal new information, such as the front end being 'wedged under' the barrier, but this is a minor detail that does not significantly advance the narrative or introduce new semantic content beyond the established context."
+        }
+      },
+      "final_score": 1.4875
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 1585,
+      "end_frame": 1902,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it represents the core crisis moment of the story. It shows the black sedan in a dangerous, stalled position on the tracks with the barrier raised—a contradictory and tense situation that heightens the drama. The gathering onlookers emphasize the public spectacle and impending danger. While it is visually and situationally similar to previous segments (2-4), it serves as a critical narrative anchor point: the vehicle is now explicitly on the tracks, escalating the risk just before the train's potential arrival. It directly sets up the subsequent collision and chaos described in the global summary, making it essential for continuity and tension building.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment shows the stalled black sedan and onlookers, maintaining the core situation but without new progression or escalation compared to previous segments where the barrier was being lowered or the car was being pushed. It reinforces the stalled state but does not advance the main event significantly."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment maintains moderate visual interest through the stalled vehicle at the railroad crossing with blinking warning lights and gathered onlookers, creating a tense atmosphere. However, it lacks significant visual diversity or striking action compared to previous segments (which showed train movement, barrier interactions, and human intervention). The scene is essentially static with minimal new visual elements, making it less highlight-worthy than earlier segments that featured more dynamic developments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment depicts a stalled vehicle on railroad tracks with a blinking warning light and gathered onlookers, creating a clear sense of tension and potential danger. However, the emotional intensity is moderate as the scene is static without immediate action or visible panic, relying on implied risk rather than overt emotional displays."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment describes a black sedan stalled on a railroad crossing with onlookers watching, which is highly redundant with the memory context. Previous segments (2, 3, 4) already established this exact scenario with similar details (stalled sedan, warning lights, barrier, onlookers, perspective from waiting vehicle). No new information, instruction, or semantic content is introduced beyond minor variations in phrasing (e.g., 'angled onto the tracks' vs. 'wedged under the barrier'). The segment essentially reiterates an already well-established situation without advancing the narrative or adding novel elements."
+        }
+      },
+      "final_score": 1.325
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 1902,
+      "end_frame": 2219,
+      "planner_score": 0.95,
+      "planner_reason": "This segment represents the critical climax of the story's central conflict - the black sedan stuck on the railway crossing with the barrier down. It captures the dangerous, tense moment where the vehicle is physically wedged under the barrier, with flashing warning lights and a gathered crowd, directly setting up the impending collision sequence described in the global summary. While similar to previous segments, this shows the most advanced stage of the incident before the actual collision occurs, making it essential for establishing the stakes and tension in the narrative progression.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment shows minimal progression from previous segments. It essentially repeats the same static situation (black sedan stuck on tracks, crowd gathered, warning lights flashing) that was already established in segments 2, 4, and 5. No new events occur, no resolution is attempted, and the story remains at the same point of tension without advancing toward either escalation or resolution. The only slight variation is the description of the front end being 'wedged under' the barrier, but this doesn't represent meaningful narrative progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment depicts a visually tense and highlight-worthy moment with a sedan stuck on railway tracks, flashing warning lights, and a gathered crowd, creating a sense of danger and disruption. However, it is highly similar to previous segments (especially 2, 4, and 5) in setting, subject, and composition, reducing its visual diversity and novelty within the overall sequence. The static perspective and repetitive scenario limit its striking impact compared to more dynamic or varied scenes in the global summary."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a high-stakes situation with a vehicle stuck on active railway tracks, flashing warning lights, and a gathered crowd, creating a palpable sense of danger and tension. While there is no overt emotional display like panic or shouting, the inherent peril of the scenario and the collective focus of the onlookers convey strong underlying tension and concern."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment largely reiterates the stalled sedan scenario already established in previous segments, adding minimal new information beyond confirming the static, observed state of the incident without progression or novel details."
+        }
+      },
+      "final_score": 1.4
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 2219,
+      "end_frame": 2536,
+      "planner_score": 0.95,
+      "planner_reason": "This segment depicts the climax of the story's central incident—the collision aftermath with visible damage and debris suspended, confirming the severity of the event. It directly resolves the escalating tension from previous segments where the sedan was stalled or stuck, providing a key narrative turning point essential for a coherent summary of the dramatic railway crossing sequence.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment represents a significant progression in the main story event by showing the aftermath of the collision between the black sedan and the railway barrier. While previous segments established the car being stuck and people gathering, this segment reveals the actual impact damage with debris suspended in the air, confirming that a collision has occurred rather than just a stall. This moves the narrative from 'potential danger' to 'actual damage and consequences,' advancing the central incident at the railway crossing. However, it doesn't introduce entirely new plot developments beyond confirming the collision that was previously implied."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the clear depiction of significant front-end damage on the sedan, the suspended debris above the hood indicating forceful impact, and the gathered crowd, which adds a dramatic human element. It represents a highlight-worthy moment as the aftermath of a collision, escalating the tension from previous segments of the car being stuck to actual damage. However, it lacks extreme diversity in setting or action compared to the broader video theme, as it remains focused on the same railway crossing incident."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts the aftermath of a collision with visible front-end damage to the sedan and debris suspended in the air, indicating a forceful impact. This creates a strong sense of tension and danger, heightened by the gathered crowd observing the scene, which conveys community concern and shock. The emotional expression is intense due to the clear physical destruction and implied risk, though it lacks active motion or immediate peril like an approaching train, slightly reducing the peak intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment introduces the specific detail of 'significant front-end damage' and 'a large piece of debris suspended in the air above the car's hood', which are new visual elements not explicitly described in previous segments. However, the core situation—a black sedan stuck at a railway crossing with a crowd observing—has been established across multiple prior segments (2, 3, 4, 5, 6). The segment does not advance the narrative or introduce new semantic content beyond detailing the damage from the collision, which is an incremental addition rather than substantial new information."
+        }
+      },
+      "final_score": 1.65
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 2536,
+      "end_frame": 2853,
+      "planner_score": 0.85,
+      "planner_reason": "This segment introduces a new, critical development in the story—a separate but similarly chaotic incident involving a blue BMW, which escalates the narrative tension and expands the scope of the dramatic events. It features aggressive human intervention (a man with a wrench), a heavy object suspended above the car, and a growing crowd, all of which heighten the stakes and emotional intensity. While it shifts focus from the black sedan, it reinforces the theme of escalating danger and bystander involvement, making it highly important for a coherent and engaging summary of the overall chaotic sequence.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "The segment depicts a new, significant incident involving a different vehicle (a blue BMW) and a separate chaotic event with aggressive human intervention, which strongly contributes to story progression by introducing a parallel or escalating conflict distinct from the stalled sedan narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is highly visually striking and highlight-worthy due to several key elements: 1) The shift from the black sedan railway crossing scenario to a new vehicle (dark blue BMW) and location creates visual diversity, 2) The large heavy object suspended above the car's hood creates dramatic tension and visual interest, 3) The aggressive man with a wrench stepping forward introduces human conflict and action, 4) The crowd gathering around the crashed vehicle maintains continuity with previous segments while escalating the chaos, 5) The concrete barrier crash represents a different type of vehicular incident than the railway crossing. While not as inherently dangerous as the train crossing segments, this scene contains more active human confrontation and physical drama, making it a highlight moment in the overall narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a high-tension scene with a crashed vehicle, a large object suspended above it, and an aggressive individual approaching with a wrench, indicating strong emotional expression through chaos, potential conflict, and bystander reactions, though it lacks explicit emotional displays like crying or shouting."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The current segment introduces a new vehicle (dark blue BMW), a new location (concrete barrier crash distinct from railway crossing), a new aggressive human action (man with wrench stepping forward), and a new object (large heavy object suspended). This represents a significant shift in the narrative, moving from the stalled black sedan scenario to a separate, chaotic incident with new characters and actions, providing substantial new semantic content."
+        }
+      },
+      "final_score": 1.725
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 2853,
+      "end_frame": 3170,
+      "planner_score": 0.85,
+      "planner_reason": "This segment represents a significant escalation in the narrative, shifting from the initial railway crossing incident to a separate, more dramatic and destructive event involving a different vehicle (blue BMW). The scene features intense action (crowd attempting to remove a massive rock), clear danger, and heightened emotional stakes (alarm, chaos), which are crucial for maintaining dramatic tension in a story-themed video. It introduces a new focal point of destruction and community response, making it highly relevant for a summary that captures key turning points and impactful moments.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story by introducing a new, intense event—the blue BMW being damaged by a massive rock and the crowd's active intervention to push it off. It shifts focus from the railway crossing incident to a separate but escalating chaotic scenario, directly contributing to the main event progression described in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the dramatic scene of a massive rock balanced on a severely damaged car, creating a high-tension moment. It introduces a new, chaotic incident distinct from the previous railway crossing events, adding diversity and highlight-worthy action with active human intervention. However, it slightly lacks the immediate shock of the initial collision or train-related peril, keeping it from a perfect score."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a highly tense and emotionally charged scene with a severely damaged vehicle, a massive rock precariously balanced on it, and active intervention by bystanders to prevent further harm. The combination of physical danger (rock potentially causing more damage/injury), visible damage to the BMW, and alarmed reactions from the crowd creates strong emotional intensity. While not as extreme as direct violence or life-threatening peril, the immediate chaos and urgent human effort elevate the emotional expression significantly above baseline tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.85,
+          "reason": "The current segment introduces a new vehicle (blue BMW), a specific cause of damage (a massive rock), and a distinct action (people actively trying to push the rock off), which are not present in the previous segments focused on the black sedan at the railway crossing. This adds significant new semantic content and shifts the narrative to a separate but related chaotic incident, enhancing the overall story's complexity."
+        }
+      },
+      "final_score": 1.7125
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 3170,
+      "end_frame": 3487,
+      "planner_score": 0.85,
+      "planner_reason": "This segment represents a critical escalation point in the narrative, transitioning from the initial railway crossing incident to a separate but thematically connected chaotic event involving the blue BMW. While the global summary already mentions this vehicle being struck by heavy objects and crushed by an excavator bucket, this segment shows the immediate aftermath and coordinated rescue effort, which adds depth to the story's progression. It maintains continuity with the previous segment's focus on the BMW and introduces new elements (rope-based rescue attempt, specific character actions) that enhance the dramatic tension. However, it doesn't introduce entirely new plot information beyond what's implied in the summary, slightly reducing its uniqueness value.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment significantly advances the story by depicting a coordinated rescue effort for the blue BMW, moving beyond mere observation to active intervention. The presence of ropes and multiple individuals working together introduces a new phase of problem-solving and escalation, directly progressing the main event from passive damage to active resolution attempts."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a highly dramatic and visually striking scene of a crashed BMW with a large object suspended above it, showing active human intervention and a tense, chaotic atmosphere. The presence of multiple individuals engaged in a coordinated effort to move the object, combined with the severe damage to the vehicle and the attentive onlookers, creates a highlight-worthy moment that is both intense and memorable within the narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a high-stakes, chaotic scene with a severely damaged vehicle, active physical intervention by multiple individuals, and a sense of urgency as bystanders watch intently. The presence of ropes and improvised efforts to move a heavy object adds tension and emotional intensity, though it lacks the immediate peril of an oncoming train seen in earlier segments."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The current segment continues the scene of the damaged blue BMW with crowd intervention, but introduces limited new information. While it adds specific details about individuals' actions (man in red striped shirt on barrier, man in dark jacket pulling ropes) and clarifies the improvised rescue effort, the core situation—crowd gathered around severely damaged BMW with heavy object suspended above—was already established in previous segments. The segment advances the narrative slightly by showing active intervention rather than just observation, but doesn't introduce fundamentally new semantic content about the overall story or incident."
+        }
+      },
+      "final_score": 1.575
+    },
+    {
+      "segment_id": 11,
+      "start_frame": 3487,
+      "end_frame": 3804,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is a key escalation in the story's progression from the railway crossing incident to the separate BMW accident sequence. It introduces a new destructive element (the tree trunk lodged in the car), which adds visual and narrative impact, showing the vehicle's cumulative damage. While it is part of a series of similar crowd-gathering moments around the BMW, it provides a distinct, concrete detail that reinforces the theme of escalating chaos and human intervention. However, it is not the climax (the excavator bucket crushing the vehicle, mentioned in the global summary, would likely be higher). The segment maintains continuity with previous BMW scenes and contributes to the overall dramatic build-up.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment introduces a new element (a large tree trunk lodged in the BMW) and shows ongoing inspection by the crowd, which adds detail to the existing chaotic incident. However, it does not significantly advance the main story progression—the BMW is already damaged and the crowd is already gathered, with no new major event, resolution, or escalation occurring here. It maintains continuity but contributes minimally to moving the narrative forward."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment is visually striking due to the dramatic and unusual sight of a large tree trunk lodged in the front of a blue BMW, which adds a novel element of destruction compared to previous segments involving rocks or debris. It maintains a high level of visual interest with an active crowd and clear damage, contributing to the highlight-worthy chaos of the video's theme. However, it is somewhat similar in composition and setting to recent segments (e.g., crowd around a damaged BMW), reducing its diversity and overall impact relative to the most extreme moments in the sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a significant accident scene with a blue BMW crashed into a concrete barrier and a large tree trunk lodged in the vehicle, indicating a high-impact collision. The presence of an actively gesturing man and a gathered crowd suggests heightened concern and engagement, though the emotional intensity is slightly lower than segments showing immediate rescue efforts or objects being moved. The scene conveys strong tension through the visible damage and collective attention, but lacks the dynamic action of previous segments involving active intervention."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment introduces a new detail (a large tree trunk lodged in the BMW) that was not explicitly mentioned in previous segments, which described the car being damaged by a rock, an excavator bucket, or colliding with a barrier. However, this detail is incremental and does not fundamentally alter the narrative established in the global summary and memory context—the scene remains a chaotic accident with bystanders gathering and inspecting damage. The segment continues the same event without introducing new instructions, significant semantic shifts, or major plot developments."
+        }
+      },
+      "final_score": 1.3625
+    },
+    {
+      "segment_id": 12,
+      "start_frame": 3804,
+      "end_frame": 4121,
+      "planner_score": 0.95,
+      "planner_reason": "This segment represents the dramatic climax of the story's escalating chaos. While previous segments showed the black sedan incident and the BMW being damaged by rocks and tree trunks, this current segment features the most destructive event yet: an excavator bucket filled with debris looming over and crushing the blue car. This is a major turning point that intensifies the narrative tension and represents a peak in the sequence of destructive events. The visual of heavy machinery involved adds a new, more dangerous dimension to the story. For a story-themed video summary, capturing this climactic moment is crucial to show the progression from initial railway crossing incident to this extreme vehicular destruction.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "The segment introduces a new, dramatic escalation in the main event progression: the blue BMW is now partially submerged in a trench with an excavator bucket looming over it, indicating a significant shift from previous impacts (rock, tree trunk) to a more severe, potentially catastrophic situation involving heavy machinery. This directly advances the story by heightening danger and urgency, moving the incident toward a potential climax or resolution, and maintaining strong continuity with the ongoing chaotic scene."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is visually striking and highlight-worthy due to the dramatic and unusual nature of the scene. The large excavator bucket filled with dirt and debris looming over the partially submerged blue car creates a powerful visual contrast and sense of impending danger. The partial submersion of the vehicle in a deep trench adds an element of environmental destruction not seen in previous segments. While the crowd gathering maintains continuity with earlier segments, the scale of machinery involved (excavator bucket) and the vehicle's compromised position make this particularly memorable. The scene represents an escalation from previous impacts (rock, tree trunk) to industrial-scale destruction, though it lacks the immediate kinetic action of some earlier collision moments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.95,
+          "reason": "The segment depicts a highly intense and dramatic moment with a large excavator bucket looming over a partially submerged car, indicating imminent danger and potential destruction. The presence of a crowd reacting with gestures and a man actively intervening adds to the urgency and emotional tension, aligning with the escalating chaos from previous segments."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.85,
+          "reason": "The segment introduces a new, critical development in the incident involving the blue BMW: the vehicle is now partially submerged in a trench with an excavator bucket poised above it, indicating a shift from previous impacts (rock, tree trunk) to a more severe, excavation-related scenario. This adds significant new semantic content about the escalation and nature of the damage, though it continues the broader theme of vehicular chaos and crowd response seen in prior segments."
+        }
+      },
+      "final_score": 1.8375
+    },
+    {
+      "segment_id": 13,
+      "start_frame": 4121,
+      "end_frame": 4438,
+      "planner_score": 0.95,
+      "planner_reason": "This segment represents the climactic moment of destruction in the story's escalating sequence of vehicle damage. Following the initial railway crossing incident with the black sedan, the narrative shifts to the blue BMW's progressive destruction by increasingly heavy objects (rock, tree trunk, now excavator). This segment shows the final, most dramatic impact—the excavator actively crushing the car—which serves as the visual and narrative peak of the destruction sequence. It provides resolution to the BMW's storyline while maintaining thematic continuity with the earlier railway incident through the themes of vehicular accidents, crowd reactions, and escalating chaos. The segment's high visual intensity and clear progression toward a climax make it essential for a coherent and impactful summary of the story's dramatic arc.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "The current segment depicts a major escalation in the secondary incident involving the blue BMW, where the excavator bucket actively crushes the vehicle. This represents a clear progression from previous segments showing the car being struck by objects (rock, tree trunk) to a more destructive, deliberate demolition phase, advancing the story's chaotic climax."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "This segment is exceptionally visually striking and highlight-worthy. It features dynamic, destructive action as a large excavator bucket repeatedly strikes and crushes a car, creating intense visual impact with the forceful demolition. The scene includes multiple compelling elements: dramatic machinery in motion, visible destruction of the vehicle, and reactive bystanders filming the event. Compared to previous segments showing static or aftermath scenes, this segment captures the peak action moment with clear progression and heightened visual intensity. The combination of mechanical force, structural damage, and human reaction creates a powerful, memorable visual sequence that stands out as a key highlight within the overall narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.9,
+          "reason": "The segment depicts intense and destructive action with the excavator bucket repeatedly striking and crushing the car, creating a high level of tension and emotional impact through physical destruction and the crowd's reactive filming, indicating strong emotional expression and escalating danger."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The current segment introduces significant new information by depicting the active demolition of the blue car with an excavator bucket, which is a distinct escalation from previous segments that showed the car already damaged or being inspected. This represents a new phase in the narrative—from accident aftermath to intentional destruction—adding substantial semantic content about the progression of events."
+        }
+      },
+      "final_score": 1.8375
+    },
+    {
+      "segment_id": 14,
+      "start_frame": 4438,
+      "end_frame": 4755,
+      "planner_score": 0.95,
+      "planner_reason": "This segment represents the climactic moment of the BMW destruction sequence within the larger story. It shows the excavator bucket actively crushing the vehicle, which is the most visually dramatic and destructive action in the entire video. For a story-themed summary, this high-intensity action serves as a key turning point or resolution to the BMW subplot, providing emotional impact and visual payoff. While the railway crossing incident establishes the initial tension, this segment delivers the most forceful and memorable destruction, making it crucial for narrative impact and viewer engagement.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment represents a major climax in the story progression, showing the final destructive impact of the excavator bucket on the blue BMW. It serves as the culmination of the escalating destruction sequence that began with the rock and tree trunk impacts, providing a definitive resolution to the vehicle's destruction arc. The forceful crushing action creates a clear turning point where the car's fate is sealed, advancing the narrative from chaotic intervention to definitive conclusion."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "This segment is exceptionally visually striking and highlight-worthy. It features a dramatic, high-impact moment where a large excavator bucket filled with dirt and debris forcefully crushes a blue car's hood and bumper. The action is dynamic and destructive, creating a powerful visual spectacle. The presence of a crowd watching and filming adds to the scene's intensity and human interest. Compared to previous segments that showed static or slow-developing situations (cars stuck on tracks, crowds gathering), this segment delivers a clear, dramatic climax with visible destruction and motion, making it one of the most visually compelling moments in the sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.95,
+          "reason": "The segment depicts a highly dramatic and destructive event where an excavator bucket forcefully impacts and crushes a car, with bystanders witnessing the destruction. This creates intense visual tension and conveys strong emotions of shock, chaos, and destruction, amplified by the active crowd presence and the forceful mechanical action."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment describes the excavator bucket impacting and crushing the blue car's hood and bumper, which is a continuation of the destructive action from segment 13. While it adds a slight emphasis on the forceful impact and dramatic nature, the core event (excavator crushing car) was already established in the previous segment. Therefore, it provides minimal new information or semantic content beyond reinforcing the ongoing demolition."
+        }
+      },
+      "final_score": 1.7
+    },
+    {
+      "segment_id": 15,
+      "start_frame": 4755,
+      "end_frame": 5075,
+      "planner_score": 0.95,
+      "planner_reason": "This segment represents the climactic moment of destruction in the BMW subplot, where the excavator actively crushes the vehicle. In a story-themed video, such moments of peak action and irreversible change are crucial for narrative impact and emotional payoff. The segment shows the culmination of escalating damage to the BMW (following rocks, tree trunks, etc.), providing a definitive, visually striking resolution to that sequence. It also maintains continuity with the crowd's reaction, reinforcing the communal witness to the chaos. While slightly repetitive with the previous excavator strikes, the specific focus on the crushing action and the man inspecting the damage adds a layer of consequence and human response, making it highly valuable for a summary that aims to capture the story's dramatic arc and key turning points.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment represents a major escalation in the destructive progression of the main event involving the blue BMW. While earlier segments showed the car being struck by various objects (rock, tree trunk), this segment depicts the excavator bucket actively crushing the vehicle's front end, marking a significant advancement in the demolition sequence. The presence of a man inspecting the damage adds a moment of assessment within the ongoing destruction, contributing to the narrative progression of the vehicle's systematic dismantling."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking and highlight-worthy due to the dramatic action of the excavator bucket actively crushing the car's front end, which represents a peak moment of destruction and physical transformation. The presence of the crowd observing and the man leaning in to inspect adds human scale and engagement to the scene. While similar to the previous two segments in theme, this specific moment shows the aftermath of the impact with the bucket pressing down, offering a slightly different phase of the destructive sequence that maintains high visual interest."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a highly destructive and dramatic event with the excavator bucket actively crushing the car's front end, creating strong visual tension and a sense of destruction. The presence of a crowd observing and a man inspecting the damage adds to the emotional weight of the scene, conveying shock, concern, or morbid fascination. While slightly less intense than the previous segment's repeated striking motion, the ongoing crushing action and visible damage maintain significant emotional impact and tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment shows the excavator bucket pressing down on the car's front end, which is highly similar to the destructive action described in the previous segments (13 and 14). While it adds a slight variation with the man in a grey shirt inspecting the damage, the core event—the excavator crushing the car—is already well-established in the memory context. Therefore, it provides minimal new information or semantic content beyond reinforcing the ongoing demolition scene."
+        }
+      },
+      "final_score": 1.625
+    }
+  ]
+}

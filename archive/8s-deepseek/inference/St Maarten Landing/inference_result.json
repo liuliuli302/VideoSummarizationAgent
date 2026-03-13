@@ -1,0 +1,599 @@
+{
+  "video_id": "St Maarten Landing",
+  "video_info": {
+    "video_id": "St Maarten Landing",
+    "video_path": "/root/autodl-tmp/datasets/SumMe/videos/St Maarten Landing.mp4",
+    "fps": 25.0,
+    "total_frames": 1751
+  },
+  "planner_plan": {
+    "video_theme": "landscape",
+    "global_summary": "A scenic video capturing a tranquil tropical beach with turquoise waters and clear skies, where beachgoers witness and record the dramatic low-altitude approach and landing of a KLM Boeing 747 airplane, followed by its taxiing at the nearby airport.",
+    "expert_weights": {
+      "story_agent": 0.25,
+      "visual_agent": 0.25,
+      "emotion_agent": 0.25,
+      "information_agent": 0.25
+    },
+    "reason": "The video is predominantly a landscape scene focusing on a beautiful beach setting with vivid descriptions of water, sky, and scenery. While there is a recurring event (airplane landing) that creates a narrative thread, the primary emphasis remains on the visual beauty and atmosphere of the location. The visual analyst receives the highest weight due to the strong descriptive focus on colors, scenery, and composition. The context interpreter is weighted second highest because the video combines natural scenery with an unusual aviation event, requiring interpretation of the setting and activity. Narrative detector and engagement evaluator receive lower but meaningful weights, as there is a sequence of observation and reaction to the airplane, but it's more of an atmospheric experience than a structured story or highly interactive content."
+  },
+  "captions": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 218,
+      "caption_frame_indices": [
+        0,
+        72,
+        145,
+        217
+      ],
+      "caption": "On a bright, sunny beach with clear turquoise waters and a vast blue sky, two people are seen enjoying the tranquil coastal scene. One person sits on the sand near a closed blue and white beach umbrella, while the other stands at the water’s edge, holding up a phone or camera to capture photos or videos of the horizon. The camera pans slightly, keeping the standing person in frame as they continue to take pictures, highlighting the peaceful, idyllic atmosphere of a perfect beach"
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 218,
+      "end_frame": 436,
+      "caption_frame_indices": [
+        218,
+        290,
+        363,
+        435
+      ],
+      "caption": "A person stands at the edge of a vibrant turquoise beach, gazing out at the calm ocean under a vast, clear blue sky, with a distant airplane visible overhead."
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 436,
+      "end_frame": 654,
+      "caption_frame_indices": [
+        436,
+        508,
+        581,
+        653
+      ],
+      "caption": "A person on a tropical beach watches in awe as a large airplane descends for landing, its silhouette growing larger against the vast blue sky and turquoise ocean."
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 654,
+      "end_frame": 872,
+      "caption_frame_indices": [
+        654,
+        726,
+        799,
+        871
+      ],
+      "caption": "An airplane descends for landing, growing larger in the frame as it approaches, before receding into the distance over a vibrant turquoise ocean, as beachgoers watch from the shore."
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 872,
+      "end_frame": 1090,
+      "caption_frame_indices": [
+        872,
+        944,
+        1017,
+        1089
+      ],
+      "caption": "On a sunny beach with turquoise waters, several people watch in awe as a large passenger airplane flies low over the ocean, descending for landing."
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 1090,
+      "end_frame": 1308,
+      "caption_frame_indices": [
+        1090,
+        1162,
+        1235,
+        1307
+      ],
+      "caption": "A KLM Boeing 747 makes a low, dramatic flyover over a vibrant turquoise beach, drawing the attention of onlookers who capture the moment with their phones as the massive aircraft descends perilously close to the shoreline."
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 1308,
+      "end_frame": 1526,
+      "caption_frame_indices": [
+        1308,
+        1380,
+        1453,
+        1525
+      ],
+      "caption": "A KLM Boeing 747 makes a low, dramatic pass over a beachside road, with people watching in awe, before taxiing away behind a fence toward the airport terminal, set against a backdrop of lush hills and a partly cloudy sky."
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 1526,
+      "end_frame": 1751,
+      "caption_frame_indices": [
+        1526,
+        1601,
+        1675,
+        1750
+      ],
+      "caption": "Through a chain-link fence topped with barbed wire, a commercial airplane is seen taxiing on an airport runway, with smoke or exhaust visible near its rear. The scene is set against a backdrop of rolling green hills under a cloudy sky, and the camera pans slightly to the right, bringing a white fence post into closer view before the image becomes heavily pixelated."
+    }
+  ],
+  "segment_scores": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 218,
+      "planner_score": 0.3,
+      "planner_reason": "The segment establishes the tranquil beach setting and introduces beachgoers, which is relevant to the overall theme. However, it lacks the dramatic airplane event that is central to the global summary, making it more of a scene-setting segment rather than a key moment.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment establishes the tranquil beach setting and introduces characters who appear to be ordinary beachgoers, but it does not yet introduce or progress the main event of the airplane's dramatic approach and landing. While it sets the scene and shows anticipation (through the person recording), it contributes minimally to actual story progression at this point."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment depicts a tranquil beach scene with people enjoying the environment, which is visually pleasant but lacks the dramatic or highlight-worthy elements present in the global summary (e.g., the low-altitude approach of a Boeing 747). While the turquoise waters and clear sky are striking, the action is limited to people relaxing and taking photos, making it less diverse or exceptional compared to the anticipated airplane event."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a tranquil beach scene with people calmly enjoying the environment and taking photos, conveying a peaceful and idyllic atmosphere. While there is a mild positive sentiment associated with leisure and beauty, there is no strong emotional expression, tension, or dramatic sentiment present."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces the beach setting and two individuals, establishing the scene and their activities (sitting, taking photos). However, it does not introduce the key event of the airplane landing, which is the main informational highlight of the global summary. Therefore, it provides only basic scene-setting information without advancing the core narrative."
+        }
+      },
+      "final_score": 0.6000000000000001
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 218,
+      "end_frame": 436,
+      "planner_score": 0.4,
+      "planner_reason": "This segment establishes the tranquil beach setting and introduces the airplane as a distant element, which is relevant to the global summary's mention of the dramatic low-altitude approach. However, it is primarily atmospheric setup; the airplane is not yet the dramatic focal point, and the key action (approach, landing, taxiing) has not begun. It provides context but is less critical than segments showing the plane's close approach or landing.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "This segment introduces a new element (the distant airplane) that hints at future story progression, but the airplane is still far away and the scene remains primarily focused on the tranquil beach setting. The person's gaze toward the airplane suggests anticipation, but the actual event progression toward the dramatic landing hasn't yet begun."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment features a visually appealing tropical beach setting with vibrant turquoise water and clear skies, which is aesthetically pleasing. However, it lacks significant dynamic action or unusual elements; the distant airplane is a minor detail that does not yet create a striking or highlight-worthy moment compared to the expected dramatic landing event described in the global summary."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a tranquil beach scene with a person gazing at the ocean and a distant airplane. While there is a sense of calm appreciation, the emotional expression is subtle and understated, lacking intense sentiment or dramatic tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces a new element—a distant airplane—which adds some new visual information not explicitly mentioned in the previous segment. However, the overall scene (person at beach edge, turquoise water, clear sky) largely reiterates the established setting, providing minimal additional semantic content or narrative progression."
+        }
+      },
+      "final_score": 0.75
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 436,
+      "end_frame": 654,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it marks the transition from a tranquil beach scene to the dramatic core event of the video: the low-altitude approach and landing of the large airplane. It directly introduces the key subject (the descending airplane) and the human reaction ('watches in awe'), which are central to the global summary. While the previous segments established the peaceful setting and hinted at an airplane's presence, this segment explicitly shows the airplane's descent, making it a critical narrative turning point for a 'landscape' theme video that features a unique, event-driven spectacle.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "This segment introduces the airplane's descent for landing, which is a key event in the overall narrative of the KLM Boeing 747's approach and landing. While it builds anticipation and marks a shift from the tranquil beach setting to the impending dramatic event, it is still in the early stages of the main event progression, showing the plane descending rather than the full landing sequence."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "The segment is highly visually striking and highlight-worthy due to the dramatic, low-altitude approach of a large airplane (likely the KLM Boeing 747) against a scenic tropical backdrop of turquoise ocean and blue sky, creating a powerful contrast and focal point. The awe of the observer enhances the emotional impact, making it a standout moment in the video's narrative of a tranquil beach interrupted by an unexpected aviation spectacle."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment introduces a moment of awe and dramatic tension as the airplane descends, contrasting with the previous tranquil beach scenes, but the emotional intensity is moderate as it remains a passive observation without heightened personal or urgent reactions."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces significant new information by explicitly describing the airplane's descent for landing, which adds a dynamic event to the previously static beach scene, enhancing the narrative with action and scale."
+        }
+      },
+      "final_score": 1.6374999999999997
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 654,
+      "end_frame": 872,
+      "planner_score": 0.85,
+      "planner_reason": "This segment captures the core dramatic event of the video—the airplane's descent and landing—which is central to the global summary. While similar to previous segments, it provides a more complete depiction of the landing sequence, including the airplane growing larger and receding, enhancing the narrative of the unusual beachside aviation event. However, some visual redundancy with prior segments slightly reduces its unique importance.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "This segment significantly advances the story's main event progression by depicting the airplane's descent and approach for landing, which is the central dramatic action of the video. While the previous segments established the setting and initial sighting, this segment shows the key moment of the plane's descent, growing larger as it approaches, creating narrative momentum toward the anticipated landing. The beachgoers' observation from shore connects the landscape setting to the unfolding event, making this a pivotal moment in the story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking and highlight-worthy due to the dramatic low-altitude approach of the Boeing 747, which creates a compelling focal point against the vibrant turquoise ocean and clear sky. The dynamic growth and recession of the airplane in the frame, combined with the presence of beachgoers watching, enhance the sense of spectacle and engagement. However, it is slightly less diverse than earlier segments that focused more on tranquil beach scenes, as it centers on a single, albeit dramatic, event."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment features a dramatic airplane descent and landing, which introduces a sense of awe and excitement among the beachgoers, contrasting with the tranquil beach setting. However, the emotional intensity is moderate as the focus remains on observation rather than intense personal reactions or high tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces the airplane's descent and approach, which is new compared to the previous segments that only mention the airplane as a distant or growing silhouette. However, this information is partially anticipated from the global summary and memory context, reducing its novelty. The scene remains consistent with the established setting and actions, offering limited additional semantic content."
+        }
+      },
+      "final_score": 1.5499999999999998
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 872,
+      "end_frame": 1090,
+      "planner_score": 0.8,
+      "planner_reason": "The current segment is highly important as it captures the core dramatic event of the video—the low-altitude approach of the airplane—which is the central, unique, and climactic moment of the landscape theme. It directly advances the narrative from setup to payoff, showing multiple beachgoers reacting to the plane's descent, enhancing emotional engagement and visual spectacle. While not the final landing or taxiing, it is a key transitional and action-focused segment that is essential for the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment directly depicts the main event progression—the airplane's low-altitude descent for landing—which is central to the story of beachgoers witnessing an unusual aviation event. It advances the narrative by showing the airplane's approach in greater detail and the collective reaction of multiple observers, building on previous segments that introduced the airplane's presence and initial descent."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking and highlight-worthy due to the dramatic low-altitude approach of a large passenger airplane over a scenic tropical beach. The combination of the airplane's imposing presence against the vibrant turquoise waters and clear sky, along with the visible awe of beachgoers, creates a compelling and dynamic scene. While the airplane's descent is a recurring theme from previous segments, this moment captures it prominently with multiple observers, enhancing its visual impact and narrative significance within the landscape theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.8,
+          "reason": "The segment depicts a strong emotional response of awe and excitement from multiple beachgoers as they witness a large passenger airplane flying low and descending for landing, which introduces a dramatic and tense moment into the otherwise tranquil beach setting, elevating the emotional intensity significantly."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment reiterates the core event of a large airplane descending for landing over a tropical beach, which has been consistently described in previous segments (segments 1, 2, and 3). While it adds minor details like 'several people watch in awe' and 'flies low over the ocean,' these are incremental and do not introduce significant new information or semantic content beyond the established narrative."
+        }
+      },
+      "final_score": 1.4875
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 1090,
+      "end_frame": 1308,
+      "planner_score": 0.95,
+      "planner_reason": "This segment is the climax of the video, featuring the dramatic low-altitude flyover of the specific aircraft (KLM Boeing 747) mentioned in the global summary. It directly captures the core event—the airplane's perilously close approach to the shoreline—while showing the onlookers' reactions and documentation, which aligns perfectly with the summary's focus. Given the landscape theme, it combines the scenic beach setting with the unique, action-oriented spectacle, making it highly essential for a concise summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment represents the climax of the story progression - the dramatic low-altitude flyover of the KLM Boeing 747 directly over the beach. While previous segments showed the airplane approaching and descending, this segment captures the most intense moment where the aircraft is 'perilously close to the shoreline,' creating maximum dramatic tension and fulfilling the central narrative established in the global summary. The specific identification of the airline (KLM) and aircraft type (Boeing 747) adds concrete detail to the main event, and the onlookers' active documentation with phones reinforces the significance of this moment as the peak of the story's progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "The segment is highly visually striking and highlight-worthy due to the dramatic low-altitude flyover of a large Boeing 747 over a vibrant turquoise beach, creating a powerful contrast between the massive aircraft and the serene landscape. It captures a unique, attention-grabbing moment with onlookers actively recording, enhancing its appeal as a key highlight in the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment features a dramatic low-altitude flyover of a large aircraft, which introduces significant tension and awe. The description includes terms like 'dramatic,' 'perilously close,' and emphasizes the massive scale of the aircraft, all of which heighten emotional intensity. While the setting remains a tranquil beach, the sudden, imposing presence of the plane creates a strong contrast that evokes excitement and surprise in the onlookers, as evidenced by their active engagement in capturing the moment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment provides some new specific details (KLM Boeing 747 identification, 'perilously close to the shoreline' description, and explicit mention of onlookers capturing with phones), but the core semantic content—a large airplane descending low over a tropical beach while beachgoers watch—has been established in previous segments (2, 3, 4). The new information is incremental rather than fundamentally novel relative to the video's ongoing narrative."
+        }
+      },
+      "final_score": 1.725
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 1308,
+      "end_frame": 1526,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it completes the narrative arc of the airplane's journey from dramatic low-altitude approach to final taxiing at the airport. It provides closure by showing the plane's transition from the beach environment to the airport infrastructure, while maintaining the visual contrast between the natural landscape and human-made aviation. The inclusion of people watching and the backdrop of lush hills reinforces the landscape theme while documenting the full event sequence.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment depicts the airplane taxiing away after landing, which is a direct continuation of the main event (the plane's approach and landing). It provides a concluding element to the progression by showing the plane's movement toward the terminal, advancing the story from the dramatic flyover to its post-landing phase. However, it is less climactic than the actual landing moment, so it contributes significantly but not maximally."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment is visually striking and highlight-worthy due to the dramatic low-altitude pass of the KLM Boeing 747 over a beachside road, which is a rare and captivating sight. The inclusion of people watching in awe adds human interest and scale, while the backdrop of lush hills and a partly cloudy sky enhances the scenic diversity compared to previous segments. The taxiing action provides a dynamic conclusion to the landing sequence, making it a key moment in the video's narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a dramatic low-altitude pass of a Boeing 747 over a beachside road, with people watching in awe, which conveys strong emotional expressions of excitement, awe, and tension due to the proximity of the massive aircraft. The sentiment is heightened by the contrast between the serene landscape backdrop and the intense aviation event."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment introduces new semantic content by describing the airplane taxiing away behind a fence toward the airport terminal and setting the scene against lush hills and a partly cloudy sky, which adds details about the post-landing phase and environmental context not explicitly covered in previous segments. However, the core event of the low airplane pass and onlookers' reactions has been established in prior segments, limiting the novelty."
+        }
+      },
+      "final_score": 1.6375000000000002
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 1526,
+      "end_frame": 1751,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment shows the airplane taxiing after landing, which is a continuation of the narrative but less visually dramatic than the low-altitude beach flyover. For a landscape-themed summary, the scenic beach and dramatic flyover are more central to capturing the unique juxtaposition of natural beauty and human engineering. This segment provides closure but is less essential than the core visual moments.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment shows the airplane taxiing after landing, which is a continuation of the main event sequence but represents a deceleration in narrative momentum. It provides closure to the landing progression seen in prior segments, yet lacks the dramatic action or direct engagement with beachgoers that drove earlier story progression. The pixelation and static fence view further reduce its dynamic contribution."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment is visually less striking and diverse compared to previous segments, as it lacks the dramatic low-altitude airplane approach and vibrant beach scenery. It shows a commercial airplane taxiing behind a fence with some exhaust, set against green hills and a cloudy sky, but the composition is obstructed and ends with pixelation, reducing its highlight-worthy impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "The segment shows minimal emotional expression or tension. It depicts a commercial airplane taxiing behind a fence in a routine airport operation, with no visible human subjects expressing emotion. The scene is observational and procedural rather than emotionally charged, lacking the awe, excitement, or tension present in earlier segments featuring the dramatic low-altitude flyover. The pixelation at the end further detracts from emotional engagement. While the barbed wire fence adds a slight element of separation or restriction, it does not significantly heighten emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces the airplane taxiing on the runway, which is a new visual detail (e.g., the chain-link fence, barbed wire, exhaust smoke) not explicitly shown in previous segments. However, this action is already implied in the global summary and memory context (e.g., taxiing after landing), so it adds limited new semantic content beyond confirming or extending that known event."
+        }
+      },
+      "final_score": 0.5625
+    }
+  ],
+  "frame_scores": [
+    0.6000000000000001,
+    0.6000000000000001,
+    0.6000000000000001,
+    0.6000000000000001,
+    0.6000000000000001,
+    0.6000000000000001,
+    0.6000000000000001,
+    0.6000000000000001,
+    0.6000000000000001,
+    0.6000000000000001,
+    0.6000000000000001,
+    0.6000000000000001,
+    0.6000000000000001,
+    0.6000000000000001,
+    0.6000000000000001,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    0.75,
+    1.6374999999999997,
+    1.6374999999999997,
+    1.6374999999999997,
+    1.6374999999999997,
+    1.6374999999999997,
+    1.6374999999999997,
+    1.6374999999999997,
+    1.6374999999999997,
+    1.6374999999999997,
+    1.6374999999999997,
+    1.6374999999999997,
+    1.6374999999999997,
+    1.6374999999999997,
+    1.6374999999999997,
+    1.5499999999999998,
+    1.5499999999999998,
+    1.5499999999999998,
+    1.5499999999999998,
+    1.5499999999999998,
+    1.5499999999999998,
+    1.5499999999999998,
+    1.5499999999999998,
+    1.5499999999999998,
+    1.5499999999999998,
+    1.5499999999999998,
+    1.5499999999999998,
+    1.5499999999999998,
+    1.5499999999999998,
+    1.5499999999999998,
+    1.4875,
+    1.4875,
+    1.4875,
+    1.4875,
+    1.4875,
+    1.4875,
+    1.4875,
+    1.4875,
+    1.4875,
+    1.4875,
+    1.4875,
+    1.4875,
+    1.4875,
+    1.4875,
+    1.725,
+    1.725,
+    1.725,
+    1.725,
+    1.725,
+    1.725,
+    1.725,
+    1.725,
+    1.725,
+    1.725,
+    1.725,
+    1.725,
+    1.725,
+    1.725,
+    1.725,
+    1.6375000000000002,
+    1.6375000000000002,
+    1.6375000000000002,
+    1.6375000000000002,
+    1.6375000000000002,
+    1.6375000000000002,
+    1.6375000000000002,
+    1.6375000000000002,
+    1.6375000000000002,
+    1.6375000000000002,
+    1.6375000000000002,
+    1.6375000000000002,
+    1.6375000000000002,
+    1.6375000000000002,
+    0.5625,
+    0.5625,
+    0.5625,
+    0.5625,
+    0.5625,
+    0.5625,
+    0.5625,
+    0.5625,
+    0.5625,
+    0.5625,
+    0.5625,
+    0.5625,
+    0.5625,
+    0.5625,
+    0.5625
+  ],
+  "frame_score_picks": [
+    0,
+    15,
+    30,
+    45,
+    60,
+    75,
+    90,
+    105,
+    120,
+    135,
+    150,
+    165,
+    180,
+    195,
+    210,
+    225,
+    240,
+    255,
+    270,
+    285,
+    300,
+    315,
+    330,
+    345,
+    360,
+    375,
+    390,
+    405,
+    420,
+    435,
+    450,
+    465,
+    480,
+    495,
+    510,
+    525,
+    540,
+    555,
+    570,
+    585,
+    600,
+    615,
+    630,
+    645,
+    660,
+    675,
+    690,
+    705,
+    720,
+    735,
+    750,
+    765,
+    780,
+    795,
+    810,
+    825,
+    840,
+    855,
+    870,
+    885,
+    900,
+    915,
+    930,
+    945,
+    960,
+    975,
+    990,
+    1005,
+    1020,
+    1035,
+    1050,
+    1065,
+    1080,
+    1095,
+    1110,
+    1125,
+    1140,
+    1155,
+    1170,
+    1185,
+    1200,
+    1215,
+    1230,
+    1245,
+    1260,
+    1275,
+    1290,
+    1305,
+    1320,
+    1335,
+    1350,
+    1365,
+    1380,
+    1395,
+    1410,
+    1425,
+    1440,
+    1455,
+    1470,
+    1485,
+    1500,
+    1515,
+    1530,
+    1545,
+    1560,
+    1575,
+    1590,
+    1605,
+    1620,
+    1635,
+    1650,
+    1665,
+    1680,
+    1695,
+    1710,
+    1725,
+    1740
+  ],
+  "output_dir": "outputs/inference_results/St Maarten Landing"
+}

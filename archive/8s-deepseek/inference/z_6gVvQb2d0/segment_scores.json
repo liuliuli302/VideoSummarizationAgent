@@ -1,0 +1,245 @@
+{
+  "video_id": "z_6gVvQb2d0",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 1035,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment directly establishes the core setting and atmosphere described in the global summary: a sunny, tree-lined (here palm-lined) street filled with cheering spectators watching a procession led by motorcycles and police. It captures the celebratory public event context, the key visual elements (crowds, police escort, parade vehicles), and the overall triumphant mood, making it highly important for introducing the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment establishes the setting and introduces the parade procession, which is the core event of the global summary. It directly contributes to story progression by depicting the main event's initiation, including key elements like the crowd, motorcycles, and police escort, setting the stage for the celebratory atmosphere."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking and highlight-worthy due to its vibrant depiction of a celebratory sports parade, featuring dynamic elements like motorcycles, police escorts, and a large, engaged crowd in a sunny, palm-lined setting, which captures the festive and triumphant atmosphere typical of championship celebrations. However, it lacks the explicit trophy or player focus mentioned in the global summary, slightly reducing its diversity and peak highlight impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment depicts a celebratory parade with a cheering crowd and a procession, conveying a positive and festive sentiment. However, the emotional intensity is moderate as the focus is on the visual spectacle rather than extreme expressions of joy or tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment introduces the setting and initial elements of the parade (sunny street, crowd, motorcycles, police bikes), but it largely reiterates information already covered in the global summary, such as the celebratory atmosphere, spectators, and procession details. It adds minimal new semantic content beyond confirming the event's location and basic structure."
+        }
+      },
+      "final_score": 1.475
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1035,
+      "end_frame": 2070,
+      "planner_score": 0.65,
+      "planner_reason": "The current segment shows the core parade procession with motorcyclists and engaged spectators, which aligns with the global summary's description of a celebratory sports championship parade. However, it lacks the key elements that make the event specifically triumphant - the trophy, the players, and the fire truck mentioned in the global summary. This segment establishes the parade setting and crowd atmosphere but doesn't capture the championship-specific celebratory elements that would make it highly important for the final summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment introduces motorcyclists and spectator engagement, but it largely reiterates the parade setup from the previous segment without advancing the core story of the championship celebration, such as introducing the trophy or players, thus offering minimal progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking and highlight-worthy due to its dynamic parade setting with motorcyclists in motion, active crowds cheering and taking photos, and a sunny, tree-lined street enhancing the festive atmosphere. However, it lacks the trophy or fire truck elements from the global summary, slightly reducing its diversity and peak celebratory impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment depicts a celebratory parade with spectators watching and taking photos, which conveys positive sentiment and excitement. However, the emotional expression is moderate rather than intense; there is visible crowd engagement but no overt displays of strong emotion like cheering, jumping, or intense celebration visible in this specific segment description. The tension is low as it's a peaceful parade scene."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment largely reiterates the setting and elements already established in the global summary and previous segment, such as the sunny day, tree-lined street, motorcyclists, and spectators. It adds minimal new information, primarily reinforcing the parade atmosphere without introducing significant new semantic content, instructions, or details beyond what is already known."
+        }
+      },
+      "final_score": 1.175
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 2070,
+      "end_frame": 3105,
+      "planner_score": 0.6,
+      "planner_reason": "The segment shows a police car with flashing lights, which reinforces the official and celebratory nature of the parade described in the global summary. However, it is somewhat redundant with previous segments that already established police presence and crowd scenes. It adds minor visual variety but does not introduce new key elements (like the trophy or players) crucial to the championship celebration theme.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment shows a police car with flashing lights driving down the street, which maintains the parade's procession but does not introduce significant new narrative elements or advance the main event beyond what was already established in previous segments (motorcycles, police escorts, crowds). It continues the existing celebratory atmosphere without adding notable progression to the story or key events."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows a police car with flashing lights driving down a street with spectators, which is visually standard for a parade escort. While it maintains the celebratory context, it lacks the striking visual elements seen in other segments (like trophy displays, fire trucks, or prominent player interactions). The scene is functional rather than highlight-worthy on its own, serving primarily as transitional footage within the parade sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment features a police car with flashing lights and a gathered crowd, which introduces a mild sense of official presence and public attention, contributing to a baseline level of engagement. However, compared to the celebratory and triumphant atmosphere described in the global summary and previous segments, this scene lacks overt emotional expressions like cheering, trophy displays, or intense festivity, resulting in a moderate emotional strength."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment introduces a police car with flashing lights, which adds a new element of official presence and potential urgency to the parade scene. However, it largely reiterates the established setting of a tree-lined street and crowd of onlookers, offering minimal new semantic content beyond reinforcing the event's organized nature."
+        }
+      },
+      "final_score": 1.0
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 3105,
+      "end_frame": 4140,
+      "planner_score": 0.4,
+      "planner_reason": "The current segment shows a police car leading a procession with spectators recording, which is consistent with the celebratory parade theme. However, this scene is highly repetitive with previous segments (especially segment 2) showing similar police escort and crowd recording activity. While it reinforces the parade atmosphere, it doesn't introduce new key elements like the trophy, players, or fire truck mentioned in the global summary, making it less critical for inclusion in a concise final summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily depicts a police car leading a procession with onlookers filming, which maintains the parade setting but does not introduce new key story elements like the trophy, players, or explicit celebration. It reinforces the event's ongoing nature but lacks progression toward the championship victory climax described in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a police car leading a procession with spectators recording, which has some visual interest due to the active filming and public event context. However, compared to the global summary's description of trophy displays, cheering crowds, and fire trucks, this segment is relatively routine. It lacks the striking visual elements of championship trophies, player celebrations, or diverse parade vehicles that would make it more highlight-worthy. The scene is consistent with the parade theme but represents a standard procession moment rather than a peak celebratory highlight."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment shows moderate emotional engagement with the crowd actively recording the procession, indicating interest and participation in the event. However, compared to the celebratory parade described in the global summary, this segment lacks the overt expressions of triumph, cheering, trophy displays, and festive atmosphere that would indicate stronger emotional intensity. The emotional expression here is more observational and curious rather than overtly celebratory."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides minimal new information compared to the global summary and memory context. While it adds the specific detail of people raising phones to record (which was implied but not explicitly stated in previous segments), the core elements—police car driving down a tree-lined street, crowds gathering, and the procession context—are already established in the global summary and previous segments. The segment essentially reiterates the parade setting without introducing significant new semantic content, instructions, or narrative progression."
+        }
+      },
+      "final_score": 0.7625
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 4140,
+      "end_frame": 5175,
+      "planner_score": 0.95,
+      "planner_reason": "This segment is highly important as it directly captures the climax of the celebration—the trophy presentation and the enthusiastic crowd reaction. It provides key narrative elements (the trophy, victory celebration, festive atmosphere) that are central to the sports theme and the global summary, making it essential for inclusion in the final summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story by explicitly revealing the purpose of the parade: a major victory celebration. The key element is the large, gleaming trophy being held aloft in the truck bed, which directly connects the event to a sports championship win. This transforms the scene from a generic parade to a specific, climactic celebration, providing crucial narrative closure and fulfilling the theme indicated in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment is highly visually striking and highlight-worthy as it captures the climax of the celebration with the trophy prominently displayed, enthusiastic crowd interaction, and a clear focal point that embodies the theme of victory and triumph."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a highly emotional celebratory moment with enthusiastic waving, cheering crowds, and the prominent display of a championship trophy. The combination of visible excitement from both participants and spectators, along with the symbolic trophy presentation, creates a strong sense of triumph and collective joy. However, the emotional intensity is slightly moderated by the parade's structured nature rather than spontaneous outbursts."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.85,
+          "reason": "The current segment introduces significant new information by explicitly identifying the event as a victory celebration with a trophy being displayed, which was not mentioned in previous segments. It adds specific details about the black pickup truck's role, the trophy, and the celebratory actions of the occupants, enhancing the semantic content beyond the general parade description."
+        }
+      },
+      "final_score": 1.825
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 5175,
+      "end_frame": 6210,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment is highly important as it directly captures the core celebratory moment of the sports championship parade—a player prominently displaying the trophy to the cheering crowd. While similar to previous segments in setting and atmosphere, it provides a clearer, more focused view of the trophy and the victorious athlete, reinforcing the key narrative of triumph. It adds emotional weight and visual confirmation of the victory, making it essential for a concise summary that highlights the peak of the celebration.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "The current segment directly showcases the central event of the victory celebration—a player prominently displaying the championship trophy on the parade vehicle. This is a key moment in the story progression, as it visually confirms the achievement being celebrated (the sports championship victory) and serves as a focal point for the crowd's excitement. While the parade setting and crowd presence are consistent with previous segments, this segment adds the critical narrative element of the trophy presentation, advancing the main event from 'a parade is happening' to 'this is specifically a championship victory parade.'"
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "This segment is the visual climax of the championship celebration, featuring the key moment where a player proudly displays the large trophy to the cheering crowd. The composition centers on the trophy and celebrating player, creating a clear focal point of triumph. The scene captures the culmination of the victory celebration with high emotional intensity, diverse visual elements (trophy, player, crowd reactions, police presence), and represents the most highlight-worthy moment of the entire parade sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.95,
+          "reason": "The segment captures the peak celebratory moment of the parade, with a player prominently displaying the championship trophy to cheering crowds. This direct visual of victory achievement, combined with the festive setting and explicit mention of 'triumphant atmosphere,' creates a strong emotional expression of joy, pride, and collective celebration."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment provides minimal new information compared to the global summary and memory context. While it confirms the sports championship celebration theme and describes the player with trophy, truck procession, and festive atmosphere, these elements are already well-established in previous segments and the global summary. The only slight additions are the specific mention of a 'player seated atop a truck' (rather than just 'person' in previous descriptions) and 'police officer in uniform visible nearby,' but these are minor details that don't substantially advance the narrative or introduce new semantic content beyond what has already been established about this celebratory parade."
+        }
+      },
+      "final_score": 1.625
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 6210,
+      "end_frame": 7245,
+      "planner_score": 0.35,
+      "planner_reason": "While the segment shows a police officer interacting with individuals in the parade setting, it represents a peripheral interaction rather than a core celebratory moment. The global summary emphasizes the triumphant procession, trophy display, and crowd celebration. This segment focuses on a specific, non-central interaction that doesn't advance the main narrative of championship victory celebration. It lacks the trophy visibility, player prominence, or large crowd engagement that characterizes the most important moments. However, it does provide some contextual detail about event management and police presence.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment shows a peripheral interaction involving a police officer and individuals on a grassy area, which does not directly advance the main narrative of the celebratory parade or the display of the trophy. It adds minor contextual detail but lacks progression in the core story event."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows a police officer interacting with a small group of men in a residential area, which lacks the visually striking, diverse, or highlight-worthy elements seen in previous parade segments. Compared to the trophy displays, cheering crowds, and festive procession, this scene is relatively static and mundane, focusing on a minor interaction rather than the celebratory spectacle."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment shows a police officer interacting with individuals in a public setting, which introduces some tension compared to the purely celebratory parade scenes. However, the emotional intensity is moderate—there's no overt conflict, aggression, or strong sentiment visible. The gestures and interaction suggest a possible confrontation or discussion, but it lacks high drama or clear emotional peaks. The sunny setting and parade context temper the tension, keeping it from being highly charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment introduces a new focal point of a police officer interacting with individuals in a grassy area, which is a specific interpersonal detail not previously emphasized in the parade's broader celebratory procession. However, this detail is minor and does not significantly expand the overall narrative or semantic content of the sports championship victory parade, as the core theme and main elements (trophy, cheering crowds, vehicles) remain unchanged."
+        }
+      },
+      "final_score": 0.625
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 7245,
+      "end_frame": 8281,
+      "planner_score": 0.7,
+      "planner_reason": "This segment reinforces the core celebratory parade theme with key elements (fire truck, police escort, cyclists, cheering crowds) that align with the global summary. However, it doesn't introduce new critical information beyond previous segments that already established the trophy, victory celebration, and parade atmosphere. The fire truck adds minor novelty but doesn't significantly advance the narrative beyond what segments 4-5 already captured.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment introduces a fire truck and cyclists, adding variety to the parade elements, but it does not significantly advance the core story of the championship celebration or reveal new key events (like trophy presentation or player interactions) already established in previous segments. It maintains the festive atmosphere but contributes minimally to narrative progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment maintains the visually striking elements of the championship parade with diverse vehicles (cyclists, red fire truck, police car) and enthusiastic spectators in a sun-drenched setting. However, it lacks the trophy display or player interactions that made previous segments more highlight-worthy, making it visually appealing but not the most memorable moment of the celebration."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment maintains a strong celebratory emotional tone consistent with the overall theme of a sports championship victory parade. Key emotional indicators include: the festive procession with cyclists, fire truck, and police escort; the sun-drenched setting creating a positive atmosphere; spectators actively engaged along palm-lined sidewalks; and the explicit description of a 'festive, community-oriented celebration.' While slightly less emotionally intense than segments featuring trophy displays or more overt crowd cheering, it still conveys clear joy, community pride, and triumph through the procession's composition and the spectators' presence."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment introduces a red fire truck and cyclists, which are new elements not explicitly mentioned in the global summary or recent memory context. However, the core theme of a celebratory sports parade with police escorts, spectators, and a festive atmosphere remains consistent, and the trophy display (a key semantic element) is not present here. Thus, it adds some incremental visual detail but limited new semantic content."
+        }
+      },
+      "final_score": 1.2625
+    }
+  ]
+}

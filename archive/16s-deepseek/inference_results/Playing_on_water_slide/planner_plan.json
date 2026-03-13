@@ -1,0 +1,12 @@
+{
+  "video_id": "Playing_on_water_slide",
+  "video_theme": "general",
+  "global_summary": "The video captures a lively outdoor event where children and some adults enjoy playing on a large, colorful, multi-lane inflatable water slide. Participants are seen climbing up, sliding down into a splash pool, waiting their turn, and playing in the water on a sunny day. Brief shots show the surrounding grassy yard, a tipped-over chair, a bicycle, and a boy with a temporary tattoo walking toward the camera, suggesting a casual, fun-filled family or community gathering.",
+  "expert_weights": {
+    "story_agent": 0.25,
+    "visual_agent": 0.25,
+    "emotion_agent": 0.25,
+    "information_agent": 0.25
+  },
+  "reason": "The video is a general recording of an outdoor water play event, not strongly fitting a specific theme like story, tutorial, or vlog. Key analysis needs include: detecting sliding, climbing, and running actions (action_detection); identifying outdoor park/yard settings (scene_detection); recognizing inflatable structures, pool, and objects like chairs/bicycles (object_detection); inferring joy and excitement from facial expressions and play (emotion_recognition); observing group play and turn-taking (social_interaction); and potentially reading warning labels or other text (text_recognition). Weights reflect the emphasis on dynamic activities and scene context over narrative or instructional elements."
+}

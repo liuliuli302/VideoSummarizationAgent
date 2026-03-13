@@ -1,0 +1,485 @@
+{
+  "video_id": "Fire Domino",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 100,
+      "planner_score": 0.3,
+      "planner_reason": "The segment shows the sculpture in its intact, static state before ignition. While it establishes the subject and intricate design, it lacks the dynamic, climactic action (ignition and burning) that defines the video's core narrative. In a general theme summary focused on the dramatic transformation, this setup segment has moderate importance for context but lower priority than the fire sequence.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily establishes the sculpture's static, intricate appearance without depicting any action or change that advances the story toward ignition or fire, which are the main events described in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment features a visually intricate and well-crafted sculpture with a spiraling, layered design and contrasting red tips, making it striking and highlight-worthy. However, it lacks diversity or dynamic elements, as it remains static and unchanged throughout, reducing its overall impact compared to more varied or action-packed segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a static, intricate sculpture made of toothpicks with red tips, described as 'completely still across the frames.' There is no motion, action, or visible emotional expression; the scene is calm and stationary. The emotional intensity is minimal, deriving only from the potential tension suggested by the red tips (which might resemble match heads) and the anticipation of future ignition mentioned in the global summary. However, in this specific segment, no dramatic or emotional events occur, resulting in a low score for emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The segment introduces the main subject—an intricate, spiraling sculpture made of wooden toothpicks with red tips—which is central to the video's theme. It provides significant new visual and descriptive information about the sculpture's appearance, setting, and static state, establishing the foundation for the subsequent action of ignition described in the global summary."
+        }
+      },
+      "final_score": 0.8
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 100,
+      "end_frame": 200,
+      "planner_score": 0.2,
+      "planner_reason": "The current segment shows the sculpture before ignition, which is visually similar to the previous segment. While it establishes the starting state of the structure, it does not depict the key transformative event (the fire) that is central to the global summary. Therefore, its importance for the final summary is moderate but lower than segments showing the ignition or burning process.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment shows the sculpture in a static state, identical to the previous segment, with no new action or progression in the story. It merely reiterates the initial setup without advancing the main event of ignition or fire, contributing minimally to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment is visually intricate and well-composed, with a clear, detailed structure and decorative red-tipped pattern, but it lacks dynamic movement, dramatic changes, or highlight-worthy action, as it remains static and uneventful, not capturing the striking or intense moments implied by the global summary."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment depicts a static, intricate sculpture with no movement, action, or dynamic elements. The description emphasizes stillness and a decorative pattern, lacking any visible emotional expression, tension, or sentiment. The absence of human presence, narrative, or dramatic cues results in minimal emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment provides almost no new information compared to the previous segment. Both describe essentially the same static, intricate sculpture made of wooden toothpicks/matchsticks with red tips arranged in a spiraling pattern on a white surface. The only minor differences are semantic variations in phrasing (e.g., 'helix-like pattern' vs 'spiraling, layered structure'), but the visual content and informational value are identical. No progression, new details, or additional semantic content is introduced."
+        }
+      },
+      "final_score": 0.375
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 200,
+      "end_frame": 300,
+      "planner_score": 0.95,
+      "planner_reason": "This segment represents the pivotal action that transforms the video from static observation to dynamic event—the ignition of the sculpture. It directly initiates the dramatic climax described in the global summary (the structure being consumed by fire), making it essential for narrative progression and viewer engagement. In a general theme video, such a key moment of change and spectacle carries high importance for summary inclusion.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 1.0,
+          "reason": "This segment directly initiates the main event progression by depicting the ignition of the sculpture, which is the pivotal action that transitions the narrative from static construction to dynamic destruction, driving the story forward."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "The segment is highly visually striking and highlight-worthy as it captures the pivotal moment of ignition, transforming a static sculpture into a dynamic, intense fire spectacle with dramatic flames and motion."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.9,
+          "reason": "The segment features a deliberate ignition of a matchstick structure, creating immediate and intense visual and emotional impact through the spread of fire, which evokes tension, excitement, and a sense of dramatic transformation."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The current segment introduces significant new information and semantic content by depicting the action of igniting the sculpture, which transitions the scene from a static display to a dynamic event of combustion, a key development in the video's narrative."
+        }
+      },
+      "final_score": 1.8875
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 300,
+      "end_frame": 400,
+      "planner_score": 0.95,
+      "planner_reason": "This segment captures the core dramatic event of the video—the ignition and rapid spread of fire through the matchstick sculpture. It directly follows the initial lighting and shows the fire engulfing the entire structure, which is the climax of the sequence. In a general theme video, such visually intense and transformative moments are highly important for summarizing the key action and outcome.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment directly depicts the core progression of the main event—the ignition and rapid spread of fire through the matchstick tower. It shows the transition from the initial lighting (previous segment) to the full engulfment of the structure, which is the central dramatic action of the video. The fire's downward spread marks a significant advancement in the story, moving toward the climax of total consumption."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "The segment features a visually striking and highlight-worthy event: the rapid, bright spread of fire down the spiral matchstick tower, creating dynamic motion, intense light, and dramatic transformation, which is highly engaging and central to the video's climax."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.95,
+          "reason": "The segment depicts a dramatic and intense fire engulfing a spiral tower of matchsticks, with rapid flame spread and bright, growing fire, conveying strong emotional expression through tension, excitement, and visual intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The current segment introduces significant new information by depicting the active progression of the fire, specifically the rapid downward spread of flames engulfing the entire matchstick structure, which is a key dynamic event not shown in previous segments that focused on static setup or initial ignition."
+        }
+      },
+      "final_score": 1.875
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 400,
+      "end_frame": 500,
+      "planner_score": 0.95,
+      "planner_reason": "This segment captures the peak intensity and climax of the video—the full engulfment of the spiral matchstick structure in roaring flames. It represents the dramatic payoff of the setup (construction) and ignition shown in previous segments, making it highly important for a summary that conveys the core event: the spectacular burning of the sculpture.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment represents the climax of the story's progression, showing the complete and intense consumption of the matchstick structure by fire. It directly advances the main event from ignition to full conflagration, serving as the dramatic peak where the sculpture is actively being destroyed by the flames that were initiated in previous segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment is highly visually striking and highlight-worthy due to the intense, roaring flames engulfing the entire spiraling matchstick structure, creating a dramatic and dynamic spectacle. The bright fire against the plain background enhances visual contrast and focus, making it a key moment in the video's progression from construction to destruction."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.95,
+          "reason": "The segment depicts the peak of the fire's intensity, with roaring flames fully engulfing the structure. The visual description emphasizes brightness, active consumption, and upward climbing motion, all of which convey a strong sense of dramatic tension and release. Compared to previous segments where the fire was just starting or spreading, this represents the emotional climax of the sequence."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment shows the fire continuing to consume the matchstick tower, which is a continuation of the action described in previous segments 2 and 3. While visually intense, it does not introduce new information, instructions, or semantic content beyond the ongoing combustion process already established."
+        }
+      },
+      "final_score": 1.6875
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 500,
+      "end_frame": 600,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment depicts the fire burning intensely within the spiraling structure, which is a key moment in the narrative progression from ignition to full combustion. While it continues the burning phase shown in previous segments, the description of flames 'licking upwards' and casting a 'flickering glow' adds visual intensity and atmospheric detail that enhances the dramatic climax. However, since the ignition and initial spread have already been covered, this segment is slightly less critical than the ignition moment but still highly important for showing the peak of the fire's intensity.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment shows the fire at its peak intensity within the spiraling structure, representing a key progression point in the main event—the burning of the sculpture. While it continues the established fire sequence, it depicts the fire fully consuming the structure rather than just spreading, advancing the narrative toward its conclusion."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "The segment features intense, dynamic fire engulfing a unique spiral structure, creating a visually striking and highlight-worthy scene with dramatic lighting and contrast against a dark background, representing a peak moment in the video's progression."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.95,
+          "reason": "The segment depicts intense, roaring flames consuming a structure in a dark environment, creating high visual drama and tension through the contrast of light and shadow, with the fire's dynamic movement and the caption's emphasis on 'intensely' and 'flickering glow' amplifying emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment continues the established narrative of a burning spiral structure, but introduces minor new details such as the description of the structure as 'ladder-like' and the 'dark environment' with a 'flickering glow.' However, the core event—intense fire consuming the structure—remains consistent with previous segments, offering limited new semantic content."
+        }
+      },
+      "final_score": 1.5750000000000002
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 600,
+      "end_frame": 700,
+      "planner_score": 0.8,
+      "planner_reason": "The current segment continues the core action of the fire consuming the spiral structure, which is the climax of the video. While it shows similar visual content to previous burning segments (3-5), it maintains high importance as part of the sustained dramatic payoff. However, it doesn't introduce new narrative elements or represent the final resolution, slightly reducing its uniqueness compared to the initial ignition (segment 2) or the eventual aftermath implied in the global summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment continues the established progression of the fire consuming the structure, but it does not introduce a new narrative development or advance the story beyond what was already shown in previous segments (ignition, spread, full engulfment). The fire is still actively consuming the material, which maintains continuity, but the scene is visually similar to segments 3, 4, and 5, offering minimal additional progression toward the final outcome (the pile of burning matches)."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment features bright, dancing flames and warm illumination, which are visually striking and highlight-worthy. However, it is similar to previous segments showing the fire's progression, reducing its diversity and novelty within the overall sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.9,
+          "reason": "The segment depicts a spiral structure engulfed in bright, dancing flames with upward movement and warm illumination, indicating intense and dynamic fire activity. This represents a strong emotional expression of tension and dramatic transformation, consistent with the escalating intensity from previous segments, though slightly less than the peak roaring flames of segment 4."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment continues to depict the same burning spiral structure, with flames consuming the material, which has been consistently described in previous segments (2-5). While it provides slight variation in describing the flames as 'dancing' and the illumination as 'warm orange light,' the core semantic content—fire engulfing the structure—is redundant with prior information, offering minimal new information."
+        }
+      },
+      "final_score": 1.3250000000000002
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 700,
+      "end_frame": 800,
+      "planner_score": 0.95,
+      "planner_reason": "The current segment represents the climax of the video's narrative arc—the structure is fully engulfed in vigorous flames, which is the dramatic culmination of the ignition and burning process described in the global summary. While similar to previous burning segments, its intensity and the 'glowing intensely' description suggest it captures the peak of the fire's visual impact, making it highly important for conveying the core event of the video.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment continues to depict the burning of the spiral structure, which is part of the main event progression (the fire consuming the sculpture). However, it shows minimal new progression compared to previous segments (e.g., segments 3-6 already established the fire spreading and intensifying), offering little advancement in the story beyond maintaining the ongoing fire state."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment continues the established visual theme of a burning spiral structure, maintaining high intensity and brightness with vigorous flames and a warm, orange-hued background. However, it lacks diversity or novelty compared to previous segments (3-6), which already depicted similar stages of the fire consuming the structure. While visually striking due to the fire's brightness and motion, it does not introduce new highlights or significant visual variation, reducing its standout quality within the sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.95,
+          "reason": "The segment depicts vigorous burning with intense flames and a warm, glowing background, indicating high emotional intensity through dramatic visual tension and vivid sentiment of destruction and energy."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment continues to depict the burning spiral structure, which is highly consistent with the previous segments (especially 4, 5, and 6) that already described the fire consuming the matchstick tower. It adds minimal new information beyond reinforcing the ongoing combustion and visual intensity, with no new actions, instructions, or semantic developments."
+        }
+      },
+      "final_score": 1.3625
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 800,
+      "end_frame": 900,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment continues to depict the burning spiral structure, which is visually similar to the previous several segments (segments 3-7). While it shows the climax of the video's main event (the fire consuming the sculpture), it offers minimal new narrative progression or unique visual information compared to the immediately preceding context. The segment is important for maintaining continuity in the burning sequence but is redundant for a concise summary, as the key actions of ignition and intense burning have already been established.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The current segment shows the ongoing burning of the matchstick structure, which is a continuation of the main event (the fire consuming the sculpture) but does not introduce new progression. It maintains the climax phase without advancing the story toward resolution or introducing significant changes compared to previous segments (segments 3-7 already depicted the fire spreading and intensifying). The segment contributes minimally to story progression as it represents a sustained state rather than a narrative development."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment features a visually striking and highlight-worthy scene with intense, bright orange flames consuming a tall spiral structure, creating dynamic lighting and dramatic visual appeal. However, it shows moderate diversity compared to previous segments, as similar burning spiral structures have been observed in segments 3-7, though the current segment emphasizes the scale ('countless matchsticks') and illumination of the surroundings."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.9,
+          "reason": "The segment depicts intense, bright orange flames consuming a tall matchstick structure, creating a dramatic and visually striking scene. The fire's vigorous burning and illumination of the surroundings convey strong emotional intensity and tension, consistent with the escalating climax of the video's theme of destruction by fire."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment continues to depict the burning spiral matchstick structure, which has been consistently described in previous segments (especially 4-7) as being engulfed in flames. It introduces minimal new information beyond slight variations in phrasing (e.g., 'countless matchsticks,' 'illuminating the surrounding area'), but the core semantic content—intense fire consuming the structure—remains highly redundant with prior context."
+        }
+      },
+      "final_score": 0.8
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 900,
+      "end_frame": 1000,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment depicts the climax of the video where the spiraling matchstick structure is fully engulfed in flames, burning vigorously. This represents the dramatic culmination of the ignition sequence shown in previous segments, making it highly important for the summary as it captures the most visually intense and memorable moment of the transformation from sculpture to fire.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment depicts the ongoing burning of the spiral matchstick tower, which is a continuation of the main event (the fire consuming the structure). However, it does not introduce a new stage or significant progression in the story; it is essentially a repetition of the fire's progression shown in previous segments, contributing minimally to advancing the narrative beyond the established state of the structure being engulfed."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment depicts a visually striking and highlight-worthy event—a spiraling tower of matches burning vigorously. However, compared to previous segments, this scene shows a similar visual pattern of fire consuming the structure, lacking significant diversity or new dynamic elements, which reduces its uniqueness within the sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.95,
+          "reason": "The segment depicts a tall, spiraling matchstick tower engulfed in vigorous flames, burning from the top down. This represents the peak of the fire's intensity, with strong visual and emotional impact due to the bright, consuming flames and the dramatic destruction of the intricate structure, creating high tension and vivid emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment describes the same ongoing event—a spiraling matchstick tower burning intensely—that has been consistently depicted in the previous segments. It introduces no new actions, developments, or semantic details beyond what has already been established, such as the fire's direction or any novel visual elements, resulting in minimal new information."
+        }
+      },
+      "final_score": 1.3375
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 1000,
+      "end_frame": 1100,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment depicts the climax of the fire consuming the spiral matchstick tower, which is the central dramatic event of the video. While it is visually similar to several preceding segments (segments 3-9), it represents the sustained, intense burning phase that is essential to the narrative of construction and destruction. For a general theme summary, this key destructive moment is highly important, though its uniqueness is reduced due to repetition in recent segments.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment continues to depict the same stage of the fire's progression as previous segments, showing the structure burning intensely from the top down. While it maintains the established narrative of the fire consuming the matchstick tower, it does not introduce new developments or advance the story beyond what has already been shown in segments 3-9. The visual elements and action remain consistent with earlier segments, offering minimal additional contribution to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment continues the established visual theme of a burning spiral matchstick structure, offering a consistent but repetitive depiction of intense flames and consumption. While the fire is visually striking with bright orange and yellow flames, it lacks diversity compared to previous segments and does not introduce new highlights or significant visual progression beyond what has been shown."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.9,
+          "reason": "The segment depicts intense, bright orange and yellow flames consuming the structure, with dynamic fire movement and a focus on the destructive yet visually striking process, conveying strong emotional intensity and tension through the dramatic visual of the burning tower."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment continues to depict the same burning spiral matchstick tower, with minimal new information beyond slight variations in flame description and background lighting, which are repetitive and do not introduce significant new semantic content compared to the previous segments."
+        }
+      },
+      "final_score": 1.25
+    },
+    {
+      "segment_id": 11,
+      "start_frame": 1100,
+      "end_frame": 1200,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment shows the culmination of the fire's progression as it transitions from consuming the matchstick sculpture to engulfing a woven basket, representing a dramatic climax and conclusion to the sequence of burning structures. While it's a new object being consumed, it maintains thematic continuity with the intense fire motif and provides a visually striking endpoint to the narrative arc of destruction by fire.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment introduces a new object (woven basket) unrelated to the established spiral matchstick tower narrative, representing a discontinuity rather than progression of the main event. While it continues the theme of fire consumption, it does not advance the specific story of the matchstick sculpture's destruction."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the dramatic eruption of flames from the basket's base, creating a sudden and intense visual change compared to the previous segments of the spiral matchstick tower burning. The fire's rapid climb and illumination of the area add highlight-worthiness. However, the diversity is moderate as it continues the theme of fire consuming a structure, though the shift from a spiral tower to a woven basket introduces a new object type."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.95,
+          "reason": "The segment depicts a dramatic and intense fire erupting from a woven basket, with flames rapidly climbing and consuming the material, creating a vivid, high-energy visual. This represents a peak in emotional intensity through destruction and illumination, consistent with the escalating tension from previous segments, though slightly less structured than the spiral tower's controlled burn."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The current segment introduces a new object (a woven basket) and a distinct phase of the fire event, shifting from a matchstick spiral to a basket being consumed, which provides significant new semantic content and visual information not present in previous segments focused solely on the matchstick structure."
+        }
+      },
+      "final_score": 1.5499999999999998
+    },
+    {
+      "segment_id": 12,
+      "start_frame": 1200,
+      "end_frame": 1300,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows the climax of the fire sequence where a woven basket is fully engulfed in flames, representing the culmination of the combustion process that began with the matchstick sculpture. While thematically consistent with the previous burning structures, it shifts from the original matchstick sculpture to a different object (basket), making it slightly less central to the core narrative of the matchstick sculpture's destruction. The dramatic visual intensity and continuation of the fire theme maintain high importance for the summary, but the object change reduces perfect continuity.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment shows a burning basket, which is visually similar to the previous burning matchstick structures but represents a different object. While it continues the theme of combustion and dramatic fire, it does not advance the specific story of the matchstick sculpture's progression from construction to consumption. The basket appears as a separate element rather than a direct continuation of the matchstick tower's narrative, offering minimal contribution to the main event progression established in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the dramatic fire engulfing the woven basket, with bright, dancing flames cascading down its sides creating a focused and intense scene of combustion. While the fire element is consistent with previous segments, the change from matchstick spirals to a woven basket structure provides some visual diversity. The illumination of the textured basket surface against the dark background enhances the visual impact, making it highlight-worthy as a distinct combustion event within the overall video narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a woven basket engulfed in bright, dancing flames, which creates a dramatic and intense visual of combustion. The fire is described as burning intensely and illuminating the scene, contributing to a strong sense of tension and emotional impact. However, the emotional expression is primarily visual and lacks human or narrative elements, slightly limiting its depth compared to segments with more explicit emotional cues."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment shows a woven basket burning, which introduces a new object (basket vs. matchstick sculpture) and a different texture/material being consumed by fire. However, the core semantic content of 'structure burning intensely' has been extensively covered in previous segments (segments 2-11 all depict various burning structures). The main novelty is the specific object type and its woven texture, but the fundamental action and visual theme remain highly similar to what has been shown repeatedly."
+        }
+      },
+      "final_score": 1.3499999999999999
+    },
+    {
+      "segment_id": 13,
+      "start_frame": 1300,
+      "end_frame": 1400,
+      "planner_score": 0.8,
+      "planner_reason": "This segment represents the culmination of the fire's progression, showing the final state of the burning matches as a concentrated pile of flames. While it lacks the dramatic height and structure of previous segments, it provides closure to the combustion sequence and demonstrates the complete consumption of the matches. The intense, focused fire serves as a satisfying conclusion to the transformation from intricate sculpture to pure flame.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment represents the culmination of the story's progression from construction to complete consumption. While previous segments showed the burning spiral structure in various stages, this segment shows the final state - the structure has collapsed into a pile of burning matches, indicating the completion of the main event progression. The fire continues intensely, but the transformation from intact sculpture to consumed pile marks a significant narrative endpoint in the sequence."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a visually striking fire with bright, dancing flames, which is inherently highlight-worthy. However, compared to previous segments featuring the dramatic, spiraling tower engulfed in flames, this scene is less diverse and visually impressive—it's a smaller, contained fire on the floor rather than a large, structured burn. The plain background and simpler composition reduce its overall visual impact relative to the earlier, more dynamic segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.8,
+          "reason": "The segment depicts an intense, vigorous fire with bright, dancing flames consuming a pile of matches, which conveys strong visual and emotional intensity. However, compared to previous segments showing larger, more dramatic structures engulfed in flames, this fire is smaller in scale and confined to a pile on the floor, slightly reducing the overall dramatic impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment shows a fire burning a pile of matches, which is consistent with the ongoing theme of combustion from previous segments. However, it introduces a new compositional element—a pile of matches on the floor rather than a standing structure—and depicts a later stage of the fire where the structure has collapsed into debris. This provides some incremental semantic content about the aftermath, but the core action of burning matches is highly repetitive with prior segments, limiting the amount of truly new information."
+        }
+      },
+      "final_score": 1.4
+    },
+    {
+      "segment_id": 14,
+      "start_frame": 1400,
+      "end_frame": 1500,
+      "planner_score": 0.3,
+      "planner_reason": "This segment shows the aftermath of the main event—the burning of the spiral sculpture—and focuses on the residual fire from the consumed matches. While visually engaging, it is less critical than earlier segments that captured the ignition, spread of flames, and structural collapse. In a general-theme summary, it adds atmospheric closure but is redundant after multiple similar fire-focused segments.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment shows the aftermath of the main event—the burning of the spiral sculpture—and focuses on the residual fire from a pile of matches. While it continues the theme of combustion, it does not advance the story or main event progression significantly, as the climax (ignition and full engulfment of the structure) has already occurred in previous segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the vibrant, dynamic flames with bright colors and motion, creating a highlight-worthy focal point. However, compared to previous segments showing the dramatic burning of intricate structures, this scene is more static and focused solely on the fire itself, reducing diversity and overall impact slightly."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.9,
+          "reason": "The segment features a vibrant, dancing flame with dynamic motion, crackling sounds implied, and a warm, intense glow that dominates the frame, creating a strong sense of energy and emotional intensity through the mesmerizing and consuming fire."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment continues the theme of fire consuming matches, which has been extensively covered in previous segments. While it provides a detailed visual description of the flame's appearance and motion, it introduces no new information, instruction, or significant semantic content beyond the established pattern of burning matches."
+        }
+      },
+      "final_score": 0.8375000000000001
+    },
+    {
+      "segment_id": 15,
+      "start_frame": 1500,
+      "end_frame": 1612,
+      "planner_score": 0.1,
+      "planner_reason": "The current segment shows the aftermath of the fire—a small flame over charred material—which is less dramatic and less informative than previous segments showing the sculpture's construction, ignition, and peak burning. It represents the conclusion of the event but adds minimal new narrative or visual value to the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "This segment depicts the aftermath of the main event—a small flame burning over charred remains—which contributes minimally to story progression. The climax of ignition and rapid fire spread has already occurred, and this scene represents the concluding, diminishing phase with no new developments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment features a small, intense flame over charred material, which is visually striking due to the warm glow and dynamic fire. However, compared to previous segments with large, spiraling structures engulfed in dramatic flames, this scene is less diverse and highlight-worthy, as it shows a smaller, more contained fire in a dim space, reducing its overall visual impact and novelty within the video's progression."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment depicts a small, intense flame with a warm glow, which conveys a sense of warmth and focus, but compared to previous segments featuring large, roaring fires engulfing entire structures, the emotional intensity and dramatic tension are significantly reduced. The fire is contained and less dynamic, resulting in a moderate emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment shows a small, intense flame over charred material, which continues the theme of fire consuming the structure but provides minimal new information. The semantic content—a fire burning in a dim space—is highly similar to the previous segments (especially 13 and 14) that already depicted a pile of burning matches. There is no new instruction, action, or structural change; it merely persists in showing the aftermath of the fire with slight variation in setting (more enclosed space). Thus, it adds very little new information relative to the established narrative of the sculpture being consumed by flames."
+        }
+      },
+      "final_score": 0.325
+    }
+  ]
+}

@@ -1,0 +1,485 @@
+{
+  "video_id": "sTEELN-vY30",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 279,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it provides the core visual evidence of the accident's aftermath, showing the damaged car, the train, emergency responders, and the news helicopter. It captures the severity of the incident and the immediate response, which are central to the news report's narrative.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly contributes to story progression by providing key visual and descriptive details of the main event—the train-car collision aftermath. It establishes the location, severity of the accident, and the immediate response, which are central to advancing the narrative from the initial incident report to the ongoing emergency handling."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment features compelling aerial and ground-level footage of a dramatic accident scene, including a severely damaged red car wedged between a train and highway, emergency responders in action, and a news helicopter visible overhead. This creates a visually striking and highlight-worthy scene with strong news value and clear visual diversity through multiple perspectives."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.8,
+          "reason": "The segment depicts a serious accident with a severely damaged car and emergency response, conveying tension and concern through the visual aftermath and active scene, though it lacks intense personal emotional displays like grief or panic."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The segment provides substantial new information by detailing the specific location (Douglasville, Georgia), the nature of the accident (a red car wedged between a train and a highway), the presence of emergency responders (police, tow trucks), and the documentation method (news helicopter). It adds specific visual and contextual details not fully captured in the global summary, enhancing the understanding of the incident's severity and response."
+        }
+      },
+      "final_score": 1.7125
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 279,
+      "end_frame": 558,
+      "planner_score": 0.85,
+      "planner_reason": "This segment provides critical visual and contextual information for the news report. It shows the actual collision scene from an aerial perspective, captures emergency response in action, and adds geographical context with a map graphic pinpointing the exact location (intersection of East Broad Street and Mozley Street). The inclusion of on-site reporter coverage enhances credibility and immediacy. While it builds upon the previous segment's establishment of the scene, it adds new layers of specificity and reporter presence that are essential for a comprehensive news summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment significantly advances the story by providing key contextual details: it introduces a map graphic to pinpoint the exact location (intersection of East Broad Street and Mozley Street) and includes a live reporter's on-site coverage, which clarifies the setting and adds authoritative narration, moving beyond just showing the aftermath to explaining the incident's context and response."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the dramatic aerial footage of the train-car collision, which is inherently highlight-worthy. It maintains diversity by transitioning from the accident scene to a map graphic and on-site reporter, enhancing clarity and engagement. However, it slightly overlaps with the previous segment's aerial perspective, reducing novelty."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment conveys strong emotional expression through the depiction of a serious train-car collision, with emergency responders actively on scene. The inclusion of a news reporter providing on-site coverage adds a layer of urgency and gravity, heightening the tension and sentiment of the incident."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment provides some new information by specifying the exact location (intersection of East Broad Street and Mozley Street) and mentioning a map graphic, but the core event (train-car collision, emergency response, aerial view) and setting (Douglasville, Georgia) are largely repetitive from the previous segment and global summary, offering limited additional semantic content."
+        }
+      },
+      "final_score": 1.5499999999999998
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 558,
+      "end_frame": 837,
+      "planner_score": 0.85,
+      "planner_reason": "This segment provides critical live reporting from the scene, including the reporter's identity (Steve Kiggins), the news outlet (CBS Atlanta), and confirmation of the location and incident details. It adds human narration and real-time context, which is essential for a news summary. However, it is slightly less visually impactful than the aerial footage showing the actual collision and damage.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "This segment contributes to story progression by providing a live, on-site reporter update that adds authoritative narration and specific details (reporter's name, exact location, headline) to the incident. However, it does not introduce new major events or significant developments in the aftermath, instead reinforcing and contextualizing information already established in previous segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment features a live on-site reporter at night with prominent broadcast graphics, which adds a sense of immediacy and professional presentation. However, it lacks the dynamic or dramatic visual elements seen in previous aerial and ground-level footage of the accident aftermath, making it less striking or highlight-worthy in comparison."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment features a live news report with a serious tone and prominent graphics ('TRAIN HITS CAR'), conveying urgency and concern. However, the emotional expression is moderated by the reporter's professional delivery, lacking intense displays of distress or high tension, resulting in a moderate emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment provides minimal new information beyond confirming the location and reporter identity, which were already established in previous segments. It reiterates the incident type and setting without introducing new details about the collision, aftermath, or emergency response."
+        }
+      },
+      "final_score": 1.3499999999999999
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 837,
+      "end_frame": 1116,
+      "planner_score": 0.85,
+      "planner_reason": "The segment provides essential live reporter updates, which are crucial for news summaries as they convey authoritative, on-site information and new developments. While it repeats some contextual elements from previous segments (location, reporter), the delivery of 'new details on a developing story' adds incremental value to the narrative progression and viewer understanding of the incident's current state.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment shows the reporter delivering a live update, but it does not introduce new story progression or main event progression beyond what was already established in previous segments. The reporter is providing details from the scene, but the core event (train-car collision aftermath and emergency response) remains unchanged. This segment primarily serves as a continuation of the reporter's presence and delivery style rather than advancing the narrative or revealing new developments in the incident."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment features a live reporter delivering updates, which is standard for news coverage but lacks visually striking or diverse elements compared to previous segments showing aerial views, accident aftermath, and emergency response. The setting is a dark, empty road, offering minimal visual interest or highlight-worthy action."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.45,
+          "reason": "The segment conveys moderate emotional intensity through the reporter's live, on-site presence at night in a dark, empty road setting, which adds a sense of urgency and seriousness to the developing story. However, the emotional expression is restrained and professional, typical of news reporting, without heightened tension or overt sentiment beyond the inherent gravity of the incident."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment introduces the reporter's name and specifies the location as Douglas County, which adds minor new details. However, the core event (train-car collision) and the reporter's role were already established in previous segments, so the new semantic content is limited."
+        }
+      },
+      "final_score": 1.1625
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1116,
+      "end_frame": 1395,
+      "planner_score": 0.6,
+      "planner_reason": "The segment provides live on-site reporting with visual confirmation of the accident scene, emergency response, and key details (red car, train, personnel), which is important for establishing credibility and immediacy in news coverage. However, it largely reiterates information already shown in previous aerial footage and earlier reporter segments, making it somewhat redundant rather than introducing new critical developments or perspectives.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment repeats the core event (train-car collision aftermath) and reporter presence already established in previous segments, adding minimal new progression to the story. While it confirms the ongoing response, it does not introduce new developments, locations, or significant updates."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment features a live news report at night with a reporter gesturing toward the accident scene, including emergency personnel and a tow truck, which provides some visual engagement through on-site reporting and nighttime atmosphere. However, it lacks striking or diverse visuals compared to previous segments (e.g., aerial footage, dramatic crash aftermath, or graphic overlays), making it less highlight-worthy as it primarily repeats established context without new, compelling visual elements."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment conveys strong emotional intensity through its depiction of a serious accident scene at night, with emergency personnel actively responding. The reporter's live on-site presence and gesturing toward the scene heightens the sense of immediacy and gravity. The visual elements—dark setting, damaged red car, emergency lights—combined with the context of a train-car collision create palpable tension and concern, though the emotional expression remains within the bounds of professional news reporting."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment reiterates previously established information: the location (Douglasville, Georgia), the incident (train-car collision), the presence of emergency personnel and a tow truck, and the reporter's on-site presence at night. It adds minimal new semantic content beyond confirming the ongoing nature of the coverage, as the core details have already been covered in prior segments."
+        }
+      },
+      "final_score": 1.0374999999999999
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 1395,
+      "end_frame": 1674,
+      "planner_score": 0.85,
+      "planner_reason": "The segment provides crucial visual and narrative elements for the summary: aerial footage of the collision aftermath, ground-level shots of emergency response, and a witness interview confirming location details. It reinforces the severity of the incident, shows active response efforts, and adds eyewitness validation, which are key for a news summary. However, some elements (aerial views, emergency presence) have been shown in previous segments, slightly reducing uniqueness.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment provides additional visual details (aerial and ground-level shots) and includes a witness interview, which adds depth to the incident coverage. However, it does not introduce new major developments or critical story progression beyond confirming the location and showing ongoing response activities, which are consistent with previous segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment is visually striking due to the dramatic aerial view of the train-car collision and the ground-level shots of emergency response, which are highlight-worthy for a news report. However, it lacks significant visual diversity compared to previous segments, as it continues similar themes of aerial footage and on-scene reporting, reducing its uniqueness."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment conveys a strong sense of urgency and seriousness through the depiction of a train-car collision aftermath, emergency response activity, and witness involvement. However, the emotional intensity is moderated by the factual, reportorial tone typical of news coverage, lacking highly charged expressions or dramatic tension beyond the inherent gravity of the accident scene."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment provides some new information by shifting to ground-level shots and mentioning an interview with a witness who confirms the location as a busy intersection in Atlanta, which adds a human element and slightly refines the location context. However, much of the content—such as the aerial view of the collision, emergency personnel presence, and the red car—repeats details already established in previous segments. The overall new information is limited, as the core incident and setting remain consistent with earlier reports."
+        }
+      },
+      "final_score": 1.4625
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 1674,
+      "end_frame": 1953,
+      "planner_score": 0.85,
+      "planner_reason": "The segment introduces a new perspective through a local resident's eyewitness account, adds specific details about railroad workers inspecting a derailed freight car, and provides a named individual (Robert Woods) describing the event near his home. While the core incident remains consistent with previous segments, this ground-level human testimony enhances the narrative's authenticity and emotional impact, making it valuable for a summary that aims to capture both factual reporting and community impact.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment introduces a new, specific witness (Robert Woods) providing a firsthand account of the incident near his home, which adds a personal perspective and human element to the story progression. While it doesn't reveal major new plot developments about the collision's cause or consequences, it advances the narrative by shifting from general emergency response coverage to localized eyew testimony, deepening the audience's understanding of the event's impact on the community."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment introduces new visual elements compared to previous segments, including a derailed freight car being inspected by railroad workers and a local resident providing eyewitness testimony. While the overall theme remains consistent with the train-car collision coverage, the specific focus on the derailed freight car and the inclusion of a named local resident (Robert Woods) adds some visual diversity and human interest. However, the nighttime setting and general news report format limit the visual strikingness compared to more dramatic aerial shots or immediate aftermath footage shown earlier. The segment serves as a follow-up detail rather than a primary highlight of the incident."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment contains some emotional expression through the resident's personal account of witnessing the incident near his home, which adds a human element and localized concern. However, the overall tone remains factual and reportorial, with railroad workers shown inspecting damage methodically rather than conveying high tension or intense sentiment. The emotional intensity is moderate but subdued compared to the urgency of earlier emergency response segments."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.7,
+          "reason": "The segment introduces a new witness, Robert Woods, who provides firsthand testimony about the incident near his home, adding personal perspective and localized detail. However, the core event (train-car collision) and location remain consistent with previous segments, so the new information is supplementary rather than foundational."
+        }
+      },
+      "final_score": 1.45
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 1953,
+      "end_frame": 2232,
+      "planner_score": 0.65,
+      "planner_reason": "The current segment provides a combination of ground-level witness perspective and aerial aftermath footage, reinforcing the severity and location of the accident. However, it largely reiterates visual and contextual information already established in previous segments (damaged red car, emergency presence, aerial views), offering limited new substantive details. In a general news summary, redundancy reduces its unique contribution, though the dual perspective (ground + aerial) maintains moderate importance for visual confirmation and emotional impact.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment primarily reiterates visual and descriptive elements already established in previous segments (damaged car, aerial aftermath, personnel on scene) without introducing new narrative developments, key details, or progression in the main event's resolution or investigation."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment combines both ground-level and aerial perspectives, showing a witness pointing toward the scene and aerial footage of the damaged vehicle wedged between train and rails with personnel attending. While this provides some visual variety and captures the aftermath, it lacks the striking impact of the initial collision footage or dramatic emergency response scenes seen in earlier segments. The content is consistent with the news report theme but doesn't introduce new visually compelling elements beyond what has already been established in previous segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment maintains a serious and tense emotional tone consistent with the accident coverage, showing the damaged vehicle and personnel responding, but lacks heightened emotional expressions or dramatic tension beyond the inherent gravity of the scene. The witness pointing adds some human element, but the overall presentation remains factual and observational rather than intensely emotional."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment repeats visual and descriptive elements already established in previous segments, such as the damaged red car wedged between the train, personnel attending to the incident, and aerial footage of the aftermath. It introduces no new information, instructions, or significant semantic content beyond what has been covered, resulting in low informational novelty."
+        }
+      },
+      "final_score": 1.0375
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 2232,
+      "end_frame": 2511,
+      "planner_score": 0.85,
+      "planner_reason": "This segment provides crucial visual evidence of the accident's severity and aftermath, showing the catastrophic damage to the red car and its position wedged on the tracks. The elevated perspective offers clear documentation of the collision's impact, while the contrasting shot of normal traffic flow emphasizes the disruption caused by the incident. Although similar aerial footage has been shown in previous segments, this segment's focus on the vehicle's destruction and the juxtaposition with ongoing road activity adds important contextual layers to the news report, reinforcing the seriousness of the event and its location at an active railroad crossing.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment primarily reinforces visual details of the accident aftermath (crushed car wedged on tracks, train stopped) that were already established in previous segments. While it adds a new contrasting element (normal traffic flow at crossing), this serves more as atmospheric context rather than advancing the core story progression. No new factual information about the incident, emergency response, investigation, or consequences is introduced. The segment maintains narrative continuity but does not significantly push the main event forward."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the dramatic depiction of the collision aftermath, with the red car catastrophically crushed and wedged on the tracks, captured from an elevated perspective that emphasizes the severity. The contrast between the accident scene and normal traffic flow adds a highlight-worthy element, showcasing diversity in scene composition. However, the theme and visual style are consistent with previous segments, limiting novelty."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a catastrophic collision with a severely crushed car wedged on the tracks, creating a strong sense of shock and tension. The elevated perspective emphasizes the severity of the damage, and the contrast with normal traffic flow adds an emotional layer of irony and disruption. However, the emotional intensity is slightly moderated by the clinical, documentary-style presentation typical of news footage, rather than raw, immediate emotional expressions from individuals involved."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment provides minimal new information compared to the extensive memory context. While it offers a detailed visual description of the red car's catastrophic damage and the contrast between the accident scene and normal traffic flow, the core facts (train-car collision in Douglasville/Atlanta, red car severely damaged, emergency response, aerial/ground footage) have already been established across previous segments. The segment reinforces existing visual information but introduces little substantive new semantic content about the incident's cause, consequences, or developments."
+        }
+      },
+      "final_score": 1.4249999999999998
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 2511,
+      "end_frame": 2790,
+      "planner_score": 0.3,
+      "planner_reason": "While the segment maintains thematic continuity with the news report and shows the reporter at the scene, it lacks new critical information about the collision, emergency response, or aftermath. The focus on routine train and car traffic without direct connection to the accident reduces its importance compared to segments showing the actual collision, damage, emergency operations, or witness accounts. It serves primarily as atmospheric scene-setting rather than advancing the core narrative of the incident.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily shows a reporter at a railroad crossing with passing trains and cars, which provides atmospheric context but does not introduce new information about the accident's cause, investigation, victim status, or resolution. It lacks progression in the main event narrative compared to previous segments that detailed the collision, emergency response, and witness accounts."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows a reporter speaking at a railroad crossing with trains and cars in the background, which is relevant to the news theme but lacks the visually striking or highlight-worthy elements seen in previous segments (e.g., aerial views of the collision, damaged vehicles, emergency response). It is less diverse and more routine in its presentation, offering minimal new visual impact compared to the dramatic aftermath footage earlier in the report."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment shows a reporter delivering a standard on-site update at a railroad crossing, with trains passing and cars driving nearby. While the context involves a serious train-car collision, this specific segment lacks direct emotional expression, high tension, or strong sentiment from the reporter or visuals—it is more informational and observational, contrasting with previous segments that showed emergency response, damaged vehicles, or witness reactions. The emotional intensity is moderate, derived mainly from the underlying incident theme rather than explicit display in this clip."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment primarily shows a reporter at a railroad crossing with passing trains and cars, which is visually distinct but adds minimal new information. The core details about the accident location, emergency response, and incident specifics have already been established in previous segments. It reinforces the setting without introducing new semantic content, instructions, or significant developments to the story."
+        }
+      },
+      "final_score": 0.575
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 2790,
+      "end_frame": 3069,
+      "planner_score": 0.2,
+      "planner_reason": "The current segment shows a reporter at the scene and officials inspecting the area, which provides some continuity and shows ongoing response. However, it lacks new critical information about the collision itself, victims, or emergency actions. The nighttime aerial cityscape shot suggests a transition or broader context, potentially diluting the segment's direct relevance to the core incident. Compared to previous segments showing the actual collision, immediate aftermath, witness accounts, and specific location details, this segment offers lower informational value for a summary focused on the train-car collision event.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily shows a reporter at a railroad crossing with officials inspecting the scene, which is a continuation of the aftermath coverage but does not introduce new critical information about the accident's cause, resolution, or significant developments. The cut to a nighttime aerial cityscape suggests a transition or broader context, potentially moving away from the main event progression. Compared to previous segments that detailed the collision, emergency response, and witness accounts, this segment adds minimal new progression to the core story of the train-car collision."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment contains some visually notable elements, including the nighttime aerial shot with bright city lights, which provides a striking contrast to previous ground-level accident footage. However, much of the segment shows a reporter at a railroad crossing with officials inspecting the scene, which is visually similar to previous segments and lacks the dramatic impact of the actual collision aftermath. The aerial cityscape shot is highlight-worthy but brief, and the overall segment doesn't introduce significant new visual diversity compared to the established pattern of the news coverage."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment shows a reporter at a railroad crossing with officials inspecting the scene, followed by a nighttime aerial cityscape shot. While the context involves a serious train-car collision, this specific segment lacks direct emotional expression, high tension, or strong sentiment. The reporter appears calm and informational, officials are conducting routine inspections, and the aerial shot is atmospheric rather than emotionally charged. The emotional intensity is lower compared to previous segments showing the immediate aftermath, damaged vehicles, or witness reactions."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment provides minimal new information about the train-car collision incident itself. It shows a reporter at a railroad crossing with officials inspecting the scene, which is similar to previous segments showing responders at the site. The nighttime aerial cityscape shot suggests a transition or broader context, but doesn't add specific new details about the accident, victims, investigation, or consequences. Most semantic content about the location, vehicles involved, emergency response, and basic incident details has already been established in previous segments."
+        }
+      },
+      "final_score": 0.47500000000000003
+    },
+    {
+      "segment_id": 11,
+      "start_frame": 3069,
+      "end_frame": 3348,
+      "planner_score": 0.2,
+      "planner_reason": "While the segment maintains thematic continuity with the train-car collision narrative by showing a railroad crossing and potential damage, it introduces a new element (school bus) and shifts to daytime, creating temporal discontinuity. The bright city lights aerial shot appears to be transitional filler rather than core incident footage. Given the global summary's focus on the specific Douglasville accident's aftermath and emergency response, this segment provides only peripheral context about railroad crossing hazards rather than essential information about the main event.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment introduces a new visual element (daytime scene with a school bus and damaged road) but does not directly advance the core story of the train-car collision in Douglasville. It appears to be a transition or a related but separate incident, contributing minimally to the progression of the main event narrative established in previous segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is visually striking and highlight-worthy due to several compelling elements: 1) The dramatic nighttime aerial shot of bright city lights creates a visually arresting transition that contrasts with previous segments. 2) The daytime scene showing a yellow school bus stopped on railroad tracks creates immediate visual tension and concern. 3) The close-up of damaged road infrastructure near the tracks provides concrete visual evidence of an incident. 4) The color contrast between the bright yellow bus and the environment makes it visually prominent. 5) The segment introduces new visual elements (nighttime cityscape, school bus, road damage) that diversify from previous train-car collision footage. However, it doesn't reach the highest score because the visual impact is somewhat diminished by the familiarity of news report framing and the segment serves more as transitional/contextual footage rather than showing the immediate aftermath of a dramatic event."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment contains moderate emotional expression through its visual storytelling. The nighttime aerial shot with bright lights creates a sense of drama and urgency, while the transition to a daytime scene with a school bus stopped on tracks introduces tension and potential danger. The damaged road section near the tracks suggests recent trauma or accident, evoking concern. However, the emotional impact is somewhat tempered by the matter-of-fact news reporting style and lack of explicit human emotional displays or intense crisis imagery compared to previous segments showing actual collision aftermath."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces some new visual elements (daytime scene, yellow school bus, damaged road section) but provides minimal new substantive information about the train-car collision story. The core incident details, location, and emergency response have already been established in previous segments. The transition to a different time of day and inclusion of a school bus adds minor contextual variation but doesn't advance the narrative or provide significant new semantic content about the main event."
+        }
+      },
+      "final_score": 0.7124999999999999
+    },
+    {
+      "segment_id": 12,
+      "start_frame": 3348,
+      "end_frame": 3627,
+      "planner_score": 0.75,
+      "planner_reason": "The current segment provides a direct, focused recap of the core incident—the train-car collision—with explicit visual and verbal confirmation of the damaged vehicle, stopped train, and reporter description. While similar to previous segments (especially segments 0, 1, 4, 5, 7, 8), it consolidates key elements (location: Atlanta intersection, red car crushed, train stopped, reporter on-site) into a concise summary moment. In a general news theme, this serves as a clear, reinforcing highlight of the main event, useful for a summary to anchor the story. However, it lacks new information (e.g., witness interviews, emergency response details, or aftermath contrasts) that higher-scoring segments provided, making it important but not unique.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The current segment provides a general recap of the train-car collision incident but does not introduce new story progression elements. It repeats previously established information about the damaged red car, stopped train, and reporter presence at the Atlanta intersection. Compared to previous segments that introduced new details like witness interviews, location specifics, emergency response activities, or contextual transitions, this segment serves primarily as a summary/reiteration rather than advancing the narrative with new developments, resolutions, or deeper insights into the main event."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.35,
+          "reason": "The segment shows a serious train-car collision with the damaged red car on tracks, which is inherently striking as an accident scene. However, compared to previous segments that featured more dramatic aerial views, contrasting traffic flow, or witness interviews, this segment appears to be a more standard ground-level news report shot. The visual content is consistent with the overall theme but doesn't introduce new striking elements, diverse perspectives, or particularly highlight-worthy footage beyond what has already been shown in earlier segments of the same incident."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.8,
+          "reason": "The segment depicts a serious train-car collision with clear visual evidence of damage (crushed vehicle) and a stopped train, conveying a strong sense of urgency and gravity. While the reporter's description adds factual context, the primary emotional weight comes from the imagery of the aftermath, which inherently carries high tension and negative sentiment due to the severity of the accident. However, the presentation remains within the bounds of a news report format, which moderates the raw emotional intensity compared to more visceral, immediate footage of the collision itself."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment provides minimal new information compared to the extensive memory context. It repeats the core facts already established: a train collision with a red car at an Atlanta intersection, showing damaged vehicle and stopped train, with a reporter describing the incident. All these elements (location, vehicle color, damage, reporter presence) have been covered in multiple previous segments (0, 1, 2, 4, 5, 7, 8). The segment adds no new details about cause, injuries, timeline, witness accounts, or specific developments beyond what's already been reported."
+        }
+      },
+      "final_score": 1.1125
+    },
+    {
+      "segment_id": 13,
+      "start_frame": 3627,
+      "end_frame": 3906,
+      "planner_score": 0.85,
+      "planner_reason": "This segment provides comprehensive visual documentation of the collision aftermath from multiple perspectives (aerial and ground-level), showing key elements: the crushed vehicle's position relative to the train, emergency response activities including tow truck arrival, and witness presence. While similar to previous segments in content, it consolidates multiple critical aspects of the incident into one cohesive view, reinforcing the severity and ongoing nature of the response. However, some redundancy exists with earlier segments, slightly reducing its unique informational value.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment primarily reiterates visual details of the aftermath already established in previous segments (damaged red car wedged between train and tracks, emergency responders, tow truck, witnesses). It does not introduce new narrative developments, reveal new information about the incident's cause or consequences, or advance the story beyond confirming the severity and ongoing response—elements already covered. While it reinforces the scene's gravity, it contributes minimally to story progression as it lacks forward momentum in the reporting."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the dramatic aerial view of the crushed red car wedged between the train and tracks, which serves as a powerful visual highlight of the accident's severity. The inclusion of multiple angles (aerial and ground-level) adds visual diversity, while the presence of emergency responders, bystanders, and an arriving tow truck creates a dynamic scene that captures the ongoing response. However, the score is slightly reduced because similar aerial shots of the damaged car have appeared in previous segments (0, 1, 5, 7, 8), making this less novel within the overall video context."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts the aftermath of a severe train-car collision with clear visual evidence of destruction (crushed car, wreckage), emergency response activity, and bystander reactions. While not showing the moment of impact, the imagery conveys strong emotional weight through the severity of damage, presence of responders, and witness observation, evoking tension and concern typical of accident coverage."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides minimal new information compared to the extensive memory context. It reiterates the core visual elements already established: aerial view of crushed red car wedged between train and tracks, emergency responders present, tow truck arriving, and witnesses observing. These details have been consistently described across previous segments (0, 1, 4, 5, 7, 8, 12). No new factual details (location, time, reporter identity, witness statements, specific damage descriptions, or contextual graphics) are introduced. The segment essentially repackages previously shown visual information without adding substantive new semantic content to the narrative."
+        }
+      },
+      "final_score": 1.375
+    },
+    {
+      "segment_id": 14,
+      "start_frame": 3906,
+      "end_frame": 4185,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment provides essential visual and contextual information about the core incident—the damaged vehicle, emergency response, and witness reaction—which is central to the news report's narrative. While similar details have been shown in previous segments (e.g., aerial views, emergency presence), this segment reinforces the severity of the collision and adds emotional depth through the shaken witness, enhancing the summary's impact. However, some redundancy with earlier segments slightly reduces its unique contribution.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily reiterates established details of the aftermath, emergency response, and witness presence without introducing new narrative developments, pivotal information, or significant progression of the main event beyond what has been consistently reported in prior segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment is visually striking due to the severe damage to the red sedan wedged between the tracks, which is a clear highlight of the accident's aftermath. However, it lacks significant diversity compared to previous segments, as it repeats similar elements (damaged car, emergency personnel, tow truck, reporter updates, witness interview) seen in multiple earlier segments (e.g., segments 0, 4, 5, 7, 8, 13). While the witness appearing shaken adds some emotional impact, the overall visual content is consistent with the established pattern of the report, reducing its uniqueness and highlight-worthiness relative to the broader coverage."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment contains strong emotional elements through the description of the 'severely damaged' vehicle, the presence of emergency personnel indicating urgency, and specifically the witness who 'appears shaken' - which directly conveys emotional distress. The combination of physical destruction, emergency response, and visible human emotional reaction creates a significant emotional impact, though it's somewhat tempered by the clinical nature of news reporting."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "The current segment provides minimal new information compared to the extensive memory context. It reiterates the same core elements already established: a red sedan severely damaged at a railroad crossing, emergency personnel and a tow truck on scene, and a reporter providing updates/interviewing a witness. The only slight addition is the witness appearing 'shaken,' which adds minor emotional context but no substantive new facts about the incident, location, cause, or response beyond what previous segments have covered in detail."
+        }
+      },
+      "final_score": 1.275
+    },
+    {
+      "segment_id": 15,
+      "start_frame": 4185,
+      "end_frame": 4468,
+      "planner_score": 0.15,
+      "planner_reason": "This segment shows reporter Steve Kiggins delivering a live on-air report, but it appears to be a standard reporter setup shot without new visual information about the accident scene, emergency response, or aftermath. Given the video theme is 'general' news reporting and the global summary emphasizes showing the aftermath, emergency response, and live updates, this segment is less critical than previous segments that contained aerial footage, ground-level views of the damaged vehicle, emergency personnel activity, or witness interviews. The segment provides continuity and confirms the reporter's presence, but adds minimal new substantive content compared to earlier segments that showed the actual collision site, damaged vehicle, or response operations.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily features a reporter delivering a live update without introducing new narrative developments, specific details about the accident's cause, resolution, or impact. While it maintains continuity and confirms the ongoing coverage, it does not advance the core story of the train-car collision, emergency response, or aftermath beyond what has already been established in previous segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is a standard live news reporter shot at night, with minimal visual dynamism or striking elements compared to previous segments showing dramatic accident aftermath, aerial views, or emergency response action. It lacks diversity in visuals, being a static, continuous broadcast of a reporter speaking, and is not highlight-worthy in terms of visual impact, as it primarily serves informational rather than visual narrative purposes."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.35,
+          "reason": "The segment shows a standard live news report format with the reporter delivering information in a professional, controlled manner. While the content relates to a serious accident, the emotional expression in this specific segment is restrained and journalistic rather than highly charged. The reporter maintains a calm demeanor, there are no visible signs of distress or heightened tension in the visuals, and the delivery focuses on factual reporting rather than emotional amplification. The segment lacks the immediate aftermath visuals, witness reactions, or dramatic footage that would elevate emotional intensity compared to previous segments showing the actual collision or damaged vehicle."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "The segment provides minimal new information about the train-car collision incident. While it confirms the reporter's identity (Steve Kiggins), location (Atlanta), and broadcast details (CBS Atlanta, temperature 48°), these are peripheral details that don't advance the core narrative about the accident's circumstances, severity, or response. The segment essentially repeats the established pattern of a live reporter delivering updates without introducing new semantic content about the event itself, making it largely redundant given the extensive previous coverage of the same incident from multiple perspectives."
+        }
+      },
+      "final_score": 0.375
+    }
+  ]
+}

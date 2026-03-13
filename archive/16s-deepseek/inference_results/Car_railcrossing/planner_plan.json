@@ -1,0 +1,12 @@
+{
+  "video_id": "Car_railcrossing",
+  "video_theme": "story",
+  "global_summary": "A dramatic sequence unfolds at a railway crossing where a black sedan becomes stuck on the tracks, leading to a series of escalating events. Initially, the car is stalled as a train passes, with pedestrians and onlookers gathering. The situation intensifies as the sedan appears to collide with the barrier, drawing a crowd. The scene then shifts to a blue BMW involved in a separate but similarly chaotic incident, where it is struck by heavy objects like a rock, a tree trunk, and finally an excavator bucket, which crushes the vehicle while bystanders watch and intervene.",
+  "expert_weights": {
+    "story_agent": 0.25,
+    "visual_agent": 0.25,
+    "emotion_agent": 0.25,
+    "information_agent": 0.25
+  },
+  "reason": "The captions depict a coherent, escalating narrative with clear cause-and-effect progression (sedan stuck → collision → BMW destruction), fitting a 'story' theme. High weight on narrative_analysis due to the strong plot development; action_detection and scene_understanding are important for tracking visual events and setting; safety_hazard reflects the recurring dangerous situations at the crossing and with heavy machinery."
+}

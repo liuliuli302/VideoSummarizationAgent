@@ -1,0 +1,311 @@
+{
+  "split_root": "/root/autodl-tmp/datasets/splits",
+  "split_count": 5,
+  "datasets": {
+    "summe": {
+      "dataset_name": "summe",
+      "split_file": "/root/autodl-tmp/datasets/splits/summe_splits_5.json",
+      "mapping_file": "/root/autodl-tmp/datasets/splits/summe_mapping.json",
+      "variants": {
+        "normalized_raw": {
+          "num_splits": 5,
+          "num_videos_avg_per_split": 5.0,
+          "mean_f1": 0.5065574336051941,
+          "mean_precision": 0.4930130934715271,
+          "mean_recall": 0.5259443354606629,
+          "mean_rho": 0.305920425692245,
+          "mean_tau": 0.24296422369026463,
+          "best_split": {
+            "split_id": 3,
+            "test_keys": [
+              "video_10",
+              "video_13",
+              "video_19",
+              "video_23",
+              "video_9"
+            ],
+            "video_ids": [
+              "Excavators river crossing",
+              "Kids_playing_in_leaves",
+              "St Maarten Landing",
+              "car_over_camera",
+              "Eiffel Tower"
+            ],
+            "num_videos": 5,
+            "mean_f1": 0.5964518487453461,
+            "mean_precision": 0.5739119112491607,
+            "mean_recall": 0.6251024603843689,
+            "mean_rho": 0.44031646391385854,
+            "mean_tau": 0.3552160308633636
+          },
+          "split_results": [
+            {
+              "split_id": 1,
+              "test_keys": [
+                "video_16",
+                "video_21",
+                "video_25",
+                "video_4",
+                "video_9"
+              ],
+              "video_ids": [
+                "Playing_on_water_slide",
+                "Uncut_Evening_Flight",
+                "playing_ball",
+                "Bike Polo",
+                "Eiffel Tower"
+              ],
+              "num_videos": 5,
+              "mean_f1": 0.46869984865188596,
+              "mean_precision": 0.4632098972797394,
+              "mean_recall": 0.4757389545440674,
+              "mean_rho": 0.1261438414713245,
+              "mean_tau": 0.09877250708962174
+            },
+            {
+              "split_id": 2,
+              "test_keys": [
+                "video_15",
+                "video_18",
+                "video_20",
+                "video_4",
+                "video_7"
+              ],
+              "video_ids": [
+                "Paintball",
+                "Scuba",
+                "Statue of Liberty",
+                "Bike Polo",
+                "Cockpit_Landing"
+              ],
+              "num_videos": 5,
+              "mean_f1": 0.4985449016094208,
+              "mean_precision": 0.46692784428596495,
+              "mean_recall": 0.5484241366386413,
+              "mean_rho": 0.29172971934588054,
+              "mean_tau": 0.23222346944627578
+            },
+            {
+              "split_id": 3,
+              "test_keys": [
+                "video_10",
+                "video_13",
+                "video_19",
+                "video_23",
+                "video_9"
+              ],
+              "video_ids": [
+                "Excavators river crossing",
+                "Kids_playing_in_leaves",
+                "St Maarten Landing",
+                "car_over_camera",
+                "Eiffel Tower"
+              ],
+              "num_videos": 5,
+              "mean_f1": 0.5964518487453461,
+              "mean_precision": 0.5739119112491607,
+              "mean_recall": 0.6251024603843689,
+              "mean_rho": 0.44031646391385854,
+              "mean_tau": 0.3552160308633636
+            },
+            {
+              "split_id": 4,
+              "test_keys": [
+                "video_1",
+                "video_13",
+                "video_14",
+                "video_18",
+                "video_25"
+              ],
+              "video_ids": [
+                "Air_Force_One",
+                "Kids_playing_in_leaves",
+                "Notre_Dame",
+                "Scuba",
+                "playing_ball"
+              ],
+              "num_videos": 5,
+              "mean_f1": 0.4896761953830719,
+              "mean_precision": 0.4930823087692261,
+              "mean_recall": 0.4872375249862671,
+              "mean_rho": 0.25097633113723794,
+              "mean_tau": 0.19376711341859665
+            },
+            {
+              "split_id": 5,
+              "test_keys": [
+                "video_11",
+                "video_15",
+                "video_22",
+                "video_24",
+                "video_25"
+              ],
+              "video_ids": [
+                "Fire Domino",
+                "Paintball",
+                "Valparaiso_Downhill",
+                "paluma_jump",
+                "playing_ball"
+              ],
+              "num_videos": 5,
+              "mean_f1": 0.4794143736362457,
+              "mean_precision": 0.4679335057735443,
+              "mean_recall": 0.4932186007499695,
+              "mean_rho": 0.42043577259292336,
+              "mean_tau": 0.3348419976334654
+            }
+          ]
+        },
+        "normalized_smoothed": {
+          "num_splits": 5,
+          "num_videos_avg_per_split": 5.0,
+          "mean_f1": 0.5111739146709442,
+          "mean_precision": 0.4975123405456543,
+          "mean_recall": 0.5308396780490875,
+          "mean_rho": 0.30883450961304293,
+          "mean_tau": 0.2405945600144889,
+          "best_split": {
+            "split_id": 3,
+            "test_keys": [
+              "video_10",
+              "video_13",
+              "video_19",
+              "video_23",
+              "video_9"
+            ],
+            "video_ids": [
+              "Excavators river crossing",
+              "Kids_playing_in_leaves",
+              "St Maarten Landing",
+              "car_over_camera",
+              "Eiffel Tower"
+            ],
+            "num_videos": 5,
+            "mean_f1": 0.6056593120098114,
+            "mean_precision": 0.5812041819095611,
+            "mean_recall": 0.6371506571769714,
+            "mean_rho": 0.4509361202410894,
+            "mean_tau": 0.35963549213828055
+          },
+          "split_results": [
+            {
+              "split_id": 1,
+              "test_keys": [
+                "video_16",
+                "video_21",
+                "video_25",
+                "video_4",
+                "video_9"
+              ],
+              "video_ids": [
+                "Playing_on_water_slide",
+                "Uncut_Evening_Flight",
+                "playing_ball",
+                "Bike Polo",
+                "Eiffel Tower"
+              ],
+              "num_videos": 5,
+              "mean_f1": 0.48257479071617126,
+              "mean_precision": 0.478413861989975,
+              "mean_recall": 0.48816747069358823,
+              "mean_rho": 0.13550437504031482,
+              "mean_tau": 0.102843487089276
+            },
+            {
+              "split_id": 2,
+              "test_keys": [
+                "video_15",
+                "video_18",
+                "video_20",
+                "video_4",
+                "video_7"
+              ],
+              "video_ids": [
+                "Paintball",
+                "Scuba",
+                "Statue of Liberty",
+                "Bike Polo",
+                "Cockpit_Landing"
+              ],
+              "num_videos": 5,
+              "mean_f1": 0.4985449016094208,
+              "mean_precision": 0.46692784428596495,
+              "mean_recall": 0.5484241366386413,
+              "mean_rho": 0.287580405545233,
+              "mean_tau": 0.22508534001203048
+            },
+            {
+              "split_id": 3,
+              "test_keys": [
+                "video_10",
+                "video_13",
+                "video_19",
+                "video_23",
+                "video_9"
+              ],
+              "video_ids": [
+                "Excavators river crossing",
+                "Kids_playing_in_leaves",
+                "St Maarten Landing",
+                "car_over_camera",
+                "Eiffel Tower"
+              ],
+              "num_videos": 5,
+              "mean_f1": 0.6056593120098114,
+              "mean_precision": 0.5812041819095611,
+              "mean_recall": 0.6371506571769714,
+              "mean_rho": 0.4509361202410894,
+              "mean_tau": 0.35963549213828055
+            },
+            {
+              "split_id": 4,
+              "test_keys": [
+                "video_1",
+                "video_13",
+                "video_14",
+                "video_18",
+                "video_25"
+              ],
+              "video_ids": [
+                "Air_Force_One",
+                "Kids_playing_in_leaves",
+                "Notre_Dame",
+                "Scuba",
+                "playing_ball"
+              ],
+              "num_videos": 5,
+              "mean_f1": 0.4896761953830719,
+              "mean_precision": 0.4930823087692261,
+              "mean_recall": 0.4872375249862671,
+              "mean_rho": 0.2558357467237382,
+              "mean_tau": 0.19369492530300836
+            },
+            {
+              "split_id": 5,
+              "test_keys": [
+                "video_11",
+                "video_15",
+                "video_22",
+                "video_24",
+                "video_25"
+              ],
+              "video_ids": [
+                "Fire Domino",
+                "Paintball",
+                "Valparaiso_Downhill",
+                "paluma_jump",
+                "playing_ball"
+              ],
+              "num_videos": 5,
+              "mean_f1": 0.4794143736362457,
+              "mean_precision": 0.4679335057735443,
+              "mean_recall": 0.4932186007499695,
+              "mean_rho": 0.4143159005148392,
+              "mean_tau": 0.32171355552984904
+            }
+          ]
+        }
+      }
+    }
+  }
+}

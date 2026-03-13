@@ -1,0 +1,485 @@
+{
+  "video_id": "Cooking",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 80,
+      "planner_score": 0.85,
+      "planner_reason": "This segment directly demonstrates core teppanyaki cooking techniques (slicing, flipping, moving ingredients) with key ingredients (onions, mushrooms, asparagus) mentioned in the global summary. It establishes the chef's role, the cooking environment, and the basic action that sets up more advanced techniques like flaming displays. While it lacks the dramatic flaming element, it's foundational to understanding the tutorial's practical cooking process.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment shows the chef actively cooking and handling ingredients, which is central to the tutorial's demonstration of teppanyaki techniques. However, it lacks a specific new technique or dramatic event (like flaming) that would significantly advance the story or main event progression beyond basic cooking actions."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment showcases skilled cooking techniques with dynamic movements like flipping ingredients, which are visually engaging. However, it lacks the dramatic flaming displays mentioned in the global summary, making it less highlight-worthy compared to other potential segments in the tutorial. The diversity of ingredients and actions is moderate, but the setting and actions are consistent with typical teppanyaki demonstrations."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment shows competent cooking with some dynamic action like flipping, but lacks intense emotional expression, high tension, or strong sentiment; it is primarily instructional and observational with moderate engagement."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces the chef, setting, and basic actions, but largely reiterates information already covered in the global summary, such as the cooking techniques and ingredients, offering minimal new semantic content."
+        }
+      },
+      "final_score": 1.325
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 80,
+      "end_frame": 160,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment reinforces the core tutorial content by showing the chef actively performing key teppanyaki techniques (stirring, flipping) with the same ingredients mentioned in the global summary. While it overlaps with previous segment 0, it maintains the tutorial's focus on the cooking process and performance, which is central to the summary. However, some redundancy lowers the score slightly.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment continues the cooking demonstration but does not introduce new techniques or significant progression beyond the previous segment, maintaining the tutorial's flow without advancing the main events."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment continues the dynamic cooking performance with skillful flipping and stirring of ingredients, but it lacks the dramatic flaming displays mentioned in the global summary, making it visually engaging but not as highlight-worthy as segments with more striking visual effects."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment shows moderate emotional expression through the chef's dynamic and engaging cooking performance, which suggests some level of showmanship and audience engagement. However, the emotional intensity is limited to professional cooking techniques without strong displays of tension, dramatic flair (like the flaming mentioned in the global summary), or heightened sentiment. The focus remains on skillful cooking rather than intense emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment largely reiterates the actions and ingredients described in the previous segment, with minimal new information or semantic content beyond slight variations in phrasing (e.g., 'stir and flip' vs. 'move and flip'). It does not introduce new techniques, ingredients, or context, resulting in low informational novelty."
+        }
+      },
+      "final_score": 1.3499999999999999
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 160,
+      "end_frame": 240,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment is highly repetitive of previous segments, showing the same chef performing similar teppanyaki cooking actions with identical ingredients (mushrooms, onions, asparagus) in the same setting. While it maintains the tutorial's core demonstration of flipping and arranging techniques, it adds minimal new instructional content or progression. For a tutorial summary, redundancy reduces importance unless it introduces a new technique, key explanation, or significant variation—none of which are present here.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment repeats previously established actions (flipping ingredients, arranging vegetables) without introducing new techniques, stages of cooking, or narrative developments. It maintains the tutorial's demonstration but does not advance the story or main event progression beyond what was already shown in prior segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment continues the same visual pattern as previous segments - a chef cooking on a teppanyaki grill with similar ingredients and techniques. While the cooking performance is described as 'dynamic and engaging,' there's no mention of visually striking elements like the dramatic flaming displays referenced in the global summary, nor does it introduce significant visual diversity compared to the previous segments. The scene maintains consistency but lacks highlight-worthy moments that would make it stand out visually."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment maintains moderate emotional expression through the chef's dynamic and engaging cooking performance, which includes skillful tossing and flipping of ingredients. However, the emotional intensity is limited as this is primarily a tutorial demonstration without dramatic elements like the flaming displays mentioned in the global summary. The sentiment remains positive and professional but lacks heightened tension or strong emotional peaks."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment largely repeats previously described actions and ingredients (e.g., flipping mushrooms and onions, arranging asparagus) without introducing new techniques, ingredients, or instructional content beyond what was already covered in the memory context."
+        }
+      },
+      "final_score": 0.6749999999999999
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 240,
+      "end_frame": 320,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment effectively captures the core tutorial elements of teppanyaki cooking (slicing, flipping, arranging ingredients) while also showing the chef's engagement with the audience, which is important for the tutorial's educational and entertainment value. However, it is somewhat repetitive with previous segments in terms of actions and ingredients, slightly reducing its unique informational contribution.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment continues the established tutorial theme of teppanyaki cooking with similar actions (slicing, flipping ingredients) and setting, but introduces minimal new progression in terms of story or main events beyond the mention of entertaining guests, which is a slight narrative extension but not a significant advancement."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment maintains the visually engaging teppanyaki cooking techniques, including slicing and flipping ingredients, but lacks the dramatic flaming displays mentioned in the global summary, which would elevate visual strikingness. While the chef's performance is dynamic and includes guest interaction, the visuals are consistent with previous segments, reducing diversity and highlight-worthy novelty."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment maintains a moderate level of emotional expression through the chef's skillful and engaging cooking performance, which includes slicing, flipping ingredients, and entertaining guests. However, it lacks heightened tension or dramatic elements like flaming displays, resulting in a steady but not intense emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides minimal new information compared to the previous segments. It reiterates the same core actions (slicing, flipping ingredients), the same setting (teppanyaki grill), the same performer (chef in white uniform), and the same purpose (entertaining guests). The specific ingredients (onions, asparagus, mushrooms) and the overall context have already been established in the previous segments and the global summary. Therefore, it adds very little new semantic content or instruction."
+        }
+      },
+      "final_score": 1.325
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 320,
+      "end_frame": 400,
+      "planner_score": 0.4,
+      "planner_reason": "The current segment continues to demonstrate core teppanyaki cooking techniques (tossing, flipping) with similar ingredients (onions, asparagus) as shown in previous segments. While it maintains the tutorial's theme of skill demonstration, it offers minimal new instructional content compared to earlier segments that already covered slicing, flipping, and arranging. The presence of a wine glass adds slight atmospheric context but doesn't enhance the tutorial value. The segment is moderately important for maintaining continuity but has high redundancy with prior demonstrations.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment continues the established cooking actions (tossing, flipping) without introducing new techniques, ingredients, or narrative developments, contributing minimally to story progression beyond maintaining the ongoing tutorial demonstration."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment continues the established visual pattern of teppanyaki cooking with skilled ingredient handling, but lacks the dramatic flaming displays or novel actions mentioned in the global summary. While the addition of a glass of wine introduces a minor new element, it does not significantly enhance visual strikingness or highlight-worthiness compared to previous segments, resulting in moderate diversity but low standout appeal."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment maintains a consistent level of professional engagement and skill demonstration typical of a tutorial, with dynamic actions like tossing and flipping ingredients. However, it lacks heightened emotional peaks, dramatic tension, or strong sentiment compared to segments with flaming displays or direct audience interaction, resulting in a moderate emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment introduces minimal new information compared to previous segments. While it adds the detail of 'a glass of wine sits nearby,' the core actions (cooking on teppanyaki grill, flipping ingredients like onions and asparagus) and setting (chef in white uniform) are highly repetitive from prior segments. The semantic content largely overlaps with previous descriptions, offering little additional instructional or thematic value beyond reinforcing the established cooking demonstration."
+        }
+      },
+      "final_score": 0.7250000000000001
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 400,
+      "end_frame": 480,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment continues the established pattern of teppanyaki cooking demonstration with similar actions (slicing, flipping, arranging) and ingredients (onions, asparagus). While it introduces minor variations (chef's red hat, use of tongs, explicit mention of cooking for a dining guest), these do not significantly advance the tutorial's instructional content beyond what has been shown in previous segments. The segment reinforces existing techniques rather than introducing new ones, making it moderately important for maintaining continuity but not essential for the summary's core instructional value.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment continues the established cooking demonstration pattern with minimal narrative progression. While it introduces a new element (chef's red hat) and slightly shifts focus to serving a specific guest, the core activity remains identical to previous segments - cooking and arranging ingredients on the teppanyaki grill. No new techniques, ingredients, or story developments are introduced that meaningfully advance the tutorial's instructional arc or main event progression beyond what was already established in prior segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment continues the established tutorial theme with consistent cooking techniques and ingredients, but lacks the visually striking elements (like dramatic flaming displays mentioned in the global summary) or significant diversity from previous segments. While the chef's red hat adds minor visual variation, the core action remains similar to previous segments - cooking onions and asparagus on a teppanyaki grill. The presence of a dining guest provides some contextual interest but doesn't elevate the segment to highlight-worthy status compared to the routine cooking demonstrations shown previously."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.5,
+          "reason": "The segment maintains moderate emotional expression through the chef's skillful and engaging cooking performance, which includes dynamic movements and interaction with a dining guest. However, it lacks the heightened drama of flaming displays mentioned in the global summary, resulting in a neutral to positive sentiment without strong peaks of tension or excitement."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment introduces minimal new information compared to previous segments. While it adds the detail of a 'red hat' on the chef and specifies 'tongs' as an additional tool, the core semantic content—a chef cooking teppanyaki ingredients (onions, asparagus) on a hot grill for diners—is highly repetitive with the previous segments. The theme, setting, actions, and key ingredients remain essentially unchanged, offering little new instructional or informational value."
+        }
+      },
+      "final_score": 0.6499999999999999
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 480,
+      "end_frame": 560,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment shows repetitive cooking actions (flipping and arranging onions/asparagus) that have been consistently demonstrated in previous segments. While it maintains the tutorial's core activity, it lacks new techniques, dramatic elements (like flaming displays mentioned in the global summary), or significant progression in the cooking process. The presence of wine and plates adds minor contextual detail but doesn't substantially advance the instructional narrative.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The current segment continues the repetitive demonstration of basic teppanyaki cooking actions (flipping and arranging onions and asparagus) without introducing new techniques, ingredients, or narrative developments. It mirrors previous segments closely, offering minimal progression in the tutorial's story or main events beyond maintaining the ongoing cooking process."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment maintains competent teppanyaki cooking with dynamic flipping and arrangement, but lacks the visually striking elements like dramatic flaming displays or significant diversity in actions compared to previous segments, making it moderately highlight-worthy but not exceptional."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment shows competent cooking technique but lacks strong emotional expression, tension, or sentiment. While the chef's actions are skillful, there are no dramatic flaming displays mentioned in this specific segment, no visible audience reactions, and no heightened tension or emotional cues beyond routine cooking movements. The presence of wine and plates suggests preparation but doesn't create emotional intensity. Compared to previous segments that mentioned 'dramatic flaming displays' and 'entertaining guests,' this segment is more procedural and calm."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment repeats nearly identical actions and elements (chef cooking on teppanyaki grill, flipping onions and asparagus, wine and plates nearby) as described in previous segments, offering minimal new information or semantic content beyond slight rephrasing."
+        }
+      },
+      "final_score": 0.625
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 560,
+      "end_frame": 640,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment continues to show the chef performing similar teppanyaki cooking techniques (flipping, managing ingredients) as in previous segments, with only minor variation in ingredients (possible rice or dumpling addition). While it maintains the tutorial's demonstration of cooking methods, it offers limited new instructional content compared to earlier segments that already covered slicing, flipping, and arranging core ingredients. The repetition reduces its unique importance for a summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment continues the established pattern of cooking actions without introducing new techniques, ingredients, or narrative developments. While it mentions a potential new item (rice or dumpling), this is ambiguous and not clearly distinct from previous ingredients, offering minimal progression in the tutorial's story or main events."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment continues the established teppanyaki cooking demonstration with similar visual elements to previous segments - chef in uniform, hot grill, spatula use, and common ingredients like onions and asparagus. While the mention of 'what appears to be a stack of rice or a dumpling' introduces slight visual variety, it doesn't significantly elevate the segment beyond the routine cooking actions already extensively shown. The segment lacks the dramatic flaming displays mentioned in the global summary or any particularly striking visual moments that would make it highlight-worthy compared to the repetitive cooking techniques already demonstrated."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment continues the established pattern of skilled teppanyaki cooking with sizzling ingredients, but lacks the dramatic flaming displays mentioned in the global summary or heightened emotional peaks. The emotional expression remains consistent with professional cooking focus and mild entertainment value for observers, without significant intensification of tension or sentiment beyond the baseline cooking performance."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment introduces a potential new ingredient (rice or dumpling) not explicitly mentioned in previous segments, which adds slight novelty. However, the core cooking actions (flipping, managing ingredients on teppanyaki grill) and most ingredients (onions, asparagus) are highly repetitive relative to the previous segments and global summary. The segment provides minimal new instructional or semantic content beyond a minor variation in ingredients."
+        }
+      },
+      "final_score": 0.625
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 640,
+      "end_frame": 720,
+      "planner_score": 0.6,
+      "planner_reason": "The segment continues the core tutorial demonstration of teppanyaki cooking techniques, maintaining consistency with the global summary. However, it introduces minimal new information beyond previous segments—similar ingredients (asparagus, onions) and actions (managing, preparing) are shown, with the only slight novelty being the mention of 'meat' and 'simultaneously preparing or seasoning another dish.' This adds some variety but does not represent a critical technique or dramatic moment (like flaming displays) that would significantly elevate importance for a summary. The segment is relevant but somewhat redundant given the memory context.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment continues the established pattern of cooking actions without introducing new techniques, ingredients, or narrative developments, contributing minimally to story progression beyond maintaining the ongoing tutorial demonstration."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment continues the established teppanyaki cooking demonstration with similar visual elements (chef, grill, common ingredients like asparagus and onions) seen consistently throughout previous segments. While it adds the element of 'simultaneously preparing or seasoning another dish,' which slightly increases complexity, the overall visual content remains highly repetitive compared to earlier segments. There's no mention of the dramatic flaming displays referenced in the global summary, and the cooking techniques appear routine rather than highlight-worthy. The scene maintains professional execution but lacks striking visual variety or memorable moments that would distinguish it from the preceding sequences."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment maintains the chef's skillful cooking performance with dynamic action, but lacks the dramatic flaming displays mentioned in the global summary and shows no heightened emotional expressions, tension spikes, or strong sentiment beyond professional focus. The emotional intensity remains consistent with previous segments at a moderate level of engagement without peaks."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment introduces 'meat' as a new ingredient not explicitly mentioned in previous segments, and hints at 'preparing or seasoning another dish' which adds some new culinary action. However, the core teppanyaki cooking techniques, setting, and most ingredients remain consistent with prior segments, limiting the overall novelty of information provided."
+        }
+      },
+      "final_score": 0.925
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 720,
+      "end_frame": 800,
+      "planner_score": 0.4,
+      "planner_reason": "The current segment continues to depict the core teppanyaki cooking actions (stirring, flipping) and ingredients (asparagus, onions) that have been consistently shown throughout the tutorial. While it reinforces the fundamental techniques, it does not introduce new skills, ingredients, or dramatic elements (like flaming displays mentioned in the global summary) that would significantly advance the tutorial's instructional value. Given the repetitive nature of similar segments in memory context, its incremental importance for a summary is moderate.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment continues the established cooking demonstration without introducing new techniques, ingredients, or narrative developments, making it repetitive and low in advancing the tutorial's story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment continues the established pattern of teppanyaki cooking with similar actions and ingredients, lacking any new visually striking elements like dramatic flaming displays or novel techniques. While the cooking is skillful, it is repetitive compared to previous segments, reducing its highlight-worthiness."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment continues the tutorial theme with skilled cooking actions, but lacks heightened emotional expression, dramatic tension, or strong sentiment beyond focused professionalism and routine sizzling sounds, similar to previous segments."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment caption describes essentially the same teppanyaki cooking actions (skillfully cooking, using spatula to stir and flip ingredients) with the same ingredients (asparagus, sliced onions) as numerous previous segments. It introduces no new techniques, ingredients, or instructional content beyond what has been consistently shown and described in the previous segments, offering minimal new information or semantic content."
+        }
+      },
+      "final_score": 0.7000000000000001
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 800,
+      "end_frame": 880,
+      "planner_score": 0.15,
+      "planner_reason": "The current segment shows repetitive content of the chef flipping food with similar ingredients (asparagus, onions) that have been extensively covered in previous segments. While it maintains the tutorial's dynamic cooking demonstration, it doesn't introduce new techniques, ingredients, or instructional elements beyond what has already been shown multiple times in the global summary and memory context.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The current segment shows the chef flipping food on the griddle with ingredients sizzling nearby, which is consistent with the ongoing cooking demonstration. However, this action is repetitive with previous segments that already established flipping techniques and ingredient management. No new cooking techniques, ingredients, or narrative developments are introduced. The segment maintains the existing cooking performance but doesn't advance the tutorial's progression beyond what was already shown in earlier segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment continues the established pattern of teppanyaki cooking with skillful flipping and sizzling ingredients, which is visually engaging but lacks the dramatic flaming displays or significant novelty compared to previous segments. While dynamic and appetizing, it does not introduce new striking elements or highlight-worthy moments beyond the routine cooking actions already seen."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment maintains moderate emotional expression through the dynamic cooking action (skillful flipping) and sensory elements (sizzling ingredients), which create a sense of energy and appetizing appeal. However, it lacks the dramatic peaks (like flaming displays mentioned in the global summary) or strong audience engagement that would elevate emotional intensity further. The emotional tone remains consistent with previous segments but doesn't significantly intensify."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "The current segment provides minimal new information compared to the extensive memory context. It repeats the core actions (flipping food on teppanyaki grill) and ingredients (asparagus, sliced onions) that have been consistently described across all previous segments. No new techniques, ingredients, tools, or contextual elements are introduced. The segment essentially rephrases what has already been established without adding substantive semantic content."
+        }
+      },
+      "final_score": 0.55
+    },
+    {
+      "segment_id": 11,
+      "start_frame": 880,
+      "end_frame": 960,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment continues to show the chef cooking on the teppanyaki grill with similar ingredients (onions, asparagus) and setting (diners present, drink on counter) as extensively covered in previous segments. While it maintains the tutorial's demonstration of teppanyaki cooking, it introduces minimal new information—only a potential tempura/fried item—and lacks the specific techniques (slicing, flipping, flaming) highlighted in the global summary. The repetition of visual elements and actions reduces its unique contribution to the overall summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The current segment continues the established pattern of teppanyaki cooking demonstration without introducing new story progression elements. While it maintains the tutorial's instructional flow by showing ingredient preparation and cooking techniques, it does not advance the main narrative or introduce significant new events beyond what has been consistently shown in previous segments. The scene remains visually similar to prior segments with the chef cooking, ingredients on the grill, and diners observing, offering minimal incremental progression to the overall story or main event development."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment maintains the visually engaging teppanyaki cooking theme with a chef actively preparing ingredients on a hot grill, which is inherently dynamic. However, compared to previous segments that explicitly mention dramatic flaming displays or more varied ingredient manipulation (like flipping and tossing), this segment's description focuses more on arrangement and static presentation of ingredients (pile of onions, mound of tempura, row of asparagus). The presence of sake/wine and chopsticks adds some contextual detail but does not significantly elevate visual strikingness or highlight-worthiness beyond the established pattern. It is visually appealing but lacks a standout moment or novel visual element to make it exceptionally striking or diverse relative to the ongoing tutorial."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment maintains a consistent level of professional engagement and culinary focus typical of a tutorial, with elements like the chef's active cooking and the presence of diners adding mild social warmth. However, it lacks heightened emotional expressions, dramatic tension (such as the flaming displays mentioned in the global summary), or strong sentiment shifts, resulting in a moderate emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment continues to depict the chef cooking on a teppanyaki grill with similar ingredients (sliced onions, asparagus) and setting (diners at counter). While it adds minor details like the amber-colored liquid (sake/wine) and plate with chopsticks, the core activity and semantic content remain highly consistent with previous segments, offering minimal new instructional or informational value beyond reinforcing the established cooking demonstration."
+        }
+      },
+      "final_score": 0.6625
+    },
+    {
+      "segment_id": 12,
+      "start_frame": 960,
+      "end_frame": 1040,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment continues the established teppanyaki cooking demonstration but introduces minimal new instructional content. While it maintains the tutorial's setting and atmosphere with the chef's active cooking and diner setup, it lacks novel techniques, ingredient introductions, or clear teaching moments compared to previous segments. The brief darkening effect is a minor production element that doesn't enhance the educational value. This segment primarily reinforces already demonstrated actions without advancing the tutorial's instructional goals.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment continues the established pattern of the chef cooking on the teppanyaki grill with similar actions and ingredients. The brief darkening of the scene is a minor stylistic variation but does not introduce a new cooking step, reveal a completed dish, or significantly advance the narrative of the tutorial. It maintains the ongoing demonstration without notable progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment includes a brief visual effect (scene darkening) which adds a minor striking element, but the core content remains similar to previous segments—chef cooking on teppanyaki grill with standard ingredients and setup. It lacks significant diversity or highlight-worthy actions (e.g., dramatic flaming, unique techniques) seen in earlier segments, making it less visually impactful overall."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment maintains the chef's skillful cooking performance which carries some baseline engagement, but lacks the dramatic elements (like flaming displays mentioned in the global summary) or heightened tension that would elevate emotional intensity. The brief darkening adds a minor atmospheric shift, but overall emotional expression remains moderate and consistent with previous segments."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment introduces minimal new information, primarily reiterating the chef's teppanyaki cooking with familiar elements like the hot griddle, glass of wine, and plates for diners. The brief darkening of the scene is a minor visual variation but does not add substantial new semantic content or instructional value beyond the established context."
+        }
+      },
+      "final_score": 0.6
+    },
+    {
+      "segment_id": 13,
+      "start_frame": 1040,
+      "end_frame": 1120,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment introduces a visually dramatic and engaging element—a large flaming burst—which is a signature highlight of teppanyaki performances. While previous segments consistently demonstrated core cooking techniques (slicing, flipping, arranging), this segment adds entertainment value and audience interaction, making it more memorable and suitable for a summary. However, it does not introduce new cooking techniques, slightly limiting its instructional importance relative to its spectacle.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "The segment introduces a dramatic flaming demonstration, which is a distinct and climactic event in teppanyaki cooking tutorials, marking a progression from routine ingredient preparation to a highlight performance that engages diners and advances the narrative of the cooking show."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "This segment is highly visually striking and highlight-worthy compared to previous segments. While previous segments showed routine teppanyaki cooking techniques (slicing, flipping, arranging), this segment features a dramatic flaming demonstration with a large burst of flame over the food. The visual spectacle of fire, combined with the reaction of watching diners, creates a peak moment that stands out significantly from the repetitive cooking actions shown earlier. This represents a clear highlight in the tutorial that would capture viewer attention and serve as a memorable visual moment."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.9,
+          "reason": "The segment features a dramatic flaming cooking demonstration, which introduces a sudden, intense visual and emotional element of excitement and spectacle. This contrasts with the more routine cooking actions in previous segments, significantly elevating the emotional expression and tension through the use of fire, creating a sense of awe and engagement for the diners and viewers."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.85,
+          "reason": "The current segment introduces a new and distinct cooking technique - a dramatic flaming demonstration - which adds significant new information not present in previous segments. While previous segments consistently described slicing, flipping, and arranging ingredients, this segment specifically highlights an entertaining pyrotechnic display that creates visual spectacle and engages diners directly. This represents a notable expansion of the tutorial's content beyond basic cooking techniques to include performance elements characteristic of teppanyaki dining experiences."
+        }
+      },
+      "final_score": 1.75
+    },
+    {
+      "segment_id": 14,
+      "start_frame": 1120,
+      "end_frame": 1200,
+      "planner_score": 0.95,
+      "planner_reason": "The current segment features a dramatic flaming demonstration, which is a key highlight and engaging moment in a tutorial video. It adds excitement and visual impact, making it crucial for the summary to showcase the chef's skill and entertainment value, aligning with the tutorial theme of demonstrating techniques.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "The segment introduces a dramatic flaming demonstration, which is a notable progression from the routine cooking actions in previous segments, adding a climactic and entertaining element that advances the tutorial's narrative by showcasing a special technique."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "This segment features the most visually striking and highlight-worthy moment in the entire sequence: a dramatic flaming cooking demonstration with visible flames, steam, and smoke. Compared to previous segments showing routine cooking techniques (slicing, flipping, arranging), this segment introduces a visually spectacular pyrotechnic display that is inherently more attention-grabbing and memorable. The flaming demonstration represents a peak moment in teppanyaki entertainment, making it significantly more highlight-worthy than the repetitive cooking actions shown earlier."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment features a dramatic flaming demonstration with a torch, steam, and smoke, indicating heightened emotional expression and tension compared to routine cooking actions. However, it is part of a tutorial theme and lacks extreme emotional peaks like surprise or intense conflict, keeping it below the maximum score."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment introduces a new action—using a torch to ignite food—and emphasizes steam and smoke, which adds some visual novelty. However, the core activity of dramatic flaming cooking and the setting (bustling restaurant with asparagus nearby) are largely consistent with previous segments, especially segment 13 which already described a dramatic flaming demonstration. Therefore, while there is slight new detail, the overall semantic content is highly redundant."
+        }
+      },
+      "final_score": 1.7
+    },
+    {
+      "segment_id": 15,
+      "start_frame": 1200,
+      "end_frame": 1287,
+      "planner_score": 0.65,
+      "planner_reason": "The segment demonstrates core tutorial elements (slicing, arranging vegetables) and maintains viewer engagement with steam and patron interaction, but it's repetitive compared to previous segments showing similar vegetable handling without introducing new techniques or dramatic elements like the flaming displays seen earlier.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment continues the established cooking demonstration pattern without introducing new narrative elements, techniques, or dramatic events. While it maintains the tutorial's core activity (slicing and arranging vegetables) and includes audience engagement (patron watching), it does not advance the story beyond what has been consistently shown in previous segments. The progression is minimal as it repeats familiar actions rather than introducing new stages, climaxes, or instructional milestones in the teppanyaki tutorial."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows competent teppanyaki cooking with steam effects and patron observation, but lacks the dramatic visual elements (flames, dynamic ingredient tossing, or unique plating) seen in previous highlight segments. It continues the established visual pattern without introducing striking diversity or standout moments compared to the more visually impressive flaming demonstrations in segments 13-14."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.45,
+          "reason": "The segment shows routine cooking activity with steam indicating heat, but lacks the dramatic tension, strong emotional expression, or heightened sentiment seen in flaming demonstrations or highly interactive performances. It is focused on skillful preparation with a patron observing, which conveys professionalism and engagement, but the emotional intensity is moderate and not as strong as segments with explicit fiery displays or direct audience interaction."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment describes the chef cooking vegetables on a teppanyaki grill with steam rising, observed by a patron. This closely mirrors the repetitive actions and setting detailed in previous segments (e.g., slicing/arranging vegetables, steam/sizzling, patron observation). While it confirms the ongoing tutorial activity, it introduces minimal new instructional content or semantic variation beyond the established pattern of cooking vegetables on the grill in a restaurant setting."
+        }
+      },
+      "final_score": 0.9875
+    }
+  ]
+}

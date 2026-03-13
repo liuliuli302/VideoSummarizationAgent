@@ -1,0 +1,245 @@
+{
+  "video_id": "WG0MBPpPC6I",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 1191,
+      "planner_score": 0.85,
+      "planner_reason": "This segment introduces key ingredients (beans, pie crust) and shows the start of ingredient preparation (chopping fresh items), which is foundational for a cooking tutorial. It establishes the setting and initial steps, making it important for understanding the recipe's beginning phase.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment introduces key ingredients (beans, pie crust) and shows initial preparation steps (chopping fresh ingredients), which are foundational for the cooking process. It sets up the recipe's components, contributing directly to the progression of the tutorial by establishing what will be used and starting the hands-on work."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.5,
+          "reason": "The segment shows a clear, well-lit kitchen setup with a person actively preparing ingredients, which is visually competent for a tutorial. However, it lacks striking or highlight-worthy elements like dynamic cooking actions, vibrant colors, or unusual ingredients, focusing instead on routine preparatory steps (showing canned beans, pie crust, chopping) that are typical and not particularly diverse or engaging."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment shows a calm, instructional cooking setup with basic ingredient preparation (beans, pie crust, chopping). There is minimal emotional expression, tension, or sentiment—typical of a neutral tutorial introduction without dramatic or engaging elements."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces new, specific ingredients (beans, pie crust) and actions (chopping fresh ingredients) that are not redundant with the global summary's general mention of 'ingredient preparation,' adding concrete details to the tutorial's setup."
+        }
+      },
+      "final_score": 1.4500000000000002
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1191,
+      "end_frame": 2382,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment is highly important because it directly continues the core tutorial activity of ingredient preparation, which is essential for the cooking process. The detailed chopping of vegetables and handling of avocado represent fundamental steps in meal preparation that viewers need to see to follow the recipe. This segment maintains instructional continuity from the previous segment while adding new, specific preparation techniques that are crucial for the final dish assembly described in the global summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment continues the ingredient preparation phase (chopping vegetables, handling avocado) without advancing to cooking or assembly, contributing minimally to story progression as it remains in the same preparatory stage as the previous segment."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment shows visually clear and organized food preparation with colorful ingredients (avocado, vegetables, spices) and a distinct patterned dress, but it lacks dynamic cooking actions or dramatic visual changes that would make it particularly striking or highlight-worthy beyond standard tutorial steps."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts routine ingredient preparation with a calm, methodical approach, lacking strong emotional cues, tension, or heightened sentiment. The actions are instructional and neutral, typical of a tutorial, with no evident excitement, drama, or emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment provides some new information by detailing specific actions (chopping vegetables, handling an avocado) and listing additional ingredients (eggs, spices, mixing bowl), but it largely reiterates the general ingredient preparation theme already established in the global summary and previous segment, offering limited novel semantic content."
+        }
+      },
+      "final_score": 1.225
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 2382,
+      "end_frame": 3573,
+      "planner_score": 0.8,
+      "planner_reason": "This segment is important as it shows the transition from ingredient preparation to active cooking—specifically cracking eggs, which is a key step in many recipes, and moving toward the stove to begin cooking. It advances the tutorial's narrative beyond prep work, signaling the start of the cooking phase, which is central to the tutorial's purpose. However, it is slightly less critical than segments showing the final assembly or unique techniques, as egg-cracking is a common step.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment contributes moderately to story progression by advancing from ingredient preparation to active cooking steps (cracking eggs, moving toward the stove), but it remains in the early cooking phase without yet showing assembly or completion of the final dish."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment shows a visually clear and active cooking step (cracking an egg, handling a squash), which is highlight-worthy for a tutorial, but it lacks significant visual diversity or striking elements compared to previous segments, as it continues similar kitchen actions and setting without new or dramatic changes."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment involves routine cooking actions like cracking an egg and handling ingredients, which are calm and instructional. There is no visible emotional expression, heightened tension, or strong sentiment, aligning with the neutral, tutorial-focused theme."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment introduces the action of cracking an egg into a mixing bowl and handling a squash/zucchini, which adds new procedural steps (cracking eggs, preparing squash) not explicitly detailed in previous segments. However, it overlaps with the general theme of ingredient preparation and cooking steps already established, limiting the novelty of semantic content."
+        }
+      },
+      "final_score": 1.3250000000000002
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 3573,
+      "end_frame": 4764,
+      "planner_score": 0.85,
+      "planner_reason": "The segment shows active cooking steps (stirring beans/lentils) which are central to the tutorial's cooking process, and introduces a new ingredient (yam/sweet potato) that expands the recipe scope. It directly contributes to the 'cooking components' part of the global summary and maintains continuity with previous preparation steps.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment shows active cooking steps (stirring beans/lentils) which directly advance the meal preparation, but it is still part of the ongoing cooking process rather than a major narrative shift or final assembly."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows active cooking steps (handling a root vegetable, stirring beans) in a bright kitchen, which is visually clear and relevant to the tutorial theme. However, it lacks striking or diverse visual elements compared to previous segments (e.g., no new techniques, colors, or highlight-worthy moments like ingredient reveals or assembly), making it routine rather than standout."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment shows routine cooking actions (holding a vegetable, stirring beans) in a domestic setting with a calm, instructional tone typical of a tutorial. There is no visible emotional expression, heightened tension, or strong sentiment; the focus is on procedural demonstration rather than evoking or conveying emotions."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment introduces new actions (stirring a mixture in a frying pan) and a new ingredient (a large pale yellow root vegetable, likely a yam or sweet potato), which adds to the cooking process. However, much of the scene—such as the kitchen setting and the woman's attire—is consistent with previous segments, and the actions are part of an ongoing meal preparation rather than a distinct new phase. Thus, it provides moderate but not substantial new information."
+        }
+      },
+      "final_score": 1.375
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 4764,
+      "end_frame": 5955,
+      "planner_score": 0.85,
+      "planner_reason": "This segment directly demonstrates a key cooking step (stirring beans) and shows the assembly of the final dish with tortillas and toppings, which aligns with the tutorial's goal of teaching meal preparation from start to finish. It is more important than earlier prep steps but slightly less critical than the final assembly or plating, as it bridges cooking and assembly.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment contributes to story progression by advancing from ingredient preparation to active cooking (stirring beans) and initial assembly (using tortillas and toppings), which are key steps in the meal preparation process. However, it does not yet show the final assembled dish or completion of the meal, leaving some progression pending."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment shows active cooking (stirring beans) and assembly of a dish, which are visually dynamic and highlight key steps in the tutorial. However, it is part of a consistent cooking process without exceptional novelty or dramatic visual contrast compared to previous segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts routine cooking actions (stirring beans, assembling ingredients) with a calm, instructional tone typical of tutorials. While the vibrant dress adds some visual energy, there is no heightened emotional expression, dramatic tension, or strong sentiment conveyed—the focus remains on procedural demonstration rather than emotional engagement."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces the action of assembling a dish with tortillas and fresh toppings, which adds a new step in the meal preparation process. However, stirring beans was already mentioned in previous segments, and the overall theme and ingredients remain consistent with prior context, limiting the novelty of the information provided."
+        }
+      },
+      "final_score": 1.35
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 5955,
+      "end_frame": 7146,
+      "planner_score": 0.85,
+      "planner_reason": "This segment depicts the final assembly stage of the meal, which is a critical step in a cooking tutorial. It shows the application of previously prepared ingredients (beans, egg, avocado, tomato) into a completed dish, providing viewers with the end result and serving instructions. While not the only assembly moment, it clearly demonstrates the construction of a key dish (open-faced sandwich/wrap) and reinforces the tutorial's practical outcome.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "The current segment directly contributes to story progression by depicting the final assembly stage of the meal, which is a key culmination of the tutorial's cooking process. It shows the woman layering tortilla, beans, and fried egg to create the final dish, advancing from preparation and cooking to the main event of assembling the completed meal."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking and highlight-worthy due to the dynamic assembly of a final dish with layered ingredients (tortilla, black beans, fried egg) and vibrant presentation (colorful plates with avocado and tomato). It offers clear visual diversity from previous cooking steps by focusing on the final assembly, making it a key tutorial moment."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment shows a calm, methodical assembly of a sandwich or wrap with beans and a fried egg, typical of a tutorial. The woman's demeanor is focused and instructional, lacking strong emotional expressions, high tension, or pronounced sentiment. The atmosphere is domestic and orderly, with no dramatic or emotionally charged elements, resulting in a low emotional intensity score."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces the specific assembly of a sandwich/wrap with beans and a fried egg, which is a new step in the cooking process not explicitly detailed in previous segments. However, the overall theme of assembling a dish with beans and toppings has been covered in prior segments, limiting the novelty of the information. The action is consistent with the tutorial's progression but adds minor detail on layering order."
+        }
+      },
+      "final_score": 1.4625
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 7146,
+      "end_frame": 8337,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows the final assembly and presentation of the dish, which is a key concluding step in a cooking tutorial. While previous segments covered ingredient prep and cooking components, this segment demonstrates the finished product and presentation, which is important for viewers to see the end result. However, it's slightly less critical than the core cooking techniques shown earlier, as assembly is often straightforward after proper preparation.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment shows the final assembly and presentation of the dish, which is a key step in the cooking tutorial's progression from preparation to completion. It directly contributes to the main event by demonstrating the culmination of the meal assembly, though it does not introduce new cooking actions beyond adding lettuce and presenting."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment is visually engaging due to the final presentation of the assembled dish, the woman's direct engagement with the camera, and the colorful, detailed ingredients. However, it is similar to previous assembly segments, reducing its uniqueness and highlight-worthy impact compared to earlier cooking actions."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment shows a moderate level of positive emotion through the woman's smile and presentation gesture, but it lacks intense emotional expression, high tension, or strong sentiment typical of dramatic or highly engaging content. The focus remains on instructional assembly with a calm, friendly demeanor."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces the final assembly step of adding lettuce and presenting the dish, which is a new action but largely continues the assembly process shown in previous segments. It adds minor new details like the specific topping (lettuce) and presentation gesture, but the core semantic content of assembling a sandwich/wrap with beans, eggs, and toppings is already established, limiting the novelty."
+        }
+      },
+      "final_score": 1.4
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 8337,
+      "end_frame": 9535,
+      "planner_score": 0.9,
+      "planner_reason": "This segment is the culmination of the tutorial, showing the final prepared dish being presented. It features the chef directly engaging with the audience to present the completed meal, includes a close-up for detail, and provides a direct call-to-action (recipe link). This makes it highly important for a summary as it shows the end goal and result of the demonstrated process.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment represents the culmination of the tutorial's main event progression—the final presentation of the completed dish. Chef Diane proudly showcases the finished sandwich, which is the end goal of the cooking process demonstrated throughout the video. The close-up and graphic overlay reinforce this as the key outcome, making it a highly significant contribution to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment is visually striking and highlight-worthy due to the close-up shot of the finished sandwich, which emphasizes its appetizing details like crispy breading and fresh toppings, along with Chef Diane's enthusiastic presentation and direct engagement with the camera. The graphic overlay adds a dynamic element, enhancing its appeal as a key moment in the tutorial."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment features strong emotional expression through Chef Diane Dimeo's proud presentation, direct engagement with the camera, and enthusiastic gestures, conveying excitement and satisfaction. The close-up shot and graphic overlay enhance the sentiment by emphasizing the appeal of the dish and encouraging viewer interaction, though it remains within the tutorial genre's typical expressive range."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces a new dish (chicken sandwich) and a specific recipe prompt ('Homemade Breading'), which adds some new instructional content. However, much of the activity (assembling, presenting) and setting (kitchen) are consistent with previous segments, and the core tutorial theme of meal preparation remains unchanged. The information is moderately new but overlaps with established patterns."
+        }
+      },
+      "final_score": 1.6625
+    }
+  ]
+}

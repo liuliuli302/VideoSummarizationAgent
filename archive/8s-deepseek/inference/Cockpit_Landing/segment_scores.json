@@ -1,0 +1,245 @@
+{
+  "video_id": "Cockpit_Landing",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 1130,
+      "planner_score": 0.85,
+      "planner_reason": "This segment directly aligns with the video theme of 'landscape' and captures the core scenic flight experience described in the global summary. It establishes the key visual elements—the sprawling cityscape, winding river, urban/suburban mix, and atmospheric lighting—that define the aerial journey. While it lacks specific landmarks like skyscrapers or the stadium mentioned later, it provides the foundational setting and mood essential for a landscape-focused summary. The absence of landing details lowers the score slightly, but its role as the opening scenic panorama makes it highly important.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment establishes the setting and visual context of the flight, but it primarily focuses on descriptive scenery without advancing the narrative toward key events like approaching landmarks or the landing sequence. It contributes minimally to story progression as it remains in an introductory observational phase."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the soft pastel sky at dawn/dusk, a winding river cutting through diverse urban and suburban landscapes, and the gentle framing by the aircraft window, creating a highlight-worthy aerial perspective. However, it lacks dynamic elements like iconic landmarks or dramatic lighting shifts, slightly limiting its diversity and peak impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment conveys a serene and visually pleasing atmosphere with soft pastel skies and gentle lighting, evoking a sense of calm and tranquility. However, the emotional expression is subtle and lacks strong tension, dramatic sentiment, or intense emotional peaks, resulting in a moderate emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.95,
+          "reason": "The segment introduces the core setting and visual elements of the video—the cockpit perspective, the sprawling cityscape at dawn/dusk, the winding river, and the mix of urban and suburban features—which are foundational to the global summary. It provides substantial new semantic content by establishing the scene, time of day, and key geographical details that were not previously described in the memory context."
+        }
+      },
+      "final_score": 1.475
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 1130,
+      "end_frame": 2260,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it bridges the scenic overview from the previous segment with the operational aspect of the flight, showing both the external landscape and the pilot's interaction with the controls. It reinforces the 'scenic flight experience' theme by combining breathtaking visuals with the human element of piloting, which is central to the narrative of an aerial journey. The focus on the instrument panel and adjustments adds depth to the experience, making it more engaging and informative for the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "This segment moderately advances the story by introducing the pilot's active role and the instrument panel, shifting from purely scenic observation to a more engaged flight experience, but it largely reiterates the setting and lacks a distinct narrative event or progression toward the landing climax."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking due to the dynamic contrast between the expansive, hazy cityscape at dawn/dusk and the detailed, close-up view of the instrument panel and pilot's hand. This diversity of shots (external landscape vs. internal cockpit details) enhances highlight-worthiness, capturing both the scenic beauty and the hands-on flying experience. However, it slightly overlaps with the previous segment's setting, reducing novelty."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.35,
+          "reason": "The segment contains minimal emotional expression or tension. While the scenic flight over a city at dawn/dusk has aesthetic appeal, there is no strong emotional content, dramatic tension, or pronounced sentiment. The pilot's hand adjusting controls adds slight procedural interest but doesn't create emotional intensity. The overall tone remains calm, observational, and technical rather than emotionally charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment largely reiterates the visual and thematic elements established in the previous segment (sprawling cityscape, winding river, dawn/dusk setting, cockpit perspective). Its primary new information is the explicit focus on the pilot's hand adjusting controls and the detailed instrument panel, which introduces a more technical, operational layer to the scenic flight theme. However, this is a moderate addition within an already-established context, rather than a major shift in semantic content."
+        }
+      },
+      "final_score": 1.3875
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 2260,
+      "end_frame": 3390,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it represents the culmination of the scenic flight journey described in the global summary. While it shares visual elements with previous segments (cityscape, river, cockpit view), it specifically captures the descent phase and landing approach, which is identified as a key narrative endpoint. The warm glow from the sun adds emotional and aesthetic value, enhancing the visual appeal for a summary. However, some redundancy exists with earlier cockpit and landscape shots, slightly reducing uniqueness.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment contributes significantly to story progression by depicting a clear descent phase, indicating a transition from cruising to landing approach, which is a key event in the aerial journey narrative. It maintains continuity with the previous segments while advancing the plot towards the culmination described in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment features a visually striking combination of the detailed flight deck instruments and the expansive, warm-lit cityscape below, which is highlight-worthy due to the scenic descent and atmospheric lighting. However, it is somewhat similar to previous segments in theme and composition, reducing its uniqueness."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment conveys a moderate emotional tone through the 'breathtaking aerial view' and 'warm glow' of the sunset, which evokes a sense of awe and tranquility. However, the focus remains largely observational and technical due to the pilot's instrument monitoring and the descriptive landscape, limiting the intensity of emotional expression or tension compared to more dramatic or personal narratives."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment largely reiterates the visual and thematic elements already established in previous segments—specifically, the cockpit perspective, the sprawling cityscape with a winding river, and the atmospheric lighting (dawn/dusk). While it adds minor details like the pilot monitoring instruments and the plane descending, these do not substantially expand the informational or semantic content beyond what was previously summarized. The segment reinforces rather than introduces new information, resulting in a low score for novelty."
+        }
+      },
+      "final_score": 1.425
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 3390,
+      "end_frame": 4520,
+      "planner_score": 0.8,
+      "planner_reason": "This segment introduces two key landmarks (financial district skyscrapers and modern stadium) that were mentioned in the global summary but not yet shown in previous segments, making it important for visual variety and landmark coverage. However, it doesn't show the landing approach which is the culmination mentioned in the summary, so it's not the highest priority segment.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment introduces specific, recognizable landmarks (dense financial district with iconic skyscrapers, large modern stadium) that help geographically anchor the journey and suggest progression toward or from an urban core, but it does not depict a clear narrative or temporal advancement in the flight's main event sequence compared to prior segments focused on approach/descent."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment features visually striking elements including a sun-drenched cityscape with iconic skyscrapers and a contrasting modern stadium in a forested area, creating diverse and highlight-worthy aerial imagery that captures both urban density and recreational architecture from an engaging aircraft perspective."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment features visually striking elements like sun-drenched skyscrapers and a modern stadium, which evoke a mild sense of awe or grandeur. However, it lacks explicit emotional cues, narrative tension, or strong sentiment, focusing instead on descriptive, scenic observation without personal or dramatic engagement."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment introduces specific landmarks (dense financial district with iconic skyscrapers, modern stadium in forested area) that were not explicitly detailed in previous segments, adding some new visual and locational information. However, the overall theme of an aerial view over a cityscape with a river remains consistent with prior segments, and the core semantic content about a scenic flight approach/departure is largely redundant. The new elements are descriptive refinements rather than substantially novel information."
+        }
+      },
+      "final_score": 1.3375
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 4520,
+      "end_frame": 5650,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment represents the culmination of the aerial journey described in the global summary, specifically focusing on the landing approach and touchdown at a major international airport. While previous segments established the scenic flight over the cityscape, this segment transitions from landscape viewing to the critical operational phase of landing, which is explicitly mentioned as the conclusion in the global summary. For a landscape-themed video, this segment maintains visual continuity with aerial views while adding narrative closure through the landing sequence, making it highly important for a coherent summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment contributes to story progression by depicting the final descent and landing approach, a key event in the aerial journey. However, it is part of a sequence of similar descent scenes, so while it advances the narrative toward the culmination, it does not introduce a new major event or significant plot development beyond continuing the established landing sequence."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment is visually engaging due to the dynamic shift from expansive aerial views to detailed cockpit instrumentation, which adds operational interest and highlights the landing phase. However, compared to earlier segments with more dramatic lighting (dawn/dusk) and iconic landmarks, it is less striking and diverse, focusing more on procedural aspects rather than scenic variety."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment describes a procedural landing approach with a focus on pilot actions and instrument monitoring. While there is inherent tension in landing an aircraft, the description emphasizes technical execution rather than strong emotional expression or heightened sentiment. The emotional tone remains calm and professional, consistent with a pilot's routine duties, resulting in moderate emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment introduces the specific action of finalizing the landing approach, which adds procedural detail to the flight narrative. However, much of the semantic content—such as the cockpit perspective, descent, and instrument panel focus—has been previously established in earlier segments, reducing the novelty of this information."
+        }
+      },
+      "final_score": 1.375
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 5650,
+      "end_frame": 6780,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it represents the culmination of the aerial journey described in the global summary—specifically the 'detailed landing approach and touchdown at a major international airport.' While previous segments have shown the scenic flight, descent, and approach, this segment directly captures the final, critical phase of landing, which is a key narrative and thematic endpoint for a landscape-themed video focused on a scenic flight experience. It provides closure and a satisfying conclusion to the visual journey.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment directly depicts the culmination of the journey's main event—the landing approach and touchdown at the airport. It advances the story from the scenic flight to the critical action of landing, which is a key progression point in the narrative of the flight experience."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.75,
+          "reason": "The segment is visually striking due to the contrast between the glowing instrument panel (green and blue displays) and the expansive airport view through the windshield, creating a compelling cockpit perspective. It is highlight-worthy as it captures the critical landing approach phase, showing detailed airport infrastructure (runways, terminals, greenery) which adds specificity and engagement. However, compared to previous segments featuring iconic cityscapes and rivers at dawn/dusk, this segment's visual diversity is slightly lower as it focuses more on technical landing details rather than sweeping natural/urban vistas."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a routine landing approach with a calm, procedural focus on the instrument panel and airport view, lacking strong emotional cues, tension, or sentiment beyond a neutral, controlled aviation scenario."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment introduces new specific details about the landing approach, such as the instrument panel's green and blue displays and the view of the airport complex with runways and terminal buildings, which were not explicitly described in previous segments. However, the overall theme of landing approach and descent has been covered in prior segments, limiting the novelty of the semantic content."
+        }
+      },
+      "final_score": 1.4874999999999998
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 6780,
+      "end_frame": 7910,
+      "planner_score": 0.95,
+      "planner_reason": "This segment represents the culmination of the aerial journey described in the global summary - the detailed landing approach and touchdown at a major international airport. As the final phase of the scenic flight experience, it provides narrative closure and completes the journey arc from scenic flight to landing. The segment directly corresponds to the 'culminating in a detailed landing approach and touchdown' portion of the global summary, making it highly essential for a coherent summary that follows the complete flight experience from takeoff to landing.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.95,
+          "reason": "The current segment directly depicts the final approach and imminent landing, which is a critical and climactic event in the flight narrative. It advances the story from the general descent and scenic views to the specific, action-oriented conclusion of the journey, making it a high contributor to main event progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking as it captures the critical final approach phase of landing, which is inherently dramatic and highlight-worthy. The perspective from the cockpit provides an immersive, first-person view of the runway stretching ahead, combined with the sprawling airport infrastructure and surrounding greenery. This moment represents the culmination of the aerial journey, offering a sense of anticipation and technical precision. While it may lack the sweeping panoramic beauty of earlier cityscape shots, the focused intensity of the landing approach and the detailed view of airport operations make it a compelling and visually engaging segment within the overall flight narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment depicts a routine final landing approach, which involves procedural focus and calm execution rather than heightened emotional expression. While there is inherent tension in landing, the description emphasizes steady descent and infrastructure visibility, suggesting a controlled, professional atmosphere without dramatic sentiment or intense emotional cues."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment provides minimal new information compared to the global summary and memory context. While it confirms the landing approach at a major international airport, this was already established in previous segments (4 and 5) and the global summary. The description of runways, terminal buildings, and greenery during descent repeats information from segment 5. The only slight addition is the mention of 'taxiways' and 'infrastructure,' but these are logical extensions of the established airport setting rather than substantially new semantic content."
+        }
+      },
+      "final_score": 1.5749999999999997
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 7910,
+      "end_frame": 9046,
+      "planner_score": 0.95,
+      "planner_reason": "The current segment depicts the culmination of the scenic flight journey—the touchdown and ground-level perspective after landing. This is a critical narrative endpoint for the landscape-themed video, as it completes the journey from scenic aerial views to the final landing experience. While previous segments covered the approach and descent, this segment provides the actual touchdown and immediate post-landing perspective, which is essential for a complete summary of the flight experience. It maintains visual continuity with the cockpit perspective and wet runway details, adding a dynamic, ground-level closure to the aerial journey.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.95,
+          "reason": "This segment represents the culmination of the entire flight narrative - the actual touchdown and initial rollout. It directly advances the main event progression from approach phase to completed landing, showing the critical transition from air to ground with specific visual cues (alignment, touchdown, ground-level perspective). This is the narrative climax of the journey described in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is highly visually striking and highlight-worthy as it captures the climactic moment of touchdown and ground roll. The transition from high-altitude view to close approach creates visual dynamism, while the wet runway adds reflective elements and motion blur enhances the sense of speed. The combination of cockpit perspective with ground-level motion creates a compelling visual sequence that represents a key highlight of the flight experience."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment depicts a landing sequence with inherent procedural focus and motion, but emotional expression or tension is subdued. The description emphasizes technical aspects like alignment, speed, and ground-level perspective, with no explicit cues for strong sentiment, dramatic tension, or heightened emotional content (e.g., urgency, relief, awe). While the touchdown moment could carry mild satisfaction, it's presented neutrally without evocative language or sensory details that amplify emotion."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment primarily depicts the final touchdown and ground roll, which is a continuation of the landing sequence already described in previous segments (e.g., segments 4-6). While it adds specific details like the wet runway and motion blur, the core semantic content—landing approach and touchdown—is largely redundant with prior information, offering minimal new substantive information about the landscape or flight experience beyond execution details."
+        }
+      },
+      "final_score": 1.5499999999999998
+    }
+  ]
+}

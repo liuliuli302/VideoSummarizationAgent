@@ -1,0 +1,12 @@
+{
+  "video_id": "Bus_in_Rock_Tunnel",
+  "video_theme": "story",
+  "global_summary": "A Stagecoach West bus (number 803) navigates treacherous mountain terrain, beginning with a scenic but ominous rocky crevice. The bus emerges from a narrow tunnel, but soon becomes wedged between cliffs on a narrow road. The situation escalates as the bus tips over and falls down a steep embankment, captured in a dramatic accident sequence. Later, the bus is shown stuck nose-first in a rocky canyon while a man assesses the situation. The video concludes with the bus carefully navigating a winding mountain road with passengers and a following vehicle, suggesting a narrative of a challenging mountain journey with a serious incident.",
+  "expert_weights": {
+    "story_agent": 0.25,
+    "visual_agent": 0.25,
+    "emotion_agent": 0.25,
+    "information_agent": 0.25
+  },
+  "reason": "The captions depict a clear narrative progression: starting with an establishing shot of rugged terrain, showing the bus navigating, then a sequence of it getting stuck, tipping over, and being recovered/assessed. This follows a story arc rather than being instructional (tutorial), purely scenic (landscape), athletic (sports), or personal (vlog). Expert weights prioritize narrative_analysis due to the strong story structure, visual_analysis for the descriptive terrain and vehicle details, action_detection for the accident and movement sequences, context_understanding for interpreting the bus journey and incident, and emotional_tone lower as the tone is more documentary/tense than emotionally driven."
+}

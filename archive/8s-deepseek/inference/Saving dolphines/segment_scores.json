@@ -1,0 +1,245 @@
+{
+  "video_id": "Saving dolphines",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 835,
+      "planner_score": 0.85,
+      "planner_reason": "This segment establishes the initial peaceful setting and introduces the key subjects (dolphins) that become central to the rescue narrative. While it lacks the urgency of later rescue segments, it provides essential context and emotional contrast that enhances the overall story arc. The appearance of dolphins creates viewer engagement and sets up the stakes for the subsequent emergency.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment introduces the dolphins, which are central to the main event of the rescue, but it primarily establishes the serene setting and the presence of the pod. While it sets up the key subjects, the actual progression of the main event—the stranding and rescue—has not yet begun, so its contribution to story progression is moderate but foundational."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the contrast between the serene, static beach setting and the dynamic, joyful appearance of dolphins, which serves as a highlight-worthy moment. However, it lacks significant diversity in camera movement or scene changes, slightly limiting its impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment features a serene beach scene with gentle waves, which establishes a peaceful baseline, but the sudden appearance of dolphins introduces dynamic and joyful elements. The emotional expression is moderately strong due to the contrast between tranquility and the excitement of the dolphins, though it lacks intense tension or deep sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The segment introduces the primary subjects (dolphins) and establishes the initial peaceful setting, providing substantial new semantic content that sets the stage for the subsequent rescue narrative."
+        }
+      },
+      "final_score": 1.5375
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 835,
+      "end_frame": 1670,
+      "planner_score": 0.4,
+      "planner_reason": "The current segment depicts the dolphins swimming near shore, which is the initial peaceful state before the stranding event. While it establishes the key subjects (dolphins) and setting (coastal), the global summary indicates the core narrative involves the transition to stranding and rescue. This segment is important for setup but less critical than the actual stranding and rescue actions that drive the story forward.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment primarily reinforces the initial peaceful setting and dolphin presence established earlier, adding descriptive detail but not advancing the story toward the rescue event. It maintains the scene without introducing new plot developments or escalating urgency."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking due to the graceful movement of dolphins in turquoise water against a scenic coastal backdrop, creating a highlight-worthy moment of natural beauty and dynamic action. However, it lacks significant diversity from the previous segment's tranquil beach scene, slightly limiting its uniqueness."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment conveys a moderate level of positive emotion through the graceful, joyful movement of dolphins in a serene coastal setting, but lacks high-intensity tension or dramatic sentiment, maintaining a calm and uplifting tone."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment largely reiterates the visual and thematic content from the previous segment, focusing on dolphins swimming near shore in a tranquil beach setting. It adds minimal new information, instruction, or semantic content beyond reinforcing the initial scene, with slight descriptive elaboration but no significant advancement in narrative or action."
+        }
+      },
+      "final_score": 0.9
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 1670,
+      "end_frame": 2505,
+      "planner_score": 0.85,
+      "planner_reason": "This segment depicts a critical turning point in the narrative—the stranding of the dolphins and the immediate human intervention. It introduces urgency, conflict, and a community response, which are key elements for engagement in a general-themed summary. While the theme is 'general', the shift from serene observation to active rescue adds dramatic value and human interest, making it highly important for capturing the video's core event.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.95,
+          "reason": "This segment introduces a critical turning point in the narrative, shifting from a peaceful observation of dolphins to an urgent rescue scenario. It directly advances the main event by depicting the dolphins' stranding and the immediate human response, establishing a clear progression from the previous segments' tranquility to active intervention."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is highly visually striking and highlight-worthy due to the dramatic shift from previous peaceful scenes to an urgent rescue scenario. The contrast between the sunny beach setting and the stranded dolphins creates immediate visual tension. The dynamic action of people rushing into the water to assist the animals adds compelling human-animal interaction and emotional weight. While the setting remains consistent with previous segments, the sudden emergency situation and coordinated community response make this segment particularly memorable and engaging as a key turning point in the narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a sudden shift from tranquility to urgency, with dolphins stranded and people rushing to assist, creating strong emotional tension and a sense of emergency, though the sunny setting slightly tempers the intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.95,
+          "reason": "The current segment introduces a significant new event—a stranding emergency and a human rescue effort—which adds substantial new narrative and semantic content compared to the previous serene scenes of dolphins swimming freely. This represents a critical development in the video's storyline."
+        }
+      },
+      "final_score": 1.75
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 2505,
+      "end_frame": 3340,
+      "planner_score": 0.95,
+      "planner_reason": "This segment represents the core action and resolution of the video's narrative arc—the coordinated rescue effort to save stranded dolphins. It directly follows the setup (peaceful scene, dolphins swimming, then stranding) and shows the community response in progress, which is the most dynamic and emotionally engaging part of the story. The segment advances the plot, demonstrates human intervention, and is visually active with multiple people assisting. It is essential for understanding the event's outcome and emotional impact, making it highly important for a summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment directly depicts the active rescue effort, showing people pushing and guiding stranded dolphins back into the ocean. It represents a key progression from the initial stranding event to the organized response, moving the story forward toward resolution."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment is highly visually striking and highlight-worthy due to its dramatic and urgent rescue scenario, featuring active human intervention with stranded dolphins in a scenic coastal setting. The diversity of actions—people wading, pushing, guiding, and observing—adds dynamic visual interest, making it a compelling and memorable part of the video narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a high-stakes rescue scenario with clear urgency and emotional weight. The coordinated human response to stranded dolphins creates strong tension between the crisis (animal distress) and the hopeful rescue effort. While not showing extreme panic or overt emotional displays, the scene's urgency, human-animal interaction, and crisis context generate significant emotional engagement and tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment provides some new information about the scale and coordination of the rescue effort, specifically mentioning 'numerous stranded dolphins' and describing it as a 'coordinated, urgent response.' However, the core event—dolphins stranded and people helping—was already established in the previous segment. The setting details (green hill background) and specific actions (some pushing, others observing) add modest new semantic content but don't fundamentally advance the narrative beyond the established crisis and rescue context."
+        }
+      },
+      "final_score": 1.6875
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 3340,
+      "end_frame": 4175,
+      "planner_score": 0.85,
+      "planner_reason": "This segment represents the climax of the rescue narrative, showing the most extensive community involvement and active intervention. While it shares similarities with previous segments in depicting the stranded dolphins and rescue efforts, it emphasizes the scale of human response and collective action, which is central to the video's progression from tranquil observation to urgent community effort. The segment reinforces the key theme of human-animal interaction in crisis but doesn't introduce new narrative elements beyond what was established in segments 2 and 3.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the main event of the dolphin rescue by depicting a large-scale, coordinated community effort with active engagement from many individuals, directly pushing the narrative forward from the initial stranding to a critical phase of the rescue operation."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking and highlight-worthy due to the dramatic rescue scene with a large group of people actively engaged in saving numerous stranded dolphins, creating a dynamic and urgent visual contrast against the sunny beach backdrop. However, it is somewhat similar to previous segments in setting and action, slightly reducing diversity."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts an urgent, high-stakes rescue scenario with multiple people actively engaged in saving stranded dolphins, conveying strong emotions of urgency, compassion, and collective effort. The visible struggle of the dolphins and the coordinated human response heighten emotional intensity, though it lacks extreme distress or dramatic tension compared to a life-or-death crisis."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides minimal new information compared to the previous segments, particularly segment 3, which already described the same rescue scene with people helping stranded dolphins on a sunny beach with a green hill. The current caption reiterates the same actions and setting without introducing new details, instructions, or semantic content."
+        }
+      },
+      "final_score": 1.55
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 4175,
+      "end_frame": 5010,
+      "planner_score": 0.9,
+      "planner_reason": "The current segment is crucial as it depicts the core rescue action, showing coordinated human effort to save stranded dolphins, which is the central event of the video. It reinforces the urgency and community response, making it highly important for summarizing the key narrative.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment continues the established rescue narrative, showing active human intervention to aid stranded dolphins, which directly contributes to the progression of the main event. However, it does not introduce new developments or a resolution, maintaining a similar level of urgency and action as previous segments, thus offering moderate but not pivotal progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking and highlight-worthy due to the dramatic and emotionally engaging nature of the dolphin rescue. The scene captures a coordinated human effort in a picturesque setting with green hills, creating a compelling contrast between natural beauty and urgent action. While similar to previous rescue segments, the active engagement of people wading in water and the visible struggle of the dolphins makes this moment particularly vivid and memorable within the overall narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts an urgent rescue operation with active human intervention to save stranded dolphins, conveying a strong sense of urgency, compassion, and collective effort. While the scene is not chaotic or highly dramatic, the coordinated action and visible struggle of the dolphins create significant emotional tension and positive sentiment focused on rescue and care."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment continues the established rescue narrative without introducing new information, instructions, or significant semantic content beyond what was already described in previous segments 2-4. It maintains the same setting (sunny beach with green hills), action (people wading and pushing dolphins), and overall context (coordinated rescue effort). While it reinforces the ongoing nature of the operation, it does not provide substantial new developments, instructions, or semantic details that advance the story meaningfully beyond the existing summary."
+        }
+      },
+      "final_score": 1.575
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 5010,
+      "end_frame": 5845,
+      "planner_score": 0.85,
+      "planner_reason": "This segment continues the core rescue narrative that forms the central dramatic arc of the video, showing the coordinated community effort which is the main event. However, it is highly similar in content and setting to the previous three segments (3, 4, 5), which all describe the same rescue operation from slightly different angles. This repetition reduces its unique informational value for a summary, though it reinforces the theme of collective action and urgency.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment represents a critical culmination of the rescue narrative, showing the peak of coordinated community action to save the stranded dolphins. It directly advances the main story from initial discovery to active resolution, demonstrating collective effort and urgency that drives the narrative forward significantly."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment continues the established rescue narrative with similar visual elements to previous segments (sunny beach, green hills, people assisting dolphins). While it captures the coordinated community response and the contrast between calm scenery and urgent action, it lacks new striking visual elements, diverse compositions, or highlight-worthy moments beyond what was already established in segments 2-5. The visual content is consistent but not particularly distinctive or elevated compared to the preceding rescue scenes."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a high-stakes rescue scenario with stranded dolphins, which inherently carries strong emotional weight. The description emphasizes urgency ('coordinated rescue effort', 'emergency'), collective human compassion ('community response', 'collective effort'), and a contrast between the peaceful setting and urgent activity. This creates a palpable sense of tension, empathy, and hopeful determination, though it may not reach the peak intensity of more personal or life-threatening human dramas."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment largely reiterates the rescue scenario already established in previous segments (2-5), describing the same setting (sunny beach with green hills), the same action (people wading to assist stranded dolphins), and the same contrast between calm setting and urgent activity. It adds minimal new information, primarily reinforcing the community response and collective effort themes already present in the memory context."
+        }
+      },
+      "final_score": 1.4375
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 5845,
+      "end_frame": 6683,
+      "planner_score": 0.2,
+      "planner_reason": "The current segment depicts people enjoying a beach day without any visible dolphin rescue activity, which diverges from the central narrative of the stranded dolphin rescue effort established in the global summary and previous segments. While it maintains the same scenic setting, it lacks the urgency, action, and thematic continuity crucial for summarizing the video's main event. Therefore, its importance for the final summary is low.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment shows people enjoying the beach rather than actively participating in the dolphin rescue effort that was the main event in previous segments. While it maintains the same setting and general theme of human interaction with the coastal environment, it represents a significant departure from the urgent, event-driven narrative of the rescue operation. The segment contributes minimally to story progression as it shifts focus from the emergency situation to leisure activity, effectively pausing the main event's forward momentum."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows a pleasant beach scene with people wading in shallow water, but compared to the previous segments featuring dramatic dolphin rescue action, this scene is visually less striking and lacks highlight-worthy content. It returns to a more tranquil, routine beach activity without the urgency, emotional impact, or visual diversity of the rescue sequences. While aesthetically pleasing with clear water and scenic hills, it doesn't stand out as particularly diverse or highlight-worthy within the context of the video's narrative arc."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The current segment depicts a peaceful beach scene with people wading and walking in shallow water, which contrasts sharply with the previous segments' urgent dolphin rescue narrative. While the setting remains visually pleasant, the emotional intensity is significantly lower than the preceding rescue efforts. The segment conveys a general sense of leisure and tranquility rather than strong emotional expression, tension, or sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides minimal new information compared to the previous segments. While it continues the beach setting with people in shallow water, it lacks the critical element of dolphin rescue that defined the urgency and purpose in segments 2-6. The description now shifts to general leisure ('enjoy a sunny day') rather than emergency response, which slightly updates the scene's tone but does not introduce significant new semantic content or instructions beyond confirming the ongoing human presence in the water."
+        }
+      },
+      "final_score": 0.45
+    }
+  ]
+}
