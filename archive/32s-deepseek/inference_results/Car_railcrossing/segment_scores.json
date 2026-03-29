@@ -1,0 +1,965 @@
+{
+  "video_id": "Car_railcrossing",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 158,
+      "planner_score": 0.7,
+      "planner_reason": "This segment establishes the initial setting and key elements of the incident: the railway crossing with flashing warning lights and lowered barriers, the presence of the black car (which becomes central to the story), and bystanders observing. While it doesn't show the dramatic escalation described in the global summary, it provides crucial context for understanding how the situation began and sets up the location where the subsequent events unfold. The train passing adds to the tension of the railway crossing environment.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment primarily depicts the train passing and people waiting, which is a routine part of the railway crossing setting. It does not directly advance the main event of the car being stuck, damaged, or the ensuing chaos and recovery efforts described in the global summary. However, it establishes the ongoing railway activity and the presence of the black car, providing minor contextual continuity."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a routine train crossing with standard elements like flashing lights and lowered barriers, which are visually clear but not particularly striking or diverse. While it contributes to the narrative by depicting the aftermath of the earlier incident (with the black car stopped nearby and people waiting), it lacks highlight-worthy action, dramatic visuals, or significant escalation compared to the chaotic events described in the global summary."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment depicts a routine train crossing with people waiting and a car stopped, showing calm observation rather than intense emotional expression or tension. The flashing warning lights add mild urgency, but overall sentiment is neutral without dramatic escalation."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces new information about the train's presence and movement, which was not mentioned in the global summary. It provides specific details about the train's color (green), its slow passage, the flashing warning lights, lowered barriers, and the presence of people waiting at the crossing. However, it doesn't introduce entirely new narrative elements beyond what was implied in the global summary about railway activity."
+        }
+      },
+      "final_score": 1.15
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 158,
+      "end_frame": 316,
+      "planner_score": 0.1,
+      "planner_reason": "The current segment is nearly identical to the previous segment (segment 0) in the memory context, both depicting the initial, uneventful passage of the green train. The global summary describes a dramatic escalation involving a car stuck, damaged, and a chaotic recovery. This segment shows only the calm, pre-incident setup and provides no new information critical to the core story of the accident and its aftermath. Its inclusion in a final summary would be redundant and dilute the focus on the key event.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment primarily establishes the setting and initial conditions (train passing, barrier down, car stopped) but does not advance the main event of the car becoming stuck, the ensuing chaos, or recovery efforts described in the global summary. It serves as background context rather than driving the story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment is visually clear and relevant to the theme, showing a train crossing with pedestrians and a car, but it lacks striking or highlight-worthy elements. It is a routine, static scene with minimal diversity or dramatic impact, primarily serving as setup rather than a visually engaging moment."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a routine train crossing with pedestrians waiting calmly and a car stopped, showing no signs of heightened emotion, conflict, or tension. The atmosphere is neutral and observational, lacking strong emotional expression or dramatic escalation."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment provides minimal new information compared to the previous segment and the global summary. It reiterates the same scene of a green train passing at a railway crossing with a black car stopped, pedestrians waiting, and flashing red lights, without introducing new events, instructions, or significant semantic developments relevant to the escalating story described in the global summary."
+        }
+      },
+      "final_score": 0.325
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 316,
+      "end_frame": 474,
+      "planner_score": 0.4,
+      "planner_reason": "This segment establishes the initial setting and introduces key elements (train, crossing, black car, pedestrians) but primarily depicts a routine railway crossing scenario without the dramatic escalation described in the global summary. It serves as setup context rather than containing critical plot developments like the car becoming stuck, the crowd gathering to assist, or the subsequent damage and recovery efforts.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "This segment primarily repeats the established setting of a train crossing with halted traffic, similar to previous segments, without introducing new story progression elements such as the car becoming stuck, escalating chaos, or recovery efforts mentioned in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment is visually consistent with the previous ones, showing a train at a crossing with flashing lights, barriers down, and waiting pedestrians and vehicles, but it lacks striking diversity or highlight-worthy action compared to the global summary's chaotic events like car damage or recovery efforts. It captures a routine, static moment without escalation or unique visual elements."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a routine, calm moment of a train crossing with no visible emotional intensity, tension, or strong sentiment beyond the ordinary waiting scenario described in the caption."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment largely reiterates information already established in previous segments, describing a green passenger train stopped at a railway crossing with flashing red lights, lowered barriers, pedestrians waiting, and a black car stopped nearby. It adds minimal new semantic content beyond reinforcing the setting, with no progression in events, instructions, or novel details relative to the memory context."
+        }
+      },
+      "final_score": 0.5750000000000001
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 474,
+      "end_frame": 632,
+      "planner_score": 0.85,
+      "planner_reason": "This segment depicts the critical moment when the black sedan attempts to navigate the partially lowered barrier at the railway crossing, directly initiating the central conflict described in the global summary. It shows the car's movement into the crossing area despite the flashing red warning light and presence of pedestrians, establishing the cause of the subsequent obstruction and damage. While the segment doesn't show the actual collision or damage, it captures the decision and action that leads to the escalating situation, making it highly important for understanding the story's progression from normal crossing operation to developing crisis.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment shows the black sedan moving forward through the crossing despite the flashing red light and partially lowered barrier, which introduces a potential conflict or rule-breaking action. However, it does not yet depict the car becoming stuck, the barrier fully lowering on it, or any direct escalation to the chaotic damage or confrontations described in the global summary. It sets up a risky situation but does not significantly advance the main event progression beyond establishing initial disregard for safety signals."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking and highlight-worthy due to the high-tension scenario of a black sedan navigating through a partially lowered barrier at a busy railroad crossing with flashing red lights, pedestrians on the tracks, and a visible train nearby. This creates a sense of imminent danger and urgency. The scene is diverse in elements (car, train, pedestrians, barriers, lights) and represents a key moment of potential conflict in the narrative. However, it doesn't reach the maximum score as the actual collision or severe damage hasn't occurred yet in this segment."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a tense and potentially dangerous situation with a car navigating through a partially lowered barrier at a busy railroad crossing while pedestrians are present and a train is visible. However, the emotional intensity is moderate because the car is moving slowly and deliberately, and there is no immediate indication of panic, confrontation, or imminent collision. The scene suggests caution and obstruction rather than high-stakes crisis or strong emotional outbursts."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces the black sedan moving forward through the crossing, which is a new action not explicitly described in previous segments or the global summary. However, the setting (railroad crossing with flashing lights, barrier down, pedestrians, green train) and overall scenario (traffic obstruction) are already established from prior context, limiting the novelty of semantic content. The movement adds minor progression but does not significantly advance the narrative or introduce substantial new information."
+        }
+      },
+      "final_score": 1.2875
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 632,
+      "end_frame": 790,
+      "planner_score": 0.85,
+      "planner_reason": "This segment depicts the critical moment where the black sedan attempts to navigate through the lowered barrier, directly initiating the obstruction event described in the global summary. It shows the car's positioning and the gathering crowd, which are key elements leading to the subsequent chaos and damage. For a story-themed video, this represents a pivotal action that sets up the conflict and escalation, making it highly important for narrative continuity and understanding the cause of the incident.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment significantly advances the story by depicting the black sedan actively attempting to navigate through the lowered barrier, which directly leads to the obstruction described in the global summary. It introduces the key conflict of the car becoming stuck, a pivotal event that escalates the situation, and shows initial bystander involvement, marking a clear progression from earlier segments of passive waiting to active, risky behavior."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment depicts a visually striking and highlight-worthy moment where a black sedan attempts to navigate through a lowered railway crossing barrier with flashing red lights, creating a sense of tension and potential danger. The presence of people gathered, some directing traffic, adds to the chaotic and dynamic nature of the scene. However, it lacks extreme diversity or dramatic escalation compared to the global summary's description of severe damage or confrontations, keeping it moderately impactful within the narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment depicts a tense situation with the car attempting to navigate through a lowered barrier amidst flashing warning lights and a gathering crowd, indicating moderate emotional intensity through urgency and potential risk, but lacks overt expressions of fear, anger, or dramatic confrontation."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment introduces the specific action of the black sedan attempting to maneuver around the lowered barrier, which adds a slight progression in the narrative by showing an active attempt to bypass the obstruction. However, it largely reiterates the setting and elements (flashing red light, gathered people, waiting vehicles) already established in previous segments, offering minimal new semantic content beyond reinforcing the ongoing traffic conflict."
+        }
+      },
+      "final_score": 1.4625
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 790,
+      "end_frame": 948,
+      "planner_score": 0.85,
+      "planner_reason": "This segment represents a critical escalation point in the narrative. It shows the black sedan now physically stuck on the raised platform/railroad crossing, confirming the obstruction that was hinted at in previous segments. This is the moment where the initial problem (the car navigating a lowered barrier) transforms into a concrete, stationary obstruction that blocks traffic and draws a crowd. For a story-themed summary, this is a key turning point that sets up the subsequent chaos, damage, and recovery efforts described in the global summary. It provides the 'cause' for the later 'effects.' The presence of gathered people and a man leaning against the barrier adds human reaction and scale to the incident, enhancing narrative depth. While not the peak of action (the severe damage or recovery), it is a highly important establishing segment for the conflict's development.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "This segment introduces a key development in the story: the black sedan is now explicitly stuck on a raised platform at the crossing, directly causing a traffic obstruction and drawing a crowd. This represents a clear escalation from previous segments where the car was merely navigating or stopped, marking a progression toward the chaotic incident described in the global summary. However, the segment does not yet show the severe damage, confrontations, or recovery efforts that define the climax of the story."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking and highlight-worthy due to the escalating tension and unique obstruction: a black sedan stuck on a raised platform at a railroad crossing, with flashing red lights, a lowered barrier, and a gathering crowd. It introduces a clear conflict and potential danger, standing out from previous segments that primarily showed routine train crossings or minor obstructions. The composition, with the dashboard foreground and focused observation, enhances the dramatic, real-life incident feel. However, it lacks extreme action or severe damage seen later in the global summary, slightly limiting its diversity impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment depicts a tense situation with a car stuck on a railway crossing, flashing warning lights, and a gathering crowd, indicating heightened concern and potential danger. However, the emotional expression is moderate as the individuals appear observant rather than panicked, lacking overt displays of fear or intense confrontation."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The current segment introduces the key development that the black sedan is now 'stuck on a raised platform' and 'blocking traffic,' which advances the narrative beyond the earlier segments where the car was merely maneuvering or waiting. This represents new semantic content about the obstruction's nature and impact. However, much of the scene—the flashing lights, lowered barrier, gathered observers, and perspective from a stopped vehicle—repeats information established in previous segments, reducing the overall novelty."
+        }
+      },
+      "final_score": 1.5375
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 948,
+      "end_frame": 1106,
+      "planner_score": 0.85,
+      "planner_reason": "This segment marks a critical escalation in the story, showing the car now physically stuck under the barrier, which directly triggers the gathering crowd and sets up the subsequent chaos and damage described in the global summary. It transitions from previous segments of observation and attempted maneuvering to a concrete obstruction that demands intervention, making it a key narrative turning point.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment depicts the car now physically stuck under the barrier, escalating from previous attempts to navigate the crossing. This represents a clear progression in the main event—the obstruction is now a concrete, stationary problem, prompting a crowd to gather and assess, which directly advances the story toward the impending chaos and recovery efforts described in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment depicts a visually striking and highlight-worthy moment where a black sedan is stuck under a lowered railway barrier, creating a clear obstruction and potential hazard. The gathering crowd adds to the scene's tension and narrative interest, making it more diverse and engaging than typical traffic footage. However, the visual composition is somewhat static and viewed from a stationary vehicle, limiting dynamic action or dramatic angles, which prevents a higher score."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.35,
+          "reason": "The segment depicts a stalled vehicle and a gathering crowd, which introduces mild concern and curiosity, but lacks intense emotional expressions, high tension, or strong sentiment. The scene is observational with passive bystanders, resulting in a low emotional intensity score."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces the specific detail that the car is 'wedged under the lowered barrier,' which clarifies the nature of the obstruction beyond simply being 'stuck' or 'blocking traffic' mentioned in previous segments. It also adds the presence of a pedestrian walking across the crossing in front of the car, a small new action. However, the core situation—a black sedan obstructing a railway crossing with flashing lights, a gathered crowd, and a stationary perspective—has already been established in prior segments (especially 4 and 5). Therefore, while it provides some incremental clarification and minor new visual details, it does not introduce major new narrative developments, instructions, or semantic content relative to the established context."
+        }
+      },
+      "final_score": 1.3875
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 1106,
+      "end_frame": 1264,
+      "planner_score": 0.4,
+      "planner_reason": "This segment shows the ongoing obstruction at the railway crossing with pedestrians moving around the stalled sedan, but it doesn't introduce new critical developments compared to previous segments that showed the car becoming wedged, the crowd gathering, or the eventual damage and recovery efforts described in the global summary. It maintains continuity of the situation but doesn't represent a key turning point or escalation.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment shows pedestrians crossing and the stalled sedan present, but it does not introduce new story progression or escalate the main event. It maintains the existing situation without advancing the narrative toward resolution or further complication."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows a continuation of the railway crossing obstruction scenario but lacks the dramatic escalation or visually striking elements seen in earlier segments. While it maintains narrative continuity with the stuck sedan and flashing warning lights, it primarily depicts pedestrians crossing rather than the chaotic damage, tense confrontations, or recovery efforts described in the global summary. The visual composition is similar to previous segments with a stationary vehicle perspective, overcast sky, and rural setting, offering little diversity or highlight-worthy action beyond the ongoing obstruction."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a relatively calm scene with pedestrians crossing tracks and a stationary vehicle, showing routine obstruction rather than heightened emotional expression. While the flashing red light and lowered barrier create mild tension, there's no visible distress, confrontation, or dramatic escalation compared to the chaotic damage and recovery efforts described in the global summary. The emotional intensity remains low, focused on ordinary waiting and crossing behavior."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment largely reiterates the stalled sedan and pedestrian activity at the railway crossing, which has been established in previous segments. It adds minimal new information, such as specific clothing details (striped shirt) and background elements (trees, small building), but does not advance the narrative or introduce significant new semantic content beyond minor descriptive elaboration."
+        }
+      },
+      "final_score": 0.675
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 1264,
+      "end_frame": 1422,
+      "planner_score": 0.85,
+      "planner_reason": "This segment represents a critical escalation point in the story where the black sedan becomes physically stuck on the railway tracks, creating a dangerous obstruction that directly sets up the subsequent chaotic events described in the global summary. While earlier segments showed the car maneuvering through the crossing, this moment shows the actual entrapment that triggers the gathering crowd and impending crisis. The presence of men actively assessing/assisting indicates the transition from minor obstruction to serious incident requiring intervention. This is a key narrative turning point that establishes the core conflict.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment reinforces the ongoing obstruction and the gathering of individuals to address the situation, which maintains the narrative tension but does not introduce a new major event or significant progression beyond the established scenario of the car being stuck and people responding."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is visually striking and highlight-worthy as it captures the core crisis moment of the narrative: a black sedan physically stuck on railway tracks with its front end wedged, creating immediate danger due to the active warning lights indicating an imminent train. The composition effectively conveys tension through the juxtaposition of the trapped vehicle against the lowered barrier and flashing red lights, while the gathering crowd of men attempting to assist adds human drama and urgency. The background queue of vehicles including a bus emphasizes the scale of the obstruction. While similar to previous segments in setting and color palette, the clear depiction of the car's precarious position on the tracks (not just near the barrier) elevates its visual impact and narrative significance as a turning point."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment depicts a tense and potentially dangerous situation with a car stuck on railway tracks during an active warning, creating a sense of urgency and concern. The presence of flashing red lights, lowered barriers, and people gathering to assist adds to the emotional weight, though the scene remains observational without extreme panic or visible high-stress reactions from individuals."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides minimal new information compared to the memory context. It reiterates the core situation already established in previous segments (particularly segments 5, 6, and 7): a black sedan is stuck on a railway crossing with the barrier down and red lights flashing, with people gathered around. The only slight additions are the mention of the car's front end being 'wedged on the tracks' (a minor detail) and the explicit note of other vehicles queuing behind it, which reinforces the obstruction but doesn't introduce significant new semantic content or progression in the story."
+        }
+      },
+      "final_score": 1.4500000000000002
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 1422,
+      "end_frame": 1580,
+      "planner_score": 0.85,
+      "planner_reason": "This segment represents a critical turning point in the narrative where the initial obstruction (car stuck) transitions into an escalating situation with official involvement. While previous segments established the car being stuck and people gathering, this segment introduces 'officials' gathering around, signaling the beginning of organized intervention and heightening the stakes. It serves as the bridge between the initial accident setup and the subsequent chaotic escalation described in the global summary. The visual elements (car wedged, flashing lights, gathering crowd) reinforce the core conflict, making it essential for understanding the story's progression toward the eventual damage and recovery efforts.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily reiterates the established situation of the car being stuck on the crossing with onlookers present, without introducing new events, actions, or developments that advance the story toward the chaotic escalation described in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a visually striking and highlight-worthy moment where a black sedan is wedged under a lowered barrier on a railway crossing, creating a dramatic obstruction. The flashing red warning light adds urgency, and the gathering of onlookers enhances the scene's tension and narrative significance. This aligns with the video's theme of escalating chaos and recovery efforts, making it a key highlight in the story progression."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment depicts a tense situation with a car stuck on railway tracks and warning lights flashing, which creates moderate tension and concern. However, the emotional expression remains relatively subdued as people are gathered calmly observing rather than showing panic or intense distress. The scene lacks dramatic action, loud confrontations, or visible strong emotional reactions from individuals, keeping the emotional intensity at a moderate level."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides minimal new information compared to the memory context. It repeats the established situation of a black sedan stuck under a lowered barrier at a railway crossing with flashing red lights and onlookers gathering. Previous segments (especially 5, 6, and 8) have already described this exact scenario with similar details. The only slight variation is the mention of 'officials' in addition to onlookers, but this doesn't substantially advance the narrative or introduce significant new semantic content beyond what was already established in the global summary and previous segments."
+        }
+      },
+      "final_score": 1.2625
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 1580,
+      "end_frame": 1738,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment depicts the critical moment where the black sedan is stuck on the railway crossing, wedged between the tracks and the lowered barrier, with flashing warning lights and a gathering crowd. This is the central conflict point in the story theme, representing the escalation of the obstruction and the immediate danger or tension. While similar to previous segments (6, 8, 9), it reinforces the core event and maintains narrative continuity, making it highly important for the summary to capture this pivotal scene.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The current segment essentially repeats the established situation of the car being stuck on the crossing with onlookers present, adding minimal new information to the story's progression. It maintains the status quo without introducing new events, escalation, or resolution."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment depicts a visually compelling and tense situation with a car stuck on railway tracks, flashing warning lights, and a gathering crowd, which creates inherent drama and visual interest. However, compared to the global summary's description of severe damage, chaotic confrontations, and recovery efforts with an excavator, this segment shows only the initial obstruction phase without the most dramatic elements. The perspective from inside a vehicle adds some immersion, but the scene lacks the visual diversity or highlight-worthy action of later escalation described in the summary."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a tense situation with a car stuck on railway tracks and warning lights flashing, which creates moderate tension. However, there is no visible panic, urgent action, or strong emotional expressions from the onlookers, keeping the emotional intensity relatively low compared to more chaotic or dramatic scenarios."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment provides minimal new information compared to the memory context. It repeats the core situation already established in previous segments: a black sedan stuck on railway tracks with lowered barrier, flashing red lights, and onlookers gathering. No new developments, actions, consequences, or semantic content are introduced beyond what was already described in segments 5-9. The perspective (from stopped vehicle with dashboard) and scene elements are identical to earlier descriptions."
+        }
+      },
+      "final_score": 1.125
+    },
+    {
+      "segment_id": 11,
+      "start_frame": 1738,
+      "end_frame": 1896,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is a key moment in the story, depicting the core obstruction event where the car is wedged under the barrier, causing a traffic blockage and gathering a crowd. It reinforces the escalating tension and sets the stage for the subsequent chaos and recovery efforts described in the global summary. While similar to previous segments, it consolidates the critical situation before the damage and confrontations occur.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The current segment reiterates the established situation of the car stuck on the crossing with onlookers, but does not introduce new story progression, escalation, or resolution compared to previous segments. It maintains the status quo without advancing the main event sequence."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment depicts a visually striking and highlight-worthy scene of a car stuck under a railway barrier with flashing warning lights and a gathered crowd, which is central to the story's escalation. However, it lacks significant diversity or new dynamic elements compared to previous segments, as it continues the same static obstruction scenario without additional chaos or damage."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a tense situation with a car stuck on railway tracks and warning lights flashing, which creates moderate tension. However, there is no visible panic, confrontation, or immediate danger shown—just observation by onlookers—so the emotional intensity remains subdued compared to the chaotic escalation described in the global summary."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment provides minimal new information compared to the memory context. The description of the black sedan stuck on the railroad crossing, wedged under the lowered barrier with flashing red lights and onlookers gathering, has been consistently described in previous segments 5, 6, 8, 9, and 10. The only slight variation is the mention of 'blocking traffic' and 'unable to clear the tracks,' but these are implicit in previous descriptions. No new developments, actions, or semantic content beyond the established situation are introduced."
+        }
+      },
+      "final_score": 1.1625
+    },
+    {
+      "segment_id": 12,
+      "start_frame": 1896,
+      "end_frame": 2054,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it represents the climax of the story where the central conflict (the car stuck on the crossing) reaches its peak intensity. The animated gestures and crowd reaction indicate escalating tension and potential confrontation, which aligns with the 'chaotic scene' and 'tense confrontations' described in the global summary. While similar to previous segments in showing the stuck car, this segment adds crucial emotional intensity and character reactions that drive the narrative forward toward the eventual recovery efforts.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily reiterates the established situation of the car being stuck and the crowd observing, without introducing new plot developments, escalating the conflict, or advancing the main event progression beyond what was already described in previous segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a visually striking and highlight-worthy scene with a stalled car wedged against a barrier, flashing warning lights, and an animated crowd, including a gesturing man, which adds dynamic tension and visual interest. However, it is somewhat repetitive compared to previous segments showing similar stalled car scenarios, reducing diversity."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment depicts a stalled car on a railway crossing with a crowd observing and one individual gesturing animatedly, indicating heightened concern or urgency. However, the emotional expression is primarily conveyed through bystander reactions rather than intense, direct conflict or dramatic escalation, resulting in a moderate level of emotional tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment largely reiterates the established scenario of a black sedan stuck on a railway crossing with a lowered barrier, flashing red lights, and a crowd observing. While it adds minor details like specific clothing descriptions (striped shirt, tank top) and a repeated '4.5 M' sign, these do not introduce significant new information, instructions, or semantic content beyond the ongoing obstruction and gathering already described in previous segments."
+        }
+      },
+      "final_score": 1.325
+    },
+    {
+      "segment_id": 13,
+      "start_frame": 2054,
+      "end_frame": 2212,
+      "planner_score": 0.7,
+      "planner_reason": "This segment continues to depict the central conflict of the story—the car stuck on the railway crossing—which is the core event described in the global summary. It reinforces the setting, the obstruction, and the gathering crowd, all key elements. However, it represents a static, observational moment that does not show the escalation into chaos, damage, or recovery efforts mentioned in the summary. Therefore, while important for establishing the ongoing situation, it is less critical than segments that depict the actual escalation or resolution.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment reiterates the stalled car and gathered crowd, maintaining the established situation but without introducing new developments, escalation, or resolution, thus contributing minimally to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a visually static and repetitive scene that has been established in previous segments. While it captures the core incident of a car stuck on railway tracks with flashing warning lights and onlookers, it lacks visual diversity, striking action, or new highlight-worthy elements compared to earlier segments. The composition is similar to previous shots (from inside a stationary vehicle), with no escalation, movement, or dramatic change that would make it particularly striking or diverse within the overall narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment depicts a tense situation with a car stuck on a railway crossing and flashing warning lights, indicating potential danger. However, the emotional expression is primarily conveyed through the static, observational nature of the scene—onlookers are watching but not actively reacting with high emotion or panic, which moderates the intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment largely reiterates the situation already established in previous segments: a black sedan stuck on a railway crossing with a lowered barrier, flashing warning lights, and a crowd of onlookers observing. It adds minimal new information, such as specifying the barrier as 'red-and-white' and noting the camera's perspective from inside a stationary vehicle, but these are minor details that do not significantly advance the narrative or introduce new semantic content beyond the existing context."
+        }
+      },
+      "final_score": 1.0375
+    },
+    {
+      "segment_id": 14,
+      "start_frame": 2212,
+      "end_frame": 2370,
+      "planner_score": 0.95,
+      "planner_reason": "This segment marks a critical turning point in the story, transitioning from a static obstruction to the chaotic aftermath of an accident. It introduces new, high-stakes action (the collision and its immediate aftermath) and suggests the involvement of emergency personnel, which escalates the narrative tension and moves the plot toward its climax of 'tense confrontations and recovery efforts.' The disorienting POV shot is a key dramatic device that conveys urgency and immersion, making this segment highly important for capturing the emotional peak and pivotal event referenced in the global summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment introduces a significant escalation in the story progression by depicting the aftermath of a collision, shifting from a static obstruction to active chaos and emergency response. This marks a key turning point from the stalled car scenario to a more dynamic and tense event, advancing the narrative toward recovery and resolution."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is visually striking and highlight-worthy due to the dramatic shift from a static observation scene to chaotic, disorienting point-of-view footage. The initial shot of the collision aftermath maintains continuity with previous segments, but the sudden cut to blurry, erratic camera movement creates a visceral sense of urgency and chaos that stands out from the more composed observational shots in earlier segments. This dynamic visual disruption effectively conveys the escalating tension and immediate aftermath of the accident, making it a key highlight moment in the narrative progression."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a clear escalation in emotional intensity compared to previous segments. While earlier segments showed a static, observational scene of a car stuck on the crossing, this segment introduces the aftermath of a collision and a chaotic, frantic point-of-view shot. The descriptors 'chaotic, blurry, and disorienting' and 'frantic aftermath' directly indicate heightened tension, urgency, and likely fear or panic among the crowd and camera operator. This represents a significant peak in emotional expression within the narrative sequence."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The current segment introduces significant new information and semantic content compared to previous segments. While previous segments consistently described the black sedan stuck on the crossing with onlookers observing, this segment adds the explicit mention of a collision with the barrier, the presence of emergency personnel (a new element), and a chaotic, blurry point-of-view shot depicting the frantic aftermath. This represents a clear escalation in the narrative, moving from a static obstruction to an active accident scene with heightened tension and new visual perspective, providing substantial new information about the event's progression and immediate impact."
+        }
+      },
+      "final_score": 1.7999999999999998
+    },
+    {
+      "segment_id": 15,
+      "start_frame": 2370,
+      "end_frame": 2528,
+      "planner_score": 0.95,
+      "planner_reason": "This segment represents a critical escalation in the story's narrative arc, transitioning from the initial obstruction to the actual damaging event. It shows the aftermath of the collision with a heavy object (tree root/branch), which directly connects to the global summary's mention of the car being 'severely damaged, possibly by a falling tree or heavy object.' This visual confirmation of the damage and the chaotic recovery effort (implied by the suspended debris) is essential for understanding the severity of the incident and the subsequent tense confrontations and recovery efforts. It is a key turning point in the sequence of events.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "This segment introduces a significant escalation in the story progression by showing the car with substantial front-end damage and a large tree root/branch suspended above it, indicating a major event (likely a collision or impact) has occurred. It moves beyond the previous static obstruction to depict tangible damage and recovery efforts, advancing the narrative toward the chaotic aftermath described in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is visually striking and highlight-worthy due to the dramatic shift from previous segments. While earlier segments showed a car stuck at a railway crossing with gathering crowds, this segment reveals significant escalation: the sedan now has severe front-end damage, and a large tree root/branch is suspended above it, suggesting a major impact event. The visual elements of vehicle damage, the suspended debris, and the crowd's reaction create a compelling, chaotic aftermath scene that stands out as a key development in the narrative. However, the perspective remains somewhat observational rather than action-focused, preventing a perfect score."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a chaotic aftermath with significant vehicle damage and a large tree root suspended above the car, indicating a recent impactful event. This creates a strong sense of tension and urgency, heightened by the gathered crowd observing the scene, which conveys emotional weight and dramatic intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.85,
+          "reason": "The current segment introduces significant new information not present in previous segments. While previous segments consistently showed the black sedan stuck at the railway crossing with flashing lights and gathering crowds, this segment reveals: 1) The vehicle has sustained 'significant front-end damage' from a collision, 2) A 'large, heavy tree root or branch' is suspended above the car, 3) This suggests an accident involving the vehicle and a tree, 4) Workers are implied to be maneuvering the tree. This advances the narrative from 'stuck car' to 'collision with tree damage and recovery efforts,' providing substantial new semantic content about the incident's escalation and physical consequences."
+        }
+      },
+      "final_score": 1.7999999999999998
+    },
+    {
+      "segment_id": 16,
+      "start_frame": 2528,
+      "end_frame": 2686,
+      "planner_score": 0.95,
+      "planner_reason": "This segment represents the climactic aftermath of the incident, showing the severe damage to the vehicle with a concrete slab suspended above it, which directly connects to the global summary's mention of the car being 'severely damaged, possibly by a falling tree or heavy object.' The presence of a crane, a man with a tool preparing to intervene, and the tense, chaotic atmosphere indicate critical recovery efforts and confrontations, making this a key moment for understanding the resolution and impact of the story.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story by depicting the aftermath of the main event—the car's severe damage from a heavy object—and introduces new elements like the crane and a potential intervention, moving the narrative from observation to active recovery and heightened tension."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "This segment is highly visually striking and highlight-worthy due to the dramatic escalation from previous segments. The scene features severe vehicle damage with a crushed front end, a large concrete slab suspended dangerously above the car by a crane, and intense human interaction with emphatic gesturing and intervention preparation. The chaotic atmosphere, clear sense of danger, and progression from a stuck car to a major accident scene make this a key highlight moment in the narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.9,
+          "reason": "The segment depicts a highly tense and chaotic scene with severe vehicle damage, a large concrete slab suspended dangerously above, and emphatic gestures from onlookers, indicating strong emotional expressions of urgency, confrontation, and potential danger."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces new details about the vehicle's specific make (BMW), the nature of the heavy object (concrete slab), and the presence of a crane, which were not previously described. It also adds new actions, such as a man gesturing emphatically and another approaching with a tool, advancing the narrative from observation to active intervention. However, the core scenario of a damaged car and a crowd remains consistent with prior segments, limiting the novelty."
+        }
+      },
+      "final_score": 1.825
+    },
+    {
+      "segment_id": 17,
+      "start_frame": 2686,
+      "end_frame": 2844,
+      "planner_score": 0.95,
+      "planner_reason": "This segment represents a critical escalation in the narrative, transitioning from a traffic obstruction incident to a tense, potentially violent confrontation. The introduction of a weapon (knife) and aggressive physical interaction creates a dramatic turning point that significantly raises the stakes and emotional intensity. In a story-themed video, such moments of heightened conflict and human drama are essential for maintaining viewer engagement and advancing the plot toward its climax. This segment directly contributes to the 'tense confrontations' mentioned in the global summary and adds a layer of personal conflict beyond the mechanical/accident aspects.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment introduces a significant escalation in the narrative by shifting from a traffic obstruction and accident aftermath to a direct, tense confrontation involving a weapon. It progresses the story from passive observation and recovery efforts to active interpersonal conflict, heightening the stakes and adding a new layer of urgency and danger to the main event."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "This segment is highly visually striking and highlight-worthy due to the dramatic escalation from previous segments. While earlier segments showed a car stuck at a railway crossing with gathering crowds, this segment introduces intense human conflict with a visible weapon (knife), creating immediate visual tension. The composition emphasizes immediacy and danger through the viewpoint from behind another person, making the scene feel urgent and immersive. The shift from mechanical/accident imagery to direct human confrontation represents a significant narrative and visual turning point, making this segment exceptionally highlight-worthy within the overall story progression."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a direct, aggressive confrontation involving a visible weapon (knife) and physical intrusion into a vehicle, which creates a high level of tension and immediate danger. This represents a significant escalation from previous segments focused on obstruction and damage to one involving explicit interpersonal threat and potential violence, resulting in strong negative emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.85,
+          "reason": "The current segment introduces a significant new development: a tense confrontation involving a knife, which adds a layer of personal conflict and potential violence not previously described in the memory context. While previous segments focused on the car being stuck, crowd gathering, and vehicle damage, this segment shifts to human aggression, providing new semantic content about escalating tensions and danger beyond the initial accident scenario."
+        }
+      },
+      "final_score": 1.8375
+    },
+    {
+      "segment_id": 18,
+      "start_frame": 2844,
+      "end_frame": 3002,
+      "planner_score": 0.85,
+      "planner_reason": "This segment represents a critical escalation point in the story's narrative arc. While previous segments established the initial incident (car stuck on crossing) and growing tension (crowd gathering, flashing lights), this segment shows the dramatic aftermath of a violent collision with severe vehicle damage. It transitions from a traffic obstruction scenario to a serious accident scene with potential injuries, raising the stakes significantly. The chaotic camera movement and tense atmosphere capture the emotional peak of the incident, making it essential for understanding the story's progression from minor obstruction to major accident. However, it doesn't show the actual collision moment or the final resolution, keeping it from a perfect score.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story by depicting the aftermath of the main event—the car's severe damage—which is a key progression from the earlier obstruction. It shows the consequences (crushed front end) and escalates the tension with chaotic camera movement and focused bystander reactions, directly contributing to the narrative's climax and resolution phase."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is highly visually striking and highlight-worthy due to the dramatic aftermath of a violent collision. The severely crushed and mangled front end of the blue car provides a strong focal point of destruction, contrasting sharply with earlier segments of the car merely being stuck. The chaotic, erratic camera movement and the tense crowd of onlookers pointing and inspecting the damage create a dynamic and emotionally charged scene. It represents a significant escalation in the story's intensity, moving from obstruction to severe damage and collective concern, making it a key highlight within the narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a severely damaged car and a chaotic, tense crowd, indicating high emotional intensity through visible destruction, erratic camera movement, and collective concern, though it lacks direct expressions of extreme fear or panic."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment provides some new information about the aftermath of the incident, specifically describing the car as 'severely damaged' with a 'crushed and mangled' front end, which confirms and elaborates on the damage hinted at in previous segments. However, much of the scene—the crowd gathering, the chaotic atmosphere, the man in the red striped shirt, and the erratic camera movement—has already been established in recent segments (e.g., segments 14–17). The segment does not introduce new instructions, key events, or significant semantic shifts beyond reinforcing the ongoing recovery/aftermath phase."
+        }
+      },
+      "final_score": 1.575
+    },
+    {
+      "segment_id": 19,
+      "start_frame": 3002,
+      "end_frame": 3160,
+      "planner_score": 0.95,
+      "planner_reason": "This segment represents the dramatic climax of the story, showing the catastrophic aftermath of the incident with the BMW crushed by a massive tree trunk. It provides the visual payoff to the escalating tension from previous segments (car stuck, crowd gathering, confrontation, damage), revealing the ultimate consequence and creating a powerful, memorable image essential for a coherent and impactful summary of the entire event sequence.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.95,
+          "reason": "This segment represents a critical escalation in the story progression, depicting the catastrophic outcome of the earlier events. The car is now severely damaged with a tree trunk through it, moving from the initial obstruction to a major accident aftermath, which is a key main event in the narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "This segment is exceptionally visually striking and highlight-worthy. The image of a massive tree trunk lodged directly through the roof and front of a BMW is dramatic, surreal, and represents the peak of the incident's physical destruction. It is a significant escalation from the earlier scenes of the car being stuck or having front-end damage, offering a unique and powerful visual that is the clear climax of the 'damage' progression in the story. The chaotic and tense atmosphere, with onlookers pointing and reacting, further enhances its impact as a key highlight moment."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.95,
+          "reason": "The current segment depicts a catastrophic and surreal accident with a massive tree trunk lodged through the car's roof, creating a highly intense and emotionally charged scene. The chaotic atmosphere, combined with onlookers' reactions of pointing and shock, conveys strong tension, horror, and disbelief, significantly elevating the emotional expression compared to previous segments."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The current segment introduces a significant new piece of semantic content: the specific cause of the car's severe damage—a massive tree trunk lodged through its roof and front. This clarifies the earlier ambiguous descriptions of a 'tree root or branch' or 'heavy object,' providing a concrete and dramatic visual detail (the tree trunk piercing the car) that was not explicitly stated in previous segments. While the overall scene of a damaged car and a gathered crowd continues, this specific cause and its graphic depiction constitute substantial new information."
+        }
+      },
+      "final_score": 1.8874999999999997
+    },
+    {
+      "segment_id": 20,
+      "start_frame": 3160,
+      "end_frame": 3318,
+      "planner_score": 0.9,
+      "planner_reason": "This segment represents a critical climax in the story's progression. It visually depicts the dramatic aftermath of the car's destruction with the massive boulder suspended above it, creating intense visual tension and answering the question of what caused the severe damage mentioned in the global summary. The scene shows the recovery effort in progress with the man reaching toward the rock, connecting directly to the 'recovery efforts involving an excavator' from the summary. This moment encapsulates the peak of the chaotic scene described, making it essential for understanding the full narrative arc from initial obstruction to dramatic destruction and recovery.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.95,
+          "reason": "This segment directly depicts a critical escalation in the main event: the vehicle is now under imminent threat from a massive suspended boulder, heightening the tension and danger significantly. It moves the story from aftermath observation to a precarious, active recovery or rescue operation, showing a new, dramatic obstacle that directly advances the crisis narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "This segment is highly visually striking and highlight-worthy due to the dramatic and precarious scene of a massive boulder suspended directly above a severely damaged car, creating intense visual tension and a unique, memorable moment that stands out significantly from previous segments of the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.9,
+          "reason": "The segment depicts a highly tense and dramatic scene with a severely damaged car and a massive boulder suspended precariously above it, creating a strong sense of imminent danger and emotional intensity among the gathered crowd."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The current segment introduces significant new information by depicting a massive boulder suspended above the damaged car, a detail not previously described. This adds a novel element of imminent danger and a specific cause of damage, advancing the narrative beyond earlier mentions of a tree or concrete slab. It also introduces a new action with a man reaching toward the rock, heightening tension and providing fresh visual and semantic content."
+        }
+      },
+      "final_score": 1.825
+    },
+    {
+      "segment_id": 21,
+      "start_frame": 3318,
+      "end_frame": 3476,
+      "planner_score": 0.95,
+      "planner_reason": "This segment represents the climax of the story's escalating tension and destructive action. It shows the intentional, orchestrated destruction of the car with a heavy rock, which is a key dramatic turning point from the initial stuck-on-crossing incident to violent confrontation and deliberate damage. This moment is crucial for understanding the narrative progression from obstruction to chaos to targeted aggression, making it highly important for a story-themed summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.95,
+          "reason": "This segment significantly advances the main event progression by depicting a direct, intentional act of destruction—the poised rock about to smash the car—which escalates the chaos from a traffic obstruction to a deliberate, violent incident, marking a critical turning point in the narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "This segment is exceptionally visually striking and highlight-worthy. It depicts the dramatic climax of the narrative: a man poised to smash a large rock onto the already severely damaged car, with another man gesturing aggressively. This is a peak moment of intentional destruction and confrontation, far surpassing the earlier segments of the car being stuck or passively damaged. The action is direct, violent, and chaotic, creating a powerful and memorable visual focal point for the entire story."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.95,
+          "reason": "The segment depicts a highly tense and aggressive confrontation with clear emotional intensity. The description includes an imminent destructive act (a man poised to smash a large rock onto the car), aggressive gesturing, and a crowd gathered around a severely damaged vehicle. This creates a scene of high drama, conflict, and palpable tension, indicating very strong emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.95,
+          "reason": "This segment introduces highly significant new information and semantic content that dramatically escalates the narrative. While previous segments established the car being stuck, damaged, and surrounded by onlookers, this segment reveals an active, intentional destructive act: a man is poised to smash a large rock onto the car's hood, with another man gesturing aggressively to orchestrate it. This transforms the incident from an accident or obstruction into what appears to be deliberate vandalism or violent confrontation, adding a new layer of human agency and malice. The specific action (rock poised to smash), the clear orchestration (aggressive gesturing), and the shift from passive observation to active participation all provide substantial new narrative and semantic content not present in prior segments."
+        }
+      },
+      "final_score": 1.9
+    },
+    {
+      "segment_id": 22,
+      "start_frame": 3476,
+      "end_frame": 3634,
+      "planner_score": 0.9,
+      "planner_reason": "This segment represents a critical turning point in the narrative arc—the transition from the chaotic aftermath of the accident to the active recovery effort. It directly shows a key character (the man in the red striped shirt) taking decisive action to clear the vehicle, which is essential for understanding the resolution phase of the story. The action is visually dramatic and advances the plot from destruction toward resolution, making it highly important for a coherent and engaging summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "This segment directly depicts an active recovery effort, with a man physically removing debris from the damaged car, advancing the narrative from the chaotic aftermath toward resolution. It contributes significantly to story progression by showing a concrete step in dealing with the accident's consequences, moving beyond mere observation or confrontation."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is visually striking and highlight-worthy as it captures the peak action moment of the recovery effort. Unlike previous segments showing static observation or aftermath, this shows active intervention with a man physically lifting heavy debris off the car's hood. The dynamic action, combined with the crowd's presence and the damaged vehicle, creates a compelling visual narrative of crisis response. While not as chaotic as earlier destructive moments (e.g., rock suspension), it represents a key turning point in the recovery sequence with clear human agency and physical engagement."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a tense and active recovery effort with a crowd gathered around a damaged vehicle, where a man is physically removing heavy debris from the car. This involves direct physical intervention and collective attention, conveying urgency and heightened emotional engagement, though it lacks the extreme aggression or imminent danger seen in earlier segments involving weapons or intentional destruction."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment introduces the action of a man actively removing debris from the car, which is a new development in the recovery effort. However, it largely continues the established scene of a crowd around a damaged vehicle, with the core situation (car damaged, crowd present) already known from previous segments."
+        }
+      },
+      "final_score": 1.6875
+    },
+    {
+      "segment_id": 23,
+      "start_frame": 3634,
+      "end_frame": 3792,
+      "planner_score": 0.85,
+      "planner_reason": "This segment represents a critical resolution phase in the story's progression. While it doesn't show the initial dramatic impact or the most tense confrontations from earlier segments, it captures the active recovery effort where people are attempting to free the damaged vehicle from the tree trunk obstruction. This is an important narrative beat showing the transition from chaotic accident to organized response, providing closure to the incident while maintaining visual continuity with the damaged car and crowd elements established throughout the story. The segment advances the plot meaningfully but lacks the peak dramatic intensity of earlier destructive moments.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "The segment contributes significantly to story progression by depicting active recovery efforts following the main event. While the core incident (car being damaged by a falling tree/object) has already occurred in previous segments, this segment shows the direct aftermath and the characters' attempts to resolve the situation—specifically, people trying to free the car from the lodged tree trunk. This moves the narrative from the chaotic aftermath (segments 15-22) into a phase of intervention and recovery, advancing the plot toward resolution. However, it does not introduce a new major event or escalation, hence the score is not higher."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a visually striking and highlight-worthy moment: a damaged car with a large tree trunk lodged in it, surrounded by a crowd actively attempting to free the vehicle. This is a dynamic, chaotic scene with clear action (people pushing/pulling the car) and a dramatic visual element (the embedded tree trunk), making it more diverse and intense compared to previous segments that were more static or observational. It directly contributes to the escalating tension and recovery efforts described in the global summary."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a high-stakes recovery effort with a crowd actively intervening to free a severely damaged car from a lodged tree trunk. This involves physical exertion, collective urgency, and visible damage to the vehicle, creating a strong sense of tension and communal emotional engagement. While not as extreme as the preceding segments involving confrontations or deliberate destruction, the active rescue attempt and the presence of a persistent obstruction generate significant emotional intensity and dramatic sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment introduces the specific action of people actively trying to push or pull the car to free it from the obstruction, which is a new development in the recovery efforts not explicitly described in previous segments. However, the core elements—a damaged blue car, a crowd, and a tree trunk lodged in the vehicle—have been established in earlier segments (e.g., segments 15, 19), so the overall scene context is not entirely new."
+        }
+      },
+      "final_score": 1.6375
+    },
+    {
+      "segment_id": 24,
+      "start_frame": 3792,
+      "end_frame": 3950,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment represents a critical escalation and resolution phase in the story's progression. It introduces a large excavator, a significant tool for recovery, directly interacting with the damaged vehicle. This marks a shift from passive observation and chaotic confrontation to organized recovery efforts, which is a key narrative turning point. Given the video theme is 'story', this segment contributes substantially to the climax and resolution arc, making it highly important for a coherent summary that captures the full incident sequence from obstruction to recovery.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story progression by introducing a key recovery/resolution element - the excavator poised to lift or move the damaged car. This represents a clear transition from the chaotic confrontation and destruction phases (segments 15-22) to the recovery/cleanup phase. The excavator's presence suggests organized intervention to resolve the obstruction that has been building since the car first became stuck on the railway crossing, moving the narrative toward resolution rather than just depicting ongoing damage or confrontation."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a visually striking and highlight-worthy moment: a crowd gathered around a crashed blue car with a large excavator arm poised over it, indicating imminent recovery or dramatic intervention. This represents a significant escalation from previous segments (e.g., car stuck on tracks) into a more chaotic, high-stakes scene involving heavy machinery, which adds diversity and intensity to the narrative. The imagery is dynamic and tense, capturing a key turning point in the story."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a tense recovery scene with a crowd gathered around a crashed car and a large excavator arm poised over it, indicating imminent mechanical intervention. This creates a sense of urgency and potential danger, contributing to strong emotional tension, though it lacks the direct confrontation or violent action seen in previous segments with knives or rocks being wielded."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.85,
+          "reason": "The current segment introduces a significant new element—the presence of a large excavator arm poised over the damaged car—which advances the narrative from passive observation or minor intervention to a major recovery or removal operation. This adds substantial new semantic content regarding the escalation of recovery efforts, distinct from previous segments that focused on the initial accident, crowd reactions, or manual attempts to clear debris."
+        }
+      },
+      "final_score": 1.7125
+    },
+    {
+      "segment_id": 25,
+      "start_frame": 3950,
+      "end_frame": 4108,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows the active recovery/resolution phase where the excavator is physically removing the damaged car from the concrete curb, representing a key turning point in the narrative from crisis to resolution. It directly addresses the core problem established earlier (car stuck/damaged) and shows organized intervention rather than chaotic bystander reactions. While not the absolute climax (which was the destructive act with the rock), this is a crucial resolution moment that advances the story toward conclusion.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story by depicting the active recovery effort using an excavator to remove the damaged car, which is a key progression from the earlier chaotic confrontation and damage to the resolution phase of the incident."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking and highlight-worthy due to the dynamic action of the excavator prying the car, which introduces mechanical intervention and movement after a series of static or chaotic scenes. It adds diversity by shifting focus to recovery efforts, though it is somewhat expected given the previous context of damage and confrontation."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a forceful mechanical extraction using an excavator, which conveys a sense of urgency and physical tension. The crowd's presence as onlookers adds a layer of collective concern or anticipation, enhancing the emotional weight of the recovery effort. While not as intensely chaotic or confrontational as some preceding segments involving direct aggression or imminent destruction, the action is dramatic and signifies a critical moment in the incident's resolution, contributing to a strong sense of ongoing crisis and effort."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment introduces a new action—the use of an excavator to pry the car from a curb—which advances the recovery effort beyond previous scenes of confrontation, damage assessment, or manual clearing. However, the core elements (crowd, damaged car, concrete barrier) are consistent with prior context, so the novelty is moderate, focusing on a specific recovery method rather than entirely new information."
+        }
+      },
+      "final_score": 1.6375000000000002
+    },
+    {
+      "segment_id": 26,
+      "start_frame": 4108,
+      "end_frame": 4266,
+      "planner_score": 0.85,
+      "planner_reason": "This segment represents a key resolution moment in the story's escalating tension - the actual extraction of the damaged vehicle using heavy machinery. While not the climax (which was the destructive act with the boulder/suspended object), it shows the recovery/cleanup phase which is important for narrative closure. The excavator's involvement was foreshadowed in the global summary, making this a payoff moment. However, it's slightly less critical than the peak confrontation/destruction segments that showed the actual damaging event.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment shows a significant progression in the recovery effort, moving from the initial obstruction and damage to active extraction using heavy machinery, which is a key step in resolving the main event of the car being stuck and damaged."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is visually striking and highlight-worthy as it depicts the climax of the recovery operation with a large excavator actively prying a damaged blue car from a deep trench. The scene is dynamic, showing forceful mechanical intervention in a precarious situation, which creates tension and visual interest. The muddy excavator bucket and the car wedged in a trench add unique visual elements not seen in previous segments, providing diversity from earlier crowd observation scenes. However, it maintains continuity with the ongoing chaotic recovery theme, making it a key moment in the narrative progression."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a high-stakes extraction effort with a large excavator forcefully prying a car from a deep trench, creating strong visual tension and a sense of urgency. The presence of a gathered crowd adds to the emotional weight through collective concern and focus. While not as chaotic or confrontational as some preceding segments, the physical struggle and potential danger of the situation generate significant emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment introduces the specific action of an excavator prying a car from a trench, which is a new detail in the recovery process. However, the overall context of a crowd watching a damaged car being extracted with heavy machinery has been established in previous segments (e.g., segments 24-25). The segment adds minor incremental information about the car being in a trench and the excavator's forceful prying, but it does not significantly advance the narrative or introduce major new semantic content beyond refining the ongoing recovery scene."
+        }
+      },
+      "final_score": 1.525
+    },
+    {
+      "segment_id": 27,
+      "start_frame": 4266,
+      "end_frame": 4424,
+      "planner_score": 0.85,
+      "planner_reason": "This segment represents a significant escalation and resolution point in the narrative. While previous segments showed the car stuck, damaged, and being extracted from various obstructions, this segment introduces a new, unexpected element (a large animal) that adds dramatic weight and explains the severity of the vehicle's situation. It provides a concrete cause for the damage seen earlier (segments 15-23) and shows a key recovery effort using heavy machinery, which is a critical action point mentioned in the global summary. The focus shifts from human confrontation and chaos to a coordinated rescue/removal operation, marking a turning point in the story's progression toward resolution.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment contributes significantly to story progression by introducing a new, critical element—the extraction of a large animal (likely a cow or bull) from the damaged car—which advances the recovery effort and adds a dramatic, unexpected twist to the incident. It builds on the escalating chaos and recovery actions seen in previous segments, moving the narrative from initial obstruction and damage to active, complex rescue operations."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment is visually striking and highlight-worthy due to the unexpected and dramatic element of a large animal (likely a cow or bull) being extracted by an excavator from a damaged car, which introduces a novel, intense, and chaotic visual compared to previous segments focused on train crossings, car damage, and human confrontations. The scene is diverse in action (heavy machinery operation, animal rescue, crowd reaction) and carries high tension and novelty, making it a standout moment in the narrative progression."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a tense and emotionally charged rescue/extraction scenario involving heavy machinery, a crowd of onlookers, and a trapped animal (likely a cow or bull) being removed from a damaged car. The combination of a precarious mechanical operation, potential danger to the animal, the crowd's focused attention, and the aftermath of a vehicle incident creates strong tension and concern. While less chaotic or violent than some preceding segments (e.g., confrontations or deliberate destruction), the inherent risk and unusual nature of the situation evoke significant emotional weight and suspense."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The current segment introduces a significant new element—a large animal (likely a cow or bull) being extracted by an excavator—that was not present in previous segments, which focused on a car stuck on railway tracks, subsequent damage, and recovery efforts involving debris or the car itself. This adds substantial new semantic content by shifting the incident's cause or context to involve an animal, altering the narrative and providing fresh information about the accident's nature and recovery actions."
+        }
+      },
+      "final_score": 1.7125
+    },
+    {
+      "segment_id": 28,
+      "start_frame": 4424,
+      "end_frame": 4582,
+      "planner_score": 0.85,
+      "planner_reason": "This segment represents a key moment in the escalating narrative - it shows the direct aftermath of the destructive act with heavy machinery involved, connecting the earlier railway incident to the subsequent vehicle destruction and recovery efforts. While not the absolute climax (which appears to be segments 21-22 with the rock-smashing), this segment captures the transition from destruction to recovery/excavation phase, showing the excavator actively positioned over the damaged vehicle with crowd reactions. It maintains narrative continuity and shows the progression from the initial railway obstruction to the full-scale vehicle destruction and recovery operation.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "This segment shows the aftermath of the main destructive event rather than advancing the story. While it depicts the crowd's reaction to the damaged car and the presence of the excavator bucket, it does not introduce new plot developments or move the narrative forward significantly. The segment maintains the established scene of recovery/aftermath observation but lacks progression beyond what was already established in previous segments (e.g., the car being damaged, excavator involvement)."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is visually striking and highlight-worthy due to the dramatic juxtaposition of the severely damaged car with the large excavator bucket suspended menacingly above it, creating a tense and precarious visual. The presence of the crowd, the expressive gestures of the man in the red striped shirt, and the obstructed, shaky camera perspective all contribute to a sense of chaos and immediacy, making it a key moment in the escalating incident. While it continues the theme of vehicular damage and recovery seen in recent segments, the specific composition—with the machinery poised directly over the wreck—and the raw, handheld footage style enhance its visual impact and narrative significance within the overall story."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a crowd gathered around a severely damaged car with a large excavator bucket suspended above it, indicating a tense and chaotic aftermath of an incident. The presence of individuals pointing and inspecting the wreckage adds to the emotional intensity, reflecting shock, concern, or urgency. While the explicit emotional expressions are somewhat limited compared to earlier segments with direct confrontations or dramatic destruction, the visual cues of damage, heavy machinery involvement, and crowd reaction still convey a strong sense of tension and sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment introduces the excavator bucket being suspended above the damaged car, which is a new visual detail, but the core scenario of a crowd around a severely damaged car with heavy machinery involvement has been established in previous segments (e.g., segments 24-27). The information is largely repetitive, focusing on the aftermath and recovery efforts without advancing the narrative or adding significant new semantic content."
+        }
+      },
+      "final_score": 1.425
+    },
+    {
+      "segment_id": 29,
+      "start_frame": 4582,
+      "end_frame": 4740,
+      "planner_score": 0.95,
+      "planner_reason": "This segment represents the climactic moment of destruction in the story's escalation. It directly shows the excavator poised to crush the car with a concrete slab, which is the culmination of the chaotic confrontation and recovery efforts described in the global summary. This is a key turning point where the situation transitions from obstruction and damage to deliberate, large-scale destruction, making it highly important for understanding the narrative's peak tension and resolution.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "The segment significantly advances the story by depicting a critical escalation where the excavator, previously used for extraction, is now poised to crush the damaged car. This represents a major progression from recovery efforts to potential deliberate destruction, heightening tension and moving the narrative toward a decisive, destructive climax."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking and highlight-worthy due to the dramatic and tense imagery of a large excavator arm holding a massive, jagged concrete slab poised to crush a damaged blue car, which represents a significant escalation in the narrative's chaos and destruction. It is diverse from previous segments by introducing a new, imminent destructive action with heavy machinery, adding a high-stakes visual element that captures attention and advances the story's climax."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.95,
+          "reason": "The segment depicts a highly tense and dramatic moment with a large excavator arm holding a massive concrete slab poised to crush a damaged car, indicating imminent destruction and high emotional intensity. The crowd's presence adds to the suspense and collective anxiety, making the emotional expression and tension extremely strong."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "The current segment introduces the excavator arm holding a concrete slab poised to crush the car, which is a new specific action not previously described. However, the core elements—crowd gathering, damaged blue car, excavator presence—have been established in recent segments (e.g., segments 24-28). The novelty is limited to the imminent crushing action, but it continues the ongoing recovery/destruction sequence without significantly advancing the narrative or introducing entirely new semantic content."
+        }
+      },
+      "final_score": 1.6625
+    },
+    {
+      "segment_id": 30,
+      "start_frame": 4740,
+      "end_frame": 4898,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows a critical recovery operation where the excavator is actively attempting to access the vehicle's interior, likely to rescue occupants or retrieve important items. It represents a key turning point from the chaotic accident scene to organized recovery efforts, which is essential for the narrative arc of the story. The direct intervention with heavy machinery adds dramatic tension and shows progression from the initial obstruction to active resolution attempts.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "The segment shows a direct and forceful intervention using heavy machinery (excavator) to pry open the car door, which is a clear step in the recovery or extraction process following the vehicle's damage. This action advances the narrative from the chaotic aftermath and confrontation phases toward active resolution efforts, contributing significantly to the progression of the main event—specifically, the recovery and potential rescue or investigation at the crash site."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment is highly visually striking and highlight-worthy due to the dramatic action of an excavator prying open a car door, indicating intense recovery or rescue efforts. It adds a new, dynamic element to the ongoing chaotic scene, showing direct mechanical intervention on the damaged vehicle, which is both diverse from previous crowd observation segments and a clear escalation in the narrative's tension and visual impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a high-stakes recovery operation where an excavator is being used to forcefully pry open a damaged car door, suggesting potential rescue or extraction efforts. The crowd's intense focus and the forceful mechanical action create a sense of urgency and tension. While not as chaotic or violent as some preceding segments (e.g., confrontations with weapons or intentional destruction), the scene carries strong emotional weight due to the implied danger to any occupants and the dramatic intervention with heavy machinery."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment introduces a specific action—the excavator prying open the passenger door—which is a new detail not explicitly mentioned in previous segments. However, the overall context of a crowd watching heavy machinery interact with a damaged blue car has been established in recent segments (e.g., segments 24-29 involve an excavator and a damaged car). The new information is incremental, focusing on a precise mechanical action rather than a major shift in the narrative or semantic content."
+        }
+      },
+      "final_score": 1.55
+    },
+    {
+      "segment_id": 31,
+      "start_frame": 4898,
+      "end_frame": 5075,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important for the story summary as it depicts a key recovery action using heavy machinery (excavator) on the damaged car, directly advancing the narrative from the initial obstruction to the active recovery phase. It shows a concrete step in resolving the chaotic incident, adding a dynamic, action-oriented moment that contrasts with earlier static observation scenes. While similar to previous excavator segments, the specific focus on a man working on the wheel provides a new detail about the recovery effort, enhancing the sequence's progression toward a resolution.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment contributes significantly to story progression by depicting active recovery efforts on the damaged car using heavy machinery, moving beyond mere observation or confrontation to a phase of intervention. It advances the main event from the chaotic aftermath toward resolution, showing a concrete step in addressing the vehicle's predicament."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking and highlight-worthy due to the dramatic presence of a large excavator bucket looming over a damaged car, combined with a man actively working on the vehicle, creating a tense and dynamic scene. It shows a key moment of recovery or intervention, adding action and urgency to the ongoing narrative. However, it is somewhat similar to previous segments involving excavators and crowds, slightly reducing its uniqueness within the sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment depicts a tense recovery scene with a large excavator looming over a damaged car and a man working urgently on the wheel, creating a sense of imminent danger and high-stakes intervention. While less chaotic than previous destructive segments, it maintains significant tension through the precarious machinery and focused emergency effort."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment introduces minimal new information compared to recent segments. It continues the theme of a crowd observing a damaged blue car with an excavator present, which has been established in segments 24-30. The specific detail of a man kneeling to work on the wheel adds a slight nuance but does not significantly advance the narrative or introduce new semantic content beyond the ongoing recovery effort."
+        }
+      },
+      "final_score": 1.5
+    }
+  ]
+}

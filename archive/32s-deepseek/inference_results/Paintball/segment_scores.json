@@ -1,0 +1,965 @@
+{
+  "video_id": "Paintball",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 190,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment is highly important as it establishes the primary setting and activity of the video—an outdoor paintball match. It provides key visual context (overcast weather, players in red gear, obstacles, industrial background) that anchors the viewer in the sports theme. While the video later shifts to unrelated content (nighttime wildlife and bungee jumping), this segment is crucial for understanding the initial sports-focused narrative. Its static, wide composition also makes it suitable for inclusion in a summary to convey the paintball environment clearly.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment primarily establishes the setting and visual context of the paintball arena, showing players in position but without any visible action, movement, or narrative development. It contributes minimally to story or main event progression as it lacks dynamic events, conflict, or forward momentum in the paintball match itself."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment is visually clear and establishes the setting, but lacks dynamic action, striking visual elements, or highlight-worthy moments. The static, wide shot with overcast lighting and minimal player movement reduces its visual impact and diversity compared to more active or dramatic segments in the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a paintball match, which inherently involves tension and competitive energy. However, the description emphasizes static, wide shots and players positioned behind cover, suggesting a moment of strategic waiting rather than active conflict or intense emotional expression. The overcast weather and industrial background contribute to a subdued atmosphere. While there is underlying tension from the game context, the visual presentation lacks strong emotional cues like dramatic action, facial expressions, or heightened sentiment, resulting in a moderate emotional score."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces the setting and key elements of the paintball match, including the overcast weather, players in red gear, obstacles, and industrial background, which are new to the video's narrative. However, it lacks dynamic action or progression, slightly limiting the depth of new information."
+        }
+      },
+      "final_score": 1.3
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 190,
+      "end_frame": 380,
+      "planner_score": 0.85,
+      "planner_reason": "This segment captures the core action of the paintball match—players sprinting and taking cover during a fast-paced game—which is central to the sports theme. It provides dynamic movement and engagement, contrasting with the previous static establishing shot. While the video later shifts to unrelated activities (nighttime wildlife and bungee jumping), this segment is crucial for representing the primary sports content and should be prioritized in a summary focused on the paintball event.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment significantly advances the story by depicting active gameplay, including a player sprinting and others taking cover, which moves beyond the static setup of the previous segment and introduces dynamic action central to the paintball match narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking due to the dynamic action of a player sprinting across an open field, which contrasts with the static cover positions of others, creating a sense of movement and intensity. The overcast lighting and red gear enhance visual contrast, making it highlight-worthy within the sports theme. However, it lacks extreme diversity or unique visual effects compared to other segments like bungee jumping, keeping it from a higher score."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment shows moderate emotional intensity through the depiction of active gameplay with players sprinting and taking cover, suggesting urgency and engagement. However, the emotional expression is somewhat limited by the distant camera perspective and lack of close-ups on facial expressions or audible reactions, which prevents a stronger emotional connection."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment provides minimal new information compared to the previous segment. Both describe the same paintball field setting, players in red gear, and the presence of obstacles. The only incremental addition is the mention of a player sprinting and others taking cover, which slightly elaborates on the game's activity but does not introduce new semantic content, settings, or instructions beyond what was already established."
+        }
+      },
+      "final_score": 1.5
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 380,
+      "end_frame": 570,
+      "planner_score": 0.2,
+      "planner_reason": "The segment is visually and contextually redundant with previous segments, showing the same static paintball field setup without new action, players, or narrative progression. While it reinforces the initial sports setting, it adds minimal new information to the global summary, which already includes paintball footage and transitions to other activities. For a sports-themed summary prioritizing dynamic action and key moments, this static, repetitive shot has low importance.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment is largely a static, descriptive shot of the paintball field environment, repeating visual elements from previous segments without introducing new narrative action, character movement, or plot development. It reinforces the setting but does not advance the story or main events."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment is visually similar to previous paintball scenes, lacking dynamic action or new elements. It maintains a static, wide shot with familiar obstacles and industrial background, offering little visual diversity or highlight-worthy content compared to the more dynamic segments in the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment is a static, wide shot of a paintball field with no visible action or player movement. The overcast weather and unchanged scene contribute to a neutral, observational tone with minimal emotional expression, tension, or sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides minimal new information compared to the previous segments. It reiterates the setting of an outdoor paintball field on an overcast day with similar obstacles and background elements (e.g., wooden barricade, circular barriers, industrial buildings, blue crane) already described in prior segments. While it adds minor details like the 'AG' logo on a building, the core semantic content—location, activity, and visual elements—is largely redundant with the established context, offering little incremental informational value."
+        }
+      },
+      "final_score": 0.425
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 570,
+      "end_frame": 760,
+      "planner_score": 0.2,
+      "planner_reason": "This segment is highly redundant with previous segments (0, 1, and 2) in the paintball sequence, showing essentially the same static wide shot of the paintball field with similar obstacles, background elements (blue crane, 'AG' sign), and weather conditions. While it maintains continuity within the sports theme, it adds minimal new information to the global summary, which already establishes the paintball setting. The segment's importance is further diminished by the video's later, more dynamic segments (nighttime animal footage and bungee jumping), which are likely more critical for a diverse and engaging summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment is a static, wide shot of the paintball field that largely repeats the setting and visual elements established in previous segments (obstacles, background structures, overcast conditions). It does not introduce new action, characters, or narrative developments, and the paintball match itself is not shown progressing. Therefore, it contributes minimally to story or main event progression, serving more as environmental continuity."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment is visually repetitive and lacks striking elements compared to the previous paintball segments. It maintains the same static, wide-shot composition, overcast lighting, and similar obstacles, offering no new visual diversity or highlight-worthy action. While the background details like the 'AG' sign and crane are clear, they do not enhance visual impact, making this segment less engaging and not a standout moment in the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment is a static, wide shot of a paintball field with no visible action, movement, or human subjects, resulting in minimal emotional expression, tension, or sentiment. The overcast weather and industrial background contribute to a neutral, observational tone without dynamic or engaging elements."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment provides minimal new information as it largely repeats the setting and visual elements already established in previous segments (paintball field, overcast day, obstacles, industrial background). It adds slight detail variations (e.g., 'white painted obstacles,' 'weathered wooden fence') but does not introduce new semantic content, instructions, or narrative progression beyond redundant scene description."
+        }
+      },
+      "final_score": 0.375
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 760,
+      "end_frame": 950,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment shows a person walking across the paintball field, which is a continuation of the sports theme but lacks the dynamic action seen in earlier segments (e.g., sprinting, active gameplay). While it maintains the setting and context, it is less critical for a sports summary compared to high-action moments or the dramatic transitions to bungee jumping. Its importance is moderate as it provides continuity but does not capture peak excitement or key narrative shifts.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment shows a person walking across the paintball field, which is a minor action within the established setting but does not introduce new events, conflict, or significant narrative development. It maintains continuity with previous paintball scenes but lacks progression in terms of story or main events, as it is a transitional or ambient shot rather than a key plot point."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows a person walking across a paintball field, which is visually similar to previous segments with the same setting, obstacles, and overcast lighting. It lacks dynamic action, striking visuals, or highlight-worthy moments compared to earlier paintball scenes with sprinting players or the later bungee jumping footage. The scene is static and repetitive within the context of the video, offering little diversity or visual impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment shows a person walking across a paintball field, which is a calm, routine movement without visible urgency, conflict, or expressive action. The overcast sky and static background contribute to a neutral, low-energy atmosphere. Compared to previous segments with active gameplay, this lacks dynamic tension or emotional intensity, resulting in minimal emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "The current segment continues the established paintball setting with similar visual elements (grassy field, weathered obstacles, crane, overcast sky) and does not introduce new information, instructions, or significant semantic content beyond the previous segments. It shows a person walking, which is a minor variation but does not add substantial new narrative or thematic detail to the video's progression."
+        }
+      },
+      "final_score": 0.5125
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 950,
+      "end_frame": 1140,
+      "planner_score": 0.15,
+      "planner_reason": "The current segment is a static, wide shot of the paintball field that closely resembles previous segments (0, 2, 3) in content and perspective. It shows the same setting, obstacles, and background elements without introducing new action, key events, or narrative progression. Given the video theme is sports, this segment lacks dynamic gameplay, player interactions, or decisive moments that would be essential for a sports summary. It serves primarily as repetitive scene-setting footage that does not add unique value to the final summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment continues the static, observational depiction of the paintball field without introducing new narrative elements, character actions, or plot developments. It maintains the established setting but does not advance the story or main events beyond what was already shown in previous segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment is visually repetitive and lacks striking or highlight-worthy elements, as it continues the same static, overcast paintball field setting with minimal action or diversity compared to previous segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "The segment shows a static, wide shot of a paintball field with minimal activity—only two figures walking in the background. There is no visible emotional expression, tension from gameplay, or strong sentiment, as the scene lacks dynamic action, close-ups, or cues like facial expressions, movement intensity, or auditory elements that would convey heightened emotion. Compared to previous segments with active gameplay, this one is calm and uneventful, resulting in a low emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment provides minimal new information compared to the previous segments. It continues to describe the same static, wide shot of the paintball field with similar elements: overcast day, grassy field, weathered obstacles, and background industrial structures (blue crane, buildings with 'AG' sign). The only slight addition is the mention of two figures walking near the buildings, but this is a minor detail that does not significantly expand the semantic content or introduce new instructions or substantial information beyond the established setting."
+        }
+      },
+      "final_score": 0.3375
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 1140,
+      "end_frame": 1330,
+      "planner_score": 0.2,
+      "planner_reason": "The current segment shows a person walking across the paintball field, which is repetitive and low-action compared to previous segments depicting active gameplay. While it maintains the sports theme and setting consistency, it lacks dynamic movement, strategic gameplay, or notable events that would contribute significantly to a summary focused on highlights. Given the video's abrupt transitions to nighttime wildlife and bungee jumping later, this static walking scene has minimal importance for capturing the essence or key moments of the sports activity.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment shows a person walking across the paintball field, which is a minor action that does not significantly advance the story or main event progression. It maintains the setting but lacks dynamic events or narrative development compared to earlier segments showing active gameplay."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is visually repetitive and lacks striking or highlight-worthy elements, showing a person walking across a paintball field with similar scenery and overcast lighting as previous segments, offering minimal diversity or action."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a person walking calmly across a paintball field, with no visible action, conflict, or expressive behavior. The overcast sky and static background contribute to a neutral, low-energy atmosphere. There is no indication of tension, excitement, or strong sentiment, resulting in minimal emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment continues to depict the same paintball arena setting with similar visual elements (grassy field, obstacles, overcast sky, background structures) and actions (a person walking) as seen in previous segments. It introduces minimal new information, primarily reiterating the established environment without advancing the narrative or introducing new semantic content."
+        }
+      },
+      "final_score": 0.4
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 1330,
+      "end_frame": 1520,
+      "planner_score": 0.35,
+      "planner_reason": "The current segment continues the paintball gameplay theme established in earlier segments, showing tactical movement and use of cover, which is relevant to the sports theme. However, it represents a repetitive visual pattern (similar overcast setting, same field, similar obstacles, same background elements) without introducing new action, key moments, or narrative progression. Given the global summary includes three distinct sections (paintball, nighttime animal footage, bungee jumping), this segment falls within the already well-established paintball section and doesn't add significant new information beyond what previous segments have shown about the setting and gameplay.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment shows a player moving cautiously behind cover, which is a typical tactical action in paintball but does not introduce a new event, conflict, or significant narrative development. It continues the established setting and activity without advancing the story or main events beyond the ongoing match depicted in previous segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment shows a person moving cautiously in a paintball field, which is visually similar to previous segments in terms of setting, lighting, and subject matter. While it depicts some tactical movement, it lacks striking visual elements, diversity from earlier scenes, or highlight-worthy action that would make it stand out. The overcast lighting, familiar obstacles, and industrial background remain consistent with prior segments, offering little new visual interest or excitement."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts cautious movement and tactical positioning in a paintball match, which conveys a mild sense of tension and strategic focus. However, the emotional expression is subdued due to the static camera perspective, overcast lighting, and lack of overt action or visible facial expressions. The sentiment is neutral, leaning slightly towards anticipation rather than strong emotional peaks."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment continues to depict the same paintball field setting with a person in red moving cautiously, which is highly similar to the actions and environment described in previous segments. It introduces no new information, instruction, or semantic content beyond minor variations in movement and cover, making it largely redundant within the established context."
+        }
+      },
+      "final_score": 0.5499999999999999
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 1520,
+      "end_frame": 1710,
+      "planner_score": 0.15,
+      "planner_reason": "This segment shows yet another static, wide shot of the paintball field with minimal variation from previous segments (0, 2, 3, 5). While it establishes the setting, it lacks new action, key events, or narrative progression. Given the sports theme and the global summary's inclusion of paintball, bungee jumping, and wildlife, this repetitive scene adds little unique value to a final summary that needs to capture diverse highlights efficiently.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment is another static, wide shot of the paintball field with no new action, characters, or narrative development. It repeats the setting and obstacles already established in previous segments, contributing minimally to story or main event progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is visually repetitive and lacks striking elements compared to previous segments. It shows another static, wide shot of the same paintball field with similar obstacles (circular bunkers, wooden barricade) under the same overcast lighting. No dynamic action, players, or highlight-worthy moments are present. The composition and content are nearly identical to segments 0, 2, 3, and 5, offering no visual diversity or excitement within the sports theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "The segment is a static, wide shot of a paintball field with no visible action, movement, or human subjects. The scene is calm, with no discernible emotional expression, tension, or sentiment conveyed through motion, facial expressions, or dramatic elements. The overcast weather and still camera further contribute to a neutral, low-energy atmosphere."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment provides minimal new information compared to previous segments. It continues to show the same static wide shot of the paintball field with similar elements: overcast day, grassy field, circular bunkers, weathered wooden barricade, blue crane, industrial structures with 'AG' logo, and a stationary camera. This segment essentially repeats visual information already established in segments 0, 2, 3, and 5, offering no new semantic content, instructions, or narrative progression. The only minor variation is the specific mention of 'heavily marked paintball bunkers,' but this doesn't constitute significant new information given the context."
+        }
+      },
+      "final_score": 0.2875
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 1710,
+      "end_frame": 1900,
+      "planner_score": 0.15,
+      "planner_reason": "This segment shows a static, empty paintball field with no players or movement, which is visually redundant given the previous 8 segments already established the setting with similar wide shots. While it reinforces the paintball arena location, it lacks the dynamic action seen in segments 1, 2, and 7, and doesn't introduce new information beyond the industrial background details. In a sports-themed summary focused on action and key moments, this empty establishing shot has low importance compared to segments showing gameplay, player movement, or the subsequent bungee jumping footage mentioned in the global summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment shows a static, empty paintball field with no players or movement, serving only as a repeated establishing shot of the environment. It does not advance the paintball match narrative, introduce new events, or transition to the upcoming nighttime/bungee jumping sequences seen in the global summary. It contributes minimally to story progression by merely maintaining the setting without narrative development."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is visually static, repetitive, and lacks any dynamic action, movement, or highlight-worthy content. It continues the same overcast paintball field setting seen in previous segments, with no players, motion, or striking visual elements to differentiate it or create visual interest."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment is a static, wide shot of an empty paintball field with no players, movement, or action. The overcast weather and still, deserted scene convey minimal emotional expression, tension, or sentiment, resulting in a very low emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The segment provides minimal new information as it largely reiterates the established setting of the paintball field with familiar elements (overcast day, obstacles, industrial background, 'AG' sign). While it specifies the absence of players, which slightly updates the scene's activity level, this adds little semantic content beyond previous segments that already described the static, empty environment. The redundancy with prior descriptions limits its informational value."
+        }
+      },
+      "final_score": 0.275
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 1900,
+      "end_frame": 2090,
+      "planner_score": 0.2,
+      "planner_reason": "This segment shows another static shot of the paintball field with minimal activity (just one person briefly walking across), which is highly repetitive with previous segments 0-9 that already established the setting. While it maintains thematic consistency with the sports theme, it adds little new information beyond what was already shown in earlier paintball footage. The global summary indicates this is just one part of a multi-activity video that also includes nighttime wildlife footage and bungee jumping, making this particular paintball segment less critical for a comprehensive summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment continues the static, establishing shot pattern of the paintball field with minimal narrative progression. The brief movement of a person walking adds slight activity but does not advance the story, introduce new events, or resolve existing ones, maintaining a largely descriptive and atmospheric role."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment is visually repetitive compared to previous segments, showing a similar static, overcast paintball field with familiar obstacles and background elements. The brief movement of a person walking adds minimal activity, but it lacks striking visuals, diversity, or highlight-worthy action, making it relatively unremarkable in the context of the video's sports theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "The segment shows minimal emotional expression or tension, with a static, wide shot of a paintball field under an overcast sky. The only activity is a person walking briefly across the field, which adds slight movement but lacks intensity, urgency, or strong sentiment compared to active gameplay or dramatic moments. The overall mood is calm and observational, with low emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment provides minimal new information as it largely repeats the established setting of an overcast paintball field with similar obstacles, background elements, and a person in red moving. The only slight novelty is the direction of movement (right to left), but this does not introduce significant new semantic content compared to previous segments."
+        }
+      },
+      "final_score": 0.3875
+    },
+    {
+      "segment_id": 11,
+      "start_frame": 2090,
+      "end_frame": 2280,
+      "planner_score": 0.2,
+      "planner_reason": "The current segment shows minimal, repetitive activity (a person briefly walking behind a target) in a paintball setting that has already been extensively covered in previous segments. Given the video theme is sports and the global summary includes more dynamic and varied content (paintball match, nighttime wildlife, bungee jumping), this segment adds little new information or excitement. It is a static, low-action continuation of the paintball scene, which is less critical for a sports-themed summary compared to the more intense paintball gameplay or the dramatic bungee jump footage.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment shows minimal progression, merely depicting a person briefly walking behind an obstacle without any significant action, conflict resolution, or narrative development in the paintball match context."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment shows minimal visual interest with a brief, partially obscured appearance of a person walking behind an obstacle in an otherwise static paintball field scene. Compared to previous segments, it lacks dynamic action, striking composition, or highlight-worthy moments. The overcast lighting, repetitive setting, and limited movement make it visually unremarkable within the sports theme context."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "The segment shows minimal emotional expression, tension, or sentiment. It features a person walking briefly and passively behind cover in a paintball field, with no visible action, conflict, or emotional cues. The scene is static, overcast, and lacks dynamic movement, facial expressions, or narrative intensity, resulting in very low emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment shows minimal new information, as it continues the established paintball setting with a person in red moving behind an obstacle, which is highly similar to previous segments. It does not introduce new semantic content, instructions, or significant narrative progression beyond minor repetitive activity."
+        }
+      },
+      "final_score": 0.3375
+    },
+    {
+      "segment_id": 12,
+      "start_frame": 2280,
+      "end_frame": 2470,
+      "planner_score": 0.2,
+      "planner_reason": "The current segment is a static, wide shot of the paintball field that closely resembles many previous segments (0, 2, 3, 5, 8, 9, 10). While it establishes the setting, it offers minimal new information or action compared to earlier segments that already showed the arena layout, obstacles, and background. The abrupt cut to darkness at the end is a notable transition, but it occurs at the segment's conclusion and is not yet contextualized. For a sports-themed summary focused on dynamic action, this static, repetitive scene has low importance. Higher importance would be given to segments showing actual gameplay, player movement, or the subsequent bungee jumping/nighttime footage.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment primarily continues the static, establishing shots of the paintball field without introducing new narrative progression or key events. The abrupt cut to darkness hints at a transition but does not itself advance the story or depict a main event; it remains a setup without payoff in this segment."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment is visually striking due to the abrupt transition from a clear paintball scene to near-total darkness, creating a jarring effect. However, the initial shot is static and similar to previous segments, lacking diversity or highlight-worthy action. The darkness obscures details, reducing overall impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "The segment begins with a static, calm shot of a paintball field, similar to previous segments, showing minimal emotional expression or tension. The abrupt cut to near-total darkness introduces a slight element of surprise or disorientation, but it lacks clear emotional content, character reactions, or narrative context to amplify sentiment. Overall, emotional expression remains low, with only a mild, unresolved shift in atmosphere."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment primarily repeats the established setting of the paintball field with minimal new details, and the abrupt cut to darkness introduces a potential transition but provides no substantive new information, instruction, or semantic content about the scene or theme."
+        }
+      },
+      "final_score": 0.3875
+    },
+    {
+      "segment_id": 13,
+      "start_frame": 2470,
+      "end_frame": 2660,
+      "planner_score": 0.2,
+      "planner_reason": "The current segment is a dark, blurry, static shot of foliage with no discernible action, which appears to be a sudden and unexplained transition from the paintball theme. In a sports-themed summary, this segment lacks relevance to the main activity (paintball) or any coherent sports narrative. It does not contribute to understanding the gameplay, key moments, or athletes, and its low visual quality and lack of movement make it unsuitable for inclusion in a summary focused on sports highlights.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment shows a dark, blurry, static shot of foliage with no discernible movement or action, representing a jarring transition from the paintball theme. While it introduces a new, ambiguous setting, it does not advance any established story or main event from the paintball match, nor does it clearly introduce a new narrative thread. Its contribution to story progression is minimal and confusing rather than purposeful."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.1,
+          "reason": "The segment is visually static, dark, blurry, and lacks any discernible action or highlight-worthy content. It does not contribute to the sports theme and appears as a transitional or accidental shot with low visual interest."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment is dark, blurry, and static with no discernible movement, action, or clear subjects, resulting in minimal emotional expression, tension, or sentiment. The lack of clarity and activity fails to evoke any strong emotional response."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The current segment introduces a completely new setting (dark, blurry outdoor at night with foliage) and visual context, distinct from the previous paintball field scenes. It provides significant new semantic content by shifting the environment and implying a potential change in activity or narrative, despite being static and lacking movement."
+        }
+      },
+      "final_score": 0.5
+    },
+    {
+      "segment_id": 14,
+      "start_frame": 2660,
+      "end_frame": 2850,
+      "planner_score": 0.05,
+      "planner_reason": "The segment is a static, extremely blurry shot of foliage with no discernible action, movement, or identifiable subject. It represents a failed capture or accidental footage that does not contribute to the sports theme (paintball/bungee jumping) or the narrative progression. It lacks informational value, visual clarity, or emotional impact, making it irrelevant for a summary focused on action and key events.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "This segment shows a static, blurry shot of foliage with no discernible action or subject, offering no progression in the paintball match or bungee jumping events. It appears to be a transitional or incidental shot that does not advance the main story or events."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.1,
+          "reason": "The segment is visually unremarkable due to extreme blurriness, lack of focus, and absence of discernible subjects or movement. It fails to provide any highlight-worthy or striking visual content, especially compared to the dynamic sports theme and previous segments with clear action or settings."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment shows a static, extremely blurry shot of foliage with no discernible action, movement, or identifiable subject. It lacks any clear emotional expression, tension, or sentiment, resulting in minimal emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces a new setting (natural foliage at night) distinct from the paintball field, providing some new semantic content. However, the extreme blurriness and lack of discernible action, subject, or movement severely limit the amount of new, usable information or instruction conveyed. It offers a minor environmental shift but little substantive detail."
+        }
+      },
+      "final_score": 0.2
+    },
+    {
+      "segment_id": 15,
+      "start_frame": 2850,
+      "end_frame": 3040,
+      "planner_score": 0.05,
+      "planner_reason": "The current segment is a static, blurry, out-of-focus shot of grass with no discernible movement or action. Given the video theme is 'sports', this segment lacks any sports-related content, action, narrative progression, or visual clarity. It appears to be a technical error or irrelevant filler, especially compared to the paintball and bungee jumping segments described in the global summary. It contributes nothing to the sports narrative and should be excluded from a summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment shows a static, blurry, and out-of-focus shot of grass and ground with no movement or identifiable subject. It does not advance the paintball match, introduce new events, or connect to the bungee jumping later. It halts narrative progression, serving only as a transitional or atmospheric pause with minimal contribution to the story."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.1,
+          "reason": "The segment is visually unremarkable, lacking diversity, action, or highlight-worthy content. It consists of a static, blurry, and dimly lit close-up of grass with no movement, making it visually monotonous and unengaging compared to the sports theme and previous segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment shows a static, blurry, and out-of-focus close-up of grass and ground with no movement, action, or discernible subject. This results in minimal emotional expression, tension, or sentiment, as it lacks any dynamic or engaging elements to evoke a strong emotional response."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The segment provides minimal new information. It continues the previous blurry, static, nighttime foliage scene without introducing any new subjects, actions, or semantic content beyond a slightly closer, but still indistinct, view of grass. It lacks instruction or meaningful progression from the prior context."
+        }
+      },
+      "final_score": 0.15000000000000002
+    },
+    {
+      "segment_id": 16,
+      "start_frame": 3040,
+      "end_frame": 3230,
+      "planner_score": 0.15,
+      "planner_reason": "The segment features a small, indistinct animal in a blurry, static shot, which is unrelated to the main sports theme of paintball and bungee jumping. It lacks action, clarity, and narrative relevance, making it minimally important for a summary focused on dynamic sports content.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.0,
+          "reason": "The segment shows a static, blurry close-up of a small animal in foliage, unrelated to the paintball sports theme or the subsequent bungee jumping. It introduces no narrative progression, character development, or connection to main events, serving as an isolated, non-contributory scene."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment introduces a new subject (a small animal in foliage) which adds visual diversity compared to the repetitive paintball scenes, making it somewhat striking as a change. However, the blurry, static, and low-light nature reduces its highlight-worthy impact, as the subject is indistinct and lacks dynamic action or clarity."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment features a static, blurry shot of a small, motionless animal in foliage, which conveys minimal emotional expression, tension, or sentiment. While there is a slight sense of curiosity or voyeurism, the lack of movement, clarity, or dynamic elements results in low emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces a new subject (a small animal) and a distinct environment (dense foliage, forest floor), shifting from the paintball arena and blurry nighttime shots to a specific wildlife observation, adding significant new semantic content."
+        }
+      },
+      "final_score": 0.55
+    },
+    {
+      "segment_id": 17,
+      "start_frame": 3230,
+      "end_frame": 3420,
+      "planner_score": 0.1,
+      "planner_reason": "This segment shows a static, blurry, close-up shot of foliage with a barely visible small animal, offering minimal relevance to the sports theme and no connection to the paintball or bungee jumping activities. It lacks action, clarity, or narrative progression, making it a low-priority candidate for inclusion in a sports-focused summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment shows a static, blurry, close-up shot of foliage with a barely visible, motionless animal. It is a continuation of the previous dark, blurry wildlife segment and does not advance the sports theme's narrative or main events (paintball match, bungee jump). It provides no progression in story or action, serving only as ambient, non-essential footage."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.1,
+          "reason": "The segment is visually unremarkable due to extreme blur, low light, and lack of focus, making it difficult to discern any striking or highlight-worthy details. It lacks diversity from previous segments (continuing the blurry, low-light theme) and offers no clear action or visual appeal, reducing its impact as a highlight."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "The segment is a static, blurry, close-up shot of foliage with a barely visible, motionless subject. It lacks any discernible emotional expression, tension, or sentiment due to poor visibility, no movement, and no contextual cues that evoke a strong emotional response."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment continues the same static, blurry, low-light nature scene introduced in segments 13-16, focusing on a small, indistinct animal in foliage. It adds minimal new information beyond slightly reinforcing the presence of a possible animal, but the content remains highly obscured, repetitive in setting, and lacks clear action or detail, offering little incremental semantic value."
+        }
+      },
+      "final_score": 0.2125
+    },
+    {
+      "segment_id": 18,
+      "start_frame": 3420,
+      "end_frame": 3610,
+      "planner_score": 0.15,
+      "planner_reason": "The segment is a static, blurry wildlife shot in low light, showing minimal activity (a small animal with slight movement). While it provides a thematic shift from paintball to nature, it lacks clear action, relevance to the sports theme, or narrative progression. It appears as a transitional or filler segment rather than a key moment for a sports-focused summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment shows a static, blurry shot of a small animal in foliage, which does not advance the main story or events related to the sports theme (paintball and bungee jumping). It introduces a tangential wildlife scene with minimal progression, serving more as atmospheric or transitional filler rather than driving the narrative forward."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is visually unremarkable due to its static, blurry, and low-light nature, with minimal subject movement and a lack of dynamic or highlight-worthy content, though it offers some intimate wildlife perspective."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment features a static, blurry, low-light shot of a small animal with minimal movement. While there is a subtle sense of voyeuristic intimacy, the emotional expression, tension, and sentiment are very low due to the lack of action, clarity, or dynamic elements. Compared to previous segments with paintball action or bungee jumping, this scene is passive and subdued."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment provides some new information by confirming the presence of a specific small animal (rodent or shrew) and describing its behavior (resting or observing), which adds detail to the previously ambiguous wildlife scene. However, it largely reiterates the established setting (blurry, low-light, natural foliage) and perspective (voyeuristic, static), offering minimal advancement in narrative or thematic content beyond refining the subject identification."
+        }
+      },
+      "final_score": 0.4
+    },
+    {
+      "segment_id": 19,
+      "start_frame": 3610,
+      "end_frame": 3800,
+      "planner_score": 0.15,
+      "planner_reason": "The current segment continues the blurry, low-light wildlife footage that began abruptly after the paintball scenes. While it maintains thematic consistency with the preceding nighttime nature shots, it offers no new information or clear subject matter beyond what was already established in segments 13-18. For a sports-themed summary, this segment lacks athletic action, human participants, or clear narrative progression. It represents a prolonged, visually unclear detour from the main sports content (paintball and bungee jumping) described in the global summary, making it of low importance for inclusion in a concise sports video summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment is a static, blurry, close-up shot of a natural ground environment with no discernible subject or action. It does not advance any narrative or main event progression, as it lacks clear connection to the paintball theme or subsequent bungee jumping, and offers no new story information beyond the previous wildlife observation."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.1,
+          "reason": "The segment is visually unremarkable due to extreme blur, lack of focus, and no discernible subject or action. It fails to be striking, diverse, or highlight-worthy, especially compared to the sports theme and previous segments with clearer activity or subjects."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment is a static, blurry, close-up shot of a dark natural ground with no discernible subject, action, or movement. It lacks any emotional expression, tension, or sentiment, as it is visually indistinct and passive, with no human or animal activity to convey emotion."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment continues the same static, blurry, low-light natural environment theme from the previous segments (13-18), offering no new identifiable subject, action, or semantic content beyond minor variations in description (e.g., 'brown earth, twigs' vs. earlier 'animal' or 'foliage'). It provides negligible new information relative to the established context."
+        }
+      },
+      "final_score": 0.25
+    },
+    {
+      "segment_id": 20,
+      "start_frame": 3800,
+      "end_frame": 3990,
+      "planner_score": 0.15,
+      "planner_reason": "This segment continues the blurry nighttime wildlife footage that appears unrelated to the main sports theme. While it shows a small animal (likely a rodent) in natural foliage, it lacks clear action, focus, or narrative connection to the paintball or bungee jumping segments. The static, blurry nature makes it visually unengaging for a sports summary. However, it might provide brief atmospheric contrast if the summary aims to show diverse footage, but its importance is low compared to the active sports segments.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment continues the static, blurry, low-light wildlife observation without introducing new narrative elements or advancing the story. It maintains the same setting and subject as previous segments (segments 13-19), with no progression in action, plot, or connection to the main events (paintball or bungee jumping). It contributes minimally to story progression, serving more as ambient or transitional filler."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is visually unremarkable due to persistent blur, low light, and a static composition, offering minimal visual diversity or highlight-worthy content compared to the sports theme and previous dynamic segments like paintball action or bungee jumping."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "The segment features a static, blurry, close-up shot of a dark natural environment with minimal discernible movement or action. The presence of a small, indistinct animal suggests some potential for subtle emotional engagement, such as curiosity or a sense of hidden wildlife, but the lack of clarity, focus, and dynamic elements results in very low emotional expression, tension, or sentiment. Compared to previous segments, it lacks the activity of paintball or the intensity of bungee jumping, contributing to a subdued emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment continues the same static, blurry, low-light wildlife observation theme from the previous several segments, offering no new information, instruction, or significant semantic content beyond slight variations in describing the same indistinct animal and environment. It does not introduce a new scene, action, or meaningful development."
+        }
+      },
+      "final_score": 0.2875
+    },
+    {
+      "segment_id": 21,
+      "start_frame": 3990,
+      "end_frame": 4180,
+      "planner_score": 0.1,
+      "planner_reason": "The current segment continues the blurry, low-light wildlife footage that is unrelated to the sports theme (paintball and bungee jumping). It offers no clear action, subject, or narrative progression, and its visual quality is poor. Given the global summary's focus on paintball and bungee jumping, this segment contributes minimally to the overall sports narrative and should be considered low importance for a summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment is a static, blurry shot of foliage with no discernible action or narrative development. It does not advance the story or main events, as it lacks clear progression, movement, or connection to the broader themes of sports or the video's earlier paintball and bungee jumping sequences. It serves more as atmospheric or transitional filler rather than contributing to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is visually unremarkable and lacks highlight-worthy qualities. It features a static, blurry, low-angle shot through dense foliage with poor focus and minimal discernible detail. While it represents a shift from the paintball theme to a natural setting, the extreme blur, lack of clarity, absence of dynamic movement or striking visual elements, and unchanging composition make it neither visually striking nor diverse compared to previous segments. The segment fails to capture attention or provide any compelling visual interest."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment is a static, blurry, low-angle shot of dense foliage and dark ground with no discernible movement, action, or human presence. The lack of focus, clarity, and dynamic elements results in minimal emotional expression, tension, or sentiment. While the setting might evoke a subtle sense of mystery or natural stillness, it is too obscure and passive to convey strong emotions."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment continues the theme of a static, blurry, low-light natural environment with minimal discernible new information. It repeats the established setting of dense foliage and obscured ground without introducing new subjects, actions, or semantic content beyond what was already described in previous segments (e.g., segments 13-20). The lack of clarity, movement, or novel elements results in very low informational value."
+        }
+      },
+      "final_score": 0.225
+    },
+    {
+      "segment_id": 22,
+      "start_frame": 4180,
+      "end_frame": 4370,
+      "planner_score": 0.1,
+      "planner_reason": "This segment continues the blurry, low-light wildlife footage that appears unrelated to the sports theme. It shows no action, movement, or clear subject, and contributes minimally to the overall narrative. Given the sports theme and the global summary that includes paintball action and bungee jumping, this static, unclear nature footage has very low importance for a sports video summary. It represents a departure from the main content without adding value to the sports narrative.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.0,
+          "reason": "The segment is a static, blurry, and out-of-focus shot of grass and ground with no discernible movement or change. It does not advance the story or depict any main event progression, as it lacks any narrative development, action, or connection to the established themes (sports paintball, wildlife, or bungee jumping). It is a passive, unchanging observation that contributes nothing to the progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.1,
+          "reason": "The segment is visually unremarkable, lacking striking elements, diversity, or highlight-worthy content. It consists of a static, blurry, and out-of-focus shot of grass and ground with no movement, action, or clear subject, making it monotonous and unengaging compared to the sports theme and previous segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment is a static, blurry, close-up shot of grass and ground with no discernible movement, action, or clear subject. It lacks any emotional expression, tension, or sentiment, resulting in minimal emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.0,
+          "reason": "The current segment provides no new information, instruction, or semantic content beyond what has been extensively covered in previous segments (13-21). It repeats the same static, blurry, low-light natural setting with no discernible movement, subject, or narrative progression, adding nothing novel to the video's evolving context."
+        }
+      },
+      "final_score": 0.15000000000000002
+    },
+    {
+      "segment_id": 23,
+      "start_frame": 4370,
+      "end_frame": 4560,
+      "planner_score": 0.05,
+      "planner_reason": "The current segment is a static, blurry, uneventful close-up of foliage with no discernible movement or action. It contributes nothing to the sports theme (paintball/bungee) and is visually redundant with previous low-light wildlife segments. It lacks narrative value, visual clarity, or thematic relevance for a sports summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment is a static, blurry, close-up shot of vegetation with no discernible movement, action, or narrative development. It does not advance the story or main events, as it lacks connection to the paintball match or bungee jumping themes, and contributes minimally to progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.1,
+          "reason": "The segment is a static, blurry, close-up shot of grass and foliage in low light, with no discernible movement, action, or visually striking elements. It lacks diversity from previous segments and is not highlight-worthy, contributing minimal visual interest to the overall video theme of sports."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment is a static, blurry, close-up shot of vegetation with no discernible movement, action, or clear subject. There is no emotional expression, tension, or sentiment conveyed; it is a passive, uneventful view of foliage in low light."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment provides minimal new information compared to the preceding segments (13-22) which already established a static, blurry, low-light shot of natural foliage with little discernible action. This segment continues the same visual pattern—blurry green grass/foliage, no movement, no new subjects, and no progression in the narrative. While it maintains the established setting shift from paintball to a natural environment, it adds virtually no new semantic content, instruction, or meaningful information beyond what was already conveyed in the recent context."
+        }
+      },
+      "final_score": 0.15000000000000002
+    },
+    {
+      "segment_id": 24,
+      "start_frame": 4560,
+      "end_frame": 4750,
+      "planner_score": 0.05,
+      "planner_reason": "The segment is a static, extremely blurry shot of a dark natural environment with no discernible action, movement, or identifiable subject. It contributes little to the sports-themed video summary, as it lacks relevance to paintball or bungee jumping, and its poor visual quality makes it unsuitable for inclusion in a concise, engaging summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "This segment shows a static, extremely blurry, and dark shot of a natural environment with no discernible action, movement, or identifiable subject. It does not advance the story or main events related to the video's theme of sports (paintball, bungee jumping) or the narrative progression established in previous segments. It appears to be a lingering, uneventful shot that contributes minimally to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.1,
+          "reason": "The segment is visually unremarkable due to extreme blur, low light, and lack of identifiable subjects or movement, making it neither striking nor highlight-worthy compared to the sports theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment is a static, extremely blurry shot of a dark natural environment with no discernible movement, identifiable subjects, or clear action. The lack of focus, low light, and absence of any dynamic elements result in minimal emotional expression, tension, or sentiment. It conveys a sense of stillness and obscurity, but with no strong emotional cues."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment provides minimal new information as it continues the pattern of static, blurry, low-light natural environment shots established in recent segments (13-23). It does not introduce new subjects, actions, or semantic content beyond the already described setting, and the lack of identifiable details or movement limits its informational value."
+        }
+      },
+      "final_score": 0.15000000000000002
+    },
+    {
+      "segment_id": 25,
+      "start_frame": 4750,
+      "end_frame": 4940,
+      "planner_score": 0.15,
+      "planner_reason": "This segment continues the blurry, low-light foliage sequence that began abruptly after the paintball footage. For a sports-themed video summary, this segment has minimal importance as it contains no discernible sports action, lacks clear subjects, and shows only motion-blurred vegetation with no narrative connection to the paintball or bungee jumping segments. It represents a confusing transition that adds little value to understanding the sports content. The segment's technical issues (blur, low light) further reduce its utility for a coherent sports summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "This segment contributes minimally to story or main event progression. It continues the pattern of blurry, low-light natural footage without advancing any narrative or thematic development. The segment lacks identifiable characters, clear action, or meaningful connection to the established paintball or bungee jumping contexts. While it maintains the transition to nighttime/natural footage initiated earlier, it offers no new information, plot points, or progression toward the video's apparent themes of sports/action activities. The motion blur and lack of discernible subjects further reduce its narrative value."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is visually indistinct and lacks striking elements. It consists of blurry, low-light footage of foliage with significant motion blur, making it difficult to discern any clear subject or highlight-worthy action. While the natural setting might have some inherent interest, the poor quality and lack of clarity diminish its visual impact, resulting in a low score."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment features a blurry, low-light scene of dense foliage with significant motion blur, obscuring any clear subject or action. There is no discernible emotional expression, tension, or sentiment conveyed due to the lack of identifiable characters, objects, or specific movements. The disorienting and unstable observation in a natural, shadowy environment does not evoke strong emotions, resulting in a minimal emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment continues the blurry, low-light foliage scene established in previous segments, with no new identifiable subject, action, or semantic content introduced. It maintains the same obscured, natural setting without providing additional information beyond the existing context of a dark, vegetated environment."
+        }
+      },
+      "final_score": 0.275
+    },
+    {
+      "segment_id": 26,
+      "start_frame": 4940,
+      "end_frame": 5130,
+      "planner_score": 0.15,
+      "planner_reason": "This segment continues the blurry nighttime wildlife footage that represents a jarring thematic departure from the sports theme. While it shows a potential animal subject (slightly more defined than previous segments), it remains static, blurry, and low-action. Given the sports theme and the global summary's emphasis on paintball action and bungee jumping, this segment has minimal importance for a sports-focused summary. It represents a confusing detour rather than core sports content.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.0,
+          "reason": "The current segment is a static, blurry shot of a dark natural environment with a possible small animal shape, but it shows no discernible movement, action, or narrative development. It does not advance the story or main events from the previous segments, which have already established the paintball setting and transitioned to ambiguous nighttime wildlife footage. This segment remains stagnant and does not contribute to progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.1,
+          "reason": "The segment is visually unremarkable, lacking diversity, clarity, or highlight-worthy elements. It continues a pattern of static, blurry, low-light footage from previous segments, with no discernible action, striking visuals, or significant changes. The small, indistinct shape offers minimal visual interest and does not stand out as a highlight in the context of the video's sports theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.05,
+          "reason": "The segment is a static, blurry, low-light shot of foliage with a barely visible, motionless shape. There is no discernible movement, action, or clear emotional expression; the scene is passive, obscure, and lacks tension or sentiment, resulting in minimal emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment continues the same static, blurry, low-light natural environment theme as the previous several segments (13-25), focusing on foliage with a possible small animal shape. It provides minimal new information as it reiterates the same setting, visual quality, and lack of action, adding only a slight variation in describing the shape's position (center-right) and potential identity, which is already implied in prior segments (e.g., segments 16, 18, 20)."
+        }
+      },
+      "final_score": 0.2125
+    },
+    {
+      "segment_id": 27,
+      "start_frame": 5130,
+      "end_frame": 5320,
+      "planner_score": 0.05,
+      "planner_reason": "The current segment continues the low-quality, blurry nighttime wildlife footage that lacks clear action or relevance to the sports theme. It is visually indistinct, static, and contributes little to the narrative or excitement of the video. Compared to the dynamic paintball and bungee jumping segments, this segment is redundant and unimportant for a sports-focused summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.0,
+          "reason": "The current segment is a static, blurry, close-up shot of a dark natural ground environment with no discernible movement or action. It does not advance any narrative, introduce new events, or connect to the main themes of sports (paintball, bungee jumping) established in the video. It represents a prolonged, uneventful pause that contributes nothing to story or main event progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.1,
+          "reason": "The segment is visually unremarkable, lacking striking elements, diversity, or highlight-worthy content. It continues the pattern of static, blurry, low-light footage of natural ground with no discernible movement, action, or clear subject. The composition is ambiguous and low-visibility, offering no visual appeal or memorable moments compared to the sports theme or earlier dynamic segments like paintball or bungee jumping."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment is a static, blurry, close-up shot of a dark natural environment with no discernible movement, action, or clear subjects. It lacks any emotional expression, tension, or sentiment, as it is visually ambiguous and uneventful, resulting in minimal emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "This segment provides minimal new information compared to the extensive context of similar blurry, static, low-light natural environment shots already described in previous segments (13-26). It repeats the same visual elements: static camera, blurry close-up, dark natural ground environment, out-of-focus green foliage, murky background, and no discernible movement or action. While it maintains the thematic shift from paintball to natural settings established earlier, it adds essentially no new semantic content, instruction, or meaningful visual information beyond what has already been thoroughly documented in the preceding wildlife/nature segments."
+        }
+      },
+      "final_score": 0.125
+    },
+    {
+      "segment_id": 28,
+      "start_frame": 5320,
+      "end_frame": 5510,
+      "planner_score": 0.1,
+      "planner_reason": "This segment continues the extremely blurry, low-light nature footage that began abruptly after the paintball scenes. For a sports-themed video summary, this content has minimal relevance as it shows no sports action, lacks clear subjects, and provides no narrative progression. The segment is visually poor (blurry, dark) and repetitive with previous nature segments, offering no new information about paintball, bungee jumping, or any sports activity. It represents a departure from the main sports content and adds little value to a coherent sports summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.05,
+          "reason": "The segment is a static, extremely blurry close-up of a dark natural environment with no discernible subject or action. It does not advance the story or main events, as it lacks any progression, narrative development, or connection to the established themes (sports, paintball, bungee jumping). It is essentially a continuation of the previous low-visibility wildlife shots, contributing minimally to the overall narrative flow."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.1,
+          "reason": "The segment is visually unremarkable due to extreme blur, lack of focus, and absence of discernible movement or detail. It fails to offer striking visuals, diversity, or highlight-worthy content, especially compared to earlier segments with dynamic paintball action or wildlife observation. The static, low-visibility nature makes it the least engaging in the sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment is a static, extremely blurry close-up of a dark natural environment with no discernible movement, action, or identifiable subjects. It lacks any emotional expression, tension, or sentiment, as it appears to be an uneventful, low-visibility shot with no human or animal activity to convey emotion. The low score reflects the absence of emotional cues compared to other segments in the video, such as the paintball match or bungee jumping."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.0,
+          "reason": "The current segment is a static, extremely blurry close-up of a dark natural environment with no discernible subject, action, or new details. It closely resembles the preceding segments (13-27) in content, style, and lack of clarity, providing no new information, instruction, or semantic content beyond the already established theme of obscured, low-light foliage observation."
+        }
+      },
+      "final_score": 0.1625
+    },
+    {
+      "segment_id": 29,
+      "start_frame": 5510,
+      "end_frame": 5700,
+      "planner_score": 0.15,
+      "planner_reason": "The current segment continues the blurry, low-light wildlife observation sequence that began abruptly after the paintball footage. While it shows some camera movement and a possible animal shape, it remains extremely blurry, poorly lit, and lacks clear action or narrative significance for a sports-themed video. This segment represents more of the same low-quality, disconnected content that doesn't contribute to the paintball or bungee jumping sports narratives. The abrupt transitions and poor visual quality make it unsuitable for inclusion in a coherent sports summary. The segment's main value is minimal - it continues an already established pattern of unclear wildlife footage that appears disconnected from the main sports themes.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment continues the blurry, low-light wildlife observation theme from previous segments, showing shaky foliage and a possible animal shape, but it does not advance the overall story or main events. It remains static and ambiguous, lacking clear progression or connection to the paintball or bungee jumping themes, contributing minimally to narrative development."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment contains some dynamic elements like camera movement, abrupt lighting changes, and a potential fast-moving subject, which are more visually striking than the preceding static, blurry wildlife shots. However, the footage remains blurry, poorly lit, and lacks clear, highlight-worthy action or composition, making it only slightly more engaging than the previous low-visibility segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment contains some potential for emotional expression through abrupt shifts and motion, but the content is largely obscured and ambiguous. The shaky, blurry foliage and sudden white frames suggest disorientation or surprise, but the lack of clear subjects, human presence, or identifiable emotional cues (like faces, actions, or context) limits the emotional impact. The possible animal movement is too indistinct to convey strong sentiment or tension. Compared to previous segments, this lacks the active paintball dynamics or the visceral thrill of bungee jumping, resulting in low emotional strength."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.85,
+          "reason": "The current segment introduces significant new information compared to the preceding segments. While the previous segments were static, blurry shots of foliage with minimal movement or identifiable subjects, this segment depicts dynamic camera movement through vegetation, a sudden lighting change (overexposed white frame), and a blurry but distinct brownish-orange shape resembling a moving animal or object. This adds new semantic content: active camera motion, a dramatic lighting transition, and a clearer, moving subject, providing more visual and narrative progression than the static, obscured wildlife observations seen earlier."
+        }
+      },
+      "final_score": 0.48750000000000004
+    },
+    {
+      "segment_id": 30,
+      "start_frame": 5700,
+      "end_frame": 5890,
+      "planner_score": 0.85,
+      "planner_reason": "This segment represents a significant transition from the previous dark, blurry wildlife footage to a new, active scene that aligns with the sports theme. The description suggests first-person bungee jumping footage (rapid descent, bright/hazy environment, overhead lighting), which is a key action moment in the global summary. While the view is obscured, the implied high-adrenaline activity and clear shift back to human sports action make it highly important for inclusion in a sports-themed summary, capturing the climax of the video's narrative.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment shows a person moving in a hazy environment with ceiling lights, but it lacks clear narrative progression or connection to the established themes (paintball, wildlife, bungee jumping). It introduces a new, ambiguous setting without advancing any main event or story, contributing minimally to overall progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to its dynamic, first-person perspective and dramatic lighting shift from previous dark, blurry wildlife shots. The low, obscured angle and hazy, brightly lit environment create a sense of immersion and highlight-worthy action, likely representing the bungee jump descent mentioned in the global summary. This contrasts sharply with the static paintball and wildlife segments, adding diversity and excitement to the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment shows a person moving in a hazy, brightly lit environment with some visual distortion, but lacks clear emotional cues, facial expressions, or narrative tension. The blur and obscured angle reduce emotional engagement, making it feel detached and observational rather than emotionally charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.85,
+          "reason": "The current segment introduces a new, distinct environment and perspective compared to the previous segments, which were either static paintball scenes or blurry, low-light wildlife shots. It provides new semantic content by showing a person moving through a brightly lit, hazy indoor or enclosed space with visible ceiling and lighting, suggesting a transition to a different activity or setting (possibly related to bungee jumping preparation or a different indoor sport). This adds significant new information to the video's narrative progression."
+        }
+      },
+      "final_score": 1.35
+    },
+    {
+      "segment_id": 31,
+      "start_frame": 5890,
+      "end_frame": 6096,
+      "planner_score": 0.95,
+      "planner_reason": "This segment is highly important for a sports-themed summary as it captures the most dynamic and thrilling action in the entire video. While the paintball segments show recreational sports activity and the wildlife footage provides contrast, this bungee jumping segment represents peak athletic excitement with first-person perspective, rapid motion, and clear sports relevance. It provides a strong climax to the video's sports narrative, showcasing an extreme sport experience that would engage viewers in a summary. The segment's visual clarity, action focus, and thematic alignment with sports make it essential for inclusion.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.95,
+          "reason": "This segment marks a significant progression in the story by introducing a new, high-intensity main event (bungee jumping) that contrasts sharply with the previous static paintball scenes and blurry wildlife footage. It provides clear action, a distinct narrative shift, and contributes directly to the video's climax, advancing the overall story from observational to experiential."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "This segment is highly visually striking and highlight-worthy. After numerous static paintball shots and blurry nighttime wildlife footage, this segment provides a dramatic shift to first-person bungee jumping footage with rapid descent, dynamic camera movement, and an adrenaline-inducing perspective. The overexposed transition creates visual contrast, while the first-person view of the ground rushing up creates strong visual impact. The segment captures a clear highlight moment (extreme sports action) with excellent visual diversity compared to previous segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.9,
+          "reason": "The segment depicts a first-person bungee jump with rapid descent, visible tension in the bungee cord, and a direct focus on the thrilling free-fall experience. This creates strong emotional intensity through adrenaline, excitement, and visceral engagement, significantly higher than the preceding static or low-action segments."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 1.0,
+          "reason": "The current segment introduces a completely new activity (bungee jumping) and perspective (first-person rapid descent) not present in any previous segments, which were focused on paintball or static/blurry wildlife footage. It provides significant new semantic content and dynamic action, marking a major thematic and visual shift in the video."
+        }
+      },
+      "final_score": 1.9
+    }
+  ]
+}

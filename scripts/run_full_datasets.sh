@@ -9,9 +9,9 @@ SPLIT_ROOT="${SPLIT_ROOT:-/root/autodl-tmp/datasets/splits}"
 LLM_MODE="${LLM_MODE:-api}"
 LLM_MODEL="${LLM_MODEL:-DeepSeek-V3.2}"
 SEGMENT_MODE="${SEGMENT_MODE:-count}"
-SEGMENT_VALUE="${SEGMENT_VALUE:-8}"
+SEGMENT_VALUE="${SEGMENT_VALUE:-64}"
 CAPTION_FRAMES_PER_SEGMENT="${CAPTION_FRAMES_PER_SEGMENT:-4}"
-MAX_HISTORY_SEGMENTS="${MAX_HISTORY_SEGMENTS:-8}"
+MAX_HISTORY_SEGMENTS="${MAX_HISTORY_SEGMENTS:-64}"
 SPLIT_COUNT="${SPLIT_COUNT:-5}"
 
 COMMON_ARGS=(
@@ -28,5 +28,5 @@ COMMON_ARGS=(
   --max_history_segments "$MAX_HISTORY_SEGMENTS"
 )
 
-python main.py "${COMMON_ARGS[@]}" --dataset_name summe
+# python main.py "${COMMON_ARGS[@]}" --dataset_name summe
 python main.py "${COMMON_ARGS[@]}" --dataset_name tvsum

@@ -1,0 +1,965 @@
+{
+  "video_id": "HT5vyqe0Xaw",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 302,
+      "planner_score": 0.1,
+      "planner_reason": "The current segment shows a wooden outdoor dining set on a patio with a grassy hillside background, which is completely unrelated to the vehicle recovery operation described in the global summary. This appears to be an incidental or transitional shot with no connection to the main narrative of truck recovery in a forested area. In a general theme video summary, such off-topic segments should receive very low importance scores.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.0,
+          "reason": "This segment shows a static scene of outdoor furniture on a patio with no connection to the vehicle recovery operation described in the global summary. There is no progression of the main story about the truck incident, recovery efforts, or forestry work. The segment appears to be unrelated filler content that does not advance the narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment shows a static, mundane scene of a wooden dining set on a patio with a grassy hillside, lacking any striking visuals, diversity, or highlight-worthy action related to the vehicle recovery theme. It is visually unremarkable and does not contribute to the narrative's excitement or key moments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "The segment lacks strong emotional expression, tension, or sentiment. It depicts a calm, static scene of a patio setting with no human interaction, dramatic events, or notable emotional cues, resulting in minimal emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The segment shows a wooden outdoor dining set on a patio with a grassy hillside, which is unrelated to the video's theme of a vehicle recovery operation in a forest. It provides minimal new information relevant to the main content, offering only a brief environmental detail that does not advance the narrative or semantic content of the recovery process."
+        }
+      },
+      "final_score": 0.2125
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 302,
+      "end_frame": 604,
+      "planner_score": 0.2,
+      "planner_reason": "The current segment shows a silver station wagon parked on a gravel driveway, which is unrelated to the main theme of a vehicle recovery operation in a remote forested area. While it involves a vehicle, it lacks the key elements of the recovery operation, forestry workers, machinery, or the blue and white truck. The scene appears to be a domestic or residential setting, making it of low relevance to the global summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment shows minimal direct contribution to the main story progression about vehicle recovery in a forest. While it introduces a vehicle (silver station wagon) and a rural setting, it lacks connection to the blue/white truck, recovery operation, or any incident. It appears to be establishing setting or transition rather than advancing the core narrative of the stuck truck and recovery efforts."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows a mundane transition from a patio dining set to a parked station wagon on a gravel driveway. While the camera movement provides some visual continuity, the content lacks striking visual elements, diversity, or highlight-worthy moments relevant to the video's theme of vehicle recovery operations. The scene is ordinary with no action, drama, or notable visual interest beyond basic documentation of surroundings."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a calm, mundane scene of a parked vehicle on a driveway under an overcast sky, lacking any visible emotional expression, tension, or strong sentiment. It is neutral and observational, with no dramatic action or heightened emotional cues present."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces a new vehicle (silver station wagon) and location (gravel driveway) not previously mentioned in the global summary or memory context, adding relevant visual content that could relate to the vehicle recovery theme, though its direct connection to the truck incident is not yet established."
+        }
+      },
+      "final_score": 0.575
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 604,
+      "end_frame": 906,
+      "planner_score": 0.15,
+      "planner_reason": "The current segment shows a vehicle driving down a gravel road, which is thematically related to the global summary's vehicle recovery operation in a forested area. However, this segment appears to be establishing context or showing the vehicle before the incident, rather than depicting the core recovery action, machinery, or the stuck/overturned truck itself. Given the general theme and the summary's focus on the recovery operation, this segment has low importance for the final summary, as it represents setup or transitional footage rather than key events.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment shows a vehicle driving on a gravel road, which is a routine action that sets the scene but does not directly depict the main event of the truck recovery operation. It contributes minimally to story progression as it is a preparatory or transitional scene rather than a key event in the recovery narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment shows a vehicle driving down a narrow gravel road, which is somewhat visually engaging due to the tree-lined setting and movement, but lacks the striking or highlight-worthy elements seen in the global summary (e.g., vehicle recovery, overturning, machinery, dramatic mud or obstacles). It serves as transitional footage rather than a visually compelling or diverse highlight."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment shows a vehicle driving on a gravel road with some atmospheric elements like shadows and tree-lined paths, but there is minimal emotional expression, tension, or sentiment conveyed. The scene is straightforward and lacks dramatic events, intense emotions, or notable sentiment, resulting in a low emotional strength score."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces new semantic content by showing the vehicle in motion on a specific road, advancing the narrative from stationary scenes to active travel, which is central to the video's theme of vehicle recovery. It provides new information about the environment and the vehicle's progress, though it builds on previously established elements like the station wagon and wooded setting."
+        }
+      },
+      "final_score": 0.525
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 906,
+      "end_frame": 1208,
+      "planner_score": 0.95,
+      "planner_reason": "This segment introduces the first clear incident in the recovery operation narrative - a trailer rollover with visible debris - which directly establishes the problem requiring recovery efforts. It provides crucial context for understanding why recovery machinery and workers appear in subsequent scenes, making it highly important for a coherent summary of the vehicle recovery theme.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "This segment introduces a new, significant event—the discovery of a trailer that has overturned on the road, with visible debris indicating a recent accident. This marks a clear progression from simply driving down a road to encountering a specific incident that likely sets up the main recovery operation described in the global summary, thus contributing strongly to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment depicts a visually striking and highlight-worthy moment—a vehicle approaching a precariously tilted trailer with scattered debris, indicating a recent accident or rollover. This introduces a clear point of tension and narrative interest within the recovery operation theme, making it more engaging than typical driving shots."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment introduces a potential accident scene with a tilted trailer and debris, which carries mild tension and concern, but the emotional expression is subdued as the scene is observed from a distance without immediate human reaction or dramatic elements, keeping the sentiment relatively low."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces a new, specific incident involving a trailer that appears to have overturned, adding significant new information about an accident or obstacle on the road. This directly contributes to the theme of vehicle recovery by presenting a clear problem that likely requires intervention, advancing the narrative beyond general driving scenes."
+        }
+      },
+      "final_score": 1.6375
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1208,
+      "end_frame": 1510,
+      "planner_score": 0.85,
+      "planner_reason": "This segment directly depicts the core incident of the vehicle recovery operation—the overturned trailer—which is central to the global summary. It provides key visual context (muddy road, debris, caution tape) that establishes the accident scene and justifies the subsequent recovery efforts. While not showing active recovery work, it is a critical establishing shot that bridges the earlier driving scenes and the upcoming recovery operations.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment directly depicts the main event of the trailer being stuck after an accident, which is a key incident in the story of vehicle recovery. It provides crucial visual confirmation of the problem that necessitates the recovery operation, significantly advancing the narrative from setup to the core conflict."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking and highlight-worthy as it captures the aftermath of an accident in a remote forest setting. The tilted white trailer wedged against a tree on a muddy road creates a compelling visual of vehicle distress. The presence of scattered debris and yellow caution tape adds narrative tension and clear indication of an incident. The scene represents a key moment in the vehicle recovery narrative described in the global summary, showing the initial problem that necessitates the recovery operation. While not as dynamic as active recovery scenes might be, this establishes the core conflict visually."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a clear accident scene with the trailer stuck at an angle against a tree, scattered debris, and caution tape, creating a sense of tension and concern. The visual cues (wedged position, debris, caution tape) strongly convey an incident with potential danger or urgency, though the emotional intensity is somewhat moderated by the observational camera perspective and lack of immediate human distress visible."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "This segment provides substantial new information and semantic content within the video's theme of vehicle recovery operations. While previous segments established the general setting and showed a vehicle driving on gravel roads, this segment specifically introduces: 1) The exact nature of the incident (a white trailer stuck at an angle on a muddy road), 2) The trailer's position (wedged against a tree), 3) Environmental details (muddy forested road, scattered debris), 4) Safety indicators (yellow caution tape), and 5) The specific location context (wooded rural area). This represents a significant advancement in the narrative, moving from general travel scenes to the actual incident that likely prompted the recovery operation. The segment provides concrete visual evidence of the problem that will presumably be addressed in subsequent recovery efforts."
+        }
+      },
+      "final_score": 1.725
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 1510,
+      "end_frame": 1812,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it directly depicts the central incident of the video—a vehicle stuck in a remote forested area. It aligns perfectly with the global summary's description of a recovery operation, showing the immobilized vehicle (here a white camper van) in a muddy, wooded setting. While the global summary mentions a blue and white truck, this segment's van serves a similar narrative role, likely representing the same or a related incident. The shaky, close perspective adds immediacy and documentary value. However, the score is slightly reduced because the vehicle type differs from the summary's description, which might cause minor narrative confusion if not contextualized by surrounding segments.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story by introducing a new, critical incident—a white camper van stuck on a muddy road—that directly parallels and builds upon the earlier trailer accident, reinforcing the theme of vehicle recovery in a remote forest. It provides a clear progression from previous segments by shifting focus to a new immobilized vehicle, maintaining narrative continuity while escalating the stakes of the recovery operation."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking and highlight-worthy as it captures the core incident of the video—a white camper van stuck at an angle on a muddy, forest-lined road with its rear wedged against a tree. The shaky, close perspective from a following vehicle adds immediacy and immersion, emphasizing the vehicle's immobilization and the remote, overcast setting. While the scene is static, it directly contributes to the narrative of a recovery operation and stands out compared to earlier segments of normal driving or parked vehicles."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment depicts a vehicle in a compromised position (stuck at an angle, wedged against a tree) in a remote, muddy forest setting, which inherently carries moderate tension and concern. The shaky camera work and slow approach enhance a sense of unease or investigation. However, the emotional expression is largely implicit—there is no visible human distress, dramatic action, or overt sentiment (like panic or relief) within the segment itself. The tension stems more from the situational context (a breakdown/stuck vehicle in a remote area) than from strong, immediate emotional displays."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment provides limited new information compared to the previous segments, particularly segment 4, which already described a white trailer stuck on a muddy road against a tree. The current segment introduces a 'camper van' instead of a 'trailer', but the setting, situation, and visual details are highly similar, adding only minor semantic variation rather than substantial new content."
+        }
+      },
+      "final_score": 1.5125
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 1812,
+      "end_frame": 2114,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it shows the core incident of the vehicle recovery operation—the stuck trailer—and reveals active recovery efforts with the yellow rope tied to the tree, indicating an attempt to pull it free. It directly aligns with the global summary's focus on the recovery operation in a remote forested area. While similar to previous segments (4 and 5), it adds new, actionable context (the recovery attempt) that is critical for understanding the progression of events. The segment is central to the narrative but slightly redundant with earlier shots of the stuck trailer, preventing a perfect score.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "This segment contributes moderately to story progression by showing the aftermath of the trailer incident with new details about recovery attempts. The yellow rope tied between the tree and trailer's hitch introduces the first visible evidence of active recovery efforts, advancing the narrative from 'stuck vehicle' to 'recovery in progress.' However, this is still establishing the problem rather than showing significant progression of the main recovery operation. The segment builds on previous context but doesn't yet show the actual recovery action or resolution."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is visually striking and highlight-worthy as it captures the core incident of the recovery operation—the stuck trailer with visible recovery equipment (yellow rope) in action. The dynamic camera pan around the vehicle reveals key details like the rope tied to a tree and extending to the hitch, emphasizing the recovery attempt. The rugged, muddy environment and focus on the trailer's undercarriage add to the scene's tension and operational complexity, making it a central, engaging moment in the narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment conveys moderate emotional tension through the visual narrative of a vehicle recovery attempt in a challenging environment. The stuck trailer, muddy terrain, and visible recovery rope create a sense of struggle and problem-solving urgency. While there are no overt emotional expressions from people, the physical predicament and implied effort to resolve it generate palpable situational tension. The remote wooded setting adds to the feeling of isolation and difficulty. However, the emotional intensity is tempered by the documentary-style presentation and lack of visible human distress or dramatic escalation."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment shows the same white trailer stuck in a wooded area as described in previous segments 4 and 5, with minimal new information. While it adds the detail of a yellow rope tied to the tree and extending toward the trailer's hitch (suggesting a recovery attempt), this is a minor addition to the established scene. The core semantic content - a vehicle recovery operation with a stuck trailer in a forested area - remains unchanged from what was already established in the global summary and previous segments. The segment provides slight contextual elaboration but no significant new information, instruction, or semantic advancement."
+        }
+      },
+      "final_score": 1.45
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 2114,
+      "end_frame": 2416,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment introduces the main recovery vehicle (blue and white Isuzu truck) that is central to the recovery operation described in the global summary. While the previous segments focused on the stuck trailer/van and establishing the remote forest setting, this segment shifts to the recovery equipment and personnel arriving on scene. The low-angle shot emphasizing the truck's wheels and trailer suggests it's equipped for recovery work, and the open driver door implies active involvement. This represents a key narrative transition from 'problem' to 'solution' in the recovery documentation, making it important for understanding the operational response. However, it's slightly less critical than segments showing the actual recovery attempt or the vehicle's stuck condition.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment contributes significantly to story progression by introducing the main vehicle (the blue and white Isuzu truck) that is central to the recovery operation described in the global summary. It transitions from the stuck trailer to the truck that is likely involved in the recovery, showing it in motion and then stopped, which advances the narrative toward the main event of vehicle recovery in the forest."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "This segment is visually striking as it introduces the main vehicle (blue and white Isuzu truck) that is central to the recovery operation. The low-angle shot emphasizing the truck's wheels and corrugated trailer creates a dramatic, imposing perspective. The transition from the low-angle view to revealing the full truck with its door open adds narrative tension and highlights the vehicle's significance. Compared to previous segments showing stationary or stuck vehicles, this captures the truck in motion and then paused, making it more dynamic and highlight-worthy within the recovery narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a truck traveling and then stopped on a forest road, but lacks overt emotional cues. There is no visible distress, urgency, or strong sentiment from characters or the scene itself. The primary content is observational—showing the vehicle's presence and environment—without heightened tension, dramatic action, or clear emotional expression. Compared to earlier segments showing an overturned trailer, the emotional intensity here is lower, as it appears to be a routine or preparatory moment in the recovery operation."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment introduces the blue and white Isuzu truck that becomes central to the recovery operation, which is new information not explicitly shown in previous segments. However, this is essentially the setup for the incident that follows, and much of the context (remote forested area, muddy roads, vehicle in trouble) has already been established by previous segments showing the stuck white trailer/camper van. The segment provides incremental progression rather than fundamentally new semantic content."
+        }
+      },
+      "final_score": 1.375
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 2416,
+      "end_frame": 2718,
+      "planner_score": 0.95,
+      "planner_reason": "This segment captures the critical moment of the accident itself—the blue and white truck losing control and beginning to roll over on the muddy forest road. It directly shows the incident that triggers the entire recovery operation documented in the global summary. While previous segments showed the aftermath (stuck trailer) and setup (truck approaching), this is the pivotal event that explains why recovery efforts are needed. The imminent accident is the core dramatic event of the narrative, making it highly important for a summary that needs to show what happened and why the recovery operation occurred.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment directly depicts the critical moment of the main event—the truck's imminent accident or rollover—which is a pivotal progression in the story of the vehicle recovery operation, moving from setup to the incident itself."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is highly visually striking and highlight-worthy as it captures the critical moment of the vehicle losing control and beginning to roll over. The close, shaky perspective creates a sense of immediacy and tension, while the sharp veering and precarious tilting of the truck represent a dramatic turning point in the recovery operation narrative. The action is clear, consequential, and visually dynamic compared to previous segments that showed stationary or slowly moving vehicles."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a critical moment of escalating tension as the truck begins to veer off-road and tilt precariously, suggesting an imminent accident. The visual cues of the sharp turn, loss of traction, and precarious tilting create strong suspense and anticipation of disaster. While not showing the actual impact, the buildup to a potential rollover generates significant emotional tension through the implied danger and the shaky, close perspective that immerses the viewer in the unfolding crisis."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.85,
+          "reason": "This segment introduces significant new information by showing the blue and white truck in motion on a challenging forest road, culminating in a critical moment where it begins to veer off and tilt, indicating the onset of an accident. This directly advances the narrative from previous segments that showed the truck stationary or the aftermath of a trailer incident, providing the causal event that likely leads to the recovery operation described in the global summary. The semantic content shifts from static scenes of stuck vehicles to dynamic, perilous action, adding crucial plot development."
+        }
+      },
+      "final_score": 1.8125
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 2718,
+      "end_frame": 3020,
+      "planner_score": 0.95,
+      "planner_reason": "This segment captures the critical moment of the vehicle's struggle and potential accident on the steep, muddy incline, which is the central incident of the recovery operation documented in the global summary. It directly shows the truck 'becoming stuck or overturned' as described, with dynamic action (front end lifting, tilting dangerously) that represents a key turning point in the narrative. The shaky, close-range perspective enhances the immediacy and drama of the event, making it highly relevant for a summary focused on the recovery operation's cause and challenges.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment represents a critical progression in the main event sequence - the truck's struggle and potential accident. Following the setup of the stuck trailer and the truck's introduction, this shows the active moment of crisis where the vehicle is in danger of rolling over or getting stuck, directly advancing the core narrative of vehicle recovery in challenging terrain."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment is highly visually striking and highlight-worthy as it captures a critical moment of tension and potential danger, with the truck's front end lifting and tilting dramatically on a steep, muddy incline. The wild camera perspective enhances the sense of instability and urgency, making it a key, dynamic moment in the recovery narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a high-tension moment with the truck struggling on a steep, muddy incline, tilting dangerously, and the camera perspective shifting wildly, which conveys a strong sense of urgency, risk, and potential accident, heightening emotional intensity compared to previous segments."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "This segment introduces significant new information by showing the truck actively struggling on a steep incline with dangerous tilting, which represents a progression from previous segments where the truck was either stationary, driving normally, or just beginning to veer off. The semantic content advances the narrative from 'stuck trailer' to 'truck in active peril on steep terrain', providing new visual and narrative information about the vehicle's current challenging situation that wasn't present in previous segments."
+        }
+      },
+      "final_score": 1.8375
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 3020,
+      "end_frame": 3322,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows the blue and white truck (the central vehicle in the recovery operation) actively navigating the forest environment, which is the core subject of the video. While it doesn't depict the actual recovery attempt or the vehicle in distress like previous segments, it provides important contextual footage of the vehicle in motion within the challenging terrain that necessitated the recovery operation. The headlights illuminating the scene suggest low-light conditions, adding to the environmental challenges documented. However, it's slightly less critical than segments showing the actual incident or recovery attempts, as this appears to be routine navigation rather than the dramatic events that form the narrative climax.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment shows the truck moving through the forest, which is part of the ongoing journey, but it does not depict a new critical event, accident, recovery attempt, or significant progression of the main story beyond the vehicle's continued travel. It maintains the setting and context but lacks a pivotal development compared to earlier segments showing the truck's struggle, tilt, or the recovery operation setup."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment is visually striking due to the atmospheric lighting from the truck's headlights illuminating the dense forest, creating a dramatic and immersive scene. The various angles provide dynamic perspectives of the vehicle navigating the challenging terrain, which is highlight-worthy as it captures the tension and difficulty of the recovery operation. However, it lacks the immediate action or crisis moments seen in previous segments (like the truck tilting or getting stuck), making it slightly less intense."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The current segment shows the truck driving slowly through a wooded area with headlights on, which creates a somewhat tense or cautious atmosphere due to the remote setting and potential for further incidents. However, compared to previous segments where the truck was actively struggling, tilting dangerously, or stuck, this segment is relatively calm and controlled. The emotional intensity is moderate—there is a lingering sense of unease from the context, but no immediate crisis or strong emotional expression is evident in the footage itself."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "The current segment shows the blue and white truck driving through a wooded area, which continues the established narrative of vehicle movement in a forest setting. However, compared to previous segments that depicted specific incidents (trailer rollover, truck struggling on steep incline, imminent accident), this segment provides minimal new information or semantic content. It essentially shows routine navigation without introducing new obstacles, recovery actions, or significant developments to the vehicle recovery operation theme. The illumination of trees by headlights adds minor atmospheric detail but doesn't advance the core narrative meaningfully."
+        }
+      },
+      "final_score": 1.2125
+    },
+    {
+      "segment_id": 11,
+      "start_frame": 3322,
+      "end_frame": 3624,
+      "planner_score": 0.95,
+      "planner_reason": "This segment represents the culmination of the vehicle's struggle and the central incident of the recovery operation. It shows the truck in its final stuck/immobilized state, which is the core problem requiring the recovery efforts described in the global summary. While previous segments showed the approach, the precarious driving, and the initial signs of trouble, this segment explicitly depicts the outcome: the vehicle stationary and wedged off the road. This is a critical narrative turning point and the primary visual subject of the recovery operation, making it highly important for a summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "This segment significantly contributes to story progression by showing the culmination of the truck's struggle from previous segments. While earlier segments depicted the truck navigating difficult terrain and beginning to lose control, this segment confirms the main event outcome: the truck has become stationary and wedged off the road. This represents a key plot point in the recovery operation narrative, transitioning from the incident phase to what will presumably become the recovery phase. The segment establishes the 'problem' that needs to be solved, which is essential for driving the story forward."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is visually striking and highlight-worthy as it captures the culmination of the vehicle's struggle shown in previous segments—the blue and white truck now stationary and wedged at an angle in a dense, wooded area, partially off the road. The composition emphasizes the truck's precarious position amid tall trees and thick undergrowth, creating a strong sense of tension and narrative payoff. Compared to earlier segments that showed motion or gradual buildup, this static but dramatic shot serves as a clear visual climax within the recovery operation theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment depicts a truck stationary and wedged off-road, indicating a problematic situation, but lacks overt emotional cues like facial expressions, dramatic tension escalation, or explicit sentiment. The emotional impact is moderate, derived from the implied difficulty of the recovery scenario rather than strong visible expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment shows the blue and white truck stationary and wedged at an angle in the woods, which confirms the vehicle's stuck/impaired state but provides minimal new information beyond what was already established in previous segments (segments 8-10 already depicted the truck struggling, veering off-road, or navigating the same environment). The semantic content—a stuck truck in a forest—is largely redundant with earlier descriptions of the incident, offering little additional narrative or instructional value. However, it slightly reinforces the ongoing situation without introducing new recovery actions, perspectives, or environmental details."
+        }
+      },
+      "final_score": 1.525
+    },
+    {
+      "segment_id": 12,
+      "start_frame": 3624,
+      "end_frame": 3926,
+      "planner_score": 0.95,
+      "planner_reason": "The current segment is highly important as it directly depicts the central incident of the vehicle recovery operation—the blue and white truck becoming stuck or experiencing difficulty on the narrow forest road. This is the core event that the entire recovery operation is built around, making it critical for understanding the narrative. While similar to segments 8-11, this segment specifically shows the vehicle's struggle in a challenging environment, reinforcing the cause for the subsequent recovery efforts described in the global summary. It serves as a key turning point in the documented sequence.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment shows the truck in a state of difficulty or being stuck, which is a continuation of the established incident from previous segments (e.g., segments 8-11). However, it does not introduce a new event or significant progression in the recovery operation; it maintains the status quo of the vehicle's predicament without advancing the narrative toward resolution or a new development in the main event chain."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows the truck in a difficult situation on a narrow forest road, which is somewhat highlight-worthy as part of the recovery narrative. However, it lacks the dramatic impact of previous segments showing the actual tipping or recovery attempts, and the visual composition is partially obscured by foliage, reducing its striking quality. It continues the theme but doesn't introduce new visual interest or action."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment depicts a vehicle stuck on a narrow, muddy road in a remote forest, which conveys a moderate level of tension and frustration. The visual cues of the truck being partially obscured and struggling to maneuver suggest a challenging situation, evoking a sense of difficulty and mild urgency. However, the emotional expression is not highly intense, as there are no explicit signs of panic, extreme danger, or strong human sentiment; it's more of a logistical obstacle."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment shows the truck stuck or struggling on a narrow dirt road, which is consistent with the ongoing theme of vehicle recovery in a forest. However, this specific scenario of being partially obscured by foliage and maneuvering forward has been previously depicted in segments 8, 9, and 11, where the truck is shown navigating tight turns, struggling on steep inclines, or being stationary and wedged. While it adds a slight variation in perspective (partial obscurity by foliage), it does not introduce significant new information, instruction, or semantic content beyond the established narrative of the truck's difficulties in the wooded environment."
+        }
+      },
+      "final_score": 1.3125
+    },
+    {
+      "segment_id": 13,
+      "start_frame": 3926,
+      "end_frame": 4228,
+      "planner_score": 0.15,
+      "planner_reason": "The current segment shows the blue and white truck driving normally along a forest road, which is less critical compared to previous segments depicting the actual incident, recovery attempts, or the truck in distress. In the context of a vehicle recovery operation video, this represents routine navigation rather than a key event like the accident, recovery efforts, or the truck being stuck. It provides continuity but minimal new information for a summary focused on the recovery operation.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment shows the truck moving forward on the road, which represents minimal progression from being stuck/stationary in previous segments. However, it doesn't advance the core story of vehicle recovery or show any significant event development - it's simply navigation without clear connection to the recovery operation described in the global summary. The movement is steady but doesn't resolve the main incident or contribute meaningfully to story progression beyond basic forward motion."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows the truck driving steadily on a forest road, which is visually consistent with previous segments but lacks the striking elements of accidents, recovery operations, or dramatic incidents seen in earlier highlights. While the sun-dappled forest adds some visual appeal, the scene is relatively routine compared to the overturned trailer, stuck vehicles, and recovery efforts described in the global summary and memory context."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment depicts the truck moving steadily without overt signs of distress, accident, or high tension, resulting in a neutral to low emotional intensity. While the context of prior segments includes incidents and recovery efforts, this specific moment shows controlled navigation, lacking strong emotional cues like danger, urgency, or dramatic sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment shows the truck driving forward on a forest road, which is consistent with the ongoing theme of vehicle navigation in a remote area. However, it introduces minimal new information or semantic content beyond confirming the truck's continued movement, as similar driving scenes have been depicted in previous segments (e.g., segments 2, 8, 10). The setting and action are repetitive, offering little advancement in the narrative or instructional value compared to earlier segments that included incidents, recovery attempts, or specific obstacles."
+        }
+      },
+      "final_score": 0.42500000000000004
+    },
+    {
+      "segment_id": 14,
+      "start_frame": 4228,
+      "end_frame": 4530,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows the blue and white Isuzu truck (the central subject of the recovery operation) coming to a stop with its door open, which likely represents either the beginning of the incident or a key moment where the driver exits to assess the situation. Given the global summary's focus on the truck becoming stuck/ overturned and subsequent recovery efforts, this moment of stopping directly facing the camera provides clear visual documentation of the vehicle before or during the incident. It establishes the truck's presence and condition at a critical juncture, making it important for narrative continuity and understanding the sequence of events leading to the recovery operation.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment shows the truck coming to a stop with its door open, which could indicate a pause or arrival at a location, but it does not introduce a new event, resolution, or significant change in the ongoing recovery or incident narrative. It maintains continuity but adds minimal progression to the main story of the vehicle recovery operation."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows the blue and white Isuzu truck driving slowly and stopping with its door open, which is consistent with the ongoing vehicle recovery theme but lacks the dramatic visual impact of previous segments showing the truck tilting dangerously, getting stuck, or recovery operations with machinery. While it provides a clear view of the vehicle, it doesn't feature striking visuals, diverse action, or highlight-worthy moments compared to more intense scenes in the sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a truck stopping on a forest road, which is a routine action without overt emotional cues like distress, urgency, or dramatic tension. The open door suggests a minor operational detail rather than heightened sentiment. Compared to earlier segments showing accidents or precarious tilting, this moment is calm and procedural, resulting in low emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment shows the blue and white Isuzu truck driving slowly and stopping with its door open, which is consistent with the established narrative of vehicle movement in the forest. However, this adds minimal new information beyond confirming the truck's continued presence and a brief pause in motion. The open door is a slight new detail but doesn't introduce significant new semantic content, instruction, or plot advancement compared to previous segments that already established the truck navigating, struggling, or being stuck on similar roads."
+        }
+      },
+      "final_score": 1.125
+    },
+    {
+      "segment_id": 15,
+      "start_frame": 4530,
+      "end_frame": 4832,
+      "planner_score": 0.65,
+      "planner_reason": "The segment shows the truck driving away after recovery, indicating progress and resolution, but lacks dramatic action or critical recovery steps compared to earlier segments.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment shows the truck preparing to move and driving away, which indicates a minor progression from being stationary to resuming travel. However, it does not introduce a new main event, resolve the recovery operation, or significantly advance the core story of the vehicle's incident and recovery. It primarily serves as a transitional moment within the ongoing journey."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "This segment shows the truck in motion with dust being kicked up, which adds some visual dynamism compared to static shots. The presence of a person watching adds human interest, and the panning movement creates a sense of action. However, it's not the most striking or highlight-worthy moment in the overall recovery narrative - it lacks the dramatic tension of the truck getting stuck or the machinery involved in recovery operations shown in other segments. The visual elements are consistent with the overall theme but don't represent a peak action moment."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment shows the truck preparing to move and driving away, which introduces a sense of departure and slight anticipation, but lacks strong emotional cues like tension, distress, or dramatic sentiment. The presence of a person watching adds a minor human element, but overall emotional expression is subdued, with no intense events or clear sentiment beyond routine movement in a recovery context."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "The segment shows the truck preparing to move and driving away, which is a continuation of the vehicle's movement in the forest setting. However, it introduces minimal new information or semantic content beyond confirming the truck is operational and departing, with a brief appearance of a person watching. Given the extensive prior context of the truck navigating, getting stuck, and recovery attempts, this adds little substantive progression to the narrative or instructional value."
+        }
+      },
+      "final_score": 0.9625
+    },
+    {
+      "segment_id": 16,
+      "start_frame": 4832,
+      "end_frame": 5134,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it represents a key narrative turning point in the recovery operation. While previous segments focused on the truck being stuck, navigating difficult terrain, or being stationary, this segment shows the truck moving again under its own power, passing a person on the road. Crucially, it introduces a new vehicle (likely recovery/assistance equipment) with a safety sign, suggesting the immediate aftermath of the incident and the beginning of organized recovery efforts. The interaction between the moving truck and the standing man, combined with the appearance of assistance equipment, provides closure to the 'stuck vehicle' narrative and transitions toward resolution. For a general documentary-style summary, this moment of progress and human interaction is more valuable than repetitive shots of the stationary truck or driving through similar terrain.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment introduces a new element (a potential tow truck or heavy machinery with a safety sign) and shows the truck moving toward a person, suggesting a transition from the truck being stuck or navigating alone to a point of interaction or potential recovery assistance. This contributes to story progression by hinting at the next phase of the operation, but it is not a definitive recovery event itself."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment features dynamic elements like a moving truck with glaring headlights, a person on the road, and the introduction of another vehicle with a prominent safety sign, creating a visually engaging and highlight-worthy moment that suggests interaction or assistance in a remote setting."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.45,
+          "reason": "The segment shows a moment of potential assistance with a truck driving toward a person and another vehicle entering, but the emotional expression is relatively subdued. The 'PLEASE DRIVE SAFELY' sign adds a mild cautionary sentiment, but overall, there is limited tension, strong emotion, or dramatic sentiment compared to earlier segments depicting accidents or struggles. The scene is more observational than emotionally charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces some new elements—a man on the road, a second vehicle (possibly a tow truck) with a safety sign—which add minor contextual details about potential assistance or interaction. However, the core subject (the blue and white truck navigating a forest road) and setting remain consistent with prior segments, and the overall narrative of vehicle movement/recovery in a wooded area does not advance significantly. The new information is incremental rather than substantially novel."
+        }
+      },
+      "final_score": 1.4249999999999998
+    },
+    {
+      "segment_id": 17,
+      "start_frame": 5134,
+      "end_frame": 5436,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows a key recovery operation moment with the red vehicle (likely recovery equipment) being maneuvered near the stuck blue/white truck, featuring the 'PLEASE DRIVE SAFELY' sign that appeared earlier, and includes a person actively working on the scene. It represents the operational phase of the recovery, connecting previous incident footage with active resolution efforts, though it's not the climax of the recovery itself.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment introduces a new vehicle and a person interacting with the blue and white truck, which suggests a continuation of the recovery operation narrative. However, the progression is limited as it primarily shows maneuvering and a static interaction rather than a decisive event like successful recovery or significant movement of the stuck truck. The 'PLEASE DRIVE SAFELY' sign and red archway add context but do not directly advance the main event of vehicle recovery."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment introduces a new vehicle (red truck/trailer) and a person interacting with the scene, adding some visual diversity and human activity. The 'PLEASE DRIVE SAFELY' sign and the red archway provide distinct visual elements, but the overall setting remains similar to previous wooded, unpaved environments. It is moderately striking due to the clear signage and architectural feature, but not highly dramatic or highlight-worthy compared to the vehicle recovery action seen earlier."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment shows a vehicle being maneuvered with a safety sign visible and a person nearby, but lacks strong emotional cues. The action appears procedural rather than emotionally charged, with no visible tension, distress, or heightened sentiment. The presence of the 'PLEASE DRIVE SAFELY' sign adds a mild cautionary tone, but overall emotional expression remains low."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment introduces minimal new information relative to the established narrative. While it shows a red vehicle with a 'PLEASE DRIVE SAFELY' sign (previously seen in segment 16) and a person interacting with the blue and white truck, these elements largely reiterate the ongoing recovery operation theme. The red archway is a minor new visual detail but does not significantly advance the semantic content or provide substantial new information about the recovery process, vehicle status, or operational progress beyond what has been shown in prior segments."
+        }
+      },
+      "final_score": 1.2125
+    },
+    {
+      "segment_id": 18,
+      "start_frame": 5436,
+      "end_frame": 5738,
+      "planner_score": 0.35,
+      "planner_reason": "The current segment shows a person walking near a parked semi-truck in a wooded area, which is tangentially related to the vehicle recovery theme but lacks the action, incident, or recovery machinery that forms the core narrative. Compared to previous segments showing the truck stuck, recovery attempts, or active driving, this is a transitional moment with lower informational value for summarizing the key events of the recovery operation.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment shows a person walking near a parked truck, which is a minor observational detail but does not significantly advance the core story of vehicle recovery or main event progression. It lacks direct action related to the recovery operation, such as machinery use or vehicle movement, making it a low contributor to narrative development."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows a person walking beside a parked truck in a wooded area, which is visually straightforward and lacks striking elements, diversity, or highlight-worthy action compared to previous segments involving vehicle recovery, accidents, or dynamic machinery. It serves as a transitional scene but is not particularly engaging or memorable."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a person walking beside a parked truck in a wooded area, which is a calm, routine action without visible emotional expression, tension, or strong sentiment. Compared to previous segments involving vehicle struggles, accidents, or recovery efforts, this scene lacks dramatic intensity, urgency, or emotional cues, resulting in low emotional strength."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment introduces a person walking near a parked white semi-truck in a wooded area, which adds a minor new element (a person's movement and a different vehicle) compared to previous segments focused on the blue and white truck's recovery, accidents, or driving. However, it does not provide significant new information, instruction, or semantic content relevant to the core theme of vehicle recovery operations, as it lacks action, context, or progression in the narrative. The semantic overlap with earlier scenes (wooded area, vehicles) is high, limiting novelty."
+        }
+      },
+      "final_score": 0.575
+    },
+    {
+      "segment_id": 19,
+      "start_frame": 5738,
+      "end_frame": 6040,
+      "planner_score": 0.15,
+      "planner_reason": "The current segment shows a man struggling with a bicycle near a parked semi-trailer in a wooded area. While it maintains the remote forest setting consistent with the video's theme of vehicle recovery operations, the bicycle element is tangential to the core narrative of truck recovery. The segment lacks direct connection to the main recovery action, machinery, or the blue/white truck incident. It appears to be a minor incidental scene rather than a key moment in the recovery documentation, though it does contribute to establishing the environment and human presence in the remote location.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment shows a man struggling with a bicycle near a parked semi-trailer in a wooded area, which is tangential to the main story of vehicle recovery operations. While it maintains the remote forest setting and includes a truck (though stationary), the action of pushing a bicycle up an embankment does not directly advance the core narrative of vehicle recovery, accident aftermath, or recovery attempts. It introduces a minor human element but lacks connection to the main events of trucks getting stuck, recovery machinery, or progression of the recovery operation."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a man pushing a bicycle up an embankment near a truck, which is somewhat unusual and adds a minor element of human effort and struggle. However, it lacks the dramatic visual impact, diversity, or highlight-worthy action seen in earlier segments like vehicle accidents or recovery operations. The scene is static and less striking compared to the main theme of vehicle recovery in the forest."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment shows a man struggling to push a bicycle up a steep embankment, which conveys mild physical exertion and determination, but lacks intense emotional expression, high tension, or strong sentiment compared to the vehicle recovery theme. The scene is relatively calm and isolated, with no immediate danger or dramatic interaction, resulting in a low emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The segment introduces a new action (a man pushing a bicycle up an embankment) and a new object (the bicycle), which are not present in the previous segments focused on vehicle recovery operations. However, this action is minor and peripheral to the core theme of vehicle recovery in a forested area. It provides minimal new semantic content relevant to the main narrative, as it does not advance the recovery operation, introduce new machinery, or clarify the situation with the stuck vehicles. The information is largely incidental."
+        }
+      },
+      "final_score": 0.4
+    },
+    {
+      "segment_id": 20,
+      "start_frame": 6040,
+      "end_frame": 6342,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows a critical development in the recovery narrative—the truck is now visibly stuck or overturned against a fence, confirming the incident's severity and setting up the need for recovery efforts. It directly follows the global summary's focus on the vehicle becoming stuck and the subsequent recovery operation. While it lacks active recovery machinery, it provides clear visual evidence of the truck's compromised state, which is essential for understanding the incident's stakes. The presence of a person reacting to the situation adds human context, but the segment is slightly less dynamic than scenes showing active recovery attempts.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "This segment contributes moderately to story progression by showing a clear consequence of the ongoing vehicle recovery narrative. While it doesn't depict active recovery operations like previous segments with machinery, it establishes a new development: the truck is now visibly stuck/tipped against a fence, confirming the incident's severity. The man walking away suggests abandonment or a pause in recovery efforts, adding narrative tension. However, compared to segments showing active recovery attempts or vehicle movement, this is more of a status update than a progression-driving event."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking as it reveals the truck in a precarious, tilted position against a fence, which is a highlight-worthy moment indicating a recovery operation's challenging outcome. It adds diversity by shifting focus from the vehicle's movement to its aftermath, enhancing the narrative of struggle and recovery in the remote forest setting."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment shows a truck tilted against a fence, indicating a potential incident, but the emotional expression is subdued. The man's calm walk away suggests minimal immediate tension or strong sentiment, resulting in a moderate emotional score."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment shows a man walking away from a truck that is tilted against a fence, indicating it is stuck or overturned. While this confirms the truck's problematic state, similar information about vehicles being stuck or in difficult positions has been presented in multiple previous segments (e.g., segments 4, 5, 6, 11, 12). The core semantic content—a vehicle recovery scenario in a forest—remains consistent, and the specific detail of the truck being tilted against a fence adds only minor new visual context without introducing substantial new information, instructions, or narrative progression beyond what has already been established."
+        }
+      },
+      "final_score": 1.375
+    },
+    {
+      "segment_id": 21,
+      "start_frame": 6342,
+      "end_frame": 6644,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment directly depicts the truck in a stuck or overturned state, which is the central incident of the recovery operation narrative. It provides a clear visual of the problem that the subsequent recovery efforts will address, making it crucial for establishing context in the summary. While it is not the most action-packed moment (like the actual recovery attempts), it is a key scene that sets up the story.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "This segment directly depicts the truck in a compromised state (tilted/stuck), which is a key event in the recovery operation narrative. It reinforces the incident's occurrence and provides contextual visuals of the environment and personnel, advancing the story from setup to the core problem requiring resolution."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment is visually striking due to the dramatic angle of the stuck truck, which suggests a significant incident, and the inclusion of sunlight filtering through the canopy adds a contrasting aesthetic element. However, it is somewhat similar to previous segments showing stuck vehicles, reducing its novelty and highlight-worthiness within the overall sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a truck in a potentially precarious situation, which introduces mild tension, but the emotional expression is subdued. The scene is observational, with no overt signs of distress, urgency, or strong sentiment from the people shown, and the pan to the serene forest with sunlight reduces intensity. Compared to earlier segments with active recovery efforts or vehicle struggles, this moment is more static and less emotionally charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment provides minimal new information relative to the established narrative. It confirms the truck is stuck/tilted in a wooded area, which is consistent with previous segments (e.g., segments 4-5, 11-12, 20). The pan to the forest and silhouettes of people adds slight contextual ambiance but does not introduce new instructions, recovery actions, or significant semantic content beyond what has already been shown in the video's recovery operation theme."
+        }
+      },
+      "final_score": 1.3875
+    },
+    {
+      "segment_id": 22,
+      "start_frame": 6644,
+      "end_frame": 6946,
+      "planner_score": 0.85,
+      "planner_reason": "The segment depicts a key recovery operation involving machinery and workers, directly contributing to the main narrative of vehicle recovery in a remote forest. It shows active problem-solving and teamwork, which is central to the video's theme of documenting a challenging operation.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment significantly advances the story by showing the active recovery operation with workers and machinery, directly addressing the main event of the vehicle recovery after the truck's earlier incident. It moves from setup to action, depicting the coordinated effort to resolve the situation, which is a key progression in the narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment is visually striking due to the initial low-angle silhouetted view with sun glow through dense trees, creating a dramatic natural setting. It then reveals a coordinated recovery operation with workers and machinery, which is highlight-worthy as it shows active human effort and machinery in a remote forest environment. However, it is less diverse or dynamic compared to segments showing the actual accident or vehicle in motion, slightly reducing its overall impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.35,
+          "reason": "The segment depicts a coordinated recovery operation with workers actively engaged, which introduces a mild sense of purpose and urgency. However, the emotional expression is subdued, lacking strong tension, dramatic sentiment, or intense emotional cues like distress or high-stakes conflict. The scene is procedural and focused on task execution rather than emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.65,
+          "reason": "The segment introduces a new operational phase with a group of workers and an excavator actively engaged in a recovery or clearing effort, which adds specific action and human coordination not previously detailed. However, it builds upon the established context of a vehicle recovery in a forest, so while it provides new semantic content about the response, it does not drastically alter the overall narrative or introduce entirely new information."
+        }
+      },
+      "final_score": 1.475
+    },
+    {
+      "segment_id": 23,
+      "start_frame": 6946,
+      "end_frame": 7248,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows a key recovery operation in progress - loading a large tree trunk onto a flatbed truck with forestry machinery. While not the dramatic accident or initial recovery attempt, it represents the active resolution phase of the documented vehicle recovery operation. The presence of workers, machinery, and the blue/white truck (consistent with the global summary) makes this important for showing the operational outcome. However, it's slightly less critical than segments showing the actual accident or initial recovery attempts, as this appears to be a later stage of the cleanup/transport process.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "This segment directly contributes to the main event progression by depicting the active recovery or logging operation using machinery (the red forestry machine) to load a tree trunk onto a truck, which aligns with the global summary's focus on vehicle recovery and forestry work. It shows a concrete step in the operation, moving from the truck being stuck (previous segments) to active material handling, advancing the narrative of the recovery process."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking and highlight-worthy as it captures a dynamic, active forestry operation with a red machine loading a large tree trunk, multiple workers engaged, and a clear sense of purpose in a remote, wooded setting. It stands out from previous segments that focused more on static or stuck vehicles, offering a more diverse and action-oriented scene that advances the recovery narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a routine forestry operation with workers loading a tree trunk onto a truck. While there is activity and coordination, the emotional expression is neutral and procedural. There is no visible tension, distress, or strong sentiment such as urgency, danger, or relief. The scene is calm and focused on a task, lacking the heightened emotional cues seen in earlier segments involving vehicle accidents or struggles."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces a new, specific activity (loading a tree trunk with a forestry machine) that advances the narrative from vehicle recovery to active logging operations, providing distinct semantic content not previously detailed in the immediate context."
+        }
+      },
+      "final_score": 1.5499999999999998
+    },
+    {
+      "segment_id": 24,
+      "start_frame": 7248,
+      "end_frame": 7550,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly relevant to the core narrative of vehicle recovery in a remote forest. It directly shows the recovery operation in progress with forestry machinery actively engaged, which aligns with the global summary's focus on the recovery effort. While it's not the dramatic moment of the truck getting stuck or overturned, it represents the critical response phase where professionals and equipment are deployed to resolve the incident. The presence of the blue and white truck (the subject vehicle) in the scene strengthens its importance. However, it's slightly less critical than segments showing the actual accident or the immediate aftermath, as this is part of the extended recovery process.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment directly depicts the ongoing logging operation, which is a key part of the vehicle recovery narrative established in the global summary. It shows active machinery and personnel engaged in the recovery effort, contributing to the progression of the main event by advancing the operational phase after the truck's incident."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.75,
+          "reason": "The segment is visually striking due to the bright sunlight filtering through the canopy creating a dappled lighting effect, which enhances the scene's aesthetic appeal. The presence of a large red forestry machine with an articulated arm in action adds dynamic visual interest, and the contrast between the machinery, the blue and white truck, and the natural wooded environment provides diversity. However, while it is highlight-worthy as part of the recovery operation, it is less dramatic than previous segments showing the truck's accident or precarious tilting, making it moderately striking but not the most intense moment in the sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a routine logging operation with a man operating machinery in a calm, sunlit forest setting. While there is some mild engagement from the worker, the scene lacks strong emotional expressions, high tension, or intense sentiment, presenting a neutral, procedural atmosphere."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment continues the established theme of a vehicle recovery/logging operation in a forest, showing a forestry machine and a worker, which aligns with previous segments depicting machinery and operations. However, it introduces a specific action of loading logs, which is a new semantic detail within the ongoing activity, but does not significantly advance the overall narrative or introduce entirely new information beyond the existing context."
+        }
+      },
+      "final_score": 1.3875
+    },
+    {
+      "segment_id": 25,
+      "start_frame": 7550,
+      "end_frame": 7852,
+      "planner_score": 0.85,
+      "planner_reason": "This segment directly depicts the core recovery operation that the global summary describes, showing the stuck truck with a crane positioned for assistance and personnel observing. It represents a key moment in the narrative progression from the initial accident to the active recovery efforts, making it highly relevant for inclusion in a summary of the vehicle recovery operation.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment directly depicts the aftermath and response to the truck's earlier incident, showing the recovery operation with a crane and personnel on site. This advances the story from the problem (truck stuck) to the active resolution phase. However, it is a continuation of the recovery theme already established in recent segments, rather than introducing a new major plot point or significant progression beyond the ongoing operation."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a visually striking scene of a recovery operation with a crane assisting a stuck truck, involving multiple people and machinery, which is highlight-worthy and adds dynamic action to the narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment depicts a tense recovery scenario with a stuck truck and a crane on standby, implying urgency and potential frustration or concern among the observers. However, the emotional expression is not overtly dramatic; it's more procedural and observational, with no visible high-stress actions or intense reactions from the people present. The sentiment is one of mild tension and focus, but lacks strong emotional peaks."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment continues the established narrative of a vehicle recovery operation in a forest, showing the truck stuck and a crane present for assistance. While it confirms the ongoing operation and adds the specific detail of a crane (instead of a generic forestry machine), it largely reiterates the situation described in previous segments (e.g., truck stuck, recovery effort, people observing). It does not introduce a new phase of the operation, a significant change in the truck's state, or new instructions. Therefore, it provides limited new semantic content beyond minor specification of equipment."
+        }
+      },
+      "final_score": 1.4749999999999999
+    },
+    {
+      "segment_id": 26,
+      "start_frame": 7852,
+      "end_frame": 8154,
+      "planner_score": 0.95,
+      "planner_reason": "This segment represents the climax and resolution of the vehicle recovery operation documented throughout the video. It shows the successful execution of the winching operation using the red crane, which is the primary action hinted at in previous segments where the truck was stuck and machinery was positioned nearby. The segment directly addresses the core narrative of recovery, provides visual payoff to the setup, and includes key elements like the crane in action and observers, making it highly important for a coherent summary of the operation's outcome.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment directly depicts the culmination of the recovery operation, showing the truck being actively winched out, which is a key event in resolving the main incident of the vehicle being stuck. It advances the story from setup and attempts to a decisive action, contributing significantly to the narrative progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a visually striking recovery operation with a crane actively winching a truck from a difficult position, creating a dynamic and highlight-worthy scene. The action is clear and central, with human observers adding context, making it engaging and representative of the video's theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment depicts a tense recovery operation with a truck being winched from a difficult position, implying urgency and potential danger. The presence of a crane and onlookers adds to the emotional weight of a critical rescue effort, though the exact expressions of individuals are not detailed, limiting the intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment shows the truck being winched out, which is a direct continuation of the recovery operation already established in previous segments. While it adds a specific action (winching), the overall theme, setting, and purpose remain consistent with the ongoing narrative, providing only incremental progression rather than significant new information or semantic content."
+        }
+      },
+      "final_score": 1.65
+    },
+    {
+      "segment_id": 27,
+      "start_frame": 8154,
+      "end_frame": 8456,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment shows the blue and white truck (the central subject of the recovery operation) actively navigating a narrow, tree-lined road after the recovery efforts. This is significant because it demonstrates the successful outcome of the recovery operation—the vehicle is now mobile and driving again. While not as dramatic as the stuck/recovery scenes, it provides closure and shows the vehicle's return to normal operation, which is important for narrative completeness in a general documentary-style summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment shows the truck driving along a road, which is a routine action in the context of the recovery operation narrative. While it depicts movement, it does not directly advance the main event of the recovery or show a new development in the stuck truck situation. It serves more as transitional or observational footage rather than contributing significantly to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a blue and white semi-truck navigating a narrow, tree-lined road, which is visually consistent with the vehicle recovery theme. However, compared to previous segments featuring dramatic incidents (truck rollovers, recovery operations with cranes and excavators, active logging work), this segment is relatively mundane. It lacks the striking visual elements of vehicles stuck at precarious angles, active machinery operations, or moments of tension. The scene is essentially a routine driving shot without notable highlights, diversity in action, or particularly compelling visual composition beyond the established forest setting."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment shows a truck driving slowly on a narrow road, which is a routine action without overt emotional cues like tension from an accident, urgency, or visible distress. Compared to previous segments depicting recovery operations or precarious situations, this scene lacks strong emotional expression, high tension, or pronounced sentiment, resulting in a low emotional intensity score."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment shows the blue and white truck driving along a narrow, tree-lined road, which is a recurring activity already established in previous segments (e.g., segments 8, 10, 13, 14). It does not introduce new information, instruction, or semantic content beyond the ongoing navigation theme, as the truck's movement and setting are consistent with earlier footage and the global summary. The segment reinforces existing context without adding novel developments or details."
+        }
+      },
+      "final_score": 1.125
+    },
+    {
+      "segment_id": 28,
+      "start_frame": 8456,
+      "end_frame": 8758,
+      "planner_score": 0.95,
+      "planner_reason": "This segment represents the culmination of the vehicle recovery narrative—the actual recovery operation in progress. It directly addresses the core theme of the global summary (vehicle recovery in a remote forest) by showing the emergency response, recovery vehicle deployment, and personnel actively working on the scene. The segment provides critical visual payoff to the buildup of the truck becoming stuck (segments 8-12, 20-21, 25-26) and is more action-oriented and conclusive than preparatory or transitional segments (like the initial patio scenes or later driving segments). It is highly important for a coherent summary that shows the resolution of the incident.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story by depicting the aftermath of the truck's accident and the initiation of recovery operations, which is a key turning point in the narrative of vehicle recovery in a remote forest. It directly follows the buildup of the truck's struggles and previous recovery attempts, showing the emergency response and active efforts to resolve the central conflict, thus driving the main event progression forward."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is highly visually striking and highlight-worthy as it captures the climax of the recovery operation narrative. It shows the truck in its most precarious position—driven off the road into a ditch or ravine—which represents the peak of the incident's severity. The inclusion of emergency response efforts, a red recovery vehicle, and personnel actively assessing the scene adds dynamic human activity and a sense of urgency. Close-up shots of the truck's undercarriage and the muddy embankment emphasize the challenging terrain and the vehicle's unstable state, creating strong visual tension. Compared to previous segments that showed the truck stuck, tilted, or being assisted, this segment depicts a more dramatic and critical phase of the incident, making it a clear highlight within the video's storyline."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a truck in a precarious, off-road accident scenario with visible emergency response and recovery efforts, which inherently conveys tension and urgency. The description of the vehicle being in a ditch or ravine, the presence of recovery personnel, and the focus on the challenging terrain all contribute to a strong sense of crisis and operational stress, elevating the emotional intensity compared to more routine driving or stationary scenes in the memory context."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.95,
+          "reason": "The segment introduces a new, critical development in the narrative: the truck has now driven off the road into a ditch or ravine, escalating the situation from being stuck to a more severe accident requiring emergency response. It provides new semantic content by showing the initiation of recovery operations with a dedicated recovery vehicle and personnel, which is a distinct phase not previously detailed in the global summary or recent segments. While the theme of vehicle recovery is consistent, this specific incident and the explicit emergency response add substantial new information about the severity and procedural aspects of the operation."
+        }
+      },
+      "final_score": 1.8375
+    },
+    {
+      "segment_id": 29,
+      "start_frame": 8758,
+      "end_frame": 9060,
+      "planner_score": 0.4,
+      "planner_reason": "This segment shows a vehicle following another truck on a forest road, which continues the theme of navigation in challenging terrain. However, compared to the more critical segments showing the actual accident, recovery efforts, or key machinery operations, this is a transitional scene with lower narrative importance. It maintains continuity but doesn't introduce new critical information about the recovery operation or show significant developments in the story.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The current segment shows a vehicle following a truck on a forest road, which maintains the setting and continuity but does not introduce new story progression or main events. It lacks significant developments like recovery actions, new incidents, or key interactions, serving more as transitional footage within the established narrative of vehicle navigation in a wooded area."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment shows a vehicle navigating a scenic forest road with a truck ahead, which adds some visual interest due to the natural setting and the glowing brake lights. However, it lacks the dramatic or highlight-worthy elements seen in earlier segments (e.g., vehicle recovery, accidents, or active machinery), making it less striking or diverse compared to the more action-packed parts of the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment shows a vehicle following another truck on a forest road with glowing brake lights, which introduces mild tension through the proximity and potential for sudden stops or obstacles on the narrow path. However, the emotional expression is subdued—there's no overt danger, accident, or intense sentiment. The scene lacks the high-stakes urgency of earlier recovery segments, resulting in a moderate emotional level."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "The current segment shows a vehicle driving on a forest road approaching another truck with brake lights on. While this continues the theme of vehicle movement in wooded terrain, it provides minimal new information compared to previous segments. The scene is visually similar to many earlier segments showing vehicles navigating forest roads (segments 2, 3, 13, 14, 15, 27). It doesn't introduce new elements like recovery operations, accidents, machinery, or personnel that were already established in the global summary and recent context. The brake lights add minor detail but don't significantly advance the narrative or introduce new semantic content beyond what has been extensively covered."
+        }
+      },
+      "final_score": 0.775
+    },
+    {
+      "segment_id": 30,
+      "start_frame": 9060,
+      "end_frame": 9362,
+      "planner_score": 0.15,
+      "planner_reason": "This segment shows a vehicle driving away into the distance, which serves as a concluding or transitional shot. While it provides closure to the recovery operation narrative by showing departure from the scene, it lacks the key action, drama, or informational content that defines the core story (the stuck vehicle, recovery efforts, machinery, personnel). Compared to segments showing the accident, recovery attempts, or active machinery operation, this is less critical for understanding the main events. It contributes to setting and pacing but is not essential for a summary focused on the incident and recovery.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment shows a vehicle driving away from the scene, which provides a sense of closure to the recovery operation narrative. However, it does not depict any new story progression or main event development—the recovery operation appears to have concluded, and this segment serves more as an epilogue or transition rather than advancing the core story of the truck's accident and recovery."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows a vehicle driving away down a gravel road through a forest, which is visually consistent with the overall theme but lacks the striking or highlight-worthy elements seen in previous segments (e.g., vehicle recovery operations, machinery in action, or dramatic incidents). While the sun-dappled forest and fading taillights create a somewhat atmospheric shot, it is relatively passive and less diverse or engaging compared to the more active and eventful scenes in the video's narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a vehicle driving away on a gravel road through a forest, with its taillights fading into the distance. This scene conveys a sense of departure or conclusion, but the emotional expression is minimal. There is no visible tension, urgency, or strong sentiment—it is a calm, observational shot of a vehicle leaving. Compared to earlier segments involving recovery operations, accidents, or struggles, this moment is notably subdued and lacks the emotional intensity or dramatic tension present in prior scenes."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The segment shows a vehicle driving away down a forest road, which provides minimal new information or semantic content relative to the established narrative. The video theme and global summary focus on a vehicle recovery operation, and previous segments have already extensively depicted vehicles navigating similar forest roads, the recovery process, and the aftermath. This segment essentially shows a vehicle departing—a common, concluding visual that adds little substantive new information, instruction, or semantic detail to the ongoing story of the recovery operation."
+        }
+      },
+      "final_score": 0.35
+    },
+    {
+      "segment_id": 31,
+      "start_frame": 9362,
+      "end_frame": 9671,
+      "planner_score": 0.15,
+      "planner_reason": "The current segment shows a person walking away down a forest road toward sunlight. While it maintains the established setting (wooded, rural area) and could serve as a transitional or concluding shot, it lacks direct relevance to the core narrative of vehicle recovery. The global summary emphasizes documentation of a recovery operation involving a stuck/overturned truck and machinery. This segment contains no vehicle, machinery, recovery action, or clear narrative progression related to the incident. It is primarily atmospheric. Compared to recent segments showing active recovery (winching, crane operations), this is a low-information, passive scene. Its value is limited to potential scene-setting or closure, but it does not advance the main story.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment shows a person walking away down a forest road, which is a minor, passive action that does not directly advance the core story of vehicle recovery or main event progression. It serves more as a transitional or atmospheric shot rather than contributing to narrative development."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment shows a person walking down a forest road, which is visually pleasant with dappled lighting but lacks the striking, highlight-worthy content seen in earlier segments (e.g., vehicle recovery, machinery in action, or dramatic incidents). Compared to the global summary and memory context, this is a calm, transitional moment with low visual diversity and no immediate action or highlight."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a person walking calmly down a forest road toward a sunlit clearing, with no overt emotional cues, tension, or strong sentiment. It lacks the dramatic elements of earlier segments like vehicle accidents or recovery operations, resulting in a neutral, low-emotion scene."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The segment shows a person walking away on a forest road, which is a common, low-detail action in this context. It provides minimal new information or semantic content compared to the detailed recovery operations, vehicle maneuvers, and specific interactions previously shown. It does not advance the narrative, introduce new elements, or offer significant instructional value, serving more as a transitional or atmospheric shot."
+        }
+      },
+      "final_score": 0.3
+    }
+  ]
+}

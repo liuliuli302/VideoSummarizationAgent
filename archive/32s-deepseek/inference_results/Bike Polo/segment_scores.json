@@ -1,0 +1,965 @@
+{
+  "video_id": "Bike Polo",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 95,
+      "planner_score": 0.3,
+      "planner_reason": "The segment shows a person riding a bicycle at night under floodlights, which matches the sports theme and nighttime setting. However, it depicts a single rider on an empty court rather than the competitive races or bike polo games described in the global summary. The presence of a goal net and banner suggests preparation or practice, but lacks the intensity and action of actual competition. This appears to be establishing or transitional footage rather than core competitive content.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment shows a person riding a bicycle in a nighttime sports setting, which aligns with the theme of cycling competition. However, it depicts a solitary, non-competitive activity on an empty court, lacking the intense races or bike polo games described in the global summary. It contributes minimally to story progression as it does not advance the main events of competition or gameplay."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows a single cyclist riding across an empty court at night under floodlights, which has some visual appeal due to the nighttime lighting and the 'Ein starkes Team' banner. However, it lacks the intensity, action, or diversity expected for a sports highlight - no competition, racing, or bike polo is visible, making it less striking or highlight-worthy compared to the described theme of intense races and games."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment shows a solitary cyclist riding at night under floodlights, which creates some atmospheric tension and a sense of focus, but lacks the intense competitive energy, crowd presence, or visible emotional expressions typically associated with high-emotion sports moments. The empty court and the banner 'Ein starkes Team' (A strong team) suggest preparation or aftermath rather than peak action, resulting in moderate emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment provides minimal new information relative to the global summary. While it confirms the nighttime setting, floodlights, and cycling activity mentioned in the summary, it adds only minor details: the presence of a red goal net and a banner with German text ('Ein starkes Team'). However, it lacks the competitive intensity, specific events (races, bike polo), or multiple participants described in the summary, making it a relatively generic establishing shot with low informational value."
+        }
+      },
+      "final_score": 0.6
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 95,
+      "end_frame": 190,
+      "planner_score": 0.95,
+      "planner_reason": "This segment directly depicts the core competitive event described in the global summary—cyclists racing on a velodrome track at night. It visually confirms the main theme (sports) and action (racing), making it highly essential for the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story by depicting the main competitive event—cyclists racing on a velodrome—directly aligning with the global summary's focus on intense races. It introduces dynamic action and progression from the previous solitary ride to a group competition, enhancing narrative momentum."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "The segment directly depicts the core action of the video theme (cycling competition) in a visually dynamic setting. The nighttime velodrome environment with bright floodlights creates a striking atmosphere, while the cyclists racing and leaning into turns on a curved, banked track provides clear motion, intensity, and highlight-worthy sports action. It is more visually engaging and central to the theme than the previous segment of a single rider on a static court."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts cyclists racing on a banked track under intense floodlights, with leaning into turns indicating high-speed competition and physical exertion, which conveys strong tension and competitive emotion, though lacking overt personal emotional displays like facial expressions."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces the specific competitive racing context on a banked velodrome track, which is a new and more detailed semantic element compared to the previous general cycling scene on a flat court. It provides new information about the track type, the action (racing and leaning into turns), and the competitive nature, advancing the narrative from solitary riding to group competition."
+        }
+      },
+      "final_score": 1.825
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 190,
+      "end_frame": 285,
+      "planner_score": 0.85,
+      "planner_reason": "The segment provides dynamic, immersive first-person racing footage that captures the competitive intensity and nighttime atmosphere central to the sports theme. While it continues the established setting and action from previous segments, the camera-mounted perspective offers unique engagement and motion that enhances the summary's excitement and viewer immersion, making it highly valuable despite some thematic overlap.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment contributes moderately to story progression by maintaining the competitive cycling narrative and introducing a first-person perspective, but it does not depict a distinct event change or key development beyond continuing the race shown in previous segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment is visually engaging due to the dynamic first-person perspective from a bike-mounted camera, which adds immersion and a sense of speed. The nighttime setting with floodlights creates contrast and focus on the cyclists, and the curved track and visible riders enhance the sense of motion and competition. However, it lacks extreme diversity or standout highlights compared to more intense race moments or bike polo scenes, keeping it from a higher score."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment conveys moderate emotional intensity through the first-person racing perspective, competitive proximity to other riders, and nighttime setting, though it lacks the explicit competitive tension or dramatic moments seen in head-to-head racing segments."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces a new camera perspective (mounted on a bike) and emphasizes the cyclist's viewpoint, but the core activity (nighttime cycling on a velodrome) and setting are already established in the global summary and previous segments, offering limited new semantic content."
+        }
+      },
+      "final_score": 1.4375
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 285,
+      "end_frame": 380,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment directly showcases the core competitive action described in the global summary—a group race on the velodrome—reinforcing the main theme of intense nighttime cycling competition. It is visually consistent with the established setting (night, floodlights, banked track) and action (leaning into curves), providing a clear, representative example of the event's primary activity. While highly important, it does not introduce new narrative elements or a decisive climax, slightly limiting its uniqueness score.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "This segment continues the established narrative of nighttime velodrome racing, maintaining the core action and competitive atmosphere. However, it doesn't introduce new plot elements, characters, or significant developments beyond what was already shown in previous segments. The progression is incremental rather than transformative, showing sustained racing action without advancing the story toward a climax, resolution, or notable turning point."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking due to the dynamic action of cyclists leaning into curves under bright stadium lights, which creates a sense of speed and competition. However, it is somewhat repetitive compared to previous segments focusing on velodrome racing, reducing its diversity and highlight-worthy uniqueness."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a competitive group cycling race at night on a velodrome, with visible leaning into curves indicating speed and intensity. The bright stadium lights enhance the dramatic atmosphere, and the direct competition among multiple riders creates inherent tension and excitement. While not showing extreme emotional expressions or crashes, the physical exertion and racing context convey strong competitive energy."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides minimal new information compared to previous segments. It repeats the established setting (nighttime velodrome racing under bright lights) and actions (cyclists leaning into curves while competing) that were already described in segments 1 and 2. No new visual elements, activities, or semantic content are introduced beyond what was previously established in the memory context."
+        }
+      },
+      "final_score": 1.4625
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 380,
+      "end_frame": 475,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment continues the core action of the nighttime velodrome racing, which is central to the global summary. While it is highly representative of the main theme and setting, it shows a very similar scene to previous segments (1, 2, and 3), which all depict cyclists racing on the banked track. This repetition reduces its unique informational value for a final summary, as it does not introduce a new activity (like the bike polo mentioned in the summary) or a significantly different perspective. Its importance is therefore high but not maximal.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment continues the established setting and activity of nighttime velodrome racing, but it does not introduce new events, narrative developments, or significant shifts in the competition's progression. It maintains the ongoing action without advancing the story or main event beyond what was already shown in previous segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.75,
+          "reason": "The segment is visually striking due to the nighttime setting with bright floodlights, dynamic action of cyclists leaning into curves, and the fast-paced nature of the race. However, it closely resembles previous segments (1, 2, and 3) in setting and activity, reducing its uniqueness and highlight-worthiness within the sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.8,
+          "reason": "The segment depicts a fast-paced, competitive cycling race under bright floodlights at night, with cyclists leaning into curves, which conveys a strong sense of intensity, speed, and athletic competition. However, the emotional expression is primarily action-driven rather than deeply personal or dramatic, keeping it from the highest score."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment describes a nighttime cycling race on a velodrome, which is highly consistent with the video theme and the global summary. However, it provides minimal new information compared to the memory context, as previous segments (1, 2, 3) already depict similar scenes of cyclists racing on a velodrome under bright lights. The description is repetitive, offering no new details about the event type, specific actions, or unique elements beyond what has been established."
+        }
+      },
+      "final_score": 1.3625
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 475,
+      "end_frame": 570,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment shows a typical racing scene that is consistent with the global summary and previous segments, but it does not introduce new information, key moments, or significant variation in action. It reinforces the established theme of nighttime velodrome racing but lacks distinctive elements to elevate its importance for a concise summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment continues the established setting and action of nighttime velodrome racing, but it does not introduce new events, narrative developments, or significant changes in the competition's state, making it largely repetitive with previous segments and contributing minimally to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment is visually consistent with the theme and previous segments, showing dynamic nighttime cycling action under floodlights, but it lacks distinct visual diversity or standout highlights compared to earlier similar scenes, making it less striking or highlight-worthy on its own."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a competitive cycling race under intense lighting, with cyclists leaning into curves, which conveys high energy, focus, and competitive tension. The vivid nighttime setting and active motion amplify the emotional intensity of the scene."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment repeats the same visual and semantic content as previous segments (nighttime cycling race on a velodrome under floodlights), with no new information, instruction, or distinct semantic variation introduced."
+        }
+      },
+      "final_score": 0.6875
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 570,
+      "end_frame": 665,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment continues the established pattern of nighttime velodrome racing under floodlights, which is central to the video's theme. However, it offers minimal new visual or narrative information compared to previous segments (1, 3, 4, and 5), which already depict similar racing scenes. While it reinforces the competitive atmosphere, its redundancy reduces its unique importance for a concise summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The current segment shows cyclists racing on a velodrome, which maintains the established setting and activity from previous segments. However, it does not introduce new narrative elements, show progression in the competition (such as a finish line, overtaking, or scoring), or shift to a different event like bike polo mentioned in the global summary. It essentially repeats the same action and visual composition as segments 1, 3, 4, and 5, contributing minimally to story or main event progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows visually consistent but repetitive content - cyclists racing on a velodrome at night under floodlights, leaning into curves. While the nighttime lighting creates some visual interest with contrast between illuminated track and dark surroundings, this is nearly identical to the previous 5 segments described in memory context. There is minimal visual diversity, no particularly striking moments or highlights beyond the ongoing race action, and no novel perspectives or dramatic elements that would make this segment stand out from what has already been shown extensively."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment maintains consistent high-energy competitive cycling action with cyclists leaning into curves on a banked track under night floodlights, conveying sustained intensity and athletic exertion. However, it lacks novel emotional peaks or dramatic tension escalation compared to previous similar segments, resulting in strong but not exceptional emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment caption describes essentially the same scene as previous segments 1, 3, 4, and 5: nighttime cycling on a velodrome under floodlights with riders leaning into curves. It introduces no new visual elements, actions, or semantic content beyond what has already been established in multiple prior segments. The repetition of this identical scenario provides minimal new information."
+        }
+      },
+      "final_score": 0.625
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 665,
+      "end_frame": 760,
+      "planner_score": 0.85,
+      "planner_reason": "The segment introduces a distinct variation within the sports theme—bike polo—which adds diversity to the summary beyond repetitive racing scenes. It showcases unique skills (maneuvering and striking with poles) and a different competitive format, enhancing viewer engagement and providing a more comprehensive view of the nighttime cycling event. While still aligned with the global summary's focus on intense races and bike polo, it offers fresh content that breaks the monotony of similar racing segments.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment introduces a new, distinct event—bike polo—within the sports theme, shifting from repetitive velodrome racing to a different competitive activity, thereby advancing the narrative by showcasing variety in the nighttime cycling competition."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment introduces a visually distinct and highlight-worthy activity (bike polo) within the cycling theme, breaking the pattern of repetitive velodrome racing seen in previous segments. The dynamic action of players skillfully maneuvering bicycles while striking a ball with long poles creates engaging visual diversity and striking athletic moments. The nighttime floodlighting continues to provide dramatic contrast, while the novel gameplay adds fresh visual interest compared to the preceding racing sequences."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a fast-paced bike polo game with players skillfully maneuvering and striking a ball while racing, which introduces dynamic competition, physical intensity, and focused athletic engagement. Compared to previous segments of straightforward velodrome racing, this adds layers of interactive gameplay, strategic maneuvering, and direct competition, heightening the emotional expression through active confrontation and skillful play."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The current segment introduces a completely new activity (bike polo) within the same nighttime velodrome setting, featuring distinct elements like players using long poles to strike a ball, which differs significantly from the previous segments that only showed standard cycling races. This adds substantial new semantic content about the variety of events occurring at the venue."
+        }
+      },
+      "final_score": 1.7
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 760,
+      "end_frame": 855,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment introduces bike polo gameplay within the velodrome setting, which is a key component of the global summary ('intense races and bike polo games'). While previous segments have shown bike polo (segment 7), this segment provides a detailed, dynamic view of the action with multiple players, strategic positioning, and active ball pursuit, adding variety and depth to the sports competition narrative. It reinforces the 'fast-paced competitive scene' theme but is slightly less critical than the core racing segments that establish the primary velodrome activity.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment introduces a new, specific competitive activity (bike polo) within the velodrome setting, adding a distinct layer to the sports event progression. While it continues the established nighttime cycling theme, it shifts from general racing to a focused game with tactical maneuvers, advancing the narrative by showcasing a different aspect of the competition."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment introduces bike polo, a visually striking and dynamic variation within the cycling theme, adding diversity and highlight-worthy action with players using mallets to chase a ball, creating an intense and fast-paced competitive scene under bright lights."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts an intense bike polo match with dynamic maneuvering, active pursuit of the ball, strategic positioning, and fast-paced competitive action, all under bright nighttime lighting. This creates strong emotional engagement through the visible intensity of the sport, though it lacks extreme close-ups or overt facial expressions that might push the score higher."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces bike polo as a specific activity within the velodrome setting, adding details like players using long-handled mallets to strike a ball, dynamic maneuvering, and strategic positioning. While the nighttime velodrome and cycling context are consistent with previous segments, the explicit focus on bike polo rules and gameplay provides new semantic content beyond generic racing descriptions."
+        }
+      },
+      "final_score": 1.6749999999999998
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 855,
+      "end_frame": 950,
+      "planner_score": 0.85,
+      "planner_reason": "This segment continues the bike polo gameplay introduced in previous segments, providing dynamic action that aligns with the sports theme and global summary. While it shows similar content to segments 7 and 8 (bike polo), it offers additional intensity and competitive moments that could enhance the summary. However, some redundancy exists with recent segments, slightly reducing its unique contribution.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment continues the bike polo event introduced in previous segments, maintaining the competitive intensity and showcasing dynamic gameplay, which contributes to the progression of this specific main event within the sports theme, though it does not introduce a new event or significant narrative shift."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment depicts a dynamic and unique bike polo scene under dramatic nighttime lighting, which is visually striking and highlight-worthy due to the intense competition and specialized action. However, it is not maximally diverse, as it continues the bike polo theme established in the previous two segments, slightly reducing its novelty within the sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts an intense bike polo game with fierce competition for ball control, which conveys strong competitive emotion and tension. However, it maintains a similar intensity level to previous bike polo segments, preventing a higher score."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment continues the bike polo scene on the velodrome under night lights, which was already introduced and described in detail in segments 7 and 8. It reiterates the same setting, activity, and competitive intensity without adding new information, instruction, or distinct semantic content beyond what was previously established."
+        }
+      },
+      "final_score": 1.4875
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 950,
+      "end_frame": 1045,
+      "planner_score": 0.4,
+      "planner_reason": "The segment shows a cyclist starting a ride on the velodrome, which is consistent with the sports theme and overall nighttime cycling competition context. However, it represents a relatively routine action (beginning a ride) compared to the more dynamic racing and bike polo scenes already captured in previous segments. While it adds to the atmosphere and shows individual focus, it doesn't introduce new narrative elements, key competitive moments, or unique perspectives that would significantly enhance the summary beyond what's already established.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a cyclist starting their ride and navigating the track, which is a foundational action but lacks a clear progression of the main event—either a race or bike polo game. Compared to previous segments showing active competition or gameplay, this is more of an individual setup or warm-up moment, contributing minimally to advancing the story or event narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a cyclist navigating a banked track under floodlights, which maintains the established visual theme of nighttime cycling with dynamic leaning. However, it is highly repetitive compared to previous segments (especially 1-6 and 8-9) that already depict similar racing or bike polo action with comparable lighting, setting, and motion. It lacks the striking diversity or highlight-worthy novelty seen in the bike polo segments (7-9) or unique perspectives like the mounted camera in segment 2. Thus, while visually competent, it offers little new visual interest or standout moment."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment depicts a cyclist navigating a steeply banked track with focused determination, leaning into curves and passing other riders. This conveys a sense of personal intensity and competitive drive, though it is less overtly emotional or tension-filled compared to direct racing or aggressive bike polo scenes. The determination adds a moderate level of emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment continues the established theme of nighttime velodrome cycling under floodlights, showing a cyclist navigating the banked track and passing others. While it adds slight variation by emphasizing the rider's focused determination and the safety fence, it largely repeats the core elements already extensively covered in previous segments (night cycling, banked track, competition). No new activities, settings, or significant semantic content are introduced beyond minor descriptive details."
+        }
+      },
+      "final_score": 0.7875000000000001
+    },
+    {
+      "segment_id": 11,
+      "start_frame": 1045,
+      "end_frame": 1140,
+      "planner_score": 0.3,
+      "planner_reason": "This segment continues the established pattern of nighttime velodrome racing under floodlights, which has been extensively covered in previous segments (1-6). While it adds the new element of spectators watching from the sidelines, which provides some contextual richness about the event atmosphere, it doesn't introduce significant new narrative information, unique action, or thematic development beyond what has already been shown. The shadow detail is visually interesting but not crucial for understanding the competition. Given the redundancy with earlier racing segments and the more distinctive bike polo sequences (segments 7-10), this represents a moderate but not essential addition to the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment continues the established pattern of nighttime velodrome racing, adding minor details like shadows and spectators, but does not introduce new events, narrative developments, or significant progression in the competition or bike polo game, making it largely repetitive in terms of story or main event advancement."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment maintains the visually striking nighttime cycling atmosphere with bright floodlights and dynamic racing action, but adds the novel element of stretched shadows across the track and spectator presence, which enhances visual interest compared to previous racing-only segments. However, it still follows a similar visual pattern to earlier racing segments (1-6) rather than introducing completely new content like the bike polo segments (7-9), limiting its highlight-worthy diversity within the overall video context."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment maintains the established competitive intensity of nighttime velodrome racing with cyclists leaning into turns, but gains additional emotional depth through the inclusion of spectators watching from the sidelines, which adds a layer of audience engagement and communal excitement. The visual element of stretching shadows enhances the dramatic atmosphere under the floodlights, though the emotional expression remains primarily focused on athletic competition rather than overt personal emotion."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment introduces the presence of spectators, which is a new detail not mentioned in previous segments focused solely on the cyclists and their actions. However, the core activity (racing on a velodrome under floodlights) and the setting are highly repetitive with earlier segments, limiting the overall novelty of information."
+        }
+      },
+      "final_score": 0.725
+    },
+    {
+      "segment_id": 12,
+      "start_frame": 1140,
+      "end_frame": 1235,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment continues the bike polo gameplay, which is a key competitive aspect highlighted in the global summary. It reinforces the intense, high-speed nature of the event and adds dynamic visual elements (shadows, focused movements) that enhance the action. While similar to previous bike polo segments, it maintains narrative consistency and contributes to the overall portrayal of the competition's intensity.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment shows bike polo gameplay on the velodrome, which maintains the established competitive activity but does not introduce new narrative elements, events, or progression beyond what was already established in previous segments (especially segments 7-10 which already introduced and described bike polo). The action is continuous with existing gameplay rather than advancing the story or main events."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "This segment combines multiple visually striking elements from previous segments into a single cohesive scene: the high-speed racing action of earlier segments (1-6) is now integrated with the unique bike polo gameplay from segments 7-9. The addition of dynamic elements like shadows stretching across the track (mentioned in segment 11) and the focused pursuit of a ball with poles creates a more complex and highlight-worthy visual composition. While the nighttime floodlit setting remains consistent with the overall video theme, this segment represents a peak moment where racing intensity and specialized sport action converge, making it more visually diverse and compelling than standard racing shots alone."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a high-intensity bike polo game with cyclists leaning into turns while chasing a ball with long poles, emphasizing focused movements and shadows that highlight competitive tension and dynamic action. The combination of physical exertion, strategic gameplay, and nighttime atmosphere under bright lights creates strong emotional engagement and competitive sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment describes bike polo on a velodrome at night, which is consistent with the established theme and recent segments (e.g., segments 7-9). It introduces no new information, instruction, or semantic content beyond reiterating the setting, activity, and competitive atmosphere already covered in previous segments."
+        }
+      },
+      "final_score": 1.3625
+    },
+    {
+      "segment_id": 13,
+      "start_frame": 1235,
+      "end_frame": 1330,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment continues the established pattern of nighttime velodrome cycling under floodlights, which is consistent with the global summary. However, it lacks distinctive elements compared to previous segments (e.g., bike polo gameplay, unique camera perspectives, or spectator presence), making it somewhat redundant for inclusion in a concise summary. It reinforces the core theme but does not introduce new information or visual variety.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment shows cyclists racing on the velodrome, which maintains the established setting and activity, but it does not introduce new narrative elements, advance the competition outcome, or shift the focus from previous segments. It continues the pattern of racing scenes without progressing the story or main events beyond what has already been depicted."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment depicts cyclists racing on a velodrome under bright floodlights, which is visually striking due to the dynamic motion, leaning into turns, and the contrast of nighttime illumination. It aligns with the theme of sports and contributes to the highlight-worthy nature of the competition, though it is similar to previous segments showing racing, making it less diverse but still core to the event's intensity."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.8,
+          "reason": "The segment depicts vigorous racing with leaning into turns, conveying high physical exertion and competitive intensity, though it lacks the explicit conflict or close-up emotional cues of bike polo segments, resulting in a strong but not peak emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment continues to depict cyclists racing on a velodrome at night under bright lights, which is highly consistent with the established theme and previous segments. It introduces no new activities, settings, or significant details beyond what has already been described in multiple prior segments, offering minimal new information."
+        }
+      },
+      "final_score": 0.8374999999999999
+    },
+    {
+      "segment_id": 14,
+      "start_frame": 1330,
+      "end_frame": 1425,
+      "planner_score": 0.6,
+      "planner_reason": "The current segment continues the core theme of nighttime velodrome racing under floodlights, which is central to the global summary. However, it represents a repetitive visual pattern (cyclists leaning into turns with shadows) that has been shown multiple times in previous segments (1, 3, 4, 5, 6, 11, 13). While it maintains narrative consistency and shows key elements of the competition, it doesn't introduce new information, unique perspectives, or transition to different activities like the bike polo segments (7-10, 12) which added variety. The shadow element provides some visual interest but doesn't significantly advance the story beyond what's already established.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment shows cyclists racing on a velodrome, which maintains the established setting and activity from previous segments. However, it does not introduce new narrative elements, show progression in competition (like scoring, lead changes, or race conclusions), or shift the focus from what has already been established in multiple prior segments (segments 1, 3, 4, 5, 6, 11, 13). The description of shadows and high speed adds visual detail but does not advance the story or main events beyond ongoing racing action."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment maintains the visually striking nighttime cycling atmosphere with dramatic floodlighting and dynamic action, but it's highly repetitive with previous segments (especially 1, 3-6, 11, 13) showing similar racing scenes on the same velodrome. The shadow element adds some visual interest, but overall this represents a continuation of established visual patterns rather than a highlight-worthy departure or significant diversity from what's been shown repeatedly."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts high-speed competitive cycling with dynamic visual elements like stretching shadows and leaning into turns, which convey intensity and motion. However, it lacks the direct competitive interaction or explicit emotional expressions seen in bike polo segments, slightly reducing the emotional impact compared to those more confrontational scenes."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment describes cyclists racing on a velodrome at night under floodlights, which is highly consistent with the established theme and previous segments. While it introduces the detail of shadows stretching across the track, this is a minor visual addition that does not significantly expand the semantic content or introduce new information about the event, setting, or activities beyond what has already been covered in multiple prior segments (e.g., segments 1, 3, 4, 5, 6, 11, 13)."
+        }
+      },
+      "final_score": 1.0625
+    },
+    {
+      "segment_id": 15,
+      "start_frame": 1425,
+      "end_frame": 1520,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment depicts bike polo, a key competitive event highlighted in the global summary. While similar to segments 7-9, it reinforces the intensity and unique nature of the sport under nighttime floodlights, contributing to the overall narrative of the velodrome competition. However, due to repetition of bike polo scenes, its novelty is slightly reduced, though it remains important for showcasing the diversity of activities within the sports theme.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment continues the established bike polo activity within the velodrome setting, maintaining the competitive atmosphere but without introducing new narrative elements, significant developments in the game, or shifts in focus. It reinforces the ongoing event but does not advance the story or main event progression beyond what has been shown in previous segments (e.g., segments 7-9, 12)."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment features bike polo, which is more visually striking and highlight-worthy than standard racing due to the dynamic player interactions, ball maneuvering, and use of equipment (long poles). The nighttime floodlighting creates dramatic shadows and contrast, enhancing visual appeal. However, given the context of previous segments that also depict bike polo (segments 7-9, 12), this scene, while engaging, does not introduce significant new visual diversity or standout moments compared to earlier bike polo segments, slightly limiting its uniqueness within the overall video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts an intense game of bike polo with players racing, wielding poles, and maneuvering a ball, which conveys high energy, competition, and dynamic action. However, the emotional expression is primarily through physical intensity rather than explicit facial expressions or dramatic tension, slightly limiting the emotional depth."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment describes bike polo on a velodrome at night under floodlights, which is highly similar to previous segments (especially segments 7, 8, 9, and 12) that already established the bike polo activity, setting, and key elements like long poles, ball maneuvering, and competitive intensity. While it confirms the ongoing nature of the game, it introduces minimal new information or semantic content beyond what has been consistently depicted in prior segments."
+        }
+      },
+      "final_score": 1.3125
+    },
+    {
+      "segment_id": 16,
+      "start_frame": 1520,
+      "end_frame": 1615,
+      "planner_score": 0.65,
+      "planner_reason": "The segment depicts a core activity of the velodrome competition—two cyclists racing on the banked track—which aligns directly with the global summary's focus on intense races. However, given the extensive repetition of similar racing scenes in previous segments (e.g., segments 1, 3, 4, 5, 6, 11, 13, 14), this segment adds incremental rather than essential information. It reinforces the competitive atmosphere but does not introduce new elements like bike polo (seen in segments 7–9, 12, 15) or unique perspectives (e.g., camera-mounted view in segment 2). Therefore, it is moderately important for maintaining narrative consistency but lower in uniqueness.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment shows two cyclists racing, which maintains the established competitive cycling theme, but it does not introduce new narrative elements, shift the focus, or depict a decisive moment like a goal or finish line. It continues the pattern of racing scenes seen in previous segments, contributing minimally to story progression beyond reinforcing the ongoing event."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a typical nighttime velodrome racing scene with two cyclists leaning into turns, which is visually consistent with the theme and many previous segments. However, it lacks striking diversity, unique highlights, or dynamic elements (like bike polo action, close-ups, or dramatic perspectives) that would make it stand out, resulting in a moderate score."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment depicts a competitive race between two cyclists on a velodrome, which inherently carries moderate tension and focus. However, compared to previous segments featuring larger groups or the dynamic, multi-player action of bike polo, this two-person race is less intense and lacks the heightened emotional expression of team-based conflict or dramatic crowd presence."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment continues the established pattern of nighttime velodrome cycling under floodlights, with cyclists leaning into turns on a banked track. This description is nearly identical to previous segments (especially segments 1, 3-6, 13-14), offering minimal new information beyond specifying 'two cyclists' instead of a group. The core elements—night setting, floodlights, velodrome, banked track, leaning into turns—have all been extensively covered in prior segments, resulting in very low informational novelty."
+        }
+      },
+      "final_score": 1.05
+    },
+    {
+      "segment_id": 17,
+      "start_frame": 1615,
+      "end_frame": 1710,
+      "planner_score": 0.4,
+      "planner_reason": "The segment shows a BMX rider in a skatepark, which is a different activity and location from the velodrome cycling races and bike polo games described in the global summary and previous segments. While it maintains the nighttime sports theme and involves cycling, it diverges from the specific competitive events (racing and bike polo) that form the core narrative. This introduces variety but is less central to the main storyline, resulting in a moderate importance score.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment shows a cyclist riding a BMX bike in a skatepark, which is a different setting and activity from the established velodrome racing and bike polo events. While it maintains the nighttime cycling theme, it does not advance the specific story of the competition or main events (racing and bike polo) that have been consistently depicted. It introduces a new, unrelated scene that does not contribute to the progression of those core narrative elements."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the dynamic BMX riding under bright floodlights, creating a highlight-worthy action scene. It adds diversity by shifting from velodrome racing to BMX skatepark maneuvering, offering a fresh perspective within the sports theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment shows a solo BMX rider in a skatepark environment, which conveys focused control and skill but lacks the direct competitive intensity, group dynamics, or overt emotional expressions seen in previous racing and bike polo segments. While there is some tension in the rider's maneuvering, the emotional expression is more subdued compared to the high-stakes racing and team competition scenes."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces a new setting (outdoor skatepark) and a different type of bicycle (BMX bike) compared to the previous velodrome racing and bike polo scenes. While maintaining the nighttime cycling theme under floodlights, this represents a distinct environment and cycling discipline, providing fresh visual and contextual information beyond the repetitive velodrome competition scenes."
+        }
+      },
+      "final_score": 0.9625
+    },
+    {
+      "segment_id": 18,
+      "start_frame": 1710,
+      "end_frame": 1805,
+      "planner_score": 0.4,
+      "planner_reason": "The segment shows typical racing action consistent with the overall theme, but it's highly repetitive with previous segments (1, 3, 4, 5, 6, 11, 13, 14, 16) that already capture similar racing scenes. While it maintains the core sports narrative, it doesn't introduce new elements, perspectives, or key moments that would make it essential for a concise summary. The foreground/background composition adds minor visual variety but not enough to significantly elevate its importance above other racing shots.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment depicts cyclists racing on a velodrome, which aligns with the theme and global summary. However, it shows a generic racing scene without introducing new events, characters, or significant narrative developments compared to previous segments. It maintains continuity but does not advance the story beyond the established pattern of racing or bike polo, making its contribution to story progression moderate but not substantial."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.45,
+          "reason": "The segment continues the established visual pattern of nighttime velodrome cycling under floodlights, showing cyclists leaning into turns with vigorous pedaling. While it maintains the consistent high-energy sports atmosphere with good lighting contrast, it offers minimal visual diversity compared to previous segments - nearly identical to segments 1, 3, 4, 5, 6, 11, 13, 14, and 16 in terms of setting, lighting, and action. The composition with one rider in foreground and another in distance provides some depth, but lacks the striking novelty of bike polo segments (7-10, 12, 15) or the BMX variation (segment 17). It's competently captured but represents a frequently repeated visual motif in this video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment depicts cyclists racing on a velodrome at night, leaning into turns and pedaling vigorously, which conveys a sense of intensity and competitive effort. While the description lacks explicit emotional cues like facial expressions or dramatic interactions, the physical actions (racing, leaning, vigorous pedaling) and the nighttime setting under bright lights inherently suggest tension, focus, and athletic exertion. Compared to previous segments, this maintains a consistent level of competitive energy typical of sports events, but it doesn't reach the peak emotional intensity seen in segments explicitly describing bike polo with fierce competition or close interactions. Thus, it scores moderately high for emotional expression through action and context."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment continues the established pattern of nighttime velodrome cycling under floodlights, showing cyclists racing and leaning into turns. While it adds minor visual details like the foreground/background rider positioning, this information is highly redundant with previous segments that have already established the setting, activity, and visual characteristics of the cycling competition. No new semantic content, instructions, or significant information is introduced beyond what has been consistently described in multiple prior segments."
+        }
+      },
+      "final_score": 0.8250000000000001
+    },
+    {
+      "segment_id": 19,
+      "start_frame": 1805,
+      "end_frame": 1900,
+      "planner_score": 0.8,
+      "planner_reason": "This segment introduces a new variation within the nighttime cycling competition theme: roll hockey (or inline hockey on bikes), which is distinct from the previously shown bike polo and standard velodrome racing. It maintains the core elements of the global summary (nighttime cycling competition under floodlights) while adding diversity to the sports showcased. The visible advertisements for 'ROLLHOCKEY' and 'ROL E CLUB ZÜRICH' provide specific context about the event type and location, which could be valuable for viewers interested in the different disciplines within competitive cycling sports. However, it doesn't represent the most central or repeated activity (standard velodrome racing), so it's not a maximum importance segment.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment introduces a new activity (roll hockey) and location (concrete rink with specific advertisements), which adds variety but does not significantly advance the main story or event progression of the nighttime cycling competition and bike polo games on the velodrome. It represents a tangential shift rather than a development in the core narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment introduces a visually distinct variation within the nighttime cycling theme by featuring roll hockey—a hybrid sport combining cycling with stick-handling on a specialized rink. The scene maintains the striking nocturnal atmosphere with bright floodlights but offers diversity through the cyclist's protective gear, stick equipment, and prominent perimeter advertisements ('ROLLHOCKEY', 'ROL E CLUB ZÜRICH'), which provide fresh visual and contextual elements compared to previous velodrome racing and bike polo segments. The dynamic maneuvering on a curved track preserves the highlight-worthy athletic intensity while expanding the visual scope of the competition."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment depicts a cyclist in protective gear racing on a specialized track with visible advertisements, indicating a competitive event. The focused maneuvering and nighttime floodlit setting create moderate intensity, but without direct competition or dramatic action visible, the emotional expression is less pronounced compared to segments showing overt racing or bike polo clashes."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces a new sport variation (roll hockey) within the cycling context, distinct from the previously shown velodrome racing and bike polo. It presents new visual elements: protective gear, a stick, and specific advertisements ('ROLLHOCKEY', 'ROL E CLUB ZÜRICH'), and occurs on a concrete roll hockey rink rather than a velodrome. While maintaining the nighttime cycling theme, it expands the scope of activities beyond the established patterns, offering fresh semantic content about equipment, venue, and sport type."
+        }
+      },
+      "final_score": 1.4375
+    },
+    {
+      "segment_id": 20,
+      "start_frame": 1900,
+      "end_frame": 1995,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment continues the core action of the sports theme—nighttime cycling competition—and specifically depicts bike polo, which is a key element mentioned in the global summary. It reinforces the intensity and high-speed nature of the event, adding to the narrative of competitive racing and polo gameplay. While similar to previous segments, it contributes to the overall coverage of the event and maintains consistency with the theme.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment continues the established pattern of nighttime velodrome cycling competition, but introduces the specific detail of cyclists using long poles to propel themselves forward. While this adds a slight variation to the action, it doesn't significantly advance the overall story or main event progression beyond what has already been established in previous segments showing bike polo and racing. The scene maintains the same setting, lighting, and competitive context without introducing new narrative elements, decisive moments, or clear progression toward a resolution."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment features a visually striking nighttime cycling scene with bright floodlights, dynamic action, and the unique element of cyclists using long poles, which adds novelty compared to standard racing. However, it closely resembles previous segments in setting and lighting, reducing its diversity and highlight-worthy impact within the overall video context."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a high-speed competitive pursuit with cyclists using long poles for propulsion, which introduces a novel and intense element to the race. This adds a layer of urgency and physical exertion beyond standard cycling, enhancing the emotional intensity through focused competition and dynamic action under dramatic nighttime lighting."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment introduces the detail of cyclists using long poles to propel themselves, which is a new element compared to previous segments that focused on standard racing or bike polo. However, this is still within the established context of nighttime velodrome cycling competitions, and the core setting, lighting, and competitive nature remain highly similar to many prior segments."
+        }
+      },
+      "final_score": 1.3375
+    },
+    {
+      "segment_id": 21,
+      "start_frame": 1995,
+      "end_frame": 2090,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment depicts a typical racing scene on the velodrome, which is consistent with the overall theme of nighttime cycling competition and bike polo. However, given the global summary's emphasis on both races and bike polo, and the memory context showing numerous similar racing segments (segments 1-6, 11-14, 16, 18) and several bike polo segments (7-10, 12, 15), this segment adds little new information. It reinforces the racing aspect but does not introduce novel action, perspective, or event variation. Therefore, its importance for a concise final summary is relatively low, as it represents redundant content already well-covered by prior segments.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment continues the established pattern of nighttime velodrome racing, which is consistent with the video theme and global summary. However, it does not introduce new events, narrative developments, or significant changes in the competition's state (e.g., a finish, a goal, a lead change, or a shift to a different sport like bike polo). Given the repetitive nature of similar racing segments in the memory context, this segment contributes minimally to story or main event progression, primarily maintaining the ongoing action without advancing it."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment is visually consistent with the theme and maintains the nighttime, floodlit aesthetic, but it is highly repetitive compared to previous segments, lacking diversity or unique highlight-worthy elements such as dynamic camera angles, close-ups, or distinctive action like bike polo. It contributes to the overall narrative but does not stand out as particularly striking or novel."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment depicts competitive cycling with physical intensity through leaning into turns, which conveys a sense of exertion and focus. However, it lacks the heightened emotional cues, dramatic tension, or explicit sentiment seen in more dynamic scenes like bike polo (with direct competition for a ball) or close-up perspectives. The emotional expression is moderate, driven by the inherent competitiveness and physicality of racing, but not as pronounced as in segments showing direct confrontation or unique camera angles that amplify tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment describes cyclists racing on a velodrome under floodlights, leaning into turns. This is consistent with the established theme and previous segments, which repeatedly depict similar scenes of cycling races or bike polo on the velodrome. While it provides a specific instance of the action, it does not introduce new information, instructions, or significant semantic content beyond what has already been covered in multiple prior segments."
+        }
+      },
+      "final_score": 0.75
+    },
+    {
+      "segment_id": 22,
+      "start_frame": 2090,
+      "end_frame": 2185,
+      "planner_score": 0.3,
+      "planner_reason": "The segment shows a cyclist with protective gear and a stick, which aligns with the bike polo aspect of the global summary. However, it is visually and thematically similar to many previous segments (e.g., segments 7-10, 12, 15, 19-20) that already depict bike polo or stick-based cycling games. While it reinforces the theme, it adds little new information or unique action compared to earlier, more dynamic scenes of racing or competitive play. The redundancy lowers its importance for a concise summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment continues the established theme of nighttime cycling competition and bike polo, showing a cyclist with a stick and a red hockey goal, which aligns with the bike polo activity seen in previous segments. However, it does not introduce a new event, significant progression, or decisive moment in the competition; it maintains the ongoing action without advancing the narrative or main event beyond what has already been depicted in similar segments (e.g., segments 7-9, 12, 15, 19-20). Thus, it contributes moderately to story progression by reinforcing the existing activity but lacks novelty or key developments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "This segment is visually striking and highlight-worthy due to its dynamic composition and unique action. While maintaining the consistent nighttime velodrome setting with bright floodlights seen throughout the video, this shot introduces compelling visual elements: a cyclist actively maneuvering with a stick (suggesting bike polo gameplay), the prominent red hockey goal creating strong color contrast against the concrete environment, and a secondary player in the background adding depth and competitive context. The combination of focused individual action with equipment (stick) and clear game elements (goal, second player) makes this segment more visually diverse and highlight-worthy than standard racing shots, though it doesn't reach the maximum score since similar bike polo action has been shown in previous segments (7-9, 12, 15)."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment shows focused athletic activity with protective gear and a stick indicating a competitive context (likely bike polo or roll hockey), which conveys moderate intensity and determination. However, it lacks overt expressions of high tension, dramatic conflict, or strong emotional displays compared to segments depicting direct racing clashes or aggressive polo plays. The presence of another player suggests engagement, but the emotional expression is more about controlled athleticism rather than heightened sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment introduces a cyclist with a stick approaching a red hockey goal, which adds a slight variation by specifying equipment (stick) and a target (hockey goal), linking to bike polo or roll hockey. However, the core elements—nighttime, illuminated velodrome, cycling, protective gear—are extensively covered in previous segments (e.g., segments 7, 8, 9, 15, 19, 20). The new information is minimal, as similar scenes of stick-wielding cyclists and goals have been described, making this segment largely repetitive within the established context."
+        }
+      },
+      "final_score": 0.8625
+    },
+    {
+      "segment_id": 23,
+      "start_frame": 2185,
+      "end_frame": 2280,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment continues the bike polo theme established in previous segments (7-10, 12, 15, 22), which is a key component of the global summary. It provides dynamic, high-energy action with close-up competitive moments near the goal, adding intensity and a decisive play element. While similar to earlier bike polo scenes, the enclosed court setting and focus on a decisive play moment offer slightly novel visual variety and narrative tension. However, it doesn't introduce fundamentally new information about the event beyond reinforcing the established bike polo activity.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment continues the established theme of bike polo, maintaining the competitive atmosphere and dynamic action seen in previous segments. However, it does not introduce a new event, shift in narrative, or significant progression beyond the ongoing game, making it moderately contributive to story progression as it sustains but does not advance the main event."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment features a dynamic and high-energy game of bike polo with players maneuvering aggressively, striking a ball, and creating a chaotic, highlight-worthy scene. The nighttime lighting and enclosed court add visual contrast and intensity. While similar to previous bike polo segments, the description emphasizes a decisive play moment, enhancing its striking nature. However, some visual redundancy with earlier segments slightly reduces uniqueness."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a high-energy bike polo game with dynamic, chaotic action, players weaving aggressively, and a moment of intense focus near the goal. This conveys strong competitive tension and emotional engagement, though it lacks extreme close-ups or overt facial expressions that might push the score higher."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment continues the theme of nighttime bike polo under floodlights, which has been consistently described in previous segments (e.g., segments 7, 8, 9, 12, 15). While it adds minor details like 'enclosed asphalt court' and emphasizes 'dynamic and chaotic' action, it does not introduce significant new information, instructions, or semantic content beyond the established context of bike polo gameplay."
+        }
+      },
+      "final_score": 1.5
+    },
+    {
+      "segment_id": 24,
+      "start_frame": 2280,
+      "end_frame": 2375,
+      "planner_score": 0.2,
+      "planner_reason": "The current segment shows ice skating with a hockey stick, which is a different sport (ice hockey) from the established theme of velodrome cycling and bike polo. While it maintains the nighttime sports setting, it introduces a new activity and environment (ice rink vs. concrete velodrome) that diverges from the cohesive narrative of the cycling competition. This segment provides variety but may dilute the focused summary of the cycling event unless the summary aims to showcase multiple sports. Therefore, its importance is low for a summary centered on the velodrome activities.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment introduces a new activity (ice skating/hockey) which is unrelated to the established cycling competition theme (velodrome races and bike polo). While it maintains the nighttime sports setting, it does not advance the main story progression of the cycling events. The shift to a different sport and location (ice rink vs. velodrome) represents a thematic deviation rather than progression of the primary narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment introduces a visually striking shift from cycling and bike polo to ice skating, featuring a first-person perspective that enhances immersion. The bright floodlights on the ice create dynamic reflections and shadows, adding visual appeal. The scene is diverse compared to previous segments, offering a new sport and environment, making it highlight-worthy for its unique perspective and atmospheric nighttime setting."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment shows a first-person view of skating on an outdoor ice rink at night, which conveys a sense of personal engagement and motion. However, compared to the high-intensity bike polo and racing segments that preceded it, this scene lacks overt competitive tension, dramatic physical exertion, or visible emotional expressions. The presence of a hockey stick suggests sportive activity, but the overall mood appears more recreational or practice-oriented rather than intensely competitive or emotionally charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "This segment introduces a new sport (ice hockey/skating) and setting (outdoor ice rink) that differs significantly from the previous velodrome cycling and bike polo scenes. While maintaining the nighttime floodlit atmosphere consistent with the video theme, it provides novel visual content (ice surface, skating motion, hockey stick use) and a first-person perspective not seen in prior segments. However, it still fits within the broader 'sports' theme and shares some elements like competitive athletic activity under lights."
+        }
+      },
+      "final_score": 0.7375
+    },
+    {
+      "segment_id": 25,
+      "start_frame": 2375,
+      "end_frame": 2470,
+      "planner_score": 0.4,
+      "planner_reason": "The segment shows a cyclist on the velodrome with spectators, which reinforces the sports competition atmosphere and adds audience presence. However, it's visually similar to many previous racing segments and lacks the distinctive action of bike polo or intense racing dynamics seen in higher-value segments. It provides contextual variety but isn't uniquely critical to the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment shows a cyclist riding on the velodrome with spectators visible, which maintains the established setting and theme but does not introduce new narrative elements, competitive action, or significant plot development compared to previous segments featuring races and bike polo games. It serves as a transitional or atmospheric moment rather than advancing the story or main events."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a cyclist on a velodrome at night under floodlights, which maintains the consistent visual theme of nighttime cycling sports. However, compared to previous segments featuring intense racing, bike polo with dynamic stick play, or first-person perspectives, this shot is relatively static and less visually striking. It lacks the high-speed action, dramatic leans into turns, competitive interactions, or unique camera angles seen in earlier segments. The inclusion of spectators in the background adds some context but doesn't significantly elevate the visual excitement or highlight-worthiness beyond the established baseline for this video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a cyclist riding on a velodrome track with spectators in the background, but lacks the intense competitive action, dynamic maneuvers, or high-speed racing seen in previous segments. The emotional expression is relatively subdued compared to the bike polo games and close races, resulting in lower emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment introduces the presence of spectators, which is a new element not explicitly mentioned in previous segments. However, the core activity (cycling on a velodrome at night under floodlights) and setting are highly repetitive with prior segments, offering minimal new information or semantic content beyond this single detail."
+        }
+      },
+      "final_score": 0.7
+    },
+    {
+      "segment_id": 26,
+      "start_frame": 2470,
+      "end_frame": 2565,
+      "planner_score": 0.3,
+      "planner_reason": "The segment shows cyclists riding in a line around a velodrome with spectators, which aligns with the sports theme and nighttime cycling competition context. However, compared to previous segments featuring intense racing, bike polo action, and dynamic maneuvers, this scene is relatively passive—showing orderly riding rather than competition. It adds atmosphere with spectator presence but offers minimal new action or narrative progression for a summary focused on intensity and competition.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment shows cyclists riding in a line, which is a standard activity in the velodrome setting, but it lacks the competitive intensity, specific game action (like bike polo), or notable progression seen in previous segments. The presence of spectators adds context but does not significantly advance the story or main event beyond establishing the ongoing event atmosphere."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.45,
+          "reason": "The segment features a visually consistent nighttime cycling scene under artificial lights, which is typical of the video's theme. However, it lacks striking diversity or highlight-worthy action compared to previous segments, such as intense bike polo or dynamic racing with leaning turns. The presence of spectators adds some context, but the scene is relatively static and repetitive, reducing its visual impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment depicts cyclists riding in a line, which suggests a more orderly and less competitive pace compared to the intense racing or dynamic bike polo scenes in previous segments. The presence of spectators adds some atmosphere, but the action lacks the high-speed, leaning turns, or direct competitive engagement that convey strong emotional intensity or tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment introduces the presence of spectators seated on tiered bleachers, which is a new detail not explicitly mentioned in previous segments. However, the core activity—cyclists riding around a velodrome at night under floodlights—is highly repetitive with prior segments, offering minimal new semantic content or information beyond the spectator observation."
+        }
+      },
+      "final_score": 0.6375
+    },
+    {
+      "segment_id": 27,
+      "start_frame": 2565,
+      "end_frame": 2660,
+      "planner_score": 0.4,
+      "planner_reason": "The segment continues the established nighttime cycling competition theme but introduces minimal new information. It shows cyclists using poles (suggesting bike polo) on a velodrome with bleachers and fences—elements already seen in previous segments (e.g., segments 7-10, 15, 23). While it reinforces the competitive atmosphere and setting, it lacks unique action, key moments (like scoring or intense maneuvers), or novel visual perspectives that would elevate its importance for a concise summary. Given the redundancy in content after many similar segments, its contribution to a final summary is moderate but not essential.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment shows cyclists racing with poles, which aligns with the established bike polo theme, but it does not introduce new narrative elements, key events, or progression beyond what has been consistently depicted in previous segments (e.g., racing, bike polo, velodrome setting). It maintains continuity but lacks significant advancement in story or main event development."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment continues the established nighttime velodrome setting with cyclists using poles, which is consistent with previous bike polo scenes. However, it lacks standout visual diversity or highlight-worthy action compared to more dynamic segments (e.g., intense bike polo maneuvers or close-up racing). The presence of bleachers and a fence adds some context but does not elevate the visual strikingness beyond the already seen elements in the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment depicts competitive cycling with long poles, suggesting a bike polo or similar competitive event, which inherently involves tension and competitive emotion. However, the description lacks specific indicators of intense emotional expression (e.g., visible facial expressions, dramatic physical contact, or clear crowd reactions) beyond the implied competition. The presence of spectators and artificial lighting adds to the atmosphere, but the emotional intensity is moderate, derived mainly from the action's competitive nature rather than overt emotional displays."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment introduces the use of long poles for maneuvering and competing for position, which adds a slight nuance to the previously established bike polo and racing scenes. However, the core elements—nighttime setting, velodrome track, artificial lighting, and spectators—have been extensively covered in prior segments. The segment does not introduce new sports, settings, or significant variations in activity beyond what has already been described, resulting in a low but non-zero score for incremental detail."
+        }
+      },
+      "final_score": 0.8
+    },
+    {
+      "segment_id": 28,
+      "start_frame": 2660,
+      "end_frame": 2755,
+      "planner_score": 0.4,
+      "planner_reason": "The current segment depicts a typical racing scene on the velodrome, which is consistent with the overall theme of nighttime cycling competition and bike polo. However, given the global summary and memory context, this segment is highly repetitive with previous segments (e.g., segments 1, 3, 4, 5, 6, 13, 14, 16, 18, 21) that already capture similar racing actions. While it reinforces the competitive atmosphere, it does not introduce new elements (like bike polo, unique perspectives, or significant events) that would enhance the summary. Therefore, its importance is moderate but lower due to redundancy.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment shows cyclists racing on a velodrome track, which is consistent with the overall theme of nighttime cycling competition. However, it presents a generic racing scene without introducing new narrative elements, specific competitive developments, or shifts in focus beyond what has been established in previous segments (e.g., segments 1–6, 11, 13–14, 16, 18, 21). It does not advance the story or main events—such as bike polo gameplay, unique maneuvers, scoring moments, or changes in competition dynamics—and instead repeats established visual and action motifs without progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows typical nighttime velodrome racing with cyclists leaning into turns under floodlights, which is visually consistent with the theme but offers minimal diversity or striking elements compared to previous segments. It lacks the unique highlight-worthy aspects seen in bike polo scenes (e.g., ball play, mallets, dynamic maneuvers) or distinctive features like first-person perspectives, BMX riding, or hockey elements. The action is standard racing without notable visual variation, shadows, or compositional novelty relative to the established pattern in the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment depicts competitive cycling with leaning into turns, indicating exertion and focus, which conveys moderate emotional intensity. However, it lacks overt expressions of tension or sentiment compared to more dynamic scenes like bike polo with direct conflict or decisive plays, making the emotional strength consistent but not peak."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment describes cyclists racing on a velodrome at night under floodlights, which is highly repetitive of the previous segments. The theme, setting, and action have been consistently covered in multiple prior segments (e.g., segments 1, 3, 4, 5, 6, 13, 14, 16, 18, 21, 27). No new information, instruction, or unique semantic content is introduced beyond what has already been established in the memory context."
+        }
+      },
+      "final_score": 0.7625000000000001
+    },
+    {
+      "segment_id": 29,
+      "start_frame": 2755,
+      "end_frame": 2850,
+      "planner_score": 0.4,
+      "planner_reason": "The segment shows cyclists racing at night on a velodrome, which aligns with the sports theme and global summary. However, it lacks the distinctive elements seen in previous segments—such as bike polo, spectators, or clear competitive interactions—and features a single light source and motion blur, which may reduce visual clarity and novelty. While it maintains continuity, it offers less unique action or narrative progression compared to more dynamic scenes.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment shows cyclists racing at high speed, which maintains the ongoing competitive activity, but it does not introduce new narrative elements, shift the focus, or advance the story beyond what has been consistently depicted in prior segments (repeated racing/polo scenes). The setting remains the same, the action is continuous, and no new events, outcomes, or developments are presented."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows cyclists racing at night under a single bright light, which creates some visual interest through motion blur and the contrast of light against the dark environment. However, compared to previous segments that featured more dynamic elements like bike polo with players wielding sticks, close-up competitive interactions, or varied camera perspectives, this segment is relatively repetitive and less highlight-worthy. It lacks the diversity of action, intensity of competition, or unique visual compositions seen in earlier segments, making it less striking overall within the context of the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment depicts cyclists racing at high speed with motion blur, which conveys some intensity and energy. However, compared to previous segments featuring direct competition, close interactions, or dynamic bike polo gameplay, this scene lacks overt emotional expressions, interpersonal tension, or strong sentiment cues. The setting is described as 'empty' and under a 'single bright overhead light,' which may create a more isolated or focused atmosphere rather than one of heightened emotional intensity. The emotional expression is moderate, derived primarily from the implied speed and effort of racing, but without additional elements like visible facial expressions, close competition, or crowd reactions to amplify it."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment introduces a new visual detail—a single bright overhead light—and emphasizes motion blur, which is a distinct cinematographic element not previously described. However, the core activity (cyclists racing around a velodrome at night) and setting remain highly consistent with prior segments, offering minimal new thematic or semantic content beyond these subtle variations."
+        }
+      },
+      "final_score": 0.7
+    },
+    {
+      "segment_id": 30,
+      "start_frame": 2850,
+      "end_frame": 2945,
+      "planner_score": 0.3,
+      "planner_reason": "The segment shows a person riding a bike on an outdoor court at night, which aligns with the sports theme and nighttime cycling setting. However, compared to previous segments depicting intense races, bike polo games, or high-speed competitive action, this scene is relatively passive—just a single rider passing a goal without clear competitive context or dynamic interaction. It lacks the intensity, group dynamics, or unique gameplay (like bike polo) that would make it stand out for a summary. While it maintains visual continuity with the velodrome environment, it offers minimal new narrative or action value, making it less critical for a concise highlight reel.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment shows a person riding a bike on a court, but it lacks clear competitive action, progression of a race or game, or significant narrative development compared to previous segments featuring intense races and bike polo. It appears more like transitional or ambient footage, contributing minimally to story or main event progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment shows a cyclist riding on a concrete court under night lighting, which aligns with the sports theme but lacks the intense competition or dynamic action seen in previous segments featuring races or bike polo. It is visually consistent with the setting but less striking and highlight-worthy compared to more energetic scenes."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a solitary rider moving across a court with minimal visible interaction or competitive intensity. Compared to previous segments featuring high-speed races, bike polo with dynamic maneuvers, or focused competitive scenes, this segment lacks overt emotional expression, tension, or strong sentiment. The presence of another rider in the distance suggests some activity but does not convey urgency, excitement, or dramatic engagement. The scene appears more routine or transitional, resulting in a low emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment shows a person riding a bike on an outdoor court at night, passing a goal and fence, with another rider in the distance. This adds minimal new information compared to previous segments, which have already established the nighttime setting, floodlit environment, velodrome/outdoor court locations, cycling activities, and elements like goals and fences. The scene is highly repetitive with prior descriptions of similar cycling scenes in the same context, offering no new semantic content, instructions, or distinct narrative elements beyond what has been extensively covered."
+        }
+      },
+      "final_score": 0.6000000000000001
+    },
+    {
+      "segment_id": 31,
+      "start_frame": 2945,
+      "end_frame": 3064,
+      "planner_score": 0.2,
+      "planner_reason": "The current segment shows floorball (a different sport) rather than cycling or bike polo, which are the main activities in the global summary and previous segments. While it maintains the nighttime outdoor sports setting, it introduces a new sport that is not directly related to the velodrome cycling competition or bike polo theme. This creates thematic inconsistency and adds minimal value to the core narrative of the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment introduces a new activity (floorball) and perspective (first-person), but it does not advance the main narrative of the cycling competition or bike polo games established in the video theme and previous segments. It represents a minor shift in focus rather than progression of the core story or main events."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment introduces a new sport (floorball) and a unique first-person perspective, which adds visual diversity compared to the repetitive cycling and bike polo scenes. However, the setting remains similar (nighttime outdoor court under floodlights), and the action is less dynamic than high-speed racing or competitive bike polo, reducing its highlight-worthy impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.45,
+          "reason": "The segment depicts a floorball game, which involves physical activity and competition, but the first-person perspective and solitary action (one person playing) reduce the intensity compared to group races or bike polo. The emotional expression is moderate, with focus and determination implied, but lacks the high tension or overt sentiment seen in previous segments with direct competition, close interactions, or dramatic leaning into turns."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.85,
+          "reason": "The current segment introduces a new sport (floorball) and a new gameplay perspective (first-person via head-mounted camera), distinct from the previously repeated cycling races and bike polo scenes. While the setting (nighttime outdoor court) and use of a stick are familiar, the specific sport and immersive camera angle provide significant new semantic content."
+        }
+      },
+      "final_score": 0.7124999999999999
+    }
+  ]
+}

@@ -1,0 +1,965 @@
+{
+  "video_id": "oDXZc0tZe04",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 356,
+      "planner_score": 0.85,
+      "planner_reason": "This segment introduces the core subject (Vertical Log Hive), its key physical features, and the installation environment. As the opening segment of a tutorial video, it establishes essential context for viewers to understand the subsequent beekeeping process. While it doesn't show active beekeeping actions yet, it provides foundational information about the hive structure and location that is crucial for following the tutorial.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment primarily introduces the hive's design and location, serving as foundational setup rather than advancing the story of colony establishment or monitoring. It contributes minimally to story progression, as it sets the stage without depicting active events like inoculation, swarm arrival, or hive inspections."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment is visually clear and informative for a tutorial, showing the hive design and setting, but lacks striking or highlight-worthy visuals such as dynamic action, close-ups of bees, or significant diversity in shots. It serves as a functional introduction rather than a visually engaging moment."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment primarily serves an introductory and informational purpose, presenting factual details about the hive setup and location. The emotional expression, tension, or sentiment is minimal, as the content is neutral and instructional in nature, focusing on description rather than evoking strong feelings."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "This segment introduces foundational, new information by describing the hive's design, materials, and installation specifics, which are essential for understanding the tutorial's setup phase."
+        }
+      },
+      "final_score": 1.275
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 356,
+      "end_frame": 712,
+      "planner_score": 0.85,
+      "planner_reason": "This segment marks the first major event in the tutorial: the arrival of the swarm on April 4, 2013. It establishes the starting point of the colony's development, which is central to the video's theme of documenting the beekeeping process. While the zoom and text overlay are somewhat introductory, the specific date and event are crucial for the timeline and narrative progression.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story by marking the key event of the swarm's arrival on a specific date (April 4, 2013), which is a critical milestone in the colony establishment process. The zoom into the tree trunk's hole visually confirms the hive's activation, directly progressing from setup to active colonization."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment introduces a key event (swarm arrival) with text overlay, which is highlight-worthy for the tutorial's narrative. However, the visual content is relatively static, focusing on a tree trunk and a hole, lacking dynamic or highly striking imagery. The zoom adds some engagement but is not exceptionally diverse or visually striking."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment primarily serves as an informational setup, showing the tree and announcing the swarm's arrival with text. While the text introduces a positive event (swarm moving in), the visual presentation is calm and observational, lacking strong emotional expression, tension, or sentiment. The camera's steady zoom is neutral and instructional, not emotionally charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.85,
+          "reason": "The segment introduces the arrival of the swarm on April 4, 2013, which is a key event marking the start of the colony's establishment. It provides new temporal information and a significant development in the narrative, though it builds upon the previously introduced hive setup context."
+        }
+      },
+      "final_score": 1.5
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 712,
+      "end_frame": 1068,
+      "planner_score": 0.85,
+      "planner_reason": "The segment shows the natural habitat and cavity that inspired the vertical log hive design, connecting the backyard project to its ecological inspiration. While not directly showing colony activity, it establishes important context about natural bee habitats and the project's philosophy of low-intervention beekeeping. The visual connection between the natural tree cavity and the artificial hive reinforces the tutorial's core principles.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily establishes the setting by revealing a hollow cavity in the tree, which is relevant as a potential hive location, but it does not directly advance the story or main events. No active progression such as hive installation, swarm arrival, or colony development occurs here; it is more descriptive and atmospheric."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment is visually striking due to the dramatic upward pan along a massive, ancient tree trunk, revealing a significant hollow cavity, which creates a sense of discovery and natural wonder. The dense forest setting with dappled sunlight adds atmospheric depth and highlights the hive's integration into a wild, natural environment, making it highlight-worthy for its aesthetic and thematic resonance with natural beekeeping."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment primarily focuses on visual description of the tree and its cavity, with no explicit emotional cues, tension, or sentiment expressed. The tone remains neutral and observational, typical of a tutorial, lacking strong emotional elements."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment introduces a new visual setting (a dense forest with an ancient tree and a hollow cavity) which differs from the previous backyard context, suggesting a potential new location or example. However, it does not provide explicit new information, instructions, or semantic content directly related to the tutorial's established process of hive setup, monitoring, or beekeeping techniques. The relevance to the video's theme is indirect, offering atmospheric context rather than substantive educational content."
+        }
+      },
+      "final_score": 1.225
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1068,
+      "end_frame": 1424,
+      "planner_score": 0.15,
+      "planner_reason": "The segment shows the first opening of the hive (April 10, 2013), which is a key early inspection point mentioned in the global summary. However, it's just one of several periodic inspections (April 10, April 21, May 11, June 22) that collectively document the colony's development. While it establishes the monitoring timeline, it doesn't show critical developments like swarm arrival, honeycomb extraction, or the fully established hive. The segment's importance is moderate but not among the most crucial moments for the tutorial's narrative.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment introduces the first inspection of the hive, marking a key step in monitoring the colony's development, which contributes to story progression by showing active human intervention and the timeline of events. However, it focuses more on setup (securing rope/webbing) rather than directly depicting bee activity or significant colony changes, limiting its impact on main event progression compared to segments showing swarm arrival or comb building."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment shows a person's hand securing rope or webbing in a tree cavity, which is relevant to the tutorial theme of hive monitoring but lacks visually striking or highlight-worthy elements. The action is mundane and focused on a single, small-scale task without dynamic movement, diverse visuals, or significant aesthetic appeal. While it documents a key step (first opening), it does not stand out as particularly engaging or diverse compared to potential highlights like swarm arrivals or honeycomb extraction."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment shows a practical, hands-on activity with a calm, instructional tone, focusing on construction steps and dates. There is minimal emotional expression, tension, or sentiment beyond mild curiosity or procedural engagement."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment introduces the 'First opening' on April 10, 2013, which provides a specific date and action (securing rope/webbing) related to accessing the hive. However, this information is largely procedural and incremental, adding minimal new semantic content beyond confirming an inspection date mentioned in the global summary. It does not reveal significant new developments about the colony itself."
+        }
+      },
+      "final_score": 0.5
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1424,
+      "end_frame": 1780,
+      "planner_score": 0.85,
+      "planner_reason": "This segment represents the first documented inspection of the hive after the swarm's arrival, marking a critical milestone in the colony's establishment. As the 'First opening' on April 10, 2013, it provides the initial visual evidence of the bees' progress and sets the pattern for subsequent monitoring events mentioned in the global summary. While not the climax of the colony's development, it is a key procedural step that demonstrates the beekeeping methodology and initiates the observational timeline central to this tutorial.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment marks the first inspection of the hive after the swarm's arrival, directly advancing the story by initiating the monitoring process. It transitions from setup and arrival to active observation, a key step in the colony's development narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment is visually engaging due to the human interaction and the reveal of the tree cavity, which adds a sense of discovery and progress in the beekeeping tutorial. However, it lacks the dynamic or diverse visual elements (e.g., bee activity, detailed comb structures) that would make it more striking or highlight-worthy, as it primarily focuses on a simple manual action with minimal variation."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment shows a procedural action of opening a tree cavity with minimal emotional cues; the text overlay provides factual information without conveying strong sentiment, tension, or expressive emotion, aligning with the tutorial theme's instructional tone."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces the first opening of the hive, which is a procedural milestone, but it largely reiterates information already established in the global summary (inspections on April 10) and the previous segment caption (First opening on April 10, 2013). It provides minimal new semantic content beyond confirming the action."
+        }
+      },
+      "final_score": 1.325
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 1780,
+      "end_frame": 2136,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows the active installation of a key component (coconut shell shelter) into the tree cavity, which directly relates to the hive's setup and preparation mentioned in the global summary. The transition to interior views establishes the space where bee colony development will be monitored, making it important for understanding the hive's environment and the beekeeper's interventions.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment shows the installation of a coconut shell into the tree cavity, which is a specific action in preparing the hive environment. This contributes to the story progression by depicting a step in the setup process, moving from initial setup to active modification for the bees. However, it is not a major event like the swarm arrival or a significant inspection, so its contribution is moderate."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment shows a hands-on, practical step in setting up the hive (installing a coconut shell), which is visually interesting due to the natural materials and the action of modification. However, it is part of routine setup rather than a dramatic highlight or a moment of significant visual diversity compared to other segments in the tutorial."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a practical, instructional action of installing a coconut shell into a tree cavity. While there is a sense of curiosity and exploration in preparing the space, the emotional expression is minimal. The focus is on the physical process rather than conveying strong sentiment, tension, or emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces new information about modifying the hive by installing a coconut shell as a shelter component, which is a specific, actionable step in the natural beekeeping process. It adds semantic content related to hive preparation and low-intervention techniques, advancing the tutorial's narrative beyond previous setup and inspection phases."
+        }
+      },
+      "final_score": 1.4625
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 2136,
+      "end_frame": 2492,
+      "planner_score": 0.85,
+      "planner_reason": "This segment directly captures the core subject of the tutorial—the bee colony's establishment and activity within the hive. It visually confirms the successful arrival and clustering of the swarm mentioned in the global summary (April 4, 2013), which is a critical milestone in the beekeeping process. For a tutorial theme, showing the bees' presence and initial behavior is highly informative and engaging, making it important for the summary to illustrate the colony's development.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story progression by providing the first visual confirmation of the bee colony's establishment within the hive. While previous segments focused on hive setup, swarm arrival, and initial inspections, this segment directly shows the colony's active presence and clustering behavior—a key milestone in the tutorial's narrative of colony development. The close-up view of the dense bee cluster demonstrates successful inoculation and swarm acceptance, moving the story from installation/arrival phases to active colony observation."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the close-up, detailed view of a dense bee cluster within a natural cavity, highlighting active colony behavior. The imagery is diverse from previous segments, shifting from external hive setup to intimate internal colony activity, making it highlight-worthy for showcasing the thriving bee colony central to the tutorial's theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a dense cluster of bees, indicating high activity and colony presence. This evokes a sense of wonder and natural vitality, contributing to a strong emotional expression of fascination and engagement with the thriving ecosystem."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The segment provides substantial new information by visually confirming the successful establishment of the bee colony inside the hive, which is a key development in the tutorial's narrative. It introduces the active presence of bees, their clustering behavior, and the colony's early state, adding specific, actionable observational content not previously shown in the global summary or memory context."
+        }
+      },
+      "final_score": 1.725
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 2492,
+      "end_frame": 2848,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows the first detailed view of the established bee colony inside the hive, which is a critical milestone in the tutorial's narrative. The active movement and clustering around wax/residue indicate colony health and progress in comb building, directly supporting the tutorial's theme of monitoring development. While not the final harvest outcome, it provides essential visual evidence of successful inoculation and early colony establishment that viewers need to see.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment shows active bee clustering and potential wax presence, indicating early colony establishment and comb-building activity, which contributes to story progression by depicting a key developmental stage in the hive's lifecycle. However, it is a close-up observational moment rather than a major event like swarm arrival or honey extraction, limiting its overall narrative advancement."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking due to the close-up, detailed view of a dense, active bee cluster, which is a highlight-worthy moment in the tutorial as it showcases the colony's early establishment. The slow zoom enhances focus on the bees' activity and the white wax patches, adding visual interest. However, it is somewhat similar to the previous segment showing a bee cluster, reducing diversity."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment features a close-up of a dense, active bee cluster, which conveys a sense of liveliness and natural activity. The movement and clustering around wax patches suggest colony vitality, generating moderate engagement and a subtle sense of awe or curiosity. However, the emotional intensity is tempered by the clinical, observational tone typical of a tutorial, lacking heightened tension or strong sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "This segment provides substantial new information about the bee colony's development. While previous segments established the hive setup and initial swarm arrival, this segment shows the bees actively clustering and moving within the structure, with specific mention of white patches likely indicating wax production or residue. This represents concrete progress in colony establishment beyond mere presence, offering new semantic content about bee behavior and hive development at this specific inspection point."
+        }
+      },
+      "final_score": 1.5875
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 2848,
+      "end_frame": 3204,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows the active bee colony within the hive, which is central to the tutorial's theme of documenting colony establishment and development. The dense cluster of bees with visible white markings indicates healthy colony activity and wax production, key elements in beekeeping tutorials. While the abrupt transition to a blurry shot slightly reduces coherence, the core content directly supports the tutorial's educational purpose by showing colony behavior that beekeepers need to recognize.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment shows bees actively moving within a hive, indicating colony activity, which contributes to the story progression of monitoring the hive's development. However, the abrupt shift to a blurry, out-of-focus shot disrupts continuity and reduces the segment's overall contribution to clear event progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a dense cluster of bees which has some visual interest due to the active movement and texture of the insect mass, but it lacks striking diversity or highlight-worthy content. The abrupt transition to a blurry, out-of-focus shot of a rough surface reduces the overall visual impact and coherence. While the bee activity is relevant to the tutorial theme, the segment doesn't showcase particularly unique, diverse, or memorable visual elements compared to what might be expected in a beekeeping tutorial."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment primarily depicts bees moving within a container, which conveys a sense of natural activity but lacks strong emotional cues such as dramatic tension, clear sentiment, or expressive human elements. The abrupt shift to a blurry surface introduces mild disorientation but does not significantly amplify emotional intensity. Overall, the emotional expression is subdued and factual, aligning with the tutorial's informative tone."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment provides minimal new information compared to previous segments. It reiterates the presence of an active bee cluster, which was already established in segments 6 and 7, and the abrupt shift to a blurry surface adds little instructional or semantic value to the tutorial's progression on hive monitoring or colony development."
+        }
+      },
+      "final_score": 1.2
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 3204,
+      "end_frame": 3560,
+      "planner_score": 0.7,
+      "planner_reason": "This segment shows the second documented inspection of the hive (April 21, 2013), which is important for tracking the colony's development timeline. However, it's a routine monitoring event similar to the first opening shown earlier, so while it contributes to the narrative of periodic observation, it doesn't represent a major milestone like the initial swarm arrival or later honey extraction.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "This segment shows a second inspection of the hive, which contributes moderately to story progression by documenting the ongoing monitoring timeline (April 21, 2013, following the first opening on April 10). However, it primarily repeats the action of accessing the hive without revealing significant new developments in colony establishment or major plot advancement beyond confirming continued observation."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment shows a visually interesting moment of discovery as a wooden plug is removed to reveal a hidden cavity, creating anticipation and a sense of mystery. The text overlay provides specific temporal context (Second Opening, April 21, 2013) that adds documentary significance. However, the visual content itself is somewhat limited - it primarily shows hands removing a plug rather than revealing dramatic interior details or striking imagery. The action is methodical and observational rather than highly dynamic or spectacular. Compared to previous segments showing dense bee clusters or tree cavity interiors, this segment serves more as a transitional monitoring moment than a visual highlight."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment shows a methodical, careful action of removing a wooden plug from a tree cavity with text indicating a monitoring event. While there's inherent curiosity about what might be inside the cavity, the emotional expression is minimal—the action is deliberate and calm, typical of instructional or documentary content. There's no visible tension, urgency, or strong sentiment conveyed; the focus is on procedural observation rather than emotional engagement."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment provides moderate new information by specifying a second monitoring event (April 21, 2013) and showing the action of removing a wooden plug to access the cavity. This advances the timeline and confirms ongoing human intervention for observation, which is relevant to the tutorial theme of monitoring a bee colony. However, the visual content (removing a plug) is somewhat repetitive of previous access actions, and the specific state of the colony inside is not yet revealed, limiting the amount of entirely new semantic content."
+        }
+      },
+      "final_score": 1.1875
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 3560,
+      "end_frame": 3916,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows active bee colony behavior within the hive structure, which is central to the tutorial's theme of monitoring colony development. While it continues the pattern of hive inspections shown in previous segments, the dynamic clustering behavior around the opening demonstrates colony activity and potential relocation/preparation efforts. This provides valuable observational data for beekeeping education, though it's somewhat similar to earlier bee cluster segments (6-8). The text overlay with specific date (April 21, 2013) connects it to the documented timeline of hive monitoring.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "This segment contributes moderately to story progression by showing the bees' active clustering and movement, which indicates ongoing colony establishment and activity within the hive. However, it does not introduce a new inspection date or significant developmental milestone compared to previous segments that already depicted bee clusters, limiting its incremental advancement of the main narrative of colony monitoring and growth."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment is visually striking and highlight-worthy due to the dynamic, close-up view of a dense swarm of bees actively clustering and moving within a wooden structure. The imagery captures the bees' collective behavior in a natural, aged environment, which is both engaging and central to the video's theme of bee colony development. The visual diversity is moderate as it focuses intensely on the bee activity, but the striking nature of the scene and its relevance to the tutorial's monitoring process make it a significant highlight."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a dense swarm of bees actively clustering and moving together, which conveys a sense of collective urgency and dynamic energy. This natural behavior evokes a strong emotional response related to wonder, fascination, and the tension of witnessing a living organism's intense activity. The close-up view and the description of the bees 'working together' amplify the emotional impact, making the segment highly engaging and emotionally charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment provides some new visual detail about bee behavior within the hive structure, specifically showing bees clustering around a small opening in a dynamic manner. However, it offers minimal new semantic content or instruction beyond what was already established in previous segments (segments 6-8 already showed dense bee clusters in wooden structures, and the tutorial's monitoring process was introduced earlier). The information about bees 'possibly preparing to establish or relocate their colony' is speculative and not substantively new to the narrative. The segment continues the observational theme but does not advance the tutorial's instructional or informational progression significantly."
+        }
+      },
+      "final_score": 1.5625
+    },
+    {
+      "segment_id": 11,
+      "start_frame": 3916,
+      "end_frame": 4272,
+      "planner_score": 0.85,
+      "planner_reason": "This segment directly showcases the colony's development and productivity within the hive, which is central to the tutorial's theme of monitoring bee colony establishment. It visually demonstrates the bees' active work on honeycomb—a key outcome of successful hive management—making it highly relevant for illustrating the process's success and the hive's internal activity.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "This segment contributes significantly to story progression by showing the colony's development and activity within the hive. It visually confirms the bees' successful establishment and ongoing work, which is a key milestone in the tutorial's narrative of monitoring hive progress."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is visually striking and highlight-worthy due to the dynamic, close-up view of active bee behavior within their natural habitat. The dense cluster of bees moving purposefully across honeycomb structures creates a compelling visual of colony activity that is both educational and engaging. The contrast between the dark bees and the lighter honeycomb, combined with the constant motion, makes this segment stand out as a key moment in documenting the hive's development. While it continues the theme of bee observation established in previous segments, the clear focus on honeycomb interaction and bustling hive activity elevates its visual appeal and educational value within the tutorial context."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment depicts active bee movement and hive activity, conveying a sense of purpose and liveliness, which generates moderate positive sentiment. However, it lacks intense emotional peaks, dramatic tension, or strong sentiment shifts, as it is observational and focused on natural behavior within a tutorial context."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment provides moderate new information by showing active bee movement on a honeycomb structure, which visually confirms colony development and comb building mentioned in the global summary. However, it does not introduce new dates, inspection events, or procedural details beyond the general theme of colony monitoring, making it somewhat incremental rather than highly novel."
+        }
+      },
+      "final_score": 1.575
+    },
+    {
+      "segment_id": 12,
+      "start_frame": 4272,
+      "end_frame": 4628,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows the swarm actively exiting the tree cavity to establish their new colony, which is a critical milestone in the beekeeping process documented in this tutorial video. The text overlay provides specific timing information (Third Opening, May 11, 2013) that helps establish the timeline of colony development. While not the final outcome of the tutorial, this represents a significant behavioral event that demonstrates successful colony establishment and natural beekeeping principles.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "This segment directly depicts a key event in the colony's lifecycle—the bees actively exiting the hive to establish their colony—which is a significant step in the story progression from hive setup to colony development. The text overlay provides a specific timeline ('Third Opening', May 11, 2013), reinforcing its role in the documented monitoring process. However, it is part of a series of periodic inspections rather than a singular climax, so it contributes strongly but not maximally to the overall progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is visually striking and highlight-worthy due to the dramatic visual of a dense swarm of bees actively exiting a tree cavity as a cohesive unit. The contrast between the weathered tree bark texture and the dark opening creates strong visual interest. The text overlay provides important temporal context (Third Opening, 37 days after arrival) that enhances the narrative significance. While the visual diversity is somewhat limited (focusing primarily on the bee swarm), the dynamic nature of the mass bee exodus, combined with the natural setting and clear documentation of a key milestone in colony establishment, makes this a compelling and memorable segment that effectively captures a critical moment in the beekeeping process."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment depicts a significant moment of active bee swarm emergence from a tree cavity, which carries moderate emotional weight through the sense of natural wonder, biological urgency, and the culmination of colony establishment. The dense, unified movement of the bees creates visual tension and a sense of purposeful activity. The text overlay ('Third Opening,' May 11, 2013) adds narrative progression and a milestone feeling. However, the emotional expression remains observational and documentary in tone, lacking heightened drama, human interaction, or overt sentimentality, which limits the maximum emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.7,
+          "reason": "The segment introduces the 'Third Opening' on May 11, 2013, which is a new temporal milestone in the monitoring timeline, and shows bees actively exiting the hive, indicating colony establishment behavior. However, it largely continues the theme of periodic hive inspections and bee activity seen in previous segments, offering moderate but not entirely novel semantic content relative to the ongoing narrative."
+        }
+      },
+      "final_score": 1.6375000000000002
+    },
+    {
+      "segment_id": 13,
+      "start_frame": 4628,
+      "end_frame": 4984,
+      "planner_score": 0.85,
+      "planner_reason": "This segment depicts the 'Third Opening' on May 11, 2013, which is a key monitoring milestone explicitly mentioned in the global summary. It shows active human intervention (securing the rope) to access the hive for inspection, aligning with the tutorial's theme of demonstrating periodic checks. While important for showing the process timeline, it is slightly less critical than segments showing the swarm arrival or honey extraction, as it represents a routine inspection point rather than a unique transformative event.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment contributes significantly to story progression by marking a key temporal milestone (37 days after swarm arrival) and showing active human intervention (securing the rope for the third opening). It advances the narrative of periodic hive monitoring and colony development, connecting directly to the global summary's mention of inspections on specific dates. However, it focuses more on the access preparation than on showing the colony's actual state or development, which slightly limits its contribution compared to segments that directly reveal hive progress."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment shows a visually interesting moment of human interaction with the hive during a scheduled inspection, which adds narrative progression to the tutorial. The action of securing the rope across the freshly cut opening provides a clear, purposeful visual element. However, compared to segments showing active bee swarms or honeycomb development, this is more procedural and less inherently striking or diverse. It serves as an important milestone (Third Opening) in the monitoring process but lacks the dynamic biological activity or natural spectacle of previous bee-focused segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a procedural action of securing a rope on a tree opening, with minimal emotional expression or tension. The focus is on documentation and routine monitoring, lacking strong sentiment or dramatic elements."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment provides moderate new information by specifying the exact timing (37 days after 'birth', May 11, 2013) and the action of securing a rope across a freshly cut opening, which adds procedural detail about hive access. However, it partially overlaps with previous segments that already established the concept of periodic hive openings and monitoring, reducing its novelty. The specific date and the fresh cut detail are new, but the overall theme of accessing the hive continues from earlier segments."
+        }
+      },
+      "final_score": 1.4375
+    },
+    {
+      "segment_id": 14,
+      "start_frame": 4984,
+      "end_frame": 5340,
+      "planner_score": 0.35,
+      "planner_reason": "This segment shows a technical detail of hive access (rope and carabiner system) but doesn't reveal significant colony development or key beekeeping milestones. While it demonstrates the monitoring setup, it lacks the educational value of colony inspection, comb building, or honey production that would be more critical for a tutorial summary. The action is preparatory rather than instructional about beekeeping itself.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment shows a minor preparatory action (securing a rope/carabiner system) for accessing the hive, but it does not depict a significant event in colony development or story progression. It serves as a transitional setup for a future inspection rather than advancing the main narrative of bee colony establishment and monitoring."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment shows a close-up of a hand manipulating a rope and carabiner system on a wooden disc, revealing a small hole in the wood. While it demonstrates a specific mechanical action related to hive access, the visual content is relatively mundane and lacks striking or diverse elements. Compared to previous segments featuring active bee swarms, colony development, or natural tree cavities, this shot is technically focused and less highlight-worthy. It serves a functional purpose in the tutorial but offers limited visual appeal or memorability."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a technical, hands-on action of securing a rope and carabiner to a tree, with a focus on the physical setup rather than emotional expression. The context is a tutorial on beekeeping, and this moment is procedural, lacking overt emotional cues, tension, or sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "This segment shows minimal new information compared to previous segments. It depicts a mechanical detail of the hive's closure mechanism (rope, carabiner, wooden disc) and a small hole in the wood, but similar rope-securing actions and structural details have been shown in segments 4, 5, 9, and 13. The segment doesn't introduce new beekeeping concepts, colony development stages, or significant procedural steps beyond reinforcing the physical setup already established. The information is largely redundant with prior visual documentation of the hive's access points and closures."
+        }
+      },
+      "final_score": 0.5625
+    },
+    {
+      "segment_id": 15,
+      "start_frame": 5340,
+      "end_frame": 5696,
+      "planner_score": 0.85,
+      "planner_reason": "The segment depicts a key moment in the colony's establishment—the bees clustering on the hive surface after exiting the tree, which directly illustrates the swarm's transition and settling process. This aligns with the tutorial's focus on monitoring hive development and natural beekeeping, showing active colony behavior that is central to the narrative. While not as critical as the initial swarm arrival or honey extraction, it provides valuable visual evidence of colony progress.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment shows bees clustering on a wooden surface, which is a recurring behavior pattern already established in previous segments (segments 6, 7, 8, 10, 11). While it demonstrates colony activity, it does not introduce new narrative progression elements like new inspection events (as seen in segments 3, 9, 12 with specific dates and 'openings'), new hive development stages, or significant changes to the colony's state. The segment essentially reinforces existing visual information about bee clustering behavior without advancing the main story of colony establishment and monitoring documented in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is visually striking and highlight-worthy due to the dynamic, concentrated activity of the bee swarm actively clustering on the weathered wood. The dense, moving mass of bees creates a compelling visual texture and represents a key moment in colony establishment. While the setting (wooden surface) is somewhat similar to previous segments, the active congregation behavior and the sense of bees 'settling into their new location' make this a notable visual event within the tutorial's narrative of hive monitoring and natural beekeeping."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.8,
+          "reason": "The segment depicts a dense swarm of bees rapidly congregating and clustering, which conveys a strong sense of dynamic activity and natural intensity. This evokes feelings of fascination and slight tension due to the close-up, active movement of the swarm, though it aligns with the tutorial's educational tone rather than extreme emotional highs or drama."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.85,
+          "reason": "This segment provides substantial new information by showing the bees actively clustering and settling on a new wooden surface, which represents a distinct behavioral phase in colony establishment. While previous segments showed bees inside the hive or exiting the tree, this captures the dynamic process of swarm congregation on an external surface, adding specific behavioral context to the colony's development timeline. The visual content of dense bee movement on weathered wood offers fresh observational data about their settlement patterns, though it builds upon established knowledge of the colony's presence and activity."
+        }
+      },
+      "final_score": 1.5499999999999998
+    },
+    {
+      "segment_id": 16,
+      "start_frame": 5696,
+      "end_frame": 6052,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows the bees actively establishing their colony inside the hive structure, which is a core element of the tutorial's narrative about natural beekeeping and colony development. While not a major milestone like an opening event, it demonstrates the colony's vitality and progress between inspections, making it important for understanding the hive's ongoing health and activity.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment shows bees actively clustering inside the hive, which demonstrates ongoing colony activity and development. However, it does not introduce a new inspection event, time progression, or significant milestone in the colony's establishment. Compared to previous segments that marked specific openings (April 10, April 21, May 11) with clear temporal progression, this segment appears to be observational footage without advancing the documented timeline or main events of hive monitoring. It contributes minimally to story progression as it lacks the narrative markers present in other segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the dynamic, dense swarm of bees forming a living mass, which is a highlight-worthy moment showcasing active colony behavior. However, it lacks significant diversity compared to previous segments that showed hive openings or bees exiting, as it focuses solely on internal clustering."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment depicts a dense, active swarm of bees forming a living mass, which conveys a sense of natural intensity and collective energy. This evokes moderate emotional engagement through the dynamic and somewhat tense portrayal of the bees' behavior, though it lacks strong human sentiment or dramatic tension typical of higher emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment shows bees clustered inside a wooden structure, which aligns with the tutorial's theme of monitoring a bee colony. However, it largely reiterates the colony's presence and clustering behavior already described in previous segments (e.g., segments 6, 7, 8, 10, 11, 15), offering minimal new information or progression in the hive's development or beekeeping process."
+        }
+      },
+      "final_score": 1.4125
+    },
+    {
+      "segment_id": 17,
+      "start_frame": 6052,
+      "end_frame": 6408,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows a key milestone inspection of the established colony at 11 weeks, demonstrating successful colony development and the beekeeper's ongoing monitoring—central to the tutorial's theme of natural beekeeping.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "This segment contributes moderately to story progression by marking a significant temporal milestone (eleven weeks after founding) and showing the colony's established state. It advances the narrative from periodic inspections to confirming long-term success, but primarily reinforces existing information rather than introducing new plot developments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking and highlight-worthy as it showcases the culmination of the beekeeping process: a thriving, established bee colony within its natural tree cavity habitat. The scene combines several compelling visual elements: the beekeeper's hands actively interacting with the hive (human element), the visible bee activity indicating a healthy colony, the natural wooden textures of the tree cavity, and the text overlay providing specific temporal context (eleven weeks). This represents a key milestone in the tutorial's narrative—the successful establishment and monitoring of the colony—making it both visually engaging and educationally significant. The segment effectively demonstrates the outcome of the natural beekeeping method being taught."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment shows a routine inspection of a bee colony, focusing on practical actions like adjusting a rope. The emotional tone is calm, observational, and instructional, typical of a tutorial. There is no heightened tension, dramatic sentiment, or strong emotional expression; the primary focus is on the process rather than evoking emotion."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment provides some new temporal context ('eleven weeks after its founding') and confirms the colony's successful establishment, which adds to the timeline and outcome understanding. However, the core actions (beekeeper inspection, hand adjusting rope) and the setting (bee colony in tree cavity) are continuations of previously established themes and activities shown in earlier segments. The information about colony thriving status is somewhat incremental rather than fundamentally new, as previous segments already showed colony development and periodic inspections."
+        }
+      },
+      "final_score": 1.3875
+    },
+    {
+      "segment_id": 18,
+      "start_frame": 6408,
+      "end_frame": 6764,
+      "planner_score": 0.85,
+      "planner_reason": "The segment shows the fourth opening of the hive, marking a key milestone in the colony's development timeline. It demonstrates the ongoing monitoring process central to the tutorial's theme of natural beekeeping, showing hands-on intervention for observation and maintenance.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "This segment contributes moderately to story progression by marking a significant temporal milestone (the fourth inspection at eleven weeks) in the colony's development timeline. It shows ongoing monitoring activity, which is central to the tutorial's theme of observing hive establishment. However, it primarily documents routine maintenance rather than revealing new developmental stages or critical events in the colony's growth, limiting its narrative advancement compared to segments showing swarm arrival or major hive changes."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a hand adjusting a rope on a tree opening, which is visually straightforward and lacks striking or diverse elements. While it documents an important monitoring step in the beekeeping process, the action is simple and repetitive compared to previous segments featuring bee swarms or hive interiors. The text overlay provides context, but the visual content itself is not particularly highlight-worthy or dynamic within the tutorial theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a routine, practical action (adjusting a rope on a tree opening) with minimal emotional cues. The text overlay provides factual information (date, event label) without conveying sentiment. The overall tone is observational and instructional, lacking strong emotional expression, tension, or sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment provides minimal new information. It confirms the fourth inspection (June 22, 2013) and shows rope adjustment, but the core actions (opening a hive, inspecting bees) and semantic content (monitoring colony development) are highly similar to previous segments (e.g., segments 9, 12, 13). The date progression is incremental, and the visual of rope manipulation adds little substantive new instructional or semantic value beyond reinforcing the periodic inspection routine already established."
+        }
+      },
+      "final_score": 1.25
+    },
+    {
+      "segment_id": 19,
+      "start_frame": 6764,
+      "end_frame": 7120,
+      "planner_score": 0.85,
+      "planner_reason": "The segment shows a person actively interacting with the hive opening, which is a key moment in the monitoring process documented in the tutorial. This demonstrates human intervention and inspection, a core aspect of the beekeeping tutorial theme. While not as critical as the initial swarm arrival or major colony developments shown in previous segments, it represents an important inspection point (likely the 'Fourth opening' mentioned in the global summary) that shows ongoing care and monitoring of the colony's progress.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment shows a specific action (pointing and pressing into a tree cutout) that is part of the ongoing hive monitoring process, contributing to the progression by depicting a hands-on interaction with the hive structure. However, it does not introduce a new major event or significant development in the colony's story compared to previous inspections, serving more as a procedural step within the established monitoring timeline."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment shows a specific action (hand pointing and pressing into a tree cutout) relevant to the tutorial's theme of hive monitoring, but it lacks the visual diversity or striking imagery seen in earlier segments featuring bee swarms or hive interiors. It is moderately highlight-worthy as it demonstrates a step in the process, but is less visually engaging compared to dynamic bee activity."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "The segment shows a person's hand pointing at and pressing into a tree cutout with ropes secured nearby, which is a practical, instructional action related to tree work or hive access. There is no visible emotional expression, facial cues, or dramatic tension. The sentiment is neutral and procedural, focused on demonstrating a setup step rather than evoking any emotional response. Compared to previous segments with active bee swarms or colony establishment, this segment lacks the inherent tension or emotional engagement found in wildlife observation."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces minimal new information relative to the established context. It shows a person's hand pointing and pressing on a tree cutout with ropes secured nearby, which aligns with the ongoing theme of hive inspection and tree work seen in previous segments (e.g., rope adjustments in segments 17-18). However, it lacks specific new instructional content (e.g., how to perform the action), novel semantic details about the colony's state, or progression in the monitoring timeline beyond what is already known from prior segments. The action is repetitive in nature and does not advance the tutorial's narrative or provide distinct educational value."
+        }
+      },
+      "final_score": 1.2625
+    },
+    {
+      "segment_id": 20,
+      "start_frame": 7120,
+      "end_frame": 7476,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows a key maintenance action (closing/checking the hive opening) during the colony monitoring process. While not as critical as swarm arrivals or major inspections, it demonstrates ongoing human interaction with the hive and represents the 'low-intervention' approach mentioned in the global summary. The action is part of the documented inspection sequence (April 10, April 21, May 11, June 22) and shows practical beekeeping activity relevant to the tutorial theme.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment shows a minor physical action (hand pressing on a wooden plug) that is part of accessing the hive, but it does not reveal new colony development, significant hive changes, or key milestones. It contributes minimally to the overarching story of colony establishment and monitoring, serving more as a procedural step rather than a pivotal event in the narrative progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment shows a visually clear action of a hand pressing and revealing a cut wood surface, which is moderately striking due to the contrast between smooth wood and rough bark. However, it lacks the dynamic diversity or highlight-worthy elements seen in previous segments with active bee swarms or colony inspections, making it less visually impactful overall."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment shows a simple, deliberate physical action (pressing and removing a wooden plug) with no visible emotional expression, facial cues, or dramatic tension. The tone is calm, instructional, and focused on process, consistent with the tutorial theme. While there is mild tactile engagement (touching the wood), it lacks strong sentiment, urgency, or emotional charge compared to earlier segments featuring active bee swarms or colony inspections."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment shows a specific action of pressing and removing a wooden plug, which is a minor procedural step in accessing the hive. While it adds a new visual detail about the physical interaction with the hive structure, it does not introduce significant new information, instruction, or semantic content beyond what was already established in previous segments about hive openings and inspections. The action is routine and lacks substantial educational or content value relative to the tutorial theme."
+        }
+      },
+      "final_score": 1.1875
+    },
+    {
+      "segment_id": 21,
+      "start_frame": 7476,
+      "end_frame": 7832,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows the culmination of the beekeeping process - the successful establishment of a thriving bee colony inside the tree hive. It visually reveals the key outcome (honeycomb production and active colony) that the entire tutorial has been building toward. While not the absolute final step (honey extraction comes later), this represents a major milestone that demonstrates the success of the natural beekeeping method being taught.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "This segment significantly advances the story by showing the culmination of the hive's development: the direct observation of a thriving bee colony and honeycomb inside the tree after multiple periodic inspections. It visually confirms the colony's successful establishment and productivity, which is a key milestone in the tutorial's narrative of natural beekeeping."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking and highlight-worthy due to the dramatic reveal of a dense bee swarm and honeycomb within a hollowed tree, showcasing a key moment in the colony's development. The action of carefully opening the hive and exposing the thriving colony is both diverse from previous inspection scenes and central to the tutorial's theme of natural beekeeping success."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment shows a moment of discovery and activity with the bee swarm, which carries a moderate level of emotional expression through the sense of anticipation and natural wonder. However, it lacks strong dramatic tension or intense sentiment, as it is part of a systematic monitoring process rather than a highly emotional event."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.85,
+          "reason": "The segment introduces a new, significant event: the opening of a hollowed-out pine tree section to reveal a honey bee swarm and their comb, which is a distinct inspection point not previously shown in the memory context. While the theme of hive inspections is established, this specific instance provides fresh visual and semantic content regarding the colony's state and comb development, adding incremental information to the tutorial narrative."
+        }
+      },
+      "final_score": 1.6375
+    },
+    {
+      "segment_id": 22,
+      "start_frame": 7832,
+      "end_frame": 8188,
+      "planner_score": 0.95,
+      "planner_reason": "This segment represents the culmination of the tutorial's core narrative: the successful extraction and inspection of the established colony. It visually demonstrates the outcome of the natural beekeeping process, showing a thriving hive after months of monitoring. This is a key instructional moment, revealing the interior structure and health of the colony, which is central to the tutorial's educational purpose. It provides tangible results for viewers learning about low-intervention hive management.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.95,
+          "reason": "This segment represents a major progression point in the story - the culmination of the monitoring process where the beekeeper successfully accesses and reveals the fully established colony. It directly shows the outcome of the entire project (a thriving hive) and involves active intervention (extraction of the tree section) that demonstrates the colony's successful development. This is a key event that validates the entire beekeeping process documented in the video."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is highly visually striking and highlight-worthy as it represents the culmination of the entire beekeeping process shown in the tutorial. The dramatic reveal of the thriving bee colony when the large circular section is removed creates a powerful visual payoff. The dense coverage of bees on the exposed wood surface, their active movement, and the careful extraction process make this a compelling visual moment. The ropes securing the tree add tension and scale to the operation. While the visual diversity is somewhat limited (focusing on the extraction process), the segment's significance as the successful outcome of the documented process makes it a clear highlight with strong visual impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.8,
+          "reason": "The segment depicts a highly active and intimate moment of hive exposure, with dense bee coverage, bustling activity, and careful human interaction, creating a strong sense of awe, natural wonder, and slight tension from the close proximity to the colony."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.85,
+          "reason": "This segment provides substantial new information and semantic content within the tutorial context. While previous segments showed hive openings and inspections, this segment specifically demonstrates the extraction of a honeycomb frame - a key beekeeping operation that hasn't been explicitly shown before. It advances the tutorial narrative by showing a practical harvesting technique, introduces the visual of a 'large, circular section' being removed (suggesting a different scale of intervention), and depicts the colony's thriving state at this later stage. The action of careful extraction while ropes secure the tree adds new instructional value about safety and methodology in natural beekeeping."
+        }
+      },
+      "final_score": 1.8125
+    },
+    {
+      "segment_id": 23,
+      "start_frame": 8188,
+      "end_frame": 8544,
+      "planner_score": 0.95,
+      "planner_reason": "This segment shows the culmination of the beekeeping process - transferring a honeycomb frame into the tree hive. It directly demonstrates the successful establishment of the colony and the practical outcome of the entire tutorial. This is a key instructional moment showing the final step of hive setup.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "This segment directly depicts a key action in the colony establishment process: installing a honeycomb frame into the tree cavity. It represents a proactive step in hive development, moving beyond mere observation to active intervention for colony support. While it is a significant procedural step, it is part of a series of similar maintenance actions rather than a unique, pivotal event in the overall story timeline."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is visually striking and highlight-worthy as it captures the culmination of the beekeeping process—the careful transfer of a honeycomb frame into the tree hive. The close-up view of the frame teeming with bees is both visually dense and dynamic, showcasing the colony's vitality. The action of placing it into the hollow and securing it with ropes is a key, hands-on moment that emphasizes human interaction with the colony. While the setting and activity are consistent with previous segments, the focus on the honeycomb frame—a symbol of the hive's productivity—adds a new, rewarding visual element that underscores the success of the natural beekeeping method."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a significant moment of human interaction with the bee colony during honeycomb frame placement, conveying a sense of careful stewardship and successful establishment. The action of handling a frame 'teeming with bees' suggests active, visible bee presence and human engagement, which carries moderate emotional weight in the context of a tutorial focused on natural beekeeping. However, the tone remains instructional and observational rather than highly dramatic or emotionally charged, limiting the peak emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The current segment introduces significant new information by showing the active process of transferring a honeycomb frame into the tree cavity, which is a key step in establishing the hive that hasn't been explicitly shown before. While previous segments have shown inspections, openings, and bee activity, this segment specifically demonstrates the practical technique of placing a prepared frame into the hive, adding instructional value about beekeeping methodology. However, it builds upon established context about hive monitoring and bee colony development, so it's not entirely novel but represents an important procedural advancement in the tutorial."
+        }
+      },
+      "final_score": 1.7874999999999999
+    },
+    {
+      "segment_id": 24,
+      "start_frame": 8544,
+      "end_frame": 8900,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows the established, thriving bee colony within the natural tree cavity, which is the culmination of the entire beekeeping process documented in the tutorial. It visually demonstrates the successful outcome of the low-intervention approach, featuring active bees tending to honeycomb structures - a key educational moment about natural hive development. While not the final honey extraction shown later, it represents a major milestone in colony establishment that is central to the tutorial's educational narrative about natural beekeeping.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "This segment contributes significantly to story progression by showcasing the established bee colony in its natural tree cavity, which is the culmination of the hive setup and monitoring process described in the global summary. It visually confirms the colony's thriving state and the beekeeping activity, directly advancing the main event of successful colony establishment. However, it is slightly less pivotal than the initial swarm arrival or the first major inspection, as it represents a later stage of the ongoing monitoring rather than a new development."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the close-up view of a dense, active bee swarm within a natural tree cavity, which is inherently highlight-worthy in a tutorial about beekeeping. The dynamic activity of the bees tending to honeycomb structures creates a compelling and educational focal point. However, it is somewhat similar to previous segments showing bee clusters, reducing its uniqueness."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a dense, active bee swarm in a natural tree cavity, which conveys a sense of vitality, natural wonder, and focused industry. The visual intensity of the bees tending to honeycomb structures evokes a moderate emotional response of fascination and appreciation for nature's processes, though it lacks strong human emotional cues or dramatic tension typical of higher emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment provides some new visual detail about the bee colony's state within the tree cavity, specifically emphasizing the density of the swarm and the presence of honeycomb structures. However, it largely reiterates information already established in previous segments regarding the hive's location, the bees' activity, and the use of ropes for access/security. It does not introduce new temporal information, procedural steps, or significant semantic content beyond reinforcing the colony's established, thriving condition."
+        }
+      },
+      "final_score": 1.5625
+    },
+    {
+      "segment_id": 25,
+      "start_frame": 8900,
+      "end_frame": 9256,
+      "planner_score": 0.85,
+      "planner_reason": "This segment showcases a thriving, established colony actively working on honeycomb frames, which is a key outcome of the tutorial's process. It visually demonstrates the success of the natural beekeeping method and provides educational value on colony behavior and hive management.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "The segment depicts bees actively working on honeycomb frames inside the hive, which is a key stage in colony development and honey production. This directly contributes to the progression of the main event—the establishment and thriving of the bee colony—by showing the colony's ongoing activity and health, building on previous inspections and openings."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "This segment is highly visually striking and highlight-worthy as it showcases the culmination of the beekeeping process: a thriving, established bee colony actively working on honeycomb frames. The dense swarm of bees in motion creates dynamic visual texture and biological activity that is both fascinating and aesthetically compelling. The exposed honeycomb frames provide structural diversity and visual contrast against the moving bees, representing the successful outcome of the natural beekeeping method documented throughout the video. This scene serves as a key payoff moment that demonstrates colony health and productivity, making it particularly highlight-worthy within the tutorial's narrative arc."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment depicts active bee movement and colony work, which conveys a sense of liveliness and purpose, but lacks strong emotional cues like dramatic tension, intense sentiment, or heightened emotional expression typical of more emotionally charged content."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment shows bees actively working on honeycomb frames, which reinforces the established theme of a thriving colony and beekeeping activity. However, it does not introduce new information, instructions, or significant semantic content beyond what has been previously covered in the global summary and recent segments (e.g., colony inspections, hive activity, honeycomb handling). The content is consistent with ongoing monitoring and low-intervention practices already described, offering minimal incremental novelty."
+        }
+      },
+      "final_score": 1.5125
+    },
+    {
+      "segment_id": 26,
+      "start_frame": 9256,
+      "end_frame": 9612,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment depicts active bee behavior on honeycomb frames, which is a core tutorial element demonstrating colony health and productivity. It reinforces the tutorial's educational goal of showing hive development and natural beekeeping practices. However, it is somewhat repetitive of previous segments showing bee activity, reducing its uniqueness.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment shows ongoing colony activity and maintenance, which is part of the established hive's routine, but it does not introduce a new event, inspection, or milestone in the timeline. It reinforces the colony's thriving state but does not significantly advance the story beyond the previous segments that already depicted active hive behavior."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking due to the dynamic, close-up view of a dense bee swarm actively moving across honeycomb frames, which captures the essence of a thriving colony. The constant, purposeful activity of the bees is highlight-worthy as it showcases natural beekeeping success. However, it is somewhat similar to previous segments showing bee activity within hives, reducing its uniqueness and diversity in the broader video context."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts bees actively moving and clustering around honeycomb frames, which conveys a sense of industriousness and natural colony behavior. However, there is no explicit emotional expression, dramatic tension, or strong sentiment conveyed beyond the neutral observation of bee activity. The emotional impact is minimal, focused on factual documentation rather than evoking strong feelings."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment shows bees clustering around honeycomb frames, which is consistent with previous segments depicting bee activity within the hive. While it reinforces the colony's thriving state, it does not introduce new information, instructions, or semantic content beyond what has already been established in the global summary and recent segments (e.g., colony development, hive inspections). The action is repetitive of earlier descriptions of bee behavior and hive activity."
+        }
+      },
+      "final_score": 1.35
+    },
+    {
+      "segment_id": 27,
+      "start_frame": 9612,
+      "end_frame": 9968,
+      "planner_score": 0.85,
+      "planner_reason": "The segment showcases a key aspect of the tutorial's theme: the thriving, established colony actively working on honeycomb structures. This represents the successful outcome of the natural beekeeping process documented throughout the video. While it is a continuation of the colony's activity shown in previous segments, it visually reinforces the colony's health and productivity, which is central to the tutorial's educational purpose. However, it may be slightly less critical than segments showing the initial swarm arrival, hive setup, or first major inspections, as it depicts an ongoing state rather than a pivotal milestone.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment shows ongoing bee activity on honeycomb structures, which is consistent with colony maintenance but does not introduce new story progression elements. It continues the established pattern of observing bee behavior within the hive, similar to previous segments 11, 25, and 26. No new events, time markers, colony developments, or human interventions are shown that would advance the narrative beyond what has already been established in the global summary and recent segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the dense, active swarm of bees covering the honeycomb structure, creating dynamic movement and texture. The intricate hexagonal cells of the comb provide a compelling geometric pattern. This represents a key highlight in the tutorial—showing a thriving, established colony at work—which is both visually engaging and central to the video's educational purpose."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.8,
+          "reason": "The segment depicts a dense swarm of bees actively moving and clinging to a honeycomb structure, showcasing bustling colony activity. This conveys a strong sense of vitality, purpose, and natural energy. The bees' constant motion and the focus on their intricate work evoke a positive, industrious sentiment with moderate intensity. While not overtly dramatic or emotionally charged, the scene's liveliness and focus on thriving life generate a clear, positive emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "The segment shows bees on a honeycomb, which is consistent with the established theme of colony activity and hive inspections. However, it introduces minimal new information compared to previous segments that detailed specific openings, dates, hive setup, or honeycomb extraction. The semantic content is largely repetitive of earlier descriptions of bee activity within the hive."
+        }
+      },
+      "final_score": 1.375
+    },
+    {
+      "segment_id": 28,
+      "start_frame": 9968,
+      "end_frame": 10324,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows direct human interaction with the established bee colony, revealing the intricate comb structure that represents the colony's productive core. In a tutorial context, this demonstrates key beekeeping techniques (gentle inspection) and provides educational value by visualizing the hive's internal architecture. It represents a culmination of the colony's development shown throughout the video, making it highly relevant for a summary that aims to showcase successful hive establishment and natural beekeeping practices.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "This segment contributes moderately to story progression by showing direct human interaction with the established hive core, revealing the comb structure that represents the colony's development success. However, it's more observational than a major narrative turning point compared to previous key events like swarm arrival or major hive openings."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the intimate, close-up interaction with the bee cluster, revealing the intricate honeycomb structure beneath the active swarm. This highlights the core of hive activity and showcases natural beekeeping in a dynamic, engaging manner, making it a highlight-worthy moment in the tutorial."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment depicts a hand interacting with a dense bee cluster, which introduces a moderate level of tension and engagement due to the proximity to active bees, but the overall tone remains observational and focused on natural beekeeping rather than high emotional intensity or dramatic sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment provides moderate new information by showing direct human interaction with the bee cluster and revealing the comb structure beneath, which adds a tactile, detailed perspective on hive inspection not explicitly covered in recent segments. However, it continues the theme of hive activity and inspection already established, so the novelty is incremental rather than foundational."
+        }
+      },
+      "final_score": 1.5625
+    },
+    {
+      "segment_id": 29,
+      "start_frame": 10324,
+      "end_frame": 10680,
+      "planner_score": 0.85,
+      "planner_reason": "This segment demonstrates a key moment of active hive inspection and reveals the colony's thriving state, which is central to the tutorial's theme of monitoring bee colony development. It shows hands-on interaction with the hive, exposing the internal structure and bee activity, making it valuable for educational content about beekeeping practices and colony health assessment.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment shows a direct inspection of the hive's interior, revealing the colony's active state and comb structure, which contributes to documenting the colony's development and health. However, it is part of a routine inspection rather than a major milestone or turning point in the story, such as the initial swarm arrival or a significant harvest, so its contribution to story progression is moderate."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the close-up, detailed view of the active bee colony on the honeycomb, which is inherently dynamic and highlight-worthy. It showcases the core activity of the hive—the bees' bustling work—which is central to the tutorial's theme of natural beekeeping. The action of lifting the hive box adds a sense of discovery and engagement, enhancing its visual appeal."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment depicts a person's hand gently interacting with a dense, active bee colony, which conveys a sense of careful engagement and natural wonder. The description of bees 'swarming over and within their hexagonal wax comb' and the 'bustling interior' suggests moderate emotional expression through the awe of observing a thriving ecosystem. However, the tone remains observational and instructional, typical of a tutorial, without intense tension or heightened sentiment, limiting the emotional strength."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment shows a person lifting a beehive box to reveal bees on honeycomb, which visually reinforces the established colony's activity. However, this action and scene are highly similar to previous segments (e.g., segments 22, 24, 25, 26, 28) that already depicted hive inspections, honeycomb handling, and bee activity. It adds minimal new instructional or semantic content beyond confirming ongoing monitoring, which is already well-covered in the memory context."
+        }
+      },
+      "final_score": 1.4625
+    },
+    {
+      "segment_id": 30,
+      "start_frame": 10680,
+      "end_frame": 11036,
+      "planner_score": 0.85,
+      "planner_reason": "The segment depicts a thriving bee colony inside a hollow tree trunk, showcasing the culmination of the natural beekeeping process documented throughout the tutorial. This represents the successful establishment and active maintenance of the hive, which is a key educational outcome for viewers learning about low-intervention beekeeping. While similar to previous segments showing bee activity, it reinforces the colony's health and integration into the natural tree cavity, making it important for the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment shows ongoing bee activity within the hive, which is consistent with the colony's established state, but it does not introduce new narrative developments, temporal markers, or significant changes in the colony's condition compared to previous segments. It maintains the established scene of a thriving hive but does not advance the story beyond what has already been shown in recent segments (e.g., segments 24-29)."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment is visually striking and highlight-worthy due to the dynamic, collective motion of a dense bee swarm within a natural tree cavity, showcasing the colony's bustling activity and the intricate honeycomb structures. This represents a key, visually engaging moment in the beekeeping process, emphasizing natural hive establishment."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.7,
+          "reason": "The segment depicts a dense swarm of bees actively moving around honeycomb structures, conveying a sense of liveliness and natural activity. While there is inherent tension due to the presence of a large number of bees and their collective motion, the emotional expression is more focused on natural behavior and observation rather than high drama or intense sentiment. The context of a tutorial and previous segments suggests a calm, educational tone, which moderates the emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment shows bees moving around honeycomb structures inside a hollow tree trunk, which reinforces the established theme of bee colony development in a natural hive. However, this visual information is highly repetitive with previous segments (6, 7, 10, 11, 15, 16, 21, 24-29) that have already shown bee clusters, hive activity, and honeycomb structures. The segment provides minimal new semantic content beyond confirming ongoing colony activity, without introducing new temporal markers, beekeeping techniques, developmental stages, or observational insights not already covered in the memory context."
+        }
+      },
+      "final_score": 1.4
+    },
+    {
+      "segment_id": 31,
+      "start_frame": 11036,
+      "end_frame": 11414,
+      "planner_score": 0.85,
+      "planner_reason": "This segment introduces the documentary's title ('Gaia Bees') and establishes the filmmaking approach (no smoke, following bee flow), which frames the entire video's perspective as respectful, observational, and natural. While it doesn't show new colony development steps, it provides important contextual framing about the video's ethos and production style, which is valuable for understanding the tutorial's low-intervention philosophy. However, it's slightly less critical than segments showing key inspection dates or colony milestones.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment introduces a stylistic and thematic framing ('Gaia Bees' title card, documentary approach, no-smoke filming philosophy) but does not advance the chronological story progression or main events of colony establishment and monitoring. While it provides context about the filming methodology, it pauses the narrative timeline rather than moving it forward, contributing minimally to the core story progression dimension."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the close-up of a bustling beehive inside a hollow tree trunk, showcasing natural bee activity in a unique, immersive setting. The introduction of the 'Gaia Bees' title card adds a documentary-style highlight, emphasizing respectful filming techniques (no smoke, following bee flow), which enhances its educational and aesthetic appeal. However, it is somewhat similar to previous segments focusing on bee colonies, reducing diversity, though the cinematographic context elevates its highlight-worthiness."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment establishes a calm, observational tone with a focus on natural beekeeping practices, as indicated by the title card's mention of filming without smoke and following the bees' flow. While it depicts active bee behavior, the emotional expression is subdued and instructional rather than intense, aligning with a documentary style that prioritizes respect and minimal intervention over dramatic tension or strong sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The segment introduces significant new information by explicitly stating the documentary's title ('Gaia Bees') and its filming philosophy (without smoke, following the bees' flow), which adds a new thematic layer about the approach to beekeeping and cinematography. While the visual content of bees in a hive is consistent with previous segments, this contextual and methodological insight is novel and enhances the tutorial's instructional value regarding natural, low-intervention practices."
+        }
+      },
+      "final_score": 1.4375
+    }
+  ]
+}

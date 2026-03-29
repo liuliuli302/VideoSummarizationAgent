@@ -1,0 +1,965 @@
+{
+  "video_id": "AwmHb44_ouw",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 331,
+      "planner_score": 0.85,
+      "planner_reason": "The segment features the tutorial presenter speaking directly to the camera, which is crucial for establishing context, introducing topics, and guiding the viewer. In a tutorial video, direct-to-camera explanations are typically high-value for the summary as they convey key instructions and maintain engagement. The outdoor setting aligns with the global summary's description. However, without specific demonstration of the tire maintenance tasks mentioned, it is slightly less critical than hands-on action segments.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily features the host introducing himself or setting the scene, which is a standard tutorial opening but does not advance the specific tire maintenance tasks described in the global summary. It contributes minimally to story progression as it lacks demonstration or explanation of the main events like jacking, cleaning, or repairing tires."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment is a straightforward talking-head shot in a static outdoor setting with minimal visual diversity or striking elements. While the speaker is clear and the environment is relevant to the tutorial theme, it lacks dynamic action, varied composition, or highlight-worthy visuals that would make it stand out."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment features a calm, instructional delivery typical of tutorials, with no visible emotional intensity, tension, or strong sentiment; the setting and direct address are neutral and focused on explanation rather than evoking emotion."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment introduces the speaker and setting but provides minimal new instructional or semantic content related to tire maintenance, as it primarily establishes context without advancing the tutorial's core tasks or information."
+        }
+      },
+      "final_score": 1.1
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 331,
+      "end_frame": 662,
+      "planner_score": 0.7,
+      "planner_reason": "The segment introduces a key prop (discarded tire) and a tool (spray bottle) relevant to tire maintenance, which aligns with the tutorial's practical demonstration aspect. However, it is still in the introductory/setup phase rather than showing the core repair actions, so it's moderately important for context but not critical.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment introduces a discarded tire and a spray bottle, which are key props for the tutorial's practical demonstration, thereby advancing the story from general introduction to specific repair tasks."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment includes a cut to a discarded tire and spray bottle, which adds some visual diversity and relevance to the tutorial theme, but it remains largely static with a person speaking to the camera, lacking dynamic or highly striking visuals."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment features a calm, instructional tone typical of tutorials, with no heightened emotional expression, tension, or sentiment. The speaker's demeanor is neutral and explanatory, and the visual cut to a tire and spray bottle serves a practical, demonstrative purpose rather than evoking any emotional response."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces new visual elements (discarded tire, spray bottle) that suggest upcoming practical steps in tire maintenance, adding specific instructional content beyond the general introduction in the previous segment."
+        }
+      },
+      "final_score": 1.275
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 662,
+      "end_frame": 993,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment is highly important as it features the presenter speaking directly to the camera in the tutorial's primary setting (backyard/work area), likely delivering key explanations or instructions related to tire maintenance. The presence of the tire and spray bottle reinforces the practical, hands-on theme of the tutorial. While it may not show active repair work, direct presenter engagement and setup context are crucial for viewer understanding and narrative flow in tutorial summaries.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily features the man speaking to the camera in a static setting, similar to previous segments, without depicting new actions or steps in the tire maintenance tutorial. It introduces a tire and spray bottle as props, but lacks progression in demonstrating or explaining repair tasks, contributing minimally to story or main event advancement."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment is visually straightforward and consistent with the tutorial theme, showing the presenter speaking to the camera in an outdoor setting with relevant props (tire, spray bottle). However, it lacks striking visual elements, dynamic camera work, or notable diversity in shots compared to previous segments. The composition is functional but not particularly highlight-worthy, as it primarily serves to deliver instructional content rather than capture attention through unique visuals or dramatic moments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment features a calm, instructional tone typical of a tutorial, with no visible emotional expressions, dramatic tension, or strong sentiment; the setting and delivery are neutral and focused on explanation."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces a new setting (backyard with wooden fence and brick wall) and slightly refines the objects present (large tire and spray bottle), but it largely reiterates the established tutorial context and actions without adding substantial new instructional or semantic content beyond minor environmental details."
+        }
+      },
+      "final_score": 1.125
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 993,
+      "end_frame": 1324,
+      "planner_score": 0.65,
+      "planner_reason": "The segment introduces the vehicle that will be worked on (maroon minivan), establishing the practical context for the tutorial. While it contains setup/contextual information rather than direct repair steps, showing the specific vehicle is moderately important for grounding the tutorial in a real-world scenario. The pan to the minivan provides visual continuity and sets up subsequent repair demonstrations.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment significantly advances the tutorial's practical context by introducing the specific vehicle (maroon minivan) that will likely be the subject of the demonstrated tire maintenance tasks. While the man continues speaking in an outdoor setting consistent with previous segments, the camera pan to reveal the vehicle establishes the concrete object of the repair work, moving from general introduction to specific application. This transition from explanatory setup to showing the actual equipment/vehicle represents meaningful progression toward the hands-on demonstration phase of the tutorial."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment maintains the tutorial's consistent visual style but lacks striking or highlight-worthy elements. While the pan to the maroon minivan introduces a new vehicle element relevant to the tire maintenance theme, the scene remains visually similar to previous segments (outdoor setting, man speaking, brick wall/fence background). There is minimal visual diversity or dynamic action that would make this segment particularly memorable or engaging as a standalone highlight."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment maintains a calm, instructional tone typical of a tutorial, with no heightened emotional expression, tension, or strong sentiment evident in the visual description or implied action."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces a new visual element (the maroon minivan) which provides some contextual information about the vehicle involved in the tutorial, but it does not add substantial new instructional or semantic content beyond what was already established in the global summary and previous segments regarding the setting and the man's presence."
+        }
+      },
+      "final_score": 1.0750000000000002
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1324,
+      "end_frame": 1655,
+      "planner_score": 0.3,
+      "planner_reason": "The segment shows the vehicle being worked on, which is relevant to the tutorial's subject (tire maintenance on a minivan). However, it is a static shot without active demonstration or explanation, providing only contextual location rather than instructional value. Compared to segments where the host speaks or demonstrates tasks, this has lower importance for a tutorial summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily establishes the setting by showing the vehicle to be worked on, but it lacks active demonstration or explanation of tire maintenance tasks, contributing minimally to story progression beyond visual context."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a stationary vehicle in a driveway with sunlight glinting off it, which adds some visual interest through lighting. However, it lacks dynamic action, significant diversity from previous segments (which also featured outdoor settings and vehicles), and is not a highlight-worthy moment in a tutorial context focused on tire maintenance tasks."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a stationary vehicle in a calm outdoor setting with no human presence or action. There is minimal emotional expression, tension, or sentiment conveyed, aligning with the tutorial's instructional tone but lacking any heightened emotional cues."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment provides minimal new information or instruction relative to the tutorial theme. It visually establishes the vehicle's location and context, but does not introduce new maintenance tasks, tools, or procedural steps. It primarily serves as a static scene setting rather than delivering substantive tutorial content."
+        }
+      },
+      "final_score": 0.55
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 1655,
+      "end_frame": 1986,
+      "planner_score": 0.3,
+      "planner_reason": "The segment shows vehicles parked and zooms in on a tire/rim, which is relevant to the tutorial's theme of tire maintenance. However, it lacks active demonstration or explanation compared to segments showing hands-on work, tools, or direct instruction. It serves as scene-setting/context but is less critical for a summary focused on actionable steps.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily establishes the setting and focuses on visual details of stationary vehicles, with minimal direct progression of the tutorial's main events or story. While it introduces a new vehicle (blue minivan) and zooms in on a tire/rim, which could set up future maintenance tasks, it lacks active demonstration, explanation, or narrative advancement compared to prior segments that involved direct instruction or scene changes. It serves more as a transitional or setup shot rather than driving the core tutorial forward."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a static scene of parked vehicles with a zoom-in on a dirty tire and rim, which is relevant to the tutorial theme but lacks dynamic action, significant visual diversity, or a clear highlight moment compared to previous segments featuring active demonstrations or explanations."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment shows stationary vehicles in a workyard setting with minimal emotional expression, tension, or sentiment. As a tutorial segment focused on tire maintenance demonstration, it maintains a neutral, instructional tone without heightened emotions, dramatic tension, or strong sentiment. The content is purely informational and observational."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment introduces a new vehicle (blue minivan) and focuses on its front wheel, providing some new visual details about the tire and rim. However, it does not add substantial new information, instruction, or semantic content beyond what was already established in the global summary and previous segments (e.g., vehicles in an outdoor setting, tire-related context). The content is largely descriptive and reinforces the setting without advancing the tutorial's instructional narrative."
+        }
+      },
+      "final_score": 0.55
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 1986,
+      "end_frame": 2317,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important for a tutorial video on tire maintenance as it shows the critical first step of jacking up a vehicle—a fundamental safety and procedural action. The direct visual demonstration of using a floor jack provides clear instructional value that aligns with the tutorial theme. While the previous segments established context and tools, this segment transitions into hands-on repair work, making it essential for viewers learning the practical process.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment significantly advances the story by transitioning from setup and vehicle introduction to active mechanical work. It shows a person using a floor jack to lift the vehicle, directly initiating a key tire maintenance task (tire change or repair) central to the tutorial's theme. While it builds on prior context (vehicle identification), it marks a clear progression into hands-on demonstration, moving the narrative forward from preparation to action."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment shows a key action (using a floor jack to lift a vehicle) that is highlight-worthy for a tire maintenance tutorial, adding visual interest through dynamic activity. However, the setting (dirt road, parked car) is similar to previous segments, limiting visual diversity and striking impact compared to more varied or dramatic repair scenes."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment shows a practical demonstration of vehicle jacking with minimal emotional expression. The content is instructional and factual, focusing on the mechanical process rather than conveying strong emotions, tension, or sentiment. The tone remains neutral and informative, consistent with a tutorial video's purpose."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment introduces new visual information by showing a specific vehicle (blue car with Ontario license plate 'APZY 380') and a concrete action (using a floor jack to lift it), which advances the tutorial's practical demonstration from setup to active repair. However, it lacks explicit verbal instruction or detailed explanation, relying on visual cues to imply the start of a tire change, thus providing moderate but not comprehensive new content."
+        }
+      },
+      "final_score": 1.4
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 2317,
+      "end_frame": 2648,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment depicts a critical, hands-on step in tire maintenance—using a hydraulic floor jack to lift a vehicle. This is a core procedural action in a tutorial video, directly aligning with the theme of demonstrating repair tasks. It follows logically from the previous context (vehicle shown, jack introduced) and represents an essential, instructional moment that viewers would need to see in a summary to understand the practical execution of the task.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "This segment shows active progression of the tutorial's main task - vehicle lifting for tire maintenance. While previous segments established context (vehicles, tools, location), this segment demonstrates the first hands-on mechanical action: using a hydraulic jack to lift a vehicle. This directly advances the practical repair sequence from setup to execution, though it's still an early step in the overall tire maintenance process."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking and highlight-worthy due to the dynamic action of lifting a heavy object with a hydraulic floor jack, featuring clear, focused visuals of the red and black jack in operation on a concrete surface. It represents a key tutorial step with practical engagement, though it lacks extreme diversity compared to earlier static vehicle shots."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a practical, instructional action of using a hydraulic jack to lift a vehicle, which carries a mild sense of focus and caution inherent to mechanical tasks. However, there is no overt emotional expression, dramatic tension, or strong sentiment conveyed; the tone remains neutral and tutorial-focused, consistent with the video's educational theme."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces a new, specific action—using a hydraulic floor jack to lift a heavy object—which is a key procedural step in tire maintenance not previously shown. While the context of jacking a vehicle was hinted in segment 6, this segment provides explicit visual detail of the jack's operation, adding instructional value."
+        }
+      },
+      "final_score": 1.525
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 2648,
+      "end_frame": 2979,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment depicts a core tutorial action—lifting a vehicle with a jack and manually removing a tire from its rim. This is a fundamental, hands-on step in tire maintenance/repair, directly aligning with the tutorial theme and the global summary's focus on tire tasks. It follows logically from the previous jacking segment (segment 7) and progresses the instructional sequence toward tire removal and inspection, which is essential for learning the procedure. While not the final or most complex step, it is a key demonstration of practical skill application.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the tutorial's main event progression by showing the active removal of a tire from its rim, a key step in tire maintenance or repair. It builds directly on the previous segment's jacking action, moving from preparation to hands-on repair work, which is central to the video's instructional purpose."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment shows active, hands-on repair work (jacking a car and removing a tire), which is more visually engaging and highlight-worthy than previous static or talking segments. However, the setting and visual style remain similar to earlier segments (outdoor backyard/work area), limiting diversity and striking impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts practical, hands-on vehicle repair activities, which carry a neutral to slightly focused tone typical of instructional content. There is no evident strong emotional expression, heightened tension, or pronounced sentiment; the actions are methodical and instructional in nature."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The current segment introduces new, actionable instructional content by showing the specific process of using a jack to lift a vehicle and manually removing a tire from its rim for inspection or replacement. This advances the tutorial's practical demonstration beyond previous segments that primarily set the scene or showed stationary vehicles, providing significant new semantic content related to tire maintenance procedures."
+        }
+      },
+      "final_score": 1.5375
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 2979,
+      "end_frame": 3310,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows hands-on tire work (rotating/adjusting) which is a core tutorial action in tire maintenance. It directly follows jacking up the vehicle and precedes mounting/removal, making it a key procedural step. The tutorial theme values demonstration of techniques, and this segment visually explains tire handling. However, it's slightly less critical than segments showing jacking or actual mounting/dismounting, as it's a transitional preparation step.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment directly continues the hands-on tire maintenance task from the previous segment, showing the tire being rotated and adjusted, which is a key step in the repair process. It advances the tutorial's practical demonstration by moving from lifting the vehicle to actively handling the tire, contributing to the progression of the main event."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a person working on a tire outdoors, which is relevant to the tutorial theme, but it is a routine, close-up action without dynamic movement, special effects, or significant visual diversity compared to previous segments. It lacks striking or highlight-worthy elements, being more instructional than visually engaging."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a practical, hands-on task with no overt emotional cues. The focus is on mechanical action, and the tutorial context suggests a neutral, instructional tone. Any emotional expression is minimal, tied to focused engagement rather than strong sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces the specific action of rotating and adjusting a tire on the ground, which adds a procedural step in tire maintenance. However, it builds directly on the previous context of tire removal and rim work, offering incremental rather than entirely new information. The core theme of tire repair remains consistent, limiting novelty."
+        }
+      },
+      "final_score": 1.3250000000000002
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 3310,
+      "end_frame": 3641,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important for the tutorial's practical demonstration phase. It shows the direct application of tire maintenance skills on a specific vehicle type (ATV/UTV), which expands the tutorial's scope beyond standard passenger vehicles. The hands-on action of using a wrench on lug nuts reinforces core mechanical skills introduced earlier. While not the initial setup or most dramatic moment, it represents a key procedural step that viewers would need to see for a comprehensive understanding of tire work across different vehicles.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment shows a specific, hands-on action (using a wrench on lug nuts) that directly advances the tutorial's practical demonstration of tire maintenance, moving from vehicle lifting to active wheel work, though it is a continuation rather than a major new step."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment shows active mechanical work with clear tool usage (wrench on lug nuts) and focuses on a specific task (securing/removing wheel), which is more visually engaging than static shots or simple panning. The rugged tire and star-shaped hub add some visual interest compared to standard car tires. However, the setting remains similar to previous segments (outdoor dirt ground), and the action is somewhat routine for a tire maintenance tutorial, lacking exceptional diversity or dramatic highlights."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a practical, hands-on task involving tire maintenance with focused mechanical action. While there is a clear sense of purpose and engagement in the work, the emotional expression is minimal, as the tutorial context prioritizes instructional clarity over emotional conveyance. There is no evident tension or strong sentiment beyond the neutral, task-oriented atmosphere typical of a DIY tutorial."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces a new, specific task (working on an ATV/UTV tire with a wrench on lug nuts) and a new vehicle type, adding practical instructional content beyond previous segments focused on minivans or general tire removal. However, it still aligns with the overarching theme of tire maintenance, so it's not entirely novel."
+        }
+      },
+      "final_score": 1.5
+    },
+    {
+      "segment_id": 11,
+      "start_frame": 3641,
+      "end_frame": 3972,
+      "planner_score": 0.65,
+      "planner_reason": "The segment shows a practical step in tire maintenance—rotating and positioning a tire—which aligns with the tutorial's hands-on theme. However, it is less critical than core actions like jacking, removing, or mounting tires, and the muddy condition adds minor visual interest but not essential instructional value. It reinforces the outdoor, DIY setting but is moderately important for continuity.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment shows a person rotating a muddy off-road tire on the ground, which is a minor preparatory step in tire maintenance. While it continues the theme of tire work, it does not introduce new tools, techniques, or significant narrative development compared to previous segments involving jacking, removing, or securing tires. The action is repetitive and lacks progression in the tutorial's main events."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment shows a dynamic action of rotating a large, muddy off-road tire with a foot, which is visually engaging and highlights a hands-on aspect of tire maintenance. However, it is similar in setting and subject to previous segments (outdoor tire work), reducing diversity, and lacks highly striking elements like close-ups, tools in use, or dramatic lighting."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a practical, hands-on task of rotating a muddy tire with minimal expressive cues. The tutorial context and neutral action result in low emotional intensity, tension, or sentiment, focusing on instructional demonstration rather than emotional engagement."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment shows a person rotating a muddy off-road tire with their foot, which is a specific action in tire handling. However, this action is relatively simple and follows previous segments that already covered tire removal, cleaning, and work on rims. It adds minimal new instructional or semantic content beyond reinforcing manual tire manipulation techniques, with limited novelty compared to earlier detailed steps like jacking up a vehicle or using tools on lug nuts."
+        }
+      },
+      "final_score": 1.0
+    },
+    {
+      "segment_id": 12,
+      "start_frame": 3972,
+      "end_frame": 4303,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows a key procedural step in tire maintenance—working on the wheel's center, likely involving hub or bearing components—which is essential for a tutorial on tire repair. It continues the hands-on demonstration theme, maintains visual and thematic consistency with previous segments, and provides practical instruction. However, it's slightly less critical than segments showing initial setup (jacking) or core tire removal/mounting steps, as it focuses on a specific sub-task within the broader process.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment continues the tire maintenance task but shows a repetitive action (manipulating the wheel's center) without introducing a new step or significant progression in the tutorial's main event sequence, contributing minimally to story advancement."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment shows a person actively working on a large, muddy off-road tire, which is visually distinct from the cleaner tires and vehicles seen earlier, adding some diversity. The action is hands-on and highlight-worthy as it demonstrates a specific repair task, but the setting and muddy tire are similar to the previous segment, reducing its striking impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment shows routine mechanical work on a tire with focused physical activity, but lacks strong emotional expression, dramatic tension, or pronounced sentiment. The tutorial context and practical nature result in a neutral, instructional tone without heightened emotional cues."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment continues the tire maintenance theme but shows limited new information compared to previous segments. While it introduces the specific action of using a tool on the wheel's center (potentially for valve stem or hub work), this is still within the established context of tire/rim manipulation seen in segments 8-11. The setting (outdoors, muddy tire, spray bottle) and general activity remain similar to recent segments, offering incremental rather than substantially new instructional content."
+        }
+      },
+      "final_score": 1.275
+    },
+    {
+      "segment_id": 13,
+      "start_frame": 4303,
+      "end_frame": 4634,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment directly demonstrates a key tire maintenance step (cleaning) in a tutorial context, showing hands-on application of cleaning solution with a spray bottle on a rugged tire. This is a practical, actionable instruction that viewers can replicate, aligning with the tutorial theme and global summary's focus on tire repair tasks. While not as critical as safety or core repair steps like jacking or removal, it contributes to the completeness of the maintenance process and reinforces the tutorial's educational value.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment shows a specific maintenance action (cleaning a tire) which is a step in the overall tire care process, but it does not significantly advance the core narrative or main event progression of the tutorial. It is a preparatory or intermediate step rather than a key instructional milestone like jacking, removing, or mounting the tire."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a specific, hands-on action of cleaning a tire, which is relevant to the tutorial theme, but it is visually similar to previous segments involving tire handling in an outdoor setting. The action is routine and lacks dynamic movement, striking composition, or significant visual diversity compared to earlier segments like jacking up a vehicle or removing a tire, making it less highlight-worthy."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment shows a practical cleaning task with minimal emotional expression. The action is methodical and instructional, lacking strong tension, sentiment, or emotional intensity typical of dramatic or emotionally charged content. The tutorial context prioritizes demonstration over emotional engagement."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces the specific action of cleaning a tire with a spray bottle, which is a new procedural step not explicitly shown in previous segments. However, this action is closely related to the established tire maintenance theme and follows logically from previous tire handling and preparation steps. The information value is moderate as it adds a specific cleaning technique but doesn't fundamentally advance the tutorial's core instructional narrative beyond refinement of previously established maintenance tasks."
+        }
+      },
+      "final_score": 1.1749999999999998
+    },
+    {
+      "segment_id": 14,
+      "start_frame": 4634,
+      "end_frame": 4965,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows hands-on technical work with tools on the tire rim, which is a core repair task in tire maintenance tutorials. It follows logically from previous cleaning/preparation steps and demonstrates actual mechanical adjustment—a key instructional moment. However, it's somewhat similar to earlier tool-use segments (segments 10, 12), slightly reducing uniqueness.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "The segment shows hands-on work on the wheel rim, which is a specific step in tire maintenance or repair, advancing the tutorial's demonstration from cleaning to mechanical adjustment. However, it is a continuation of the previous segment's focus on the same tire, so the progression is incremental rather than a major new event."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment shows hands-on mechanical work with tools on a muddy tire, which is more visually engaging than static shots or simple pans, but it is similar in setting and action to several preceding segments, reducing its novelty and highlight impact within the overall tutorial."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment shows practical, hands-on work with tools on a muddy tire, which conveys a sense of focused effort and physical engagement. However, as part of a tutorial video, the emotional expression remains instructional and neutral rather than intense. There is no heightened tension, drama, or strong sentiment—just methodical repair activity in an outdoor setting."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment continues the established tutorial theme of tire maintenance, focusing on rim adjustment or removal, which is a logical progression from previous actions like cleaning and manipulating the tire. However, it introduces minimal new information or instruction beyond reinforcing the ongoing process, as similar tool use and manual manipulation have been shown in prior segments (e.g., segments 10, 12). The semantic content is largely repetitive within the context of the video's step-by-step demonstration."
+        }
+      },
+      "final_score": 1.2999999999999998
+    },
+    {
+      "segment_id": 15,
+      "start_frame": 4965,
+      "end_frame": 5296,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows a key procedural step in tire maintenance—removing a tire from the rim—which is central to the tutorial's educational purpose. It demonstrates manual technique, tool usage, and handling challenging conditions (mud, grit), adding practical value. While similar to earlier rim/tire work segments, the close-up, hands-on focus reinforces skill transfer. It is important but not unique enough for the highest score, given prior coverage of related actions.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment directly depicts a key step in tire maintenance—removing a tire from the rim—which is a core procedural action in the tutorial's narrative of tire repair. It builds on previous setup and cleaning steps, advancing the hands-on demonstration phase significantly."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is visually striking due to the close-up shots highlighting gritty, wet conditions and manual effort, which are highlight-worthy as they depict a key, hands-on repair step. It adds diversity by focusing on tire removal in muddy conditions, contrasting with cleaner or stationary scenes in previous segments, though it maintains the tutorial's consistent outdoor setting."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts manual labor in a gritty, muddy environment, which conveys a sense of effort and physical challenge, but lacks strong emotional expression, tension, or sentiment typical of more dramatic or emotionally charged content. The focus is on a procedural task in a tutorial context, with neutral instructional tone."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment shows a specific tire removal technique using tools on a muddy tire, which adds some new procedural detail about the disassembly process. However, this continues the established theme of tire maintenance without introducing fundamentally new concepts, tools, or techniques beyond what was already implied in previous segments about tire work. The muddy condition and close-up shots provide minor visual variation but not substantial informational novelty."
+        }
+      },
+      "final_score": 1.4375
+    },
+    {
+      "segment_id": 16,
+      "start_frame": 5296,
+      "end_frame": 5627,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows a core tutorial action—removing or adjusting lug nuts on an off-road tire—which is a fundamental step in tire maintenance/repair. It directly continues the hands-on demonstration theme, adds practical skill instruction, and fits the tutorial's progression from jacking up the vehicle to tire removal and cleaning. However, it is somewhat similar to earlier segments showing lug nut work (e.g., segment 10), slightly reducing uniqueness.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment contributes significantly to story progression by depicting a specific, active step in tire maintenance—removing or adjusting lug nuts on an off-road tire. This action advances the tutorial's practical demonstration, building on previous steps like jacking up the vehicle and cleaning the tire, and moves the narrative toward wheel disassembly or repair."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a specific mechanical action (removing/adjusting lug nuts on an off-road tire) which is relevant to the tutorial theme, but it lacks visual diversity or striking elements compared to previous segments. The setting (outdoors on dirt ground) and subject (rugged tire work) are consistent with earlier segments, offering no new visual variety or highlight-worthy moments beyond the ongoing procedural demonstration. The action is practical but not particularly dynamic or visually engaging beyond standard tutorial footage."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a routine mechanical task (adjusting lug nuts on an off-road tire) in a tutorial context. The emotional expression is neutral and instructional, with no visible tension, sentiment, or heightened emotional cues. The focus is on practical demonstration rather than evoking or conveying strong emotions."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment continues the theme of tire maintenance but introduces minimal new information. It reiterates the action of adjusting lug nuts on an off-road tire, which is similar to previous segments involving tire removal, cleaning, and rim work. While it specifies the tool use and outdoor setting, these elements are already established in the context, offering little additional instructional or semantic content beyond reinforcing existing steps."
+        }
+      },
+      "final_score": 1.275
+    },
+    {
+      "segment_id": 17,
+      "start_frame": 5627,
+      "end_frame": 5958,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows a key procedural step in tire maintenance—removing a tire from the wheel hub—which is central to the tutorial's educational purpose. It demonstrates practical skill application in realistic, messy conditions, reinforcing the hands-on nature of the tutorial. While similar to previous removal/cleaning segments, it focuses specifically on the removal process, which is a fundamental task in tire repair. The segment maintains continuity with the tutorial's theme and adds incremental value by showing the technique in a challenging, muddy environment.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment directly depicts the active removal of a tire from a vehicle, which is a key procedural step in tire maintenance or repair. It advances the tutorial's demonstration from preparation and cleaning to the core task of disassembly, contributing significantly to the progression of the main event."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment depicts a hands-on, physically demanding task of removing a large, muddy tire, which is a highlight-worthy action in a tutorial context. The visual elements include close-up shots of manual effort, gritty conditions, and tool usage, making it moderately striking. However, the setting and action are consistent with previous segments, lacking significant visual diversity or novelty compared to earlier tire removal scenes."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a practical, hands-on task of tire removal in a tutorial context, with no evident emotional expression, heightened tension, or strong sentiment. The action is routine and instructional, lacking dramatic elements, facial expressions, or vocal cues that convey emotion, resulting in a low emotional intensity score."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment continues the established tutorial theme of tire maintenance, specifically focusing on removing a muddy tire from a wheel hub, which is a logical progression from previous steps like jacking up the vehicle, cleaning tires, and working on rims. However, it introduces minimal new information or semantic content, as similar actions (e.g., prying tires off rims, using tools on muddy tires) have been covered in recent segments (e.g., segments 15 and 16). The setting and tools remain consistent, offering little novel instructional value beyond reinforcing or slightly varying earlier demonstrated techniques."
+        }
+      },
+      "final_score": 1.3125
+    },
+    {
+      "segment_id": 18,
+      "start_frame": 5958,
+      "end_frame": 6289,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment depicts a key procedural step in tire maintenance—removing a tire from the rim—which is essential for repair or replacement tasks in a tutorial. It directly contributes to the tutorial's instructional value by showing a hands-on technique, aligning with the video's theme of tire maintenance. While it is a continuation of similar actions shown in recent segments (e.g., segments 14-17), it provides a clear outcome (detached tire on ground), making it a concrete demonstration of a completed step. However, some redundancy with prior segments slightly reduces its uniqueness, but its clarity and relevance to the tutorial's core content keep it highly important for the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment represents a significant milestone in the tire repair/maintenance process - the successful removal of a tire from its rim. This is a key procedural step that advances the tutorial's demonstration from preparation/loosening to actual disassembly. The final frame showing the detached tire on the ground provides clear visual confirmation of task completion, moving the instructional narrative forward substantially."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment shows a key action in tire repair—removing a tire from the rim—which is a highlight-worthy step in the tutorial. However, it continues the established visual theme of outdoor, dirty work settings and similar tools/actions seen in previous segments, limiting its visual diversity and striking impact compared to earlier, more varied scenes like vehicle lifting or close-up tool use."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a practical tire removal task with focused physical effort, but lacks strong emotional expression, tension, or sentiment. The tone remains instructional and matter-of-fact, consistent with the tutorial theme. While there is some inherent mild tension in the physical challenge of removing a rugged tire, it is not emphasized dramatically. The emotional intensity is low, as the segment prioritizes demonstration over emotional engagement."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment shows the completion of a tire removal process that was already established in previous segments. While it provides the visual confirmation of the tire being fully detached, the core action and instructional content (using tools to remove a muddy tire from a rim) were already described in segments 15, 16, and 17. The setting, tools, and overall task remain consistent with the established tutorial context, offering minimal new semantic information beyond the final outcome of the ongoing procedure."
+        }
+      },
+      "final_score": 1.35
+    },
+    {
+      "segment_id": 19,
+      "start_frame": 6289,
+      "end_frame": 6620,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows the final result of the tire removal process—a detached tire with its hub exposed—which is a key outcome in the tutorial. It provides a clear visual of the work accomplished, reinforcing the step-by-step instructions. The tools nearby (screwdriver, pliers) hint at upcoming steps, maintaining continuity. While not as action-oriented as prior segments, it serves as a transitional summary point, confirming completion of a major task before moving to cleaning or rim work, making it important for instructional clarity.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment shows the result of a tire removal, which is a completed step in the repair process, but it is a static shot of the aftermath rather than an active progression of the main event. It contributes to story progression by confirming the outcome of previous actions but does not introduce new forward movement."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment shows a clear, focused view of a tire's central hub and tools, which is moderately highlight-worthy as it visually emphasizes a key component in tire repair. However, it lacks dynamic action or striking visual diversity compared to previous segments involving active manipulation or cleaning, making it less visually engaging overall."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment depicts a static, inanimate object (a worn tire on the ground) with no human presence, action, or vocal delivery. The scene is observational and lacks any discernible emotional expression, tension, or sentiment beyond a neutral, instructional context typical of a tutorial."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment shows a tire lying on the ground with tools nearby, which provides some new visual information about the state of the tire and the tools being used. However, it does not introduce new instructional content, techniques, or significant semantic advancement beyond what has already been established in previous segments (e.g., tire removal, cleaning, and repair). The information is largely contextual and descriptive rather than adding new knowledge or steps to the tutorial."
+        }
+      },
+      "final_score": 1.25
+    },
+    {
+      "segment_id": 20,
+      "start_frame": 6620,
+      "end_frame": 6951,
+      "planner_score": 0.75,
+      "planner_reason": "This segment shows a critical step in tire maintenance—checking or inflating tire pressure via the valve stem—which is a fundamental tutorial element. It directly follows tire removal/cleaning steps, logically progressing the repair sequence. However, it's less visually dynamic than jacking or tire removal actions, and the tutorial's core mechanical demonstrations were covered in prior segments, making this important but not the most dramatic or instructional highlight.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment introduces a new, specific action—grasping a valve stem to begin inflation or pressure checking—which is a distinct step in tire maintenance. However, it is a preparatory or intermediate action rather than a major narrative turning point, and it follows a series of similar hands-on repair tasks, so its contribution to overall story progression is moderate."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.35,
+          "reason": "The segment shows a specific, hands-on action (grasping a valve stem) that is relevant to tire maintenance, but it is a close-up, static shot with limited visual diversity or striking composition compared to previous segments featuring dynamic actions like jacking vehicles, removing tires, or cleaning. It serves as a procedural step in the tutorial but lacks highlight-worthy visual appeal or significant variation from prior content."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment shows a hand reaching into a deflated tire to grasp a valve stem, which is a routine mechanical action in tire maintenance. While it indicates progress in the tutorial task, the emotional expression, tension, and sentiment remain minimal. The scene is instructional and practical, lacking heightened emotional cues, dramatic tension, or strong positive/negative sentiment. It continues the calm, focused tone typical of tutorial content."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces a new, specific action—handling a valve stem on a deflated tire—which adds to the tutorial's procedural steps by shifting focus to tire inflation or pressure checking, a distinct maintenance task not explicitly covered in prior segments that focused on removal, cleaning, or rim work."
+        }
+      },
+      "final_score": 1.2375
+    },
+    {
+      "segment_id": 21,
+      "start_frame": 6951,
+      "end_frame": 7282,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment is highly relevant to the tutorial's core theme of tire maintenance and repair. It depicts a hands-on, practical step (working on a deflated tire's inner components) that directly follows the logical sequence established in previous segments (tire removal, cleaning, and now internal inspection/manipulation). This represents a key instructional moment in the repair process, making it important for a comprehensive summary. However, it is slightly less critical than segments showing the initial vehicle jacking or tire removal, which are more foundational to the tutorial.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment shows a person manipulating the inner components of a deflated tire, which is a specific step in tire maintenance. However, it is a relatively minor, preparatory action that does not significantly advance the main narrative of tire repair or replacement compared to previous segments like jacking up the vehicle or removing the tire. It contributes minimally to story progression as it focuses on a detail rather than a key event."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.35,
+          "reason": "The segment shows a person working on a deflated tire's inner components, which is a specific technical action relevant to the tutorial theme. However, it lacks visual diversity compared to previous segments (e.g., vehicle lifting, tire removal, cleaning), as it continues the pattern of close-up manual work on tires in an outdoor dirt setting. The scene is not particularly striking or highlight-worthy, as it maintains similar visual elements (dirt ground, tools, tire focus) without introducing new dynamic shots, varied compositions, or especially engaging visual content beyond the ongoing repair process."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment shows a person working on a deflated tire with tools nearby, which is a practical, hands-on task typical of a tutorial. The emotional expression is minimal, focused on demonstration rather than conveying strong feelings. The sentiment is neutral and instructional, with no evident tension or heightened emotion. The setting and activity are routine for a maintenance tutorial, lacking dramatic elements or expressive cues that would indicate stronger emotional content."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment introduces the specific action of manipulating inner components of a deflated tire, which adds a new procedural detail compared to previous segments focused on tire removal, cleaning, or external adjustments. However, it builds upon established context of tire repair in an outdoor setting, so it provides moderate new information rather than a completely novel step."
+        }
+      },
+      "final_score": 1.2125
+    },
+    {
+      "segment_id": 22,
+      "start_frame": 7282,
+      "end_frame": 7613,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment depicts a core tutorial action—removing or manipulating a tire from its rim—which is a fundamental step in tire maintenance and repair. This aligns directly with the video's tutorial theme and global summary, which emphasizes tire removal and rim work. While similar to previous segments (e.g., segments 15, 18), it reinforces a key procedural step, making it important for instructional clarity and continuity. However, its importance is slightly moderated by repetition in recent segments, reducing novelty but maintaining high relevance.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment continues the tire repair process by showing manipulation or removal of the tire from its rim, which is a direct step in the maintenance task. However, it is similar to previous segments (e.g., segments 15, 17, 18) that also involve tire removal, so it adds incremental progression without introducing a new major event or significant advancement in the tutorial narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment shows a hands-on tire repair action which is relevant to the tutorial theme, but it is visually similar to previous segments involving tire manipulation on dirt ground with tools. While it demonstrates a key maintenance step, it lacks striking diversity or highlight-worthy novelty compared to earlier scenes like vehicle lifting or tire cleaning, resulting in a moderate score."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a routine, instructional tire maintenance task with a neutral, focused demeanor typical of a tutorial. There is no visible emotional expression, heightened tension, or strong sentiment; the action is practical and methodical, lacking dramatic or affective elements."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment shows a person working on a tire outdoors, using a tool to manipulate or remove it from its rim, with the tire on dirt ground next to a screwdriver and bottle. While this continues the tutorial's theme of tire maintenance, it provides minimal new information or semantic content compared to previous segments. Similar actions (tire removal/manipulation from rims) have been shown in segments 8, 9, 15, 17, and 18, with tools and outdoor settings consistently featured. The specific details (screwdriver, bottle, dirt ground) are variations but don't introduce new instructional concepts or significant semantic advancement beyond the established tire repair procedures."
+        }
+      },
+      "final_score": 1.25
+    },
+    {
+      "segment_id": 23,
+      "start_frame": 7613,
+      "end_frame": 7944,
+      "planner_score": 0.85,
+      "planner_reason": "The segment is highly relevant to the tutorial's core theme of tire maintenance and repair. It depicts a specific hands-on action (working on the tire center with a tool) that is a key step in tire servicing, aligning with the global summary's focus on practical tasks. While it continues a sequence of similar repair actions shown in previous segments, it represents an essential procedural step that contributes to the tutorial's instructional completeness. The presence of tools and a bottle reinforces the practical, educational nature of the content.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment shows a specific maintenance action (working on the tire center with a tool), which is a step in the tire repair process. However, it is a continuation of similar actions from previous segments (e.g., tire removal, cleaning, manipulation) without introducing a new major event or significant advancement in the tutorial's narrative. It contributes moderately to the procedural progression but does not represent a key turning point or completion of a primary task."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows routine maintenance work on a dirty tire, which is consistent with the tutorial theme but lacks visual diversity or striking elements compared to previous segments. It is a standard close-up of a repair step without dynamic action, unique composition, or highlight-worthy novelty."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts routine tire maintenance work with a neutral, instructional tone. The emotional expression is minimal, as the focus is on demonstrating a practical task rather than conveying strong feelings, tension, or sentiment. The scene is calm and procedural, consistent with a tutorial video's educational purpose."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment describes a person working on a tire with a tool, which aligns with the tutorial's theme of tire maintenance. However, this action is repetitive compared to previous segments (e.g., segments 12, 14, 15, 16, 17, 18, 22) that already show similar tire manipulation or removal tasks. It introduces minimal new information or specific instruction, as the context and tools are already established in the memory."
+        }
+      },
+      "final_score": 1.225
+    },
+    {
+      "segment_id": 24,
+      "start_frame": 7944,
+      "end_frame": 8275,
+      "planner_score": 0.75,
+      "planner_reason": "This segment shows a key maintenance action (working on a mounted tire with a tool) that is central to the tutorial's practical demonstration. While it continues the established repair sequence, it doesn't introduce new concepts compared to previous similar segments (e.g., segments 10, 14, 16). The visual focus on the star-shaped wheel rim provides specific mechanical detail, but the overall importance is slightly reduced by repetition within the tutorial's workflow.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment continues the ongoing tire maintenance task, showing tool use on a mounted tire, but it does not introduce a new main event or significantly advance the story beyond the established sequence of repair steps. It maintains the tutorial's procedural flow without marking a clear progression point."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment shows a person performing a specific maintenance action on a rugged tire mounted on a distinctive silver, star-shaped wheel rim, which adds visual interest compared to previous segments focused on tires lying on the ground. However, the setting and action remain consistent with the tutorial's outdoor, dirt-ground context, and the visual composition is functional rather than striking or highly diverse. It is highlight-worthy as a clear demonstration step, but not exceptionally dynamic or visually varied."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a routine maintenance task with a focus on manual labor and technical action, lacking overt emotional expression, dramatic tension, or strong sentiment. The tone remains instructional and neutral, consistent with the tutorial theme, without any visible emotional cues from the narrator or heightened stakes."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment continues the theme of tire maintenance in an outdoor setting, showing a person working on a tire mounted on a wheel rim. However, it largely reiterates actions and tools seen in previous segments (e.g., using tools on tires, working outdoors on dirt), without introducing new tasks, techniques, or significant semantic content beyond reinforcing the ongoing repair process. The information is consistent but adds minimal novelty to the tutorial's progression."
+        }
+      },
+      "final_score": 1.175
+    },
+    {
+      "segment_id": 25,
+      "start_frame": 8275,
+      "end_frame": 8606,
+      "planner_score": 0.85,
+      "planner_reason": "The segment provides a detailed, close-up view of the tire's hub and condition, which is central to the tutorial's focus on tire maintenance and repair. It reinforces the practical, hands-on aspect of the tutorial by showing the specific component being worked on, aligning with the theme and previous segments that emphasize inspection and repair tasks.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment provides a detailed visual inspection of the tire's condition and hub, which supports the tutorial's theme of tire maintenance by showing the object being worked on. However, it lacks active progression of the main event—no new action, instruction, or step in the repair process is demonstrated. It is primarily observational, contributing minimally to advancing the story beyond what was already established in previous segments involving tire inspection and manipulation."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment offers a close-up, dynamic view of a distinctive muddy off-road tire with a star-shaped hub, which is visually interesting and highlights a key object in the tutorial. However, it is similar to previous segments focusing on tires and dirt settings, reducing its novelty and overall striking impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "The segment is a static, observational shot of a muddy tire with slow camera movement, lacking any human presence, vocal expression, or dynamic action that conveys strong emotion, tension, or sentiment. It serves a descriptive, instructional purpose typical of a tutorial, with minimal emotional content."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment provides a detailed visual of a muddy, off-road tire with a star-shaped hub, which reinforces the ongoing tire maintenance theme but introduces minimal new instructional or semantic content beyond closer inspection of the tire's condition and design, already implied in previous segments."
+        }
+      },
+      "final_score": 1.175
+    },
+    {
+      "segment_id": 26,
+      "start_frame": 8606,
+      "end_frame": 8937,
+      "planner_score": 0.35,
+      "planner_reason": "The current segment shows a close-up pan of a muddy off-road tire on a star-shaped hub, emphasizing tread and environment. While it visually reinforces the rugged context of the tutorial, it lacks active demonstration, instruction, or progression of the maintenance tasks highlighted in the global summary (jacking, removing, cleaning, rim work). Compared to prior segments showing hands-on actions like jacking, tire removal, cleaning, or tool use, this segment is more observational and repetitive, offering limited new instructional value for a summary focused on teaching procedures.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment provides a detailed visual inspection of the tire's condition and hub, but it is primarily observational and descriptive rather than depicting an active step in the tutorial's procedural sequence. It reinforces the context of the rugged environment and the object being worked on, but does not advance the narrative of tire maintenance or repair actions."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment is a close-up pan of a muddy off-road tire, which provides some visual detail of the rugged tread and environment, but it is relatively static and similar to previous segments focusing on tire details. It lacks dynamic action, significant diversity from prior shots, or highlight-worthy events like demonstrations or repairs, making it less striking overall."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "The segment is a close-up, slightly shaky pan around a muddy off-road tire, focusing on its rugged tread and the surrounding dirt and grass. While the visual details convey a sense of ruggedness and outdoor use, there is no explicit emotional expression, tension, or sentiment conveyed. The segment is purely descriptive and observational, lacking any emotional cues from narration, music, or human expression that would heighten emotional impact. It continues the tutorial's instructional tone without introducing emotional elements."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment provides minimal new information as it is a close-up pan of a muddy tire and hub, which is visually similar to previous segments showing tires, hubs, and outdoor settings. It reinforces the theme but introduces no new instructions, actions, or semantic content beyond confirming the rugged environment."
+        }
+      },
+      "final_score": 0.5875
+    },
+    {
+      "segment_id": 27,
+      "start_frame": 8937,
+      "end_frame": 9268,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment directly demonstrates a key step in tire maintenance (cleaning and preparation), which is essential for a tutorial video. It shows practical application of tools and cleaning methods, reinforcing the tutorial's educational value. While not as critical as safety demonstrations or core repair steps, it provides important preparatory knowledge for viewers learning tire repair procedures.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment shows cleaning and preparation of a tire and wheel assembly, which is a necessary step in the tire maintenance and repair process. However, it follows multiple previous segments of similar cleaning and tool-based work, so it adds incremental progression rather than a major new event or significant advancement in the tutorial's narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment is visually striking and highlight-worthy within the tutorial context. It features a clear, focused action sequence (cleaning a muddy off-road tire and wheel assembly) with multiple distinct steps (inspecting, spraying, using tools) that demonstrate a key maintenance task. The contrast between the muddy tire and the cleaning process creates visual interest, and the concrete surface provides a cleaner, more organized backdrop compared to previous dirt settings, making the action clearer and more instructional. While not dramatically diverse from previous segments (continuing the tire maintenance theme), it represents a satisfying 'after' state following the earlier dirty tire work, offering a visually rewarding resolution to the cleaning process shown in segments 13 and earlier."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "The segment depicts a practical cleaning task with minimal emotional expression. The tutorial's instructional tone remains neutral and focused on the mechanical process. While there is some satisfaction implied in restoring equipment, the emotional intensity is low, consistent with the video's educational purpose and previous segments' matter-of-fact demonstrations."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces the specific action of cleaning a muddy off-road tire and wheel assembly with a spray bottle and tools, which adds a new procedural step (cleaning) not explicitly detailed in previous segments focused on removal, inspection, or tool use. However, the overall theme of tire maintenance and the setting remain consistent, and cleaning is a logical continuation rather than a major informational shift, resulting in moderate new semantic content."
+        }
+      },
+      "final_score": 1.35
+    },
+    {
+      "segment_id": 28,
+      "start_frame": 9268,
+      "end_frame": 9599,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment is highly important for a tutorial video summary because it features the instructor speaking directly to the camera, providing context and explanation. This segment serves as a key instructional moment where the expert likely introduces, explains, or summarizes a maintenance step. The presence of the tire and spray bottle visually reinforces the practical demonstration, creating a cohesive link between explanation and action. In a tutorial, these direct-to-camera explanatory segments are crucial for viewer understanding and should be prioritized in the summary to maintain educational clarity.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily features the man speaking to the camera without performing a new maintenance action, which is a recurring setup in the tutorial. While it introduces a scene with a tire and spray bottle, it does not advance the story beyond re-establishing the instructional context, contributing minimally to event progression compared to recent hands-on repair segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a return to a static instructional shot of the presenter speaking, which is less visually striking compared to the preceding action-oriented segments involving tire manipulation, cleaning, and mechanical work. While the large dirty tire and spray bottle provide some visual interest and thematic consistency, the composition is similar to earlier talking-head segments (e.g., segments 0-3) and lacks dynamic movement, close-ups, or novel visual elements that would make it highlight-worthy. The segment serves an explanatory purpose but does not stand out visually within the tutorial's progression."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment shows a man speaking in a tutorial context with a tire and spray bottle present, indicating a calm, instructional tone typical of educational content. There is no visible emotional expression, heightened tension, or strong sentiment beyond a neutral, explanatory demeanor."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment provides minimal new information compared to the extensive memory context. While it shows the man speaking in a backyard setting with a tire and spray bottle, similar scenes have already been established in previous segments (e.g., segments 1, 2, 3, 13, 27). The tutorial content about tire maintenance or cleaning has been thoroughly covered in prior segments, including jacking up vehicles, removing tires, cleaning tires, and working on wheel rims. This segment appears to be a reintroduction or transitional moment rather than introducing new instructional content."
+        }
+      },
+      "final_score": 1.1
+    },
+    {
+      "segment_id": 29,
+      "start_frame": 9599,
+      "end_frame": 9930,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment features the tutorial host speaking directly to the camera in a clear instructional setting, which is central to the tutorial theme. This segment likely provides explanation, context, or summary of the tire maintenance procedures demonstrated in previous segments. The host's direct address to the audience is important for educational delivery, and the residential backyard setting maintains consistency with the practical, hands-on tutorial environment. While it lacks the specific mechanical action of tire repair shown in other segments, the explanatory narration is valuable for comprehension and summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily features the host speaking to the camera without demonstrating a new procedural step or advancing the main repair narrative. It serves as an explanatory or transitional moment, which contributes minimally to the direct progression of the tire maintenance story compared to hands-on action segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is visually similar to previous talking-head segments in the tutorial, featuring the man speaking directly to the camera in a static backyard setting with common background elements like a wooden fence and shed. It lacks dynamic action, close-ups of tools or processes, or any visually diverse or highlight-worthy content compared to segments showing tire repairs, cleaning, or vehicle work, making it less striking and more routine in presentation."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment features a man speaking directly to the camera in a tutorial context, which conveys a calm, instructional tone typical of educational content. There is no visible emotional expression, tension, or strong sentiment beyond a neutral, explanatory demeanor. The setting is static and mundane, lacking dramatic elements or heightened emotional cues."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment primarily shows the presenter speaking in a backyard setting, which is similar to previous segments where he addresses the camera. While it maintains the tutorial's narrative flow, it introduces minimal new technical information or procedural content compared to recent segments that demonstrated specific tire maintenance actions (e.g., cleaning, removing tires, using tools). The setting (wooden fence, white shed) is consistent with earlier contexts, and no new tools, techniques, or tire-related steps are introduced here."
+        }
+      },
+      "final_score": 1.1
+    },
+    {
+      "segment_id": 30,
+      "start_frame": 9930,
+      "end_frame": 10261,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows the instructor speaking directly to the camera in a tutorial context, which is important for providing explanation, context, or summary of the practical tire maintenance tasks demonstrated in previous segments. As a tutorial video, direct instructional narration from the expert is crucial for viewer understanding and retention. The setting remains consistent with the overall video theme, and this segment likely serves as a key explanatory or transitional moment in the tutorial structure.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment primarily features the host speaking to the camera in a static backyard setting without demonstrating or advancing any specific tire maintenance task. It serves as an introductory or transitional moment rather than contributing to the progression of the main events (e.g., jacking, tire removal, cleaning, or repair) shown in previous segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows a talking-head shot of the presenter in a static backyard setting, which is visually similar to previous segments (0, 1, 2, 3, 28, 29). While it maintains tutorial clarity, it lacks striking visuals, dynamic action, or highlight-worthy diversity compared to earlier segments showing tire removal, cleaning, or vehicle jacking. The setting and composition are routine for the video's explanatory segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "The segment shows a tutorial presenter speaking directly to the camera in a calm, instructional manner. While the presenter appears engaged and focused on explaining tire maintenance, there is minimal emotional expression, tension, or strong sentiment. The delivery is factual and explanatory rather than emotionally charged, with a neutral tone typical of instructional content. The outdoor backyard setting and visible tools/tires provide context but don't contribute to emotional intensity. The segment maintains the same low-key, informative tone established throughout the tutorial video."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment provides minimal new information compared to previous segments. While it continues the tutorial format with the same presenter speaking to camera in an outdoor backyard setting, it introduces no new instructional content, tools, techniques, or specific tire maintenance procedures. The visual elements (wooden fence, white shed, parked truck) are similar to previously established settings, and the presenter's appearance and location are consistent with earlier segments. The segment maintains continuity but doesn't advance the tutorial's instructional content beyond what has already been established in the memory context."
+        }
+      },
+      "final_score": 1.0625
+    },
+    {
+      "segment_id": 31,
+      "start_frame": 10261,
+      "end_frame": 10597,
+      "planner_score": 0.85,
+      "planner_reason": "This segment shows the tutorial host speaking directly to the camera in a consistent backyard setting, providing likely explanation or summary of the tire maintenance procedures demonstrated earlier. As a tutorial video, host narration segments that frame or contextualize practical demonstrations are important for viewer understanding. This appears to be a concluding or transitional segment where the host may summarize key points or introduce next steps, making it valuable for a coherent summary. However, it's slightly less critical than the actual demonstration segments showing hands-on repair techniques.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment primarily features the host speaking to the camera in a static backyard setting without showing any active tire maintenance or repair tasks. While it may provide introductory or explanatory context, it does not depict or directly advance the main events of jacking up a vehicle, removing/cleaning tires, or working on wheel rims, which are the core actions of the tutorial. Thus, its contribution to story progression is minimal."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment shows a man speaking to the camera in a static backyard setting, which is visually similar to previous talking-head segments (e.g., segments 0, 1, 2, 3, 28, 29, 30). It lacks dynamic action, close-ups, or visually diverse elements compared to more striking segments involving tire repairs, cleaning, or vehicle manipulation. While it serves the tutorial's explanatory purpose, it is not highlight-worthy in terms of visual diversity or striking content."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment features a man speaking directly to the camera in a calm, instructional tone typical of a tutorial, with no visible emotional expressions, heightened tension, or strong sentiment. The setting is neutral and the content appears focused on explanation rather than evoking emotion."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment provides minimal new information or semantic content. It repeats the setting (backyard with wooden fence) and speaker description (gray-haired man with mustache) that have been established in previous segments (29, 30). While it introduces a parked truck in the background, this is a minor environmental detail that doesn't advance the tutorial's instructional content about tire maintenance and repair. The segment appears to be transitional or introductory rather than delivering substantive new instructional value."
+        }
+      },
+      "final_score": 1.05
+    }
+  ]
+}

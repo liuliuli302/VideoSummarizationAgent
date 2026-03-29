@@ -1,0 +1,12 @@
+{
+  "video_id": "Car_railcrossing",
+  "video_theme": "story",
+  "global_summary": "A black sedan becomes stuck on a railway crossing, wedged under the lowered barrier, causing a traffic obstruction. As the red warning lights flash, a crowd gathers to observe and assist. The situation escalates into a chaotic scene where the car is severely damaged, possibly by a falling tree or heavy object, leading to tense confrontations and recovery efforts involving an excavator.",
+  "expert_weights": {
+    "story_agent": 0.25,
+    "visual_agent": 0.25,
+    "emotion_agent": 0.25,
+    "information_agent": 0.25
+  },
+  "reason": "The captions depict a coherent narrative progression from a traffic incident at a railway crossing to a dramatic accident and recovery, fitting a 'story' theme. The summary captures key events: initial obstruction, crowd gathering, damage escalation, and machinery-assisted recovery. Expert weights prioritize scene_understanding to interpret the evolving setting and interactions, event_correlation to link sequential incidents, action_detection for dynamic elements like vehicle movement and crowd actions, and object_recognition for identifying key objects like the car, barrier, and excavator."
+}

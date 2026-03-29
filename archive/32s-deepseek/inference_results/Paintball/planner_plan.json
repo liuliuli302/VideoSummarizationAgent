@@ -1,0 +1,12 @@
+{
+  "video_id": "Paintball",
+  "video_theme": "sports",
+  "global_summary": "The video begins with footage of an outdoor paintball match on an overcast day, showing players in red gear moving strategically behind large obstacles on a grassy field with industrial structures visible in the background. After several static shots of the paintball arena, the video transitions abruptly to dark, blurry nighttime footage of natural foliage, where a small animal (likely a rodent) is partially visible in the undergrowth. The final segments show shaky, first-person bungee jumping footage from a platform, capturing the rapid descent toward the ground.",
+  "expert_weights": {
+    "story_agent": 0.25,
+    "visual_agent": 0.25,
+    "emotion_agent": 0.25,
+    "information_agent": 0.25
+  },
+  "reason": "The video contains three distinct segments: (1) paintball gameplay (sports/action), (2) blurry wildlife observation (nature/wildlife), and (3) bungee jumping (extreme sports). Paintball occupies the most coherent and detailed segments (0–12), establishing the primary theme as sports. The wildlife and bungee segments are shorter and more fragmented. The action_sports_analyst receives the highest weight due to the paintball and bungee content. The wildlife_observer is weighted for the animal footage, the outdoor_recreation_commentator for the recreational paintball context, and the cinematography_critic for the varied shot quality and transitions."
+}

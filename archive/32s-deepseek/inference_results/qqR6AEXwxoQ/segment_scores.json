@@ -1,0 +1,965 @@
+{
+  "video_id": "qqR6AEXwxoQ",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 252,
+      "planner_score": 0.6,
+      "planner_reason": "The segment introduces the rider and establishes context, which is important for viewer orientation. However, it lacks the dynamic action (jumps, maneuvers) that characterizes the core sports content described in the global summary. The direct-to-camera commentary adds informational value but is less visually engaging than riding sequences.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment primarily features the rider providing commentary or introduction, which sets context but does not advance the main events or action sequences described in the global summary. It contributes minimally to story progression as it lacks dynamic riding, jumps, or maneuvers that drive the narrative forward."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows a static shot of a rider speaking to the camera, which lacks the dynamic action, jumps, or maneuvers described in the global summary. While the setting is relevant to motocross, the visual content is not particularly striking, diverse, or highlight-worthy compared to the more action-oriented segments mentioned."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment shows a rider speaking to the camera in a calm, instructional manner rather than during active riding. While there is some emotional expression through direct address and the rider's engagement, it lacks the high-intensity emotional cues typically associated with motocross action sequences, such as excitement, tension, or dramatic sentiment. The setting is static and conversational, resulting in moderate but not strong emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "The segment introduces the rider, setting, and context (motocross, protective gear, track environment), which is new information relative to the global summary's general description, but it lacks specific techniques or dynamic actions mentioned later, so it provides substantial but not maximal new content."
+        }
+      },
+      "final_score": 1.05
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 252,
+      "end_frame": 504,
+      "planner_score": 0.75,
+      "planner_reason": "This segment shows the rider providing direct commentary/explanation which adds valuable context to the action sequences. While not as visually dynamic as riding sequences, expert commentary is important for sports summaries to explain techniques and engage viewers. The direct camera address and gesturing suggest important information is being conveyed.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment shows the rider speaking and gesturing, likely explaining techniques, which provides educational or commentary content but does not depict an actual riding event or significant narrative advancement. It maintains continuity but lacks dynamic progression of the main action."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment is visually striking due to the rider's dynamic gesture and direct engagement with the camera, which adds a personal and instructional element. However, it lacks the high-action diversity of riding sequences, making it moderately highlight-worthy but not as intense as pure riding moments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment features a rider speaking directly to the camera, which conveys some personal engagement and potential enthusiasm, but lacks intense emotional expression, high tension, or strong sentiment compared to action-packed riding sequences. The emotional intensity is moderate and primarily informational."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment largely reiterates the setting and action from the previous segment (rider in gear on a dusty track speaking to camera), with only minor new detail (gesturing with gloved hand). It does not introduce significant new information, instruction, or semantic content beyond what was already established."
+        }
+      },
+      "final_score": 1.1
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 504,
+      "end_frame": 756,
+      "planner_score": 0.4,
+      "planner_reason": "The current segment is visually and thematically similar to previous segments, showing the rider speaking to the camera rather than demonstrating riding techniques. While it provides context and commentary, it lacks the dynamic action that characterizes the sports theme and the global summary's emphasis on riding sequences. This redundancy reduces its importance for the final summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily repeats the setting and action from previous segments (rider speaking to camera on a track), offering minimal new progression to the story or main events beyond reinforcing the commentary context."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "This segment shows minimal visual diversity or striking elements compared to the global summary's description of dynamic riding sequences. It repeats the same static interview/commentary setup as previous segments (rider standing, gesturing, speaking to camera) with similar background elements (dirt track, trees, blue sky). No action, motion, or highlight-worthy sports moments are present."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment shows a rider speaking to the camera in a static setting, with minimal emotional expression or tension. The calm demeanor, clear sky, and stationary background suggest a low-intensity, explanatory tone rather than high emotional engagement."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment provides minimal new information compared to the previous segments. It repeats the same visual elements (motocross rider in protective gear on dusty track, speaking to camera, trees in background, clear sky) and semantic content (likely giving interview/commentary). The only slight variation is the mention of 'gesturing with his gloved hand,' which was already mentioned in segment 1. This segment essentially re-describes what was already established in the previous segments without introducing new techniques, demonstrations, riding sequences, or substantive commentary."
+        }
+      },
+      "final_score": 0.5750000000000001
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 756,
+      "end_frame": 1008,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment is highly similar to previous segments (0, 1, and 2), all showing the rider speaking to the camera on the same track. While it may contain important commentary, it represents repetitive content that doesn't add new visual or action elements to the summary. For a sports video summary, dynamic riding sequences would be more valuable than additional talking segments.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment continues the pattern of static commentary/explanation without advancing the narrative or depicting key events. While it may contain explanatory content relevant to the sport, it represents minimal progression from previous talking-head segments (0, 1, 2) that all show similar stationary rider commentary. No new story developments, riding sequences, or main events are introduced."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is visually repetitive and lacks dynamic action, showing a static interview setup similar to previous segments, with minimal visual diversity or highlight-worthy elements beyond basic gestures and commentary."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment features a rider speaking and gesturing, which conveys some personal engagement and enthusiasm, but lacks high-intensity emotional expressions, dramatic tension, or strong sentiment typical of action-packed sports moments."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment is highly similar to the previous segments, all depicting the rider speaking to the camera on a dusty track with trees in the background. It adds minimal new information, as the action and setting are repetitive, offering little additional semantic content beyond what has already been established."
+        }
+      },
+      "final_score": 0.55
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1008,
+      "end_frame": 1260,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment is another static, explanatory shot of the rider speaking to the camera, similar to the previous four segments in the memory context. While it provides commentary and context, which is important for a sports tutorial or analysis video, it is highly redundant with the prior segments. For a dynamic sports summary, the core value lies in the action sequences (jumps, maneuvers) mentioned in the global summary. This segment adds little new visual information and should be weighted lower to prioritize the more unique and exciting riding footage.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily features the rider speaking to the camera, similar to previous segments, without introducing new story events or significant plot advancement. It maintains continuity but does not substantially progress the main narrative or action beyond static commentary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment is visually repetitive compared to previous segments, showing a similar static scene of a rider speaking on a dusty track with minimal action or dynamic elements, lacking visual diversity or highlight-worthy excitement."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment shows a rider speaking to camera with gestures, which conveys some personal engagement and enthusiasm, but lacks the high-intensity emotional expression typically found in action sequences. The emotional content is limited to conversational delivery without visible strong facial expressions, dramatic tension, or heightened sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment shows the rider standing beside his bike and gesturing while speaking, which is highly similar to previous segments where he is stationary on the track, speaking to the camera with gestures. It adds minimal new information beyond the inclusion of the bike, but the core semantic content—commentary or explanation in a static setting—is redundant with prior segments."
+        }
+      },
+      "final_score": 0.55
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 1260,
+      "end_frame": 1512,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment is similar to previous segments, showing the rider speaking to the camera. While it provides continuity and context, it lacks dynamic action or unique information compared to riding sequences, making it less critical for a sports-themed summary focused on highlights and action.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment shows minimal progression from previous segments, maintaining the same static setup of a rider speaking to camera beside his bike on a dirt track. While it continues the commentary/explanation thread, it lacks new story elements, action sequences, or significant narrative development beyond repetition of the established interview format."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "This segment shows minimal visual diversity compared to previous segments, featuring the same static setup of a rider standing beside his bike on a dirt track, speaking to the camera with similar background elements (trees, blue sky). While it maintains professional sports content, it lacks dynamic action, striking visuals, or highlight-worthy moments that would distinguish it from the previous talking-head segments. The repetition of this format across multiple consecutive segments reduces its visual impact and highlight potential."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment features a rider speaking to the camera, which conveys some personal engagement and potential enthusiasm, but lacks dynamic action or intense emotional cues such as excitement, tension, or strong sentiment compared to riding sequences."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment provides minimal new information compared to the previous segments. While it maintains the same theme of a motocross rider providing commentary, the visual elements (rider in protective gear, dusty track, trees in background, clear sky) and the described action (gesturing while speaking to camera) are nearly identical to previous segments. The only slight variation is the mention of the rider standing 'beside his bike,' which adds a minor detail but doesn't substantially advance the narrative or introduce new semantic content beyond what was already established in the global summary and memory context."
+        }
+      },
+      "final_score": 0.55
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 1512,
+      "end_frame": 1764,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment transitions from static commentary to dynamic action, featuring a high jump which is a key highlight in sports-themed videos. While previous segments were repetitive talking segments, this one introduces a visually engaging and core sports element (action sequence) that is essential for a summary showcasing the sport's excitement and skill.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "The current segment marks a significant progression from static commentary to dynamic action, transitioning from explanation to demonstration. While the rider's initial standing and speaking continues the exposition, the mounting, acceleration, and high jump represent a key event in the motocross narrative, showcasing the actual riding technique previously discussed, thus advancing the story from setup to execution."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment features dynamic action with the rider launching into a high jump, which is visually striking and highlight-worthy compared to the previous static interview segments. It introduces motion, energy, and a key sports moment, enhancing diversity and appeal."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment features dynamic action with the rider mounting, accelerating, and executing a high jump, which introduces excitement and physical intensity. While the rider's facial expressions are not visible due to protective gear, the motion and airborne maneuver convey a sense of thrill and athletic exertion, significantly elevating the emotional engagement compared to previous static talking segments."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.7,
+          "reason": "The segment introduces new dynamic action (mounting, accelerating, high jump) not present in previous static commentary segments, adding significant semantic content related to actual riding performance."
+        }
+      },
+      "final_score": 1.6749999999999998
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 1764,
+      "end_frame": 2016,
+      "planner_score": 0.85,
+      "planner_reason": "This segment combines dynamic action (mid-turn riding) with explanatory commentary, aligning with the sports theme's emphasis on both technique demonstration and performance highlights. It provides a key transition from riding to explanation, enhancing instructional value and viewer engagement.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment contributes moderately to story progression by alternating between action and commentary, advancing from pure demonstration to a mix of riding and explanation, but it repeats the pattern of previous segments without introducing a new narrative development or key event."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment includes a visually striking mid-action shot of the rider leaning into a turn, which adds dynamic movement and highlights the sport's excitement. However, it quickly returns to a static interview setup similar to previous segments, reducing overall diversity and highlight impact compared to the preceding high-jump sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment contains moderate emotional expression through dynamic action and personal engagement. The mid-action turn on the bike conveys intensity and focus, while the direct-to-camera speaking with gestures adds personal enthusiasm and instructional energy. However, the emotional expression is somewhat balanced between action and explanation rather than being overwhelmingly intense or dramatic."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.7,
+          "reason": "The segment introduces new dynamic action (mid-action turn on a bike) and a new visual setting (desert-like environment), but it partially repeats the pattern of rider speaking to camera seen in previous segments, reducing the novelty of the informational content."
+        }
+      },
+      "final_score": 1.5
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 2016,
+      "end_frame": 2268,
+      "planner_score": 0.2,
+      "planner_reason": "This segment is highly repetitive with previous segments (especially segments 0, 1, 2, 3, 4, and 5) showing the same setup of a rider standing on a dusty track, gesturing while speaking to the camera. While it provides context and commentary, it adds minimal new visual information for a sports summary that should prioritize dynamic action sequences like jumps and maneuvers shown in segments 6 and 7. For a motocross video, action shots are more critical for an engaging summary than repeated talking segments.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment shows minimal progression from previous segments, as it repeats the same static explanatory format seen in segments 0-5 and 7. While it may contain commentary relevant to the overall theme, it does not advance the narrative or introduce new events, remaining in the same stationary interview/explanation mode rather than depicting riding action or significant developments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is visually similar to previous static interview/commentary shots, lacking dynamic action, diversity, or highlight-worthy elements like jumps or maneuvers, making it less striking in the context of the sports theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a rider speaking to the camera in a static, explanatory posture, similar to previous segments. While there is some engagement through gesturing, the emotional expression is moderate and lacks the high tension or dynamic sentiment seen in riding sequences. Compared to segments with jumps or maneuvers, this is a calm, instructional moment with subdued emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment shows the motocross rider standing on the track, gesturing and speaking to the camera, which is nearly identical to multiple previous segments (segments 0-5 and 7). This repetitive visual and semantic content provides minimal new information, as it continues the same pattern of commentary/explanation without introducing new techniques, locations, or actions beyond what has already been established in the video."
+        }
+      },
+      "final_score": 0.4
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 2268,
+      "end_frame": 2520,
+      "planner_score": 0.65,
+      "planner_reason": "This segment combines both instructional commentary and dynamic riding action, which aligns well with the sports theme and the global summary's emphasis on techniques and riding sequences. While similar to previous segments in the commentary portion, the inclusion of the riding sequence with dust clouds and rugged terrain navigation adds visual variety and demonstrates practical application, making it moderately important for the summary. However, given the repetitive nature of the commentary scenes in memory context, its uniqueness is limited, resulting in a mid-range score.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment contains both explanatory commentary and riding action, but the riding portion shows basic navigation rather than significant story progression. While it advances from pure explanation to demonstration, it doesn't introduce new plot elements, conflicts, or major developments beyond what was already established in previous segments (rider explaining techniques then riding). The progression is minimal - essentially transitioning from talking about riding to showing riding, which maintains but doesn't substantially advance the narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "This segment is visually striking and highlight-worthy due to the dynamic contrast between the instructional standing shot and the high-speed riding action. The cut from the rider explaining techniques to him actually executing maneuvers on his red dirt bike creates compelling visual diversity. The dust cloud kicked up during the riding sequence adds dramatic visual interest, and the combination of static explanation with dynamic motion makes this segment more engaging than previous talking-head segments. However, it doesn't reach the highest score since the riding sequence is relatively brief and similar to previous action shots in the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.35,
+          "reason": "The segment contains a mix of instructional/explanation content and action riding, but lacks strong emotional expression. The rider's gesturing while speaking suggests engagement and enthusiasm, but this is primarily instructional rather than emotionally charged. The riding sequence adds some dynamism with dust clouds and speed, creating moderate excitement. However, compared to segments with high jumps or dramatic maneuvers, this segment's emotional intensity remains relatively low, focusing more on technique demonstration than emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment combines a familiar explanatory scene with a dynamic riding sequence. While the riding action provides some new visual content compared to previous static talking segments, the overall information and semantic content largely reiterates established themes of rider commentary and motocross action without introducing new concepts or significant narrative development."
+        }
+      },
+      "final_score": 1.1125
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 2520,
+      "end_frame": 2772,
+      "planner_score": 0.8,
+      "planner_reason": "This segment combines both action and commentary, which are key elements for a sports video summary. The riding sequence shows dynamic movement and skill demonstration, while the stationary interview provides context and personal insight. However, similar combinations have appeared in previous segments, making it somewhat repetitive. The transition from action to direct explanation adds narrative value, but doesn't introduce fundamentally new content compared to earlier segments.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment includes both riding action and commentary, providing a mix of demonstration and explanation. However, it follows a pattern seen in previous segments (action followed by static commentary), so it contributes to progression but does not introduce a new major event or significantly advance the story beyond the established format."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment includes dynamic riding action with dust and motion, which is visually striking compared to static talking segments, but it also reverts to a stationary interview, reducing diversity and highlight-worthiness. The riding portion is highlight-worthy, but the talking portion is repetitive given the context of previous segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment contains moderate emotional expression through the dynamic action of riding and dust-kicking, which conveys excitement and intensity. However, the subsequent stationary interview portion likely reduces the overall emotional intensity compared to pure action sequences, as it shifts to explanatory commentary. The combination of action and talking head creates a balanced but not peak emotional moment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The current segment provides minimal new information compared to the previous segments. It repeats the core elements: a motocross rider in protective gear, riding on a dusty track, then speaking to the camera. The only slight novelty is the rider removing his helmet in the stationary shot, but this is a minor variation on the established pattern of interview/commentary segments. The semantic content and instructional value remain highly similar to previous segments, offering little new insight or information beyond the established theme."
+        }
+      },
+      "final_score": 1.325
+    },
+    {
+      "segment_id": 11,
+      "start_frame": 2772,
+      "end_frame": 3024,
+      "planner_score": 0.4,
+      "planner_reason": "The current segment shows the rider explaining or demonstrating something, which is moderately important for understanding techniques or commentary in a sports video. However, given the theme is sports and previous segments have already shown similar talking head shots (segments 0-5, 8, 10), this segment adds limited new information. It lacks the dynamic action seen in segments 6, 7, and 9, which are more critical for a sports summary showcasing the actual sport. Therefore, it has moderate importance but is less critical than action sequences.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment primarily features the rider in a stationary, explanatory pose, similar to previous segments, offering commentary rather than advancing the narrative through new events or dynamic progression. While it may provide context or technique explanation, it does not introduce significant plot development or main event progression beyond what has been established in prior segments."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "This segment shows another static talking-head shot of the motocross rider explaining something while standing on the track. While it maintains visual consistency with the sports theme, it lacks the dynamic action, striking visuals, or highlight-worthy moments seen in previous segments with jumps, maneuvers, or riding sequences. Compared to segments 6, 7, and 9 which contained actual riding action, this is visually repetitive and less engaging, offering little diversity or visual impact beyond the established pattern of interview-style commentary."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a stationary rider speaking to the camera, which involves moderate expressive gestures but lacks the dynamic action, high tension, or intense emotional peaks seen in riding sequences like jumps or maneuvers. Compared to previous segments with active riding, this is a calm, explanatory moment with subdued sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment shows the motocross rider standing on the track gesturing while speaking to the camera, which is highly repetitive of previous segments (0, 1, 2, 3, 4, 5, 8, and similar portions of 7, 9, and 10). While it may contain some new verbal content about equipment or technique, the visual presentation and basic action are nearly identical to multiple earlier segments. The semantic content overlaps significantly with the established pattern of rider commentary/demonstration, offering minimal new information beyond potentially specific details in the spoken explanation."
+        }
+      },
+      "final_score": 0.625
+    },
+    {
+      "segment_id": 12,
+      "start_frame": 3024,
+      "end_frame": 3276,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment shows the rider speaking to the camera in a static setting, which is repetitive given the previous segments (0-5, 8, 11) that already feature similar talking-head commentary. While it may contain useful explanations or insights, it lacks the dynamic action (jumps, maneuvers, riding sequences) that are more critical for a sports-themed summary. The segment does not introduce new visual content or key moments compared to the riding sequences (segments 6, 7, 9, 10), making it less important for an engaging highlight reel.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment shows the rider speaking to camera with gestures, similar to multiple previous segments (0-5, 8, 10-11). While it maintains continuity of the rider's commentary, it does not introduce new story elements, advance the narrative, or depict progression of main events like riding sequences, jumps, or maneuvers that were shown in segments 6, 7, and 9. It is primarily static exposition rather than action-driven progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "This segment shows another static talking-head shot of the rider explaining something while standing in a dusty field. While it maintains visual consistency with the sports theme, it lacks the dynamic action, striking visuals, or highlight-worthy moments seen in previous riding sequences (jumps, maneuvers, dust clouds). Compared to the more visually engaging segments (6, 7, 9, 10), this is repetitive and less visually striking, offering little diversity or highlight potential beyond the established pattern of interview-style commentary."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a stationary rider speaking and gesturing, which conveys moderate engagement but lacks the high-intensity emotional expression, tension, or dynamic sentiment seen in active riding sequences like jumps or maneuvers. Compared to previous segments with similar static commentary, the emotional strength remains low, primarily informational rather than emotionally charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment shows the motocross rider in protective gear speaking to the camera while gesturing in a dusty field with trees in the background. This is highly repetitive of previous segments (0, 1, 2, 3, 4, 5, 8, 11) which all depict similar stationary speaking/gesturing scenes with minimal variation in setting or content. No new riding action, techniques, or substantive information is introduced beyond what has been consistently shown in prior talking-head segments."
+        }
+      },
+      "final_score": 0.5
+    },
+    {
+      "segment_id": 13,
+      "start_frame": 3276,
+      "end_frame": 3528,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment shows the rider explaining equipment (gloves) while standing on the track, which provides some educational value about motocross gear. However, this is highly repetitive with previous segments (0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12) that all feature the rider standing and speaking/gesturing to camera. The segment lacks dynamic action, excitement, or new information compared to riding sequences (segments 6, 7, 9) that better represent the sports theme. For a sports video summary, action sequences should be prioritized over repetitive talking segments.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment shows the rider explaining equipment while stationary, which provides minor contextual information but does not advance the main story or event progression. Compared to previous segments that alternated between commentary and dynamic riding sequences, this segment remains in the static explanation phase without moving the narrative forward to new events, techniques being demonstrated in action, or progression of the riding sequence."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment shows the rider explaining or demonstrating equipment, which is informative but lacks dynamic action or visually striking elements compared to riding sequences. It contributes to the theme but is less highlight-worthy than high-energy moments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment shows the rider explaining equipment while stationary, which conveys some enthusiasm through gestures, but lacks the high-intensity emotional expression found in action sequences like jumps or high-speed maneuvers. The emotional intensity is moderate, primarily driven by demonstrative explanation rather than dramatic tension or strong sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment provides minimal new information compared to previous segments. While it shows the rider holding up gloves specifically, which is a slight variation from previous gesturing segments, the core content remains similar: a motocross rider in protective gear on a dusty track explaining/demonstrating equipment or techniques to the camera. This follows multiple previous segments with nearly identical settings and purposes (segments 0, 1, 2, 3, 4, 5, 8, 11, 12). The motorcycle being partially visible adds little new semantic content beyond what was already established in segments 4, 5, 6, 7, 9, and 10."
+        }
+      },
+      "final_score": 0.65
+    },
+    {
+      "segment_id": 14,
+      "start_frame": 3528,
+      "end_frame": 3780,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment shows the rider explaining or demonstrating something, which is relevant for instructional content. However, given the sports theme and the global summary's emphasis on dynamic riding sequences, this static talking segment is less critical compared to action shots. Similar talking segments have appeared repeatedly in previous segments (0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13), making this one redundant. For a sports video summary, action sequences (like jumps and maneuvers) should be prioritized over repetitive explanations.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment shows the rider explaining or demonstrating something, which contributes moderately to story progression by providing context or insight into techniques or equipment. However, it lacks dynamic action or major plot advancement compared to riding sequences, making its contribution to main event progression limited."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "This segment shows another static talking-head shot of the motocross rider explaining or demonstrating something while standing on the dirt track. While it maintains visual consistency with the sports theme, it lacks the dynamic action, striking visuals, or highlight-worthy moments seen in previous segments with riding sequences, jumps, or maneuvers. Compared to segments 6, 7, 9, and 10 which contained actual riding action, this segment is visually repetitive and less engaging, offering minimal visual diversity or striking content beyond the established pattern of interview-style commentary."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.35,
+          "reason": "The segment features a motocross rider speaking directly to the camera, likely explaining or demonstrating something. While the rider's gestures and direct address convey engagement and enthusiasm, the emotional expression is moderate and instructional rather than intense. The sentiment is positive but lacks high tension, dramatic moments, or strong emotional peaks typical of action sports highlights."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment shows the motocross rider standing on a dirt track, gesturing with gloved hands while speaking to the camera, which is nearly identical to the content and context of previous segments (especially segments 0, 1, 2, 3, 4, 5, 8, 11, 12, and 13). This pattern of stationary explanation/demonstration has been repeated multiple times throughout the video, offering minimal new information, instruction, or semantic content beyond what has already been established in the memory context."
+        }
+      },
+      "final_score": 0.5625
+    },
+    {
+      "segment_id": 15,
+      "start_frame": 3780,
+      "end_frame": 4032,
+      "planner_score": 0.3,
+      "planner_reason": "This segment shows another static talking shot of the rider explaining/commenting, which is repetitive given the numerous similar previous segments (0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13, 14). For a sports video summary, dynamic action sequences (like segments 6, 7, and 9's riding parts) are typically more critical for engagement and showcasing the sport's essence. While the talking segments provide context, this one adds little new visual or informational value compared to prior ones, making it of lower importance for a concise summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment shows the rider speaking and gesturing, which is consistent with previous segments but does not introduce new story progression or main events. It appears to be repetitive commentary or explanation, contributing minimally to advancing the narrative or key events of the video."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "This segment shows minimal visual strikingness or diversity compared to previous segments. It features the same static setup of a rider speaking to camera on a dirt track with trees and blue sky background, which has been consistently shown in multiple prior segments (0, 1, 2, 3, 4, 5, 8, 11, 12, 13, 14). The segment lacks dynamic action, dramatic camera angles, or highlight-worthy moments like jumps, maneuvers, or dust-kicking sequences seen in segments 6, 7, 9, and 10. While professionally shot, it represents repetitive talking-head content rather than visually engaging action."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a stationary rider speaking to the camera with gestures, which conveys some personal engagement and enthusiasm typical of instructional or interview content. However, compared to previous segments that included dynamic action sequences (jumps, turns, dust clouds), this segment lacks the heightened emotional intensity, physical tension, or dramatic sentiment that would come from active riding. The emotional expression is limited to the rider's likely explanatory tone and gestures, resulting in a low to moderate emotional strength."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment shows the motocross rider in the same setting (dirt track with trees and clear sky) performing the same action (speaking to camera while gesturing with gloved hands) as numerous previous segments. This represents minimal new information or semantic content beyond what has been established in the video's pattern of alternating between riding sequences and stationary commentary segments. The segment maintains continuity but adds virtually no novel instructional, informational, or semantic value."
+        }
+      },
+      "final_score": 0.44999999999999996
+    },
+    {
+      "segment_id": 16,
+      "start_frame": 4032,
+      "end_frame": 4284,
+      "planner_score": 0.3,
+      "planner_reason": "This segment shows the rider speaking to camera while holding his bike's handlebars, which provides some contextual information about equipment and setup. However, it's highly repetitive with previous segments (12 of 16 previous segments show similar stationary speaking shots) and lacks the dynamic action elements that are crucial for a sports video summary. While it adds minor variety by including the bike's handlebars, it doesn't introduce new information, action, or unique perspectives that would significantly enhance the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment shows the rider speaking to the camera while holding his bike's handlebars, which is similar to previous stationary commentary segments. It does not introduce new events, actions, or narrative developments, thus contributing minimally to story or main event progression beyond reinforcing existing exposition."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.15,
+          "reason": "The segment shows minimal visual diversity or striking elements compared to previous segments. It features another static shot of the rider standing and speaking to camera with similar composition, setting, and action as many prior segments (segments 0-5, 8, 11-15). While it includes the bike's handlebars, this adds little dynamic or highlight-worthy visual interest. The segment lacks the motion, jumps, dust clouds, or varied camera angles seen in more visually engaging segments (6, 7, 9, 10). Given the repetitive nature within the video's context, it scores low on being visually striking or highlight-worthy."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment shows a stationary rider speaking to the camera while holding his bike's handlebars, which conveys some engagement and potential enthusiasm through direct address and physical interaction with the bike. However, compared to previous action-packed segments with jumps, dust clouds, and dynamic maneuvers, this segment lacks high-intensity emotional expression, dramatic tension, or strong sentiment. The emotional tone appears to be explanatory or conversational rather than highly charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment shows the motocross rider standing with his bike, speaking to the camera, which is highly similar to many previous segments (0-5, 8, 11-15) that also feature stationary commentary. While the detail of holding the handlebars is slightly different, the core semantic content—a rider providing commentary in protective gear on a dusty track—is repetitive and offers minimal new information compared to the established pattern of alternating between riding sequences and explanatory segments."
+        }
+      },
+      "final_score": 0.48749999999999993
+    },
+    {
+      "segment_id": 17,
+      "start_frame": 4284,
+      "end_frame": 4536,
+      "planner_score": 0.4,
+      "planner_reason": "This segment combines both speaking/explanation elements and riding action, which adds some variety to the summary. However, similar speaking segments have appeared repeatedly in previous segments (0-5, 8, 10-16), and the riding action shown here (accelerating down bumpy terrain) is less visually dynamic than the high jumps and maneuvers shown in segments 6, 7, and 9. The segment serves as a transition between explanation and action but doesn't introduce new information or particularly dramatic visuals compared to what's already been shown.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "This segment contributes moderately to story progression by transitioning from stationary explanation to active riding, which advances the narrative from commentary to demonstration. While it continues the pattern of alternating between speaking and riding seen in previous segments, the specific action of accelerating down the course and navigating rugged terrain represents a clear progression from setup to execution. However, it doesn't introduce fundamentally new story elements or major plot developments beyond what was established in segments 6, 9, and 10."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment contains some dynamic action (accelerating, kicking up dust, navigating rugged terrain) which adds moderate visual interest compared to purely static talking segments. However, it follows a repetitive pattern seen throughout the video - starting with a stationary talking shot before transitioning to riding action. The visual elements (dirt track, trees, dust) are consistent with previous segments, offering limited diversity. While the riding action is highlight-worthy for a sports video, it's not particularly striking or unique within the context of this specific video's established pattern."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment contains moderate emotional expression through the combination of direct camera address and action elements. While the rider's direct speaking to the camera creates some personal engagement and the acceleration/dust-kicking action adds dynamic energy, the emotional intensity remains relatively contained compared to high-adrenaline action sequences. The segment blends explanation/commentary with riding action, resulting in moderate emotional expression rather than peak excitement or tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment provides moderate new information by combining two previously established elements: the rider speaking to camera (seen in many previous segments) and the rider actively navigating terrain (seen in segments 6, 7, 9, and 10). The novelty lies in showing the transition from stationary explanation to active riding within the same segment, which adds a narrative progression element not present in most previous segments. However, both the speaking and riding actions have been extensively covered separately in prior segments, limiting the truly new semantic content."
+        }
+      },
+      "final_score": 0.85
+    },
+    {
+      "segment_id": 18,
+      "start_frame": 4536,
+      "end_frame": 4788,
+      "planner_score": 0.95,
+      "planner_reason": "This segment captures a high-action, visually impressive moment of a motocross rider performing a mid-air trick, which is a key highlight in sports content. It provides dynamic, engaging footage that contrasts with the previous talking-head segments and demonstrates the athletic skill central to the sport. Such action sequences are crucial for a sports video summary as they showcase the excitement and physical prowess that viewers expect.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the story by shifting from stationary commentary and basic riding to a dynamic, high-stakes action sequence featuring a mid-air trick. It represents a key progression in the narrative, showcasing the rider's skills and the excitement of motocross, which is central to the video's sports theme."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "This segment is highly visually striking and highlight-worthy compared to previous segments. While most previous segments showed the rider stationary while speaking or riding at ground level, this segment features a dramatic mid-air trick with the rider soaring above the landscape. The high-flying action, dynamic pose, and aerial perspective create a visually compelling moment that stands out as a key highlight in a motocross video. The clear sky and rugged landscape provide an excellent backdrop that enhances the visual impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts a high-flying, mid-air trick, which inherently conveys excitement, thrill, and a sense of achievement. The action is dynamic and visually striking, likely eliciting strong positive emotions like awe and adrenaline. However, the segment lacks direct human expression (like facial reactions or vocal commentary), which slightly limits the emotional depth compared to segments with explicit sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The current segment introduces a significant new action element—a high-flying, mid-air trick—which is distinct from the previous segments that primarily featured stationary commentary, gesturing, or basic riding sequences. This adds novel semantic content related to advanced motocross maneuvers and dynamic athletic performance, expanding the video's informational scope beyond explanation and demonstration to include actual trick execution."
+        }
+      },
+      "final_score": 1.85
+    },
+    {
+      "segment_id": 19,
+      "start_frame": 4788,
+      "end_frame": 5040,
+      "planner_score": 0.95,
+      "planner_reason": "This segment captures the most dynamic and thrilling action of motocross - high-flying jumps and aggressive airborne maneuvers. It showcases the core excitement of the sport (action sequences) rather than static commentary or explanations. The segment includes multiple maneuvers (jump, landing, then another aggressive maneuver) which demonstrates skill and athleticism. For a sports video summary, action sequences are typically prioritized over talking segments as they visually represent the essence of the sport. This segment provides visual variety and excitement that would engage viewers in a summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "The current segment features dynamic riding sequences with multiple jumps and maneuvers, which directly advance the action-oriented narrative of motocross by showcasing thrilling athletic performance, contrasting with previous segments that were primarily static commentary or setup. This contributes significantly to story progression by depicting the core event—high-intensity riding—in motion."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "This segment is highly visually striking and highlight-worthy, featuring multiple high-flying jumps and aggressive airborne maneuvers that showcase the most dynamic and thrilling aspects of motocross. Compared to the previous segments which were predominantly static talking-head shots or basic riding sequences, this segment contains the most dramatic action with consecutive aerial stunts. The visual diversity is significant as it breaks the pattern of stationary commentary and delivers peak sports action that would naturally serve as a highlight reel moment."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.9,
+          "reason": "The segment depicts high-intensity action with a motocross rider performing consecutive aggressive airborne maneuvers, which inherently conveys strong excitement, thrill, and dynamic energy. The description emphasizes the 'thrilling and dynamic nature of the sport,' indicating a peak in emotional expression and tension compared to previous segments that were more static or explanatory."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.95,
+          "reason": "The current segment introduces significant new information by showcasing dynamic action sequences—specifically, multiple high-flying jumps and aggressive airborne maneuvers—which contrast sharply with the predominantly static, explanatory segments in the memory context. This adds substantial semantic content related to the thrilling and dynamic nature of motocross, enhancing the video's thematic depth."
+        }
+      },
+      "final_score": 1.875
+    },
+    {
+      "segment_id": 20,
+      "start_frame": 5040,
+      "end_frame": 5292,
+      "planner_score": 0.9,
+      "planner_reason": "This segment captures dynamic action with a high jump and fast riding, which is visually engaging and central to motocross sports. It provides variety from the numerous talking-head segments and showcases the thrilling athleticism that defines the sport, making it highly valuable for a summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "The current segment features dynamic riding action with a high jump and continuous speed, which directly advances the story by showcasing the actual sport performance and excitement, contrasting with previous static commentary segments and building on the recent action sequences to maintain narrative momentum."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "This segment is highly visually striking and highlight-worthy within the sports theme. It features dynamic action with a motocross rider executing a high jump over a dirt berm and racing at speed while kicking up dust, creating dramatic motion and energy. Compared to previous segments that were predominantly static talking-head shots or basic riding sequences, this segment stands out with its aerial maneuver and sustained high-speed action. The visual elements—yellow and black uniform, blue helmet, red dirt bike, dust trails, and open track—combine to create an exciting, adrenaline-filled moment that captures the essence of extreme sports. This is precisely the type of action-oriented content that viewers expect from motocross highlights."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment depicts high-intensity motocross action with a rider executing a high jump and aggressive maneuvers at speed, kicking up dust. This creates strong visual excitement and adrenaline-inducing tension typical of extreme sports, though it lacks close-up emotional expressions or explicit sentiment cues that could push the score higher."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment shows dynamic riding action with jumps and maneuvers, which provides some new visual content compared to the many previous segments featuring stationary commentary. However, similar riding sequences have been shown in segments 6, 9, 10, 18, and 19, making this segment somewhat repetitive. The specific details like 'yellow and black uniform', 'blue helmet', 'red dirt bike', 'dirt berm', and 'kicking up dust' are consistent with previous riding segments, offering minimal new semantic information beyond what has already been established in the video's theme of motocross riding demonstrations."
+        }
+      },
+      "final_score": 1.625
+    },
+    {
+      "segment_id": 21,
+      "start_frame": 5292,
+      "end_frame": 5544,
+      "planner_score": 0.8,
+      "planner_reason": "This segment shows the rider post-race, covered in dirt, directly addressing the camera while holding his helmet. This provides a valuable 'conclusion' or personal reaction moment that contrasts with the previous action sequences and technical explanations. It adds human interest, shows the physical toll of the sport, and offers potential for authentic commentary or reflection, which is important for a well-rounded sports summary that includes both action and athlete perspective.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment shows the rider stopping after a race and addressing the camera, which provides a reflective moment or post-race commentary. While it offers a conclusion to the riding action seen in previous segments (segments 18-20), it does not introduce new story progression or main events. Instead, it serves as a pause or aftermath, contributing minimally to advancing the narrative beyond what has already been established in the dynamic riding sequences."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows a rider addressing the camera while covered in dirt, which adds some visual interest through the post-race grime and the action aftermath. However, it is fundamentally another static talking segment similar to many previous ones (segments 0-5, 8, 11-17), lacking dynamic motion, high-energy stunts, or visually diverse scenery. Compared to recent highlight-worthy segments featuring jumps and aggressive maneuvers (segments 18-20), this is less striking and less diverse within the overall video context."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment shows a rider covered in dirt addressing the camera, which conveys a sense of exertion and post-race intensity. This creates moderate emotional expression through physical evidence of effort and direct engagement with the viewer, though it lacks the high-energy action or dramatic tension of riding sequences."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment introduces the rider being 'covered in dirt' and 'holding his helmet' as he addresses the camera, which adds a slight new detail about his post-race condition and physical state. However, the core action—a rider speaking to the camera on a dusty track—is highly repetitive given the extensive prior context of similar stationary speaking segments. The semantic content remains largely overlapping with previous explanatory/commentary moments, offering minimal substantive new information or instruction."
+        }
+      },
+      "final_score": 1.175
+    },
+    {
+      "segment_id": 22,
+      "start_frame": 5544,
+      "end_frame": 5796,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment is another stationary interview/commentary shot, which is repetitive with many previous segments (0-5, 8-16, 21). While it provides context and personal insight, the global summary emphasizes dynamic riding sequences. This segment lacks action, making it less critical for a sports-themed summary that should highlight the thrilling, active aspects of motocross.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment shows the rider in a stationary position providing commentary, which is consistent with previous talking segments but does not advance the story or main events. It follows dynamic riding sequences (segments 18-20) and a post-race interview moment (segment 21), but itself returns to a static explanatory mode without introducing new narrative developments, techniques, or plot progression. While it maintains thematic coherence, it does not significantly move the story forward compared to the action-oriented segments that preceded it."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.15,
+          "reason": "The segment shows another static interview/commentary shot of the rider standing beside his bike in a desert landscape, speaking to camera with hand gestures. While the desert setting provides slight visual variation from previous tree-lined tracks, this is fundamentally similar to many previous segments (0-5, 8, 11-17, 21) that feature stationary talking segments. It lacks the dynamic action, motion, or highlight-worthy moments seen in segments 6-7, 9-10, and 18-20 which contained actual riding, jumps, and maneuvers. The segment is visually repetitive and not particularly striking or diverse compared to the action sequences in this sports video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment shows a rider speaking to the camera in a calm, explanatory manner rather than displaying high-intensity action or strong emotional expression. While there is some engagement through direct address and gesturing, it lacks the dynamic energy, tension, or heightened sentiment seen in previous riding or stunt segments. The emotional tone appears neutral and informative."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment shows the motocross rider standing beside his bike in a desert landscape, speaking to the camera and gesturing. While this continues the pattern of rider commentary seen throughout the video, it offers minimal new information compared to previous segments. Multiple prior segments (0-5, 7-18, 21) already established the rider providing explanations, commentary, or interviews in similar stationary settings. The desert backdrop is slightly different from previous tree-lined tracks, but the core semantic content—rider speaking to camera about riding—is highly redundant with earlier segments. The segment maintains continuity but adds little novel informational value."
+        }
+      },
+      "final_score": 0.5375
+    },
+    {
+      "segment_id": 23,
+      "start_frame": 5796,
+      "end_frame": 6048,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment is another static interview/commentary shot where the rider stands beside his bike and speaks to the camera. While it provides context and personal insight, it is highly repetitive with many previous segments (0-5, 8, 11-16, 22) that show similar stationary talking scenes. The global summary emphasizes both commentary and dynamic riding sequences. Since dynamic action segments (like 6, 7, 9, 10, 18-20) are more critical for a sports video summary to showcase excitement and skill, this static talking segment has lower importance. It adds little new visual or informational value compared to the numerous existing commentary shots.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment returns to the established pattern of stationary commentary/interview shots that have dominated the video. While it maintains narrative continuity by showing the rider post-ride (consistent with segments 21-22), it does not advance the story or main events beyond what has already been established through previous commentary segments. The action progression (riding sequences, jumps, maneuvers) established in segments 6, 9, 18-20 is paused here, making this a low-contribution segment to story/event progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The current segment shows a motocross rider standing beside his bike in a dusty landscape, gesturing while speaking to the camera. While this is relevant to the sports theme, it is visually similar to many previous segments (0-5, 8, 11-17, 21-22) that feature static interview-style shots with minimal action. Compared to the more dynamic segments (6-7, 9-10, 18-20) that include jumps, maneuvers, and riding sequences, this segment lacks visual diversity, striking motion, or highlight-worthy action. It primarily serves explanatory or commentary purposes rather than showcasing visually engaging sports moments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a stationary interview/commentary scene with the rider speaking to the camera while gesturing. Compared to previous high-action segments featuring jumps, maneuvers, and dynamic riding, this segment lacks intense emotional expression, physical tension, or strong sentiment. The emotional tone appears calm and explanatory rather than excited, tense, or emotionally charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment shows the rider standing beside his bike in a dusty landscape, gesturing and speaking to the camera. This is highly repetitive of previous segments (especially segments 0-5, 8, 11-17, 21-22) which consistently depict the same static interview/commentary setup with minimal variation in setting, action, or apparent content. It provides almost no new information, instruction, or semantic content beyond what has been established multiple times already in the video."
+        }
+      },
+      "final_score": 0.5
+    },
+    {
+      "segment_id": 24,
+      "start_frame": 6048,
+      "end_frame": 6300,
+      "planner_score": 0.3,
+      "planner_reason": "The current segment is another stationary interview/commentary shot, which is repetitive given the extensive memory context showing numerous similar segments (0-5, 8-16, 21-23). While it provides context and personal insight consistent with the sports theme, the global summary emphasizes dynamic riding sequences. This segment lacks the action and visual dynamism that would make it highly important for a summary focused on showcasing the sport's thrilling nature. It serves as supporting content but is not a highlight.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The current segment continues the pattern of static, explanatory commentary by the rider, similar to many previous segments. It does not introduce new events, actions, or narrative developments, but rather maintains the existing interview/commentary mode without advancing the story or main event progression beyond repetition of established context."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is visually repetitive compared to previous segments, showing another stationary interview scene with the rider speaking beside his bike in a similar dusty environment. It lacks dynamic action, diversity, or highlight-worthy moments like jumps or maneuvers, making it less striking within the sports theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment shows a stationary rider giving commentary, which involves some personal expression through gestures and speech, but lacks the high-intensity emotional peaks, dramatic tension, or strong sentiment often associated with active riding, crashes, celebrations, or competitive moments. The emotional expression is moderate and conversational rather than intense."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment shows a motocross rider standing beside his bike in dry, sandy terrain, speaking to the camera while gesturing with gloved hands. This is highly repetitive of previous segments (especially segments 22 and 23) which already established the same setting, action, and likely content (interview/commentary about the ride or track). It provides minimal new information, instruction, or semantic content beyond what has been consistently shown in the video's talking-head segments."
+        }
+      },
+      "final_score": 0.475
+    },
+    {
+      "segment_id": 25,
+      "start_frame": 6300,
+      "end_frame": 6552,
+      "planner_score": 0.4,
+      "planner_reason": "The segment shows the rider giving post-ride commentary, which provides context and personal insight, but it is highly repetitive with many previous segments (e.g., segments 21-24) that already feature the rider speaking to the camera in similar settings. For a sports-themed summary focused on dynamic action, this static talking segment adds limited new information compared to the high-energy riding and jumping scenes, reducing its relative importance.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment shows the rider giving post-ride commentary, which provides reflection and context but does not advance the main story or event progression. It maintains continuity with previous interview segments but lacks new action, plot development, or significant narrative movement compared to riding sequences or technical demonstrations."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is visually similar to many previous segments, featuring a stationary rider in protective gear speaking to the camera in a dry, sandy landscape. It lacks dynamic action, striking visuals, or highlight-worthy moments compared to segments with jumps, maneuvers, or high-energy riding, making it less diverse and less visually striking within the context of the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment shows a post-ride interview/commentary where the rider is gesturing while speaking, indicating some level of engagement and expression. However, compared to high-action segments with jumps and maneuvers (which would score higher for emotional intensity), this stationary talking scene conveys moderate sentiment through body language and likely reflective/explanatory tone, but lacks the visceral excitement, tension, or strong emotional peaks seen in riding sequences."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "The current segment shows minimal new information compared to previous segments. It repeats the established pattern of a motocross rider standing beside his bike in a desert landscape, speaking to the camera while gesturing. While the detail of holding his helmet is slightly different from some previous segments, this is a minor variation on the same core content that has been shown repeatedly (e.g., segments 21, 22, 23, 24 all show similar stationary interview/commentary scenes). The segment does not introduce new techniques, locations, actions, or substantial semantic content beyond what has already been established in the video."
+        }
+      },
+      "final_score": 0.6625000000000001
+    },
+    {
+      "segment_id": 26,
+      "start_frame": 6552,
+      "end_frame": 6804,
+      "planner_score": 0.4,
+      "planner_reason": "This segment is a post-ride interview/commentary, which provides context and reflection, but it is highly repetitive with previous segments (21, 22, 23, 24, 25). Given the sports theme and the global summary emphasizing dynamic riding sequences, this static talking segment is less critical for the summary compared to action shots. Its inclusion would add narrative closure but at a lower priority.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment is another static interview/commentary shot with minimal progression, repeating a pattern seen in many previous segments without advancing the story or main events beyond post-ride reflection."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is visually similar to many previous ones, featuring a stationary rider in protective gear speaking to the camera in a desert landscape. It lacks dynamic action, diversity, or highlight-worthy elements compared to segments with jumps or maneuvers, making it less striking."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment shows a stationary interview/commentary scene where the rider is speaking calmly while holding his helmet. Compared to previous action-packed segments with jumps and maneuvers, this segment lacks dynamic movement, intense physical exertion, or dramatic visual elements that would convey strong emotional expression or tension. The setting is static and the rider appears to be in a reflective or explanatory state rather than experiencing heightened emotions during active riding."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment shows the rider standing beside his bike in a desert landscape, holding his helmet and speaking to the camera. This is highly repetitive with previous segments (especially segments 21-25) which consistently depict the rider in similar stationary interview/commentary poses in desert settings. No new information, instruction, or semantic content is introduced beyond what has been established in recent memory context."
+        }
+      },
+      "final_score": 0.55
+    },
+    {
+      "segment_id": 27,
+      "start_frame": 6804,
+      "end_frame": 7056,
+      "planner_score": 0.65,
+      "planner_reason": "The segment features the rider addressing the camera, which is consistent with previous interview-style segments that provide commentary or explanation. While it adds to the narrative and personal insight, it is less dynamic than action sequences like jumps and maneuvers, which are more critical for a sports-themed summary focused on excitement and movement.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The current segment shows the rider standing beside his bike addressing the camera in a static setting, similar to many previous segments. While it maintains continuity with the interview/commentary pattern, it does not introduce new story elements, advance the narrative, or depict action progression. Compared to recent segments featuring dynamic riding sequences (segments 18-20), this represents a return to static exposition with minimal forward movement in the main event or story."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is visually similar to many previous segments, showing a static shot of a motocross rider standing beside his bike and addressing the camera in a dry, open field. It lacks dynamic action, striking visuals, or highlight-worthy moments compared to previous segments with jumps, maneuvers, or high-energy riding. The scene is repetitive and does not introduce significant visual diversity or excitement."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a stationary rider addressing the camera in a calm, instructional or commentary setting, lacking dynamic action, intense physical exertion, or visible emotional cues such as excitement, tension, or strong sentiment, resulting in low emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment shows the motocross rider standing beside his bike in a dry landscape addressing the camera, which is highly repetitive of previous segments (especially segments 22-26) that already established this same setting and action. It provides minimal new information, instruction, or semantic content beyond what has been consistently shown in the recent memory context."
+        }
+      },
+      "final_score": 0.8250000000000001
+    },
+    {
+      "segment_id": 28,
+      "start_frame": 7056,
+      "end_frame": 7308,
+      "planner_score": 0.4,
+      "planner_reason": "The current segment is a static interview/commentary shot similar to many previous segments (0-5, 8, 11-17, 21-27). While it provides context and likely introduces or explains content, the global summary emphasizes dynamic riding sequences. Given the sports theme and the abundance of similar talking segments already captured, this segment's importance is moderate but lower than action segments (e.g., 6, 18-20) which showcase the core athletic performance.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "This segment continues the pattern of static commentary/explanation scenes that have dominated the video. While it maintains thematic consistency with the motocross theme, it shows minimal progression from previous talking segments (segments 0-5, 8, 11-17, 21-27). The rider is again stationary, speaking to camera in a similar environment, offering no advancement in narrative, competition, or skill demonstration. Compared to the dynamic riding sequences (segments 6, 9-10, 18-20) that actually show story progression through action, this segment serves primarily as exposition or commentary rather than driving the main event forward."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows a motocross rider standing beside his bike and speaking to the camera in a dry, grassy field. While it maintains thematic consistency with the sports theme, it lacks visual striking elements, dynamic action, or highlight-worthy moments compared to previous segments that featured jumps, maneuvers, dust trails, and high-energy riding sequences. This is another static interview/commentary shot with minimal visual diversity from many previous talking segments, offering little new visual interest or excitement."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment depicts a stationary interview-style commentary with moderate gesturing, lacking dynamic action, high tension, or intense emotional expression typical of high-energy sports moments, resulting in a subdued emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment presents a motocross rider speaking beside his bike in a field, which is highly repetitive with previous segments (especially segments 22-27) that depict similar stationary commentary scenes. It introduces minimal new information, instruction, or semantic content beyond slight variations in background (tree, grassy field), while the core action and context remain unchanged."
+        }
+      },
+      "final_score": 0.65
+    },
+    {
+      "segment_id": 29,
+      "start_frame": 7308,
+      "end_frame": 7560,
+      "planner_score": 0.65,
+      "planner_reason": "The segment shows the rider explaining or demonstrating something with a small object, which could provide specific technical insights or equipment details relevant to motocross. However, given the video theme (sports) and the global summary emphasizing dynamic riding sequences, this static explanatory segment is moderately important but less critical than action shots. Similar talking segments have appeared frequently in previous segments, reducing uniqueness. It adds educational value but doesn't capture the core excitement of the sport.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment involves the rider explaining or demonstrating something with an object, which could contribute to story progression by providing technical insights or commentary. However, it is less dynamic than riding sequences and lacks major event progression compared to action scenes."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment shows a motocross rider standing beside his bike in a dry field, holding and gesturing with a small object while explaining something. While this provides educational value for the sport, it lacks the visually striking elements seen in previous segments with dynamic riding sequences, high jumps, airborne tricks, or dramatic dust clouds. Compared to segments 18-20 which featured thrilling aerial maneuvers, this static demonstration scene is less highlight-worthy and visually diverse within the context of the video's action-oriented theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment shows the rider in a stationary position, holding and gesturing with a small object while explaining or demonstrating something to the camera. This is primarily an instructional or explanatory moment, lacking the dynamic action, high-energy movement, or intense physical expression seen in previous riding sequences. While there may be some enthusiasm in the rider's gestures, the overall emotional intensity is moderate and focused on demonstration rather than conveying strong excitement, tension, or sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces a new visual element—the rider holding and gesturing with a small object—which suggests a specific demonstration or explanation. However, the overall context remains highly similar to previous segments: a rider in gear beside his bike in a dry field speaking to the camera. The new object adds some incremental information, but the core semantic content (interview/commentary setting) is repetitive."
+        }
+      },
+      "final_score": 1.0
+    },
+    {
+      "segment_id": 30,
+      "start_frame": 7560,
+      "end_frame": 7812,
+      "planner_score": 0.3,
+      "planner_reason": "This segment shows another static, explanatory scene where the rider stands beside his bike and appears to speak to the camera. Given the video theme is sports and the global summary emphasizes dynamic riding sequences, this segment is less important as it repeats similar talking/explanation content seen in many previous segments (0-5, 8, 11-17, 22-29). It lacks the action, jumps, or maneuvers that would make it stand out for a sports highlight summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "This segment shows the rider standing beside his bike in a field, likely speaking to the camera, which is a recurring static commentary scene. It does not introduce new story elements, advance the narrative, or depict key events like riding sequences, jumps, or maneuvers. Compared to previous segments, it maintains the pattern of explanatory/commentary shots without progressing the main action or story."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment shows a static shot of a motocross rider standing beside his bike in a field, speaking to the camera. While it maintains the sports theme and has decent visual clarity, it lacks dynamic action, striking visuals, or highlight-worthy moments compared to previous segments featuring jumps, tricks, or high-speed riding. It is visually similar to many earlier talking-head segments and does not introduce significant diversity or excitement."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment shows a stationary rider beside his bike, likely speaking to the camera in a calm, explanatory manner. While there may be some enthusiasm in his presentation, the scene lacks dynamic action, intense physical exertion, or heightened emotional expressions that would convey strong emotion, tension, or sentiment. Compared to previous segments with high-flying jumps and aggressive maneuvers, this is a low-energy, conversational moment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment shows the rider standing beside his bike in a dry, grassy field, holding the handlebars and speaking to the camera. This is highly similar to numerous previous segments (e.g., segments 0-5, 8, 11-16, 22-29) that depict the rider in static, speaking poses with minimal variation in setting or action. It provides little new information beyond confirming the ongoing commentary context, with no new instructional content or distinct semantic development compared to the established pattern."
+        }
+      },
+      "final_score": 0.5249999999999999
+    },
+    {
+      "segment_id": 31,
+      "start_frame": 7812,
+      "end_frame": 8073,
+      "planner_score": 0.15,
+      "planner_reason": "The current segment shows the rider standing still beside his bike, holding his gloves, likely preparing to speak. This is a static, introductory or transitional moment that repeats similar scenes from previous segments (e.g., segments 0-5, 8, 11-17, 22-30). While it provides context and personal insight, it lacks the dynamic action (jumps, maneuvers) that are key for a sports summary. Given the theme is sports and the global summary emphasizes dynamic riding sequences, this segment is less critical compared to action-packed segments like 18-20.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The current segment shows the motocross rider standing still beside his bike, holding his gloves, likely preparing to speak. This is another static, talking-head segment similar to many previous ones (segments 0-5, 8, 11-17, 21-30). While it may set up for commentary or explanation, it does not depict actual riding action, progression of a race, or demonstration of techniques. Given the pattern of alternating between riding sequences and static commentary segments, this segment represents a return to exposition rather than advancing the story or main events of motocross riding."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.3,
+          "reason": "The segment is visually consistent with previous static interview-style scenes, showing a rider standing beside his bike in a field. While it maintains thematic relevance, it lacks dynamic action, striking visuals, or highlight-worthy elements compared to earlier segments with jumps and maneuvers, resulting in low visual impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment shows a stationary rider in a calm, preparatory stance without active motion or visible emotional expression. While the context suggests potential for commentary, the current visual lacks dynamic action, facial expressions, or environmental cues that convey strong emotion, tension, or sentiment compared to previous high-energy riding segments."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "The current segment shows minimal new information compared to previous segments. It continues the pattern of a motocross rider standing beside his bike in a dry field, which has been extensively covered in segments 21-30. The only slight variations are the specific mention of 'Honda' brand and 'holding his gloves', but these are minor details that don't substantially advance the narrative or provide significant new semantic content beyond what has already been established in the video's commentary and demonstration sequences."
+        }
+      },
+      "final_score": 0.3875
+    }
+  ]
+}
