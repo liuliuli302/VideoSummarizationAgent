@@ -1,0 +1,157 @@
+{
+  "config": "8s-deepseek",
+  "paper_protocol": {
+    "summe_variant": "normalized_smoothed",
+    "tvsum_variant": "normalized_raw"
+  },
+  "paper_table": [
+    {
+      "ablation": "full",
+      "display_name": "Full model (Ours)",
+      "summe": 51.43939173221589,
+      "summe_delta": 0.0,
+      "tvsum": 51.4144612327218,
+      "tvsum_delta": 0.0
+    },
+    {
+      "ablation": "w/o_planner",
+      "display_name": "w/o Planner Agent",
+      "summe": 51.74422824382782,
+      "summe_delta": 0.30483651161193137,
+      "tvsum": 47.26918637007474,
+      "tvsum_delta": -4.145274862647057
+    },
+    {
+      "ablation": "w/o_experts",
+      "display_name": "w/o Expert Agents",
+      "summe": 50.42942726612092,
+      "summe_delta": -1.0099644660949707,
+      "tvsum": 49.28112537413835,
+      "tvsum_delta": -2.1333358585834503
+    },
+    {
+      "ablation": "w/o_story",
+      "display_name": "w/o Story Expert",
+      "summe": 47.576977550983436,
+      "summe_delta": -3.8624141812324524,
+      "tvsum": 48.708649589121336,
+      "tvsum_delta": -2.7058116436004624
+    },
+    {
+      "ablation": "w/o_visual",
+      "display_name": "w/o Visual Expert",
+      "summe": 49.82471454143525,
+      "summe_delta": -1.6146771907806396,
+      "tvsum": 50.80029376596211,
+      "tvsum_delta": -0.6141674667596888
+    },
+    {
+      "ablation": "w/o_emotion",
+      "display_name": "w/o Emotion Expert",
+      "summe": 49.65920877456666,
+      "summe_delta": -1.780182957649231,
+      "tvsum": 49.31940733268857,
+      "tvsum_delta": -2.0950539000332284
+    },
+    {
+      "ablation": "w/o_information",
+      "display_name": "w/o Information Expert",
+      "summe": 51.98611855506897,
+      "summe_delta": 0.5467268228530813,
+      "tvsum": 49.768380160629754,
+      "tvsum_delta": -1.646081072092045
+    }
+  ],
+  "raw_summary": {
+    "full": {
+      "summe": 51.20996809005738,
+      "tvsum": 51.4144612327218,
+      "summe_pervid": 47.21813726425171,
+      "tvsum_pervid": 50.160228218138215
+    },
+    "w/o_planner": {
+      "summe": 51.74422824382782,
+      "tvsum": 47.26918637007474,
+      "summe_pervid": 47.44176137447357,
+      "tvsum_pervid": 46.84123208969831
+    },
+    "w/o_experts": {
+      "summe": 49.122457981109626,
+      "tvsum": 49.28112537413835,
+      "summe_pervid": 44.531726121902466,
+      "tvsum_pervid": 49.22972207516432
+    },
+    "w/o_story": {
+      "summe": 47.576977550983436,
+      "tvsum": 48.708649589121336,
+      "summe_pervid": 44.932834565639496,
+      "tvsum_pervid": 48.81140401214361
+    },
+    "w/o_visual": {
+      "summe": 50.20149290561676,
+      "tvsum": 50.80029376596211,
+      "summe_pervid": 46.36811816692352,
+      "tvsum_pervid": 50.11261601299047
+    },
+    "w/o_emotion": {
+      "summe": 49.82068145275117,
+      "tvsum": 49.31940733268857,
+      "summe_pervid": 46.60328018665314,
+      "tvsum_pervid": 49.036385155469176
+    },
+    "w/o_information": {
+      "summe": 51.104464292526245,
+      "tvsum": 49.768380160629754,
+      "summe_pervid": 46.43509483337402,
+      "tvsum_pervid": 49.158895952999586
+    }
+  },
+  "smoothed_summary": {
+    "full": {
+      "summe": 51.43939173221589,
+      "tvsum": 50.729041467607026,
+      "summe_pervid": 47.44756090641022,
+      "tvsum_pervid": 49.95804990977049
+    },
+    "w/o_planner": {
+      "summe": 51.74422824382782,
+      "tvsum": 47.56242724806069,
+      "summe_pervid": 47.44176137447357,
+      "tvsum_pervid": 46.8254333332181
+    },
+    "w/o_experts": {
+      "summe": 50.42942726612092,
+      "tvsum": 48.91948571503163,
+      "summe_pervid": 45.83869540691376,
+      "tvsum_pervid": 49.12217940092087
+    },
+    "w/o_story": {
+      "summe": 47.576977550983436,
+      "tvsum": 48.708649589121336,
+      "summe_pervid": 44.932834565639496,
+      "tvsum_pervid": 48.81140401214361
+    },
+    "w/o_visual": {
+      "summe": 49.82471454143525,
+      "tvsum": 49.91962080746889,
+      "summe_pervid": 45.991339802742004,
+      "tvsum_pervid": 49.679444731771945
+    },
+    "w/o_emotion": {
+      "summe": 49.65920877456666,
+      "tvsum": 48.375254831463096,
+      "summe_pervid": 46.44180750846863,
+      "tvsum_pervid": 48.54917916432023
+    },
+    "w/o_information": {
+      "summe": 51.98611855506897,
+      "tvsum": 49.1991150662303,
+      "summe_pervid": 46.875921964645386,
+      "tvsum_pervid": 49.08043262809515
+    }
+  },
+  "source_files": {
+    "raw": "/Users/allets/Desktop/XJTUThesisLMQ/Codes/VideoSummarizationAgent/archive/8s-deepseek/ablation_results/ablation_normalized_raw.json",
+    "smoothed": "/Users/allets/Desktop/XJTUThesisLMQ/Codes/VideoSummarizationAgent/archive/8s-deepseek/ablation_results/ablation_normalized_smoothed.json"
+  }
+}

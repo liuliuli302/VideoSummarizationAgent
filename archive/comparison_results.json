@@ -1,0 +1,150 @@
+{
+  "configs": [
+    "8s-deepseek",
+    "16s-deepseek"
+  ],
+  "configuration_ablation": [
+    {
+      "segment_count": 8,
+      "postprocess": "Raw",
+      "summe": 51.41459405422211,
+      "tvsum": 51.414461232721806,
+      "sources": {
+        "summe": "/Users/allets/Desktop/XJTUThesisLMQ/Codes/VideoSummarizationAgent/archive/8s-deepseek/exam_20260312_143217/split_overview.json",
+        "tvsum": "/Users/allets/Desktop/XJTUThesisLMQ/Codes/VideoSummarizationAgent/archive/8s-deepseek/exam_20260312_160107/split_overview.json"
+      }
+    },
+    {
+      "segment_count": 8,
+      "postprocess": "Smoothed",
+      "summe": 51.888497829437256,
+      "tvsum": 50.72904146760702,
+      "sources": {
+        "summe": "/Users/allets/Desktop/XJTUThesisLMQ/Codes/VideoSummarizationAgent/archive/8s-deepseek/exam_20260312_143217/split_overview.json",
+        "tvsum": "/Users/allets/Desktop/XJTUThesisLMQ/Codes/VideoSummarizationAgent/archive/8s-deepseek/exam_20260312_160107/split_overview.json"
+      }
+    },
+    {
+      "segment_count": 16,
+      "postprocess": "Raw",
+      "summe": 50.65574336051941,
+      "tvsum": 52.252356813848024,
+      "sources": {
+        "summe": "/Users/allets/Desktop/XJTUThesisLMQ/Codes/VideoSummarizationAgent/archive/16s-deepseek/evaluation/exam_20260312_191959/split_overview.json",
+        "tvsum": "/Users/allets/Desktop/XJTUThesisLMQ/Codes/VideoSummarizationAgent/archive/16s-deepseek/evaluation/exam_20260312_221305/split_overview.json"
+      }
+    },
+    {
+      "segment_count": 16,
+      "postprocess": "Smoothed",
+      "summe": 51.11739146709442,
+      "tvsum": 51.810439930856234,
+      "sources": {
+        "summe": "/Users/allets/Desktop/XJTUThesisLMQ/Codes/VideoSummarizationAgent/archive/16s-deepseek/evaluation/exam_20260312_191959/split_overview.json",
+        "tvsum": "/Users/allets/Desktop/XJTUThesisLMQ/Codes/VideoSummarizationAgent/archive/16s-deepseek/evaluation/exam_20260312_221305/split_overview.json"
+      }
+    }
+  ],
+  "chapter4_ours": {
+    "summe": {
+      "config": "8s-deepseek",
+      "dataset": "summe",
+      "variant": "normalized_smoothed",
+      "mean_f1": 51.888497829437256,
+      "num_splits": 5,
+      "source": "/Users/allets/Desktop/XJTUThesisLMQ/Codes/VideoSummarizationAgent/archive/8s-deepseek/exam_20260312_143217/split_overview.json"
+    },
+    "tvsum": {
+      "config": "16s-deepseek",
+      "dataset": "tvsum",
+      "variant": "normalized_raw",
+      "mean_f1": 52.252356813848024,
+      "num_splits": 5,
+      "source": "/Users/allets/Desktop/XJTUThesisLMQ/Codes/VideoSummarizationAgent/archive/16s-deepseek/evaluation/exam_20260312_221305/split_overview.json"
+    }
+  },
+  "best_within_selected_configs": {
+    "summe": {
+      "config": "8s-deepseek",
+      "dataset": "summe",
+      "variant": "normalized_smoothed",
+      "mean_f1": 51.888497829437256,
+      "num_splits": 5,
+      "source": "/Users/allets/Desktop/XJTUThesisLMQ/Codes/VideoSummarizationAgent/archive/8s-deepseek/exam_20260312_143217/split_overview.json"
+    },
+    "tvsum": {
+      "config": "16s-deepseek",
+      "dataset": "tvsum",
+      "variant": "normalized_raw",
+      "mean_f1": 52.252356813848024,
+      "num_splits": 5,
+      "source": "/Users/allets/Desktop/XJTUThesisLMQ/Codes/VideoSummarizationAgent/archive/16s-deepseek/evaluation/exam_20260312_221305/split_overview.json"
+    }
+  },
+  "raw_rows": [
+    {
+      "config": "8s-deepseek",
+      "dataset": "summe",
+      "variant": "normalized_raw",
+      "mean_f1": 51.41459405422211,
+      "num_splits": 5,
+      "source": "/Users/allets/Desktop/XJTUThesisLMQ/Codes/VideoSummarizationAgent/archive/8s-deepseek/exam_20260312_143217/split_overview.json"
+    },
+    {
+      "config": "8s-deepseek",
+      "dataset": "summe",
+      "variant": "normalized_smoothed",
+      "mean_f1": 51.888497829437256,
+      "num_splits": 5,
+      "source": "/Users/allets/Desktop/XJTUThesisLMQ/Codes/VideoSummarizationAgent/archive/8s-deepseek/exam_20260312_143217/split_overview.json"
+    },
+    {
+      "config": "8s-deepseek",
+      "dataset": "tvsum",
+      "variant": "normalized_raw",
+      "mean_f1": 51.414461232721806,
+      "num_splits": 5,
+      "source": "/Users/allets/Desktop/XJTUThesisLMQ/Codes/VideoSummarizationAgent/archive/8s-deepseek/exam_20260312_160107/split_overview.json"
+    },
+    {
+      "config": "8s-deepseek",
+      "dataset": "tvsum",
+      "variant": "normalized_smoothed",
+      "mean_f1": 50.72904146760702,
+      "num_splits": 5,
+      "source": "/Users/allets/Desktop/XJTUThesisLMQ/Codes/VideoSummarizationAgent/archive/8s-deepseek/exam_20260312_160107/split_overview.json"
+    },
+    {
+      "config": "16s-deepseek",
+      "dataset": "summe",
+      "variant": "normalized_raw",
+      "mean_f1": 50.65574336051941,
+      "num_splits": 5,
+      "source": "/Users/allets/Desktop/XJTUThesisLMQ/Codes/VideoSummarizationAgent/archive/16s-deepseek/evaluation/exam_20260312_191959/split_overview.json"
+    },
+    {
+      "config": "16s-deepseek",
+      "dataset": "summe",
+      "variant": "normalized_smoothed",
+      "mean_f1": 51.11739146709442,
+      "num_splits": 5,
+      "source": "/Users/allets/Desktop/XJTUThesisLMQ/Codes/VideoSummarizationAgent/archive/16s-deepseek/evaluation/exam_20260312_191959/split_overview.json"
+    },
+    {
+      "config": "16s-deepseek",
+      "dataset": "tvsum",
+      "variant": "normalized_raw",
+      "mean_f1": 52.252356813848024,
+      "num_splits": 5,
+      "source": "/Users/allets/Desktop/XJTUThesisLMQ/Codes/VideoSummarizationAgent/archive/16s-deepseek/evaluation/exam_20260312_221305/split_overview.json"
+    },
+    {
+      "config": "16s-deepseek",
+      "dataset": "tvsum",
+      "variant": "normalized_smoothed",
+      "mean_f1": 51.810439930856234,
+      "num_splits": 5,
+      "source": "/Users/allets/Desktop/XJTUThesisLMQ/Codes/VideoSummarizationAgent/archive/16s-deepseek/evaluation/exam_20260312_221305/split_overview.json"
+    }
+  ]
+}

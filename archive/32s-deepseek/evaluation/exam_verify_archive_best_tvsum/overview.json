@@ -1,0 +1,42 @@
+{
+  "exam_name": "exam_verify_archive_best_tvsum",
+  "total_videos": 50,
+  "per_variant_metrics": {
+    "normalized_raw": {
+      "count": 50.0,
+      "f1_mean": 0.544102929353714,
+      "precision_mean": 0.5444170224666596,
+      "recall_mean": 0.5439042043685913,
+      "rho_mean": 0.31054316546483035,
+      "tau_mean": 0.21721682285314728
+    },
+    "normalized_smoothed": {
+      "count": 50.0,
+      "f1_mean": 0.5443273694515228,
+      "precision_mean": 0.5450808036327363,
+      "recall_mean": 0.5436920881271362,
+      "rho_mean": 0.322858605875176,
+      "tau_mean": 0.22365086558886818
+    }
+  },
+  "per_dataset_metrics": {
+    "tvsum": {
+      "normalized_raw": {
+        "count": 50.0,
+        "f1_mean": 0.544102929353714,
+        "precision_mean": 0.5444170224666596,
+        "recall_mean": 0.5439042043685913,
+        "rho_mean": 0.31054316546483035,
+        "tau_mean": 0.21721682285314728
+      },
+      "normalized_smoothed": {
+        "count": 50.0,
+        "f1_mean": 0.5443273694515228,
+        "precision_mean": 0.5450808036327363,
+        "recall_mean": 0.5436920881271362,
+        "rho_mean": 0.322858605875176,
+        "tau_mean": 0.22365086558886818
+      }
+    }
+  }
+}
