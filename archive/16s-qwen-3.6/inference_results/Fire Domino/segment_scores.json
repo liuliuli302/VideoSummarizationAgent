@@ -1,0 +1,485 @@
+{
+  "video_id": "Fire Domino",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 100,
+      "planner_score": 0.5,
+      "planner_reason": "This segment functions as an establishing shot that introduces the matchstick sculpture before the main action begins. It provides essential visual context for the video's subject, but lacks the dynamic ignition and combustion sequences that form the core narrative, warranting a moderate importance score.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment functions as a static establishing shot that introduces the unlit matchstick sculpture. Since the core event (ignition and combustion) has not yet begun, it contributes minimally to immediate story or event progression, serving primarily as contextual setup rather than advancing the narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.6,
+          "reason": "The segment displays a well-composed, intricate matchstick sculpture with clear geometric patterns and color contrast, offering steady aesthetic appeal. However, being entirely static and serving merely as a pre-action setup, it lacks the dynamic movement, intensity, and highlight-worthy spectacle of the subsequent burning sequences, limiting its overall visual impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment features a static, unlit matchstick sculpture with no action, movement, or human interaction. Consequently, there is minimal emotional expression, tension, or sentiment, as it serves as a calm, neutral visual introduction before the anticipated ignition."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "This segment functions mainly as an introductory static shot, establishing the visual design and structure of the unlit matchstick sculpture. While it provides necessary contextual information about the subject's appearance and setting, it contains minimal dynamic action, instructions, or substantial new semantic content compared to the core combustion sequences that follow."
+        }
+      },
+      "final_score": 0.85
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 100,
+      "end_frame": 200,
+      "planner_score": 0.25,
+      "planner_reason": "This segment depicts a static, unlit sculpture that closely mirrors the previous segment and contains no movement or key events. Since the video's primary focus and global summary revolve around the ignition and intense combustion process, this motionless introductory portion holds low priority for the final condensed summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment presents a completely static view of the unlit sculpture with no movement or changes. Since it does not introduce ignition, action, or any development toward the main event of combustion, it contributes negligibly to story or event progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is entirely static, displaying only an unlit, intricate sculpture without any movement, lighting changes, or dynamic action, which significantly limits its visual impact and highlight potential compared to the active combustion sequences."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment depicts a completely static scene with no movement, action, or dynamic changes. There are no auditory or visual cues indicating emotional expression, narrative tension, or sentiment, making it a calm, neutral preparatory shot before the anticipated ignition."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The segment presents a completely static view of the sculpture with no movement, changes, or additional details compared to the previous segment. It serves purely as an introductory hold before the ignition begins, offering minimal new semantic content."
+        }
+      },
+      "final_score": 0.375
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 200,
+      "end_frame": 300,
+      "planner_score": 0.95,
+      "planner_reason": "This segment captures the pivotal ignition moment that transitions the video from static displays to the main action of controlled burning. It directly aligns with the global summary's description of a hand introducing a flame to start the combustion sequence, making it highly important for conveying the video's core narrative and visual progression.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment serves as the pivotal transition from static setup to the main event by introducing the flame that triggers ignition. It directly advances the video's core narrative of controlled combustion, setting up the subsequent rapid fire spread and burning spectacle described in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment captures a deliberate, slow-motion approach of a flame to the structure, creating a strong visual contrast between the warm light and the unlit matches. This anticipatory moment adds diversity and narrative tension, serving as a highlight-worthy setup for the upcoming combustion, though its visual impact is more subdued than the intense burning phases."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.35,
+          "reason": "The segment exhibits low to moderate tension, characterized by quiet anticipation as the flame approaches the structure. While there is a subtle build-up of suspense leading to ignition, the scene remains calm and focused, lacking strong emotional expression or intense sentiment at this pre-combustion stage."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.8,
+          "reason": "This segment delivers substantial new semantic content by transitioning from the previously static descriptions of the matchstick structures to the active initiation of the video's core event. The introduction of a hand bringing a lit match close to the tower adds critical procedural and visual information, directly establishing the ignition sequence and setting up the combustion process detailed in the global summary."
+        }
+      },
+      "final_score": 1.625
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 300,
+      "end_frame": 400,
+      "planner_score": 0.95,
+      "planner_reason": "This segment captures the pivotal moment of ignition and rapid fire propagation, which is the central event described in the global summary. It transitions the narrative from the static setups and flame approach in previous clips to the main visual spectacle of combustion, making it highly critical for conveying the video's core theme and dynamic action.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.95,
+          "reason": "This segment captures the pivotal moment of ignition and the subsequent rapid spread of fire, which constitutes the core main event of the video. It directly advances the narrative by transitioning from the preparatory static shots and initial approach to the actual combustion spectacle, fulfilling the central premise outlined in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.95,
+          "reason": "This segment captures the visual climax of the sequence, transitioning from static preparation to dynamic, high-contrast combustion. The rapid downward spread of fire through the intricate spiral structure creates a mesmerizing spectacle with strong motion, glowing embers, and dramatic transformation, making it highly visually striking and the most highlight-worthy part of the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment captures the pivotal ignition and rapid downward spread of fire, creating high visual tension and dramatic intensity. The swift transformation from stillness to a consuming blaze evokes a strong sense of awe and suspense, marking a clear emotional and kinetic escalation from the preceding static scenes."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "This segment captures the pivotal ignition and rapid downward spread of fire, transitioning from the static setups and flame approach shown previously to the core action of combustion. It delivers substantial new semantic content by depicting the dynamic consumption of the structure, which constitutes the primary event and thematic focus of the video."
+        }
+      },
+      "final_score": 1.8624999999999998
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 400,
+      "end_frame": 500,
+      "planner_score": 0.7,
+      "planner_reason": "This segment continues the core visual narrative of the matchstick tower burning, aligning with the global summary's focus on intense combustion and dynamic flame movement. While it overlaps with the previous segment that captured the initial rapid spread, it provides necessary continuity for the sustained burning phase. Its importance is moderate due to some redundancy with prior footage, but it remains relevant for capturing the full duration of the fire spectacle.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment continues the central event of the matchstick tower burning, showing the fire fully engulfing and consuming the structure. While it sustains the visual narrative and demonstrates the ongoing combustion process, it does not introduce a new narrative beat or shift the focus, serving primarily as a continuation of the established burning sequence rather than a significant advancement in the story arc."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.75,
+          "reason": "The segment captures a mesmerizing and visually striking spectacle of fire steadily consuming the matchstick tower, with dynamic flames and glowing embers creating strong contrast against the plain background. While highly engaging, it represents a sustained burning phase following the initial rapid ignition, making it a solid highlight but slightly less dynamic than the peak combustion moment."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.55,
+          "reason": "The segment conveys moderate emotional intensity through the steady, upward progression of fire consuming the matchstick structure, which naturally evokes visual tension and awe. However, the scene remains largely observational and procedural against a plain background, lacking explicit human emotional cues or dramatic narrative escalation, keeping the overall sentiment strength at a moderate level."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment merely continues describing the ongoing combustion of the matchstick tower, which was already fully captured in the previous segment where the fire ignited and spread. It offers little to no new instructional, informational, or semantic content beyond reiterating the burning state."
+        }
+      },
+      "final_score": 1.225
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 500,
+      "end_frame": 600,
+      "planner_score": 0.95,
+      "planner_reason": "This segment captures the peak combustion phase of the spiral structure, directly aligning with the video's core focus on intense fire consumption and visual spectacle. It provides crucial dynamic footage of the flames at their height, making it essential for an accurate and engaging summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.5,
+          "reason": "The segment continues the established burning sequence without introducing a new narrative development or shifting focus. It reinforces the ongoing combustion event through atmospheric description rather than advancing the plot or main event progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment captures the peak intensity of the controlled burn, featuring dynamic upward-flaming motion and strong contrast between the bright, flickering fire and the dark background. This creates a highly visually striking and mesmerizing spectacle that emphasizes the dramatic interplay of light and texture, making it a standout highlight of the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.45,
+          "reason": "The segment does not convey explicit human emotion or narrative sentiment, as it focuses purely on the physical process of controlled burning. However, the intense, dynamic motion of the flames and the stark contrast between the flickering glow and the dark background create a moderate level of atmospheric tension and visual intensity, yielding a mid-range emotional score."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment heavily reiterates the ongoing combustion process already established in previous clips. It describes intense burning and upward flame movement that closely mirrors segments 3 and 4, introducing no new objects, actions, instructions, or distinct visual developments. Consequently, it provides minimal additional semantic content."
+        }
+      },
+      "final_score": 1.4625
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 600,
+      "end_frame": 700,
+      "planner_score": 0.85,
+      "planner_reason": "This segment captures the peak intensity of the combustion process, which is the central visual spectacle highlighted in the global summary. It documents the rapid consumption of the structure by flames, providing essential footage of the dynamic fire movement and glowing embers that form the core narrative of the video.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment continues to depict the intense burning of the matchstick spiral, maintaining the visual spectacle established in prior frames. However, it does not introduce a new phase, transition to a different subject, or move toward resolution, resulting in minimal advancement of the main event."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.92,
+          "reason": "The segment delivers a highly striking visual experience through the intense, dynamic consumption of the matchstick structure by bright orange and yellow flames. The strong contrast between the glowing fire and the dark background, combined with the mesmerizing motion of the blaze, makes it exceptionally captivating and clearly functions as a primary visual highlight of the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The intense, consuming flames and dynamic visual transformation create a strong sense of tension and awe. While the controlled, observational framing prevents overwhelming narrative drama, the active combustion, rapid movement, and stark contrast between bright fire and dark surroundings significantly heighten the segment's emotional and sensory impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The segment merely continues describing the ongoing combustion of the matchstick spiral, which was already thoroughly established in the preceding clips through ignition, rapid spread, and intense burning. It introduces no new visual details, narrative progression, or instructional content, resulting in minimal additional semantic value."
+        }
+      },
+      "final_score": 1.3675
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 700,
+      "end_frame": 800,
+      "planner_score": 0.85,
+      "planner_reason": "This segment captures the peak visual action of the video, depicting the vigorous and sustained burning of the central spiral matchstick structure. It directly aligns with the global summary's focus on dynamic flame movement, glowing embers, and the mesmerizing spectacle of controlled combustion, making it highly representative and essential for conveying the core theme in the final summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment continues the sustained burning phase already established in prior clips, reinforcing the visual spectacle of the flames without introducing a new developmental stage, structural transformation, or transition to a subsequent event. Its contribution to advancing the main narrative or event progression is minimal, serving primarily to maintain the ongoing visual sequence."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment delivers strong visual impact through dynamic, leaping flames and a vivid warm glow that contrasts sharply with the surroundings. It captures the peak intensity of the burning spectacle, making it a clear highlight of the sequence. Although the visual motif closely mirrors adjacent frames, the pronounced motion, color saturation, and structural clarity maintain high aesthetic appeal."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment conveys moderate-to-high emotional intensity through the vigorous, leaping flames and dynamic movement of the fire, which evoke a sense of awe and mesmerizing tension. While the controlled nature of the burn prevents extreme dramatic stakes, the vivid visual spectacle and warm, consuming glow sustain a strong atmospheric and emotionally engaging presence throughout the clip."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "The segment continues to depict the ongoing combustion of the matchstick spiral, which was already fully established in previous clips. It offers minimal new information or semantic progression, primarily reiterating the visual state of the burning structure without introducing new actions, instructions, or narrative developments."
+        }
+      },
+      "final_score": 1.3624999999999998
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 800,
+      "end_frame": 900,
+      "planner_score": 0.9,
+      "planner_reason": "This segment captures the peak intensity and core visual spectacle of the video, showcasing the dynamic combustion and charring of the spiral matchstick tower. It aligns directly with the global summary's emphasis on mesmerizing flame movement and controlled burning, making it highly representative and essential for conveying the video's main theme.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment continues to depict the intense burning of the spiral matchstick tower, reinforcing the visual spectacle of the ongoing combustion. Since the ignition and initial spread were already established in prior segments, this clip primarily sustains the existing state rather than introducing a new development or advancing the narrative arc. Thus, its incremental contribution to story or event progression is limited."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment delivers a highly striking visual with intense, dancing flames engulfing the matchstick tower, creating strong contrast against the dim background. The dynamic flickering motion, glowing embers, and charring textures capture the dramatic peak of the combustion process, making it a visually compelling and highlight-worthy moment."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.55,
+          "reason": "The segment conveys moderate emotional intensity through its vivid depiction of rapidly consuming flames and dynamic flickering light, which naturally evoke a sense of awe and mild tension. However, the absence of human subjects, narrative context, or explicit sentiment keeps the emotional expression primarily atmospheric and visually driven rather than deeply affective."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The segment heavily reiterates the ongoing combustion of the matchstick spiral tower, describing intense flames, glowing/charred wood, and flickering motion that were already extensively covered in the preceding segments. It introduces no new subjects, actions, or contextual developments, resulting in minimal incremental semantic value."
+        }
+      },
+      "final_score": 1.3875000000000002
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 900,
+      "end_frame": 1000,
+      "planner_score": 0.25,
+      "planner_reason": "The current segment depicts the ongoing intense burning of the matchstick tower, which closely mirrors the visual content and narrative progression of multiple preceding segments (3-8). Since the ignition phase and the primary combustion dynamics have already been thoroughly captured, this clip offers minimal new information and is largely redundant for constructing a concise final summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment merely reiterates the ongoing combustion of the matchstick tower, which was already fully established in previous clips. It does not introduce new phases of the burning process, transition to other subjects like the wicker baskets noted in the global summary, or advance the narrative beyond maintaining the current intense burning state. Consequently, its contribution to actual story or event progression is minimal."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.75,
+          "reason": "The segment is highly visually striking and highlight-worthy, capturing the intense, dynamic ascent of flames through the matchstick tower with strong contrast against the dim background. However, its composition and subject closely mirror the immediately preceding segments, offering limited visual diversity within this timeframe. The combination of dramatic fire behavior and repetition results in a solid but not exceptional score."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment captures a purely visual and physical process of combustion without any human presence, narrative development, or contextual cues that would convey explicit emotional expression, psychological tension, or sentiment. The focus remains strictly on the aesthetic spectacle of the burning structure, resulting in a low emotional rating."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The segment simply continues the ongoing combustion process already fully depicted in prior segments. It reiterates the same visual elements (intense flames, upward climbing fire, plain/dim background) without introducing any new actions, structural changes, objects, or narrative progression, yielding minimal additional semantic content."
+        }
+      },
+      "final_score": 0.5625
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 1000,
+      "end_frame": 1100,
+      "planner_score": 0.25,
+      "planner_reason": "This segment depicts the continuous burning of the primary spiral structure, which is highly redundant with previous segments that already capture the ignition, rapid flame spread, and intense combustion. It provides negligible new visual or narrative details for the final summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment continues to depict the ongoing combustion of the matchstick tower, which was already fully ignited and actively burning in previous segments. It does not introduce new narrative developments, transition to a different subject, or mark a significant shift in the event, serving primarily to sustain the existing visual spectacle rather than advance the story or main event."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.75,
+          "reason": "The segment features a visually striking display of intense flame consumption, with dynamic fire movement and strong contrast creating a compelling spectacle. However, it closely replicates the action and framing of previous segments, which reduces its diversity and incremental highlight value within the sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment conveys moderate visual tension through the intense, consuming flames, which naturally evokes a sense of drama and awe. However, it lacks explicit human emotional expression, character interaction, or narrative sentiment, keeping the overall emotional weight relatively low."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The segment provides negligible new information or semantic content. It simply continues describing the ongoing combustion of the matchstick tower, which was already thoroughly covered in all preceding segments. No novel details, instructions, or contextual developments are introduced beyond what has been repeatedly documented."
+        }
+      },
+      "final_score": 0.6125
+    },
+    {
+      "segment_id": 11,
+      "start_frame": 1100,
+      "end_frame": 1200,
+      "planner_score": 0.85,
+      "planner_reason": "This segment directly aligns with the global summary's explicit mention of 'similar fire consumption on wicker baskets,' making it highly relevant for a comprehensive video summary. It maintains thematic consistency by showcasing another instance of controlled burning and dynamic flame behavior, thereby enriching the visual narrative and ensuring coverage of all key elements without introducing unrelated content.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "The segment significantly advances the main event by transitioning from the previously focused matchstick spiral tower to a new subject—a wicker basket—undergoing the same controlled burning process. This shift expands the visual narrative and demonstrates the consistent theme of structural combustion across different materials, marking a clear progression in the video's sequence of events."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment introduces significant visual diversity by shifting from the previously shown matchstick tower to a wicker basket. The dynamic consumption of the woven material, along with the visible charring and structural collapse, creates a striking and engaging visual contrast that breaks the repetition of earlier frames while maintaining the core theme of intense combustion."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment conveys strong visual tension and dramatic intensity as fire rapidly consumes and collapses the wicker basket. While there are no explicit human emotional expressions, the destructive yet mesmerizing nature of the burning creates a palpable sense of urgency and awe, elevating the overall emotional weight and sentiment of the scene."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.9,
+          "reason": "The segment introduces a completely new subject (a wicker basket) and a distinct burning progression (bottom-up consumption and structural collapse), providing significant new visual and semantic content compared to the highly repetitive previous segments focused solely on the matchstick tower. This shift expands the video's scope while maintaining the core theme of controlled combustion."
+        }
+      },
+      "final_score": 1.6875
+    },
+    {
+      "segment_id": 12,
+      "start_frame": 1200,
+      "end_frame": 1300,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it introduces a distinct visual element (the woven basket) that aligns with the global summary's mention of varied materials being consumed by fire. While previous segments focused heavily on the matchstick tower, this segment provides necessary diversity and completeness to the final summary by showcasing a different structure undergoing the same intense combustion process.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.5,
+          "reason": "The segment advances the video's thematic progression by shifting focus from the matchstick tower to a woven basket, documenting the ongoing consumption of a new material. While it maintains the established visual motif of controlled burning, it primarily depicts a continuous state rather than introducing a major narrative turning point. Consequently, it contributes moderately to the main event progression by expanding the scope of the fire spectacle as outlined in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment delivers high-contrast visuals with bright, flickering flames against a dark background, creating a striking and dynamic spectacle. The woven material introduces textural diversity compared to the preceding matchstick structures, while the intense, consuming fire action serves as a visually compelling highlight that sustains strong viewer engagement."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment conveys moderate visual tension through the dynamic imagery of fire consuming a woven basket against a dark background. However, as a controlled, aesthetic display of combustion without human subjects, dialogue, or narrative cues, explicit emotional expression or sentiment remains relatively low."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment depicts a woven basket burning, which closely mirrors the subject and action of the immediately preceding segment (segment 11). While it offers minor descriptive variations regarding the burn progression and lighting conditions, it does not introduce significant new semantic content, instructions, or narrative developments, resulting in low informational novelty relative to the recent context."
+        }
+      },
+      "final_score": 1.3499999999999999
+    },
+    {
+      "segment_id": 13,
+      "start_frame": 1300,
+      "end_frame": 1400,
+      "planner_score": 0.8,
+      "planner_reason": "This segment directly corresponds to the global summary's mention of 'loose match piles' and provides a necessary visual variation from the previously featured spiral towers and woven baskets. By showcasing a different arrangement undergoing the same combustion process, it ensures the final summary comprehensively covers all documented burning configurations while maintaining thematic consistency.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment advances the main event by introducing a new configuration (a loose pile of matchsticks) within the established theme of controlled combustion. While it follows the same visual pattern as previous clips rather than introducing a major narrative shift, it successfully expands the documentary's scope by demonstrating the fire's behavior across different material arrangements, thereby contributing moderately to the overall progression of the sequence."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "Adds meaningful visual diversity by transitioning from structured towers and woven baskets to a loose pile of matchsticks, while maintaining high visual impact through the intense, rapidly dancing flames. The shift in burning configuration keeps the segment highlight-worthy and engaging despite the smaller scale."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.25,
+          "reason": "The segment centers on a purely visual and physical phenomenon—a controlled fire consuming matchsticks—without any human presence, narrative cues, or auditory elements that would convey explicit emotional expression or sentiment. While the rapid, dancing flames may evoke mild fascination or subtle tension typical of watching fire, the absence of storytelling or expressive content keeps the emotional intensity low."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.75,
+          "reason": "The segment introduces a new subject—a loose pile of matchsticks—diverging from the structured towers and woven baskets seen previously. This shift provides fresh visual information on how fire interacts with unarranged materials, adding meaningful variation to the video's exploration of controlled combustion."
+        }
+      },
+      "final_score": 1.4
+    },
+    {
+      "segment_id": 14,
+      "start_frame": 1400,
+      "end_frame": 1500,
+      "planner_score": 0.85,
+      "planner_reason": "This segment directly aligns with the global summary's explicit mention of 'loose match piles' and serves as a key thematic variation. By shifting focus from the structured spiral towers to a contained pile, it reinforces the core narrative of controlled combustion and visual spectacle, ensuring the final summary captures the full range of footage presented.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment continues the video's central theme of documenting controlled combustion by showcasing a different configuration (a pile of matchsticks on a reflective surface) rather than introducing a major narrative shift. It moderately advances the visual progression by expanding the scope of the burning spectacle, aligning with the global summary's mention of varied setups like loose match piles. While not a pivotal turning point, it sustains the thematic arc and contributes to the cumulative documentation of the fire's behavior across different arrangements."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is highly visually striking due to the dynamic, dancing flames interacting with a reflective surface, which creates compelling light play, sharp contrasts, and vivid color saturation. Its intimate framing and warm glow effectively capture the mesmerizing combustion process, making it a highlight-worthy moment that offers a fresh compositional variation from the earlier tall-tower sequences while maintaining strong visual engagement."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.5,
+          "reason": "The segment exhibits moderate emotional intensity driven by the vivid description of a 'small, intense fire' that 'burns vigorously' and 'dances,' which creates a visually captivating and slightly tense atmosphere. However, the overall tone remains observational and aesthetically focused rather than emotionally charged or narratively dramatic. Phrases like 'warm, glowing light' and 'focused, intimate view' suggest fascination and quiet contemplation rather than strong sentiment or high arousal, keeping the emotional expression and tension at a moderate level."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The current segment heavily overlaps with the immediately preceding segment (13), both depicting a small, intense fire consuming a pile of matchsticks on a flat surface. While it introduces minor aesthetic details such as a reflective surface and soft background illumination, it does not advance the narrative, introduce new subjects, or provide additional instructions. The semantic content remains largely redundant within the established theme of controlled combustion, yielding minimal new information."
+        }
+      },
+      "final_score": 1.375
+    },
+    {
+      "segment_id": 15,
+      "start_frame": 1500,
+      "end_frame": 1612,
+      "planner_score": 0.25,
+      "planner_reason": "The current segment shows a burning pile of material on a reflective surface, which closely overlaps with the content already captured in segments 13 and 14 (loose matchsticks burning). Since the global summary establishes that these pile and basket variations are supplementary to the primary focus on the spiral matchstick towers, this segment provides redundant visual information and adds minimal new narrative or structural value to the final summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.5,
+          "reason": "The segment continues the video's central theme of documenting controlled combustion, focusing on the sustained burning and charring of a material pile. While it maintains the visual narrative of fire consumption established in previous segments, it does not introduce a new structural element or significant developmental shift. Instead, it serves as a continuation of the ongoing burning process, contributing moderately to the overall visual progression by illustrating the late-stage effects of the fire."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment delivers strong visual impact through high contrast between the bright, vigorously dancing flames and the dark, charred material, further enhanced by the reflective surface that multiplies the light and motion. The dim, warm ambient lighting creates an atmospheric, cinematic quality that elevates it beyond the earlier repetitive tower shots, making it a visually striking and highlight-worthy moment within the combustion sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "While there is no direct human emotional expression or narrative sentiment, the vigorous, consuming nature of the fire and the dynamic flickering flames create a strong sense of visual tension and mesmerizing intensity, justifying a moderate-to-high score for this dimension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "This segment heavily overlaps with the immediately preceding segments (13 and 14), which already describe a small, intense fire consuming a pile of matches on a reflective surface. It introduces no new objects, actions, or narrative progression, resulting in very little additional semantic content or information beyond what has already been documented."
+        }
+      },
+      "final_score": 0.7875000000000001
+    }
+  ]
+}

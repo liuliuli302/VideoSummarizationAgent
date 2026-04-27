@@ -1,0 +1,485 @@
+{
+  "video_id": "Bus_in_Rock_Tunnel",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 320,
+      "planner_score": 0.2,
+      "planner_reason": "The segment features scenic B-roll of a rock formation and cave entrance, serving primarily as environmental context. It lacks the central subjects (the tour bus, the driver, and the gathered crowd) and the key event (the vehicle becoming wedged and the subsequent assessment) that define the global summary. Consequently, it contributes minimally to the core narrative required for the final video summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment focuses on atmospheric environmental shots of rock formations and a cave entrance, which do not introduce or advance the core narrative about the tour bus becoming wedged in the mountain pass. It functions as a scenic establishing shot rather than contributing to story or main event progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment exhibits strong visual striking qualities through the dramatic contrast between sunlit, textured rock formations and the pitch-black cave interior, enhanced by deliberate camera movement and natural lighting. However, it functions primarily as atmospheric environmental footage rather than capturing the central action or high-tension moments of the bus incident, which moderately limits its overall highlight-worthiness within the full video narrative."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.35,
+          "reason": "The segment focuses on a calm, steady pan across a natural landscape, emphasizing visual contrast and atmospheric mystery rather than human emotion or dramatic action. While the dark cave entrance introduces a subtle sense of intrigue, the overall tone remains observational and serene, resulting in low emotional expression and minimal narrative tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The segment consists primarily of scenic B-roll footage describing a rock formation and cave entrance. It lacks narrative progression, actionable instructions, or meaningful semantic content that advances the video's core theme of the bus incident. The descriptive focus on natural terrain appears disconnected from the main event, contributing negligible new information to the overall summary."
+        }
+      },
+      "final_score": 0.5250000000000001
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 320,
+      "end_frame": 640,
+      "planner_score": 0.15,
+      "planner_reason": "The current segment focuses exclusively on a natural rock crevice and cave entrance, with no visual or contextual connection to the Stagecoach bus, the narrow mountain pass, or the human activity described in the global summary. It functions as an unrelated scenic or establishing shot and adds negligible value to the core narrative of the vehicle incident and resulting standstill.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment consists entirely of a slow environmental pan revealing a rocky crevice and cave entrance. While it visually establishes the rugged, narrow terrain consistent with the video's setting, it contains no characters, vehicles, or narrative actions that advance the main event of the bus navigating the pass and becoming wedged. Therefore, it contributes minimally to story progression, serving only as atmospheric or scenic setup."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.45,
+          "reason": "The segment presents a visually striking composition through the strong contrast between sunlit rock surfaces and a deep, shadowy crevice, lending it an atmospheric quality. However, it is a slow, static scenic pan that lacks dynamic movement or direct connection to the core narrative event (the bus becoming wedged), making it less diverse and lower in highlight-worthiness compared to the action-driven portions of the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "This segment is purely environmental, featuring a slow, steady camera pan down into a dark crevice between sunlit rocks. It contains no human subjects, dialogue, or dynamic action, resulting in negligible emotional expression, tension, or sentiment. The mood remains calm and observational, serving as atmospheric setup rather than conveying any affective intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The segment provides minimal new information, as its description closely duplicates the previous segment's focus on panning across sunlit rock formations to reveal a dark cave or tunnel entrance. It functions as a repetitive establishing shot without introducing new narrative developments, instructions, or distinct semantic content related to the core event."
+        }
+      },
+      "final_score": 0.375
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 640,
+      "end_frame": 960,
+      "planner_score": 0.1,
+      "planner_reason": "The current segment features a static, close-up view of a rocky crevice with no discernible movement or relevant subjects. It does not advance the core narrative of the bus maneuvering through the pass, becoming wedged, or the subsequent human activity highlighted in the global summary. As purely environmental B-roll, it holds minimal importance for the final summary and can be safely omitted.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.0,
+          "reason": "The segment presents a static, close-up view of the rocky crevice with no discernible movement or action. It introduces no new plot developments, character interactions, or events related to the central narrative of the bus becoming wedged and the resulting standstill, thereby contributing virtually nothing to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.35,
+          "reason": "The segment presents a static, close-up view of a rocky crevice with no discernible movement or action. While the natural lighting creates some contrast between sunlit rock faces and deep shadows, it lacks visual diversity and narrative dynamism. As purely atmospheric setup footage that closely mirrors previous environmental shots, it offers limited highlight-worthy or visually striking content relative to the broader video context."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment features a static, close-up view of a rocky crevice with no discernible movement, characters, or narrative events. As a result, it lacks overt emotional expression, active tension, or distinct sentiment, functioning primarily as a neutral, atmospheric visual rather than a dramatic or emotionally charged moment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The segment provides almost no new information or semantic content. It merely repeats the static visual description of the dark crevice and rock formations already established in the previous segments, with no discernible action, dialogue, or narrative progression toward the main event."
+        }
+      },
+      "final_score": 0.2375
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 960,
+      "end_frame": 1280,
+      "planner_score": 0.1,
+      "planner_reason": "The current segment focuses entirely on a static, exploratory view of a dark cave entrance framed by rocky terrain. It contains no visual or narrative elements related to the global summary's core event, which centers on a Stagecoach bus navigating a treacherous mountain pass and becoming wedged. Since the footage lacks any relevant subjects, actions, or plot progression tied to the main incident, it contributes minimally to the final summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.1,
+          "reason": "The segment consists entirely of slow, atmospheric camera movement exploring a cave entrance, which does not introduce, develop, or advance any elements of the main event described in the global summary (the tour bus navigating the pass and becoming wedged). It functions as static environmental footage rather than contributing to narrative or plot progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.25,
+          "reason": "The segment features a slow, repetitive camera push-in into a dark cave entrance that closely mirrors the preceding frames. It lacks dynamic action, visual variety, or narrative relevance to the central event (the bus incident), resulting in minimal visual impact and low highlight potential."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.25,
+          "reason": "The segment relies on a slow, deliberate camera movement into a dark, narrow passage, generating a mild atmospheric tension and sense of mystery. However, it lacks explicit emotional expression, active conflict, or pronounced sentiment, remaining primarily observational and subdued rather than emotionally charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "The segment provides minimal new information, as it merely reiterates the established visual motif of a dark cave entrance framed by sunlit rocks. The described camera movement is functionally identical to the preceding segments and introduces no new narrative developments, actions, or distinct semantic content relative to the overall video context."
+        }
+      },
+      "final_score": 0.2875
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1280,
+      "end_frame": 1600,
+      "planner_score": 0.95,
+      "planner_reason": "This segment is highly important as it introduces the central subject (the Stagecoach bus) emerging from the tunnel established in the previous atmospheric shots. It marks the transition from environmental setup to the core action described in the global summary, directly initiating the sequence where the bus navigates the tight passage and eventually becomes wedged.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "This segment transitions from passive environmental setup to active narrative progression by introducing the main subject (the Stagecoach bus) and initiating the core action of navigating the treacherous pass. This directly sets up the central conflict described in the global summary, making it a highly progressive segment for the story."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "This segment is highly visually striking and highlight-worthy due to the dramatic scale contrast between the massive bus and the tight, dark tunnel. It breaks the visual monotony of the preceding static environmental shots by introducing dynamic movement, strong chiaroscuro lighting from the headlights, and immediate narrative tension. The active navigation through the confined space makes it a compelling, diverse focal point that effectively sets up the video's central conflict."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.5,
+          "reason": "The segment conveys moderate situational tension as a large bus cautiously navigates a tight, rocky tunnel. While no explicit human emotions are visible, the confined space, heavy vehicle, and deliberate pacing generate suspense and foreshadow the hazardous conditions described in the broader narrative."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.85,
+          "reason": "The preceding segments consisted solely of environmental establishing shots with no narrative progression. This segment introduces the core subject (Stagecoach bus #803) and captures its active movement through the tunnel, delivering a significant amount of new semantic content and driving the video's narrative forward by transitioning from static scenery to concrete action."
+        }
+      },
+      "final_score": 1.725
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 1600,
+      "end_frame": 1920,
+      "planner_score": 0.95,
+      "planner_reason": "This segment is highly important as it features the main subject of the video—the Stagecoach bus—emerging from and navigating the narrow, rocky tunnel. This action directly establishes the core narrative described in the global summary regarding the vehicle maneuvering through the treacherous mountain pass, which ultimately leads to the hazardous standstill.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment closely mirrors the previous clip by showing the bus navigating the tunnel, offering little new narrative development. While it establishes the primary subject for the impending incident described in the global summary, it functions more as a visual continuation rather than a forward-moving plot point, resulting in minimal contribution to overall story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.55,
+          "reason": "The segment provides moderate visual interest through the contrast of the bus's headlights piercing the dark tunnel and the imposing scale of the vehicle within a confined space. However, the movement is slow and steady, lacking the dynamic action, compositional variety, or dramatic tension that would make it a standout highlight, functioning primarily as an atmospheric transition before the main incident."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.5,
+          "reason": "The segment conveys moderate situational tension as a large bus cautiously maneuvers through a narrow, dark tunnel, leveraging the confined space and rugged terrain to create a sense of underlying risk. However, the slow, controlled pace and absence of immediate conflict or visible human distress keep the emotional intensity relatively subdued at this stage."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment's description is nearly identical to the immediately preceding segment, repeating the exact same visual of the bus emerging from the tunnel without introducing any new actions, details, or narrative progression. Consequently, it contributes negligible new semantic content or information."
+        }
+      },
+      "final_score": 1.3125
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 1920,
+      "end_frame": 2240,
+      "planner_score": 0.35,
+      "planner_reason": "The segment depicts the bus continuing its steady progress through the narrow tunnel, which closely mirrors the content of the preceding clips. While it maintains narrative continuity, it does not introduce the critical turning point described in the global summary (the vehicle becoming wedged) or any new significant developments, making it relatively redundant for a concise final summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment continues the bus's steady navigation through the narrow pass, advancing the immediate action and building tension toward the main event of the vehicle becoming wedged. However, it functions primarily as a transitional sequence that repeats established motion rather than introducing a significant plot development or turning point, resulting in moderate contribution to overall story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment captures a visually tense and dramatic moment as a large bus navigates an extremely confined, dark rock tunnel. The strong contrast in scale between the massive vehicle and the rugged, narrow passage creates immediate visual impact and suspense. As the bus steadily disappears into the darkness, the scene effectively builds anticipation for the upcoming standstill, making it a highly highlight-worthy and engaging sequence despite the consistent setting."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.5,
+          "reason": "The segment exhibits moderate tension driven by environmental context rather than explicit emotional expression. The visual of a large charter bus maneuvering through a confined, narrow rock passage inherently creates a sense of spatial constraint and anticipation. However, the description notes the vehicle moves 'steadily,' indicating controlled navigation without acute distress, visible panic, or high-stakes action at this moment. The emotional weight is primarily atmospheric and serves as a narrative buildup to the impending hazard described in the global summary."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment primarily continues the established action of the bus navigating the narrow tunnel without introducing new plot developments, instructions, or distinct semantic content. It serves as a direct temporal extension of the previous clips, resulting in low informational novelty."
+        }
+      },
+      "final_score": 0.875
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 2240,
+      "end_frame": 2560,
+      "planner_score": 0.3,
+      "planner_reason": "This segment depicts the bus initially navigating the narrow tunnel, which closely mirrors previous segments and occurs before the central conflict. Since the global summary highlights the bus becoming wedged and the subsequent standstill, this transitional footage is largely redundant for a concise summary and carries lower importance.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.5,
+          "reason": "The segment depicts the bus exiting the tunnel and continuing along the mountain road, serving as a transitional moment that maintains narrative continuity. While it gradually builds toward the main event where the vehicle becomes wedged, it does not introduce a significant new development or directly advance the central conflict, resulting in moderate contribution to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.55,
+          "reason": "The segment captures the bus maneuvering through a confined rocky passage, offering moderate visual interest due to the scale contrast between the large vehicle and the rugged canyon walls. However, it closely mirrors previous clips with minimal compositional variation or new action, functioning more as a transitional buildup than a standout highlight. The most visually striking and dramatic moments—such as the bus becoming wedged or bystanders gathering—are anticipated in later segments."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.35,
+          "reason": "The segment captures a vehicle carefully maneuvering through a confined rocky passage, which naturally introduces a baseline level of situational tension regarding safe navigation. However, the pacing is steady and the visuals remain observational, lacking pronounced emotional cues, dramatic conflict, or heightened sentiment at this point in the sequence."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The segment offers negligible new information, as it closely repeats the action of the Stagecoach bus emerging from the narrow tunnel already depicted in the previous segments. It introduces no additional narrative progression, instructions, or distinct semantic content."
+        }
+      },
+      "final_score": 0.675
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 2560,
+      "end_frame": 2880,
+      "planner_score": 0.95,
+      "planner_reason": "This segment directly captures the pivotal moment described in the global summary where the bus becomes dangerously wedged between the cliffs. It transitions the narrative from routine navigation to the central conflict/hazard, making it highly representative and essential for the final summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment captures the pivotal moment where the bus becomes wedged between the cliffs, directly aligning with the core conflict described in the global summary. It transitions the narrative from steady transit to a critical hazard, effectively advancing the plot toward the resulting standstill and emergency response."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment captures a highly dramatic and tense moment as a large tour bus becomes wedged between towering rocky cliffs in a narrow pass. The stark contrast between the massive vehicle and the confined natural terrain creates strong visual tension, and the precarious positioning marks a critical narrative turning point, making it exceptionally highlight-worthy despite continuing the established setting."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment conveys strong situational tension due to the large bus being explicitly described as 'wedged' and navigating a 'precarious route' through a narrow mountain pass. This inherently hazardous scenario creates palpable suspense and anxiety regarding potential entrapment or collision, significantly raising the emotional weight of the scene despite the absence of visible human reactions."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.35,
+          "reason": "The segment provides minimal new information, as it largely continues the established narrative of the bus navigating the tight passage. While it adds the specific detail of the front end being 'wedged' and emphasizes the 'precarious route,' these are minor semantic progressions from the immediately preceding segments that already depicted the bus slowly emerging and driving through the narrow tunnel. Thus, the incremental informational value is low."
+        }
+      },
+      "final_score": 1.6749999999999998
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 2880,
+      "end_frame": 3200,
+      "planner_score": 0.95,
+      "planner_reason": "This segment captures the climax and central event of the video, where the bus becomes dangerously wedged between the cliffs. It directly aligns with the global summary's focus on the hazardous driving conditions and the resulting standstill, making it highly critical for constructing an accurate and comprehensive video summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment marks the climax of the narrative arc by depicting the bus fully wedged and immobilized between the cliffs. It directly advances the story from the preceding navigation sequence to the central incident, establishing the main conflict. By capturing the immediate aftermath of the accident, it sets up the subsequent actions described in the global summary, such as the driver assessing the situation and bystanders gathering, making it highly pivotal to the overall story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.92,
+          "reason": "This segment captures the climactic and most dramatic moment of the sequence, featuring a massive charter bus tightly wedged between rugged cliff faces. The stark contrast between the large vehicle and the confined natural space creates a highly visually striking and tense scene. As the central incident driving the narrative, it is exceptionally highlight-worthy due to its clear depiction of danger and pivotal role in the overall story."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment captures a high-tension climax where the bus is perilously wedged and immobilized between cliffs, evoking strong feelings of danger and suspense. The explicit depiction of the vehicle being trapped, the driver visible inside, and the emphasis on the precarious, confined setting significantly heighten the emotional weight and situational tension compared to the earlier, calmer driving sequences."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.35,
+          "reason": "The segment primarily documents the static aftermath of the bus becoming wedged, which was already indicated in previous segments. While it adds minor details like the driver's visibility and explicitly frames the scene as an accident aftermath, it offers limited incremental new information or semantic progression compared to the active maneuvering shown earlier. Major new developments (e.g., personnel exiting, crowd gathering) are not yet present."
+        }
+      },
+      "final_score": 1.705
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 3200,
+      "end_frame": 3520,
+      "planner_score": 0.92,
+      "planner_reason": "This segment is highly important as it captures the core incident of the video: the Stagecoach bus becoming dangerously wedged in the narrow mountain pass. It directly reinforces the global summary's focus on the hazardous driving conditions and the resulting standstill, providing crucial visual detail of the climax event from multiple perspectives.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "This segment primarily reiterates the bus's already-established trapped and precarious state by shifting to different camera angles, rather than introducing new plot points, character actions, or narrative developments. As a result, it contributes minimally to forward story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment is highly visually striking and highlight-worthy due to the dramatic composition of the bus wedged precariously on a cliff edge. The shifting camera perspectives revealing the side and roof emphasize the extreme danger and spatial tension, making it a clear focal point and narrative climax that effectively captures the hazardous conditions described in the global summary."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment exhibits high tension due to the depiction of a large vehicle trapped in a dangerously precarious position on a cliff edge. Descriptors like 'perilously,' 'precariously,' and 'steep drop' emphasize immediate physical danger and suspense. Although explicit human facial expressions are not shown, the hazardous scenario inherently evokes strong anxiety and concern, resulting in a high level of situational tension and negative sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment provides minimal new information, as it largely reiterates the vehicle's stuck and precarious position already fully established in the previous segment. The slight shift in camera perspective to show the side and roof does not advance the narrative or introduce significant new semantic content."
+        }
+      },
+      "final_score": 1.5075
+    },
+    {
+      "segment_id": 11,
+      "start_frame": 3520,
+      "end_frame": 3840,
+      "planner_score": 0.95,
+      "planner_reason": "This segment directly captures the pivotal event described in the global summary: the man in the orange shirt exiting the vehicle to assess the situation. It marks the narrative transition from the bus navigating the pass to the active response phase, providing crucial context about the hazardous conditions and human reaction, making it highly essential for an accurate and complete final summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "This segment significantly advances the narrative by transitioning the main event from a static accident scene to an active response phase. The emergence of the man in the orange shirt to assess the situation and prepare for extraction marks a clear plot progression, directly aligning with the global summary's description of the aftermath and setting up the subsequent rescue or resolution efforts."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "The segment is highly visually striking and highlight-worthy due to the dramatic tension of a vehicle wedged precariously between steep cliffs, creating a strong sense of danger and confinement. The introduction of the man in the orange shirt adds a crucial human element that shifts the focus from passive observation to active assessment, making it a pivotal and narratively significant moment in the sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.85,
+          "reason": "The segment conveys strong tension and concern through the depiction of a vehicle perilously wedged in a narrow, confined mountain pass, which inherently creates suspense and a sense of physical danger. The man's concerned expression and his deliberate approach to assess and prepare for a rescue amplify the emotional weight and urgency. Together, these elements establish a high-stakes atmosphere characterized by anxiety and focused determination, resulting in a high score for emotional intensity and tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.65,
+          "reason": "The segment introduces meaningful narrative progression by shifting focus from the stationary, wedged vehicle to the active response of a man in an orange shirt emerging and approaching to assess the situation. While prior segments established the accident and the vehicle's precarious position, this clip adds semantic depth by detailing the human element and hinting at subsequent rescue efforts, providing clear new information relative to the immediate context."
+        }
+      },
+      "final_score": 1.7625
+    },
+    {
+      "segment_id": 12,
+      "start_frame": 3840,
+      "end_frame": 4160,
+      "planner_score": 0.9,
+      "planner_reason": "The current segment directly captures the key aftermath event described in the global summary, specifically showing the man in the orange shirt assessing the wedged vehicle. This highlights the human response to the hazardous driving conditions and the resulting standstill, making it a critical narrative component for the final summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.5,
+          "reason": "The segment primarily reinforces the established situation of the vehicle being trapped, showing the man in the orange shirt assessing the scene and stepping back while the camera emphasizes the precarious positioning. While it maintains focus on the main event and depicts the immediate human response, it lacks forward momentum or new developments that would significantly advance the narrative toward resolution, resulting in a moderate contribution to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment is highly highlight-worthy and visually striking due to its dramatic composition and clear narrative focus. The bright orange shirt creates a strong visual anchor against the muted, rugged rock formations, immediately drawing attention to the human element amid the mechanical predicament. The camera pan effectively emphasizes the spatial tension by revealing the narrow, dangerous gap and the vehicle's precarious roofline, reinforcing the hazardous environment. This moment serves as a pivotal visual peak, capturing both the consequence of the tight maneuver and the immediate assessment, making it a compelling and memorable segment."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment maintains moderate to high tension through the depiction of a large vehicle wedged precariously in a narrow, hazardous mountain gap. Although the immediate action has paused, the visual emphasis on the dangerous positioning and the man's concerned assessment sustains a strong sense of suspense and risk, reflecting a cautious and tense sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.25,
+          "reason": "The segment primarily continues the scene established in the previous clip, offering only minor visual updates like the man stepping back and a camera pan to the vehicle's roof and gap. It lacks significant new plot developments, instructions, or semantic content beyond what is already documented in the global summary and recent memory context."
+        }
+      },
+      "final_score": 1.4625
+    },
+    {
+      "segment_id": 13,
+      "start_frame": 4160,
+      "end_frame": 4480,
+      "planner_score": 0.92,
+      "planner_reason": "This segment directly aligns with the global summary, capturing the critical moment where the bus is wedged in the narrow pass, surrounded by other vehicles indicating a standstill, and features the man in the orange shirt assessing the situation. It encapsulates the core incident and its immediate aftermath, making it essential for conveying the hazardous conditions and narrative climax.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment primarily reinforces the already-established predicament of the bus being wedged and the man in the orange shirt assessing the situation, rather than introducing new narrative developments or moving the plot forward. While it adds contextual details about surrounding traffic, it functions as a static continuation of the climax instead of actively progressing the story."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "This segment is highly visually striking and highlight-worthy, characterized by a dramatic scale contrast between the massive bus and the narrow, towering rock formations. The precarious wedging of the vehicle, combined with surrounding traffic and a figure in a bright orange shirt assessing the scene, creates strong visual tension and narrative significance. It effectively captures the climax of the hazardous situation, making it a compelling and memorable focal point within the sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment conveys strong situational tension and concern as the bus remains precariously wedged in a confined mountain pass. The visible struggle to maneuver, combined with the surrounding traffic jam and the bystander's active assessment, heightens the anxious sentiment. While the scene lacks overt human emotional outbursts, the inherent danger and uncertainty of the standoff create a consistently high level of suspense."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.35,
+          "reason": "The segment largely reiterates details already established in previous frames and the global summary, such as the bus being wedged in the narrow pass and the man in the orange shirt assessing the situation. While it introduces minor new specifics like the rear end being trapped and explicitly notes surrounding vehicles creating a traffic jam, it does not advance the narrative or provide novel instructions, resulting in limited additional semantic content."
+        }
+      },
+      "final_score": 1.495
+    },
+    {
+      "segment_id": 14,
+      "start_frame": 4480,
+      "end_frame": 4800,
+      "planner_score": 0.75,
+      "planner_reason": "The segment reinforces the core narrative by depicting the bus navigating the narrow pass alongside the man in the orange shirt, directly aligning with the global summary. While it shares thematic overlap with adjacent segments, it maintains crucial visual continuity and emphasizes the hazardous conditions and human assessment that define the video's central event.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment primarily reiterates the established scene of the bus navigating the narrow pass with the man in the orange shirt present, rather than introducing new developments or advancing the core conflict. Since the main event (the bus becoming wedged and the subsequent assessment) has already been captured in previous segments, this clip serves more as a continuation of the static situation than a driver of narrative progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment is visually striking due to the stark scale contrast between the large white bus and the towering, rugged rock formations, which emphasizes the precarious nature of the narrow passage. The man in the bright orange shirt provides a vivid color accent that draws attention to the human element and adds compositional diversity. The careful navigation through the winding road maintains high visual tension and narrative focus, making it a highly highlight-worthy moment that effectively encapsulates the video's core theme of hazardous driving conditions."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment maintains a moderate to high level of tension due to the hazardous setting of a large tour bus carefully maneuvering through a narrow, winding mountain road. The precarious nature of the terrain, combined with the man walking alongside to monitor the vehicle's progress, creates a palpable sense of suspense and apprehension regarding the safety of the journey."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.25,
+          "reason": "The segment largely reiterates information already established in recent frames, specifically the bus navigating the narrow pass and the man in the orange shirt walking alongside it. It introduces no new plot developments, instructions, or distinct semantic content, resulting in low incremental information value."
+        }
+      },
+      "final_score": 1.25
+    },
+    {
+      "segment_id": 15,
+      "start_frame": 4800,
+      "end_frame": 5133,
+      "planner_score": 0.65,
+      "planner_reason": "The current segment reinforces the core narrative of hazardous driving conditions and tight passage outlined in the global summary. While it does not introduce new pivotal events like the initial wedging or the driver's exit, it effectively contextualizes the standstill by showing the gathered tourists and following traffic. This maintains narrative continuity and emphasizes the scale of the incident, making it moderately important for a complete summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment primarily reinforces the existing situation by showing the bus continuing its slow navigation alongside gathered tourists and a following vehicle. While it effectively highlights the ongoing difficulty of the terrain and the broader impact of the incident, it does not introduce significant new developments or advance the core narrative of the bus becoming wedged and the subsequent assessment, resulting in a low to moderate contribution to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.55,
+          "reason": "The segment provides useful environmental context by showing the gathered tourists and following traffic, which helps illustrate the scale of the obstruction and the resulting standstill. However, it lacks the intense visual tension and dramatic framing of the bus being tightly wedged against the cliffs in earlier frames, making it moderately striking but primarily supplementary to the core incident."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.68,
+          "reason": "The segment exhibits moderate to high tension, driven by the hazardous environment and the precarious maneuvering of a large tour bus through a narrow canyon. The presence of gathered tourists and a closely trailing red vehicle heightens the sense of risk and anticipation, creating an atmosphere of concern and suspense as the tight passage unfolds without immediate resolution."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "The segment heavily reiterates previously established details, such as the Stagecoach bus navigating a narrow rocky canyon with tourists gathered nearby. While it introduces a minor new element (a red vehicle following closely), this does not significantly advance the narrative or provide substantial new semantic content given the extensive coverage of the same scenario in prior segments."
+        }
+      },
+      "final_score": 1.1075
+    }
+  ]
+}

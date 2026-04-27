@@ -1,0 +1,485 @@
+{
+  "video_id": "Jumps",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 59,
+      "planner_score": 0.85,
+      "planner_reason": "The segment directly corresponds to a key activity mentioned in the global summary (the DIY yellow water slide). In a vlog format, capturing the collaborative preparation and setup phase is highly valuable as it establishes context, highlights group dynamics, and builds anticipation for the subsequent action sequences.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.5,
+          "reason": "This segment functions as a preparatory phase for the DIY yellow water slide stunt highlighted in the global summary. It contributes to story progression by establishing the collaborative setup and building anticipation, which naturally leads into the upcoming action sequence, though the core event itself has not yet occurred."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.5,
+          "reason": "The segment captures a preparatory moment for a DIY water slide, offering mild visual interest through the bright yellow slide contrasting with the green grass. However, it is largely static and functional, focusing on setup rather than dynamic action. Consequently, it serves as a contextual bridge rather than a visually striking or peak highlight-worthy moment."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment captures a calm, preparatory moment before an activity, characterized by mild anticipation and casual camaraderie rather than intense emotion or high tension. The sentiment is positive and lighthearted, aligning with the recreational vlog theme, but the emotional expression remains subdued as the group focuses on setting up the slide."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.65,
+          "reason": "The segment provides moderate new information by capturing the specific preparation phase of the yellow water slide stunt. While the global summary references the slide generally, this clip introduces concrete visual and procedural details (participants holding buckets, positioning at the top), which advances the narrative of the activity's execution and adds clear semantic content relevant to the vlog's documentation of the event."
+        }
+      },
+      "final_score": 1.3624999999999998
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 59,
+      "end_frame": 118,
+      "planner_score": 0.35,
+      "planner_reason": "The segment captures the setup for the DIY yellow water slide, which aligns with the global summary's focus on key recreational activities. However, it is highly redundant with the immediately preceding segment, showing nearly identical preparatory actions. For a concise vlog summary, this repetitive footage adds little new narrative value and can be safely omitted without losing context.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.25,
+          "reason": "This segment focuses entirely on the preparatory setup for the water slide activity, closely repeating the context established in the previous segment. While it provides necessary context for the upcoming stunt, it does not advance the main event or narrative progression, as the actual action or execution has not yet occurred."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.5,
+          "reason": "The segment features a bright, clearly framed setup scene that effectively builds anticipation for the upcoming stunt. However, as it captures a preparatory moment without dynamic motion or peak action, its visual strikingness and highlight-worthiness are moderate."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment captures a calm, preparatory moment focused on setting up a playful water slide. While there is mild anticipation and casual camaraderie among the friends, the emotional expression and tension remain relatively low as the action has not yet begun."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.1,
+          "reason": "The current segment provides virtually no new information compared to the previous segment, as both captions describe the exact same static preparatory scene of three individuals setting up the yellow water slide. No new actions, instructions, or semantic details are introduced beyond minor phrasing differences."
+        }
+      },
+      "final_score": 0.6625
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 118,
+      "end_frame": 177,
+      "planner_score": 0.85,
+      "planner_reason": "The current segment captures the primary action sequence of the DIY yellow water slide, transitioning from the preparatory shots in previous segments to the actual descent. This payoff moment directly aligns with the global summary's focus on executing stunts and friends enjoying outdoor recreation, making it highly relevant for capturing the core experience and narrative flow of the vlog.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment marks the transition from setup to action for the water slide event, directly advancing the narrative arc established in the previous clips. By executing the planned stunt and showcasing its full scale, it delivers on the segment's premise and moves the main event forward effectively."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "This segment delivers a visually dynamic payoff to the earlier setup, featuring a rapid descent that emphasizes motion and scale through smooth tracking camera work. The bright yellow slide creates a strong color contrast against the green hillside, and the combination of fast-paced action, environmental context, and clear narrative progression makes it a highly striking and highlight-worthy moment."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment captures the moment of action as the group rapidly descends the DIY water slide, introducing a sense of excitement and mild physical tension typical of recreational stunts. However, given the casual, lighthearted vlog context, the overall emotional intensity remains moderate rather than highly dramatic or deeply sentimental."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.75,
+          "reason": "The segment delivers substantial new semantic content by shifting from the static preparation shown in prior clips to the active execution of the water slide stunt. It introduces dynamic motion, captures the rapid descent, reveals the full scale of the slide, and expands the visual field to include the surrounding landscape, providing clear narrative progression and fresh contextual information."
+        }
+      },
+      "final_score": 1.6125
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 177,
+      "end_frame": 236,
+      "planner_score": 0.68,
+      "planner_reason": "This segment captures a distinct sliding activity on a white hillside near a wooden ramp, complementing the previously shown yellow water slide. It contributes to the vlog's narrative of diverse outdoor stunts and maintains the dynamic pacing expected in recreational footage, though its thematic overlap with prior segments slightly reduces its incremental importance.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.7,
+          "reason": "This segment drives story progression by transitioning from the previously executed yellow water slide to a new activity zone featuring a white/grassy slope and a nearby wooden ramp. This shift introduces the next phase of the group's outdoor stunts, maintaining the vlog's episodic flow and clearly advancing the day's recreational timeline toward subsequent planned events."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.5,
+          "reason": "The segment captures a continuous sliding action that fits the vlog's recreational theme, but it offers limited visual diversity as it closely repeats the slide descent already established in prior segments. While the motion provides basic dynamism, the straightforward framing and absence of novel stunts or striking visual contrasts limit its highlight potential, making it moderately engaging rather than visually exceptional."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment focuses on a straightforward recreational action that aligns with the vlog's lighthearted, playful theme. While it implies mild excitement typical of outdoor fun, it lacks pronounced emotional expression, narrative tension, or intense sentiment, resulting in a low-to-moderate evaluation."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.35,
+          "reason": "The segment primarily continues the established sliding action without introducing significant new plot points, instructions, or complex semantic details. While it briefly notes a wooden ramp structure nearby, this environmental detail does not substantially advance the informational content compared to the preceding segments that already covered the slide preparation and descent."
+        }
+      },
+      "final_score": 1.1675
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 236,
+      "end_frame": 295,
+      "planner_score": 0.2,
+      "planner_reason": "The current segment is a static, empty wide shot that merely establishes the location and equipment layout without any human activity or dynamic action. Since the vlog summary prioritizes capturing the group's recreational stunts, preparations, and playful interactions, this pause in the footage contributes minimal narrative value and holds low importance for the final summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment is entirely static with no visible action, dialogue, or character movement, functioning primarily as an environmental establishing shot or transitional pause. While it visually introduces key equipment (the white slide and wooden ramp) that aligns with the video's theme, it halts the current momentum and contributes minimally to the immediate progression of the recreational events or narrative."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.2,
+          "reason": "The segment is entirely static with no movement of people, objects, or the camera across all frames. While it serves as a clear establishing shot that showcases the slide and ramp layout, its complete lack of motion, action, or visual dynamism significantly lowers its strikingness and highlight potential compared to the active sequences in the vlog."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a completely static wide shot with no visible human activity, movement, or interaction. Consequently, there is a notable absence of emotional expression, tension, or sentiment, as it functions as a neutral establishing or transitional pause rather than an active or expressive moment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "The segment consists entirely of a static wide shot displaying previously established structures (the slide and wooden ramp) with absolutely no movement, dialogue, or new actions. It contributes negligible new semantic content or instructional value, serving only as a visual pause or establishing shot rather than advancing the vlog's narrative or activities."
+        }
+      },
+      "final_score": 0.38750000000000007
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 295,
+      "end_frame": 354,
+      "planner_score": 0.95,
+      "planner_reason": "This segment captures a primary action sequence explicitly highlighted in the global summary: snowboarding off the wooden ramp. While the memory context shows heavy repetition around the water slide preparation and descent, this clip introduces a distinct, high-energy stunt that aligns perfectly with the vlog's focus on dynamic outdoor recreation. It is essential for maintaining narrative variety and accurately reflecting the full range of activities documented in the video.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "The segment captures the direct execution of a primary planned stunt (snowboarding off the wooden ramp toward the blue landing pad), transitioning the narrative from setup and observation to active action. This clearly advances the main event progression by fulfilling a key objective outlined in the video's theme."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "This segment delivers a high-impact action moment that serves as a clear highlight, breaking away from the static setup and ground-level sliding seen previously. The visual strikingness comes from the dynamic aerial trajectory, the contrast between the snowboarder, wooden ramp, and vibrant blue landing pad, and the sense of motion. It also adds meaningful activity diversity to the vlog by shifting from sliding stunts to an airborne jump sequence."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment captures a dynamic stunt involving launching off a ramp and soaring through the air, which naturally introduces moderate-to-high physical tension and thrill. Within the recreational vlog context of friends performing stunts, this action conveys a strong sense of playful excitement and adventurous sentiment, significantly elevating the emotional intensity compared to passive or preparatory scenes."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.85,
+          "reason": "This segment introduces a distinct and previously unshown activity—the snowboarding stunt off the wooden ramp—providing significant new visual and narrative content. While earlier segments focused on the setup and execution of the water slide, this clip captures dynamic action, new equipment, and the use of the blue landing pad, advancing the vlog's documentation of the group's diverse recreational stunts."
+        }
+      },
+      "final_score": 1.7999999999999998
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 354,
+      "end_frame": 413,
+      "planner_score": 0.75,
+      "planner_reason": "This segment captures kite flying, which is explicitly highlighted in the global summary as a core activity. It provides meaningful variety to the vlog by showcasing a different recreational pursuit alongside the previously featured slides and snowboarding, effectively illustrating the casual, multi-activity nature of the group's day outdoors.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.8,
+          "reason": "The segment introduces kite flying, which is explicitly listed as one of the main recreational activities in the global summary. By transitioning from the previously shown water slide and snowboarding stunts to a new distinct event, it advances the chronological timeline of the group's day, effectively driving the vlog's narrative forward through a sequence of varied outdoor experiences."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment introduces a distinct activity (kite flying) that enhances the diversity of the vlog beyond the previous slide and snowboarding stunts. While the dynamic camera work captures the motion and expansive setting effectively, the overcast conditions and slightly shaky footage temper its visual impact, resulting in a moderately striking and relevant highlight within the recreational theme."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment features a leisurely kite-flying scene on a grassy hillside, conveying a calm, relaxed, and mildly joyful sentiment. Although the dynamic camera work introduces slight visual energy, the overall emotional expression and tension remain low, reflecting a tranquil, recreational moment that serves as a gentle contrast to the higher-intensity stunts shown earlier."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.75,
+          "reason": "The segment introduces a distinct new activity (kite flying) that was not present in the previous clips, which focused on water slides and snowboarding. This adds meaningful semantic content to the vlog by expanding the documented recreational actions and capturing dynamic environmental footage, thereby contributing fresh narrative value to the sequence."
+        }
+      },
+      "final_score": 1.4
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 413,
+      "end_frame": 472,
+      "planner_score": 0.85,
+      "planner_reason": "The segment directly corresponds to a key activity highlighted in the global summary: the use of the blue inflatable pool as a landing zone. It captures a distinct recreational stunt and provides a natural conclusion or transition point within the vlog's narrative of friends enjoying outdoor activities. Its inclusion ensures the final summary accurately reflects the variety of stunts and maintains the playful, adventurous tone characteristic of the genre.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.75,
+          "reason": "The segment directly advances the main event sequence by showing the aftermath of the snowboarding stunt, as the participant emerges from the blue inflatable pool previously established as a landing zone. This provides narrative closure to a key action beat and smoothly transitions the vlog's timeline forward through the day's recreational activities."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.55,
+          "reason": "The segment features a visually distinct prop—the bright blue inflatable pool set against the green hillside—which adds diversity to the outdoor setting. However, the action is relatively subdued, capturing a moment of emergence rather than high-energy movement or a dramatic stunt. While it provides a clear narrative beat within the vlog, it lacks the dynamic motion and visual intensity that would make it particularly striking or highlight-worthy compared to more active sequences."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment captures a brief, transitional moment following a stunt, focusing on a participant emerging from an inflatable pool. While aligned with the video’s overall lighthearted and recreational theme, the specific action lacks pronounced emotional expression, high tension, or intense sentiment. It functions primarily as a narrative pause between activities, warranting a moderate-low score for emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment primarily captures the aftermath of a previously introduced snowboarding stunt, showing a person emerging from the blue inflatable pool. While it reinforces the pool's role as a landing zone and adds minor visual details (red helmet, post-descent recovery), it introduces little new instructional or semantic content, functioning mainly as a transitional or concluding moment rather than advancing the narrative with fresh information."
+        }
+      },
+      "final_score": 1.375
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 472,
+      "end_frame": 531,
+      "planner_score": 0.45,
+      "planner_reason": "This segment captures a casual, transitional moment where a participant exits the blue inflatable pool, which aligns with the global summary's mention of the pool being used as a landing zone. While it lacks the dynamic action of the primary stunts, it reinforces the vlog's relaxed, collaborative atmosphere and provides narrative continuity between high-energy sequences. Its slight overlap with previous pool footage reduces its standalone impact, warranting a moderate importance score.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "This segment acts as the resolution to the blue inflatable pool stunt, showing the participant exiting the landing zone. It provides narrative closure to the preceding action sequence, completing the activity cycle central to the vlog's theme. While it does not advance to a completely new event, it effectively wraps up a key recreational moment, maintaining pacing and continuity within the broader storyline of friends testing various hillside stunts."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.45,
+          "reason": "The segment captures a calm, transitional moment as a participant climbs out of the inflatable pool following an activity. While the color contrast between the red helmet, blue pool, and green hillside offers mild visual interest, the absence of dynamic motion or high-energy action reduces its impact. It functions more as a brief cooldown or reset phase rather than a peak highlight, making it moderately engaging but less striking than the preceding stunt sequences."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment captures a calm, transitional moment as a person exits a kiddie pool. While aligned with the video's overall playful and recreational tone, this specific clip exhibits low intensity in emotional expression, tension, or sentiment, focusing instead on a straightforward, relaxed physical action."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.35,
+          "reason": "The segment primarily depicts the conclusion of an activity already established in prior frames (climbing out of the blue inflatable pool). While it adds minor environmental context such as the wooden platform and a distant mountain cross, it does not introduce significant new actions, instructions, or narrative progression, resulting in low incremental semantic value."
+        }
+      },
+      "final_score": 0.875
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 531,
+      "end_frame": 590,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it captures a key action sequence central to the video's narrative. It showcases the execution of the blue inflatable pool stunt while emphasizing the collaborative and playful dynamics among friends, which are core elements of a vlog. The interaction directly builds upon the setup established in previous clips and aligns perfectly with the global summary's focus on both dynamic recreational activities and casual group interactions.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "This segment significantly advances the narrative by depicting the active execution and collaborative support of the inflatable pool stunt. Following earlier clips focused on setup and exiting the pool, this scene captures the peak of the activity where friends work together to assist the jumper, directly advancing the vlog's core storyline of shared outdoor recreation and playful teamwork."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.75,
+          "reason": "The segment features strong visual contrast with the bright blue pool, green hillside, and red helmet/wetsuit, creating an eye-catching composition. The dynamic action of the jump combined with the collaborative effort of two friends rushing to assist adds narrative tension and highlights the playful, spontaneous nature of the vlog. While it builds on previously established pool setups, the interactive stunt remains engaging and well-suited as a highlight moment."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.4,
+          "reason": "The segment captures a brief moment of anticipation before a jump, paired with supportive, playful interactions as friends rush in to assist. While there is mild tension leading up to the action, the overall sentiment remains lighthearted and collaborative, reflecting the casual, recreational nature of the vlog without intense emotional or dramatic peaks."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment provides moderate new semantic content by capturing a specific interactive moment at the blue pool, showing a participant preparing to jump while friends rush in to assist. While it continues the established pool sequence rather than introducing entirely new locations or props, it advances the narrative by highlighting the group's collaborative dynamics and safety measures during their stunt activities."
+        }
+      },
+      "final_score": 1.5
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 590,
+      "end_frame": 649,
+      "planner_score": 0.75,
+      "planner_reason": "This segment captures the core social and playful dynamics of the vlog, highlighting the group's camaraderie and lighthearted interactions around the pool stunt. While not an action sequence itself, it provides essential narrative balance to the physical stunts described in the global summary, reinforcing the authentic, friendship-focused tone typical of outdoor recreational vlogs.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.5,
+          "reason": "This segment continues the existing blue pool activity sequence by focusing on group interaction and playful setup, but it does not introduce a new major action or significantly advance the core narrative. It serves as a transitional, atmospheric moment that maintains continuity rather than driving the main event progression forward."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.7,
+          "reason": "The segment offers moderate visual impact due to the strong color contrast between the bright blue pool, red helmet, and green hillside. Its highlight value stems from the animated group interaction and anticipatory staging, which effectively capture the playful, collaborative spirit typical of outdoor vlogs. While lacking the high-speed dynamism of previous stunt sequences, it provides a visually clear and socially engaging focal point that breaks up the action rhythm, making it a solid, moderately striking segment."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment captures a lively, socially interactive moment characterized by animated gestures and playful assistance among friends. This conveys clear positive sentiment and camaraderie, aligning with the lighthearted recreational tone of the vlog. However, the emotional intensity remains moderate rather than dramatic or highly tense, resulting in a mid-range score."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.35,
+          "reason": "The segment primarily continues the established blue pool scene, focusing on group interaction and playful gestures rather than introducing a new activity or advancing the narrative. While it adds minor contextual detail about the social dynamics among the friends, it largely reiterates the setting and mood already covered in recent segments, resulting in low incremental semantic content."
+        }
+      },
+      "final_score": 1.3
+    },
+    {
+      "segment_id": 11,
+      "start_frame": 649,
+      "end_frame": 708,
+      "planner_score": 0.6,
+      "planner_reason": "The segment captures a playful, celebratory interaction around the blue inflatable pool, reinforcing the vlog theme's focus on friendship and lighthearted social dynamics. Although it continues an activity already documented in recent memory segments, it provides necessary tonal balance to the more intense stunt sequences and helps maintain the casual, documentary-style pacing expected in a vlog summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.5,
+          "reason": "This segment captures a celebratory social interaction that serves as a natural conclusion to the blue pool stunt sequence. Rather than introducing a new major event or significantly advancing the core narrative, it functions as a reflective wrap-up that reinforces the vlog's theme of camaraderie. Its contribution to overall story progression is moderate, acting as a pacing beat that resolves the immediate activity before potentially moving to the next segment."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.5,
+          "reason": "The segment offers moderate highlight value by capturing a joyful, celebratory interaction that provides narrative closure to the pool activity. However, it is visually less striking and diverse than earlier action sequences, as it features a relatively static composition focused on casual conversation and high-fives rather than dynamic movement, stunts, or varied scenery."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment captures a lighthearted, celebratory moment characterized by positive social bonding, such as high-fiving and congratulating a friend. While physical tension is minimal following the preceding action sequences, the emotional sentiment is distinctly warm and engaging, reflecting the vlog's core theme of camaraderie and shared enjoyment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.35,
+          "reason": "The segment primarily reiterates the ongoing interaction at the blue inflatable pool, which was already extensively covered in segments 7 through 10. It introduces only minor new details—a shift toward a celebratory tone with high-fives and the presence of a red object—without presenting a new activity, location, or meaningful instructional content. Consequently, its incremental semantic contribution relative to the established context is low."
+        }
+      },
+      "final_score": 1.1
+    },
+    {
+      "segment_id": 12,
+      "start_frame": 708,
+      "end_frame": 767,
+      "planner_score": 0.2,
+      "planner_reason": "This segment is highly redundant with previous segments (10 and 11), depicting the same static group interaction around the blue inflatable pool. It lacks new action or narrative progression, providing little additional value for a concise vlog summary that prioritizes dynamic stunts and key moments.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.4,
+          "reason": "The segment primarily depicts a preparatory or casual interaction around the blue inflatable pool, continuing the established scene without introducing new actions, resolving previous events, or advancing the overall narrative toward a climax or conclusion. It serves as a transitional or setup moment within an ongoing activity block rather than driving the story or main event forward."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.45,
+          "reason": "The segment captures a relatively static, preparatory moment centered on casual interaction and filming setup around the inflatable pool. While the vibrant colors and natural backdrop provide moderate visual appeal, the lack of dynamic movement or executed stunts limits its visual strikingness and highlight potential compared to the high-energy action sequences featured elsewhere in the video."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.35,
+          "reason": "The segment depicts a calm, preparatory moment where friends gather around the inflatable pool, with one individual holding what appears to be a camera or phone. Compared to the preceding action sequences and playful exchanges, there is minimal emotional intensity, narrative tension, or dramatic sentiment here. The mood remains casual and observational, focusing on setup and light interaction rather than peak excitement or strong emotional expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.35,
+          "reason": "The segment heavily overlaps with recent memory contexts, reiterating the scene of the group interacting around the blue inflatable pool. It offers only marginal new semantic content by noting a person in a blue jacket holding a possible camera or phone, but lacks substantial new information, instructions, or narrative progression. Therefore, it scores low on providing novel content."
+        }
+      },
+      "final_score": 0.5875000000000001
+    },
+    {
+      "segment_id": 13,
+      "start_frame": 767,
+      "end_frame": 826,
+      "planner_score": 0.65,
+      "planner_reason": "The segment captures the collaborative setup and movement of the inflatable pool, aligning well with the global summary's emphasis on group preparation and equipment handling. As a vlog, showcasing the teamwork and behind-the-scenes effort adds narrative value, but since the pool activity has already been extensively covered in previous segments, this transitional moment holds moderate rather than high importance for the final summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.65,
+          "reason": "This segment advances the narrative by depicting the group collaboratively lifting and repositioning the blue inflatable pool, which serves as a direct setup phase for an upcoming stunt. While it emphasizes preparation over high-action execution, it provides necessary logistical progression that transitions the group from casual interaction toward the next planned activity, maintaining steady forward momentum consistent with the vlog's focus on documenting both the setup and performance of their outdoor recreational day."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.35,
+          "reason": "The segment captures a functional, behind-the-scenes moment of the group collaboratively lifting and repositioning the inflatable pool. While the bright blue pool provides a clear visual contrast against the natural landscape, the action is relatively static and preparatory rather than dynamic or stunt-driven. Compared to the high-energy sequences like sliding or snowboarding, this clip lacks dramatic movement or novelty, functioning more as a transitional setup scene than a visual highlight."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.35,
+          "reason": "The segment centers on a practical, collaborative task of lifting and positioning a heavy pool, prioritizing physical coordination and setup over emotional intensity. The sentiment remains calm and cooperative, reflecting a low-tension, preparatory vlog moment without notable emotional expression or dramatic stakes."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.65,
+          "reason": "The segment introduces a distinct action where the group collaboratively lifts and maneuvers the blue inflatable pool, indicating a setup, relocation, or teardown phase. This contrasts with the preceding segments (7-12), which focused on individuals standing inside, jumping into, or celebrating around the stationary pool. The shift to physically moving the equipment adds fresh procedural and contextual information about gear management, providing moderate new semantic content relative to the immediate context."
+        }
+      },
+      "final_score": 1.15
+    },
+    {
+      "segment_id": 14,
+      "start_frame": 826,
+      "end_frame": 885,
+      "planner_score": 0.75,
+      "planner_reason": "This segment effectively captures the casual, social atmosphere central to the vlog theme, directly supporting the global summary's focus on 'casual, playful interactions' and 'lighthearted moments.' While it does not introduce a new physical stunt, it provides essential narrative pacing and emotional context, highlighting the group's camaraderie and reinforcing the experiential nature of the video.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment primarily captures casual social interaction and downtime among the group rather than advancing the core stunts or main events. While it reinforces the vlog's lighthearted tone and group dynamics, it lacks significant narrative momentum or progression toward the next major activity."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.55,
+          "reason": "The segment captures a lively, candid social interaction around the blue pool, which effectively highlights group camaraderie and fits the casual vlog tone. However, visually it is relatively static and lacks the dynamic motion, dramatic camera work, or high-energy action that characterize the stunt sequences. While it provides a pleasant pacing break and thematic consistency, its visual strikingness and diversity remain moderate compared to the more spectacular activity shots."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.75,
+          "reason": "The segment exhibits a clear positive sentiment and moderate-to-high emotional expression through lively, animated interactions, laughter, and shared excitement among friends. While lacking narrative tension, the palpable sense of joy and playful camaraderie creates a distinct emotional presence that aligns with the lighthearted, social nature of the vlog."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.25,
+          "reason": "The segment heavily overlaps with the preceding footage, continuing to depict the group gathered around the blue inflatable pool without introducing new actions, instructions, or narrative developments. While it captures minor atmospheric details like laughter and casual socializing, the core semantic content remains redundant with segments 9 through 12, yielding low incremental information value."
+        }
+      },
+      "final_score": 1.2125
+    },
+    {
+      "segment_id": 15,
+      "start_frame": 885,
+      "end_frame": 950,
+      "planner_score": 0.55,
+      "planner_reason": "This segment captures the casual social dynamics and behind-the-scenes interactions around the inflatable pool, which aligns well with the vlog theme's emphasis on friendship and lighthearted atmosphere. While it lacks high-intensity action, it provides necessary pacing and contextualizes the group's collaborative efforts, making it moderately important for a comprehensive summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment captures a casual, low-action moment where the group gathers near the pool, with one person holding a helmet and another filming. While it reinforces the vlog's theme of social downtime and group dynamics, it does not introduce or advance any of the core stunts or main events. It functions primarily as a transitional or preparatory pause rather than driving the narrative or action forward."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.35,
+          "reason": "The segment captures a calm, conversational moment with minimal action or dynamic movement. While it provides necessary pacing and social context for the vlog, it lacks the visual intensity, stunts, or striking compositions that define the video's highlight sequences. The scene is relatively static and functional rather than visually captivating."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.35,
+          "reason": "The segment captures a calm, transitional moment focused on casual conversation and filming rather than active play or stunts. Emotional expression and tension are minimal, with a mildly positive but relaxed sentiment that serves as a brief pause in the vlog's pacing."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "This segment largely reiterates the casual social interactions around the blue inflatable pool that were already extensively covered in the preceding segments. While it introduces minor specific details such as one person walking toward the group with a red object and another appearing to film, it does not present significant new actions, instructions, or semantic progression relative to the immediate context, resulting in a low incremental information value."
+        }
+      },
+      "final_score": 0.875
+    }
+  ]
+}

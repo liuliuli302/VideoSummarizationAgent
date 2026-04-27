@@ -1,0 +1,485 @@
+{
+  "video_id": "Hl-__g2gn_A",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 365,
+      "planner_score": 0.85,
+      "planner_reason": "This segment is highly important as it introduces the core ingredients and showcases the final plated result, providing both instructional context and visual payoff that are essential for a cooking tutorial summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment substantially advances the tutorial's narrative by covering the full instructional arc, from ingredient introduction to the final plated dish. By bridging the setup and completion phases, it effectively drives the main event progression of the recipe demonstration."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.8,
+          "reason": "The segment delivers a strong visual payoff by transitioning from clear ingredient presentation to an appetizing close-up of the finished sandwich. The detailed shot highlighting the melted cheese, toasted bread, and pickle garnish makes it highly highlight-worthy and visually engaging for a cooking tutorial."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment is a straightforward cooking tutorial focused on ingredient presentation and the final plated dish. It lacks dramatic pacing, conflict, or heightened vocal and visual cues that would indicate strong emotional expression or tension. The sentiment remains neutral to mildly positive, which is typical for instructional content."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.35,
+          "reason": "This segment primarily serves as an introductory overview and final showcase, highlighting key ingredients and displaying the finished sandwich. It lacks detailed step-by-step instructions, specific measurements, or technical cooking guidance, resulting in relatively low new instructional or semantic content compared to a full procedural tutorial."
+        }
+      },
+      "final_score": 1.4125
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 365,
+      "end_frame": 730,
+      "planner_score": 0.85,
+      "planner_reason": "This segment captures the crucial introductory phase of the tutorial, where the host presents the necessary ingredients and sets up the workspace. In a step-by-step cooking guide, clearly showcasing and explaining the components before assembly is essential for viewer comprehension and replication, making it highly important for the final summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.5,
+          "reason": "This segment acts as the introductory setup for the tutorial, presenting the ingredients and explaining the recipe. While it does not depict active cooking or assembly, it establishes the foundational context required for the subsequent steps, contributing moderately to the logical progression of the main event."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.5,
+          "reason": "This segment functions primarily as a standard instructional setup, featuring a static arrangement of ingredients and the host addressing the camera. While clear and well-organized for a tutorial, it lacks the dynamic action, mouth-watering close-ups, or varied cinematography that would make it visually striking or particularly highlight-worthy compared to the active cooking and final plating stages."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.5,
+          "reason": "The segment displays a positive and enthusiastic tone as the presenter explains the ingredients, but the emotional intensity remains moderate. Given the instructional nature of a cooking tutorial, it lacks high tension or deep sentiment, focusing instead on clear, upbeat guidance rather than dramatic or emotionally charged moments."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "This segment largely reiterates the ingredient introduction and kitchen setup already covered in the previous segment. It focuses on gesturing and on-screen prompts regarding the components rather than advancing to distinct new instructional steps like layering, cooking, or finishing, resulting in low incremental semantic content."
+        }
+      },
+      "final_score": 1.3
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 730,
+      "end_frame": 1095,
+      "planner_score": 0.65,
+      "planner_reason": "The segment highlights the bread, a critical structural component for assembling the Reuben sandwich. In a tutorial format, clearly demonstrating each assembly step is essential for viewer replication. While earlier segments introduced ingredients generally, this specific focus on the bread provides necessary procedural clarity, making it moderately important for maintaining the logical flow and instructional value of the final summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.75,
+          "reason": "This segment advances the tutorial's main event progression by transitioning from a general ingredient overview to the specific assembly phase. Introducing the bread slices establishes the necessary foundation for the subsequent layering and grilling steps, maintaining a clear and logical sequence in the recipe demonstration."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.35,
+          "reason": "The segment captures a basic instructional moment where the chef simply retrieves and displays bread slices. While clear and functional for a cooking tutorial, it lacks dynamic camera movement, contrasting visuals, or engaging action, resulting in low visual diversity and minimal highlight-worthy impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment focuses on straightforward ingredient preparation and demonstration typical of a cooking tutorial. There is minimal emotional expression, tension, or sentiment, as the content is primarily instructional and neutral in tone."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces the bread component by pulling slices from a bag and displaying them, which adds a basic instructional step to the recipe. However, since ingredient overview and preparation were already established in prior segments and the action lacks detailed explanation or technique, the amount of new semantic content provided is relatively low."
+        }
+      },
+      "final_score": 1.0750000000000002
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1095,
+      "end_frame": 1460,
+      "planner_score": 0.85,
+      "planner_reason": "This segment captures a critical assembly step in the cooking tutorial, directly aligning with the global summary's instruction to layer corned beef on bread. As a core procedural element, it is highly important for maintaining the logical flow and completeness of the step-by-step guide.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "This segment actively advances the tutorial's main event by moving from ingredient setup and introduction into the core assembly phase. Placing the bread and layering the corned beef constitutes a direct, sequential step in building the Reuben sandwich, logically progressing the narrative toward subsequent steps like adding sauerkraut, grilling, and plating."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.35,
+          "reason": "The segment captures a routine sandwich assembly step with minimal visual dynamism or variety. Layering meat on bread is a functional, everyday action that lacks the close-ups, dramatic transitions, or unique presentation typical of highlight-worthy moments, making it relatively unremarkable visually."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment focuses on a straightforward, procedural cooking step with no observable emotional cues, tension, or sentiment shifts. The tone remains calm and instructional, which is typical for a neutral tutorial demonstration."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.65,
+          "reason": "The segment delivers clear, actionable instructional content by demonstrating the first concrete step of the sandwich assembly: placing the bread and layering the meat. While it builds directly on the previous ingredient introductions and counter setup, it advances the tutorial with specific visual guidance. The semantic density is moderate, as it focuses on a single, straightforward preparation step without introducing advanced techniques or additional explanatory details."
+        }
+      },
+      "final_score": 1.3624999999999998
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1460,
+      "end_frame": 1825,
+      "planner_score": 0.7,
+      "planner_reason": "This segment captures a crucial intermediate assembly step in the tutorial sequence, logically progressing from base layering to completing the sandwich structure before cooking. It maintains the step-by-step instructional flow essential for the final summary, contributing significantly to the procedural narrative.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment advances the tutorial by continuing the sandwich assembly process, transitioning from adding meat to completing the layered structure before cooking. While it follows logically from previous steps and maintains procedural momentum, it represents a routine instructional action rather than a significant milestone or major event in the recipe's progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.35,
+          "reason": "The segment shows a standard, functional sandwich assembly step with straightforward framing and no notable visual effects or dynamic composition. It lacks the dramatic lighting, unique angles, or visually engaging moments that would make it particularly striking or highlight-worthy, serving primarily an instructional purpose within the tutorial format."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment focuses entirely on neutral, procedural food preparation steps without any noticeable emotional expression, dramatic tension, or strong sentiment. It maintains a calm, instructional tone typical of a straightforward cooking tutorial."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.6,
+          "reason": "The segment delivers a clear, incremental instructional step by showing the addition of lettuce and the placement of the top bread slice, which logically completes the initial cold assembly phase. While it builds directly on the previous meat-layering action and follows a standard tutorial progression rather than introducing highly novel concepts, it provides essential visual guidance that advances the recipe's procedural flow and maintains steady informational value."
+        }
+      },
+      "final_score": 1.1124999999999998
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 1825,
+      "end_frame": 2190,
+      "planner_score": 0.85,
+      "planner_reason": "This segment captures a critical instructional step in the tutorial by demonstrating the layering of sauerkraut and condiments onto the bread, which directly aligns with the global summary's emphasis on assembling the classic Reuben sandwich. It provides essential visual guidance for viewers following the recipe.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "The segment effectively advances the tutorial's main event progression by continuing the logical assembly sequence. After introducing ingredients and placing the initial layers in previous clips, this segment adds essential components (shredded cabbage and dressing) and completes the pre-cooking assembly, directly moving the recipe toward the grilling stage described in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment features a routine assembly step with straightforward layering actions, lacking dynamic visual elements such as sizzling, browning, or vibrant color contrasts. While functionally clear for a cooking tutorial, it offers limited visual diversity or striking imagery, making it moderately highlight-worthy at best."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts a routine, instructional cooking step with no noticeable emotional expression, tension, or strong sentiment. The tone remains neutral and focused on the practical task of assembling the sandwich."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.75,
+          "reason": "The segment introduces specific assembly steps—layering cabbage and adding ketchup—that advance the tutorial's recipe instructions. It provides clear, actionable content building upon previous ingredient placement, offering meaningful semantic value for viewers following along, despite minor thematic overlap with general sandwich construction."
+        }
+      },
+      "final_score": 1.4
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 2190,
+      "end_frame": 2555,
+      "planner_score": 0.35,
+      "planner_reason": "The current segment focuses on preparing a sauce and handling seasonings, which represents a minor preparatory step rather than a core component of the Reuben sandwich tutorial. It does not align closely with the key stages highlighted in the global summary, such as layering the main ingredients, grilling the sandwich until melted, or the final plating and tasting. Consequently, its contribution to the essential narrative of the recipe is limited.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "The segment focuses on minor preparatory actions such as pouring sauce, retrieving seasoning, and stirring a mixture, which do not directly advance the core assembly or cooking steps of the Reuben sandwich. While it may relate to dressing preparation, it interrupts the clear linear progression established in previous segments and contributes little to moving the main tutorial narrative toward the essential grilling or final plating stages."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.4,
+          "reason": "The segment focuses on routine preparatory actions like pouring sauce, grabbing seasoning, and stirring, which are functionally necessary for the recipe but lack visual dynamism or standout moments. As a result, it offers limited visual strikingness or highlight-worthy appeal compared to more engaging cooking stages like grilling or final plating."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment depicts routine, procedural cooking actions such as pouring sauce, reaching for seasoning, and stirring a mixture. As part of a straightforward instructional tutorial, it maintains a calm, methodical pace with no notable emotional expression, narrative tension, or heightened sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment introduces new visual actions such as pouring sauce, retrieving seasoning, and stirring a mixture, offering some instructional content. However, the steps lack specific culinary context and do not clearly align with or advance the core Reuben sandwich assembly and grilling process outlined in the tutorial. Consequently, its semantic contribution to the main recipe is limited."
+        }
+      },
+      "final_score": 0.6749999999999999
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 2555,
+      "end_frame": 2920,
+      "planner_score": 0.35,
+      "planner_reason": "The segment focuses on mixing and applying a sauce, which overlaps with earlier content and is not a primary step highlighted in the global summary. Since the tutorial emphasizes layering ingredients, grilling, and final presentation, this sauce preparation phase adds limited incremental value for a concise summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.2,
+          "reason": "The segment depicts mixing a sauce and plating a dish of meat and vegetables, which diverges from the established tutorial narrative focused on assembling and grilling a Reuben sandwich. It fails to advance the core recipe steps (layering, cooking, or finishing the sandwich), resulting in minimal contribution to the main event progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.35,
+          "reason": "The segment shows a routine sauce-mixing and spooning action that is clear and instructional but visually static. It lacks dynamic camera work, dramatic food transformations, or iconic presentation moments that would make it stand out as visually striking or highlight-worthy in a cooking tutorial."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment focuses on a routine, instructional cooking step described as 'focused and methodical,' indicating a calm and neutral tone. There is no notable emotional expression, dramatic tension, or strong sentiment conveyed, which aligns with the typically low-affect nature of a straightforward cooking tutorial."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.4,
+          "reason": "The segment focuses on mixing and applying a sauce, which heavily overlaps with previous segments that already depicted stirring a mixture and pouring sauce over the dish. While it provides minor additional visual details (using a green bowl, careful spooning), it does not introduce a distinct new instructional step or advance the tutorial toward the next major phase (e.g., grilling), resulting in limited incremental semantic content."
+        }
+      },
+      "final_score": 0.6375
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 2920,
+      "end_frame": 3285,
+      "planner_score": 0.75,
+      "planner_reason": "This segment captures a key assembly step in the tutorial, showing the application of the condiment to complete the sandwich layers before cooking. It aligns with the global summary's focus on the step-by-step preparation process and ensures the instructional narrative remains coherent for viewers.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "This segment directly advances the tutorial's main event by capturing a critical assembly step: applying a condiment to the bread layered with meat and cheese. It logically progresses the recipe from initial filling placement toward the grilling and finishing stages outlined in the global summary, maintaining the clear, sequential flow essential for instructional storytelling."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.35,
+          "reason": "The segment captures a routine sandwich assembly step with clear, functional framing typical of cooking tutorials. However, it lacks dynamic camera work, dramatic lighting, or unique visual elements that would make it visually striking or highly highlight-worthy. The action is straightforward and blends into the sequential, instructional nature of the recipe preparation."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.1,
+          "reason": "The segment focuses on a routine, methodical cooking step within a tutorial format, specifically spreading a condiment during sandwich assembly. There are no indicators of strong emotional expression, narrative tension, or heightened sentiment; the tone remains calm, practical, and strictly instructional."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.75,
+          "reason": "The segment introduces a specific, actionable assembly step—spreading a creamy condiment on the top slice of bread—that was not covered in previous segments. This advances the tutorial's instructional flow by detailing a key preparation technique before cooking, providing clear semantic content without significant redundancy."
+        }
+      },
+      "final_score": 1.2625
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 3285,
+      "end_frame": 3650,
+      "planner_score": 0.85,
+      "planner_reason": "This segment captures the crucial grilling step explicitly mentioned in the global summary. As a tutorial, demonstrating the transition from assembly to active cooking in a hot skillet is essential for instructional completeness and viewer comprehension.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment significantly advances the tutorial's main event progression by marking the critical transition from assembly to cooking. Placing the fully layered sandwich into a hot skillet directly executes a key step outlined in the global summary, moving the demonstration closer to the final grilled result."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.55,
+          "reason": "The segment captures a standard but essential cooking transition—moving the assembled sandwich to a hot skillet—which offers moderate visual interest as the dish begins to cook. However, the framing and actions remain typical for a tutorial format, lacking distinctive visual flair, dynamic composition, or high diversity, rendering it functional rather than a particularly striking or highlight-worthy moment."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "This segment captures a standard instructional cooking step typical of a tutorial. The actions described—gesturing to the camera, assembling ingredients, and transferring the sandwich to a skillet—are methodical and focused on clear demonstration. There are no indicators of heightened sentiment, dramatic tension, or strong emotional expression, keeping the overall emotional intensity low."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.7,
+          "reason": "This segment introduces a key procedural transition by moving from assembly to the cooking phase, specifically placing the sandwich into a hot skillet. This provides meaningful new instructional content, as grilling is an essential step for toasting and melting the cheese that was not detailed in the preceding assembly-focused clips."
+        }
+      },
+      "final_score": 1.4375
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 3650,
+      "end_frame": 4015,
+      "planner_score": 0.95,
+      "planner_reason": "This segment captures the critical grilling and pressing step essential for a classic Reuben sandwich, directly aligning with the global summary's mention of cooking the sandwich in a skillet until toasted and melted. Demonstrating the proper technique ensures viewers understand how to achieve the signature crispy exterior and fully melted interior, making it highly important for the tutorial's completeness.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.6,
+          "reason": "The segment continues the grilling phase initiated in the previous clip, focusing on pressing and melting the ingredients. While it maintains the tutorial's pacing and ensures the cooking process is clearly shown, it represents a continuation of an existing step rather than introducing a new major milestone, thus contributing moderately to overall progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.75,
+          "reason": "This segment captures the dynamic cooking process of grilling the sandwich, featuring sizzling ingredients and melting cheese. These active, sensory-rich visuals provide a strong contrast to the preceding static assembly steps, making it a highly engaging and highlight-worthy moment that showcases the appetizing transformation of the dish."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.3,
+          "reason": "The segment captures a standard, methodical cooking step within an instructional tutorial, emphasizing careful handling and gentle pressing in a skillet. The tone remains calm and practical, with no dramatic tension, heightened emotional expression, or strong sentiment, resulting in a low overall emotional intensity."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.45,
+          "reason": "The segment depicts the sandwich being placed in a hot skillet and pressed with a spatula, continuing the grilling action already introduced in the previous segment. While it provides minor instructional detail about ensuring even cooking and melting, it offers limited new semantic content relative to the immediate context, resulting in a moderate score for informational novelty."
+        }
+      },
+      "final_score": 1.475
+    },
+    {
+      "segment_id": 11,
+      "start_frame": 4015,
+      "end_frame": 4380,
+      "planner_score": 0.9,
+      "planner_reason": "This segment directly captures the critical grilling and plating phases outlined in the global summary. It demonstrates the essential cooking technique of pressing and toasting the sandwich in the skillet, followed by the final presentation, making it highly important for conveying the complete and actionable steps of the tutorial.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment captures the final critical steps of the tutorial: completing the grilling process and transitioning to plating. It directly advances the main event progression from active cooking to the finished product, effectively concluding the core instructional narrative outlined in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "The segment captures the satisfying payoff of the tutorial, showcasing the golden-brown toasting of the sandwich in the skillet and the careful plating of the melted, cheesy result. These appetizing, high-contrast visuals are naturally highlight-worthy and provide a clear, engaging conclusion to the cooking steps."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.2,
+          "reason": "The segment focuses entirely on the practical, step-by-step process of cooking and plating a sandwich. The tone remains neutral, methodical, and instructional, with no indicators of heightened emotional expression, narrative tension, or strong sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.3,
+          "reason": "The segment primarily continues the skillet-cooking action already established in the previous two clips, adding only the final step of transferring the sandwich to a plate. Because the core instructional content (toasting, pressing, melting) was recently covered, the amount of genuinely new semantic information or guidance provided here is low."
+        }
+      },
+      "final_score": 1.4625
+    },
+    {
+      "segment_id": 12,
+      "start_frame": 4380,
+      "end_frame": 4745,
+      "planner_score": 0.9,
+      "planner_reason": "This segment represents the final presentation and result phase of the tutorial, directly matching the global summary's mention of 'plating and tasting the finished dish.' Slicing the sandwich and showing the creator's satisfaction provides crucial visual closure and confirms the recipe's successful outcome, making it highly important for a complete cooking tutorial summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.85,
+          "reason": "This segment captures the final step of the tutorial, showing the cooked sandwich being sliced and presented. It serves as the narrative resolution to the cooking process, completing the main event progression by showcasing the finished dish and signaling the conclusion of the recipe demonstration."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.9,
+          "reason": "This segment serves as a strong visual highlight by revealing the cross-section of the freshly grilled sandwich. Slicing it open exposes the melted cheese, layered meats, and toasted bread, creating an appetizing and satisfying payoff that contrasts with the earlier preparation steps. The presenter's enthusiastic gesture further emphasizes the successful result, making it a visually striking and structurally important moment for the tutorial."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.5,
+          "reason": "The segment conveys a mild positive sentiment as the chef expresses satisfaction and gestures enthusiastically while presenting the finished sandwich. However, as part of a straightforward cooking tutorial, the emotional intensity remains relatively low without significant tension or dramatic expression."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "This segment primarily captures the concluding presentation step of slicing and displaying the finished sandwich, offering minimal new instructional or semantic content since the core preparation, layering, and cooking instructions were already detailed in previous segments."
+        }
+      },
+      "final_score": 1.5125000000000002
+    },
+    {
+      "segment_id": 13,
+      "start_frame": 4745,
+      "end_frame": 5110,
+      "planner_score": 0.75,
+      "planner_reason": "This segment captures the final tasting and enjoyment phase, which aligns with the concluding part of the tutorial's global summary. While it provides necessary closure and visually confirms the recipe's success, it overlaps somewhat with earlier presentation and plating clips, making it moderately important rather than critical for core instructional content.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment acts as the narrative resolution of the tutorial, directly fulfilling the final step of the main event (tasting the finished dish). It provides closure to the cooking process and confirms the successful completion of the recipe, marking the culmination of the story's progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment delivers a strong visual payoff typical of cooking tutorials, highlighting the satisfying sight of melted cheese dripping as the chef tastes the finished sandwich. The shift from assembly and cooking to the final tasting adds narrative diversity and marks a clear, engaging highlight moment that naturally rewards viewer attention."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.65,
+          "reason": "The segment delivers a clear positive emotional payoff typical of cooking tutorials, as the chef tastes and savors the finished sandwich. The sentiment is noticeably warm and satisfying, emphasized by the visual cues of melting cheese and the deliberate enjoyment of the meal. While it maintains the calm, instructional tone of a tutorial and lacks high tension or intense drama, the sensory reward and evident culinary satisfaction provide a moderate-to-strong emotional expression appropriate for the video's conclusion."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.25,
+          "reason": "This segment primarily captures the final tasting and enjoyment of the completed sandwich, functioning as a conventional conclusion to the tutorial. It introduces no new instructional steps or substantive semantic content, as the key preparation, layering, and cooking techniques were already thoroughly demonstrated in previous segments. The focus on savoring the bite and melted cheese provides visual closure rather than advancing the recipe guidance."
+        }
+      },
+      "final_score": 1.4125
+    },
+    {
+      "segment_id": 14,
+      "start_frame": 5110,
+      "end_frame": 5475,
+      "planner_score": 0.85,
+      "planner_reason": "This segment captures the concluding tasting and presentation phase of the cooking tutorial, directly aligning with the global summary's mention of 'plating and tasting the finished dish.' It provides essential narrative closure, visually confirms the successful outcome of the recipe steps, and delivers the satisfying payoff typical of tutorial videos, making it highly important for the final summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.9,
+          "reason": "This segment functions as the narrative resolution of the tutorial, directly fulfilling the global summary's description of 'concluding with plating and tasting the finished dish.' By showcasing the chef enjoying the meal and presenting a final close-up, it delivers the promised payoff of the cooking process, effectively bringing the main event progression to a complete and satisfying endpoint."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.85,
+          "reason": "This segment delivers a strong visual payoff by showcasing a mouth-watering close-up of the finished Reuben sandwich, highlighting the melted cheese and layered fillings. The combination of the appetizing final product, the chef's genuine enjoyment, and the satisfying eating moment makes it a highly highlight-worthy and visually appealing conclusion to the tutorial."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.6,
+          "reason": "The segment conveys a clear positive sentiment as the chef visibly enjoys and savors the finished sandwich, expressing satisfaction through her expressions and gestures. This emotional payoff provides a natural, rewarding conclusion to the tutorial, though the tone remains calm and instructional rather than intense or highly dramatic."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "This segment primarily depicts the host tasting and reacting to the completed sandwich, which heavily overlaps with the content of previous segments (12 and 13) and the global summary's conclusion. It provides minimal new instructional steps or unique semantic content, functioning mainly as a redundant closing reaction and presentation shot rather than advancing the tutorial."
+        }
+      },
+      "final_score": 1.4875
+    },
+    {
+      "segment_id": 15,
+      "start_frame": 5475,
+      "end_frame": 5846,
+      "planner_score": 0.2,
+      "planner_reason": "This segment primarily functions as the video's outro, showcasing the final plated dish and transitioning into a subscription call-to-action. Since it contains no new instructional steps or essential recipe details beyond the previously covered plating and tasting phases, it holds low importance for constructing the core tutorial summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.3,
+          "reason": "This segment functions as the video's conclusion, displaying the completed dish and transitioning to an outro/subscription prompt. Since it marks the end of the tutorial rather than advancing the instructional narrative or introducing new procedural steps, its contribution to story or main event progression is minimal."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "The segment delivers a clear and appetizing visual payoff by showcasing the finished Reuben sandwich with melted cheese, toasted bread, and a pickle, making it highlight-worthy as the tutorial's conclusion. However, the composition is relatively static, relying on a standard plating shot and a direct-to-camera gesture before cutting to a promotional end screen. While visually satisfying for a food tutorial, it lacks the dynamic movement or compositional variety of the active cooking phases, warranting a moderate score for overall visual impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.35,
+          "reason": "The segment functions as a standard tutorial conclusion, focusing on presenting the finished dish and delivering a call-to-action. While there is likely mild satisfaction or pride in showcasing the completed recipe, the emotional intensity remains low, consistent with the informative and calm tone typical of a cooking video's outro rather than featuring heightened sentiment or tension."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.2,
+          "reason": "This segment primarily showcases the finished plated sandwich and ends with a subscription call-to-action. Since all core instructional steps—preparation, layering, grilling, and tasting—were already detailed in previous segments, it provides minimal new semantic or procedural content, serving mainly as a visual wrap-up and channel promotion."
+        }
+      },
+      "final_score": 0.575
+    }
+  ]
+}
