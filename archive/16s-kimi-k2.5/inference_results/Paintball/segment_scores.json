@@ -1,0 +1,485 @@
+{
+  "video_id": "Paintball",
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_frame": 0,
+      "end_frame": 381,
+      "planner_score": 0.75,
+      "planner_reason": "This segment establishes the setting and context of the paintball game with clear wide shots showing players in red gear, tactical positioning, and the industrial/obstacle-rich environment. It directly supports the global summary's opening description and provides essential visual context for understanding the game structure. However, it lacks the dramatic first-person action and unique wildlife encounter elements that make the latter part of the video distinctive, so it scores highly but not maximally.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.75,
+          "reason": "This segment establishes the setting and context of the paintball game, showing players in strategic positioning and tactical movement. It contributes to story progression by introducing the game environment, the players' team (red gear), and the tactical nature of the match. However, it lacks specific narrative developments like key confrontations, eliminations, or turning points that would drive the main event forward more significantly. It serves more as exposition/establishing shot rather than advancing the core action."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.65,
+          "reason": "This segment establishes the setting effectively with wide shots showing the tactical nature of paintball gameplay, the industrial obstacles create visual interest, and the misty/overcast atmosphere adds mood. However, it's relatively static compared to more dynamic sports footage - the players are positioned strategically rather than in active motion, and the color palette is somewhat muted (dominated by grays, browns, and red gear). While competent for establishing context, it lacks the visual punch of fast action, dramatic camera movement, or striking compositions that would make it truly highlight-worthy."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.45,
+          "reason": "The segment establishes a tactical atmosphere with misty conditions and strategic player movement, but the emotional intensity is moderate and anticipatory rather than peak. The overcast sky and mist create a moody, tense backdrop, yet the action remains at a distance—players are positioning and moving behind cover rather than engaged in direct confrontation. The emotional expression is more about building suspense and atmosphere than delivering intense moments of conflict, victory, or defeat. The 'strategic' nature of the movement suggests calculated tension rather than raw emotional release."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.75,
+          "reason": "This segment introduces the core setting and activity of the video—a paintball game with players in red gear using tactical cover on an outdoor field. It establishes the visual style (misty, overcast atmosphere) and the industrial/weathered obstacle aesthetic. However, it overlaps significantly with the global summary which already described 'wide shots of an outdoor paintball field featuring industrial obstacles, bunkers, and players in red gear moving strategically.' The specific details about 'cylindrical obstacles,' 'wooden barricade,' and 'overcast sky' add some new visual specificity, but the fundamental scene and action were already previewed in the summary."
+        }
+      },
+      "final_score": 1.4
+    },
+    {
+      "segment_id": 1,
+      "start_frame": 381,
+      "end_frame": 762,
+      "planner_score": 0.35,
+      "planner_reason": "This segment provides establishing context for the paintball field environment with industrial elements, but it is largely redundant with Previous segment 0 which already showed similar wide shots of the field with players in action. The static, empty nature of this shot (no visible players, no movement, completely still camera) makes it less dynamic and engaging compared to the previous segment that showed active gameplay. While it adds some additional environmental details (crane, 'AG' sign), these are minor additions that don't significantly advance the narrative or action of the sports theme. The segment would be low priority for inclusion in a concise summary given the stronger alternatives available.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.15,
+          "reason": "This segment is a static wide shot of an empty paintball field with no players, action, or movement. While it establishes the setting, it contributes minimally to story progression as there are no characters, tactical developments, or events occurring. The previous segment already established the field and players in action, making this redundant exposition that doesn't advance the narrative or main paintball game events."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.35,
+          "reason": "This segment is a static wide shot of an empty paintball field with no visible action, players, or movement. While the industrial backdrop and obstacles provide some visual interest, the complete lack of dynamism, human presence, or camera movement makes it visually unremarkable. The overcast lighting further flattens the scene. This appears to be an establishing or transitional shot rather than a highlight-worthy moment. Compared to the previous segment which showed active players in red gear, this is significantly less engaging and would likely be trimmed in a summary."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "This segment is a completely static, wide establishing shot of an empty paintball field with no players, action, or movement. The overcast lighting and stillness create a neutral, almost melancholic atmosphere rather than any emotional intensity. There is no tension, excitement, or sentiment expressed—it's purely environmental setup with zero human presence or narrative stakes. The industrial background elements and empty obstacles suggest potential for future action but deliver none in this segment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "This segment provides minimal new information. It largely repeats the setting already established in previous segment 0 (misty/overcast paintball field with obstacles, industrial elements, and similar terrain). The only minor additions are specific details like the blue crane, green tarp, 'AG' sign, and the explicit confirmation that the field is empty. However, the static, empty nature of the shot means no new action, instruction, or meaningful semantic content is delivered. The camera movement (completely still) also adds no dynamism or new perspective compared to the previous wide shots."
+        }
+      },
+      "final_score": 0.55
+    },
+    {
+      "segment_id": 2,
+      "start_frame": 762,
+      "end_frame": 1143,
+      "planner_score": 0.35,
+      "planner_reason": "This segment shows minimal action with a single person walking slowly across the field while the camera remains static. Compared to the previous segments that established the tactical game atmosphere and field layout, this adds little new information or dynamic content. The slow, uneventful movement lacks the strategic tension of segment 0 or the dramatic first-person chaos described in the global summary. It serves as transitional filler footage with low narrative or visual impact for a sports summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.15,
+          "reason": "This segment shows minimal story progression. It features a single person walking slowly across an empty field in a static, wide shot with no paintball action, no strategic gameplay, and no connection to the main event of players engaging in tactical combat. The person is not in paintball gear, not interacting with other players, and the camera doesn't follow any meaningful action. This appears to be transitional or establishing footage that doesn't advance the narrative of the paintball game itself."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.25,
+          "reason": "This segment is visually mundane compared to the dynamic paintball action described in previous segments. It features a single person walking slowly across a field with a static camera, lacking the tactical movement, first-person intensity, or unique elements (like wildlife encounters) that make other segments highlight-worthy. The industrial background elements (green tarp, blue crane) are present but not utilized dynamically. The stationary camera and slow, solitary movement create a lull in visual excitement, making this segment feel like transitional filler rather than compelling content."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "This segment is extremely low in emotional expression, tension, or sentiment. The camera is completely stationary, capturing a single person walking slowly across an empty field with no apparent urgency, conflict, or stakes. There is no paintball action, no interaction between players, no dramatic lighting or weather effects, and no narrative tension. The scene is purely observational and mundane, with the walking figure appearing casual rather than engaged in competitive or emotionally charged activity. Compared to the previous segments that at least showed strategic player movement and tactical positioning, this segment is emotionally flat and devoid of the excitement typically associated with sports content."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "This segment provides minimal new information. The setting (outdoor paintball field with green tarp, blue crane, industrial background) was already established in previous segment 1. The only new element is a person walking across the field, but this adds little semantic value or instruction. The camera remains stationary, matching the static nature of segment 1, and there is no new tactical information, gameplay dynamics, or narrative progression. The segment essentially repeats established visual context without advancing the story or providing fresh content."
+        }
+      },
+      "final_score": 0.525
+    },
+    {
+      "segment_id": 3,
+      "start_frame": 1143,
+      "end_frame": 1524,
+      "planner_score": 0.35,
+      "planner_reason": "This segment is largely redundant with Previous segment 1, which already established the same static wide shot of the paintball field with nearly identical elements (circular targets, wooden barricade, industrial background with crane). While it shows a brief player appearance indicating game start, this adds minimal new information compared to Previous segment 0 which already showed active player movement. The static nature and repetitive scenery make this low-importance for a sports summary that should prioritize dynamic action and gameplay progression.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.15,
+          "reason": "This segment is largely redundant with previous segment 1, showing nearly identical static wide shots of the same paintball field with the same obstacles (round targets, wooden barrier, blue crane). The only minimal progression is a brief appearance of a player behind the left target who then exits the frame, suggesting game start but not actually depicting meaningful action or advancement of the main paintball game narrative. The static nature and repetition of establishing shots without dynamic player engagement or tactical developments results in minimal contribution to story progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.35,
+          "reason": "This segment is visually repetitive and static, nearly identical to Previous segment 1 with the same wide shot composition, overcast lighting, and obstacles (round targets, wooden barrier, industrial background). The only minor variation is a brief player appearance behind the left target, which adds minimal visual interest. The lack of camera movement, flat lighting, and repeated scenery make this segment low in visual diversity and highlight-worthiness compared to more dynamic segments involving first-person action or wildlife encounters mentioned in the global summary."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "This segment is a static, wide shot with minimal action. The overcast lighting and lack of movement create a calm, observational mood. A player only briefly appears and exits, generating almost no tension or emotional engagement. The scene feels preparatory and detached rather than immersive or intense."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "This segment is highly redundant with Previous segment 1, which already established the same static wide shot of the paintball field with nearly identical elements (circular targets, wooden barricade, blue crane, industrial background, overcast conditions). The only new information is a brief appearance of a player behind the left target, which adds minimal semantic content. The camera remains static and the scene composition is essentially unchanged from the earlier segment, providing very little new instruction or information to the viewer."
+        }
+      },
+      "final_score": 0.55
+    },
+    {
+      "segment_id": 4,
+      "start_frame": 1524,
+      "end_frame": 1905,
+      "planner_score": 0.15,
+      "planner_reason": "This segment is highly redundant with previous segments 1 and 3, which already established the same static wide shot of the paintball field with identical elements (round bunkers, wooden barricade, industrial background with crane and green tarp). The global summary emphasizes dynamic first-person perspectives and chaotic movement through foliage with wildlife encounters as key narrative elements, while this segment offers no new visual information or progression toward those highlighted moments. It merely repeats the establishing scenery without adding players in action, tactical movement, or any of the dramatic perspective shifts mentioned in the summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.15,
+          "reason": "This segment is nearly identical to previous segments 1 and 3, showing another static wide shot of the same paintball field with the same obstacles (round bunkers, wooden barricade, industrial background). No players are visible, no action occurs, and no new information is revealed. The camera remains completely still, making this redundant establishing footage that adds nothing to story progression. The paintball game narrative has already stalled through multiple static shots, and this segment continues that stagnation without advancing the game, showing player movement, or developing any events."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.35,
+          "reason": "This segment is nearly identical to previous segments 1 and 3, showing the same static wide shot of the paintball field with the same obstacles (round bunkers, wooden barricade, blue crane, industrial background) under overcast lighting. There is no player movement, action, or dynamic elements. The composition, lighting, and subject matter are repetitive and lack visual novelty or highlight-worthy moments. The static nature and redundancy with earlier segments make this visually unremarkable."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "This segment is a static, wide shot of an empty paintball field with no visible players, action, or movement. The overcast lighting and lack of human presence or activity create a neutral, almost documentary-like atmosphere. There is no emotional expression, tension, or sentiment conveyed—merely an establishing shot of the environment. The scene feels calm and observational rather than engaging or emotionally charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "This segment is nearly identical to previous segments 1 and 3, showing the same static wide shot of the paintball field with the same obstacles (round bunkers, wooden barricade, blue crane, green tarp, industrial background). The only minor variation is slightly different positioning of the bunkers and the mention of 'red lettering' on the green tarp, but no new players, actions, or meaningful semantic content is introduced. This appears to be redundant footage that adds minimal new information to the narrative."
+        }
+      },
+      "final_score": 0.35
+    },
+    {
+      "segment_id": 5,
+      "start_frame": 1905,
+      "end_frame": 2286,
+      "planner_score": 0.15,
+      "planner_reason": "This segment is highly redundant with previous segments 1, 3, and 4, which all show nearly identical static wide shots of the same paintball field with the same obstacles (wooden barricade, circular targets, industrial background with blue crane and green tarp). The only new element is a brief appearance of a person in a red shirt, but this adds minimal new information since players in red gear were already established in segment 0. The shot is static and does not advance the narrative of the paintball game or capture any dynamic action. Given that the global summary emphasizes the dramatic shift to first-person perspectives and chaotic movement, this establishing wide shot is unnecessary to include in a concise summary when multiple similar shots have already been shown.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.15,
+          "reason": "This segment is essentially a redundant static wide shot that repeats visual elements already established in multiple previous segments (segments 1, 3, and 4). The only new element—a person in a red shirt appearing at the very end—is cut off mid-description and adds minimal narrative value. The segment fails to advance the story progression: no tactical movement, no gameplay action, no first-person immersion, and no meaningful development from the established setup. The paintball game narrative remains stalled at the same establishing phase without progressing toward the chaotic ground-level action described in the global summary."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.15,
+          "reason": "This segment is nearly identical to previous segments 1, 3, and 4, showing the same static wide shot of the paintball field with the same obstacles (wooden barricade, circular targets, industrial background). The only minor variation is a person in a red shirt appearing briefly, but this adds minimal visual interest. The composition, lighting, and subject matter are highly repetitive and lack dynamism, diversity, or any highlight-worthy moments. The static camera and overcast lighting further reduce visual impact."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "This segment is a static, wide shot of an empty paintball field with minimal activity. The overcast lighting, lack of motion, and absence of visible gameplay or player interaction create a calm, observational mood. The only human element is a barely visible person in a red shirt at the edge of the frame, which does not generate any emotional engagement, tension, or sentiment. The scene feels preparatory or transitional rather than emotionally charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "This segment is highly redundant with previous segments 1, 3, and 4, which all show nearly identical static wide shots of the same paintball field with the same obstacles (wooden barricade, circular targets, blue crane, green tarp, industrial buildings). The only minimal new element is a brief appearance of a person in a red shirt at the end, but this adds very little semantic content given that players in red gear were already established in segment 0. The camera remains static and the scene composition is almost indistinguishable from earlier segments, providing negligible new information about the game, environment, or narrative progression."
+        }
+      },
+      "final_score": 0.3
+    },
+    {
+      "segment_id": 6,
+      "start_frame": 2286,
+      "end_frame": 2667,
+      "planner_score": 0.75,
+      "planner_reason": "This segment is highly important for the final summary as it represents a critical narrative transition in the paintball game. The abrupt shift from wide, static establishing shots to chaotic, first-person ground-level perspective marks the moment of active engagement and immersion into the gameplay. This violent camera movement and perspective change captures the intensity and physicality of paintball combat, contrasting sharply with the previous observational, wide-angle footage. The segment effectively conveys the sudden shift from strategic positioning to chaotic action, which is essential for understanding the full experience of the game. It also sets up the subsequent wildlife encounter mentioned in the global summary, making it a pivotal bridge between the calm setup and the dramatic ground-level sequences that follow.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.35,
+          "reason": "This segment contains a significant narrative shift that contributes to story progression by transitioning from the established wide, observational perspective to a chaotic first-person viewpoint, suggesting a player has been hit or fallen. However, the progression is incomplete—the segment ends in disorientation without resolving what happened to the player or showing the aftermath. The abrupt camera movement creates tension and implies an event, but the lack of clarity about the outcome and the blurry, unfocused nature of the latter half limits its contribution to meaningful story advancement. It sets up a moment of action but doesn't fully deliver on its narrative potential."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.72,
+          "reason": "This segment delivers a dramatic visual shift that breaks the monotony of previous static wide shots. The abrupt camera tilt from stable field view to chaotic ground-level blur creates genuine visual dynamism and immersion, simulating the physical intensity of paintball gameplay. The extreme perspective change and motion blur introduce diversity in visual texture compared to the earlier calm, observational footage. However, the extended blurry grass sequence lacks clear focal points or compositional interest, limiting its highlight-worthiness despite the effective transition."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.72,
+          "reason": "The segment contains a strong emotional shift from calm to chaos. The abrupt, violent camera tilt downward creates sudden tension and disorientation, simulating a player's fall or frantic movement. This jarring transition from the stable, wide shot to the chaotic, blurry ground-level perspective generates significant emotional impact through the unexpected loss of control and immersion into confusion. However, the emotional expression is brief and somewhat ambiguous—it's unclear if this represents injury, tactical movement, or equipment failure—limiting the sustained emotional resonance."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.75,
+          "reason": "This segment provides significant new information by introducing a dramatic shift in perspective and action. Unlike the previous six segments which were all static wide shots of the field from a fixed camera position, this segment introduces: (1) dynamic camera movement suggesting player action/fall, (2) a first-person perspective that immerses the viewer in the game experience, (3) ground-level detail of grass and foliage not visible in wide shots, and (4) narrative progression indicating something happened to a player. The violent tilt and blur convey chaos and physical engagement, representing a major semantic shift from observational to experiential content. However, it loses some points because the blurry, out-of-focus foliage lacks clear visual information, and the 'why' of the fall remains ambiguous."
+        }
+      },
+      "final_score": 1.385
+    },
+    {
+      "segment_id": 7,
+      "start_frame": 2667,
+      "end_frame": 3048,
+      "planner_score": 0.35,
+      "planner_reason": "This segment captures an unexpected, intimate moment of wildlife (a small rodent) discovered during the paintball game, which adds a unique, serendipitous element to the sports footage. However, the extreme blur, shaky camera, and lack of clear visual information significantly reduce its informational value. The creature is barely discernible, and the segment contributes minimally to understanding the paintball game itself. While it provides a brief narrative surprise in the first-person perspective sequence, it is largely redundant with the previous segment's chaotic ground-level fall and offers poor visual quality that makes it less suitable for a concise summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.15,
+          "reason": "This segment is a tangential, observational moment that does not advance the paintball game narrative or main event. The focus on a small creature hiding in grass is an incidental nature shot that occurs during the chaotic ground-level perspective, but it reveals no information about player positions, game state, tactics, or outcomes. While it adds atmospheric texture to the 'fallen player' experience, it contributes virtually nothing to understanding how the match progresses or resolves."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.35,
+          "reason": "This segment is visually distinctive due to its extreme low-angle perspective and unexpected subject matter (wildlife in a paintball field), which creates a jarring contrast with the previous wide, static shots of the game. However, the heavy motion blur, shaky camera work, and poor visibility of the creature significantly diminish its visual quality. While the surprise element of encountering a small animal during intense gameplay is highlight-worthy in narrative terms, the technical execution makes this segment difficult to appreciate visually. The lack of clear focus and detail prevents it from being truly striking, despite its uniqueness in context."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.35,
+          "reason": "The segment creates a brief moment of surprise and curiosity with the unexpected discovery of a small creature in the grass, but the emotional impact is limited. The extreme blur and shaky camera work create visual confusion rather than clear tension, and the creature's stillness lacks dramatic movement. The low-angle perspective suggests vulnerability, but without clear narrative stakes or human reaction, the emotional resonance remains muted. This is a fleeting, observational moment that interrupts the paintball action without building sustained tension or strong sentiment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.75,
+          "reason": "This segment provides significant new semantic content by introducing an unexpected wildlife element—a small mammal (mouse or shrew)—that was not present in any previous segments. The extreme low-angle, ground-level perspective and the focus on natural fauna rather than game infrastructure or human players represents a dramatic shift in subject matter. While the visual quality is poor (blurry, shaky), the content itself is novel: it reveals the ecosystem coexisting with the paintball field and creates an intimate, accidental encounter that contrasts sharply with the tactical, human-centered action of previous segments. The segment advances the narrative toward the 'recovering and standing up' conclusion mentioned in the global summary. However, the information value is somewhat limited by the poor visibility and lack of clear detail about the creature."
+        }
+      },
+      "final_score": 0.75
+    },
+    {
+      "segment_id": 8,
+      "start_frame": 3048,
+      "end_frame": 3429,
+      "planner_score": 0.15,
+      "planner_reason": "This segment is a continuation of the low-to-ground, blurry foliage perspective from the previous two segments, but it contains even less discernible content. Unlike segment 7 which at least showed a small creature (adding an unexpected, memorable moment), this segment is completely static, unfocused, and lacks any identifiable subject or action. It appears to be a transitional or 'dead' moment where the camera is positioned in undergrowth with nothing happening. For a sports-themed summary focused on paintball action, this adds minimal value. While it technically continues the first-person narrative of a player on the ground, it doesn't advance the story or provide useful visual information. The redundancy with the previous blurry ground-level shots and complete absence of meaningful content makes this the lowest priority segment so far.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.15,
+          "reason": "This segment is a static, blurry, close-up of dense foliage with no discernible movement, action, or narrative development. It follows the brief wildlife encounter in segment 7 but fails to advance the story—there's no visible creature, no player action, no game progression, and no meaningful information conveyed. The description suggests 'quiet observation' or a 'failed attempt to capture a subject,' which indicates this is essentially dead air in terms of story progression. It neither continues the wildlife subplot meaningfully nor returns to the paintball game narrative, leaving the viewer in a static, uninformative limbo."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.15,
+          "reason": "This segment is extremely visually unremarkable. It consists of a static, blurry, out-of-focus shot of dense green foliage with no discernible subject, movement, or action. Following the intriguing discovery of wildlife in the previous segment, this frame fails to capitalize on that momentum—offering no clear subject, no compositional interest, and no visual information. The extreme blur and obstruction make it impossible to identify what might be hidden, and the complete stillness provides no dynamism. This appears to be either a technical failure (failed focus) or an intentionally obscured shot that simply doesn't work visually. It adds nothing highlight-worthy to the sports narrative and would likely be cut from any summary."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "This segment is extremely static, blurry, and lacks any discernible action, movement, or emotional content. The description explicitly states 'no discernible movement or action occurring' and 'completely still and unfocused throughout.' While the context suggests this might be a continuation of the wildlife encounter from the previous segment, the actual visual content provides no emotional expression, tension, or sentiment. The low light conditions, extreme blur, and complete stillness create a neutral, almost null emotional experience. The only faint emotional residue comes from the narrative context (potential wildlife observation), but the segment itself delivers virtually no emotional impact."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "This segment provides minimal new semantic content. It is a static, blurry, unfocused shot of dense foliage with no discernible subjects, movement, or action. The previous segment (7) already established the ground-level perspective in grass/undergrowth and even showed a small creature (mouse/shrew), making this segment largely redundant. The only marginal new information is the confirmation of dense foliage environment, but this adds little given the prior context. The lack of focus, movement, or identifiable elements means almost no instruction, information, or meaningful content is conveyed."
+        }
+      },
+      "final_score": 0.3
+    },
+    {
+      "segment_id": 9,
+      "start_frame": 3429,
+      "end_frame": 3810,
+      "planner_score": 0.15,
+      "planner_reason": "This segment continues the wildlife encounter from the previous two segments (7-8), showing another blurry, low-light shot of a small animal in grass. While it provides additional context to the first-person perspective sequence where a player fell and encountered wildlife, it is highly redundant with segment 7 which already established this wildlife encounter. The shot is static, blurry, and lacks clear visual information. For a sports-themed paintball summary, this extended wildlife observation (now spanning 3 segments) is tangential to the core action and gameplay. The segment adds minimal new information beyond reinforcing the 'hidden animal in grass' moment already captured. It should be heavily deprioritized in favor of segments showing actual paintball gameplay, player movement, or field strategy.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.15,
+          "reason": "This segment continues the tangential wildlife observation that began in segments 7-8, showing another small animal (mouse/vole) hiding in grass. While it maintains thematic continuity with the previous ground-level perspective shift, it represents a complete departure from the paintball game narrative. There is no indication this animal encounter connects back to the main sports event, player actions, or game progression. The segment functions as nature documentary-style footage that interrupts rather than advances the story of the paintball match. The extreme blur, low light, and static nature of the shot further diminish its contribution to understanding what is happening in the game."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.35,
+          "reason": "This segment continues the ground-level wildlife encounter theme from previous segments but suffers from significant technical limitations. The extreme blur, low light, and heavy foreground obstruction make the subject nearly indistinguishable, reducing visual impact. While the unexpected appearance of small wildlife in a paintball context is narratively interesting, the poor image quality and static, cautious behavior of the animal (mostly still with only subtle movements) fails to deliver a striking or highlight-worthy moment. The segment lacks the dramatic dynamism of segment 6's violent camera plunge or even the clearer (though still blurry) view in segment 7. The repetitive nature of this ground-level perspective—now the third consecutive segment at this level—also diminishes its novelty and visual diversity within the broader video context."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "This segment has minimal emotional expression, tension, or sentiment. The scene is extremely static and quiet—a small animal hiding motionless in grass with only subtle movements. While there's a faint sense of cautious stillness from the animal's perspective, there's no dramatic tension, no human emotion, no competitive stakes, and no narrative conflict. The low-light, blurry, obscured quality further dampens any potential emotional engagement. Compared to the chaotic fall in segment 6 or the strategic anticipation of earlier gameplay segments, this moment is emotionally flat and observational at best."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "This segment provides minimal new semantic content. It largely repeats information already established in Previous segment 7, which also showed a blurry, low-angle shot of a small rodent (mouse/shrew/vole) hiding in dense green grass with similar visual characteristics—shaky camera, out-of-focus foreground vegetation, and the animal remaining mostly still. While this segment confirms the animal is still present and adds 'leaf litter' and 'forest floor' to the description, the core information (small rodent in grass, concealed, low-quality footage) is redundant. The global summary already mentioned 'close encounters with small wildlife like mice or voles,' so this doesn't advance the narrative or add meaningful new instruction or content beyond reinforcing what was previously shown."
+        }
+      },
+      "final_score": 0.35
+    },
+    {
+      "segment_id": 10,
+      "start_frame": 3810,
+      "end_frame": 4191,
+      "planner_score": 0.15,
+      "planner_reason": "This segment continues the pattern of blurry, static, ground-level shots with no discernible action or identifiable subjects. Following two previous segments (7-8) that already established the 'wildlife encounter' angle with actual visible animals, this frame adds no new information—it's simply unfocused vegetation with no movement, no clear subject, and no narrative progression. For a sports-themed paintball video, this extended sequence of ground-level nature shots (segments 6-9) has already significantly diverged from the core athletic content; this particular segment is the least informative of that digression, containing neither the dramatic fall/camera drop of segment 6 nor the identifiable wildlife of segments 7 and 9. It represents dead air in the summary and should be heavily deprioritized.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.05,
+          "reason": "This segment is a static, blurry close-up of ground/foliage with no discernible movement, action, or identifiable subjects. It follows two previous segments that already established the 'fallen camera in foliage' narrative and showed wildlife encounters. This frame adds nothing new to the story progression—it doesn't advance the paintball game action, reveal new information, or move the narrative forward. It appears to be a transitional or accidentally captured moment of inactivity that serves no purpose in advancing either the main paintball game events or the secondary wildlife encounter subplot. The complete stillness and lack of visible content make it essentially a dead moment in the video's narrative flow."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.15,
+          "reason": "This segment is extremely low in visual interest and diversity. It consists of a static, blurry close-up of indistinct ground with out-of-focus grass and no discernible subject, movement, or action. Following the brief wildlife encounters in previous segments, this frame fails to deliver any visual payoff—no animal is visible, no clear textures emerge, and the composition offers nothing striking or memorable. The extreme blur, poor lighting, and complete lack of identifiable content make this segment entirely unremarkable and unsuitable as a highlight."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.05,
+          "reason": "This segment is completely static, blurry, and lacks any discernible movement, action, or identifiable subject. The description explicitly states 'no discernible movement or action occurring' and 'the scene remains completely still.' There is no emotional expression, tension, or sentiment conveyed—just an obscured, unfocused view of ground foliage with no narrative or emotional content. This represents the lowest possible emotional intensity in the video sequence."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "This segment provides minimal new semantic content. It is essentially a continuation of the ground-level, blurry foliage shots seen in segments 7-9, with no discernible subject, movement, or new information. The description closely mirrors segment 8 (static, blurry, close-up of foliage with no discernible movement), making this largely redundant. Unlike segments 7 and 9 which at least contained identifiable wildlife (mouse/vole), this segment appears to show nothing but obscured, out-of-focus vegetation with no identifiable subject or action. The only minor variation is the mention of 'brown and earthy tones' suggesting ground rather than pure green foliage, but this does not constitute meaningful new information in the context of the video's narrative."
+        }
+      },
+      "final_score": 0.25
+    },
+    {
+      "segment_id": 11,
+      "start_frame": 4191,
+      "end_frame": 4572,
+      "planner_score": 0.15,
+      "planner_reason": "This segment is highly redundant with the immediately preceding segments (8, 9, 10), which already established the pattern of blurry, low-light, ground-level foliage shots with no discernible action. The global summary already captures the key narrative element of 'close encounters with small wildlife' and the chaotic ground-level perspective shift. This frame adds no new information, no visible wildlife, no movement, and no progression toward the described ending of 'a player recovering and standing up.' It represents dead air in the narrative flow and would contribute minimally to a concise sports summary focused on game action and dynamic perspective shifts.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.05,
+          "reason": "This segment is a static, blurry, low-light shot with no discernible movement, action, or event occurring. It appears to be a continuation of the ground-level foliage shots from previous segments (8-10), but unlike those which at least contained a small animal (mouse/vole) that loosely connected to the 'fall to the ground' narrative, this frame shows absolutely nothing identifiable. There is no story progression, no paintball game elements, no player recovery, and no meaningful content that advances either the main paintball event or the tangential wildlife encounter subplot. It represents dead time in the narrative with zero informational or progression value."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.15,
+          "reason": "This segment is extremely low in visual appeal and highlight-worthiness. It is a static, blurry, low-light shot with no discernible action, subject, or focal point. The image is dominated by out-of-focus foliage with a dark, indistinct background, offering nothing striking or diverse to capture viewer attention. Compared to previous segments that at least contained identifiable elements (paintball field, wildlife, player movement), this frame provides no meaningful visual information and would likely be considered filler or dead footage in any highlight reel."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.05,
+          "reason": "This segment is extremely static and emotionally inert. The shot is blurry, low-light, completely motionless, with no discernible action, subjects, or events occurring. It follows a pattern of similar low-engagement ground-level foliage shots (segments 8, 10) that contribute nothing to emotional expression, tension, or sentiment. There is no human presence, no narrative development, no dramatic lighting, and no sensory stimulation. The segment fails to evoke any emotional response and represents dead air in the video's emotional arc."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "This segment provides minimal new information. It is nearly identical to previous segments 8 and 10, showing another static, blurry, low-light shot of dense foliage with no discernible movement, action, or identifiable subjects. The scene repeats the established pattern of ground-level, obscured views without adding any new semantic content, narrative progression, or visual clarity. The only variation is the time descriptor ('likely at night'), but this does not meaningfully differentiate it from the already-established aesthetic of dark, unclear undergrowth footage."
+        }
+      },
+      "final_score": 0.25
+    },
+    {
+      "segment_id": 12,
+      "start_frame": 4572,
+      "end_frame": 4953,
+      "planner_score": 0.15,
+      "planner_reason": "This segment continues the low-quality, blurry ground-level footage of grass and potentially hidden wildlife that has dominated segments 7-11. While it maintains the narrative of a player recovering from a fall and observing ground-level details, this particular frame adds minimal new information—it is extremely blurry, low-light, and the potential animal is barely discernible. The sequence of ground-level wildlife shots has become repetitive, with this being the fifth consecutive segment of similar content. The motion blur further reduces clarity. For a sports-themed summary focused on paintball action, this extended ground-level wildlife observation sequence is already overrepresented, and this specific frame contributes least to the core paintball narrative. It should receive low priority in favor of clearer action shots or the recovery moment mentioned in the global summary.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.15,
+          "reason": "This segment continues the low-to-ground, blurry wildlife observation pattern established in previous segments 7-11, showing yet another indistinct small creature in grass. It adds minimal new information to the narrative—merely reiterating the 'player fell and saw wildlife' subplot without advancing the main paintball game story. The extreme blur, static positioning, and lack of discernible action or progression make this largely redundant with prior segments. The main paintball conflict remains completely absent, and this segment doesn't move toward any resolution or transition back to the game."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.15,
+          "reason": "This segment continues the pattern of extremely blurry, low-light, ground-level shots with minimal visual information. The heavy motion blur, poor lighting, and lack of clear subjects make it visually unappealing. While the potential presence of wildlife adds slight interest, the technical quality is too poor to be considered highlight-worthy. This is the fourth consecutive segment with nearly identical visual characteristics (blurry grass, low light, possible small animals), creating severe redundancy and diminishing any novelty value."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "This segment continues the low-ground, blurry perspective from previous segments but with even less discernible content. The extreme motion blur, poor lighting, and lack of clear subject matter create minimal emotional impact. While the context suggests this is part of a chaotic fall or intense movement sequence in a paintball game, the actual visual content fails to convey tension, excitement, or any strong sentiment. The barely visible dark shape offers only a faint hint of curiosity or mystery, but the overwhelming blur and obscurity suppress any emotional engagement. Compared to the dramatic camera plunge in segment 6, this segment feels like a disconnected, disorienting aftermath with no clear narrative or emotional payoff."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "This segment provides minimal new semantic content. It largely repeats information already established in previous segments (7, 9, 10, 11): low-angle, blurry shots of grass/undergrowth with possible small wildlife. The 'small, dark, blurry shape' is not clearly identifiable and adds little beyond what was already shown in segments 7 and 9 (which had clearer, though still blurry, depictions of mice/voles). The motion blur and lack of discernible action further reduce information value. The segment does not advance the narrative or introduce new elements to the paintball game context."
+        }
+      },
+      "final_score": 0.3
+    },
+    {
+      "segment_id": 13,
+      "start_frame": 4953,
+      "end_frame": 5334,
+      "planner_score": 0.15,
+      "planner_reason": "This segment continues the pattern of blurry, low-light, ground-level foliage shots that have dominated segments 7-12. While it maintains thematic continuity with the 'fallen player' narrative established in segment 6, it offers minimal new information—just another indistinct glimpse of possible animal movement in undergrowth. The extreme blur and lack of discernible action make this largely redundant given the multiple similar shots already captured (segments 7, 9 specifically). For a sports-themed summary focused on paintball gameplay, this extended sequence of ground-level nature observations has become repetitive and tangential to the core athletic content. The segment does not advance the story or provide meaningful visual clarity.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.15,
+          "reason": "This segment continues the pattern of blurry, low-light ground-level shots of foliage with minimal discernible content. While it maintains the first-person perspective established in previous segments (suggesting a player is moving through or observing the undergrowth), there is no clear story progression. The 'fleeting, indistinct movement' is too vague to advance either the paintball game narrative or the wildlife observation subplot. The segment appears to be transitional filler—maintaining atmosphere and perspective continuity but contributing little new information to the main events (the paintball match or the wildlife encounters). It neither advances the tactical game situation nor provides clearer resolution to the wildlife glimpses seen in segments 7, 9, and 12."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.15,
+          "reason": "This segment continues the pattern of blurry, low-light, ground-level foliage shots that have dominated the recent segments. While the fleeting movement adds slight dynamism compared to completely static frames, the extreme blur, poor lighting, and lack of discernible subject matter make this visually unremarkable. The 'fleeting, indistinct movement' fails to create a compelling highlight—it's too unclear to register as an interesting wildlife moment or action beat. After multiple similar segments (7-12), this ground-level perspective has become repetitive and visually monotonous rather than striking or diverse."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.15,
+          "reason": "This segment maintains the low emotional intensity of the previous ground-level foliage shots. While there is a 'fleeting, indistinct movement' suggesting a small creature passing through, the description emphasizes blur, low light, and obscured visibility. The momentary movement creates only a slight hint of curiosity or tension, but the overall effect remains muted and unclear. There is no strong emotional expression, dramatic tension, or clear sentiment—just a vague, passing suggestion of life in an otherwise still, shadowy environment. The segment fails to capitalize on the potential for surprise or wonder that encountering wildlife might offer."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.15,
+          "reason": "This segment provides minimal new semantic content. It continues the established pattern of blurry, low-light, ground-level foliage shots that have dominated segments 7-12. The 'fleeting, indistinct movement' is not clearly identifiable and adds little beyond what was already shown in previous segments featuring small animals (mouse/vole in segments 7 and 9). The visual style, setting, and subject matter are highly repetitive, with no new information about the paintball game, environment, or narrative progression. The segment essentially reiterates the 'hidden wildlife in undergrowth' theme without adding clarity, new species, or meaningful action."
+        }
+      },
+      "final_score": 0.3
+    },
+    {
+      "segment_id": 14,
+      "start_frame": 5334,
+      "end_frame": 5715,
+      "planner_score": 0.35,
+      "planner_reason": "This segment represents a transition from the ground-level wildlife observation back to the human/sports context, with the camera tilting up to reveal a player figure against the sky. While this provides narrative closure to the chaotic first-person sequence by showing the player recovering and standing up, the extreme blur and overexposure significantly reduce visual clarity and informational value. The segment serves as a bridge between the unusual wildlife interlude and return to the paintball game, but its poor quality makes it less essential than clearer shots. It contributes to the 'story' of the game experience (falling, observing ground level, recovering) but is redundant given that segment 6 already established the chaotic fall, and the global summary already captures this recovery moment. The segment's primary value is in completing the narrative arc of the first-person perspective sequence.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.35,
+          "reason": "This segment shows a transition from ground-level concealment to a person standing up, which loosely connects to the narrative arc of a player recovering after the chaotic fall/ground sequence. However, the extreme blur and lack of clear visual information make it difficult to interpret as meaningful story progression. The upward tilt and final figure suggest a return to awareness/standing, but this is more of a transitional moment rather than advancing the paintball game narrative. The segment serves as a bridge from the wildlife/ground-level detour back toward player activity, but contributes minimally to the core sports/game progression."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.35,
+          "reason": "This segment attempts a dramatic visual transition from ground-level foliage to skyward view with a human figure, which could be highlight-worthy in concept. However, execution severely undermines its potential: persistent blur throughout, overexposure in the sky shot, and complete lack of focus on the final figure make it visually frustrating rather than striking. The 'hidden to revealed' narrative arc is present but the technical quality fails to deliver impact. Compared to the unusual wildlife encounters in segments 7-13, this is less distinctive despite its attempted dynamism."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.35,
+          "reason": "This segment contains some dynamic camera movement (abrupt tilting upward) and a reveal of a human figure, which introduces mild tension and curiosity. However, the persistent blur throughout, overexposure in the sky shot, and lack of clear emotional cues (facial expressions, dramatic action, or intense audio) significantly dampen the emotional impact. The sequence feels more disorienting than emotionally charged, with the hidden perspective suggesting potential tension that never fully materializes into a strong emotional moment."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.35,
+          "reason": "This segment provides limited new semantic content. The foliage perspective and blurry sky transition have been seen in previous segments (6-13 established the ground-level/foliage perspective). The only potentially new element is the brief glimpse of a human figure from below, suggesting a player recovering or standing up, which connects to the global summary's ending. However, this is extremely blurry and indistinct, providing minimal actual information. The segment largely repeats the established motifs of chaotic, blurry, low-to-the-ground movement without adding substantial new instruction, clear narrative progression, or identifiable content."
+        }
+      },
+      "final_score": 0.7
+    },
+    {
+      "segment_id": 15,
+      "start_frame": 5715,
+      "end_frame": 6096,
+      "planner_score": 0.75,
+      "planner_reason": "This segment is highly important as it provides crucial narrative closure to the chaotic first-person sequence that began in segment 6. After multiple segments (7-13) of disorienting ground-level footage showing wildlife encounters, this segment finally resolves the action by showing the player recovering and standing up. The transition from sky to ground with visible feet and equipment marks the return to normal gameplay perspective, completing the story arc of 'falling/getting down' and 'getting back up.' This resolution is essential for the sports narrative, as it explains what happened to the player and returns the viewer to the paintball game context. The first-person perspective also adds immersive value that complements the earlier wide shots.",
+      "expert_results": {
+        "story_agent": {
+          "agent_name": "story_agent",
+          "score": 0.75,
+          "reason": "This segment marks a significant narrative turning point by returning from the chaotic ground-level wildlife encounters back to the human/sports context. The transition from abstract sky to first-person perspective of someone standing on the field with visible feet and equipment signals recovery and reorientation after the disorienting fall/movement in segment 6. It resolves the tension of the 'lost in foliage' sequence (segments 7-13) and reconnects the viewer to the paintball game context, effectively completing a mini-narrative arc of disorientation and return. While not advancing competitive gameplay action per se, it restores narrative coherence and brings closure to the dramatic perspective shift that began in segment 6."
+        },
+        "visual_agent": {
+          "agent_name": "visual_agent",
+          "score": 0.35,
+          "reason": "This segment transitions from an abstract, overexposed sky shot to a grounded first-person perspective showing feet on grass with equipment visible. While the shift from sky to ground creates some visual interest, the heavy blur throughout reduces clarity and impact. The first-person recovery/standing moment offers a narrative conclusion to the chaotic ground-level sequence, but it's visually mundane compared to the wildlife encounters in previous segments. The composition is functional rather than striking, serving more as a transitional return to normalcy than a highlight-worthy moment."
+        },
+        "emotion_agent": {
+          "agent_name": "emotion_agent",
+          "score": 0.35,
+          "reason": "This segment shows a recovery from disorientation with a first-person perspective of someone standing up, which provides mild relief and reorientation. However, the emotional intensity is low—there's no clear tension, conflict, or strong sentiment expressed. The blurry sky and mundane details of feet and shoes on grass suggest a transitional, calm moment rather than heightened emotion. The abrupt camera movement indicates some physical action, but the overall feeling is neutral and functional (recovering position) rather than emotionally charged."
+        },
+        "information_agent": {
+          "agent_name": "information_agent",
+          "score": 0.75,
+          "reason": "This segment provides significant new information by transitioning from the chaotic ground-level wildlife encounters back to a human perspective, showing the player recovering and standing up. It introduces: (1) a first-person viewpoint of someone actually standing on the field, (2) concrete evidence of human presence with visible feet/shoes, (3) a metal pole/bar suggesting equipment or field infrastructure not previously detailed, and (4) spatial context showing proximity to another person. This resolves the narrative arc from the fall/chaos in segment 6 through the wildlife ground exploration (segments 7-13) to recovery, adding closure and re-establishing the paintball game context. While somewhat blurry, it delivers more semantic content than the repetitive static foliage shots in segments 8-13."
+        }
+      },
+      "final_score": 1.3
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "video_id": "Paintball",
+  "video_theme": "sports",
+  "global_summary": "This video captures a paintball game from multiple perspectives, beginning with wide shots of an outdoor paintball field featuring industrial obstacles, bunkers, and players in red gear moving strategically. The footage then shifts dramatically to ground-level, first-person perspectives showing chaotic movement through grass and foliage, including close encounters with small wildlife like mice or voles hiding in the undergrowth, before ending with a player recovering and standing up on the field.",
+  "expert_weights": {
+    "story_agent": 0.25,
+    "visual_agent": 0.25,
+    "emotion_agent": 0.25,
+    "information_agent": 0.25
+  },
+  "reason": "The video is clearly sports-themed (paintball) with dynamic action sequences requiring action_expert weight for player movements and game tactics. Object_expert is needed for identifying field obstacles, equipment, and wildlife. Scene_expert handles the environmental context (industrial outdoor field, weather conditions). Motion_expert captures the abrupt camera movements, falls, and perspective shifts that characterize the first-person gameplay footage. The unusual inclusion of wildlife footage suggests camera drops or ground-level action during play."
+}
